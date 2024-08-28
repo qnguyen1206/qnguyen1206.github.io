@@ -1,13 +1,15 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
     text-align: center;
+    background-image: url('background.jpg'); /* Path to your background image */
+    background-size: cover;
+    background-position: center;
 }
 
 header {
-    background-color: #333;
+    background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent background */
     color: #fff;
     padding: 10px 0;
 }
@@ -16,14 +18,22 @@ nav a {
     margin: 0 15px;
     color: #fff;
     text-decoration: none;
+    transition: color 0.3s ease; /* Smooth color transition for rollover */
+}
+
+nav a:hover {
+    color: #ff6347; /* Change to a different color on hover (e.g., tomato color) */
 }
 
 section {
     padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
+    margin: 20px;
+    border-radius: 10px;
 }
 
 footer {
-    background-color: #333;
+    background-color: rgba(51, 51, 51, 0.8);
     color: #fff;
     padding: 10px 0;
     position: fixed;
