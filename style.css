@@ -4,7 +4,6 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     display: flex;
-    flex-direction: row;
 }
 
 header {
@@ -74,4 +73,6 @@ footer {
     bottom: 0;
     left: 200px; /* Move to the right of the nav bar */
     z-index: 1000;
-    opacity:
+    opacity: 1;
+    filter: none;
+}
