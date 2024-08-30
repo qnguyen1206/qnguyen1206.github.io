@@ -4,6 +4,7 @@ body {
     padding: 0;
     background-color: #f4f4f4; /* Light grey background */
     display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -22,7 +23,7 @@ header {
 .side-nav {
     background-color: #333; /* Dark grey background */
     color: #ffffff; /* White text */
-    padding-top: 60px; /* Add some space from the top */
+    padding-top: 80px; /* Add space to align with the header */
     width: 200px;
     position: fixed; /* Fixed position on the side */
     height: 100%;
@@ -49,9 +50,10 @@ header {
 }
 
 main {
-    margin-left: 220px; /* Leave space for the side nav */
-    padding: 80px 20px; /* Adjust padding for the header and side nav */
-    width: calc(100% - 220px);
+    margin-left: 200px; /* Leave space for the side nav */
+    padding: 100px 20px 60px 20px; /* Adjust padding for the header and side nav */
+    width: calc(100% - 200px);
+    flex-grow: 1;
 }
 
 section {
@@ -67,10 +69,4 @@ footer {
     color: #ffffff; /* White text */
     padding: 10px 0;
     text-align: center;
-    width: calc(100% - 220px); /* Leave space for the side nav */
-    margin-left: 220px;
-    position: fixed;
-    bottom: 0;
-    opacity: 1;
-    filter: none;
-}
+   
