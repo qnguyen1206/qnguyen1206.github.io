@@ -2,44 +2,43 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #ffffff; /* White background */
     text-align: center;
-    background-image: url('background.jpg'); /* Path to your background image */
-    background-size: cover;
-    background-position: center;
 }
 
 header {
-    background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent background */
-    color: #fff;
-    padding: 10px 0;
-    position: sticky; /* Fix the header to the top */
-    width: 100%; /* Make sure it spans the entire width */
-    top: 0;
-    left: 0;
+    background-color: #007BFF; /* Blue background */
+    color: #ffffff; /* White text */
+    padding: 20px 0;
+    position: sticky; /* Sticky position */
+    top: 0; /* Sticks to the top when scrolling */
     z-index: 1000; /* Ensure it stays on top of other content */
+    width: 100%;
 }
 
 nav a {
     margin: 0 15px;
-    color: #fff;
+    color: #ffffff; /* White text */
     text-decoration: none;
     transition: color 0.3s ease; /* Smooth color transition for rollover */
 }
 
 nav a:hover {
-    color: #ff6347; /* Change to a different color on hover (e.g., tomato color) */
+    color: #00BFFF; /* Light blue color on hover */
 }
 
 section {
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
-    margin: 80px 20px 20px 20px; /* Added top margin to avoid content hiding under the fixed header */
+    padding: 60px 20px;
+    background-color: #f0f8ff; /* Light blue background for sections */
+    margin: 20px auto;
+    width: 80%;
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 footer {
-    background-color: rgba(51, 51, 51, 0.8);
-    color: #fff;
+    background-color: #007BFF; /* Blue background */
+    color: #ffffff; /* White text */
     padding: 10px 0;
     position: fixed;
     width: 100%;
