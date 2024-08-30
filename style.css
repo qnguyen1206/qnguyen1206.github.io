@@ -3,37 +3,61 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4; /* Light grey background */
-    text-align: center;
+    display: flex;
 }
 
 header {
     background-color: #333; /* Dark grey background */
     color: #ffffff; /* White text */
-    padding: 20px 0;
-    position: sticky; /* Sticky position */
-    top: 0; /* Sticks to the top when scrolling */
-    z-index: 1000; /* Ensure it stays on top of other content */
+    padding: 20px;
+    text-align: center;
     width: 100%;
-    opacity: 1; /* Ensure full opacity */
-    filter: none; /* Remove any applied filters that might cause transparency */
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    opacity: 1;
+    filter: none;
 }
 
-nav a {
-    margin: 0 15px;
+.side-nav {
+    background-color: #333; /* Dark grey background */
     color: #ffffff; /* White text */
-    text-decoration: none;
-    transition: color 0.3s ease; /* Smooth color transition for rollover */
+    padding-top: 60px; /* Add some space from the top */
+    width: 200px;
+    position: fixed; /* Fixed position on the side */
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-nav a:hover {
-    color: #ff6347; /* Tomato color on hover */
+.side-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    width: 100%;
+    text-align: left;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease;
+}
+
+.side-nav a:hover {
+    background-color: #575757; /* Slightly lighter grey on hover */
+}
+
+main {
+    margin-left: 220px; /* Leave space for the side nav */
+    padding: 80px 20px; /* Adjust padding for the header and side nav */
+    width: calc(100% - 220px);
 }
 
 section {
-    padding: 60px 20px;
+    padding: 20px;
     background-color: #ffffff; /* White background for sections */
     margin: 20px auto;
-    width: 80%;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -42,9 +66,11 @@ footer {
     background-color: #333; /* Dark grey background */
     color: #ffffff; /* White text */
     padding: 10px 0;
+    text-align: center;
+    width: calc(100% - 220px); /* Leave space for the side nav */
+    margin-left: 220px;
     position: fixed;
-    width: 100%;
     bottom: 0;
-    opacity: 1; /* Ensure full opacity */
-    filter: none; /* Remove any applied filters that might cause transparency */
+    opacity: 1;
+    filter: none;
 }
