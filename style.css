@@ -9,12 +9,12 @@ body {
 header {
     background-color: #333;
     color: #ffffff;
-    padding: 20px;
+    padding: 10px 0; /* Reduced padding for smaller height */
     text-align: center;
-    width: calc(100% - 200px); /* Adjust for side nav width */
+    width: calc(100% - 150px); /* Adjust for narrower side nav */
     position: fixed;
     top: 0;
-    left: 200px; /* Move to the right of the nav bar */
+    left: 150px; /* Move to the right of the narrower nav bar */
     z-index: 1000;
     opacity: 1;
     filter: none;
@@ -23,8 +23,8 @@ header {
 .side-nav {
     background-color: #333;
     color: #ffffff;
-    padding-top: 60px; /* Leave space for header */
-    width: 200px;
+    padding-top: 50px; /* Leave space for the smaller header */
+    width: 150px; /* Reduced width */
     position: fixed;
     height: 100%;
     top: 0;
@@ -38,7 +38,7 @@ header {
 .side-nav a {
     color: #ffffff;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 8px 16px; /* Adjusted padding for narrower nav bar */
     width: 100%;
     text-align: left;
     box-sizing: border-box;
@@ -50,9 +50,9 @@ header {
 }
 
 main {
-    margin-left: 200px; /* Space for side nav */
-    padding: 100px 20px 60px 20px; /* Adjust padding to account for fixed header/footer */
-    width: calc(100% - 200px);
+    margin-left: 150px; /* Space for the narrower side nav */
+    padding: 70px 20px 40px 20px; /* Adjust padding to account for smaller header/footer */
+    width: calc(100% - 150px);
 }
 
 section {
@@ -66,12 +66,12 @@ section {
 footer {
     background-color: #333;
     color: #ffffff;
-    padding: 10px 0;
+    padding: 10px 0; /* Reduced padding for smaller height */
     text-align: center;
-    width: calc(100% - 200px); /* Align with header */
+    width: calc(100% - 150px); /* Align with the smaller header */
     position: fixed;
     bottom: 0;
-    left: 200px; /* Move to the right of the nav bar */
+    left: 150px; /* Move to the right of the narrower nav bar */
     z-index: 1000;
     opacity: 1;
     filter: none;
