@@ -190,8 +190,13 @@ main {
     padding-left: 10px; /* Space for the bullet point */
 }
 
-.project-list ul p::before {
-    content: '•'; /* Unicode character for disc bullet */
+.no-arrow p {
+    position: relative; /* Allows positioning of the pseudo-element */
+    padding-left: 20px; /* Space for the bullet point */
+}
+
+.no-arrow p::before {
+    content: '•';
     position: absolute;
     left: 0; /* Positioning it at the start of the paragraph */
     top: 50%; /* Center the bullet vertically */
@@ -199,6 +204,7 @@ main {
     color: #333; /* Color of the bullet point */
     font-size: 20px; /* Size of the bullet point */
 }
+
 
 .about-me p {
     position: relative; /* Allows positioning of the pseudo-element */
