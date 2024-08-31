@@ -101,8 +101,9 @@ main {
 }
 
 .project img {
-    max-width: 100%;
-    height: auto;
+    width: 100%; /* Make image fill the container width */
+    height: 150px; /* Fixed height for uniform size */
+    object-fit: cover; /* Ensures images cover the area without distortion */
     border-radius: 8px; /* Optional: for rounded corners */
 }
 
