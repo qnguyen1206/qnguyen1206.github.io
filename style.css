@@ -51,7 +51,7 @@ header {
 /* Dropdown content styling */
 .dropdown-content {
     display: none; /* Hidden by default */
-    background-color: #2a473b;
+    background-color: #15e18c;
     position: absolute;
     top: 50px; /* Adjust based on header height */
     left: 0;
@@ -81,6 +81,39 @@ header {
 main {
     padding: 70px 20px 40px 20px;
     width: 100%; /* Full width */
+}
+
+/* Project section styles */
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between items */
+    justify-content: flex-start; /* Align items to the left */
+    margin-top: 20px;
+}
+
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 200px; /* Adjust width as needed */
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional: for rounded corners */
+}
+
+#project-title {
+    font-size: 1.2em; /* Slightly larger font size for titles */
+    margin-top: 10px;
+}
+
+#project-status {
+    font-size: 1em; /* Default font size for status */
+    color: #666; /* Lighter color for status */
 }
 
 /* Section container styling */
