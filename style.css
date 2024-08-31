@@ -8,38 +8,36 @@
 /* Body styling */
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
     background-color: #f4f4f4;
     display: flex;
+    margin: 0;
+    padding: 0;
 }
 
 /* Header styling */
 header {
     background-color: #333;
     color: #ffffff;
-    padding: 5px 0; /* Reduced padding for smaller height */
+    padding: 10px 0;
     text-align: center;
-    width: calc(100% - 75px); /* Adjust for narrower side nav */
+    width: calc(100% - 100px);
     position: fixed;
     top: 0;
-    left: 75px; /* Move to the right of the narrower nav bar */
+    left: 100px;
     z-index: 1000;
-    opacity: 1;
-    filter: none;
 }
 
 /* Side navigation styling */
 .side-nav {
-    background-color: #217d2c;
+    background-color: #2a473b;
     color: #ffffff;
-    padding-top: 25px; /* Adjusted for smaller header height */
-    width: 75px; /* Reduced width */
+    padding-top: 60px;
+    width: 100px;
     position: fixed;
     height: 100%;
     top: 0;
     left: 0;
-    z-index: 999; /* Should be below header, above content */
+    z-index: 999;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -48,7 +46,7 @@ header {
 .side-nav a {
     color: #ffffff;
     text-decoration: none;
-    padding: 8px 12px; /* Adjusted padding for narrower nav bar */
+    padding: 10px 15px;
     width: 100%;
     text-align: left;
     box-sizing: border-box;
@@ -56,54 +54,110 @@ header {
 }
 
 .side-nav a:hover {
-    background-color: #575757;
+    background-color: #4e6e59;
 }
 
 /* Main content styling */
 main {
-    margin-left: 75px; /* Space for the narrower side nav */
-    padding: 50px 20px 40px 20px; /* Adjust padding for smaller header/footer */
-    width: calc(100% - 75px);
+    margin-left: 100px;
+    padding: 70px 20px 40px 20px;
+    width: calc(100% - 100px);
 }
 
-/* Section styling */
-section {
+/* Section container styling */
+.section-container {
+    margin-bottom: 20px;
     padding: 20px;
     background-color: #ffffff;
-    margin: 20px auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-container h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Skills list styling */
+.skills-list {
+    list-style-type: disc; /* Default bullets */
+    padding-left: 20px; /* Space for bullets */
+}
+
+/* Resume link styling */
+.resume-link {
+    color: #2a473b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.resume-link:hover {
+    text-decoration: underline;
+}
+
+/* Projects section styling */
+#projects {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#current-projects, #completed-projects {
+    margin-bottom: 20px;
+}
+
+#current-projects h3, #completed-projects h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Bullet points styling */
+.project-list {
+    list-style-type: none; /* Remove default bullets */
+    padding-left: 0;
+}
+
+.project-list li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.project-list li::before {
+    content: '►'; /* Arrow bullet */
+    position: absolute;
+    left: 0;
+    color: #333; /* Color of the arrow */
 }
 
 /* Footer styling */
 footer {
     background-color: #333;
     color: #ffffff;
-    padding: 5px 0; /* Reduced padding for smaller height */
+    padding: 10px 0;
     text-align: center;
-    width: calc(100% - 75px); /* Align with the smaller header */
+    width: calc(100% - 100px);
     position: fixed;
     bottom: 0;
-    left: 75px; /* Move to the right of the narrower nav bar */
+    left: 100px;
     z-index: 1000;
-    opacity: 1;
-    filter: none;
 }
 
 /* Responsive design */
 @media (max-width: 768px) {
     .side-nav {
-        width: 50px; /* Adjust width for smaller screens */
-        padding-top: 20px; /* Adjust padding for smaller screens */
+        width: 80px;
+        padding-top: 50px;
     }
 
     header, footer {
-        width: 100%; /* Full width on smaller screens */
-        left: 0; /* Align with the viewport */
+        width: 100%;
+        left: 0;
     }
 
     main {
-        margin-left: 0; /* Full width on smaller screens */
+        margin-left: 0;
         width: 100%;
         padding: 20px;
     }
