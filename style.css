@@ -10,6 +10,8 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
 }
@@ -25,6 +27,9 @@ header {
     top: 0;
     left: 100px;
     z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Side navigation styling */
@@ -55,6 +60,7 @@ header {
 
 .side-nav a:hover {
     background-color: #4e6e59;
+    color: #ffffff; /* Ensure text color contrasts with the background */
 }
 
 /* Main content styling */
@@ -82,6 +88,7 @@ main {
 .skills-list {
     list-style-type: disc; /* Default bullets */
     padding-left: 20px; /* Space for bullets */
+    line-height: 1.6; /* Improve readability */
 }
 
 /* Resume link styling */
@@ -116,6 +123,7 @@ main {
 .project-list {
     list-style-type: none; /* Remove default bullets */
     padding-left: 0;
+    line-height: 1.6; /* Improve readability */
 }
 
 .project-list li {
@@ -131,6 +139,97 @@ main {
     color: #333; /* Color of the arrow */
 }
 
+.project-list ul p {
+    position: relative; /* Allows positioning of the pseudo-element */
+    padding-left: 10px; /* Space for the bullet point */
+}
+
+.project-list ul p::before {
+    content: '•'; /* Unicode character for disc bullet */
+    position: absolute;
+    left: 0; /* Positioning it at the start of the paragraph */
+    top: 50%; /* Center the bullet vertically */
+    transform: translateY(-50%); /* Adjust vertical centering */
+    color: #333; /* Color of the bullet point */
+    font-size: 20px; /* Size of the bullet point */
+}
+
+.about-me p {
+    position: relative; /* Allows positioning of the pseudo-element */
+    padding-left: 20px; /* Space for the bullet point */
+}
+
+.about-me p::before {
+    content: '•'; /* Unicode character for disc bullet */
+    position: absolute;
+    left: 0; /* Positioning it at the start of the paragraph */
+    top: 50%; /* Center the bullet vertically */
+    transform: translateY(-50%); /* Adjust vertical centering */
+    color: #333; /* Color of the bullet point */
+    font-size: 20px; /* Size of the bullet point */
+}
+
+/* Section container styling */
+.section-container {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-container h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Skills section styling */
+.skills-category {
+    margin-bottom: 20px;
+}
+
+.skills-category h3 {
+    color: #2a473b;
+    margin-bottom: 10px;
+}
+
+.skills-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+/* Skill bar container */
+.skill-bar-container {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 5px;
+    height: 10px;
+    width: 100px; /* Adjust width to fit your design */
+}
+
+/* Skill bars */
+.skill-bar {
+    height: 100%;
+    border-radius: 5px;
+}
+
+.skill-bar.beginner {
+    width: 33%;
+    background-color: #ff6f61; /* Red for beginner */
+}
+
+.skill-bar.intermediate {
+    width: 66%;
+    background-color: #ffba00; /* Yellow for intermediate */
+}
+
+.skill-bar.advanced {
+    width: 100%;
+    background-color: #4caf50; /* Green for advanced */
+}
+
 /* Footer styling */
 footer {
     background-color: #333;
@@ -142,6 +241,10 @@ footer {
     bottom: 0;
     left: 100px;
     z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto; /* Ensure footer sticks to the bottom if content is short */
 }
 
 /* Responsive design */
