@@ -104,6 +104,39 @@ main {
     line-height: 1.6; /* Improve readability */
 }
 
+/* Skill bar container */
+.skill-bar-container {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 5px;
+    height: 10px; /* Adjust as needed */
+    width: 100px; /* Adjust width to fit your design */
+}
+
+/* Skill bars */
+.skill-bar {
+    height: 100%;
+    border-radius: 5px;
+    transition: width 0.3s ease; /* Smooth transition for skill level changes */
+}
+
+/* Skill bar levels */
+.skill-bar.beginner {
+    width: 33%;
+    background-color: #ff6f61; /* Red for beginner */
+}
+
+.skill-bar.intermediate {
+    width: 66%;
+    background-color: #ffba00; /* Yellow for intermediate */
+}
+
+.skill-bar.advanced {
+    width: 100%;
+    background-color: #4caf50; /* Green for advanced */
+}
+
 /* Resume link styling */
 .resume-link {
     color: #2a473b;
