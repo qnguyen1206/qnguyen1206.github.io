@@ -3,19 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects - My Portfolio</title>
+    <title>Projects</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
+        <button class="dropdown-btn" onclick="toggleDropdown()">
+            <img src="dropdown.png" alt="Menu">
+        </button>
         <h1>My Portfolio</h1>
+        <nav class="dropdown-content">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="projects.html">Projects</a>
+        </nav>
     </header>
-
-    <nav class="side-nav">
-        <a href="index.html">Home</a>
-        <a href="about.html">About Me</a>
-        <a href="projects.html">Projects</a>
-    </nav>
 
     <main>
         <section id="projects">
@@ -25,13 +27,13 @@
                 <h3>Currently Working On</h3>
                 <ul class="project-list">
                     <li>
-                        <p><strong>Infinity</strong> - Individual Project</p> <!--Arrows here-->
+                        <p><strong>Infinity</strong> - Individual Project</p>
                         <ul class="no-arrow">
                             <p>A FPS-RPG multiplayer game using GodotSteam</p>
                         </ul>
                     </li>
                     <li>
-                        <p><strong>Kart: Tech Fill Racing Game</strong> - Group Project</p> <!--Arrows here-->
+                        <p><strong>Kart: Tech Fill Racing Game</strong> - Group Project</p>
                         <ul class="no-arrow">
                             <p>A multiplayer racing game using GodotSteam</p>
                             <p>Developed by CTC group</p>
@@ -44,14 +46,14 @@
                 <h3>Completed Projects</h3>
                 <ul class="project-list">
                     <li>
-                        <p><strong>Gastropoda</strong> - Club Project</p> <!--Arrows here-->
+                        <p><strong>Gastropoda</strong> - Club Project</p>
                         <ul class="no-arrow">
                             <p>A 2D platformer game using Unity Engine</p>
                             <p>GitHub</p>
                         </ul>
                     </li>
                     <li>
-                        <p><strong>What's Yours is Mime</strong> - Club Project</p> <!--Arrows here-->
+                        <p><strong>What's Yours is Mime</strong> - Club Project</p>
                         <ul class="no-arrow">
                             <p>A 2.5D bullet-hell game using Unity Engine</p>
                         </ul>
@@ -64,5 +66,7 @@
     <footer>
         <p>&copy; 2024 My Portfolio. All rights reserved.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

@@ -3,19 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - My Portfolio</title>
+    <title>Home</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
+        <button class="dropdown-btn" onclick="toggleDropdown()">
+            <img src="dropdown.png" alt="Menu">
+        </button>
         <h1>My Portfolio</h1>
+        <nav class="dropdown-content">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="projects.html">Projects</a>
+        </nav>
     </header>
-
-    <nav class="side-nav">
-        <a href="index.html">Home</a>
-        <a href="about.html">About Me</a>
-        <a href="projects.html">Projects</a>
-    </nav>
 
     <main>
         <section id="home">
@@ -26,5 +28,6 @@
     <footer>
         <p>&copy; 2024 My Portfolio. All rights reserved.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
