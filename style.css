@@ -225,18 +225,19 @@ main {
 }
 
 .no-arrow p {
-    position: relative; /* Allows positioning of the pseudo-element */
+    position: relative;
     padding-left: 20px; /* Space for the bullet point */
+    line-height: 1.5; /* Ensure consistent spacing */
 }
 
 .no-arrow p::before {
-    content: '•';
+    content: '•'; /* Unicode character for disc bullet */
     position: absolute;
-    left: 0; /* Positioning it at the start of the paragraph */
-    top: 50%; /* Center the bullet vertically */
-    transform: translateY(-50%); /* Adjust vertical centering */
+    left: 0;
+    top: 0; /* Aligns bullet to the top line */
+    transform: translateY(-50%); /* Adjust this to fine-tune the vertical position */
     color: #333; /* Color of the bullet point */
-    font-size: 20px; /* Size of the bullet point */
+    font-size: 1.2em; /* Adjust size as needed */
 }
 
 
@@ -312,4 +313,9 @@ footer {
     .dropdown-content {
         top: 50px; /* Adjust based on header height */
     }
+
+    .no-arrow p::before {
+        top: 0.50em; /* Fine-tune the position on smaller screens */
+    }
+
 }
