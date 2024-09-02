@@ -255,6 +255,37 @@ main {
     font-size: 20px; /* Size of the bullet point */
 }
 
+.donate-body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f7f7f7;
+}
+.donation-container {
+    text-align: center;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    max-width: 600px;
+    width: 100%;
+}
+.donation-container h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.donation-container p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.donation-container img {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
 /* Footer styling */
 footer {
     background-color: #333;
