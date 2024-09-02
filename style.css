@@ -235,7 +235,7 @@ main {
     position: absolute;
     left: 0;
     top: 0; /* Aligns bullet to the top line */
-    transform: translateY(-50%); /* Adjust this to fine-tune the vertical position */
+    transform: translateY(0); /* Adjust this to fine-tune the vertical position */
     color: #333; /* Color of the bullet point */
     font-size: 1.2em; /* Adjust size as needed */
 }
@@ -315,7 +315,8 @@ footer {
     }
 
     .no-arrow p::before {
-        top: 0.50em; /* Fine-tune the position on smaller screens */
+        top: 0.70em; /* Fine-tune the position on smaller screens */
+        transform: translateY(-50%); /* Adjust this to fine-tune the vertical position */
     }
 
 }
