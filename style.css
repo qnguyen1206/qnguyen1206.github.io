@@ -131,7 +131,7 @@ main {
 .section-container {
     margin-bottom: 20px;
     padding: 20px;
-    background-color: #ec48e9;
+    background-color: #31e1f8;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -190,14 +190,6 @@ main {
 
 .resume-link:hover {
     text-decoration: underline;
-}
-
-/* Projects section styling */
-#projects {
-    padding: 20px;
-    background-color: #46d9e1;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #current-projects, #completed-projects {
