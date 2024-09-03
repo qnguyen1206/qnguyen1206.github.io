@@ -339,8 +339,10 @@ footer {
         transition: transform 0.3s ease;
     }
 
-    .main-shift {
-        margin-left: 200; /* Reset margin on mobile */
+    /* Show dropdown content when button is clicked */
+    .show {
+        width: 100%;
+        transform: translateX(0); /* Slide in the dropdown */
     }
 
     .no-arrow p::before {
