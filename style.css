@@ -8,7 +8,7 @@
 /* Body styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -18,7 +18,7 @@ body {
 
 /* Header styling */
 header {
-    background-color: #333;
+    background-color: #3f37da;
     color: white;
     padding: 10px;
     text-align: center;
@@ -26,11 +26,11 @@ header {
     width: 100%;
     top: 0;
     left: 0;
-    z-index: 1001;
+    z-index: 1001; /* Higher than dropdown */
     display: flex;
-    justify-content: center; /* Center header text */
-    align-items: center; /* Center vertically */
-    gap: 20px; /* Space between dropdown button and header text */
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 /* Dropdown button styling */
@@ -50,14 +50,20 @@ header {
 
 /* Dropdown content styling */
 .dropdown-content {
-    display: none; /* Hidden by default */
+    display: flex;
+    flex-direction: column;
     background-color: #15e18c;
     position: absolute;
-    top: 50px; /* Adjust based on header height */
+    top: 100%; /* Adjust based on header height */
     left: 0;
-    width: 100%;
+    width: 200px; /* Adjust width as needed */
+    height: calc(100vh - 90px); /* Fit between header and footer */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    z-index: 1002; /* Ensure it appears above other content */
+    z-index: 1000; /* Lower than header and footer, higher than main content */
+    overflow-y: auto; /* Enable scrolling if content overflows */
+    transform: translateX(-250px); /* Initially hidden off-screen */
+    transition: transform 0.3s ease;
+
 }
 
 .dropdown-content a {
@@ -74,13 +80,18 @@ header {
 
 /* Show dropdown content when button is clicked */
 .show {
-    display: block;
+    transform: translateX(0); /* Slide in the dropdown */
 }
 
 /* Main content styling */
 main {
     padding: 70px 20px 40px 20px;
     width: 100%; /* Full width */
+}
+
+/* Adjust main content when dropdown is visible */
+.main-shift {
+    margin-left: 0px; /* Shift content to the right by the width of the dropdown */
 }
 
 /* Project section styles */
@@ -92,11 +103,10 @@ main {
     margin-top: 20px;
 }
 
-
 .project {
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: flex-start; /* Align items to the left */
     width: 200px; /* Adjust width as needed */
 }
 
@@ -107,12 +117,12 @@ main {
     border-radius: 8px; /* Optional: for rounded corners */
 }
 
-#project-title {
+.project-title {
     font-size: 1.2em; /* Slightly larger font size for titles */
     margin-top: 10px;
 }
 
-#project-status {
+.project-status {
     font-size: 1em; /* Default font size for status */
     color: #666; /* Lighter color for status */
 }
@@ -121,7 +131,7 @@ main {
 .section-container {
     margin-bottom: 20px;
     padding: 20px;
-    background-color: #ffffff;
+    background-color: #ec48e9;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -185,7 +195,7 @@ main {
 /* Projects section styling */
 #projects {
     padding: 20px;
-    background-color: #ffffff;
+    background-color: #46d9e1;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -240,7 +250,6 @@ main {
     font-size: 1.2em; /* Adjust size as needed */
 }
 
-
 .about-me p {
     position: relative; /* Allows positioning of the pseudo-element */
     padding-left: 20px; /* Space for the bullet point */
@@ -265,6 +274,7 @@ main {
     margin: 0;
     background-color: #f7f7f7;
 }
+
 .donation-container {
     text-align: center;
     padding: 40px;
@@ -274,14 +284,17 @@ main {
     max-width: 600px;
     width: 100%;
 }
+
 .donation-container h1 {
     font-size: 30px;
     margin-bottom: 25px;
 }
+
 .donation-container p {
     font-size: 20px;
     margin-bottom: 30px;
 }
+
 .donation-container img {
     max-width: 150px;
     margin-bottom: 20px;
@@ -289,7 +302,7 @@ main {
 
 /* Footer styling */
 footer {
-    background-color: #333;
+    background-color: #3f37da;
     color: #ffffff;
     padding: 10px 0;
     text-align: center;
@@ -297,11 +310,10 @@ footer {
     position: fixed;
     bottom: 0;
     left: 0;
-    z-index: 1000;
+    z-index: 1001; /* Higher than dropdown */
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: auto; /* Ensure footer sticks to the bottom if content is short */
 }
 
 /* Responsive Styles */
@@ -310,13 +322,30 @@ footer {
         display: block; /* Show dropdown button on smaller screens */
     }
 
+    /* Adjust styles for mobile devices */
     .dropdown-content {
-        top: 50px; /* Adjust based on header height */
+        display: flex;
+        flex-direction: column;
+        background-color: #15e18c;
+        position: absolute;
+        top: 100%; /* Adjust based on header height */
+        left: 0;
+        width: 200px; /* Adjust width as needed */
+        height: calc(100vh - 90px); /* Fit between header and footer */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        z-index: 1000; /* Lower than header and footer, higher than main content */
+        overflow-y: auto; /* Enable scrolling if content overflows */
+        transform: translateX(-200px); /* Initially hidden off-screen */
+        transition: transform 0.3s ease;
+    }
+
+    .main-shift {
+        margin-left: 200; /* Reset margin on mobile */
     }
 
     .no-arrow p::before {
         top: 0.70em; /* Fine-tune the position on smaller screens */
         transform: translateY(-50%); /* Adjust this to fine-tune the vertical position */
     }
-
+    
 }

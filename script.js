@@ -1,7 +1,9 @@
-// Function to toggle the dropdown menu visibility
 function toggleDropdown() {
-    const dropdownContent = document.querySelector('.dropdown-content');
-    dropdownContent.classList.toggle('show');
+    const dropdown = document.querySelector('.dropdown-content');
+    const main = document.querySelector('main');
+
+    dropdown.classList.toggle('show');
+    main.classList.toggle('main-shift');
 }
 
 // Close the dropdown menu if the user clicks outside of it
