@@ -8,7 +8,7 @@
 /* Body styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #bbbbd5;
+    background-color: #e0f7fa;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -18,7 +18,7 @@ body {
 
 /* Header styling */
 header {
-    background-color: #716bea;
+    background-color: #01579b;
     color: white;
     padding: 10px;
     text-align: center;
@@ -52,7 +52,7 @@ header {
 .dropdown-content {
     display: flex;
     flex-direction: column;
-    background-color: #15e18c;
+    background-color: #0288d1;
     position: absolute;
     top: 100%; /* Adjust based on header height */
     left: 0;
@@ -131,7 +131,7 @@ main {
 .section-container {
     margin-bottom: 20px;
     padding: 20px;
-    background-color: #81d8e3;
+    background-color: #b3e5fc;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -294,7 +294,7 @@ main {
 
 /* Footer styling */
 footer {
-    background-color: #716bea;
+    background-color: #01579b;
     color: #ffffff;
     padding: 10px 0;
     text-align: center;
@@ -318,7 +318,7 @@ footer {
     .dropdown-content {
         display: flex;
         flex-direction: column;
-        background-color: #15e18c;
+        background-color: #0288d1;
         position: absolute;
         top: 100%; /* Adjust based on header height */
         left: 0;
