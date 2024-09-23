@@ -3,58 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+    <title>Skills</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <button class="dropdown-btn" onclick="toggleDropdown()">
-            <img src="dropdownIcon.png" alt="Menu">
-        </button>
-        <a href="index.html"><h1>My Portfolio</h1></a>
-        <nav class="dropdown-content">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="projects.html">Projects</a>
-            <a href="mini_projects.html">Mini-Projects</a>
-            <a href="contact.html">Contact</a>
+        <nav>
+            <a href="game.html" id="level-back-to-main">
+                <img src="back_arrow.png" id="level-back-to-main-arrow">
+            </a>
         </nav>
     </header>
 
-    <main>
-        <div class="section-container">
-            <section id="about">
-                <h2>About Me</h2>
-                <ul class="about-me">
-                    <p>3rd year student at Georgia Institute of Technology</p>
-                    <p>Major in Computational Media, concentrated in Game Design and Intelligence</p>
-                </ul>
-                <!--<p>Free time activities: playing and/or creating games, listening to music, reading comics</p>
-                <p>Side quests acitivities: stocks, hacking</p>-->
-            </section>
-        </div>
-
-        <div class="section-container">
-            <section id="education">
-                <h2>Education</h2>
-                <ul class="about-me"></ul>
-                    <p><b>Georgia Institute of Technology</b>   June 2023 - Present</p>
-                    <p> - Pursuing BS degree in Computational Media, concentrated in Game Design and Intelligence</p>
-                </ul><br>
-                <ul class="about-me"></ul>
-                    <p><b>Georgia State University</b>  June 2022 - June 2023</p>
-                    <p> - Pursuing BS degree in Computational Science</p>
-                </ul><br>
-                <ul class="about-me"></ul>
-                    <p><b>McIntosh High School</b>  October 2018 - May 2022</p>
-                    <p> - High School Diploma</p>
-                </ul>
-            </section>
-        </div>
-
+    <section class="level-detail">
+        <h2>Skills</h2>
+        <p>Here are some of the skills I've mastered:</p>
         <div class="section-container">
             <section id="skills">
-                <h2>Skills</h2>
                 <div class="skills-category">
                     <h3>Programming</h3>
                     <ul class="skills-list">
@@ -99,14 +64,21 @@
                             </div>
                         </li>
                         <li>
-                            GDscript - Game Engine specific language (Advanced)
+                            GDscript - Godot game engine language (Advanced)
                             <div class="skill-bar-container">
                                 <div class="skill-bar advanced"></div>
                             </div>
                         </li>
                     </ul>
-                </div><br>
+                </div>
+                <button onclick="collect_skill_1()" id="button-skill-1" disabled>
+                    <img src="chestIcon.png" id="skill-1" class="chest-icon">
+                </button>
+            </section>
+        </div>
 
+        <div class="section-container">
+            <section id="skills">
                 <div class="skills-category">
                     <h3>Languages</h3>
                     <ul class="skills-list">
@@ -131,8 +103,15 @@
                             </div>
                         </li>
                     </ul>
-                </div><br>
+                </div>
+                <button onclick="collect_skill_2()" id="button-skill-2" disabled>
+                    <img src="chestIcon.png" id="skill-2" class="chest-icon">
+                </button>
+            </section>
+        </div>
 
+        <div class="section-container">
+            <section id="skills">
                 <div class="skills-category">
                     <h3>Concepts</h3>
                     <ul class="skills-list">
@@ -197,9 +176,15 @@
                             </div>
                         </li>
                     </ul>
-                </div><br>
-                
-
+                </div>
+                <button onclick="collect_skill_3()" id="button-skill-3" disabled>
+                    <img src="chestIcon.png" id="skill-3" class="chest-icon">
+                </button>
+            </section>
+        </div>  
+        
+        <div class="section-container">
+            <section id="skills">
                 <div class="skills-category">
                     <h3>Platforms/Tools</h3>
                     <ul class="skills-list">
@@ -249,8 +234,15 @@
                             </div>
                         </li>
                     </ul>
-                </div><br>
+                </div>
+                <button onclick="collect_skill_4()" id="button-skill-4" disabled>
+                    <img src="chestIcon.png" id="skill-4" class="chest-icon">
+                </button>
+            </section>
+        </div>
 
+        <div class="section-container">
+            <section id="skills">
                 <div class="skills-category">
                     <h3>Others</h3>
                     <ul class="skills-list">
@@ -271,14 +263,13 @@
                         </li>
                     </ul>
                 </div>
-
+                <button onclick="collect_skill_5()" id="button-skill-5" disabled>
+                    <img src="chestIcon.png" id="skill-5" class="chest-icon">
+                </button>
             </section>
         </div>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
-    </footer>
+    </section>
     <script src="script.js"></script>
+    <script src="skills.js"></script>
 </body>
 </html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="game.html" id="level-back-to-main">
+                <img src="back_arrow.png" id="level-back-to-main-arrow">
+            </a>
+        </nav>
+    </header>
+    
+
+    <section class="education-level-detail">
+        <h2>Education</h2>
+        <p>Here's more detailed information about my educational background:</p>
+        <div class="styled-divider"></div>
+        <ul>
+            <li><strong>Georgia Institute of Technology</strong> - Bachelor of Science in Computational Media</li>
+            <li><strong>Concentration:</strong> Game Design and Intelligence</li>
+            <li>June 2023 - Present</li>
+            <li><strong>Courses:</strong> Data Structures & Algorithms, Computer Organization, Objects & Designs</li>
+            <li><strong>Activities:</strong> VGDev, GreyHat Hacking, Chess Club, Go Chess Club</li>
+        </ul>
+        <button onclick="collect_edu_1()" id="button-edu-1" disabled>
+            <img src="chestIcon.png" id="education-1" class="chest-icon">
+        </button>
+        <div class="styled-divider"></div>
+        <ul>
+            <li><strong>Georgia State University</strong> - Bachelor of Science in Computational Science</li>
+            <li>June 2022 - June 2023</li>
+            <li><strong>Courses:</strong> Linear Algebra, Multivariable Calculus</li>
+            <li><strong>Activities:</strong> PantherDev</li>
+        </ul>
+        <button onclick="collect_edu_2()" id="button-edu-2" disabled>
+            <img src="chestIcon.png" id="education-2" class="chest-icon">
+        </button>
+    </section>
+    <script src="script.js"></script>
+    <script src="education.js"></script>
+</body>
+</html>

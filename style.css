@@ -1,152 +1,247 @@
-/* General reset and box-sizing */
+/* General Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
 }
 
-/* Body styling */
+/* Body */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #e0f7fa;
+    background-color: #0e1b34;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.6;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+/* Start Screen */
+.start-screen {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-}
-
-/* Header styling */
-header {
-    background-color: #01579b;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1001; /* Higher than dropdown */
-    display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    height: 100vh;
+    background-color: #1a2e47;
+    text-align: center;
 }
 
-/* Dropdown button styling */
-.dropdown-btn {
-    background: none; /* Remove default button styling */
+.start-screen h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #f0f5fa;
+}
+
+.start-btn,
+.continue-btn,
+.restart-btn {
+    background-color: #5ac8fa;
+    color: #fff;
+    padding: 15px 30px;
     border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
     cursor: pointer;
-    padding: 0; /* Remove default padding */
-    position: absolute; /* Position button at the top left */
-    left: 10px; /* Adjust as needed */
+    transition: background-color 0.3s ease;
+    margin: 10px 0; /* Adds space between the buttons */
 }
 
-.dropdown-btn img {
-    height: 30px; /* Adjust size as needed */
-    width: auto;
+.start-btn:hover,
+.continue-btn:hover,
+.restart-btn:hover {
+    background-color: #4da8d6;
 }
 
-/* Dropdown content styling */
-.dropdown-content {
-    display: flex;
-    flex-direction: column;
-    background-color: #0288d1;
-    position: absolute;
-    top: 100%; /* Adjust based on header height */
-    left: 0;
-    width: 200px; /* Adjust width as needed */
-    height: calc(100vh - 90px); /* Fit between header and footer */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    z-index: 1000; /* Lower than header and footer, higher than main content */
-    overflow-y: auto; /* Enable scrolling if content overflows */
-    transform: translateX(-250px); /* Initially hidden off-screen */
-    transition: transform 0.3s ease;
-
+.continue-btn {
+    background-color: #5ac8fa;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: not-allowed; /* Change cursor to indicate it's disabled */
+    margin: 10px 0; /* Adds space between the buttons */
+    opacity: 0.5; /* Make it look disabled */
 }
 
-.dropdown-content a {
-    color: #ffffff;
-    text-decoration: none;
+.restart-btn:hover {
+    background-color: #d94e48;
+}
+
+#game-nav .restart-btn {
+    background-color: #ff5e57;
+    padding: 10px 20px;
+    margin-left: 15px; /* Space between nav links and the restart button */
+}
+
+/* Game Wrapper */
+#game-wrapper {
     display: block;
-    padding: 10px 15px;
-    box-sizing: border-box;
+    padding: 20px;
 }
 
-.dropdown-content a:hover {
-    background-color: #015a89;
-}
-
-/* Show dropdown content when button is clicked */
-.show {
-    transform: translateX(0); /* Slide in the dropdown */
-}
-
-/* Main content styling */
-main {
-    padding: 70px 20px 40px 20px;
-    width: 100%; /* Full width */
-}
-
-/* Adjust main content when dropdown is visible */
-.main-shift {
-    margin-left: 0px; /* Shift content to the right by the width of the dropdown */
-}
-
-/* Project section styles */
-.projects {
+/* Navigation */
+#game-nav {
+    background-color: #112a45;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px; /* Space between items */
-    justify-content: flex-start; /* Align items to the left */
-    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.project {
+#game-nav .nav-links {
+    list-style: none;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start; /* Align items to the left */
-    width: 200px; /* Adjust width as needed */
+    justify-content: center;
+    margin-left: 33vw;
 }
 
-.project img {
-    width: 100%; /* Make image fill the container width */
-    height: 150px; /* Fixed height for uniform size */
-    object-fit: cover; /* Ensures images cover the area without distortion */
-    border-radius: 8px; /* Optional: for rounded corners */
+#game-nav .nav-links li {
+    margin: 20px 15px;
 }
 
-.project-title {
-    font-size: 1.2em; /* Slightly larger font size for titles */
+#game-nav .nav-links li a {
+    color: #f0f5fa;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+#game-nav .nav-links li a:hover {
+    color: #5ac8fa;
+}
+
+.nav-toggle {
+    background: none;
+    border: none;
+    color: #f0f5fa;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none; /* Hide by default */
+}
+
+/* Show nav links on mobile when toggle is active */
+.nav-active {
+    display: flex; /* Show links */
+    flex-direction: column; /* Stack vertically */
+    align-items: center; /* Center align items */
+}
+
+/* Levels */
+.level {
+    padding: 60px 20px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.level h2 {
+    font-size: 2.5rem;
+    color: #5ac8fa;
+}
+
+.level p {
+    font-size: 1.2rem;
+    color: #dce7f0;
+    margin-bottom: 20px; /* Adds space between the description and the button */
+}
+
+/* Level Buttons */
+.level-btn {
+    background-color: #5ac8fa;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px; /* Adds space between the button and other elements */
+}
+
+.level-btn:hover {
+    background-color: #4da8d6;
+}
+
+.chest-icon {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+/* Education Section */
+.styled-divider {
+    height: 4px; /* Thickness of the divider */
+    background-color: #5ac8fa; /* Color of the divider */
+    margin: 20px 0; /* Spacing around the divider */
+    border-radius: 2px; /* Rounded edges (optional) */
+}
+
+.education-level-detail {
+    margin: 60px auto;
+    padding: 20px;
+    background-color: #007acc; /* Darker blue for better contrast */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.education-level-detail h2 {
+    color: #ffffff; /* White for better readability */
+}
+
+.education-level-detail p {
+    color: #dce7f0; /* Lighter text for description */
+    margin-bottom: 20px;
+}
+
+.education-level-detail ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    color: #ffffff; /* White text for the list */
+    margin-bottom: 40px; /* Space between the college entries */
+}
+
+.education-level-detail ul:last-of-type {
+    margin-bottom: 0; /* Remove margin from the last ul */
+}
+
+.education-level-detail ul li {
+    margin: 10px 0; /* Space between items */
+}
+
+nav #level-back-to-main #level-back-to-main-arrow {
     margin-top: 10px;
+    margin-left: 10px;
 }
 
-.project-status {
-    font-size: 1em; /* Default font size for status */
-    color: #666; /* Lighter color for status */
-}
-
-/* Section container styling */
+/* Skills section */
 .section-container {
     margin: auto;
     margin-bottom: 20px;
     padding: 20px;
-    background-color: #b3e5fc;
+    background-color: #007acc; /* Darker blue for better contrast */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .section-container h2 {
     margin-bottom: 10px;
-    color: #333;
+    color: #ffffff; /* White for better readability */
 }
 
 /* Skills list styling */
 .skills-list {
-    list-style-type: disc; /* Default bullets */
-    padding-left: 20px; /* Space for bullets */
-    line-height: 1.6; /* Improve readability */
+    list-style-type: disc;
+    padding-left: 20px;
+    line-height: 1.6;
+    color: #ffffff; /* White text */
 }
 
 /* Skill bar container */
@@ -155,15 +250,15 @@ main {
     border-radius: 5px;
     overflow: hidden;
     margin-top: 5px;
-    height: 10px; /* Adjust as needed */
-    width: 100px; /* Adjust width to fit your design */
+    height: 10px;
+    width: 10%; /* Full width for better responsiveness */
 }
 
 /* Skill bars */
 .skill-bar {
     height: 100%;
     border-radius: 5px;
-    transition: width 0.3s ease; /* Smooth transition for skill level changes */
+    transition: width 0.3s ease;
 }
 
 /* Skill bar levels */
@@ -182,165 +277,79 @@ main {
     background-color: #4caf50; /* Green for advanced */
 }
 
-/* Resume link styling */
-.resume-link {
-    color: #2a473b;
-    text-decoration: none;
-    font-weight: bold;
+.project-icon {
+    width: 60px; /* Consistent icon size */
+    height: 60px; /* Maintain aspect ratio */
+    margin-right: 10px; /* Space between icon and text */
+    vertical-align: middle; /* Align with text */
+    border-radius: 5px; /* Rounded corners for aesthetics */
+    transition: transform 0.3s ease; /* Add hover effect */
 }
 
-.resume-link:hover {
-    text-decoration: underline;
-}
-
-#current-projects, #completed-projects {
+.skills-category {
     margin-bottom: 20px;
 }
 
-#current-projects h3, #completed-projects h3 {
-    margin-bottom: 10px;
-    color: #333;
+.project-icon:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
 }
 
-/* Bullet points styling */
-.project-list {
-    list-style-type: none; /* Remove default bullets */
-    padding-left: 0;
-    line-height: 1.6; /* Improve readability */
+.project-level-detail #projects-li {
+    padding: 10px; /* Adds space around each item */
+    transition: background-color 0.3s;
 }
 
-.project-list li {
-    position: relative;
-    padding-left: 20px;
-    margin-bottom: 10px;
+.project-level-detail #projects-li:hover {
+    background-color: rgba(90, 202, 250, 0.2); /* Light background on hover */
 }
 
-.project-list li::before {
-    content: '►'; /* Arrow bullet */
-    position: absolute;
-    left: 0;
-    color: #333; /* Color of the arrow */
-}
-
-.project-list ul p {
-    position: relative; /* Allows positioning of the pseudo-element */
-    padding-left: 10px; /* Space for the bullet point */
-}
-
-.no-arrow p {
-    position: relative;
-    padding-left: 20px; /* Space for the bullet point */
-    line-height: 1.5; /* Ensure consistent spacing */
-}
-
-.no-arrow p::before {
-    content: '•'; /* Unicode character for disc bullet */
-    position: absolute;
-    left: 0;
-    top: 0; /* Aligns bullet to the top line */
-    transform: translateY(0); /* Adjust this to fine-tune the vertical position */
-    color: #333; /* Color of the bullet point */
-    font-size: 1.2em; /* Adjust size as needed */
-}
-
-.about-me p {
-    position: relative; /* Allows positioning of the pseudo-element */
-    padding-left: 20px; /* Space for the bullet point */
-}
-
-.about-me p::before {
-    content: '•'; /* Unicode character for disc bullet */
-    position: absolute;
-    left: 0; /* Positioning it at the start of the paragraph */
-    top: 50%; /* Center the bullet vertically */
-    transform: translateY(-50%); /* Adjust vertical centering */
-    color: #333; /* Color of the bullet point */
-    font-size: 20px; /* Size of the bullet point */
-}
-
-.donate-body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f7f7f7;
-}
-
-.donation-container {
-    text-align: center;
-    padding: 40px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-    max-width: 600px;
-    width: 100%;
-}
-
-.donation-container h1 {
-    font-size: 30px;
-    margin-bottom: 25px;
-}
-
-.donation-container p {
-    font-size: 20px;
-    margin-bottom: 30px;
-}
-
-.donation-container img {
-    max-width: 150px;
-    margin-bottom: 20px;
-}
-
-/* Footer styling */
-footer {
-    background-color: #01579b;
-    color: #ffffff;
-    padding: 10px 0;
-    text-align: center;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    z-index: 1001; /* Higher than dropdown */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* Responsive Styles */
-@media (max-width: 768px) {
-    .dropdown-btn {
-        display: block; /* Show dropdown button on smaller screens */
+/* Responsive */
+@media only screen and (max-width: 768px) {
+    #game-nav .nav-links {
+        display: none; /* Hide links by default */
     }
 
-    /* Adjust styles for mobile devices */
-    .dropdown-content {
-        display: flex;
-        flex-direction: column;
-        background-color: #0288d1;
-        position: absolute;
-        top: 100%; /* Adjust based on header height */
-        left: 0;
-        width: 200px; /* Adjust width as needed */
-        height: calc(100vh - 90px); /* Fit between header and footer */
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        z-index: 1000; /* Lower than header and footer, higher than main content */
-        overflow-y: auto; /* Enable scrolling if content overflows */
-        transform: translateX(-200px); /* Initially hidden off-screen */
-        transition: transform 0.3s ease;
+    #game-nav .nav-toggle {
+        display: block; /* Show toggle button on mobile */
     }
 
-    /* Show dropdown content when button is clicked */
-    .show {
-        width: 100%;
-        transform: translateX(0); /* Slide in the dropdown */
+    #game-nav .nav-active {
+        display: flex; /* Show links when active */
     }
 
-    .no-arrow p::before {
-        top: 0.70em; /* Fine-tune the position on smaller screens */
-        transform: translateY(-50%); /* Adjust this to fine-tune the vertical position */
+    .level {
+        padding: 40px 10px;
     }
-    
+
+    .start-screen h1 {
+        font-size: 2.5rem;
+    }
+
+    .start-btn {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+
+    /* Adjust the skill bar width on smaller screens */
+    .skill-bar-container {
+        width: 80%;
+    }
+
+    #game-nav {
+        flex-direction: column; /* Stack items vertically on mobile */
+        align-items: flex-start; /* Align items to the left */
+    }
+
+    #game-nav .restart-btn {
+        margin-top: 10px; /* Space from nav links */
+        width: 100%; /* Full width for the button */
+    }
+
+    .nav-links {
+        display: none; /* Hide nav links initially on mobile */
+    }
+
+    .nav-links.nav-active {
+        display: block; /* Show nav links when active */
+    }
 }

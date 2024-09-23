@@ -8,68 +8,39 @@
 </head>
 <body>
     <header>
-        <button class="dropdown-btn" onclick="toggleDropdown()">
-            <img src="dropdownIcon.png" alt="Menu">
-        </button>
-        <a href="index.html"><h1>My Portfolio</h1></a>
-        <nav class="dropdown-content">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="projects.html">Projects</a>
-            <a href="mini_projects.html">Mini-Projects</a>
-            <a href="contact.html">Contact</a>
+        <nav>
+            <a href="game.html" id="level-back-to-main">
+                <img src="back_arrow.png" id="level-back-to-main-arrow">
+            </a>
         </nav>
     </header>
 
-    <main>
-        <h2>Projects</h2><br>
-        <h3>These are big projects where I either work in groups or individually.</h3><br>
-        <section id="current-projects" class="section-container">
-            <h3>Currently Working On</h3>
-            <ul class="project-list">
-                <li>
-                    <p><strong>InQnity: Mythical Hunt</strong> - Individual Project</p>
-                    <ul class="no-arrow">
-                        <p>A FPS-RPG multiplayer game using GodotSteam</p>
-                    </ul>
-                </li>
-                <li>
-                    <p><strong>Kart: Tech Fill Racing Game</strong> - Group Project</p>
-                    <ul class="no-arrow">
-                        <p>A multiplayer racing game using GodotSteam</p>
-                        <p>Developed by CTC group</p>
-                    </ul>
-                </li>
-            </ul>
-        </section>
-
-        <section id="completed-projects" class="section-container">
-            <h3>Completed Projects</h3>
-            <ul class="project-list">
-                <li>
-                    <p><strong>Gastropoda</strong> - Club Project</p>
-                    <ul class="no-arrow">
-                        <p>A 2D platformer game using Unity Engine</p>
-                        <p><a href="https://github.com/Kairu1206/gastropoda" target="_blank">GitHub</a></p>
-                        <p><a href="https://jhaboon.itch.io/gastropoda-v115" target="_blank">Itch.io</a></p>
-                    </ul>
-                </li>
-                <li>
-                    <p><strong>What's Yours is Mime</strong> - Club Project</p>
-                    <ul class="no-arrow">
-                        <p>A 2.5D bullet-hell game using Unity Engine</p>
-                        <p><a href="https://github.com/Kairu1206/WYiM" target="_blank">GitHub</a></p>
-                        <p><a href="https://jhaboon.itch.io/wyim" target="_blank">Itch.io</a></p>
-                    </ul>
-                </li>
-            </ul>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
-    </footer>
-
-    <script src="script.js"></script>
+    <section class="project-level-detail">
+        <h2>Projects</h2>
+        <p>Here are some of the projects I've worked on:</p>
+        <ul>
+            <li id="projects-li">
+                <img src="KartIcon60x60.png" alt="Kart Icon" class="project-icon">
+                <strong>Racing Game</strong>: A racing game where cars and techology meet, designed using Godot and Steamworks.
+            </li>
+            <li id="projects-li">
+                <img src="InQnityIcon60x60.png" alt="InQnity Icon" class="project-icon">
+                <strong>Co-op RPG FPS Game</strong>: A co-op game built with Godot and integrated multiplayer functionality.
+            </li>
+            <li id="projects-li">
+                <img src="WYiMIcon60x60.png" alt="WYiM Icon" class="project-icon">
+                <strong>Bullet-hell Game</strong>: A 2.5D bullet-hell style game designed using Unity, featuring various levels and obstacles.
+            </li>
+            <li id="projects-li">
+                <img src="GastropodaIcon60x60.png" alt="Gastropoda Icon" class="project-icon">
+                <strong>Platformer Game</strong>: A simple 2D platformer game built with Unity.
+            </li>
+            <li id="projects-li">
+                <img src="ndaAppIcon.png" alt="NDA App Icon" class="project-icon">
+                <strong>Customer Service App</strong>: A customer service app using C#, PHP and MySQL, providing connection between customers and company services.
+            </li>
+        </ul>
+    </section>
+    
 </body>
 </html>

@@ -3,66 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Welcome to my portfolio showcasing my projects and skills.">
-    <meta name="keywords" content="portfolio, web development, game design, projects">
-    <title>Home</title>
+    <title>Main Menu</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <button class="dropdown-btn" onclick="toggleDropdown()" aria-expanded="false">
-            <img src="dropdownIcon.png" alt="Menu">
-        </button>
-        <a href="index.html"><h1>My Portfolio</h1></a>
-        <nav class="dropdown-content">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="projects.html">Projects</a>
-            <a href="mini_projects.html">Mini-Projects</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
+    <!-- Start Screen -->
+    <div class="start-screen">
+        <h1> A GAME-INSPIRED PORTFOLIO</h1>
+        <button class="start-btn" onclick="startGame()">Start</button>
+        <button class="continue-btn" onclick="continueGame()" disabled>Continue</button>
+    </div>
 
-    <main>
-        <section id="home">
-            <h2>Hi! My name is Quang Nguyen and Welcome to My Portfolio!</h2>
-        </section><br>
-
-        <section>
-            <h2>Use one of the links below to change pages:</h2><br>
-            <h3><a href="about.html">About Me</a></h3>
-            <h3><a href="projects.html">Projects</a></h3>
-            <h3><a href="mini_projects.html">Mini-Projects</a></h3>
-        </section><br>
-
-        <h2>Or check out one of some of the projects that I had and currently work on:</h2><br>
-        <section class="projects">
-            <a href="projects.html" class="project">
-                <img src="GastropodaIcon.png" alt="Gastropoda">
-                <span class="project-title">Gastropoda</span>
-                <span class="project-status">(Completed)</span>
-            </a>
-            <a href="projects.html" class="project">
-                <img src="WYiMIcon.png" alt="What's Yours is Mime">
-                <span class="project-title">What's Yours is Mime</span>
-                <span class="project-status">(Completed)</span>
-            </a>
-            <a href="projects.html" class="project">
-                <img src="KartIcon.png" alt="Kart: The Tech Filled Racing Game">
-                <span class="project-title">Kart: The Tech Filled Racing Game</span>
-                <span class="project-status">(On Going)</span>
-            </a>
-            <a href="projects.html" class="project">
-                <img src="InQnityIcon.png" alt="Infinity">
-                <span class="project-title">InQnity: Mythical Hunt</span>
-                <span class="project-status">(On Going)</span>
-            </a>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
-    </footer>
+    <!-- JavaScript for start screen functionality -->
     <script src="script.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
