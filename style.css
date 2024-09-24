@@ -16,6 +16,39 @@ body {
     min-height: 100vh;
 }
 
+#gmail-icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px; /* Add spacing between icons */
+}
+
+#linkedin-icon {
+    width: 60px;
+    height: 60px;
+}
+
+#github-icon,
+#gitlab-icon {
+    width: 35px;
+    height: 35px;
+    margin: 0 10px; /* Add spacing between icons */
+}
+
+#phone-icon {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px; /* Add spacing between icons */
+}
+
+.contact-icons {
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: center; /* Center the icons horizontally */
+    align-items: center; /* Center the icons vertically */
+    margin-top: 10px; /* Add some spacing above the icons */
+    margin-left: 100px;
+}
+
+
 /* Start Screen */
 .start-screen {
     display: flex;
@@ -29,13 +62,15 @@ body {
 
 .start-screen h1 {
     font-size: 3rem;
-    margin-bottom: 20px;
     color: #f0f5fa;
 }
 
+.start-screen h2 {
+    margin-bottom: 20px;
+}
+
 .start-btn,
-.continue-btn,
-.restart-btn {
+.continue-btn {
     background-color: #5ac8fa;
     color: #fff;
     padding: 15px 30px;
@@ -48,8 +83,7 @@ body {
 }
 
 .start-btn:hover,
-.continue-btn:hover,
-.restart-btn:hover {
+.continue-btn:hover {
     background-color: #4da8d6;
 }
 
@@ -69,10 +103,20 @@ body {
     background-color: #d94e48;
 }
 
-#game-nav .restart-btn {
+.restart-btn {
     background-color: #ff5e57;
-    padding: 10px 20px;
     margin-left: 15px; /* Space between nav links and the restart button */
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px 0; /* Adds space between the buttons */
 }
 
 /* Game Wrapper */
@@ -96,10 +140,23 @@ body {
 }
 
 #game-nav .nav-links {
-    list-style: none;
+    list-style: none; /* Remove bullet points */
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     margin-left: 33vw;
+    padding: 0; /* Remove any padding */
+    margin-top: 10px;
+}
+
+/* Transition when mobile nav is toggled */
+#game-nav .nav-active {
+    display: flex; /* Show links when active */
+}
+
+/* Ensure content slides out when nav is closed */
+.nav-inactive {
+    transform: translateY(-100%); /* Slide out of view */
+    transition: transform 0.3s ease;
 }
 
 #game-nav .nav-links li {
@@ -118,31 +175,56 @@ body {
     color: #5ac8fa;
 }
 
+/* Hide nav-toggle on larger screens */
 .nav-toggle {
     background: none;
     border: none;
     color: #f0f5fa;
     font-size: 1.5rem;
     cursor: pointer;
-    display: none; /* Hide by default */
+    display: none; /* Hide toggle button by default */
 }
 
 /* Show nav links on mobile when toggle is active */
 .nav-active {
-    display: flex; /* Show links */
-    flex-direction: column; /* Stack vertically */
-    align-items: center; /* Center align items */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh; /* Full screen height */
+    width: 100%; /* Full screen width */
+    position: fixed; /* Fix the position */
+    top: 0;
+    left: 0;
+    background-color: #112a45;
+    z-index: 999; /* Make sure it covers content */
+    padding-top: 60px; /* Leave space for the close button */
+    transition: transform 0.3s ease; /* Smooth opening transition */
+    transform: translateY(0); /* Start from normal position */
 }
 
 /* Levels */
 .level {
     padding: 60px 20px;
-    margin: 60px auto;
+    margin: 50px auto;
     text-align: center;
+    position: relative;
 }
 
-.level h2 {
+.level:before {
+    content: "";
+    display: block;
+    height: 80px; /* Adjust this value based on your header's height */
+    margin-top: -80px;
+    visibility: hidden;
+}
+
+.level .level-text {
     font-size: 2.5rem;
+    color: #5ac8fa;
+}
+
+.level .progress-text {
+    font-size: 2em;
     color: #5ac8fa;
 }
 
@@ -206,6 +288,7 @@ body {
     padding: 0; /* Remove padding */
     color: #ffffff; /* White text for the list */
     margin-bottom: 40px; /* Space between the college entries */
+    position: relative;
 }
 
 .education-level-detail ul:last-of-type {
@@ -223,6 +306,7 @@ nav #level-back-to-main #level-back-to-main-arrow {
 
 /* Skills section */
 .section-container {
+    position: relative;
     margin: auto;
     margin-bottom: 20px;
     padding: 20px;
@@ -264,17 +348,17 @@ nav #level-back-to-main #level-back-to-main-arrow {
 /* Skill bar levels */
 .skill-bar.beginner {
     width: 33%;
-    background-color: #ff6f61; /* Red for beginner */
+    background-color: #ff6b6b;
 }
 
 .skill-bar.intermediate {
     width: 66%;
-    background-color: #ffba00; /* Yellow for intermediate */
+    background-color: #f7d794;
 }
 
 .skill-bar.advanced {
     width: 100%;
-    background-color: #4caf50; /* Green for advanced */
+    background-color: #1abc9c;
 }
 
 .project-icon {
@@ -303,53 +387,156 @@ nav #level-back-to-main #level-back-to-main-arrow {
     background-color: rgba(90, 202, 250, 0.2); /* Light background on hover */
 }
 
-/* Responsive */
+#button-project-1 {
+    position: fixed;
+    bottom: 20px; /* Distance from the bottom */
+    right: 20px;  /* Distance from the right */
+}
+
+#button-skill-1,
+#button-skill-2,
+#button-skill-3,
+#button-skill-4,
+#button-skill-5 {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+#button-experience-1 {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.skill-button,
+.project-button,
+.edu-button,
+.experience-button {
+    background-color: #3498db; /* Change to a blue color (or any color of your choice) */
+    color: white; /* Button text/icon color */
+    border: none; /* Remove any default borders */
+    padding: 10px; /* Add some padding around the icon */
+    border-radius: 5px; /* Optional: round the corners */
+    cursor: pointer; /* Change the cursor to pointer on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a slight shadow */
+    transition: background-color 0.3s ease; /* Smooth transition effect for hover */
+}
+
+.skill-button:hover,
+.project-button:hover,
+.edu-button:hover,
+.experience-button:hover {
+    background-color: #2980b9; /* Darken the button color on hover */
+}
+
+.skill-button img,
+.project-button img,
+.edu-button img,
+.experience-button img {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease;
+}
+
+.skill-button:hover img,
+.project-button:hover img,
+.edu-button:hover img,
+.experience-button:hover img {
+    transform: scale(1.1); /* Enlarge on hover */
+}
+
+
+/* Section (Experience Content) */
+.experience-level-detail {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.experience-level-detail ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.experience-level-detail li {
+    font-size: 1.2em;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #4567fc;
+    position: relative;
+}
+
+/* Left Alignment */
+.experience-align-left {
+    text-align: left;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Right Alignment */
+.experience-align-right {
+    text-align: right;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Media Queries for Mobile Responsiveness */
 @media only screen and (max-width: 768px) {
-    #game-nav .nav-links {
-        display: none; /* Hide links by default */
+    #game-nav {
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex-start; /* Align to the left */
+        height: 50px;
     }
 
-    #game-nav .nav-toggle {
-        display: block; /* Show toggle button on mobile */
+    .nav-toggle {
+        display: block; /* Show toggle on mobile */
+        z-index: 101;
+    }
+
+    #game-nav .nav-links {
+        display: none; /* Hide links by default on mobile */
     }
 
     #game-nav .nav-active {
-        display: flex; /* Show links when active */
+        display: flex; /* Show links when toggle is active */
+        flex-direction: column; /* Stack links vertically */
+        width: 100%; /* Full width for the nav */
+        margin-left: 0; /* Align links to left */
+        z-index: 100;
     }
 
-    .level {
-        padding: 40px 10px;
+    .restart-btn {
+        width: 100%; /* Full width button */
+        text-align: center; /* Center text within button */
     }
 
-    .start-screen h1 {
-        font-size: 2.5rem;
+    .contact-icons {
+        justify-content: flex-start; /* Align to the left */
+        margin-left: 20px;
     }
 
-    .start-btn {
-        padding: 10px 20px;
-        font-size: 1rem;
-    }
-
-    /* Adjust the skill bar width on smaller screens */
     .skill-bar-container {
-        width: 80%;
+        width: 40%; /* Full width for skill bars */
     }
 
-    #game-nav {
-        flex-direction: column; /* Stack items vertically on mobile */
-        align-items: flex-start; /* Align items to the left */
+    .chest-icon {
+        width: 30px;
+        height: 30px;
     }
 
-    #game-nav .restart-btn {
-        margin-top: 10px; /* Space from nav links */
-        width: 100%; /* Full width for the button */
+    .experience-align-right,
+    .experience-align-left {
+        font-size: 0.7em;
     }
 
-    .nav-links {
-        display: none; /* Hide nav links initially on mobile */
-    }
-
-    .nav-links.nav-active {
-        display: block; /* Show nav links when active */
+    #button-project-1,
+    #button-experience-1 {
+        position: fixed;
+        bottom: 0;
+        right: 0;
     }
 }

@@ -8,10 +8,10 @@ function startGame() {
     localStorage.setItem("total_skill_item", 5);
     localStorage.setItem("curr_skill_item", 0);
 
-    localStorage.setItem("total_project_item", 5);
+    localStorage.setItem("total_project_item", 1);
     localStorage.setItem("curr_project_item", 0);
 
-    localStorage.setItem("total_experience_item", 5);
+    localStorage.setItem("total_experience_item", 1);
     localStorage.setItem("curr_experience_item", 0);
 }
 
