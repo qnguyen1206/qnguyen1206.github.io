@@ -430,6 +430,14 @@ nav #level-back-to-main #level-back-to-main-arrow {
     background-color: #2980b9; /* Darken the button color on hover */
 }
 
+.skill-button:disabled,
+.project-button:disabled,
+.edu-button:disabled,
+.experience-button:disabled {
+    background-color: #ff6767; /* Grey background when disabled */
+    cursor: not-allowed; /* Disabled cursor */
+}
+
 .skill-button img,
 .project-button img,
 .edu-button img,
