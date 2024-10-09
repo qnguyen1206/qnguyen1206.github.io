@@ -1,5 +1,6 @@
 function startGame() {
     window.location.href = "game.html";
+    localStorage.clear();
     localStorage.setItem("gameStarted", 'true');
 
     localStorage.setItem("total_edu_item", 2);
@@ -22,14 +23,12 @@ function continueGame() {
 // Function to check the game state when loading the page
 function checkGameState() {
     const gameStarted = localStorage.getItem('gameStarted');
-    if (gameStarted != null) {
-        if (gameStarted === 'true') {
-            document.getElementsByClassName('continue-btn').disabled = false; // Enable "Continue" button
-        } else {
-            document.getElementsByClassName('continue-btn').disabled = true; // Disable "Continue" button
-        }
+    const continueButton = document.querySelector('.continue-btn'); // Single element
+
+    if (gameStarted === 'true') {
+        continueButton.disabled = false; // Enable "Continue" button
     } else {
-        document.getElementsByClassName('continue-btn').disabled = true; // Disable "Continue" button
+        continueButton.disabled = true; // Disable "Continue" button
     }
 }
 

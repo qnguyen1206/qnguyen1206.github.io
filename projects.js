@@ -24,4 +24,13 @@ function checkProjectGameState() {
     
 }
 
+function toggleDescription(desc_id) {
+    const desc = document.getElementById(desc_id);
+    if (desc.style.display === "block") {
+        desc.style.display = "none";
+    } else {
+        desc.style.display = "block";
+    }
+}
+
 window.onload = checkProjectGameState;
