@@ -387,7 +387,7 @@ nav #level-back-to-main #level-back-to-main-arrow {
 }
 
 .project-icon {
-    display: inline;
+    display: flexbox;
     width: 60px; /* Consistent icon size */
     height: 60px; /* Maintain aspect ratio */
     margin-right: 10px; /* Space between icon and text */
@@ -534,6 +534,23 @@ nav #level-back-to-main #level-back-to-main-arrow {
     margin: 10px 0; /* Adds vertical space between paragraphs */
     color: #ffffff; /* Optional styling */
     font-size: 16px; /* Optional font size */
+}
+
+.arrow-text {
+    margin-top: 3px;
+    margin-left: 10px;
+    display: inline;
+}
+
+.down-arrow-img {
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+
+.drop-down-arrow {
+    margin-top: 20px;
+    display: flex;
 }
 
 /* Media Queries for Mobile Responsiveness */
