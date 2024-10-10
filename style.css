@@ -553,6 +553,20 @@ nav #level-back-to-main #level-back-to-main-arrow {
     display: flex;
 }
 
+#aframe-display {
+    display: flex;
+}
+
+#aframe-image-src img{
+    width: 50vw;
+    height: 500px;
+}
+
+#aframe-iframe iframe{
+    width: 50vw;
+    height: 500px;
+}
+
 /* Media Queries for Mobile Responsiveness */
 @media only screen and (max-width: 768px) {
     #game-nav {
