@@ -13,6 +13,10 @@ function restartGame() {
     localStorage.clear();
 }
 
+function backToMain() {
+    window.location.href = "index.html";
+}
+
 function toggleNav() {
     const navLinks = document.querySelector('.nav-links');
     navLinks.classList.toggle('nav-active');
