@@ -596,7 +596,13 @@ nav #level-back-to-main #level-back-to-main-arrow {
     height: 500px;
 }
 
-#start-emulator-button {
+#emulatorjs {
+    width: 50vw;
+    height: 500px;
+}
+
+#cs-2110-emulator-btn {
+    position: relative;
     z-index: 10;
 }
 

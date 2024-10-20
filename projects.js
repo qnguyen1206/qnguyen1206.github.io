@@ -36,22 +36,4 @@ function toggleDescription(desc_id, arrow_id) {
     }
 }
 
-// Function to load the GBA ROM when Start is clicked
-function loadGBA(event) {
-    event.stopPropagation();
-    try {
-        EJS_emulator = new EJS({
-            gameUrl: 'App.gba',  // Replace with the relative path to your .GBA file
-            system: 'gba',
-            width: 480,
-            height: 320,
-            target: '#emulator-container'  // The div where the emulator will load
-        });
-        EJS_emulator.start();  // Start the emulator
-    } catch (error) {
-        console.error("Failed to load GBA: ", error);
-        alert("Could not load the game. Please try again.");
-    }
-}
-
 window.onload = checkProjectGameState;
