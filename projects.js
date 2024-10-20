@@ -41,7 +41,7 @@ function loadGBA(event) {
     event.stopPropagation();
     try {
         EJS_emulator = new EJS({
-            gameUrl: './App.gba',  // Replace with the relative path to your .GBA file
+            gameUrl: 'App.gba',  // Replace with the relative path to your .GBA file
             system: 'gba',
             width: 480,
             height: 320,
