@@ -49,11 +49,11 @@ body {
 }
 
 .back-to-main-btn:hover {
-    background-color: #d94e48;
+    background-color: #2980b9;
 }
 
 .back-to-main-btn {
-    background-color: #ff5e57;
+    background-color: #3498db;
     margin-left: 15px; /* Space between nav links and the restart button */
     position: fixed;
     top: 15px;
@@ -586,14 +586,18 @@ nav #level-back-to-main #level-back-to-main-arrow {
     display: flex;
 }
 
-#aframe-image-src img{
+#aframe-image-src img {
     width: 50vw;
     height: 500px;
 }
 
-#aframe-iframe iframe{
+#aframe-iframe iframe {
     width: 50vw;
     height: 500px;
+}
+
+#start-emulator-button {
+    z-index: 10;
 }
 
 /* Media Queries for Mobile Responsiveness */

@@ -96,6 +96,21 @@
 
         <h2>Course Projects</h2>
         <ul>
+            <li onclick="toggleDescription('chatbot-des', 'chatbot-arrow')">
+                <h3>Chatbot</h3>
+                <img src="chat-gpt-icon.jpg" alt="Chatbot Icon" class="project-icon" id="chatbot-icon">
+                <p class="project-short-des"><strong>Chatbot</strong>:</p>
+                <div class="drop-down-arrow">
+                    <img src="side_arrow.png" class="down-arrow-img" id="chatbot-arrow">
+                    <p class="arrow-text">Learn more about the project</p>
+                </div>
+                <div class="project-description" id="chatbot-des">
+                    <p><strong>Course:</strong> GT LMC 2700 - Intro to Computational Media</p>
+                    <p><strong>Programming Language:</strong></p>
+                    <p><strong>Platform/Tools:</strong>ChatGPT</p>
+                    <a href=""><p>GitHub</p></a>
+                </div>
+            </li>
             <li onclick="toggleDescription('wander-sync-des', 'wander-sync-arrow')">
                 <h3>WanderSync App</h3>
                 <img src="android-studio-icon.png" alt="WanderSync Icon" class="project-icon" id="wander-sync-icon">
@@ -105,9 +120,9 @@
                     <p class="arrow-text">Learn more about the project</p>
                 </div>
                 <div class="project-description" id="wander-sync-des">
-                    <p>Course: GT CS 2340 - Objects and Design</p>
-                    <p>A simple app using Java and Firebase for backend and Android Studio to create xml files for frontend</p>
-                    <p>Learn and using Agile and Sprint methodology, OOA and OOD, Git and Sonarqube during the project</p>
+                    <p><strong>Course:</strong> GT CS 2340 - Objects and Design</p>
+                    <p><strong>Programming Language:</strong> Java, UML</p>
+                    <p><strong>Platform/Tools:</strong> Android Studio, Firebase, Github, SonarQube</p>
                     <a href="https://github.com/Kairu1206/CS2340D_Team26"><p>GitHub</p></a>
                 </div>
             </li>
@@ -120,9 +135,9 @@
                     <p class="arrow-text">Learn more about the project</p>
                 </div>
                 <div class="project-description" id="aframe-des">
-                    <p>Course: GT CS 2700 - Intro to Computation Media</p>
-                    <p>A simple HTML page embeded with aframe framwork which can display 3D objects in HTML pages</p>
-                    <p>Build a simple 3D scene from a 2D image</p>
+                    <p><strong>Course:</strong> GT CS 2700 - Intro to Computation Media</p>
+                    <p><strong>Programming Language:</strong> HTML, CSS</p>
+                    <p><strong>Platform/Tools:</strong> Aframe</p>
                     <a href="https://github.com/Kairu1206/aframe-remix"><p>GitHub</p></a>
                     <div id="aframe-display">
                         <div id="aframe-image-src">
@@ -135,19 +150,24 @@
                     </div>
                 </div>
             </li>
-            <li onclick="toggleDescription('gba-des', 'gba-arrow')">
+            <li onclick="toggleDescription('cs2110-des', 'cs2110-arrow')">
                 <h3>GBA Project</h3>
                 <img src="gameboy-icon.png" alt="GBA Icon" class="project-icon" id="gba-icon">
                 <p class="project-short-des"><strong>GBA</strong>: A course project using C to make a simple game on GameBoy to learn about graphics.</p>
                 <div class="drop-down-arrow">
-                    <img src="side_arrow.png" class="down-arrow-img" id="gba-arrow">
+                    <img src="side_arrow.png" class="down-arrow-img" id="cs2110-arrow">
                     <p class="arrow-text">Learn more about the project</p>
                 </div>
-                <div class="project-description" id="gba-des">
-                    <p>Course: GT CS 2110 - Computer Organization & Program</p>
-                    <p>A simple game run on GameBoy emulation using C Programming Language</p>
-                    <p>Learn about how graphics and game frame rate works</p>
-                    <a href="https://github.com/Kairu1206/CS2110"><p>GitHub</p></a>
+                <div class="project-description" id="cs2110-des">
+                    <p><strong>Course:</strong> GT CS 2110 - Computer Organization & Program</p>
+                    <p><strong>Programming Language:</strong> C</p>
+                    <p><strong>Platform/Tools:</strong> GameBoy Emulator</p>
+                    <a href="https://github.com/Kairu1206/CS2110"><p><strong>GitHub</strong></p></a>
+                    <!-- GBA Emulator button -->
+                    <button id="start-emulator-button" onclick="loadGBA(event)">Start Game</button>
+        
+                    <!-- Emulator container -->
+                    <div id="emulator-container"></div>
                 </div>
             </li>
         </ul>
@@ -158,5 +178,7 @@
     </button>
 
     <script src="projects.js"></script>
+    <!-- EmulatorJS loader -->
+    <script src="https://cdn.emulatorjs.com/loader.js"></script>
 </body>
 </html>
