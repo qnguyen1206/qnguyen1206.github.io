@@ -596,9 +596,18 @@ nav #level-back-to-main #level-back-to-main-arrow {
     height: 500px;
 }
 
-#emulatorjs {
-    width: 50vw;
+#emulator-iframe {
+    width: 100%;
     height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#emulatorjs {
+    width: 80%;
+    height: 100%;
+    border: none;
 }
 
 #cs-2110-emulator-btn {
