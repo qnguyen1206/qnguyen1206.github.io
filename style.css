@@ -42,10 +42,12 @@ body {
 
 .contact-icons {
     display: flex; /* Use flexbox for horizontal layout */
-    justify-content: center; /* Center the icons horizontally */
-    align-items: center; /* Center the icons vertically */
-    margin-top: 10px; /* Add some spacing above the icons */
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
     margin-left: 100px;
+    width: 100%;
+    flex-wrap: nowrap;
 }
 
 .back-to-main-btn:hover {
@@ -54,17 +56,15 @@ body {
 
 .back-to-main-btn {
     background-image: linear-gradient(to right, #00aaff, #2d49ff);
-    margin-left: 15px; /* Space between nav links and the restart button */
-    position: fixed;
-    top: 15px;
-    left: 5px;
+    margin-left: 15px;
     color: #fff;
     padding: 15px 30px;
     border: none;
     border-radius: 5px;
     font-size: 1.2rem;
     transition: background-color 0.3s ease;
-    margin: 10px 0; /* Adds space between the buttons */
+    margin: 10px 0;
+    text-wrap: nowrap;
 }
 
 /* Start Screen */
@@ -74,7 +74,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: linear-gradient(0deg, #000000, #007700);
+    background-image: linear-gradient(135deg, #000000, #007700);
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-size: cover;
@@ -116,6 +116,7 @@ body {
     padding: 15px 30px;
     border-style: solid;
     border-radius: 10px;
+    border-width: 1px;
     font-size: 1.2rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -149,17 +150,14 @@ body {
 
 .restart-btn {
     background-image: linear-gradient(to right, #ef462f, #eb1717);
-    margin-left: 15px; /* Space between nav links and the restart button */
-    position: fixed;
-    bottom: 5px;
-    right: 5px;
-    color: #fff;
-    padding: 15px 30px;
     border: none;
     border-radius: 5px;
     font-size: 1.2rem;
     transition: background-color 0.3s ease;
-    margin: 10px 0; /* Adds space between the buttons */
+    margin-left: 15px;
+    color: #fff;
+    padding: 15px 30px;
+    margin: 10px 0;
 }
 
 /* Game Wrapper */
@@ -178,31 +176,29 @@ body {
     width: 100%;
     z-index: 100;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
 #game-nav .nav-links {
-    list-style: none; /* Remove bullet points */
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 33vw;
-    padding: 0; /* Remove any padding */
+    list-style: none;
+    width: 100%;
+    padding: 0;
     margin-top: 10px;
+    display: none;
 }
 
-/* Transition when mobile nav is toggled */
 #game-nav .nav-active {
-    display: flex; /* Show links when active */
+    display: flex;
 }
 
-/* Ensure content slides out when nav is closed */
 .nav-inactive {
-    transform: translateY(-100%); /* Slide out of view */
+    transform: translateY(-100%);
     transition: transform 0.3s ease;
 }
 
 #game-nav .nav-links li {
+    width: 100%;
+    text-align: center;
     margin: 20px 15px;
 }
 
@@ -218,17 +214,16 @@ body {
     color: #5ac8fa;
 }
 
-/* Hide nav-toggle on larger screens */
 .nav-toggle {
     background: none;
     border: none;
     color: #f0f5fa;
     font-size: 1.5rem;
     cursor: pointer;
-    display: none; /* Hide toggle button by default */
+    display: block;
+    z-index: 101;
 }
 
-/* Show nav links on mobile when toggle is active */
 .nav-active {
     display: flex;
     flex-direction: column;
@@ -238,8 +233,8 @@ body {
     position: fixed; /* Fix the position */
     top: 0;
     left: 0;
-    background-color: #112a45;
-    z-index: 999; /* Make sure it covers content */
+    background-image: linear-gradient(to right, #851f28, #801a79);
+    z-index: 100; /* Make sure it covers content */
     padding-top: 60px; /* Leave space for the close button */
     transition: transform 0.3s ease; /* Smooth opening transition */
     transform: translateY(0); /* Start from normal position */
@@ -278,7 +273,6 @@ body {
 }
 
 .section-border {
-    background-color: #8b8965;
     background-image: linear-gradient(to right, #0066ff, #ff0066);
     border-radius: 10px;
 }
@@ -359,14 +353,14 @@ nav #level-back-to-main #level-back-to-main-arrow {
     margin: auto;
     margin-bottom: 20px;
     padding: 20px;
-    background-color: #007acc; /* Darker blue for better contrast */
+    background-color: #007acc;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .section-container h2 {
     margin-bottom: 10px;
-    color: #ffffff; /* White for better readability */
+    color: #ffffff;
 }
 
 /* Skills list styling */
@@ -629,61 +623,4 @@ nav #level-back-to-main #level-back-to-main-arrow {
 #cs-2110-emulator-btn {
     position: relative;
     z-index: 10;
-}
-
-/* Media Queries for Mobile Responsiveness */
-@media only screen and (max-width: 768px) {
-    #game-nav {
-        flex-direction: column; /* Stack items vertically */
-        align-items: flex-start; /* Align to the left */
-        height: 50px;
-    }
-
-    .nav-toggle {
-        display: block; /* Show toggle on mobile */
-        z-index: 101;
-    }
-
-    #game-nav .nav-links {
-        display: none; /* Hide links by default on mobile */
-    }
-
-    #game-nav .nav-active {
-        display: flex; /* Show links when toggle is active */
-        flex-direction: column; /* Stack links vertically */
-        width: 100%; /* Full width for the nav */
-        margin-left: 0; /* Align links to left */
-        z-index: 100;
-    }
-
-    .restart-btn {
-        width: 100%; /* Full width button */
-        text-align: center; /* Center text within button */
-    }
-
-    .contact-icons {
-        justify-content: flex-start; /* Align to the left */
-        margin-left: 20px;
-    }
-
-    .skill-bar-container {
-        width: 40%; /* Full width for skill bars */
-    }
-
-    .chest-icon {
-        width: 30px;
-        height: 30px;
-    }
-
-    .experience-align-right,
-    .experience-align-left {
-        font-size: 0.7em;
-    }
-
-    #button-project-1,
-    #button-experience-1 {
-        position: fixed;
-        bottom: 0;
-        right: 0;
-    }
 }
