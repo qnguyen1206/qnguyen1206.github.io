@@ -50,23 +50,6 @@ body {
     flex-wrap: nowrap;
 }
 
-.back-to-main-btn:hover {
-    background-color: #2980b9;
-}
-
-.back-to-main-btn {
-    background-image: linear-gradient(to right, #00aaff, #2d49ff);
-    margin-left: 15px;
-    color: #fff;
-    padding: 15px 30px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1.2rem;
-    transition: background-color 0.3s ease;
-    margin: 10px 0;
-    text-wrap: nowrap;
-}
-
 /* Start Screen */
 .start-screen {
     display: flex;
@@ -74,7 +57,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: linear-gradient(135deg, #000000, #007700);
+    background-image: linear-gradient(-45deg, #000000, #007700);
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-size: cover;
@@ -84,7 +67,7 @@ body {
 .start-screen h1,
 .start-screen h2,
 .start-screen h3 {
-    background: linear-gradient(to right, #0066ff, #ee00ff); /* Adjust gradient colors */
+    background: linear-gradient(to left, #0066ff, #ee00ff); /* Adjust gradient colors */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; /* For WebKit browsers */
     background-clip: text;
@@ -144,12 +127,19 @@ body {
     opacity: 0.5; /* Make it look disabled */
 }
 
+#control-btns {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .restart-btn:hover {
     background-color: #ff0000;
 }
 
 .restart-btn {
-    background-image: linear-gradient(to right, #ef462f, #eb1717);
+    background-image: linear-gradient(to right, #e61a1a, #b50f0f);
     border: none;
     border-radius: 5px;
     font-size: 1.2rem;
@@ -157,7 +147,25 @@ body {
     margin-left: 15px;
     color: #fff;
     padding: 15px 30px;
-    margin: 10px 0;
+    width: 20%;
+}
+
+.back-to-main-btn:hover {
+    background-color: #2980b9;
+}
+
+.back-to-main-btn {
+    background-image: linear-gradient(to right, #00aaff, #2d49ff);
+    margin-left: 15px;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+    margin-right: 20px;
+    text-wrap: nowrap;
+    width: 20%;
 }
 
 /* Game Wrapper */
@@ -168,7 +176,7 @@ body {
 
 /* Navigation */
 #game-nav {
-    background-image: linear-gradient(to right, #851f28, #801a79);
+    background-image: linear-gradient(to right, #687a03, #1f5b16);
     padding: 10px;
     position: fixed;
     top: 0;
@@ -177,6 +185,7 @@ body {
     z-index: 100;
     display: flex;
     align-items: center;
+    height: 10vh;
 }
 
 #game-nav .nav-links {
@@ -228,12 +237,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh; /* Full screen height */
+    height: 50vh;
     width: 100%; /* Full screen width */
     position: fixed; /* Fix the position */
     top: 0;
     left: 0;
-    background-image: linear-gradient(to right, #851f28, #801a79);
+    background-image: linear-gradient(to right, #687a03, #1f5b16);
     z-index: 100; /* Make sure it covers content */
     padding-top: 60px; /* Leave space for the close button */
     transition: transform 0.3s ease; /* Smooth opening transition */
@@ -464,14 +473,14 @@ nav #level-back-to-main #level-back-to-main-arrow {
 .project-button,
 .edu-button,
 .experience-button {
-    background-color: #3498db; /* Change to a blue color (or any color of your choice) */
-    color: white; /* Button text/icon color */
-    border: none; /* Remove any default borders */
-    padding: 10px; /* Add some padding around the icon */
-    border-radius: 5px; /* Optional: round the corners */
-    cursor: pointer; /* Change the cursor to pointer on hover */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a slight shadow */
-    transition: background-color 0.3s ease; /* Smooth transition effect for hover */
+    background-image: linear-gradient(0deg, #7a802a, #eeff00);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
 }
 
 .skill-button:hover,
