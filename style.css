@@ -9,8 +9,10 @@
 /* Body */
 body {
     background-image: linear-gradient(0deg, #000000, #910e72);
-    color: #ffffff;
+    overflow-x: hidden;
+    overflow-y: auto;
     min-height: 100vh;
+    background-size: cover;
 }
 
 #gmail-icon {
@@ -103,7 +105,7 @@ body {
     border-width: 1px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin: 10px 0; /* Adds space between the buttons */
+    margin: 1vh 0; /* Adds space between the buttons */
     font-size: 1.5vw;
 }
 
@@ -178,14 +180,14 @@ body {
 /* Game Wrapper */
 #game-wrapper {
     display: block;
-    padding: 20px;
+    padding: 2vw;
 
 }
 
 /* Navigation */
 #game-nav {
     background-image: linear-gradient(to right, #0a4db1, #9e07a9);
-    padding: 10px;
+    padding: 2vh 2vw;
     position: fixed;
     top: 0;
     left: 0;
@@ -241,7 +243,7 @@ body {
     background: none;
     border: none;
     color: #f0f5fa;
-    font-size: 2vw;
+    font-size: 3vw;
     cursor: pointer;
     display: flex;
     z-index: 101;
@@ -278,19 +280,19 @@ body {
 
 
 .level .level-text {
-    font-size: 2.5rem;
+    font-size: 3vw;
     color: #5ac8fa;
 }
 
 .level .progress-text {
-    font-size: 2em;
+    font-size: 2.5vw;
     color: #5ac8fa;
 }
 
 .level p {
-    font-size: 1.2rem;
+    font-size: 1.5vw;
     color: #dce7f0;
-    margin-bottom: 20px;
+    margin-bottom: 2vh;
 }
 
 .section-border {
@@ -304,14 +306,14 @@ body {
 .level-btn {
     background-image: linear-gradient(to right, #00aaff, #2d49ff);
     color: #fff;
-    padding: 10px 20px;
+    padding: 1vh 2vw;
     border: none;
-    border-radius: 5px;
-    font-size: 1rem;
+    border-radius: 1vw;
+    font-size: 1vw;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
 }
 
 .level-btn:hover {
@@ -374,11 +376,11 @@ nav #level-back-to-main #level-back-to-main-arrow {
 /* Skills section */
 .section-container {
     position: relative;
-    margin: auto;
+    margin: 5vh auto;
     margin-bottom: 20px;
-    padding: 20px;
+    padding: 2vw;
     background-color: #007acc;
-    border-radius: 10px;
+    border-radius: 1vw;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
