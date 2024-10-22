@@ -10,48 +10,44 @@
 body {
     background-image: linear-gradient(0deg, #000000, #910e72);
     color: #ffffff;
-    font-size: 16px;
     line-height: 1.6;
     min-height: 100vh;
 }
 
 #gmail-icon {
-    display: flex;
+    display: block;
     width: 3vw;
     height: auto;
-    margin: 0 10px;
+    margin: 0 1vw;
 }
 
 #linkedin-icon {
-    display: flex;
+    display: block;
     width: 5vw;
     height: auto;
-    margin-left:-10px;
 }
 
 #github-icon,
 #gitlab-icon {
-    display: flex;
+    display: block;
     width: 3vw;
     height: auto;
-    margin: 0 10px; /* Add spacing between icons */
+    margin: 0 1vw; /* Add spacing between icons */
 }
 
 #phone-icon {
-    display: flex;
+    display: block;
     width: 3.5vw;
     height: auto;
-    margin: 0 10px; /* Add spacing between icons */
+    margin: 0 1vw; /* Add spacing between icons */
 }
 
 .contact-icons {
     display: flex; /* Use flexbox for horizontal layout */
     justify-content: flex-end;
     align-items: center;
-    margin-top: 10px;
-    margin-left: 100px;
-    width: 100%;
     flex-wrap: nowrap;
+    width: 100%;
     height: 100%;
 }
 
@@ -147,12 +143,16 @@ body {
     background-image: linear-gradient(to right, #e61a1a, #b50f0f);
     border: none;
     border-radius: 5px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     transition: background-color 0.3s ease;
     margin-left: 15px;
     color: #fff;
     padding: 15px 30px;
-    width: 20%;
+    width: 25%;
+    text-wrap: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .back-to-main-btn:hover {
@@ -160,17 +160,20 @@ body {
 }
 
 .back-to-main-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-image: linear-gradient(to right, #00aaff, #2d49ff);
     margin-left: 15px;
     color: #fff;
     padding: 15px 30px;
     border: none;
     border-radius: 5px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     transition: background-color 0.3s ease;
     margin-right: 20px;
     text-wrap: nowrap;
-    width: 20%;
+    width: 25%;
 }
 
 /* Game Wrapper */
@@ -252,15 +255,15 @@ body {
     flex-direction: column;
     align-items: center;
     height: 50vh;
-    width: 100%; /* Full screen width */
-    position: fixed; /* Fix the position */
+    width: 100%;
+    position: fixed;
     top: 0;
     left: 0;
     background-image: linear-gradient(to right, #0a4db1, #9e07a9);
-    z-index: 100; /* Make sure it covers content */
-    padding-top: 60px; /* Leave space for the close button */
-    transition: transform 0.3s ease; /* Smooth opening transition */
-    transform: translateY(0); /* Start from normal position */
+    z-index: 100;
+    padding-top: 60px;
+    transition: transform 0.3s ease;
+    transform: translateY(0);
 }
 
 /* Levels */
@@ -288,7 +291,7 @@ body {
 .level p {
     font-size: 1.2rem;
     color: #dce7f0;
-    margin-bottom: 20px; /* Adds space between the description and the button */
+    margin-bottom: 20px;
 }
 
 .section-border {
