@@ -8,35 +8,39 @@
 
 /* Body */
 body {
-    background-color: #0e1b34;
+    background-image: linear-gradient(0deg, #000000, #910e72);
     color: #ffffff;
     font-size: 16px;
     line-height: 1.6;
-    overflow-x: hidden;
     min-height: 100vh;
 }
 
 #gmail-icon {
-    width: 30px;
-    height: 30px;
-    margin: 0 10px; /* Add spacing between icons */
+    display: flex;
+    width: 3vw;
+    height: auto;
+    margin: 0 10px;
 }
 
 #linkedin-icon {
-    width: 60px;
-    height: 60px;
+    display: flex;
+    width: 5vw;
+    height: auto;
+    margin-left:-10px;
 }
 
 #github-icon,
 #gitlab-icon {
-    width: 35px;
-    height: 35px;
+    display: flex;
+    width: 3vw;
+    height: auto;
     margin: 0 10px; /* Add spacing between icons */
 }
 
 #phone-icon {
-    width: 40px;
-    height: 40px;
+    display: flex;
+    width: 3.5vw;
+    height: auto;
     margin: 0 10px; /* Add spacing between icons */
 }
 
@@ -48,6 +52,7 @@ body {
     margin-left: 100px;
     width: 100%;
     flex-wrap: nowrap;
+    height: 100%;
 }
 
 /* Start Screen */
@@ -172,11 +177,12 @@ body {
 #game-wrapper {
     display: block;
     padding: 20px;
+
 }
 
 /* Navigation */
 #game-nav {
-    background-image: linear-gradient(to right, #687a03, #1f5b16);
+    background-image: linear-gradient(to right, #0a4db1, #9e07a9);
     padding: 10px;
     position: fixed;
     top: 0;
@@ -223,14 +229,22 @@ body {
     color: #5ac8fa;
 }
 
+#sections {
+    margin-top: 10vh;
+    display: block;
+    height: 100%;
+}
+
 .nav-toggle {
     background: none;
     border: none;
     color: #f0f5fa;
-    font-size: 1.5rem;
+    font-size: 2vw;
     cursor: pointer;
-    display: block;
+    display: flex;
     z-index: 101;
+    height: auto;
+    width: auto;
 }
 
 .nav-active {
@@ -242,7 +256,7 @@ body {
     position: fixed; /* Fix the position */
     top: 0;
     left: 0;
-    background-image: linear-gradient(to right, #687a03, #1f5b16);
+    background-image: linear-gradient(to right, #0a4db1, #9e07a9);
     z-index: 100; /* Make sure it covers content */
     padding-top: 60px; /* Leave space for the close button */
     transition: transform 0.3s ease; /* Smooth opening transition */
@@ -251,19 +265,15 @@ body {
 
 /* Levels */
 .level {
-    padding: 60px 20px;
     margin: 50px auto;
     text-align: center;
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 20vh;
 }
 
-.level:before {
-    content: "";
-    display: block;
-    height: 80px; /* Adjust this value based on your header's height */
-    margin-top: -80px;
-    visibility: hidden;
-}
 
 .level .level-text {
     font-size: 2.5rem;
@@ -284,6 +294,8 @@ body {
 .section-border {
     background-image: linear-gradient(to right, #0066ff, #ff0066);
     border-radius: 10px;
+    display: flex;
+    margin-top: 5vh;
 }
 
 /* Level Buttons */
@@ -296,7 +308,8 @@ body {
     font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin-top: 20px; /* Adds space between the button and other elements */
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .level-btn:hover {
@@ -436,14 +449,15 @@ nav #level-back-to-main #level-back-to-main-arrow {
 }
 
 .project-level-detail li {
-    padding: 10px; /* Adds space around each item */
+    padding: 10px;
     transition: background-color 0.3s;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
-.project-level-detail li:hover {
-    background-color: rgba(90, 202, 250, 0.2); /* Light background on hover */
+.project-border:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
     cursor: pointer;
 }
 
@@ -494,7 +508,7 @@ nav #level-back-to-main #level-back-to-main-arrow {
 .project-button:disabled,
 .edu-button:disabled,
 .experience-button:disabled {
-    background-color: #ff6767; /* Grey background when disabled */
+    background-image: linear-gradient(0deg, #5f1403, #ff1500);
     cursor: not-allowed; /* Disabled cursor */
 }
 
@@ -632,4 +646,10 @@ nav #level-back-to-main #level-back-to-main-arrow {
 #cs-2110-emulator-btn {
     position: relative;
     z-index: 10;
+}
+
+.project-border {
+    background-image: linear-gradient(to right, #037a70, #06d5ec);
+    border-radius: 10px;
+    padding: 20px;
 }
