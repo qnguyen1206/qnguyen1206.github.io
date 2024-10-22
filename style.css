@@ -10,7 +10,6 @@
 body {
     background-image: linear-gradient(0deg, #000000, #910e72);
     color: #ffffff;
-    line-height: 1.6;
     min-height: 100vh;
 }
 
@@ -76,14 +75,15 @@ body {
 }
 
 .start-screen h1 {
-    font-size: 3rem;
+    font-size: 5vw;
 }
 
 .start-screen h2 {
-    font-size: 2rem;
+    font-size: 3.5vw;
 }
 
 .start-screen h3 {
+    font-size: 1.5vw;
     margin-bottom: 10px;
 }
 
@@ -97,14 +97,14 @@ body {
 .continue-btn {
     background-image: linear-gradient(to right, #00aaff, #2d49ff);
     color: #fff;
-    padding: 15px 30px;
+    padding: 2vh 4vw;
     border-style: solid;
     border-radius: 10px;
     border-width: 1px;
-    font-size: 1.2rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
     margin: 10px 0; /* Adds space between the buttons */
+    font-size: 1.5vw;
 }
 
 .continue-btn {
@@ -119,13 +119,12 @@ body {
 .continue-btn:disabled {
     background-color: #5ac8fa;
     color: #fff;
-    padding: 15px 30px;
+    padding: 2vh 4vw;
     border: none;
-    border-radius: 5px;
-    font-size: 1.2rem;
     cursor: not-allowed; /* Change cursor to indicate it's disabled */
     margin: 10px 0; /* Adds space between the buttons */
     opacity: 0.5; /* Make it look disabled */
+    font-size: 1.5vw;
 }
 
 #control-btns {
