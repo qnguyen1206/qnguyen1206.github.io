@@ -17,9 +17,16 @@ function backToMain() {
     window.location.href = "index.html";
 }
 
-function toggleNav() {
-    const navLinks = document.querySelector('.nav-links');
-    navLinks.classList.toggle('nav-active');
+function toggleNav(id) {
+    const navLinks = document.getElementById(id);
+    const computedStyle = window.getComputedStyle(navLinks);
+    if (computedStyle.display == "flex") {
+        navLinks.style.display = "none";
+        navLinks.style.transform = "translateY(-100%)"
+    } else if (computedStyle.display == "none") {
+        navLinks.style.display = "flex";
+        navLinks.style.transform = "translateY(0)"
+    }
 }
 
 window.onload = checkCurrentGameState;

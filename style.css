@@ -1,4 +1,4 @@
-/* General Reset */
+/*General Settings*/
 * {
     margin: 0;
     padding: 0;
@@ -6,53 +6,16 @@
     font-family: 'Arial', sans-serif;
 }
 
-/* Body */
 body {
     background-image: linear-gradient(0deg, #000000, #910e72);
+    color: #ffffff;
     overflow-x: hidden;
     overflow-y: auto;
     min-height: 100vh;
     background-size: cover;
 }
 
-#gmail-icon {
-    display: block;
-    width: 3vw;
-    height: auto;
-    margin: 0 1vw;
-}
-
-#linkedin-icon {
-    display: block;
-    width: 5vw;
-    height: auto;
-}
-
-#github-icon,
-#gitlab-icon {
-    display: block;
-    width: 3vw;
-    height: auto;
-    margin: 0 1vw; /* Add spacing between icons */
-}
-
-#phone-icon {
-    display: block;
-    width: 3.5vw;
-    height: auto;
-    margin: 0 1vw; /* Add spacing between icons */
-}
-
-.contact-icons {
-    display: flex; /* Use flexbox for horizontal layout */
-    justify-content: flex-end;
-    align-items: center;
-    flex-wrap: nowrap;
-    width: 100%;
-    height: 100%;
-}
-
-/* Start Screen */
+/*Main Screen (index.html)*/
 .start-screen {
     display: flex;
     flex-direction: column;
@@ -66,6 +29,7 @@ body {
     text-align: center;
 }
 
+/*----Texts (Welcome, Description, Credits)*/
 .start-screen h1,
 .start-screen h2,
 .start-screen h3 {
@@ -89,12 +53,7 @@ body {
     margin-bottom: 10px;
 }
 
-.project-level-detail h2,
-.skill-level-detail h2 {
-    text-align: center;
-    margin-top: 20px;
-}
-
+/*----Buttons (Start, Continue Buttons)*/
 .start-btn,
 .continue-btn {
     background-image: linear-gradient(to right, #00aaff, #2d49ff);
@@ -129,6 +88,81 @@ body {
     font-size: 1.5vw;
 }
 
+/*Level Screen (game.html)*/
+#game-wrapper {
+    display: block;
+    padding: 2vw;
+    min-height: 100vh;
+}
+
+/*----Nav bar*/
+
+#game-nav {
+    background-image: linear-gradient(to right, #0a4db1, #9e07a9);
+    padding: 2vh 2vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+}
+
+/*---->----Toggle Icon*/
+
+.nav-toggle {
+    background: none;
+    border: none;
+    color: #f0f5fa;
+    font-size: 3vw;
+    cursor: pointer;
+    display: flex;
+    z-index: 101;
+    height: auto;
+    width: auto;
+}
+
+/*---->----Navigation Links (Level navigations)*/
+#game-nav #nav-links {
+    list-style: none;
+    height: 50vh;
+    width: 100%;
+    padding: 0;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #0a4db1, #9e07a9);
+    z-index: 100;
+    padding-top: 60px;
+    transition: transform 0.3s ease;
+    transform: translateY(-100%);
+}
+
+#game-nav #nav-links li {
+    width: 100%;
+    text-align: center;
+    margin: 20px 15px;
+}
+
+#game-nav #nav-links li a {
+    color: #f0f5fa;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+#game-nav #nav-links li a:hover {
+    color: #5ac8fa;
+}
+
+/*---->-----Control buttons (Back to Main & Reset Buttons)*/
 #control-btns {
     width: 100%;
     display: flex;
@@ -177,97 +211,50 @@ body {
     width: 25%;
 }
 
-/* Game Wrapper */
-#game-wrapper {
-    display: block;
-    padding: 2vw;
-
-}
-
-/* Navigation */
-#game-nav {
-    background-image: linear-gradient(to right, #0a4db1, #9e07a9);
-    padding: 2vh 2vw;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 100;
-    display: flex;
+/*----Contact Icons (Gmail, Phone, GitHub, GitLab, LinkedIn)*/
+.contact-icons {
+    display: flex; 
+    justify-content: flex-end;
     align-items: center;
-    height: 10vh;
-}
-
-#game-nav .nav-links {
-    list-style: none;
+    flex-wrap: nowrap;
     width: 100%;
-    padding: 0;
-    margin-top: 10px;
-    display: none;
+    height: 100%;
 }
 
-#game-nav .nav-active {
-    display: flex;
+#gmail-icon {
+    display: block;
+    width: 3vw;
+    height: auto;
+    margin: 0 1vw;
 }
 
-.nav-inactive {
-    transform: translateY(-100%);
-    transition: transform 0.3s ease;
+#linkedin-icon {
+    display: block;
+    width: 5vw;
+    height: auto;
 }
 
-#game-nav .nav-links li {
-    width: 100%;
-    text-align: center;
-    margin: 20px 15px;
+#github-icon,
+#gitlab-icon {
+    display: block;
+    width: 3vw;
+    height: auto;
+    margin: 0 1vw; /* Add spacing between icons */
 }
 
-#game-nav .nav-links li a {
-    color: #f0f5fa;
-    text-decoration: none;
-    font-size: 1.2rem;
-    padding: 10px;
-    transition: color 0.3s;
+#phone-icon {
+    display: block;
+    width: 3.5vw;
+    height: auto;
+    margin: 0 1vw;
 }
-
-#game-nav .nav-links li a:hover {
-    color: #5ac8fa;
-}
-
+/*----Levels Section (Level 1-4)*/
 #sections {
     margin-top: 10vh;
     display: block;
     height: 100%;
 }
 
-.nav-toggle {
-    background: none;
-    border: none;
-    color: #f0f5fa;
-    font-size: 3vw;
-    cursor: pointer;
-    display: flex;
-    z-index: 101;
-    height: auto;
-    width: auto;
-}
-
-.nav-active {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 50vh;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-image: linear-gradient(to right, #0a4db1, #9e07a9);
-    z-index: 100;
-    padding-top: 60px;
-    transition: transform 0.3s ease;
-    transform: translateY(0);
-}
-
-/* Levels */
 .level {
     margin: 50px auto;
     text-align: center;
@@ -277,7 +264,6 @@ body {
     flex-direction: column;
     height: 20vh;
 }
-
 
 .level .level-text {
     font-size: 3vw;
@@ -297,18 +283,18 @@ body {
 
 .section-border {
     background-image: linear-gradient(to right, #0066ff, #ff0066);
-    border-radius: 10px;
+    border-radius: min(10px, 1vw);
     display: flex;
     margin-top: 5vh;
 }
 
-/* Level Buttons */
+/*---->----Level Buttons (Enter Level)*/
 .level-btn {
     background-image: linear-gradient(to right, #00aaff, #2d49ff);
     color: #fff;
     padding: 1vh 2vw;
     border: none;
-    border-radius: 1vw;
+    border-radius: min(10px, 1vw);
     font-size: 1vw;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -320,13 +306,25 @@ body {
     background-color: #4da8d6;
 }
 
+/*Level General Details*/
 .chest-icon {
     width: 50px;
     height: 50px;
     position: relative;
 }
 
-/* Education Section */
+/*----Education Level*/
+/*----Skills Level*/
+/*----Projects Level*/
+/*----Experience Level*/
+
+/*UNORDERED STUFFS------------------------------------------------------------------------------------------------------*/
+.project-level-detail h2,
+.skill-level-detail h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
 .styled-divider {
     height: 4px; /* Thickness of the divider */
     background-color: #5ac8fa; /* Color of the divider */
@@ -338,7 +336,7 @@ body {
     margin: 60px auto;
     padding: 20px;
     background-color: #007acc; /* Darker blue for better contrast */
-    border-radius: 10px;
+    border-radius: min(10px, 1vw);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
@@ -380,7 +378,7 @@ nav #level-back-to-main #level-back-to-main-arrow {
     margin-bottom: 20px;
     padding: 2vw;
     background-color: #007acc;
-    border-radius: 1vw;
+    border-radius: min(10px, 1vw);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -549,7 +547,7 @@ nav #level-back-to-main #level-back-to-main-arrow {
     font-size: 1.2em;
     margin: 20px 0;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: min(10px, 1vw);
     background-color: #4567fc;
     position: relative;
     display: flex;
@@ -654,6 +652,6 @@ nav #level-back-to-main #level-back-to-main-arrow {
 
 .project-border {
     background-image: linear-gradient(to right, #037a70, #06d5ec);
-    border-radius: 10px;
+    border-radius: min(10px, 1vw);
     padding: 20px;
 }
