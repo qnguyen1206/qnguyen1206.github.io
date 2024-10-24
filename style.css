@@ -95,81 +95,25 @@ body {
     min-height: 100vh;
 }
 
-/*----Nav bar*/
-
-#game-nav {
-    background-image: linear-gradient(to right, #0a4db1, #9e07a9);
-    padding: 2vh 2vw;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 100;
-    display: flex;
-    align-items: center;
-    height: 10vh;
-}
-
-/*---->----Toggle Icon*/
-
-.nav-toggle {
-    background: none;
-    border: none;
-    color: #f0f5fa;
-    font-size: 3vw;
-    cursor: pointer;
-    display: flex;
-    z-index: 101;
-    height: auto;
-    width: auto;
-}
-
-/*---->----Navigation Links (Level navigations)*/
-#game-nav #nav-links {
-    list-style: none;
-    height: 50vh;
-    width: 100%;
-    padding: 0;
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-image: linear-gradient(to right, #0a4db1, #9e07a9);
-    z-index: 100;
-    padding-top: 60px;
-    transition: transform 0.3s ease;
-    transform: translateY(-100%);
-}
-
-#game-nav #nav-links li {
-    width: 100%;
-    text-align: center;
-    margin: 20px 15px;
-}
-
-#game-nav #nav-links li a {
-    color: #f0f5fa;
-    text-decoration: none;
-    font-size: 1.2rem;
-    padding: 10px;
-    transition: color 0.3s;
-}
-
-#game-nav #nav-links li a:hover {
-    color: #5ac8fa;
-}
-
-/*---->-----Control buttons (Back to Main & Reset Buttons)*/
-#control-btns {
-    width: 100%;
+/*----Header*/
+#game-header {
+    background-image: linear-gradient(180deg, #de00fb, #910e72);
+    color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 10vh;
+    position: fixed;
+    width: 100%;
 }
 
+/*----Footer*/
+#game-footer {
+    background-color: #313131;
+    color: #ffffff;
+}
+
+/*---->-----Back to Main & Reset Buttons*/
 .restart-btn:hover {
     background-color: #ff0000;
 }
@@ -184,6 +128,7 @@ body {
     color: #fff;
     padding: 15px 30px;
     width: 25%;
+    height: 80%;
     text-wrap: nowrap;
     display: flex;
     justify-content: center;
@@ -209,6 +154,7 @@ body {
     margin-right: 20px;
     text-wrap: nowrap;
     width: 25%;
+    height: 80%;
 }
 
 /*----Contact Icons (Gmail, Phone, GitHub, GitLab, LinkedIn)*/
@@ -248,6 +194,7 @@ body {
     height: auto;
     margin: 0 1vw;
 }
+
 /*----Levels Section (Level 1-4)*/
 #sections {
     margin-top: 10vh;
