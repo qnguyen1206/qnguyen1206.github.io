@@ -27,7 +27,7 @@ function AppContent() {
   const handleArrowClick = () => {
     setClickCount(prev => {
       const newCount = prev + 1;
-      if (newCount >= 5) {
+      if (newCount >= 1) {
         setShowEasterEgg(true);
         addXP(COMPLETION_XP.EASTER_EGG);
         setClickCount(0);
@@ -55,7 +55,7 @@ function AppContent() {
                 <br />
                 Currently on a quest at Georgia Institute of Technology to achieve a Bachelor's degree in Computational Media.
               </p>
-              
+
               <blockquote className="text-lg italic text-gray-400 border-l-4 border-blue-400 pl-4">
                 "Some people call this artificial intelligence, but the reality is this technology will enhance us.
                 <br />
@@ -67,6 +67,10 @@ function AppContent() {
               <blockquote className="text-lg italic text-gray-400 border-l-4 border-blue-400 pl-4">
                 "HINT: There is an easter egg in this website. Send me an email if you find it!"
               </blockquote>
+
+              <p className="text-sm sm:text-base text-gray-400 max-w-6xl">
+                Fun Fact: This portfolio was crafted with the assistance of AI tools: Cursor, V0, and Bolt.
+              </p>
             </div>
             <div className="flex gap-4">
               <a href="https://github.com/Kairu1206" target="_blank" rel="noopener noreferrer" 
