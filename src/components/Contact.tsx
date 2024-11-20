@@ -92,13 +92,13 @@ function Contact() {
         </form>
 
         <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-8">
-          <a href="mailto:contact@example.com" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+          <a href="mailto:qnguyenpersonal@gmail.com" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
             <Mail size={20} />
-            <span>contact@example.com</span>
+            <span>qnguyenpersonal@gmail.com</span>
           </a>
-          <a href="#" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+          <a href="tel:4705011357" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
             <MessageSquare size={20} />
-            <span>Schedule a call</span>
+            <span>470-501-1357</span>
           </a>
         </div>
       </div>
