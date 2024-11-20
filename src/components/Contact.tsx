@@ -39,7 +39,7 @@ function Contact() {
     <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-900/50">
       <div className="max-w-3xl mx-auto">
         <h2 className="text-4xl font-bold mb-12 text-center">Get in Touch</h2>
-        <form onSubmit={handleSubmit} className="space-y-6">
+        {/* <form onSubmit={handleSubmit} className="space-y-6">
           <div>
             <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-2">
               Name
@@ -89,7 +89,7 @@ function Contact() {
             <Send size={20} />
             Send Message
           </button>
-        </form>
+        </form> */}
 
         <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-8">
           <a href="mailto:qnguyenpersonal@gmail.com" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
