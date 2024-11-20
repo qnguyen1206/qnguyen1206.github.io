@@ -3,23 +3,14 @@ import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/Kairu1206/',
+  base: '/kairu1206/',
   plugins: [react()],
-  optimizeDeps: {
-    exclude: ['lucide-react'],
-  },
-  publicDir: 'public',
-  server: {
-    fs: {
-      allow: ['..'],
-      strict: false
-    }
-  },
   build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
     rollupOptions: {
-      input: {
-        main: './index.html',
-        emulator: './src/emulatorjs_gba/index.html'
+      output: {
+        manualChunks: undefined
       }
     }
   }
