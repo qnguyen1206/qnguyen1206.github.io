@@ -48,7 +48,7 @@ function Experience() {
             <div
               key={index}
               onClick={() => addProgress({ type: 'VIEW_EXPERIENCE', id: exp.title })}
-              className={`relative bg-gray-800/30 rounded-lg p-8 hover:bg-gray-800/50 transition-all duration-300 cursor-pointer border min-h-[160px] ${
+              className={`relative bg-gray-800/100 rounded-lg p-8 hover:bg-gray-800/90 transition-all duration-300 cursor-pointer border min-h-[160px] ${
                 progress.experiences?.has(exp.title) ? 'border-blue-500' : 'border-gray-700'
               }`}
             >

@@ -20,7 +20,7 @@ function Education() {
             <div
               key={index}
               onClick={() => addProgress({ type: 'VIEW_EDUCATION', id: edu.school })}
-              className={`relative bg-gray-800/30 rounded-lg p-8 hover:bg-gray-800/50 transition-all duration-300 cursor-pointer border ${
+              className={`relative bg-gray-800/100 rounded-lg p-8 hover:bg-gray-800/90 transition-all duration-300 cursor-pointer border ${
                 progress.education?.has(edu.school) ? 'border-green-500' : 'border-gray-700'
               }`}
             >

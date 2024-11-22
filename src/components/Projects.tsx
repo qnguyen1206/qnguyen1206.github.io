@@ -56,7 +56,7 @@ function Projects() {
             <div 
               key={index}
               onClick={() => addProgress({ type: 'VIEW_PROJECT', id: project.title })}
-              className={`relative bg-gray-800/30 rounded-lg overflow-hidden hover:bg-gray-800/50 transition-all duration-300 cursor-pointer ${
+              className={`relative bg-gray-800/100 rounded-lg overflow-hidden hover:bg-gray-800/90 transition-all duration-300 cursor-pointer ${
                 progress.projects.has(project.title) ? 'border-green-500 border' : 'border-gray-700 border'
               }`}
             >

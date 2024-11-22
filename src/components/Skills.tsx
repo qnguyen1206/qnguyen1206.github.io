@@ -36,7 +36,7 @@ function Skills() {
             <div 
               key={category}
               onClick={() => addProgress({ type: 'VIEW_SKILL', id: category })}
-              className={`relative bg-gray-800/30 rounded-lg p-6 hover:bg-gray-800/50 transition-all duration-300 cursor-pointer ${
+              className={`relative bg-gray-800/100 rounded-lg p-6 hover:bg-gray-800/90 transition-all duration-300 cursor-pointer ${
                 progress.skills.has(category) ? 'border-yellow-500 border' : 'border-gray-700 border'
               }`}
             >

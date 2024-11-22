@@ -4,6 +4,9 @@ import { Suspense, lazy } from 'react';
 import GameStatus from './components/GameStatus';
 import { GameProvider, useGame } from './context/GameContext';
 import { COMPLETION_XP } from './types/game';
+import { InkEffect } from './components/InkEffect';
+import { BubbleEffect } from './components/BubbleEffect';
+import { FishEffect } from './components/FishEffect';
 
 const Projects = lazy(() => import('./components/Projects'));
 const Skills = lazy(() => import('./components/Skills'));
@@ -41,11 +44,15 @@ function AppContent() {
     <div className="min-h-screen bg-gradient-to-b from-gray-900 to-black text-white">
       {/* Hero Section */}
       <section className="min-h-screen flex flex-col justify-center px-4 sm:px-6 lg:px-8 relative">
-        <div className="max-w-5xl mx-auto w-full">
+        <FishEffect />
+        <BubbleEffect />
+        <div className="max-w-5xl mx-auto w-full pointer-events-none">
           <div className="space-y-6 animate-fadeIn">
-            <h1 className="text-5xl sm:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-emerald-400 break-words whitespace-normal pb-3">
-              Quang Nguyen
-            </h1>
+            <div className="pointer-events-auto">
+              <h1 className="text-5xl sm:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-emerald-400 break-words whitespace-normal pb-3">
+                Quang Nguyen
+              </h1>
+            </div>
             <div className="space-y-6">
               <p className="text-2xl sm:text-3xl text-gray-300">
                 Game Developer & Full Stack Software Developer
@@ -65,11 +72,13 @@ function AppContent() {
               </blockquote>
 
               <blockquote className="text-lg italic text-gray-400 border-l-4 border-blue-400 pl-4">
-                "HINT: There is an easter egg in this website. Send me an email if you find it!"
+                "There are several easter eggs in this website! Let me know if you find any!"
+                <br />
+                - <i>Q</i> -
               </blockquote>
 
               <p className="text-sm sm:text-base text-gray-400 max-w-6xl">
-                Fun Fact: This portfolio was crafted with the assistance of AI tools: Cursor, V0, and Bolt.
+                Fun Fact: This portfolio was built with the assistance of AI tools: Cursor, V0, and Bolt.
               </p>
             </div>
             <div className="flex gap-4">
@@ -118,7 +127,7 @@ function AppContent() {
       )}
 
       {/* Game Sections */}
-      <div className="space-y-20">
+      <div className="space-y-20 pointer-events-auto">
         <Suspense fallback={<div>Loading...</div>}>
           <Projects />
           <Experience />
