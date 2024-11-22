@@ -46,6 +46,7 @@ function AppContent() {
       <section className="min-h-screen flex flex-col justify-center px-4 sm:px-6 lg:px-8 relative">
         <FishEffect />
         <BubbleEffect />
+        {/* <InkEffect /> */}
         <div className="max-w-5xl mx-auto w-full pointer-events-none">
           <div className="space-y-6 animate-fadeIn">
             <div className="pointer-events-auto">
