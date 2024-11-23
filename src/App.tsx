@@ -41,14 +41,12 @@ function AppContent() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-900 to-black text-white">
-      {/* Hero Section */}
-      <section className="min-h-screen flex flex-col justify-center px-4 sm:px-6 lg:px-8 relative">
-        <FishEffect />
+    <div className="min-h-screen bg-gray-900 relative">
+      {/* Rest of the content */}
+      <section className="min-h-screen flex items-center justify-center relative px-4 sm:px-6 lg:px-8">
         <BubbleEffect />
-        {/* <InkEffect /> */}
-        <div className="max-w-5xl mx-auto w-full pointer-events-none">
-          <div className="space-y-6 animate-fadeIn">
+        <div className="max-w-5xl mx-auto w-full">
+          <div className="space-y-6 animate-fadeIn pointer-events-none">
             <div className="pointer-events-auto">
               <h1 className="text-5xl sm:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-emerald-400 break-words whitespace-normal pb-3">
                 Quang Nguyen
@@ -127,6 +125,13 @@ function AppContent() {
         </div>
       )}
 
+      {/* Game Status Section */}
+      <section className="py-8 px-4 sm:px-6 lg:px-8 bg-black/50">
+        <div className="max-w-6xl mx-auto">
+          <GameStatus />
+        </div>
+      </section>
+
       {/* Game Sections */}
       <div className="space-y-20 pointer-events-auto">
         <Suspense fallback={<div>Loading...</div>}>
@@ -142,8 +147,6 @@ function AppContent() {
       <footer className="text-center py-8 text-gray-400">
         <p>© 2024 Quang Nguyen. All rights reserved.</p>
       </footer>
-
-      <GameStatus />
     </div>
   );
 }

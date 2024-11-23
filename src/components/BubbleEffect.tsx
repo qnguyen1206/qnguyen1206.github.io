@@ -20,6 +20,8 @@ interface InkDrop {
 
 export function BubbleEffect() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
+  const bubblesRef = useRef<Bubble[]>([]);
+  const inkDropsRef = useRef<InkDrop[]>([]);
   const { addXP } = useGame();
 
   useEffect(() => {
@@ -32,16 +34,13 @@ export function BubbleEffect() {
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
 
-    const bubbles: Bubble[] = [];
-    const inkDrops: InkDrop[] = [];
-
     const MAX_BUBBLES = 20;
 
     const createBubble = () => {
-      if (bubbles.length >= MAX_BUBBLES) return;
+      if (bubblesRef.current.length >= MAX_BUBBLES) return;
       
       const size = Math.random() * 15 + 5;
-      bubbles.push({
+      bubblesRef.current.push({
         x: Math.random() * canvas.width,
         y: canvas.height + size,
         size,
@@ -53,7 +52,7 @@ export function BubbleEffect() {
     const createInkBurst = (x: number, y: number) => {
       const numDrops = 8;
       for (let i = 0; i < numDrops; i++) {
-        inkDrops.push({
+        inkDropsRef.current.push({
           x,
           y,
           radius: 5,
@@ -67,12 +66,17 @@ export function BubbleEffect() {
     const animate = () => {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
       
-      if (Math.random() > 0.95) {
+      if (Math.random() > 0.98) {
         createBubble();
       }
 
       // Animate bubbles
-      bubbles.forEach((bubble, index) => {
+      bubblesRef.current.forEach((bubble, index) => {
+        if (bubble.y < -bubble.size) {
+          bubblesRef.current.splice(index, 1);
+          return;
+        }
+
         ctx.beginPath();
         ctx.arc(bubble.x, bubble.y, bubble.size, 0, Math.PI * 2);
         ctx.strokeStyle = `rgba(59, 130, 246, ${bubble.opacity})`;
@@ -81,16 +85,12 @@ export function BubbleEffect() {
         
         bubble.y -= bubble.speedY;
         bubble.x += Math.sin(bubble.y * 0.02) * 0.5;
-
-        if (bubble.y < -bubble.size) {
-          bubbles.splice(index, 1);
-        }
       });
 
       // Animate ink drops
-      inkDrops.forEach((drop, index) => {
+      inkDropsRef.current.forEach((drop, index) => {
         if (drop.radius >= drop.maxRadius || drop.opacity <= 0) {
-          inkDrops.splice(index, 1);
+          inkDropsRef.current.splice(index, 1);
           return;
         }
 
@@ -108,38 +108,37 @@ export function BubbleEffect() {
 
     const handleClick = (e: MouseEvent) => {
       const rect = canvas.getBoundingClientRect();
-      const scrollX = window.scrollX || window.pageXOffset;
-      const scrollY = window.scrollY || window.pageYOffset;
-      
-      const x = e.clientX + scrollX - rect.left;
-      const y = e.clientY + scrollY - rect.top;
+      const x = e.clientX - rect.left;
+      const y = e.clientY - rect.top;
 
-      for (let i = bubbles.length - 1; i >= 0; i--) {
-        const bubble = bubbles[i];
+      const bubbleIndex = bubblesRef.current.findIndex(bubble => {
         const dx = bubble.x - x;
         const dy = bubble.y - y;
-        const distance = Math.sqrt(dx * dx + dy * dy);
+        return Math.sqrt(dx * dx + dy * dy) < bubble.size + 20;
+      });
 
-        if (distance < bubble.size + 10) {
-          createInkBurst(bubble.x, bubble.y);
-          bubbles.splice(i, 1);
-          const xpGain = Math.floor(Math.random() * 5) + 1;
-          addXP(xpGain);
-          break;
-        }
+      if (bubbleIndex !== -1) {
+        const bubble = bubblesRef.current[bubbleIndex];
+        createInkBurst(bubble.x, bubble.y);
+        bubblesRef.current.splice(bubbleIndex, 1);
+        const xpGain = Math.floor(Math.random() * 5) + 1;
+        addXP(xpGain);
       }
     };
 
-    animate();
+    let animationFrameId: number;
+    animationFrameId = requestAnimationFrame(animate);
     canvas.addEventListener('click', handleClick);
-    window.addEventListener('resize', () => {
+    const handleResize = () => {
       canvas.width = window.innerWidth;
       canvas.height = window.innerHeight;
-    });
+    };
+    window.addEventListener('resize', handleResize);
 
     return () => {
       canvas.removeEventListener('click', handleClick);
-      window.removeEventListener('resize', () => {});
+      window.removeEventListener('resize', handleResize);
+      cancelAnimationFrame(animationFrameId);
     };
   }, []);
 

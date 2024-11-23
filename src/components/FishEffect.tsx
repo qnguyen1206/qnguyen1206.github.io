@@ -1,4 +1,4 @@
-import { useRef, useEffect } from 'react';
+import { useRef, useEffect, useState } from 'react';
 import { useGame } from '../context/GameContext';
 
 interface Fish {
@@ -10,12 +10,12 @@ interface Fish {
   color: string;
   targetX?: number;
   targetY?: number;
-  caught?: boolean;
 }
 
 export function FishEffect() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const { addXP } = useGame();
+  const [clickedOnFish, setClickedOnFish] = useState(false);
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -89,37 +89,38 @@ export function FishEffect() {
       speed: 0.5 + Math.random() * 1,
       direction: Math.random() < 0.5 ? -1 : 1,
       size: 15 + Math.random() * 20,
-      color: `hsl(${Math.random() * 60 + 180}, 70%, 50%)`
+      color: `hsl(${Math.random() * 60 + 180}, 70%, 50%)`,
+      targetX: undefined,
+      targetY: undefined
     }));
 
     const handleClick = (e: MouseEvent) => {
       const rect = canvas.getBoundingClientRect();
-      const x = e.clientX - rect.left;
-      const y = e.clientY - rect.top;
+      const scrollX = window.scrollX || window.pageXOffset;
+      const scrollY = window.scrollY || window.pageYOffset;
+      
+      const x = e.clientX + scrollX - rect.left;
+      const y = e.clientY + scrollY - rect.top;
 
-      fishes.forEach((fish, index) => {
+      let hitFish = false;
+      fishes.forEach(fish => {
         const dx = fish.x - x;
         const dy = fish.y - y;
         const distance = Math.sqrt(dx * dx + dy * dy);
         
         if (distance < fish.size) {
-          createInkBurst(fish.x, fish.y);
-          fishes.splice(index, 1);
-          const xpGain = Math.floor(Math.random() * 10) + 5;
-          addXP(xpGain);
-          
-          setTimeout(() => {
-            fishes.push({
-              x: Math.random() * canvas.width,
-              y: Math.random() * canvas.height,
-              speed: 0.5 + Math.random() * 1,
-              direction: Math.random() < 0.5 ? -1 : 1,
-              size: 15 + Math.random() * 20,
-              color: `hsl(${Math.random() * 60 + 180}, 70%, 50%)`
-            });
-          }, 1000);
+          hitFish = true;
+          fish.targetX = x;
+          fish.targetY = y;
+          fish.direction = fish.x > x ? -1 : 1;
+          addXP(1);
         }
       });
+
+      setClickedOnFish(hitFish);
+      if (!hitFish) {
+        e.stopPropagation();
+      }
     };
 
     const animate = () => {
@@ -143,19 +144,34 @@ export function FishEffect() {
 
       // Animate fish
       fishes.forEach(fish => {
-        fish.x += fish.speed * fish.direction;
-        fish.y += Math.sin(Date.now() * 0.002) * 0.5;
+        if (fish.targetX !== undefined && fish.targetY !== undefined) {
+          const dx = fish.targetX - fish.x;
+          const dy = fish.targetY - fish.y;
+          const distance = Math.sqrt(dx * dx + dy * dy);
 
-        if (fish.x > canvas.width + fish.size * 2) {
-          fish.x = -fish.size * 2;
-        } else if (fish.x < -fish.size * 2) {
-          fish.x = canvas.width + fish.size * 2;
-        }
+          if (distance > 5) {
+            fish.x += (dx / distance) * fish.speed;
+            fish.y += (dy / distance) * fish.speed;
+            fish.direction = dx > 0 ? 1 : -1;
+          } else {
+            fish.targetX = undefined;
+            fish.targetY = undefined;
+          }
+        } else {
+          fish.x += fish.speed * fish.direction;
+          fish.y += Math.sin(Date.now() * 0.002) * 0.5;
 
-        if (fish.y > canvas.height + fish.size) {
-          fish.y = -fish.size;
-        } else if (fish.y < -fish.size) {
-          fish.y = canvas.height + fish.size;
+          if (fish.x > canvas.width + fish.size * 2) {
+            fish.x = -fish.size * 2;
+          } else if (fish.x < -fish.size * 2) {
+            fish.x = canvas.width + fish.size * 2;
+          }
+
+          if (fish.y > canvas.height + fish.size) {
+            fish.y = -fish.size;
+          } else if (fish.y < -fish.size) {
+            fish.y = canvas.height + fish.size;
+          }
         }
 
         drawFish(fish);
@@ -185,7 +201,7 @@ export function FishEffect() {
         zIndex: 0,
         background: 'transparent',
         mixBlendMode: 'lighten',
-        pointerEvents: 'all'
+        pointerEvents: clickedOnFish ? 'all' : 'none'
       }}
     />
   );

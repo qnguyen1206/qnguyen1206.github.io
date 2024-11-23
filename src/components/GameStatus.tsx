@@ -15,7 +15,6 @@ export default function GameStatus() {
   const educationProgress = (progress.education.size / progress.totalEducation) * 100;
   const [showXP, setShowXP] = useState(false);
   const [xpAmount, setXPAmount] = useState(0);
-  const [isExpanded, setIsExpanded] = useState(false);
 
   useEffect(() => {
     if (progress.projects.size > 0 || progress.skills.size > 0 || progress.education.size > 0) {
@@ -29,73 +28,64 @@ export default function GameStatus() {
     }
   }, [progress.projects.size, progress.skills.size, progress.education.size]);
 
-  const [isLoading, setIsLoading] = useState(true);
-
-  useEffect(() => {
-    setIsLoading(false);
-  }, []);
-
-  if (isLoading) return <div>Loading...</div>;
-
   return (
     <ErrorBoundary fallback={<div>Error loading game status</div>}>
-      <div className="fixed top-4 left-1/2 -translate-x-1/2 bg-gray-800/90 p-3 rounded-lg border border-blue-500 z-50 transition-all duration-300">
+      <div className="bg-gray-800/90 p-6 rounded-lg border border-blue-500">
         {showXP && <XPTooltip amount={xpAmount} />}
         
-        {/* Always visible section */}
-        <div className="flex flex-col items-center gap-2 cursor-pointer" onClick={() => setIsExpanded(!isExpanded)}>
-          <div className="flex items-center gap-2">
-            <Shield className="text-blue-400 w-5 h-5" />
-            <span className="text-sm font-bold">Level {level}</span>
-          </div>
-          
-          <div className="flex items-center gap-2">
-            <span className="text-xs">XP</span>
-            <div className="w-24 bg-gray-700 rounded-full h-1.5">
-              <div className="bg-blue-500 h-full rounded-full transition-all"
-                   style={{ width: `${xpProgress * 100}%` }} />
-            </div>
-            <span className="text-xs">{Math.floor(xpProgress * 100)}%</span>
-          </div>
-        </div>
-
-        {/* Expandable section */}
-        <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-40 mt-4' : 'max-h-0'}`}>
-          <div className="flex flex-wrap gap-4">
+        <div className="flex flex-col gap-6">
+          {/* Level and XP */}
+          <div className="flex flex-col items-center gap-4">
             <div className="flex items-center gap-2">
-              <span className="text-xs">Projects</span>
-              <div className="w-24 bg-gray-700 rounded-full h-1.5">
+              <Shield className="text-blue-400 w-8 h-8" />
+              <span className="text-2xl font-bold">Level {level}</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="text-sm">XP</span>
+              <div className="w-48 bg-gray-700 rounded-full h-2.5">
+                <div className="bg-blue-500 h-full rounded-full transition-all"
+                     style={{ width: `${xpProgress * 100}%` }} />
+              </div>
+              <span className="text-sm">{Math.floor(xpProgress * 100)}%</span>
+            </div>
+          </div>
+
+          {/* Progress Grid */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div className="flex flex-col gap-2">
+              <span className="text-sm font-medium">Projects</span>
+              <div className="w-full bg-gray-700 rounded-full h-2">
                 <div className="bg-green-500 h-full rounded-full transition-all"
                      style={{ width: `${projectProgress}%` }} />
               </div>
-              <span className="text-xs">{progress.projects.size}/{progress.totalProjects}</span>
+              <span className="text-xs text-center">{progress.projects.size}/{progress.totalProjects}</span>
             </div>
 
-            <div className="flex items-center gap-2">
-              <span className="text-xs">Skills</span>
-              <div className="w-24 bg-gray-700 rounded-full h-1.5">
+            <div className="flex flex-col gap-2">
+              <span className="text-sm font-medium">Skills</span>
+              <div className="w-full bg-gray-700 rounded-full h-2">
                 <div className="bg-yellow-500 h-full rounded-full transition-all"
                      style={{ width: `${skillProgress}%` }} />
               </div>
-              <span className="text-xs">{progress.skills.size}/{progress.totalSkills}</span>
+              <span className="text-xs text-center">{progress.skills.size}/{progress.totalSkills}</span>
             </div>
 
-            <div className="flex items-center gap-2">
-              <span className="text-xs">Exp</span>
-              <div className="w-24 bg-gray-700 rounded-full h-1.5">
+            <div className="flex flex-col gap-2">
+              <span className="text-sm font-medium">Experience</span>
+              <div className="w-full bg-gray-700 rounded-full h-2">
                 <div className="bg-purple-500 h-full rounded-full transition-all"
                      style={{ width: `${experienceProgress}%` }} />
               </div>
-              <span className="text-xs">{progress.experiences.size}/{progress.totalExperiences}</span>
+              <span className="text-xs text-center">{progress.experiences.size}/{progress.totalExperiences}</span>
             </div>
 
-            <div className="flex items-center gap-2">
-              <span className="text-xs">Edu</span>
-              <div className="w-24 bg-gray-700 rounded-full h-1.5">
+            <div className="flex flex-col gap-2">
+              <span className="text-sm font-medium">Education</span>
+              <div className="w-full bg-gray-700 rounded-full h-2">
                 <div className="bg-green-500 h-full rounded-full transition-all"
                      style={{ width: `${educationProgress}%` }} />
               </div>
-              <span className="text-xs">{progress.education.size}/{progress.totalEducation}</span>
+              <span className="text-xs text-center">{progress.education.size}/{progress.totalEducation}</span>
             </div>
           </div>
         </div>
