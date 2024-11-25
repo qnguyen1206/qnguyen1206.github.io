@@ -30,7 +30,7 @@ export default function GameStatus() {
 
   return (
     <ErrorBoundary fallback={<div>Error loading game status</div>}>
-      <div className="bg-gray-800/90 p-6 rounded-lg border border-blue-500">
+      <div className="relative backdrop-blur-md bg-black/30 p-4 rounded-lg border border-blue-500/20 shadow-lg">
         {showXP && <XPTooltip amount={xpAmount} />}
         
         <div className="flex flex-col gap-6">

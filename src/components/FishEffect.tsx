@@ -14,8 +14,24 @@ interface Fish {
 
 export function FishEffect() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
+  const fishesRef = useRef<Fish[]>([]);
   const { addXP } = useGame();
   const [clickedOnFish, setClickedOnFish] = useState(false);
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const experienceSection = document.getElementById('experience');
+    const observer = new IntersectionObserver(
+      ([entry]) => setIsVisible(entry.isIntersecting),
+      { threshold: 0.1 }
+    );
+
+    if (experienceSection) {
+      observer.observe(experienceSection);
+    }
+
+    return () => observer.disconnect();
+  }, []);
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -83,7 +99,7 @@ export function FishEffect() {
       ctx.restore();
     };
 
-    const fishes: Fish[] = Array.from({ length: 5 }, () => ({
+    fishesRef.current = Array.from({ length: 5 }, () => ({
       x: Math.random() * canvas.width,
       y: Math.random() * canvas.height,
       speed: 0.5 + Math.random() * 1,
@@ -103,7 +119,7 @@ export function FishEffect() {
       const y = e.clientY + scrollY - rect.top;
 
       let hitFish = false;
-      fishes.forEach(fish => {
+      fishesRef.current.forEach(fish => {
         const dx = fish.x - x;
         const dy = fish.y - y;
         const distance = Math.sqrt(dx * dx + dy * dy);
@@ -143,34 +159,43 @@ export function FishEffect() {
       });
 
       // Animate fish
-      fishes.forEach(fish => {
-        if (fish.targetX !== undefined && fish.targetY !== undefined) {
-          const dx = fish.targetX - fish.x;
-          const dy = fish.targetY - fish.y;
-          const distance = Math.sqrt(dx * dx + dy * dy);
-
-          if (distance > 5) {
-            fish.x += (dx / distance) * fish.speed;
-            fish.y += (dy / distance) * fish.speed;
-            fish.direction = dx > 0 ? 1 : -1;
-          } else {
-            fish.targetX = undefined;
-            fish.targetY = undefined;
-          }
+      fishesRef.current.forEach(fish => {
+        if (!isVisible) {
+          // Swim away when not visible
+          const centerX = canvas.width / 2;
+          const dx = fish.x - centerX;
+          const direction = dx > 0 ? 1 : -1;
+          fish.x += fish.speed * 2 * direction;
+          fish.direction = direction;
         } else {
-          fish.x += fish.speed * fish.direction;
-          fish.y += Math.sin(Date.now() * 0.002) * 0.5;
+          if (fish.targetX !== undefined && fish.targetY !== undefined) {
+            const dx = fish.targetX - fish.x;
+            const dy = fish.targetY - fish.y;
+            const distance = Math.sqrt(dx * dx + dy * dy);
 
-          if (fish.x > canvas.width + fish.size * 2) {
-            fish.x = -fish.size * 2;
-          } else if (fish.x < -fish.size * 2) {
-            fish.x = canvas.width + fish.size * 2;
-          }
+            if (distance > 5) {
+              fish.x += (dx / distance) * fish.speed;
+              fish.y += (dy / distance) * fish.speed;
+              fish.direction = dx > 0 ? 1 : -1;
+            } else {
+              fish.targetX = undefined;
+              fish.targetY = undefined;
+            }
+          } else {
+            fish.x += fish.speed * fish.direction;
+            fish.y += Math.sin(Date.now() * 0.002) * 0.5;
 
-          if (fish.y > canvas.height + fish.size) {
-            fish.y = -fish.size;
-          } else if (fish.y < -fish.size) {
-            fish.y = canvas.height + fish.size;
+            if (fish.x > canvas.width + fish.size * 2) {
+              fish.x = -fish.size * 2;
+            } else if (fish.x < -fish.size * 2) {
+              fish.x = canvas.width + fish.size * 2;
+            }
+
+            if (fish.y > canvas.height + fish.size) {
+              fish.y = -fish.size;
+            } else if (fish.y < -fish.size) {
+              fish.y = canvas.height + fish.size;
+            }
           }
         }
 
@@ -193,6 +218,22 @@ export function FishEffect() {
     };
   }, []);
 
+  useEffect(() => {
+    if (isVisible) {
+      // Reset fish positions when becoming visible
+      fishesRef.current = Array.from({ length: 5 }, () => ({
+        x: Math.random() < 0.5 ? -20 : window.innerWidth + 20,
+        y: Math.random() * window.innerHeight,
+        speed: 0.5 + Math.random() * 1,
+        direction: Math.random() < 0.5 ? -1 : 1,
+        size: 15 + Math.random() * 20,
+        color: `hsl(${Math.random() * 60 + 180}, 70%, 50%)`,
+        targetX: undefined,
+        targetY: undefined
+      }));
+    }
+  }, [isVisible]);
+
   return (
     <canvas
       ref={canvasRef}
@@ -201,7 +242,10 @@ export function FishEffect() {
         zIndex: 0,
         background: 'transparent',
         mixBlendMode: 'lighten',
-        pointerEvents: clickedOnFish ? 'all' : 'none'
+        pointerEvents: clickedOnFish ? 'all' : 'none',
+        opacity: isVisible ? 1 : 0,
+        transition: 'opacity 1s ease-in-out',
+        visibility: isVisible ? 'visible' : 'hidden'
       }}
     />
   );

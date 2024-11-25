@@ -18,10 +18,19 @@ interface InkDrop {
   opacity: number;
 }
 
+interface FloatingText {
+  x: number;
+  y: number;
+  value: number;
+  opacity: number;
+  speed: number;
+}
+
 export function BubbleEffect() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const bubblesRef = useRef<Bubble[]>([]);
   const inkDropsRef = useRef<InkDrop[]>([]);
+  const floatingTextsRef = useRef<FloatingText[]>([]);
   const { addXP } = useGame();
 
   useEffect(() => {
@@ -103,6 +112,21 @@ export function BubbleEffect() {
         drop.opacity -= 0.01;
       });
 
+      // Animate floating texts
+      floatingTextsRef.current.forEach((text, index) => {
+        if (text.opacity <= 0) {
+          floatingTextsRef.current.splice(index, 1);
+          return;
+        }
+
+        ctx.font = 'bold 16px Arial';
+        ctx.fillStyle = `rgba(59, 130, 246, ${text.opacity})`;
+        ctx.fillText(`+${text.value}XP`, text.x, text.y);
+        
+        text.y -= text.speed;
+        text.opacity -= 0.02;
+      });
+
       requestAnimationFrame(animate);
     };
 
@@ -123,6 +147,15 @@ export function BubbleEffect() {
         bubblesRef.current.splice(bubbleIndex, 1);
         const xpGain = Math.floor(Math.random() * 5) + 1;
         addXP(xpGain);
+        
+        // Add floating text
+        floatingTextsRef.current.push({
+          x: bubble.x,
+          y: bubble.y,
+          value: xpGain,
+          opacity: 1,
+          speed: 1
+        });
       }
     };
 
