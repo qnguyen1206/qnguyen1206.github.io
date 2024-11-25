@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Github, Linkedin, Mail, ChevronDown } from 'lucide-react';
+import { Github, Linkedin, Mail, ChevronDown, FileText } from 'lucide-react';
 import { Suspense, lazy } from 'react';
 import GameStatus from './components/GameStatus';
 import { GameProvider, useGame } from './context/GameContext';
@@ -80,7 +80,7 @@ function AppContent() {
                 Fun Fact: This portfolio was built with the assistance of AI tools: Cursor, V0, and Bolt.
               </p>
             </div>
-            <div className="flex gap-4">
+            <div className="flex gap-4 pointer-events-auto">
               <a href="https://github.com/Kairu1206" target="_blank" rel="noopener noreferrer" 
                  className="p-2 hover:text-blue-400 transition-colors">
                 <Github size={24} />
@@ -98,6 +98,11 @@ function AppContent() {
               <a href="mailto:contact@example.com"
                  className="p-2 hover:text-blue-400 transition-colors">
                 <Mail size={24} />
+              </a>
+              <a href="/resume.pdf" download
+                 className="p-2 hover:text-blue-400 transition-colors flex items-center gap-2">
+                <FileText size={24} />
+                <span>Resume</span>
               </a>
             </div>
           </div>
