@@ -21,18 +21,50 @@ export function useGame() {
 }
 
 export function GameProvider({ children }: { children: React.ReactNode }) {
-  const [level, setLevel] = useState(1);
-  const [xp, setXP] = useState(0);
-  const [progress, setProgress] = useState<GameProgress>(() => ({
-    projects: new Set<string>(),
-    skills: new Set<string>(),
-    experiences: new Set<string>(),
-    education: new Set<string>(),
-    totalProjects: TOTAL_PROJECTS,
-    totalSkills: TOTAL_SKILLS,
-    totalExperiences: TOTAL_EXPERIENCES,
-    totalEducation: TOTAL_EDUCATION
-  }));
+  const [level, setLevel] = useState(() => {
+    const saved = localStorage.getItem('gameState');
+    if (saved) {
+      const { level } = JSON.parse(saved);
+      return level;
+    }
+    return 1;
+  });
+
+  const [xp, setXP] = useState(() => {
+    const saved = localStorage.getItem('gameState');
+    if (saved) {
+      const { xp } = JSON.parse(saved);
+      return xp;
+    }
+    return 0;
+  });
+
+  const [progress, setProgress] = useState<GameProgress>(() => {
+    const saved = localStorage.getItem('gameState');
+    if (saved) {
+      const { progress: savedProgress } = JSON.parse(saved);
+      return {
+        projects: new Set(savedProgress.projects),
+        skills: new Set(savedProgress.skills),
+        experiences: new Set(savedProgress.experiences),
+        education: new Set(savedProgress.education),
+        totalProjects: TOTAL_PROJECTS,
+        totalSkills: TOTAL_SKILLS,
+        totalExperiences: TOTAL_EXPERIENCES,
+        totalEducation: TOTAL_EDUCATION
+      };
+    }
+    return {
+      projects: new Set<string>(),
+      skills: new Set<string>(),
+      experiences: new Set<string>(),
+      education: new Set<string>(),
+      totalProjects: TOTAL_PROJECTS,
+      totalSkills: TOTAL_SKILLS,
+      totalExperiences: TOTAL_EXPERIENCES,
+      totalEducation: TOTAL_EDUCATION
+    };
+  });
 
   const addProgress = ({ type, id }: ProgressAction) => {
     try {
@@ -41,7 +73,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
       if (type === 'VIEW_PROJECT' && !progress.projects.has(id)) {
         setProgress(prev => {
           const newProjects = new Set(prev.projects).add(id);
-          setXP(prev => {
+          setXP((prev: number) => {
             const newXP = prev + COMPLETION_XP.PROJECT;
             setLevel(Math.floor(newXP / 100) + 1);
             return newXP;
@@ -51,7 +83,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
       } else if (type === 'VIEW_SKILL' && !progress.skills.has(id)) {
         setProgress(prev => {
           const newSkills = new Set(prev.skills).add(id);
-          setXP(prev => {
+          setXP((prev: number) => {
             const newXP = prev + COMPLETION_XP.SKILL;
             setLevel(Math.floor(newXP / 100) + 1);
             return newXP;
@@ -61,7 +93,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
       } else if (type === 'VIEW_EXPERIENCE' && !progress.experiences.has(id)) {
         setProgress(prev => {
           const newExperiences = new Set(prev.experiences).add(id);
-          setXP(prev => {
+          setXP((prev: number) => {
             const newXP = prev + COMPLETION_XP.EXPERIENCE;
             setLevel(Math.floor(newXP / 100) + 1);
             return newXP;
@@ -71,7 +103,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
       } else if (type === 'VIEW_EDUCATION' && !progress.education.has(id)) {
         setProgress(prev => {
           const newEducation = new Set(prev.education).add(id);
-          setXP(prev => {
+          setXP((prev: number) => {
             const newXP = prev + COMPLETION_XP.EDUCATION;
             setLevel(Math.floor(newXP / 100) + 1);
             return newXP;
@@ -85,7 +117,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
   };
 
   const addXP = (amount: number) => {
-    setXP(prev => {
+    setXP((prev: number) => {
       const newXP = prev + amount;
       setLevel(Math.floor(newXP / 100) + 1);
       return newXP;

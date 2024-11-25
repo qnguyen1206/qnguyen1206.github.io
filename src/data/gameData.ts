@@ -187,19 +187,12 @@ export const projects: Project[] = [
     types: ['Game Development', 'Course Work']
   },
   {
-    title: 'IP Geolocation Service',
-    description: 'A service that provides real-time location data using IP addresses and geolocation APIs, built with security and privacy in mind.',
-    image: 'images/ipIcon.png',
-    tech: 'HTML, CSS, JavaScript, IP Geolocation API, PHP, MySQL',
-    status: 'Private',
-    types: ['Security Research', 'Personal Projects']
-  },
-  {
-    title: 'Advanced Keylogger',
-    description: 'A security research project demonstrating keylogging vulnerabilities and countermeasures in modern systems.',
-    image: 'images/keyloggerIcon.png',
+    title: 'Common Web Security Vulnerabilities and Prevention',
+    description: 'A demonstration of common web security vulnerabilities and prevention techniques.',
+    image: 'images/webIcon.png',
     tech: 'HTML, CSS, JavaScript, PHP, MySQL',
     status: 'Private',
+    live: '/src/consent-demo/index.html',
     types: ['Security Research', 'Personal Projects']
   },
   {

@@ -4,6 +4,13 @@ import { useGame } from '../context/GameContext';
 import { projects, TOTAL_PROJECTS } from '../data/gameData';
 import { COMPLETION_XP, type Project } from '../types/game';
 
+const STATUS_COLORS = {
+  'In Development': 'bg-blue-500/20 text-blue-300',
+  'Private': 'bg-purple-500/20 text-purple-300',
+  'Under NDA': 'bg-red-500/20 text-red-300',
+  'API Deprecated': 'bg-yellow-500/20 text-yellow-300'
+} as const;
+
 function Projects() {
   const [selectedType, setSelectedType] = useState('all');
   const { addProgress, progress } = useGame();
@@ -88,7 +95,9 @@ function Projects() {
                     <span className="font-semibold">Tech:</span> {project.tech}
                   </div>
                   {project.status && (
-                    <div className="inline-block px-3 py-1 bg-emerald-500/20 text-emerald-300 rounded-full text-sm">
+                    <div className={`inline-block px-3 py-1 rounded-full text-sm ${
+                      STATUS_COLORS[project.status as keyof typeof STATUS_COLORS] || 'bg-emerald-500/20 text-emerald-300'
+                    }`}>
                       {project.status}
                     </div>
                   )}

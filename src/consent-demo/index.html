@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Research Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="consent-screen">
+            <h1>Security Research Demo</h1>
+            <p>Educational demonstration of common web security vulnerabilities.</p>
+            
+            <div class="consent-options">
+                <div class="consent-card">
+                    <h3>Geolocation Access</h3>
+                    <p>Shows how websites can track your location.</p>
+                    <div class="prevention-tips">
+                        <h4>Prevention:</h4>
+                        <ul>
+                            <li>Use browser location permissions carefully</li>
+                            <li>Enable location only for trusted sites</li>
+                            <li>Use VPN to mask real location</li>
+                        </ul>
+                    </div>
+                    <button onclick="requestGeolocation()" class="consent-button">Try Demo</button>
+                    <div id="geo-result" class="result-area"></div>
+                </div>
+
+                <div class="consent-card">
+                    <h3>Keylogging Detection</h3>
+                    <p>Demonstrates keystroke monitoring.</p>
+                    <div class="prevention-tips">
+                        <h4>Prevention:</h4>
+                        <ul>
+                            <li>Use virtual keyboards for sensitive data</li>
+                            <li>Install anti-keylogger software</li>
+                            <li>Keep system updated against malware</li>
+                        </ul>
+                    </div>
+                    <button onclick="startKeylogger()" class="consent-button">Try Demo</button>
+                    <div id="keylog-area" class="result-area hidden">
+                        <textarea id="test-input" placeholder="Type here..."></textarea>
+                        <div id="keylog-display"></div>
+                    </div>
+                </div>
+
+                <div class="consent-card">
+                    <h3>XSS Prevention</h3>
+                    <p>Shows how malicious scripts can be injected.</p>
+                    <div class="prevention-tips">
+                        <h4>Prevention:</h4>
+                        <ul>
+                            <li>Always sanitize user input</li>
+                            <li>Use Content Security Policy (CSP)</li>
+                            <li>Enable HTTPOnly cookies</li>
+                            <li>Implement input validation</li>
+                            <li>Use modern framework escaping</li>
+                        </ul>
+                    </div>
+                    <div class="demo-instructions">
+                        <p>Try these XSS examples:</p>
+                        <code>&lt;script&gt;alert('xss')&lt;/script&gt;</code>
+                        <code>&lt;img src="x" onerror="alert('xss')"&gt;</code>
+                        <code>&lt;a href="javascript:alert('xss')"&gt;click me&lt;/a&gt;</code>
+                        <code>&lt;svg onload="alert('xss')"&gt;&lt;/svg&gt;</code>
+                    </div>
+                    <button onclick="demonstrateXSS()" class="consent-button">Try Demo</button>
+                    <div id="xss-area" class="result-area hidden">
+                        <input type="text" id="xss-input" placeholder="Enter or click an example above..." class="demo-input">
+                        <div id="xss-output"></div>
+                    </div>
+                </div>
+
+                <div class="consent-card">
+                    <h3>Browser Fingerprint</h3>
+                    <p>Shows unique browser identification data.</p>
+                    <div class="prevention-tips">
+                        <h4>Prevention:</h4>
+                        <ul>
+                            <li>Use privacy-focused browsers</li>
+                            <li>Enable fingerprinting protection</li>
+                            <li>Use browser extensions like Privacy Badger</li>
+                        </ul>
+                    </div>
+                    <button onclick="showFingerprint()" class="consent-button">Try Demo</button>
+                    <div id="fingerprint-result" class="result-area"></div>
+                </div>
+
+                <div class="consent-card">
+                    <h3>CSRF Attack</h3>
+                    <p>Shows how cross-site request forgery works.</p>
+                    <div class="prevention-tips">
+                        <h4>Prevention:</h4>
+                        <ul>
+                            <li>Implement CSRF tokens</li>
+                            <li>Check Origin and Referer headers</li>
+                            <li>Use SameSite cookie attribute</li>
+                            <li>Require re-authentication for sensitive actions</li>
+                        </ul>
+                    </div>
+                    <div class="demo-instructions">
+                        <p>Example CSRF attack:</p>
+                        <code>&lt;img src="http://bank.com/transfer?amount=1000&to=attacker"&gt;</code>
+                    </div>
+                    <button onclick="demonstrateCSRF()" class="consent-button">Try Demo</button>
+                    <div id="csrf-area" class="result-area hidden"></div>
+                </div>
+
+                <div class="consent-card">
+                    <h3>SQL Injection</h3>
+                    <p>Demonstrates SQL injection vulnerabilities.</p>
+                    <div class="prevention-tips">
+                        <h4>Prevention:</h4>
+                        <ul>
+                            <li>Use parameterized queries</li>
+                            <li>Input validation and sanitization</li>
+                            <li>Principle of least privilege</li>
+                            <li>Regular security audits</li>
+                        </ul>
+                    </div>
+                    <div class="demo-instructions">
+                        <p>Try these SQL injection examples:</p>
+                        <code>admin' OR '1'='1</code>
+                        <code>'; DROP TABLE users; --</code>
+                        <code>' UNION SELECT * FROM passwords --</code>
+                    </div>
+                    <button onclick="demonstrateSQLi()" class="consent-button">Try Demo</button>
+                    <div id="sqli-area" class="result-area hidden">
+                        <input type="text" id="sqli-input" placeholder="Enter username to query..." class="demo-input">
+                        <div id="sqli-output"></div>
+                    </div>
+                </div>
+
+                <div class="consent-card">
+                    <h3>Local Storage Security</h3>
+                    <p>Shows risks of storing sensitive data.</p>
+                    <div class="prevention-tips">
+                        <h4>Prevention:</h4>
+                        <ul>
+                            <li>Never store sensitive data in localStorage</li>
+                            <li>Use HttpOnly cookies for auth tokens</li>
+                            <li>Implement proper session management</li>
+                            <li>Encrypt sensitive client-side data</li>
+                        </ul>
+                    </div>
+                    <button onclick="demonstrateStorage()" class="consent-button">Try Demo</button>
+                    <div id="storage-area" class="result-area hidden"></div>
+                </div>
+            </div>
+
+            <div class="footer">
+                <p>⚠️ Educational purposes only. No data is stored or transmitted.</p>
+                <a href="/" class="back-link">← Back to Portfolio</a>
+            </div>
+        </div>
+    </div>
+    <script src="demo.js"></script>
+</body>
+</html> 
