@@ -62,9 +62,17 @@ function Experience() {
                   <h3 className="text-xl font-semibold text-blue-400 break-normal">{exp.title}</h3>
                   <p className="text-gray-400">{exp.company}</p>
                 </div>
-                <div className="flex-shrink-0 flex items-center gap-2 text-gray-400">
-                  <Calendar size={16} />
-                  <span>{exp.period}</span>
+                <div className="flex-shrink-0 flex flex-col sm:flex-row items-end sm:items-center gap-2 text-gray-400 text-sm">
+                  <Calendar size={16} className="flex-shrink-0" />
+                  <span className="text-right">
+                    {exp.period.split(' - ').map((date, index) => (
+                      <React.Fragment key={index}>
+                        {date}
+                        {index === 0 && <br className="sm:hidden" />}
+                        {index === 0 && <span className="sm:inline hidden"> - </span>}
+                      </React.Fragment>
+                    ))}
+                  </span>
                 </div>
               </div>
               {exp.description && (

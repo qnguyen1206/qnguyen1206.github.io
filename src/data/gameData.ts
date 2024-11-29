@@ -193,7 +193,7 @@ export const projects: Project[] = [
     tech: 'HTML, CSS, JavaScript, PHP, MySQL',
     status: 'Private',
     live: '/src/consent-demo/index.html',
-    types: ['Security Research', 'Personal Projects']
+    types: ['Cybersecurity Research', 'Personal Projects']
   },
   {
     title: 'Pwnagotchi Implementation',
@@ -201,7 +201,7 @@ export const projects: Project[] = [
     image: 'images/pwnagotchiIcon.png',
     tech: 'Python, Raspberry Pi',
     status: 'Private',
-    types: ['Security Research', 'Personal Projects']
+    types: ['Cybersecurity Research', 'Personal Projects']
   },
   {
     title: 'RF Security Analysis Tool',
@@ -209,7 +209,7 @@ export const projects: Project[] = [
     image: 'images/flipperzeroIcon.png',
     tech: 'C, Flipper Zero, RF Analysis',
     status: 'Private',
-    types: ['Security Research', 'Personal Projects']
+    types: ['Cybersecurity Research', 'Personal Projects']
   }
 ];
 

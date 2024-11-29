@@ -43,7 +43,7 @@ function Projects() {
           ))}
         </div>
         <div className="flex flex-wrap justify-center gap-4 mb-8">
-          {['Security Research', 'Course Work', 'Club Projects', 'Personal Projects'].map(type => (
+          {['Cybersecurity Research', 'Course Work', 'Club Projects', 'Personal Projects'].map(type => (
             <button
               key={type}
               onClick={() => setSelectedType(type)}
