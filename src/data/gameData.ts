@@ -107,6 +107,31 @@ export const skillCategories: Record<string, SkillCategory> = {
 
 export const TOTAL_SKILLS = Object.keys(skillCategories).length;
 
+export type ProjectStatus = 'In Development' | 'On Hold' | 'Finished' | 'Private' | 'Under NDA' | 'API Deprecated';
+export type ProjectStatuses = ProjectStatus[];
+
+export const getStatusColor = (status: ProjectStatus | ProjectStatuses): string => {
+  if (Array.isArray(status)) {
+    return getStatusColor(status[0]);
+  }
+  switch (status) {
+    case 'In Development':
+      return 'text-yellow-500';
+    case 'On Hold':
+      return 'text-red-500';
+    case 'Finished':
+      return 'text-green-500';
+    case 'Private':
+      return 'text-gray-500';
+    case 'Under NDA':
+      return 'text-purple-500';
+    case 'API Deprecated':
+      return 'text-orange-500';
+    default:
+      return 'text-gray-500';
+  }
+};
+
 export const projects: Project[] = [
   {
     title: 'WanderSync App',
@@ -114,6 +139,7 @@ export const projects: Project[] = [
     image: 'images/AndroidStudioIcon.png',
     tech: 'Java, Firebase, Android Studio, GitHub',
     github: 'https://github.com/Kairu1206/CS2340D_Team26',
+    status: ['Finished'],
     types: ['App Development', 'Course Work']
   },
   {
@@ -121,7 +147,7 @@ export const projects: Project[] = [
     description: 'A multiplayer racing game where cars and technology meet, designed using Godot and Steamworks.',
     image: 'images/KartIcon.png',
     tech: 'GDscript, GodotSteam, GitLab, Steamworks',
-    status: 'In Development',
+    status: ['In Development', 'Private'],
     types: ['Game Development']
   },
   {
@@ -129,7 +155,7 @@ export const projects: Project[] = [
     description: 'A co-op game where players immerse in the world of mythical creatures with real-world folklores and fantasies.',
     image: 'images/InQnityIcon.png',
     tech: 'GDscript, GodotSteam, GitLab, Steamworks',
-    status: 'In Development',
+    status: ['In Development', 'Private'],
     types: ['Game Development', 'Personal Projects']
   },
   {
@@ -137,6 +163,7 @@ export const projects: Project[] = [
     description: 'A 2.5D bullet-hell game where players battle through a kingdom\'s dungeon as a jester.',
     image: 'images/WYiMIcon.png',
     tech: 'Unity, C#, GitHub',
+    status: ['Finished'],
     github: 'https://github.com/Kairu1206/WYiM',
     live: 'https://jhaboon.itch.io/wyim',
     types: ['Game Development', 'Club Projects']
@@ -146,6 +173,7 @@ export const projects: Project[] = [
     description: 'A 2D platformer game where players escape from a mutant snail that broke out from the lab.',
     image: 'images/GastropodaIcon.png',
     tech: 'Unity, C#, GitHub',
+    status: ['Finished'],
     github: 'https://github.com/Kairu1206/gastropoda',
     live: 'https://jhaboon.itch.io/gastropoda-v115',
     types: ['Game Development', 'Club Projects']
@@ -155,7 +183,7 @@ export const projects: Project[] = [
     description: 'A customer service app providing connection between customers, employees and company services.',
     image: 'images/ndaAppIcon.png',
     tech: 'C#, PHP, MySQL, PHPMyAdmin',
-    status: 'Under NDA',
+    status: ['Under NDA', 'Private'],
     types: ['App Development']
   },
   {
@@ -165,7 +193,7 @@ export const projects: Project[] = [
     tech: 'HTML, CSS, JavaScript, ChatGPT API',
     github: 'https://github.com/Kairu1206/chatbot',
     live: '/src/chatbot/index.html',
-    status: 'API Deprecated',
+    status: ['API Deprecated', 'Finished'],
     types: ['Web Development', 'Course Work']
   },
   {
@@ -174,6 +202,7 @@ export const projects: Project[] = [
     image: 'images/AframeIcon.png',
     tech: 'HTML, CSS, Aframe',
     github: 'https://github.com/Kairu1206/aframe-remix',
+    status: ['Finished'],
     live: '/src/aframe-remix/aframe-index.html',
     types: ['Web Development', 'Course Work']
   },
@@ -183,6 +212,7 @@ export const projects: Project[] = [
     image: 'images/GameBoyIcon.png',
     tech: 'C, GBA SDK',
     github: 'https://github.com/Kairu1206/CS2110',
+    status: ['Finished'],
     live: '/src/emulatorjs_gba/index.html',
     types: ['Game Development', 'Course Work']
   },
@@ -191,7 +221,7 @@ export const projects: Project[] = [
     description: 'A demonstration of common web security vulnerabilities and prevention techniques.',
     image: 'images/webIcon.png',
     tech: 'HTML, CSS, JavaScript, PHP, MySQL',
-    status: 'Private',
+    status: ['Private', 'In Development'],
     live: '/src/consent-demo/index.html',
     types: ['Cybersecurity Research', 'Personal Projects']
   },
@@ -200,7 +230,7 @@ export const projects: Project[] = [
     description: 'A custom implementation of Pwnagotchi for WiFi security research and analysis.',
     image: 'images/pwnagotchiIcon.png',
     tech: 'Python, Raspberry Pi',
-    status: 'Private',
+    status: ['Private', 'On Hold'],
     types: ['Cybersecurity Research', 'Personal Projects']
   },
   {
@@ -208,7 +238,7 @@ export const projects: Project[] = [
     description: 'A research project exploring radio frequency security using Flipper Zero, focusing on automotive systems.',
     image: 'images/flipperzeroIcon.png',
     tech: 'C, Flipper Zero, RF Analysis',
-    status: 'Private',
+    status: ['Private', 'On Hold'],
     types: ['Cybersecurity Research', 'Personal Projects']
   }
 ];
@@ -307,6 +337,12 @@ export const galleryItems: GalleryItem[] = [
     image: "/images/gallery/InQnityIcon.png",
     title: "InQnity: Mythical Hunt",
     description: "Game icon design",
+    categories: ["digital", "design"]
+  },
+  {
+    image: "/images/gallery/digital_2.png",
+    title: "Cat 2",
+    description: "Cat drawing",
     categories: ["digital", "design"]
   },
   {

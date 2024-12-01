@@ -8,10 +8,12 @@ import imageCompression from 'browser-image-compression';
 import { LazyImage } from './LazyImage';
 
 const STATUS_COLORS = {
-  'In Development': 'bg-blue-500/20 text-blue-300',
-  'Private': 'bg-purple-500/20 text-purple-300',
-  'Under NDA': 'bg-red-500/20 text-red-300',
-  'API Deprecated': 'bg-yellow-500/20 text-yellow-300'
+  'In Development': 'bg-yellow-500/20 text-yellow-300',
+  'On Hold': 'bg-red-500/20 text-red-300',
+  'Finished': 'bg-green-500/20 text-green-300',
+  'Private': 'bg-gray-500/20 text-cyan-300',
+  'Under NDA': 'bg-purple-500/20 text-purple-300',
+  'API Deprecated': 'bg-orange-500/20 text-orange-300'
 } as const;
 
 const compressionOptions = {
@@ -188,13 +190,28 @@ function Projects() {
                       <div className="flex items-left gap-2 text-sm text-gray-400 text-left">
                         <span className="font-semibold">Tech:</span> {project.tech}
                       </div>
-                      {project.status && (
-                        <div className={`inline-block px-3 py-1 rounded-full text-sm ${
-                          STATUS_COLORS[project.status as keyof typeof STATUS_COLORS] || 'bg-emerald-500/20 text-emerald-300'
-                        }`}>
+                      {project.status && (Array.isArray(project.status) ? (
+                        <div className="flex flex-wrap gap-2">
+                          {project.status.map((status, i) => (
+                            <div
+                              key={i}
+                              className={`inline-block px-3 py-1 rounded-full text-sm ${
+                                STATUS_COLORS[status as keyof typeof STATUS_COLORS] || 'bg-emerald-500/20 text-emerald-300'
+                              }`}
+                            >
+                              {status}
+                            </div>
+                          ))}
+                        </div>
+                      ) : (
+                        <div
+                          className={`inline-block px-3 py-1 rounded-full text-sm ${
+                            STATUS_COLORS[project.status as keyof typeof STATUS_COLORS] || 'bg-emerald-500/20 text-emerald-300'
+                          }`}
+                        >
                           {project.status}
                         </div>
-                      )}
+                      ))}
                     </div>
                     <div className="flex gap-4 mt-4">
                       {project.github && (

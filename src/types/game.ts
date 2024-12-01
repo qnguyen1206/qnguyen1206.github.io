@@ -1,3 +1,5 @@
+import { ProjectStatus, ProjectStatuses } from '../data/gameData';
+
 export interface Project {
   title: string;
   description: string;
@@ -5,7 +7,7 @@ export interface Project {
   tech: string;
   github?: string;
   live?: string;
-  status?: string;
+  status?: ProjectStatus | ProjectStatuses;
   emulator?: boolean;
   types: string[];
 }
