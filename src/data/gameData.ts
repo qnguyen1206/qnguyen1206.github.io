@@ -1,7 +1,7 @@
 import { LucideIcon } from 'lucide-react';
 import type { Project } from '../types/game';
 
-interface SkillCategory {
+export interface SkillCategory {
   iconName: string;
   iconColor: string;
   skills: Array<{
@@ -85,7 +85,7 @@ export const skillCategories: Record<string, SkillCategory> = {
       { name: 'Tailwind CSS', level: 'intermediate' }
     ]
   },
-  'Runtime & Server Technologies': {
+  'Runtime & Server': {
     iconName: 'Server',
     iconColor: 'text-orange-400',
     skills: [
@@ -498,3 +498,675 @@ export const galleryItems: GalleryItem[] = [
 ];
 
 export const TOTAL_GALLERY = galleryItems.length;
+
+export interface SkillNode {
+  id: string;
+  name: string;
+  level: 'beginner' | 'intermediate' | 'advanced';
+  icon?: string;
+  color: string;
+  x: number;
+  y: number;
+  dependencies: string[];
+  description?: string;
+}
+
+// Move this function to the top, before skillTreeData
+const getCirclePosition = (centerX: number, centerY: number, radius: number, index: number, total: number) => {
+  const angle = (index * (2 * Math.PI) / total) - Math.PI/2; // Start from top
+  return {
+    x: centerX + radius * Math.cos(angle),
+    y: centerY + radius * Math.sin(angle)
+  };
+};
+
+// Then your skillTreeData and other code...
+export const skillTreeData: SkillNode[] = [
+  // Core node at center
+  {
+    id: 'core',
+    name: 'Core Skills',
+    icon: 'CircleDot',
+    level: 'advanced',
+    color: '#3b82f6',
+    x: 50,
+    y: 50,
+    dependencies: [],
+    description: 'Core skills and fundamentals'
+  },
+
+  // Programming Category & Skills
+  {
+    id: 'programming',
+    name: 'Programming',
+    icon: 'Code',
+    level: 'advanced',
+    color: '#3b82f6',
+    x: 25,
+    y: 30,
+    dependencies: ['core']
+  },
+  {
+    id: 'csharp',
+    name: 'C#',
+    icon: 'Code',
+    level: 'advanced',
+    color: '#3b82f6',
+    x: 20,
+    y: 25,
+    dependencies: ['programming']
+  },
+  {
+    id: 'gdscript',
+    name: 'GDScript',
+    icon: 'Code',
+    level: 'advanced',
+    color: '#3b82f6',
+    x: 15,
+    y: 28,
+    dependencies: ['programming']
+  },
+  {
+    id: 'html_css',
+    name: 'HTML & CSS',
+    icon: 'Code',
+    level: 'intermediate',
+    color: '#3b82f6',
+    x: 35,
+    y: 20,
+    dependencies: ['programming']
+  },
+  {
+    id: 'php',
+    name: 'PHP',
+    icon: 'Code',
+    level: 'intermediate',
+    color: '#3b82f6',
+    x: 45,
+    y: 25,
+    dependencies: ['programming']
+  },
+  {
+    id: 'python',
+    name: 'Python',
+    icon: 'Code',
+    level: 'intermediate',
+    color: '#3b82f6',
+    x: 15,
+    y: 25,
+    dependencies: ['programming']
+  },
+  {
+    id: 'c',
+    name: 'C',
+    icon: 'Code',
+    level: 'intermediate',
+    color: '#3b82f6',
+    x: 20,
+    y: 30,
+    dependencies: ['programming']
+  },
+  {
+    id: 'assembly',
+    name: 'Assembly',
+    icon: 'Code',
+    level: 'intermediate',
+    color: '#3b82f6',
+    x: 30,
+    y: 35,
+    dependencies: ['programming']
+  },
+  {
+    id: 'java',
+    name: 'Java',
+    icon: 'Code',
+    level: 'intermediate',
+    color: '#3b82f6',
+    x: 40,
+    y: 30,
+    dependencies: ['programming']
+  },
+  {
+    id: 'javascript',
+    name: 'JavaScript',
+    icon: 'Code',
+    level: 'intermediate',
+    color: '#3b82f6',
+    x: 45,
+    y: 20,
+    dependencies: ['programming']
+  },
+  {
+    id: 'typescript',
+    name: 'TypeScript',
+    icon: 'Code',
+    level: 'beginner',
+    color: '#3b82f6',
+    x: 50,
+    y: 25,
+    dependencies: ['programming']
+  },
+
+  // Languages Category & Skills
+  {
+    id: 'languages',
+    name: 'Languages',
+    icon: 'Globe',
+    level: 'advanced',
+    color: '#22c55e',
+    x: 75,
+    y: 30,
+    dependencies: ['core']
+  },
+  {
+    id: 'english',
+    name: 'English',
+    icon: 'Globe',
+    level: 'advanced',
+    color: '#22c55e',
+    x: 65,
+    y: 20,
+    dependencies: ['languages']
+  },
+  {
+    id: 'vietnamese',
+    name: 'Vietnamese',
+    icon: 'Globe',
+    level: 'advanced',
+    color: '#22c55e',
+    x: 75,
+    y: 15,
+    dependencies: ['languages']
+  },
+  {
+    id: 'spanish',
+    name: 'Spanish',
+    icon: 'Globe',
+    level: 'beginner',
+    color: '#22c55e',
+    x: 85,
+    y: 20,
+    dependencies: ['languages']
+  },
+  {
+    id: 'japanese',
+    name: 'Japanese',
+    icon: 'Globe',
+    level: 'beginner',
+    color: '#22c55e',
+    x: 80,
+    y: 25,
+    dependencies: ['languages']
+  },
+
+  // Tools Category & Skills
+  {
+    id: 'tools',
+    name: 'Development Tools',
+    icon: 'Wrench',
+    level: 'advanced',
+    color: '#a855f7',
+    x: 75,
+    y: 70,
+    dependencies: ['core']
+  },
+  {
+    id: 'git',
+    name: 'Git & GitHub & GitLab',
+    icon: 'Wrench',
+    level: 'advanced',
+    color: '#a855f7',
+    x: 65,
+    y: 80,
+    dependencies: ['tools']
+  },
+  {
+    id: 'vscode',
+    name: 'Visual Studio Code',
+    icon: 'Wrench',
+    level: 'advanced',
+    color: '#a855f7',
+    x: 70,
+    y: 85,
+    dependencies: ['tools']
+  },
+  {
+    id: 'unity',
+    name: 'Unity Game Engine',
+    icon: 'Wrench',
+    level: 'advanced',
+    color: '#a855f7',
+    x: 75,
+    y: 80,
+    dependencies: ['tools']
+  },
+  {
+    id: 'godot',
+    name: 'Godot & GodotSteam',
+    icon: 'Wrench',
+    level: 'advanced',
+    color: '#a855f7',
+    x: 80,
+    y: 85,
+    dependencies: ['tools']
+  },
+  {
+    id: 'mysql',
+    name: 'MySQL',
+    icon: 'Wrench',
+    level: 'intermediate',
+    color: '#a855f7',
+    x: 85,
+    y: 80,
+    dependencies: ['tools']
+  },
+  {
+    id: 'firebase',
+    name: 'Firebase',
+    icon: 'Wrench',
+    level: 'intermediate',
+    color: '#a855f7',
+    x: 90,
+    y: 75,
+    dependencies: ['tools']
+  },
+  {
+    id: 'android_studio',
+    name: 'Android Studio',
+    icon: 'Wrench',
+    level: 'intermediate',
+    color: '#a855f7',
+    x: 85,
+    y: 70,
+    dependencies: ['tools']
+  },
+  {
+    id: 'intellij',
+    name: 'IntelliJ IDEA',
+    icon: 'Wrench',
+    level: 'intermediate',
+    color: '#a855f7',
+    x: 80,
+    y: 65,
+    dependencies: ['tools']
+  },
+  {
+    id: 'docker',
+    name: 'Docker',
+    icon: 'Wrench',
+    level: 'beginner',
+    color: '#a855f7',
+    x: 75,
+    y: 60,
+    dependencies: ['tools']
+  },
+
+  // Concepts Category & Skills
+  {
+    id: 'concepts',
+    name: 'Core Concepts',
+    icon: 'Brain',
+    level: 'advanced',
+    color: '#eab308',
+    x: 25,
+    y: 70,
+    dependencies: ['core']
+  },
+  {
+    id: 'game_design',
+    name: 'Game Design',
+    icon: 'Brain',
+    level: 'advanced',
+    color: '#eab308',
+    x: 15,
+    y: 80,
+    dependencies: ['concepts']
+  },
+  {
+    id: 'oop',
+    name: 'Object-Oriented Programming',
+    icon: 'Brain',
+    level: 'intermediate',
+    color: '#eab308',
+    x: 20,
+    y: 85,
+    dependencies: ['concepts']
+  },
+  {
+    id: 'dsa',
+    name: 'Data Structures & Algorithms',
+    icon: 'Brain',
+    level: 'intermediate',
+    color: '#eab308',
+    x: 25,
+    y: 80,
+    dependencies: ['concepts']
+  },
+  {
+    id: 'computer_org',
+    name: 'Computer Organization',
+    icon: 'Brain',
+    level: 'intermediate',
+    color: '#eab308',
+    x: 30,
+    y: 85,
+    dependencies: ['concepts']
+  },
+  {
+    id: 'agile',
+    name: 'Agile Development',
+    icon: 'Brain',
+    level: 'intermediate',
+    color: '#eab308',
+    x: 35,
+    y: 80,
+    dependencies: ['concepts']
+  },
+  {
+    id: 'cryptography',
+    name: 'Cryptography',
+    icon: 'Brain',
+    level: 'intermediate',
+    color: '#eab308',
+    x: 40,
+    y: 75,
+    dependencies: ['concepts']
+  },
+  {
+    id: 'network_security',
+    name: 'Network Security',
+    icon: 'Brain',
+    level: 'beginner',
+    color: '#eab308',
+    x: 35,
+    y: 70,
+    dependencies: ['concepts']
+  },
+  {
+    id: 'security_analysis',
+    name: 'Security Analysis',
+    icon: 'Brain',
+    level: 'beginner',
+    color: '#eab308',
+    x: 30,
+    y: 65,
+    dependencies: ['concepts']
+  },
+
+  // Soft Skills Category & Skills
+  {
+    id: 'soft_skills',
+    name: 'Soft Skills',
+    icon: 'Users',
+    level: 'advanced',
+    color: '#ef4444',
+    x: 50,
+    y: 85,
+    dependencies: ['core']
+  },
+  {
+    id: 'leadership',
+    name: 'Team Leadership',
+    icon: 'Users',
+    level: 'advanced',
+    color: '#ef4444',
+    x: 40,
+    y: 90,
+    dependencies: ['soft_skills']
+  },
+  {
+    id: 'project_management',
+    name: 'Project Management',
+    icon: 'Users',
+    level: 'intermediate',
+    color: '#ef4444',
+    x: 45,
+    y: 95,
+    dependencies: ['soft_skills']
+  },
+  {
+    id: 'problem_solving',
+    name: 'Problem Solving',
+    icon: 'Users',
+    level: 'advanced',
+    color: '#ef4444',
+    x: 50,
+    y: 90,
+    dependencies: ['soft_skills']
+  },
+  {
+    id: 'communication',
+    name: 'Communication',
+    icon: 'Users',
+    level: 'advanced',
+    color: '#ef4444',
+    x: 55,
+    y: 95,
+    dependencies: ['soft_skills']
+  },
+  {
+    id: 'time_management',
+    name: 'Time Management',
+    icon: 'Users',
+    level: 'intermediate',
+    color: '#ef4444',
+    x: 60,
+    y: 90,
+    dependencies: ['soft_skills']
+  },
+
+  // Frontend Frameworks Category & Skills
+  {
+    id: 'frontend',
+    name: 'Frontend Frameworks',
+    icon: 'Code',
+    level: 'intermediate',
+    color: '#ec4899',
+    x: 15,
+    y: 50,
+    dependencies: ['core']
+  },
+  {
+    id: 'react',
+    name: 'React.js',
+    icon: 'Code',
+    level: 'intermediate',
+    color: '#ec4899',
+    x: 10,
+    y: 45,
+    dependencies: ['frontend']
+  },
+  {
+    id: 'tailwind',
+    name: 'Tailwind CSS',
+    icon: 'Code',
+    level: 'intermediate',
+    color: '#ec4899',
+    x: 20,
+    y: 45,
+    dependencies: ['frontend']
+  },
+
+  // Runtime & Server Category & Skills
+  {
+    id: 'runtime',
+    name: 'Runtime & Server',
+    icon: 'Code',
+    level: 'intermediate',
+    color: '#f97316',
+    x: 85,
+    y: 50,
+    dependencies: ['core']
+  },
+  {
+    id: 'nodejs',
+    name: 'Node.js',
+    icon: 'Code',
+    level: 'intermediate',
+    color: '#f97316',
+    x: 90,
+    y: 45,
+    dependencies: ['runtime']
+  },
+
+  // AI & ML Category & Skills
+  {
+    id: 'ai_ml',
+    name: 'AI & Machine Learning',
+    icon: 'Bot',
+    level: 'advanced',
+    color: '#818cf8',
+    x: 50,
+    y: 15,
+    dependencies: ['core']
+  },
+  {
+    id: 'cursor_ai',
+    name: 'Cursor AI',
+    icon: 'Bot',
+    level: 'advanced',
+    color: '#818cf8',
+    x: 40,
+    y: 10,
+    dependencies: ['ai_ml']
+  },
+  {
+    id: 'chatgpt',
+    name: 'ChatGPT',
+    icon: 'Bot',
+    level: 'advanced',
+    color: '#818cf8',
+    x: 45,
+    y: 5,
+    dependencies: ['ai_ml']
+  },
+  {
+    id: 'v0',
+    name: 'V0 by Vercel',
+    icon: 'Bot',
+    level: 'intermediate',
+    color: '#818cf8',
+    x: 50,
+    y: 10,
+    dependencies: ['ai_ml']
+  },
+  {
+    id: 'bolt',
+    name: 'Bolt AI',
+    icon: 'Bot',
+    level: 'intermediate',
+    color: '#818cf8',
+    x: 55,
+    y: 5,
+    dependencies: ['ai_ml']
+  },
+  {
+    id: 'claude',
+    name: 'Claude',
+    icon: 'Bot',
+    level: 'intermediate',
+    color: '#818cf8',
+    x: 60,
+    y: 10,
+    dependencies: ['ai_ml']
+  }
+];
+
+// Calculate and update positions for all nodes
+function updateSkillTreePositions() {
+  const CORE_X = 50;
+  const CORE_Y = 50;
+  const MAIN_RADIUS = 25;
+  const CHILD_RADIUS = 12;
+
+  // Position main category nodes around core in a more balanced way
+  const mainCategories = [
+    { id: 'programming', angle: -Math.PI/4 },     // top-left
+    { id: 'languages', angle: Math.PI/4 },        // top-right
+    { id: 'tools', angle: 3*Math.PI/4 },          // bottom-right
+    { id: 'concepts', angle: -3*Math.PI/4 },      // bottom-left
+    { id: 'soft_skills', angle: Math.PI },        // bottom
+    { id: 'frontend', angle: -Math.PI*0.75 },     // left-top
+    { id: 'runtime', angle: Math.PI*0.75 },       // right-bottom
+    { id: 'ai_ml', angle: 0 }                     // top
+  ];
+
+  // Update main category positions
+  mainCategories.forEach(cat => {
+    const node = skillTreeData.find(n => n.id === cat.id);
+    if (node) {
+      node.x = CORE_X + MAIN_RADIUS * Math.cos(cat.angle);
+      node.y = CORE_Y + MAIN_RADIUS * Math.sin(cat.angle);
+    }
+  });
+
+  // Update child node positions with dynamic radius based on number of siblings
+  skillTreeData.forEach(node => {
+    if (node.dependencies[0] !== 'core' && node.dependencies[0] !== '') {
+      const parent = skillTreeData.find(n => n.id === node.dependencies[0]);
+      if (parent) {
+        const siblings = skillTreeData.filter(n => n.dependencies[0] === node.dependencies[0]);
+        const index = siblings.indexOf(node);
+        const dynamicRadius = CHILD_RADIUS * (1 + siblings.length / 10); // Larger radius for more siblings
+        const pos = getCirclePosition(parent.x, parent.y, dynamicRadius, index, siblings.length);
+        node.x = pos.x;
+        node.y = pos.y;
+      }
+    }
+  });
+}
+
+// Apply the positions
+updateSkillTreePositions();
+
+// Convert the existing skill categories to skill tree nodes
+export const generateSkillTreeFromCategories = () => {
+  const nodes: SkillNode[] = [];
+  let yOffset = 20;
+
+  Object.entries(skillCategories).forEach(([category, data], categoryIndex) => {
+    // Add category node
+    const categoryNode: SkillNode = {
+      id: category.toLowerCase(),
+      name: category,
+      level: 'advanced',
+      color: getColorForCategory(categoryIndex),
+      x: 30 + (categoryIndex * 20) % 60, // Distribute horizontally
+      y: yOffset,
+      dependencies: ['programming_core'],
+      description: `${category} skills and expertise`
+    };
+    nodes.push(categoryNode);
+
+    // Add skill nodes for each skill in category
+    data.skills.forEach((skill, skillIndex) => {
+      const skillNode: SkillNode = {
+        id: `${category.toLowerCase()}_${skill.name.toLowerCase().replace(/\s+/g, '_')}`,
+        name: skill.name,
+        level: skill.level,
+        color: categoryNode.color,
+        x: categoryNode.x + (skillIndex * 15 - 15),
+        y: yOffset + 15,
+        dependencies: [categoryNode.id]
+      };
+      nodes.push(skillNode);
+    });
+
+    yOffset += 30; // Move to next row for next category
+  });
+
+  return nodes;
+};
+
+const getColorForCategory = (index: number): string => {
+  const colors = [
+    '#3b82f6', // blue
+    '#ef4444', // red
+    '#22c55e', // green
+    '#a855f7', // purple
+    '#eab308', // yellow
+    '#ec4899', // pink
+    '#06b6d4', // cyan
+  ];
+  return colors[index % colors.length];
+};

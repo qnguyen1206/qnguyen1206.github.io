@@ -13,5 +13,10 @@ export default defineConfig({
         manualChunks: undefined
       }
     }
+  },
+  server: {
+    headers: {
+      'Service-Worker-Allowed': '/'
+    }
   }
 });
