@@ -264,3 +264,195 @@ export const education = [
 ]; 
 
 export const TOTAL_EDUCATION = education.length;
+
+export interface GalleryItem {
+  image: string;
+  title: string;
+  description: string;
+  categories: Array<'digital' | 'traditional' | 'design' | 'photography'>;
+}
+
+export const galleryItems: GalleryItem[] = [
+  {
+    image: "/images/gallery/digital_0.png",
+    title: "Cloudscape",
+    description: "Cloudscape drawing",
+    categories: ["digital"]
+  },
+  {
+    image: "/images/gallery/photo_0.png",
+    title: "Photo 0",
+    description: "Photo 0",
+    categories: ["photography"]
+  },
+  {
+    image: "/images/gallery/draw_1.png",
+    title: "Mountain Cliff",
+    description: "Mountain Cliff with Sakura Tree drawing",
+    categories: ["traditional"]
+  },
+  {
+    image: "/images/gallery/photo_1.png",
+    title: "Photo 1",
+    description: "Photo 1",
+    categories: ["photography"]
+  },
+  {
+    image: "/images/gallery/InQnityIcon.png",
+    title: "InQnity: Mythical Hunt",
+    description: "Game icon design",
+    categories: ["digital", "design"]
+  },
+  {
+    image: "/images/gallery/draw_2.png",
+    title: "Mountain Sunset",
+    description: "Sunset on a mountain drawing",
+    categories: ["traditional"]
+  },
+  {
+    image: "/images/gallery/photo_2.png",
+    title: "Photo 2",
+    description: "Photo 2",
+    categories: ["photography"]
+  },
+  {
+    image: "/images/gallery/draw_4.png",
+    title: "Lake Sunset",
+    description: "Sunset on a lake drawing",
+    categories: ["traditional"]
+  },
+  {
+    image: "/images/gallery/photo_3.png",
+    title: "Photo 3",
+    description: "Photo 3",
+    categories: ["photography"]
+  },
+  {
+    image: "/images/gallery/draw_5.png",
+    title: "Lake and Mountains",
+    description: "Lake and mountains drawing",
+    categories: ["traditional"]
+  },
+  {
+    image: "/images/gallery/photo_4.png",
+    title: "Photo 4",
+    description: "Photo 4",
+    categories: ["photography"]
+  },
+  {
+    image: "/images/gallery/draw_6.png",
+    title: "Sunset Beach",
+    description: "Sunset on a beach drawing",
+    categories: ["traditional"]
+  },
+  {
+    image: "/images/gallery/photo_6.png",
+    title: "Photo 6",
+    description: "Photo 6",
+    categories: ["photography"]
+  },
+  {
+    image: "/images/gallery/draw_7.png",
+    title: "Mountain Village",
+    description: "Mountain village landscape drawing",
+    categories: ["traditional"]
+  },
+  {
+    image: "/images/gallery/photo_7.png",
+    title: "Photo 7",
+    description: "Photo 7",
+    categories: ["photography"]
+  },
+  {
+    image: "/images/gallery/draw_8.png",
+    title: "Wolf",
+    description: "Wolf drawing",
+    categories: ["traditional"]
+  },
+  {
+    image: "/images/gallery/photo_8.png",
+    title: "Photo 8",
+    description: "Photo 8",
+    categories: ["photography"]
+  },
+  {
+    image: "/images/gallery/draw_9.png",
+    title: "Dragon",
+    description: "Dragon drawing",
+    categories: ["traditional"]
+  },
+  {
+    image: "/images/gallery/photo_9.png",
+    title: "Photo 9",
+    description: "Photo 9",
+    categories: ["photography"]
+  },
+  {
+    image: "/images/gallery/photo_10.png",
+    title: "Photo 10",
+    description: "Photo 10",
+    categories: ["photography"]
+  },
+  {
+    image: "/images/gallery/photo_11.png",
+    title: "Photo 11",
+    description: "Photo 11", 
+    categories: ["photography"]
+  },
+  {
+    image: "/images/gallery/photo_12.png",
+    title: "Photo 12",
+    description: "Photo 12",
+    categories: ["photography"]
+  },
+  {
+    image: "/images/gallery/photo_13.png",
+    title: "Photo 13",
+    description: "Photo 13",
+    categories: ["photography"]
+  },
+  {
+    image: "/images/gallery/photo_14.png",
+    title: "Photo 14",
+    description: "Photo 14",
+    categories: ["photography"]
+  },
+  {
+    image: "/images/gallery/photo_15.png",
+    title: "Photo 15",
+    description: "Photo 15",
+    categories: ["photography"]
+  },
+  {
+    image: "/images/gallery/photo_16.png",
+    title: "Photo 16",
+    description: "Photo 16",
+    categories: ["photography"]
+  },
+  {
+    image: "/images/gallery/photo_17.png",
+    title: "Photo 17",
+    description: "Photo 17",
+    categories: ["photography"]
+  },
+  {
+    image: "/images/gallery/photo_18.png",
+    title: "Photo 18",
+    description: "Photo 18",
+    categories: ["photography"]
+  },
+  {
+    image: "/images/gallery/photo_19.png",
+    title: "Photo 19",
+    description: "Photo 19",
+    categories: ["photography"]
+  },
+  {
+    image: "/images/gallery/photo_20.png",
+    title: "Photo 20",
+    description: "Photo 20",
+    categories: ["photography"]
+  }
+];
+
+export const TOTAL_GALLERY = galleryItems.length;

@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useGame } from '../context/GameContext';
 
 interface Bubble {
@@ -32,6 +32,7 @@ export function BubbleEffect() {
   const inkDropsRef = useRef<InkDrop[]>([]);
   const floatingTextsRef = useRef<FloatingText[]>([]);
   const { addXP } = useGame();
+  const [clickedOnBubble, setClickedOnBubble] = useState(false);
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -142,13 +143,13 @@ export function BubbleEffect() {
       });
 
       if (bubbleIndex !== -1) {
+        setClickedOnBubble(true);
         const bubble = bubblesRef.current[bubbleIndex];
         createInkBurst(bubble.x, bubble.y);
         bubblesRef.current.splice(bubbleIndex, 1);
         const xpGain = Math.floor(Math.random() * 5) + 1;
         addXP(xpGain);
         
-        // Add floating text
         floatingTextsRef.current.push({
           x: bubble.x,
           y: bubble.y,
@@ -156,6 +157,8 @@ export function BubbleEffect() {
           opacity: 1,
           speed: 1
         });
+
+        setTimeout(() => setClickedOnBubble(false), 100);
       }
     };
 
@@ -183,7 +186,7 @@ export function BubbleEffect() {
         zIndex: 0,
         background: 'transparent',
         mixBlendMode: 'lighten',
-        pointerEvents: 'all'
+        pointerEvents: clickedOnBubble ? 'none' : 'all'
       }}
     />
   );

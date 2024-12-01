@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState } from 'react';
 import { ProgressAction, GameProgress, COMPLETION_XP } from '../types/game';
-import { TOTAL_PROJECTS, TOTAL_SKILLS, TOTAL_EXPERIENCES, TOTAL_EDUCATION } from '../data/gameData';
+import { TOTAL_PROJECTS, TOTAL_SKILLS, TOTAL_EXPERIENCES, TOTAL_EDUCATION, TOTAL_GALLERY } from '../data/gameData';
 
 interface GameState {
   level: number;
@@ -48,10 +48,12 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
         skills: new Set(savedProgress.skills),
         experiences: new Set(savedProgress.experiences),
         education: new Set(savedProgress.education),
+        gallery: new Set(savedProgress.gallery),
         totalProjects: TOTAL_PROJECTS,
         totalSkills: TOTAL_SKILLS,
         totalExperiences: TOTAL_EXPERIENCES,
-        totalEducation: TOTAL_EDUCATION
+        totalEducation: TOTAL_EDUCATION,
+        totalGallery: TOTAL_GALLERY
       };
     }
     return {
@@ -59,10 +61,12 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
       skills: new Set<string>(),
       experiences: new Set<string>(),
       education: new Set<string>(),
+      gallery: new Set<string>(),
       totalProjects: TOTAL_PROJECTS,
       totalSkills: TOTAL_SKILLS,
       totalExperiences: TOTAL_EXPERIENCES,
-      totalEducation: TOTAL_EDUCATION
+      totalEducation: TOTAL_EDUCATION,
+      totalGallery: TOTAL_GALLERY
     };
   });
 
@@ -109,6 +113,17 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
             return newXP;
           });
           return { ...prev, education: newEducation };
+        });
+      } else if (type === 'VIEW_GALLERY' && !progress.gallery.has(id)) {
+        setProgress(prev => {
+          const newGallery = new Set(prev.gallery);
+          newGallery.add(id);
+          return { ...prev, gallery: newGallery };
+        });
+        setXP((prev: number) => {
+          const newXP = prev + COMPLETION_XP.GALLERY;
+          setLevel(Math.floor(newXP / 100) + 1);
+          return newXP;
         });
       }
     } catch (error) {

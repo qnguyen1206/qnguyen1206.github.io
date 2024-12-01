@@ -13,6 +13,7 @@ interface SaveState {
     skills: string[];
     experiences: string[];
     education: string[];
+    gallery: string[];
   };
 }
 
@@ -24,6 +25,7 @@ export default function GameStatus() {
   const skillProgress = (progress.skills.size / progress.totalSkills) * 100;
   const experienceProgress = (progress.experiences.size / progress.totalExperiences) * 100;
   const educationProgress = (progress.education.size / progress.totalEducation) * 100;
+  const galleryProgress = (progress.gallery.size / progress.totalGallery) * 100;
   const [showXP, setShowXP] = useState(false);
   const [xpAmount, setXPAmount] = useState(0);
   const [showSaveModal, setShowSaveModal] = useState(false);
@@ -49,7 +51,8 @@ export default function GameStatus() {
         projects: Array.from(progress.projects),
         skills: Array.from(progress.skills),
         experiences: Array.from(progress.experiences),
-        education: Array.from(progress.education)
+        education: Array.from(progress.education),
+        gallery: Array.from(progress.gallery)
       }
     };
     localStorage.setItem('gameState', JSON.stringify(saveState));
@@ -90,7 +93,7 @@ export default function GameStatus() {
           </div>
 
           {/* Progress Grid */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
             <div className="flex flex-col gap-2">
               <span className="text-sm font-medium">Projects</span>
               <div className="w-full bg-gray-700 rounded-full h-2">
@@ -98,6 +101,15 @@ export default function GameStatus() {
                      style={{ width: `${projectProgress}%` }} />
               </div>
               <span className="text-xs text-center">{progress.projects.size}/{progress.totalProjects}</span>
+            </div>
+
+            <div className="flex flex-col gap-2">
+              <span className="text-sm font-medium">Gallery</span>
+              <div className="w-full bg-gray-700 rounded-full h-2">
+                <div className="bg-purple-500 h-full rounded-full transition-all"
+                     style={{ width: `${galleryProgress}%` }} />
+              </div>
+              <span className="text-xs text-center">{progress.gallery.size}/{progress.totalGallery}</span>
             </div>
 
             <div className="flex flex-col gap-2">

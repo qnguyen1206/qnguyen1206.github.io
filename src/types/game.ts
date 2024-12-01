@@ -11,7 +11,7 @@ export interface Project {
 }
 
 export type ProgressAction = {
-  type: 'VIEW_PROJECT' | 'VIEW_SKILL' | 'VIEW_EXPERIENCE' | 'VIEW_EDUCATION' | 'SUBMIT_CONTACT';
+  type: 'VIEW_PROJECT' | 'VIEW_SKILL' | 'VIEW_EXPERIENCE' | 'VIEW_EDUCATION' | 'SUBMIT_CONTACT' | 'VIEW_GALLERY';
   id: string;
 };
 
@@ -20,10 +20,12 @@ export interface GameProgress {
   skills: Set<string>;
   experiences: Set<string>;
   education: Set<string>;
+  gallery: Set<string>;
   totalProjects: number;
   totalSkills: number;
   totalExperiences: number;
   totalEducation: number;
+  totalGallery: number;
 }
 
 export const COMPLETION_XP = {
@@ -32,5 +34,6 @@ export const COMPLETION_XP = {
   EXPERIENCE: 10,
   EDUCATION: 15,
   CONTACT: 20,
-  EASTER_EGG: 50
+  EASTER_EGG: 50,
+  GALLERY: 5
 } as const; 
