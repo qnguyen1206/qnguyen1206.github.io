@@ -286,6 +286,12 @@ export const galleryItems: GalleryItem[] = [
     categories: ["photography"]
   },
   {
+    image: "/images/gallery/digital_1.png",
+    title: "Cat",
+    description: "Cat drawing",
+    categories: ["digital", "design"]
+  },
+  {
     image: "/images/gallery/draw_1.png",
     title: "Mountain Cliff",
     description: "Mountain Cliff with Sakura Tree drawing",
