@@ -1,6 +1,7 @@
 import React, { createContext, useContext, useState } from 'react';
 import { ProgressAction, GameProgress, COMPLETION_XP } from '../types/game';
 import { TOTAL_PROJECTS, TOTAL_SKILLS, TOTAL_EXPERIENCES, TOTAL_EDUCATION, TOTAL_GALLERY } from '../data/gameData';
+import { skillTreeData } from '../data/gameData';
 
 interface GameState {
   level: number;
@@ -74,56 +75,58 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
     try {
       if (!id) throw new Error('Invalid progress ID');
       
+      // Helper function to add XP without affecting progress
+      const addXPOnly = (amount: number) => {
+        setXP((prev: number) => {
+          const newXP = prev + amount;
+          setLevel(Math.floor(newXP / 100) + 1);
+          return newXP;
+        });
+      };
+
       if (type === 'VIEW_PROJECT' && !progress.projects.has(id)) {
         setProgress(prev => {
           const newProjects = new Set(prev.projects).add(id);
-          setXP((prev: number) => {
-            const newXP = prev + COMPLETION_XP.PROJECT;
-            setLevel(Math.floor(newXP / 100) + 1);
-            return newXP;
-          });
+          addXPOnly(COMPLETION_XP.PROJECT);
           return { ...prev, projects: newProjects };
         });
       } else if (type === 'VIEW_SKILL' && !progress.skills.has(id)) {
-        setProgress(prev => {
-          const newSkills = new Set(prev.skills).add(id);
-          setXP((prev: number) => {
-            const newXP = prev + COMPLETION_XP.SKILL;
-            setLevel(Math.floor(newXP / 100) + 1);
-            return newXP;
+        // Check if this node exists in the tree data
+        const treeNode = skillTreeData.find(node => node.id === id);
+        
+        if (treeNode) {
+          // Tree view node - only add XP
+          addXPOnly(COMPLETION_XP.SKILL);
+          // Mark as seen to prevent duplicate XP
+          setProgress(prev => ({
+            ...prev,
+            skills: new Set(prev.skills).add(id)
+          }));
+        } else {
+          // Category view node - update both progress and XP
+          setProgress(prev => {
+            const newSkills = new Set(prev.skills).add(id);
+            addXPOnly(COMPLETION_XP.SKILL);
+            return { ...prev, skills: newSkills };
           });
-          return { ...prev, skills: newSkills };
-        });
+        }
       } else if (type === 'VIEW_EXPERIENCE' && !progress.experiences.has(id)) {
         setProgress(prev => {
           const newExperiences = new Set(prev.experiences).add(id);
-          setXP((prev: number) => {
-            const newXP = prev + COMPLETION_XP.EXPERIENCE;
-            setLevel(Math.floor(newXP / 100) + 1);
-            return newXP;
-          });
+          addXPOnly(COMPLETION_XP.EXPERIENCE);
           return { ...prev, experiences: newExperiences };
         });
       } else if (type === 'VIEW_EDUCATION' && !progress.education.has(id)) {
         setProgress(prev => {
           const newEducation = new Set(prev.education).add(id);
-          setXP((prev: number) => {
-            const newXP = prev + COMPLETION_XP.EDUCATION;
-            setLevel(Math.floor(newXP / 100) + 1);
-            return newXP;
-          });
+          addXPOnly(COMPLETION_XP.EDUCATION);
           return { ...prev, education: newEducation };
         });
       } else if (type === 'VIEW_GALLERY' && !progress.gallery.has(id)) {
         setProgress(prev => {
-          const newGallery = new Set(prev.gallery);
-          newGallery.add(id);
+          const newGallery = new Set(prev.gallery).add(id);
+          addXPOnly(COMPLETION_XP.GALLERY);
           return { ...prev, gallery: newGallery };
-        });
-        setXP((prev: number) => {
-          const newXP = prev + COMPLETION_XP.GALLERY;
-          setLevel(Math.floor(newXP / 100) + 1);
-          return newXP;
         });
       }
     } catch (error) {

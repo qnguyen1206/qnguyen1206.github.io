@@ -29,25 +29,22 @@ const categoryIconMap = {
 } as const;
 
 function updateSkillTreePositions() {
-  const CORE_X = 50;
-  const CORE_Y = 15;
-  const VERTICAL_GAP = 35;     // Increased significantly
-  const MARGIN = 15;          // Decreased to allow more spread
-  const CATEGORY_WIDTH = 65;   // Decreased to bring columns closer to center
-  const MAX_HEIGHT = 95;      // Increased to use more vertical space
-  const DYNAMIC_GAP_MULTIPLIER = 2.0; // Increased for more vertical spacing
-
-
-  // Position core node
-  const coreNode = skillTreeData.find(n => n.id === 'core');
-  if (coreNode) {
-    coreNode.x = CORE_X;
-    coreNode.y = CORE_Y;
-  }
-
+  const VERTICAL_GAP = 12;      // Vertical gap between nodes
+  const START_Y = 10;           // Starting y position
+  const MARGIN = 10;            // Edge margin
+  const MAX_HEIGHT = 85;        // Maximum height
+  
   // Group nodes by their parent/category
   const columns: { [key: string]: SkillNode[] } = {};
   
+  // Position core node
+  const coreNode = skillTreeData.find(n => n.id === 'core');
+  if (coreNode) {
+    coreNode.x = 50;  // Center horizontally
+    coreNode.y = START_Y;
+  }
+
+  // Group nodes by their parent
   skillTreeData.forEach(node => {
     if (node.id !== 'core') {
       const parentId = node.dependencies[0];
@@ -58,31 +55,72 @@ function updateSkillTreePositions() {
     }
   });
 
-  // Position category nodes in a row below core
+  // Get category nodes and calculate spacing
   const categoryNodes = skillTreeData.filter(node => node.dependencies[0] === 'core');
-  const categorySpacing = CATEGORY_WIDTH / (categoryNodes.length - 1);
+  const numCategories = categoryNodes.length;
+  const availableWidth = 100 - (2 * MARGIN);
+  const categoryWidth = availableWidth / numCategories;
   
+  // Position category nodes and their children
   categoryNodes.forEach((node, index) => {
-    node.x = CORE_X - (CATEGORY_WIDTH / 2) + (index * categorySpacing);
-    node.y = CORE_Y + VERTICAL_GAP;
+    // Center each category within its allocated space
+    const categoryCenter = MARGIN + (categoryWidth * index) + (categoryWidth / 2);
+    node.x = categoryCenter;
+    node.y = START_Y + VERTICAL_GAP;
     
-    // Position child nodes in columns with dynamic spacing
+    // Position child nodes in vertical columns
     if (columns[node.id]) {
-      const childCount = columns[node.id].length;
-      const dynamicGap = Math.min(VERTICAL_GAP * DYNAMIC_GAP_MULTIPLIER, (MAX_HEIGHT - node.y) / (childCount + 1));
+      const childNodes = columns[node.id];
+      const totalChildHeight = (childNodes.length - 1) * VERTICAL_GAP;
+      const startY = node.y + VERTICAL_GAP;
       
-      columns[node.id].forEach((childNode, childIndex) => {
-        childNode.x = node.x;
-        childNode.y = node.y + ((childIndex + 1) * dynamicGap);
+      childNodes.forEach((childNode, childIndex) => {
+        childNode.x = categoryCenter;  // Align with parent
+        childNode.y = startY + (childIndex * VERTICAL_GAP);
+        
+        // Position any sub-children
+        if (columns[childNode.id]) {
+          const subChildren = columns[childNode.id];
+          subChildren.forEach((subChild, subIndex) => {
+            const subStartY = childNode.y + VERTICAL_GAP/2;
+            subChild.x = categoryCenter;
+            subChild.y = subStartY + (subIndex * VERTICAL_GAP);
+          });
+        }
       });
     }
   });
 
-  // Keep nodes within bounds with wider margins
+  // Find maximum y value
+  let maxY = 0;
+  skillTreeData.forEach(node => {
+    maxY = Math.max(maxY, node.y);
+  });
+
+  // Scale y positions if they exceed MAX_HEIGHT
+  if (maxY > MAX_HEIGHT) {
+    const scale = (MAX_HEIGHT - START_Y) / (maxY - START_Y);
+    skillTreeData.forEach(node => {
+      if (node.id !== 'core') {
+        node.y = START_Y + (node.y - START_Y) * scale;
+      }
+    });
+  }
+
+  // Keep nodes within bounds
   skillTreeData.forEach(node => {
     node.x = Math.max(MARGIN, Math.min(100 - MARGIN, node.x));
     node.y = Math.max(MARGIN, Math.min(MAX_HEIGHT, node.y));
   });
+}
+
+// Helper function to find the root parent of a node
+function findRootParent(node: SkillNode, nodes: SkillNode[]): string {
+  const parent = nodes.find(n => n.id === node.dependencies[0]);
+  if (!parent || parent.dependencies.length === 0) {
+    return parent ? parent.id : node.id;
+  }
+  return findRootParent(parent, nodes);
 }
 
 function Skills() {

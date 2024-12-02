@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import ErrorBoundary from '../ErrorBoundary';
 import { XPTooltip } from './XPTooltip';
 import { COMPLETION_XP } from '../types/game';
+import { skillTreeData, type SkillNode, skillCategories } from '../data/gameData';
 
 interface SaveState {
   level: number;
@@ -21,8 +22,25 @@ export default function GameStatus() {
   const { level, xp, progress } = useGame();
   const xpProgress = (xp % 100) / 100;
   
+  // Filter out tree view nodes when calculating skill progress
+  const actualSkills = Array.from(progress.skills).filter(skillId => {
+    // Exclude any skillId that exists in skillTreeData
+    return !skillTreeData.some(node => node.id === skillId);
+  });
+  
   const projectProgress = (progress.projects.size / progress.totalProjects) * 100;
-  const skillProgress = (progress.skills.size / progress.totalSkills) * 100;
+
+  // Get total number of categories (excluding tree nodes)
+  const totalCategories = Object.keys(skillCategories).length;
+
+  // Count active categories
+  const activeCategories = Array.from(progress.skills).filter(skillId => 
+    Object.keys(skillCategories).map(cat => cat.toLowerCase().replace(/\s+&\s+/g, '_').replace(/\s+/g, '_')).includes(skillId)
+  );
+
+  // Update progress calculation
+  const skillProgress = (activeCategories.length / totalCategories) * 100;
+
   const experienceProgress = (progress.experiences.size / progress.totalExperiences) * 100;
   const educationProgress = (progress.education.size / progress.totalEducation) * 100;
   const galleryProgress = (progress.gallery.size / progress.totalGallery) * 100;
