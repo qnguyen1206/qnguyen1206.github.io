@@ -134,15 +134,6 @@ export const getStatusColor = (status: ProjectStatus | ProjectStatuses): string 
 
 export const projects: Project[] = [
   {
-    title: 'WanderSync App',
-    description: 'A course project using Java and Firebase to learn about Agile and Sprint methodology.',
-    image: 'images/AndroidStudioIcon.png',
-    tech: 'Java, Firebase, Android Studio, GitHub',
-    github: 'https://github.com/Kairu1206/CS2340D_Team26',
-    status: ['Finished'],
-    types: ['App Development', 'Course Work']
-  },
-  {
     title: 'Kart: A Tech Filled Racing Game',
     description: 'A multiplayer racing game where cars and technology meet, designed using Godot and Steamworks.',
     image: 'images/KartIcon.png',
@@ -157,6 +148,43 @@ export const projects: Project[] = [
     tech: 'GDscript, GodotSteam, GitLab, Steamworks',
     status: ['In Development', 'Private'],
     types: ['Game Development', 'Personal Projects']
+  },
+  {
+    title: 'Common Web Security Vulnerabilities and Prevention',
+    description: 'A demonstration of common web security vulnerabilities and prevention techniques.',
+    image: 'images/webIcon.png',
+    tech: 'HTML, CSS, JavaScript, PHP, MySQL',
+    status: ['Private', 'In Development'],
+    live: '/src/consent-demo/index.html',
+    types: ['Cybersecurity Research', 'Personal Projects']
+  },
+  {
+    title: 'WanderSync App',
+    description: 'A course project using Java and Firebase to learn about Agile and Sprint methodology.',
+    image: 'images/AndroidStudioIcon.png',
+    tech: 'Java, Firebase, Android Studio, GitHub',
+    github: 'https://github.com/Kairu1206/CS2340D_Team26',
+    status: ['Finished'],
+    types: ['App Development', 'Course Work']
+  },
+  {
+    title: 'Tower Offense Game',
+    description: 'A course project using Unity and C# to create a 2D tower offense game.',
+    image: 'images/Castle.png',
+    tech: 'Unity, C#, GitHub',
+    github: 'https://github.com/Kairu1206/LMC_2410',
+    status: ['Finished'],
+    types: ['Game Development', 'Course Work']
+  },
+  {
+    title: 'Stella In Space',
+    description: 'A course project using Unity and C# to create a 2D platformer game.',
+    image: 'images/stellaInSpaceIcon.png',
+    tech: 'Unity, C#, GitHub',
+    github: 'https://github.com/Kairu1206/StellaInSpace',
+    live: 'https://kairu1206.itch.io/stella-in-space',
+    status: ['Finished'],
+    types: ['Game Development', 'Course Work']
   },
   {
     title: 'What Yours is Mime',
@@ -215,15 +243,6 @@ export const projects: Project[] = [
     status: ['Finished'],
     live: '/src/emulatorjs_gba/index.html',
     types: ['Game Development', 'Course Work']
-  },
-  {
-    title: 'Common Web Security Vulnerabilities and Prevention',
-    description: 'A demonstration of common web security vulnerabilities and prevention techniques.',
-    image: 'images/webIcon.png',
-    tech: 'HTML, CSS, JavaScript, PHP, MySQL',
-    status: ['Private', 'In Development'],
-    live: '/src/consent-demo/index.html',
-    types: ['Cybersecurity Research', 'Personal Projects']
   },
   {
     title: 'Pwnagotchi Implementation',

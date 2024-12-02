@@ -304,23 +304,37 @@ function Skills() {
                 {/* Tooltip */}
                 {hoveredSkill?.id === skill.id && (
                   <div className={`
-                    fixed z-[100] w-48 p-2 bg-black rounded-lg shadow-xl -translate-x-1/2 left-[${skill.x}%]
-                    ${skill.dependencies.length === 0 ? 'top-[calc(${skill.y}%-120px)]' : 'top-[calc(${skill.y}%-100px)]'}
-                    pointer-events-none
-                    border border-gray-700
-                  `}>
+                    fixed z-[100] w-48 p-2 bg-black rounded-lg shadow-xl
+                    transform -translate-x-1/2 -translate-y-full
+                    pointer-events-none border border-gray-700
+                    mb-2 top-[${skill.y}%] left-[${skill.x}%]
+                  `}
+                  style={{
+                    top: `calc(${skill.y}% - 20px)`,
+                    left: `${skill.x}%`,
+                    transform: 'translate(-50%, -100%)'
+                  }}>
                     <h4 className="font-bold text-white">{skill.name}</h4>
                     {skill.description && (
-                      <p className="text-sm text-gray-100">{skill.description}</p>
+                      <p className="text-sm text-gray-100 mb-2">{skill.description}</p>
                     )}
-                    <div className="flex mt-1 space-x-1">
-                      {[...Array(skill.level === 'advanced' ? 3 : skill.level === 'intermediate' ? 2 : 1)].map((_, i) => (
-                        <div 
-                          key={i}
-                          className={`w-2 h-2 rounded-full bg-${skill.color}`}
-                        />
-                      ))}
-                    </div>
+                    {/* Only show progress bar for skills that are not root or first level */}
+                    {skill.id !== 'core' && !['programming', 'languages', 'tools', 'concepts', 'soft_skills', 'frontend', 'runtime', 'ai_ml'].includes(skill.id) && (
+                      <div className="flex flex-col gap-1">
+                        <div className="w-full h-1.5 bg-gray-700 rounded-full overflow-hidden">
+                          <div 
+                            className="h-full transition-all"
+                            style={{ 
+                              width: `${skill.level === 'advanced' ? '100' : skill.level === 'intermediate' ? '66' : '33'}%`,
+                              backgroundColor: skill.color
+                            }}
+                          />
+                        </div>
+                        <span className="text-xs text-gray-400 capitalize text-right">
+                          {skill.level}
+                        </span>
+                      </div>
+                    )}
                   </div>
                 )}
               </div>

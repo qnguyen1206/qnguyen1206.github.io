@@ -91,25 +91,24 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
           return { ...prev, projects: newProjects };
         });
       } else if (type === 'VIEW_SKILL' && !progress.skills.has(id)) {
-        // Check if this node exists in the tree data
-        const treeNode = skillTreeData.find(node => node.id === id);
+        // Check if this is a tree node
+        const isTreeNode = skillTreeData.some(node => node.id === id);
+        // Check if it's the root node
+        const isRootNode = id === 'core';
         
-        if (treeNode) {
-          // Tree view node - only add XP
-          addXPOnly(COMPLETION_XP.SKILL);
-          // Mark as seen to prevent duplicate XP
-          setProgress(prev => ({
-            ...prev,
-            skills: new Set(prev.skills).add(id)
-          }));
-        } else {
-          // Category view node - update both progress and XP
-          setProgress(prev => {
-            const newSkills = new Set(prev.skills).add(id);
+        setProgress(prev => {
+          const newSkills = new Set(prev.skills).add(id);
+          // Add XP for all nodes except root node
+          if (!isRootNode) {
             addXPOnly(COMPLETION_XP.SKILL);
+          }
+          // Only count non-tree nodes for progress tracking
+          if (!isTreeNode) {
             return { ...prev, skills: newSkills };
-          });
-        }
+          }
+          // For tree nodes, just mark as seen without affecting progress count
+          return { ...prev, skills: newSkills, totalSkills: prev.totalSkills };
+        });
       } else if (type === 'VIEW_EXPERIENCE' && !progress.experiences.has(id)) {
         setProgress(prev => {
           const newExperiences = new Set(prev.experiences).add(id);
