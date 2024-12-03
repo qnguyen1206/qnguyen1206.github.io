@@ -1,7 +1,7 @@
 import React, { createContext, useContext, useState } from 'react';
 import { ProgressAction, GameProgress, COMPLETION_XP } from '../types/game';
 import { TOTAL_PROJECTS, TOTAL_SKILLS, TOTAL_EXPERIENCES, TOTAL_EDUCATION, TOTAL_GALLERY } from '../data/gameData';
-import { skillTreeData } from '../data/gameData';
+import { skillTreeData, skillCategories } from '../data/gameData';
 
 interface GameState {
   level: number;
@@ -28,7 +28,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
       const { level } = JSON.parse(saved);
       return level;
     }
-    return 1;
+    return 0;
   });
 
   const [xp, setXP] = useState(() => {
@@ -79,7 +79,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
       const addXPOnly = (amount: number) => {
         setXP((prev: number) => {
           const newXP = prev + amount;
-          setLevel(Math.floor(newXP / 100) + 1);
+          setLevel(Math.floor(newXP / 100));
           return newXP;
         });
       };
@@ -93,21 +93,20 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
       } else if (type === 'VIEW_SKILL' && !progress.skills.has(id)) {
         // Check if this is a tree node
         const isTreeNode = skillTreeData.some(node => node.id === id);
-        // Check if it's the root node
-        const isRootNode = id === 'core';
+        // Check if it's a category
+        const isCategory = Object.keys(skillCategories)
+          .map(cat => cat.toLowerCase().replace(/\s+&\s+/g, '_').replace(/\s+/g, '_'))
+          .includes(id);
         
         setProgress(prev => {
           const newSkills = new Set(prev.skills).add(id);
-          // Add XP for all nodes except root node
-          if (!isRootNode) {
+          // Only add XP for categories, not tree nodes
+          if (isCategory) {
             addXPOnly(COMPLETION_XP.SKILL);
-          }
-          // Only count non-tree nodes for progress tracking
-          if (!isTreeNode) {
             return { ...prev, skills: newSkills };
           }
-          // For tree nodes, just mark as seen without affecting progress count
-          return { ...prev, skills: newSkills, totalSkills: prev.totalSkills };
+          // For tree nodes, just mark as seen without affecting progress or XP
+          return { ...prev, skills: newSkills };
         });
       } else if (type === 'VIEW_EXPERIENCE' && !progress.experiences.has(id)) {
         setProgress(prev => {
@@ -136,7 +135,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
   const addXP = (amount: number) => {
     setXP((prev: number) => {
       const newXP = prev + amount;
-      setLevel(Math.floor(newXP / 100) + 1);
+      setLevel(Math.floor(newXP / 100));
       return newXP;
     });
   };

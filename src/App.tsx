@@ -99,7 +99,7 @@ function AppContent() {
                  className="p-2 hover:text-blue-400 transition-colors">
                 <Mail size={24} />
               </a>
-              <a href="/resume.pdf" download
+              <a href="/files/Resume.pdf" download
                  className="p-2 hover:text-blue-400 transition-colors flex items-center gap-2">
                 <FileText size={24} />
                 <span>Resume</span>
