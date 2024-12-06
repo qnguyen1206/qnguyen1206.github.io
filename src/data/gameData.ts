@@ -173,6 +173,7 @@ export const projects: Project[] = [
     image: 'images/Castle.png',
     tech: 'Unity, C#, GitHub',
     github: 'https://github.com/Kairu1206/LMC_2410',
+    live: 'https://kairu1206.itch.io/tower-offense-game',
     status: ['Finished'],
     types: ['Game Development', 'Course Work']
   },
