@@ -24,7 +24,8 @@ export const skillCategories: Record<string, SkillCategory> = {
       { name: 'Assembly', level: 'intermediate' },
       { name: 'Java', level: 'intermediate' },
       { name: 'JavaScript', level: 'intermediate' },
-      { name: 'TypeScript', level: 'beginner' }
+      { name: 'TypeScript', level: 'beginner' },
+      { name: 'C++', level: 'beginner' }
     ]
   },
   'Languages': {
@@ -41,7 +42,9 @@ export const skillCategories: Record<string, SkillCategory> = {
     iconName: 'Wrench',
     iconColor: 'text-purple-400',
     skills: [
-      { name: 'Git & GitHub & GitLab', level: 'advanced' },
+      { name: 'Git', level: 'advanced' },
+      { name: 'GitHub', level: 'advanced' },
+      { name: 'GitLab', level: 'advanced' },
       { name: 'Visual Studio Code', level: 'advanced' },
       { name: 'Unity Game Engine', level: 'advanced' },
       { name: 'Godot & GodotSteam', level: 'advanced' },
@@ -62,8 +65,10 @@ export const skillCategories: Record<string, SkillCategory> = {
       { name: 'Computer Organization', level: 'intermediate' },
       { name: 'Agile Development', level: 'intermediate' },
       { name: 'Cryptography', level: 'intermediate' },
+      { name: 'Artificial Intelligence', level: 'beginner' },
       { name: 'Network Security', level: 'beginner' },
-      { name: 'Security Analysis', level: 'beginner' }
+      { name: 'Security Analysis', level: 'beginner' },
+      { name: 'Web Security', level: 'beginner' }
     ]
   },
   'Soft Skills': {
@@ -77,12 +82,17 @@ export const skillCategories: Record<string, SkillCategory> = {
       { name: 'Time Management', level: 'intermediate' }
     ]
   },
-  'Frontend Frameworks & Libraries': {
+  'Frameworks & Libraries': {
     iconName: 'Layout',
     iconColor: 'text-pink-400',
     skills: [
-      { name: 'React.js', level: 'intermediate' },
-      { name: 'Tailwind CSS', level: 'intermediate' }
+      { name: 'ReactJS', level: 'intermediate' },
+      { name: 'Tailwind CSS', level: 'intermediate' },
+      { name: 'NumPy', level: 'intermediate' },
+      { name: 'Pandas', level: 'beginner' },
+      { name: 'PrettyTable', level: 'beginner' },
+      { name: 'Tkinter', level: 'beginner' },
+      { name: 'PyInstaller', level: 'beginner' },
     ]
   },
   'Runtime & Server': {
@@ -100,7 +110,8 @@ export const skillCategories: Record<string, SkillCategory> = {
       { name: 'ChatGPT', level: 'advanced' },
       { name: 'V0 by Vercel', level: 'intermediate' },
       { name: 'Bolt AI', level: 'intermediate' },
-      { name: 'Claude', level: 'intermediate' }
+      { name: 'Claude', level: 'intermediate' },
+      { name: 'DeepSeek R1', level: 'beginner' }
     ]
   }
 } as const;
@@ -260,6 +271,14 @@ export const projects: Project[] = [
     tech: 'C, Flipper Zero, RF Analysis',
     status: ['Private', 'On Hold'],
     types: ['Cybersecurity Research', 'Personal Projects']
+  },
+  {
+    title: 'TO DO app',
+    description: 'A simple gamify to do list app for personal use.',
+    image: 'images/flipperzeroIcon.png',
+    tech: 'Python, Tkinter, PrettyTable, PyInstaller',
+    status: ['Private', 'Finished'],
+    types: ['App Development', 'Personal Projects']
   }
 ];
 
