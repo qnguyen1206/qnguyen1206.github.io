@@ -275,9 +275,10 @@ export const projects: Project[] = [
   {
     title: 'TO DO app',
     description: 'A simple gamify to do list app for personal use.',
-    image: 'images/flipperzeroIcon.png',
+    image: 'images/clipboard.png',
     tech: 'Python, Tkinter, PrettyTable, PyInstaller',
-    status: ['Private', 'Finished'],
+    github: 'https://github.com/Kairu1206/todoapp',
+    status: ['Finished'],
     types: ['App Development', 'Personal Projects']
   }
 ];
