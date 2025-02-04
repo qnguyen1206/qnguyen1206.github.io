@@ -24,7 +24,7 @@ const categoryIconMap = {
   'Concepts': Brain,
   'Soft Skills': Users,
   'Frontend Frameworks & Libraries': Layout,
-  'Runtime & Server': Server,
+  'Backend Frameworks & Libraries': Server,
   'AI & Machine Learning': Bot
 } as const;
 

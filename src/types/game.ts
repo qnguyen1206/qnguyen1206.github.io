@@ -31,8 +31,8 @@ export interface GameProgress {
 }
 
 export const COMPLETION_XP = {
-  PROJECT: 10,
-  SKILL: 15,
+  PROJECT: 11,
+  SKILL: 23,
   EXPERIENCE: 10,
   EDUCATION: 15,
   CONTACT: 20,

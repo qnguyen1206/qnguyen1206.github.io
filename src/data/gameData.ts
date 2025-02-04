@@ -17,15 +17,15 @@ export const skillCategories: Record<string, SkillCategory> = {
     skills: [
       { name: 'C#', level: 'advanced' },
       { name: 'GDscript', level: 'advanced' },
-      { name: 'HTML & CSS', level: 'intermediate' },
+      { name: 'HTML', level: 'intermediate' },
+      { name: 'CSS', level: 'intermediate' },
       { name: 'PHP', level: 'intermediate' },
       { name: 'Python', level: 'intermediate' },
       { name: 'C', level: 'intermediate' },
       { name: 'Assembly', level: 'intermediate' },
       { name: 'Java', level: 'intermediate' },
       { name: 'JavaScript', level: 'intermediate' },
-      { name: 'TypeScript', level: 'beginner' },
-      { name: 'C++', level: 'beginner' }
+      { name: 'TypeScript', level: 'beginner' }
     ]
   },
   'Languages': {
@@ -48,11 +48,9 @@ export const skillCategories: Record<string, SkillCategory> = {
       { name: 'Visual Studio Code', level: 'advanced' },
       { name: 'Unity Game Engine', level: 'advanced' },
       { name: 'Godot & GodotSteam', level: 'advanced' },
-      { name: 'MySQL', level: 'intermediate' },
-      { name: 'Firebase', level: 'intermediate' },
       { name: 'Android Studio', level: 'intermediate' },
       { name: 'IntelliJ IDEA', level: 'intermediate' },
-      { name: 'Docker', level: 'beginner' }
+      { name: 'Jupiter Notebook', level: 'intermediate' },
     ]
   },
   'Concepts': {
@@ -65,10 +63,8 @@ export const skillCategories: Record<string, SkillCategory> = {
       { name: 'Computer Organization', level: 'intermediate' },
       { name: 'Agile Development', level: 'intermediate' },
       { name: 'Cryptography', level: 'intermediate' },
-      { name: 'Artificial Intelligence', level: 'beginner' },
       { name: 'Network Security', level: 'beginner' },
-      { name: 'Security Analysis', level: 'beginner' },
-      { name: 'Web Security', level: 'beginner' }
+      { name: 'Security Analysis', level: 'beginner' }
     ]
   },
   'Soft Skills': {
@@ -82,24 +78,28 @@ export const skillCategories: Record<string, SkillCategory> = {
       { name: 'Time Management', level: 'intermediate' }
     ]
   },
-  'Frameworks & Libraries': {
+  'Frontend Frameworks & Libraries': {
     iconName: 'Layout',
     iconColor: 'text-pink-400',
     skills: [
-      { name: 'ReactJS', level: 'intermediate' },
+      { name: 'React.js', level: 'intermediate' },
       { name: 'Tailwind CSS', level: 'intermediate' },
-      { name: 'NumPy', level: 'intermediate' },
-      { name: 'Pandas', level: 'beginner' },
-      { name: 'PrettyTable', level: 'beginner' },
-      { name: 'Tkinter', level: 'beginner' },
-      { name: 'PyInstaller', level: 'beginner' },
+      { name: 'Next.js', level: 'beginner' },
     ]
   },
-  'Runtime & Server': {
+  'Backend Frameworks & Libraries': {
     iconName: 'Server',
     iconColor: 'text-orange-400',
     skills: [
-      { name: 'Node.js', level: 'intermediate' }
+      { name: 'Node.js', level: 'intermediate' },
+      { name: 'MySQL', level: 'intermediate' },
+      { name: 'Firebase', level: 'intermediate' },
+      { name: 'NumPy', level: 'intermediate' },
+      { name: 'Pandas', level: 'intermediate' },
+      { name: 'Conda', level: 'beginner' },
+      { name: 'Docker', level: 'beginner' },
+      { name: 'Prometheus', level: 'beginner' },
+      { name: 'Grafana', level: 'beginner' }
     ]
   },
   'AI & Machine Learning': {
@@ -111,7 +111,8 @@ export const skillCategories: Record<string, SkillCategory> = {
       { name: 'V0 by Vercel', level: 'intermediate' },
       { name: 'Bolt AI', level: 'intermediate' },
       { name: 'Claude', level: 'intermediate' },
-      { name: 'DeepSeek R1', level: 'beginner' }
+      { name: 'DeepSeek R1', level: 'intermediate' },
+      { name: 'MeshyAI', level: 'beginner' },
     ]
   }
 } as const;
@@ -278,7 +279,7 @@ export const projects: Project[] = [
     image: 'images/clipboard.png',
     tech: 'Python, Tkinter, PrettyTable, PyInstaller',
     github: 'https://github.com/Kairu1206/todoapp',
-    status: ['Finished'],
+    status: ['In Development'],
     types: ['App Development', 'Personal Projects']
   }
 ];
