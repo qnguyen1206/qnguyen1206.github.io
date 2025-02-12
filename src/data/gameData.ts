@@ -275,11 +275,11 @@ export const projects: Project[] = [
   },
   {
     title: 'TO DO app',
-    description: 'A simple gamify to do list app with AI integrated for personal use.',
+    description: 'A simple gamify to do list app with DeepSeek-R1 14B param local AI integrated for personal use.',
     image: 'images/clipboard.png',
     tech: 'Python, Tkinter, PrettyTable, PyInstaller',
     github: 'https://github.com/Kairu1206/todoapp',
-    status: ['In Development'],
+    status: ['Finished'],
     types: ['App Development', 'Personal Projects']
   }
 ];
