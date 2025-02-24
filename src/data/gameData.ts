@@ -173,7 +173,7 @@ export const projects: Project[] = [
   {
     title: 'Rock Open Game',
     description: 'A personal project to bring a high school project to web game.',
-    image: 'images/rockopengameweb.png',
+    image: 'images/webrockopengame.png',
     tech: 'HTML, CSS, JavaScript, React, NodeJS, Firebase, GitHub CI/CD',
     github: 'https://github.com/Kairu1206/RockOpenGameWeb',
     status: ['Finished'],
