@@ -177,7 +177,7 @@ export const projects: Project[] = [
     tech: 'HTML, CSS, JavaScript, React, NodeJS, Firebase, GitHub CI/CD',
     github: 'https://github.com/Kairu1206/RockOpenGameWeb',
     status: ['Finished'],
-    live: 'https://rockopengame.web.app/',
+    live: 'https://rockopengameweb.web.app/',
     types: ['Game Development', 'Course Work']
   },
   {
