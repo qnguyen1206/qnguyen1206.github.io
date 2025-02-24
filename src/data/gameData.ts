@@ -171,6 +171,16 @@ export const projects: Project[] = [
     types: ['Cybersecurity Research', 'Personal Projects']
   },
   {
+    title: 'Rock Open Game',
+    description: 'A personal project to bring a high school project to web game.',
+    image: 'images/rockopengameweb.png',
+    tech: 'HTML, CSS, JavaScript, React, NodeJS, Firebase, GitHub CI/CD',
+    github: 'https://github.com/Kairu1206/RockOpenGameWeb',
+    status: ['Finished'],
+    live: 'https://rockopengame.web.app/',
+    types: ['Game Development', 'Course Work']
+  },
+  {
     title: 'WanderSync App',
     description: 'A course project using Java and Firebase to learn about Agile and Sprint methodology.',
     image: 'images/AndroidStudioIcon.png',
