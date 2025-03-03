@@ -154,11 +154,11 @@ export const projects: Project[] = [
     types: ['Game Development']
   },
   {
-    title: 'InQnity: Mythical Hunt',
+    title: 'Infinity: Mythical Hunt',
     description: 'A co-op game where players immerse in the world of mythical creatures with real-world folklores and fantasies.',
     image: 'images/InQnityIcon.png',
     tech: 'GDscript, GodotSteam, GitLab, Steamworks',
-    status: ['In Development', 'Private'],
+    status: ['On Hold', 'Private'],
     types: ['Game Development', 'Personal Projects']
   },
   {
