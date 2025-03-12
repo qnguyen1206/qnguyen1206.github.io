@@ -167,7 +167,7 @@ export const projects: Project[] = [
     image: 'images/webIcon.png',
     tech: 'HTML, CSS, JavaScript, PHP, MySQL',
     status: ['Private', 'In Development'],
-    live: '/src/consent-demo/index.html',
+    live: 'https://kairu1206.github.io/src/consent-demo/index.html',
     types: ['Cybersecurity Research', 'Personal Projects']
   },
   {
@@ -243,7 +243,7 @@ export const projects: Project[] = [
     image: 'images/ChatGPTIcon.png',
     tech: 'HTML, CSS, JavaScript, ChatGPT API',
     github: 'https://github.com/Kairu1206/chatbot',
-    live: '/src/chatbot/index.html',
+    live: 'https://kairu1206.github.io/src/chatbot/index.html',
     status: ['API Deprecated', 'Finished'],
     types: ['Web Development', 'Course Work']
   },
@@ -254,7 +254,7 @@ export const projects: Project[] = [
     tech: 'HTML, CSS, Aframe',
     github: 'https://github.com/Kairu1206/aframe-remix',
     status: ['Finished'],
-    live: '/src/aframe-remix/aframe-index.html',
+    live: 'https://kairu1206.github.io/src/aframe-remix/aframe-index.html',
     types: ['Web Development', 'Course Work']
   },
   {
@@ -264,7 +264,7 @@ export const projects: Project[] = [
     tech: 'C, GBA SDK',
     github: 'https://github.com/Kairu1206/CS2110',
     status: ['Finished'],
-    live: '/src/emulatorjs_gba/index.html',
+    live: 'https://kairu1206.github.io/src/emulatorjs_gba/index.html',
     types: ['Game Development', 'Course Work']
   },
   {
