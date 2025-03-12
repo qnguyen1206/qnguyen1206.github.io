@@ -167,7 +167,7 @@ export const projects: Project[] = [
     image: 'images/webIcon.png',
     tech: 'HTML, CSS, JavaScript, PHP, MySQL',
     status: ['Private', 'In Development'],
-    live: './src/consent-demo/index.html',
+    live: '/src/consent-demo/index.html',
     types: ['Cybersecurity Research', 'Personal Projects']
   },
   {
