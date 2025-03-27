@@ -36,7 +36,7 @@ function Experience() {
   const { addProgress, progress } = useGame();
 
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-900/50" id="experience">
+    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-black/50" id="experience">
       <div className="max-w-4xl mx-auto">
         <div className="flex items-center justify-center gap-4 mb-12">
           <Briefcase className="text-blue-400 w-8 h-8" />

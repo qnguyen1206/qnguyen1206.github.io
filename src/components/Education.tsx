@@ -8,7 +8,7 @@ function Education() {
   const { addProgress, progress } = useGame();
 
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-900/50" id="education">
+    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-black/50" id="education">
       <div className="max-w-4xl mx-auto">
         <div className="flex items-center justify-center gap-4 mb-12">
           <GraduationCap className="text-green-400 w-8 h-8" />

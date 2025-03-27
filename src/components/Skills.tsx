@@ -242,7 +242,7 @@ function Skills() {
   };
 
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-900/50" id="skills">
+    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-black/50" id="skills">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col items-center gap-4 mb-12">
           <div className="flex items-center gap-4">

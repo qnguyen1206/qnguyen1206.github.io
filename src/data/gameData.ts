@@ -162,13 +162,21 @@ export const projects: Project[] = [
     types: ['Game Development', 'Personal Projects']
   },
   {
-    title: 'Common Web Security Vulnerabilities and Prevention',
-    description: 'A demonstration of common web security vulnerabilities and prevention techniques.',
-    image: 'images/webIcon.png',
-    tech: 'HTML, CSS, JavaScript, PHP, MySQL',
-    status: ['Private', 'In Development'],
-    live: 'https://kairu1206.github.io/src/consent-demo/index.html',
-    types: ['Cybersecurity Research', 'Personal Projects']
+    title: 'TO DO app',
+    description: 'A simple gamify to do list app with DeepSeek-R1 14B param local AI integrated for personal use.',
+    image: 'images/clipboard.png',
+    tech: 'Python, Tkinter, PrettyTable, PyInstaller',
+    github: 'https://github.com/Kairu1206/todoapp',
+    status: ['Finished'],
+    types: ['App Development', 'Personal Projects']
+  },
+  {
+    title: 'Gamify Saving App',
+    description: 'A gamify saving app to make saving easier and more fun.',
+    image: 'images/inqnity_banking_image.png',
+    tech: 'HTML, CSS, JavaScript, React, NodeJS, Firebase, REST API',
+    status: ['On Hold'],
+    types: ['App Development', 'Personal Projects']
   },
   {
     title: 'Rock Open Game',
@@ -243,7 +251,6 @@ export const projects: Project[] = [
     image: 'images/ChatGPTIcon.png',
     tech: 'HTML, CSS, JavaScript, ChatGPT API',
     github: 'https://github.com/Kairu1206/chatbot',
-    live: 'https://kairu1206.github.io/src/chatbot/index.html',
     status: ['API Deprecated', 'Finished'],
     types: ['Web Development', 'Course Work']
   },
@@ -254,7 +261,6 @@ export const projects: Project[] = [
     tech: 'HTML, CSS, Aframe',
     github: 'https://github.com/Kairu1206/aframe-remix',
     status: ['Finished'],
-    live: 'https://kairu1206.github.io/src/aframe-remix/aframe-index.html',
     types: ['Web Development', 'Course Work']
   },
   {
@@ -264,7 +270,6 @@ export const projects: Project[] = [
     tech: 'C, GBA SDK',
     github: 'https://github.com/Kairu1206/CS2110',
     status: ['Finished'],
-    live: 'https://kairu1206.github.io/src/emulatorjs_gba/index.html',
     types: ['Game Development', 'Course Work']
   },
   {
@@ -284,14 +289,13 @@ export const projects: Project[] = [
     types: ['Cybersecurity Research', 'Personal Projects']
   },
   {
-    title: 'TO DO app',
-    description: 'A simple gamify to do list app with DeepSeek-R1 14B param local AI integrated for personal use.',
-    image: 'images/clipboard.png',
-    tech: 'Python, Tkinter, PrettyTable, PyInstaller',
-    github: 'https://github.com/Kairu1206/todoapp',
-    status: ['Finished'],
-    types: ['App Development', 'Personal Projects']
-  }
+    title: 'Common Web Security Vulnerabilities and Prevention',
+    description: 'A study of common web security vulnerabilities and prevention techniques.',
+    image: 'images/webIcon.png',
+    tech: 'HTML, CSS, JavaScript, PHP, MySQL',
+    status: ['Private', 'Finished'],
+    types: ['Cybersecurity Research', 'Personal Projects']
+  },
 ];
 
 export const TOTAL_PROJECTS = projects.length;

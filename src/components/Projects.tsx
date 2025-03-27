@@ -79,7 +79,7 @@ function Projects() {
     : projects.filter(project => project.types.includes(selectedType));
 
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8" id="projects">
+    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-black/50" id="projects">
       <div className="max-w-6xl mx-auto">
         <div className="flex items-center justify-center gap-4 mb-12">
           <Trophy className="text-yellow-400 w-8 h-8" />
