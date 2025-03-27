@@ -150,7 +150,7 @@ function AppContent() {
 
       {/* Footer */}
       <footer className="text-center py-8 text-gray-400">
-        <p>© 2024 Quang Nguyen. All rights reserved.</p>
+        <p>© 2025 Quang Nguyen. All rights reserved.</p>
       </footer>
     </div>
   );

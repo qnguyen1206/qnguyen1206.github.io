@@ -302,31 +302,37 @@ export const TOTAL_PROJECTS = projects.length;
 
 export const experiences = [
   {
+    title: 'Project Lead & Game Development Programmer',
+    company: 'Game Development Projects',
+    period: 'June 2022 - Present',
+    type: 'Club and Group Work',
+    description: 'Leading game development projects and programming implementation.'
+  },
+  {
+    title: 'App Developer and Designer Intern',
+    company: 'NDA Customer Service',
+    period: 'June 2023 - Aug 2023',
+    type: 'Internship',
+    description: 'Leading mobile app development and design.'
+  },
+  {
     title: 'Customer Service',
     company: 'Pho Nam ATL',
     period: 'June 2023 - Present',
-    type: 'Work'
+    type: 'Part-time Job'
   },
   {
     title: 'Summer Camp Counselor',
     company: 'Lake Wenatchee YMCA',
     period: 'June 2024 - August 2024',
-    type: 'Work'
+    type: 'Part-time Job'
   },
   {
-    title: 'Project Lead & Game Development Programmer',
-    company: 'Game Development Projects',
-    period: 'June 2022 - Present',
-    type: 'Other',
-    description: 'Leading game development projects and programming implementation.'
+    title: 'Lifeguard',
+    company: 'United Pools',
+    period: 'June 2022 - July 2022',
+    type: 'Part-time Job'
   },
-  {
-    title: 'App Development Lead',
-    company: 'Mobile Development Projects',
-    period: 'June 2023 - Aug 2023',
-    type: 'Other',
-    description: 'Leading mobile app development and design.'
-  }
 ];
 
 export const TOTAL_EXPERIENCES = experiences.length;
@@ -336,7 +342,7 @@ export const education = [
     school: 'Georgia Institute of Technology',
     degree: 'Bachelor of Science in Computational Media',
     period: '2023 - Present',
-    gpa: '2.96/4.0',
+    gpa: 'TBD',
     description: 'Specializing in Game Design and Intelligence'
   },
   {
@@ -344,7 +350,7 @@ export const education = [
     degree: 'Bachelor of Science in Computer Science',
     period: '2022 - 2023',
     gpa: '4.0/4.0',
-    description: 'Completed core Computer Science curriculum with highest honors before transferring to Georgia Tech'
+    description: 'Completed core Computer Science curriculums before transferring to Georgia Tech'
   }
 ]; 
 

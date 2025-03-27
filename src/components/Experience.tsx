@@ -2,35 +2,7 @@ import React from 'react';
 import { Briefcase, Calendar } from 'lucide-react';
 import { useGame } from '../context/GameContext';
 import { COMPLETION_XP } from '../types/game';
-
-const experiences = [
-  {
-    title: 'Customer Service',
-    company: 'Pho Nam ATL',
-    period: 'June 2023 - Present',
-    type: 'Work'
-  },
-  {
-    title: 'Summer Camp Counselor',
-    company: 'Lake Wenatchee YMCA',
-    period: 'June 2024 - August 2024',
-    type: 'Work'
-  },
-  {
-    title: 'Project Lead & Game Development Programmer',
-    company: 'Game Development Projects',
-    period: 'June 2022 - Present',
-    type: 'Other',
-    description: 'Leading game development projects and programming implementation.'
-  },
-  {
-    title: 'App Development Lead',
-    company: 'Mobile Development Projects',
-    period: 'June 2023 - Aug 2023',
-    type: 'Other',
-    description: 'Leading mobile app development and design.'
-  }
-];
+import { experiences} from '../data/gameData';
 
 function Experience() {
   const { addProgress, progress } = useGame();
