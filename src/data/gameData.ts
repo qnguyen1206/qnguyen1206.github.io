@@ -176,6 +176,7 @@ export const projects: Project[] = [
     image: 'images/inqnity_banking_image.png',
     tech: 'HTML, CSS, JavaScript, React, NodeJS, Firebase, REST API',
     status: ['On Hold', 'Private'],
+    live: 'https://inqnity-61729.web.app',
     types: ['App Development', 'Personal Projects']
   },
   {
