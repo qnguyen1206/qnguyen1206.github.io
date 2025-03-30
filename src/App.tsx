@@ -77,7 +77,7 @@ function AppContent() {
               </blockquote>
 
               <p className="text-sm sm:text-base text-gray-400 max-w-6xl">
-                Fun Fact: This portfolio was built with the assistance of AI tools: Cursor, V0, and Bolt.
+                Hint: The bubbles can be popped!
               </p>
             </div>
             <div className="flex gap-4 pointer-events-auto">

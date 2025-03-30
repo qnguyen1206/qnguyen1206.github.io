@@ -175,7 +175,7 @@ export const projects: Project[] = [
     description: 'A gamify saving app to make saving easier and more fun.',
     image: 'images/inqnity_banking_image.png',
     tech: 'HTML, CSS, JavaScript, React, NodeJS, Firebase, REST API',
-    status: ['On Hold'],
+    status: ['On Hold', 'Private'],
     types: ['App Development', 'Personal Projects']
   },
   {
