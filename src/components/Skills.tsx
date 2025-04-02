@@ -251,14 +251,14 @@ function Skills() {
           </div>
           
           {/* View Toggle Button */}
-          <button
+          {/*<button
             type="button"
             onClick={handleViewToggle}
             className="z-50 flex items-center gap-2 px-4 py-2 rounded-lg bg-gray-800 hover:bg-gray-700 transition-colors cursor-pointer"
           >
             <ToggleLeft className={`w-4 h-4 ${isTreeView ? 'rotate-180' : ''} transition-transform`} />
             <span>{isTreeView ? 'Category View' : 'Tree View'}</span>
-          </button>
+          </button>*/}
         </div>
 
         {isTreeView ? (

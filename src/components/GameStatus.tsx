@@ -136,7 +136,7 @@ export default function GameStatus() {
                 <div className="bg-yellow-500 h-full rounded-full transition-all"
                      style={{ width: `${skillProgress}%` }} />
               </div>
-              <span className="text-xs text-center">{progress.skills.size}/{progress.totalSkills}</span>
+              <span className="text-xs text-center">{progress.skills.size - 1}/{progress.totalSkills}</span>
             </div>
 
             <div className="flex flex-col gap-2">
@@ -162,18 +162,18 @@ export default function GameStatus() {
           <div className="flex flex-col items-center gap-2">
             <div className="flex justify-center gap-4">
               <button
-                onClick={handleSave}
-                className="flex items-center gap-2 px-4 py-2 bg-blue-500/20 hover:bg-blue-500/30 text-blue-400 rounded-lg transition-colors"
-              >
-                <Save className="w-4 h-4" />
-                Save Progress
-              </button>
-              <button
                 onClick={handleReset}
                 className="flex items-center gap-2 px-4 py-2 bg-red-500/20 hover:bg-red-500/30 text-red-400 rounded-lg transition-colors"
               >
                 <Trash2 className="w-4 h-4" />
                 Reset Progress
+              </button>
+              <button
+                onClick={handleSave}
+                className="flex items-center gap-2 px-4 py-2 bg-blue-500/20 hover:bg-blue-500/30 text-blue-400 rounded-lg transition-colors"
+              >
+                <Save className="w-4 h-4" />
+                Save Progress
               </button>
             </div>
             {saveStatus && (

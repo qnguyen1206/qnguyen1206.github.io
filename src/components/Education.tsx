@@ -43,6 +43,11 @@ function Education() {
               {edu.description && (
                 <p className="text-gray-300 mt-4">{edu.description}</p>
               )}
+              <br></br>
+              {edu.scholarships_and_awards &&
+                edu.scholarships_and_awards.map((award, index) =>
+                  <p className="text-gray-300" key={index}>{award}</p>
+              )}
             </div>
           ))}
         </div>

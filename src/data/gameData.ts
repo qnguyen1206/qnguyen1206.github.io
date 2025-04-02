@@ -344,14 +344,16 @@ export const education = [
     degree: 'Bachelor of Science in Computational Media',
     period: '2023 - Present',
     gpa: 'TBD',
-    description: 'Specializing in Game Design and Intelligence'
+    description: 'Specializing in Game Design and Intelligence',
+    scholarships_and_awards: ['Zell Miller Scholarship Recipient'],
   },
   {
     school: 'Georgia State University',
     degree: 'Bachelor of Science in Computer Science',
     period: '2022 - 2023',
     gpa: '4.0/4.0',
-    description: 'Completed core Computer Science curriculums before transferring to Georgia Tech'
+    description: 'Completed core Computer Science curriculums before transferring to Georgia Tech',
+    scholarships_and_awards: ['Zell Miller Scholarship Recipient', 'GSU President List Fall 2022 Recipient', 'GSU Dean List Spring 2023 Recipient'],
   }
 ]; 
 
