@@ -6,7 +6,7 @@ export function initHero() {
       <div class="hero-content">
         <div class="hero-text">
           <p class="hero-subtitle animate-fadeInUp">Hello, I'm</p>
-          <h1 class="hero-title animate-fadeInUp delay-200">John Doe</h1>
+          <h1 class="hero-title animate-fadeInUp delay-200">Quang Nguyen</h1>
           <div class="hero-description animate-fadeInUp delay-300">
             <div class="typewriter">
               <span id="typewriter-text"></span>
@@ -98,7 +98,7 @@ export function initHero() {
   `;
   
   // Typewriter effect
-  const texts = ["Frontend Developer", "UI/UX Designer", "Creative Thinker"];
+  const texts = ["Software Developer", "Software Designer", "Game Developer", "Game Desginer", "Web Developer", "Web Designer"];
   let count = 0;
   let index = 0;
   let currentText = "";
