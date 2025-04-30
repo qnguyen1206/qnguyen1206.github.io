@@ -1,6 +1,0 @@
-import{c as t,r as s,u as a,j as e,M as r}from"./index-CIyE6D-8.js";/**
- * @license lucide-react v0.344.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */const c=t("MessageSquare",[["path",{d:"M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z",key:"1lielz"}]]);function h(){const[n,i]=s.useState({name:"",email:"",message:""}),{addProgress:l}=a(),[o,m]=s.useState(!1),[x,u]=s.useState(!1);return e.jsx("section",{className:"py-20 px-4 sm:px-6 lg:px-8 bg-gray-900/50",children:e.jsxs("div",{className:"max-w-3xl mx-auto",children:[e.jsx("h2",{className:"text-4xl font-bold mb-12 text-center",children:"Get in Touch"}),e.jsxs("div",{className:"mt-12 flex flex-col sm:flex-row items-center justify-center gap-8",children:[e.jsxs("a",{href:"mailto:qnguyenpersonal@gmail.com",className:"flex items-center gap-2 text-gray-400 hover:text-white transition-colors",children:[e.jsx(r,{size:20}),e.jsx("span",{children:"qnguyenpersonal@gmail.com"})]}),e.jsxs("a",{href:"tel:4705011357",className:"flex items-center gap-2 text-gray-400 hover:text-white transition-colors",children:[e.jsx(c,{size:20}),e.jsx("span",{children:"470-501-1357"})]})]})]})})}export{h as default};
