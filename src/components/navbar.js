@@ -1,6 +1,9 @@
 export function initNav() {
   const header = document.getElementById('header');
   
+  // Add black background class immediately
+  header.classList.add('scrolled');
+  
   // Create navbar content
   header.innerHTML = `
     <div class="container">
@@ -75,11 +78,16 @@ function updateActiveNavOnScroll() {
 function changeHeaderOnScroll() {
   const header = document.getElementById('header');
   
-  window.addEventListener('scroll', () => {
-    if (window.scrollY > 100) {
-      header.classList.add('scrolled');
-    } else {
-      header.classList.remove('scrolled');
-    }
-  });
+  // Set header to black immediately and permanently
+  header.classList.add('scrolled');
+  
+  // Remove the scroll event listener since we want it always black
+  // window.addEventListener('scroll', () => {
+  //   if (window.scrollY > 100) {
+  //     header.classList.add('scrolled');
+  //   } else {
+  //     header.classList.remove('scrolled');
+  //   }
+  // });
 }
+

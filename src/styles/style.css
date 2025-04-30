@@ -137,15 +137,13 @@ p {
   left: 0;
   width: 100%;
   z-index: var(--z-fixed);
-  padding: var(--space-4) 0;
-  background-color: transparent;
-  transition: background-color var(--transition-normal),
-              padding var(--transition-normal),
-              box-shadow var(--transition-normal);
+  padding: var(--space-2) 0;
+  background-color: var(--color-bg);
+  box-shadow: var(--shadow-md);
 }
 
 #header.scrolled {
-  background-color: var(--color-surface);
+  background-color: var(--color-bg);
   padding: var(--space-2) 0;
   box-shadow: var(--shadow-md);
 }
@@ -335,3 +333,4 @@ p {
     gap: var(--space-6);
   }
 }
+

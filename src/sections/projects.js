@@ -430,17 +430,32 @@ export function initProjects() {
       }
       
       .projects-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+        display: flex;
+        flex-direction: column;
         gap: var(--space-6);
       }
       
       .project-card {
+        width: 100%;
         background-color: var(--color-surface);
         border-radius: var(--radius-lg);
         overflow: hidden;
         box-shadow: var(--shadow-md);
         transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+      
+      @media (max-width: 480px) {
+        .project-card {
+          flex-direction: column;
+        }
+        
+        .project-image {
+          width: 100%;
+          height: 200px;
+        }
       }
       
       .project-card:hover {
@@ -451,7 +466,10 @@ export function initProjects() {
       .project-image {
         position: relative;
         overflow: hidden;
-        aspect-ratio: 16 / 9;
+        width: 30%;
+        min-width: 150px;
+        height: 150px;
+        margin: 0;
       }
       
       .project-image img {
@@ -498,7 +516,8 @@ export function initProjects() {
       }
       
       .project-info {
-        padding: var(--space-4) var(--space-5);
+        padding: var(--space-3) var(--space-4);
+        flex: 1;
       }
       
       .project-info h3 {
@@ -513,9 +532,12 @@ export function initProjects() {
       }
       
       .project-description {
-        margin-bottom: var(--space-3);
+        margin-bottom: var(--space-2);
         color: var(--color-text-secondary);
         font-size: var(--font-size-sm);
+        max-height: 3em;
+        overflow: hidden;
+        text-overflow: ellipsis;
       }
       
       .project-tags {
@@ -573,3 +595,8 @@ export function initProjects() {
 ///<div class="project-overlay">
 ///<a href="./project.html#${project.id}" class="view-project">View Project</a>
 ///</div>
+
+
+
+
+

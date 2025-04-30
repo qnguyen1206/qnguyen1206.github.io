@@ -5,7 +5,6 @@ export function initHero() {
     <div class="container">
       <div class="hero-content">
         <div class="hero-text">
-          <p class="hero-subtitle animate-fadeInUp">Hello, I'm</p>
           <h1 class="hero-title animate-fadeInUp delay-200">Quang Nguyen</h1>
           <div class="hero-description animate-fadeInUp delay-300">
             <div class="typewriter">
@@ -27,7 +26,7 @@ export function initHero() {
         align-items: center;
         position: relative;
         padding-top: 100px;
-        background: linear-gradient(135deg, var(--color-primary-900), var(--color-neutral-900));
+        background: linear-gradient(90deg, var(--color-primary-700), var(--color-primary-500));
       }
       
       .hero-content {
@@ -79,6 +78,17 @@ export function initHero() {
         gap: var(--space-4);
       }
       
+      .btn-secondary {
+        background-color: transparent;
+        color: white;
+        border: 2px solid white;
+      }
+      
+      .btn-secondary:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+        transform: translateY(-2px);
+      }
+      
       @media (max-width: 768px) {
         .hero-content {
           flex-direction: column;
@@ -125,3 +135,7 @@ export function initHero() {
   
   setTimeout(type, 1000);
 }
+
+
+
+

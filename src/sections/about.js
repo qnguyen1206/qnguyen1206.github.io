@@ -7,11 +7,11 @@ export function initAbout() {
       
       <div class="about-content">
         <div class="about-text">
-          <p class="reveal">Hello! I'm a passionate frontend developer and designer with a love for creating beautiful, functional, and user-centered digital experiences.</p>
+          <p class="reveal">Hello! I'm Quang Nguyen. I'm currently a student at Georgia Institute of Technology, where I'm pursuing a degree Bachelor of Science in Computational Media (half CS and half LMC) concentrated in Game Desgin and Artifical Intelligence.</p>
           
-          <p class="reveal">With 5+ years of experience in the field, I've worked on a diverse range of projects, from small business websites to complex web applications. I'm constantly exploring new technologies and design trends to stay at the cutting edge of web development.</p>
+          <p class="reveal">I'm both a Software Developer and a Game Developer.</p>
           
-          <p class="reveal">When I'm not coding, you can find me exploring nature trails, experimenting with photography, or attending local tech meetups. I believe in continuous learning and giving back to the community through mentorship and open-source contributions.</p>
+          <p class="reveal">I like to explore things and enjoy world building.</p>
         </div>
       </div>
     </div>
