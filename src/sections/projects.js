@@ -389,7 +389,7 @@ export function initProjects() {
             <div class="project-image">
               <img src="${project.image}" alt="${project.title}">
               <div class="project-overlay">
-                <a href="project.html?id=${project.id}" class="view-project">View Project</a>
+                <a href="project.html#${project.id}" class="view-project">View Project</a>
               </div>
             </div>
             <div class="project-info">

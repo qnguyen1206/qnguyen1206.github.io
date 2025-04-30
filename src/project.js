@@ -5,9 +5,8 @@ import { initFooter } from './components/footer.js';
 initNav();
 initFooter();
 
-// Get project ID from URL
-const urlParams = new URLSearchParams(window.location.search);
-const projectId = urlParams.get('id');
+// Get project ID from URL hash instead of query parameters
+const projectId = window.location.hash.substring(1); // Remove the # character
 
 // Get projects data from localStorage
 const projectsData = JSON.parse(localStorage.getItem('projectsData'));
