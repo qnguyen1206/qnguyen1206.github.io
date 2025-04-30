@@ -51,7 +51,13 @@ export function initNav() {
 }
 
 function updateActiveNavOnScroll() {
+  let isManualClick = false;
+  let clickTimeout;
+  
   window.addEventListener('scroll', () => {
+    // Don't update on scroll if manual click was just performed
+    if (isManualClick) return;
+    
     const sections = document.querySelectorAll('.section');
     const navLinks = document.querySelectorAll('.nav-link');
     
@@ -78,10 +84,22 @@ function updateActiveNavOnScroll() {
   const navLinks = document.querySelectorAll('.nav-link');
   navLinks.forEach(link => {
     link.addEventListener('click', function(e) {
+      // Set manual click flag to prevent scroll handler from overriding
+      isManualClick = true;
+      
+      // Clear any existing timeout
+      if (clickTimeout) clearTimeout(clickTimeout);
+      
       // Remove active class from all links
       navLinks.forEach(l => l.classList.remove('active'));
+      
       // Add active class to clicked link
       this.classList.add('active');
+      
+      // Reset manual click flag after navigation completes
+      clickTimeout = setTimeout(() => {
+        isManualClick = false;
+      }, 1000); // Wait 1 second before allowing scroll updates again
     });
   });
 }
@@ -101,5 +119,6 @@ function changeHeaderOnScroll() {
   //   }
   // });
 }
+
 
 
