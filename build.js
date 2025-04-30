@@ -2,6 +2,8 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { initNav } from './src/components/navbar.js';
+import { initFooter } from './src/components/footer.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -161,3 +163,4 @@ projectsData.forEach(project => {
 });
 
 console.log('Static project pages generated successfully!');
+
