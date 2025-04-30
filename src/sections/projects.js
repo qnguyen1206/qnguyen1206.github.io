@@ -389,7 +389,7 @@ export function initProjects() {
             <div class="project-image">
               <img src="${project.image}" alt="${project.title}">
               <div class="project-overlay">
-                <a href="/project.html?id=${project.id}" class="view-project">View Project</a>
+                <a href="project.html?id=${project.id}" class="view-project">View Project</a>
               </div>
             </div>
             <div class="project-info">
@@ -574,4 +574,32 @@ export function initProjects() {
       });
     });
   });
+}
+
+window.addEventListener('hashchange', () => {
+  const hash = window.location.hash;
+  if (hash.startsWith('#project?id=')) {
+    const projectId = hash.split('=')[1];
+    loadProjectDetails(projectId);
+  }
+});
+
+function loadProjectDetails(projectId) {
+  const project = projectsData.find(p => p.id === projectId);
+  if (project) {
+    // Display project details (you can customize this as needed)
+    document.getElementById('projects').innerHTML = `
+      <div class="project-details">
+        <h2>${project.title}</h2>
+        <img src="${project.image}" alt="${project.title}">
+        <div>${project.fullDescription}</div>
+        <a href="#" onclick="goBack()">Back to Projects</a>
+      </div>
+    `;
+  }
+}
+
+function goBack() {
+  window.location.hash = '';
+  initProjects(); // Reinitialize the projects list
 }
