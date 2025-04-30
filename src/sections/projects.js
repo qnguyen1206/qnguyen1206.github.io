@@ -385,9 +385,6 @@ export function initProjects() {
           <div class="project-card reveal" data-category="${project.category}">
             <div class="project-image">
               <img src="${project.image}" alt="${project.title}">
-              <div class="project-overlay">
-                <a href="./project.html#${project.id}" class="view-project">View Project</a>
-              </div>
             </div>
             <div class="project-info">
               <h3>${project.title}</h3>
@@ -572,3 +569,7 @@ export function initProjects() {
     });
   });
 }
+
+///<div class="project-overlay">
+///<a href="./project.html#${project.id}" class="view-project">View Project</a>
+///</div>
