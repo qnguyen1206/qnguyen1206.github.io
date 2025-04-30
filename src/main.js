@@ -16,6 +16,7 @@ document.querySelector('#app').innerHTML = `
     <section id="hero" class="section"></section>
     <section id="about" class="section"></section>
     <section id="projects" class="section"></section>
+    <section id="Test" class="section"><a href="project.html"></a></section>
   </main>
   <footer id="footer"></footer>
 `;
