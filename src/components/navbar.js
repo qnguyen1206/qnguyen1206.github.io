@@ -17,6 +17,7 @@ export function initNav() {
           <li><a href="#hero" class="nav-link active">Home</a></li>
           <li><a href="#about" class="nav-link">About</a></li>
           <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="/project.html" class="nav-link">Contact</a></li>
         </ul>
       </nav>
     </div>
