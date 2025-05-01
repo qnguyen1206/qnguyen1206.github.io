@@ -11,18 +11,30 @@ export function initProjects() {
       description: 'A multiplayer racing game where cars and technology meet, designed using Godot and Steamworks.',
       tags: ['Godot', 'Steamworks', 'GitLab'],
       fullDescription: `
-        <h3>Overview</h3>
-        <p>A multiplayer racing game where cars and technology meet, designed using Godot and Steamworks.</p>
-        
         <h3>Key Features</h3>
         <ul>
-          <li>Multiplayer racing</li>
-          <li>Advanced physics and mechanics</li>
-          <li>Steamworks integration</li>
+          <li>Multiplayer</li>
+          <li>Simulated real world physics</li>
+          <li>Work on Steam</li>
         </ul>
         
-        <h3>Technical Details</h3>
-        <p>Developed using Godot with GDscript and Steamworks integration. Managed with GitLab for version control.</p>
+        <h3>Summary</h3>
+        <p>
+          I was able to create a multiplayer system that is able to work through Steamworks' APIs using GodotSteam.
+          The multiplayer system is a P2P system that is using Steamworks' APIs and Steam's backend server.
+          It is easier to create the system because the hard part had been done behind the scene by GodotSteam's team.
+          Our multiplayer player is a very basic one which only includes sending position, rotation, car choice, and key press.
+        </p>
+        <p>
+          I designed one kart, the Cannon Kart, that was able to move in an opposite direction of the where the kart.
+          However, due to unable to balance the kart, I decided to put the kart on hold.
+        </p>
+        <p>
+          I also designed the UI for the game. The UI is currently very basic due to the lack of experience on my side.
+        </p>
+        <p>
+          We are planning to release the game on Steam as beta in the near future.
+        </p>
       `
     },
     {
@@ -33,18 +45,31 @@ export function initProjects() {
       description: 'A co-op game where players immerse in the world of mythical creatures with real-world folklores and fantasies.',
       tags: ['Godot', 'Steamworks', 'GitLab'],
       fullDescription: `
-        <h3>Overview</h3>
-        <p>A co-op game where players immerse in the world of mythical creatures with real-world folklores and fantasies.</p>
-        
         <h3>Key Features</h3>
         <ul>
-          <li>Co-op gameplay</li>
-          <li>Mythical creature encounters</li>
-          <li>Rich storytelling</li>
+          <li>Singleplayer or Multiplayer</li>
+          <li>Weapons System</li>
+          <li>Basic Finite State Machine AI</li>
         </ul>
         
-        <h3>Technical Details</h3>
-        <p>Built using Godot with GDscript and Steamworks integration. Managed with GitLab for version control.</p>
+        <h3>Summary</h3>
+        <p>
+          I was using the same system as Kart: A Tech Filled Racing Game.
+          Since I knew how to create the multiplayer in Kart: A Tech Filled Racing Game, I was able to recreate the same system myself using the same setup.
+          It was not as easy as the system in Kart: A Tech Filled Racing Game.
+          Beside sending position, rotation, weapon choice, and key press, this multiplayer system also sending signals to allow synchronizations of players skills usages and the state machine of the AIs/NPCs.
+        </p>
+        <p>
+          Since this is a solo project, I am in charge of every part in this game from backend to front end, from mechanics to UI to sounds.
+          It was a very challenging project for me due to the amount of work I have to do.
+          However, it was also a very fun project since I was able to create a multiplayer game from scratch.
+        </p>
+        <p>
+          In the near future, I am planning to create more NPCs, each with their own behavior, and if possible, I will try to integrate neural networks into the NPCs/AIs so that the game will be more emersive.
+        </p>
+        <p>
+          I am currently working on the game and I am not planning to release it anytime soon.
+        </p>
       `
     },
     {
@@ -245,7 +270,7 @@ export function initProjects() {
       category: 'Web Development',
       image: 'images/ChatGPTIcon.png',
       description: 'A course project using ChatGPT APIs to create a chatbot with personality.',
-      tags: ['HTML', 'CSS', 'JavaScript'],
+      tags: ['HTML', 'CSS', 'JavaScript', 'ChatGPT'],
       fullDescription: `
         <h3>Overview</h3>
         <p>A course project using ChatGPT APIs to create a chatbot with personality.</p>
@@ -331,16 +356,13 @@ export function initProjects() {
       description: 'A research project exploring radio frequency security using Flipper Zero, focusing on automotive systems.',
       tags: ['C', 'Flipper Zero'],
       fullDescription: `
-        <h3>Overview</h3>
-        <p>A research project exploring radio frequency security using Flipper Zero, focusing on automotive systems.</p>
-        
         <h3>Key Features</h3>
         <ul>
           <li>RF security analysis</li>
           <li>Automotive system focus</li>
         </ul>
         
-        <h3>Technical Details</h3>
+        <h3>Summary</h3>
         <p>Developed using C and Flipper Zero for RF analysis.</p>
       `
     },
@@ -352,17 +374,17 @@ export function initProjects() {
       description: 'A study of common web security vulnerabilities and prevention techniques.',
       tags: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL'],
       fullDescription: `
-        <h3>Overview</h3>
-        <p>A study of common web security vulnerabilities and prevention techniques.</p>
-        
         <h3>Key Features</h3>
         <ul>
           <li>Web security analysis</li>
           <li>Prevention techniques</li>
         </ul>
         
-        <h3>Technical Details</h3>
-        <p>Developed using HTML, CSS, JavaScript, PHP, and MySQL.</p>
+        <h3>Summary</h3>
+        <p>
+          This project is rooted from all the study and research I have done on web security either by myself or with GT GreyHat Hacking Club.
+          The purpose of this project is a note book for me to refer to when I am working on other web apps or websites projects.
+        </p>
       `
     }
   ];
@@ -391,7 +413,8 @@ export function initProjects() {
     'Aframe': { src: 'icons/aframe_icon.png', width: 56, height: 50 },
     'C': { src: 'icons/c_icon.png', width: 44, height: 50 },
     'Raspberry Pi': { src: 'icons/raspberry_pi_icon.png', width: 50, height: 50 },
-    'Flipper Zero': { src: 'icons/flipper_zero_icon.png', width: 50, height: 50 }
+    'Flipper Zero': { src: 'icons/flipper_zero_icon.png', width: 50, height: 50 },
+    'ChatGPT': { src: 'icons/chatgpt_icon.png', width: 50, height: 50 }
   };
   
   // Generate HTML
@@ -417,6 +440,10 @@ export function initProjects() {
               <h3>${project.title}</h3>
               <p class="project-category">${project.category}</p>
               <p class="project-description">${project.description}</p>
+              <button class="read-more-btn" data-id="${project.id}">Read More</button>
+              <div class="full-description" id="desc-${project.id}" style="display: none;">
+                ${project.fullDescription}
+              </div>
               <div class="project-tags">
                 ${project.tags.map(tag => {
                   const icon = techIcons[tag];
@@ -506,12 +533,17 @@ export function initProjects() {
         min-width: 150px;
         height: 150px;
         margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
       
       .project-image img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+        height: auto;
+        object-fit: contain;
         transition: transform var(--transition-normal);
       }
       
@@ -568,7 +600,7 @@ export function initProjects() {
       }
       
       .project-description {
-        margin-bottom: var(--space-2);
+        margin-bottom: var(--space-4);
         color: var(--color-text-secondary);
         font-size: var(--font-size-sm);
         max-height: 3em;
@@ -601,6 +633,43 @@ export function initProjects() {
           grid-template-columns: 1fr;
         }
       }
+      .read-more-btn {
+        background-color: var(--color-primary-500);
+        color: white;
+        border: none;
+        padding: var(--space-1) var(--space-2);
+        border-radius: var(--radius-sm);
+        font-size: var(--font-size-xs);
+        cursor: pointer;
+        margin-bottom: var(--space-4);
+        transition: background-color var(--transition-normal);
+      }
+
+      .read-more-btn:hover {
+        background-color: var(--color-primary-600);
+      }
+
+      .full-description {
+        margin-bottom: var(--space-4);
+        font-size: var(--font-size-sm);
+        color: white;
+        overflow: hidden;
+      }
+      .full-description h3 {
+        margin-top: var(--space-4);
+        margin-bottom: var(--space-2);
+        color: var(--color-primary-500);
+      }
+
+      .full-description ul {
+        margin-bottom: var(--space-4);
+        list-style-type: disc;
+        padding-left: var(--space-4);
+      }
+
+      .full-description li {
+        margin-bottom: var(--space-1);
+      }
     </style>
   `;
   
@@ -626,11 +695,35 @@ export function initProjects() {
       });
     });
   });
+
+  // Toggle full description
+  const readMoreButtons = document.querySelectorAll('.read-more-btn');
+  readMoreButtons.forEach(button => {
+    button.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const projectId = button.getAttribute('data-id');
+      const descElement = document.getElementById(`desc-${projectId}`);
+      
+      if (descElement.style.display === 'none') {
+        descElement.style.display = 'block';
+        button.textContent = 'Show Less';
+      } else {
+        descElement.style.display = 'none';
+        button.textContent = 'Read More';
+      }
+    });
+  });
 }
 
-///<div class="project-overlay">
-///<a href="./project.html#${project.id}" class="view-project">View Project</a>
-///</div>
+
+
+
+
+
+
+
+
+
 
 
 
