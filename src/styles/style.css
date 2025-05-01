@@ -334,3 +334,39 @@ p {
   }
 }
 
+/* Tech Icons */
+.tech-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.tech-icons {
+  display: flex;
+  flex-direction: row; /* Explicitly set to row */
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-3);
+  margin-top: var(--space-2);
+  width: 100%;
+}
+
+.tech-icon {
+  display: inline-block; /* Ensure inline display */
+  margin: 0 var(--space-1); /* Add horizontal margin */
+}
+
+.tech-icon:hover {
+  transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+  .tech-icons {
+    gap: var(--space-2);
+    justify-content: flex-start; /* Left align on mobile */
+  }
+}
+
+
+
