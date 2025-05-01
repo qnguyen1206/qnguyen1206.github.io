@@ -80,18 +80,17 @@ export function initProjects() {
       description: 'A simple gamified to-do list app with DeepSeek-R1 14B param local AI integrated for personal use.',
       tags: ['Python', 'DeepSeek'],
       fullDescription: `
-        <h3>Overview</h3>
-        <p>A simple gamified to-do list app with DeepSeek-R1 14B param local AI integrated for personal use.</p>
-        
         <h3>Key Features</h3>
         <ul>
-          <li>Task management</li>
+          <li>Basic functionality for managing tasks including add, remove, edit, and finish task</li>
           <li>AI integration</li>
           <li>Gamified experience</li>
+          <li>Start on boot</li>
         </ul>
         
-        <h3>Technical Details</h3>
-        <p>Developed using Python with Tkinter for the GUI and DeepSeek-R1 for AI integration.</p>
+        <h3>Summary</h3>
+        <p>
+        </p>
       `
     },
     {
@@ -102,18 +101,19 @@ export function initProjects() {
       description: 'A gamified saving app to make saving easier and more fun.',
       tags: ['HTML', 'CSS', 'JavaScript', 'React', 'NodeJS', 'Firebase'],
       fullDescription: `
-        <h3>Overview</h3>
-        <p>A gamified saving app to make saving easier and more fun.</p>
-        
         <h3>Key Features</h3>
         <ul>
-          <li>Interactive saving goals</li>
-          <li>Gamified user experience</li>
+          <li>Third parties API integration including Teller.io and Plaid</li>
+          <li>Gamified experience</li>
           <li>Responsive design</li>
+          <li>Marketplace</li>
+          <li>Trade system</li>
+          <li>Shop system</li>
         </ul>
         
-        <h3>Technical Details</h3>
-        <p>Built using React and NodeJS for the web application, with Firebase for backend services.</p>
+        <h3>Summary</h3>
+        <p>
+        </p>
       `
     },
     {
@@ -124,18 +124,19 @@ export function initProjects() {
       description: 'A personal project to bring a high school project to a web game.',
       tags: ['HTML', 'CSS', 'JavaScript', 'React', 'NodeJS', 'Firebase'],
       fullDescription: `
-        <h3>Overview</h3>
-        <p>A personal project to bring a high school project to a web game.</p>
-        
         <h3>Key Features</h3>
         <ul>
-          <li>Interactive gameplay</li>
+          <li>Firebase database connection</li>
           <li>Web-based platform</li>
           <li>Responsive design</li>
+          <li>Shop system including daily deals</li>
+          <li>Trade system</li>
+          <li>Mini-games</li>
         </ul>
         
-        <h3>Technical Details</h3>
-        <p>Built using React and NodeJS for the web application, with Firebase for backend services.</p>
+        <h3>Summary</h3>
+        <p>
+        </p>
       `
     },
     {
@@ -146,17 +147,15 @@ export function initProjects() {
       description: 'A course project using Java and Firebase to learn about Agile and Sprint methodology.',
       tags: ['Java', 'Firebase', 'Android Studio', 'GitHub'],
       fullDescription: `
-        <h3>Overview</h3>
-        <p>A course project using Java and Firebase to learn about Agile and Sprint methodology.</p>
-        
         <h3>Key Features</h3>
         <ul>
-          <li>Task synchronization</li>
+          <li>Firebase database connection</li>
           <li>Agile development practices</li>
         </ul>
         
-        <h3>Technical Details</h3>
-        <p>Developed using Java and Firebase, with Android Studio for app development and GitHub for version control.</p>
+        <h3>Summary</h3>
+        <p>
+        </p>
       `
     },
     {
@@ -167,17 +166,15 @@ export function initProjects() {
       description: 'A course project using Unity and C# to create a 2D tower offense game.',
       tags: ['Unity', 'C#', 'GitHub'],
       fullDescription: `
-        <h3>Overview</h3>
-        <p>A course project using Unity and C# to create a 2D tower offense game.</p>
-        
         <h3>Key Features</h3>
         <ul>
           <li>2D tower offense mechanics</li>
           <li>Strategic gameplay</li>
         </ul>
         
-        <h3>Technical Details</h3>
-        <p>Developed using Unity and C#, with GitHub for version control.</p>
+        <h3>Summary</h3>
+        <p>
+        </p>
       `
     },
     {
@@ -188,17 +185,15 @@ export function initProjects() {
       description: 'A course project using Unity and C# to create a 2D platformer game.',
       tags: ['Unity', 'C#', 'GitHub'],
       fullDescription: `
-        <h3>Overview</h3>
-        <p>A course project using Unity and C# to create a 2D platformer game.</p>
-        
         <h3>Key Features</h3>
         <ul>
           <li>2D platformer mechanics</li>
           <li>Engaging level design</li>
         </ul>
         
-        <h3>Technical Details</h3>
-        <p>Developed using Unity and C#, with GitHub for version control.</p>
+        <h3>Summary</h3>
+        <p>
+        </p>
       `
     },
     {
@@ -209,17 +204,15 @@ export function initProjects() {
       description: 'A 2.5D bullet-hell game where players battle through a kingdom\'s dungeon as a jester.',
       tags: ['Unity', 'C#', 'GitHub'],
       fullDescription: `
-        <h3>Overview</h3>
-        <p>A 2.5D bullet-hell game where players battle through a kingdom's dungeon as a jester.</p>
-        
         <h3>Key Features</h3>
         <ul>
           <li>Bullet-hell mechanics</li>
           <li>Unique jester character</li>
         </ul>
         
-        <h3>Technical Details</h3>
-        <p>Developed using Unity and C#, with GitHub for version control.</p>
+        <h3>Summary</h3>
+        <p>
+        </p>
       `
     },
     {
@@ -230,17 +223,15 @@ export function initProjects() {
       description: 'A 2D platformer game where players escape from a mutant snail that broke out from the lab.',
       tags: ['Unity', 'C#', 'GitHub'],
       fullDescription: `
-        <h3>Overview</h3>
-        <p>A 2D platformer game where players escape from a mutant snail that broke out from the lab.</p>
-        
         <h3>Key Features</h3>
         <ul>
           <li>2D platformer mechanics</li>
           <li>Engaging escape gameplay</li>
         </ul>
         
-        <h3>Technical Details</h3>
-        <p>Developed using Unity and C#, with GitHub for version control.</p>
+        <h3>Summary</h3>
+        <p>
+        </p>
       `
     },
     {
@@ -251,17 +242,19 @@ export function initProjects() {
       description: 'A customer service app providing connection between customers, employees, and company services.',
       tags: ['C#', 'PHP', 'MySQL', 'PHPMyAdmin'],
       fullDescription: `
-        <h3>Overview</h3>
-        <p>A customer service app providing connection between customers, employees, and company services.</p>
-        
         <h3>Key Features</h3>
         <ul>
           <li>Customer support integration</li>
           <li>Employee management</li>
+          <li>Company service integration</li>
+          <li>MySQL database</li>
+          <li>PHPMyAdmin database management</li>
+          <li>Real time update</li>
         </ul>
         
-        <h3>Technical Details</h3>
-        <p>Developed using C#, PHP, and MySQL, with PHPMyAdmin for database management.</p>
+        <h3>Summary</h3>
+        <p>
+        </p>
       `
     },
     {
@@ -272,17 +265,14 @@ export function initProjects() {
       description: 'A course project using ChatGPT APIs to create a chatbot with personality.',
       tags: ['HTML', 'CSS', 'JavaScript', 'ChatGPT'],
       fullDescription: `
-        <h3>Overview</h3>
-        <p>A course project using ChatGPT APIs to create a chatbot with personality.</p>
-        
         <h3>Key Features</h3>
         <ul>
           <li>Chatbot with personality</li>
-          <li>Interactive user experience</li>
         </ul>
         
-        <h3>Technical Details</h3>
-        <p>Developed using HTML, CSS, and JavaScript, with ChatGPT API integration.</p>
+        <<h3>Summary</h3>
+        <p>
+        </p>
       `
     },
     {
@@ -293,17 +283,14 @@ export function initProjects() {
       description: 'A course project using Aframe to display 3D objects on a website.',
       tags: ['HTML', 'CSS', 'Aframe'],
       fullDescription: `
-        <h3>Overview</h3>
-        <p>A course project using Aframe to display 3D objects on a website.</p>
-        
         <h3>Key Features</h3>
         <ul>
           <li>3D object rendering</li>
-          <li>Interactive web experience</li>
         </ul>
         
-        <h3>Technical Details</h3>
-        <p>Developed using HTML, CSS, and Aframe for 3D rendering.</p>
+        <h3>Summary</h3>
+        <p>
+        </p>
       `
     },
     {
