@@ -9,7 +9,7 @@ export function initProjects() {
       category: 'Game Development',
       image: 'images/KartIcon.png',
       description: 'A multiplayer racing game where cars and technology meet, designed using Godot and Steamworks.',
-      tags: ['GDscript', 'GodotSteam', 'GitLab', 'Steamworks'],
+      tags: ['Godot', 'Steamworks', 'GitLab'],
       fullDescription: `
         <h3>Overview</h3>
         <p>A multiplayer racing game where cars and technology meet, designed using Godot and Steamworks.</p>
@@ -31,7 +31,7 @@ export function initProjects() {
       category: 'Game Development',
       image: 'images/InQnityIcon.png',
       description: 'A co-op game where players immerse in the world of mythical creatures with real-world folklores and fantasies.',
-      tags: ['GDscript', 'GodotSteam', 'GitLab', 'Steamworks'],
+      tags: ['Godot', 'Steamworks', 'GitLab'],
       fullDescription: `
         <h3>Overview</h3>
         <p>A co-op game where players immerse in the world of mythical creatures with real-world folklores and fantasies.</p>
@@ -53,7 +53,7 @@ export function initProjects() {
       category: 'App Development',
       image: 'images/clipboard.png',
       description: 'A simple gamified to-do list app with DeepSeek-R1 14B param local AI integrated for personal use.',
-      tags: ['Python', 'Tkinter', 'PrettyTable', 'PyInstaller'],
+      tags: ['Python', 'DeepSeek'],
       fullDescription: `
         <h3>Overview</h3>
         <p>A simple gamified to-do list app with DeepSeek-R1 14B param local AI integrated for personal use.</p>
@@ -245,7 +245,7 @@ export function initProjects() {
       category: 'Web Development',
       image: 'images/ChatGPTIcon.png',
       description: 'A course project using ChatGPT APIs to create a chatbot with personality.',
-      tags: ['HTML', 'CSS', 'JavaScript', 'ChatGPT API'],
+      tags: ['HTML', 'CSS', 'JavaScript'],
       fullDescription: `
         <h3>Overview</h3>
         <p>A course project using ChatGPT APIs to create a chatbot with personality.</p>
@@ -287,7 +287,7 @@ export function initProjects() {
       category: 'Game Development',
       image: 'images/GameBoyIcon.png',
       description: 'A course project creating a simple game for GameBoy Advance.',
-      tags: ['C', 'GBA SDK'],
+      tags: ['C'],
       fullDescription: `
         <h3>Overview</h3>
         <p>A course project creating a simple game for GameBoy Advance.</p>
@@ -329,7 +329,7 @@ export function initProjects() {
       category: 'Cybersecurity Research',
       image: 'images/flipperzeroIcon.png',
       description: 'A research project exploring radio frequency security using Flipper Zero, focusing on automotive systems.',
-      tags: ['C', 'Flipper Zero', 'RF Analysis'],
+      tags: ['C', 'Flipper Zero'],
       fullDescription: `
         <h3>Overview</h3>
         <p>A research project exploring radio frequency security using Flipper Zero, focusing on automotive systems.</p>
@@ -367,6 +367,33 @@ export function initProjects() {
     }
   ];
   
+  // Add a mapping of technologies to their icon information
+  const techIcons = {
+    'Java': { src: 'icons/java_icon.png', width: 50, height: 50 },
+    'Godot': { src: 'icons/godot_icon.png', width: 50, height: 50 },
+    'Unity': { src: 'icons/unity_icon.png', width: 50, height: 50 },
+    'Steamworks': { src: 'icons/steamworks_icon.png', width: 50, height: 50 },
+    'GitLab': { src: 'icons/gitlab_icon.png', width: 50, height: 50 },
+    'Python': { src: 'icons/python_icon.png', width: 50, height: 50 },
+    'DeepSeek': { src: 'icons/deepseek_icon.png', width: 66, height: 50 },
+    'HTML': { src: 'icons/html_icon.png', width: 66, height: 50 },
+    'CSS': { src: 'icons/css_icon.png', width: 50, height: 50 },
+    'JavaScript': { src: 'icons/javascript_icon.png', width: 50, height: 50 },
+    'Firebase': { src: 'icons/firebase_icon.png', width: 24, height: 30 },
+    'React': { src: 'icons/react_icon.png', width: 34, height: 30 },
+    'NodeJS': { src: 'icons/nodejs_icon.png', width: 32, height: 30 },
+    'Android Studio': { src: 'icons/android_studio_icon.png', width: 30, height: 30 },
+    'GitHub': { src: 'icons/github_icon.png', width: 50, height: 50 },
+    'C#': { src: 'icons/csharp_icon.png', width: 45, height: 50 },
+    'PHP': { src: 'icons/php_icon.png', width: 40, height: 30 },
+    'MySQL': { src: 'icons/mysql_icon.png', width: 40, height: 30 },
+    'PHPMyAdmin': { src: 'icons/phpmyadmin_icon.png', width: 35, height: 30 },
+    'Aframe': { src: 'icons/aframe_icon.png', width: 30, height: 30 },
+    'C': { src: 'icons/c_icon.png', width: 30, height: 30 },
+    'Raspberry Pi': { src: 'icons/raspberry_pi_icon.png', width: 30, height: 30 },
+    'Flipper Zero': { src: 'icons/flipper_zero_icon.png', width: 35, height: 30 }
+  };
+  
   // Generate HTML
   projects.innerHTML = `
     <div class="container">
@@ -391,7 +418,16 @@ export function initProjects() {
               <p class="project-category">${project.category}</p>
               <p class="project-description">${project.description}</p>
               <div class="project-tags">
-                ${project.tags.map(tag => `<span class="project-tag">${tag}</span>`).join('')}
+                ${project.tags.map(tag => {
+                  const icon = techIcons[tag];
+                  return icon ? `
+                    <img src="${icon.src}" 
+                         width="${icon.width}" 
+                         height="${icon.height}" 
+                         title="${tag}" 
+                         class="project-tag-icon">
+                  ` : `<span class="project-tag">${tag}</span>`;
+                }).join('')}
               </div>
             </div>
           </div>
@@ -595,6 +631,9 @@ export function initProjects() {
 ///<div class="project-overlay">
 ///<a href="./project.html#${project.id}" class="view-project">View Project</a>
 ///</div>
+
+
+
 
 
 
