@@ -342,35 +342,41 @@ export function initProjects() {
       description: 'A custom implementation of Pwnagotchi for WiFi security research and analysis.',
       tags: ['Python', 'Raspberry Pi'],
       fullDescription: `
-        <h3>Overview</h3>
-        <p>A custom implementation of Pwnagotchi for WiFi security research and analysis.</p>
-        
         <h3>Key Features</h3>
         <ul>
-          <li>WiFi security analysis</li>
-          <li>Custom Pwnagotchi implementation</li>
+          <li>Raspberry Pi</li>
+          <li>Pwnagotchi</li>
         </ul>
         
-        <h3>Technical Details</h3>
-        <p>Developed using Python and Raspberry Pi hardware.</p>
+        <h3>Summary</h3>
+        <p>
+          This is a very small project that I have done in order to learn about Raspberry Pi and Pwnagotchi.
+          Pwnagotchi is a tool that is able to pawn wifi packets and decrypt it, which mean this is illegal to do without correct permissions.
+          However, since I only use and test this tools on my own network and wifi, I am able to see the tool in action.
+          Through this project, I learned about how Pwnagotchi works, how to use it, and how to prevent it.
+        </p>
       `
     },
     {
       id: 'rf-security-analysis-tool',
-      title: 'RF Security Analysis Tool',
+      title: 'Radio Frequency Emulator',
       category: 'Cybersecurity Research',
       image: 'images/flipperzeroIcon.png',
-      description: 'A research project exploring radio frequency security using Flipper Zero, focusing on automotive systems.',
+      description: 'A research project exploring radio frequency security and emulator using Flipper Zero.',
       tags: ['C', 'Flipper Zero'],
       fullDescription: `
         <h3>Key Features</h3>
         <ul>
-          <li>RF security analysis</li>
-          <li>Automotive system focus</li>
+          <li>Flipper Zero</li>
+          <li>Emulating radio frequency</li>
         </ul>
         
         <h3>Summary</h3>
-        <p>Developed using C and Flipper Zero for RF analysis.</p>
+        <p>
+          This is one of the projects that I am having interested in when I first learn about cybersecurity and the capabilities of Flipper Zero.
+          There is nothing much about this project beside I was reading the radio frequency from my car keyfob and emulate it in order to open my car using the Flipper Zero.
+          However, through this project, I learned about how radio frequency works and what are its limitaions, how attackers can attack and exploit it, and how to prevent or protect myself from these attacks.
+        </p>
       `
     },
     {
