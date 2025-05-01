@@ -379,19 +379,19 @@ export function initProjects() {
     'HTML': { src: 'icons/html_icon.png', width: 66, height: 50 },
     'CSS': { src: 'icons/css_icon.png', width: 50, height: 50 },
     'JavaScript': { src: 'icons/javascript_icon.png', width: 50, height: 50 },
-    'Firebase': { src: 'icons/firebase_icon.png', width: 24, height: 30 },
-    'React': { src: 'icons/react_icon.png', width: 34, height: 30 },
-    'NodeJS': { src: 'icons/nodejs_icon.png', width: 32, height: 30 },
-    'Android Studio': { src: 'icons/android_studio_icon.png', width: 30, height: 30 },
+    'Firebase': { src: 'icons/firebase_icon.png', width: 40, height: 50 },
+    'React': { src: 'icons/react_icon.png', width: 56, height: 50 },
+    'NodeJS': { src: 'icons/nodejs_icon.png', width: 44, height: 50 },
+    'Android Studio': { src: 'icons/android_studio_icon.png', width: 50, height: 50 },
     'GitHub': { src: 'icons/github_icon.png', width: 50, height: 50 },
     'C#': { src: 'icons/csharp_icon.png', width: 45, height: 50 },
-    'PHP': { src: 'icons/php_icon.png', width: 40, height: 30 },
-    'MySQL': { src: 'icons/mysql_icon.png', width: 40, height: 30 },
-    'PHPMyAdmin': { src: 'icons/phpmyadmin_icon.png', width: 35, height: 30 },
-    'Aframe': { src: 'icons/aframe_icon.png', width: 30, height: 30 },
-    'C': { src: 'icons/c_icon.png', width: 30, height: 30 },
-    'Raspberry Pi': { src: 'icons/raspberry_pi_icon.png', width: 30, height: 30 },
-    'Flipper Zero': { src: 'icons/flipper_zero_icon.png', width: 35, height: 30 }
+    'PHP': { src: 'icons/php_icon.png', width: 93, height: 50 },
+    'MySQL': { src: 'icons/mysql_icon.png', width: 50, height: 50 },
+    'PHPMyAdmin': { src: 'icons/phpmyadmin_icon.png', width: 70, height: 50 },
+    'Aframe': { src: 'icons/aframe_icon.png', width: 56, height: 50 },
+    'C': { src: 'icons/c_icon.png', width: 44, height: 50 },
+    'Raspberry Pi': { src: 'icons/raspberry_pi_icon.png', width: 50, height: 50 },
+    'Flipper Zero': { src: 'icons/flipper_zero_icon.png', width: 50, height: 50 }
   };
   
   // Generate HTML
