@@ -314,17 +314,24 @@ export function initProjects() {
       description: 'A course project creating a simple game for GameBoy Advance.',
       tags: ['C'],
       fullDescription: `
-        <h3>Overview</h3>
-        <p>A course project creating a simple game for GameBoy Advance.</p>
-        
         <h3>Key Features</h3>
         <ul>
           <li>GameBoy Advance compatibility</li>
           <li>Simple gameplay mechanics</li>
         </ul>
         
-        <h3>Technical Details</h3>
-        <p>Developed using C and the GBA SDK.</p>
+        <h3>Summary</h3>
+        <p>
+          This is a course project that I had done in order to showcase what I had learned in the courses about DMA.
+          This project was created using C and the GameBoy Emulator.
+        </p>
+        <p>
+          I decided to create a simple game for this project because I think it is fun and easier for me as a Game Developer and Designer.
+          The game is a simple survivor game like Vampire Survivors in which the player have to survive until the time ends while the enemy will keep spawning and chasing the player.
+          The game mechanics was pretty easy to implement since it is a very simple game.
+          The only hard mechanic is how to let the enemy detect and chase the player.
+          This mechanic was able to achieve through simple vector mathematics since the enemy knows where the player is.
+        </p>
       `
     },
     {
