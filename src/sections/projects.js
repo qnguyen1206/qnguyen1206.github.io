@@ -254,6 +254,21 @@ export function initProjects() {
         
         <h3>Summary</h3>
         <p>
+          This project is a private project that I have done for my internship at a small nail salon.
+          The purpose of this app is to provide a way for customers to contact and book appointment for the nail salon.
+          At the same time, the nail technicians and the managers should be able to know who got booked and when the customers will come and the services they want.
+          The app also allow the customers to sign in before hand in order to let the nail technicians and the managers know that they are coming, if not the app will send a SMS message or an email to remind them.
+          The app is also able to provide real time data update for all devices and for all parties evolved while maintain a strict access level for each role such as customers, nail technicians, managers, owners and developers.
+        </p
+        <p>
+          I used Unity, C# and PHP to create the app.
+          For the backend and database, I used PHP, MySQL and PHPMyAdmin to manage the database.
+          For the frontend, I used Unity's UI system to create the frontend.
+          I connect the frontend and backend together using HTTPs requests and responses.
+          For SMS messages and emails, I used third parties and their APIs to connect and send the messages and emails.
+        </p>
+        <p>
+          Some parts of the app is under NDA so this is all I can disclosed what I have done.
         </p>
       `
     },
@@ -272,6 +287,8 @@ export function initProjects() {
         
         <<h3>Summary</h3>
         <p>
+          This is a course project that teach us how to use ChatGPT APIs to create our own chatbot to put on to a website.
+          It was a very simple project, however, given the current capabilities of AIs, this project gave us an insight and opportunity to look into how to use AIs as a tools.
         </p>
       `
     },
@@ -290,6 +307,8 @@ export function initProjects() {
         
         <h3>Summary</h3>
         <p>
+          This is a course project that I had done in order to learn about Aframe and how to display 3D objects in a website.
+          Even thought this is a simple project, the applications are very effective and can be used in many situations to boost interactive and impressions.
         </p>
       `
     },
