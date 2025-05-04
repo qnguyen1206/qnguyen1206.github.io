@@ -164,6 +164,10 @@ export function initProjects() {
         
         <h3>Summary</h3>
         <p>
+          This is a course project that is used to teach us about Agile and Sprint methodology.
+          The app is a simple booking app that allow the users to share the booking time for hotels and places to go together.
+          In addition, the app also allow the users to chat with each other and share the experiences.
+          However, the main purpose of the app is to teach us about Agile and Sprint methodology while allow us to use some real life applications such as SonarQube and Android Studio.
         </p>
       `
     },
