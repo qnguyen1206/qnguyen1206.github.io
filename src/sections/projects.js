@@ -122,6 +122,26 @@ export function initProjects() {
         
         <h3>Summary</h3>
         <p>
+          The initial thought when I started this project is to create a saving app for the people who want to save money but do not want to do it in a gamify way.
+          However, as the project progress, I realized that I can not fully complete it due to the cost of production and the profit it return is not worth it.
+          In addition, I also realized that I do not have the expertise to secure the database and the APIs in order to prevent any potential attacks in which the laws requires me to have.
+          Therefore, I decided to change the scope of the app to a personal app for me to use.
+        </p>
+        <p>
+          I am able to connect to third parties such as Plaid, Teller.io, Stripe and Firebase.
+          In addition, I was able to display the data I aggregate using those third parties in order to show the user their spending.
+          I was also able to create a projections of the user savings for 5 - 20 years into the futures.
+          Furthermore, I also created a basic marketplace, trade system and blog post system for the user to interact with each others since I learned that some people are able to save more money due to peer pressure or social inhibition..
+        </p>
+        <p>
+          Beside learning about finance and user pyschology, I was also able to learn about the limitations of AIs.
+          This project is able to be at its state today is due to the help of AIs such as Cursor, ChatGPT, DeepSeek, and Claude.
+          I learned that as the codebase evovle, it is harder for the AIs to keep up. At the same time, APIs are not AIs expertise since they can not most of the code for connecting to third parties and I have to do it myself.
+          However, beside the backend, the AIs are able to create a very interactive and eye-catching frontend.
+          At the same time, they are able to help me to create the UI and the app functionalities.
+        </p>
+        <p>
+          I am currently still working on the app, however, due to security and legal issues, I am not planning to release it to the public anytime soon.
         </p>
       `
     },
@@ -145,6 +165,11 @@ export function initProjects() {
         
         <h3>Summary</h3>
         <p>
+          This project is a fully deploy version of one of my high school text-based game project.
+          Since I want to change the game from a text-based to having UI, I decided to go with web-based game.
+          It was a very fun project to work on and I learned a lot about web development and game development such as mini-games creations, daily shop and payment system.
+          However, due to the lack of time and the complexity of the project especially with database security which I do not have expertise on, I am not able to fully complete the project.
+          I am planning to continue working on the project in the near future in order to fully deploy it.
         </p>
       `
     },
