@@ -90,6 +90,15 @@ export function initProjects() {
         
         <h3>Summary</h3>
         <p>
+          This is a simple to do app that I have done for personal use.
+          I learned how to integrate AI into the app using APIs and/or local AIs.
+          At the same time, I also made this app with the help of ChatGPT, DeepSeek, Claude, and Augment.
+        </p>
+        <p>
+          I learned that AIs still have its limitations especially based on how much context they have.
+          For example, with Augment, even with a less powerful AI model than ChatGPT or DeepSeek, it is able to do low level tasks such as building a storing system for the app or building the UI for the app.
+          However, due to less training and less powerful model, it still have its flaws especially when I want it to do some high level tasks such as asking to integrate a local AI into the app or how I want the UI to look a certain way.
+          With ChatGPT and other LLMs, it is easier for them to do high level tasks, however, if they do not have enough context and keywords, they will start to assume things and will give out the wrong results.
         </p>
       `
     },
