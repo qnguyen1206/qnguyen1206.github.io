@@ -183,6 +183,10 @@ export function initProjects() {
         
         <h3>Summary</h3>
         <p>
+          This is a course project that I had done with a different game genre than what I used to do.
+          There are nothing much about this project since it is a very simple project.
+          However, I learned how to create a tower defense game and how to implement the game mechanics.
+          I also learned how to implement a spawn system and learn how to interpolate the sprite in order to make the animations look better.
         </p>
       `
     },
@@ -202,6 +206,16 @@ export function initProjects() {
         
         <h3>Summary</h3>
         <p>
+          This is a course project that I had done with the theme of future technology.
+          Since this is a two week project, my team have not been able to fully implement the full game.
+          However, we were able to create the basic mechanics of the game and the basic levels.
+        </p>
+        <p>
+          I was tasked with programming the character basic movements, obstacles and particles effects.
+          Contradicted to other Unity projects, this time, I used namespace, a different way to organize the codebase.
+          In my opinion, namespace can help reduce the confusions when working with a large codebase and naming conventions.
+          However, this also pose a problems of calling the functions and variables since you have to specify the namespace first.
+          Overall, I think namespace is a good way to organize the codebase, however, it might not be the best way for small project.
         </p>
       `
     },
