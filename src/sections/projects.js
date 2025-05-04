@@ -212,6 +212,10 @@ export function initProjects() {
         
         <h3>Summary</h3>
         <p>
+          This is my second game development project that I have done.
+          This project is also a part of GSU PantherDev.
+          I learned more about Unity and C#, especially how to create more advanced game mechanics such as finite state machines AI and bullet physics.
+          I also learned how to Unity SCM, a Unity version control system, to manage the project and collaborate with my team members.
         </p>
       `
     },
@@ -228,9 +232,15 @@ export function initProjects() {
           <li>2D platformer mechanics</li>
           <li>Engaging escape gameplay</li>
         </ul>
-        
+
         <h3>Summary</h3>
         <p>
+          This is my first game development project that I have done.
+          This project is a part of GSU PantherDev.
+          I learned how to use Unity, C#, and GitHub for the first time.
+          I also learned how to work with a team for the first time.
+          I was tasked with creating basic game mechanics such as doors, traps, weapons, and characters movements.
+          At the same time, I also learned how collision works and how objects interact with each others.
         </p>
       `
     },
