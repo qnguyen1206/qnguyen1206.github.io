@@ -79,6 +79,7 @@ export function initProjects() {
       image: 'images/clipboard.png',
       description: 'A simple gamified to-do list app with DeepSeek-R1 14B param local AI integrated for personal use.',
       tags: ['Python', 'DeepSeek'],
+      externalLink: 'https://github.com/Kairu1206/todoapp',
       fullDescription: `
         <h3>Key Features</h3>
         <ul>
@@ -86,6 +87,7 @@ export function initProjects() {
           <li>AI integration</li>
           <li>Gamified experience</li>
           <li>Start on boot</li>
+          <li>LAN connection and share tasks through MySQL database</li>
         </ul>
         
         <h3>Summary</h3>
@@ -180,6 +182,7 @@ export function initProjects() {
       image: 'images/AndroidStudioIcon.png',
       description: 'A course project using Java and Firebase to learn about Agile and Sprint methodology.',
       tags: ['Java', 'Firebase', 'Android Studio', 'GitHub'],
+      externalLink: 'https://github.com/Kairu1206/CS2340D_Team26',
       fullDescription: `
         <h3>Key Features</h3>
         <ul>
@@ -203,6 +206,7 @@ export function initProjects() {
       image: 'images/Castle.png',
       description: 'A course project using Unity and C# to create a 2D tower offense game.',
       tags: ['Unity', 'C#', 'GitHub'],
+      externalLink: 'https://kairu1206.itch.io/tower-offense-game',
       fullDescription: `
         <h3>Key Features</h3>
         <ul>
@@ -226,6 +230,7 @@ export function initProjects() {
       image: 'images/stellaInSpaceIcon.png',
       description: 'A course project using Unity and C# to create a 2D platformer game.',
       tags: ['Unity', 'C#', 'GitHub'],
+      externalLink: 'https://kairu1206.itch.io/stella-in-space',
       fullDescription: `
         <h3>Key Features</h3>
         <ul>
@@ -255,6 +260,7 @@ export function initProjects() {
       image: 'images/WYiMIcon.png',
       description: 'A 2.5D bullet-hell game where players battle through a kingdom\'s dungeon as a jester.',
       tags: ['Unity', 'C#', 'GitHub'],
+      externalLink: 'https://jhaboon.itch.io/wyim',
       fullDescription: `
         <h3>Key Features</h3>
         <ul>
@@ -278,6 +284,7 @@ export function initProjects() {
       image: 'images/GastropodaIcon.png',
       description: 'A 2D platformer game where players escape from a mutant snail that broke out from the lab.',
       tags: ['Unity', 'C#', 'GitHub'],
+      externalLink: 'https://jhaboon.itch.io/gastropoda-v115',
       fullDescription: `
         <h3>Key Features</h3>
         <ul>
@@ -341,6 +348,7 @@ export function initProjects() {
       image: 'images/ChatGPTIcon.png',
       description: 'A course project using ChatGPT APIs to create a chatbot with personality.',
       tags: ['HTML', 'CSS', 'JavaScript', 'ChatGPT'],
+      externalLink: 'https://github.com/Kairu1206/chatbot',
       fullDescription: `
         <h3>Key Features</h3>
         <ul>
@@ -361,6 +369,7 @@ export function initProjects() {
       image: 'images/AframeIcon.png',
       description: 'A course project using Aframe to display 3D objects on a website.',
       tags: ['HTML', 'CSS', 'Aframe'],
+      externalLink: 'https://github.com/Kairu1206/aframe-remix',
       fullDescription: `
         <h3>Key Features</h3>
         <ul>
@@ -381,6 +390,7 @@ export function initProjects() {
       image: 'images/GameBoyIcon.png',
       description: 'A course project creating a simple game for GameBoy Advance.',
       tags: ['C'],
+      externalLink: 'https://github.com/Kairu1206/CS2110',
       fullDescription: `
         <h3>Key Features</h3>
         <ul>
@@ -522,6 +532,13 @@ export function initProjects() {
               <p class="project-category">${project.category}</p>
               <p class="project-description">${project.description}</p>
               <button class="read-more-btn" data-id="${project.id}">Read More</button>
+              ${project.externalLink ? `
+                  <a href="${project.externalLink}" target="_blank" rel="noopener noreferrer">
+                    <u style="margin-left: 0.50rem;">Take a look!</u> <span style="font-size: 0.9em;">↗︎</span>
+                  </a>
+                ` : `
+                  
+                `}
               <div class="full-description" id="desc-${project.id}" style="display: none;">
                 ${project.fullDescription}
               </div>
