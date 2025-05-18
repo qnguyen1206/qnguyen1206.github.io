@@ -9,9 +9,9 @@ export function initAbout() {
         <div class="about-text">
           <p class="reveal">Hello! I'm Quang Nguyen. I'm currently a student at Georgia Institute of Technology, where I'm pursuing a degree Bachelor of Science in Computational Media (half CS and half LMC) concentrated in Game Desgin and Artifical Intelligence.</p>
           
-          <p class="reveal">I'm both a Software Developer and a Game Developer.</p>
+          <p class="reveal">I'm a Software Developer, Web Developer and a Game Developer.</p>
           
-          <p class="reveal">I like to explore things and enjoy world building.</p>
+          <p class="reveal">I like to explore things and enjoy world building during my free time. I also like to learn new skills and discover new hobbies.</p>
         </div>
       </div>
     </div>
