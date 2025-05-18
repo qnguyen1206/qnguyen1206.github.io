@@ -48,11 +48,31 @@ export function initHero() {
       
       .hero-title {
         font-size: var(--font-size-6xl);
-        background: linear-gradient(to right, var(--color-primary-300), var(--color-accent-300));
+        background: linear-gradient(
+          270deg,
+          var(--color-primary-300),
+          var(--color-accent-300),
+          var(--color-primary-300)
+        );
+        background-size: 600% 600%;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+        animation: gradientMove 20s ease infinite;
         margin-bottom: var(--space-4);
       }
+
+      @keyframes gradientMove {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+
       
       .hero-description {
         font-size: var(--font-size-xl);
