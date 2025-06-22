@@ -441,7 +441,7 @@ export function initProjects() {
       category: 'Cybersecurity Research',
       image: 'images/flipperzeroIcon.png',
       description: 'A research project exploring radio frequency security and emulator using Flipper Zero.',
-      tags: ['C', 'Flipper Zero'],
+      tags: ['Python', 'Flipper Zero'],
       fullDescription: `
         <h3>Key Features</h3>
         <ul>
