@@ -22,7 +22,7 @@ export function initHero() {
             <b>Years Experience</b>
           </div>
           <div class="stat">
-            <h2>5</h2>
+            <h2>9</h2>
             <b>Projects Completed</b>
           </div>
           <div class="stat">
