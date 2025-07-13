@@ -26,7 +26,7 @@ export function initHero() {
             <b>Projects Completed</b>
           </div>
           <div class="stat">
-            <h2>1</h2>
+            <h2>2</h2>
             <b>Products Released</b>
           </div>
         </div>

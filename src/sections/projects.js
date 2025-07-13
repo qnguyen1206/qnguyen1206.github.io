@@ -10,6 +10,7 @@ export function initProjects() {
       image: 'images/KartIcon.png',
       description: 'A multiplayer racing game where cars and technology meet, designed using Godot and Steamworks.',
       tags: ['Godot', 'Steamworks', 'GitLab'],
+      status: 'alpha',
       fullDescription: `
         <h3>Key Features</h3>
         <ul>
@@ -44,6 +45,7 @@ export function initProjects() {
       image: 'images/InQnityIcon.png',
       description: 'A co-op game where players immerse in the world of mythical creatures with real-world folklores and fantasies.',
       tags: ['Godot', 'Steamworks', 'GitLab'],
+      status: 'in development',
       fullDescription: `
         <h3>Key Features</h3>
         <ul>
@@ -79,6 +81,7 @@ export function initProjects() {
       image: 'images/clipboard.png',
       description: 'A simple gamified to-do list app with DeepSeek-R1 14B param local AI integrated for personal use.',
       tags: ['Python', 'DeepSeek'],
+      status: 'release',
       externalLink: 'https://github.com/Kairu1206/todoapp',
       fullDescription: `
         <h3>Key Features</h3>
@@ -111,6 +114,7 @@ export function initProjects() {
       image: 'images/inqnity_banking_image.png',
       description: 'A gamified saving app to make saving easier and more fun.',
       tags: ['HTML', 'CSS', 'JavaScript', 'React', 'NodeJS', 'Firebase'],
+      status: 'on hold',
       fullDescription: `
         <h3>Key Features</h3>
         <ul>
@@ -154,6 +158,8 @@ export function initProjects() {
       image: 'images/webrockgameicon.png',
       description: 'A personal project to bring a high school project to a web game.',
       tags: ['HTML', 'CSS', 'JavaScript', 'React', 'NodeJS', 'Firebase'],
+      status: 'release',
+      externalLink: 'https://rockopengameweb.web.app/',
       fullDescription: `
         <h3>Key Features</h3>
         <ul>
@@ -182,6 +188,7 @@ export function initProjects() {
       image: 'images/AndroidStudioIcon.png',
       description: 'A course project using Java and Firebase to learn about Agile and Sprint methodology.',
       tags: ['Java', 'Firebase', 'Android Studio', 'GitHub'],
+      status: 'complete',
       externalLink: 'https://github.com/Kairu1206/CS2340D_Team26',
       fullDescription: `
         <h3>Key Features</h3>
@@ -206,6 +213,7 @@ export function initProjects() {
       image: 'images/Castle.png',
       description: 'A course project using Unity and C# to create a 2D tower offense game.',
       tags: ['Unity', 'C#', 'GitHub'],
+      status: 'complete',
       externalLink: 'https://kairu1206.itch.io/tower-offense-game',
       fullDescription: `
         <h3>Key Features</h3>
@@ -230,6 +238,7 @@ export function initProjects() {
       image: 'images/stellaInSpaceIcon.png',
       description: 'A course project using Unity and C# to create a 2D platformer game.',
       tags: ['Unity', 'C#', 'GitHub'],
+      status: 'complete',
       externalLink: 'https://kairu1206.itch.io/stella-in-space',
       fullDescription: `
         <h3>Key Features</h3>
@@ -260,6 +269,7 @@ export function initProjects() {
       image: 'images/WYiMIcon.png',
       description: 'A 2.5D bullet-hell game where players battle through a kingdom\'s dungeon as a jester.',
       tags: ['Unity', 'C#', 'GitHub'],
+      status: 'complete',
       externalLink: 'https://jhaboon.itch.io/wyim',
       fullDescription: `
         <h3>Key Features</h3>
@@ -284,6 +294,7 @@ export function initProjects() {
       image: 'images/GastropodaIcon.png',
       description: 'A 2D platformer game where players escape from a mutant snail that broke out from the lab.',
       tags: ['Unity', 'C#', 'GitHub'],
+      status: 'complete',
       externalLink: 'https://jhaboon.itch.io/gastropoda-v115',
       fullDescription: `
         <h3>Key Features</h3>
@@ -310,6 +321,7 @@ export function initProjects() {
       image: 'images/ndaAppIcon.png',
       description: 'A customer service app providing connection between customers, employees, and company services.',
       tags: ['C#', 'PHP', 'MySQL', 'PHPMyAdmin'],
+      status: 'complete',
       fullDescription: `
         <h3>Key Features</h3>
         <ul>
@@ -328,7 +340,7 @@ export function initProjects() {
           At the same time, the nail technicians and the managers should be able to know who got booked and when the customers will come and the services they want.
           The app also allow the customers to sign in before hand in order to let the nail technicians and the managers know that they are coming, if not the app will send a SMS message or an email to remind them.
           The app is also able to provide real time data update for all devices and for all parties evolved while maintain a strict access level for each role such as customers, nail technicians, managers, owners and developers.
-        </p
+        </p>
         <p>
           I used Unity, C# and PHP to create the app.
           For the backend and database, I used PHP, MySQL and PHPMyAdmin to manage the database.
@@ -348,6 +360,7 @@ export function initProjects() {
       image: 'images/ChatGPTIcon.png',
       description: 'A course project using ChatGPT APIs to create a chatbot with personality.',
       tags: ['HTML', 'CSS', 'JavaScript', 'ChatGPT'],
+      status: 'complete',
       externalLink: 'https://github.com/Kairu1206/chatbot',
       fullDescription: `
         <h3>Key Features</h3>
@@ -369,6 +382,7 @@ export function initProjects() {
       image: 'images/AframeIcon.png',
       description: 'A course project using Aframe to display 3D objects on a website.',
       tags: ['HTML', 'CSS', 'Aframe'],
+      status: 'complete',
       externalLink: 'https://github.com/Kairu1206/aframe-remix',
       fullDescription: `
         <h3>Key Features</h3>
@@ -390,6 +404,7 @@ export function initProjects() {
       image: 'images/GameBoyIcon.png',
       description: 'A course project creating a simple game for GameBoy Advance.',
       tags: ['C'],
+      status: 'complete',
       externalLink: 'https://github.com/Kairu1206/CS2110',
       fullDescription: `
         <h3>Key Features</h3>
@@ -419,6 +434,7 @@ export function initProjects() {
       image: 'images/pwnagotchiIcon.png',
       description: 'A custom implementation of Pwnagotchi for WiFi security research and analysis.',
       tags: ['Python', 'Raspberry Pi'],
+      status: 'on hold',
       fullDescription: `
         <h3>Key Features</h3>
         <ul>
@@ -442,6 +458,7 @@ export function initProjects() {
       image: 'images/flipperzeroIcon.png',
       description: 'A research project exploring radio frequency security and emulator using Flipper Zero.',
       tags: ['Python', 'Flipper Zero'],
+      status: 'on hold',
       fullDescription: `
         <h3>Key Features</h3>
         <ul>
@@ -459,11 +476,12 @@ export function initProjects() {
     },
     {
       id: 'web-security-vulnerabilities',
-      title: 'Common Web Security Vulnerabilities and Prevention',
+      title: 'Common Web Security Vulnerabilities',
       category: 'Cybersecurity Research',
       image: 'images/webIcon.png',
       description: 'A study of common web security vulnerabilities and prevention techniques.',
       tags: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL'],
+      status: 'on hold',
       fullDescription: `
         <h3>Key Features</h3>
         <ul>
@@ -528,17 +546,22 @@ export function initProjects() {
               <img src="${project.image}" alt="${project.title}">
             </div>
             <div class="project-info">
-              <h3>${project.title}</h3>
+              <h3>
+                ${project.title}
+                ${project.status ? `
+                  <span class="status-tag-inline" style="color:${statusTags[project.status].color}; background: none; border: 1px solid ${statusTags[project.status].color}; padding: 2px 10px; border-radius: 10px; font-weight: bold;">
+                  ${statusTags[project.status].label}
+                  </span>
+                ` : ''}
+              </h3>
               <p class="project-category">${project.category}</p>
               <p class="project-description">${project.description}</p>
               <button class="read-more-btn" data-id="${project.id}">Read More</button>
               ${project.externalLink ? `
-                  <a href="${project.externalLink}" target="_blank" rel="noopener noreferrer">
-                    <u style="margin-left: 0.50rem;">Take a look!</u> <span style="font-size: 0.9em;">↗︎</span>
-                  </a>
-                ` : `
-                  
-                `}
+                <a href="${project.externalLink}" target="_blank" rel="noopener noreferrer">
+                  <u style="margin-left: 0.50rem;">Take a look!</u> <span style="font-size: 0.9em;">↗︎</span>
+                </a>
+              ` : ``}
               <div class="full-description" id="desc-${project.id}" style="display: none;">
                 ${project.fullDescription}
               </div>
@@ -768,6 +791,18 @@ export function initProjects() {
       .full-description li {
         margin-bottom: var(--space-1);
       }
+      
+      .status-tag-inline {
+        display: inline-block;
+        margin-left: 0.75em;
+        font-size: 0.75em; /* Smaller than the title */
+        vertical-align: middle;
+        font-weight: bold;
+        background: none;
+        box-shadow: none;
+        border: none;
+        padding: 0;
+      }
     </style>
   `;
   
@@ -812,6 +847,15 @@ export function initProjects() {
     });
   });
 }
+
+const statusTags = {
+  'alpha': { color: '#e53935', label: 'Alpha' },               // Red
+  'beta': { color: '#ffd600', label: 'Beta' },                 // Yellow
+  'release': { color: '#43a047', label: 'Release' },           // Green
+  'in development': { color: '#8e24aa', label: 'In Dev' },     // Purple
+  'on hold': { color: '#999999', label: 'On Hold' },           // Black
+  'complete': { color: '#2196f3', label: 'Complete' }          // Blue
+};
 
 
 
