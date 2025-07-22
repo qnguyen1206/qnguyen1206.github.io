@@ -114,7 +114,7 @@ export function initProjects() {
       image: 'images/inqnity_banking_image.png',
       description: 'A gamified saving app to make saving easier and more fun.',
       tags: ['HTML', 'CSS', 'JavaScript', 'React', 'NodeJS', 'Firebase'],
-      status: 'on hold',
+      status: 'complete',
       fullDescription: `
         <h3>Key Features</h3>
         <ul>
@@ -130,8 +130,8 @@ export function initProjects() {
         <p>
           The initial thought when I started this project is to create a saving app for the people who want to save money but do not want to do it in a gamify way.
           However, as the project progress, I realized that I can not fully complete it due to the cost of production and the profit it return is not worth it.
-          In addition, I also realized that I do not have the expertise to secure the database and the APIs in order to prevent any potential attacks in which the laws requires me to have.
-          Therefore, I decided to change the scope of the app to a personal app for me to use.
+          In addition, I also realized that I do not have the expertise to secure the database and the APIs in order to prevent any potential attacks in which the laws and regulations requires me to have.
+          Therefore, I decided to change the scope of the app to a personal app for me to use personally.
         </p>
         <p>
           I am able to connect to third parties such as Plaid, Teller.io, Stripe and Firebase.
