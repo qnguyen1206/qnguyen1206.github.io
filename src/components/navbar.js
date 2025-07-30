@@ -77,6 +77,11 @@ function updateActiveNavOnScroll() {
       current = sections[0].getAttribute('id');
     }
     
+    // Update the URL hash without triggering a scroll
+    if (current && window.location.hash !== `#${current}`) {
+      history.replaceState(null, null, `#${current}`);
+    }
+    
     navLinks.forEach(link => {
       link.classList.remove('active');
       if (link.getAttribute('href') === `#${current}`) {
