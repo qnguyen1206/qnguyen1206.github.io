@@ -137,15 +137,27 @@ p {
   left: 0;
   width: 100%;
   z-index: var(--z-fixed);
-  padding: var(--space-2) 0;
-  background-color: var(--color-bg);
-  box-shadow: var(--shadow-md);
+  padding: var(--space-4) 0;
+  background-color: transparent;
+  transition: all var(--transition-normal) ease;
 }
 
 #header.scrolled {
-  background-color: var(--color-bg);
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
   padding: var(--space-2) 0;
   box-shadow: var(--shadow-md);
+}
+
+/* Dark mode support for header */
+@media (prefers-color-scheme: dark) {
+  #header.scrolled {
+    background-color: rgba(23, 23, 23, 0.95);
+  }
+}
+
+[data-theme="dark"] #header.scrolled {
+  background-color: rgba(23, 23, 23, 0.95);
 }
 
 .nav {

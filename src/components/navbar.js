@@ -1,9 +1,6 @@
 export function initNav() {
   const header = document.getElementById('header');
   
-  // Add black background class immediately
-  header.classList.add('scrolled');
-  
   // Create navbar content
   header.innerHTML = `
     <div class="container">
@@ -63,15 +60,22 @@ function updateActiveNavOnScroll() {
     const navLinks = document.querySelectorAll('.nav-link');
     
     let current = '';
+    const scrollPosition = window.scrollY + 100; // Add offset for better detection
     
+    // Find the section that is currently in view
     sections.forEach(section => {
       const sectionTop = section.offsetTop;
-      const sectionHeight = section.clientHeight;
+      const sectionBottom = sectionTop + section.clientHeight;
       
-      if (window.scrollY >= (sectionTop - sectionHeight / 3)) {
+      if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
         current = section.getAttribute('id');
       }
     });
+    
+    // If no section is found (e.g., at very top), default to first section
+    if (!current && sections.length > 0) {
+      current = sections[0].getAttribute('id');
+    }
     
     navLinks.forEach(link => {
       link.classList.remove('active');
@@ -108,17 +112,20 @@ function updateActiveNavOnScroll() {
 function changeHeaderOnScroll() {
   const header = document.getElementById('header');
   
-  // Set header to black immediately and permanently
-  header.classList.add('scrolled');
+  // Function to update header based on scroll position
+  function updateHeader() {
+    if (window.scrollY > 50) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+  }
   
-  // Remove the scroll event listener since we want it always black
-  // window.addEventListener('scroll', () => {
-  //   if (window.scrollY > 100) {
-  //     header.classList.add('scrolled');
-  //   } else {
-  //     header.classList.remove('scrolled');
-  //   }
-  // });
+  // Set initial state
+  updateHeader();
+  
+  // Add scroll event listener for smooth transitions
+  window.addEventListener('scroll', updateHeader);
 }
 
 
