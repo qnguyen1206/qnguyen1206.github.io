@@ -12,7 +12,7 @@ export function initProjects() {
       description: 'A simple gamified to-do list app with DeepSeek-R1 14B param local AI integrated for personal use.',
       tags: ['Python', 'DeepSeek'],
       status: 'release',
-      githubLink: 'https://github.com/Kairu1206/todoapp',
+      externalLink: 'https://github.com/Kairu1206/todoapp',
       fullDescription: `
         <h3>Key Features</h3>
         <ul>
@@ -78,7 +78,6 @@ export function initProjects() {
       description: 'A multiplayer racing game where cars and technology meet, designed using Godot and Steamworks.',
       tags: ['Godot', 'Steamworks', 'GitLab'],
       status: 'alpha',
-      gitlabLink: 'https://gitlab.com/kart-tech-racing',
       fullDescription: `
         <h3>Key Features</h3>
         <ul>
@@ -159,7 +158,7 @@ export function initProjects() {
       description: 'A course project using Java and Firebase to learn about Agile and Sprint methodology.',
       tags: ['Java', 'Firebase', 'Android Studio', 'GitHub'],
       status: 'complete',
-      githubLink: 'https://github.com/Kairu1206/CS2340D_Team26',
+      externalLink: 'https://github.com/Kairu1206/CS2340D_Team26',
       fullDescription: `
         <h3>Key Features</h3>
         <ul>
@@ -331,7 +330,7 @@ export function initProjects() {
       description: 'A course project using ChatGPT APIs to create a chatbot with personality.',
       tags: ['HTML', 'CSS', 'JavaScript', 'ChatGPT'],
       status: 'complete',
-      githubLink: 'https://github.com/Kairu1206/chatbot',
+      externalLink: 'https://github.com/Kairu1206/chatbot',
       fullDescription: `
         <h3>Key Features</h3>
         <ul>
@@ -353,7 +352,7 @@ export function initProjects() {
       description: 'A course project using Aframe to display 3D objects on a website.',
       tags: ['HTML', 'CSS', 'Aframe'],
       status: 'complete',
-      githubLink: 'https://github.com/Kairu1206/aframe-remix',
+      externalLink: 'https://github.com/Kairu1206/aframe-remix',
       fullDescription: `
         <h3>Key Features</h3>
         <ul>
@@ -375,7 +374,7 @@ export function initProjects() {
       description: 'A course project creating a simple game for GameBoy Advance.',
       tags: ['C'],
       status: 'complete',
-      githubLink: 'https://github.com/Kairu1206/CS2110',
+      externalLink: 'https://github.com/Kairu1206/CS2110',
       fullDescription: `
         <h3>Key Features</h3>
         <ul>
@@ -406,7 +405,6 @@ export function initProjects() {
       description: 'A co-op game where players immerse in the world of mythical creatures with real-world folklores and fantasies.',
       tags: ['Godot', 'Steamworks', 'GitLab'],
       status: 'in development',
-      gitlabLink: 'https://gitlab.com/infinity-mythical-hunt',
       fullDescription: `
         <h3>Key Features</h3>
         <ul>
@@ -509,30 +507,30 @@ export function initProjects() {
   
   // Add a mapping of technologies to their icon information
   const techIcons = {
-    'Java': { src: 'icons/java_icon.png', width: 32, height: 32 },
-    'Godot': { src: 'icons/godot_icon.png', width: 32, height: 32 },
-    'Unity': { src: 'icons/unity_icon.png', width: 32, height: 32 },
-    'Steamworks': { src: 'icons/steamworks_icon.png', width: 32, height: 32 },
-    'GitLab': { src: 'icons/gitlab_icon.png', width: 32, height: 32 },
-    'Python': { src: 'icons/python_icon.png', width: 32, height: 32 },
-    'DeepSeek': { src: 'icons/deepseek_icon.png', width: 32, height: 32 },
-    'HTML': { src: 'icons/html_icon.png', width: 32, height: 32 },
-    'CSS': { src: 'icons/css_icon.png', width: 32, height: 32 },
-    'JavaScript': { src: 'icons/javascript_icon.png', width: 32, height: 32 },
-    'Firebase': { src: 'icons/firebase_icon.png', width: 32, height: 32 },
-    'React': { src: 'icons/react_icon.png', width: 32, height: 32 },
-    'NodeJS': { src: 'icons/nodejs_icon.png', width: 32, height: 32 },
-    'Android Studio': { src: 'icons/android_studio_icon.png', width: 32, height: 32 },
-    'GitHub': { src: 'icons/github_icon.png', width: 32, height: 32 },
-    'C#': { src: 'icons/csharp_icon.png', width: 32, height: 32 },
-    'PHP': { src: 'icons/php_icon.png', width: 32, height: 32 },
-    'MySQL': { src: 'icons/mysql_icon.png', width: 32, height: 32 },
-    'PHPMyAdmin': { src: 'icons/phpmyadmin_icon.png', width: 32, height: 32 },
-    'Aframe': { src: 'icons/aframe_icon.png', width: 32, height: 32 },
-    'C': { src: 'icons/c_icon.png', width: 32, height: 32 },
-    'Raspberry Pi': { src: 'icons/raspberry_pi_icon.png', width: 32, height: 32 },
-    'Flipper Zero': { src: 'icons/flipper_zero_icon.png', width: 32, height: 32 },
-    'ChatGPT': { src: 'icons/chatgpt_icon.png', width: 32, height: 32 }
+    'Java': { src: 'icons/java_icon.png', width: 50, height: 50 },
+    'Godot': { src: 'icons/godot_icon.png', width: 45, height: 45 },
+    'Unity': { src: 'icons/unity_icon.png', width: 45, height: 45 },
+    'Steamworks': { src: 'icons/steamworks_icon.png', width: 45, height: 45 },
+    'GitLab': { src: 'icons/gitlab_icon.png', width: 45, height: 45 },
+    'Python': { src: 'icons/python_icon.png', width: 45, height: 45 },
+    'DeepSeek': { src: 'icons/deepseek_icon.png', width: 61, height: 45 },
+    'HTML': { src: 'icons/html_icon.png', width: 45, height: 45 },
+    'CSS': { src: 'icons/css_icon.png', width: 45, height: 45 },
+    'JavaScript': { src: 'icons/javascript_icon.png', width: 45, height: 45 },
+    'Firebase': { src: 'icons/firebase_icon.png', width: 25, height: 35 },
+    'React': { src: 'icons/react_icon.png', width: 51, height: 45 },
+    'NodeJS': { src: 'icons/nodejs_icon.png', width: 39, height: 45 },
+    'Android Studio': { src: 'icons/android_studio_icon.png', width: 45, height: 45 },
+    'GitHub': { src: 'icons/github_icon.png', width: 45, height: 45 },
+    'C#': { src: 'icons/csharp_icon.png', width: 40, height: 45 },
+    'PHP': { src: 'icons/php_icon.png', width: 88, height: 45 },
+    'MySQL': { src: 'icons/mysql_icon.png', width: 45, height: 45 },
+    'PHPMyAdmin': { src: 'icons/phpmyadmin_icon.png', width: 65, height: 45 },
+    'Aframe': { src: 'icons/aframe_icon.png', width: 51, height: 45 },
+    'C': { src: 'icons/c_icon.png', width: 39, height: 45 },
+    'Raspberry Pi': { src: 'icons/raspberry_pi_icon.png', width: 45, height: 45 },
+    'Flipper Zero': { src: 'icons/flipper_zero_icon.png', width: 45, height: 45 },
+    'ChatGPT': { src: 'icons/chatgpt_icon.png', width: 45, height: 45 }
   };
   
   const statusTags = {
@@ -574,6 +572,12 @@ export function initProjects() {
               </h3>
               <p class="project-category">${project.category}</p>
               <p class="project-description">${project.description}</p>
+              <button class="read-more-btn" data-id="${project.id}">Read More</button>
+              ${project.externalLink ? `
+                <a href="${project.externalLink}" target="_blank" rel="noopener noreferrer">
+                  <u style="margin-left: 0.50rem;">Take a look!</u> <span style="font-size: 0.9em;">↗︎</span>
+                </a>
+              ` : ``}
               <div class="full-description" id="desc-${project.id}" style="display: none;">
                 ${project.fullDescription}
               </div>
@@ -589,37 +593,6 @@ export function initProjects() {
                   ` : `<span class="project-tag">${tag}</span>`;
                 }).join('')}
               </div>
-            </div>
-            <div class="project-buttons">
-              <button class="read-more-btn" data-id="${project.id}">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <polyline points="9,18 15,12 9,6"></polyline>
-                </svg>
-                Read More
-              </button>
-              <button class="project-link-btn ${project.githubLink || project.gitlabLink ? 'enabled' : 'disabled'}" 
-                      ${project.githubLink || project.gitlabLink ? `onclick="window.open('${project.githubLink || project.gitlabLink}', '_blank')"` : ''}>
-                ${project.gitlabLink ? `
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M22.548 12.276l-2.055-6.32a.763.763 0 0 0-1.453-.062l-1.72 5.17H6.68l-1.72-5.17a.763.763 0 0 0-1.452.062l-2.056 6.32a1.154 1.154 0 0 0 .408 1.27l9.616 7.212a.764.764 0 0 0 .91 0l9.615-7.213a1.154 1.154 0 0 0 .407-1.27z"/>
-                  </svg>
-                  GitLab
-                ` : `
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                  </svg>
-                  GitHub
-                `}
-              </button>
-              <button class="project-link-btn ${project.externalLink ? 'enabled' : 'disabled'}" 
-                      ${project.externalLink ? `onclick="window.open('${project.externalLink}', '_blank')"` : ''}>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                  <polyline points="15,3 21,3 21,9"></polyline>
-                  <line x1="10" y1="14" x2="21" y2="3"></line>
-                </svg>
-                Open
-              </button>
             </div>
           </div>
         `).join('')}
@@ -672,16 +645,6 @@ export function initProjects() {
         display: flex;
         flex-direction: row;
         align-items: center;
-        position: relative;
-      }
-      
-      .project-card.expanded {
-        align-items: flex-start;
-      }
-      
-      .project-card.expanded .project-image {
-        margin-top: var(--space-3);
-        align-self: flex-start;
       }
       
       @media (max-width: 480px) {
@@ -704,8 +667,8 @@ export function initProjects() {
         position: relative;
         overflow: hidden;
         width: 30%;
-        min-width: 200px;
-        height: 200px;
+        min-width: 150px;
+        height: 150px;
         margin: 0;
         display: flex;
         align-items: center;
@@ -713,8 +676,8 @@ export function initProjects() {
       }
       
       .project-image img {
-        max-width: 180px;
-        max-height: 180px;
+        max-width: 100%;
+        max-height: 100%;
         width: auto;
         height: auto;
         object-fit: contain;
@@ -759,13 +722,7 @@ export function initProjects() {
       
       .project-info {
         padding: var(--space-3) var(--space-4);
-        padding-bottom: calc(var(--space-12) + var(--space-3));
         flex: 1;
-      }
-      
-      .project-card.expanded .project-info {
-        padding-top: var(--space-3);
-        align-self: flex-start;
       }
       
       .project-info h3 {
@@ -821,13 +778,8 @@ export function initProjects() {
         border-radius: var(--radius-sm);
         font-size: var(--font-size-xs);
         cursor: pointer;
+        margin-bottom: var(--space-4);
         transition: background-color var(--transition-normal);
-        min-width: 90px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-weight: var(--font-weight-medium);
-        gap: var(--space-1);
       }
 
       .read-more-btn:hover {
@@ -867,54 +819,6 @@ export function initProjects() {
         border: none;
         padding: 0;
       }
-      
-      .project-buttons {
-        position: absolute;
-        bottom: var(--space-3);
-        right: var(--space-3);
-        display: flex;
-        gap: var(--space-2);
-        z-index: 2;
-      }
-      
-      .project-link-btn {
-        display: flex;
-        align-items: center;
-        gap: var(--space-1);
-        padding: var(--space-1) var(--space-2);
-        border-radius: var(--radius-md);
-        font-size: var(--font-size-xs);
-        font-weight: var(--font-weight-medium);
-        cursor: pointer;
-        transition: all var(--transition-normal);
-        border: 1px solid;
-        min-width: 70px;
-        justify-content: center;
-      }
-      
-      .project-link-btn.enabled {
-        background-color: var(--color-primary-500);
-        border-color: var(--color-primary-500);
-        color: white;
-      }
-      
-      .project-link-btn.enabled:hover {
-        background-color: var(--color-primary-600);
-        border-color: var(--color-primary-600);
-        transform: translateY(-2px);
-      }
-      
-      .project-link-btn.disabled {
-        background-color: var(--color-neutral-100);
-        border-color: var(--color-neutral-300);
-        color: var(--color-neutral-400);
-        cursor: not-allowed;
-      }
-      
-      .project-link-btn svg {
-        width: 14px;
-        height: 14px;
-      }
     </style>
   `;
   
@@ -948,26 +852,13 @@ export function initProjects() {
       e.stopPropagation();
       const projectId = button.getAttribute('data-id');
       const descElement = document.getElementById(`desc-${projectId}`);
-      const projectCard = button.closest('.project-card');
       
       if (descElement.style.display === 'none') {
         descElement.style.display = 'block';
-        projectCard.classList.add('expanded');
-        button.innerHTML = `
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <polyline points="18,15 12,9 6,15"></polyline>
-          </svg>
-          Read Less
-        `;
+        button.textContent = 'Show Less';
       } else {
         descElement.style.display = 'none';
-        projectCard.classList.remove('expanded');
-        button.innerHTML = `
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <polyline points="9,18 15,12 9,6"></polyline>
-          </svg>
-          Read More
-        `;
+        button.textContent = 'Read More';
       }
     });
   });
