@@ -45,6 +45,7 @@ export function initProjects() {
       description: 'A personal project to bring a high school project to a web game.',
       tags: ['HTML', 'CSS', 'JavaScript', 'React', 'NodeJS', 'Firebase'],
       status: 'release',
+      githubLink: 'https://github.com/qnguyen1206/RockOpenGameWeb',
       externalLink: 'https://rockopengameweb.web.app/',
       fullDescription: `
         <h3>Key Features</h3>
