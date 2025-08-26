@@ -57,22 +57,34 @@ export function initSkills() {
       <div class="skills-carousel-container">
         <div class="carousel-3d" id="skillsCarousel">
           ${Object.entries(skillsData).map(([category, skillsList], index) => {
-            const frontSkills = skillsList.slice(0, 5);
-            const backSkills = skillsList.slice(5);
-            const hasFlip = backSkills.length > 0;
+            // Split skills into pages of 5 each
+            const skillPages = [];
+            for (let i = 0; i < skillsList.length; i += 5) {
+              skillPages.push(skillsList.slice(i, i + 5));
+            }
+            
+            const hasMultiplePages = skillPages.length > 1;
             
             return `
-            <div class="carousel-panel ${hasFlip ? 'has-flip' : ''}" data-index="${index}">
+            <div class="carousel-panel ${hasMultiplePages ? 'has-flip' : ''}" data-index="${index}" data-current-page="0" data-total-pages="${skillPages.length}">
               <div class="skills-category-block">
                 <div class="flip-container">
-                  <!-- Front of card -->
-                  <div class="card-face card-front">
+                  ${skillPages.map((pageSkills, pageIndex) => `
+                  <div class="skill-page ${pageIndex === 0 ? 'active' : ''}" data-page="${pageIndex}">
                     <div class="category-header">
                       <h3 class="category-title">${category}</h3>
-                      ${hasFlip ? '<div class="flip-indicator">Click to flip for more →</div>' : ''}
+                      ${hasMultiplePages ? `<div class="flip-indicator">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                          <path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/>
+                          <path d="M21 3v5h-5"/>
+                          <path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/>
+                          <path d="M3 21v-5h5"/>
+                        </svg>
+                        ${pageIndex + 1}/${skillPages.length}
+                      </div>` : ''}
                     </div>
                     <div class="skills-block">
-                      ${frontSkills.map(skill => `
+                      ${pageSkills.map(skill => `
                         <div class="skill-item">
                           <div class="skill-icon">
                             <img src="${skill.icon}" alt="${skill.name}" />
@@ -90,34 +102,7 @@ export function initSkills() {
                       `).join('')}
                     </div>
                   </div>
-                  
-                  ${hasFlip ? `
-                  <!-- Back of card -->
-                  <div class="card-face card-back">
-                    <div class="category-header">
-                      <h3 class="category-title">${category}</h3>
-                      <div class="flip-indicator">← Click to flip back</div>
-                    </div>
-                    <div class="skills-block">
-                      ${backSkills.map(skill => `
-                        <div class="skill-item">
-                          <div class="skill-icon">
-                            <img src="${skill.icon}" alt="${skill.name}" />
-                          </div>
-                          <div class="skill-info">
-                            <h4 class="skill-name">${skill.name}</h4>
-                            <div class="skill-level">
-                              <div class="skill-bar">
-                                <div class="skill-progress" data-level="${skill.level}"></div>
-                              </div>
-                              <span class="skill-proficiency">${getProficiencyName(skill.level)}</span>
-                            </div>
-                          </div>
-                        </div>
-                      `).join('')}
-                    </div>
-                  </div>
-                  ` : ''}
+                  `).join('')}
                 </div>
               </div>
             </div>
@@ -178,13 +163,7 @@ export function initSkills() {
       }
       
       .skills-category-block {
-        background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(59, 130, 246, 0.1));
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
         border-radius: var(--border-radius-xl);
-        padding: var(--space-3);
-        box-shadow: 0 8px 32px rgba(139, 92, 246, 0.1), 0 4px 16px rgba(59, 130, 246, 0.1);
-        border: 1px solid rgba(139, 92, 246, 0.2);
         transition: all var(--transition-normal) var(--easing-out);
         height: 100%;
         box-sizing: border-box;
@@ -192,32 +171,44 @@ export function initSkills() {
         display: flex;
         flex-direction: column;
         cursor: pointer;
+        position: relative;
+        transform-style: preserve-3d;
+        -webkit-transform-style: preserve-3d;
       }
       
-      /* Flip container and faces */
+      /* Flip container and skill pages */
       .flip-container {
         position: relative;
         width: 100%;
         height: 100%;
         transition: transform 0.8s ease-in-out;
         transform-style: preserve-3d;
+        -webkit-transform-style: preserve-3d;
       }
       
-      .carousel-panel.has-flip.flipped .flip-container {
-        transform: rotateY(180deg);
-      }
-      
-      .card-face {
+      .skill-page {
         position: absolute;
         width: 100%;
         height: 100%;
         backface-visibility: hidden;
         display: flex;
         flex-direction: column;
+        -webkit-backface-visibility: hidden;
+        background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(59, 130, 246, 0.1));
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: var(--border-radius-xl);
+        padding: var(--space-3);
+        box-shadow: 0 8px 32px rgba(139, 92, 246, 0.1), 0 4px 16px rgba(59, 130, 246, 0.1);
+        border: 1px solid rgba(139, 92, 246, 0.2);
+        opacity: 0;
+        transform: translateX(100%);
+        transition: all 0.5s ease-in-out;
       }
       
-      .card-back {
-        transform: rotateY(180deg);
+      .skill-page.active {
+        opacity: 1;
+        transform: translateX(0);
       }
       
       .flip-indicator {
@@ -228,15 +219,21 @@ export function initSkills() {
         font-weight: var(--font-weight-medium);
         opacity: 0.7;
         transition: opacity 0.3s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
       }
       
-        .skills-category-block:hover .flip-indicator {
-          opacity: 1;
-        }
-        
-        .flip-indicator {
-          font-size: calc(var(--font-size-xs) * 0.8);
-        }      .skills-category-block:hover {
+      .flip-indicator svg {
+        flex-shrink: 0;
+      }
+      
+      .skills-category-block:hover .flip-indicator {
+        opacity: 1;
+      }
+      
+      .skills-category-block:hover .skill-page.active {
         box-shadow: 0 12px 40px rgba(139, 92, 246, 0.15), 0 6px 20px rgba(59, 130, 246, 0.15);
         border-color: rgba(139, 92, 246, 0.3);
         background: linear-gradient(135deg, rgba(139, 92, 246, 0.15), rgba(59, 130, 246, 0.15));
@@ -432,13 +429,13 @@ export function initSkills() {
       }
       
       /* Dark mode styles */
-      [data-theme="dark"] .skills-category-block {
+      [data-theme="dark"] .skill-page {
         background: linear-gradient(135deg, rgba(139, 92, 246, 0.15), rgba(59, 130, 246, 0.15));
         border-color: rgba(139, 92, 246, 0.3);
         box-shadow: 0 8px 32px rgba(139, 92, 246, 0.2), 0 4px 16px rgba(59, 130, 246, 0.2);
       }
       
-      [data-theme="dark"] .skills-category-block:hover {
+      [data-theme="dark"] .skills-category-block:hover .skill-page.active {
         border-color: rgba(139, 92, 246, 0.4);
         background: linear-gradient(135deg, rgba(139, 92, 246, 0.2), rgba(59, 130, 246, 0.2));
         box-shadow: 0 12px 40px rgba(139, 92, 246, 0.25), 0 6px 20px rgba(59, 130, 246, 0.25);
@@ -639,7 +636,7 @@ export function initSkills() {
     
     // Reset all skill bars and proficiency labels first
     panels.forEach(panel => {
-      // Reset both front and back faces
+      // Reset all pages
       const allSkillBars = panel.querySelectorAll('.skill-progress');
       const allProficiencyLabels = panel.querySelectorAll('.skill-proficiency');
       
@@ -652,36 +649,42 @@ export function initSkills() {
         label.style.color = 'white'; // Reset to default color
       });
       
-      // Reset flip state when changing slides
-      panel.classList.remove('flipped');
+      // Reset to first page
+      panel.setAttribute('data-current-page', '0');
+      const skillPages = panel.querySelectorAll('.skill-page');
+      skillPages.forEach((page, pageIndex) => {
+        page.classList.toggle('active', pageIndex === 0);
+      });
     });
     
-    // Animate skill bars for the active panel only (front face initially)
+    // Animate skill bars for the active panel only (first page initially)
     setTimeout(() => {
       const activePanel = panels[currentIndex];
-      const frontFace = activePanel.querySelector('.card-front') || activePanel;
-      const skillBars = frontFace.querySelectorAll('.skill-progress');
-      const proficiencyLabels = frontFace.querySelectorAll('.skill-proficiency');
-      
-      skillBars.forEach((bar, index) => {
-        const level = bar.getAttribute('data-level');
-        bar.style.width = level + '%';
-        const proficiencyName = getProficiencyName(parseInt(level));
-        if (proficiencyLabels[index]) {
-          proficiencyLabels[index].textContent = proficiencyName;
-          
-          // Set proficiency text color based on skill level
-          if (level <= 25) {
-            proficiencyLabels[index].style.color = '#ef4444'; // Red - Beginner
-          } else if (level <= 50) {
-            proficiencyLabels[index].style.color = '#eab308'; // Yellow - Intermediate
-          } else if (level <= 75) {
-            proficiencyLabels[index].style.color = '#22c55e'; // Green - Proficient
-          } else {
-            proficiencyLabels[index].style.color = '#8b5cf6'; // Purple - Advanced
+      const activePage = activePanel.querySelector('.skill-page.active');
+      if (activePage) {
+        const skillBars = activePage.querySelectorAll('.skill-progress');
+        const proficiencyLabels = activePage.querySelectorAll('.skill-proficiency');
+        
+        skillBars.forEach((bar, index) => {
+          const level = bar.getAttribute('data-level');
+          bar.style.width = level + '%';
+          const proficiencyName = getProficiencyName(parseInt(level));
+          if (proficiencyLabels[index]) {
+            proficiencyLabels[index].textContent = proficiencyName;
+            
+            // Set proficiency text color based on skill level
+            if (level <= 25) {
+              proficiencyLabels[index].style.color = '#ef4444'; // Red - Beginner
+            } else if (level <= 50) {
+              proficiencyLabels[index].style.color = '#eab308'; // Yellow - Intermediate
+            } else if (level <= 75) {
+              proficiencyLabels[index].style.color = '#22c55e'; // Green - Proficient
+            } else {
+              proficiencyLabels[index].style.color = '#8b5cf6'; // Purple - Advanced
+            }
           }
-        }
-      });
+        });
+      }
     }, 400);
   }
   
@@ -725,7 +728,7 @@ export function initSkills() {
     });
   });
   
-  // Flip card functionality
+  // Page flip functionality for skills with multiple pages
   panels.forEach(panel => {
     if (panel.classList.contains('has-flip')) {
       const skillsBlock = panel.querySelector('.skills-category-block');
@@ -735,22 +738,39 @@ export function initSkills() {
           return;
         }
         
-        panel.classList.toggle('flipped');
+        const currentPage = parseInt(panel.getAttribute('data-current-page'));
+        const totalPages = parseInt(panel.getAttribute('data-total-pages'));
+        const nextPage = (currentPage + 1) % totalPages;
         
-        // Re-animate skill bars after flip
-        setTimeout(() => {
-          updateSkillBars(panel);
-        }, 400); // Half of flip animation duration
+        // Hide current page
+        const currentPageElement = panel.querySelector(`.skill-page[data-page="${currentPage}"]`);
+        const nextPageElement = panel.querySelector(`.skill-page[data-page="${nextPage}"]`);
+        
+        if (currentPageElement && nextPageElement) {
+          currentPageElement.classList.remove('active');
+          nextPageElement.classList.add('active');
+          panel.setAttribute('data-current-page', nextPage);
+          
+          // Re-animate skill bars after page change
+          setTimeout(() => {
+            updateSkillBars(panel, nextPage);
+          }, 250);
+        }
       });
     }
   });
   
-  // Helper function to update skill bars for a specific panel
-  function updateSkillBars(panel) {
-    const isFlipped = panel.classList.contains('flipped');
-    const face = isFlipped ? panel.querySelector('.card-back') : panel.querySelector('.card-front');
-    const skillBars = face.querySelectorAll('.skill-progress');
-    const proficiencyLabels = face.querySelectorAll('.skill-proficiency');
+  // Helper function to update skill bars for a specific panel and page
+  function updateSkillBars(panel, pageIndex = null) {
+    if (pageIndex === null) {
+      pageIndex = parseInt(panel.getAttribute('data-current-page')) || 0;
+    }
+    
+    const activePage = panel.querySelector(`.skill-page[data-page="${pageIndex}"]`);
+    if (!activePage) return;
+    
+    const skillBars = activePage.querySelectorAll('.skill-progress');
+    const proficiencyLabels = activePage.querySelectorAll('.skill-proficiency');
     
     // Reset bars first
     skillBars.forEach(bar => {
@@ -842,36 +862,42 @@ export function initSkills() {
             label.style.color = 'white'; // Reset to default color
           });
           
-          // Reset flip state
-          panel.classList.remove('flipped');
+          // Reset to first page
+          panel.setAttribute('data-current-page', '0');
+          const skillPages = panel.querySelectorAll('.skill-page');
+          skillPages.forEach((page, pageIndex) => {
+            page.classList.toggle('active', pageIndex === 0);
+          });
         });
         
-        // Trigger initial skill bar animation for the first visible panel only (front face)
+        // Trigger initial skill bar animation for the first visible panel only (first page)
         setTimeout(() => {
           const activePanel = panels[currentIndex];
-          const frontFace = activePanel.querySelector('.card-front') || activePanel;
-          const skillBars = frontFace.querySelectorAll('.skill-progress');
-          const proficiencyLabels = frontFace.querySelectorAll('.skill-proficiency');
-          
-          skillBars.forEach((bar, index) => {
-            const level = bar.getAttribute('data-level');
-            bar.style.width = level + '%';
-            const proficiencyName = getProficiencyName(parseInt(level));
-            if (proficiencyLabels[index]) {
-              proficiencyLabels[index].textContent = proficiencyName;
-              
-              // Set proficiency text color based on skill level
-              if (level <= 25) {
-                proficiencyLabels[index].style.color = '#ef4444'; // Red - Beginner
-              } else if (level <= 50) {
-                proficiencyLabels[index].style.color = '#eab308'; // Yellow - Intermediate
-              } else if (level <= 75) {
-                proficiencyLabels[index].style.color = '#22c55e'; // Green - Proficient
-              } else {
-                proficiencyLabels[index].style.color = '#8b5cf6'; // Purple - Advanced
+          const activePage = activePanel.querySelector('.skill-page.active');
+          if (activePage) {
+            const skillBars = activePage.querySelectorAll('.skill-progress');
+            const proficiencyLabels = activePage.querySelectorAll('.skill-proficiency');
+            
+            skillBars.forEach((bar, index) => {
+              const level = bar.getAttribute('data-level');
+              bar.style.width = level + '%';
+              const proficiencyName = getProficiencyName(parseInt(level));
+              if (proficiencyLabels[index]) {
+                proficiencyLabels[index].textContent = proficiencyName;
+                
+                // Set proficiency text color based on skill level
+                if (level <= 25) {
+                  proficiencyLabels[index].style.color = '#ef4444'; // Red - Beginner
+                } else if (level <= 50) {
+                  proficiencyLabels[index].style.color = '#eab308'; // Yellow - Intermediate
+                } else if (level <= 75) {
+                  proficiencyLabels[index].style.color = '#22c55e'; // Green - Proficient
+                } else {
+                  proficiencyLabels[index].style.color = '#8b5cf6'; // Purple - Advanced
+                }
               }
-            }
-          });
+            });
+          }
         }, 200);
         skillObserver.unobserve(entry.target);
       }
