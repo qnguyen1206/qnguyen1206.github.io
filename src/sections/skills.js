@@ -69,26 +69,22 @@ export function initSkills() {
     ]
   };
 
-  // Function to generate skills HTML based on screen size
-  function generateSkillsHTML() {
-    const skillsPerPanel = getSkillsPerPanel();
-    
-    return `
+  skills.innerHTML = `
     <div class="container">
       <h2 class="section-title reveal">Skills & Technologies</h2>
       
       <div class="skills-carousel-container">
         <div class="carousel-3d" id="skillsCarousel">
           ${Object.entries(skillsData).map(([category, skillsList], index) => {
-      // Split skills into pages based on current screen size
-      const skillPages = [];
-      for (let i = 0; i < skillsList.length; i += skillsPerPanel) {
-        skillPages.push(skillsList.slice(i, i + skillsPerPanel));
-      }
+            // Split skills into pages of 5 each
+            const skillPages = [];
+            for (let i = 0; i < skillsList.length; i += 5) {
+              skillPages.push(skillsList.slice(i, i + 5));
+            }
             
-      const hasMultiplePages = skillPages.length > 1;
+            const hasMultiplePages = skillPages.length > 1;
             
-      return `
+            return `
             <div class="carousel-panel ${hasMultiplePages ? 'has-flip' : ''}" data-index="${index}" data-current-page="0" data-total-pages="${skillPages.length}">
               <div class="skills-category-block">
                 <div class="flip-container">
@@ -130,7 +126,7 @@ export function initSkills() {
               </div>
             </div>
             `;
-    }).join('')}
+          }).join('')}
         </div>
         
         <div class="carousel-navigation">
@@ -152,14 +148,8 @@ export function initSkills() {
         </div>
       </div>
     </div>
-    `;
-  }
-  
-  // Function to initialize carousel functionality
-  function initializeCarousel() {
-    // Add the CSS styles
-    const styleElement = document.createElement('style');
-    styleElement.textContent = `
+    
+    <style>
       .skills-carousel-container {
         max-width: 800px;
         margin: 60px auto 0 auto;
@@ -629,192 +619,78 @@ export function initSkills() {
     </style>
   `;
 
-    // 3D Carousel functionality
-    const carousel = document.getElementById('skillsCarousel');
-    const panels = document.querySelectorAll('.carousel-panel');
-    const prevBtn = document.getElementById('prevBtn');
-    const nextBtn = document.getElementById('nextBtn');
-    const dots = document.querySelectorAll('.carousel-dot');
+  // 3D Carousel functionality
+  const carousel = document.getElementById('skillsCarousel');
+  const panels = document.querySelectorAll('.carousel-panel');
+  const prevBtn = document.getElementById('prevBtn');
+  const nextBtn = document.getElementById('nextBtn');
+  const dots = document.querySelectorAll('.carousel-dot');
   
-    let currentIndex = 0;
-    const totalPanels = panels.length;
-    const angleStep = 360 / totalPanels;
+  let currentIndex = 0;
+  const totalPanels = panels.length;
+  const angleStep = 360 / totalPanels;
   
-    // Position panels in 3D space
-    function positionPanels() {
-      panels.forEach((panel, index) => {
-        const angle = index * angleStep;
-        panel.style.transform = `rotateY(${angle}deg) translateZ(290px)`;
-      });
-    }
-  
-    // Update carousel rotation
-    function updateCarousel() {
-      const rotation = -currentIndex * angleStep;
-      carousel.style.transform = `rotateY(${rotation}deg)`;
-    
-      // Update dots
-      dots.forEach((dot, index) => {
-        dot.classList.toggle('active', index === currentIndex);
-      });
-    
-      // Update active panel class
-      panels.forEach((panel, index) => {
-        panel.classList.toggle('active', index === currentIndex);
-      });
-    
-      // Reset all skill bars and proficiency labels first
-      panels.forEach(panel => {
-        // Reset all pages
-        const allSkillBars = panel.querySelectorAll('.skill-progress');
-        const allProficiencyLabels = panel.querySelectorAll('.skill-proficiency');
-      
-        allSkillBars.forEach(bar => {
-          bar.style.width = '0%';
-        });
-      
-        allProficiencyLabels.forEach(label => {
-          label.textContent = 'Beginner';
-          label.style.color = 'white'; // Reset to default color
-        });
-      
-        // Reset to first page
-        panel.setAttribute('data-current-page', '0');
-        const skillPages = panel.querySelectorAll('.skill-page');
-        skillPages.forEach((page, pageIndex) => {
-          page.classList.toggle('active', pageIndex === 0);
-        });
-      });
-    
-      // Animate skill bars for the active panel only (first page initially)
-      setTimeout(() => {
-        const activePanel = panels[currentIndex];
-        const activePage = activePanel.querySelector('.skill-page.active');
-        if (activePage) {
-          const skillBars = activePage.querySelectorAll('.skill-progress');
-          const proficiencyLabels = activePage.querySelectorAll('.skill-proficiency');
-        
-          skillBars.forEach((bar, index) => {
-            const level = bar.getAttribute('data-level');
-            bar.style.width = level + '%';
-            const proficiencyName = getProficiencyName(parseInt(level));
-            if (proficiencyLabels[index]) {
-              proficiencyLabels[index].textContent = proficiencyName;
-            
-              // Set proficiency text color based on skill level
-              if (level <= 25) {
-                proficiencyLabels[index].style.color = '#ef4444'; // Red - Beginner
-              } else if (level <= 50) {
-                proficiencyLabels[index].style.color = '#eab308'; // Yellow - Intermediate
-              } else if (level <= 75) {
-                proficiencyLabels[index].style.color = '#22c55e'; // Green - Proficient
-              } else {
-                proficiencyLabels[index].style.color = '#8b5cf6'; // Purple - Advanced
-              }
-            }
-          });
-        }
-      }, 400);
-    }
-  
-    // Navigation functions
-    function nextSlide() {
-      currentIndex = (currentIndex + 1) % totalPanels;
-      updateCarousel();
-    }
-  
-    function prevSlide() {
-      currentIndex = (currentIndex - 1 + totalPanels) % totalPanels;
-      updateCarousel();
-    }
-  
-    function goToSlide(index) {
-      currentIndex = index;
-      updateCarousel();
-    }
-  
-    // Reset auto-rotation timer
-    function resetAutoRotation() {
-      clearInterval(autoRotate);
-      autoRotate = setInterval(nextSlide, 5000);
-    }
-  
-    // Event listeners
-    nextBtn.addEventListener('click', () => {
-      nextSlide();
-      resetAutoRotation();
+  // Position panels in 3D space
+  function positionPanels() {
+    panels.forEach((panel, index) => {
+      const angle = index * angleStep;
+      panel.style.transform = `rotateY(${angle}deg) translateZ(290px)`;
     });
+  }
   
-    prevBtn.addEventListener('click', () => {
-      prevSlide();
-      resetAutoRotation();
-    });
-  
+  // Update carousel rotation
+  function updateCarousel() {
+    const rotation = -currentIndex * angleStep;
+    carousel.style.transform = `rotateY(${rotation}deg)`;
+    
+    // Update dots
     dots.forEach((dot, index) => {
-      dot.addEventListener('click', () => {
-        goToSlide(index);
-        resetAutoRotation();
-      });
+      dot.classList.toggle('active', index === currentIndex);
     });
-  
-    // Page flip functionality for skills with multiple pages
+    
+    // Update active panel class
+    panels.forEach((panel, index) => {
+      panel.classList.toggle('active', index === currentIndex);
+    });
+    
+    // Reset all skill bars and proficiency labels first
     panels.forEach(panel => {
-      if (panel.classList.contains('has-flip')) {
-        const skillsBlock = panel.querySelector('.skills-category-block');
-        skillsBlock.addEventListener('click', (e) => {
-          // Prevent flip if clicking on navigation buttons
-          if (e.target.closest('.carousel-btn') || e.target.closest('.carousel-dot')) {
-            return;
-          }
-        
-          const currentPage = parseInt(panel.getAttribute('data-current-page'));
-          const totalPages = parseInt(panel.getAttribute('data-total-pages'));
-          const nextPage = (currentPage + 1) % totalPages;
-        
-          // Hide current page
-          const currentPageElement = panel.querySelector(`.skill-page[data-page="${currentPage}"]`);
-          const nextPageElement = panel.querySelector(`.skill-page[data-page="${nextPage}"]`);
-        
-          if (currentPageElement && nextPageElement) {
-            currentPageElement.classList.remove('active');
-            nextPageElement.classList.add('active');
-            panel.setAttribute('data-current-page', nextPage);
-          
-            // Re-animate skill bars after page change
-            setTimeout(() => {
-              updateSkillBars(panel, nextPage);
-            }, 250);
-          }
-        });
-      }
-    });
-  
-    // Helper function to update skill bars for a specific panel and page
-    function updateSkillBars(panel, pageIndex = null) {
-      if (pageIndex === null) {
-        pageIndex = parseInt(panel.getAttribute('data-current-page')) || 0;
-      }
-    
-      const activePage = panel.querySelector(`.skill-page[data-page="${pageIndex}"]`);
-      if (!activePage) return;
-    
-      const skillBars = activePage.querySelectorAll('.skill-progress');
-      const proficiencyLabels = activePage.querySelectorAll('.skill-proficiency');
-    
-      // Reset bars first
-      skillBars.forEach(bar => {
+      // Reset all pages
+      const allSkillBars = panel.querySelectorAll('.skill-progress');
+      const allProficiencyLabels = panel.querySelectorAll('.skill-proficiency');
+      
+      allSkillBars.forEach(bar => {
         bar.style.width = '0%';
       });
+      
+      allProficiencyLabels.forEach(label => {
+        label.textContent = 'Beginner';
+        label.style.color = 'white'; // Reset to default color
+      });
+      
+      // Reset to first page
+      panel.setAttribute('data-current-page', '0');
+      const skillPages = panel.querySelectorAll('.skill-page');
+      skillPages.forEach((page, pageIndex) => {
+        page.classList.toggle('active', pageIndex === 0);
+      });
+    });
     
-      // Animate after short delay
-      setTimeout(() => {
+    // Animate skill bars for the active panel only (first page initially)
+    setTimeout(() => {
+      const activePanel = panels[currentIndex];
+      const activePage = activePanel.querySelector('.skill-page.active');
+      if (activePage) {
+        const skillBars = activePage.querySelectorAll('.skill-progress');
+        const proficiencyLabels = activePage.querySelectorAll('.skill-proficiency');
+        
         skillBars.forEach((bar, index) => {
           const level = bar.getAttribute('data-level');
           bar.style.width = level + '%';
           const proficiencyName = getProficiencyName(parseInt(level));
           if (proficiencyLabels[index]) {
             proficiencyLabels[index].textContent = proficiencyName;
-          
+            
             // Set proficiency text color based on skill level
             if (level <= 25) {
               proficiencyLabels[index].style.color = '#ef4444'; // Red - Beginner
@@ -827,113 +703,226 @@ export function initSkills() {
             }
           }
         });
-      }, 100);
-    }
-  
-    // Auto-rotation (optional)
-    let autoRotate = setInterval(nextSlide, 5000);
-  
-    // Pause auto-rotation on hover
-    carousel.addEventListener('mouseenter', () => {
-      clearInterval(autoRotate);
-    });
-  
-    carousel.addEventListener('mouseleave', () => {
-      autoRotate = setInterval(nextSlide, 5000);
-    });
-  
-    // Touch/swipe support for mobile
-    let startX = 0;
-    let endX = 0;
-  
-    carousel.addEventListener('touchstart', (e) => {
-      startX = e.touches[0].clientX;
-    });
-  
-    carousel.addEventListener('touchend', (e) => {
-      endX = e.changedTouches[0].clientX;
-      const diff = startX - endX;
-    
-      if (Math.abs(diff) > 50) { // Minimum swipe distance
-        if (diff > 0) {
-          nextSlide();
-        } else {
-          prevSlide();
-        }
-        resetAutoRotation(); // Reset timer after swipe
       }
-    });
+    }, 400);
+  }
   
-    // Initialize
-    positionPanels();
+  // Navigation functions
+  function nextSlide() {
+    currentIndex = (currentIndex + 1) % totalPanels;
     updateCarousel();
+  }
   
-    // Intersection Observer for reveal animations
-    const observerOptions = {
-      threshold: 0.3,
-      rootMargin: '0px 0px -50px 0px'
-    };
-
-    const skillObserver = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          // Reset all skill bars and proficiency labels first
-          panels.forEach(panel => {
-            const skillBars = panel.querySelectorAll('.skill-progress');
-            const proficiencyLabels = panel.querySelectorAll('.skill-proficiency');
-          
-            skillBars.forEach(bar => {
-              bar.style.width = '0%';
-            });
-          
-            proficiencyLabels.forEach(label => {
-              label.textContent = 'Beginner';
-              label.style.color = 'white'; // Reset to default color
-            });
-          
-            // Reset to first page
-            panel.setAttribute('data-current-page', '0');
-            const skillPages = panel.querySelectorAll('.skill-page');
-            skillPages.forEach((page, pageIndex) => {
-              page.classList.toggle('active', pageIndex === 0);
-            });
-          });
+  function prevSlide() {
+    currentIndex = (currentIndex - 1 + totalPanels) % totalPanels;
+    updateCarousel();
+  }
+  
+  function goToSlide(index) {
+    currentIndex = index;
+    updateCarousel();
+  }
+  
+  // Reset auto-rotation timer
+  function resetAutoRotation() {
+    clearInterval(autoRotate);
+    autoRotate = setInterval(nextSlide, 5000);
+  }
+  
+  // Event listeners
+  nextBtn.addEventListener('click', () => {
+    nextSlide();
+    resetAutoRotation();
+  });
+  
+  prevBtn.addEventListener('click', () => {
+    prevSlide();
+    resetAutoRotation();
+  });
+  
+  dots.forEach((dot, index) => {
+    dot.addEventListener('click', () => {
+      goToSlide(index);
+      resetAutoRotation();
+    });
+  });
+  
+  // Page flip functionality for skills with multiple pages
+  panels.forEach(panel => {
+    if (panel.classList.contains('has-flip')) {
+      const skillsBlock = panel.querySelector('.skills-category-block');
+      skillsBlock.addEventListener('click', (e) => {
+        // Prevent flip if clicking on navigation buttons
+        if (e.target.closest('.carousel-btn') || e.target.closest('.carousel-dot')) {
+          return;
+        }
         
-          // Trigger initial skill bar animation for the first visible panel only (first page)
+        const currentPage = parseInt(panel.getAttribute('data-current-page'));
+        const totalPages = parseInt(panel.getAttribute('data-total-pages'));
+        const nextPage = (currentPage + 1) % totalPages;
+        
+        // Hide current page
+        const currentPageElement = panel.querySelector(`.skill-page[data-page="${currentPage}"]`);
+        const nextPageElement = panel.querySelector(`.skill-page[data-page="${nextPage}"]`);
+        
+        if (currentPageElement && nextPageElement) {
+          currentPageElement.classList.remove('active');
+          nextPageElement.classList.add('active');
+          panel.setAttribute('data-current-page', nextPage);
+          
+          // Re-animate skill bars after page change
           setTimeout(() => {
-            const activePanel = panels[currentIndex];
-            const activePage = activePanel.querySelector('.skill-page.active');
-            if (activePage) {
-              const skillBars = activePage.querySelectorAll('.skill-progress');
-              const proficiencyLabels = activePage.querySelectorAll('.skill-proficiency');
-            
-              skillBars.forEach((bar, index) => {
-                const level = bar.getAttribute('data-level');
-                bar.style.width = level + '%';
-                const proficiencyName = getProficiencyName(parseInt(level));
-                if (proficiencyLabels[index]) {
-                  proficiencyLabels[index].textContent = proficiencyName;
-                
-                  // Set proficiency text color based on skill level
-                  if (level <= 25) {
-                    proficiencyLabels[index].style.color = '#ef4444'; // Red - Beginner
-                  } else if (level <= 50) {
-                    proficiencyLabels[index].style.color = '#eab308'; // Yellow - Intermediate
-                  } else if (level <= 75) {
-                    proficiencyLabels[index].style.color = '#22c55e'; // Green - Proficient
-                  } else {
-                    proficiencyLabels[index].style.color = '#8b5cf6'; // Purple - Advanced
-                  }
-                }
-              });
-            }
-          }, 200);
-          skillObserver.unobserve(entry.target);
+            updateSkillBars(panel, nextPage);
+          }, 250);
         }
       });
-    }, observerOptions);
-
-    // Observe the carousel container
-    skillObserver.observe(document.querySelector('.skills-carousel-container'));
+    }
+  });
+  
+  // Helper function to update skill bars for a specific panel and page
+  function updateSkillBars(panel, pageIndex = null) {
+    if (pageIndex === null) {
+      pageIndex = parseInt(panel.getAttribute('data-current-page')) || 0;
+    }
+    
+    const activePage = panel.querySelector(`.skill-page[data-page="${pageIndex}"]`);
+    if (!activePage) return;
+    
+    const skillBars = activePage.querySelectorAll('.skill-progress');
+    const proficiencyLabels = activePage.querySelectorAll('.skill-proficiency');
+    
+    // Reset bars first
+    skillBars.forEach(bar => {
+      bar.style.width = '0%';
+    });
+    
+    // Animate after short delay
+    setTimeout(() => {
+      skillBars.forEach((bar, index) => {
+        const level = bar.getAttribute('data-level');
+        bar.style.width = level + '%';
+        const proficiencyName = getProficiencyName(parseInt(level));
+        if (proficiencyLabels[index]) {
+          proficiencyLabels[index].textContent = proficiencyName;
+          
+          // Set proficiency text color based on skill level
+          if (level <= 25) {
+            proficiencyLabels[index].style.color = '#ef4444'; // Red - Beginner
+          } else if (level <= 50) {
+            proficiencyLabels[index].style.color = '#eab308'; // Yellow - Intermediate
+          } else if (level <= 75) {
+            proficiencyLabels[index].style.color = '#22c55e'; // Green - Proficient
+          } else {
+            proficiencyLabels[index].style.color = '#8b5cf6'; // Purple - Advanced
+          }
+        }
+      });
+    }, 100);
   }
+  
+  // Auto-rotation (optional)
+  let autoRotate = setInterval(nextSlide, 5000);
+  
+  // Pause auto-rotation on hover
+  carousel.addEventListener('mouseenter', () => {
+    clearInterval(autoRotate);
+  });
+  
+  carousel.addEventListener('mouseleave', () => {
+    autoRotate = setInterval(nextSlide, 5000);
+  });
+  
+  // Touch/swipe support for mobile
+  let startX = 0;
+  let endX = 0;
+  
+  carousel.addEventListener('touchstart', (e) => {
+    startX = e.touches[0].clientX;
+  });
+  
+  carousel.addEventListener('touchend', (e) => {
+    endX = e.changedTouches[0].clientX;
+    const diff = startX - endX;
+    
+    if (Math.abs(diff) > 50) { // Minimum swipe distance
+      if (diff > 0) {
+        nextSlide();
+      } else {
+        prevSlide();
+      }
+      resetAutoRotation(); // Reset timer after swipe
+    }
+  });
+  
+  // Initialize
+  positionPanels();
+  updateCarousel();
+  
+  // Intersection Observer for reveal animations
+  const observerOptions = {
+    threshold: 0.3,
+    rootMargin: '0px 0px -50px 0px'
+  };
+
+  const skillObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        // Reset all skill bars and proficiency labels first
+        panels.forEach(panel => {
+          const skillBars = panel.querySelectorAll('.skill-progress');
+          const proficiencyLabels = panel.querySelectorAll('.skill-proficiency');
+          
+          skillBars.forEach(bar => {
+            bar.style.width = '0%';
+          });
+          
+          proficiencyLabels.forEach(label => {
+            label.textContent = 'Beginner';
+            label.style.color = 'white'; // Reset to default color
+          });
+          
+          // Reset to first page
+          panel.setAttribute('data-current-page', '0');
+          const skillPages = panel.querySelectorAll('.skill-page');
+          skillPages.forEach((page, pageIndex) => {
+            page.classList.toggle('active', pageIndex === 0);
+          });
+        });
+        
+        // Trigger initial skill bar animation for the first visible panel only (first page)
+        setTimeout(() => {
+          const activePanel = panels[currentIndex];
+          const activePage = activePanel.querySelector('.skill-page.active');
+          if (activePage) {
+            const skillBars = activePage.querySelectorAll('.skill-progress');
+            const proficiencyLabels = activePage.querySelectorAll('.skill-proficiency');
+            
+            skillBars.forEach((bar, index) => {
+              const level = bar.getAttribute('data-level');
+              bar.style.width = level + '%';
+              const proficiencyName = getProficiencyName(parseInt(level));
+              if (proficiencyLabels[index]) {
+                proficiencyLabels[index].textContent = proficiencyName;
+                
+                // Set proficiency text color based on skill level
+                if (level <= 25) {
+                  proficiencyLabels[index].style.color = '#ef4444'; // Red - Beginner
+                } else if (level <= 50) {
+                  proficiencyLabels[index].style.color = '#eab308'; // Yellow - Intermediate
+                } else if (level <= 75) {
+                  proficiencyLabels[index].style.color = '#22c55e'; // Green - Proficient
+                } else {
+                  proficiencyLabels[index].style.color = '#8b5cf6'; // Purple - Advanced
+                }
+              }
+            });
+          }
+        }, 200);
+        skillObserver.unobserve(entry.target);
+      }
+    });
+  }, observerOptions);
+
+  // Observe the carousel container
+  skillObserver.observe(document.querySelector('.skills-carousel-container'));
 }
