@@ -11,10 +11,10 @@ export function initFooter() {
         <div class="tech-container">
           <p>Made with the help of</p>
           <p class="tech-icons">
-            <img src="icons/bolt_icon.png" width="75" height="50" class="tech-icon"></img>
-            <img src="icons/copilot_icon.png" width="80" height="50" class="tech-icon"></img>
-            <img src="icons/vite_icon.png" width="88" height="50" class="tech-icon"></img>
-            <img src="icons/augment_icon.png" width="100" height="50" class="tech-icon"></img>
+            <img src="icons/bolt_icon.png" class="tech-icon" alt="Bolt"></img>
+            <img src="icons/copilot_icon.png" class="tech-icon" alt="GitHub Copilot"></img>
+            <img src="icons/vite_icon.png" class="tech-icon" alt="Vite"></img>
+            <img src="icons/augment_icon.png" class="tech-icon" alt="Augment"></img>
           </p>
         </div>
 

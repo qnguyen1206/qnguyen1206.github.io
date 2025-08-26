@@ -365,8 +365,13 @@ p {
 }
 
 .tech-icon {
-  display: inline-block; /* Ensure inline display */
-  margin: 0 var(--space-1); /* Add horizontal margin */
+  height: 50px;
+  width: auto;
+  max-width: 100px;
+  object-fit: contain;
+  display: inline-block;
+  margin: 0 var(--space-1);
+  transition: transform var(--transition-normal) var(--easing-out);
 }
 
 .tech-icon:hover {
@@ -376,7 +381,25 @@ p {
 @media (max-width: 768px) {
   .tech-icons {
     gap: var(--space-2);
-    justify-content: flex-start; /* Left align on mobile */
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .tech-icon {
+    height: 40px;
+    max-width: 60px;
+    margin: 0 var(--space-1);
+  }
+}
+
+@media (max-width: 480px) {
+  .tech-icon {
+    height: 35px;
+    max-width: 50px;
+  }
+  
+  .tech-icons {
+    gap: var(--space-1);
   }
 }
 
