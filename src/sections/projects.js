@@ -666,11 +666,14 @@ export function initProjects() {
       .project-card {
         width: 100%;
         max-width: 100%;
-        background-color: var(--color-surface);
+        background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(59, 130, 246, 0.1));
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
         border-radius: var(--radius-lg);
         overflow: hidden;
-        box-shadow: var(--shadow-md);
-        transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+        box-shadow: 0 8px 32px rgba(139, 92, 246, 0.1), 0 4px 16px rgba(59, 130, 246, 0.1);
+        border: 1px solid rgba(139, 92, 246, 0.2);
+        transition: transform var(--transition-normal), box-shadow var(--transition-normal), background var(--transition-normal), border-color var(--transition-normal);
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -769,7 +772,9 @@ export function initProjects() {
       
       .project-card:hover {
         transform: translateY(-5px);
-        box-shadow: var(--shadow-xl);
+        box-shadow: 0 12px 40px rgba(139, 92, 246, 0.15), 0 6px 20px rgba(59, 130, 246, 0.15);
+        border-color: rgba(139, 92, 246, 0.3);
+        background: linear-gradient(135deg, rgba(139, 92, 246, 0.15), rgba(59, 130, 246, 0.15));
       }
       
       @media (max-width: 768px) {
@@ -788,7 +793,10 @@ export function initProjects() {
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: var(--color-neutral-800);
+        background: linear-gradient(135deg, rgba(0, 0, 0, 0.4), rgba(55, 65, 81, 0.3));
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+        border: 1px solid rgba(55, 65, 81, 0.4);
       }
       
       .project-image img {
@@ -1015,6 +1023,24 @@ export function initProjects() {
       .project-link-btn svg {
         width: 14px;
         height: 14px;
+      }
+      
+      /* Dark mode glassmorphism styles */
+      [data-theme="dark"] .project-card {
+        background: linear-gradient(135deg, rgba(139, 92, 246, 0.15), rgba(59, 130, 246, 0.15));
+        border-color: rgba(139, 92, 246, 0.3);
+        box-shadow: 0 8px 32px rgba(139, 92, 246, 0.2), 0 4px 16px rgba(59, 130, 246, 0.2);
+      }
+      
+      [data-theme="dark"] .project-card:hover {
+        border-color: rgba(139, 92, 246, 0.4);
+        background: linear-gradient(135deg, rgba(139, 92, 246, 0.2), rgba(59, 130, 246, 0.2));
+        box-shadow: 0 12px 40px rgba(139, 92, 246, 0.25), 0 6px 20px rgba(59, 130, 246, 0.25);
+      }
+      
+      [data-theme="dark"] .project-image {
+        background: linear-gradient(135deg, rgba(0, 0, 0, 0.6), rgba(31, 41, 55, 0.5));
+        border-color: rgba(31, 41, 55, 0.6);
       }
     </style>
   `;
