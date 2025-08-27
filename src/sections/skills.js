@@ -14,17 +14,19 @@ export function initSkills() {
     const screenWidth = window.innerWidth;
     const screenHeight = window.innerHeight;
     
-    // Base calculation on screen size and panel dimensions
+    // Base calculation on screen size and available panel height
     if (screenWidth < 400) {
-      return 3; // Very small screens (small phones)
+      return 3; // Very small screens - fits 3 skills comfortably
+    } else if (screenWidth < 480) {
+      return 4; // Small mobile devices - fits 4 skills
     } else if (screenWidth < 768) {
-      return 4; // Mobile devices
+      return 4; // Mobile devices - fits 4 skills
     } else if (screenWidth < 1200) {
-      return 5; // Tablets and small laptops
+      return 5; // Tablets and small laptops - fits 5 skills
     } else if (screenWidth < 1920) {
-      return 6; // Desktop screens
+      return 6; // Desktop screens - fits 6 skills
     } else {
-      return 7; // Large monitors (4K, ultrawide)
+      return 7; // Large monitors (4K, ultrawide) - fits 7 skills
     }
   }
   
@@ -76,10 +78,11 @@ export function initSkills() {
       <div class="skills-carousel-container">
         <div class="carousel-3d" id="skillsCarousel">
           ${Object.entries(skillsData).map(([category, skillsList], index) => {
-            // Split skills into pages of 5 each
+            // Split skills into pages based on screen size
+            const skillsPerPanel = getSkillsPerPanel();
             const skillPages = [];
-            for (let i = 0; i < skillsList.length; i += 5) {
-              skillPages.push(skillsList.slice(i, i + 5));
+            for (let i = 0; i < skillsList.length; i += skillsPerPanel) {
+              skillPages.push(skillsList.slice(i, i + skillsPerPanel));
             }
             
             const hasMultiplePages = skillPages.length > 1;
@@ -858,6 +861,16 @@ export function initSkills() {
   positionPanels();
   updateCarousel();
   
+  // Handle window resize to recalculate skills per panel
+  let resizeTimeout;
+  window.addEventListener('resize', () => {
+    clearTimeout(resizeTimeout);
+    resizeTimeout = setTimeout(() => {
+      // Re-initialize the skills section with new panel sizes
+      initSkills();
+    }, 250);
+  });
+
   // Intersection Observer for reveal animations
   const observerOptions = {
     threshold: 0.3,
