@@ -21,12 +21,8 @@ export function initSkills() {
       return 4; // Small mobile devices - fits 4 skills
     } else if (screenWidth < 768) {
       return 4; // Mobile devices - fits 4 skills
-    } else if (screenWidth < 1200) {
-      return 5; // Tablets and small laptops - fits 5 skills
-    } else if (screenWidth < 1920) {
-      return 6; // Desktop screens - fits 6 skills
     } else {
-      return 7; // Large monitors (4K, ultrawide) - fits 7 skills
+      return 5; // Tablets, laptops, and larger screens - capped at 5 skills max
     }
   }
   
@@ -68,6 +64,11 @@ export function initSkills() {
       { name: 'ChatGPT', icon: 'icons/chatgpt_icon.png', level: 85 },
       { name: 'GitHub Copilot', icon: 'icons/copilot_icon.png', level: 80 },
       { name: 'DeepSeek', icon: 'icons/deepseek_icon.png', level: 75 }
+    ],
+    'UI/UX Design': [
+      { name: 'Krita', icon: 'icons/adobe_xd_icon.png', level: 80 },
+      { name: 'MS Paint', icon: 'icons/sketch_icon.png', level: 75 },
+      { name: 'Figma', icon: 'icons/figma_icon.png', level: 10 },
     ]
   };
 
@@ -174,12 +175,12 @@ export function initSkills() {
       .carousel-panel {
         position: absolute;
         width: 260px;
-        height: 360px;
+        height: 380px;
         left: 50%;
         top: 50%;
         transform-origin: center center;
         margin-left: -130px;
-        margin-top: -180px;
+        margin-top: -190px;
         backface-visibility: hidden;
         transform-style: preserve-3d;
       }
@@ -282,7 +283,8 @@ export function initSkills() {
         flex-direction: column;
         gap: var(--space-2);
         flex: 1;
-        overflow: hidden;
+        overflow: visible;
+        padding-bottom: var(--space-2);
       }
       
       .skill-item {
@@ -400,7 +402,7 @@ export function initSkills() {
         align-items: center;
         justify-content: center;
         gap: var(--space-6);
-        margin-top: var(--space-8);
+        margin-top: calc(var(--space-8) + 20px);
       }
       
       .carousel-btn {
@@ -513,9 +515,9 @@ export function initSkills() {
         
         .carousel-panel {
           width: 240px;
-          height: 360px;
+          height: 380px;
           margin-left: -120px;
-          margin-top: -180px;
+          margin-top: -190px;
           top: 50%;
         }
         
@@ -562,9 +564,9 @@ export function initSkills() {
         
         .carousel-panel {
           width: 220px;
-          height: 320px;
+          height: 340px;
           margin-left: -110px;
-          margin-top: -160px;
+          margin-top: -170px;
           top: 50%;
         }
         
@@ -596,9 +598,9 @@ export function initSkills() {
         
         .carousel-panel {
           width: 200px;
-          height: 300px;
+          height: 320px;
           margin-left: -100px;
-          margin-top: -150px;
+          margin-top: -160px;
           top: 50%;
         }
         
