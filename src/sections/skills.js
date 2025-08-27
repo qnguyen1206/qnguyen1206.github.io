@@ -46,7 +46,6 @@ export function initSkills() {
     'Game Development': [
       { name: 'Unity', icon: 'icons/unity_icon.png', level: 85 },
       { name: 'Godot', icon: 'icons/godot_icon.png', level: 70 },
-      { name: 'A-Frame', icon: 'icons/aframe_icon.png', level: 65 }
     ],
     'Tools & Platforms': [
       { name: 'GitHub', icon: 'icons/github_icon.png', level: 90 },
@@ -54,7 +53,8 @@ export function initSkills() {
       { name: 'Firebase', icon: 'icons/firebase_icon.png', level: 80 },
       { name: 'Android Studio', icon: 'icons/android_studio_icon.png', level: 75 },
       { name: 'MySQL', icon: 'icons/mysql_icon.png', level: 70 },
-      { name: 'phpMyAdmin', icon: 'icons/phpmyadmin_icon.png', level: 65 }
+      { name: 'phpMyAdmin', icon: 'icons/phpmyadmin_icon.png', level: 65 },
+      { name: 'A-Frame', icon: 'icons/aframe_icon.png', level: 65 }
     ],
     'Hardware & IoT': [
       { name: 'Raspberry Pi', icon: 'icons/raspberry_pi_icon.png', level: 75 },
@@ -66,8 +66,8 @@ export function initSkills() {
       { name: 'DeepSeek', icon: 'icons/deepseek_icon.png', level: 75 }
     ],
     'UI/UX Design': [
-      { name: 'Krita', icon: 'icons/adobe_xd_icon.png', level: 80 },
-      { name: 'MS Paint', icon: 'icons/sketch_icon.png', level: 75 },
+      { name: 'Krita', icon: 'icons/krita_icon.png', level: 80 },
+      { name: 'MS Paint', icon: 'icons/ms_paint_icon.png', level: 75 },
       { name: 'Figma', icon: 'icons/figma_icon.png', level: 10 },
     ]
   };
