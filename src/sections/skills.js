@@ -36,7 +36,7 @@ export function initSkills() {
       { name: 'C', icon: 'icons/c_icon.png', level: 70 },
       { name: 'PHP', icon: 'icons/php_icon.png', level: 65 }
     ],
-    'Web Technologies': [
+    'Web Development': [
       { name: 'HTML', icon: 'icons/html_icon.png', level: 95 },
       { name: 'CSS', icon: 'icons/css_icon.png', level: 90 },
       { name: 'React', icon: 'icons/react_icon.png', level: 85 },
@@ -54,13 +54,11 @@ export function initSkills() {
       { name: 'Android Studio', icon: 'icons/android_studio_icon.png', level: 75 },
       { name: 'MySQL', icon: 'icons/mysql_icon.png', level: 70 },
       { name: 'phpMyAdmin', icon: 'icons/phpmyadmin_icon.png', level: 65 },
-      { name: 'A-Frame', icon: 'icons/aframe_icon.png', level: 65 }
-    ],
-    'Hardware & IoT': [
+      { name: 'A-Frame', icon: 'icons/aframe_icon.png', level: 65 },
       { name: 'Raspberry Pi', icon: 'icons/raspberry_pi_icon.png', level: 75 },
       { name: 'Flipper Zero', icon: 'icons/flipper_zero_icon.png', level: 60 }
     ],
-    'AI & Development': [
+    'AI Tools': [
       { name: 'ChatGPT', icon: 'icons/chatgpt_icon.png', level: 85 },
       { name: 'GitHub Copilot', icon: 'icons/copilot_icon.png', level: 80 },
       { name: 'DeepSeek', icon: 'icons/deepseek_icon.png', level: 75 }
@@ -68,7 +66,7 @@ export function initSkills() {
     'UI/UX Design': [
       { name: 'Krita', icon: 'icons/krita_icon.png', level: 80 },
       { name: 'MS Paint', icon: 'icons/ms_paint_icon.png', level: 75 },
-      { name: 'Figma', icon: 'icons/figma_icon.png', level: 10 },
+      { name: 'Figma', icon: 'icons/figma_icon.png', level: 40 },
     ]
   };
 

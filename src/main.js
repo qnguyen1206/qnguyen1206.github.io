@@ -8,6 +8,7 @@ import { initHero } from './sections/hero.js';
 import { initAbout } from './sections/about.js';
 import { initSkills } from './sections/skills.js';
 import { initProjects } from './sections/projects.js';
+import { initCertificates } from './sections/certificates.js';
 import { initFooter } from './components/footer.js';
 import { initAnimations } from './utils/animations.js';
 import { initResume } from './sections/resume.js';
@@ -19,6 +20,7 @@ document.querySelector('#app').innerHTML = `
     <section id="about" class="section"></section>
     <section id="skills" class="section"></section>
     <section id="projects" class="section"></section>
+    <section id="certificates" class="section"></section>
     <section id="resume" class="section"></section>
   </main>
   <footer id="footer"></footer>
@@ -31,6 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initAbout();
   initSkills();
   initProjects();
+  initCertificates();
   initFooter();
   initAnimations();
   initResume();
