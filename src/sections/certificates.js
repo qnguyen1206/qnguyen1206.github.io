@@ -149,8 +149,10 @@ export function initCertificates() {
       }
 
       .certificate-card {
-        background: var(--color-card-bg);
-        border: 1px solid var(--color-border);
+        background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(59, 130, 246, 0.1));
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid rgba(139, 92, 246, 0.2);
         border-radius: var(--radius-lg);
         padding: var(--space-4);
         text-align: center;
@@ -161,12 +163,14 @@ export function initCertificates() {
         text-decoration: none;
         color: inherit;
         cursor: pointer;
+        box-shadow: 0 8px 32px rgba(139, 92, 246, 0.1), 0 4px 16px rgba(59, 130, 246, 0.1);
       }
 
       .certificate-card:hover {
         transform: translateY(-4px);
-        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-        border-color: var(--color-primary);
+        background: linear-gradient(135deg, rgba(139, 92, 246, 0.15), rgba(59, 130, 246, 0.15));
+        box-shadow: 0 12px 40px rgba(139, 92, 246, 0.2), 0 6px 20px rgba(59, 130, 246, 0.15);
+        border-color: rgba(139, 92, 246, 0.3);
         text-decoration: none;
         color: inherit;
       }
