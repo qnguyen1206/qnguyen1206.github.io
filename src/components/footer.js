@@ -13,7 +13,6 @@ export function initFooter() {
           <p class="tech-icons">
             <img src="icons/bolt_icon.png" class="tech-icon" alt="Bolt"></img>
             <img src="icons/copilot_icon.png" class="tech-icon" alt="GitHub Copilot"></img>
-            <img src="icons/vite_icon.png" class="tech-icon" alt="Vite"></img>
             <img src="icons/augment_icon.png" class="tech-icon" alt="Augment"></img>
           </p>
         </div>

@@ -18,10 +18,10 @@ document.querySelector('#app').innerHTML = `
   <main>
     <section id="hero" class="section"></section>
     <section id="about" class="section"></section>
+    <section id="resume" class="section"></section>
     <section id="skills" class="section"></section>
     <section id="projects" class="section"></section>
     <section id="certificates" class="section"></section>
-    <section id="resume" class="section"></section>
   </main>
   <footer id="footer"></footer>
 `;
@@ -31,11 +31,11 @@ document.addEventListener('DOMContentLoaded', () => {
   initNav();
   initHero();
   initAbout();
+  initResume();
   initSkills();
   initProjects();
   initCertificates();
   initFooter();
   initAnimations();
-  initResume();
 });
 

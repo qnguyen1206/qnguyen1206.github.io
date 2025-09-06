@@ -72,7 +72,7 @@ export function initSkills() {
 
   skills.innerHTML = `
     <div class="container">
-      <h2 class="section-title reveal">Skills & Technologies</h2>
+      <h2 class="section-title reveal">Skills</h2>
       
       <div class="skills-carousel-container">
         <div class="carousel-3d" id="skillsCarousel">

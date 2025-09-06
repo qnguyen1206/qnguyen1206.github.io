@@ -13,7 +13,7 @@ export function initHero() {
           </div>
           <div class="hero-cta animate-fadeInUp delay-500" style="margin-top: 1.5rem;">
             <a href="#projects" class="btn btn-primary">View My Work</a>
-            <a href="#resume" class="btn btn-secondary">View Resume</a>
+            <a href="#resume" class="btn btn-secondary">Download Resume</a>
           </div>
         </div>
         <div class="hero-stats animate-fadeInUp delay-400">
@@ -27,7 +27,7 @@ export function initHero() {
           </div>
           <div class="stat">
             <h2>2</h2>
-            <b>Products Released</b>
+            <b>Projects Released</b>
           </div>
         </div>
       </div>

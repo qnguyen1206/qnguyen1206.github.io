@@ -4,16 +4,24 @@ const certificatesData = [
     title: "Legacy JavaScript Algorithms and Data Structures",
     issuer: "freeCodeCamp",
     date: "July 21, 2023",
-    description: "JavaScript Algorithms and Data Structures Certification",
+    description: "",
     link: "https://www.freecodecamp.org/certification/quang_m_nguyen/javascript-algorithms-and-data-structures"
   },
   {
     title: "Figma Essential Training: The Basics",
     issuer: "LinkedIn Learning", 
     date: "Sep 04, 2025",
-    description: "Basic Figma training course",
-    link: "https://www.linkedin.com/learning/certificates/834631ec81942e46498fe9aa0a760113b95a3d5da73c21d71ef592541a4ea6bf?u=2163426"
+    description: "",
+    link: "https://www.linkedin.com/learning/certificates/834631ec81942e46498fe9aa0a760113b95a3d5da73c21d71ef592541a4ea6bf?trk=share_certificate"
   },
+  {
+    title: "Python for Data visualization",
+    issuer: "LinkedIn Learning", 
+    date: "Sep 05, 2025",
+    description: "",
+    link: "https://www.linkedin.com/learning/certificates/4aa4b781930a7849ceea31e326d4665b8ef969e2b43843f44c7a14e380c01952?trk=share_certificate"
+  },
+  //There are still problem with the clipping issues and bleeding issues
   // Add more certificates here by copying the structure above
 ];
 
@@ -123,32 +131,90 @@ export function initCertificates() {
   // Generate certificates HTML from data
   const certificatesHTML = certificatesData.map(cert => generateCertificateHTML(cert)).join('');
 
+  // Calculate how many certificates to show per view
+  function getCertificatesPerView() {
+    const screenWidth = window.innerWidth;
+    if (screenWidth < 480) return 1;
+    if (screenWidth < 768) return 2;
+    if (screenWidth < 1024) return 3;
+    return 4;
+  }
+
+  function getTotalPages() {
+    const certificatesPerView = getCertificatesPerView();
+    return Math.ceil(certificatesData.length / certificatesPerView);
+  }
+
+  function createDotsHTML() {
+    const totalPages = getTotalPages();
+    return Array.from({length: totalPages}, (_, index) => `
+      <button class="cert-dot ${index === 0 ? 'active' : ''}" data-index="${index}"></button>
+    `).join('');
+  }
+
   certificatesSection.innerHTML = `
     <div class="container">
-      <h2 class="section-title reveal">Certificates & Achievements</h2>
-      <div class="certificates-grid reveal">
-        ${certificatesHTML}
+      <h2 class="section-title reveal">Certificates</h2>
+      <div class="certificates-container reveal">
+        <div class="certificates-wrapper" id="certificatesWrapper">
+          <div class="certificates-grid" id="certificatesGrid">
+            ${certificatesHTML}
+          </div>
+        </div>
+        <div class="certificates-navigation">
+          <button class="cert-nav-btn prev-btn" id="prevCertBtn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="15,18 9,12 15,6"></polyline>
+            </svg>
+          </button>
+          <div class="certificates-dots" id="certificatesDots">
+            ${createDotsHTML()}
+          </div>
+          <button class="cert-nav-btn next-btn" id="nextCertBtn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="9,18 15,12 9,6"></polyline>
+            </svg>
+          </button>
+        </div>
       </div>
     </div>
 
     <style>
       #certificates {
         background-color: var(--color-bg);
-        padding: var(--space-6) 0;
-        min-height: 100vh;
+        padding: var(--space-4) 0 var(--space-6) 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
       }
 
-      .certificates-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-        gap: var(--space-4);
+      .certificates-container {
+        position: relative;
         margin-top: var(--space-4);
+        padding: var(--space-2) 0;
+      }
+
+      .certificates-wrapper {
+        position: relative;
+        border-radius: var(--radius-lg);
+        width: 100%;
+        padding: var(--space-2) 0;
+      }
+
+      .certificates-grid {
+        display: flex;
+        gap: var(--space-4);
+        transition: all 0.5s ease;
+        justify-content: center;
+        align-items: stretch;
+        flex-wrap: nowrap;
+        padding: var(--space-2) 0;
       }
 
       .certificate-card {
+        flex: 0 0 280px;
+        width: 280px;
+        height: 400px;
         background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(59, 130, 246, 0.1));
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
@@ -159,11 +225,75 @@ export function initCertificates() {
         transition: all 0.3s ease;
         position: relative;
         overflow: hidden;
-        display: block;
+        display: flex;
+        flex-direction: column;
         text-decoration: none;
         color: inherit;
         cursor: pointer;
         box-shadow: 0 8px 32px rgba(139, 92, 246, 0.1), 0 4px 16px rgba(59, 130, 246, 0.1);
+      }
+
+      .certificates-navigation {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: var(--space-4);
+        margin-top: var(--space-4);
+      }
+
+      .cert-nav-btn {
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(59, 130, 246, 0.1));
+        border: 1px solid rgba(139, 92, 246, 0.3);
+        color: var(--color-primary);
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+      }
+
+      .cert-nav-btn:hover {
+        background: linear-gradient(135deg, rgba(139, 92, 246, 0.2), rgba(59, 130, 246, 0.2));
+        border-color: rgba(139, 92, 246, 0.4);
+        transform: scale(1.1);
+      }
+
+      .cert-nav-btn:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+        transform: none;
+      }
+
+      .certificates-dots {
+        display: flex;
+        gap: var(--space-2);
+        align-items: center;
+      }
+
+      .cert-dot {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background: rgba(139, 92, 246, 0.3);
+        border: 1px solid rgba(139, 92, 246, 0.4);
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+
+      .cert-dot.active {
+        background: var(--color-primary);
+        transform: scale(1.3);
+        box-shadow: 0 0 12px rgba(139, 92, 246, 0.4);
+      }
+
+      .cert-dot:hover {
+        background: var(--color-primary);
+        transform: scale(1.1);
       }
 
       .certificate-card:hover {
@@ -248,6 +378,12 @@ export function initCertificates() {
         font-size: 0.95rem;
         line-height: 1.6;
         margin-bottom: var(--space-3);
+        flex: 1;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
       }
 
       .certificate-cta {
@@ -260,6 +396,7 @@ export function initCertificates() {
         font-size: 0.9rem;
         opacity: 0.8;
         transition: all 0.3s ease;
+        margin-top: auto;
       }
 
       .certificate-card:hover .certificate-cta {
@@ -271,13 +408,23 @@ export function initCertificates() {
         transition: all 0.3s ease;
       }
 
+      @media (max-width: 1024px) {
+        .certificate-card {
+          flex: 0 0 260px;
+          width: 260px;
+          height: 380px;
+        }
+      }
+
       @media (max-width: 768px) {
         .certificates-grid {
-          grid-template-columns: 1fr;
           gap: var(--space-3);
         }
 
         .certificate-card {
+          flex: 0 0 240px;
+          width: 240px;
+          height: 360px;
           padding: var(--space-3);
         }
 
@@ -290,7 +437,185 @@ export function initCertificates() {
           width: 32px;
           height: 32px;
         }
+
+        .cert-nav-btn {
+          width: 40px;
+          height: 40px;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .certificates-grid {
+          gap: var(--space-2);
+        }
+
+        .certificate-card {
+          flex: 0 0 calc(100vw - 2rem);
+          width: calc(100vw - 2rem);
+          max-width: 320px;
+          height: 380px;
+        }
+
+        .certificates-navigation {
+          gap: var(--space-2);
+        }
       }
     </style>
   `;
+
+  // JavaScript functionality for carousel
+  let currentIndex = 0;
+  let autoScroll;
+
+  function updateCarousel() {
+    const certificatesPerView = getCertificatesPerView();
+    const totalPages = getTotalPages();
+    
+    const certificatesGrid = document.getElementById('certificatesGrid');
+    const dots = document.querySelectorAll('.cert-dot');
+    const prevBtn = document.getElementById('prevCertBtn');
+    const nextBtn = document.getElementById('nextCertBtn');
+    
+    // Reset grid styles for clean layout
+    certificatesGrid.style.transform = 'translateX(0)';
+    certificatesGrid.style.justifyContent = 'center';
+    
+    // Calculate which certificates to show
+    const startIndex = currentIndex * certificatesPerView;
+    const endIndex = Math.min(startIndex + certificatesPerView, certificatesData.length);
+    
+    // Show/hide certificates based on current page
+    const allCards = certificatesGrid.querySelectorAll('.certificate-card');
+    allCards.forEach((card, index) => {
+      if (index >= startIndex && index < endIndex) {
+        card.style.display = 'block';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+    
+    // Update dots
+    dots.forEach((dot, index) => {
+      dot.classList.toggle('active', index === currentIndex);
+    });
+
+    // Update button states
+    prevBtn.disabled = currentIndex === 0;
+    nextBtn.disabled = currentIndex >= totalPages - 1;
+  }
+
+  function updateDotsAndCarousel() {
+    const dotsContainer = document.getElementById('certificatesDots');
+    dotsContainer.innerHTML = createDotsHTML();
+    
+    // Reset current index if it's now out of bounds
+    const totalPages = getTotalPages();
+    if (currentIndex >= totalPages) {
+      currentIndex = totalPages - 1;
+    }
+    
+    // Re-attach event listeners to new dots
+    const newDots = document.querySelectorAll('.cert-dot');
+    newDots.forEach((dot, index) => {
+      dot.addEventListener('click', () => goToSlide(index));
+    });
+    
+    updateCarousel();
+  }
+
+  function nextSlide() {
+    const totalPages = getTotalPages();
+    if (currentIndex < totalPages - 1) {
+      currentIndex++;
+      updateCarousel();
+    } else {
+      // Loop back to start
+      currentIndex = 0;
+      updateCarousel();
+    }
+  }
+
+  function prevSlide() {
+    const totalPages = getTotalPages();
+    if (currentIndex > 0) {
+      currentIndex--;
+      updateCarousel();
+    } else {
+      // Loop to end
+      currentIndex = totalPages - 1;
+      updateCarousel();
+    }
+  }
+
+  function goToSlide(index) {
+    currentIndex = index;
+    updateCarousel();
+  }
+
+  function startAutoScroll() {
+    autoScroll = setInterval(nextSlide, 4000);
+  }
+
+  function stopAutoScroll() {
+    clearInterval(autoScroll);
+  }
+
+  // Initial setup
+  const certificatesGrid = document.getElementById('certificatesGrid');
+  const dots = document.querySelectorAll('.cert-dot');
+  const prevBtn = document.getElementById('prevCertBtn');
+  const nextBtn = document.getElementById('nextCertBtn');
+
+  // Event listeners
+  nextBtn.addEventListener('click', nextSlide);
+  prevBtn.addEventListener('click', prevSlide);
+
+  dots.forEach((dot, index) => {
+    dot.addEventListener('click', () => goToSlide(index));
+  });
+
+  // Auto-scroll functionality
+  startAutoScroll();
+
+  // Pause auto-scroll on hover
+  const certificatesContainer = document.querySelector('.certificates-container');
+  certificatesContainer.addEventListener('mouseenter', stopAutoScroll);
+  certificatesContainer.addEventListener('mouseleave', startAutoScroll);
+
+  // Touch/swipe support for mobile
+  let startX = 0;
+  let endX = 0;
+
+  certificatesGrid.addEventListener('touchstart', (e) => {
+    startX = e.touches[0].clientX;
+    stopAutoScroll(); // Pause auto-scroll during touch
+  });
+
+  certificatesGrid.addEventListener('touchend', (e) => {
+    endX = e.changedTouches[0].clientX;
+    const diff = startX - endX;
+    
+    if (Math.abs(diff) > 50) { // Minimum swipe distance
+      if (diff > 0) {
+        nextSlide();
+      } else {
+        prevSlide();
+      }
+    }
+    
+    // Resume auto-scroll
+    startAutoScroll();
+  });
+
+  // Handle window resize
+  let resizeTimeout;
+  window.addEventListener('resize', () => {
+    clearTimeout(resizeTimeout);
+    resizeTimeout = setTimeout(() => {
+      updateDotsAndCarousel();
+    }, 250); // Debounce resize events
+  });
+
+  // Initial setup
+  updateCarousel();
 }

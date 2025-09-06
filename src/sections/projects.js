@@ -440,7 +440,7 @@ export function initProjects() {
     {
       id: 'pwnagotchi-implementation',
       title: 'Pwnagotchi Implementation',
-      category: 'Cybersecurity Research',
+      category: 'Cybersecurity',
       image: 'images/pwnagotchiIcon.png',
       description: 'A custom implementation of Pwnagotchi for WiFi security research and analysis.',
       tags: ['Python', 'Raspberry Pi'],
@@ -464,7 +464,7 @@ export function initProjects() {
     {
       id: 'rf-security-analysis-tool',
       title: 'Radio Frequency Emulator',
-      category: 'Cybersecurity Research',
+      category: 'Cybersecurity',
       image: 'images/flipperzeroIcon.png',
       description: 'A research project exploring radio frequency security and emulator using Flipper Zero.',
       tags: ['Python', 'Flipper Zero'],
@@ -487,7 +487,7 @@ export function initProjects() {
     {
       id: 'web-security-vulnerabilities',
       title: 'Common Web Security Vulnerabilities',
-      category: 'Cybersecurity Research',
+      category: 'Cybersecurity',
       image: 'images/webIcon.png',
       description: 'A study of common web security vulnerabilities and prevention techniques.',
       tags: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL'],
@@ -555,7 +555,7 @@ export function initProjects() {
         <button class="filter-btn" data-filter="Web Development">Web Development</button>
         <button class="filter-btn" data-filter="Game Development">Game Development</button>
         <button class="filter-btn" data-filter="App Development">App Development</button>
-        <button class="filter-btn" data-filter="Cybersecurity Research">Cybersecurity Research</button>
+        <button class="filter-btn" data-filter="Cybersecurity">Cybersecurity</button>
       </div>
       
       <div class="projects-grid">

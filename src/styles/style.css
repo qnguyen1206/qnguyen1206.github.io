@@ -20,6 +20,15 @@ body {
   overflow: hidden;
 }
 
+/* Reduce spacing between certificates and resume sections */
+#certificates.section {
+  padding: var(--space-8) 0 var(--space-4) 0;
+}
+
+#resume.section {
+  padding: var(--space-4) 0 var(--space-8) 0;
+}
+
 @media (max-width: 768px) {
   .section {
     padding: var(--space-10) 0;
@@ -365,9 +374,9 @@ p {
 }
 
 .tech-icon {
-  height: 50px;
+  height: 35px;
   width: auto;
-  max-width: 100px;
+  max-width: 70px;
   object-fit: contain;
   display: inline-block;
   margin: 0 var(--space-1);
@@ -386,16 +395,16 @@ p {
   }
   
   .tech-icon {
-    height: 40px;
-    max-width: 60px;
+    height: 30px;
+    max-width: 45px;
     margin: 0 var(--space-1);
   }
 }
 
 @media (max-width: 480px) {
   .tech-icon {
-    height: 35px;
-    max-width: 50px;
+    height: 25px;
+    max-width: 35px;
   }
   
   .tech-icons {

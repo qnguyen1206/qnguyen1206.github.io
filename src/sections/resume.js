@@ -26,8 +26,7 @@ export function initResume() {
     <style>
       #resume {
         background-color: var(--color-bg);
-        padding: var(--space-6) 0;
-        min-height: 100vh;
+        padding: var(--space-4) 0 var(--space-6) 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
