@@ -2,6 +2,7 @@ import './styles/reset.css';
 import './styles/variables.css';
 import './styles/animations.css';
 import './styles/style.css';
+import './styles/projects.css';
 
 import { initNav } from './components/navbar.js';
 import { initHero } from './sections/hero.js';
@@ -12,6 +13,7 @@ import { initCertificates } from './sections/certificates.js';
 import { initFooter } from './components/footer.js';
 import { initAnimations } from './utils/animations.js';
 import { initResume } from './sections/resume.js';
+import { initLazyLoading } from './utils/lazyload.js';
 
 document.querySelector('#app').innerHTML = `
   <header id="header"></header>
@@ -37,5 +39,6 @@ document.addEventListener('DOMContentLoaded', () => {
   initCertificates();
   initFooter();
   initAnimations();
+  initLazyLoading();
 });
 

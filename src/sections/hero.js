@@ -209,10 +209,16 @@ export function initHero() {
   }
 
   const rippleContainer = document.querySelector(".ripple-container");
+  let rippleCount = 0;
+  const maxRipples = 5; // Limit concurrent ripples
 
   function createRipple() {
+    // Prevent too many ripples from accumulating
+    if (rippleCount >= maxRipples) return;
+    
     const ripple = document.createElement("div");
     ripple.classList.add("ripple");
+    rippleCount++;
 
     const size = 10;
     const x = Math.random() * hero.clientWidth;
@@ -223,15 +229,33 @@ export function initHero() {
 
     rippleContainer.appendChild(ripple);
 
+    // Use requestAnimationFrame for better performance
     setTimeout(() => {
-      ripple.remove();
+      if (ripple.parentNode) {
+        ripple.remove();
+        rippleCount--;
+      }
     }, 2000);
   }
 
-  // Create a ripple every 500-1000ms randomly
-  setInterval(() => {
-    if (Math.random() < 0.7) createRipple();
+  // Create a ripple every 500-1000ms randomly, but only if page is visible
+  const rippleInterval = setInterval(() => {
+    if (!document.hidden && Math.random() < 0.7) {
+      createRipple();
+    }
   }, 600);
+  
+  // Clean up interval when page becomes hidden
+  document.addEventListener('visibilitychange', () => {
+    if (document.hidden) {
+      // Clear existing ripples when tab is not visible
+      const existingRipples = rippleContainer.querySelectorAll('.ripple');
+      existingRipples.forEach(ripple => {
+        ripple.remove();
+      });
+      rippleCount = 0;
+    }
+  });
 
 
   setInterval(rotateRole, 3000);
