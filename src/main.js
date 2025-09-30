@@ -12,7 +12,6 @@ import { initProjects } from './sections/projects.js';
 import { initCertificates } from './sections/certificates.js';
 import { initFooter } from './components/footer.js';
 import { initAnimations } from './utils/animations.js';
-import { initResume } from './sections/resume.js';
 import { initLazyLoading } from './utils/lazyload.js';
 
 document.querySelector('#app').innerHTML = `
@@ -20,7 +19,6 @@ document.querySelector('#app').innerHTML = `
   <main>
     <section id="hero" class="section"></section>
     <section id="about" class="section"></section>
-    <section id="resume" class="section"></section>
     <section id="skills" class="section"></section>
     <section id="projects" class="section"></section>
     <section id="certificates" class="section"></section>
@@ -33,7 +31,6 @@ document.addEventListener('DOMContentLoaded', () => {
   initNav();
   initHero();
   initAbout();
-  initResume();
   initSkills();
   initProjects();
   initCertificates();

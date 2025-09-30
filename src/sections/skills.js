@@ -13,7 +13,6 @@ export function initSkills() {
   function getSkillsPerPanel() {
     const screenWidth = window.innerWidth;
     const screenHeight = window.innerHeight;
-    
     // Base calculation on screen size and available panel height
     if (screenWidth < 400) {
       return 3; // Very small screens - fits 3 skills comfortably
@@ -28,51 +27,49 @@ export function initSkills() {
   
   // Skills data organized by categories
   const skillsData = {
-    'Programming Languages': [
-      { name: 'JavaScript', icon: 'icons/javascript_icon.png', level: 90 },
-      { name: 'Python', icon: 'icons/python_icon.png', level: 85 },
-      { name: 'Java', icon: 'icons/java_icon.png', level: 80 },
-      { name: 'C#', icon: 'icons/csharp_icon.png', level: 75 },
-      { name: 'C', icon: 'icons/c_icon.png', level: 70 },
-      { name: 'PHP', icon: 'icons/php_icon.png', level: 65 }
-    ],
     'Web Development': [
       { name: 'HTML', icon: 'icons/html_icon.png', level: 95 },
       { name: 'CSS', icon: 'icons/css_icon.png', level: 90 },
+      { name: 'JavaScript', icon: 'icons/javascript_icon.png', level: 90 },
       { name: 'React', icon: 'icons/react_icon.png', level: 85 },
       { name: 'Node.js', icon: 'icons/nodejs_icon.png', level: 80 },
-      { name: 'Vite', icon: 'icons/vite_icon.png', level: 75 }
+      { name: 'Vite', icon: 'icons/vite_icon.png', level: 75 },
+      { name: 'PHP', icon: 'icons/php_icon.png', level: 65 }
+    ],
+    'App Development': [
+      { name: 'Java', icon: 'icons/java_icon.png', level: 80 },
+      { name: 'Python', icon: 'icons/python_icon.png', level: 85 },
+      { name: 'Android Studio', icon: 'icons/android_studio_icon.png', level: 75 },
+      { name: 'Firebase', icon: 'icons/firebase_icon.png', level: 80 },
+      { name: 'MySQL', icon: 'icons/mysql_icon.png', level: 70 },
+      { name: 'phpMyAdmin', icon: 'icons/phpmyadmin_icon.png', level: 65 },
+      { name: 'C', icon: 'icons/c_icon.png', level: 70 },
     ],
     'Game Development': [
       { name: 'Unity', icon: 'icons/unity_icon.png', level: 85 },
       { name: 'Godot', icon: 'icons/godot_icon.png', level: 70 },
-    ],
-    'Tools & Platforms': [
-      { name: 'GitHub', icon: 'icons/github_icon.png', level: 90 },
-      { name: 'GitLab', icon: 'icons/gitlab_icon.png', level: 85 },
-      { name: 'Firebase', icon: 'icons/firebase_icon.png', level: 80 },
-      { name: 'Android Studio', icon: 'icons/android_studio_icon.png', level: 75 },
-      { name: 'MySQL', icon: 'icons/mysql_icon.png', level: 70 },
-      { name: 'phpMyAdmin', icon: 'icons/phpmyadmin_icon.png', level: 65 },
-      { name: 'A-Frame', icon: 'icons/aframe_icon.png', level: 65 },
-      { name: 'Raspberry Pi', icon: 'icons/raspberry_pi_icon.png', level: 75 },
-      { name: 'Flipper Zero', icon: 'icons/flipper_zero_icon.png', level: 60 }
-    ],
-    'AI Tools': [
-      { name: 'ChatGPT', icon: 'icons/chatgpt_icon.png', level: 85 },
-      { name: 'GitHub Copilot', icon: 'icons/copilot_icon.png', level: 80 },
-      { name: 'DeepSeek', icon: 'icons/deepseek_icon.png', level: 75 }
+      { name: 'C#', icon: 'icons/csharp_icon.png', level: 75 }
     ],
     'UI/UX Design': [
-      { name: 'Krita', icon: 'icons/krita_icon.png', level: 80 },
-      { name: 'MS Paint', icon: 'icons/ms_paint_icon.png', level: 75 },
       { name: 'Figma', icon: 'icons/figma_icon.png', level: 40 },
+      { name: 'Krita', icon: 'icons/krita_icon.png', level: 80 },
+      { name: 'MS Paint', icon: 'icons/ms_paint_icon.png', level: 75 }
+    ],
+    'Tools': [
+      { name: 'GitHub', icon: 'icons/github_icon.png', level: 90 },
+      { name: 'GitLab', icon: 'icons/gitlab_icon.png', level: 85 },
+      { name: 'A-Frame', icon: 'icons/aframe_icon.png', level: 65 },
+      { name: 'Raspberry Pi', icon: 'icons/raspberry_pi_icon.png', level: 75 },
+      { name: 'Flipper Zero', icon: 'icons/flipper_zero_icon.png', level: 60 },
+      { name: 'ChatGPT', icon: 'icons/chatgpt_icon.png', level: 85 },
+      { name: 'GitHub Copilot', icon: 'icons/copilot_icon.png', level: 80 },
+      { name: 'DeepSeek', icon: 'icons/deepseek_icon.png', level: 75 },
     ]
   };
 
   skills.innerHTML = `
     <div class="container">
-      <h2 class="section-title reveal">Skills</h2>
+      <h2 class="section-title reveal">My Skills</h2>
       
       <div class="skills-carousel-container">
         <div class="carousel-3d" id="skillsCarousel">
@@ -637,7 +634,7 @@ export function initSkills() {
   function positionPanels() {
     panels.forEach((panel, index) => {
       const angle = index * angleStep;
-      panel.style.transform = `rotateY(${angle}deg) translateZ(290px)`;
+      panel.style.transform = `rotateY(${angle}deg) translateZ(200px) rotateX(0deg)`;
     });
   }
   

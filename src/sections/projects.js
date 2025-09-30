@@ -550,14 +550,6 @@ export function initProjects() {
     <div class="container">
       <h2 class="section-title reveal">My Projects</h2>
       
-      <div class="projects-filters reveal">
-        <button class="filter-btn active" data-filter="all">All</button>
-        <button class="filter-btn" data-filter="Web Development">Web Development</button>
-        <button class="filter-btn" data-filter="Game Development">Game Development</button>
-        <button class="filter-btn" data-filter="App Development">App Development</button>
-        <button class="filter-btn" data-filter="Cybersecurity">Cybersecurity</button>
-      </div>
-      
       <div class="projects-grid">
         ${projectsData.map((project) => `
           <div class="project-card reveal" data-category="${project.category}">
@@ -595,7 +587,7 @@ export function initProjects() {
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                   <polyline points="9,18 15,12 9,6"></polyline>
                 </svg>
-                Read More
+                Learn More
               </button>
               <button class="project-link-btn ${project.githubLink || project.gitlabLink ? 'enabled' : 'disabled'}" 
                       ${project.githubLink || project.gitlabLink ? `onclick="window.open('${project.githubLink || project.gitlabLink}', '_blank')"` : ''}>
@@ -627,28 +619,8 @@ export function initProjects() {
     </div>
   `;
   
-  // Filter functionality
-  const filterButtons = document.querySelectorAll('.filter-btn');
+  // Initialize project cards for reference
   const projectCards = document.querySelectorAll('.project-card');
-  
-  filterButtons.forEach(button => {
-    button.addEventListener('click', () => {
-      // Update active button
-      filterButtons.forEach(btn => btn.classList.remove('active'));
-      button.classList.add('active');
-      
-      // Filter projects
-      const filter = button.getAttribute('data-filter');
-      
-      projectCards.forEach(card => {
-        if (filter === 'all' || card.getAttribute('data-category') === filter) {
-          card.style.display = 'block';
-        } else {
-          card.style.display = 'none';
-        }
-      });
-    });
-  });
 
   // Toggle full description
   const readMoreButtons = document.querySelectorAll('.read-more-btn');
