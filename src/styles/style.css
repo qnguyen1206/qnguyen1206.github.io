@@ -41,8 +41,11 @@ body::before {
   overflow: hidden;
   background: transparent !important;
   backdrop-filter: none !important;
-  min-height: 100vh;
+  height: 100vh;
   scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* Enable smooth scrolling and scroll snapping */
@@ -59,6 +62,13 @@ body {
 #certificates.section {
   padding: var(--space-8) 0 var(--space-4) 0;
   background: transparent;
+}
+
+/* Projects section with consistent height */
+#projects.section {
+  height: 100vh;
+  padding: var(--space-8) 0 var(--space-12) 0;
+  justify-content: flex-start;
 }
 
 #resume.section {

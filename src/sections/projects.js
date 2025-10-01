@@ -16,7 +16,7 @@ export function initProjects() {
       fullDescription: `
         <h3>Key Features</h3>
         <ul>
-          <li>Basic functionality for managing tasks including add, remove, edit, and finish task</li>
+          <li>Basic functionality for managing tasks includin remove, edit, and finish task</li>
           <li>AI integration</li>
           <li>Gamified experience</li>
           <li>Start on boot</li>
@@ -508,15 +508,50 @@ export function initProjects() {
     }
   ];
 
-  // Set up the HTML structure for horizontal scrolling
+  // Calculate how many projects to show per view (max 3)
+  function getProjectsPerView() {
+    const screenWidth = window.innerWidth;
+    if (screenWidth < 480) return 1;  // Mobile: 1 project
+    if (screenWidth < 768) return 2;  // Tablet: 2 projects
+    return 3;  // Desktop: 3 projects max
+  }
+
+  function getTotalPages() {
+    const projectsPerView = getProjectsPerView();
+    return Math.ceil(projectsData.length / projectsPerView);
+  }
+
+  function createDotsHTML() {
+    const totalPages = getTotalPages();
+    return Array.from({length: totalPages}, (_, index) => `
+      <button class="project-dot ${index === 0 ? 'active' : ''}" data-index="${index}"></button>
+    `).join('');
+  }
+
+  // Set up the HTML structure with navigation
   projects.innerHTML = `
     <div class="container">
       <h2 class="section-title">My Projects</h2>
       
       <div class="projects-container">
-        <div class="projects-wrapper">
-          <div class="projects-grid">
+        <div class="projects-wrapper" id="projectsWrapper">
+          <div class="projects-grid" id="projectsGrid">
           </div>
+        </div>
+        <div class="projects-navigation">
+          <button class="project-nav-btn prev-btn" id="prevProjectBtn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="15,18 9,12 15,6"></polyline>
+            </svg>
+          </button>
+          <div class="projects-dots" id="projectsDots">
+            ${createDotsHTML()}
+          </div>
+          <button class="project-nav-btn next-btn" id="nextProjectBtn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="9,18 15,12 9,6"></polyline>
+            </svg>
+          </button>
         </div>
       </div>
     </div>
@@ -574,68 +609,253 @@ export function initProjects() {
   const projectsGrid = projects.querySelector('.projects-grid');
   projectsGrid.innerHTML = projectsData.map((project) => `
           <div class="project-card" data-category="${project.category}">
-            <div class="project-image">
-              <img data-src="${project.image}" alt="${project.title}" loading="lazy">
-              ${project.status ? `
-                <div class="status-overlay" style="background-color:${statusTags[project.status].color};">
-                  ${statusTags[project.status].label}
+            <div class="project-card-inner">
+              <!-- Front Side -->
+              <div class="project-card-front">
+                <div class="project-image">
+                  <img data-src="${project.image}" alt="${project.title}" loading="lazy">
+                  ${project.status ? `
+                    <div class="status-overlay" style="background-color:${statusTags[project.status].color};">
+                      ${statusTags[project.status].label}
+                    </div>
+                  ` : ''}
                 </div>
-              ` : ''}
-            </div>
-            <div class="project-info">
-              <h3>${project.title}</h3>
-              <p class="project-category">${project.category}</p>
-              <p class="project-description">${project.description}</p>
-              <div class="full-description" id="desc-${project.id}" style="display: none;">
-                ${project.fullDescription}
+                <div class="project-info">
+                  <h3>${project.title}</h3>
+                  <p class="project-category">${project.category}</p>
+                  <p class="project-description">${project.description}</p>
+                  <div class="project-tags">
+                    ${project.tags.map(tag => {
+                      const icon = techIcons[tag];
+                      return icon ? `
+                        <img data-src="${icon.src}" 
+                             width="${icon.width}" 
+                             height="${icon.height}" 
+                             title="${tag}" 
+                             class="project-tag-icon" 
+                             loading="lazy">
+                      ` : `<span class="project-tag">${tag}</span>`;
+                    }).join('')}
+                  </div>
+                </div>
               </div>
-              <div class="project-tags">
-                ${project.tags.map(tag => {
-                  const icon = techIcons[tag];
-                  return icon ? `
-                    <img data-src="${icon.src}" 
-                         width="${icon.width}" 
-                         height="${icon.height}" 
-                         title="${tag}" 
-                         class="project-tag-icon" 
-                         loading="lazy">
-                  ` : `<span class="project-tag">${tag}</span>`;
-                }).join('')}
+              <!-- Back Side -->
+              <div class="project-card-back">
+                <h3 class="project-back-title">${project.title}</h3>
+                <p class="project-back-description">${project.description}</p>
+                <div class="project-links-back">
+                  <button class="project-link-btn ${project.githubLink || project.gitlabLink ? 'enabled' : 'disabled'}" 
+                          ${project.githubLink || project.gitlabLink ? `onclick="window.open('${project.githubLink || project.gitlabLink}', '_blank')"` : ''}>
+                    ${project.gitlabLink ? `
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M22.548 12.276l-2.055-6.32a.763.763 0 0 0-1.453-.062l-1.72 5.17H6.68l-1.72-5.17a.763.763 0 0 0-1.452.062l-2.056 6.32a1.154 1.154 0 0 0 .408 1.27l9.616 7.212a.764.764 0 0 0 .91 0l9.615-7.213a1.154 1.154 0 0 0 .407-1.27z"/>
+                      </svg>
+                      GitLab
+                    ` : `
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                      </svg>
+                      GitHub
+                    `}
+                  </button>
+                  <button class="project-link-btn ${project.externalLink ? 'enabled' : 'disabled'}" 
+                          ${project.externalLink ? `onclick="window.open('${project.externalLink}', '_blank')"` : ''}>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                      <polyline points="15,3 21,3 21,9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                    Open
+                  </button>
+                </div>
               </div>
-            </div>
-            <div class="project-buttons">
-              <button class="read-more-btn" data-id="${project.id}">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <polyline points="9,18 15,12 9,6"></polyline>
-                </svg>
-                Learn More
-              </button>
-              <button class="project-link-btn ${project.githubLink || project.gitlabLink ? 'enabled' : 'disabled'}" 
-                      ${project.githubLink || project.gitlabLink ? `onclick="window.open('${project.githubLink || project.gitlabLink}', '_blank')"` : ''}>
-                ${project.gitlabLink ? `
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M22.548 12.276l-2.055-6.32a.763.763 0 0 0-1.453-.062l-1.72 5.17H6.68l-1.72-5.17a.763.763 0 0 0-1.452.062l-2.056 6.32a1.154 1.154 0 0 0 .408 1.27l9.616 7.212a.764.764 0 0 0 .91 0l9.615-7.213a1.154 1.154 0 0 0 .407-1.27z"/>
-                  </svg>
-                  GitLab
-                ` : `
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                  </svg>
-                  GitHub
-                `}
-              </button>
-              <button class="project-link-btn ${project.externalLink ? 'enabled' : 'disabled'}" 
-                      ${project.externalLink ? `onclick="window.open('${project.externalLink}', '_blank')"` : ''}>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                  <polyline points="15,3 21,3 21,9"></polyline>
-                  <line x1="10" y1="14" x2="21" y2="3"></line>
-                </svg>
-                Open
-              </button>
             </div>
           </div>
         `).join('');
+
+  // JavaScript functionality for carousel
+  let currentIndex = 0;
+  let autoScrollInterval;
+  let isAutoScrollPaused = false;
+
+  function startAutoScroll() {
+    if (autoScrollInterval) clearInterval(autoScrollInterval);
+    autoScrollInterval = setInterval(() => {
+      if (!isAutoScrollPaused) {
+        const totalPages = getTotalPages();
+        if (currentIndex < totalPages - 1) {
+          goToSlide(currentIndex + 1);
+        } else {
+          goToSlide(0); // Loop back to first page
+        }
+      }
+    }, 4000); // Change slide every 4 seconds
+  }
+
+  function stopAutoScroll() {
+    if (autoScrollInterval) {
+      clearInterval(autoScrollInterval);
+      autoScrollInterval = null;
+    }
+  }
+
+  function pauseAutoScroll() {
+    isAutoScrollPaused = true;
+  }
+
+  function resumeAutoScroll() {
+    isAutoScrollPaused = false;
+  }
+
+  function updateCarousel() {
+    const projectsPerView = getProjectsPerView();
+    const totalPages = getTotalPages();
+    
+    const projectsGrid = document.getElementById('projectsGrid');
+    const dots = document.querySelectorAll('.project-dot');
+    const prevBtn = document.getElementById('prevProjectBtn');
+    const nextBtn = document.getElementById('nextProjectBtn');
+    
+    // Reset grid styles for clean layout
+    projectsGrid.style.transform = 'translateX(0)';
+    projectsGrid.style.justifyContent = 'center';
+    
+    // Calculate which projects to show
+    const startIndex = currentIndex * projectsPerView;
+    const endIndex = Math.min(startIndex + projectsPerView, projectsData.length);
+    
+    // Show/hide projects based on current page
+    const allCards = projectsGrid.querySelectorAll('.project-card');
+    allCards.forEach((card, index) => {
+      if (index >= startIndex && index < endIndex) {
+        card.style.display = 'block';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+    
+    // Update dots
+    dots.forEach((dot, index) => {
+      dot.classList.toggle('active', index === currentIndex);
+    });
+    
+    // Update navigation buttons
+    if (prevBtn && nextBtn) {
+      prevBtn.disabled = currentIndex === 0;
+      nextBtn.disabled = currentIndex === totalPages - 1;
+    }
+  }
+
+  function goToSlide(index, userInitiated = false) {
+    const totalPages = getTotalPages();
+    currentIndex = Math.max(0, Math.min(index, totalPages - 1));
+    updateCarousel();
+    
+    // Restart auto-scroll timer when user manually navigates
+    if (userInitiated) {
+      startAutoScroll();
+    }
+  }
+
+  function nextSlide() {
+    const totalPages = getTotalPages();
+    if (currentIndex < totalPages - 1) {
+      goToSlide(currentIndex + 1, true);
+    } else {
+      goToSlide(0, true); // Loop to first page
+    }
+  }
+
+  function prevSlide() {
+    if (currentIndex > 0) {
+      goToSlide(currentIndex - 1, true);
+    } else {
+      const totalPages = getTotalPages();
+      goToSlide(totalPages - 1, true); // Loop to last page
+    }
+  }
+
+  // Event listeners for navigation
+  const nextBtn = document.getElementById('nextProjectBtn');
+  const prevBtnEl = document.getElementById('prevProjectBtn');
+  
+  if (nextBtn) nextBtn.addEventListener('click', nextSlide);
+  if (prevBtnEl) prevBtnEl.addEventListener('click', prevSlide);
+
+  // Add click listeners to dots
+  document.querySelectorAll('.project-dot').forEach((dot, index) => {
+    dot.addEventListener('click', () => goToSlide(index, true));
+  });
+
+  // Handle window resize
+  window.addEventListener('resize', () => {
+    // Recalculate and update dots
+    const newDotsHTML = createDotsHTML();
+    const dotsContainer = document.getElementById('projectsDots');
+    if (dotsContainer) {
+      dotsContainer.innerHTML = newDotsHTML;
+      
+      // Re-add click listeners and hover listeners to new dots
+      document.querySelectorAll('.project-dot').forEach((dot, index) => {
+        dot.addEventListener('click', () => goToSlide(index, true));
+        dot.addEventListener('mouseenter', pauseAutoScroll);
+        dot.addEventListener('mouseleave', resumeAutoScroll);
+      });
+    }
+    
+    // Reset to first page and update
+    currentIndex = 0;
+    updateCarousel();
+    
+    // Re-add hover listeners to project cards after resize
+    const resizedProjectCards = document.querySelectorAll('.project-card');
+    resizedProjectCards.forEach(card => {
+      card.addEventListener('mouseenter', pauseAutoScroll);
+      card.addEventListener('mouseleave', resumeAutoScroll);
+    });
+    
+    // Restart auto-scroll after resize
+    startAutoScroll();
+  });
+
+  // Stop auto-scroll when page is hidden or user navigates away
+  document.addEventListener('visibilitychange', () => {
+    if (document.hidden) {
+      stopAutoScroll();
+    } else {
+      startAutoScroll();
+    }
+  });
+
+  // Cleanup auto-scroll on page unload
+  window.addEventListener('beforeunload', stopAutoScroll);
+
+  // Add hover listeners to pause auto-scroll
+  const projectsContainer = document.querySelector('.projects-container');
+  if (projectsContainer) {
+    projectsContainer.addEventListener('mouseenter', pauseAutoScroll);
+    projectsContainer.addEventListener('mouseleave', resumeAutoScroll);
+  }
+
+  // Add hover listeners to navigation buttons
+  const navButtons = document.querySelectorAll('.project-nav-btn, .project-dot');
+  navButtons.forEach(button => {
+    button.addEventListener('mouseenter', pauseAutoScroll);
+    button.addEventListener('mouseleave', resumeAutoScroll);
+  });
+
+  // Add hover listeners to individual project cards
+  const allProjectCards = document.querySelectorAll('.project-card');
+  allProjectCards.forEach(card => {
+    card.addEventListener('mouseenter', pauseAutoScroll);
+    card.addEventListener('mouseleave', resumeAutoScroll);
+  });
+
+  // Initialize carousel and start auto-scroll
+  setTimeout(() => {
+    updateCarousel();
+    startAutoScroll();
+  }, 100);
   
   // Initialize project cards for reference
   const projectCards = document.querySelectorAll('.project-card');

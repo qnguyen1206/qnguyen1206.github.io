@@ -36,7 +36,7 @@ export function initContacts() {
           <a href="https://gitlab.com/qnguyen1206" target="_blank" class="contact-item">
             <div class="contact-info">
               <h3>GitLab</h3>
-              <p>View my repositories 🦊</p>
+              <p>Check out my respositories →</p>
             </div>
           </a>
         </div>
