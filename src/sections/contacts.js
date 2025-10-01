@@ -7,7 +7,7 @@ export function initContacts() {
       
       <div class="contacts-content">
         <div class="contacts-text">
-          <p>I'm currently open to new opportunities and collaborations. Whether you have a question, project idea, or just want to say hi, feel free to reach out!</p>
+          <p>I'm open to new opportunities and collaborations. Whether you have a question, project idea, or just want to say hi, feel free to reach out!</p>
         </div>
         
         <div class="contacts-methods">

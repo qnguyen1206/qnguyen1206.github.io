@@ -73,7 +73,7 @@ export function initProjects() {
     // ALPHA STATUS
     {
       id: 'kart-tech-racing',
-      title: 'Kart: A Tech Filled Racing Game',
+      title: 'Kart: The Tech Filled Racing Game',
       category: 'Game Development',
       image: 'images/KartIcon.png',
       description: 'A multiplayer racing game where cars and technology meet, designed using Godot and Steamworks.',
