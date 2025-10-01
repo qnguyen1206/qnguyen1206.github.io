@@ -172,4 +172,66 @@ export function initAnimations() {
   
   // Run once on page load
   setTimeout(animateSkillBars, 500);
+  
+  // Create oxygen tank element
+  createOxygenTank();
+}
+
+function createOxygenTank() {
+  const oxygenTank = document.createElement('div');
+  oxygenTank.className = 'oxygen-tank';
+  oxygenTank.innerHTML = `
+    <div class="tank-body">
+      <div class="tank-valve"></div>
+      <div class="tank-gauge"></div>
+      <div class="bubbles-trail">
+        <div class="mini-bubble"></div>
+        <div class="mini-bubble"></div>
+        <div class="mini-bubble"></div>
+      </div>
+    </div>
+  `;
+  
+  document.body.appendChild(oxygenTank);
+  
+  // Handle scroll to show/hide oxygen tank and update gauge
+  function handleOxygenTankScroll() {
+    const heroSection = document.getElementById('hero');
+    const heroRect = heroSection.getBoundingClientRect();
+    const heroPastThreshold = heroRect.bottom < window.innerHeight * 0.5;
+    
+    if (heroPastThreshold) {
+      oxygenTank.classList.add('visible');
+      
+      // Calculate scroll progress after hero section
+      const documentHeight = document.documentElement.scrollHeight - window.innerHeight;
+      const heroHeight = heroSection.offsetHeight;
+      const scrolledPastHero = Math.max(0, window.scrollY - heroHeight);
+      const remainingScrollDistance = documentHeight - heroHeight;
+      
+      // Calculate oxygen level (100% at start, decreasing as we scroll deeper)
+      let oxygenLevel = 100;
+      if (remainingScrollDistance > 0) {
+        const scrollProgress = scrolledPastHero / remainingScrollDistance;
+        oxygenLevel = Math.max(10, 100 - (scrollProgress * 90)); // Never goes below 10%
+      }
+      
+      // Update CSS custom properties for the gauge height and color
+      oxygenTank.style.setProperty('--oxygen-level', `${oxygenLevel}%`);
+      
+      // Change color based on oxygen level
+      let gaugeColor = '#00FF88'; // Green (high oxygen)
+      if (oxygenLevel < 30) {
+        gaugeColor = '#FF4444'; // Red (low oxygen)
+      } else if (oxygenLevel < 60) {
+        gaugeColor = '#FFAA00'; // Orange (medium oxygen)
+      }
+      oxygenTank.style.setProperty('--gauge-color', gaugeColor);
+    } else {
+      oxygenTank.classList.remove('visible');
+    }
+  }
+  
+  window.addEventListener('scroll', handleOxygenTankScroll);
+  handleOxygenTankScroll(); // Run once on page load
 }

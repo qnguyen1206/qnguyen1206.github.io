@@ -58,6 +58,155 @@ body {
   scroll-snap-type: y mandatory;
 }
 
+/* Oxygen Tank Animation */
+.oxygen-tank {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  opacity: 0;
+  transform: translateY(100px) scale(0.8);
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  pointer-events: none;
+}
+
+.oxygen-tank.visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+.tank-body {
+  width: 60px;
+  height: 80px;
+  background: linear-gradient(135deg, #4A90E2 0%, #357ABD 50%, #2E5B8A 100%);
+  border-radius: 12px 12px 8px 8px;
+  position: relative;
+  box-shadow: 
+    0 4px 20px rgba(74, 144, 226, 0.3),
+    inset 2px 2px 8px rgba(255, 255, 255, 0.2),
+    inset -2px -2px 8px rgba(0, 0, 0, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  animation: float 3s ease-in-out infinite;
+}
+
+.tank-valve {
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 16px;
+  background: linear-gradient(135deg, #888 0%, #666 100%);
+  border-radius: 4px 4px 8px 8px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.tank-valve::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 8px;
+  height: 4px;
+  background: #333;
+  border-radius: 2px;
+}
+
+.tank-gauge {
+  position: absolute;
+  top: 15px;
+  left: 8px;
+  right: 8px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  overflow: hidden;
+}
+
+.oxygen-tank {
+  --oxygen-level: 100%;
+  --gauge-color: #00FF88;
+}
+
+.tank-gauge::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: var(--oxygen-level, 75%);
+  background: linear-gradient(0deg, 
+    var(--gauge-color, #00FF88) 0%, 
+    var(--gauge-color, #00FF88) 100%);
+  transition: height 0.3s ease, background 0.5s ease;
+  animation: bubbleGlow 2s ease-in-out infinite alternate;
+}
+
+.bubbles-trail {
+  position: absolute;
+  top: -20px;
+  right: 15px;
+  width: 20px;
+  height: 30px;
+}
+
+.mini-bubble {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: rgba(0, 255, 255, 0.7);
+  border-radius: 50%;
+  animation: miniFloatUp 1.5s linear infinite;
+}
+
+.mini-bubble:nth-child(1) {
+  left: 0;
+  animation-delay: 0s;
+}
+
+.mini-bubble:nth-child(2) {
+  left: 8px;
+  animation-delay: 0.5s;
+}
+
+.mini-bubble:nth-child(3) {
+  left: 4px;
+  animation-delay: 1s;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-8px) rotate(2deg); }
+}
+
+@keyframes bubbleGlow {
+  0% { 
+    opacity: 0.8; 
+    filter: brightness(1);
+  }
+  100% { 
+    opacity: 1; 
+    filter: brightness(1.2);
+    box-shadow: 0 0 15px rgba(0, 255, 136, 0.5);
+  }
+}
+
+@keyframes miniFloatUp {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+}
+
 /* Reduce spacing between certificates and resume sections */
 #certificates.section {
   padding: var(--space-8) 0 var(--space-4) 0;

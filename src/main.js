@@ -18,7 +18,7 @@ import { initLazyLoading } from './utils/lazyload.js';
 document.querySelector('#app').innerHTML = `
   <header id="header"></header>
   <main>
-    <section id="hero" class="section"></section>
+    <section id="hero"></section>
     <section id="about" class="section"></section>
     <section id="skills" class="section"></section>
     <section id="projects" class="section"></section>

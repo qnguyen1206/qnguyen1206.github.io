@@ -7,13 +7,13 @@ export function initHero() {
       <div class="hero-content">
         <div class="hero-text">
           <h1 class="hero-title animate-fadeInUp delay-200" style="padding-bottom: 0.2rem;">Quang Nguyen</h1>
-          <div class="hero-description animate-fadeInUp delay-300">
+          <div class="hero-description">
             <div class="role-carousel">
               <span id="role-text"></span>
               <span class="typing-cursor">|</span>
             </div>
           </div>
-          <div class="hero-cta animate-fadeInUp delay-500" style="margin-top: 1.5rem;">
+          <div class="hero-cta" style="margin-top: 1.5rem;">
             <a href="#projects" class="btn btn-primary">View My Work</a>
             <a href="#contacts" class="btn btn-secondary">Contact Me</a>
           </div>
@@ -22,6 +22,9 @@ export function initHero() {
     </div>
     <div class="hero-copyright">
       <p>© ${new Date().getFullYear()} Quang Nguyen All rights reserved</p>
+    </div>
+    <div class="scroll-indicator">
+      <img src="/images/Scroll down.gif" alt="Scroll Down" class="scroll-gif" />
     </div>
     <div class="stars-container"></div>
     <div class="bg-credit">
@@ -33,26 +36,44 @@ export function initHero() {
     <style>
       #hero {
         min-height: 100vh;
+        height: 100vh;
         display: flex;
         align-items: center;
         position: relative;
         padding-top: 100px;
         overflow: hidden;
+        scroll-snap-align: start;
       }
 
       .hero-copyright {
         position: absolute;
         bottom: 20px;
-        left: 50%;
-        transform: translateX(-50%);
+        left: 20px;
         z-index: 10;
         color: rgba(255, 255, 255, 0.7);
-        font-size: var(--font-size-sm);
-        text-align: center;
+        font-size: var(--font-size-xs);
+        text-align: left;
       }
 
       .hero-copyright p {
         margin: 0;
+      }
+
+      .scroll-indicator {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 10;
+        animation: fadeInUp 1s ease-out 2s both;
+      }
+
+      .scroll-gif {
+        width: 50px;
+        height: auto;
+        opacity: 1;
+        transition: opacity 0.3s ease;
+        filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
       }
 
       .bg-credit {
@@ -212,6 +233,17 @@ export function initHero() {
         }
         to {
           opacity: 1;
+        }
+      }
+
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateX(-50%) translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateX(-50%) translateY(0);
         }
       }
 

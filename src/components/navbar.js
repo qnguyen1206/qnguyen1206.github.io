@@ -58,14 +58,17 @@ function updateActiveNavOnScroll() {
     // Don't update on scroll if manual click was just performed
     if (isManualClick) return;
     
-    const sections = document.querySelectorAll('.section');
+    // Include both hero section and other sections
+    const heroSection = document.getElementById('hero');
+    const otherSections = document.querySelectorAll('.section');
+    const allSections = heroSection ? [heroSection, ...otherSections] : [...otherSections];
     const navLinks = document.querySelectorAll('.nav-link');
     
     let current = '';
     const scrollPosition = window.scrollY + 100; // Add offset for better detection
     
     // Find the section that is currently in view
-    sections.forEach(section => {
+    allSections.forEach(section => {
       const sectionTop = section.offsetTop;
       const sectionBottom = sectionTop + section.clientHeight;
       
@@ -74,9 +77,9 @@ function updateActiveNavOnScroll() {
       }
     });
     
-    // If no section is found (e.g., at very top), default to first section
-    if (!current && sections.length > 0) {
-      current = sections[0].getAttribute('id');
+    // If no section is found (e.g., at very top), default to hero section
+    if (!current) {
+      current = 'hero';
     }
     
     // Update the URL hash without triggering a scroll
