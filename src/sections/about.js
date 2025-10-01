@@ -38,8 +38,59 @@ export function initAbout() {
       }
       
       @media (max-width: 768px) {
+        .about-content {
+          flex-direction: column;
+          padding: var(--space-4);
+          gap: var(--space-4);
+        }
+        
         .about-text {
-          text-align: center;
+          padding: 0;
+          margin-bottom: var(--space-4);
+        }
+        
+        .about-text p {
+          font-size: var(--font-size-base);
+          line-height: 1.6;
+          margin-bottom: var(--space-3);
+        }
+        
+        .about-image {
+          width: 100%;
+          max-width: 280px;
+          margin: 0 auto;
+        }
+        
+        .about-image img {
+          width: 100%;
+          height: auto;
+          max-width: 280px;
+        }
+        
+        .container {
+          padding: var(--space-4) var(--space-2);
+          margin: 0;
+          max-width: 100%;
+          overflow-x: hidden;
+        }
+        
+        .section-title {
+          font-size: var(--font-size-2xl);
+          margin-bottom: var(--space-4);
+        }
+      }
+      
+      @media (max-width: 480px) {
+        .about-content {
+          padding: var(--space-2);
+        }
+        
+        .about-text p {
+          font-size: var(--font-size-sm);
+        }
+        
+        .container {
+          padding: var(--space-2) var(--space-1);
         }
       }
     </style>

@@ -55,13 +55,9 @@ export function initHero() {
         text-align: left;
       }
 
-      .hero-copyright p {
-        margin: 0;
-      }
-
       .scroll-indicator {
         position: absolute;
-        bottom: 10px;
+        bottom: 60px;
         left: 50%;
         transform: translateX(-50%);
         z-index: 10;
@@ -262,7 +258,49 @@ export function initHero() {
           justify-content: center;
         }
 
+        .hero-copyright {
+          position: absolute;
+          bottom: 40px;
+          left: 50%;
+          transform: translateX(-50%);
+          text-align: center;
+          width: 90%;
+        }
 
+        .bg-credit {
+          position: absolute;
+          bottom: 20px;
+          left: 50%;
+          transform: translateX(-50%);
+          text-align: center;
+          width: 90%;
+          font-size: var(--font-size-2xs);
+        }
+
+        .scroll-indicator {
+          bottom: 80px;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .hero-copyright {
+          bottom: 50px;
+          font-size: var(--font-size-2xs);
+        }
+
+        .bg-credit {
+          bottom: 25px;
+          font-size: 10px;
+          line-height: 1.3;
+        }
+
+        .scroll-indicator {
+          bottom: 90px;
+        }
+
+        .scroll-gif {
+          width: 40px;
+        }
       }
     </style>
   `;
