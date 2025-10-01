@@ -546,13 +546,23 @@ export function initProjects() {
   };
   
   // Generate HTML
+  if (!projects) {
+    console.error('Projects section not found!');
+    return;
+  }
+
+  console.log('Initializing projects section...');
+  
+  // Add section visibility class
+  projects.classList.add('section-visible');
+  
   projects.innerHTML = `
     <div class="container">
-      <h2 class="section-title reveal">My Projects</h2>
+      <h2 class="section-title">My Projects</h2>
       
       <div class="projects-grid">
         ${projectsData.map((project) => `
-          <div class="project-card reveal" data-category="${project.category}">
+          <div class="project-card" data-category="${project.category}">
             <div class="project-image">
               <img data-src="${project.image}" alt="${project.title}" loading="lazy">
               ${project.status ? `

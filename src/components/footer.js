@@ -2,19 +2,10 @@ export function initFooter() {
   const footer = document.getElementById('footer');
   
   footer.innerHTML = `
-    <div class="container">
+  <div class="container">
       <div class="footer-content">
         <div>
-          <p>© ${new Date().getFullYear()} All rights reserved</p>
-        </div>
-        
-        <div class="tech-container">
-          <p>Made with the help of</p>
-          <p class="tech-icons">
-            <img src="icons/bolt_icon.png" class="tech-icon" alt="Bolt"></img>
-            <img src="icons/copilot_icon.png" class="tech-icon" alt="GitHub Copilot"></img>
-            <img src="icons/augment_icon.png" class="tech-icon" alt="Augment"></img>
-          </p>
+          <p>© ${new Date().getFullYear()} Quang Nguyen All rights reserved</p>
         </div>
 
         <div class="social-links">
@@ -28,7 +19,7 @@ export function initFooter() {
               <path d="M22.548 12.276l-2.055-6.32a.763.763 0 0 0-1.453-.062l-1.72 5.17H6.68l-1.72-5.17a.763.763 0 0 0-1.452.062l-2.056 6.32a1.154 1.154 0 0 0 .408 1.27l9.616 7.212a.764.764 0 0 0 .91 0l9.615-7.213a1.154 1.154 0 0 0 .407-1.27z"/>
             </svg>
           </a>
-          <a href="www.linkedin.com/in/quang-nguyen-584005251" class="social-link" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/quang-nguyen-584005251" class="social-link" aria-label="LinkedIn">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
               <rect x="2" y="9" width="4" height="12"></rect>

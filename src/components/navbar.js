@@ -19,6 +19,7 @@ export function initNav() {
           <li><a href="#skills" class="nav-link">Skills</a></li>
           <li><a href="#projects" class="nav-link">Projects</a></li>
           <li><a href="#certificates" class="nav-link">Certificates</a></li>
+          <li><a href="#contacts" class="nav-link">Contacts</a></li>
         </ul>
       </nav>
     </div>

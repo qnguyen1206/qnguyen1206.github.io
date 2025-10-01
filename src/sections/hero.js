@@ -2,6 +2,7 @@ export function initHero() {
   const hero = document.getElementById('hero');
 
   hero.innerHTML = `
+    <div class="parallax-bg"></div>
     <div class="container">
       <div class="hero-content">
         <div class="hero-text">
@@ -13,7 +14,7 @@ export function initHero() {
           </div>
           <div class="hero-cta animate-fadeInUp delay-500" style="margin-top: 1.5rem;">
             <a href="#projects" class="btn btn-primary">View My Work</a>
-            <a href="#resume" class="btn btn-secondary">Download Resume</a>
+            <a href="#contacts" class="btn btn-secondary">Contact Me</a>
           </div>
         </div>
         <div class="hero-stats animate-fadeInUp delay-400">
@@ -32,7 +33,11 @@ export function initHero() {
         </div>
       </div>
     </div>
-    <div class="ripple-container"></div>
+    <div class="hero-copyright">
+      <p>© ${new Date().getFullYear()} Quang Nguyen All rights reserved</p>
+    </div>
+    <div class="stars-container"></div>
+    <div class="bg-credit">Background image by <a href="https://www.needpix.com/photo/1104067/full-moon-landscape-sea-lake-island-bank-trees-reflections-night">needpix.com</a></div>
 
     <style>
       #hero {
@@ -41,7 +46,58 @@ export function initHero() {
         align-items: center;
         position: relative;
         padding-top: 100px;
-        background: linear-gradient(90deg, #9D00FF, var(--color-neutral-950));
+        overflow: hidden;
+      }
+
+      .hero-copyright {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 10;
+        color: rgba(255, 255, 255, 0.7);
+        font-size: var(--font-size-sm);
+        text-align: center;
+      }
+
+      .hero-copyright p {
+        margin: 0;
+      }
+
+      .bg-credit {
+        position: absolute;
+        bottom: 16px;
+        right: 16px;
+        font-size: var(--font-size-xs);
+        color: rgba(255, 255, 255, 0.7);
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+        z-index: 2;
+      }
+
+      .bg-credit a {
+        color: rgba(255, 255, 255, 0.7);
+        text-decoration: underline;
+        transition: color var(--transition-normal) var(--easing-out);
+      }
+
+      .bg-credit a:hover {
+        color: var(--color-primary-500);
+      }
+
+      .parallax-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 120%; /* Extra 20% height for parallax movement */
+        background-image: url('/images/background_img.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        animation: fadeInBackground 1s ease-out;
+        transform: translateY(0);
+        z-index: -1;
+        background-color: rgba(0, 0, 0, 0.7);
       }
 
       .hero-content {
@@ -81,15 +137,14 @@ export function initHero() {
         width: 100%;
         text-align: left;
         opacity: 0;
-        transition: opacity 0.5s ease, transform 0.5s ease;
+        transition: opacity 0.8s ease, transform 0.8s ease;
       }
 
       @keyframes fadeInOut {
-        0% { opacity: 0; transform: translateY(10px); }
-        10% { opacity: 1; transform: translateY(0); }
-        40% { opacity: 1; }
-        50% { opacity: 0; transform: translateY(-10px); }
-        100% { opacity: 0; }
+        0% { opacity: 0; transform: translateX(-20px); }
+        15% { opacity: 1; transform: translateX(0); }
+        85% { opacity: 1; }
+        100% { opacity: 0; transform: translateX(20px); }
       }
 
       .hero-cta {
@@ -119,33 +174,47 @@ export function initHero() {
       .hero-stats .stat h2 {
         font-size: var(--font-size-4xl);
         margin: 0;
-        background: linear-gradient(to right, #30D158, #FFFFFF);
+        background: linear-gradient(to right, #00ff40ff, #FFFFFF);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
       }
 
-      .ripple-container {
+      .stars-container {
         position: absolute;
         inset: 0;
         overflow: hidden;
         pointer-events: none;
-        z-index: 0;
+        z-index: 1;
+        mask-image: linear-gradient(to bottom,
+          rgba(0, 0, 0, 1) 0%,
+          rgba(0, 0, 0, 0) 30%,
+          rgba(0, 0, 0, 1) 60%
+        );
       }
 
-      .ripple {
+      .star {
         position: absolute;
-        width: 10px;
-        height: 10px;
+        width: 2px;
+        height: 2px;
+        background: rgba(255, 255, 255, 0.8);
         border-radius: 50%;
-        background: rgba(255, 255, 255, 0.1);
-        transform: scale(0);
-        animation: rippleEffect 2s ease-out forwards;
+        opacity: 0;
+        animation: twinkle 3s infinite;
+        box-shadow: 0 0 2px rgba(255, 255, 255, 0.8);
       }
 
-      @keyframes rippleEffect {
-        to {
-          transform: scale(12);
+      @keyframes twinkle {
+        0% {
           opacity: 0;
+          transform: scale(1);
+        }
+        50% {
+          opacity: 1;
+          transform: scale(1.5);
+        }
+        100% {
+          opacity: 0;
+          transform: scale(1);
         }
       }
 
@@ -153,6 +222,15 @@ export function initHero() {
         0% { background-position: 0% 50%; }
         50% { background-position: 100% 50%; }
         100% { background-position: 0% 50%; }
+      }
+
+      @keyframes fadeInBackground {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
       }
 
       @media (max-width: 768px) {
@@ -185,12 +263,11 @@ export function initHero() {
 
   // Role switching logic
   const roles = [
-    "Software Developer",
-    "Software Designer",
-    "Game Developer",
-    "Game Designer",
+    "Full Stack Developer",
     "Web Developer",
-    "Web Designer"
+    "Game Developer",
+    "App Developer",
+    "UI/UX Designer",
   ];
 
   let roleIndex = 0;
@@ -198,65 +275,53 @@ export function initHero() {
 
   function rotateRole() {
     roleText.style.opacity = 0;
-    roleText.style.transform = "translateY(10px)";
+    roleText.style.transform = "translateX(-20px)";
 
     setTimeout(() => {
       roleText.textContent = roles[roleIndex];
-      roleText.style.transform = "translateY(0)";
+      roleText.style.transform = "translateX(0)";
       roleText.style.opacity = 1;
       roleIndex = (roleIndex + 1) % roles.length;
     }, 300);
   }
 
-  const rippleContainer = document.querySelector(".ripple-container");
-  let rippleCount = 0;
-  const maxRipples = 5; // Limit concurrent ripples
+  // Stars animation setup
+  const starsContainer = document.querySelector('.stars-container');
+  const numStars = 50; // Number of stars to create
 
-  function createRipple() {
-    // Prevent too many ripples from accumulating
-    if (rippleCount >= maxRipples) return;
-    
-    const ripple = document.createElement("div");
-    ripple.classList.add("ripple");
-    rippleCount++;
-
-    const size = 10;
-    const x = Math.random() * hero.clientWidth;
-    const y = Math.random() * hero.clientHeight;
-
-    ripple.style.left = `${x - size / 2}px`;
-    ripple.style.top = `${y - size / 2}px`;
-
-    rippleContainer.appendChild(ripple);
-
-    // Use requestAnimationFrame for better performance
-    setTimeout(() => {
-      if (ripple.parentNode) {
-        ripple.remove();
-        rippleCount--;
+  function createStars() {
+    for (let i = 0; i < numStars; i++) {
+      const star = document.createElement('div');
+      star.classList.add('star');
+      
+      // Avoid placing stars in the middle section of the screen
+      let top = Math.random() * 100;
+      while (top > 30 && top < 60) { // Avoid middle section where moon is
+        top = Math.random() * 100;
       }
-    }, 2000);
+      
+      star.style.left = `${Math.random() * 100}%`;
+      star.style.top = `${top}%`;
+      star.style.animationDelay = `${Math.random() * 3}s`;
+      starsContainer.appendChild(star);
+    }
   }
 
-  // Create a ripple every 500-1000ms randomly, but only if page is visible
-  const rippleInterval = setInterval(() => {
-    if (!document.hidden && Math.random() < 0.7) {
-      createRipple();
-    }
-  }, 600);
-  
-  // Clean up interval when page becomes hidden
-  document.addEventListener('visibilitychange', () => {
-    if (document.hidden) {
-      // Clear existing ripples when tab is not visible
-      const existingRipples = rippleContainer.querySelectorAll('.ripple');
-      existingRipples.forEach(ripple => {
-        ripple.remove();
-      });
-      rippleCount = 0;
-    }
+  createStars();
+
+
+  setInterval(rotateRole, 4000);
+
+  // Parallax scroll effect
+  window.addEventListener('scroll', () => {
+    const scrolled = window.pageYOffset;
+    const parallaxBg = document.querySelector('.parallax-bg');
+    parallaxBg.style.transform = `translateY(${scrolled * 0.3}px)`; // Reduced from 0.5 to 0.3 for smoother effect
   });
 
-
-  setInterval(rotateRole, 3000);
+  // Reset transform on page load
+  window.addEventListener('load', () => {
+    const parallaxBg = document.querySelector('.parallax-bg');
+    parallaxBg.style.transform = 'translateY(0)';  // Reset any transform
+  });
 }

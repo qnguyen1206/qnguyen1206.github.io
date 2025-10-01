@@ -1,9 +1,29 @@
+@import url('./bubble.css');
+
 /* Base styles */
 body {
   font-family: var(--font-family);
   background-color: var(--color-bg);
+  background-image: url('../images/underwater_background.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   color: var(--color-text);
   line-height: var(--line-height-normal);
+  position: relative;
+}
+
+/* Add a dark overlay to ensure text remains readable */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Adjust opacity as needed */
+  z-index: -1;
 }
 
 /* Layout */
@@ -12,17 +32,21 @@ body {
   max-width: 1200px;
   padding: 0 var(--space-4);
   margin: 0 auto;
+  background: transparent !important;
 }
 
 .section {
   padding: var(--space-16) 0;
   position: relative;
   overflow: hidden;
+  background: transparent !important;
+  backdrop-filter: none !important;
 }
 
 /* Reduce spacing between certificates and resume sections */
 #certificates.section {
   padding: var(--space-8) 0 var(--space-4) 0;
+  background: transparent;
 }
 
 #resume.section {
@@ -198,18 +222,19 @@ p {
   left: 0;
   width: 0;
   height: 2px;
-  background-color: var(--color-primary-500);
+  background-color: #e1ff49;
   transition: width var(--transition-normal) var(--easing-out);
 }
 
 .nav-link:hover,
 .nav-link.active {
-  color: var(--color-primary-500);
+  color: #e1ff49;
 }
 
 .nav-link:hover::after,
 .nav-link.active::after {
   width: 100%;
+  background-color: #e1ff49;
 }
 
 .menu-toggle {
@@ -307,8 +332,8 @@ p {
 
 /* Footer */
 #footer {
-  background-color: var(--color-neutral-900);
-  color: var(--color-neutral-100);
+  background-color: var(--color-surface);
+  color: var(--color-text);
   padding: var(--space-8) 0;
 }
 
@@ -412,5 +437,21 @@ p {
   }
 }
 
+/* Background credit style */
+.bg-credit {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  margin-top: var(--space-2);
+}
+
+.bg-credit a {
+  color: var(--color-text-muted);
+  text-decoration: underline;
+  transition: color var(--transition-normal) var(--easing-out);
+}
+
+.bg-credit a:hover {
+  color: var(--color-primary-500);
+}
 
 

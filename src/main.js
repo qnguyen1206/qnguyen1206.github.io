@@ -10,7 +10,7 @@ import { initAbout } from './sections/about.js';
 import { initSkills } from './sections/skills.js';
 import { initProjects } from './sections/projects.js';
 import { initCertificates } from './sections/certificates.js';
-import { initFooter } from './components/footer.js';
+import { initContacts } from './sections/contacts.js';
 import { initAnimations } from './utils/animations.js';
 import { initLazyLoading } from './utils/lazyload.js';
 
@@ -22,8 +22,8 @@ document.querySelector('#app').innerHTML = `
     <section id="skills" class="section"></section>
     <section id="projects" class="section"></section>
     <section id="certificates" class="section"></section>
+    <section id="contacts" class="section"></section>
   </main>
-  <footer id="footer"></footer>
 `;
 
 // Initialize components
@@ -34,8 +34,11 @@ document.addEventListener('DOMContentLoaded', () => {
   initSkills();
   initProjects();
   initCertificates();
-  initFooter();
-  initAnimations();
-  initLazyLoading();
+  initContacts();
+  // Initialize animations last to ensure all sections are ready
+  setTimeout(() => {
+    initAnimations();
+    initLazyLoading();
+  }, 0);
 });
 
