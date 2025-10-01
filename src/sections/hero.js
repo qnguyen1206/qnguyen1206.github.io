@@ -18,20 +18,6 @@ export function initHero() {
             <a href="#contacts" class="btn btn-secondary">Contact Me</a>
           </div>
         </div>
-        <div class="hero-stats animate-fadeInUp delay-400">
-          <div class="stat">
-            <h2>3</h2>
-            <b>Years Experience</b>
-          </div>
-          <div class="stat">
-            <h2>10</h2>
-            <b>Projects Completed</b>
-          </div>
-          <div class="stat">
-            <h2>2</h2>
-            <b>Projects Released</b>
-          </div>
-        </div>
       </div>
     </div>
     <div class="hero-copyright">
@@ -173,21 +159,7 @@ export function initHero() {
         transform: translateY(-2px);
       }
 
-      .hero-stats {
-        display: flex;
-        flex-direction: column;
-        gap: var(--space-6);
-        color: white;
-        min-width: 200px;
-      }
 
-      .hero-stats .stat h2 {
-        font-size: var(--font-size-4xl);
-        margin: 0;
-        background: linear-gradient(to right, #00ff40ff, #FFFFFF);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-      }
 
       .stars-container {
         position: absolute;
@@ -204,13 +176,13 @@ export function initHero() {
 
       .star {
         position: absolute;
-        width: 2px;
-        height: 2px;
-        background: rgba(255, 255, 255, 0.8);
+        width: 3px;
+        height: 3px;
+        background: rgba(255, 255, 255, 0.9);
         border-radius: 50%;
         opacity: 0;
         animation: twinkle 3s infinite;
-        box-shadow: 0 0 2px rgba(255, 255, 255, 0.8);
+        box-shadow: 0 0 4px rgba(255, 255, 255, 0.9);
       }
 
       @keyframes twinkle {
@@ -258,15 +230,7 @@ export function initHero() {
           justify-content: center;
         }
 
-        .hero-stats {
-          flex-direction: row;
-          justify-content: center;
-          gap: var(--space-8);
-        }
 
-        .hero-stats .stat {
-          text-align: center;
-        }
       }
     </style>
   `;
@@ -342,7 +306,7 @@ export function initHero() {
       
       star.style.left = `${Math.random() * 100}%`;
       star.style.top = `${top}%`;
-      star.style.animationDelay = `${Math.random() * 3}s`;
+      star.style.animationDelay = `${Math.random() * 1.5}s`;
       starsContainer.appendChild(star);
     }
   }

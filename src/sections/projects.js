@@ -739,10 +739,10 @@ export function initProjects() {
       dot.classList.toggle('active', index === currentIndex);
     });
     
-    // Update navigation buttons
+    // Navigation buttons are always enabled for wraparound behavior
     if (prevBtn && nextBtn) {
-      prevBtn.disabled = currentIndex === 0;
-      nextBtn.disabled = currentIndex === totalPages - 1;
+      prevBtn.disabled = false;
+      nextBtn.disabled = false;
     }
   }
 
