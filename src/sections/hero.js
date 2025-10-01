@@ -277,17 +277,30 @@ export function initHero() {
   ];
 
   let roleIndex = 0;
+  let isTyping = false;
+  let typewriterTimeout = null;
   const roleText = document.getElementById("role-text");
 
+  function clearTypewriterTimeout() {
+    if (typewriterTimeout) {
+      clearTimeout(typewriterTimeout);
+      typewriterTimeout = null;
+    }
+  }
+
   function typeWriter(text, element, speed = 100) {
+    if (isTyping) return; // Prevent overlapping animations
+    isTyping = true;
     element.textContent = '';
     let i = 0;
     
     function type() {
-      if (i < text.length) {
+      if (i < text.length && isTyping) {
         element.textContent += text.charAt(i);
         i++;
-        setTimeout(type, speed + Math.random() * 50); // Add slight randomness
+        typewriterTimeout = setTimeout(type, speed + Math.random() * 30);
+      } else {
+        isTyping = false;
       }
     }
     
@@ -295,30 +308,29 @@ export function initHero() {
   }
 
   function eraseText(element, speed = 50) {
+    if (isTyping) return; // Prevent overlapping animations
+    isTyping = true;
     const text = element.textContent;
     let i = text.length;
     
     function erase() {
-      if (i > 0) {
+      if (i > 0 && isTyping) {
         element.textContent = text.substring(0, i - 1);
         i--;
-        setTimeout(erase, speed);
+        typewriterTimeout = setTimeout(erase, speed);
       } else {
+        isTyping = false;
         // After erasing, type the next role
         roleIndex = (roleIndex + 1) % roles.length;
-        setTimeout(() => typeWriter(roles[roleIndex], roleText), 200);
+        typewriterTimeout = setTimeout(() => {
+          if (!isTyping) {
+            typeWriter(roles[roleIndex], roleText);
+          }
+        }, 200);
       }
     }
     
     erase();
-  }
-
-  function rotateRole() {
-    if (roleText.textContent.length > 0) {
-      eraseText(roleText);
-    } else {
-      typeWriter(roles[roleIndex], roleText);
-    }
   }
 
   // Stars animation setup
@@ -347,12 +359,25 @@ export function initHero() {
 
 
   // Start with first role
-  setTimeout(() => typeWriter(roles[0], roleText), 1000);
+  setTimeout(() => {
+    if (!isTyping) {
+      typeWriter(roles[0], roleText);
+    }
+  }, 1000);
   
-  // Rotate roles every 4 seconds
-  setInterval(() => {
-    setTimeout(() => eraseText(roleText), 3000); // Start erasing after 3 seconds
-  }, 6000); // Full cycle every 6 seconds
+  // Rotate roles with proper timing
+  let rotationInterval = setInterval(() => {
+    if (!isTyping) {
+      eraseText(roleText);
+    }
+  }, 5000); // Cycle every 5 seconds for better timing
+  
+  // Cleanup on page unload
+  window.addEventListener('beforeunload', () => {
+    clearInterval(rotationInterval);
+    clearTypewriterTimeout();
+    isTyping = false;
+  });
 
   // Parallax scroll effect
   window.addEventListener('scroll', () => {
