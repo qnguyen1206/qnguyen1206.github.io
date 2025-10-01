@@ -1,81 +1,61 @@
 .bubble-container {
   position: fixed;
-  bottom: 0;
+  top: 0;
   left: 0;
   width: 100%;
   height: 100vh;
   pointer-events: none;
-  z-index: 1000;
+  z-index: 5000;
   opacity: 0;
   transition: opacity 0.8s ease;
-  overflow: hidden;
 }
 
 .bubble-container.active {
-  opacity: 1;
+  opacity: 1 !important;
 }
 
 .bubble {
   position: absolute;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.05));
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: radial-gradient(circle, rgba(0, 255, 255, 0.8), rgba(0, 255, 255, 0.3));
+  border: 3px solid rgba(255, 255, 255, 0.8);
   border-radius: 50%;
-  bottom: -50px;
-  animation: floatUp 5s ease-in-out infinite;
+  bottom: 0;
+  animation: simpleFloat 6s linear infinite;
   will-change: transform, opacity;
-  backdrop-filter: blur(2px);
   box-shadow: 
-    inset 0 0 20px rgba(255, 255, 255, 0.1),
-    0 0 20px rgba(255, 255, 255, 0.05);
+    inset 0 0 15px rgba(255, 255, 255, 0.4),
+    0 0 25px rgba(0, 255, 255, 0.3),
+    0 0 40px rgba(0, 255, 255, 0.2);
+}
+
+@keyframes simpleFloat {
+  0% {
+    transform: translateY(100vh) translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-20vh) translateX(var(--drift, 0px));
+    opacity: 0;
+  }
 }
 
 @keyframes floatUp {
   0% {
-    transform: translateY(0) translateX(0) rotate(0deg) scale(0.6);
+    transform: translateY(0) translateX(0) rotate(0deg) scale(0.8);
     opacity: 0;
   }
-  8% {
-    opacity: var(--bubble-opacity, 0.2);
-    transform: translateY(-8vh) translateX(calc(var(--drift) * 0.05 + sin(0deg) * 30px)) rotate(15deg) scale(1);
+  5% {
+    opacity: var(--bubble-opacity, 0.6);
   }
-  15% {
-    transform: translateY(-15vh) translateX(calc(var(--drift) * 0.1 + sin(54deg) * 25px)) rotate(-25deg) scale(1.1);
-    opacity: var(--bubble-opacity, 0.2);
-  }
-  25% {
-    transform: translateY(-25vh) translateX(calc(var(--drift) * 0.2 + sin(90deg) * 35px)) rotate(40deg) scale(0.95);
-    opacity: var(--bubble-opacity, 0.2);
-  }
-  35% {
-    transform: translateY(-35vh) translateX(calc(var(--drift) * 0.35 + sin(126deg) * 30px)) rotate(-20deg) scale(1.05);
-    opacity: var(--bubble-opacity, 0.2);
-  }
-  45% {
-    transform: translateY(-45vh) translateX(calc(var(--drift) * 0.4 + sin(162deg) * 40px)) rotate(30deg) scale(0.9);
-    opacity: var(--bubble-opacity, 0.2);
-  }
-  55% {
-    transform: translateY(-55vh) translateX(calc(var(--drift) * 0.5 + sin(198deg) * 35px)) rotate(-35deg) scale(1.08);
-    opacity: var(--bubble-opacity, 0.2);
-  }
-  65% {
-    transform: translateY(-65vh) translateX(calc(var(--drift) * 0.6 + sin(234deg) * 28px)) rotate(25deg) scale(0.92);
-    opacity: var(--bubble-opacity, 0.2);
-  }
-  75% {
-    transform: translateY(-75vh) translateX(calc(var(--drift) * 0.7 + sin(270deg) * 32px)) rotate(-15deg) scale(1.02);
-    opacity: var(--bubble-opacity, 0.2);
-  }
-  85% {
-    transform: translateY(-85vh) translateX(calc(var(--drift) * 0.8 + sin(306deg) * 25px)) rotate(20deg) scale(0.88);
-    opacity: calc(var(--bubble-opacity, 0.2) * 0.7);
+  50% {
+    transform: translateY(-50vh) translateX(calc(var(--drift) * 0.5)) rotate(calc(var(--drift) * 0.1deg)) scale(1.02);
+    opacity: var(--bubble-opacity, 0.6);
   }
   95% {
-    transform: translateY(-95vh) translateX(calc(var(--drift) * 0.9 + sin(342deg) * 20px)) rotate(-10deg) scale(0.8);
-    opacity: calc(var(--bubble-opacity, 0.2) * 0.3);
+    opacity: calc(var(--bubble-opacity, 0.6) * 0.3);
   }
   100% {
-    transform: translateY(-110vh) translateX(calc(var(--drift) + sin(360deg) * 15px)) rotate(0deg) scale(0.6);
+    transform: translateY(-105vh) translateX(var(--drift)) rotate(calc(var(--drift) * 0.2deg)) scale(0.85);
     opacity: 0;
   }
 }
@@ -83,65 +63,46 @@
 /* Alternative animation patterns for more variety */
 @keyframes floatUpAlt1 {
   0% {
-    transform: translateY(0) translateX(0) rotate(0deg) scale(0.7);
+    transform: translateY(0) translateX(0) rotate(0deg) scale(0.75);
     opacity: 0;
   }
-  12% {
-    opacity: var(--bubble-opacity, 0.2);
-    transform: translateY(-12vh) translateX(calc(var(--drift) * -0.1 + cos(var(--wave-offset, 0deg)) * 40px)) rotate(-30deg) scale(1.15);
+  8% {
+    opacity: var(--bubble-opacity, 0.3);
   }
-  28% {
-    transform: translateY(-28vh) translateX(calc(var(--drift) * 0.25 + cos(calc(var(--wave-offset, 0deg) + 72deg)) * 45px)) rotate(50deg) scale(0.85);
+  33% {
+    transform: translateY(-33vh) translateX(calc(var(--drift) * 0.4)) rotate(calc(var(--drift) * -0.15deg)) scale(1.1);
   }
-  44% {
-    transform: translateY(-44vh) translateX(calc(var(--drift) * 0.4 + cos(calc(var(--wave-offset, 0deg) + 144deg)) * 38px)) rotate(-25deg) scale(1.1);
-  }
-  60% {
-    transform: translateY(-60vh) translateX(calc(var(--drift) * 0.6 + cos(calc(var(--wave-offset, 0deg) + 216deg)) * 42px)) rotate(35deg) scale(0.9);
-  }
-  76% {
-    transform: translateY(-76vh) translateX(calc(var(--drift) * 0.75 + cos(calc(var(--wave-offset, 0deg) + 288deg)) * 35px)) rotate(-15deg) scale(1.05);
+  67% {
+    transform: translateY(-67vh) translateX(calc(var(--drift) * 0.7)) rotate(calc(var(--drift) * 0.1deg)) scale(0.95);
   }
   92% {
-    transform: translateY(-92vh) translateX(calc(var(--drift) * 0.9 + cos(calc(var(--wave-offset, 0deg) + 360deg)) * 25px)) rotate(20deg) scale(0.8);
-    opacity: calc(var(--bubble-opacity, 0.2) * 0.4);
+    opacity: calc(var(--bubble-opacity, 0.3) * 0.3);
   }
   100% {
-    transform: translateY(-110vh) translateX(var(--drift)) rotate(0deg) scale(0.6);
+    transform: translateY(-105vh) translateX(var(--drift)) rotate(calc(var(--drift) * 0.05deg)) scale(0.8);
     opacity: 0;
   }
 }
 
 @keyframes floatUpAlt2 {
   0% {
-    transform: translateY(0) translateX(0) rotate(0deg) scale(0.5);
+    transform: translateY(0) translateX(0) rotate(0deg) scale(0.9);
     opacity: 0;
   }
   6% {
-    opacity: var(--bubble-opacity, 0.2);
-    transform: translateY(-6vh) translateX(calc(var(--drift) * 0.08 + sin(calc(var(--wave-offset, 0deg) + 45deg)) * 50px)) rotate(25deg) scale(1.2);
+    opacity: var(--bubble-opacity, 0.3);
   }
-  18% {
-    transform: translateY(-18vh) translateX(calc(var(--drift) * 0.15 + sin(calc(var(--wave-offset, 0deg) + 90deg)) * 42px)) rotate(-40deg) scale(0.95);
+  25% {
+    transform: translateY(-25vh) translateX(calc(var(--drift) * 0.3)) rotate(calc(var(--drift) * 0.08deg)) scale(1.05);
   }
-  32% {
-    transform: translateY(-32vh) translateX(calc(var(--drift) * 0.3 + sin(calc(var(--wave-offset, 0deg) + 135deg)) * 48px)) rotate(60deg) scale(1.08);
+  75% {
+    transform: translateY(-75vh) translateX(calc(var(--drift) * 0.8)) rotate(calc(var(--drift) * -0.12deg)) scale(0.92);
   }
-  48% {
-    transform: translateY(-48vh) translateX(calc(var(--drift) * 0.45 + sin(calc(var(--wave-offset, 0deg) + 180deg)) * 35px)) rotate(-20deg) scale(0.88);
-  }
-  64% {
-    transform: translateY(-64vh) translateX(calc(var(--drift) * 0.6 + sin(calc(var(--wave-offset, 0deg) + 225deg)) * 40px)) rotate(45deg) scale(1.12);
-  }
-  80% {
-    transform: translateY(-80vh) translateX(calc(var(--drift) * 0.78 + sin(calc(var(--wave-offset, 0deg) + 270deg)) * 30px)) rotate(-10deg) scale(0.92);
-  }
-  96% {
-    transform: translateY(-96vh) translateX(calc(var(--drift) * 0.95 + sin(calc(var(--wave-offset, 0deg) + 315deg)) * 20px)) rotate(15deg) scale(0.75);
-    opacity: calc(var(--bubble-opacity, 0.2) * 0.2);
+  94% {
+    opacity: calc(var(--bubble-opacity, 0.3) * 0.1);
   }
   100% {
-    transform: translateY(-110vh) translateX(var(--drift)) rotate(0deg) scale(0.5);
+    transform: translateY(-105vh) translateX(var(--drift)) rotate(calc(var(--drift) * 0.03deg)) scale(0.88);
     opacity: 0;
   }
 }

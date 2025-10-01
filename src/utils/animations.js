@@ -5,6 +5,7 @@ export function initAnimations() {
   let bubblesActive = false;
   
   function createBubbles() {
+    console.log('Creating bubbles...');
     const bubbleContainer = document.createElement('div');
     bubbleContainer.className = 'bubble-container';
     
@@ -13,12 +14,12 @@ export function initAnimations() {
       const bubble = document.createElement('div');
       bubble.className = 'bubble';
       
-      // Randomize bubble properties with more variation
-      const size = Math.random() * 25 + 6; // 6-31px (wider range)
-      const leftPos = Math.random() * 110 - 5; // -5% to 105% (can start slightly off-screen)
-      const animationDuration = Math.random() * 6 + 2.5; // 2.5-8.5 seconds (much more variation)
-      const animationDelay = Math.random() * 4; // 0-4 seconds delay (longer stagger)
-      const horizontalDrift = (Math.random() - 0.5) * 300; // -150px to +150px drift (more dramatic)
+      // Randomize bubble properties for smooth variation
+      const size = Math.random() * 18 + 8; // 8-26px
+      const leftPos = Math.random() * 100; // 0-100%
+      const animationDuration = Math.random() * 3 + 4; // 4-7 seconds (more consistent timing)
+      const animationDelay = Math.random() * 3; // 0-3 seconds delay
+      const horizontalDrift = (Math.random() - 0.5) * 120; // -60px to +60px drift (less dramatic for smoothness)
       
       // Add multiple animation variations
       const animationNames = ['floatUp', 'floatUpAlt1', 'floatUpAlt2'];
@@ -27,25 +28,35 @@ export function initAnimations() {
       bubble.style.width = `${size}px`;
       bubble.style.height = `${size}px`;
       bubble.style.left = `${leftPos}%`;
-      bubble.style.animationName = randomAnimation;
-      bubble.style.animationDuration = `${animationDuration}s`;
+      // Use simple CSS animation instead of complex keyframes
+      bubble.style.animation = `simpleFloat ${animationDuration}s linear infinite`;
       bubble.style.animationDelay = `${animationDelay}s`;
       bubble.style.setProperty('--drift', `${horizontalDrift}px`);
       
-      // More varied opacity and add wave offset for sine calculations
-      const opacity = Math.random() * 0.35 + 0.08; // 0.08-0.43
-      const waveOffset = Math.random() * 360; // Random wave phase
+      // Make bubbles more visible with higher opacity
+      const opacity = Math.random() * 0.4 + 0.6; // 0.6-1.0 (maximum visibility)
       bubble.style.setProperty('--bubble-opacity', opacity);
-      bubble.style.setProperty('--wave-offset', `${waveOffset}deg`);
       
-      // Random animation timing function for even more variety
-      const timingFunctions = ['ease-out', 'ease-in-out', 'cubic-bezier(0.25, 0.46, 0.45, 0.94)', 'cubic-bezier(0.55, 0.085, 0.68, 0.53)'];
+      // Force visibility for testing with bright colors
+      bubble.style.opacity = opacity;
+      bubble.style.backgroundColor = `rgba(0, 255, 255, ${opacity})`; // Bright cyan
+      bubble.style.border = '3px solid rgba(255, 255, 255, 0.8)';
+      bubble.style.zIndex = '9999';
+      
+      // Use ultra-smooth easing functions for natural bubble motion
+      const timingFunctions = [
+        'cubic-bezier(0.25, 0.46, 0.45, 0.94)', // easeOutQuad
+        'cubic-bezier(0.165, 0.84, 0.44, 1)',   // easeOutQuart  
+        'cubic-bezier(0.19, 1, 0.22, 1)'        // easeOutExpo
+      ];
       bubble.style.animationTimingFunction = timingFunctions[Math.floor(Math.random() * timingFunctions.length)];
       
       bubbleContainer.appendChild(bubble);
     }
     
     document.body.appendChild(bubbleContainer);
+    console.log('Bubble container created with', bubbleContainer.children.length, 'bubbles');
+    console.log('Container classes:', bubbleContainer.className);
     return bubbleContainer;
   }
   
@@ -57,16 +68,14 @@ export function initAnimations() {
     const heroSection = document.getElementById('hero');
     const heroPastThreshold = heroSection.getBoundingClientRect().bottom < viewportHeight * 0.3;
     
-    // Toggle bubble effect
+    // Toggle bubble effect based on hero section visibility
     if (heroPastThreshold && !bubblesActive) {
       bubblesActive = true;
       bubbles.classList.add('active');
     } else if (!heroPastThreshold && bubblesActive) {
       bubblesActive = false;
       bubbles.classList.remove('active');
-    }
-    
-    // Find which section should be active based on scroll position
+    }    // Find which section should be active based on scroll position
     let activeSection = null;
     const triggerOffset = viewportHeight * 0.4; // Trigger point at 40% of viewport height
     

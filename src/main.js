@@ -3,6 +3,7 @@ import './styles/variables.css';
 import './styles/animations.css';
 import './styles/style.css';
 import './styles/projects.css';
+import './styles/bubble.css';
 
 import { initNav } from './components/navbar.js';
 import { initHero } from './sections/hero.js';
@@ -28,7 +29,7 @@ document.querySelector('#app').innerHTML = `
 
 // Initialize components
 document.addEventListener('DOMContentLoaded', () => {
-  initNav();
+  //initNav();
   initHero();
   initAbout();
   initSkills();

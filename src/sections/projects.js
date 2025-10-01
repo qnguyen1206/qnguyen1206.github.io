@@ -507,6 +507,20 @@ export function initProjects() {
       `
     }
   ];
+
+  // Set up the HTML structure for horizontal scrolling
+  projects.innerHTML = `
+    <div class="container">
+      <h2 class="section-title">My Projects</h2>
+      
+      <div class="projects-container">
+        <div class="projects-wrapper">
+          <div class="projects-grid">
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
   
   // Add a mapping of technologies to their icon information
   const techIcons = {
@@ -556,12 +570,9 @@ export function initProjects() {
   // Add section visibility class
   projects.classList.add('section-visible');
   
-  projects.innerHTML = `
-    <div class="container">
-      <h2 class="section-title">My Projects</h2>
-      
-      <div class="projects-grid">
-        ${projectsData.map((project) => `
+  // Generate the project cards and append to the grid
+  const projectsGrid = projects.querySelector('.projects-grid');
+  projectsGrid.innerHTML = projectsData.map((project) => `
           <div class="project-card" data-category="${project.category}">
             <div class="project-image">
               <img data-src="${project.image}" alt="${project.title}" loading="lazy">
@@ -624,10 +635,7 @@ export function initProjects() {
               </button>
             </div>
           </div>
-        `).join('')}
-      </div>
-    </div>
-  `;
+        `).join('');
   
   // Initialize project cards for reference
   const projectCards = document.querySelectorAll('.project-card');

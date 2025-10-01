@@ -41,6 +41,18 @@ body::before {
   overflow: hidden;
   background: transparent !important;
   backdrop-filter: none !important;
+  min-height: 100vh;
+  scroll-snap-align: start;
+}
+
+/* Enable smooth scrolling and scroll snapping */
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+body {
+  scroll-snap-type: y mandatory;
 }
 
 /* Reduce spacing between certificates and resume sections */

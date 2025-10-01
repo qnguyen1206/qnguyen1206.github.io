@@ -9,7 +9,8 @@ export function initHero() {
           <h1 class="hero-title animate-fadeInUp delay-200" style="padding-bottom: 0.2rem;">Quang Nguyen</h1>
           <div class="hero-description animate-fadeInUp delay-300">
             <div class="role-carousel">
-              <span id="role-text">Software Developer</span>
+              <span id="role-text"></span>
+              <span class="typing-cursor">|</span>
             </div>
           </div>
           <div class="hero-cta animate-fadeInUp delay-500" style="margin-top: 1.5rem;">
@@ -37,7 +38,11 @@ export function initHero() {
       <p>© ${new Date().getFullYear()} Quang Nguyen All rights reserved</p>
     </div>
     <div class="stars-container"></div>
-    <div class="bg-credit">Background image by <a href="https://www.needpix.com/photo/1104067/full-moon-landscape-sea-lake-island-bank-trees-reflections-night">needpix.com</a></div>
+    <div class="bg-credit">
+      Background image by 
+      <a href="https://www.needpix.com/photo/1104067/full-moon-landscape-sea-lake-island-bank-trees-reflections-night">needpix.com</a>,
+      <a href="https://www.pexels.com/photo/underwater-shot-of-the-sea-17598831/">Francesco Ungaro</a>
+    </div>
 
     <style>
       #hero {
@@ -125,26 +130,31 @@ export function initHero() {
         font-size: var(--font-size-xl);
         font-weight: 600;
         color: var(--color-neutral-100);
-        height: 32px; /* or adjust as needed */
-        position: relative;
-        overflow: hidden;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        font-family: 'Courier New', monospace;
       }
 
       #role-text {
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 100%;
-        text-align: left;
-        opacity: 0;
-        transition: opacity 0.8s ease, transform 0.8s ease;
+        color: white;
+        display: inline;
       }
 
-      @keyframes fadeInOut {
-        0% { opacity: 0; transform: translateX(-20px); }
-        15% { opacity: 1; transform: translateX(0); }
-        85% { opacity: 1; }
-        100% { opacity: 0; transform: translateX(20px); }
+      .typing-cursor {
+        color: white;
+        animation: blink 1s infinite;
+        display: inline;
+      }
+
+      @keyframes blink {
+        0%, 50% { opacity: 1; }
+        51%, 100% { opacity: 0; }
+      }
+
+      @keyframes typewriter {
+        from { width: 0; }
+        to { width: 100%; }
       }
 
       .hero-cta {
@@ -273,16 +283,46 @@ export function initHero() {
   let roleIndex = 0;
   const roleText = document.getElementById("role-text");
 
-  function rotateRole() {
-    roleText.style.opacity = 0;
-    roleText.style.transform = "translateX(-20px)";
+  function typeWriter(text, element, speed = 100) {
+    element.textContent = '';
+    let i = 0;
+    
+    function type() {
+      if (i < text.length) {
+        element.textContent += text.charAt(i);
+        i++;
+        setTimeout(type, speed + Math.random() * 50); // Add slight randomness
+      }
+    }
+    
+    type();
+  }
 
-    setTimeout(() => {
-      roleText.textContent = roles[roleIndex];
-      roleText.style.transform = "translateX(0)";
-      roleText.style.opacity = 1;
-      roleIndex = (roleIndex + 1) % roles.length;
-    }, 300);
+  function eraseText(element, speed = 50) {
+    const text = element.textContent;
+    let i = text.length;
+    
+    function erase() {
+      if (i > 0) {
+        element.textContent = text.substring(0, i - 1);
+        i--;
+        setTimeout(erase, speed);
+      } else {
+        // After erasing, type the next role
+        roleIndex = (roleIndex + 1) % roles.length;
+        setTimeout(() => typeWriter(roles[roleIndex], roleText), 200);
+      }
+    }
+    
+    erase();
+  }
+
+  function rotateRole() {
+    if (roleText.textContent.length > 0) {
+      eraseText(roleText);
+    } else {
+      typeWriter(roles[roleIndex], roleText);
+    }
   }
 
   // Stars animation setup
@@ -310,7 +350,13 @@ export function initHero() {
   createStars();
 
 
-  setInterval(rotateRole, 4000);
+  // Start with first role
+  setTimeout(() => typeWriter(roles[0], roleText), 1000);
+  
+  // Rotate roles every 4 seconds
+  setInterval(() => {
+    setTimeout(() => eraseText(roleText), 3000); // Start erasing after 3 seconds
+  }, 6000); // Full cycle every 6 seconds
 
   // Parallax scroll effect
   window.addEventListener('scroll', () => {
