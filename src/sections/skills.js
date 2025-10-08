@@ -69,7 +69,7 @@ export function initSkills() {
 
   skills.innerHTML = `
     <div class="container">
-      <h2 class="section-title reveal">My Skills</h2>
+      <h2 class="section-title">My Skills</h2>
       
       <div class="skills-carousel-container">
         <div class="carousel-3d" id="skillsCarousel">
@@ -397,7 +397,7 @@ export function initSkills() {
         align-items: center;
         justify-content: center;
         gap: var(--space-6);
-        margin-top: calc(var(--space-8) + 20px);
+        margin-top: var(--space-4);
       }
       
       .carousel-btn {
@@ -933,6 +933,6 @@ export function initSkills() {
     });
   }, observerOptions);
 
-  // Observe the carousel container
+  // Observe the carousel container for skill animations
   skillObserver.observe(document.querySelector('.skills-carousel-container'));
 }

@@ -227,6 +227,14 @@ body {
 @media (max-width: 768px) {
   .section {
     padding: var(--space-10) 0;
+    height: auto; /* Allow sections to expand to content height on mobile */
+    min-height: 100vh; /* Maintain minimum height for full screen sections */
+    overflow-y: visible; /* Allow vertical overflow on mobile */
+  }
+  
+  /* Hide oxygen tank on mobile devices to prevent text blocking */
+  .oxygen-tank {
+    display: none !important;
   }
 }
 
