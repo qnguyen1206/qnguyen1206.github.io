@@ -18,6 +18,21 @@ export function initHero() {
             <a href="#contacts" class="btn btn-secondary">Contact Me</a>
           </div>
         </div>
+        <nav class="hero-nav">
+          <div class="mobile-menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <ul class="hero-nav-links">
+            <li><a href="#hero" class="hero-nav-link active">Home</a></li>
+            <li><a href="#about" class="hero-nav-link">About</a></li>
+            <li><a href="#projects" class="hero-nav-link">Projects</a></li>
+            <li><a href="#skills" class="hero-nav-link">Skills</a></li>
+            <li><a href="#certificates" class="hero-nav-link">Certificates</a></li>
+            <li><a href="#contacts" class="hero-nav-link">Contact</a></li>
+          </ul>
+        </nav>
       </div>
     </div>
     <div class="hero-copyright">
@@ -117,6 +132,148 @@ export function initHero() {
 
       .hero-text {
         max-width: 600px;
+      }
+
+      .hero-nav {
+        display: flex;
+        align-items: center;
+        z-index: 10;
+        position: fixed;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      .hero-nav-links {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-4);
+        text-align: right;
+      }
+
+      .hero-nav-link {
+        color: rgba(255, 255, 255, 0.7);
+        text-decoration: none;
+        font-size: var(--font-size-lg);
+        font-weight: 500;
+        transition: all 0.3s ease;
+        position: relative;
+        padding: var(--space-2) var(--space-3);
+        border-radius: var(--border-radius-md);
+      }
+
+      .hero-nav-link:hover {
+        color: var(--color-primary-400);
+        transform: translateX(-5px);
+      }
+
+      .hero-nav-link.active {
+        color: var(--color-primary-400);
+        font-weight: 600;
+      }
+
+      .hero-nav-link.active::before {
+        content: '';
+        position: absolute;
+        left: -10px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 3px;
+        height: 20px;
+        background: linear-gradient(45deg, var(--color-primary-400), var(--color-primary-300));
+        border-radius: 2px;
+      }
+
+      /* Mobile menu toggle styles */
+      .mobile-menu-toggle {
+        display: none;
+        flex-direction: column;
+        cursor: pointer;
+        padding: var(--space-2);
+        z-index: 1001;
+      }
+
+      .mobile-menu-toggle span {
+        width: 25px;
+        height: 3px;
+        background-color: rgba(255, 255, 255, 0.8);
+        margin: 3px 0;
+        transition: 0.3s;
+        border-radius: 2px;
+      }
+
+      .mobile-menu-toggle.active span:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 6px);
+      }
+
+      .mobile-menu-toggle.active span:nth-child(2) {
+        opacity: 0;
+      }
+
+      .mobile-menu-toggle.active span:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -6px);
+      }
+
+      /* Responsive styles for hero navigation */
+      @media (max-width: 768px) {
+        .hero-nav {
+          position: fixed;
+          top: 20px;
+          right: 20px;
+          transform: none;
+        }
+
+        .mobile-menu-toggle {
+          display: flex;
+        }
+        
+        .hero-nav-links {
+          position: absolute;
+          top: 100%;
+          right: 0;
+          background: rgba(0, 0, 0, 0.9);
+          backdrop-filter: blur(10px);
+          border-radius: var(--border-radius-lg);
+          padding: var(--space-4);
+          margin-top: var(--space-2);
+          min-width: 150px;
+          opacity: 0;
+          visibility: hidden;
+          transform: translateY(-10px);
+          transition: all 0.3s ease;
+          text-align: right;
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .hero-nav-links.active {
+          opacity: 1;
+          visibility: visible;
+          transform: translateY(0);
+        }
+        
+        .hero-nav-link {
+          font-size: var(--font-size-base);
+          padding: var(--space-2) var(--space-3);
+          display: block;
+          width: 100%;
+        }
+        
+        .hero-nav-link:hover {
+          transform: translateX(-5px);
+          background: rgba(255, 255, 255, 0.1);
+        }
+        
+        .hero-nav-link.active::before {
+          display: none;
+        }
+        
+        .hero-nav-link.active {
+          background: rgba(255, 255, 255, 0.15);
+          border-radius: var(--border-radius-md);
+        }
       }
 
       .hero-title {
@@ -429,4 +586,115 @@ export function initHero() {
     const parallaxBg = document.querySelector('.parallax-bg');
     parallaxBg.style.transform = 'translateY(0)';  // Reset any transform
   });
+
+  // Hero navigation functionality
+  initHeroNavigation();
+}
+
+function initHeroNavigation() {
+  let isManualClick = false;
+  let clickTimeout;
+  
+  // Mobile menu toggle functionality
+  const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+  const heroNavLinks = document.querySelector('.hero-nav-links');
+  
+  if (mobileMenuToggle && heroNavLinks) {
+    mobileMenuToggle.addEventListener('click', () => {
+      mobileMenuToggle.classList.toggle('active');
+      heroNavLinks.classList.toggle('active');
+    });
+
+    // Close mobile menu when clicking outside
+    document.addEventListener('click', (e) => {
+      if (!mobileMenuToggle.contains(e.target) && !heroNavLinks.contains(e.target)) {
+        mobileMenuToggle.classList.remove('active');
+        heroNavLinks.classList.remove('active');
+      }
+    });
+  }
+  
+  // Update active navigation link based on scroll position
+  function updateActiveNavOnScroll() {
+    if (isManualClick) return;
+    
+    const heroSection = document.getElementById('hero');
+    const otherSections = document.querySelectorAll('.section');
+    const allSections = heroSection ? [heroSection, ...otherSections] : [...otherSections];
+    const navLinks = document.querySelectorAll('.hero-nav-link');
+    
+    let current = '';
+    const scrollPosition = window.scrollY + 100;
+    
+    // Find the section that is currently in view
+    allSections.forEach(section => {
+      const sectionTop = section.offsetTop;
+      const sectionBottom = sectionTop + section.clientHeight;
+      
+      if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
+        current = section.getAttribute('id');
+      }
+    });
+    
+    // If no section is found, default to hero section
+    if (!current) {
+      current = 'hero';
+    }
+    
+    // Update active state
+    navLinks.forEach(link => {
+      link.classList.remove('active');
+      if (link.getAttribute('href') === `#${current}`) {
+        link.classList.add('active');
+      }
+    });
+  }
+  
+  // Add scroll listener
+  window.addEventListener('scroll', updateActiveNavOnScroll);
+  
+  // Handle navigation clicks
+  const navLinks = document.querySelectorAll('.hero-nav-link');
+  navLinks.forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      
+      // Set manual click flag
+      isManualClick = true;
+      
+      // Clear any existing timeout
+      if (clickTimeout) clearTimeout(clickTimeout);
+      
+      // Remove active class from all links
+      navLinks.forEach(l => l.classList.remove('active'));
+      
+      // Add active class to clicked link
+      this.classList.add('active');
+      
+      // Close mobile menu after clicking a link
+      if (mobileMenuToggle && heroNavLinks) {
+        mobileMenuToggle.classList.remove('active');
+        heroNavLinks.classList.remove('active');
+      }
+      
+      // Smooth scroll to target section
+      const targetId = this.getAttribute('href').substring(1);
+      const targetSection = document.getElementById(targetId);
+      
+      if (targetSection) {
+        targetSection.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
+      }
+      
+      // Reset manual click flag after navigation completes
+      clickTimeout = setTimeout(() => {
+        isManualClick = false;
+      }, 1000);
+    });
+  });
+  
+  // Initial call to set active state
+  updateActiveNavOnScroll();
 }

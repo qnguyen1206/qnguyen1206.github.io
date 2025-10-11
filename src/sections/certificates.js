@@ -21,6 +21,13 @@ const certificatesData = [
     description: "",
     link: "https://www.linkedin.com/learning/certificates/4aa4b781930a7849ceea31e326d4665b8ef969e2b43843f44c7a14e380c01952?trk=share_certificate"
   },
+  {
+    title: "Graphic Design Foundations: Typography",
+    issuer: "LinkedIn Learning", 
+    date: "Oct 11, 2025",
+    description: "",
+    link: "https://www.linkedin.com/learning/certificates/2ec51a540e414a3d402a76776f3d869a0ae7d0e4d8028231bc2f4a099aa43f0c?trk=share_certificate"
+  }
   //There are still problem with the clipping issues and bleeding issues
   // Add more certificates here by copying the structure above
 ];
