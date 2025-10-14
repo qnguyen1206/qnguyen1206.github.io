@@ -68,9 +68,7 @@ export function initProjects() {
         </p>
       `
     },
-    // BETA STATUS (currently none)
-    
-    // ALPHA STATUS
+    // BETA STATUS
     {
       id: 'kart-tech-racing',
       title: 'Kart: The Tech Filled Racing Game',
@@ -78,8 +76,9 @@ export function initProjects() {
       image: 'images/KartIcon.png',
       description: 'A multiplayer racing game where cars and technology meet, designed using Godot and Steamworks.',
       tags: ['Godot', 'Steamworks', 'GitLab'],
-      status: 'alpha',
-      gitlabLink: 'https://gitlab.com/kart-tech-racing',
+      status: 'beta',
+      gitlabLink: '',
+      externalLink: 'https://store.steampowered.com/app/2165230/Kart_The_Tech_Filled_Racing_Game/',
       fullDescription: `
         <h3>Key Features</h3>
         <ul>

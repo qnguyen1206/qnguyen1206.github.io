@@ -29,14 +29,14 @@ export function initContacts() {
           <a href="https://github.com/qnguyen1206" target="_blank" class="contact-item">
             <div class="contact-info">
               <h3>GitHub</h3>
-              <p>Check out my code →</p>
+              <p>Check out my projects →</p>
             </div>
           </a>
           
           <a href="https://gitlab.com/qnguyen1206" target="_blank" class="contact-item">
             <div class="contact-info">
               <h3>GitLab</h3>
-              <p>Check out my respositories →</p>
+              <p>Check out my projects →</p>
             </div>
           </a>
         </div>

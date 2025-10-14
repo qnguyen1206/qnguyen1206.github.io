@@ -11,7 +11,7 @@ export function initAbout() {
 
           <p class="reveal">I have work on many teams and personal projects during my time at Georgia Tech ranging from <span class="highlight">game development</span> to <span class="highlight">app development</span>.</p>
 
-          <p class="reveal">One of the most notable projects I have worked on is <span class="highlight">Kart: The Tech Filled Racing Game</span>, a game where cars and technology meet with each cars have their own unique abilities. We are planning to release it on <span class="highlight">Steam</span> so check it out when it release. 👍</p>
+          <p class="reveal">One of the most notable projects I have worked on is <span class="highlight">Kart: The Tech Filled Racing Game</span>, a game where cars and technology meet with each cars have their own unique abilities. We have released the game on <span class="highlight"><a href="https://store.steampowered.com/app/2165230/Kart_The_Tech_Filled_Racing_Game/" target="_blank" rel="noopener noreferrer">Steam</a></span> so check it out if you are interested. 👍</p>
 
           <p class="reveal">Beside developing games and app, I am also learning about <span class="highlight">graphic design</span>, <span class="highlight">UI/UX</span> and <span class="highlight">cybersecurity</span> to expand my knowledge and skillset.</p>
           
@@ -35,6 +35,17 @@ export function initAbout() {
       .highlight {
         color: #00bfff;
         font-weight: bold;
+      }
+      
+      .highlight a {
+        color: #00bfff;
+        text-decoration: underline;
+        transition: color 0.3s ease;
+      }
+      
+      .highlight a:hover {
+        color: #00d4ff;
+        text-decoration: underline;
       }
       
       @media (max-width: 768px) {

@@ -35,18 +35,20 @@ export function initHero() {
         </nav>
       </div>
     </div>
-    <div class="hero-copyright">
-      <p>© ${new Date().getFullYear()} Quang Nguyen All rights reserved</p>
-    </div>
-    <div class="scroll-indicator">
-      <img src="/images/Scroll down.gif" alt="Scroll Down" class="scroll-gif" />
+    <div class="hero-footer">
+      <div class="hero-copyright">
+        <p>© ${new Date().getFullYear()} Quang Nguyen All rights reserved</p>
+      </div>
+      <div class="scroll-indicator">
+        <img src="/images/Scroll down.gif" alt="Scroll Down" class="scroll-gif" />
+      </div>
+      <div class="bg-credit">
+        Background image by 
+        <a href="https://www.needpix.com/photo/1104067/full-moon-landscape-sea-lake-island-bank-trees-reflections-night">needpix.com</a>,
+        <a href="https://www.pexels.com/photo/underwater-shot-of-the-sea-17598831/">Francesco Ungaro</a>
+      </div>
     </div>
     <div class="stars-container"></div>
-    <div class="bg-credit">
-      Background image by 
-      <a href="https://www.needpix.com/photo/1104067/full-moon-landscape-sea-lake-island-bank-trees-reflections-night">needpix.com</a>,
-      <a href="https://www.pexels.com/photo/underwater-shot-of-the-sea-17598831/">Francesco Ungaro</a>
-    </div>
 
     <style>
       #hero {
@@ -60,22 +62,39 @@ export function initHero() {
         scroll-snap-align: start;
       }
 
-      .hero-copyright {
+      .hero-footer {
         position: absolute;
         bottom: 20px;
         left: 20px;
+        right: 20px;
         z-index: 10;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: var(--space-4);
+      }
+
+      .hero-copyright {
         color: rgba(255, 255, 255, 0.7);
         font-size: var(--font-size-xs);
         text-align: left;
       }
 
+      .hero-copyright p {
+        margin: 0;
+      }
+
+      .bg-credit {
+        font-size: var(--font-size-xs);
+        color: rgba(255, 255, 255, 0.7);
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+        text-align: right;
+      }
+
       .scroll-indicator {
-        position: absolute;
-        bottom: 60px;
-        left: 50%;
-        transform: translateX(-50%);
-        z-index: 10;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         animation: fadeInUp 1s ease-out 2s both;
       }
 
@@ -85,16 +104,6 @@ export function initHero() {
         opacity: 1;
         transition: opacity 0.3s ease;
         filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
-      }
-
-      .bg-credit {
-        position: absolute;
-        bottom: 16px;
-        right: 16px;
-        font-size: var(--font-size-xs);
-        color: rgba(255, 255, 255, 0.7);
-        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
-        z-index: 2;
       }
 
       .bg-credit a {
@@ -415,44 +424,40 @@ export function initHero() {
           justify-content: center;
         }
 
-        .hero-copyright {
-          position: absolute;
+        .hero-footer {
+          flex-direction: column;
+          align-items: center;
+          gap: var(--space-2);
           bottom: 40px;
           left: 50%;
+          right: auto;
           transform: translateX(-50%);
-          text-align: center;
           width: 90%;
+        }
+
+        .hero-copyright {
+          text-align: center;
         }
 
         .bg-credit {
-          position: absolute;
-          bottom: 20px;
-          left: 50%;
-          transform: translateX(-50%);
           text-align: center;
-          width: 90%;
           font-size: var(--font-size-2xs);
-        }
-
-        .scroll-indicator {
-          bottom: 80px;
         }
       }
 
       @media (max-width: 480px) {
-        .hero-copyright {
+        .hero-footer {
           bottom: 50px;
+          gap: var(--space-1);
+        }
+
+        .hero-copyright {
           font-size: var(--font-size-2xs);
         }
 
         .bg-credit {
-          bottom: 25px;
           font-size: 10px;
           line-height: 1.3;
-        }
-
-        .scroll-indicator {
-          bottom: 90px;
         }
 
         .scroll-gif {

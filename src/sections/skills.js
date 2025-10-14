@@ -397,7 +397,7 @@ export function initSkills() {
         align-items: center;
         justify-content: center;
         gap: var(--space-6);
-        margin-top: var(--space-4);
+        margin-top: var(--space-8);
       }
       
       .carousel-btn {
