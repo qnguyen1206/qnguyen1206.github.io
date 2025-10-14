@@ -1,18 +1,11 @@
 // Certificate data - Add your certificates here
 const certificatesData = [
   {
-    title: "Legacy JavaScript Algorithms and Data Structures",
-    issuer: "freeCodeCamp",
-    date: "July 21, 2023",
-    description: "",
-    link: "https://www.freecodecamp.org/certification/quang_m_nguyen/javascript-algorithms-and-data-structures"
-  },
-  {
-    title: "Figma Essential Training: The Basics",
+    title: "Graphic Design Foundations: Typography",
     issuer: "LinkedIn Learning", 
-    date: "Sep 04, 2025",
+    date: "Oct 11, 2025",
     description: "",
-    link: "https://www.linkedin.com/learning/certificates/834631ec81942e46498fe9aa0a760113b95a3d5da73c21d71ef592541a4ea6bf?trk=share_certificate"
+    link: "https://www.linkedin.com/learning/certificates/2ec51a540e414a3d402a76776f3d869a0ae7d0e4d8028231bc2f4a099aa43f0c?trk=share_certificate"
   },
   {
     title: "Python for Data visualization",
@@ -22,11 +15,18 @@ const certificatesData = [
     link: "https://www.linkedin.com/learning/certificates/4aa4b781930a7849ceea31e326d4665b8ef969e2b43843f44c7a14e380c01952?trk=share_certificate"
   },
   {
-    title: "Graphic Design Foundations: Typography",
+    title: "Figma Essential Training: The Basics",
     issuer: "LinkedIn Learning", 
-    date: "Oct 11, 2025",
+    date: "Sep 04, 2025",
     description: "",
-    link: "https://www.linkedin.com/learning/certificates/2ec51a540e414a3d402a76776f3d869a0ae7d0e4d8028231bc2f4a099aa43f0c?trk=share_certificate"
+    link: "https://www.linkedin.com/learning/certificates/834631ec81942e46498fe9aa0a760113b95a3d5da73c21d71ef592541a4ea6bf?trk=share_certificate"
+  },
+  {
+    title: "Legacy JavaScript Algorithms and Data Structures",
+    issuer: "freeCodeCamp",
+    date: "July 21, 2023",
+    description: "",
+    link: "https://www.freecodecamp.org/certification/quang_m_nguyen/javascript-algorithms-and-data-structures"
   }
   //There are still problem with the clipping issues and bleeding issues
   // Add more certificates here by copying the structure above
