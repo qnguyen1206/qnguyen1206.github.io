@@ -29,6 +29,7 @@ export function initAbout() {
       .about-text p {
         margin-bottom: var(--space-4);
         font-size: var(--font-size-lg);
+        font-family: 'Georgia', serif;
       }
       
       /* Highlight styles - bright blue/cyan with bold */

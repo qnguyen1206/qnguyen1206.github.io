@@ -13,6 +13,7 @@ export function initProjects() {
       tags: ['Python', 'DeepSeek'],
       status: 'release',
       githubLink: 'https://github.com/Kairu1206/todoapp',
+      externalLink: 'https://github.com/Kairu1206/todoapp',
       fullDescription: `
         <h3>Key Features</h3>
         <ul>
