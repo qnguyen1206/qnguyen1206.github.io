@@ -424,7 +424,11 @@ export function initSkills() {
       
       .carousel-dots {
         display: flex;
-        gap: var(--space-3);
+        flex-wrap: wrap;
+        gap: var(--space-2);
+        align-items: center;
+        justify-content: center;
+        max-width: 300px;
       }
       
       .carousel-dot {
@@ -434,16 +438,17 @@ export function initSkills() {
         background: rgba(139, 92, 246, 0.3);
         border: 1px solid rgba(139, 92, 246, 0.4);
         cursor: pointer;
-        transition: all var(--transition-normal) var(--easing-out);
+        transition: all 0.3s ease;
       }
       
       .carousel-dot.active {
-        background: var(--color-primary-500);
-        transform: scale(1.2);
+        background: var(--color-primary);
+        transform: scale(1.3);
+        box-shadow: 0 0 12px rgba(139, 92, 246, 0.4);
       }
       
       .carousel-dot:hover {
-        background: var(--color-primary-400);
+        background: var(--color-primary);
         transform: scale(1.1);
       }
       
