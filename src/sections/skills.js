@@ -452,56 +452,6 @@ export function initSkills() {
         transform: scale(1.1);
       }
       
-      /* Dark mode styles */
-      [data-theme="dark"] .skill-page {
-        background: linear-gradient(135deg, rgba(139, 92, 246, 0.15), rgba(59, 130, 246, 0.15));
-        border-color: rgba(139, 92, 246, 0.3);
-        box-shadow: 0 8px 32px rgba(139, 92, 246, 0.2), 0 4px 16px rgba(59, 130, 246, 0.2);
-      }
-      
-      [data-theme="dark"] .skills-category-block:hover .skill-page.active {
-        border-color: rgba(139, 92, 246, 0.4);
-        background: linear-gradient(135deg, rgba(139, 92, 246, 0.2), rgba(59, 130, 246, 0.2));
-        box-shadow: 0 12px 40px rgba(139, 92, 246, 0.25), 0 6px 20px rgba(59, 130, 246, 0.25);
-      }
-      
-      [data-theme="dark"] .category-header {
-        border-bottom-color: rgba(139, 92, 246, 0.4);
-      }
-      
-      [data-theme="dark"] .category-title {
-        color: rgba(139, 92, 246, 0.9);
-        text-shadow: 0 2px 4px rgba(139, 92, 246, 0.2);
-      }
-      
-      [data-theme="dark"] .skill-item {
-        background: linear-gradient(135deg, rgba(0, 0, 0, 0.5), rgba(55, 65, 81, 0.4));
-        border-color: rgba(55, 65, 81, 0.5);
-        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4), 0 2px 8px rgba(55, 65, 81, 0.2);
-      }
-      
-      [data-theme="dark"] .skill-item:hover {
-        border-color: rgba(55, 65, 81, 0.6);
-        background: linear-gradient(135deg, rgba(0, 0, 0, 0.6), rgba(55, 65, 81, 0.5));
-        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5), 0 4px 12px rgba(55, 65, 81, 0.3);
-      }
-      
-      [data-theme="dark"] .skill-icon {
-        background: linear-gradient(135deg, rgba(0, 0, 0, 0.6), rgba(31, 41, 55, 0.5));
-        border-color: rgba(31, 41, 55, 0.6);
-      }
-      
-      [data-theme="dark"] .carousel-btn {
-        background: linear-gradient(135deg, rgba(139, 92, 246, 0.3), rgba(59, 130, 246, 0.3));
-        border-color: rgba(139, 92, 246, 0.4);
-        color: rgba(139, 92, 246, 0.9);
-      }
-      
-      [data-theme="dark"] .carousel-btn:hover {
-        background: linear-gradient(135deg, rgba(139, 92, 246, 0.4), rgba(59, 130, 246, 0.4));
-        border-color: rgba(139, 92, 246, 0.5);
-      }
-      
       /* Responsive design */
       @media (max-width: 768px) {
         .skills-carousel-container {

@@ -119,14 +119,3 @@
   --z-fixed: 50;
   --z-modal: 100;
 }
-
-/* Dark Mode - Always enabled */
-
-/* Data attribute for manual theme toggle */
-[data-theme="dark"] {
-  --color-bg: var(--color-neutral-900);
-  --color-surface: var(--color-neutral-800);
-  --color-text: var(--color-neutral-50);
-  --color-text-secondary: var(--color-neutral-400);
-  --color-border: var(--color-neutral-700);
-}
