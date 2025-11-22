@@ -121,7 +121,7 @@ export function initHero() {
         top: 0;
         left: 0;
         width: 100%;
-        height: 120%; /* Extra 20% height for parallax movement */
+        height: 120%;
         background-image: url('/images/background_img.jpg');
         background-size: cover;
         background-position: center;
@@ -164,6 +164,7 @@ export function initHero() {
       }
 
       .hero-nav-link {
+        font-family: 'Cold Ocean', sans-serif;
         color: rgba(255, 255, 255, 0.7);
         text-decoration: none;
         font-size: var(--font-size-lg);
@@ -196,7 +197,6 @@ export function initHero() {
         border-radius: 2px;
       }
 
-      /* Mobile menu toggle styles */
       .mobile-menu-toggle {
         display: none;
         flex-direction: column;
@@ -226,7 +226,6 @@ export function initHero() {
         transform: rotate(45deg) translate(-5px, -6px);
       }
 
-      /* Responsive styles for hero navigation */
       @media (max-width: 768px) {
         .hero-nav {
           position: fixed;
@@ -341,8 +340,6 @@ export function initHero() {
         background-color: rgba(255, 255, 255, 0.1);
         transform: translateY(-2px);
       }
-
-
 
       .stars-container {
         position: absolute;
@@ -467,7 +464,6 @@ export function initHero() {
     </style>
   `;
 
-  // Role switching logic
   const roles = [
     "Full Stack Developer",
     "Web Developer",
@@ -489,11 +485,11 @@ export function initHero() {
   }
 
   function typeWriter(text, element, speed = 100) {
-    if (isTyping) return; // Prevent overlapping animations
+    if (isTyping) return;
     isTyping = true;
     element.textContent = '';
     let i = 0;
-    
+
     function type() {
       if (i < text.length && isTyping) {
         element.textContent += text.charAt(i);
@@ -503,16 +499,16 @@ export function initHero() {
         isTyping = false;
       }
     }
-    
+
     type();
   }
 
   function eraseText(element, speed = 50) {
-    if (isTyping) return; // Prevent overlapping animations
+    if (isTyping) return;
     isTyping = true;
     const text = element.textContent;
     let i = text.length;
-    
+
     function erase() {
       if (i > 0 && isTyping) {
         element.textContent = text.substring(0, i - 1);
@@ -520,7 +516,6 @@ export function initHero() {
         typewriterTimeout = setTimeout(erase, speed);
       } else {
         isTyping = false;
-        // After erasing, type the next role
         roleIndex = (roleIndex + 1) % roles.length;
         typewriterTimeout = setTimeout(() => {
           if (!isTyping) {
@@ -529,25 +524,23 @@ export function initHero() {
         }, 200);
       }
     }
-    
+
     erase();
   }
 
-  // Stars animation setup
   const starsContainer = document.querySelector('.stars-container');
-  const numStars = 50; // Number of stars to create
+  const numStars = 50;
 
   function createStars() {
     for (let i = 0; i < numStars; i++) {
       const star = document.createElement('div');
       star.classList.add('star');
-      
-      // Avoid placing stars in the middle section of the screen
+
       let top = Math.random() * 100;
-      while (top > 30 && top < 60) { // Avoid middle section where moon is
+      while (top > 30 && top < 60) {
         top = Math.random() * 100;
       }
-      
+
       star.style.left = `${Math.random() * 100}%`;
       star.style.top = `${top}%`;
       star.style.animationDelay = `${Math.random() * 1.5}s`;
@@ -558,59 +551,51 @@ export function initHero() {
   createStars();
 
 
-  // Start with first role
   setTimeout(() => {
     if (!isTyping) {
       typeWriter(roles[0], roleText);
     }
   }, 1000);
-  
-  // Rotate roles with proper timing
+
   let rotationInterval = setInterval(() => {
     if (!isTyping) {
       eraseText(roleText);
     }
-  }, 5000); // Cycle every 5 seconds for better timing
-  
-  // Cleanup on page unload
+  }, 5000);
+
   window.addEventListener('beforeunload', () => {
     clearInterval(rotationInterval);
     clearTypewriterTimeout();
     isTyping = false;
   });
 
-  // Parallax scroll effect
   window.addEventListener('scroll', () => {
     const scrolled = window.pageYOffset;
     const parallaxBg = document.querySelector('.parallax-bg');
-    parallaxBg.style.transform = `translateY(${scrolled * 0.3}px)`; // Reduced from 0.5 to 0.3 for smoother effect
+    parallaxBg.style.transform = `translateY(${scrolled * 0.3}px)`;
   });
 
-  // Reset transform on page load
   window.addEventListener('load', () => {
     const parallaxBg = document.querySelector('.parallax-bg');
-    parallaxBg.style.transform = 'translateY(0)';  // Reset any transform
+    parallaxBg.style.transform = 'translateY(0)';
   });
 
-  // Hero navigation functionality
   initHeroNavigation();
 }
 
 function initHeroNavigation() {
   let isManualClick = false;
   let clickTimeout;
-  
-  // Mobile menu toggle functionality
+
   const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
   const heroNavLinks = document.querySelector('.hero-nav-links');
-  
+
   if (mobileMenuToggle && heroNavLinks) {
     mobileMenuToggle.addEventListener('click', () => {
       mobileMenuToggle.classList.toggle('active');
       heroNavLinks.classList.toggle('active');
     });
 
-    // Close mobile menu when clicking outside
     document.addEventListener('click', (e) => {
       if (!mobileMenuToggle.contains(e.target) && !heroNavLinks.contains(e.target)) {
         mobileMenuToggle.classList.remove('active');
@@ -618,35 +603,31 @@ function initHeroNavigation() {
       }
     });
   }
-  
-  // Update active navigation link based on scroll position
+
   function updateActiveNavOnScroll() {
     if (isManualClick) return;
-    
+
     const heroSection = document.getElementById('hero');
     const otherSections = document.querySelectorAll('.section');
     const allSections = heroSection ? [heroSection, ...otherSections] : [...otherSections];
     const navLinks = document.querySelectorAll('.hero-nav-link');
-    
+
     let current = '';
     const scrollPosition = window.scrollY + 100;
-    
-    // Find the section that is currently in view
+
     allSections.forEach(section => {
       const sectionTop = section.offsetTop;
       const sectionBottom = sectionTop + section.clientHeight;
-      
+
       if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
         current = section.getAttribute('id');
       }
     });
-    
-    // If no section is found, default to hero section
+
     if (!current) {
       current = 'hero';
     }
-    
-    // Update active state
+
     navLinks.forEach(link => {
       link.classList.remove('active');
       if (link.getAttribute('href') === `#${current}`) {
@@ -654,52 +635,42 @@ function initHeroNavigation() {
       }
     });
   }
-  
-  // Add scroll listener
+
   window.addEventListener('scroll', updateActiveNavOnScroll);
-  
-  // Handle navigation clicks
+
   const navLinks = document.querySelectorAll('.hero-nav-link');
   navLinks.forEach(link => {
     link.addEventListener('click', function(e) {
       e.preventDefault();
-      
-      // Set manual click flag
+
       isManualClick = true;
-      
-      // Clear any existing timeout
+
       if (clickTimeout) clearTimeout(clickTimeout);
-      
-      // Remove active class from all links
+
       navLinks.forEach(l => l.classList.remove('active'));
-      
-      // Add active class to clicked link
+
       this.classList.add('active');
-      
-      // Close mobile menu after clicking a link
+
       if (mobileMenuToggle && heroNavLinks) {
         mobileMenuToggle.classList.remove('active');
         heroNavLinks.classList.remove('active');
       }
-      
-      // Smooth scroll to target section
+
       const targetId = this.getAttribute('href').substring(1);
       const targetSection = document.getElementById(targetId);
-      
+
       if (targetSection) {
         targetSection.scrollIntoView({
           behavior: 'smooth',
           block: 'start'
         });
       }
-      
-      // Reset manual click flag after navigation completes
+
       clickTimeout = setTimeout(() => {
         isManualClick = false;
       }, 1000);
     });
   });
-  
-  // Initial call to set active state
+
   updateActiveNavOnScroll();
 }

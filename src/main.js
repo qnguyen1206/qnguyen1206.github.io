@@ -2,12 +2,13 @@ import './styles/reset.css';
 import './styles/variables.css';
 import './styles/animations.css';
 import './styles/style.css';
-import './styles/projects.css';
+import './styles/projects-neon.css';
 import './styles/bubble.css';
+import './styles/skill-modal.css';
 
 import { initHero } from './sections/hero.js';
 import { initAbout } from './sections/about.js';
-import { initSkills } from './sections/skills.js';
+import { initSkills } from './sections/skills-parallax.js';
 import { initProjects } from './sections/projects.js';
 import { initCertificates } from './sections/certificates.js';
 import { initContacts } from './sections/contacts.js';
@@ -38,4 +39,3 @@ document.addEventListener('DOMContentLoaded', () => {
     initLazyLoading();
   }, 0);
 });
-

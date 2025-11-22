@@ -27,43 +27,37 @@ export function initSkills() {
   
   // Skills data organized by categories
   const skillsData = {
+    'Programming Languages': [
+      { name: 'JavaScript', icon: 'icons/javascript_icon.png', level: 80 },
+      { name: 'Python', icon: 'icons/python_icon.png', level: 85 },
+      { name: 'C#', icon: 'icons/csharp_icon.png', level: 75 },
+      { name: 'Java', icon: 'icons/java_icon.png', level: 80 },
+      { name: 'GDScript', icon: 'icons/godot_icon.png', level: 75 },
+      { name: 'C', icon: 'icons/c_icon.png', level: 70 },
+      { name: 'PHP', icon: 'icons/php_icon.png', level: 65 }
+    ],
     'Web Development': [
-      { name: 'HTML', icon: 'icons/html_icon.png', level: 95 },
-      { name: 'CSS', icon: 'icons/css_icon.png', level: 90 },
-      { name: 'JavaScript', icon: 'icons/javascript_icon.png', level: 90 },
+      { name: 'HTML', icon: 'icons/html_icon.png', level: 80 },
+      { name: 'CSS', icon: 'icons/css_icon.png', level: 75 },
       { name: 'React', icon: 'icons/react_icon.png', level: 85 },
       { name: 'Node.js', icon: 'icons/nodejs_icon.png', level: 80 },
       { name: 'Vite', icon: 'icons/vite_icon.png', level: 75 },
-      { name: 'PHP', icon: 'icons/php_icon.png', level: 65 }
-    ],
-    'App Development': [
-      { name: 'Java', icon: 'icons/java_icon.png', level: 80 },
-      { name: 'Python', icon: 'icons/python_icon.png', level: 85 },
-      { name: 'Android Studio', icon: 'icons/android_studio_icon.png', level: 75 },
-      { name: 'Firebase', icon: 'icons/firebase_icon.png', level: 80 },
-      { name: 'MySQL', icon: 'icons/mysql_icon.png', level: 70 },
-      { name: 'phpMyAdmin', icon: 'icons/phpmyadmin_icon.png', level: 65 },
-      { name: 'C', icon: 'icons/c_icon.png', level: 70 },
+      { name: 'Firebase', icon: 'icons/firebase_icon.png', level: 80 }
     ],
     'Game Development': [
       { name: 'Unity', icon: 'icons/unity_icon.png', level: 85 },
-      { name: 'Godot', icon: 'icons/godot_icon.png', level: 70 },
-      { name: 'C#', icon: 'icons/csharp_icon.png', level: 75 }
+      { name: 'Godot', icon: 'icons/godot_icon.png', level: 75 },
+      { name: 'Steamworks SDK', icon: 'icons/steam_icon.png', level: 70 }
     ],
-    'UI/UX Design': [
-      { name: 'Figma', icon: 'icons/figma_icon.png', level: 40 },
-      { name: 'Krita', icon: 'icons/krita_icon.png', level: 80 },
-      { name: 'MS Paint', icon: 'icons/ms_paint_icon.png', level: 75 }
+    'Mobile & Database': [
+      { name: 'Android Studio', icon: 'icons/android_studio_icon.png', level: 75 },
+      { name: 'MySQL', icon: 'icons/mysql_icon.png', level: 70 },
+      { name: 'Tkinter', icon: 'icons/python_icon.png', level: 70 }
     ],
-    'Tools': [
+    'Tools & Platforms': [
+      { name: 'Git', icon: 'icons/github_icon.png', level: 85 },
       { name: 'GitHub', icon: 'icons/github_icon.png', level: 90 },
-      { name: 'GitLab', icon: 'icons/gitlab_icon.png', level: 85 },
-      { name: 'A-Frame', icon: 'icons/aframe_icon.png', level: 65 },
-      { name: 'Raspberry Pi', icon: 'icons/raspberry_pi_icon.png', level: 75 },
-      { name: 'Flipper Zero', icon: 'icons/flipper_zero_icon.png', level: 60 },
-      { name: 'ChatGPT', icon: 'icons/chatgpt_icon.png', level: 85 },
-      { name: 'GitHub Copilot', icon: 'icons/copilot_icon.png', level: 80 },
-      { name: 'DeepSeek', icon: 'icons/deepseek_icon.png', level: 75 },
+      { name: 'GitLab', icon: 'icons/gitlab_icon.png', level: 85 }
     ]
   };
 

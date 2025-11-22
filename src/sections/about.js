@@ -31,8 +31,7 @@ export function initAbout() {
         font-size: var(--font-size-lg);
         font-family: 'Georgia', serif;
       }
-      
-      /* Highlight styles - bright blue/cyan with bold */
+
       .highlight {
         color: #00bfff;
         font-weight: bold;

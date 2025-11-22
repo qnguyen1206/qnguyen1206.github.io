@@ -1,4 +1,3 @@
-/* Keyframes animations */
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
@@ -48,7 +47,6 @@
   }
 }
 
-/* Section reveal animations */
 .section {
   transition: opacity 0.4s ease-out,
               transform 0.4s ease-out;
@@ -75,7 +73,6 @@
   visibility: visible;
 }
 
-/* Exclude hero section from the animation */
 #hero.section-hidden,
 #hero.section-visible {
   opacity: 1;
@@ -128,7 +125,6 @@
   }
 }
 
-/* Utility animation classes */
 .animate-fadeIn {
   animation: fadeIn var(--transition-normal) var(--easing-out) forwards;
 }
@@ -161,7 +157,6 @@
   animation: pulse 2s var(--easing-in-out) infinite;
 }
 
-/* Animation delays */
 .delay-100 { animation-delay: 100ms; }
 .delay-200 { animation-delay: 200ms; }
 .delay-300 { animation-delay: 300ms; }
@@ -170,7 +165,6 @@
 .delay-700 { animation-delay: 700ms; }
 .delay-1000 { animation-delay: 1000ms; }
 
-/* Animate elements on scroll */
 .reveal {
   opacity: 0;
   transform: translateY(20px);

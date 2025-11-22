@@ -1,4 +1,3 @@
-// Certificate data - Add your certificates here
 const certificatesData = [
   {
     title: "Typography: Hierarchy and Navigation",
@@ -30,82 +29,50 @@ const certificatesData = [
     date: "July 21, 2023",
     link: "https://www.freecodecamp.org/certification/quang_m_nguyen/javascript-algorithms-and-data-structures"
   }
-  // Add more certificates here by copying the structure above
 ];
 
-// Issuer icon mappings - maps issuer names to icon file paths or SVG icons
 const issuerIcons = {
-  // Technology Companies
   "Google": "https://developers.google.com/static/site-assets/logo-google.svg",
   "Microsoft": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b",
   "Amazon": "https://a0.awsstatic.com/libra-css/images/logos/aws_smile-header-desktop-en-white_59x35.png",
   "Meta": "https://about.meta.com/brand/resources/meta/company-brand/",
-  
-  // Educational Platforms
   "freeCodeCamp": "icons/freeCodeCamp.svg",
   "LinkedIn Learning": "icons/LinkedIn.svg",
   "Coursera": {
-    type: "svg", 
-    content: `<circle cx="12" cy="12" r="3"/>
-              <path d="M12 1v6"/>
-              <path d="M12 17v6"/>
-              <path d="M4.22 4.22l4.24 4.24"/>
-              <path d="15.54 15.54l4.24 4.24"/>
-              <path d="M1 12h6"/>
-              <path d="M17 12h6"/>
-              <path d="M4.22 19.78l4.24-4.24"/>
-              <path d="M15.54 8.46l4.24-4.24"/>`
+    type: "svg",
+    content: `<circle cx="12" cy="12" r="3"/><path d="M12 1v6"/><path d="M12 17v6"/><path d="M4.22 4.22l4.24 4.24"/><path d="15.54 15.54l4.24 4.24"/><path d="M1 12h6"/><path d="M17 12h6"/><path d="M4.22 19.78l4.24-4.24"/><path d="M15.54 8.46l4.24-4.24"/>`
   },
   "edX": {
     type: "svg",
-    content: `<path d="M2 3h6l4 6-4 6H2l4-6-4-6z"/>
-              <path d="M22 3h-6l-4 6 4 6h6l-4-6 4-6z"/>`
+    content: `<path d="M2 3h6l4 6-4 6H2l4-6-4-6z"/><path d="M22 3h-6l-4 6 4 6h6l-4-6 4-6z"/>`
   },
   "Udemy": {
     type: "svg",
-    content: `<circle cx="12" cy="12" r="10"/>
-              <polygon points="10,8 16,12 10,16"/>`
+    content: `<circle cx="12" cy="12" r="10"/><polygon points="10,8 16,12 10,16"/>`
   },
-  
-  // Certification Bodies
   "CompTIA": {
     type: "svg",
     content: `<path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>`
   },
   "Cisco": {
     type: "svg",
-    content: `<rect x="2" y="6" width="20" height="8" rx="1"/>
-              <circle cx="7" cy="10" r="1"/>
-              <circle cx="12" cy="10" r="1"/>
-              <circle cx="17" cy="10" r="1"/>`
+    content: `<rect x="2" y="6" width="20" height="8" rx="1"/><circle cx="7" cy="10" r="1"/><circle cx="12" cy="10" r="1"/><circle cx="17" cy="10" r="1"/>`
   },
-  
-  // Default fallback
   "default": {
     type: "svg",
-    content: `<circle cx="12" cy="6" r="3" />
-              <path d="M12 3v6" />
-              <path d="M21 11l-8 -2l-2 -1l-8 2v4.5a3.5 3.5 0 0 0 3.5 3.5h9a3.5 3.5 0 0 0 3.5 -3.5v-4.5z" />
-              <path d="M7 15v-2a1 1 0 0 1 1 -1h8a1 1 0 0 1 1 1v2" />`
+    content: `<circle cx="12" cy="6" r="3" /><path d="M12 3v6" /><path d="M21 11l-8 -2l-2 -1l-8 2v4.5a3.5 3.5 0 0 0 3.5 3.5h9a3.5 3.5 0 0 0 3.5 -3.5v-4.5z" /><path d="M7 15v-2a1 1 0 0 1 1 -1h8a1 1 0 0 1 1 1v2" />`
   }
 };
 
-// Function to get the appropriate icon for an issuer
 function getIssuerIcon(issuer) {
   const icon = issuerIcons[issuer] || issuerIcons["default"];
-  
+
   if (typeof icon === "string") {
-    // External image URL
     return `<img src="${icon}" alt="${issuer} logo" style="width: 48px; height: 48px; object-fit: contain;" />`;
   } else if (icon.type === "svg") {
-    // SVG content
-    return `<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-              ${icon.content}
-            </svg>`;
+    return `<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/>${icon.content}</svg>`;
   }
-  
-  // Fallback to default
+
   return getIssuerIcon("default");
 }
 
@@ -133,10 +100,8 @@ function generateCertificateHTML(cert) {
 export function initCertificates() {
   const certificatesSection = document.getElementById('certificates');
 
-  // Generate certificates HTML from data
   const certificatesHTML = certificatesData.map(cert => generateCertificateHTML(cert)).join('');
 
-  // Calculate how many certificates to show per view
   function getCertificatesPerView() {
     const screenWidth = window.innerWidth;
     if (screenWidth < 480) return 1;
@@ -475,21 +440,18 @@ export function initCertificates() {
   function updateCarousel() {
     const certificatesPerView = getCertificatesPerView();
     const totalPages = getTotalPages();
-    
+
     const certificatesGrid = document.getElementById('certificatesGrid');
     const dots = document.querySelectorAll('.cert-dot');
     const prevBtn = document.getElementById('prevCertBtn');
     const nextBtn = document.getElementById('nextCertBtn');
-    
-    // Reset grid styles for clean layout
+
     certificatesGrid.style.transform = 'translateX(0)';
     certificatesGrid.style.justifyContent = 'center';
-    
-    // Calculate which certificates to show
+
     const startIndex = currentIndex * certificatesPerView;
     const endIndex = Math.min(startIndex + certificatesPerView, certificatesData.length);
-    
-    // Show/hide certificates based on current page
+
     const allCards = certificatesGrid.querySelectorAll('.certificate-card');
     allCards.forEach((card, index) => {
       if (index >= startIndex && index < endIndex) {
@@ -498,13 +460,11 @@ export function initCertificates() {
         card.style.display = 'none';
       }
     });
-    
-    // Update dots
+
     dots.forEach((dot, index) => {
       dot.classList.toggle('active', index === currentIndex);
     });
 
-    // Update button states
     prevBtn.disabled = currentIndex === 0;
     nextBtn.disabled = currentIndex >= totalPages - 1;
   }
@@ -512,19 +472,17 @@ export function initCertificates() {
   function updateDotsAndCarousel() {
     const dotsContainer = document.getElementById('certificatesDots');
     dotsContainer.innerHTML = createDotsHTML();
-    
-    // Reset current index if it's now out of bounds
+
     const totalPages = getTotalPages();
     if (currentIndex >= totalPages) {
       currentIndex = totalPages - 1;
     }
-    
-    // Re-attach event listeners to new dots
+
     const newDots = document.querySelectorAll('.cert-dot');
     newDots.forEach((dot, index) => {
       dot.addEventListener('click', () => goToSlide(index));
     });
-    
+
     updateCarousel();
   }
 
@@ -534,7 +492,6 @@ export function initCertificates() {
       currentIndex++;
       updateCarousel();
     } else {
-      // Loop back to start
       currentIndex = 0;
       updateCarousel();
     }
@@ -546,7 +503,6 @@ export function initCertificates() {
       currentIndex--;
       updateCarousel();
     } else {
-      // Loop to end
       currentIndex = totalPages - 1;
       updateCarousel();
     }
@@ -565,13 +521,11 @@ export function initCertificates() {
     clearInterval(autoScroll);
   }
 
-  // Initial setup
   const certificatesGrid = document.getElementById('certificatesGrid');
   const dots = document.querySelectorAll('.cert-dot');
   const prevBtn = document.getElementById('prevCertBtn');
   const nextBtn = document.getElementById('nextCertBtn');
 
-  // Event listeners
   nextBtn.addEventListener('click', nextSlide);
   prevBtn.addEventListener('click', prevSlide);
 
@@ -579,48 +533,42 @@ export function initCertificates() {
     dot.addEventListener('click', () => goToSlide(index));
   });
 
-  // Auto-scroll functionality
   startAutoScroll();
 
-  // Pause auto-scroll on hover
   const certificatesContainer = document.querySelector('.certificates-container');
   certificatesContainer.addEventListener('mouseenter', stopAutoScroll);
   certificatesContainer.addEventListener('mouseleave', startAutoScroll);
 
-  // Touch/swipe support for mobile
   let startX = 0;
   let endX = 0;
 
   certificatesGrid.addEventListener('touchstart', (e) => {
     startX = e.touches[0].clientX;
-    stopAutoScroll(); // Pause auto-scroll during touch
+    stopAutoScroll();
   });
 
   certificatesGrid.addEventListener('touchend', (e) => {
     endX = e.changedTouches[0].clientX;
     const diff = startX - endX;
-    
-    if (Math.abs(diff) > 50) { // Minimum swipe distance
+
+    if (Math.abs(diff) > 50) {
       if (diff > 0) {
         nextSlide();
       } else {
         prevSlide();
       }
     }
-    
-    // Resume auto-scroll
+
     startAutoScroll();
   });
 
-  // Handle window resize
   let resizeTimeout;
   window.addEventListener('resize', () => {
     clearTimeout(resizeTimeout);
     resizeTimeout = setTimeout(() => {
       updateDotsAndCarousel();
-    }, 250); // Debounce resize events
+    }, 250);
   });
 
-  // Initial setup
   updateCarousel();
 }

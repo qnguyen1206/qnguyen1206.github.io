@@ -60,7 +60,6 @@
   }
 }
 
-/* Alternative animation patterns for more variety */
 @keyframes floatUpAlt1 {
   0% {
     transform: translateY(0) translateX(0) rotate(0deg) scale(0.75);
@@ -107,12 +106,10 @@
   }
 }
 
-/* Add subtle hover effect for enhanced realism */
 .bubble:hover {
   animation-play-state: paused;
 }
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
   .bubble {
     animation-duration: 4s;

@@ -17,7 +17,6 @@ export function initContacts() {
               <p>qnguyenpersonal@gmail.com</p>
             </div>
           </a>
-          
 
           <a href="https://www.linkedin.com/in/quang-nguyen-584005251" target="_blank" class="contact-item">
             <div class="contact-info">

@@ -1,0 +1,169 @@
+/* ===== SKILL SPEECH BUBBLE ===== */
+.skill-speech-bubble {
+  position: absolute;
+  width: 280px;
+  max-height: 400px;
+  background: linear-gradient(135deg, rgba(15,27,42,0.98), rgba(11,22,32,0.98));
+  border: 2px solid rgba(33,212,255,0.4);
+  border-radius: 16px;
+  padding: 18px;
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(0.9);
+  transition: all 0.3s cubic-bezier(0.2, 0.9, 0.2, 1);
+  box-shadow:
+    0 20px 60px rgba(0,0,0,0.8),
+    0 0 40px rgba(33,212,255,0.2),
+    inset 0 1px 0 rgba(255,255,255,0.1);
+  overflow-y: auto;
+  pointer-events: none;
+}
+
+.skill-speech-bubble.active {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+  pointer-events: auto;
+}
+
+.speech-bubble-close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+  transition: all 0.2s;
+  color: #93a3b6;
+  font-size: 20px;
+  line-height: 0;
+  padding: 0;
+}
+
+.speech-bubble-close:hover {
+  background: rgba(255,255,255,0.1);
+  color: #21d4ff;
+  transform: rotate(90deg);
+}
+
+.speech-bubble-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Bubble Header */
+.bubble-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(33,212,255,0.2);
+  margin-bottom: 10px;
+}
+
+.bubble-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #21d4ff;
+  text-shadow: 0 0 10px rgba(33,212,255,0.3);
+}
+
+/* Bubble Sections */
+.bubble-section {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+/* Experience Badge */
+.bubble-experience {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 8px 14px;
+  background: linear-gradient(135deg, rgba(139,92,255,0.2), rgba(33,212,255,0.2));
+  border: 1.5px solid rgba(139,92,255,0.4);
+  border-radius: 16px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #eaf3ff;
+  box-shadow: 0 2px 10px rgba(139,92,255,0.2);
+  margin-bottom: 10px;
+}
+
+.exp-icon {
+  font-size: 16px;
+}
+
+/* Highlights */
+.bubble-highlight {
+  font-size: 12px;
+  line-height: 1.4;
+  color: #c5d5e8;
+  padding: 6px 10px;
+  background: rgba(33,212,255,0.05);
+  border-left: 2px solid rgba(33,212,255,0.4);
+  border-radius: 4px;
+}
+
+/* Scrollbar styling */
+.skill-speech-bubble::-webkit-scrollbar {
+  width: 6px;
+}
+
+.skill-speech-bubble::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0.2);
+  border-radius: 10px;
+}
+
+.skill-speech-bubble::-webkit-scrollbar-thumb {
+  background: rgba(33,212,255,0.3);
+  border-radius: 10px;
+}
+
+.skill-speech-bubble::-webkit-scrollbar-thumb:hover {
+  background: rgba(33,212,255,0.5);
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .skill-speech-bubble {
+    width: 240px;
+    max-height: 350px;
+    padding: 14px;
+  }
+
+  .bubble-title {
+    font-size: 16px;
+  }
+
+  .bubble-experience {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+
+  .bubble-highlight {
+    font-size: 11px;
+    padding: 5px 8px;
+  }
+}
+

@@ -42,11 +42,19 @@ body {
 /* Sections that should be exactly 100vh */
 #home.section,
 #about.section,
-#skills.section,
 #certificates.section,
 #contact.section {
   height: 100vh;
   overflow: hidden;
+}
+
+/* Skills section - allow scrolling within section */
+#skills.section {
+  height: auto;
+  min-height: 100vh;
+  overflow: visible;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
 }
 
 /* Enable smooth scrolling and scroll snapping */
@@ -100,8 +108,15 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: var(--space-4);
 }
 
+/* Apply Berkshire Swash font to h1 (hero name) */
 h1 {
+  font-family: 'Berkshire Swash', cursive;
   font-size: var(--font-size-5xl);
+}
+
+/* Apply Cold Ocean font to section titles */
+h2 {
+  font-family: 'Cold Ocean', sans-serif;
 }
 
 h2 {
@@ -110,6 +125,13 @@ h2 {
 
 h3 {
   font-size: var(--font-size-3xl);
+}
+
+/* Apply Berkshire Swash to project and certificate titles */
+.project-card h3,
+.card-title,
+.certificate-card h3 {
+  font-family: 'Berkshire Swash', cursive !important;
 }
 
 h4 {

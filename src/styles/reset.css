@@ -1,4 +1,3 @@
-/* Modern CSS Reset */
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -39,7 +38,6 @@ ul, ol {
   list-style: none;
 }
 
-/* Remove all animations and transitions for people who prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation-duration: 0.01ms !important;
