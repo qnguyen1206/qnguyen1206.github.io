@@ -16,6 +16,9 @@ export function initProjects() {
       gitlabLink: '',
       externalLink: 'https://store.steampowered.com/app/2165230/Kart_The_Tech_Filled_Racing_Game/',
       images: [
+        { src: 'images/kart-tech-racing/kart_screenshot1.png', alt: 'Kart: The Tech Filled Racing Game Screenshot 1' },
+        { src: 'images/kart-tech-racing/kart_screenshot2.png', alt: 'Kart: The Tech Filled Racing Game Screenshot 2' },
+        { src: 'images/kart-tech-racing/kart_screenshot3.png', alt: 'Kart: The Tech Filled Racing Game Screenshot 3' },
         { src: 'images/kart-tech-racing/artist_cred.png', alt: 'Artist Credit' },
         { src: 'images/kart-tech-racing/designer_cred.png', alt: 'Designer Credit' },
         { src: 'images/kart-tech-racing/programmer_cred.png', alt: 'Programmer Credit' },
@@ -56,7 +59,12 @@ export function initProjects() {
       duration: '9 months (2025)',
       githubLink: 'https://github.com/qnguyen1206/RockOpenGameWeb',
       externalLink: 'https://rockopengameweb.web.app/',
-      images: []
+      images: [
+        { src: 'images/rock-open-game/rock_open_game_screenshot1.png', alt: 'Rock Open Game Screenshot 1' },
+        { src: 'images/rock-open-game/rock_open_game_screenshot2.png', alt: 'Rock Open Game Screenshot 2' },
+        { src: 'images/rock-open-game/rock_open_game_screenshot3.png', alt: 'Rock Open Game Screenshot 3' },
+        { src: 'images/rock-open-game/rock_open_game_screenshot4.png', alt: 'Rock Open Game Screenshot 4' }
+      ]
     },
     {
       id: 'infinity-mythical-hunt',
@@ -90,7 +98,7 @@ export function initProjects() {
       title: 'What Yours is Mime',
       category: 'Game Development',
       image: 'images/WYiMIcon.png',
-      description: 'A 2.5D bullet-hell game where players battle through a kingdom\'s dungeon as a jester.',
+      description: 'A 2.5D bullet-hell game where players battle through a kingdom\'s dungeon as a jester.\n This is a club project for Georigia State Panther Dev Club where I was tasked to program the game\'s enemy logic and implement the game\'s instruction system. I learned how to use Unity, C#, and Unity Plastic SCM to build and mantain the game.',
       tags: ['Unity', 'C#'],
       status: 'complete',
       role: 'Programmer',
@@ -99,7 +107,11 @@ export function initProjects() {
       tags: ['Unity', 'C#'],
       status: 'complete',
       externalLink: 'https://jhaboon.itch.io/wyim',
-      images: []
+      images: [
+        { src: 'images/wyim/wyim_screenshot1.png', alt: 'What Yours is Mime Screenshot 1' },
+        { src: 'images/wyim/wyim_screenshot2.png', alt: 'What Yours is Mime Screenshot 2' },
+        { src: 'images/wyim/wyim_screenshot3.png', alt: 'What Yours is Mime Screenshot 3' }
+      ]
     }
   ];
 
@@ -282,8 +294,7 @@ export function initProjects() {
     if (project.images && project.images.length > 0) {
       imagesHTML = `
         <div class="project-modal-images">
-          <h3>Gallery</h3>
-          <div class="project-images-grid">
+          <div class="project-images-masonry">
             ${project.images.map((img, index) => `
               <div class="project-image-item">
                 <img src="${img.src}" alt="${img.alt || project.title + ' - Image ' + (index + 1)}" loading="lazy">
