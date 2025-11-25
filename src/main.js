@@ -1,6 +1,7 @@
 import './styles/reset.css';
 import './styles/variables.css';
 import './styles/animations.css';
+import './styles/bubble.css';
 import './styles/style.css';
 import './styles/projects-neon.css';
 
