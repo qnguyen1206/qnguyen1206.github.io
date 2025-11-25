@@ -1,6 +1,9 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
+  // Copy the 3705 folder to dist during build
+  publicDir: 'public',
+  
   build: {
     // Enable minification
     minify: 'terser',
