@@ -32,8 +32,8 @@ export function initProjects() {
       description: 'A gamified to-do list app with DeepSeek-R1 14B param local AI integrated for personal use.',
       tags: ['Python', 'DeepSeek'],
       status: 'release',
-      role: 'Sole Developer',
-      duration: '9 months (2025)',
+      role: 'Solo Developer',
+      duration: '9 months (2025 - Present)',
       githubLink: 'https://github.com/Kairu1206/todoapp',
       externalLink: 'https://github.com/Kairu1206/todoapp',
       images: [
@@ -49,9 +49,11 @@ export function initProjects() {
       title: 'Rock Open Game',
       category: 'Game Development',
       image: 'images/webrockgameicon.png',
-      description: 'A browser-based multiplayer game reimagining a high school project with modern web technologies.',
+      description: 'A browser-based multiplayer game reimagining a high school project with modern web technologies.\n I started this project because I want to learn HTML, CSS, and JavaScript. In addition, I want to learn more about React, NodeJS, and Tailwind CSS. Moreover, I learn how hosting a website on Firebase and learn how to secure it.',
       tags: ['JavaScript', 'React', 'Firebase', 'NodeJS'],
       status: 'release',
+      role: 'Solo Developer',
+      duration: '9 months (2025)',
       githubLink: 'https://github.com/qnguyen1206/RockOpenGameWeb',
       externalLink: 'https://rockopengameweb.web.app/',
       images: []
@@ -64,6 +66,8 @@ export function initProjects() {
       description: 'A co-op game where players immerse in the world of mythical creatures with real-world folklores and fantasies.',
       tags: ['Godot', 'Steamworks', 'GitLab'],
       status: 'in development',
+      role: 'Sole Developer',
+      duration: '4 years (2021 - Present)',
       gitlabLink: 'https://gitlab.com/infinity-mythical-hunt',
       images: []
     },
@@ -72,9 +76,12 @@ export function initProjects() {
       title: 'WanderSync App',
       category: 'App Development',
       image: 'images/AndroidStudioIcon.png',
-      description: 'A collaborative travel planning app built using Agile methodology.',
+      description: 'A collaborative travel planning app built using Agile methodology.\nThis is a course project for CS 2340 at Georgia Tech. We learn how Agile methodology works and how to build an app using Android Studio and Firebase. In addition, we also learn how to use SonarQube to analyze our code quality. We also learn how to create unit tests and how to use JUnit to test our code.',
       tags: ['Java', 'Firebase', 'Android Studio'],
       status: 'complete',
+      role: 'Backend Programmer',
+      teamSize: '5',
+      duration: '4 months (2023)',
       githubLink: 'https://github.com/Kairu1206/CS2340D_Team26',
       images: []
     },
@@ -86,8 +93,9 @@ export function initProjects() {
       description: 'A 2.5D bullet-hell game where players battle through a kingdom\'s dungeon as a jester.',
       tags: ['Unity', 'C#'],
       status: 'complete',
-      role: '',
-      teamSize: '',
+      role: 'Programmer',
+      teamSize: '7',
+      duration: '4 months (2023)',
       tags: ['Unity', 'C#'],
       status: 'complete',
       externalLink: 'https://jhaboon.itch.io/wyim',
@@ -290,9 +298,9 @@ export function initProjects() {
     let caseStudyHTML = '';
 
     if (project.description || project.role || project.duration) {
-      // Convert line breaks to paragraphs
+      // Convert line breaks to paragraphs - handle both \n\n and \n
       const descriptionHTML = project.description 
-        ? project.description.split('\n\n').map(para => `<p>${para.trim()}</p>`).join('')
+        ? project.description.split(/\n+/).filter(para => para.trim()).map(para => `<p>${para.trim()}</p>`).join('')
         : '';
       
       caseStudyHTML += `
