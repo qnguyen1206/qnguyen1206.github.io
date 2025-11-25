@@ -3,30 +3,25 @@ export function initProjects() {
   if (!projects) return;
 
   const projectsData = [
-    // Visible projects (not hidden) - at the top
     {
       id: 'kart-tech-racing',
       title: 'Kart: The Tech Filled Racing Game',
       category: 'Game Development',
-      image: 'images/KartIcon.png',
+      image: 'images/KartIcon.jpg',
       description: 'A multiplayer racing game where cars and technology meet, designed using Godot and Steamworks.',
-      tags: ['Godot', 'GDScript', 'Steamworks', 'GitLab'],
+      tags: ['Godot', 'Steamworks', 'GitLab'],
       status: 'beta',
-      role: 'Lead Programmer, Gameplay Designer, UI/UX Designer',
-      teamSize: '4 developers',
-      duration: '5 years (2020 - 2025)',
-      problem: 'We wanted to create a unique racing experience that combined vehicle customization with abilities, while ensuring smooth multiplayer gameplay across different platforms.',
-      solution: '',
-      technicalHighlights: [],
-      challenges: [],
-      results: {
-        metrics: '',
-        impact: '',
-        learnings: ''
-      },
+      role: 'Lead Programmer, Gameplay Designer, UI/UX Designer, Artist, Technical Editor',
+      duration: '5 years (2020 - Present)',
       gitlabLink: '',
       externalLink: 'https://store.steampowered.com/app/2165230/Kart_The_Tech_Filled_Racing_Game/',
-      images: []
+      images: [
+        { src: 'images/kart-tech-racing/artist_cred.png', alt: 'Artist Credit' },
+        { src: 'images/kart-tech-racing/designer_cred.png', alt: 'Designer Credit' },
+        { src: 'images/kart-tech-racing/programmer_cred.png', alt: 'Programmer Credit' },
+        { src: 'images/kart-tech-racing/quang_cred.png', alt: 'Quang Credit' },
+        { src: 'images/kart-tech-racing/technical_editor.png', alt: 'Technical Editor Credit' }
+      ]
     },
 
     {
@@ -35,23 +30,19 @@ export function initProjects() {
       category: 'App Development',
       image: 'images/clipboard.png',
       description: 'A gamified to-do list app with DeepSeek-R1 14B param local AI integrated for personal use.',
-      tags: ['Python', 'DeepSeek', 'Tkinter'],
+      tags: ['Python', 'DeepSeek'],
       status: 'release',
-      role: '',
-      teamSize: '',
-      duration: '',
-      problem: '',
-      solution: '',
-      technicalHighlights: [],
-      challenges: [],
-      results: {
-        metrics: '',
-        impact: '',
-        learnings: ''
-      },
+      role: 'Sole Developer',
+      duration: '9 months (2025)',
       githubLink: 'https://github.com/Kairu1206/todoapp',
       externalLink: 'https://github.com/Kairu1206/todoapp',
-      images: []
+      images: [
+        { src: 'images/todoapp/todo-app-screenshot1.png', alt: 'TO DO App Screenshot 1' },
+        { src: 'images/todoapp/todo-app-screenshot2.png', alt: 'TO DO App Screenshot 2' },
+        { src: 'images/todoapp/todo-app-screenshot3.png', alt: 'TO DO App Screenshot 3' },
+        { src: 'images/todoapp/todo-app-screenshot4.png', alt: 'TO DO App Screenshot 4' },
+        { src: 'images/todoapp/todo-app-screenshot5.png', alt: 'TO DO App Screenshot 5' },
+      ]
     },
     {
       id: 'rock-open-game',
@@ -59,20 +50,8 @@ export function initProjects() {
       category: 'Game Development',
       image: 'images/webrockgameicon.png',
       description: 'A browser-based multiplayer game reimagining a high school project with modern web technologies.',
-      tags: ['JavaScript', 'React', 'Firebase', 'WebGL', 'NodeJS'],
+      tags: ['JavaScript', 'React', 'Firebase', 'NodeJS'],
       status: 'release',
-      role: '',
-      teamSize: '',
-      duration: '',
-      problem: '',
-      solution: '',
-      technicalHighlights: [],
-      challenges: [],
-      results: {
-        metrics: '',
-        impact: '',
-        learnings: ''
-      },
       githubLink: 'https://github.com/qnguyen1206/RockOpenGameWeb',
       externalLink: 'https://rockopengameweb.web.app/',
       images: []
@@ -83,20 +62,8 @@ export function initProjects() {
       category: 'Game Development',
       image: 'images/InQnityIcon.png',
       description: 'A co-op game where players immerse in the world of mythical creatures with real-world folklores and fantasies.',
-      tags: ['Godot', 'GDScript', 'Steamworks', 'GitLab'],
+      tags: ['Godot', 'Steamworks', 'GitLab'],
       status: 'in development',
-      role: '',
-      teamSize: '',
-      duration: '',
-      problem: '',
-      solution: '',
-      technicalHighlights: [],
-      challenges: [],
-      results: {
-        metrics: '',
-        impact: '',
-        learnings: ''
-      },
       gitlabLink: 'https://gitlab.com/infinity-mythical-hunt',
       images: []
     },
@@ -108,18 +75,6 @@ export function initProjects() {
       description: 'A collaborative travel planning app built using Agile methodology.',
       tags: ['Java', 'Firebase', 'Android Studio'],
       status: 'complete',
-      role: '',
-      teamSize: '',
-      duration: '',
-      problem: '',
-      solution: '',
-      technicalHighlights: [],
-      challenges: [],
-      results: {
-        metrics: '',
-        impact: '',
-        learnings: ''
-      },
       githubLink: 'https://github.com/Kairu1206/CS2340D_Team26',
       images: []
     },
@@ -133,16 +88,8 @@ export function initProjects() {
       status: 'complete',
       role: '',
       teamSize: '',
-      duration: '',
-      problem: '',
-      solution: '',
-      technicalHighlights: [],
-      challenges: [],
-      results: {
-        metrics: '',
-        impact: '',
-        learnings: ''
-      },
+      tags: ['Unity', 'C#'],
+      status: 'complete',
       externalLink: 'https://jhaboon.itch.io/wyim',
       images: []
     }
@@ -232,13 +179,6 @@ export function initProjects() {
       <div class="card-content">
         <h3 id="proj-${project.id}-title" class="card-title">${project.title}</h3>
         <div class="card-subtitle">${project.category}</div>
-
-        <div class="quick-stats" aria-label="Project details">
-          ${project.tags && project.tags.length > 0 ? `<div class="stat">Tech: ${project.tags.slice(0, 2).join(' • ')}</div>` : ''}
-          <div class="stat">Status: ${statusTags[project.status]?.label || 'N/A'}</div>
-        </div>
-
-        <p class="card-desc">${project.description}</p>
 
         <div class="cta-row">
           <div class="cta-buttons">
@@ -349,66 +289,21 @@ export function initProjects() {
 
     let caseStudyHTML = '';
 
-    if (project.role || project.teamSize || project.duration) {
+    if (project.description || project.role || project.duration) {
+      // Convert line breaks to paragraphs
+      const descriptionHTML = project.description 
+        ? project.description.split('\n\n').map(para => `<p>${para.trim()}</p>`).join('')
+        : '';
+      
       caseStudyHTML += `
         <div class="modal-section">
-          <h4>📋 Project Overview</h4>
+          <h4>📋 Project Details</h4>
+          ${descriptionHTML}
           <div class="project-meta-grid">
             ${project.role ? `<div class="meta-item"><strong>Role:</strong> ${project.role}</div>` : ''}
-            ${project.teamSize ? `<div class="meta-item"><strong>Team:</strong> ${project.teamSize}</div>` : ''}
             ${project.duration ? `<div class="meta-item"><strong>Duration:</strong> ${project.duration}</div>` : ''}
           </div>
-        </div>
-      `;
-    }
-
-    if (project.problem) {
-      caseStudyHTML += `
-        <div class="modal-section">
-          <h4>🎯 Problem / Context</h4>
-          <p>${project.problem}</p>
-        </div>
-      `;
-    }
-
-    if (project.solution) {
-      caseStudyHTML += `
-        <div class="modal-section">
-          <h4>💡 Solution / Approach</h4>
-          <p>${project.solution}</p>
-        </div>
-      `;
-    }
-
-    if (project.technicalHighlights && project.technicalHighlights.length > 0) {
-      caseStudyHTML += `
-        <div class="modal-section">
-          <h4>⚙️ Technical Highlights</h4>
-          <ul class="highlights-list">
-            ${project.technicalHighlights.map(highlight => `<li>${highlight}</li>`).join('')}
-          </ul>
-        </div>
-      `;
-    }
-
-    if (project.challenges && project.challenges.length > 0) {
-      caseStudyHTML += `
-        <div class="modal-section">
-          <h4>🚧 Challenges</h4>
-          <ul class="challenges-list">
-            ${project.challenges.map(challenge => `<li>${challenge}</li>`).join('')}
-          </ul>
-        </div>
-      `;
-    }
-
-    if (project.results) {
-      caseStudyHTML += `
-        <div class="modal-section">
-          <h4>📊 Results & Impact</h4>
-          ${project.results.metrics ? `<p><strong>Metrics:</strong> ${project.results.metrics}</p>` : ''}
-          ${project.results.impact ? `<p><strong>Impact:</strong> ${project.results.impact}</p>` : ''}
-          ${project.results.learnings ? `<p><strong>Key Learnings:</strong> ${project.results.learnings}</p>` : ''}
+          </div>
         </div>
       `;
     }
@@ -420,22 +315,9 @@ export function initProjects() {
           <span class="modal-category">${project.category}</span>
           ${statusBadgeHTML}
         </div>
-        <p class="modal-description">${project.description}</p>
       </div>
 
       ${caseStudyHTML}
-
-      <div class="modal-section">
-        <h4>🛠️ Technologies Used</h4>
-        <div class="tech-icons">
-          ${techHTML}
-        </div>
-      </div>
-
-      <div class="modal-section">
-        <h4>🔗 Links</h4>
-        ${linksHTML}
-      </div>
 
       ${imagesHTML}
     `;
@@ -475,6 +357,25 @@ export function initProjects() {
   const cards = document.querySelectorAll('.project-card');
 
   cards.forEach(card => {
+    // 3D tilt effect on mouse move
+    card.addEventListener('mousemove', function(e) {
+      const rect = card.getBoundingClientRect();
+      const x = e.clientX - rect.left;
+      const y = e.clientY - rect.top;
+      
+      const centerX = rect.width / 2;
+      const centerY = rect.height / 2;
+      
+      const rotateX = ((y - centerY) / centerY) * -10; // Max 10 degrees
+      const rotateY = ((x - centerX) / centerX) * 10;  // Max 10 degrees
+      
+      card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-10px) scale(1.02)`;
+    });
+    
+    card.addEventListener('mouseleave', function() {
+      card.style.transform = '';
+    });
+
     card.addEventListener('click', function(e) {
       if (e.target.closest('a')) return;
       if (e.target.closest('.read-more-btn')) return;

@@ -48,12 +48,6 @@
 }
 
 .section {
-  transition: opacity 0.4s ease-out,
-              transform 0.4s ease-out;
-  will-change: opacity, transform;
-}
-
-.section {
   transition: opacity 0.5s ease-out,
               transform 0.5s ease-out;
   will-change: opacity, transform;

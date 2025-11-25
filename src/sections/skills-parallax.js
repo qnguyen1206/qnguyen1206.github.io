@@ -349,18 +349,16 @@ export function initSkills() {
               class="skill-node" 
               data-index="${index}"
               data-category="${skill.category}"
-              data-level="${skill.level}"
               style="left: ${skill.x}%; top: ${skill.y}%;"
               tabindex="0"
               role="button"
-              aria-label="${skill.name} - ${skill.level}% proficiency"
+              aria-label="${skill.name}"
             >
               <div class="node-glow"></div>
               <div class="node-inner">
                 <img src="${skill.icon}" alt="${skill.name}" class="node-icon" loading="lazy">
-                <div class="node-label">${skill.name}</div>
-                <div class="node-level">${skill.level}%</div>
               </div>
+              <div class="node-label">${skill.name}</div>
               <div class="node-ring"></div>
             </div>
           `).join('')}
@@ -559,10 +557,9 @@ export function initSkills() {
       }
 
       .node-icon {
-        width: 32px;
-        height: 32px;
+        width: 40px;
+        height: 40px;
         object-fit: contain;
-        margin-bottom: 4px;
         filter: drop-shadow(0 0 5px rgba(33,212,255,0.5));
       }
 
@@ -574,6 +571,11 @@ export function initSkills() {
         line-height: 1.2;
         opacity: 0;
         transition: opacity 0.3s;
+        position: absolute;
+        bottom: -25px;
+        left: 50%;
+        transform: translateX(-50%);
+        white-space: nowrap;
       }
 
       .skill-node:hover .node-label,
@@ -582,10 +584,7 @@ export function initSkills() {
       }
 
       .node-level {
-        font-size: 11px;
-        font-weight: 700;
-        color: #21d4ff;
-        margin-top: 2px;
+        display: none;
       }
 
       .node-ring {
@@ -648,16 +647,13 @@ export function initSkills() {
         }
 
         .node-icon {
-          width: 24px;
-          height: 24px;
+          width: 32px;
+          height: 32px;
         }
 
         .node-label {
-          font-size: 8px;
-        }
-
-        .node-level {
           font-size: 9px;
+          bottom: -22px;
         }
 
         .section-title {
@@ -677,8 +673,13 @@ export function initSkills() {
         }
 
         .node-icon {
-          width: 20px;
-          height: 20px;
+          width: 28px;
+          height: 28px;
+        }
+
+        .node-label {
+          font-size: 8px;
+          bottom: -20px;
         }
       }
     </style>

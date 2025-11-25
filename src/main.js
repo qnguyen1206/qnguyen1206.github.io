@@ -3,8 +3,6 @@ import './styles/variables.css';
 import './styles/animations.css';
 import './styles/style.css';
 import './styles/projects-neon.css';
-import './styles/bubble.css';
-import './styles/skill-modal.css';
 
 import { initHero } from './sections/hero.js';
 import { initAbout } from './sections/about.js';

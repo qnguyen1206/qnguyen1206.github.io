@@ -17,12 +17,17 @@
 
 /* Card base */
 .project-card {
-  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.02));
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.25));
+  backdrop-filter: blur(20px) saturate(180%) brightness(1.5);
+  -webkit-backdrop-filter: blur(20px) saturate(180%) brightness(1.5);
   border-radius: 14px;
   padding: 16px;
-  box-shadow: 0 8px 30px rgba(3,10,20,0.6), inset 0 1px 0 rgba(255,255,255,0.02);
-  border: 1px solid rgba(255,255,255,0.04);
-  transition: transform .28s cubic-bezier(.2,.9,.2,1), box-shadow .28s;
+  box-shadow: 
+    0 8px 32px 0 rgba(255, 255, 255, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.3);
+  border: 1.5px solid rgba(255, 255, 255, 0.5);
+  transition: transform .28s cubic-bezier(.2,.9,.2,1), box-shadow .28s, background .28s;
   position: relative;
   overflow: visible;
   min-height: 420px;
@@ -30,18 +35,20 @@
   flex-direction: column;
   justify-content: flex-start;
   cursor: pointer;
+  transform-style: preserve-3d;
+  will-change: transform;
 }
 
 /* Neon outline glow (appears on hover) */
 .project-card::before {
   content: "";
   position: absolute;
-  inset: -1px;
-  border-radius: calc(14px + 1px);
+  inset: -2px;
+  border-radius: calc(14px + 2px);
   pointer-events: none;
-  background: linear-gradient(90deg, rgba(33,212,255,0.06), rgba(139,92,255,0.06));
-  filter: blur(12px) saturate(120%);
-  opacity: 0.25;
+  background: linear-gradient(135deg, rgba(33,212,255,0.6), rgba(139,92,255,0.6));
+  filter: blur(15px) saturate(150%);
+  opacity: 0;
   transition: opacity .28s;
   z-index: 0;
 }
@@ -49,12 +56,17 @@
 .project-card:focus-within,
 .project-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 18px 50px rgba(10,20,35,0.7);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.45), rgba(255, 255, 255, 0.35));
+  box-shadow: 
+    0 18px 50px rgba(255, 255, 255, 0.15),
+    inset 0 1px 0 rgba(255, 255, 255, 0.6),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.4);
+  border-color: rgba(255, 255, 255, 0.6);
 }
 
 .project-card:focus-within::before,
 .project-card:hover::before {
-  opacity: 1;
+  opacity: 0.8;
 }
 
 /* Status badge */
@@ -176,13 +188,13 @@
   font-size: 20px;
   font-weight: 700;
   margin: 6px 0;
-  color: #eaf3ff;
+  color: #ffffff;
   letter-spacing: -0.01em;
 }
 
 .card-subtitle {
   font-size: 13px;
-  color: #21d4ff;
+  color: #ffffff;
   font-weight: 600;
   margin-bottom: 10px;
 }
@@ -197,7 +209,7 @@
 
 .stat {
   font-size: 12px;
-  color: #93a3b6;
+  color: #ffffff;
   background: rgba(255,255,255,0.03);
   padding: 6px 9px;
   border-radius: 999px;
@@ -207,7 +219,7 @@
 
 /* Description */
 .card-desc {
-  color: #93a3b6;
+  color: #ffffff;
   font-size: 14px;
   line-height: 1.45;
   margin-top: 8px;
@@ -368,6 +380,34 @@
   animation: slideUp 0.3s cubic-bezier(.2,.9,.2,1);
 }
 
+/* Custom scrollbar for modal */
+.project-modal-content::-webkit-scrollbar {
+  width: 8px;
+}
+
+.project-modal-content::-webkit-scrollbar-track {
+  background: rgba(10, 18, 25, 0.5);
+  border-radius: 10px;
+}
+
+.project-modal-content::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    to bottom,
+    rgba(33, 212, 255, 0.6),
+    rgba(139, 92, 255, 0.6)
+  );
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(33, 212, 255, 0.5);
+}
+
+.project-modal-content::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    to bottom,
+    rgba(33, 212, 255, 0.8),
+    rgba(139, 92, 255, 0.8)
+  );
+}
+
 @keyframes slideUp {
   from {
     transform: translateY(30px);
@@ -412,6 +452,7 @@
 }
 
 .modal-title {
+  font-family: 'Berkshire Swash', cursive;
   font-size: 32px;
   font-weight: 700;
   color: #eaf3ff;
@@ -623,21 +664,25 @@
 
 .project-images-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 16px;
-  margin-top: 12px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 16px;
 }
 
 .project-image-item img {
   width: 100%;
   height: auto;
-  border-radius: 8px;
-  border: 1px solid rgba(255,255,255,0.05);
-  transition: transform .22s;
+  border-radius: 12px;
+  border: 1px solid rgba(33,212,255,0.2);
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  cursor: pointer;
 }
 
 .project-image-item img:hover {
-  transform: scale(1.02);
+  transform: scale(1.05);
+  border-color: rgba(33,212,255,0.4);
+  box-shadow: 0 8px 24px rgba(33,212,255,0.3);
 }
 
 .project-image-caption {
@@ -653,12 +698,14 @@
   }
 
   .modal-title {
+    font-family: 'Berkshire Swash', cursive;
     font-size: 24px;
   }
 
   .modal-gallery,
   .project-images-grid {
     grid-template-columns: 1fr;
+    gap: 16px;
   }
 
   .project-meta-grid {
