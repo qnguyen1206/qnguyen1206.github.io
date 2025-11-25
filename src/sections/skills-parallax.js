@@ -11,16 +11,10 @@ export function initSkills() {
       depth: 0.3,
       category: 'Languages',
       dialogue: {
-        greeting: "Hey there! 👋 I'm JavaScript, the language of the web.",
-        story: "I've been Quang's go-to for creating interactive experiences. From building dynamic web applications to game development, I'm everywhere! We've worked together on countless projects - from React frontends to Node.js backends.",
-        experience: "3+ years of hands-on experience",
+        experience: "1 year",
         highlights: [
           "Built interactive portfolio websites with vanilla JS",
-          "Developed React applications with modern hooks and state management",
-          "Created game mechanics and UI systems",
-          "Implemented real-time features with WebSockets"
-        ],
-        funFact: "Did you know? Quang once debugged a tricky async/await issue at 2 AM and felt like a wizard when it finally worked! ✨"
+        ]
       }
     },
     {
@@ -32,16 +26,11 @@ export function initSkills() {
       depth: 0.5,
       category: 'Languages',
       dialogue: {
-        greeting: "Hello! 🐍 Python here - simple, powerful, versatile.",
-        story: "I'm Quang's favorite for rapid prototyping and data work. Whether it's scripting automation, building backends with Flask/Django, or diving into data analysis, I make complex tasks feel simple.",
-        experience: "4+ years of experience",
+        experience: "3 years",
         highlights: [
-          "Automated repetitive tasks and workflows",
-          "Built REST APIs with Flask and FastAPI",
-          "Data processing and analysis scripts",
-          "Game development with Pygame"
-        ],
-        funFact: "Quang loves my clean syntax so much that sometimes he wishes other languages had significant whitespace! 😄"
+          "Build a to-do list app with Python",
+          "Game development with Python"
+        ]
       }
     },
     {
@@ -53,16 +42,10 @@ export function initSkills() {
       depth: 0.4,
       category: 'Languages',
       dialogue: {
-        greeting: "Greetings! ⚡ C# - the powerhouse behind Unity games.",
-        story: "I'm Quang's partner in game development! Together we've built racing games, puzzle mechanics, and complex game systems. My strong typing and OOP features help keep game code organized and maintainable.",
-        experience: "3+ years in game development",
+        experience: "3 years",
         highlights: [
-          "Developed multiplayer racing game mechanics",
-          "Implemented custom physics and vehicle systems",
-          "Created modular game architecture patterns",
-          "Built UI systems and game state management"
-        ],
-        funFact: "The first time Quang made a car drift smoothly in Unity using C#, he couldn't stop grinning for hours! 🏎️"
+
+        ]
       }
     },
     {
@@ -74,16 +57,10 @@ export function initSkills() {
       depth: 0.6,
       category: 'Languages',
       dialogue: {
-        greeting: "Hello! ☕ Java - enterprise-grade and battle-tested.",
-        story: "I taught Quang the fundamentals of object-oriented programming and software design patterns. From college projects to enterprise applications, I've been there for the journey.",
-        experience: "3+ years of experience",
+        experience: "3 years",
         highlights: [
-          "Built desktop applications with JavaFX",
-          "Implemented design patterns (MVC, Singleton, Factory)",
-          "Developed data structures and algorithms",
-          "Created multi-threaded applications"
-        ],
-        funFact: "Quang's first 'Hello World' was in Java - it's where the coding journey began! 🚀"
+
+        ]
       }
     },
     {
@@ -95,16 +72,10 @@ export function initSkills() {
       depth: 0.2,
       category: 'Web',
       dialogue: {
-        greeting: "Hi! 📄 HTML - the foundation of every website.",
-        story: "I'm the skeleton that holds everything together! Quang uses me to structure content semantically, ensuring accessibility and SEO. Every beautiful website starts with me.",
-        experience: "4+ years of experience",
+        experience: "3 years",
         highlights: [
-          "Semantic HTML5 markup for accessibility",
-          "SEO-optimized page structures",
-          "Responsive layouts with modern HTML",
-          "Canvas and SVG for graphics"
-        ],
-        funFact: "Quang still remembers the satisfaction of seeing his first <h1> tag render in a browser! 🎉"
+
+        ]
       }
     },
     {
@@ -116,16 +87,10 @@ export function initSkills() {
       depth: 0.4,
       category: 'Web',
       dialogue: {
-        greeting: "Hey! 🎨 CSS - I make the web beautiful.",
-        story: "I'm the artist of the web! From responsive layouts to smooth animations, I bring Quang's designs to life. Flexbox, Grid, animations - I do it all with style.",
-        experience: "4+ years of styling experience",
+        experience: "3 years",
         highlights: [
-          "Modern CSS with Flexbox and Grid",
-          "Smooth animations and transitions",
-          "Responsive design for all devices",
-          "Custom properties (CSS variables) for theming"
-        ],
-        funFact: "Quang once spent 2 hours perfecting a button hover effect. Worth it! ✨"
+
+        ]
       }
     },
     {
@@ -137,16 +102,10 @@ export function initSkills() {
       depth: 0.5,
       category: 'Web',
       dialogue: {
-        greeting: "Hey! ⚛️ React - building UIs, one component at a time.",
-        story: "I revolutionized how Quang builds web applications! With my component-based architecture and hooks, we create maintainable, scalable applications. This very portfolio? Built with me!",
-        experience: "2+ years of modern React",
+        experience: "1 year",
         highlights: [
-          "Built this interactive portfolio with React",
-          "State management with hooks and context",
-          "Component-driven development",
-          "Performance optimization with useMemo and useCallback"
-        ],
-        funFact: "The first time Quang understood useEffect's dependency array, it was like unlocking a superpower! 🦸"
+
+        ]
       }
     },
     {
@@ -158,16 +117,10 @@ export function initSkills() {
       depth: 0.3,
       category: 'Web',
       dialogue: {
-        greeting: "What's up! 🟢 Node.js - JavaScript on the server.",
-        story: "I let Quang use JavaScript everywhere! From REST APIs to real-time applications, I handle the backend while keeping everything in one language. Full-stack JavaScript for the win!",
-        experience: "2+ years of backend development",
+        experience: "1 year",
         highlights: [
-          "Built RESTful APIs with Express",
-          "Real-time features with Socket.io",
-          "Database integration (MongoDB, PostgreSQL)",
-          "Authentication and authorization systems"
-        ],
-        funFact: "Quang loves that he can share code between frontend and backend. One language to rule them all! 👑"
+
+        ]
       }
     },
     {
@@ -179,16 +132,10 @@ export function initSkills() {
       depth: 0.6,
       category: 'Game Dev',
       dialogue: {
-        greeting: "Hello! 🎮 Unity - where games come to life.",
-        story: "I'm Quang's playground for game development! Together we've built racing games, puzzle games, and experimental prototypes. My powerful engine and C# scripting make game dev dreams reality.",
-        experience: "3+ years of game development",
+        experience: "4 years",
         highlights: [
-          "Developed multiplayer racing game 'Velocity Nexus'",
-          "Implemented custom physics and vehicle controllers",
-          "Created shader effects and visual polish",
-          "Built cross-platform games (PC, WebGL, Mobile)"
-        ],
-        funFact: "The moment Quang's first game character moved on screen, he knew game dev was his passion! 🎯"
+
+        ]
       }
     },
     {
@@ -200,16 +147,10 @@ export function initSkills() {
       depth: 0.4,
       category: 'Game Dev',
       dialogue: {
-        greeting: "Hi there! 🤖 Godot - the open-source game engine.",
-        story: "I'm the lightweight alternative! Quang uses me for rapid prototyping and 2D games. My node-based architecture and GDScript make game development intuitive and fun.",
-        experience: "2+ years of experience",
+        experience: "5 years",
         highlights: [
-          "Built 2D puzzle and platformer prototypes",
-          "Scene system for modular game design",
-          "Custom signals and event systems",
-          "Lightweight and fast iteration"
-        ],
-        funFact: "Quang appreciates my open-source nature and how quickly he can go from idea to playable prototype! ⚡"
+
+        ]
       }
     },
     {
@@ -221,16 +162,10 @@ export function initSkills() {
       depth: 0.3,
       category: 'Tools',
       dialogue: {
-        greeting: "Hey! 🐙 Git/GitHub - version control and collaboration.",
-        story: "I'm Quang's safety net and collaboration hub! Every project, every commit, every branch - I keep track of it all. From solo projects to team collaborations, I make sure nothing is ever lost.",
-        experience: "4+ years of version control",
+        experience: "4 years",
         highlights: [
-          "Managed 50+ repositories and projects",
-          "Branching strategies and pull requests",
-          "GitHub Actions for CI/CD",
-          "Open source contributions and collaboration"
-        ],
-        funFact: "Quang's most satisfying moment? Successfully resolving a complex merge conflict without losing any code! 🎊"
+
+        ]
       }
     },
     {
@@ -242,16 +177,10 @@ export function initSkills() {
       depth: 0.4,
       category: 'Tools',
       dialogue: {
-        greeting: "Hello! 🔥 Firebase - backend as a service.",
-        story: "I make backend development a breeze! Quang uses me for real-time databases, authentication, and hosting. No server management needed - just focus on building great features!",
-        experience: "2+ years of experience",
+        experience: "1 year",
         highlights: [
-          "Real-time database for live updates",
-          "User authentication and authorization",
-          "Cloud storage for media files",
-          "Firebase Hosting for web apps"
-        ],
-        funFact: "The first time Quang saw data sync in real-time across devices, it felt like magic! ✨"
+
+        ]
       }
     },
     {
@@ -263,16 +192,10 @@ export function initSkills() {
       depth: 0.6,
       category: 'Tools',
       dialogue: {
-        greeting: "Hi! 🦊 GitLab - DevOps platform and CI/CD powerhouse.",
-        story: "I'm GitHub's cousin with extra DevOps superpowers! Quang uses me for enterprise projects, CI/CD pipelines, and team collaboration. My built-in tools make the entire development lifecycle smooth.",
-        experience: "2+ years of experience",
+        experience: "3 years",
         highlights: [
-          "CI/CD pipelines for automated testing and deployment",
-          "Issue tracking and project management",
-          "Code review and merge requests",
-          "Container registry and DevOps tools"
-        ],
-        funFact: "Quang loves watching the CI/CD pipeline turn green after a successful deployment! 🟢"
+
+        ]
       }
     },
   ];
@@ -680,6 +603,157 @@ export function initSkills() {
         .node-label {
           font-size: 8px;
           bottom: -20px;
+        }
+      }
+
+      /* Speech Bubble Styles */
+      .skill-speech-bubble {
+        position: absolute;
+        width: 280px;
+        max-height: 400px;
+        background: linear-gradient(135deg, rgba(15,27,42,0.98), rgba(11,22,32,0.98));
+        border: 2px solid rgba(33,212,255,0.4);
+        border-radius: 16px;
+        padding: 18px;
+        z-index: 1000;
+        opacity: 0;
+        visibility: hidden;
+        transform: scale(0.9);
+        transition: all 0.3s cubic-bezier(0.2, 0.9, 0.2, 1);
+        box-shadow:
+          0 20px 60px rgba(0,0,0,0.8),
+          0 0 40px rgba(33,212,255,0.2),
+          inset 0 1px 0 rgba(255,255,255,0.1);
+        overflow-y: auto;
+        pointer-events: none;
+      }
+
+      .skill-speech-bubble.active {
+        opacity: 1;
+        visibility: visible;
+        transform: scale(1);
+        pointer-events: auto;
+      }
+
+      .speech-bubble-close {
+        position: absolute;
+        top: 14px;
+        right: 14px;
+        background: rgba(255,255,255,0.05);
+        border: 1px solid rgba(255,255,255,0.1);
+        border-radius: 50%;
+        width: 28px;
+        height: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        z-index: 10;
+        transition: all 0.2s;
+        color: #93a3b6;
+        font-size: 20px;
+        line-height: 0;
+        padding: 0;
+      }
+
+      .speech-bubble-close:hover {
+        background: rgba(255,255,255,0.1);
+        color: #21d4ff;
+        transform: rotate(90deg);
+      }
+
+      .speech-bubble-content {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+      }
+
+      .bubble-header {
+        padding-bottom: 10px;
+        border-bottom: 1px solid rgba(33,212,255,0.2);
+        margin-bottom: 10px;
+      }
+
+      .bubble-title {
+        font-size: 18px;
+        font-weight: 700;
+        color: #21d4ff;
+        text-shadow: 0 0 10px rgba(33,212,255,0.3);
+      }
+
+      .bubble-experience {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        padding: 8px 14px;
+        background: linear-gradient(135deg, rgba(139,92,255,0.2), rgba(33,212,255,0.2));
+        border: 1.5px solid rgba(139,92,255,0.4);
+        border-radius: 16px;
+        font-size: 13px;
+        font-weight: 600;
+        color: #eaf3ff;
+        box-shadow: 0 2px 10px rgba(139,92,255,0.2);
+        margin-bottom: 10px;
+      }
+
+      .exp-icon {
+        font-size: 16px;
+      }
+
+      .bubble-section {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+      }
+
+      .bubble-highlight {
+        font-size: 12px;
+        line-height: 1.4;
+        color: #c5d5e8;
+        padding: 6px 10px;
+        background: rgba(33,212,255,0.05);
+        border-left: 2px solid rgba(33,212,255,0.4);
+        border-radius: 4px;
+      }
+
+      .skill-speech-bubble::-webkit-scrollbar {
+        width: 6px;
+      }
+
+      .skill-speech-bubble::-webkit-scrollbar-track {
+        background: rgba(0,0,0,0.2);
+        border-radius: 10px;
+      }
+
+      .skill-speech-bubble::-webkit-scrollbar-thumb {
+        background: rgba(33,212,255,0.3);
+        border-radius: 10px;
+      }
+
+      .skill-speech-bubble::-webkit-scrollbar-thumb:hover {
+        background: rgba(33,212,255,0.5);
+      }
+
+      @media (max-width: 768px) {
+        .skill-speech-bubble {
+          width: 240px;
+          max-height: 350px;
+          padding: 14px;
+        }
+
+        .bubble-title {
+          font-size: 16px;
+        }
+
+        .bubble-experience {
+          font-size: 12px;
+          padding: 6px 12px;
+        }
+
+        .bubble-highlight {
+          font-size: 11px;
+          padding: 5px 8px;
         }
       }
     </style>
