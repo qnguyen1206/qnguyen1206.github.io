@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decibel Monitor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Left side: Decibel Meter -->
+        <div class="decibel-meter">
+            <h3 class="meter-title">Decibel Scale</h3>
+            <div class="meter-scale">
+                <div class="meter-level" data-level="dangerous">
+                    <div class="meter-range">85+ dB</div>
+                    <div class="meter-label">Harmful</div>
+                    <div class="meter-bar" style="background: #ef4444;"></div>
+                </div>
+                <div class="meter-level" data-level="loud">
+                    <div class="meter-range">70-85 dB</div>
+                    <div class="meter-label">Loud</div>
+                    <div class="meter-bar" style="background: #f97316;"></div>
+                </div>
+                <div class="meter-level" data-level="moderate">
+                    <div class="meter-range">50-70 dB</div>
+                    <div class="meter-label">Moderate</div>
+                    <div class="meter-bar" style="background: #fbbf24;"></div>
+                </div>
+                <div class="meter-level" data-level="normal">
+                    <div class="meter-range">30-50 dB</div>
+                    <div class="meter-label">Normal</div>
+                    <div class="meter-bar" style="background: #84cc16;"></div>
+                </div>
+                <div class="meter-level" data-level="quiet">
+                    <div class="meter-range">0-30 dB</div>
+                    <div class="meter-label">Quiet</div>
+                    <div class="meter-bar" style="background: #4ade80;"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Center: Main content -->
+        <div class="main-content">
+            <div class="time-display" id="timeDisplay">--</div>
+
+            <div class="locations-grid">
+                <!-- PG3 -->
+                <div class="location-card" data-location="PG3">
+                    <h2 class="location-name">PG3</h2>
+                    <svg class="decibel-circle" width="300" height="300">
+                        <g class="particle-layer"></g>
+                        <text x="150" y="140" class="decibel-value">--</text>
+                        <text x="150" y="165" class="decibel-unit">dB</text>
+                    </svg>
+                    <div class="waitz-info">
+                        <div class="waitz-percentage">--</div>
+                        <div class="waitz-label">Occupancy</div>
+                    </div>
+                </div>
+
+                <!-- Kaldis -->
+                <div class="location-card" data-location="Kaldis">
+                    <h2 class="location-name">Kaldis</h2>
+                    <svg class="decibel-circle" width="300" height="300">
+                        <g class="particle-layer"></g>
+                        <text x="150" y="140" class="decibel-value">--</text>
+                        <text x="150" y="165" class="decibel-unit">dB</text>
+                    </svg>
+                    <div class="waitz-info">
+                        <div class="waitz-percentage">--</div>
+                        <div class="waitz-label">Occupancy</div>
+                    </div>
+                </div>
+
+                <!-- Blue Donkey -->
+                <div class="location-card" data-location="Blue Donkey">
+                    <h2 class="location-name">Blue Donkey</h2>
+                    <svg class="decibel-circle" width="300" height="300">
+                        <g class="particle-layer"></g>
+                        <text x="150" y="140" class="decibel-value">--</text>
+                        <text x="150" y="165" class="decibel-unit">dB</text>
+                    </svg>
+                    <div class="waitz-info">
+                        <div class="waitz-percentage">--</div>
+                        <div class="waitz-label">Occupancy</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Animal Sound Pad - Bottom -->
+        <div class="animal-sounds-section">
+            <h3 class="sounds-title">🎵 Animal Sounds</h3>
+            <p class="sounds-subtitle">Click to play</p>
+            
+            <div class="sound-pad-grid" id="soundPadGrid">
+                <!-- Buttons will be generated dynamically from JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
