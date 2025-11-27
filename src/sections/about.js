@@ -100,7 +100,7 @@ export function initAbout() {
       .about-image-right img {
         width: auto;
         height: auto;
-        max-height: 700px;
+        max-height: 450px;
         max-width: 700px;
         object-fit: contain;
         border-radius: 12px;
