@@ -259,9 +259,9 @@ function formatCurrentTime() {
 // Particle system - now using connected path with multiple waves
 const numParticles = 100;
 const numWaves = 3;
-const baseRadius = 105; // Adjusted for smaller SVG (300x300)
-const centerX = 150;
-const centerY = 150;
+const baseRadius = 84; // Adjusted for smaller SVG (240x240, 80% of 300)
+const centerX = 120;
+const centerY = 120;
 
 // Store particles and paths for each location
 const locationVisualizations = {};
@@ -462,13 +462,8 @@ function updateLocationCard(locationName, decibel) {
 const ANIMAL_SOUNDS = [
     { name: "Dog", icon: "images/dog.png", soundFile: "sounds/dog.mp3" },
     { name: "Cat", icon: "images/cat.png", soundFile: "sounds/cat.mp3" },
-    { name: "Bird", icon: "images/bird.png", soundFile: "sounds/bird.mp3" },
     { name: "Lion", icon: "images/lion.png", soundFile: "sounds/lion.mp3" },
-    { name: "Elephant", icon: "images/elephant.png", soundFile: "sounds/elephant.mp3" },
     { name: "Frog", icon: "images/frog.png", soundFile: "sounds/frog.mp3" },
-    { name: "Wolf", icon: "images/wolf.png", soundFile: "sounds/wolf.mp3" },
-    { name: "Cow", icon: "images/cow.png", soundFile: "sounds/cow.mp3" },
-    { name: "Pig", icon: "images/pig.png", soundFile: "sounds/pig.mp3" },
     // Add more animals here:
     // { name: "Horse", icon: "images/horse.png", soundFile: "sounds/horse.mp3" },
 ];
@@ -679,13 +674,37 @@ function updateAllDisplays() {
         timeDisplay.textContent = formatCurrentTime();
     }
 
+    // Calculate average decibel across all locations
+    let totalDecibel = 0;
+    let locationCount = 0;
+
     // Update each location
     LOCATIONS.forEach(locationName => {
         const dataPoint = getDecibelForTime(data, locationName, currentMinutes);
         if (dataPoint) {
             updateLocationCard(locationName, dataPoint.decibel);
+            totalDecibel += dataPoint.decibel;
+            locationCount++;
         }
     });
+
+    // Update thermometer with average decibel
+    if (locationCount > 0) {
+        const avgDecibel = totalDecibel / locationCount;
+        updateThermometer(avgDecibel);
+    }
+}
+
+// Update thermometer fill based on decibel level
+function updateThermometer(decibel) {
+    const thermometerFill = document.getElementById('thermometerFill');
+    if (!thermometerFill) return;
+
+    // Map decibel (0-140) to percentage (0-100)
+    // Invert so 140dB is at top (0%) and 0dB is at bottom (100%)
+    const percentage = Math.max(0, Math.min(100, ((140 - decibel) / 140) * 100));
+    
+    thermometerFill.style.height = `${100 - percentage}%`;
 }
 
 // Initialize on load

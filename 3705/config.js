@@ -9,7 +9,7 @@ const CONFIG = {
     
     // Waitz.io Configuration
     WAITZ_SCHOOL: 'gatech',  // Change this to your school's Waitz identifier
-    WAITZ_UPDATE_INTERVAL: 300000  // Update every 5 minutes (in milliseconds)
+    WAITZ_UPDATE_INTERVAL: 100  // Update every 1 second (in milliseconds)
 };
 
 // Make sure CONFIG is available globally
