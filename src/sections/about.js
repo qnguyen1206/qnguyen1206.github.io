@@ -40,6 +40,7 @@ export function initAbout() {
           <div class="about-image-right">
             <img src="images/UI_1.png" alt="Learning" loading="lazy">
             <img src="images/UI_2.png" alt="Learning" loading="lazy">
+            <img src="images/UI_3.png" alt="Learning" loading="lazy">
           </div>
         </div>
       </div>

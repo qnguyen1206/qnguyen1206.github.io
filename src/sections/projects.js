@@ -28,6 +28,21 @@ export function initProjects() {
     },
 
     {
+      id: 'turnover',
+      title: 'TurnOver',
+      category: 'App Development',
+      image: 'images/Turnover-Logo.jpg',
+      description: 'A web app that allow the coaches and athletes to track and analyze their performance through video analysis using computer vision.',
+      tags: ["HTML", "CSS", "JavaScript", "React", "Vite", "MongoDB", "Express", "Cloudinary", "Python", "Flask", "YOLO"],
+      status: 'MVP',
+      role: 'Co-Founder, Developer, Designer',
+      duration: '3 months (September 2025 - December 2025)',
+      githubLink: 'https://github.com/qnguyen1206/cs4803',
+      externalLink: 'https://cs4803-eight.vercel.app/',
+      images: []
+    },
+
+    {
       id: 'todo-app',
       title: 'TO DO App',
       category: 'App Development',
@@ -174,6 +189,7 @@ export function initProjects() {
   const statusTags = {
     'alpha': { color: '#e53935', label: 'Alpha' },
     'beta': { color: '#ffd600', label: 'Beta' },
+    'mvp': { color: '#00bcd4', label: 'MVP' },
     'release': { color: '#43a047', label: 'Release' },
     'in development': { color: '#8e24aa', label: 'In Dev' },
     'on hold': { color: '#ff6f00', label: 'On Hold' },
@@ -187,7 +203,7 @@ export function initProjects() {
   projectsGrid.innerHTML = visibleProjects.map((project) => `
     <article class="project-card" tabindex="0" data-category="${project.category}" data-project-id="${project.id}" aria-labelledby="proj-${project.id}-title">
       ${project.status ? `
-        <div class="status-badge status-${project.status.toLowerCase()}">${statusTags[project.status].label}</div>
+        <div class="status-badge status-${project.status.toLowerCase().replace(/\s+/g, '-')}">${statusTags[project.status.toLowerCase()].label}</div>
       ` : ''}
 
       <div class="thumb-wrap" aria-hidden="true">
