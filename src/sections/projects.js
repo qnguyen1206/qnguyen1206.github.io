@@ -83,7 +83,7 @@ export function initProjects() {
     },
     {
       id: 'infinity-mythical-hunt',
-      title: 'Infinity: Mythical Hunt',
+      title: 'Mythical Hunt',
       category: 'Game Development',
       image: 'images/InQnityIcon.png',
       description: 'A co-op game where players immerse in the world of mythical creatures with real-world folklores and fantasies.',
