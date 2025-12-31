@@ -95,6 +95,38 @@ export function initProjects() {
       images: []
     },
     {
+      id: 'what-yours-is-mime',
+      title: 'What Yours is Mime',
+      category: 'Game Development',
+      image: 'images/WYiMIcon.png',
+      description: 'A 2.5D bullet-hell game where players battle through a kingdom\'s dungeon as a jester.\n This is a club project for Georigia State Panther Dev Club where I was tasked to program the game\'s enemy logic and implement the game\'s instruction system. I learned how to use Unity, C#, and Unity Plastic SCM to build and mantain the game.',
+      tags: ['Unity', 'C#'],
+      status: 'release',
+      role: 'Programmer',
+      teamSize: '7',
+      duration: '4 months (Jan 2023 - April 2023)',
+      externalLink: 'https://jhaboon.itch.io/wyim',
+      images: [
+        { src: 'images/wyim/wyim_screenshot1.png', alt: 'What Yours is Mime Screenshot 1' },
+        { src: 'images/wyim/wyim_screenshot2.png', alt: 'What Yours is Mime Screenshot 2' },
+        { src: 'images/wyim/wyim_screenshot3.png', alt: 'What Yours is Mime Screenshot 3' }
+      ]
+    },
+    {
+      id: 'gastropoda',
+      title: 'Gastropoda',
+      category: 'Game Development',
+      image: 'images/GastropodaIcon.png',
+      description: 'A 2D platformer game where players have to escape from a giant snail.',
+      tags: ['Unity', 'C#'],
+      status: 'release',
+      role: 'Programmer',
+      duration: '4 months (Aug 2022 - Dec 2022)',
+      githubLink: 'https://github.com/aimbesi1/gastropoda',
+      externalLink: 'https://jhaboon.itch.io/gastropoda-v115',
+      images: []
+    },
+    {
       id: 'wander-sync-app',
       title: 'WanderSync App',
       category: 'App Development',
@@ -104,30 +136,10 @@ export function initProjects() {
       status: 'complete',
       role: 'Backend Programmer',
       teamSize: '5',
-      duration: '4 months (2023)',
+      duration: '4 months (Aug 2023 - Dec 2023)',
       githubLink: 'https://github.com/Kairu1206/CS2340D_Team26',
       images: []
     },
-    {
-      id: 'what-yours-is-mime',
-      title: 'What Yours is Mime',
-      category: 'Game Development',
-      image: 'images/WYiMIcon.png',
-      description: 'A 2.5D bullet-hell game where players battle through a kingdom\'s dungeon as a jester.\n This is a club project for Georigia State Panther Dev Club where I was tasked to program the game\'s enemy logic and implement the game\'s instruction system. I learned how to use Unity, C#, and Unity Plastic SCM to build and mantain the game.',
-      tags: ['Unity', 'C#'],
-      status: 'complete',
-      role: 'Programmer',
-      teamSize: '7',
-      duration: '4 months (2023)',
-      tags: ['Unity', 'C#'],
-      status: 'complete',
-      externalLink: 'https://jhaboon.itch.io/wyim',
-      images: [
-        { src: 'images/wyim/wyim_screenshot1.png', alt: 'What Yours is Mime Screenshot 1' },
-        { src: 'images/wyim/wyim_screenshot2.png', alt: 'What Yours is Mime Screenshot 2' },
-        { src: 'images/wyim/wyim_screenshot3.png', alt: 'What Yours is Mime Screenshot 3' }
-      ]
-    }
   ];
 
   // Set up the HTML structure without navigation
