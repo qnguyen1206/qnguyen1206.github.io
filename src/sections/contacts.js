@@ -4,7 +4,6 @@ export function initContacts() {
   contacts.innerHTML = `
     <div class="container">
       <h2 class="section-title">Get In Touch</h2>
-      
       <div class="contacts-content">
         <div class="contacts-text">
           <p>I'm open to new opportunities and collaborations. Whether you have a question, project idea, or just want to say hi, feel free to reach out!</p>
@@ -36,6 +35,13 @@ export function initContacts() {
             <div class="contact-info">
               <h3>GitLab</h3>
               <p>Check out my projects →</p>
+            </div>
+          </a>
+
+          <a href="https://tryhackme.com/p/Kairu1206" target="_blank" class="contact-item tryhackme-item">
+            <div class="contact-info">
+              <h3>TryHackMe</h3>
+              <p>Check out my profile →</p>
             </div>
           </a>
         </div>
