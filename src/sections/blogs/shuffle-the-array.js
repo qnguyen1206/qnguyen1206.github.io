@@ -148,7 +148,7 @@ class Solution:
 [/solutions]
 
 ## Complexity
-- **Time:** O(n)
-- **Space:** O(n)
-      `
+- **Time:** O(n) where n is the length of the array.
+- **Space:** O(n) where n is the physical memory used by the array.
+`
 }

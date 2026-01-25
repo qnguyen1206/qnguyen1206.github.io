@@ -93,8 +93,10 @@
    *   \`
    * =====================================================
    */
-import shuffleTheArray from './blogs/shuffle-the-array.js'; 
+import shuffleTheArray from './blogs/shuffle-the-array.js';
+import concatenationOfArray from './blogs/concatenation-of-array.js'; 
 
 export const blogPosts = [
     shuffleTheArray,
+    concatenationOfArray,
 ];
