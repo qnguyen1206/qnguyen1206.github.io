@@ -204,6 +204,35 @@
   margin-bottom: 10px;
 }
 
+/* Tech tags on cards */
+.card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.card-tag {
+  font-size: 11px;
+  padding: 4px 8px;
+  background: rgba(33, 212, 255, 0.15);
+  color: #21d4ff;
+  border-radius: 999px;
+  border: 1px solid rgba(33, 212, 255, 0.3);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.card-tag-more {
+  font-size: 11px;
+  padding: 4px 8px;
+  background: rgba(139, 92, 255, 0.15);
+  color: #8b5cff;
+  border-radius: 999px;
+  border: 1px solid rgba(139, 92, 255, 0.3);
+  font-weight: 600;
+}
+
 /* Quick stats bar */
 .quick-stats {
   display: flex;

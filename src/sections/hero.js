@@ -14,8 +14,8 @@ export function initHero() {
             </div>
           </div>
           <div class="hero-cta" style="margin-top: 1.5rem;">
-            <a href="#projects" class="btn btn-primary">View My Work</a>
-            <a href="#contacts" class="btn btn-secondary">Contact Me</a>
+            <button class="btn btn-primary" data-scroll-to="projects">View My Work</button>
+            <button class="btn btn-secondary" data-scroll-to="contacts">Contact Me</button>
           </div>
         </div>
         <nav class="hero-nav">
@@ -28,7 +28,6 @@ export function initHero() {
             <li><a href="#hero" class="hero-nav-link active">Home</a></li>
             <li><a href="#about" class="hero-nav-link">About</a></li>
             <li><a href="#projects" class="hero-nav-link">Projects</a></li>
-            <li><a href="#skills" class="hero-nav-link">Skills</a></li>
             <li><a href="#certificates" class="hero-nav-link">Certificates</a></li>
             <li><a href="#contacts" class="hero-nav-link">Contact</a></li>
           </ul>
@@ -44,8 +43,7 @@ export function initHero() {
       </div>
       <div class="bg-credit">
         Background image by 
-        <a href="https://www.needpix.com/photo/1104067/full-moon-landscape-sea-lake-island-bank-trees-reflections-night">needpix.com</a>,
-        <a href="https://www.pexels.com/photo/underwater-shot-of-the-sea-17598831/">Francesco Ungaro</a>
+        <a href="https://www.needpix.com/photo/1104067/full-moon-landscape-sea-lake-island-bank-trees-reflections-night">needpix.com</a>
       </div>
     </div>
     <div class="stars-container"></div>
@@ -121,10 +119,10 @@ export function initHero() {
         top: 0;
         left: 0;
         width: 100%;
-        height: 120%;
+        height: 100%;
         background-image: url('/images/background_img.jpg');
         background-size: cover;
-        background-position: center;
+        background-position: center top;
         background-repeat: no-repeat;
         animation: fadeInBackground 1s ease-out;
         transform: translateY(0);
@@ -637,6 +635,21 @@ function initHeroNavigation() {
   }
 
   window.addEventListener('scroll', updateActiveNavOnScroll);
+
+  // CTA buttons smooth scroll without URL change
+  const ctaButtons = document.querySelectorAll('.hero-cta button[data-scroll-to]');
+  ctaButtons.forEach(button => {
+    button.addEventListener('click', function() {
+      const targetId = this.getAttribute('data-scroll-to');
+      const targetSection = document.getElementById(targetId);
+      if (targetSection) {
+        targetSection.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
+      }
+    });
+  });
 
   const navLinks = document.querySelectorAll('.hero-nav-link');
   navLinks.forEach(link => {

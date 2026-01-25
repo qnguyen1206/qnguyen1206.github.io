@@ -9,7 +9,7 @@ export function initProjects() {
       category: 'Game Development',
       image: 'images/KartIcon.jpg',
       description: 'A multiplayer racing game where cars and technology meet, designed using Godot and Steamworks.',
-      tags: ['Godot', 'Steamworks', 'GitLab'],
+      tags: ['Godot', 'GDScript', 'Steamworks', 'GitLab'],
       status: 'beta',
       role: 'Lead Programmer, Gameplay Designer, UI/UX Designer, Artist, Technical Editor',
       duration: '5 years (2020 - Present)',
@@ -48,7 +48,7 @@ export function initProjects() {
       category: 'App Development',
       image: 'images/clipboard.png',
       description: 'A gamified to-do list app with DeepSeek-R1 14B param local AI integrated for personal use.',
-      tags: ['Python', 'DeepSeek'],
+      tags: ['Python', 'Tkinter', 'MySQL'],
       status: 'release',
       role: 'Solo Developer',
       duration: '9 months (2025 - Present)',
@@ -87,7 +87,7 @@ export function initProjects() {
       category: 'Game Development',
       image: 'images/InQnityIcon.png',
       description: 'A co-op game where players immerse in the world of mythical creatures with real-world folklores and fantasies.',
-      tags: ['Godot', 'Steamworks', 'GitLab'],
+      tags: ['Godot', 'GDScript', 'Steamworks', 'GitLab'],
       status: 'in development',
       role: 'Sole Developer',
       duration: '4 years (2021 - Present)',
@@ -100,7 +100,7 @@ export function initProjects() {
       category: 'Game Development',
       image: 'images/WYiMIcon.png',
       description: 'A 2.5D bullet-hell game where players battle through a kingdom\'s dungeon as a jester.\n This is a club project for Georigia State Panther Dev Club where I was tasked to program the game\'s enemy logic and implement the game\'s instruction system. I learned how to use Unity, C#, and Unity Plastic SCM to build and mantain the game.',
-      tags: ['Unity', 'C#'],
+      tags: ['Unity', 'C#', 'Unity Plastic SCM', 'GitHub'],
       status: 'release',
       role: 'Programmer',
       teamSize: '7',
@@ -118,7 +118,7 @@ export function initProjects() {
       category: 'Game Development',
       image: 'images/GastropodaIcon.png',
       description: 'A 2D platformer game where players have to escape from a giant snail.',
-      tags: ['Unity', 'C#'],
+      tags: ['Unity', 'C#', 'GitHub'],
       status: 'release',
       role: 'Programmer',
       duration: '4 months (Aug 2022 - Dec 2022)',
@@ -132,7 +132,7 @@ export function initProjects() {
       category: 'App Development',
       image: 'images/AndroidStudioIcon.png',
       description: 'A collaborative travel planning app built using Agile methodology.\nThis is a course project for CS 2340 at Georgia Tech. We learn how Agile methodology works and how to build an app using Android Studio and Firebase. In addition, we also learn how to use SonarQube to analyze our code quality. We also learn how to create unit tests and how to use JUnit to test our code.',
-      tags: ['Java', 'Firebase', 'Android Studio'],
+      tags: ['Java', 'Firebase', 'Android Studio', 'GitHub'],
       status: 'complete',
       role: 'Backend Programmer',
       teamSize: '5',
@@ -140,6 +140,52 @@ export function initProjects() {
       githubLink: 'https://github.com/Kairu1206/CS2340D_Team26',
       images: []
     },
+    {
+      id: 'gallery',
+      title: 'Gallery',
+      category: '',
+      image: 'images/gallery/draw_1.png',
+      description: 'A collection of my drawings and photos.',
+      tags: [],
+      status: '',
+      role: '',
+      duration: '',
+      githubLink: '',
+      externalLink: '',
+      images: [
+        { src: 'images/gallery/draw_1.png', alt: 'Gallery Image 1' },
+        { src: 'images/gallery/draw_2.png', alt: 'Gallery Image 2' },
+        { src: 'images/gallery/draw_4.png', alt: 'Gallery Image 4' },
+        { src: 'images/gallery/draw_5.png', alt: 'Gallery Image 5' },
+        { src: 'images/gallery/draw_6.png', alt: 'Gallery Image 6' },
+        { src: 'images/gallery/draw_7.png', alt: 'Gallery Image 7' },
+        { src: 'images/gallery/draw_8.png', alt: 'Gallery Image 8' },
+        { src: 'images/gallery/draw_9.png', alt: 'Gallery Image 9' },
+        { src: 'images/gallery/digital_0.png', alt: 'Gallery Image 10' },
+        { src: 'images/gallery/digital_1.png', alt: 'Gallery Image 11' },
+        { src: 'images/gallery/digital_2.png', alt: 'Gallery Image 12' },
+        { src: 'images/gallery/photo_0.png', alt: 'Gallery Image 13' },
+        { src: 'images/gallery/photo_1.png', alt: 'Gallery Image 14' },
+        { src: 'images/gallery/photo_2.png', alt: 'Gallery Image 15' },
+        { src: 'images/gallery/photo_3.png', alt: 'Gallery Image 16' },
+        { src: 'images/gallery/photo_4.png', alt: 'Gallery Image 17' },
+        { src: 'images/gallery/photo_6.png', alt: 'Gallery Image 19' },
+        { src: 'images/gallery/photo_7.png', alt: 'Gallery Image 20' },
+        { src: 'images/gallery/photo_8.png', alt: 'Gallery Image 21' },
+        { src: 'images/gallery/photo_9.png', alt: 'Gallery Image 22' },
+        { src: 'images/gallery/photo_10.png', alt: 'Gallery Image 23' },
+        { src: 'images/gallery/photo_11.png', alt: 'Gallery Image 24' },
+        { src: 'images/gallery/photo_12.png', alt: 'Gallery Image 25' },
+        { src: 'images/gallery/photo_13.png', alt: 'Gallery Image 26' },
+        { src: 'images/gallery/photo_14.png', alt: 'Gallery Image 27' },
+        { src: 'images/gallery/photo_15.png', alt: 'Gallery Image 28' },
+        { src: 'images/gallery/photo_16.png', alt: 'Gallery Image 29' },
+        { src: 'images/gallery/photo_17.png', alt: 'Gallery Image 30' },
+        { src: 'images/gallery/photo_18.png', alt: 'Gallery Image 31' },
+        { src: 'images/gallery/photo_19.png', alt: 'Gallery Image 32' },
+        { src: 'images/gallery/photo_20.png', alt: 'Gallery Image 33' },
+      ]
+    }
   ];
 
   // Set up the HTML structure without navigation
@@ -171,33 +217,6 @@ export function initProjects() {
   `;
   document.body.insertAdjacentHTML('beforeend', modalHTML);
 
-  const techIcons = {
-    'Java': { src: 'icons/java_icon.png', width: 32, height: 32 },
-    'Godot': { src: 'icons/godot_icon.png', width: 32, height: 32 },
-    'Unity': { src: 'icons/unity_icon.png', width: 32, height: 32 },
-    'Steamworks': { src: 'icons/steamworks_icon.png', width: 32, height: 32 },
-    'GitLab': { src: 'icons/gitlab_icon.png', width: 32, height: 32 },
-    'Python': { src: 'icons/python_icon.png', width: 32, height: 32 },
-    'DeepSeek': { src: 'icons/deepseek_icon.png', width: 32, height: 32 },
-    'HTML': { src: 'icons/html_icon.png', width: 32, height: 32 },
-    'CSS': { src: 'icons/css_icon.png', width: 32, height: 32 },
-    'JavaScript': { src: 'icons/javascript_icon.png', width: 32, height: 32 },
-    'Firebase': { src: 'icons/firebase_icon.png', width: 32, height: 32 },
-    'React': { src: 'icons/react_icon.png', width: 32, height: 32 },
-    'NodeJS': { src: 'icons/nodejs_icon.png', width: 32, height: 32 },
-    'Android Studio': { src: 'icons/android_studio_icon.png', width: 32, height: 32 },
-    'GitHub': { src: 'icons/github_icon.png', width: 32, height: 32 },
-    'C#': { src: 'icons/csharp_icon.png', width: 32, height: 32 },
-    'PHP': { src: 'icons/php_icon.png', width: 32, height: 32 },
-    'MySQL': { src: 'icons/mysql_icon.png', width: 32, height: 32 },
-    'PHPMyAdmin': { src: 'icons/phpmyadmin_icon.png', width: 32, height: 32 },
-    'Aframe': { src: 'icons/aframe_icon.png', width: 32, height: 32 },
-    'C': { src: 'icons/c_icon.png', width: 32, height: 32 },
-    'Raspberry Pi': { src: 'icons/raspberry_pi_icon.png', width: 32, height: 32 },
-    'Flipper Zero': { src: 'icons/flipper_zero_icon.png', width: 32, height: 32 },
-    'ChatGPT': { src: 'icons/chatgpt_icon.png', width: 32, height: 32 }
-  };
-
   const statusTags = {
     'alpha': { color: '#e53935', label: 'Alpha' },
     'beta': { color: '#ffd600', label: 'Beta' },
@@ -227,6 +246,11 @@ export function initProjects() {
       <div class="card-content">
         <h3 id="proj-${project.id}-title" class="card-title">${project.title}</h3>
         <div class="card-subtitle">${project.category}</div>
+        
+        <div class="card-tags">
+          ${project.tags.slice(0, 4).map(tag => `<span class="card-tag">${tag}</span>`).join('')}
+          ${project.tags.length > 4 ? `<span class="card-tag-more">+${project.tags.length - 4}</span>` : ''}
+        </div>
 
         <div class="cta-row">
           <div class="cta-buttons">
@@ -269,22 +293,14 @@ export function initProjects() {
     const project = projectsData.find(p => p.id === projectId);
     if (!project) return;
 
-    const statusInfo = statusTags[project.status.toLowerCase()] || statusTags['in development'];
-    const statusBadgeHTML = `
+    const statusInfo = project.status ? statusTags[project.status.toLowerCase()] : null;
+    const statusBadgeHTML = statusInfo ? `
       <span class="project-status-badge" style="background-color: ${statusInfo.color};">
         ${statusInfo.label}
       </span>
-    `;
+    ` : '';
 
-    const techHTML = project.tags.map(tag => {
-      const icon = techIcons[tag];
-      return icon ? `
-        <div class="project-tech-item">
-          <img src="${icon.src}" width="${icon.width}" height="${icon.height}" alt="${tag}" title="${tag}">
-          <span>${tag}</span>
-        </div>
-      ` : `<span class="project-tag">${tag}</span>`;
-    }).join('');
+    const techList = project.tags.join(', ');
 
     let linksHTML = '<div class="project-modal-links">';
     if (project.githubLink || project.gitlabLink) {
@@ -349,7 +365,7 @@ export function initProjects() {
           <div class="project-meta-grid">
             ${project.role ? `<div class="meta-item"><strong>Role:</strong> ${project.role}</div>` : ''}
             ${project.duration ? `<div class="meta-item"><strong>Duration:</strong> ${project.duration}</div>` : ''}
-          </div>
+            ${project.tags && project.tags.length > 0 ? `<div class="meta-item"><strong>Technologies:</strong> ${techList}</div>` : ''}
           </div>
         </div>
       `;
@@ -365,6 +381,8 @@ export function initProjects() {
       </div>
 
       ${caseStudyHTML}
+
+      ${linksHTML}
 
       ${imagesHTML}
     `;
