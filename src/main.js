@@ -8,6 +8,7 @@ import './styles/projects-neon.css';
 import { initHero } from './sections/hero.js';
 import { initAbout } from './sections/about.js';
 import { initProjects } from './sections/projects.js';
+import { initBlog } from './sections/blog.js';
 import { initCertificates } from './sections/certificates.js';
 import { initContacts } from './sections/contacts.js';
 import { initAnimations } from './utils/animations.js';
@@ -18,6 +19,7 @@ document.querySelector('#app').innerHTML = `
     <section id="hero"></section>
     <section id="about" class="section"></section>
     <section id="projects" class="section"></section>
+    <section id="blog" class="section"></section>
     <section id="certificates" class="section"></section>
     <section id="contacts" class="section"></section>
   </main>
@@ -27,6 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initHero();
   initAbout();
   initProjects();
+  initBlog();
   initCertificates();
   initContacts();
 

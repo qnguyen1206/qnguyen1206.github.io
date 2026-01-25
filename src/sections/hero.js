@@ -28,6 +28,7 @@ export function initHero() {
             <li><a href="#hero" class="hero-nav-link active">Home</a></li>
             <li><a href="#about" class="hero-nav-link">About</a></li>
             <li><a href="#projects" class="hero-nav-link">Projects</a></li>
+            <li><a href="#blog" class="hero-nav-link">Blog</a></li>
             <li><a href="#certificates" class="hero-nav-link">Certificates</a></li>
             <li><a href="#contacts" class="hero-nav-link">Contact</a></li>
           </ul>
@@ -162,7 +163,7 @@ export function initHero() {
       }
 
       .hero-nav-link {
-        font-family: 'Cold Ocean', sans-serif;
+        font-family: 'Celestial Silence', sans-serif;
         color: rgba(255, 255, 255, 0.7);
         text-decoration: none;
         font-size: var(--font-size-lg);
