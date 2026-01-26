@@ -1,5 +1,11 @@
 const certificatesData = [
   {
+    title: "Pre Security",
+    issuer: "TryHackMe", 
+    date: "Jan 19, 2026",
+    link: "https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-OEVIOASGDY.pdf"
+  },
+  {
     title: "Typography: Hierarchy and Navigation",
     issuer: "LinkedIn Learning", 
     date: "Oct 19, 2025",

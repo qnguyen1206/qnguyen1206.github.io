@@ -541,8 +541,6 @@ export function initBlog() {
       // Headers
       .replace(/^### (.+)$/gm, '<h3>$1</h3>')
       .replace(/^## (.+)$/gm, '<h2>$1</h2>')
-      // Bold
-      .replace(/\*\*([^\*]+)\*\*/g, '<strong>$1</strong>')
       // Superscript: x^2 or x^{10}
       .replace(/\^\{([^}]+)\}/g, '<sup>$1</sup>')
       .replace(/\^(\w)/g, '<sup>$1</sup>')
@@ -571,7 +569,10 @@ export function initBlog() {
         // If it's just a code block placeholder on its own line, return as-is
         if (/^~~(CODEBLOCK|SOLUTIONTABS)\d+~~$/.test(para)) return para;
         // Convert single newlines to <br> within paragraphs (including those with inline code)
-        return `<p>${para.replace(/\n/g, '<br>')}</p>`;
+        let html = para.replace(/\n/g, '<br>');
+        // Bold (after <br> so it doesn't eat line breaks)
+        html = html.replace(/\*\*([\s\S]+?)\*\*/g, '<strong>$1</strong>');
+        return `<p>${html}</p>`;
       })
       .join('');
     

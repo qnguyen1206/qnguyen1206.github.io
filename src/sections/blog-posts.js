@@ -95,8 +95,10 @@
    */
 import shuffleTheArray from './blogs/shuffle-the-array.js';
 import concatenationOfArray from './blogs/concatenation-of-array.js'; 
+import offensiveSecurityIntro from './blogs/offensive-security-intro.js';
 
 export const blogPosts = [
     shuffleTheArray,
     concatenationOfArray,
+    offensiveSecurityIntro
 ];
