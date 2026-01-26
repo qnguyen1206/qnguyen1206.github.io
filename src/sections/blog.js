@@ -6,6 +6,9 @@ export function initBlog() {
   const blog = document.getElementById('blog');
   if (!blog) return;
   const categories = ['All', 'LeetCode', 'TryHackMe'];
+  
+  // Sort blog posts by date (most recent first)
+  const sortedPosts = [...blogPosts].sort((a, b) => new Date(b.date) - new Date(a.date));
 
   blog.innerHTML = `
     <div class="container">
@@ -22,7 +25,7 @@ export function initBlog() {
       </div>
 
       <div class="blog-grid">
-        ${blogPosts.length > 0 ? blogPosts.map(post => `
+        ${sortedPosts.length > 0 ? sortedPosts.map(post => `
           <article class="blog-card" data-category="${post.category.toLowerCase()}" data-id="${post.id}">
             <div class="blog-card-header">
               <span class="blog-category ${post.category.toLowerCase()}">${post.category}</span>
@@ -254,19 +257,19 @@ export function initBlog() {
         position: fixed;
         top: 0;
         left: 0;
-        width: 100%;
-        height: 100%;
+        right: 0;
+        bottom: 0;
         background: rgba(0, 0, 0, 0.8);
         backdrop-filter: blur(5px);
         z-index: 1000;
-        overflow-y: auto;
-        padding: var(--space-8) var(--space-4);
+        padding: 2rem;
+        box-sizing: border-box;
       }
 
       .blog-modal.active {
         display: flex;
         justify-content: center;
-        align-items: flex-start;
+        align-items: center;
       }
 
       .blog-modal-content {
@@ -275,9 +278,12 @@ export function initBlog() {
         border-radius: var(--radius-lg);
         max-width: 800px;
         width: 100%;
+        max-height: calc(100vh - 4rem);
         padding: var(--space-8);
         position: relative;
-        margin: var(--space-8) 0;
+        box-sizing: border-box;
+        overflow-y: auto;
+        overscroll-behavior: contain;
       }
 
       .blog-modal-close {
@@ -596,12 +602,17 @@ export function initBlog() {
 
   // Modal functionality
   const modal = blog.querySelector('#blog-modal');
-  const modalTitle = blog.querySelector('#modal-title');
-  const modalCategory = blog.querySelector('#modal-category');
-  const modalDifficulty = blog.querySelector('#modal-difficulty');
-  const modalTags = blog.querySelector('#modal-tags');
-  const modalBody = blog.querySelector('#modal-body');
-  const modalClose = blog.querySelector('.blog-modal-close');
+  
+  // Move modal to body to prevent positioning issues from parent transforms
+  document.body.appendChild(modal);
+  
+  const modalContent = modal.querySelector('.blog-modal-content');
+  const modalTitle = modal.querySelector('#modal-title');
+  const modalCategory = modal.querySelector('#modal-category');
+  const modalDifficulty = modal.querySelector('#modal-difficulty');
+  const modalTags = modal.querySelector('#modal-tags');
+  const modalBody = modal.querySelector('#modal-body');
+  const modalClose = modal.querySelector('.blog-modal-close');
 
   // Open modal
   blog.querySelectorAll('.blog-read-more').forEach(btn => {
@@ -640,6 +651,11 @@ export function initBlog() {
         });
         
         modal.classList.add('active');
+        // Reset scroll positions to top
+        modal.scrollTop = 0;
+        modalContent.scrollTop = 0;
+        modalBody.scrollTop = 0;
+        document.documentElement.style.overflow = 'hidden';
         document.body.style.overflow = 'hidden';
       }
     });
@@ -648,12 +664,20 @@ export function initBlog() {
   // Close modal
   modalClose.addEventListener('click', () => {
     modal.classList.remove('active');
+    modal.scrollTop = 0;
+    modalContent.scrollTop = 0;
+    modalBody.scrollTop = 0;
+    document.documentElement.style.overflow = '';
     document.body.style.overflow = '';
   });
 
   modal.addEventListener('click', (e) => {
     if (e.target === modal) {
       modal.classList.remove('active');
+      modal.scrollTop = 0;
+      modalContent.scrollTop = 0;
+      modalBody.scrollTop = 0;
+      document.documentElement.style.overflow = '';
       document.body.style.overflow = '';
     }
   });
@@ -661,6 +685,10 @@ export function initBlog() {
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && modal.classList.contains('active')) {
       modal.classList.remove('active');
+      modal.scrollTop = 0;
+      modalContent.scrollTop = 0;
+      modalBody.scrollTop = 0;
+      document.documentElement.style.overflow = '';
       document.body.style.overflow = '';
     }
   });

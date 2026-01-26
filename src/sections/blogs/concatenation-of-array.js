@@ -4,7 +4,7 @@ export default { //Concatenation of Array
     category: 'LeetCode',
     difficulty: 'Easy',
     tags: ['Array'],
-    date: '2026-01-25T12:00:00',
+    date: '2026-01-24T12:00:00',
     excerpt: 'Write up of Concatenation of Array problem on LeetCode.',
     content: `
 ## Problem

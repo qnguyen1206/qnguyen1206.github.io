@@ -4,7 +4,7 @@ export default {
     category: 'TryHackMe',
     difficulty: 'Easy',
     tags: ['Cryptography'],
-    date: '2026-01-25T12:00:00',
+    date: '2026-01-24T12:00:00',
     excerpt: 'Write up and walkthrough of Cryptography Basics room on TryHackMe.',
     content: `
 This is a write up and walkthrough of the Cryptography Basics room on TryHackMe.

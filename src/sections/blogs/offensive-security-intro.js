@@ -4,7 +4,7 @@ export default {
     category: 'TryHackMe',
     difficulty: 'Easy',
     tags: ['Offensive Security'],
-    date: '2026-01-25T12:00:00',
+    date: '2026-01-16T12:00:00',
     excerpt: 'Write up and walkthrough of Offensive Security Intro room on TryHackMe.',
     content: `
 This is a write up and walkthrough of the Offensive Security Intro room on TryHackMe.
