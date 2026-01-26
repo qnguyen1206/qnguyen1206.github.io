@@ -5,9 +5,9 @@ export default {
     difficulty: 'Easy',
     tags: ['Offensive Security'],
     date: '2026-01-25T12:00:00',
-    excerpt: 'Write up of Offensive Security Intro room on TryHackMe.',
+    excerpt: 'Write up and walkthrough of Offensive Security Intro room on TryHackMe.',
     content: `
-This is a walkthrough of the Offensive Security Intro room on TryHackMe.
+This is a write up and walkthrough of the Offensive Security Intro room on TryHackMe.
 
 ⸻⸻⸻⸻⸻
 
@@ -19,10 +19,8 @@ In this room, you'll hack your first website in a safe and legal environment to 
 
 **Answer the questions below**
 Which term describes simulating a hacker's actions to find weaknesses?
-
 - Offensive Security
 - Defensive Security
-
 **Answer:** Offensive Security
 
 ⸻⸻⸻⸻⸻
@@ -36,7 +34,6 @@ A browser will automatically open, displaying FakeBank, a fake banking applicati
 
 **Answer the questions below**
 What is the bank account number in the FakeBank application?
-
 **Answer:** 8881
 
 ⸻⸻⸻⸻⸻
@@ -60,7 +57,6 @@ Any lines from the output that start with \`+\` are pages that have been found. 
 **Answer the questions below**
 Dirb found one URL, \`http://fakebank.thm/images.\`
 What is the other hidden URL?
-
 **Answer:** http://fakebank.thm/bank-transfer
 
 ⸻⸻⸻⸻⸻
@@ -81,7 +77,6 @@ Use your account number 8881 and deposit $2000 (or more). After depositing, retu
 When your balance turns positive, a pop-up with green text appears.
 
 Enter the green words as the answer (ALL CAPS)
-
 **Answer:** BANK-HACKED
 
 `

@@ -548,11 +548,11 @@ export function initBlog() {
       .replace(/_\{([^}]+)\}/g, '<sub>$1</sub>')
       .replace(/_(\w)/g, '<sub>$1</sub>')
       // Numbered lists (1. 2. 3. etc)
-      .replace(/^\d+\. (.+)$/gm, '<oli>$1</oli>')
+      .replace(/^\d+\. (.+)$/gm, (m, item) => `<oli>${item.replace(/\*\*([\s\S]+?)\*\*/g, '<strong>$1</strong>')}</oli>`) // bold inside numbered list
       // Wrap consecutive oli elements in ol (remove newlines between items)
       .replace(/(<oli>.*<\/oli>\n?)+/g, (match) => '<ol>' + match.replace(/oli>/g, 'li>').replace(/\n/g, '') + '</ol>')
       // Unordered lists (- item)
-      .replace(/^- (.+)$/gm, '<uli>$1</uli>')
+      .replace(/^- (.+)$/gm, (m, item) => `<uli>${item.replace(/\*\*([\s\S]+?)\*\*/g, '<strong>$1</strong>')}</uli>`) // bold inside bullet list
       // Wrap consecutive uli elements in ul (remove newlines between items)
       .replace(/(<uli>.*<\/uli>\n?)+/g, (match) => '<ul>' + match.replace(/uli>/g, 'li>').replace(/\n/g, '') + '</ul>')
       // Restore escaped characters
