@@ -12,7 +12,7 @@ export function initBlog() {
 
   blog.innerHTML = `
     <div class="container">
-      <h2 class="section-title">Blog & Writeups</h2>
+      <h2 class="section-title">Writeups</h2>
       <div class="blog-intro">
         <p>Here I share my thought process and solutions for coding challenges and cybersecurity rooms. 
         These writeups document my learning journey and problem-solving approaches.</p>
@@ -505,7 +505,8 @@ export function initBlog() {
       while ((blockMatch = regex.exec(content)) !== null) {
         const lang = blockMatch[1] || 'code';
         const label = blockMatch[2] ? blockMatch[2].trim() : lang;
-        const code = blockMatch[3];
+        // Escape HTML tags in code blocks
+        const code = blockMatch[3].replace(/</g, '&lt;').replace(/>/g, '&gt;');
         codeBlocks.push({ lang, label, code });
       }
       
@@ -529,14 +530,18 @@ export function initBlog() {
     text = text.replace(/\`\`\`(\w+)?\n([\s\S]*?)\`\`\`/g, (match, lang, code) => {
       const placeholder = `~~CODEBLOCK${codeBlockStore.length}~~`;
       const langClass = lang ? `language-${lang}` : '';
-      codeBlockStore.push(`<pre><code class="${langClass}">${code}</code></pre>`);
+      // Escape HTML tags in code blocks
+      const escapedCode = code.replace(/</g, '&lt;').replace(/>/g, '&gt;');
+      codeBlockStore.push(`<pre><code class="${langClass}">${escapedCode}</code></pre>`);
       return placeholder;
     });
     
     // Protect inline code
     text = text.replace(/\`([^\`]+)\`/g, (match, code) => {
       const placeholder = `~~INLINECODE${inlineCodeStore.length}~~`;
-      inlineCodeStore.push(`<code>${code}</code>`);
+      // Escape HTML tags in inline code
+      const escapedCode = code.replace(/</g, '&lt;').replace(/>/g, '&gt;');
+      inlineCodeStore.push(`<code>${escapedCode}</code>`);
       return placeholder;
     });
     

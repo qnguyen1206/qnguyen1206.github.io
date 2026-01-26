@@ -100,11 +100,13 @@ import shuffleTheArray from './blogs/shuffle-the-array.js';
 import concatenationOfArray from './blogs/concatenation-of-array.js'; 
 import offensiveSecurityIntro from './blogs/offensive-security-intro.js';
 import cryptographyBasics from './blogs/cryptography-basics.js';
+import monikerLinkCVE202421413 from './blogs/moniker-link-cve-2024-21413.js';
 
 export const blogPosts = [
     cryptographyBasics,
     shuffleTheArray,
     concatenationOfArray,
     offensiveSecurityIntro,
+    monikerLinkCVE202421413
     
 ];

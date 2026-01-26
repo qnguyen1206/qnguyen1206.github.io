@@ -42,9 +42,9 @@ As you can see, you rarely have to interact directly with cryptography, but its 
 
 In the same way that handling payment card details requires complying with PCI DSS, handling medical records requires complying with their respective standards. Unlike credit cards, the standards for handling medical records vary from one country to another. Example laws and regulations that should be considered when handling medical records include HIPAA (Health Insurance Portability and Accountability Act) and HITECH (Health Information Technology for Economic and Clinical Health) in the USA, GDPR (General Data Protection Regulation) in the EU, DPA (Data Protection Act) in the UK. Although the list is not exhaustive, it gives an idea about the legal requirements that healthcare providers should consider depending on their country. These laws and regulations show that cryptography is a necessity that should be present yet usually hidden from direct user access.
 
-**Answer the questions below**
-What is the standard required for handling credit card information?
+**Answer the questions below**⸻⸻⸻⸻⸻
 
+What is the standard required for handling credit card information?
 **Answer:** PCI DSS
 
 ⸻⸻⸻⸻⸻
@@ -65,7 +65,8 @@ We have just introduced several new terms, and we need to learn them to understa
 - **Decryption** is the reverse process of encryption, converting ciphertext back into plaintext using a cipher and a key. Although the cipher would be public knowledge, recovering the plaintext without knowledge of the key should be impossible (infeasible).
 
 
-**Answer the questions below**
+**Answer the questions below**⸻⸻⸻⸻⸻
+
 What do you call the encrypted plaintext?
 **Answer:** Ciphertext
 
@@ -100,9 +101,9 @@ You would come across many more historical ciphers in movies and cryptography bo
 - The one-time pad from the Cold War
 - You can experiment with Caesar cipher shifts using the interactive tool at the <a herf="https://cryptii.com/pipes/caesar-cipher">Cryptii website</a>. It lets you tweak the rotation and instantly see how the text transforms.
 
-**Answer the questions below**
-Knowing that \`XRPCTCRGNEI\` was encrypted using Caesar Cipher, what is the original plaintext?
+**Answer the questions below**⸻⸻⸻⸻⸻
 
+Knowing that \`XRPCTCRGNEI\` was encrypted using Caesar Cipher, what is the original plaintext?
 **Answer:** ICANENCRYPT
 **Reason:** By trying all 25 possible keys, we find that the original plaintext is \`ICANENCRYPT\` when the key is \`11\`.
 
@@ -137,7 +138,8 @@ We will visit various asymmetric encryption ciphers in the next room. For now, t
 **Summary of New Terms**
 **Alice** and **Bob** are fictional characters commonly used in cryptography examples to represent two parties trying to communicate securely. **Symmetric encryption** is a method in which the same key is used for both encryption and decryption. Consequently, this key must remain secure and never be disclosed to anyone except the intended party. **Asymmetric encryption** is a method that uses two different keys: a public key for encryption and a private key for decryption.
 
-**Answer the questions below**
+**Answer the questions below**⸻⸻⸻⸻⸻
+
 Should you trust DES? (Yea/Nay)
 **Answer:** Nay
 **Reason:** DES has been broken in less than 24 hours in 1999.
@@ -178,7 +180,8 @@ An important thing to remember about modulo is that it’s not reversible. If we
 
 The modulo operation always returns a non-negative result less than the divisor. This means that for any integer a and positive integer n, the result of a%n will always be in the range 0 to n − 1.
 
-**Answer the questions below**
+**Answer the questions below**⸻⸻⸻⸻⸻
+
 What’s 1001 ⊕ 1010?
 **Answer:** 0011
 **Reason:** XOR is finding whether or not 2 numbers are different. Therefore, in this case, going from left to right we have:
