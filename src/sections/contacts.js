@@ -44,6 +44,14 @@ export function initContacts() {
               <p>Check out my profile →</p>
             </div>
           </a>
+
+          <a href="https://leetcode.com/u/kylenguyen1206/" target="_blank" class="contact-item leetcode-item">
+            <div class="contact-info">
+              <h3>LeetCode</h3>
+              <p>Check out my profile →</p>
+            </div>
+          </a>
+
         </div>
       </div>
     </div>
