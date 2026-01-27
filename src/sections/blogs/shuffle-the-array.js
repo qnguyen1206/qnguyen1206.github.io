@@ -28,7 +28,7 @@ Output: \`[1,2,1,2]\`
 Constraints:
 - \`1 <= n <= 500\`
 - \`nums.length == 2n\`
-- \`1 <= nums[i] <= 10^3\`
+- \`1 <= nums[i] <= 10\`<sup>\`3\`</sup>
 
 ## Approach
 The first thing that comes to my mind is that we can split the \`nums\` array at \`n\` and then using a for loop to interleave the two arrays.

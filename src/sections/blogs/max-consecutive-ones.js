@@ -23,7 +23,7 @@ Output: 2
  
 
 Constraints:
-- \`1 <= nums.length <= 10^5\`
+- \`1 <= nums.length <= 10\`<sup>\`5\`</sup>
 - \`nums[i] is either 0 or 1.\`
 
 ## Approach

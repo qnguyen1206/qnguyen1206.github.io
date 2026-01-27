@@ -25,8 +25,8 @@ Output: \`[1,2]\`
  
 
 Constraints:
-- \`2 <= nums.length <= 10^4\`
-- \`1 <= nums[i] <= 10^4\`
+- \`2 <= nums.length <= 10\`<sup>\`4\`</sup>
+- \`1 <= nums[i] <= 10\`<sup>\`4\`</sup>
 
 ## Approach
 The first approach to this problem is to use brute force approach where we will go through the whole array to identify the duplicate number and the missing number.
