@@ -13,11 +13,6 @@ export function initBlog() {
   blog.innerHTML = `
     <div class="container">
       <h2 class="section-title">Writeups</h2>
-      <div class="blog-intro">
-        <p>Here I share my thought process and solutions for coding challenges and cybersecurity rooms. 
-        These writeups document my learning journey and problem-solving approaches.</p>
-      </div>
-
       <div class="blog-filters">
         ${categories.map((cat, index) => `
           <button class="filter-btn ${index === 0 ? 'active' : ''}" data-filter="${cat.toLowerCase()}">${cat}</button>

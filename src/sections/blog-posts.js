@@ -101,6 +101,7 @@
 import shuffleTheArray from './blogs/shuffle-the-array.js';
 import concatenationOfArray from './blogs/concatenation-of-array.js';
 import maxConsecutiveOnes from './blogs/max-consecutive-ones.js'; 
+import setMismatch from './blogs/set-mismatch.js';
 
 /* TryHackMe */
 import offensiveSecurityIntro from './blogs/offensive-security-intro.js';
@@ -112,6 +113,7 @@ export const blogPosts = [
     shuffleTheArray,
     concatenationOfArray,
     maxConsecutiveOnes,
+    setMismatch,
 
     /* TryHackMe */
     cryptographyBasics,

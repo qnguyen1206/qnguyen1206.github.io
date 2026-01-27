@@ -23,7 +23,7 @@ Output: 2
  
 
 Constraints:
-- \`1 <= nums.length <= 105\`
+- \`1 <= nums.length <= 10^5\`
 - \`nums[i] is either 0 or 1.\`
 
 ## Approach
@@ -102,13 +102,13 @@ class Solution {
 var findMaxConsecutiveOnes = function(nums) {
     
     // var to keep track of max consecutive
-    var max_consecutive = 0;
+    let max_consecutive = 0;
 
     // var to keep track of curr consecutive
-    var curr_consecutive = 0;
+    let curr_consecutive = 0;
 
     // iterate through the arr
-    for(var i = 0; i < nums.length; i++) {
+    for(let i = 0; i < nums.length; i++) {
         if(nums[i] == 1) {
             curr_consecutive = curr_consecutive + 1;
         } else {
