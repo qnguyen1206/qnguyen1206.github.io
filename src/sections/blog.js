@@ -5,7 +5,7 @@ import { blogPosts } from './blog-posts.js';
 export function initBlog() {
   const blog = document.getElementById('blog');
   if (!blog) return;
-  const categories = ['All', 'LeetCode', 'TryHackMe'];
+  const categories = ['All', 'LeetCode', 'TryHackMe', 'Tools'];
   
   // Sort blog posts by date (most recent first)
   const sortedPosts = [...blogPosts].sort((a, b) => new Date(b.date) - new Date(a.date));
@@ -24,7 +24,7 @@ export function initBlog() {
           <article class="blog-card" data-category="${post.category.toLowerCase()}" data-id="${post.id}">
             <div class="blog-card-header">
               <span class="blog-category ${post.category.toLowerCase()}">${post.category}</span>
-              <span class="blog-difficulty ${post.difficulty.toLowerCase()}">${post.difficulty}</span>
+              <span class="blog-difficulty ${post.difficulty.toLowerCase()}"><span class="difficulty-stars">${getDifficultyStars(post.difficulty)}</span> ${post.difficulty}</span>
             </div>
             <h3 class="blog-title">${post.title}</h3>
             <p class="blog-excerpt">${post.excerpt}</p>
@@ -149,8 +149,13 @@ export function initBlog() {
       }
 
       .blog-category.tryhackme {
-        background: rgba(34, 197, 94, 0.2);
-        color: #22c55e;
+        background: rgba(13, 126, 54, 0.2);
+        color: #00ff5e;
+      }
+
+      .blog-category.tools {
+        background: rgba(172, 172, 172, 0.2);
+        color: #c6c6c6;
       }
 
       .blog-difficulty {
@@ -158,21 +163,43 @@ export function initBlog() {
         border-radius: var(--radius-sm);
         font-size: var(--font-size-xs);
         font-weight: 500;
+        display: flex;
+        align-items: center;
+        gap: 0.3em;
+      }
+
+      .difficulty-stars {
+        color: gold;
+        font-size: 1.1em;
+        margin-right: 0.2em;
+        letter-spacing: 0.05em;
+        line-height: 1;
+        display: inline-block;
       }
 
       .blog-difficulty.easy {
-        background: rgba(34, 197, 94, 0.2);
+        background: rgba(34, 197, 94, 0.2); /* green */
         color: #22c55e;
       }
 
       .blog-difficulty.medium {
-        background: rgba(251, 191, 36, 0.2);
+        background: rgba(251, 191, 36, 0.2); /* yellow */
         color: #fbbf24;
       }
 
       .blog-difficulty.hard {
-        background: rgba(239, 68, 68, 0.2);
+        background: rgba(251, 146, 60, 0.2); /* orange */
+        color: #fb923c;
+      }
+
+      .blog-difficulty.challenge {
+        background: rgba(239, 68, 68, 0.2); /* red */
         color: #ef4444;
+      }
+
+      .blog-difficulty.extreme {
+        background: rgba(168, 85, 247, 0.2); /* purple */
+        color: #a855f7;
       }
 
       .blog-title {
@@ -477,6 +504,17 @@ export function initBlog() {
     </style>
   `;
 
+  // Helper to get stars for difficulty
+  function getDifficultyStars(difficulty) {
+    const diff = difficulty.toLowerCase();
+    if (diff === 'easy') return '★';
+    if (diff === 'medium') return '★★';
+    if (diff === 'hard') return '★★★';
+    if (diff === 'challenge') return '★★★★';
+    if (diff === 'extreme') return '★★★★★';
+    return '';
+  }
+
   // Simple markdown parser for writeups
   let solutionTabCounter = 0;
   
@@ -624,7 +662,7 @@ export function initBlog() {
         modalTitle.textContent = post.title;
         modalCategory.textContent = post.category;
         modalCategory.className = `blog-category ${post.category.toLowerCase()}`;
-        modalDifficulty.textContent = post.difficulty;
+        modalDifficulty.innerHTML = `<span class="difficulty-stars">${getDifficultyStars(post.difficulty)}</span> ${post.difficulty}`;
         modalDifficulty.className = `blog-difficulty ${post.difficulty.toLowerCase()}`;
         modalTags.innerHTML = post.tags.map(tag => `<span class="blog-tag">${tag}</span>`).join('');
         modalBody.innerHTML = parseMarkdown(post.content);

@@ -108,6 +108,9 @@ import offensiveSecurityIntro from './blogs/offensive-security-intro.js';
 import cryptographyBasics from './blogs/cryptography-basics.js';
 import monikerLinkCVE202421413 from './blogs/moniker-link-cve-2024-21413.js';
 
+/* Tools */
+import portScannerTool from './blogs/port-scanner-tool.js';
+
 export const blogPosts = [
     /* LeetCode */
     shuffleTheArray,
@@ -118,6 +121,9 @@ export const blogPosts = [
     /* TryHackMe */
     cryptographyBasics,
     offensiveSecurityIntro,
-    monikerLinkCVE202421413
+    monikerLinkCVE202421413,
+
+    /* Tools */
+    portScannerTool,
     
 ];
