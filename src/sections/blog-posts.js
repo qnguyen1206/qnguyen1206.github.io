@@ -110,6 +110,7 @@ import cryptographyBasics from './blogs/cryptography-basics.js';
 import monikerLinkCVE202421413 from './blogs/moniker-link-cve-2024-21413.js';
 import metasploitIntroduction from './blogs/metasploit-introduction.js';
 import metasploitExploitation from './blogs/metasploit-exploitation.js';
+import metasploitMeterpreter from './blogs/metasploit-meterpreter.js';
 
 /* Tools */
 import portScannerTool from './blogs/port-scanner-tool.js';
@@ -128,6 +129,7 @@ export const blogPosts = [
     monikerLinkCVE202421413,
     metasploitIntroduction,
     metasploitExploitation,
+    metasploitMeterpreter,
 
     /* Tools */
     portScannerTool,

@@ -522,12 +522,16 @@ export function initBlog() {
     // Placeholder tokens for escaped characters (no underscores to avoid subscript issues)
     const ESCAPED_UNDERSCORE = '~~ESCUNDER~~';
     const ESCAPED_CARET = '~~ESCCARET~~';
+    const ESCAPED_BACKSLASH = '~~ESCBACKSLASH~~';
+    const ESCAPED_BACKTICK = '~~ESCBACKTICK~~';
     
     // Store code blocks to protect them from other formatting
     const codeBlockStore = [];
     const inlineCodeStore = [];
     
     // Process solution tabs first (protect their code blocks)
+    text = text.replace(/\\\\/g, ESCAPED_BACKSLASH); // Protect escaped backslashes first
+    text = text.replace(/\\`/g, ESCAPED_BACKTICK); // Protect escaped backticks
     text = text.replace(/\[solutions\]([\s\S]*?)\[\/solutions\]/g, (match, content) => {
       const tabId = `solution-tabs-${solutionTabCounter++}`;
       const codeBlocks = [];
@@ -579,7 +583,7 @@ export function initBlog() {
     });
     
     text = text
-      // First, protect escaped characters
+      // First, protect escaped characters (backslash already handled above)
       .replace(/\\_/g, ESCAPED_UNDERSCORE)
       .replace(/\\\^/g, ESCAPED_CARET)
       // Headers
@@ -602,6 +606,8 @@ export function initBlog() {
       // Restore escaped characters
       .replace(new RegExp(ESCAPED_UNDERSCORE, 'g'), '_')
       .replace(new RegExp(ESCAPED_CARET, 'g'), '^')
+      .replace(new RegExp(ESCAPED_BACKSLASH, 'g'), '\\')
+      .replace(new RegExp(ESCAPED_BACKTICK, 'g'), '`')
       // Paragraphs (lines that aren't already wrapped)
       // Split on 2+ newlines (with optional whitespace between) for paragraph breaks
       .split(/\n\s*\n/)
