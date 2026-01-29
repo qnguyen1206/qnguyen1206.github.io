@@ -112,6 +112,9 @@ import metasploitIntroduction from './blogs/metasploit-introduction.js';
 import metasploitExploitation from './blogs/metasploit-exploitation.js';
 import metasploitMeterpreter from './blogs/metasploit-meterpreter.js';
 
+/* TryHackMe Challenges */
+import theGameChallenge from './blogs/the-game-challenge.js';
+
 /* Tools */
 import portScannerTool from './blogs/port-scanner-tool.js';
 
@@ -130,6 +133,9 @@ export const blogPosts = [
     metasploitIntroduction,
     metasploitExploitation,
     metasploitMeterpreter,
+
+    /* TryHackMe Challenges */
+    theGameChallenge,
 
     /* Tools */
     portScannerTool,

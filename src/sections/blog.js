@@ -523,7 +523,6 @@ export function initBlog() {
     const ESCAPED_UNDERSCORE = '~~ESCUNDER~~';
     const ESCAPED_CARET = '~~ESCCARET~~';
     const ESCAPED_BACKSLASH = '~~ESCBACKSLASH~~';
-    const ESCAPED_BACKTICK = '~~ESCBACKTICK~~';
     
     // Store code blocks to protect them from other formatting
     const codeBlockStore = [];
@@ -531,7 +530,6 @@ export function initBlog() {
     
     // Process solution tabs first (protect their code blocks)
     text = text.replace(/\\\\/g, ESCAPED_BACKSLASH); // Protect escaped backslashes first
-    text = text.replace(/\\`/g, ESCAPED_BACKTICK); // Protect escaped backticks
     text = text.replace(/\[solutions\]([\s\S]*?)\[\/solutions\]/g, (match, content) => {
       const tabId = `solution-tabs-${solutionTabCounter++}`;
       const codeBlocks = [];
@@ -607,7 +605,6 @@ export function initBlog() {
       .replace(new RegExp(ESCAPED_UNDERSCORE, 'g'), '_')
       .replace(new RegExp(ESCAPED_CARET, 'g'), '^')
       .replace(new RegExp(ESCAPED_BACKSLASH, 'g'), '\\')
-      .replace(new RegExp(ESCAPED_BACKTICK, 'g'), '`')
       // Paragraphs (lines that aren't already wrapped)
       // Split on 2+ newlines (with optional whitespace between) for paragraph breaks
       .split(/\n\s*\n/)
@@ -622,6 +619,8 @@ export function initBlog() {
         let html = para.replace(/\n/g, '<br>');
         // Bold (after <br> so it doesn't eat line breaks)
         html = html.replace(/\*\*([\s\S]+?)\*\*/g, '<strong>$1</strong>');
+        // Italics: single asterisks, not inside bold
+        html = html.replace(/\*([^*]+)\*/g, '<em>$1</em>');
         return `<p>${html}</p>`;
       })
       .join('');
