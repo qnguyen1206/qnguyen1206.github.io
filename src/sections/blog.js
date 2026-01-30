@@ -519,10 +519,14 @@ export function initBlog() {
   let solutionTabCounter = 0;
   
   function parseMarkdown(text) {
-    // Placeholder tokens for escaped characters (no underscores to avoid subscript issues)
-    const ESCAPED_UNDERSCORE = '~~ESCUNDER~~';
-    const ESCAPED_CARET = '~~ESCCARET~~';
-    const ESCAPED_BACKSLASH = '~~ESCBACKSLASH~~';
+    // DEBUG: Check if escaping is enabled
+    // console.log('parseMarkdown v2.0 - escaping enabled');
+    
+    // Placeholder tokens for escaped characters
+    const ESCAPED_UNDERSCORE = 'XESCUNDERSCOREX';
+    const ESCAPED_CARET = 'XESCCARETX';
+    const ESCAPED_BACKSLASH = 'XESCBACKSLASHX';
+    const ESCAPED_ASTERISK = 'XESCASTERISKX';
     
     // Store code blocks to protect them from other formatting
     const codeBlockStore = [];
@@ -584,6 +588,7 @@ export function initBlog() {
       // First, protect escaped characters (backslash already handled above)
       .replace(/\\_/g, ESCAPED_UNDERSCORE)
       .replace(/\\\^/g, ESCAPED_CARET)
+      .replace(/\\\*/g, ESCAPED_ASTERISK)
       // Headers
       .replace(/^### (.+)$/gm, '<h3>$1</h3>')
       .replace(/^## (.+)$/gm, '<h2>$1</h2>')
@@ -594,17 +599,13 @@ export function initBlog() {
       .replace(/_\{([^}]+)\}/g, '<sub>$1</sub>')
       .replace(/_(\w)/g, '<sub>$1</sub>')
       // Numbered lists (1. 2. 3. etc)
-      .replace(/^\d+\. (.+)$/gm, (m, item) => `<oli>${item.replace(/\*\*([\s\S]+?)\*\*/g, '<strong>$1</strong>')}</oli>`) // bold inside numbered list
+      .replace(/^\d+\. (.+)$/gm, '<oli>$1</oli>')
       // Wrap consecutive oli elements in ol (remove newlines between items)
       .replace(/(<oli>.*<\/oli>\n?)+/g, (match) => '<ol>' + match.replace(/oli>/g, 'li>').replace(/\n/g, '') + '</ol>')
       // Unordered lists (- item)
-      .replace(/^- (.+)$/gm, (m, item) => `<uli>${item.replace(/\*\*([\s\S]+?)\*\*/g, '<strong>$1</strong>')}</uli>`) // bold inside bullet list
+      .replace(/^- (.+)$/gm, '<uli>$1</uli>')
       // Wrap consecutive uli elements in ul (remove newlines between items)
       .replace(/(<uli>.*<\/uli>\n?)+/g, (match) => '<ul>' + match.replace(/uli>/g, 'li>').replace(/\n/g, '') + '</ul>')
-      // Restore escaped characters
-      .replace(new RegExp(ESCAPED_UNDERSCORE, 'g'), '_')
-      .replace(new RegExp(ESCAPED_CARET, 'g'), '^')
-      .replace(new RegExp(ESCAPED_BACKSLASH, 'g'), '\\')
       // Paragraphs (lines that aren't already wrapped)
       // Split on 2+ newlines (with optional whitespace between) for paragraph breaks
       .split(/\n\s*\n/)
@@ -617,13 +618,19 @@ export function initBlog() {
         if (/^~~(CODEBLOCK|SOLUTIONTABS)\d+~~$/.test(para)) return para;
         // Convert single newlines to <br> within paragraphs (including those with inline code)
         let html = para.replace(/\n/g, '<br>');
-        // Bold (after <br> so it doesn't eat line breaks)
-        html = html.replace(/\*\*([\s\S]+?)\*\*/g, '<strong>$1</strong>');
-        // Italics: single asterisks, not inside bold
-        html = html.replace(/\*([^*]+)\*/g, '<em>$1</em>');
         return `<p>${html}</p>`;
       })
-      .join('');
+      .join('')
+      // Now apply bold and italic formatting to everything (lists and paragraphs)
+      // Bold
+      .replace(/\*\*([\s\S]+?)\*\*/g, '<strong>$1</strong>')
+      // Italics: single asterisks, not inside bold
+      .replace(/\*([^*]+)\*/g, '<em>$1</em>')
+      // Restore escaped characters AFTER all formatting is done
+      .replace(/XESCUNDERSCOREX/g, '_')
+      .replace(/XESCCARETX/g, '^')
+      .replace(/XESCBACKSLASHX/g, '\\')
+      .replace(/XESCASTERISKX/g, '*');
     
     // Restore code blocks and inline code
     codeBlockStore.forEach((code, i) => {

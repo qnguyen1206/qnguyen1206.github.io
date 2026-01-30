@@ -18,7 +18,7 @@ Cipher has gone dark, but intel reveals he’s hiding critical secrets inside Te
 **Answer the questions below**⸻⸻⸻⸻⸻
 
 What is the flag?
-**Answer:** THM{I\_CAN_READ_IT_ALL}
+**Answer:** THM{I\\_CAN\\_READ\\_IT\\_ALL}
 **Reason:** In this challenge, I am using Windows 11 computer and Windows PowerShell to complete the challenge.
 1. Downloaded the file associated with the tasks.
 2. Extract the file and find the file named "Tetris".
