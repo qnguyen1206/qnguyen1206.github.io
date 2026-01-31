@@ -111,6 +111,7 @@ import monikerLinkCVE202421413 from './blogs/moniker-link-cve-2024-21413.js';
 import metasploitIntroduction from './blogs/metasploit-introduction.js';
 import metasploitExploitation from './blogs/metasploit-exploitation.js';
 import metasploitMeterpreter from './blogs/metasploit-meterpreter.js';
+import webApplicationBasics from './blogs/web-application-basics.js';
 
 /* TryHackMe Challenges */
 import theGameChallenge from './blogs/the-game-challenge.js';
@@ -133,6 +134,7 @@ export const blogPosts = [
     metasploitIntroduction,
     metasploitExploitation,
     metasploitMeterpreter,
+    webApplicationBasics,
 
     /* TryHackMe Challenges */
     theGameChallenge,
