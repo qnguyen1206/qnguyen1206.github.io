@@ -112,6 +112,7 @@ import metasploitIntroduction from './blogs/metasploit-introduction.js';
 import metasploitExploitation from './blogs/metasploit-exploitation.js';
 import metasploitMeterpreter from './blogs/metasploit-meterpreter.js';
 import webApplicationBasics from './blogs/web-application-basics.js';
+import javaScriptEssentials from './blogs/javascript-essentials.js';    
 
 /* TryHackMe Challenges */
 import theGameChallenge from './blogs/the-game-challenge.js';
@@ -135,6 +136,7 @@ export const blogPosts = [
     metasploitExploitation,
     metasploitMeterpreter,
     webApplicationBasics,
+    javaScriptEssentials,
 
     /* TryHackMe Challenges */
     theGameChallenge,
