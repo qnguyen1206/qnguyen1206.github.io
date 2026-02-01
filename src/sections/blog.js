@@ -6,9 +6,105 @@ export function initBlog() {
   const blog = document.getElementById('blog');
   if (!blog) return;
   const categories = ['All', 'LeetCode', 'TryHackMe', 'Tools'];
+  const POSTS_PER_PAGE = 9;
   
   // Sort blog posts by date (most recent first)
   const sortedPosts = [...blogPosts].sort((a, b) => new Date(b.date) - new Date(a.date));
+
+  // Helper to get stars for difficulty (moved up for use in renderBlogCards)
+  function getDifficultyStars(difficulty) {
+    const diff = difficulty.toLowerCase();
+    if (diff === 'easy') return '★';
+    if (diff === 'medium') return '★★';
+    if (diff === 'hard') return '★★★';
+    if (diff === 'challenge') return '★★★★';
+    if (diff === 'extreme') return '★★★★★';
+    return '';
+  }
+
+  // Render blog cards for the current page and filter
+  function renderBlogCards(posts, page = 1) {
+    const startIndex = (page - 1) * POSTS_PER_PAGE;
+    const endIndex = startIndex + POSTS_PER_PAGE;
+    const paginatedPosts = posts.slice(startIndex, endIndex);
+
+    if (paginatedPosts.length === 0) {
+      return `
+        <div class="blog-empty">
+          <p>🚧 No writeups found. Check back later!</p>
+        </div>
+      `;
+    }
+
+    return paginatedPosts.map(post => `
+      <article class="blog-card" data-category="${post.category.toLowerCase()}" data-id="${post.id}">
+        <div class="blog-card-header">
+          <span class="blog-category ${post.category.toLowerCase()}">${post.category}</span>
+          <span class="blog-difficulty ${post.difficulty.toLowerCase()}"><span class="difficulty-stars">${getDifficultyStars(post.difficulty)}</span> ${post.difficulty}</span>
+        </div>
+        <h3 class="blog-title">${post.title}</h3>
+        <p class="blog-excerpt">${post.excerpt}</p>
+        <div class="blog-tags">
+          ${post.tags.map(tag => `<span class="blog-tag">${tag}</span>`).join('')}
+        </div>
+        <div class="blog-footer">
+          <span class="blog-date">${new Date(post.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
+          <button class="blog-read-more" data-id="${post.id}">Read More →</button>
+        </div>
+      </article>
+    `).join('');
+  }
+
+  // Render pagination controls
+  function renderPagination(totalPosts, currentPage = 1) {
+    const totalPages = Math.ceil(totalPosts / POSTS_PER_PAGE);
+    
+    if (totalPages <= 1) return '';
+
+    let paginationHTML = '<div class="blog-pagination">';
+    
+    // Previous button
+    paginationHTML += `<button class="pagination-btn pagination-prev ${currentPage === 1 ? 'disabled' : ''}" data-page="${currentPage - 1}" ${currentPage === 1 ? 'disabled' : ''}>← Prev</button>`;
+    
+    // Page numbers
+    paginationHTML += '<div class="pagination-numbers">';
+    
+    // Logic for showing page numbers with ellipsis
+    const maxVisiblePages = 5;
+    let startPage = Math.max(1, currentPage - Math.floor(maxVisiblePages / 2));
+    let endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
+    
+    if (endPage - startPage + 1 < maxVisiblePages) {
+      startPage = Math.max(1, endPage - maxVisiblePages + 1);
+    }
+
+    if (startPage > 1) {
+      paginationHTML += `<button class="pagination-btn pagination-num" data-page="1">1</button>`;
+      if (startPage > 2) {
+        paginationHTML += `<span class="pagination-ellipsis">...</span>`;
+      }
+    }
+
+    for (let i = startPage; i <= endPage; i++) {
+      paginationHTML += `<button class="pagination-btn pagination-num ${i === currentPage ? 'active' : ''}" data-page="${i}">${i}</button>`;
+    }
+
+    if (endPage < totalPages) {
+      if (endPage < totalPages - 1) {
+        paginationHTML += `<span class="pagination-ellipsis">...</span>`;
+      }
+      paginationHTML += `<button class="pagination-btn pagination-num" data-page="${totalPages}">${totalPages}</button>`;
+    }
+
+    paginationHTML += '</div>';
+    
+    // Next button
+    paginationHTML += `<button class="pagination-btn pagination-next ${currentPage === totalPages ? 'disabled' : ''}" data-page="${currentPage + 1}" ${currentPage === totalPages ? 'disabled' : ''}>Next →</button>`;
+    
+    paginationHTML += '</div>';
+    
+    return paginationHTML;
+  }
 
   blog.innerHTML = `
     <div class="container">
@@ -20,28 +116,10 @@ export function initBlog() {
       </div>
 
       <div class="blog-grid">
-        ${sortedPosts.length > 0 ? sortedPosts.map(post => `
-          <article class="blog-card" data-category="${post.category.toLowerCase()}" data-id="${post.id}">
-            <div class="blog-card-header">
-              <span class="blog-category ${post.category.toLowerCase()}">${post.category}</span>
-              <span class="blog-difficulty ${post.difficulty.toLowerCase()}"><span class="difficulty-stars">${getDifficultyStars(post.difficulty)}</span> ${post.difficulty}</span>
-            </div>
-            <h3 class="blog-title">${post.title}</h3>
-            <p class="blog-excerpt">${post.excerpt}</p>
-            <div class="blog-tags">
-              ${post.tags.map(tag => `<span class="blog-tag">${tag}</span>`).join('')}
-            </div>
-            <div class="blog-footer">
-              <span class="blog-date">${new Date(post.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
-              <button class="blog-read-more" data-id="${post.id}">Read More →</button>
-            </div>
-          </article>
-        `).join('') : `
-          <div class="blog-empty">
-            <p>🚧 Writeups coming soon! Check back later for my problem-solving journey.</p>
-          </div>
-        `}
+        ${renderBlogCards(sortedPosts, 1)}
       </div>
+
+      ${renderPagination(sortedPosts.length, 1)}
 
       <!-- Modal for full writeup -->
       <div class="blog-modal" id="blog-modal">
@@ -500,19 +578,129 @@ export function initBlog() {
         .blog-modal-title {
           font-size: var(--font-size-2xl);
         }
+
+        .blog-pagination {
+          gap: var(--space-2);
+        }
+
+        .pagination-btn {
+          padding: var(--space-2) var(--space-3);
+          font-size: var(--font-size-xs);
+        }
+
+        .pagination-prev,
+        .pagination-next {
+          padding: var(--space-2);
+        }
+      }
+
+      /* Pagination Styles */
+      .blog-pagination {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: var(--space-3);
+        margin-top: var(--space-8);
+        flex-wrap: wrap;
+      }
+
+      .pagination-numbers {
+        display: flex;
+        align-items: center;
+        gap: var(--space-2);
+      }
+
+      .pagination-btn {
+        padding: var(--space-2) var(--space-4);
+        border: 1px solid rgba(139, 92, 246, 0.3);
+        border-radius: var(--radius-md);
+        background: transparent;
+        color: var(--color-gray-300);
+        cursor: pointer;
+        transition: all 0.3s ease;
+        font-size: var(--font-size-sm);
+        font-family: inherit;
+      }
+
+      .pagination-btn:hover:not(.disabled) {
+        background: linear-gradient(135deg, rgba(139, 92, 246, 0.3), rgba(59, 130, 246, 0.3));
+        border-color: var(--color-primary-500);
+        color: var(--color-white);
+      }
+
+      .pagination-btn.active {
+        background: linear-gradient(135deg, rgba(139, 92, 246, 0.5), rgba(59, 130, 246, 0.5));
+        border-color: var(--color-primary-400);
+        color: var(--color-white);
+      }
+
+      .pagination-btn.disabled {
+        opacity: 0.4;
+        cursor: not-allowed;
+      }
+
+      .pagination-ellipsis {
+        color: var(--color-gray-500);
+        padding: 0 var(--space-1);
+      }
+
+      .pagination-prev,
+      .pagination-next {
+        font-weight: 500;
       }
     </style>
   `;
 
-  // Helper to get stars for difficulty
-  function getDifficultyStars(difficulty) {
-    const diff = difficulty.toLowerCase();
-    if (diff === 'easy') return '★';
-    if (diff === 'medium') return '★★';
-    if (diff === 'hard') return '★★★';
-    if (diff === 'challenge') return '★★★★';
-    if (diff === 'extreme') return '★★★★★';
-    return '';
+  // Pagination state
+  let currentPage = 1;
+  let currentFilter = 'all';
+
+  // Get filtered posts based on current filter
+  function getFilteredPosts() {
+    if (currentFilter === 'all') {
+      return sortedPosts;
+    }
+    return sortedPosts.filter(post => post.category.toLowerCase() === currentFilter);
+  }
+
+  // Update the blog grid and pagination
+  function updateBlogView() {
+    const filteredPosts = getFilteredPosts();
+    const blogGrid = blog.querySelector('.blog-grid');
+    const paginationContainer = blog.querySelector('.blog-pagination');
+    
+    // Update blog cards
+    blogGrid.innerHTML = renderBlogCards(filteredPosts, currentPage);
+    
+    // Update pagination
+    const newPaginationHTML = renderPagination(filteredPosts.length, currentPage);
+    if (paginationContainer) {
+      paginationContainer.outerHTML = newPaginationHTML;
+    } else if (newPaginationHTML) {
+      blogGrid.insertAdjacentHTML('afterend', newPaginationHTML);
+    }
+
+    // Re-attach event listeners for read more buttons
+    attachReadMoreListeners();
+    
+    // Re-attach pagination listeners
+    attachPaginationListeners();
+  }
+
+  // Attach pagination event listeners
+  function attachPaginationListeners() {
+    const paginationBtns = blog.querySelectorAll('.pagination-btn:not(.disabled)');
+    paginationBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const page = parseInt(btn.dataset.page);
+        if (page !== currentPage) {
+          currentPage = page;
+          updateBlogView();
+          // Smooth scroll to top of blog section
+          blog.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
   }
 
   // Simple markdown parser for writeups
@@ -664,52 +852,60 @@ export function initBlog() {
   const modalBody = modal.querySelector('#modal-body');
   const modalClose = modal.querySelector('.blog-modal-close');
 
-  // Open modal
-  blog.querySelectorAll('.blog-read-more').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const postId = btn.dataset.id;
-      const post = postsMap[postId];
-      
-      if (post) {
-        modalTitle.textContent = post.title;
-        modalCategory.textContent = post.category;
-        modalCategory.className = `blog-category ${post.category.toLowerCase()}`;
-        modalDifficulty.innerHTML = `<span class="difficulty-stars">${getDifficultyStars(post.difficulty)}</span> ${post.difficulty}`;
-        modalDifficulty.className = `blog-difficulty ${post.difficulty.toLowerCase()}`;
-        modalTags.innerHTML = post.tags.map(tag => `<span class="blog-tag">${tag}</span>`).join('');
-        modalBody.innerHTML = parseMarkdown(post.content);
+  // Function to attach read more listeners (reusable for pagination updates)
+  function attachReadMoreListeners() {
+    blog.querySelectorAll('.blog-read-more').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const postId = btn.dataset.id;
+        const post = postsMap[postId];
         
-        // Apply syntax highlighting to all code blocks
-        modalBody.querySelectorAll('pre code').forEach((block) => {
-          hljs.highlightElement(block);
-        });
-        
-        // Initialize solution tabs click handlers
-        modalBody.querySelectorAll('.solution-tab-btn').forEach(tabBtn => {
-          tabBtn.addEventListener('click', () => {
-            const tabId = tabBtn.dataset.tab;
-            const tabsContainer = tabBtn.closest('.solution-tabs');
-            
-            // Update active button
-            tabsContainer.querySelectorAll('.solution-tab-btn').forEach(btn => btn.classList.remove('active'));
-            tabBtn.classList.add('active');
-            
-            // Update active content
-            tabsContainer.querySelectorAll('.solution-tab-content').forEach(content => content.classList.remove('active'));
-            tabsContainer.querySelector(`[data-tab-content="${tabId}"]`).classList.add('active');
+        if (post) {
+          modalTitle.textContent = post.title;
+          modalCategory.textContent = post.category;
+          modalCategory.className = `blog-category ${post.category.toLowerCase()}`;
+          modalDifficulty.innerHTML = `<span class="difficulty-stars">${getDifficultyStars(post.difficulty)}</span> ${post.difficulty}`;
+          modalDifficulty.className = `blog-difficulty ${post.difficulty.toLowerCase()}`;
+          modalTags.innerHTML = post.tags.map(tag => `<span class="blog-tag">${tag}</span>`).join('');
+          modalBody.innerHTML = parseMarkdown(post.content);
+          
+          // Apply syntax highlighting to all code blocks
+          modalBody.querySelectorAll('pre code').forEach((block) => {
+            hljs.highlightElement(block);
           });
-        });
-        
-        modal.classList.add('active');
-        // Reset scroll positions to top
-        modal.scrollTop = 0;
-        modalContent.scrollTop = 0;
-        modalBody.scrollTop = 0;
-        document.documentElement.style.overflow = 'hidden';
-        document.body.style.overflow = 'hidden';
-      }
+          
+          // Initialize solution tabs click handlers
+          modalBody.querySelectorAll('.solution-tab-btn').forEach(tabBtn => {
+            tabBtn.addEventListener('click', () => {
+              const tabId = tabBtn.dataset.tab;
+              const tabsContainer = tabBtn.closest('.solution-tabs');
+              
+              // Update active button
+              tabsContainer.querySelectorAll('.solution-tab-btn').forEach(btn => btn.classList.remove('active'));
+              tabBtn.classList.add('active');
+              
+              // Update active content
+              tabsContainer.querySelectorAll('.solution-tab-content').forEach(content => content.classList.remove('active'));
+              tabsContainer.querySelector(`[data-tab-content="${tabId}"]`).classList.add('active');
+            });
+          });
+          
+          modal.classList.add('active');
+          // Reset scroll positions to top
+          modal.scrollTop = 0;
+          modalContent.scrollTop = 0;
+          modalBody.scrollTop = 0;
+          document.documentElement.style.overflow = 'hidden';
+          document.body.style.overflow = 'hidden';
+        }
+      });
     });
-  });
+  }
+
+  // Initial attachment of read more listeners
+  attachReadMoreListeners();
+
+  // Initial attachment of pagination listeners
+  attachPaginationListeners();
 
   // Close modal
   modalClose.addEventListener('click', () => {
@@ -745,7 +941,6 @@ export function initBlog() {
 
   // Filter functionality
   const filterBtns = blog.querySelectorAll('.filter-btn');
-  const blogCards = blog.querySelectorAll('.blog-card');
 
   filterBtns.forEach(btn => {
     btn.addEventListener('click', () => {
@@ -755,14 +950,10 @@ export function initBlog() {
       filterBtns.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
 
-      // Filter cards
-      blogCards.forEach(card => {
-        if (filter === 'all' || card.dataset.category === filter) {
-          card.classList.remove('hidden');
-        } else {
-          card.classList.add('hidden');
-        }
-      });
+      // Update filter and reset to page 1
+      currentFilter = filter;
+      currentPage = 1;
+      updateBlogView();
     });
   });
 }

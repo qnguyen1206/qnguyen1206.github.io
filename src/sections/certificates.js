@@ -1,41 +1,46 @@
-const certificatesData = [
-  {
-    title: "Pre Security",
-    issuer: "TryHackMe", 
-    date: "Jan 19, 2026",
-    link: "https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-OEVIOASGDY.pdf"
-  },
-  {
-    title: "Typography: Hierarchy and Navigation",
-    issuer: "LinkedIn Learning", 
-    date: "Oct 19, 2025",
-    link: "https://www.linkedin.com/learning/certificates/55d7fb36f815d968191f6f722c8ac76b39b79ded8ef2fdeacf5d921c8038307c?trk=share_certificate"
-  },
-  {
-    title: "Graphic Design Foundations: Typography",
-    issuer: "LinkedIn Learning", 
-    date: "Oct 11, 2025",
-    link: "https://www.linkedin.com/learning/certificates/2ec51a540e414a3d402a76776f3d869a0ae7d0e4d8028231bc2f4a099aa43f0c?trk=share_certificate"
-  },
-  {
-    title: "Python for Data visualization",
-    issuer: "LinkedIn Learning", 
-    date: "Sep 05, 2025",
-    link: "https://www.linkedin.com/learning/certificates/4aa4b781930a7849ceea31e326d4665b8ef969e2b43843f44c7a14e380c01952?trk=share_certificate"
-  },
-  {
-    title: "Figma Essential Training: The Basics",
-    issuer: "LinkedIn Learning", 
-    date: "Sep 04, 2025",
-    link: "https://www.linkedin.com/learning/certificates/834631ec81942e46498fe9aa0a760113b95a3d5da73c21d71ef592541a4ea6bf?trk=share_certificate"
-  },
-  {
-    title: "Legacy JavaScript Algorithms and Data Structures",
-    issuer: "freeCodeCamp",
-    date: "July 21, 2023",
-    link: "https://www.freecodecamp.org/certification/quang_m_nguyen/javascript-algorithms-and-data-structures"
-  }
-];
+const certificatesData = {
+  professional: [
+    
+  ],
+  nonProfessional: [
+    {
+      title: "Pre Security",
+      issuer: "TryHackMe", 
+      date: "Jan 19, 2026",
+      link: "https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-OEVIOASGDY.pdf"
+    },
+    {
+      title: "Typography: Hierarchy and Navigation",
+      issuer: "LinkedIn Learning", 
+      date: "Oct 19, 2025",
+      link: "https://www.linkedin.com/learning/certificates/55d7fb36f815d968191f6f722c8ac76b39b79ded8ef2fdeacf5d921c8038307c?trk=share_certificate"
+    },
+    {
+      title: "Graphic Design Foundations: Typography",
+      issuer: "LinkedIn Learning", 
+      date: "Oct 11, 2025",
+      link: "https://www.linkedin.com/learning/certificates/2ec51a540e414a3d402a76776f3d869a0ae7d0e4d8028231bc2f4a099aa43f0c?trk=share_certificate"
+    },
+    {
+      title: "Python for Data visualization",
+      issuer: "LinkedIn Learning", 
+      date: "Sep 05, 2025",
+      link: "https://www.linkedin.com/learning/certificates/4aa4b781930a7849ceea31e326d4665b8ef969e2b43843f44c7a14e380c01952?trk=share_certificate"
+    },
+    {
+      title: "Figma Essential Training: The Basics",
+      issuer: "LinkedIn Learning", 
+      date: "Sep 04, 2025",
+      link: "https://www.linkedin.com/learning/certificates/834631ec81942e46498fe9aa0a760113b95a3d5da73c21d71ef592541a4ea6bf?trk=share_certificate"
+    },
+    {
+      title: "Legacy JavaScript Algorithms and Data Structures",
+      issuer: "freeCodeCamp",
+      date: "July 21, 2023",
+      link: "https://www.freecodecamp.org/certification/quang_m_nguyen/javascript-algorithms-and-data-structures"
+    }
+  ]
+};
 
 const issuerIcons = {
   "Google": "https://developers.google.com/static/site-assets/logo-google.svg",
@@ -107,7 +112,20 @@ function generateCertificateHTML(cert) {
 export function initCertificates() {
   const certificatesSection = document.getElementById('certificates');
 
-  const certificatesHTML = certificatesData.map(cert => generateCertificateHTML(cert)).join('');
+  // Current active tab state
+  let activeTab = 'professional';
+  
+  function getCurrentCertificates() {
+    return certificatesData[activeTab] || [];
+  }
+
+  function getCertificatesHTML() {
+    const certs = getCurrentCertificates();
+    if (certs.length === 0) {
+      return `<div class="certificates-empty"><p>No certificates in this category yet.</p></div>`;
+    }
+    return certs.map(cert => generateCertificateHTML(cert)).join('');
+  }
 
   function getCertificatesPerView() {
     const screenWidth = window.innerWidth;
@@ -119,11 +137,13 @@ export function initCertificates() {
 
   function getTotalPages() {
     const certificatesPerView = getCertificatesPerView();
-    return Math.ceil(certificatesData.length / certificatesPerView);
+    const currentCerts = getCurrentCertificates();
+    return Math.max(1, Math.ceil(currentCerts.length / certificatesPerView));
   }
 
   function createDotsHTML() {
     const totalPages = getTotalPages();
+    if (totalPages <= 1) return '';
     return Array.from({length: totalPages}, (_, index) => `
       <button class="cert-dot ${index === 0 ? 'active' : ''}" data-index="${index}"></button>
     `).join('');
@@ -132,13 +152,35 @@ export function initCertificates() {
   certificatesSection.innerHTML = `
     <div class="container">
       <h2 class="section-title reveal">Certificates</h2>
+      
+      <div class="certificates-tabs">
+        <button class="cert-tab-btn active" data-tab="professional">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 7m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
+            <path d="M8 7v-2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v2" />
+            <path d="M12 12l0 .01" />
+            <path d="M3 13a20 20 0 0 0 18 0" />
+          </svg>
+          Professional
+        </button>
+        <button class="cert-tab-btn" data-tab="nonProfessional">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M22 9l-10 -4l-10 4l10 4l10 -4v6" />
+            <path d="M6 10.6v5.4a6 3 0 0 0 12 0v-5.4" />
+          </svg>
+          Non-Professional
+        </button>
+      </div>
+
       <div class="certificates-container reveal">
         <div class="certificates-wrapper" id="certificatesWrapper">
           <div class="certificates-grid" id="certificatesGrid">
-            ${certificatesHTML}
+            ${getCertificatesHTML()}
           </div>
         </div>
-        <div class="certificates-navigation">
+        <div class="certificates-navigation" id="certificatesNavigation">
           <button class="cert-nav-btn prev-btn" id="prevCertBtn">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <polyline points="15,18 9,12 15,6"></polyline>
@@ -163,6 +205,57 @@ export function initCertificates() {
         display: flex;
         flex-direction: column;
         justify-content: center;
+      }
+
+      .certificates-tabs {
+        display: flex;
+        justify-content: center;
+        gap: var(--space-3);
+        margin-bottom: var(--space-6);
+        flex-wrap: wrap;
+      }
+
+      .cert-tab-btn {
+        display: flex;
+        align-items: center;
+        gap: var(--space-2);
+        padding: var(--space-3) var(--space-5);
+        border: 1px solid rgba(139, 92, 246, 0.3);
+        border-radius: var(--radius-full);
+        background: transparent;
+        color: var(--color-gray-300);
+        cursor: pointer;
+        transition: all 0.3s ease;
+        font-size: var(--font-size-sm);
+        font-family: inherit;
+        font-weight: 500;
+      }
+
+      .cert-tab-btn:hover {
+        background: linear-gradient(135deg, rgba(139, 92, 246, 0.2), rgba(59, 130, 246, 0.2));
+        border-color: rgba(139, 92, 246, 0.5);
+        color: var(--color-white);
+      }
+
+      .cert-tab-btn.active {
+        background: linear-gradient(135deg, rgba(139, 92, 246, 0.4), rgba(59, 130, 246, 0.4));
+        border-color: var(--color-primary-500);
+        color: var(--color-white);
+        box-shadow: 0 4px 15px rgba(139, 92, 246, 0.3);
+      }
+
+      .cert-tab-btn svg {
+        flex-shrink: 0;
+      }
+
+      .certificates-empty {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 300px;
+        width: 100%;
+        color: var(--color-gray-400);
+        font-size: var(--font-size-lg);
       }
 
       .certificates-container {
@@ -436,6 +529,20 @@ export function initCertificates() {
         .certificates-navigation {
           gap: var(--space-2);
         }
+
+        .certificates-tabs {
+          gap: var(--space-2);
+        }
+
+        .cert-tab-btn {
+          padding: var(--space-2) var(--space-3);
+          font-size: var(--font-size-xs);
+        }
+
+        .cert-tab-btn svg {
+          width: 16px;
+          height: 16px;
+        }
       }
     </style>
   `;
@@ -447,17 +554,26 @@ export function initCertificates() {
   function updateCarousel() {
     const certificatesPerView = getCertificatesPerView();
     const totalPages = getTotalPages();
+    const currentCerts = getCurrentCertificates();
 
     const certificatesGrid = document.getElementById('certificatesGrid');
     const dots = document.querySelectorAll('.cert-dot');
     const prevBtn = document.getElementById('prevCertBtn');
     const nextBtn = document.getElementById('nextCertBtn');
+    const navigation = document.getElementById('certificatesNavigation');
+
+    // Hide navigation if only one page or no certificates
+    if (totalPages <= 1 || currentCerts.length === 0) {
+      navigation.style.display = 'none';
+    } else {
+      navigation.style.display = 'flex';
+    }
 
     certificatesGrid.style.transform = 'translateX(0)';
     certificatesGrid.style.justifyContent = 'center';
 
     const startIndex = currentIndex * certificatesPerView;
-    const endIndex = Math.min(startIndex + certificatesPerView, certificatesData.length);
+    const endIndex = Math.min(startIndex + certificatesPerView, currentCerts.length);
 
     const allCards = certificatesGrid.querySelectorAll('.certificate-card');
     allCards.forEach((card, index) => {
@@ -472,8 +588,8 @@ export function initCertificates() {
       dot.classList.toggle('active', index === currentIndex);
     });
 
-    prevBtn.disabled = currentIndex === 0;
-    nextBtn.disabled = currentIndex >= totalPages - 1;
+    if (prevBtn) prevBtn.disabled = currentIndex === 0;
+    if (nextBtn) nextBtn.disabled = currentIndex >= totalPages - 1;
   }
 
   function updateDotsAndCarousel() {
@@ -482,7 +598,7 @@ export function initCertificates() {
 
     const totalPages = getTotalPages();
     if (currentIndex >= totalPages) {
-      currentIndex = totalPages - 1;
+      currentIndex = Math.max(0, totalPages - 1);
     }
 
     const newDots = document.querySelectorAll('.cert-dot');
@@ -491,6 +607,13 @@ export function initCertificates() {
     });
 
     updateCarousel();
+  }
+
+  function refreshCertificatesView() {
+    const certificatesGrid = document.getElementById('certificatesGrid');
+    certificatesGrid.innerHTML = getCertificatesHTML();
+    currentIndex = 0;
+    updateDotsAndCarousel();
   }
 
   function nextSlide() {
@@ -545,6 +668,26 @@ export function initCertificates() {
   const certificatesContainer = document.querySelector('.certificates-container');
   certificatesContainer.addEventListener('mouseenter', stopAutoScroll);
   certificatesContainer.addEventListener('mouseleave', startAutoScroll);
+
+  // Tab switching functionality
+  const tabBtns = document.querySelectorAll('.cert-tab-btn');
+  tabBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const tab = btn.dataset.tab;
+      if (tab !== activeTab) {
+        activeTab = tab;
+        
+        // Update active tab button
+        tabBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        
+        // Refresh the certificates view
+        stopAutoScroll();
+        refreshCertificatesView();
+        startAutoScroll();
+      }
+    });
+  });
 
   let startX = 0;
   let endX = 0;

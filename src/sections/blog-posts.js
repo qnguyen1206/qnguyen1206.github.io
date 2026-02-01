@@ -112,7 +112,8 @@ import metasploitIntroduction from './blogs/metasploit-introduction.js';
 import metasploitExploitation from './blogs/metasploit-exploitation.js';
 import metasploitMeterpreter from './blogs/metasploit-meterpreter.js';
 import webApplicationBasics from './blogs/web-application-basics.js';
-import javaScriptEssentials from './blogs/javascript-essentials.js';    
+import javaScriptEssentials from './blogs/javascript-essentials.js';
+import sqlFundamentals from './blogs/sql-fundamentals.js';  
 
 /* TryHackMe Challenges */
 import theGameChallenge from './blogs/the-game-challenge.js';
