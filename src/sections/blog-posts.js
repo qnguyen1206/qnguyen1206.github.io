@@ -138,6 +138,7 @@ export const blogPosts = [
     metasploitMeterpreter,
     webApplicationBasics,
     javaScriptEssentials,
+    sqlFundamentals,
 
     /* TryHackMe Challenges */
     theGameChallenge,

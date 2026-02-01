@@ -204,6 +204,18 @@
   margin-bottom: 10px;
 }
 
+.card-description {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.5;
+  margin-bottom: 12px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 /* Tech tags on cards */
 .card-tags {
   display: flex;

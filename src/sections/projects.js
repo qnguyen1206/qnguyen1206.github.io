@@ -247,6 +247,8 @@ export function initProjects() {
         <h3 id="proj-${project.id}-title" class="card-title">${project.title}</h3>
         <div class="card-subtitle">${project.category}</div>
         
+        ${project.description ? `<p class="card-description">${project.description.split('\n')[0]}</p>` : ''}
+
         <div class="card-tags">
           ${project.tags.slice(0, 4).map(tag => `<span class="card-tag">${tag}</span>`).join('')}
           ${project.tags.length > 4 ? `<span class="card-tag-more">+${project.tags.length - 4}</span>` : ''}
