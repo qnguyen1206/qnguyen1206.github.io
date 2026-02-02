@@ -323,11 +323,551 @@ Using the \`tools_db\` database, what is the name of the tool in the \`hacking_t
 Using the \`tools_db\` database, what is the shared category for both **USB Rubber Ducky** and **Bash Bunny**?
 **Answer:** USB attacks
 
+⸻⸻⸻⸻⸻
+
+### Task 6 Clauses
+
+A clause is a part of a statement that specifies the criteria of the data being manipulated, usually by an initial statement. Clauses can help us define the type of data and how it should be retrieved or sorted.
+
+In previous tasks, we already used some clauses, such as \`FROM\` that is used to specify the table we are accessing with our statement and \`WHERE\`, which specifies which records should be used.
+
+This task will focus on other clauses: \`DISTINCT\`, \`GROUP BY\`, \`ORDER BY\`, and \`HAVING\`.
+
+In this task, we will continue to use the **books** table that is part of the database **thm_books**. We can access it with the statement \`use thm_books;\`.
+
+**DISTINCT Clause**
+The \`DISTINCT\` clause is used to avoid duplicate records when doing a query, returning only unique values.
+
+Let's use a query \`SELECT * FROM books;\` and observe the results below.
+\`\`\`
+mysql> SELECT * FROM books;
++----+----------------------------+----------------+--------------------------------------------------------+
+| id | name                       | published_date | description                                            |
++----+----------------------------+----------------+--------------------------------------------------------+
+|  1 | Android Security Internals | 2014-10-14     | An In-Depth Guide to Android's Security Architecture   |
+|  2 | Bug Bounty Bootcamp        | 2021-11-16     | The Guide to Finding and Reporting Web Vulnerabilities |
+|  3 | Car Hacker's Handbook      | 2016-02-25     | A Guide for the Penetration Tester                     |
+|  4 | Designing Secure Software  | 2021-12-21     | A Guide for Developers                                 |
+|  5 | Ethical Hacking            | 2021-11-02     | A Hands-on Introduction to Breaking In                 |
+|  6 | Ethical Hacking            | 2021-11-02     |                                                        |
++----+----------------------------+----------------+--------------------------------------------------------+
+
+6 rows in set (0.00 sec)
+\`\`\`
+
+The query's output displays all the content of the table **books**, and the record **Ethical Hacking** is displayed twice. Let's perform the query again, but this time, using the \`DISTINCT\` clause.
+\`\`\`
+mysql> SELECT DISTINCT name FROM books;
++----------------------------+
+| name                       |
++----------------------------+
+| Android Security Internals |
+| Bug Bounty Bootcamp        |
+| Car Hacker's Handbook      |
+| Designing Secure Software  |
+| Ethical Hacking            |
++----------------------------+
+
+5 rows in set (0.00 sec)
+\`\`\`
+
+The output shows that only five rows are returned, and just one instance of the **Ethical Hacking** record is displayed.
+
+**GROUP BY Clause**
+The \`GROUP BY\` clause aggregates data from multiple records and **groups** the query results in columns. This can be helpful for aggregating functions.
+\`\`\`
+mysql> SELECT name, COUNT(*)
+    FROM books
+    GROUP BY name;
++----------------------------+----------+
+| name                       | COUNT(*) |
++----------------------------+----------+
+| Android Security Internals |        1 |
+| Bug Bounty Bootcamp        |        1 |
+| Car Hacker's Handbook      |        1 |
+| Designing Secure Software  |        1 |
+| Ethical Hacking            |        2 |
++----------------------------+----------+
+
+5 rows in set (0.00 sec)
+\`\`\`
+
+In the example above, the records on the book table are regrouped by the result of the \`COUNT\` function. We already know that **Ethical hacking** is listed twice, so the total **count** is 2, placed at the end since it is **grouped by** count.
+
+**ORDER BY Clause**
+The \`ORDER BY\` clause can be used to sort the records returned by a query in ascending or descending order. Using functions like \`ASC\` and \`DESC\` can help us to accomplish that, as shown below in the next two examples.
+**ASCENDING ORDER**
+\`\`\`
+mysql> SELECT *
+    FROM books
+    ORDER BY published_date ASC;
++----+----------------------------+----------------+--------------------------------------------------------+
+| id | name                       | published_date | description                                            |
++----+----------------------------+----------------+--------------------------------------------------------+
+|  1 | Android Security Internals | 2014-10-14     | An In-Depth Guide to Android's Security Architecture   |
+|  3 | Car Hacker's Handbook      | 2016-02-25     | A Guide for the Penetration Tester                     |
+|  5 | Ethical Hacking            | 2021-11-02     | A Hands-on Introduction to Breaking In                 |
+|  6 | Ethical Hacking            | 2021-11-02     |                                                        |
+|  2 | Bug Bounty Bootcamp        | 2021-11-16     | The Guide to Finding and Reporting Web Vulnerabilities |
+|  4 | Designing Secure Software  | 2021-12-21     | A Guide for Developers                                 |
++----+----------------------------+----------------+--------------------------------------------------------+
+
+6 rows in set (0.00 sec)
+\`\`\`
+
+**DESCENDING ORDER**
+\`\`\`
+mysql> SELECT *
+    FROM books
+    ORDER BY published_date DESC;
++----+----------------------------+----------------+--------------------------------------------------------+
+| id | name                       | published_date | description                                            |
++----+----------------------------+----------------+--------------------------------------------------------+
+|  4 | Designing Secure Software  | 2021-12-21     | A Guide for Developers                                 |
+|  2 | Bug Bounty Bootcamp        | 2021-11-16     | The Guide to Finding and Reporting Web Vulnerabilities |
+|  5 | Ethical Hacking            | 2021-11-02     | A Hands-on Introduction to Breaking In                 |
+|  6 | Ethical Hacking            | 2021-11-02     |                                                        |
+|  3 | Car Hacker's Handbook      | 2016-02-25     | A Guide for the Penetration Tester                     |
+|  1 | Android Security Internals | 2014-10-14     | An In-Depth Guide to Android's Security Architecture   |
++----+----------------------------+----------------+--------------------------------------------------------+
+
+6 rows in set (0.00 sec)
+\`\`\`
+
+We can observe the difference when sorting by ascending order using \`ASC\` and in descending order using \`DESC\`, both using the **published_date** as reference.
+
+**HAVING Clause**
+The \`HAVING\` clause is used with other clauses to filter groups or results of records based on a condition. In the case of \`GROUP BY\`, it evaluates the condition to \`TRUE\` or \`FALSE\`, unlike the \`WHERE\` clause \`HAVING\` filters the results after the aggregation is performed.
+\`\`\`
+mysql> SELECT name, COUNT(*)
+    FROM books
+    GROUP BY name
+    HAVING name LIKE '%Hack%';
++-----------------------+----------+
+| name                  | COUNT(*) |
++-----------------------+----------+
+| Car Hacker's Handbook |        1 |
+| Ethical Hacking       |        2 |
++-----------------------+----------+
+
+2 rows in set (0.00 sec)
+\`\`\`
+
+In the example above, we can observe that the query returns the books with the names that contain the word **hack** and the proper count, as we learned before.
+
+**Answer the questions below**⸻⸻⸻⸻⸻
+
+Using the \`tools_db\` database, what is the total number of distinct categories in the \`hacking_tools\` table?
+**Answer:** 6
+**Reason:**
+1. Run \`USE tools_db;\`.
+2. Run \`SELECT DISTINCT category FROM hacking_tools;\`.
+
+Using the \`tools_db\` database, what is the first tool (by name) in ascending order from the \`hacking_tools\` table?
+**Answer:** Bash Bunny
+**Reason:** 
+1. Run \`USE tools_db;\`.
+2. Run \`SELECT * FROM hacking_tools ORDER BY name ASC;\`.
+
+Using the \`tools_db\` database, what is the first tool (by name) in descending order from the \`hacking_tools\` table?
+**Answer:** Wi-Fi Pineapple
+**Reason:** 
+1. Run \`USE tools_db;\`.
+2. Run \`SELECT * FROM hacking_tools ORDER BY name DESC;\`.
+
+⸻⸻⸻⸻⸻
+
+### Task 7 Operators
+
+When working with **SQL** and dealing with logic and comparisons, **operators** are our way to filter and manipulate data effectively. Understanding these operators will help us to create more precise and powerful queries.  In the next two tasks, we will be using the **books** table that is part of the database **thm_books2**. We can access it with the statement \`use thm_books2;\`.
+
+**Logical Operators**
+These operators test the truth of a condition and return a boolean value of \`TRUE\` or \`FALSE\`. Let's explore some of these operators next.
+
+**LIKE Operator**
+The \`LIKE\` operator is commonly used in conjunction with clauses like \`WHERE\` in order to filter for specific patterns within a column. Let's continue using our DataBase to query an example of its usage.
+\`\`\`
+mysql> SELECT *
+    FROM books
+    WHERE description LIKE "%guide%";
++----+----------------------------+----------------+--------------------------------------------------------+--------------------+
+| id | name                       | published_date | description                                            | category           |
++----+----------------------------+----------------+--------------------------------------------------------+--------------------+
+|  1 | Android Security Internals | 2014-10-14     | An In-Depth Guide to Android's Security Architecture   | Defensive Security |
+|  2 | Bug Bounty Bootcamp        | 2021-11-16     | The Guide to Finding and Reporting Web Vulnerabilities | Offensive Security |
+|  3 | Car Hacker's Handbook      | 2016-02-25     | A Guide for the Penetration Tester                     | Offensive Security |
+|  4 | Designing Secure Software  | 2021-12-21     | A Guide for Developers                                 | Defensive Security |
++----+----------------------------+----------------+--------------------------------------------------------+--------------------+
+
+4 rows in set (0.00 sec)
+\`\`\`
+
+The query above returns a list of records from the books filtered, but the ones using the \`WHERE\` clause that contains the word guide by using the \`LIKE\` operator.
+
+**AND Operator**
+The \`AND\` operator uses multiple conditions within a query and returns \`TRUE\` if all of them are true.
+\`\`\`
+mysql> SELECT *
+    FROM books
+    WHERE category = "Offensive Security" AND name = "Bug Bounty Bootcamp"; 
++----+---------------------+----------------+--------------------------------------------------------+--------------------+
+| id | name                | published_date | description                                            | category           |
++----+---------------------+----------------+--------------------------------------------------------+--------------------+
+|  2 | Bug Bounty Bootcamp | 2021-11-16     | The Guide to Finding and Reporting Web Vulnerabilities | Offensive Security |
++----+---------------------+----------------+--------------------------------------------------------+--------------------+
+    
+1 row in set (0.00 sec)  
+\`\`\`
+
+The query above returns the book with the name **Bug Bounty Bootcamp**, which is under the category of **Offensive Security**.
+
+**OR Operator**
+The \`OR\` operator combines multiple conditions within queries and returns \`TRUE\` if at least one of these conditions is true.
+\`\`\`
+mysql> SELECT *
+    FROM books
+    WHERE name LIKE "%Android%" OR name LIKE "%iOS%"; 
++----+----------------------------+----------------+------------------------------------------------------+--------------------+
+| id | name                       | published_date | description                                          | category           |
++----+----------------------------+----------------+------------------------------------------------------+--------------------+
+|  1 | Android Security Internals | 2014-10-14     | An In-Depth Guide to Android's Security Architecture | Defensive Security |
++----+----------------------------+----------------+------------------------------------------------------+--------------------+
+
+1 row in set (0.00 sec)
+\`\`\`
+
+The query above returns books whose **names** include either **Android** or **IOS**.
+
+**NOT Operator**
+The \`NOT\` operator reverses the value of a boolean operator, allowing us to exclude a specific condition.
+\`\`\`
+mysql> SELECT *
+    FROM books
+    WHERE NOT description LIKE "%guide%";
++----+-----------------+----------------+----------------------------------------+--------------------+
+| id | name            | published_date | description                            | category           |
++----+-----------------+----------------+----------------------------------------+--------------------+
+|  5 | Ethical Hacking | 2021-11-02     | A Hands-on Introduction to Breaking In | Offensive Security |
++----+-----------------+----------------+----------------------------------------+--------------------+
+
+1 row in set (0.00 sec)
+\`\`\`
+
+The query above returns results where the description does not contain the word **guide**.
+
+**BETWEEN Operator**
+The \`BETWEEN\` operator allows us to test if a value exists within a defined **range**.
+\`\`\`
+mysql> SELECT *
+    FROM books
+    WHERE id BETWEEN 2 AND 4;
++----+---------------------------+----------------+--------------------------------------------------------+--------------------+
+| id | name                      | published_date | description                                            | category           |
++----+---------------------------+----------------+--------------------------------------------------------+--------------------+
+|  2 | Bug Bounty Bootcamp       | 2021-11-16     | The Guide to Finding and Reporting Web Vulnerabilities | Offensive Security |
+|  3 | Car Hacker's Handbook     | 2016-02-25     | A Guide for the Penetration Tester                     | Offensive Security |
+|  4 | Designing Secure Software | 2021-12-21     | A Guide for Developers                                 | Defensive Security |
++----+---------------------------+----------------+--------------------------------------------------------+--------------------+
+
+3 rows in set (0.00 sec)
+\`\`\`
+
+The query above returns books whose **id** is **between 2** and **4**.
+
+**Comparison Operators**
+The comparison operators are used to compare values and check if they meet specified criteria.
+**Equal To Operator**
+The \`=\` (Equal) operator compares two expressions and determines if they are equal, or it can check if a value matches another one in a specific column.
+\`\`\`
+mysql> SELECT *
+    FROM books
+    WHERE name = "Designing Secure Software";
++----+---------------------------+----------------+------------------------+--------------------+
+| id | name                      | published_date | description            | category           |
++----+---------------------------+----------------+------------------------+--------------------+
+|  4 | Designing Secure Software | 2021-12-21     | A Guide for Developers | Defensive Security |
++----+---------------------------+----------------+------------------------+--------------------+
+
+1 row in set (0.10 sec)
+\`\`\`
+
+The query above returns the book with the **exact name Designing Secure Software**.
+
+**Not Equal To Operator**
+The \`!=\` (not equal) operator compares expressions and tests if they are not equal; it also checks if a value differs from the one within a column.
+\`\`\`
+mysql> SELECT *
+    FROM books
+    WHERE category != "Offensive Security";
++----+----------------------------+----------------+------------------------------------------------------+--------------------+
+| id | name                       | published_date | description                                          | category           |
++----+----------------------------+----------------+------------------------------------------------------+--------------------+
+|  1 | Android Security Internals | 2014-10-14     | An In-Depth Guide to Android's Security Architecture | Defensive Security |
+|  4 | Designing Secure Software  | 2021-12-21     | A Guide for Developers                               | Defensive Security |
++----+----------------------------+----------------+------------------------------------------------------+--------------------+
+
+2 rows in set (0.00 sec)
+\`\`\`
+
+The query above returns books **except** those whose **category** is **Offensive Security**.
+
+**Less Than Operator**
+The \`<\` (less than) operator compares if the expression with a given value is lesser than the provided one.
+\`\`\`
+mysql> SELECT *
+    FROM books
+    WHERE published_date < "2020-01-01";
++----+----------------------------+----------------+------------------------------------------------------+--------------------+
+| id | name                       | published_date | description                                          | category           |
++----+----------------------------+----------------+------------------------------------------------------+--------------------+
+|  1 | Android Security Internals | 2014-10-14     | An In-Depth Guide to Android's Security Architecture | Defensive Security |
+|  3 | Car Hacker's Handbook      | 2016-02-25     | A Guide for the Penetration Tester                   | Offensive Security |
++----+----------------------------+----------------+------------------------------------------------------+--------------------+
+
+2 rows in set (0.00 sec)
+\`\`\`
+
+The query above returns books that were published **before January 1, 2020**.
+
+**Greater Than Operator**
+The \`>\` (greater than) operator compares if the expression with a given value is greater than the provided one.
+\`\`\`
+mysql> SELECT *
+    FROM books
+    WHERE published_date > "2020-01-01";
++----+---------------------------+----------------+--------------------------------------------------------+--------------------+
+| id | name                      | published_date | description                                            | category           |
++----+---------------------------+----------------+--------------------------------------------------------+--------------------+
+|  2 | Bug Bounty Bootcamp       | 2021-11-16     | The Guide to Finding and Reporting Web Vulnerabilities | Offensive Security |
+|  4 | Designing Secure Software | 2021-12-21     | A Guide for Developers                                 | Defensive Security |
+|  5 | Ethical Hacking           | 2021-11-02     | A Hands-on Introduction to Breaking In                 | Offensive Security |
++----+---------------------------+----------------+--------------------------------------------------------+--------------------+
+
+3 rows in set (0.00 sec)
+\`\`\`
+
+The query above returns books published **after January 1, 2020**.
+
+**Less Than or Equal To and Greater Than or Equal To Operators**
+The \`<=\` (Less than or equal) operator compares if the expression with a given value is less than or equal to the provided one. On the other hand, the \`>=\` (Greater than or Equal) operator compares if the expression with a given value is greater than or equal to the provided one. Let's observe some examples of both below.
+\`\`\`
+mysql> SELECT *
+    FROM books
+    WHERE published_date <= "2021-11-15";
++----+----------------------------+----------------+------------------------------------------------------+--------------------+
+| id | name                       | published_date | description                                          | category           |
++----+----------------------------+----------------+------------------------------------------------------+--------------------+
+|  1 | Android Security Internals | 2014-10-14     | An In-Depth Guide to Android's Security Architecture | Defensive Security |
+|  3 | Car Hacker's Handbook      | 2016-02-25     | A Guide for the Penetration Tester                   | Offensive Security |
+|  5 | Ethical Hacking            | 2021-11-02     | A Hands-on Introduction to Breaking In               | Offensive Security |
++----+----------------------------+----------------+------------------------------------------------------+--------------------+
+
+3 rows in set (0.00 sec)
+\`\`\`
+
+The query above returns books **published on or before November 15, 2021**.
+\`\`\`
+mysql> SELECT *
+    FROM books
+    WHERE published_date >= "2021-11-02";
++----+---------------------------+----------------+--------------------------------------------------------+--------------------+
+| id | name                      | published_date | description                                            | category           |
++----+---------------------------+----------------+--------------------------------------------------------+--------------------+
+|  2 | Bug Bounty Bootcamp       | 2021-11-16     | The Guide to Finding and Reporting Web Vulnerabilities | Offensive Security |
+|  4 | Designing Secure Software | 2021-12-21     | A Guide for Developers                                 | Defensive Security |
+|  5 | Ethical Hacking           | 2021-11-02     | A Hands-on Introduction to Breaking In                 | Offensive Security |
++----+---------------------------+----------------+--------------------------------------------------------+--------------------+
+
+3 rows in set (0.00 sec)
+\`\`\`
+
+The query above returns books that were **published on or after November 2, 2021**.
+
+**Answer the questions below**⸻⸻⸻⸻⸻
+
+Using the \`tools_db\` database, which tool falls under the **Multi-tool** category and is useful for **pentesters** and **geeks**?
+**Answer:** Flipper Zero
+**Reason:**
+1. Run \`USE tools_db;\`.
+2. Run \`SELECT DISTINCT name FROM hacking_tools WHERE category = "Multi-tool" AND (description LIKE "%pentesters%" AND description LIKE "%geeks%");\`.
+
+Using the \`tools_db\` database, what is the category of tools with an amount **greater than** or **equal** to **300**?
+**Answer:** RFID cloning
+**Reason:**
+1. Run \`USE tools_db;\`.
+2. Run \`SELECT DISTINCT category FROM hacking_tools WHERE amount >= 300;\`.
+
+Using the \`tools_db\` database, which tool falls under the **Network Intelligence** category with an amount **less than 100**?
+**Answer:** Lan Turtle
+**Reason:**
+1. Run \`USE tools_db;\`.
+2. Run \`SELECT DISTINCT name FROM hacking_tools WHERE category = "Network Intelligence" AND amount < 100;\`.
+
+⸻⸻⸻⸻⸻
+
+### Task 8 Functions
+
+When working with Data, functions can help us streamline queries and operations and manipulate data. Let's explore some of these functions next.
+
+**String Functions**
+Strings functions perform operations on a string, returning a value associated with it.
+**CONCAT() Function**
+This function is used to add two or more strings together. It is useful to combine text from different columns.
+\`\`\`
+mysql> SELECT CONCAT(name, " is a type of ", category, " book.") AS book_info FROM books;
++------------------------------------------------------------------+
+| book_info                                                         |
++------------------------------------------------------------------+
+| Android Security Internals is a type of Defensive Security book. |
+| Bug Bounty Bootcamp is a type of Offensive Security book.        |
+| Car Hacker's Handbook is a type of Offensive Security book.      |
+| Designing Secure Software is a type of Defensive Security book.  |
+| Ethical Hacking is a type of Offensive Security book.            |
++------------------------------------------------------------------+
+
+5 rows in set (0.00 sec)  
+\`\`\`
+
+This query concatenates the **name** and **category** columns from the **books** table into a single one named **book_info**.
+
+**GROUP_CONCAT() Function**
+This function can help us to concatenate data from multiple rows into one field. Let's explore an example of its usage.
+\`\`\`
+mysql> SELECT category, GROUP_CONCAT(name SEPARATOR ", ") AS books
+    FROM books
+    GROUP BY category;
++--------------------+-------------------------------------------------------------+
+| category           | books                                                       |
++--------------------+-------------------------------------------------------------+
+| Defensive Security | Android Security Internals, Designing Secure Software       |
+| Offensive Security | Bug Bounty Bootcamp, Car Hacker's Handbook, Ethical Hacking |
++--------------------+-------------------------------------------------------------+
+
+2 rows in set (0.01 sec)
+\`\`\`
+
+The query above groups the **books** by **category** and concatenates the titles of books within each category into a **single string**.
+
+**SUBSTRING() Function**
+This function will retrieve a substring from a string within a query, starting at a determined position. The length of this substring can also be specified.
+\`\`\`
+mysql> SELECT SUBSTRING(published_date, 1, 4) AS published_year FROM books;
++----------------+
+| published_year |
++----------------+
+| 2014           |
+| 2021           |
+| 2016           |
+| 2021           |
+| 2021           |
++----------------+
+
+5 rows in set (0.00 sec)  
+\`\`\`
+
+In the query above, we can observe how it extracts the first **four** characters from the **published_date** column and stores them in the **published_year** column.
 
 
+**LENGTH() Function**
+This function returns the number of characters in a string. This includes spaces and punctuation. We can find an example below.
+\`\`\`
+mysql> SELECT LENGTH(name) AS name_length FROM books;
++-------------+
+| name_length |
++-------------+
+|          26 |
+|          19 |
+|          21 |
+|          25 |
+|          15 |
++-------------+
 
+5 rows in set (0.00 sec)
+\`\`\`
 
+As we can observe above, the query calculates the length of the string within the **name** column and stores it in a column named **name_length**.
 
+**Aggregate Functions**
+These functions aggregate the value of multiple rows within one specified criteria in the query. It can combine multiple values into one result.
+**COUNT() Function**
+This function returns the number of records within an expression, as the example below shows.
+\`\`\`
+mysql> SELECT COUNT(*) AS total_books FROM books;
++-------------+
+| total_books |
++-------------+
+|           5 |
++-------------+
 
+1 row in set (0.01 sec)
+\`\`\`
+
+This query above counts the total number of rows in the **books** table. The result is **5**, as there are five books in the books table, and it's stored in the **total_books** column.
+
+**SUM() Function**
+This function sums all values (not NULL) of a determined column.
+**Note**: There is no need to execute this query. This is just for example purposes.
+\`\`\`
+mysql> SELECT SUM(price) AS total_price FROM books;
++-------------+
+| total_price |
++-------------+
+|      249.95 |
++-------------+
+
+1 row in set (0.00 sec)
+\`\`\`
+
+The query above calculates the total sum of the **price** column. The result provides the aggregate price of all books in the column **total_price**.
+
+**MAX() Function**
+This function calculates the maximum value within a provided column in an expression.
+\`\`\`
+mysql> SELECT MAX(published_date) AS latest_book FROM books;
++-------------+
+| latest_book |
++-------------+
+| 2021-12-21  |
++-------------+
+
+1 row in set (0.00 sec)
+\`\`\`
+
+The query above retrieves the latest publication (maximum value) date from the **books** table. The result **2021-12-21** is stored in the column **latest_book**.
+
+**MIN() Function**
+This function calculates the minimum value within a provided column in an expression.
+\`\`\`
+mysql> SELECT MIN(published_date) AS earliest_book FROM books;
++---------------+
+| earliest_book |
++---------------+
+| 2014-10-14    |
++---------------+
+
+1 row in set (0.00 sec)
+\`\`\`
+
+The query above retrieves the earliest publication (minimum value) date from the **books** table. The result **2014-10-14** is stored in the **earliest_book** column.
+
+**Answer the questions below**⸻⸻⸻⸻⸻
+
+Using the \`tools_db\` database, what is the tool with the longest name based on character length?
+**Answer:** USB Rubber Ducky
+**Reason:**
+1. Run \`USE tools_db;\`.
+2. Run \`SELECT * FROM hacking_tools ORDER BY LENGTH(name) DESC;\`
+
+Using the \`tools_db\` database, what is the total sum of all tools?
+**Answer:** 1444
+**Reason:**
+1. Run \`USE tools_db;\`.
+2. Run \`SELECT SUM(amount) FROM hacking_tools;\`.
+
+Using the \`tools_db\` database, what are the tool names where the amount does not end in **0**, and **group** the tool names **concatenated** by " & ".
+**Answer:** Flipper Zero & iCopy-XS
+**Reason:**
+1. Run \`USE tools_db;\`.
+2. Run \`SELECT GROUP_CONCAT(name SEPARATOR "& ") FROM hacking_tools WHERE amount % 10 != 0;\`.
 `
 }
