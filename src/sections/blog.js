@@ -703,40 +703,32 @@ export function initBlog() {
     });
   }
 
-  // Simple markdown parser for writeups
+  // Simple markdown parser for writeups - Line-by-line approach
   let solutionTabCounter = 0;
   
   function parseMarkdown(text) {
-    // DEBUG: Check if escaping is enabled
-    // console.log('parseMarkdown v2.0 - escaping enabled');
-    
     // Normalize line endings to Unix-style \n
     text = text.replace(/\r\n/g, '\n').replace(/\r/g, '\n');
     
-    // Placeholder tokens for escaped characters
-    const ESCAPED_UNDERSCORE = 'XESCUNDERSCOREX';
-    const ESCAPED_CARET = 'XESCCARETX';
-    const ESCAPED_BACKSLASH = 'XESCBACKSLASHX';
-    const ESCAPED_ASTERISK = 'XESCASTERISKX';
-    const TAB_PLACEHOLDER = 'XTABSPACEX';
-    
-    // Store code blocks to protect them from other formatting
+    // Store code blocks and solution tabs to protect them from processing
     const codeBlockStore = [];
     const inlineCodeStore = [];
     
-    // Process solution tabs first (protect their code blocks)
-    text = text.replace(/\\\\/g, ESCAPED_BACKSLASH); // Protect escaped backslashes first
+    // ===== PHASE 1: Protect special blocks =====
+    
+    // Protect escaped backslashes first
+    text = text.replace(/\\\\/g, '~~ESCBACKSLASH~~');
+    
+    // Process solution tabs (protect their code blocks)
     text = text.replace(/\[solutions\]([\s\S]*?)\[\/solutions\]/g, (match, content) => {
       const tabId = `solution-tabs-${solutionTabCounter++}`;
       const codeBlocks = [];
-      // Updated regex to capture optional custom label after colon
       const regex = /\`\`\`(\w+)?(?::([^\n]+))?\n([\s\S]*?)\`\`\`/g;
       let blockMatch;
       
       while ((blockMatch = regex.exec(content)) !== null) {
         const lang = blockMatch[1] || 'code';
         const label = blockMatch[2] ? blockMatch[2].trim() : lang;
-        // Escape HTML tags in code blocks
         const code = blockMatch[3].replace(/</g, '&lt;').replace(/>/g, '&gt;');
         codeBlocks.push({ lang, label, code });
       }
@@ -751,17 +743,15 @@ export function initBlog() {
         `<div class="solution-tab-content ${i === 0 ? 'active' : ''}" data-tab-content="${tabId}-${i}"><pre><code class="language-${block.lang}">${block.code}</code></pre></div>`
       ).join('');
       
-      // Store the entire solution tabs block and replace with placeholder
       const placeholder = `~~SOLUTIONTABS${codeBlockStore.length}~~`;
       codeBlockStore.push(`<div class="solution-tabs" data-tabs="${tabId}"><div class="solution-tabs-header">${tabs}</div>${contents}</div>`);
       return placeholder;
     });
     
-    // Protect code blocks - store them and replace with placeholders
+    // Protect code blocks
     text = text.replace(/\`\`\`(\w+)?\n([\s\S]*?)\`\`\`/g, (match, lang, code) => {
       const placeholder = `~~CODEBLOCK${codeBlockStore.length}~~`;
       const langClass = lang ? `language-${lang}` : '';
-      // Escape HTML tags in code blocks
       const escapedCode = code.replace(/</g, '&lt;').replace(/>/g, '&gt;');
       codeBlockStore.push(`<pre><code class="${langClass}">${escapedCode}</code></pre>`);
       return placeholder;
@@ -770,87 +760,185 @@ export function initBlog() {
     // Protect inline code
     text = text.replace(/\`([^\`]+)\`/g, (match, code) => {
       const placeholder = `~~INLINECODE${inlineCodeStore.length}~~`;
-      // Escape HTML tags in inline code
       const escapedCode = code.replace(/</g, '&lt;').replace(/>/g, '&gt;');
       inlineCodeStore.push(`<code>${escapedCode}</code>`);
       return placeholder;
     });
     
-    text = text
-      // First, protect escaped characters (backslash already handled above)
-      .replace(/\\_/g, ESCAPED_UNDERSCORE)
-      .replace(/\\\^/g, ESCAPED_CARET)
-      .replace(/\\\*/g, ESCAPED_ASTERISK)
-      // Tab support: [tab], \t, or leading spaces (4 or 2) convert to indentation
-      .replace(/\[tab\]/gi, TAB_PLACEHOLDER)
-      .replace(/\t/g, TAB_PLACEHOLDER)
-      // Convert leading spaces to tabs (process each line)
-      .split('\n')
-      .map(line => {
-        // Count leading spaces
-        const leadingSpaces = line.match(/^( +)/);
-        if (leadingSpaces) {
-          const spaceCount = leadingSpaces[1].length;
-          // Convert every 4 spaces to a tab (or 2 spaces if less than 4)
-          const tabs = Math.floor(spaceCount / 4) || Math.floor(spaceCount / 2);
-          const remainder = spaceCount % 4;
-          return TAB_PLACEHOLDER.repeat(tabs) + line.slice(spaceCount);
+    // Protect other escaped characters
+    text = text.replace(/\\_/g, '~~ESCUNDERSCORE~~');
+    text = text.replace(/\\\^/g, '~~ESCCARET~~');
+    text = text.replace(/\\\*/g, '~~ESCASTERISK~~');
+    
+    // ===== PHASE 2: Line-by-line processing =====
+    
+    const lines = text.split('\n');
+    const output = [];
+    
+    // State tracking
+    let currentList = null; // { type: 'ul' | 'ol', items: [], baseIndent: number }
+    let paragraphBuffer = [];
+    
+    // Helper: Count indent level from [tab] or leading spaces
+    function getIndentLevel(line) {
+      let indent = 0;
+      let remaining = line;
+      
+      // Count [tab] markers
+      while (remaining.startsWith('[tab]') || remaining.toLowerCase().startsWith('[tab]')) {
+        indent++;
+        remaining = remaining.slice(5);
+      }
+      
+      // Count leading tabs
+      while (remaining.startsWith('\t')) {
+        indent++;
+        remaining = remaining.slice(1);
+      }
+      
+      // Count leading spaces (4 spaces = 1 indent, or 2 if < 4)
+      const spaceMatch = remaining.match(/^( +)/);
+      if (spaceMatch) {
+        const spaces = spaceMatch[1].length;
+        indent += Math.floor(spaces / 4) || (spaces >= 2 ? Math.floor(spaces / 2) : 0);
+        remaining = remaining.slice(spaceMatch[1].length);
+      }
+      
+      return { indent, content: remaining };
+    }
+    
+    // Helper: Apply inline formatting (bold, italic, super/subscript)
+    function applyInlineFormatting(text) {
+      return text
+        // Superscript: x^2 or x^{10}
+        .replace(/\^\{([^}]+)\}/g, '<sup>$1</sup>')
+        .replace(/\^(\w)/g, '<sup>$1</sup>')
+        // Subscript: x_1 or x_{10}
+        .replace(/_\{([^}]+)\}/g, '<sub>$1</sub>')
+        .replace(/_(\w)/g, '<sub>$1</sub>')
+        // Bold
+        .replace(/\*\*([\s\S]+?)\*\*/g, '<strong>$1</strong>')
+        // Italics
+        .replace(/\*([^*]+)\*/g, '<em>$1</em>');
+    }
+    
+    // Helper: Flush current list to output
+    function flushList() {
+      if (currentList && currentList.items.length > 0) {
+        const tag = currentList.type;
+        const listHtml = `<${tag}>${currentList.items.join('')}</${tag}>`;
+        output.push(listHtml);
+        currentList = null;
+      }
+    }
+    
+    // Helper: Flush paragraph buffer to output
+    function flushParagraph() {
+      if (paragraphBuffer.length > 0) {
+        const content = paragraphBuffer.join('<br>');
+        // Don't wrap if it's just a placeholder
+        if (/^~~(CODEBLOCK|SOLUTIONTABS)\d+~~$/.test(content.trim())) {
+          output.push(content.trim());
+        } else {
+          output.push(`<p>${applyInlineFormatting(content)}</p>`);
         }
-        return line;
-      })
-      .join('\n')
-      // Headers
-      .replace(/^### (.+)$/gm, '<h3>$1</h3>')
-      .replace(/^## (.+)$/gm, '<h2>$1</h2>')
-      // Superscript: x^2 or x^{10}
-      .replace(/\^\{([^}]+)\}/g, '<sup>$1</sup>')
-      .replace(/\^(\w)/g, '<sup>$1</sup>')
-      // Subscript: x_1 or x_{10}
-      .replace(/_\{([^}]+)\}/g, '<sub>$1</sub>')
-      .replace(/_(\w)/g, '<sub>$1</sub>')
-      // Numbered lists (1. 2. 3. etc) - allow optional tabs/spaces before, preserve original number
-      .replace(/^((?:XTABSPACEX)*)\s*(\d+)\. (.+)$/gm, (match, tabs, num, content) => {
-        const indentLevel = (tabs.match(/XTABSPACEX/g) || []).length;
-        const style = indentLevel > 0 ? ` style="margin-left: ${indentLevel * 2}em"` : '';
-        return `<oli value="${num}"${style}>${content}</oli>`;
-      })
-      // Wrap consecutive oli elements in ol (preserve newline after for subsequent processing)
-      .replace(/(<oli[^>]*>.*<\/oli>(?:\r?\n)?)+/g, (match) => '<ol>' + match.replace(/oli /g, 'li ').replace(/oli>/g, 'li>').replace(/\r?\n/g, '') + '</ol>\n')
-      // Unordered lists (- item) - allow optional tabs/spaces before
-      .replace(/^((?:XTABSPACEX)*)\s*- (.+)$/gm, (match, tabs, content) => {
-        const indentLevel = (tabs.match(/XTABSPACEX/g) || []).length;
-        const style = indentLevel > 0 ? ` style="margin-left: ${indentLevel * 2}em"` : '';
-        return `<uli${style}>${content}</uli>`;
-      })
-      // Wrap consecutive uli elements in ul (preserve newline after)
-      .replace(/(<uli[^>]*>.*<\/uli>(?:\r?\n)?)+/g, (match) => '<ul>' + match.replace(/uli>/g, 'li>').replace(/uli /g, 'li ').replace(/\r?\n/g, '') + '</ul>\n')
-      // Paragraphs (lines that aren't already wrapped)
-      // Split on 2+ newlines (with optional whitespace between) for paragraph breaks
-      .split(/\n\s*\n/)
-      .map(para => {
-        para = para.trim();
-        if (!para) return '';
-        // Skip if it's already an HTML element (but not a placeholder)
-        if (para.startsWith('<') && !para.startsWith('~~')) return para;
-        // If it's just a code block placeholder on its own line, return as-is
-        if (/^~~(CODEBLOCK|SOLUTIONTABS)\d+~~$/.test(para)) return para;
-        // Convert single newlines to <br> within paragraphs (including those with inline code)
-        let html = para.replace(/\n/g, '<br>');
-        return `<p>${html}</p>`;
-      })
-      .join('')
-      // Now apply bold and italic formatting to everything (lists and paragraphs)
-      // Bold
-      .replace(/\*\*([\s\S]+?)\*\*/g, '<strong>$1</strong>')
-      // Italics: single asterisks, not inside bold
-      .replace(/\*([^*]+)\*/g, '<em>$1</em>')
-      // Restore escaped characters AFTER all formatting is done
-      .replace(/XESCUNDERSCOREX/g, '_')
-      .replace(/XESCCARETX/g, '^')
-      .replace(/XESCBACKSLASHX/g, '\\')
-      .replace(/XESCASTERISKX/g, '*')
-      // Restore tabs as HTML entity for proper spacing
-      .replace(/XTABSPACEX/g, '&emsp;&emsp;');
+        paragraphBuffer = [];
+      }
+    }
+    
+    // Process each line
+    for (let i = 0; i < lines.length; i++) {
+      const rawLine = lines[i];
+      const { indent, content } = getIndentLevel(rawLine);
+      const trimmedContent = content.trim();
+      
+      // Empty line - flush everything
+      if (trimmedContent === '') {
+        flushList();
+        flushParagraph();
+        continue;
+      }
+      
+      // Code block or solution tabs placeholder - output as-is
+      if (/^~~(CODEBLOCK|SOLUTIONTABS)\d+~~$/.test(trimmedContent)) {
+        flushList();
+        flushParagraph();
+        output.push(trimmedContent);
+        continue;
+      }
+      
+      // Header h3: ### 
+      if (trimmedContent.startsWith('### ')) {
+        flushList();
+        flushParagraph();
+        const headerContent = applyInlineFormatting(trimmedContent.slice(4));
+        output.push(`<h3>${headerContent}</h3>`);
+        continue;
+      }
+      
+      // Header h2: ##
+      if (trimmedContent.startsWith('## ')) {
+        flushList();
+        flushParagraph();
+        const headerContent = applyInlineFormatting(trimmedContent.slice(3));
+        output.push(`<h2>${headerContent}</h2>`);
+        continue;
+      }
+      
+      // Numbered list: 1. 2. 3. etc
+      const olMatch = trimmedContent.match(/^(\d+)\.\s+(.+)$/);
+      if (olMatch) {
+        flushParagraph();
+        const num = olMatch[1];
+        const itemContent = applyInlineFormatting(olMatch[2]);
+        const style = indent > 0 ? ` style="margin-left: ${indent * 2}em"` : '';
+        
+        if (!currentList || currentList.type !== 'ol') {
+          flushList();
+          currentList = { type: 'ol', items: [] };
+        }
+        currentList.items.push(`<li value="${num}"${style}>${itemContent}</li>`);
+        continue;
+      }
+      
+      // Unordered list: - item
+      const ulMatch = trimmedContent.match(/^-\s+(.+)$/);
+      if (ulMatch) {
+        flushParagraph();
+        const itemContent = applyInlineFormatting(ulMatch[1]);
+        const style = indent > 0 ? ` style="margin-left: ${indent * 2}em"` : '';
+        
+        if (!currentList || currentList.type !== 'ul') {
+          flushList();
+          currentList = { type: 'ul', items: [] };
+        }
+        currentList.items.push(`<li${style}>${itemContent}</li>`);
+        continue;
+      }
+      
+      // Regular text - add to paragraph buffer
+      // But first, flush any open list since this line isn't a list item
+      flushList();
+      
+      // Add indent as visual spacing if present
+      const indentHtml = indent > 0 ? '&emsp;&emsp;'.repeat(indent) : '';
+      paragraphBuffer.push(indentHtml + trimmedContent);
+    }
+    
+    // Flush any remaining content
+    flushList();
+    flushParagraph();
+    
+    // Join all output
+    text = output.join('');
+    
+    // ===== PHASE 3: Restore protected content =====
+    
+    // Restore escaped characters
+    text = text.replace(/~~ESCUNDERSCORE~~/g, '_');
+    text = text.replace(/~~ESCCARET~~/g, '^');
+    text = text.replace(/~~ESCBACKSLASH~~/g, '\\');
+    text = text.replace(/~~ESCASTERISK~~/g, '*');
     
     // Restore code blocks and inline code
     codeBlockStore.forEach((code, i) => {
