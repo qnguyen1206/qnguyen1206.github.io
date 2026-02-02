@@ -16,10 +16,10 @@ This is a write up and walkthrough of the Burp Suite: The Basics room on TryHack
 **Welcome to Burp Suite Basics!**
 
 This particular room aims to understand the basics of the Burp Suite web application security testing framework. Our focus will revolve around the following key aspects:
-1. A thorough introduction to Burp Suite.
-2. A comprehensive overview of the various tools available within the framework.
-3. Detailed guidance on the process of installing Burp Suite on your system.
-4. Navigating and configuring Burp Suite.
+    1. A thorough introduction to Burp Suite.
+    2. A comprehensive overview of the various tools available within the framework.
+    3. Detailed guidance on the process of installing Burp Suite on your system.
+    4. Navigating and configuring Burp Suite.
 We will also introduce the core of the Burp Suite framework, which is the Burp Proxy. It is important to note that this room primarily serves as a foundational resource for acquiring knowledge about Burp Suite. Subsequent rooms in the Burp module will adopt a more practical approach. Thus, this room will contain a greater emphasis on theoretical content. If you have not yet utilised Burp Suite, it is recommended to carefully read the provided information and actively engage with the tool. Experimentation is essential for grasping the fundamentals of this framework. Combining the information presented here with hands-on exploration will establish a strong foundation for utilising the framework. This will significantly assist you in future rooms.
 
 ⸻⸻⸻⸻⸻
@@ -55,6 +55,30 @@ Burp Suite is frequently used when attacking web applications and ______ applica
 **Answer:** Mobile
 
 ⸻⸻⸻⸻⸻
+
+### Task 3 Features of Burp Community
+
+Although Burp Suite Community offers a more limited feature set compared to the Professional edition, it still provides an impressive array of tools that are highly valuable for web application testing. Let's explore some of the key features:
+    - **Proxy**: The Burp Proxy is the most renowned aspect of Burp Suite. It enables interception and modification of requests and responses while interacting with web applications.
+    - **Repeater**: Another well-known feature. Repeater allows for capturing, modifying, and resending the same request multiple times. This functionality is particularly useful when crafting payloads through trial and error (e.g., in SQLi - Structured Query Language Injection) or testing the functionality of an endpoint for vulnerabilities.
+    - **Intruder**: Despite rate limitations in Burp Suite Community, Intruder allows for spraying endpoints with requests. It is commonly utilized for brute-force attacks or fuzzing endpoints.
+    - **Decoder**: Decoder offers a valuable service for data transformation. It can decode captured information or encode payloads before sending them to the target. While alternative services exist for this purpose, leveraging Decoder within Burp Suite can be highly efficient.
+    - **Comparer**: As the name suggests, Comparer enables the comparison of two pieces of data at either the word or byte level. While not exclusive to Burp Suite, the ability to send potentially large data segments directly to a comparison tool with a single keyboard shortcut significantly accelerates the process.
+    - **Sequencer**: Sequencer is typically employed when assessing the randomness of tokens, such as session cookie values or other supposedly randomly generated data. If the algorithm used for generating these values lacks secure randomness, it can expose avenues for devastating attacks.
+Beyond the built-in features, the Java codebase of Burp Suite facilitates the development of extensions to enhance the framework's functionality. These extensions can be written in Java, Python (using the Java Jython interpreter), or Ruby (using the Java JRuby interpreter). The **Burp Suite Extender** module allows for quick and easy loading of extensions into the framework, while the marketplace, known as the **BApp Store**, enables downloading of third-party modules. While certain extensions may require a professional license for integration, there are still a considerable number of extensions available for Burp Community. For instance, the **Logger++** module can extend the built-in logging functionality of Burp Suite.
+
+**Answer the questions below**⸻⸻⸻⸻⸻
+
+Which Burp Suite feature allows us to intercept requests between ourselves and the target?
+**Answer:** Proxy
+
+Which Burp tool would we use to brute-force a login form?
+**Answer:** Intruder
+
+⸻⸻⸻⸻⸻
+
+
+
 
 
 

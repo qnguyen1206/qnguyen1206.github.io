@@ -125,6 +125,9 @@ import burpSuiteTheBasics from './blogs/burp-suite-the-basics.js';
 /* TryHackMe Challenges */
 import theGameChallenge from './blogs/the-game-challenge.js';
 
+/* HackTheBox Challenges */
+import meow from './blogs/meow.js';
+
 /* Tools */
 import portScannerTool from './blogs/port-scanner-tool.js';
 
@@ -150,6 +153,9 @@ export const blogPosts = [
 
     /* TryHackMe Challenges */
     theGameChallenge,
+
+    /* HackTheBox Challenges */
+    meow,
 
     /* Tools */
     portScannerTool,

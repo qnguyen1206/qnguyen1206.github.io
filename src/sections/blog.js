@@ -5,7 +5,7 @@ import { blogPosts } from './blog-posts.js';
 export function initBlog() {
   const blog = document.getElementById('blog');
   if (!blog) return;
-  const categories = ['All', 'LeetCode', 'TryHackMe', 'Tools'];
+  const categories = ['All', 'LeetCode', 'TryHackMe', 'HackTheBox' , 'Tools'];
   const POSTS_PER_PAGE = 9;
   
   // Sort blog posts by date (most recent first)
@@ -227,8 +227,13 @@ export function initBlog() {
       }
 
       .blog-category.tryhackme {
+        background: rgba(126, 13, 13, 0.2);
+        color: #ff0000;
+      }
+
+      .blog-category.hackthebox {
         background: rgba(13, 126, 54, 0.2);
-        color: #00ff5e;
+        color: #13e200;
       }
 
       .blog-category.tools {
