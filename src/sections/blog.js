@@ -710,11 +710,15 @@ export function initBlog() {
     // DEBUG: Check if escaping is enabled
     // console.log('parseMarkdown v2.0 - escaping enabled');
     
+    // Normalize line endings to Unix-style \n
+    text = text.replace(/\r\n/g, '\n').replace(/\r/g, '\n');
+    
     // Placeholder tokens for escaped characters
     const ESCAPED_UNDERSCORE = 'XESCUNDERSCOREX';
     const ESCAPED_CARET = 'XESCCARETX';
     const ESCAPED_BACKSLASH = 'XESCBACKSLASHX';
     const ESCAPED_ASTERISK = 'XESCASTERISKX';
+    const TAB_PLACEHOLDER = 'XTABSPACEX';
     
     // Store code blocks to protect them from other formatting
     const codeBlockStore = [];
@@ -777,6 +781,24 @@ export function initBlog() {
       .replace(/\\_/g, ESCAPED_UNDERSCORE)
       .replace(/\\\^/g, ESCAPED_CARET)
       .replace(/\\\*/g, ESCAPED_ASTERISK)
+      // Tab support: [tab], \t, or leading spaces (4 or 2) convert to indentation
+      .replace(/\[tab\]/gi, TAB_PLACEHOLDER)
+      .replace(/\t/g, TAB_PLACEHOLDER)
+      // Convert leading spaces to tabs (process each line)
+      .split('\n')
+      .map(line => {
+        // Count leading spaces
+        const leadingSpaces = line.match(/^( +)/);
+        if (leadingSpaces) {
+          const spaceCount = leadingSpaces[1].length;
+          // Convert every 4 spaces to a tab (or 2 spaces if less than 4)
+          const tabs = Math.floor(spaceCount / 4) || Math.floor(spaceCount / 2);
+          const remainder = spaceCount % 4;
+          return TAB_PLACEHOLDER.repeat(tabs) + line.slice(spaceCount);
+        }
+        return line;
+      })
+      .join('\n')
       // Headers
       .replace(/^### (.+)$/gm, '<h3>$1</h3>')
       .replace(/^## (.+)$/gm, '<h2>$1</h2>')
@@ -786,14 +808,22 @@ export function initBlog() {
       // Subscript: x_1 or x_{10}
       .replace(/_\{([^}]+)\}/g, '<sub>$1</sub>')
       .replace(/_(\w)/g, '<sub>$1</sub>')
-      // Numbered lists (1. 2. 3. etc)
-      .replace(/^\d+\. (.+)$/gm, '<oli>$1</oli>')
-      // Wrap consecutive oli elements in ol (remove newlines between items)
-      .replace(/(<oli>.*<\/oli>\n?)+/g, (match) => '<ol>' + match.replace(/oli>/g, 'li>').replace(/\n/g, '') + '</ol>')
-      // Unordered lists (- item)
-      .replace(/^- (.+)$/gm, '<uli>$1</uli>')
-      // Wrap consecutive uli elements in ul (remove newlines between items)
-      .replace(/(<uli>.*<\/uli>\n?)+/g, (match) => '<ul>' + match.replace(/uli>/g, 'li>').replace(/\n/g, '') + '</ul>')
+      // Numbered lists (1. 2. 3. etc) - allow optional tabs/spaces before, preserve original number
+      .replace(/^((?:XTABSPACEX)*)\s*(\d+)\. (.+)$/gm, (match, tabs, num, content) => {
+        const indentLevel = (tabs.match(/XTABSPACEX/g) || []).length;
+        const style = indentLevel > 0 ? ` style="margin-left: ${indentLevel * 2}em"` : '';
+        return `<oli value="${num}"${style}>${content}</oli>`;
+      })
+      // Wrap consecutive oli elements in ol (preserve newline after for subsequent processing)
+      .replace(/(<oli[^>]*>.*<\/oli>(?:\r?\n)?)+/g, (match) => '<ol>' + match.replace(/oli /g, 'li ').replace(/oli>/g, 'li>').replace(/\r?\n/g, '') + '</ol>\n')
+      // Unordered lists (- item) - allow optional tabs/spaces before
+      .replace(/^((?:XTABSPACEX)*)\s*- (.+)$/gm, (match, tabs, content) => {
+        const indentLevel = (tabs.match(/XTABSPACEX/g) || []).length;
+        const style = indentLevel > 0 ? ` style="margin-left: ${indentLevel * 2}em"` : '';
+        return `<uli${style}>${content}</uli>`;
+      })
+      // Wrap consecutive uli elements in ul (preserve newline after)
+      .replace(/(<uli[^>]*>.*<\/uli>(?:\r?\n)?)+/g, (match) => '<ul>' + match.replace(/uli>/g, 'li>').replace(/uli /g, 'li ').replace(/\r?\n/g, '') + '</ul>\n')
       // Paragraphs (lines that aren't already wrapped)
       // Split on 2+ newlines (with optional whitespace between) for paragraph breaks
       .split(/\n\s*\n/)
@@ -818,7 +848,9 @@ export function initBlog() {
       .replace(/XESCUNDERSCOREX/g, '_')
       .replace(/XESCCARETX/g, '^')
       .replace(/XESCBACKSLASHX/g, '\\')
-      .replace(/XESCASTERISKX/g, '*');
+      .replace(/XESCASTERISKX/g, '*')
+      // Restore tabs as HTML entity for proper spacing
+      .replace(/XTABSPACEX/g, '&emsp;&emsp;');
     
     // Restore code blocks and inline code
     codeBlockStore.forEach((code, i) => {

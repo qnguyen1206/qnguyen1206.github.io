@@ -17,6 +17,12 @@
    *   \^                    → literal caret ^
    *   (use these for file names like: this\_is\_a\_file)
    *   
+   * TABS/INDENTATION:
+   *   [tab]                 → tab indent (2 em spaces)
+   *   \t (actual tab)       → tab indent (2 em spaces)
+   *   4 spaces              → tab indent (at line start)
+   *   2 spaces              → tab indent (at line start)
+   *   
    * CODE:
    *   \`inline code\`         → inline code snippet
    *   \`\`\`python            → code block (use language name)
@@ -114,6 +120,7 @@ import metasploitMeterpreter from './blogs/metasploit-meterpreter.js';
 import webApplicationBasics from './blogs/web-application-basics.js';
 import javaScriptEssentials from './blogs/javascript-essentials.js';
 import sqlFundamentals from './blogs/sql-fundamentals.js';  
+import burpSuiteTheBasics from './blogs/burp-suite-the-basics.js';
 
 /* TryHackMe Challenges */
 import theGameChallenge from './blogs/the-game-challenge.js';
@@ -139,6 +146,7 @@ export const blogPosts = [
     webApplicationBasics,
     javaScriptEssentials,
     sqlFundamentals,
+    burpSuiteTheBasics,
 
     /* TryHackMe Challenges */
     theGameChallenge,
