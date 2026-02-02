@@ -36,9 +36,6 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Copy 3705 folder to dist
-        run: cp -r 3705 dist/
-
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
