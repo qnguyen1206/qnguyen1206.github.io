@@ -31,8 +31,16 @@ Follow up: Could you do it without extra space and in \`O(n)\` runtime? You may 
 The first approach that comes to my mind is that I can use a \`set\` to store all the unique numbers for \`nums\`. Then I can create another array to store the correct numbers from \`1\` to \`n\`. Then I can compare the two arrays and return the missing numbers.
 
 ## Solution
+[solutions]
 \`\`\`python: Python
-result = []
+class Solution(object):
+    def findDisappearedNumbers(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[int]
+        """
+
+        result = []
         
         s = set()
         for i in nums:
@@ -129,6 +137,7 @@ var findDisappearedNumbers = function(nums) {
     return result;
 };
 \`\`\`
+[/solutions]
 
 ## Complexity
 With the use of HashSet, we are able to reduce the time complexity to O(n) but we use extra space of O(n) for the set.
