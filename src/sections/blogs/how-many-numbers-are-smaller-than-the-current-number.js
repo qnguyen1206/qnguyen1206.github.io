@@ -150,6 +150,7 @@ class Solution {
 
 ## Another Approach
 The brute force approach is simple but the time complexity is not good. We can improve the time complexity by using a counting sort approach.
+The reason why is approach works is because the constraints tell us that the numbers in the array is between 0 and 100. Therefore, we can reduce the time complexity down to O(Kn) where K is the max value number.
 
 ## Solution
 [solutions]
@@ -170,10 +171,31 @@ class Solution {
     }
 }
 \`\`\`
+\`\`\`python: Python
+class Solution(object):
+    def smallerNumbersThanCurrent(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[int]
+        """
+        # Create an array of size 102
+        bucket = [0] * 102
+        
+        for i in range(0, len(nums)):
+            bucket[nums[i] + 1] += 1
+        
+        for i in range(0, 101):
+            bucket[i + 1] += bucket[i]
+
+        for i in range(0, len(nums)):
+            nums[i] = bucket[nums[i]]
+
+        return nums
+\`\`\`
 [/solutions]
 
 ## Complexity
-- **Time:** O(n) where n is the length of the array.
+- **Time:** O(Kn) where n is the length of the array and K is the max value number which is 100 in this case.
 - **Space:** O(1)
 `
 }
