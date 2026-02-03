@@ -506,6 +506,44 @@ export function initBlog() {
         color: var(--color-white);
       }
 
+      /* Markdown table styles */
+      .markdown-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: var(--space-4) 0;
+        font-size: var(--font-size-sm);
+        background: rgba(15, 23, 42, 0.6);
+        border-radius: var(--radius-md);
+        overflow: hidden;
+      }
+
+      .markdown-table th,
+      .markdown-table td {
+        padding: var(--space-3) var(--space-4);
+        border: 1px solid rgba(139, 92, 246, 0.2);
+      }
+
+      .markdown-table th {
+        background: rgba(139, 92, 246, 0.2);
+        color: var(--color-white);
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: var(--font-size-xs);
+        letter-spacing: 0.5px;
+      }
+
+      .markdown-table td {
+        color: var(--color-gray-300);
+      }
+
+      .markdown-table tbody tr:nth-child(even) {
+        background: rgba(139, 92, 246, 0.05);
+      }
+
+      .markdown-table tbody tr:hover {
+        background: rgba(139, 92, 246, 0.1);
+      }
+
       /* Solution tabs styles */
       .solution-tabs {
         margin: var(--space-4) 0;
@@ -770,6 +808,63 @@ export function initBlog() {
       return placeholder;
     });
     
+    // Process [table] wrapper syntax (after inline code is protected)
+    text = text.replace(/\[table\]([\s\S]*?)\[\/table\]/gi, (match, content) => {
+      const lines = content.trim().split('\n').filter(line => line.trim());
+      if (lines.length === 0) return '';
+      
+      // Helper to process cell content (inline code placeholders + formatting)
+      const processCell = (cell) => {
+        let processed = cell.trim()
+          // Inline [tab] markers and actual tab characters
+          .replace(/\[tab\]/gi, '&emsp;&emsp;')
+          .replace(/\t/g, '&emsp;&emsp;')
+          // Superscript
+          .replace(/\^\{([^}]+)\}/g, '<sup>$1</sup>')
+          .replace(/\^(\w)/g, '<sup>$1</sup>')
+          // Subscript
+          .replace(/_\{([^}]+)\}/g, '<sub>$1</sub>')
+          .replace(/_(\w)/g, '<sub>$1</sub>')
+          // Bold
+          .replace(/\*\*([\s\S]+?)\*\*/g, '<strong>$1</strong>')
+          // Italics
+          .replace(/\*([^*]+)\*/g, '<em>$1</em>');
+        return processed;
+      };
+      
+      // First line is header
+      const headers = lines[0].split('|').map(cell => processCell(cell));
+      const rows = lines.slice(1).map(line => line.split('|').map(cell => processCell(cell)));
+      
+      let tableHtml = '<table class="markdown-table">';
+      
+      // Headers
+      tableHtml += '<thead><tr>';
+      headers.forEach(header => {
+        tableHtml += `<th>${header}</th>`;
+      });
+      tableHtml += '</tr></thead>';
+      
+      // Body rows
+      if (rows.length > 0) {
+        tableHtml += '<tbody>';
+        rows.forEach(row => {
+          tableHtml += '<tr>';
+          row.forEach(cell => {
+            tableHtml += `<td>${cell}</td>`;
+          });
+          tableHtml += '</tr>';
+        });
+        tableHtml += '</tbody>';
+      }
+      
+      tableHtml += '</table>';
+      
+      const placeholder = `~~TABLEBLOCK${codeBlockStore.length}~~`;
+      codeBlockStore.push(tableHtml);
+      return placeholder;
+    });
+    
     // Protect other escaped characters
     text = text.replace(/\\_/g, '~~ESCUNDERSCORE~~');
     text = text.replace(/\\\^/g, '~~ESCCARET~~');
@@ -783,6 +878,7 @@ export function initBlog() {
     // State tracking
     let currentList = null; // { type: 'ul' | 'ol', items: [], baseIndent: number }
     let paragraphBuffer = [];
+    let currentTable = null; // { headers: [], rows: [], alignments: [] }
     
     // Helper: Count indent level from [tab] or leading spaces
     function getIndentLevel(line) {
@@ -812,9 +908,12 @@ export function initBlog() {
       return { indent, content: remaining };
     }
     
-    // Helper: Apply inline formatting (bold, italic, super/subscript)
+    // Helper: Apply inline formatting (bold, italic, super/subscript, inline tabs)
     function applyInlineFormatting(text) {
       return text
+        // Inline [tab] markers and actual tab characters - convert to em spaces
+        .replace(/\[tab\]/gi, '&emsp;&emsp;')
+        .replace(/\t/g, '&emsp;&emsp;')
         // Superscript: x^2 or x^{10}
         .replace(/\^\{([^}]+)\}/g, '<sup>$1</sup>')
         .replace(/\^(\w)/g, '<sup>$1</sup>')
@@ -851,6 +950,66 @@ export function initBlog() {
       }
     }
     
+    // Helper: Flush table to output
+    function flushTable() {
+      if (currentTable && currentTable.headers.length > 0) {
+        let tableHtml = '<table class="markdown-table">';
+        
+        // Headers
+        tableHtml += '<thead><tr>';
+        currentTable.headers.forEach((header, i) => {
+          const align = currentTable.alignments[i] || 'left';
+          tableHtml += `<th style="text-align: ${align}">${applyInlineFormatting(header.trim())}</th>`;
+        });
+        tableHtml += '</tr></thead>';
+        
+        // Body rows
+        if (currentTable.rows.length > 0) {
+          tableHtml += '<tbody>';
+          currentTable.rows.forEach(row => {
+            tableHtml += '<tr>';
+            row.forEach((cell, i) => {
+              const align = currentTable.alignments[i] || 'left';
+              tableHtml += `<td style="text-align: ${align}">${applyInlineFormatting(cell.trim())}</td>`;
+            });
+            tableHtml += '</tr>';
+          });
+          tableHtml += '</tbody>';
+        }
+        
+        tableHtml += '</table>';
+        output.push(tableHtml);
+        currentTable = null;
+      }
+    }
+    
+    // Helper: Parse table row (split by | and handle edge cases)
+    function parseTableRow(line) {
+      // Remove leading and trailing pipes
+      let content = line.trim();
+      if (content.startsWith('|')) content = content.slice(1);
+      if (content.endsWith('|')) content = content.slice(0, -1);
+      return content.split('|').map(cell => cell.trim());
+    }
+    
+    // Helper: Check if line is a table separator (|---|---|)
+    function isTableSeparator(line) {
+      return /^\|?[\s:]*-+[\s:]*\|/.test(line) && /^[\s|:\-]+$/.test(line);
+    }
+    
+    // Helper: Parse alignments from separator row
+    function parseTableAlignments(line) {
+      const cells = parseTableRow(line);
+      return cells.map(cell => {
+        const trimmed = cell.trim();
+        const hasLeftColon = trimmed.startsWith(':');
+        const hasRightColon = trimmed.endsWith(':');
+        if (hasLeftColon && hasRightColon) return 'center';
+        if (hasRightColon) return 'right';
+        return 'left';
+      });
+    }
+    
     // Process each line
     for (let i = 0; i < lines.length; i++) {
       const rawLine = lines[i];
@@ -861,6 +1020,7 @@ export function initBlog() {
       if (trimmedContent === '') {
         flushList();
         flushParagraph();
+        flushTable();
         continue;
       }
       
@@ -876,6 +1036,7 @@ export function initBlog() {
       if (trimmedContent.startsWith('### ')) {
         flushList();
         flushParagraph();
+        flushTable();
         const headerContent = applyInlineFormatting(trimmedContent.slice(4));
         output.push(`<h3>${headerContent}</h3>`);
         continue;
@@ -885,9 +1046,47 @@ export function initBlog() {
       if (trimmedContent.startsWith('## ')) {
         flushList();
         flushParagraph();
+        flushTable();
         const headerContent = applyInlineFormatting(trimmedContent.slice(3));
         output.push(`<h2>${headerContent}</h2>`);
         continue;
+      }
+      
+      // Table row detection (starts with | or contains | characters)
+      if (trimmedContent.includes('|')) {
+        // Check if this could be a table row
+        const isTableRow = trimmedContent.startsWith('|') || /\|.*\|/.test(trimmedContent);
+        
+        if (isTableRow) {
+          flushList();
+          flushParagraph();
+          
+          // Is this a separator row? (|---|---|)
+          if (isTableSeparator(trimmedContent)) {
+            if (currentTable && currentTable.headers.length > 0 && currentTable.rows.length === 0) {
+              // This is the separator row, parse alignments
+              currentTable.alignments = parseTableAlignments(trimmedContent);
+            }
+            continue;
+          }
+          
+          // Regular table row
+          const cells = parseTableRow(trimmedContent);
+          
+          if (!currentTable) {
+            // First row is the header
+            currentTable = { headers: cells, rows: [], alignments: [] };
+          } else {
+            // Add to rows
+            currentTable.rows.push(cells);
+          }
+          continue;
+        }
+      }
+      
+      // If we had a table and this line is not a table row, flush it
+      if (currentTable) {
+        flushTable();
       }
       
       // Numbered list: 1. 2. 3. etc
@@ -933,6 +1132,7 @@ export function initBlog() {
     // Flush any remaining content
     flushList();
     flushParagraph();
+    flushTable();
     
     // Join all output
     text = output.join('');
@@ -949,6 +1149,7 @@ export function initBlog() {
     codeBlockStore.forEach((code, i) => {
       text = text.replace(`~~CODEBLOCK${i}~~`, code);
       text = text.replace(`~~SOLUTIONTABS${i}~~`, code);
+      text = text.replace(`~~TABLEBLOCK${i}~~`, code);
     });
     inlineCodeStore.forEach((code, i) => {
       text = text.replace(`~~INLINECODE${i}~~`, code);

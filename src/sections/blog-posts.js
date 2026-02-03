@@ -62,6 +62,25 @@
    *   2. Second item
    *   3. Third item
    * 
+   * TABLES:
+   *   Easy syntax (recommended):
+   *   [table]
+   *   Header 1 | Header 2 | Header 3
+   *   Cell 1 | Cell 2 | Cell 3
+   *   Cell 4 | Cell 5 | Cell 6
+   *   [/table]
+   *   
+   *   Standard markdown syntax (with alignment):
+   *   | Header 1 | Header 2 | Header 3 |
+   *   |----------|----------|----------|
+   *   | Cell 1   | Cell 2   | Cell 3   |
+   *   | Cell 4   | Cell 5   | Cell 6   |
+   *   
+   *   Alignment options (in separator row):
+   *   |:---------|  → left align (default)
+   *   |:--------:|  → center align
+   *   |---------:|  → right align
+   * 
    * LINE BREAKS:
    *   Single newline        → line break (<br>)
    *   Double newline        → new paragraph
