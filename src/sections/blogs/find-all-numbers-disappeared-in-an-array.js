@@ -102,6 +102,33 @@ public class Solution {
     }
 }
 \`\`\`
+\`\`\`javascript: JavaScript
+/**
+ * @param {number[]} nums
+ * @return {number[]}
+ */
+var findDisappearedNumbers = function(nums) {
+    let result = [];
+
+    let s = new Set();
+    for (let i of nums) {
+        s.add(i);
+    }
+
+    let correct_arr = [];
+    for (let i = 0; i < nums.length; i++) {
+        correct_arr.push(i + 1);
+    }
+
+    for (let i = 0; i < correct_arr.length; i++) {
+        if (!s.has(correct_arr[i])) {
+            result.push(correct_arr[i]);
+        }
+    }
+
+    return result;
+};
+\`\`\`
 
 ## Complexity
 With the use of HashSet, we are able to reduce the time complexity to O(n) but we use extra space of O(n) for the set.
