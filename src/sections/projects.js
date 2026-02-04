@@ -9,7 +9,7 @@ export function initProjects() {
       category: 'Game Development',
       image: 'images/KartIcon.jpg',
       description: 'A multiplayer racing game where cars and technology meet, designed using Godot and Steamworks.',
-      tags: ['Godot', 'GDScript', 'Steamworks', 'GitLab'],
+      tags: ['Godot', 'GDScript', 'Steamworks', 'GitLab', 'Krita', 'Blender', 'MS Paint'],
       status: 'beta',
       role: 'Lead Programmer, Gameplay Designer, UI/UX Designer, Artist, Technical Editor',
       duration: '5 years (2020 - Present)',
@@ -39,6 +39,20 @@ export function initProjects() {
       duration: '3 months (September 2025 - December 2025)',
       githubLink: 'https://github.com/qnguyen1206/cs4803',
       externalLink: 'https://cs4803-eight.vercel.app/',
+      images: []
+    },
+    {
+      id: 'window-washing-game',
+      title: 'Window Washing Game',
+      category: 'Game Development',
+      image: '',
+      description: '',
+      tags: ['Unity', 'C#', 'GitHub', 'Figma', ],
+      status: '',
+      role: '',
+      duration: '',
+      githubLink: '',
+      externalLink: '',
       images: []
     },
 
