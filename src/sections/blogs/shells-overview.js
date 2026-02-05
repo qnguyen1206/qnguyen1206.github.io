@@ -358,7 +358,42 @@ if (isset($_GET['cmd'])) {
 ?>
 \`\`\`
 
+The above shell can be saved into a file with the PHP extension, like \`shell.php\`, and then uploaded into the web server by the attacker by exploiting vulnerabilities such as Unrestricted File Upload, File Inclusion, Command Injection, among others, or by gaining unauthorized access to it.
 
+After the web shell is deployed in the server, it can be accessed through the URL where the web shell is hosted, in this example **http://victim.com/uploads/shell.php**. As we observed from the code in \`shell.php\`, we need to provide a GET method and the value of the variable \`cmd\`, which should contain the command the attacker wants to execute. For example, if we want to execute the command **whoami** the request to the URL should be:
+**http://victim.com/uploads/shell.php?cmd=whoami**
 
+The above will execute the command **whoami** and display the result in the web browser.
+
+**Existing Web Shells Available Online**
+The power of supported languages by the web servers can result in web shells with lots of functionality and avoid detection at the same time. Let's explore some of the most popular web shells that can be found online:
+    - <a href="https://github.com/flozz/p0wny-shell">p0wny-shell</a> - A minimalistic single-file PHP web shell that allows remote command execution.
+    - <a href="https://github.com/b374k/b374k">b374k shell</a> - A more feature-rich PHP web shell with file management and command execution, among other functionalities.
+    - <a href="https://www.r57shell.net/single.php?id=13">c99 shell</a> - A well-known and robust PHP web shell with extensive functionality.
+You can find more web shells at: https://www.r57shell.net/index.php.
+
+**Answer the questions below**⸻⸻⸻⸻⸻
+
+What vulnerability type allows attackers to upload a malicious script by failing to restrict file types?
+**Answer:** Unrestricted File Upload
+
+What is a malicious script uploaded to a vulnerable web application to gain unauthorized access?
+**Answer:** Web Shell
+
+⸻⸻⸻⸻⸻
+
+### Task 8 Practical Task
+
+Now that we have learned about the different types of reverse shells, let's test our knowledge with a practical exercise, and let's get the flag in the format THM{} from the vulnerable web server.
+
+**Answer the questions below**⸻⸻⸻⸻⸻
+
+Using a reverse or bind shell, exploit the command injection vulnerability to get a shell. What is the content of the flag saved in the / directory?
+**Answer:**
+**Reason:**
+
+Using a web shell, exploit the unrestricted file upload vulnerability and get a shell. What is the content of the flag saved in the / directory?
+**Answer:**
+**Reason:**
 `
 }
