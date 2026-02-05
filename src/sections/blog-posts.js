@@ -144,6 +144,7 @@ import sqlFundamentals from './blogs/sql-fundamentals.js';
 import burpSuiteTheBasics from './blogs/burp-suite-the-basics.js';
 import hydra from './blogs/hydra.js';
 import gobusterTheBasics from './blogs/gobuster-the-basics.js';
+import shellsOverview from './blogs/shells-overview.js';
 
 /* TryHackMe Challenges */
 import theGameChallenge from './blogs/the-game-challenge.js';
@@ -176,6 +177,7 @@ export const blogPosts = [
     burpSuiteTheBasics,
     hydra,
     gobusterTheBasics,
+    shellsOverview,
 
     /* TryHackMe Challenges */
     theGameChallenge,
