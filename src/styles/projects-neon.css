@@ -771,3 +771,74 @@
   }
 }
 
+/* ===== PROJECTS PAGINATION ===== */
+.projects-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-3);
+  margin-top: var(--space-8);
+  flex-wrap: wrap;
+}
+
+.projects-pagination .pagination-numbers {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.projects-pagination .pagination-btn {
+  padding: var(--space-2) var(--space-4);
+  border: 1px solid rgba(139, 92, 246, 0.3);
+  border-radius: var(--radius-md);
+  background: transparent;
+  color: var(--color-gray-300);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: var(--font-size-sm);
+  font-family: inherit;
+}
+
+.projects-pagination .pagination-btn:hover:not(.disabled) {
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.3), rgba(59, 130, 246, 0.3));
+  border-color: var(--color-primary-500);
+  color: var(--color-white);
+}
+
+.projects-pagination .pagination-btn.active {
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.5), rgba(59, 130, 246, 0.5));
+  border-color: var(--color-primary-400);
+  color: var(--color-white);
+}
+
+.projects-pagination .pagination-btn.disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.projects-pagination .pagination-ellipsis {
+  color: var(--color-gray-500);
+  padding: 0 var(--space-1);
+}
+
+.projects-pagination .pagination-prev,
+.projects-pagination .pagination-next {
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .projects-pagination {
+    gap: var(--space-2);
+  }
+
+  .projects-pagination .pagination-btn {
+    padding: var(--space-2) var(--space-3);
+    font-size: var(--font-size-xs);
+  }
+
+  .projects-pagination .pagination-prev,
+  .projects-pagination .pagination-next {
+    padding: var(--space-2);
+  }
+}
+

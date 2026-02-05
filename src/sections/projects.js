@@ -2,6 +2,9 @@ export function initProjects() {
   const projects = document.getElementById('projects');
   if (!projects) return;
 
+  const PROJECTS_PER_PAGE = 6;
+  let currentPage = 1;
+
   const projectsData = [
     {
       id: 'kart-tech-racing',
@@ -213,6 +216,8 @@ export function initProjects() {
           </div>
         </div>
       </div>
+      
+      <div class="projects-pagination" id="projectsPagination"></div>
     </div>
   `;
 
@@ -244,8 +249,61 @@ export function initProjects() {
   projects.classList.add('section-visible');
   const visibleProjects = projectsData.filter(project => !project.hidden);
 
-  const projectsGrid = projects.querySelector('.projects-grid');
-  projectsGrid.innerHTML = visibleProjects.map((project) => `
+  // Render pagination controls
+  function renderPagination(totalProjects, currentPage) {
+    const totalPages = Math.ceil(totalProjects / PROJECTS_PER_PAGE);
+    
+    if (totalPages <= 1) return '';
+
+    let paginationHTML = '';
+    
+    // Previous button
+    paginationHTML += `<button class="pagination-btn pagination-prev ${currentPage === 1 ? 'disabled' : ''}" data-page="${currentPage - 1}" ${currentPage === 1 ? 'disabled' : ''}>← Prev</button>`;
+    
+    // Page numbers
+    paginationHTML += '<div class="pagination-numbers">';
+    
+    const maxVisiblePages = 5;
+    let startPage = Math.max(1, currentPage - Math.floor(maxVisiblePages / 2));
+    let endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
+    
+    if (endPage - startPage + 1 < maxVisiblePages) {
+      startPage = Math.max(1, endPage - maxVisiblePages + 1);
+    }
+
+    if (startPage > 1) {
+      paginationHTML += `<button class="pagination-btn pagination-num" data-page="1">1</button>`;
+      if (startPage > 2) {
+        paginationHTML += `<span class="pagination-ellipsis">...</span>`;
+      }
+    }
+
+    for (let i = startPage; i <= endPage; i++) {
+      paginationHTML += `<button class="pagination-btn pagination-num ${i === currentPage ? 'active' : ''}" data-page="${i}">${i}</button>`;
+    }
+
+    if (endPage < totalPages) {
+      if (endPage < totalPages - 1) {
+        paginationHTML += `<span class="pagination-ellipsis">...</span>`;
+      }
+      paginationHTML += `<button class="pagination-btn pagination-num" data-page="${totalPages}">${totalPages}</button>`;
+    }
+
+    paginationHTML += '</div>';
+    
+    // Next button
+    paginationHTML += `<button class="pagination-btn pagination-next ${currentPage === totalPages ? 'disabled' : ''}" data-page="${currentPage + 1}" ${currentPage === totalPages ? 'disabled' : ''}>Next →</button>`;
+    
+    return paginationHTML;
+  }
+
+  // Render project cards for current page
+  function renderProjectCards(projectsList, page) {
+    const startIndex = (page - 1) * PROJECTS_PER_PAGE;
+    const endIndex = startIndex + PROJECTS_PER_PAGE;
+    const paginatedProjects = projectsList.slice(startIndex, endIndex);
+
+    return paginatedProjects.map((project) => `
     <article class="project-card" tabindex="0" data-category="${project.category}" data-project-id="${project.id}" aria-labelledby="proj-${project.id}-title">
       ${project.status ? `
         <div class="status-badge status-${project.status.toLowerCase().replace(/\s+/g, '-')}">${statusTags[project.status.toLowerCase()].label}</div>
@@ -300,6 +358,108 @@ export function initProjects() {
       </div>
     </article>
   `).join('');
+  }
+
+  // Update the view with cards and pagination
+  function updateProjectsView() {
+    const projectsGrid = projects.querySelector('#projectsGrid');
+    const paginationContainer = projects.querySelector('#projectsPagination');
+    
+    // Update cards
+    projectsGrid.innerHTML = renderProjectCards(visibleProjects, currentPage);
+    
+    // Update pagination
+    paginationContainer.innerHTML = renderPagination(visibleProjects.length, currentPage);
+    
+    // Re-attach event listeners
+    attachCardListeners();
+    attachPaginationListeners();
+    
+    // Lazy load images
+    lazyLoadImages();
+  }
+
+  // Lazy load images for current page
+  function lazyLoadImages() {
+    const images = projects.querySelectorAll('.thumb[data-src]');
+    images.forEach(img => {
+      if (img.dataset.src) {
+        img.src = img.dataset.src;
+      }
+    });
+  }
+
+  // Attach pagination listeners
+  function attachPaginationListeners() {
+    const paginationBtns = projects.querySelectorAll('.pagination-btn:not(.disabled)');
+    paginationBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const page = parseInt(btn.dataset.page);
+        if (page !== currentPage) {
+          currentPage = page;
+          updateProjectsView();
+          projects.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+  }
+
+  // Attach card event listeners
+  function attachCardListeners() {
+    const cards = projects.querySelectorAll('.project-card');
+    const readMoreButtons = projects.querySelectorAll('.read-more-btn');
+
+    readMoreButtons.forEach(button => {
+      button.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const projectId = button.getAttribute('data-project-id');
+        openModal(projectId);
+      });
+    });
+
+    cards.forEach(card => {
+      // 3D tilt effect on mouse move
+      card.addEventListener('mousemove', function(e) {
+        const rect = card.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+        
+        const centerX = rect.width / 2;
+        const centerY = rect.height / 2;
+        
+        const rotateX = ((y - centerY) / centerY) * -10;
+        const rotateY = ((x - centerX) / centerX) * 10;
+        
+        card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-10px) scale(1.02)`;
+      });
+      
+      card.addEventListener('mouseleave', function() {
+        card.style.transform = '';
+      });
+
+      card.addEventListener('click', function(e) {
+        if (e.target.closest('a')) return;
+        if (e.target.closest('.read-more-btn')) return;
+
+        const projectId = card.getAttribute('data-project-id');
+        if (projectId) {
+          openModal(projectId);
+        }
+      });
+
+      card.addEventListener('keydown', function(e) {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          const projectId = card.getAttribute('data-project-id');
+          if (projectId) {
+            openModal(projectId);
+          }
+        }
+      });
+    });
+  }
+
+  const projectsGrid = projects.querySelector('.projects-grid');
 
   const modal = document.getElementById('projectModal');
   const modalBody = document.getElementById('modalBody');
@@ -426,55 +586,6 @@ export function initProjects() {
     }
   });
 
-  const readMoreButtons = document.querySelectorAll('.read-more-btn');
-  readMoreButtons.forEach(button => {
-    button.addEventListener('click', (e) => {
-      e.stopPropagation();
-      const projectId = button.getAttribute('data-project-id');
-      openModal(projectId);
-    });
-  });
-
-  const cards = document.querySelectorAll('.project-card');
-
-  cards.forEach(card => {
-    // 3D tilt effect on mouse move
-    card.addEventListener('mousemove', function(e) {
-      const rect = card.getBoundingClientRect();
-      const x = e.clientX - rect.left;
-      const y = e.clientY - rect.top;
-      
-      const centerX = rect.width / 2;
-      const centerY = rect.height / 2;
-      
-      const rotateX = ((y - centerY) / centerY) * -10; // Max 10 degrees
-      const rotateY = ((x - centerX) / centerX) * 10;  // Max 10 degrees
-      
-      card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-10px) scale(1.02)`;
-    });
-    
-    card.addEventListener('mouseleave', function() {
-      card.style.transform = '';
-    });
-
-    card.addEventListener('click', function(e) {
-      if (e.target.closest('a')) return;
-      if (e.target.closest('.read-more-btn')) return;
-
-      const projectId = card.getAttribute('data-project-id');
-      if (projectId) {
-        openModal(projectId);
-      }
-    });
-
-    card.addEventListener('keydown', function(e) {
-      if (e.key === 'Enter' || e.key === ' ') {
-        e.preventDefault();
-        const projectId = card.getAttribute('data-project-id');
-        if (projectId) {
-          openModal(projectId);
-        }
-      }
-    });
-  });
+  // Initial render
+  updateProjectsView();
 }

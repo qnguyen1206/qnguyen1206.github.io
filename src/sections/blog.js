@@ -6,6 +6,7 @@ export function initBlog() {
   const blog = document.getElementById('blog');
   if (!blog) return;
   const categories = ['All', 'LeetCode', 'TryHackMe', 'HackTheBox' , 'Tools'];
+  const difficulties = ['All', 'Easy', 'Medium', 'Hard', 'Challenge', 'Extreme'];
   const POSTS_PER_PAGE = 9;
   
   // Sort blog posts by date (most recent first)
@@ -109,10 +110,19 @@ export function initBlog() {
   blog.innerHTML = `
     <div class="container">
       <h2 class="section-title">Writeups</h2>
-      <div class="blog-filters">
-        ${categories.map((cat, index) => `
-          <button class="filter-btn ${index === 0 ? 'active' : ''}" data-filter="${cat.toLowerCase()}">${cat}</button>
-        `).join('')}
+      <div class="blog-filters-container">
+        <div class="blog-filters">
+          <span class="filter-label">Category:</span>
+          ${categories.map((cat, index) => `
+            <button class="filter-btn ${index === 0 ? 'active' : ''}" data-filter="${cat.toLowerCase()}">${cat}</button>
+          `).join('')}
+        </div>
+        <div class="blog-filters difficulty-filters">
+          <span class="filter-label">Difficulty:</span>
+          ${difficulties.map((diff, index) => `
+            <button class="filter-btn difficulty-btn ${index === 0 ? 'active' : ''}" data-difficulty="${diff.toLowerCase()}">${diff}</button>
+          `).join('')}
+        </div>
       </div>
 
       <div class="blog-grid">
@@ -152,12 +162,26 @@ export function initBlog() {
         color: var(--color-gray-300);
       }
 
+      .blog-filters-container {
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-3);
+        margin-bottom: var(--space-8);
+      }
+
       .blog-filters {
         display: flex;
         justify-content: center;
+        align-items: center;
         gap: var(--space-3);
-        margin-bottom: var(--space-8);
         flex-wrap: wrap;
+      }
+
+      .filter-label {
+        font-size: var(--font-size-sm);
+        color: var(--color-gray-400);
+        font-weight: 500;
+        margin-right: var(--space-1);
       }
 
       .filter-btn {
@@ -176,6 +200,32 @@ export function initBlog() {
         background: linear-gradient(135deg, rgba(139, 92, 246, 0.3), rgba(59, 130, 246, 0.3));
         border-color: var(--color-primary-500);
         color: var(--color-white);
+      }
+
+      /* Difficulty-specific button colors when active */
+      .difficulty-btn.active[data-difficulty="easy"] {
+        background: linear-gradient(135deg, rgba(74, 222, 128, 0.4), rgba(34, 197, 94, 0.4));
+        border-color: #4ade80;
+      }
+
+      .difficulty-btn.active[data-difficulty="medium"] {
+        background: linear-gradient(135deg, rgba(251, 191, 36, 0.4), rgba(245, 158, 11, 0.4));
+        border-color: #fbbf24;
+      }
+
+      .difficulty-btn.active[data-difficulty="hard"] {
+        background: linear-gradient(135deg, rgba(248, 113, 113, 0.4), rgba(239, 68, 68, 0.4));
+        border-color: #f87171;
+      }
+
+      .difficulty-btn.active[data-difficulty="challenge"] {
+        background: linear-gradient(135deg, rgba(192, 132, 252, 0.4), rgba(168, 85, 247, 0.4));
+        border-color: #c084fc;
+      }
+
+      .difficulty-btn.active[data-difficulty="extreme"] {
+        background: linear-gradient(135deg, rgba(244, 63, 94, 0.4), rgba(225, 29, 72, 0.4));
+        border-color: #f43f5e;
       }
 
       .blog-grid {
@@ -604,8 +654,18 @@ export function initBlog() {
           grid-template-columns: 1fr;
         }
 
+        .blog-filters-container {
+          gap: var(--space-4);
+        }
+
         .blog-filters {
           gap: var(--space-2);
+        }
+
+        .filter-label {
+          width: 100%;
+          text-align: center;
+          margin-bottom: var(--space-1);
         }
 
         .filter-btn {
@@ -697,13 +757,15 @@ export function initBlog() {
   // Pagination state
   let currentPage = 1;
   let currentFilter = 'all';
+  let currentDifficulty = 'all';
 
-  // Get filtered posts based on current filter
+  // Get filtered posts based on current filters
   function getFilteredPosts() {
-    if (currentFilter === 'all') {
-      return sortedPosts;
-    }
-    return sortedPosts.filter(post => post.category.toLowerCase() === currentFilter);
+    return sortedPosts.filter(post => {
+      const categoryMatch = currentFilter === 'all' || post.category.toLowerCase() === currentFilter;
+      const difficultyMatch = currentDifficulty === 'all' || post.difficulty.toLowerCase() === currentDifficulty;
+      return categoryMatch && difficultyMatch;
+    });
   }
 
   // Update the blog grid and pagination
@@ -1265,8 +1327,8 @@ export function initBlog() {
     }
   });
 
-  // Filter functionality
-  const filterBtns = blog.querySelectorAll('.filter-btn');
+  // Filter functionality - Category filters
+  const filterBtns = blog.querySelectorAll('.filter-btn:not(.difficulty-btn)');
 
   filterBtns.forEach(btn => {
     btn.addEventListener('click', () => {
@@ -1278,6 +1340,24 @@ export function initBlog() {
 
       // Update filter and reset to page 1
       currentFilter = filter;
+      currentPage = 1;
+      updateBlogView();
+    });
+  });
+
+  // Filter functionality - Difficulty filters
+  const difficultyBtns = blog.querySelectorAll('.difficulty-btn');
+
+  difficultyBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const difficulty = btn.dataset.difficulty;
+
+      // Update active button
+      difficultyBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      // Update filter and reset to page 1
+      currentDifficulty = difficulty;
       currentPage = 1;
       updateBlogView();
     });
