@@ -27,7 +27,22 @@ export function initProjects() {
         { src: 'images/kart-tech-racing/programmer_cred.png', alt: 'Programmer Credit' },
         { src: 'images/kart-tech-racing/quang_cred.png', alt: 'Quang Credit' },
         { src: 'images/kart-tech-racing/technical_editor.png', alt: 'Technical Editor Credit' }
-      ]
+      ],
+      writeup: `
+## My Contributions
+
+### Lead Programmer
+- Design and implemented P2P multiplayer system including lobby, in-game chat, and score board using Steamworks' API and GodotSteam built-in functions.
+- Programmed gameplay logic, karts physics and ability system.
+- Design and implemented persistent save system using custom scripts.
+
+### Gameplay Designer
+- Designed and balanced abilities for each kart.
+
+### UI/UX Designer
+
+
+`,
     },
 
     {
@@ -50,9 +65,9 @@ export function initProjects() {
       category: 'Game Development',
       image: '',
       description: '',
-      tags: ['Unity', 'C#', 'GitHub', 'Figma', ],
-      status: '',
-      role: '',
+      tags: ['Unity', 'C#', 'GitHub', 'Figma', 'Trello'],
+      status: 'in development',
+      role: 'Programmer, System Designer',
       duration: '',
       githubLink: '',
       externalLink: '',
@@ -547,6 +562,48 @@ export function initProjects() {
       `;
     }
 
+    // Writeup section - what I did for this project
+    let writeupHTML = '';
+    if (project.writeup) {
+      // Parse writeup content with basic formatting
+      const parseWriteup = (text) => {
+        return text
+          // Headers
+          .replace(/^### (.+)$/gm, '<h5>$1</h5>')
+          .replace(/^## (.+)$/gm, '<h4>$1</h4>')
+          // Bold
+          .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+          // Italic
+          .replace(/\*(.+?)\*/g, '<em>$1</em>')
+          // Inline code
+          .replace(/`([^`]+)`/g, '<code>$1</code>')
+          // Unordered lists
+          .replace(/^- (.+)$/gm, '<li>$1</li>')
+          .replace(/(<li>.*<\/li>\n?)+/g, '<ul>$&</ul>')
+          // Numbered lists
+          .replace(/^\d+\. (.+)$/gm, '<li>$1</li>')
+          // Line breaks to paragraphs
+          .split(/\n\n+/)
+          .map(para => {
+            para = para.trim();
+            if (!para) return '';
+            if (para.startsWith('<h') || para.startsWith('<ul') || para.startsWith('<ol')) return para;
+            if (para.startsWith('<li>')) return `<ul>${para}</ul>`;
+            return `<p>${para.replace(/\n/g, '<br>')}</p>`;
+          })
+          .join('');
+      };
+
+      writeupHTML = `
+        <div class="modal-section writeup-section">
+          <h4>📝 What I Did</h4>
+          <div class="writeup-content">
+            ${parseWriteup(project.writeup)}
+          </div>
+        </div>
+      `;
+    }
+
     modalBody.innerHTML = `
       <div class="modal-header">
         <h2 class="modal-title">${project.title}</h2>
@@ -557,6 +614,8 @@ export function initProjects() {
       </div>
 
       ${caseStudyHTML}
+
+      ${writeupHTML}
 
       ${linksHTML}
 

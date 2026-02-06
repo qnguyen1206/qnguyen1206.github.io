@@ -598,6 +598,68 @@
   margin-right: 6px;
 }
 
+/* Writeup section styles */
+.writeup-section {
+  background: rgba(139, 92, 246, 0.05);
+  border: 1px solid rgba(139, 92, 246, 0.15);
+}
+
+.writeup-content {
+  color: #c4d4e8;
+  line-height: 1.7;
+}
+
+.writeup-content h4 {
+  font-size: 16px;
+  color: #c084fc;
+  margin: 20px 0 10px 0;
+  font-weight: 600;
+}
+
+.writeup-content h5 {
+  font-size: 14px;
+  color: #a78bfa;
+  margin: 16px 0 8px 0;
+  font-weight: 600;
+}
+
+.writeup-content p {
+  margin-bottom: 12px;
+}
+
+.writeup-content ul,
+.writeup-content ol {
+  margin: 12px 0;
+  padding-left: 24px;
+}
+
+.writeup-content li {
+  margin-bottom: 6px;
+  position: relative;
+}
+
+.writeup-content ul li::marker {
+  color: #a78bfa;
+}
+
+.writeup-content code {
+  background: rgba(139, 92, 246, 0.15);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: 'Fira Code', 'Consolas', monospace;
+  font-size: 0.9em;
+  color: #c084fc;
+}
+
+.writeup-content strong {
+  color: #eaf3ff;
+}
+
+.writeup-content em {
+  color: #a78bfa;
+  font-style: italic;
+}
+
 .highlights-list,
 .challenges-list {
   list-style: none;
