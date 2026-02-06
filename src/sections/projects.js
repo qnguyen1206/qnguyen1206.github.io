@@ -29,19 +29,25 @@ export function initProjects() {
         { src: 'images/kart-tech-racing/technical_editor.png', alt: 'Technical Editor Credit' }
       ],
       writeup: `
-## My Contributions
-
-### Lead Programmer
+## Lead Programmer
 - Design and implemented P2P multiplayer system including lobby, in-game chat, and score board using Steamworks' API and GodotSteam built-in functions.
 - Programmed gameplay logic, karts physics and ability system.
 - Design and implemented persistent save system using custom scripts.
 
-### Gameplay Designer
+## Gameplay Designer
 - Designed and balanced abilities for each kart.
+- Designed map layout and environment.
 
-### UI/UX Designer
+## UI/UX Designer
+- Designed and implemented settings menu, pause menu, and in-game UI.
+- Established UI typography, layout and visual consistency across the game.
+- Designed and implemented start screen, lobby screen, and end screen UI.
 
+## Artist
+- Created game arts including karts abilities icons, tabs icons and buttons UI.
 
+## Technical Editor
+- Maintained the game's design documented.
 `,
     },
 
