@@ -14,7 +14,7 @@ export function initHero() {
             </div>
           </div>
           <div class="hero-cta" style="margin-top: 1.5rem;">
-            <button class="btn btn-primary" data-scroll-to="projects">View My Work</button>
+            <button class="btn btn-primary" data-scroll-to="projects">View My Works</button>
             <button class="btn btn-secondary" data-scroll-to="contacts">Contact Me</button>
           </div>
         </div>
@@ -30,6 +30,7 @@ export function initHero() {
             <li><a href="#projects" class="hero-nav-link">Projects</a></li>
             <li><a href="#blog" class="hero-nav-link">Writeups</a></li>
             <li><a href="#certificates" class="hero-nav-link">Certificates</a></li>
+            <li><a href="#resume" class="hero-nav-link">Resume</a></li>
             <li><a href="#contacts" class="hero-nav-link">Contact</a></li>
           </ul>
         </nav>

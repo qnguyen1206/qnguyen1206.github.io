@@ -127,7 +127,6 @@ export function initProjects() {
       externalLink: '',
       images: []
     },
-
     {
       id: 'todo-app',
       title: 'TO DO App',
