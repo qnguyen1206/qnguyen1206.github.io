@@ -5,6 +5,54 @@ export function initProjects() {
   const PROJECTS_PER_PAGE = 6;
   let currentPage = 1;
 
+  /*
+   * =====================================================
+   * PROJECT DATA STRUCTURE
+   * =====================================================
+   * 
+   * REQUIRED FIELDS:
+   *   id: 'unique-id'              → Unique identifier (used internally)
+   *   title: 'Project Name'        → Display title
+   *   category: 'Game Development' → Category label
+   *   tags: ['Tag1', 'Tag2']       → Technology/skill tags
+   * 
+   * OPTIONAL FIELDS:
+   *   image: 'images/icon.jpg'     → Card thumbnail image
+   *   description: 'Text...'       → Short description (first line shows on card)
+   *   status: 'release'            → Project status badge
+   *   role: 'Developer'            → Your role in the project
+   *   duration: '2 years'          → Project timeline
+   *   githubLink: 'url'            → GitHub repository URL
+   *   gitlabLink: 'url'            → GitLab repository URL
+   *   externalLink: 'url'          → Live project/demo URL
+   *   hidden: true                 → Hide project from display
+   *   images: [                    → Gallery images for modal
+   *     { src: 'path.png', alt: 'Description', caption: 'Optional caption' }
+   *   ]
+   *   writeup: `...`               → Detailed writeup of what you did
+   * 
+   * STATUS OPTIONS:
+   *   'alpha'          → Red badge
+   *   'beta'           → Yellow badge
+   *   'mvp'            → Cyan badge
+   *   'release'        → Green badge
+   *   'in development' → Purple badge
+   *   'on hold'        → Orange badge
+   *   'complete'       → Blue badge
+   * 
+   * WRITEUP FORMATTING:
+   *   ## Header        → Section header
+   *   ### Subheader    → Subsection header
+   *   **bold**         → Bold text
+   *   *italic*         → Italic text
+   *   `code`           → Inline code
+   *   - item           → Bullet list
+   *   1. item          → Numbered list
+   *   (blank line)     → New paragraph
+   * 
+   * =====================================================
+   */
+
   const projectsData = [
     {
       id: 'kart-tech-racing',
