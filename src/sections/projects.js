@@ -63,6 +63,7 @@ export function initProjects() {
       tags: ['Godot', 'GDScript', 'Steamworks', 'GitLab', 'Krita', 'Blender', 'MS Paint'],
       status: 'beta',
       role: 'Lead Programmer, Gameplay Designer, UI/UX Designer, Artist, Technical Editor',
+      teamSize: '4',
       duration: '5 years (2020 - Present)',
       gitlabLink: '',
       externalLink: 'https://store.steampowered.com/app/2165230/Kart_The_Tech_Filled_Racing_Game/',
@@ -108,6 +109,7 @@ export function initProjects() {
       tags: ["HTML", "CSS", "JavaScript", "React", "Vite", "MongoDB", "Express", "Cloudinary", "Python", "Flask", "YOLO"],
       status: 'MVP',
       role: 'Co-Founder, Developer, Designer',
+      teamSize: '4',
       duration: '3 months (September 2025 - December 2025)',
       githubLink: 'https://github.com/qnguyen1206/cs4803',
       externalLink: 'https://cs4803-eight.vercel.app/',
@@ -188,14 +190,19 @@ export function initProjects() {
       tags: ['Unity', 'C#', 'Unity Plastic SCM', 'GitHub'],
       status: 'release',
       role: 'Programmer',
-      teamSize: '7',
+      teamSize: '16',
       duration: '4 months (Jan 2023 - April 2023)',
       externalLink: 'https://jhaboon.itch.io/wyim',
       images: [
         { src: 'images/wyim/wyim_screenshot1.png', alt: 'What Yours is Mime Screenshot 1' },
         { src: 'images/wyim/wyim_screenshot2.png', alt: 'What Yours is Mime Screenshot 2' },
         { src: 'images/wyim/wyim_screenshot3.png', alt: 'What Yours is Mime Screenshot 3' }
-      ]
+      ],
+      writeup: `
+## Programmer
+- Implemented player movement and attack logic using C#.
+- Implemented the game's instruction system using C#.
+`
     },
     {
       id: 'gastropoda',
@@ -206,10 +213,16 @@ export function initProjects() {
       tags: ['Unity', 'C#', 'GitHub'],
       status: 'release',
       role: 'Programmer',
+      teamSize: '18',
       duration: '4 months (Aug 2022 - Dec 2022)',
       githubLink: 'https://github.com/aimbesi1/gastropoda',
       externalLink: 'https://jhaboon.itch.io/gastropoda-v115',
-      images: []
+      images: [],
+      writeup: `
+## Programmer
+- Implemented player movement and physical interactions using C#.
+- Implemented items interactions using C#.
+`
     },
     {
       id: 'wander-sync-app',
@@ -220,10 +233,17 @@ export function initProjects() {
       tags: ['Java', 'Firebase', 'Android Studio', 'GitHub'],
       status: 'complete',
       role: 'Backend Programmer',
-      teamSize: '5',
+      teamSize: '6',
       duration: '4 months (Aug 2023 - Dec 2023)',
       githubLink: 'https://github.com/Kairu1206/CS2340D_Team26',
-      images: []
+      images: [],
+      writeup: `
+## Backend Programmer
+- Implemented user authentication and authorization using Firebase Authentication and Security Rules.
+- Implemented user profile management and travel plan creation/editing/deletion using Firebase Realtime Database.
+- Implemented unit tests for backend functionality using JUnit.
+- Analyzed code quality using SonarQube and fixed reported issues.
+`,
     },
     {
       id: 'gallery',
