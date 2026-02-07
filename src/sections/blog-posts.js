@@ -146,6 +146,7 @@ import hydra from './blogs/hydra.js';
 import gobusterTheBasics from './blogs/gobuster-the-basics.js';
 import shellsOverview from './blogs/shells-overview.js';
 import sqlmapTheBasics from './blogs/sqlmap-the-basics.js';
+import socFundamentals from './blogs/soc-fundamentals.js';
 
 /* TryHackMe Challenges */
 import theGameChallenge from './blogs/the-game-challenge.js';
@@ -180,6 +181,7 @@ export const blogPosts = [
     gobusterTheBasics,
     shellsOverview,
     sqlmapTheBasics,
+    socFundamentals,
 
     /* TryHackMe Challenges */
     theGameChallenge,

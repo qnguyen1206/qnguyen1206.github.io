@@ -92,8 +92,93 @@ Which role in the SOC team allows you to work dedicatedly on establishing rules 
 
 ### Task 4 Process
 
+We discussed the roles and responsibilities of different individuals working in the SOC team. Each role has its own \`Processes\`, just as we saw the role of Level 1 SOC Analysts as the first responders to carry out alert triage and determine if it is harmful. Let’s discuss some important processes involved in a SOC.
 
+**Alert Triage**
+The alert triage is the basis of the SOC team. The first response to any alert is to perform the triage. The triage is focused on analyzing the specific alert. This determines the severity of the alert and helps us prioritize it. The alert triage is all about answering the 5 Ws. What are these 5 Ws?
+<img src="/blogs/tryhackme/soc-fundamentals/6645aa8c024f7893371eb7ac-1718872960352.png">
 
+Following are some questions that need to be answered during the triage of an alert. 
 
+**Alert**: Malware detected on Host: GEORGE PC
+
+[table]
+5 Ws | Answers
+What? | A malicious file was detected on one of the hosts inside the organization’s network.
+When? | The file was detected at 13:20 on June 5, 2024.
+Where? | The file was detected in the directory of the host: "GEORGE PC".
+Who? | The file was detected for the user George.
+Why? | After the investigation, it was found that the file was downloaded from a pirated software-selling website. The investigation with the user revealed that they downloaded the file as they wanted to use a software for free.
+[/table]
+
+**Reporting**
+The detected harmful alerts need to be escalated to higher-level analysts for a timely response and resolution. These alerts are escalated as tickets and assigned to the relevant people. The report should discuss all the 5 Ws along with a thorough analysis, and screenshots should be used as evidence of the activity.
+
+**Incident Response and Forensics**
+Sometimes, the reported detections point to highly malicious activities that are critical. In these scenarios, high-level teams initiate an incident response. The incident response process is discussed in detail in the Incident Response room. A few times, a detailed forensics activity also needs to be performed. This forensic activity aims to determine the incident’s root cause by analyzing the artifacts from a system or network.
+
+**Answer the questions below**⸻⸻⸻⸻⸻
+
+At the end of the investigation, the SOC team found that John had attempted to steal the system's data. Which 'W' from the 5 Ws does this answer?
+**Answer:** Who
+
+The SOC team detected a large amount of data exfiltration. Which 'W' from the 5 Ws does this answer?
+**Answer:** What
+
+⸻⸻⸻⸻⸻
+
+### Task 5 Technology
+
+Having the right **People** and **Processes** in place would never be enough without security solutions for detection and response. The **Technology** portion in the SOC pillars refers to the security solutions. These security solutions efficiently minimize the SOC team's manual effort to detect and respond to threats.
+
+An organization’s network consists of many devices and applications. As a security team, individually detecting and responding to threats in each device or application would require significant effort and resources. Security solutions centralize all the information of the devices or applications present in the network and automate the detection and response capabilities.
+
+Let's get a brief understanding of some of these security solutions:
+    - **SIEM:** Security Information and Event Management (SIEM) is a popular tool used in almost every SOC environment. This tool collects logs from various network devices, referred to as log sources. Detection rules are configured in the SIEM solution, which contains logic to identify suspicious activity. The SIEM solution provides us with the detections after correlating them with multiple log sources and alerts us in case of a match with any of the rules. Modern SIEM solutions surpass this rule based detection analysis, providing us with user behavior analytics and threat intelligence capability. Machine learning algorithms support this to enhance the detection capabilities.
+**Note:** The SIEM solution only provides the **Detection** capabilities in a SOC environment.
+    - **EDR:** Endpoint Detection and Response (EDR) provides the SOC team with detailed real-time and historical visibility of the devices’ activities. It operates on the endpoint level and can carry out automated responses. EDR has extensive detection capabilities for endpoints, allowing you to investigate them in detail and respond with a few clicks.
+    - **Firewall:** A firewall functions purely for network security and acts as a barrier between your internal and external networks (such as the Internet). It monitors incoming and outgoing network traffic and filters any unauthorized traffic. The firewall also has some detection rules deployed, which help us identify and block suspicious traffic before it reaches the internal network.
+Several other security solutions play unique roles in a SOC environment, such as Antivirus, EPP, IDS/IPS, XDR, SOAR, and more. The decision on what Technology to deploy in the SOC comes after careful consideration of the threat surface and the available resources in the organization.
+
+**Answer the questions below**⸻⸻⸻⸻⸻
+
+Which security solution monitors the incoming and outgoing traffic of the network?
+**Answer:** Firewall
+
+Do SIEM solutions primarily focus on detecting and alerting about security incidents? (yea/nay)
+**Answer:** yea
+
+⸻⸻⸻⸻⸻
+
+### Task 6 Practical Exercise of SOC
+
+**Scenario**
+You are the Level 1 Analyst of your organization’s SOC team. You receive an alert that a port scanning activity has been observed on one of the hosts in the network. You have access to the SIEM solution, where you can see all the associated logs for this alert. You are tasked to view the logs individually and answer the question to the 5 Ws given below.
+
+**Note:** The vulnerability assessment team notified the SOC team that they were running a port scan activity inside the network from the host: \`10.0.0.8\`
+
+**Answer the questions below**⸻⸻⸻⸻⸻
+
+What: Activity that triggered the alert?
+**Answer:** Port Scan
+
+When: Time of the activity?
+**Answer:** June 12, 2024 17:24
+
+Where: Destination host IP?
+**Answer:** 10.0.0.3
+
+Who: Source host name?
+**Answer:** Nessus
+
+Why: Reason for the activity? Intended/Malicious
+**Answer:** Intended
+
+Additional Investigation Notes: Has any response been sent back to the port scanner IP? (yea/nay)
+**Answer:** yea
+**Reason:** Check the log and we can see that JOE PC had sent a packet to NESSUS.
+
+What is the flag found after closing the alert?
+**Answer:** THM{000_INTRO_TO_SOC}
 `
 }
