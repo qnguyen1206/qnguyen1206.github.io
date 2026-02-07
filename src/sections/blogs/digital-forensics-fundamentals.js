@@ -4,7 +4,7 @@ export default {
     category: 'TryHackMe',
     difficulty: 'Easy',
     tags: ['Digital Forensics'],
-    date: '2026-02-07T12:00:00',
+    date: '2026-02-06T12:00:00',
     excerpt: 'Write up and walkthrough of Digital Forensics Fundamentals room on TryHackMe.',
     content: `
 This is a write up and walkthrough of the Digital Forensics Fundamentals room on TryHackMe.
@@ -97,8 +97,96 @@ What is the name of the document that has all the details of the collected digit
 
 ### Task 4 Windows Forensics
 
+The most common types of evidence collected from crime scenes are desktop computers and laptops, as most criminal activity involves a personal system. These devices have different operating systems running on them. In this task, we will discuss the evidence acquisition and analysis of the Windows operating system, which is a very common operating system that has been investigated in several cases.
 
+As part of the data collection phase, forensic images of the Windows operating system are taken. These forensic images are bit-by-bit copies of the whole operating system. Two different categories of forensic images are taken from a Windows operating system.
+    - **Disk image:** The disk image contains all the data present on the storage device of the system (HDD, SSD, etc.). This data is non-volatile, meaning that the disk data would survive even after a restart of the operating system. For example, all the files like media, documents, internet browsing history, and more.
+    - **Memory image:** The memory image contains the data inside the operating system’s RAM. This memory is volatile, meaning the data will get lost after the system is powered off or restarted. For example, to capture open files, running processes, current network connections, etc., the memory image should be prioritized and taken first from the suspect’s operating system; otherwise, any restart or shutdown of the system would result in all the volatile data getting deleted. While carrying out digital forensics on a Windows operating system, disk and memory images are very important to collect.
 
+Let’s discuss some popular tools used for disk and memory image acquisition and analysis of the Windows operating system.
 
+**FTK Imager:** FTK Imager is a widely used tool for taking disk images of Windows operating systems. It offers a user-friendly graphical interface for creating the image in various formats. This tool can also analyze the contents of a disk image. It can be used for both acquisition and analysis purposes.
+**Autopsy:** Autopsy is a popular open-source digital forensics platform. An investigator can import an acquired disk image into this tool, and the tool will conduct an extensive analysis of the image. It offers various features during image analysis, including keyword search, deleted file recovery, file metadata, extension mismatch detection, and many more.
+**DumpIt:** DumpIt offers the utility of taking a memory image from a Windows operating system. This tool creates memory images using a command-line interface and a few commands. The memory image can also be taken in different formats.
+**Volatility:**  Volatility is a powerful open-source tool for analyzing memory images. It offers some extremely useful plugins. Each artifact can be analyzed using a specific plugin. This tool supports various operating systems, including Windows, Linux, macOS, and Android.
+
+**Note:** Various other tools are also used to acquire and analyze disk and memory images of the Windows operating system.
+
+**Answer the questions below** ⸻⸻⸻⸻⸻
+
+Which type of forensic image is taken to collect the volatile data from the operating system?
+**Answer:** Memory Image
+
+ ⸻⸻⸻⸻⸻
+
+ ### Task 5 Practical Example of Digital Forensics
+
+Everything we do on our digital devices, from smartphones to computers, leaves traces. Let’s see how we can use this in the subsequent investigation.
+
+Our cat, Gado, has been kidnapped. The kidnapper has sent us a document with their requests in MS Word Document format. We have converted the document to PDF format and extracted the image from the MS Word file for your convenience.
+
+Once started, open a new terminal and navigate to the \`/root/Rooms/introdigitalforensics\` directory as shown below. In the following terminal output, we changed to the directory containing the case files.
+\`root@tryhackme:~# cd /root/Rooms/introdigitalforensics\`
+
+When you create a text file, \`TXT\`, some metadata gets saved by the operating system, such as file creation date and last modification date. However, much information gets kept within the file’s metadata when you use a more advanced editor, such as MS Word. There are various ways to read the file metadata; you might open them within their official viewer/editor or use a suitable forensic tool. Note that exporting the file to other formats, such as \`PDF\`, would maintain most of the metadata of the original document, depending on the PDF writer used.
+
+Let’s see what we can learn from the PDF file. We can try to read the metadata using the program \`pdfinfo\`. Pdfinfo displays various metadata related to a PDF file, such as title, subject, author, creator, and creation date.Consider the following example of using \`pdfinfo DOCUMENT.pdf\`:
+\`\`\`
+root@tryhackme:~# pdfinfo DOCUMENT.pdf 
+Creator:        Microsoft® Word for Office 365
+Producer:       Microsoft® Word for Office 365
+CreationDate:   Wed Oct 10 21:47:53 2018 EEST
+ModDate:        Wed Oct 10 21:47:53 2018 EEST
+Tagged:         yes
+UserProperties: no
+Suspects:       no
+Form:           none
+JavaScript:     no
+Pages:          20
+Encrypted:      no
+Page size:      595.32 x 841.92 pts (A4)
+Page rot:       0
+File size:      560362 bytes
+Optimized:      no
+PDF version:    1.7
+\`\`\`
+
+The PDF metadata clearly shows that it was created using MS Word for Office 365 on October 10, 2018.
+
+**Photo EXIF Data**
+EXIF stands for Exchangeable Image File Format; it is a standard for saving metadata to image files. Whenever you take a photo with your smartphone or with your digital camera, plenty of information gets embedded in the image. The following are examples of metadata that can be found in the original digital images:
+    - Camera model / Smartphone model
+    - Date and time of image capture
+    - Photo settings such as focal length, aperture, shutter speed, and ISO settings
+
+Because smartphones are equipped with a GPS sensor, finding GPS coordinates embedded in the image is highly probable. The GPS coordinates, i.e., latitude and longitude, would generally show the place where the photo was taken.
+
+There are many online and offline tools to read the EXIF data from images. One command-line tool is \`exiftool\`. ExifTool is used to read and write metadata in various file types, such as JPEG images.In the following terminal window, we executed \`exiftool IMAGE.jpg\` to read all the EXIF data embedded in this image.
+\`\`\`
+root@tryhackme:~# exiftool IMAGE.jpg
+[...]
+GPS Position : 51 deg 31' 4.00" N, 0 deg 5' 48.30" W
+[...]
+\`\`\`
+
+If you take the above coordinates and search one of the online maps, you will learn more about this location. Searching Microsoft Bing Maps or Google Maps for \`51 deg 30' 51.90" N, 0 deg 5' 38.73" W\`reveals the street where the photo was taken. Note that for the search to work, we had to replace \`deg\` with \`° \` and remove the extra white space. In other words, we typed \`51°30'51.9"N 0°05'38.7"W\` in the map search bar.
+
+**Answer the questions below** ⸻⸻⸻⸻⸻
+
+Using \`pdfinfo\`, find out the author of the attached PDF file, \`ransom-letter.pdf\`.
+**Answer:** Ann Gree Shepherd
+**Reason:** Run \`pdfinfo ransom-letter.pdf\` and look for the line that says \`Author\`.
+
+Using \`exiftool\` or any similar tool, try to find where the kidnappers took the image they attached to their document. What is the name of the street?
+**Answer:** Milk Street
+**Reason:**
+1. Run \`exiftool letter-image.jpg\`.
+2. Find \`GPS Latitute\` and \`GPS Longitude\`.
+3. Convert the coordinates to decimal degrees.
+4. Search for the location on Google Maps.
+
+What is the model name of the camera used to take this photo?
+**Answer:** Canon EOS R6
+**Reason:** Run \`exiftool letter-image.jpg\` and look for the line that says \`Camera Model Name\`.
 `
 }

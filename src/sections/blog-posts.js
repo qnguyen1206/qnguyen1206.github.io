@@ -147,6 +147,7 @@ import gobusterTheBasics from './blogs/gobuster-the-basics.js';
 import shellsOverview from './blogs/shells-overview.js';
 import sqlmapTheBasics from './blogs/sqlmap-the-basics.js';
 import socFundamentals from './blogs/soc-fundamentals.js';
+import digitalForensicsFundamentals from './blogs/digital-forensics-fundamentals.js';
 
 /* TryHackMe Challenges */
 import theGameChallenge from './blogs/the-game-challenge.js';
@@ -182,6 +183,7 @@ export const blogPosts = [
     shellsOverview,
     sqlmapTheBasics,
     socFundamentals,
+    digitalForensicsFundamentals,
 
     /* TryHackMe Challenges */
     theGameChallenge,
