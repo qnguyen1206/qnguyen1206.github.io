@@ -598,6 +598,31 @@
   margin-right: 6px;
 }
 
+/* Project meta list styles */
+.project-meta-list {
+  list-style: none;
+  padding: 0;
+  margin: 16px 0 0 0;
+}
+
+.project-meta-list li {
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  font-size: 14px;
+  color: #c4d4e8;
+}
+
+.project-meta-list li:last-child {
+  border-bottom: none;
+}
+
+.project-meta-list li strong {
+  color: #21d4ff;
+  margin-right: 8px;
+  min-width: 100px;
+  display: inline-block;
+}
+
 /* Writeup section styles */
 .writeup-section {
   background: rgba(139, 92, 246, 0.05);

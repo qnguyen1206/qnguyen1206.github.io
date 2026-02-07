@@ -21,6 +21,7 @@ export function initProjects() {
    *   description: 'Text...'       → Short description (first line shows on card)
    *   status: 'release'            → Project status badge
    *   role: 'Developer'            → Your role in the project
+   *   teamSize: '5'                → Number of team members
    *   duration: '2 years'          → Project timeline
    *   githubLink: 'url'            → GitHub repository URL
    *   gitlabLink: 'url'            → GitLab repository URL
@@ -626,11 +627,12 @@ export function initProjects() {
         <div class="modal-section">
           <h4>📋 Project Details</h4>
           ${descriptionHTML}
-          <div class="project-meta-grid">
-            ${project.role ? `<div class="meta-item"><strong>Role:</strong> ${project.role}</div>` : ''}
-            ${project.duration ? `<div class="meta-item"><strong>Duration:</strong> ${project.duration}</div>` : ''}
-            ${project.tags && project.tags.length > 0 ? `<div class="meta-item"><strong>Technologies:</strong> ${techList}</div>` : ''}
-          </div>
+          <ul class="project-meta-list">
+            ${project.role ? `<li><strong>Role:</strong> ${project.role}</li>` : ''}
+            ${project.teamSize ? `<li><strong>Team Size:</strong> ${project.teamSize}</li>` : ''}
+            ${project.duration ? `<li><strong>Duration:</strong> ${project.duration}</li>` : ''}
+            ${project.tags && project.tags.length > 0 ? `<li><strong>Technologies:</strong> ${techList}</li>` : ''}
+          </ul>
         </div>
       `;
     }
