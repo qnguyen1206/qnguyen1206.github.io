@@ -85,8 +85,94 @@ What type of incident aims to disrupt the availability of an application?
 
 ### Task 4 Incident Response Process
 
+In the above task, we saw different types of incidents. Sometimes, handling a variety of incidents in an environment can be difficult. Due to the distinct nature of incidents in organizations, there should be a structured process for incident response. Incident Response Frameworks help us in this regard. These are the generic approaches to follow in any incident for effective response. We will discuss the two widely used incident response frameworks: SANS and NIST.
 
+SANS and NIST are popular organizations contributing to cyber security. SANS has offered various courses and certifications in cyber security, and NIST played its role in developing standards and guidelines for cyber security. Both SANS and NIST have quite similar incident response frameworks.
 
+The SANS incident Response framework has 6 phases, which can be called 'PICERL' to remember them easily.
+[table]
+Phase | Explanation | Example
+Preparation | This is the first phase. The preparation phase includes building the necessary resources to handle an incident. These resources include developing incident response teams, having a proper incident response plan in place, and deploying necessary security solutions to combat the incidents. | Conducting awareness training for employees on phishing emails. Phishing emails are fraudulent emails sent by malicious attackers that can trick you into performing actions that can lead you to an incident.
+Identification | The identification phase refers to looking for any abnormal behavior that may indicate an incident. This involves using various security solutions and techniques to monitor abnormal events. | The security team notices a huge amount of data being sent out from one of the hosts. Upon analysis, it was found to be compromised after a malicious file was downloaded from a phishing email attachment.
+Containment | Once an incident has been identified, the next step should be to contain it. This means minimizing the impact of the attack. This is usually done by isolating the victim machine, disabling the compromised user accounts, etc. | The Security team isolates the host from the network to minimize the impact and not allow the attacker to jump to other systems, leveraging the compromised host.
+Eradication | This phase, as its name suggests, involves removing the threat from the attacked environment. The threat may be of any kind. The eradication phase will ensure the subject environment is clean, and now we can move to the recovery phase. | A deep malware scan was executed on the system to remove the malicious software from the host.
+Recovery | The recovery phase is very important in this chain. It involves recovering the affected systems from backup or rebuilding them. The recovered systems are then tested and are ready to use. | The compromised host was re-configured, and the exfiltrated data was restored from the backup.
+Lessons Learned | This is also an important part of the incident response lifecycle. Gaps in the detection and analysis of the incident are identified and documented, helping to improve the overall process in future incidents. | Conducting a post-incident review meeting to analyze the incident's root cause and improve the security to prevent future attacks.
+[/table]
 
+The Incident Response Framework of NIST is similar to the SANS framework we studied above. The number of phases in this framework is reduced to 4.
+<img src="/blogs/tryhackme/incident-response-fundamentals/6645aa8c024f7893371eb7ac-1718268206803.png">
+
+Following is the comparison of both:
+<img src="/blogs/tryhackme/incident-response-fundamentals/6645aa8c024f7893371eb7ac-1723217056943.png">
+
+Organizations may derive their incident response processes by following these frameworks. Every process has a formal document listing all the relevant organizational procedures. The formal incident response document is called the **Incident Response Plan**. This structured document underlines the approach during any incident. It is formally approved by senior management and consists of the procedures to be followed before, during, and after an incident has been completed.
+
+The key components of this plan include (and are not limited to):
+    - Roles and Responsibilities
+    - Incident Response methodology
+    - Communication plan with stakeholders, including law enforcement
+    - Escalation path to be followed
+
+**Answer the questions below**⸻⸻⸻⸻⸻
+
+The Security team disables a machine's internet connection after an incident. Which phase of the SANS IR lifecycle is followed here?
+**Answer:** Containment
+
+Which phase of NIST corresponds with the lessons learned phase of the SANS IR lifecycle?
+**Answer:** Post Incident Activity
+
+⸻⸻⸻⸻⸻
+
+### Task 5 Incident Response Techniques
+
+Remember we studied the second phase of the incident response lifecycle, ‘Identification’ in SANS, and ‘Detection and Analysis’ in NIST. It is very hard to look for abnormal behavior and identify incidents manually. There are multiple security solutions that serve their own unique roles in detecting any incidents. Some of them even have the capability to respond to the incidents and execute the other phases of the lifecycle, such as containment, eradication, etc. A brief explanation of some of these solutions is given below:
+    - **SIEM:**The Security Information and Event Management Solution (SIEM) collects all important logs in one centralized location and correlates them to identify incidents.
+    - **AV:** Antivirus (AV) detects known malicious programs in a system and regularly scans your system for these.
+    - **EDR:**  Endpoint Detection and Response (EDR) is deployed on every system, protecting it against some advanced-level threats. This solution can also contain and eradicate the threat.
+
+After incidents are identified, certain procedures must be followed, including investigating the extent of the attack, taking necessary actions to prevent further damage and eliminate it from the root. These steps may be different for different kinds of incidents. In this scenario, having step-by-step instructions to deal with each kind of incident helps you save a lot of time. These types of instructions are known as **Playbooks**.
+
+Playbooks are the guidelines for a comprehensive incident response.
+
+Following is an example of a **Playbook** for an incident: Phishing Email
+1. Notify all the stakeholders of the phishing email incident
+2. Determine if the email was malicious by conducting header and body analysis of the email
+3. Look for any attachments with the email and analyze them
+4. Determine if anybody opened the attachments
+5. Isolate the infected systems from the network
+6. Block the email sender
+
+**Runbooks**, on the other hand, are the detailed, step-by-step execution of specific steps during different incidents. These steps may vary depending on the resources available for investigation.
+
+**Answer the questions below**⸻⸻⸻⸻⸻
+
+Step-by-step comprehensive guidelines for incident response are known as?
+**Answer:** Playbooks
+
+⸻⸻⸻⸻⸻
+
+### Task 6 Lab Work Incident Response
+
+**Scenario:** In this task, you will initiate an incident by downloading an attachment from a phishing email. The attachment is malware. Once you download the file, an incident begins. You will now start investigating the incident. The first phase is to see how many hosts are infected with this same file, as there are many chances that a single phishing campaign targets multiple employees within the same organization. You will see some hosts on which this file was executed after getting downloaded and some hosts on which this file was only downloaded. You will perform the necessary actions on all these hosts and see a detailed timeline of events in the infected host.
+
+You will perform a complete incident response after a phishing email hits multiple hosts in a network. You have to follow the steps given in the site and answer the questions below:
+
+**Answer the questions below**⸻⸻⸻⸻⸻
+
+What was the name of the malicious email sender?
+**Answer:** Jeff Johnson
+
+What was the threat vector?
+**Answer:** Email Attachment
+
+How many devices downloaded the email attachment?
+**Answer:** 3
+
+How many devices executed the file?
+**Answer:** 1
+
+What is the flag found at the end of the exercise? 
+**Answer:** THM{My_First_Incident_Response}
 `
 }
