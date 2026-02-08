@@ -150,6 +150,8 @@ import socFundamentals from './blogs/soc-fundamentals.js';
 import digitalForensicsFundamentals from './blogs/digital-forensics-fundamentals.js';
 import incidentResponseFundamentals from './blogs/incident-response-fundamentals.js';
 import logsFundamentals from './blogs/logs-fundamentals.js';
+import introductionToSIEM from './blogs/introduction-to-siem.js';
+
 
 
 /* TryHackMe Challenges */
@@ -189,6 +191,7 @@ export const blogPosts = [
     digitalForensicsFundamentals,
     incidentResponseFundamentals,
     logsFundamentals,
+    //introductionToSIEM,
 
     /* TryHackMe Challenges */
     theGameChallenge,
