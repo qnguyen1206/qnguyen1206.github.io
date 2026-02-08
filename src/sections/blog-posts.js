@@ -149,7 +149,7 @@ import sqlmapTheBasics from './blogs/sqlmap-the-basics.js';
 import socFundamentals from './blogs/soc-fundamentals.js';
 import digitalForensicsFundamentals from './blogs/digital-forensics-fundamentals.js';
 import incidentResponseFundamentals from './blogs/incident-response-fundamentals.js';
-
+import logsFundamentals from './blogs/logs-fundamentals.js';
 
 
 /* TryHackMe Challenges */
@@ -188,6 +188,7 @@ export const blogPosts = [
     socFundamentals,
     digitalForensicsFundamentals,
     incidentResponseFundamentals,
+    logsFundamentals,
 
     /* TryHackMe Challenges */
     theGameChallenge,

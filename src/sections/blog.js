@@ -594,6 +594,17 @@ export function initBlog() {
         background: rgba(139, 92, 246, 0.1);
       }
 
+      /* Lists inside table cells */
+      .table-list {
+        margin: 0;
+        padding-left: var(--space-4);
+        text-align: left;
+      }
+
+      .table-list li {
+        margin: var(--space-1) 0;
+      }
+
       /* Solution tabs styles */
       .solution-tabs {
         margin: var(--space-4) 0;
@@ -877,7 +888,39 @@ export function initBlog() {
       
       // Helper to process cell content (inline code placeholders + formatting)
       const processCell = (cell) => {
-        let processed = cell.trim()
+        let processed = cell.trim();
+        
+        // Check for list syntax: items separated by semicolons with - or number prefix
+        // Unordered list: "- item1; - item2; - item3"
+        // Ordered list: "1. item1; 2. item2; 3. item3"
+        const unorderedListMatch = processed.match(/^-\s+.+?(;\s*-\s+.+)+$/);
+        const orderedListMatch = processed.match(/^\d+\.\s+.+?(;\s*\d+\.\s+.+)+$/);
+        
+        if (unorderedListMatch) {
+          // Parse unordered list
+          const items = processed.split(/;\s*/).map(item => {
+            const text = item.replace(/^-\s+/, '').trim();
+            return processInlineFormatting(text);
+          });
+          return '<ul class="table-list">' + items.map(i => `<li>${i}</li>`).join('') + '</ul>';
+        }
+        
+        if (orderedListMatch) {
+          // Parse ordered list
+          const items = processed.split(/;\s*/).map(item => {
+            const text = item.replace(/^\d+\.\s+/, '').trim();
+            return processInlineFormatting(text);
+          });
+          return '<ol class="table-list">' + items.map(i => `<li>${i}</li>`).join('') + '</ol>';
+        }
+        
+        // Regular cell - apply inline formatting
+        return processInlineFormatting(processed);
+      };
+      
+      // Helper for inline formatting (used by both regular cells and list items)
+      const processInlineFormatting = (text) => {
+        return text
           // Inline [tab] markers and actual tab characters
           .replace(/\[tab\]/gi, '&emsp;&emsp;')
           .replace(/\t/g, '&emsp;&emsp;')
@@ -891,7 +934,6 @@ export function initBlog() {
           .replace(/\*\*([\s\S]+?)\*\*/g, '<strong>$1</strong>')
           // Italics
           .replace(/\*([^*]+)\*/g, '<em>$1</em>');
-        return processed;
       };
       
       // First line is header
