@@ -114,7 +114,21 @@ export function initProjects() {
       duration: '3 months (September 2025 - December 2025)',
       githubLink: 'https://github.com/qnguyen1206/cs4803',
       externalLink: 'https://cs4803-eight.vercel.app/',
-      images: []
+      images: [],
+      writeup: `
+## Co-Founder
+- Initiated the project idea
+- Conducted market research to validate the idea.
+
+## Developer
+- Implemented user authentication and authorization using JSON Web Tokens (JWT).
+- Implemented video upload and storage using Cloudinary.
+- Implemented video analysis using YOLO object detection model.
+
+## Designer
+- Designed and implemented the app's UI/UX.
+- Created the app's logo and branding.
+`
     },
     {
       id: 'window-washing-game',
