@@ -151,6 +151,7 @@ import digitalForensicsFundamentals from './blogs/digital-forensics-fundamentals
 import incidentResponseFundamentals from './blogs/incident-response-fundamentals.js';
 import logsFundamentals from './blogs/logs-fundamentals.js';
 import introductionToSIEM from './blogs/introduction-to-siem.js';
+import firewallFundamentals from './blogs/firewall-fundamentals.js';
 
 
 
@@ -191,7 +192,8 @@ export const blogPosts = [
     digitalForensicsFundamentals,
     incidentResponseFundamentals,
     logsFundamentals,
-    //introductionToSIEM,
+    introductionToSIEM,
+    //firewallFundamentals,
 
     /* TryHackMe Challenges */
     theGameChallenge,

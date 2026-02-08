@@ -119,7 +119,127 @@ In the next task, we will discuss different log sources by examining their logs 
 
 ### Task 4 Log Sources and Ingestion
 
+**Log Sources**
+Every device in the network generates some kind of log whenever an activity is performed on it, such as a user visiting a website, connecting to SSH, logging into their workstation, etc. Let's see what the logs of some common devices that are found in a network environment look like.
 
+**Windows Machine**
+Windows records every event that can be viewed through the Event Viewer. It assigns a unique ID to each type of log activity, making it easy for the analyst to examine and keep track of. To view events in a Windows environment, type \`Event Viewer\` in the search bar. This takes you to the tool where different logs are stored and can be viewed, as shown below. These logs from all Windows endpoints are forwarded to the SIEM solution for monitoring and better visibility.
 
+**Linux Machine**
+Linux OS stores all the related logs, such as events, errors, warnings, etc. These are then ingested into SIEM for continuous monitoring. Some of the common locations where Linux stores logs are:
+    - \`/var/log/httpd\`: Contains HTTP Request  / Response and error logs.
+    - \`/var/log/cron\`: Events related to cron jobs are stored in this location.
+    - \`/var/log/auth.log\` and \`/var/log/secure\`: Stores authentication-related logs.
+    - \`/var/log/kern\`: This file stores kernel-related events.
+
+Here is a sample of a cron log:
+\`\`\`
+May 28 13:04:20 ebr crond[2843]: /usr/sbin/crond 4.4 dillon's cron daemon, started with loglevel notice
+May 28 13:04:20 ebr crond[2843]: no timestamp found (user root job sys-hourly)
+May 28 13:04:20 ebr crond[2843]: no timestamp found (user root job sys-daily) 
+May 28 13:04:20 ebr crond[2843]: no timestamp found (user root job sys-weekly) 
+May 28 13:04:20 ebr crond[2843]: no timestamp found (user root job sys-monthly
+Jun 13 07:46:22 ebr crond[3592]: unable to exec /usr/sbin/sendmail: cron output for user root job sys-daily to /dev/null
+\`\`\`
+
+**Web Server**
+It is important to monitor all requests/responses coming in and out of the web server for any potential web attack attempt. In Linux, common locations to write all apache-related logs are \`/var/log/apache\` or \`/var/log/httpd\`.
+
+Here is an example of Apache Logs:
+\`\`\`
+192.168.21.200 - - [21/March/2022:10:17:10 -0300] "GET /cgi-bin/try/ HTTP/1.0" 200 3395 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+127.0.0.1 - - [21/March/2022:10:22:04 -0300] "GET / HTTP/1.0" 200 2216 "-" "curl/7.68.0"
+\`\`\`
+
+**Log Ingestion**
+All these logs provide a wealth of information and can help identify security issues. Each SIEM solution has its own way of ingesting the logs. Some common methods used by these SIEM solutions are explained below:
+1. **Agent / Forwarder**
+    These SIEM solutions provide a lightweight tool called an agent (forwarder by Splunk) that gets installed on the Endpoint. It is configured to capture and send all the important logs to the SIEM server.
+2. **Syslog**
+    Syslog is a widely used protocol to collect data from various systems like web servers, databases, etc., and send real-time data to the centralized destination.
+3. **Manual Upload**
+    Some SIEM solutions, like Splunk, ELK, etc., allow users to ingest offline data for quick analysis. Once the data is ingested, it is normalized and made available for analysis.
+4. **Port-Forwarding**
+    SIEM solutions can also be configured to listen on a certain port, and then the endpoints forward the data to the SIEM instance on the listening port.
+
+An example of how Splunk provides various methods for log Ingestion is shown below:
+<img src="/blogs/tryhackme/introduction-to-siem/82d3a3a56537be4635c58cc10caee050.png">
+
+**Answer the questions below**⸻⸻⸻⸻⸻
+
+In which location within a Linux environment are HTTP logs stored?
+**Answer:** /var/log/httpd
+
+⸻⸻⸻⸻⸻
+
+### Task 5 Alerting Process and Analysis
+
+**Behind the Triggered Alerts**
+We learned that a SIEM solution detects threats by correlating logs from the log sources and triggers alerts, but do we know the magic behind these detections?
+
+SIEM solution has detection rules that catch threats. These rules play an important role in the timely detection of threats, allowing analysts to take action on time. Detection rules are pretty much logical expressions set to be triggered. A few examples of detection rules are:
+    - If a user gets five failed Login Attempts in 10 seconds, raise an alert for \`Multiple Failed Login Attempts\`.
+    - If login is successful after multiple failed login attempts, raise an alert for \`Successful Login After multiple Login Attempts\`.
+    - A rule is set to alert every time a user plugs in a USB (Useful if USB is restricted as per the company policy).
+    - If outbound traffic is > 25 MB, raise an alert to potential data exfiltration Attempt (Usually, it depends on the company policy).
+
+**How is a detection rule created?**
+To explain how the rule works, consider the following Eventlog use cases:
+**Use-Case 1:**
+Adversaries tend to remove the logs during the post-exploitation phase to remove their tracks. A unique Event ID **104** is logged every time a user tries to remove or clear event logs. To create a rule based on this activity, we can set the condition as follows:
+**Rule:** If the Log source is WinEventLog **AND** EventID is **104** - Trigger an alert \`Event Log Cleared\`.
+
+**Use-Case 2:**
+Adversaries use commands like **whoami** after the exploitation/privilege escalation phase. The following Fields will be helpful to include in the rule.
+    - **Log source:** Identify the log source capturing the event logs.
+    - **Event ID:** Which Event ID is associated with Process Execution activity? In this case, Event ID **4688** will be helpful.
+    - **NewProcessName:** Which process name will be helpful to include in the rule?
+**Rule:** If Log Source is WinEventLog **AND** EventCode is **4688**, and NewProcessName contains **whoami**, then Trigger an ALERT \`WHOAMI command Execution DETECTED\`.
+
+In the previous task, the importance of field-value pairs was discussed. Detection rules keep an eye on the values of certain fields to get triggered. That is the reason why it is important to have normalized logs ingested.
+
+**Alert Investigation**
+When monitoring SIEM, analysts spend most of their time on dashboards, as they display various key details about the network in a very summarized way. Once an alert is triggered, the events/flows associated with the alert are examined, and the rule is checked to see which conditions are met. Based on the investigation, the analyst determines if it's a True or False positive. Some of the actions that are performed after the analysis are:
+    - Alert is a False Positive. It may require tuning the rule to avoid similar False positives from occurring again.
+    - Alert is a True Positive. Perform further investigation.
+    - Contact the asset owner to inquire about the activity.
+    - Suspicious activity is confirmed. Isolate the infected host.
+    - Block the suspicious IP.
+
+**Answer the questions below**⸻⸻⸻⸻⸻
+
+Which Event ID is generated when event logs are removed?
+**Answer:** 104
+
+What type of alert may require tuning?
+**Answer:** False Positive
+
+⸻⸻⸻⸻⸻
+
+### Task 6 Lab Work
+
+In the static lab attached, a sample dashboard and events are displayed. When a suspicious activity happens, an Alert is triggered, which means some events match the condition of some rule already configured. Complete the lab and answer the following questions.
+
+**Answer the questions below**⸻⸻⸻⸻⸻
+
+After clicking on the Start Suspicious Activity button, which process caused the alert?
+**Answer:** cudominer.exe
+
+Find the event that caused the alert and identify the user responsible for the process execution.
+**Answer:** chris
+
+What is the hostname of the suspect user?
+**Answer:** HR_02
+
+Examine the rule and the suspicious process; which term matched the rule that caused the alert?
+**Answer:** miner
+
+Which option best represents the event? Choose from the following:
+\- False Positive
+\- True Positive
+**Answer:** True Positive
+
+Selecting the right ACTION will display the FLAG. What is the FLAG?
+**Answer:** THM{000_SIEM_INTRO}
 `
 }
