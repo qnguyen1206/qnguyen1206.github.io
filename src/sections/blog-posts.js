@@ -193,7 +193,7 @@ export const blogPosts = [
     incidentResponseFundamentals,
     logsFundamentals,
     introductionToSIEM,
-    //firewallFundamentals,
+    firewallFundamentals,
 
     /* TryHackMe Challenges */
     theGameChallenge,
