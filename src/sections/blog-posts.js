@@ -153,7 +153,7 @@ import logsFundamentals from './blogs/logs-fundamentals.js';
 import introductionToSIEM from './blogs/introduction-to-siem.js';
 import firewallFundamentals from './blogs/firewall-fundamentals.js';
 import idsFundamentals from './blogs/ids-fundamentals.js';
-
+import vulnerabilityScannerOverview from './blogs/vulnerability-scanner-overview.js';
 
 
 /* TryHackMe Challenges */
@@ -196,6 +196,7 @@ export const blogPosts = [
     introductionToSIEM,
     firewallFundamentals,
     idsFundamentals,
+    vulnerabilityScannerOverview,
 
     /* TryHackMe Challenges */
     theGameChallenge,
