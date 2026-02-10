@@ -163,7 +163,10 @@ export function initProjects() {
         { src: 'images/todoapp/todo-app-screenshot3.png', alt: 'TO DO App Screenshot 3' },
         { src: 'images/todoapp/todo-app-screenshot4.png', alt: 'TO DO App Screenshot 4' },
         { src: 'images/todoapp/todo-app-screenshot5.png', alt: 'TO DO App Screenshot 5' },
-      ]
+      ], 
+      writeup: `
+For more information, please visit the writeup page.
+`
     },
     {
       id: 'rock-open-game',
