@@ -165,6 +165,9 @@ import meow from './blogs/meow.js';
 /* Tools */
 import portScannerTool from './blogs/port-scanner-tool.js';
 
+/* Games */
+import windowWashingGameMDM from './blogs/window-washing-game-mdm.js';
+
 export const blogPosts = [
     /* LeetCode */
     shuffleTheArray,
@@ -207,5 +210,8 @@ export const blogPosts = [
 
     /* Tools */
     portScannerTool,
+
+    /* Games */
+    windowWashingGameMDM,
     
 ];

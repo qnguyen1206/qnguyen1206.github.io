@@ -144,6 +144,34 @@ At which step would you determine, "What do I want to accomplish?"
 We want you to be as prepared as possible. Therefore, we will explore some of this task's most commonly used operation categories. Recognizing which category to utilize can enhance your ability to use the tool more efficiently and effectively.
 
 **Extractors**
+The specific operations mentioned in the table below fall under the **Extractors** category.
+[table]
+Specific | Description
+Extract IP addresses | Extracts all IPv4 and IPv6 addresses.
+Extract URLs | Extracts Uniform Resource Locators (URLs) from the input. The protocol (HTTP, FTP, etc.) is required, otherwise there will be far too many false positives.
+Extract email addresses | Extracts all email addresses from the input.
+[/table]
+
+The \`Extract IP addresses\` will extract any valid IPv4/6 address from any given input. We recommend checking our existing room for a quick recap of networking: Networking Concepts.
+
+The \`Extract email addresses\` extracts any strings and characters with this format, anything@domain[.]com. Examples of domains include **hotmail.com**, **google.com**, **tryhackme.com**, and **yahoo.com**.
+
+\`Extract URLs\` extracts Uniform Resource Locator, commonly known as URL. , a URL is the address used to access resources on the internet. You can check the Web Applications Basics room if you would like to dig deeper into URLs and web applications.
+
+**Date and Time**
+The specific operations in the table below fall under the **Date / Time** category.
+[table]
+Specific | Description
+From UNIX Timestamp | Converts a UNIX timestamp to a datetime string.
+To UNIX Timestamp | Parses a datetime string in UTC and returns the corresponding UNIX timestamp.
+[/table]
+
+A UNIX timestamp is a 32-bit value representing the number of seconds since January 1, 1970 UTC (the UNIX epoch). To convert "**Fri Sep 6 20:30:22 +04 2024**" into a UNIX Timestamp, use the operations \`To UNIX Timestamp\`, where the result would be \`1725654622\`. If you wish to convert it back to a more readable format, you can use \`From UNIX Timestamp\`.
+
+
+
+
+
 
 
 

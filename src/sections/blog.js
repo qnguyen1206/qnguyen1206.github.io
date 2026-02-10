@@ -5,7 +5,7 @@ import { blogPosts } from './blog-posts.js';
 export function initBlog() {
   const blog = document.getElementById('blog');
   if (!blog) return;
-  const categories = ['All', 'LeetCode', 'TryHackMe', 'HackTheBox' , 'Tools'];
+  const categories = ['All', 'LeetCode', 'TryHackMe', 'HackTheBox' , 'Tools', 'Games'];
   const difficulties = ['All', 'Easy', 'Medium', 'Hard', 'Challenge', 'Extreme'];
   const POSTS_PER_PAGE = 9;
   
@@ -289,6 +289,11 @@ export function initBlog() {
       .blog-category.tools {
         background: rgba(172, 172, 172, 0.2);
         color: #c6c6c6;
+      }
+
+      .blog-category.games {
+        background: rgba(153, 141, 35, 0.2);
+        color: #e7ff30;
       }
 
       .blog-difficulty {
