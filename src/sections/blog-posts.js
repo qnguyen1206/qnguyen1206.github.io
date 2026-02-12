@@ -155,6 +155,7 @@ import firewallFundamentals from './blogs/firewall-fundamentals.js';
 import idsFundamentals from './blogs/ids-fundamentals.js';
 import vulnerabilityScannerOverview from './blogs/vulnerability-scanner-overview.js';
 import cyberchefTheBasics from './blogs/cyberchef-the-basics.js';
+import capaTheBasics from './blogs/capa-the-basics.js';
 
 /* TryHackMe Challenges */
 import theGameChallenge from './blogs/the-game-challenge.js';
@@ -164,9 +165,11 @@ import meow from './blogs/meow.js';
 
 /* Tools */
 import portScannerTool from './blogs/port-scanner-tool.js';
+import todoApp from './blogs/todo-app.js';
 
 /* Games */
 import windowWashingGameMDM from './blogs/window-washing-game-mdm.js';
+import mythicalHuntMDM from './blogs/mythical-hunt-mdm.js';
 
 export const blogPosts = [
     /* LeetCode */
@@ -201,6 +204,7 @@ export const blogPosts = [
     idsFundamentals,
     vulnerabilityScannerOverview,
     cyberchefTheBasics,
+    capaTheBasics,
 
     /* TryHackMe Challenges */
     theGameChallenge,
@@ -210,6 +214,7 @@ export const blogPosts = [
 
     /* Tools */
     portScannerTool,
+    todoApp,
 
     /* Games */
     windowWashingGameMDM,

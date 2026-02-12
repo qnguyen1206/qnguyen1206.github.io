@@ -1342,6 +1342,32 @@ export function initBlog() {
   // Initial attachment of pagination listeners
   attachPaginationListeners();
 
+  // Expose function to open blog post from anywhere (e.g., projects section)
+  window.openBlogPost = function(postId) {
+    const post = postsMap[postId];
+    if (post) {
+      modalTitle.textContent = post.title;
+      modalCategory.textContent = post.category;
+      modalCategory.className = `blog-category ${post.category.toLowerCase()}`;
+      modalDifficulty.innerHTML = `<span class="difficulty-stars">${getDifficultyStars(post.difficulty)}</span> ${post.difficulty}`;
+      modalDifficulty.className = `blog-difficulty ${post.difficulty.toLowerCase()}`;
+      modalTags.innerHTML = post.tags.map(tag => `<span class="blog-tag">${tag}</span>`).join('');
+      modalBody.innerHTML = parseMarkdown(post.content);
+      
+      // Apply syntax highlighting to all code blocks
+      modalBody.querySelectorAll('pre code').forEach((block) => {
+        hljs.highlightElement(block);
+      });
+      
+      modal.classList.add('active');
+      modal.scrollTop = 0;
+      modalContent.scrollTop = 0;
+      modalBody.scrollTop = 0;
+      document.documentElement.style.overflow = 'hidden';
+      document.body.style.overflow = 'hidden';
+    }
+  };
+
   // Close modal
   modalClose.addEventListener('click', () => {
     modal.classList.remove('active');
