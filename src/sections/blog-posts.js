@@ -156,6 +156,7 @@ import idsFundamentals from './blogs/ids-fundamentals.js';
 import vulnerabilityScannerOverview from './blogs/vulnerability-scanner-overview.js';
 import cyberchefTheBasics from './blogs/cyberchef-the-basics.js';
 import capaTheBasics from './blogs/capa-the-basics.js';
+import remnuxGettingStarted from './blogs/remnux-getting-started.js';
 
 /* TryHackMe Challenges */
 import theGameChallenge from './blogs/the-game-challenge.js';
@@ -205,6 +206,7 @@ export const blogPosts = [
     vulnerabilityScannerOverview,
     cyberchefTheBasics,
     capaTheBasics,
+    remnuxGettingStarted,
 
     /* TryHackMe Challenges */
     theGameChallenge,

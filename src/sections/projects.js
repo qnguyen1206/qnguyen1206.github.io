@@ -80,9 +80,10 @@ export function initProjects() {
       ],
       writeup: `
 ## Lead Programmer
-- Design and implemented P2P multiplayer system including lobby, in-game chat, and score board using Steamworks' API and GodotSteam built-in functions.
+- Design and implemented P2P multiplayer system including lobby, in-game chat, and leaderboard using Steamworks' API and GodotSteam built-in functions.
 - Programmed gameplay logic, karts physics and ability system.
 - Design and implemented persistent save system using custom scripts.
+- Reviewed and solved merge conflicts using GitHub desktop.
 
 ## Gameplay Designer
 - Designed and balanced abilities for each kart.
@@ -92,6 +93,7 @@ export function initProjects() {
 - Designed and implemented settings menu, pause menu, and in-game UI.
 - Established UI typography, layout and visual consistency across the game.
 - Designed and implemented start screen, lobby screen, and end screen UI.
+- Enhanced user experience by adding particles effects.
 
 ## Artist
 - Created game arts including karts abilities icons, tabs icons and buttons UI.
