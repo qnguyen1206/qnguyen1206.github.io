@@ -157,6 +157,7 @@ import vulnerabilityScannerOverview from './blogs/vulnerability-scanner-overview
 import cyberchefTheBasics from './blogs/cyberchef-the-basics.js';
 import capaTheBasics from './blogs/capa-the-basics.js';
 import remnuxGettingStarted from './blogs/remnux-getting-started.js';
+import flarevmArsenalOfTools from './blogs/flarevm-arsenal-of-tools.js';
 
 /* TryHackMe Challenges */
 import theGameChallenge from './blogs/the-game-challenge.js';
@@ -207,6 +208,7 @@ export const blogPosts = [
     cyberchefTheBasics,
     capaTheBasics,
     remnuxGettingStarted,
+    flarevmArsenalOfTools,
 
     /* TryHackMe Challenges */
     theGameChallenge,
