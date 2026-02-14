@@ -145,7 +145,18 @@ export function initProjects() {
       duration: '',
       githubLink: '',
       externalLink: '',
-      images: []
+      images: [],
+      writeup: `
+## Programmer
+- Implemented game's mechanics and logic.
+- Implemented game's online multiplayer using PurrNet.
+
+## System Designer
+- Designed game's system architecture.
+- Designed game's data model.
+
+For MDM, please visit the <a href="javascript:void(0)" onclick="window.openBlogPost('window-washing-game-mdm')" style="color: var(--primary); text-decoration: underline; cursor: pointer;">writeup page</a>.
+`
     },
     {
       id: 'todo-app',
