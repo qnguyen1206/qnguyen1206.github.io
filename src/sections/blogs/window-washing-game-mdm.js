@@ -32,6 +32,25 @@ Brain dmg 🤦
     - Oh also ran into a problem where the player controller is clashing with each other so I have to turn off the generate c# script for it. Idk where the script is coming from so… 🤷
     - Push to GitHub after fixing all the errors and able to make the two players connect 🥹🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳
 
+**Feb. 10th, 2026**
+    - Ummm...forgot to actual push to GitHub, fix it thou 😅, everything is good.
+
+**Feb. 16th, 2026**
+    - Pull from GitHub to make sure everything is up-to-date with the team.
+    - Start creating a lobby scene to make sure the multiplayer system can work across the internet (hopefully without leaking other people's IP address).
+
+**Feb. 17th, 2026**
+    - Start working on the lobby system logistics including create lobby and join lobby.
+    - Have to use ChatGPT and Google to help with syntax, fixing bugs and improving some coding habits such as singleton and fall back errors.
+    - Able to get the IP address and correctly place them inside the Network Manager Component to allow the player to host a lobby.
+    - Need help from ChatGPT to find and fix some errors along the way including some missing references, missing objects assignment and syntax errors. 🫠
+    - Push to Git
+
+**Feb. 18th, 2026**
+    - Add a custom script for the namespace in PurrNet to allow you to add and remove spawn points through script instead of drag and drop.
+    - Follow this tutorial <a href="https://www.youtube.com/watch?v=fIBAlOJxqtg&list=PLF6lFlLzb6CSO2MyOcUStQJ7YRuQmi58W&index=17">Unity Easy Lobby setup with Multiplayer (Steam, Unity Lobbies, Database) - PurrNet</a> to create a lobby and connect it to Steam.
+Kinda suck due to the difference between the tutorial and what actually is needed 😞😞😞😞😞😞😞😞😞😞😞
+
 
 `
 }
