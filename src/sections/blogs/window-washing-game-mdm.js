@@ -51,6 +51,11 @@ Brain dmg 🤦
     - Follow this tutorial <a href="https://www.youtube.com/watch?v=fIBAlOJxqtg&list=PLF6lFlLzb6CSO2MyOcUStQJ7YRuQmi58W&index=17">Unity Easy Lobby setup with Multiplayer (Steam, Unity Lobbies, Database) - PurrNet</a> to create a lobby and connect it to Steam.
 Kinda suck due to the difference between the tutorial and what actually is needed 😞😞😞😞😞😞😞😞😞😞😞
 
+**Feb. 20th, 2026**
+    - Implemented the create lobby and successfully spawn in the players through code.
+Took so dam long😫The one who created the plug in kinda cool but also kinda suck.
+    - Read through the dude code to make a custom script to allow passing through custom data that is needed for the game.
+
 
 `
 }
