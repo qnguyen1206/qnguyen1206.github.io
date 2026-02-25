@@ -4,6 +4,12 @@ const certificatesData = {
   ],
   nonProfessional: [
     {
+      title: "Cyber Security 101",
+      issuer: "TryHackMe",
+      date: "Feb 25, 2026",
+      link: "https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-9JHFBDC10O.pdf"
+    },
+    {
       title: "Pre Security",
       issuer: "TryHackMe", 
       date: "Jan 19, 2026",
