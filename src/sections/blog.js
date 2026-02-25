@@ -1344,6 +1344,11 @@ export function initBlog() {
 
   // Expose function to open blog post from anywhere (e.g., projects section)
   window.openBlogPost = function(postId) {
+    // Close project modal first if it's open
+    if (typeof window.closeProjectModal === 'function') {
+      window.closeProjectModal();
+    }
+    
     const post = postsMap[postId];
     if (post) {
       modalTitle.textContent = post.title;

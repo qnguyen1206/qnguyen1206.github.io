@@ -136,7 +136,7 @@ export function initProjects() {
       id: 'window-washing-game',
       title: 'Window Washing Game',
       category: 'Game Development',
-      image: '',
+      image: 'images/windowWashingIcon.png',
       description: 'A party co-op game where players work together to clean the windows.',
       tags: ['Unity', 'C#', 'GitHub', 'Figma', 'Trello'],
       status: 'in development',
@@ -736,6 +736,9 @@ For more information, please visit the <a href="javascript:void(0)" onclick="win
     modal.classList.remove('active');
     document.body.style.overflow = '';
   }
+
+  // Expose closeModal on window so blog links can close project modal first
+  window.closeProjectModal = closeModal;
 
   closeModalBtn.addEventListener('click', closeModal);
 
