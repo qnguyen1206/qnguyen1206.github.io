@@ -56,6 +56,21 @@ Kinda suck due to the difference between the tutorial and what actually is neede
 Took so dam long😫The one who created the plug in kinda cool but also kinda suck.
     - Read through the dude code to make a custom script to allow passing through custom data that is needed for the game.
 
+**Feb. 23rd, 2026**
+    - Redo the lobby because the tutorial guy code is 10 scripts tangled with each other, impossible to untangle.
+
+**Feb. 24th, 2026**
+    - Test multiplayer with another group member, didn’t work out as expected.
+    - Was struggling to fix a bug where all the players are ready and the scene doesn’t change
+    - Use Claude Opus 4.5 to read through the code base including PurrLobby and PurrNet to allow the AI to understand the backend code.
+    - It fixed the problem after it figured out there is a timing mismatch due to the asynchronous nature of the game and possibly there is an instance mismatch where the script running the multiplayer was getting the wrong instance lobby object to listen on.
+Have to revise the guy tutorial code with AI 5 times to fully understand this guy code with the AI and due to him not having a tutorial on this, in other words, have to work with AI to figure out how to properly use his code. Absolute mess but it works so pretty happy about it. 😁
+
+
+
+
+
+
 
 `
 }

@@ -160,6 +160,7 @@ import remnuxGettingStarted from './blogs/remnux-getting-started.js';
 import flarevmArsenalOfTools from './blogs/flarevm-arsenal-of-tools.js';
 import fileInclusion from './file-inclusion.js';
 import raceConditions from './blogs/race-conditions.js';
+import sqlInjection from './blogs/sql-injection.js';
 
 /* TryHackMe Challenges */
 import theGameChallenge from './blogs/the-game-challenge.js';
@@ -213,6 +214,7 @@ export const blogPosts = [
     flarevmArsenalOfTools,
     fileInclusion,
     raceConditions,
+    sqlInjection,
 
     /* TryHackMe Challenges */
     theGameChallenge,
