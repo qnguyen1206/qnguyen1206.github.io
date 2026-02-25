@@ -12,62 +12,74 @@ This is an MDM for the game called Window Washing Game. Since the game is still 
 ⸻⸻⸻⸻⸻
 
 **Jan. 30th, 2026**
-    - Create game concepts including basic mechanics and maps layout
+- Create game concepts including basic mechanics and map layout.
 
 **Jan. 31st, 2026**
-    - Create the basic online multiplayer using PurrNet by following the tutorial: <a href="https://www.youtube.com/watch?v=Fj2DeO31oF4">The Only Multiplayer Tutorial You’ll Need (Unity 2026)</a>
+- Create the basic online multiplayer using PurrNet by following the tutorial: <a href="https://www.youtube.com/watch?v=Fj2DeO31oF4">The Only Multiplayer Tutorial You’ll Need (Unity 2026)</a>.
 
 **Feb. 6th, 2026**
-    - Separate tasks between the members using Trello
-    - Find inspirations for the music
-    - Create due date and goals for February
+- Separate tasks between the members using Trello.
+- Find inspirations for the music.
+- Create due dates and goals for February.
 
 **Feb. 9th, 2026**
-    - Continuing the online multiplayer using the same tutorial was not helpful at all, appreciate the dev but the instructions are so bad I rather read the docs.
-    - Use ChatGPT to help fix syntax 😑(actually forgot c# syntax)
-    - Read the docs from <a href="https://purrnet.gitbook.io/docs">Introduction | PurrNet</a> and follow this tutorial <a href="https://www.youtube.com/watch?v=CGPwjSfuvv8&list=PLF6lFlLzb6CSO2MyOcUStQJ7YRuQmi58W&index=3">Easiest Unity Multiplayer Setup in 5 Minutes! (PurrNet)</a> for more information in order to make player spawn and despawn
-Tired af 😮‍💨
-    - Ran into some random errors where I use the wrong toggle such that the movement script is enabled for other players instead of your own player. 😂
-Brain dmg 🤦
-    - Oh also ran into a problem where the player controller is clashing with each other so I have to turn off the generate c# script for it. Idk where the script is coming from so… 🤷
-    - Push to GitHub after fixing all the errors and able to make the two players connect 🥹🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳
+- Continuing the online multiplayer using the same tutorial was not helpful at all, appreciate the dev but the instructions are so bad I rather read the docs.
+- Use ChatGPT to help fix syntax 😑(actually forgot c# syntax).
+- Read the docs from <a href="https://purrnet.gitbook.io/docs">Introduction | PurrNet</a> and follow this tutorial <a href="https://www.youtube.com/watch?v=CGPwjSfuvv8&list=PLF6lFlLzb6CSO2MyOcUStQJ7YRuQmi58W&index=3">Easiest Unity Multiplayer Setup in 5 Minutes! (PurrNet)</a> for more information in order to make players spawn and despawn.
+So tired 😮‍💨
+- Ran into some random errors where I use the wrong toggle such that the movement script is enabled for other players instead of your own player. 😂
+Whoopsie🤦
+- Oh also ran into a problem where the player controller is clashing with each other so I have to turn off the generate c# script for it. Idk where the script is coming from so… 🤷
+- Push to GitHub after fixing all the errors and being able to make the two players connect. 🥹🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳
 
 **Feb. 10th, 2026**
-    - Ummm...forgot to actual push to GitHub, fix it thou 😅, everything is good.
+- Ummm...forgot to actual push to GitHub, fix it thou 😅, everything is good.
 
 **Feb. 16th, 2026**
-    - Pull from GitHub to make sure everything is up-to-date with the team.
-    - Start creating a lobby scene to make sure the multiplayer system can work across the internet (hopefully without leaking other people's IP address).
+- Pull from GitHub to make sure everything is up-to-date with the team.
+- Start creating a lobby scene to make sure the multiplayer system can work across the internet (hopefully without leaking other people's IP address).
 
 **Feb. 17th, 2026**
-    - Start working on the lobby system logistics including create lobby and join lobby.
-    - Have to use ChatGPT and Google to help with syntax, fixing bugs and improving some coding habits such as singleton and fall back errors.
-    - Able to get the IP address and correctly place them inside the Network Manager Component to allow the player to host a lobby.
-    - Need help from ChatGPT to find and fix some errors along the way including some missing references, missing objects assignment and syntax errors. 🫠
-    - Push to Git
+- Start working on the lobby system logistics including create lobby and join lobby.
+- Have to use ChatGPT and Google to help with syntax, fixing bugs and improving some coding habits such as singleton and fall back errors.
+- Able to get the IP address and correctly place them inside the Network Manager Component to allow the player to host a lobby.
+- Need help from ChatGPT to find and fix some errors along the way including some missing references, missing objects assignment and syntax errors. 🫠
+- Push to Git
 
 **Feb. 18th, 2026**
-    - Add a custom script for the namespace in PurrNet to allow you to add and remove spawn points through script instead of drag and drop.
-    - Follow this tutorial <a href="https://www.youtube.com/watch?v=fIBAlOJxqtg&list=PLF6lFlLzb6CSO2MyOcUStQJ7YRuQmi58W&index=17">Unity Easy Lobby setup with Multiplayer (Steam, Unity Lobbies, Database) - PurrNet</a> to create a lobby and connect it to Steam.
-Kinda suck due to the difference between the tutorial and what actually is needed 😞😞😞😞😞😞😞😞😞😞😞
+- Add a custom script for the namespace in PurrNet to allow you to add and remove spawn points through script instead of drag and drop.
+- Follow this tutorial <a href="https://www.youtube.com/watch?v=fIBAlOJxqtg&list=PLF6lFlLzb6CSO2MyOcUStQJ7YRuQmi58W&index=17">Unity Easy Lobby setup with Multiplayer (Steam, Unity Lobbies, Database) - PurrNet</a> to create a lobby and connect it to Steam.
+Kinda bad due to the difference between the tutorial and what actually is needed 😞😞😞😞😞😞😞😞😞😞😞
 
 **Feb. 20th, 2026**
-    - Implemented the create lobby and successfully spawn in the players through code.
-Took so dam long😫The one who created the plug in kinda cool but also kinda suck.
-    - Read through the dude code to make a custom script to allow passing through custom data that is needed for the game.
+- Implemented the create lobby and successfully spawn in the players through code.
+Took sooooooo long😫The one who created the plug in kinda cool but also kinda bad at tutoring.
+- Read through the dude code to make a custom script to allow passing through custom data that is needed for the game.
 
 **Feb. 23rd, 2026**
-    - Redo the lobby because the tutorial guy code is 10 scripts tangled with each other, impossible to untangle.
+- Redo the lobby because the tutorial guy code is 10 scripts tangled with each other, impossible to untangle.
 
 **Feb. 24th, 2026**
-    - Test multiplayer with another group member, didn’t work out as expected.
-    - Was struggling to fix a bug where all the players are ready and the scene doesn’t change
-    - Use Claude Opus 4.5 to read through the code base including PurrLobby and PurrNet to allow the AI to understand the backend code.
-    - It fixed the problem after it figured out there is a timing mismatch due to the asynchronous nature of the game and possibly there is an instance mismatch where the script running the multiplayer was getting the wrong instance lobby object to listen on.
+- Test multiplayer with another group member, didn’t work out as expected.
+- Was struggling to fix a bug where all the players are ready and the scene doesn’t change
+- Use Claude Opus 4.5 to read through the code base including PurrLobby and PurrNet to allow the AI to understand the backend code.
+- It fixed the problem after it figured out there is a timing mismatch due to the asynchronous nature of the game and possibly there is an instance mismatch where the script running the multiplayer was getting the wrong instance lobby object to listen on.
 Have to revise the guy tutorial code with AI 5 times to fully understand this guy code with the AI and due to him not having a tutorial on this, in other words, have to work with AI to figure out how to properly use his code. Absolute mess but it works so pretty happy about it. 😁
+- Test again and ran into another error with the player joining in as a client since apparently the players are already in the lobby when the game started and the code is calling the players to join again which causes conflicts.
+- And again, with the help from Claude, the problem is fixed but there is another problem which is scene synchronization.
+- Scene synchronization is addressed in the PurrLobby tutorial which can be found in YouTube: <a href="https://www.youtube.com/watch?v=2_15WJCEp7M&list=PLF6lFlLzb6CSO2MyOcUStQJ7YRuQmi58W&index=20">Networked Scene Management in Unity - PurrNet tutorial</a>.
+- Another problem pops up when there is only one player spawning into the scene. Apparently, one of the older code I had was conflicting with the tutorial code in which it only spawn locally. After back and forth between the AI and the tutorials, it still is not working.
+- Ran into firewall blockage
+- Ran into NAT loopback error
+- Finally figured out his code also has Steam Transport (aka Steamworks P2P) which instead of using your own server, it will go through Steam backend server and, it won’t have to deal with all the weird network error and jumping hoops of computer ports to make networking works due to security issues from both software (OS) and hardware (physical board) side of the computer.
+Still don’t know why it is not in any of the tutorials. Like dude if you make a lobby and scene changes through Steam maybe do one for the Steamworks P2P too??? Like hello???
+- Aahahahahahahahah, it works. A lot of issues had arrived during the development which mostly is the timing and synchronization issue but it is fixed thanks to Claude. 
+Will have to take time to take a look at the code and fully understand what it does but for now, it works. AHAHAHAHAHHAHAHAHAHAAH, it’s 1:11 AM exactly but that’s ok.
 
-
-
+**Feb. 25th, 2026**
+- Found out there is an error during the update presentation where the players’ lobby still exists even though the host had already left the lobby.
+- Also found out there is another error in the same event where the players are not able to connect to the host due to some unknown errors but expected to be related to the previous error.
+- Try to refactor the code to eliminate unnecessary code
 
 
 
