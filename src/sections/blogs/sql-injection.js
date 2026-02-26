@@ -340,32 +340,32 @@ You'll now see the article is just made up of the result from the UNION select, 
 
 \`0 UNION SELECT 1,2,database()\`
 
-You'll now see where the number 3 was previously displayed; it now shows the name of the database, which is **sqli_one**.
+You'll now see where the number 3 was previously displayed; it now shows the name of the database, which is **sqli\_one**.
 
 Our next query will gather a list of tables that are in this database.
 
-\`0 UNION SELECT 1,2,group_concat(table_name) FROM information_schema.tables WHERE table_schema = 'sqli_one'\`
+\`0 UNION SELECT 1,2,group\_concat(table\_name) FROM information\_schema.tables WHERE table\_schema = 'sqli\_one'\`
 
-There are a couple of new things to learn in this query. Firstly, the method **group_concat()** gets the specified column (in our case, table_name) from multiple returned rows and puts it into one string separated by commas. The next thing is the **information_schema database;** every user of the database has access to this, and it contains information about all the databases and tables the user has access to. In this particular query, we're interested in listing all the tables in the **sqli_one** database, which is article and staff_users. 
+There are a couple of new things to learn in this query. Firstly, the method **group\_concat()** gets the specified column (in our case, table\_name) from multiple returned rows and puts it into one string separated by commas. The next thing is the **information\_schema database;** every user of the database has access to this, and it contains information about all the databases and tables the user has access to. In this particular query, we're interested in listing all the tables in the **sqli\_one** database, which is article and staff\_users. 
 
-As the first level aims to discover Martin's password, the staff_users table is what interests us. We can utilise the information_schema database again to find the structure of this table using the below query.
+As the first level aims to discover Martin's password, the staff\_users table is what interests us. We can utilise the information\_schema database again to find the structure of this table using the below query.
 
-\`0 UNION SELECT 1,2,group_concat(column_name) FROM information_schema.columns WHERE table_name = 'staff_users'\`
+\`0 UNION SELECT 1,2,group\_concat(column\_name) FROM information\_schema.columns WHERE table\_name = 'staff\_users'\`
 
-This is similar to the previous SQL query. However, the information we want to retrieve has changed from table_name to **column_name**,  the table we are querying in the information_schema database has changed from tables to **columns**, and we're searching for any rows where the **table_name** column has a value of **staff_users**.
+This is similar to the previous SQL query. However, the information we want to retrieve has changed from table\_name to **column\_name**,  the table we are querying in the information\_schema database has changed from tables to **columns**, and we're searching for any rows where the **table\_name** column has a value of **staff\_users**.
 
-The query results provide three columns for the staff_users table: id, password, and username. We can use the username and password columns for our following query to retrieve the user's information.
+The query results provide three columns for the staff\_users table: id, password, and username. We can use the username and password columns for our following query to retrieve the user's information.
 
-\`0 UNION SELECT 1,2,group_concat(username,':',password SEPARATOR '<br>') FROM staff_users\`
+\`0 UNION SELECT 1,2,group\_concat(username,':',password SEPARATOR '<br>') FROM staff\_users\`
 
-Again, we use the group_concat method to return all of the rows into one string and make it easier to read. We've also added ,':', to split the username and password from each other. Instead of being separated by a comma, we've chosen the HTML **<br>** tag that forces each result to be on a separate line to make for easier reading.
+Again, we use the group\_concat method to return all of the rows into one string and make it easier to read. We've also added ,':', to split the username and password from each other. Instead of being separated by a comma, we've chosen the HTML **<br>** tag that forces each result to be on a separate line to make for easier reading.
 
 You should now have access to Martin's password to enter and move to the next level.
 
 **Answer the questions below**⸻⸻⸻⸻⸻
 
 What is the flag after completing level 1?
-**Answer:** THM{SQL_INJECTION_3840}
+**Answer:** THM{SQL\_INJECTION\_3840}
 
 ⸻⸻⸻⸻⸻
 
@@ -401,7 +401,7 @@ Because 1=1 is a true statement and we've used an **OR** operator, this will alw
 **Answer the questions below**⸻⸻⸻⸻⸻
 
 What is the flag after completing level two? (and moving to level 3)
-**Answer:** THM{SQL_INJECTION_9581}
+**Answer:** THM{SQL\_INJECTION\_9581}
 
 ⸻⸻⸻⸻⸻
 
@@ -437,29 +437,29 @@ Try the below username value and see what happens:
 
 \`admin123' UNION SELECT 1,2,3 where database() like '%';--\`
 
-We get a true response because, in the like operator, we just have the value of **%**, which will match anything as it's the wildcard value. If we change the wildcard operator to **a%**, you'll see the response goes back to false, which confirms that the database name does not begin with the letter **a**. We can cycle through all the letters, numbers and characters such as \- and \_ until we discover a match. If you send the below as the username value, you'll receive a **true** response  that confirms the database name begins with the letter **s**.
+We get a true response because, in the like operator, we just have the value of **%**, which will match anything as it's the wildcard value. If we change the wildcard operator to **a%**, you'll see the response goes back to false, which confirms that the database name does not begin with the letter **a**. We can cycle through all the letters, numbers and characters such as \- and \\_ until we discover a match. If you send the below as the username value, you'll receive a **true** response  that confirms the database name begins with the letter **s**.
 
 \`admin123' UNION SELECT 1,2,3 where database() like 's%';--\`
 
-Now you move on to the next character of the database name until you find another true response, for example, 'sa%', 'sb%', 'sc%', etc. Keep on with this process until you discover all the characters of the database name, which is **sqli_three**.
+Now you move on to the next character of the database name until you find another true response, for example, 'sa%', 'sb%', 'sc%', etc. Keep on with this process until you discover all the characters of the database name, which is **sqli\_three**.
 
-We've established the database name, which we can now use to enumerate table names using a similar method by utilising the information_schema database. Try setting the username to the following value:
+We've established the database name, which we can now use to enumerate table names using a similar method by utilising the information\_schema database. Try setting the username to the following value:
 
-\`admin123' UNION SELECT 1,2,3 FROM information_schema.tables WHERE table_schema = 'sqli_three' and table_name like 'a%';--\`
+\`admin123' UNION SELECT 1,2,3 FROM information\_schema.tables WHERE table\_schema = 'sqli\_three' and table\_name like 'a%';--\`
 
-This query looks for results in the **information_schema** database in the **tables** table where the database name matches **sqli_three**, and the table name begins with the letter **a**. As the above query results in a **false** response, we can confirm that there are no tables in the sqli_three database that begin with the letter a. Like previously, you'll need to cycle through letters, numbers and characters until you find a positive match.
+This query looks for results in the **information\_schema** database in the **tables** table where the database name matches **sqli\_three**, and the table name begins with the letter **a**. As the above query results in a **false** response, we can confirm that there are no tables in the sqli\_three database that begin with the letter a. Like previously, you'll need to cycle through letters, numbers and characters until you find a positive match.
 
-You'll finally end up discovering a table in the sqli_three database named users, which you can confirm by running the following username payload:
+You'll finally end up discovering a table in the sqli\_three database named users, which you can confirm by running the following username payload:
 
-\`admin123' UNION SELECT 1,2,3 FROM information_schema.tables WHERE table_schema = 'sqli_three' and table_name='users';--\`
+\`admin123' UNION SELECT 1,2,3 FROM information\_schema.tables WHERE table\_schema = 'sqli\_three' and table\_name='users';--\`
 
-Lastly, we now need to enumerate the column names in the **users** table so we can properly search it for login credentials. Again, we can use the information_schema database and the information we've already gained to query it for column names. Using the payload below, we search the **columns** table where the database is equal to sqli_three, the table name is users, and the column name begins with the letter a.
+Lastly, we now need to enumerate the column names in the **users** table so we can properly search it for login credentials. Again, we can use the information\_schema database and the information we've already gained to query it for column names. Using the payload below, we search the **columns** table where the database is equal to sqli\_three, the table name is users, and the column name begins with the letter a.
 
-\`admin123' UNION SELECT 1,2,3 FROM information_schema.COLUMNS WHERE TABLE_SCHEMA='sqli_three' and TABLE_NAME='users' and COLUMN_NAME like 'a%';\`
+\`admin123' UNION SELECT 1,2,3 FROM information\_schema.COLUMNS WHERE TABLE\_SCHEMA='sqli\_three' and TABLE\_NAME='users' and COLUMN\_NAME like 'a%';\`
 
 Again,  you'll need to cycle through letters, numbers and characters until you find a match. As you're looking for multiple results, you'll have to add this to your payload each time you find a new column name to avoid discovering the same one. For example, once you've found the column named **id**, you'll append that to your original payload (as seen below).
 
-\`admin123' UNION SELECT 1,2,3 FROM information_schema.COLUMNS WHERE TABLE_SCHEMA='sqli_three' and TABLE_NAME='users' and COLUMN_NAME like 'a%' and COLUMN_NAME !='id';\`
+\`admin123' UNION SELECT 1,2,3 FROM information\_schema.COLUMNS WHERE TABLE\_SCHEMA='sqli\_three' and TABLE\_NAME='users' and COLUMN\_NAME like 'a%' and COLUMN\_NAME !='id';\`
 
 Repeating this process three times will enable you to discover the columns' id, username and password. Which now you can use to query the **users** table for login credentials. First, you'll need to discover a valid username, which you can use the payload below:
 
@@ -476,7 +476,7 @@ You can now use the username and password you've enumerated through the blind SQ
 **Answer the questions below**⸻⸻⸻⸻⸻
 
 What is the flag after completing level three?
-**Answer:** THM{SQL_INJECTION_1093}
+**Answer:** THM{SQL\_INJECTION\_1093}
 
 ⸻⸻⸻⸻⸻
 
@@ -504,11 +504,11 @@ If you're struggling to find the table name, the below query should help you on 
 **Answer the questions below**⸻⸻⸻⸻⸻
 
 What is the final flag after completing level four?
-**Answer:** THM{SQL_INJECTION_MASTER}
+**Answer:** THM{SQL\_INJECTION\_MASTER}
 **Reason:** Using the method above these are the database, table, and columns schema:
-table_schema='sqli_four'
-table_name='users'
-column_name='username' AND column_name='password'
+table\_schema='sqli\_four'
+table\_name='users'
+column\_name='username' AND column\_name='password'
 username='admin' AND password='4961'
 
 ⸻⸻⸻⸻⸻
