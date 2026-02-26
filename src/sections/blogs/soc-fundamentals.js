@@ -179,6 +179,6 @@ Additional Investigation Notes: Has any response been sent back to the port scan
 **Reason:** Check the log and we can see that JOE PC had sent a packet to NESSUS.
 
 What is the flag found after closing the alert?
-**Answer:** THM{000_INTRO_TO_SOC}
+**Answer:** THM{000\_INTRO\_TO\_SOC}
 `
 }

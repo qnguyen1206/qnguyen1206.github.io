@@ -43,16 +43,16 @@ I’m sure you get the point: databases are used extensively and can contain man
 **Different Types of Databases**
 Now it makes sense that something is used by so many and for (relatively) so long that there would be multiple types of implementations. There are quite a few different types of databases that can be built, but for this introductory room, we are going to focus on the two primary types: **relational databases** (aka SQL) vs **non-relational databases** (aka NoSQL).
 
-**Relational databases**: Store structured data, meaning the data inserted into this database follows a structure. For example, the data collected on a user consists of first_name, last_name, email_address, username and password. When a new user joins, an entry is made in the database following this structure. This structured data is stored in rows and columns in a table (all of which will be covered shortly); relationships can then be made between two or more tables (for example, user and order_history), hence the term relational databases.
+**Relational databases**: Store structured data, meaning the data inserted into this database follows a structure. For example, the data collected on a user consists of first\_name, last\_name, email\_address, username and password. When a new user joins, an entry is made in the database following this structure. This structured data is stored in rows and columns in a table (all of which will be covered shortly); relationships can then be made between two or more tables (for example, user and order\_history), hence the term relational databases.
 
 **Non-relational databases**: Instead of storing data the above way, store data in a non-tabular format. For example, if documents are being scanned, which can contain varying types and quantities of data, and are stored in a database that calls for a non-tabular format. Here is an example of what that might look like:
 \`\`\`
  {
-    _id: ObjectId("4556712cd2b2397ce1b47661"),
+    \_id: ObjectId("4556712cd2b2397ce1b47661"),
     name: { first: "Thomas", last: "Anderson" },
-    date_of_birth: new Date('Sep 2, 1964'),
+    date\_of\_birth: new Date('Sep 2, 1964'),
     occupation: [ "The One"],
-    steps_taken : NumberLong(4738947387743977493)
+    steps\_taken : NumberLong(4738947387743977493)
 }
 \`\`\`
 
@@ -61,7 +61,7 @@ In terms of what database should be chosen, it always comes down to the context 
 **Tables, Rows and Columns**
 Now that we’ve defined the two primary types of databases, we’ll focus on relational databases. We’ll start by explaining **tables**, **rows**, and **columns**. All data stored in a relational database will be stored in a **table**; for example, a collection of books in stock at a bookstore might be stored in a table named “Books”.
 
-When creating this table, you would need to define what pieces of information are needed to define a book record, for example, “id”, “Name”, and “Published_date”. These would then be your **columns**; when these columns are being defined, you would also define what data type this column should contain; if an attempt is made to insert a record into a database where the data type does not match, it is rejected. The data types that can be defined can vary depending on what database you are using, but the core data types used by all include Strings (a collection of words and characters), Integers (numbers), floats/decimals (numbers with a decimal point) and Times/Dates.
+When creating this table, you would need to define what pieces of information are needed to define a book record, for example, “id”, “Name”, and “Published\_date”. These would then be your **columns**; when these columns are being defined, you would also define what data type this column should contain; if an attempt is made to insert a record into a database where the data type does not match, it is rejected. The data types that can be defined can vary depending on what database you are using, but the core data types used by all include Strings (a collection of words and characters), Integers (numbers), floats/decimals (numbers with a decimal point) and Times/Dates.
 
 Once a table has been created with the columns defined, the first record would be inserted into the database, for example, a book named “Android Security Internals” with an id of “1” and a publication date of “2014-10-14”. Once inserted, this record would be represented as a **row**.
 
@@ -70,7 +70,7 @@ Once a table has been defined and populated, more data may need to be stored. Fo
 
 **Primary Keys**: A primary key is used to ensure that the data collected in a certain column is unique. That is, there needs to be a way to identify each record stored in a table, a value unique to that record and is not repeated by any other record in that table. Think about matriculation numbers in a university; these are numbers assigned to a student so they can be uniquely identified in records (as sometimes students can have the same name). A column has to be chosen in each table as a primary key; in our example, “id” would make the most sense as an id has been uniquely created for each book where, as books can have the same publication date or (in rarer cases) book title. Note that there can only be one primary key column in a table.
 
-**Foreign Keys**: A foreign key is a column (or columns) in a table that also exists in another table within the database, and therefore provides a link between the two tables. In our example, think about adding an “author_id” field to our “Books” table; this would then act as a foreign key because the author_id in our Books table corresponds to the “id” column in the author table. Foreign keys are what allow the relationships between different tables in relational databases. Note that there can be more than one foreign key column in a table.
+**Foreign Keys**: A foreign key is a column (or columns) in a table that also exists in another table within the database, and therefore provides a link between the two tables. In our example, think about adding an “author\_id” field to our “Books” table; this would then act as a foreign key because the author\_id in our Books table corresponds to the “id” column in the author table. Foreign keys are what allow the relationships between different tables in relational databases. Note that there can be more than one foreign key column in a table.
 
 **Answer the questions below**⸻⸻⸻⸻⸻
 
@@ -80,7 +80,7 @@ What type of database should you consider using if the data you're going to be s
 What type of database should you consider using if the data you're going to be storing will reliably be in the same structured format?
 **Answer:** Relational database
 
-In our example, once a record of a book is inserted into our "Books" table, it would be represented as a ___ in that table?
+In our example, once a record of a book is inserted into our "Books" table, it would be represented as a \_\_\_ in that table?
 **Answer:** Row
 
 Which type of key provides a link from one table to another?
@@ -125,12 +125,12 @@ Now, the fun part! It's time to start learning SQL and how to use it to interact
 **CREATE DATABASE**
 If a new database is needed, the first step you would take is to create it. This can be done in SQL using the \`CREATE DATABASE\` statement. This would be done using the following syntax:
 \`\`\`
-mysql> CREATE DATABASE database_name;
+mysql> CREATE DATABASE database\_name;
 \`\`\`
 
-Run the following command to create a database named \`thm_bookmarket_db\`:
+Run the following command to create a database named \`thm\_bookmarket\_db\`:
 \`\`\`
-mysql> CREATE DATABASE thm_bookmarket_db;
+mysql> CREATE DATABASE thm\_bookmarket\_db;
 \`\`\`
 
 **SHOW DATABASES**
@@ -139,18 +139,18 @@ Now that we have created a database, we can view it using the \`SHOW DATABASES\`
 mysql> SHOW DATABASES;
 \`\`\`
 
-In the returned list, you should see the database you have just created and some databases that are included by default (mysql, information_scheme, performance_scheme and sys), which are used for various purposes that enable mysql to function. Also present are various tables needed for this lesson.
+In the returned list, you should see the database you have just created and some databases that are included by default (mysql, information\_scheme, performance\_scheme and sys), which are used for various purposes that enable mysql to function. Also present are various tables needed for this lesson.
 
 **USE DATABASE**
 Once a database is created, you may want to interact with it. Before we can interact with it, we need to tell mysql which database we would like to interact with (so it knows which database to run subsequent queries against). To set the database we have just created as the active database, we would run the \`USE\` statement as follows (make sure to run this on your machine):
 \`\`\`
-mysql> USE thm_bookmarket_db;
+mysql> USE thm\_bookmarket\_db;
 \`\`\`
 
 **DROP DATABASE**
 Once a database is no longer needed (maybe it was created for test purposes, or is no longer required), it can be removed using the \`DROP\` statement. To remove a database, we would use the following statement syntax (although, in our case, we want to keep our database, so no need to run this one yourself!):
 \`\`\`
-mysql> DROP database database_name;
+mysql> DROP database database\_name;
 \`\`\`
 
 **Table Statements**
@@ -159,26 +159,26 @@ Now that you can create, list, use, and remove databases, it's time to examine h
 **CREATE TABLE**
 Following the logic of the database statements, creating tables also uses a \`CREATE\` statement. Once a database is active (you have run the \`USE\` statement on it), a table can be created within it using the following statement syntax:
 \`\`\`
-mysql> CREATE TABLE example_table_name (
-    example_column1 data_type,
-    example_column2 data_type,
-    example_column3 data_type
+mysql> CREATE TABLE example\_table\_name (
+    example\_column1 data\_type,
+    example\_column2 data\_type,
+    example\_column3 data\_type
 );
 \`\`\`
 
-As you can see, there is a little more involved here. In the Databases 101 task, we covered how and when a table is created; it must be decided what columns will make up a record in that table, as well as what data type is expected to be contained within that column. That is what is represented by this syntax here. In the example, there are 3 example columns, but SQL supports many (over 1000). Let's try populating our \`thm_bookmarket_db\` with a table using the following statement:
+As you can see, there is a little more involved here. In the Databases 101 task, we covered how and when a table is created; it must be decided what columns will make up a record in that table, as well as what data type is expected to be contained within that column. That is what is represented by this syntax here. In the example, there are 3 example columns, but SQL supports many (over 1000). Let's try populating our \`thm\_bookmarket\_db\` with a table using the following statement:
 \`\`\`
-mysql> CREATE TABLE book_inventory (
-    book_id INT AUTO_INCREMENT PRIMARY KEY,
-    book_name VARCHAR(255) NOT NULL,
-    publication_date DATE
+mysql> CREATE TABLE book\_inventory (
+    book\_id INT AUTO\_INCREMENT PRIMARY KEY,
+    book\_name VARCHAR(255) NOT NULL,
+    publication\_date DATE
 );
 \`\`\`
 
-This statement will create a table book_inventory with three columns: \`book_id\`, \`book_name\` and \`publication_date\`.
-\`book_id\` is an \`INT\` (Integer) as it should only ever be a number, \`AUTO_INCREMENT\` is present, meaning the first book inserted would be assigned book_id 1, the second book inserted would be assigned a book_id of 2, and so on. Finally, \`book_id\` is set as the \`PRIMARY KEY\` as it will be the way we uniquely identify a book record in our table (and a primary must be present in a table).
-\`Book_name\` has the data type \`VARCHAR(255)\`, meaning it can use variable characters (text/numbers/punctuation) and a limit of 255 characters is set and \`NOT NULL\`, meaning it cannot be empty (so if someone tried to insert a record into this table but the \`book_name\` was empty it would be rejected.
-\`Publication_date\` is set as the data type \`DATE\`.
+This statement will create a table book\_inventory with three columns: \`book\_id\`, \`book\_name\` and \`publication\_date\`.
+\`book\_id\` is an \`INT\` (Integer) as it should only ever be a number, \`AUTO\_INCREMENT\` is present, meaning the first book inserted would be assigned book\_id 1, the second book inserted would be assigned a book\_id of 2, and so on. Finally, \`book\_id\` is set as the \`PRIMARY KEY\` as it will be the way we uniquely identify a book record in our table (and a primary must be present in a table).
+\`Book\_name\` has the data type \`VARCHAR(255)\`, meaning it can use variable characters (text/numbers/punctuation) and a limit of 255 characters is set and \`NOT NULL\`, meaning it cannot be empty (so if someone tried to insert a record into this table but the \`book\_name\` was empty it would be rejected.
+\`Publication\_date\` is set as the data type \`DATE\`.
 
 **SHOW TABLES**
 Just as we can list databases using a \`SHOW\` statement, we can also list the tables in our currently active database (the database on which we last used the \`USE\` statement). Run the following command, and you should see the table you have just created:
@@ -189,18 +189,18 @@ mysql> SHOW TABLES;
 **DESCRIBE**
 If we want to know what columns are contained within a table (and their data type), we can describe them using the \`DESCRIBE\` command (which can also be abbreviated to \`DESC\`). Describe the table you have just created using the following command:
 \`\`\`
-mysql> DESCRIBE book_inventory;
+mysql> DESCRIBE book\_inventory;
 \`\`\`
 
 This will give you a detailed view of the table like so:
 \`\`\`
-mysql> DESCRIBE book_inventory;
+mysql> DESCRIBE book\_inventory;
 +------------------+--------------+------+-----+---------+----------------+
 | Field            | Type         | Null | Key | Default | Extra          |
 +------------------+--------------+------+-----+---------+----------------+
-| book_id          | int          | NO   | PRI | NULL    | auto_increment |
-| book_name        | varchar(255) | NO   |     | NULL    |                |
-| publication_date | date         | YES  |     | NULL    |                |
+| book\_id          | int          | NO   | PRI | NULL    | auto\_increment |
+| book\_name        | varchar(255) | NO   |     | NULL    |                |
+| publication\_date | date         | YES  |     | NULL    |                |
 +------------------+--------------+------+-----+---------+----------------+
 3 rows in set (0.02 sec)
 \`\`\`
@@ -208,8 +208,8 @@ mysql> DESCRIBE book_inventory;
 **ALTER**
 Once you have created a table, there may come a time when your need for the dataset changes, and you need to alter the table. This can be done using the \`ALTER\` statement. Let’s now imagine that we have decided that we actually want to have a column in our book inventory that has the page count for each book. Add this to our table using the following statement:
 \`\`\`
-mysql> ALTER TABLE book_inventory
-ADD page_count INT;
+mysql> ALTER TABLE book\_inventory
+ADD page\_count INT;
 \`\`\`
 
 The \`ALTER\` statement can be used to make changes to a table, such as renaming columns, changing the data type in a column or removing a column. 
@@ -217,7 +217,7 @@ The \`ALTER\` statement can be used to make changes to a table, such as renaming
 **DROP**
 Similar to removing a database, you can also remove tables using the \`DROP\` statement. We don’t need to do this, but the syntax you would use for this is:
 \`\`\`
-mysql> DROP TABLE table_name;
+mysql> DROP TABLE table\_name;
 \`\`\`
 
 **Answer the questions below**⸻⸻⸻⸻⸻
@@ -226,9 +226,9 @@ Using the statement you've learned to list all databases, it should reveal a dat
 **Answer:** THM{575a947132312f97b30ee5aeebba629b723d30f9}
 **Reason:** Use \`SHOW DATABASES;\`.
 
-In the list of available databases, you should also see the \`task_4_db\` database. Set this as your active database and list all tables in this database; what is the flag present here?
+In the list of available databases, you should also see the \`task\_4\_db\` database. Set this as your active database and list all tables in this database; what is the flag present here?
 **Answer:** THM{692aa7eaec2a2a827f4d1a8bed1f90e5e49d2410}
-**Reason:** Use \`USE task_4_db;\` then \`SHOW TABLES;\`.
+**Reason:** Use \`USE task\_4\_db;\` then \`SHOW TABLES;\`.
 
 ⸻⸻⸻⸻⸻
 
@@ -237,18 +237,18 @@ In the list of available databases, you should also see the \`task_4_db\` databa
 **CRUD**
 **CRUD** stands for **C**reate, **R**ead, **U**pdate, and **D**elete, which are considered the basic operations in any system that manages data.
 
-Let's explore all these different operations when working with **MySQL**. In the next two tasks, we will be using the **books table** that is part of the database **thm_books**. We can access it with the statement \`use thm_books;\`.
+Let's explore all these different operations when working with **MySQL**. In the next two tasks, we will be using the **books table** that is part of the database **thm\_books**. We can access it with the statement \`use thm\_books;\`.
 
 **Create Operation (INSERT)**
 The **Create** operation will create new records in a table. In MySQL, this can be achieved by using the statement \`INSERT INTO\`, as shown below.
 \`\`\`
-mysql> INSERT INTO books (id, name, published_date, description)
+mysql> INSERT INTO books (id, name, published\_date, description)
     VALUES (1, "Android Security Internals", "2014-10-14", "An In-Depth Guide to Android's Security Architecture");
 
 Query OK, 1 row affected (0.01 sec)
 \`\`\`
 
-As we can observe, the \`INSERT INTO\` statement specifies a table, in this case, **books**, where you can add a new record; the columns **id**, **name**, **published_date**, and **description** are the records in the table. In this example, a new record with an **id** of **1**, a **name** of **"Android Security Internals"**, a **published_date** of **"2014-10-14"**, and a **description** stating **"Android Security Internals provides a complete understanding of the security internals of Android devices"** was added.
+As we can observe, the \`INSERT INTO\` statement specifies a table, in this case, **books**, where you can add a new record; the columns **id**, **name**, **published\_date**, and **description** are the records in the table. In this example, a new record with an **id** of **1**, a **name** of **"Android Security Internals"**, a **published\_date** of **"2014-10-14"**, and a **description** stating **"Android Security Internals provides a complete understanding of the security internals of Android devices"** was added.
 
 **Note**: This operation already exists in the database so there is no need to run the query.
 
@@ -257,7 +257,7 @@ The **Read** operation, as the name suggests, is used to read or retrieve inform
 \`\`\`
 mysql> SELECT * FROM books;
 +----+----------------------------+----------------+------------------------------------------------------+
-| id | name                       | published_date | description                                          |
+| id | name                       | published\_date | description                                          |
 +----+----------------------------+----------------+------------------------------------------------------+
 |  1 | Android Security Internals | 2014-10-14     | An In-Depth Guide to Android's Security Architecture |
 +----+----------------------------+----------------+------------------------------------------------------+
@@ -314,13 +314,13 @@ These operations enable us to effectively manage and manipulate data within a da
 
 **Answer the questions below**⸻⸻⸻⸻⸻
 
-Using the \`tools_db\` database, what is the name of the tool in the \`hacking_tools\` table that can be used to perform man-in-the-middle attacks on wireless networks?
+Using the \`tools\_db\` database, what is the name of the tool in the \`hacking\_tools\` table that can be used to perform man-in-the-middle attacks on wireless networks?
 **Answer:** Wi-Fi Pineapple
 **Reason:**
-1. Run \`USE tools_db;\`.
-2. Run \`SELECT * FROM hacking_tools;\`.
+1. Run \`USE tools\_db;\`.
+2. Run \`SELECT * FROM hacking\_tools;\`.
 
-Using the \`tools_db\` database, what is the shared category for both **USB Rubber Ducky** and **Bash Bunny**?
+Using the \`tools\_db\` database, what is the shared category for both **USB Rubber Ducky** and **Bash Bunny**?
 **Answer:** USB attacks
 
 ⸻⸻⸻⸻⸻
@@ -333,7 +333,7 @@ In previous tasks, we already used some clauses, such as \`FROM\` that is used t
 
 This task will focus on other clauses: \`DISTINCT\`, \`GROUP BY\`, \`ORDER BY\`, and \`HAVING\`.
 
-In this task, we will continue to use the **books** table that is part of the database **thm_books**. We can access it with the statement \`use thm_books;\`.
+In this task, we will continue to use the **books** table that is part of the database **thm\_books**. We can access it with the statement \`use thm\_books;\`.
 
 **DISTINCT Clause**
 The \`DISTINCT\` clause is used to avoid duplicate records when doing a query, returning only unique values.
@@ -342,7 +342,7 @@ Let's use a query \`SELECT * FROM books;\` and observe the results below.
 \`\`\`
 mysql> SELECT * FROM books;
 +----+----------------------------+----------------+--------------------------------------------------------+
-| id | name                       | published_date | description                                            |
+| id | name                       | published\_date | description                                            |
 +----+----------------------------+----------------+--------------------------------------------------------+
 |  1 | Android Security Internals | 2014-10-14     | An In-Depth Guide to Android's Security Architecture   |
 |  2 | Bug Bounty Bootcamp        | 2021-11-16     | The Guide to Finding and Reporting Web Vulnerabilities |
@@ -400,9 +400,9 @@ The \`ORDER BY\` clause can be used to sort the records returned by a query in a
 \`\`\`
 mysql> SELECT *
     FROM books
-    ORDER BY published_date ASC;
+    ORDER BY published\_date ASC;
 +----+----------------------------+----------------+--------------------------------------------------------+
-| id | name                       | published_date | description                                            |
+| id | name                       | published\_date | description                                            |
 +----+----------------------------+----------------+--------------------------------------------------------+
 |  1 | Android Security Internals | 2014-10-14     | An In-Depth Guide to Android's Security Architecture   |
 |  3 | Car Hacker's Handbook      | 2016-02-25     | A Guide for the Penetration Tester                     |
@@ -419,9 +419,9 @@ mysql> SELECT *
 \`\`\`
 mysql> SELECT *
     FROM books
-    ORDER BY published_date DESC;
+    ORDER BY published\_date DESC;
 +----+----------------------------+----------------+--------------------------------------------------------+
-| id | name                       | published_date | description                                            |
+| id | name                       | published\_date | description                                            |
 +----+----------------------------+----------------+--------------------------------------------------------+
 |  4 | Designing Secure Software  | 2021-12-21     | A Guide for Developers                                 |
 |  2 | Bug Bounty Bootcamp        | 2021-11-16     | The Guide to Finding and Reporting Web Vulnerabilities |
@@ -434,7 +434,7 @@ mysql> SELECT *
 6 rows in set (0.00 sec)
 \`\`\`
 
-We can observe the difference when sorting by ascending order using \`ASC\` and in descending order using \`DESC\`, both using the **published_date** as reference.
+We can observe the difference when sorting by ascending order using \`ASC\` and in descending order using \`DESC\`, both using the **published\_date** as reference.
 
 **HAVING Clause**
 The \`HAVING\` clause is used with other clauses to filter groups or results of records based on a condition. In the case of \`GROUP BY\`, it evaluates the condition to \`TRUE\` or \`FALSE\`, unlike the \`WHERE\` clause \`HAVING\` filters the results after the aggregation is performed.
@@ -457,29 +457,29 @@ In the example above, we can observe that the query returns the books with the n
 
 **Answer the questions below**⸻⸻⸻⸻⸻
 
-Using the \`tools_db\` database, what is the total number of distinct categories in the \`hacking_tools\` table?
+Using the \`tools\_db\` database, what is the total number of distinct categories in the \`hacking\_tools\` table?
 **Answer:** 6
 **Reason:**
-1. Run \`USE tools_db;\`.
-2. Run \`SELECT DISTINCT category FROM hacking_tools;\`.
+1. Run \`USE tools\_db;\`.
+2. Run \`SELECT DISTINCT category FROM hacking\_tools;\`.
 
-Using the \`tools_db\` database, what is the first tool (by name) in ascending order from the \`hacking_tools\` table?
+Using the \`tools\_db\` database, what is the first tool (by name) in ascending order from the \`hacking\_tools\` table?
 **Answer:** Bash Bunny
 **Reason:** 
-1. Run \`USE tools_db;\`.
-2. Run \`SELECT * FROM hacking_tools ORDER BY name ASC;\`.
+1. Run \`USE tools\_db;\`.
+2. Run \`SELECT * FROM hacking\_tools ORDER BY name ASC;\`.
 
-Using the \`tools_db\` database, what is the first tool (by name) in descending order from the \`hacking_tools\` table?
+Using the \`tools\_db\` database, what is the first tool (by name) in descending order from the \`hacking\_tools\` table?
 **Answer:** Wi-Fi Pineapple
 **Reason:** 
-1. Run \`USE tools_db;\`.
-2. Run \`SELECT * FROM hacking_tools ORDER BY name DESC;\`.
+1. Run \`USE tools\_db;\`.
+2. Run \`SELECT * FROM hacking\_tools ORDER BY name DESC;\`.
 
 ⸻⸻⸻⸻⸻
 
 ### Task 7 Operators
 
-When working with **SQL** and dealing with logic and comparisons, **operators** are our way to filter and manipulate data effectively. Understanding these operators will help us to create more precise and powerful queries.  In the next two tasks, we will be using the **books** table that is part of the database **thm_books2**. We can access it with the statement \`use thm_books2;\`.
+When working with **SQL** and dealing with logic and comparisons, **operators** are our way to filter and manipulate data effectively. Understanding these operators will help us to create more precise and powerful queries.  In the next two tasks, we will be using the **books** table that is part of the database **thm\_books2**. We can access it with the statement \`use thm\_books2;\`.
 
 **Logical Operators**
 These operators test the truth of a condition and return a boolean value of \`TRUE\` or \`FALSE\`. Let's explore some of these operators next.
@@ -491,7 +491,7 @@ mysql> SELECT *
     FROM books
     WHERE description LIKE "%guide%";
 +----+----------------------------+----------------+--------------------------------------------------------+--------------------+
-| id | name                       | published_date | description                                            | category           |
+| id | name                       | published\_date | description                                            | category           |
 +----+----------------------------+----------------+--------------------------------------------------------+--------------------+
 |  1 | Android Security Internals | 2014-10-14     | An In-Depth Guide to Android's Security Architecture   | Defensive Security |
 |  2 | Bug Bounty Bootcamp        | 2021-11-16     | The Guide to Finding and Reporting Web Vulnerabilities | Offensive Security |
@@ -511,7 +511,7 @@ mysql> SELECT *
     FROM books
     WHERE category = "Offensive Security" AND name = "Bug Bounty Bootcamp"; 
 +----+---------------------+----------------+--------------------------------------------------------+--------------------+
-| id | name                | published_date | description                                            | category           |
+| id | name                | published\_date | description                                            | category           |
 +----+---------------------+----------------+--------------------------------------------------------+--------------------+
 |  2 | Bug Bounty Bootcamp | 2021-11-16     | The Guide to Finding and Reporting Web Vulnerabilities | Offensive Security |
 +----+---------------------+----------------+--------------------------------------------------------+--------------------+
@@ -528,7 +528,7 @@ mysql> SELECT *
     FROM books
     WHERE name LIKE "%Android%" OR name LIKE "%iOS%"; 
 +----+----------------------------+----------------+------------------------------------------------------+--------------------+
-| id | name                       | published_date | description                                          | category           |
+| id | name                       | published\_date | description                                          | category           |
 +----+----------------------------+----------------+------------------------------------------------------+--------------------+
 |  1 | Android Security Internals | 2014-10-14     | An In-Depth Guide to Android's Security Architecture | Defensive Security |
 +----+----------------------------+----------------+------------------------------------------------------+--------------------+
@@ -545,7 +545,7 @@ mysql> SELECT *
     FROM books
     WHERE NOT description LIKE "%guide%";
 +----+-----------------+----------------+----------------------------------------+--------------------+
-| id | name            | published_date | description                            | category           |
+| id | name            | published\_date | description                            | category           |
 +----+-----------------+----------------+----------------------------------------+--------------------+
 |  5 | Ethical Hacking | 2021-11-02     | A Hands-on Introduction to Breaking In | Offensive Security |
 +----+-----------------+----------------+----------------------------------------+--------------------+
@@ -562,7 +562,7 @@ mysql> SELECT *
     FROM books
     WHERE id BETWEEN 2 AND 4;
 +----+---------------------------+----------------+--------------------------------------------------------+--------------------+
-| id | name                      | published_date | description                                            | category           |
+| id | name                      | published\_date | description                                            | category           |
 +----+---------------------------+----------------+--------------------------------------------------------+--------------------+
 |  2 | Bug Bounty Bootcamp       | 2021-11-16     | The Guide to Finding and Reporting Web Vulnerabilities | Offensive Security |
 |  3 | Car Hacker's Handbook     | 2016-02-25     | A Guide for the Penetration Tester                     | Offensive Security |
@@ -583,7 +583,7 @@ mysql> SELECT *
     FROM books
     WHERE name = "Designing Secure Software";
 +----+---------------------------+----------------+------------------------+--------------------+
-| id | name                      | published_date | description            | category           |
+| id | name                      | published\_date | description            | category           |
 +----+---------------------------+----------------+------------------------+--------------------+
 |  4 | Designing Secure Software | 2021-12-21     | A Guide for Developers | Defensive Security |
 +----+---------------------------+----------------+------------------------+--------------------+
@@ -600,7 +600,7 @@ mysql> SELECT *
     FROM books
     WHERE category != "Offensive Security";
 +----+----------------------------+----------------+------------------------------------------------------+--------------------+
-| id | name                       | published_date | description                                          | category           |
+| id | name                       | published\_date | description                                          | category           |
 +----+----------------------------+----------------+------------------------------------------------------+--------------------+
 |  1 | Android Security Internals | 2014-10-14     | An In-Depth Guide to Android's Security Architecture | Defensive Security |
 |  4 | Designing Secure Software  | 2021-12-21     | A Guide for Developers                               | Defensive Security |
@@ -616,9 +616,9 @@ The \`<\` (less than) operator compares if the expression with a given value is 
 \`\`\`
 mysql> SELECT *
     FROM books
-    WHERE published_date < "2020-01-01";
+    WHERE published\_date < "2020-01-01";
 +----+----------------------------+----------------+------------------------------------------------------+--------------------+
-| id | name                       | published_date | description                                          | category           |
+| id | name                       | published\_date | description                                          | category           |
 +----+----------------------------+----------------+------------------------------------------------------+--------------------+
 |  1 | Android Security Internals | 2014-10-14     | An In-Depth Guide to Android's Security Architecture | Defensive Security |
 |  3 | Car Hacker's Handbook      | 2016-02-25     | A Guide for the Penetration Tester                   | Offensive Security |
@@ -634,9 +634,9 @@ The \`>\` (greater than) operator compares if the expression with a given value 
 \`\`\`
 mysql> SELECT *
     FROM books
-    WHERE published_date > "2020-01-01";
+    WHERE published\_date > "2020-01-01";
 +----+---------------------------+----------------+--------------------------------------------------------+--------------------+
-| id | name                      | published_date | description                                            | category           |
+| id | name                      | published\_date | description                                            | category           |
 +----+---------------------------+----------------+--------------------------------------------------------+--------------------+
 |  2 | Bug Bounty Bootcamp       | 2021-11-16     | The Guide to Finding and Reporting Web Vulnerabilities | Offensive Security |
 |  4 | Designing Secure Software | 2021-12-21     | A Guide for Developers                                 | Defensive Security |
@@ -653,9 +653,9 @@ The \`<=\` (Less than or equal) operator compares if the expression with a given
 \`\`\`
 mysql> SELECT *
     FROM books
-    WHERE published_date <= "2021-11-15";
+    WHERE published\_date <= "2021-11-15";
 +----+----------------------------+----------------+------------------------------------------------------+--------------------+
-| id | name                       | published_date | description                                          | category           |
+| id | name                       | published\_date | description                                          | category           |
 +----+----------------------------+----------------+------------------------------------------------------+--------------------+
 |  1 | Android Security Internals | 2014-10-14     | An In-Depth Guide to Android's Security Architecture | Defensive Security |
 |  3 | Car Hacker's Handbook      | 2016-02-25     | A Guide for the Penetration Tester                   | Offensive Security |
@@ -669,9 +669,9 @@ The query above returns books **published on or before November 15, 2021**.
 \`\`\`
 mysql> SELECT *
     FROM books
-    WHERE published_date >= "2021-11-02";
+    WHERE published\_date >= "2021-11-02";
 +----+---------------------------+----------------+--------------------------------------------------------+--------------------+
-| id | name                      | published_date | description                                            | category           |
+| id | name                      | published\_date | description                                            | category           |
 +----+---------------------------+----------------+--------------------------------------------------------+--------------------+
 |  2 | Bug Bounty Bootcamp       | 2021-11-16     | The Guide to Finding and Reporting Web Vulnerabilities | Offensive Security |
 |  4 | Designing Secure Software | 2021-12-21     | A Guide for Developers                                 | Defensive Security |
@@ -685,23 +685,23 @@ The query above returns books that were **published on or after November 2, 2021
 
 **Answer the questions below**⸻⸻⸻⸻⸻
 
-Using the \`tools_db\` database, which tool falls under the **Multi-tool** category and is useful for **pentesters** and **geeks**?
+Using the \`tools\_db\` database, which tool falls under the **Multi-tool** category and is useful for **pentesters** and **geeks**?
 **Answer:** Flipper Zero
 **Reason:**
-1. Run \`USE tools_db;\`.
-2. Run \`SELECT DISTINCT name FROM hacking_tools WHERE category = "Multi-tool" AND (description LIKE "%pentesters%" AND description LIKE "%geeks%");\`.
+1. Run \`USE tools\_db;\`.
+2. Run \`SELECT DISTINCT name FROM hacking\_tools WHERE category = "Multi-tool" AND (description LIKE "%pentesters%" AND description LIKE "%geeks%");\`.
 
-Using the \`tools_db\` database, what is the category of tools with an amount **greater than** or **equal** to **300**?
+Using the \`tools\_db\` database, what is the category of tools with an amount **greater than** or **equal** to **300**?
 **Answer:** RFID cloning
 **Reason:**
-1. Run \`USE tools_db;\`.
-2. Run \`SELECT DISTINCT category FROM hacking_tools WHERE amount >= 300;\`.
+1. Run \`USE tools\_db;\`.
+2. Run \`SELECT DISTINCT category FROM hacking\_tools WHERE amount >= 300;\`.
 
-Using the \`tools_db\` database, which tool falls under the **Network Intelligence** category with an amount **less than 100**?
+Using the \`tools\_db\` database, which tool falls under the **Network Intelligence** category with an amount **less than 100**?
 **Answer:** Lan Turtle
 **Reason:**
-1. Run \`USE tools_db;\`.
-2. Run \`SELECT DISTINCT name FROM hacking_tools WHERE category = "Network Intelligence" AND amount < 100;\`.
+1. Run \`USE tools\_db;\`.
+2. Run \`SELECT DISTINCT name FROM hacking\_tools WHERE category = "Network Intelligence" AND amount < 100;\`.
 
 ⸻⸻⸻⸻⸻
 
@@ -714,9 +714,9 @@ Strings functions perform operations on a string, returning a value associated w
 **CONCAT() Function**
 This function is used to add two or more strings together. It is useful to combine text from different columns.
 \`\`\`
-mysql> SELECT CONCAT(name, " is a type of ", category, " book.") AS book_info FROM books;
+mysql> SELECT CONCAT(name, " is a type of ", category, " book.") AS book\_info FROM books;
 +------------------------------------------------------------------+
-| book_info                                                         |
+| book\_info                                                         |
 +------------------------------------------------------------------+
 | Android Security Internals is a type of Defensive Security book. |
 | Bug Bounty Bootcamp is a type of Offensive Security book.        |
@@ -728,12 +728,12 @@ mysql> SELECT CONCAT(name, " is a type of ", category, " book.") AS book_info FR
 5 rows in set (0.00 sec)  
 \`\`\`
 
-This query concatenates the **name** and **category** columns from the **books** table into a single one named **book_info**.
+This query concatenates the **name** and **category** columns from the **books** table into a single one named **book\_info**.
 
-**GROUP_CONCAT() Function**
+**GROUP\_CONCAT() Function**
 This function can help us to concatenate data from multiple rows into one field. Let's explore an example of its usage.
 \`\`\`
-mysql> SELECT category, GROUP_CONCAT(name SEPARATOR ", ") AS books
+mysql> SELECT category, GROUP\_CONCAT(name SEPARATOR ", ") AS books
     FROM books
     GROUP BY category;
 +--------------------+-------------------------------------------------------------+
@@ -751,9 +751,9 @@ The query above groups the **books** by **category** and concatenates the titles
 **SUBSTRING() Function**
 This function will retrieve a substring from a string within a query, starting at a determined position. The length of this substring can also be specified.
 \`\`\`
-mysql> SELECT SUBSTRING(published_date, 1, 4) AS published_year FROM books;
+mysql> SELECT SUBSTRING(published\_date, 1, 4) AS published\_year FROM books;
 +----------------+
-| published_year |
+| published\_year |
 +----------------+
 | 2014           |
 | 2021           |
@@ -765,15 +765,15 @@ mysql> SELECT SUBSTRING(published_date, 1, 4) AS published_year FROM books;
 5 rows in set (0.00 sec)  
 \`\`\`
 
-In the query above, we can observe how it extracts the first **four** characters from the **published_date** column and stores them in the **published_year** column.
+In the query above, we can observe how it extracts the first **four** characters from the **published\_date** column and stores them in the **published\_year** column.
 
 
 **LENGTH() Function**
 This function returns the number of characters in a string. This includes spaces and punctuation. We can find an example below.
 \`\`\`
-mysql> SELECT LENGTH(name) AS name_length FROM books;
+mysql> SELECT LENGTH(name) AS name\_length FROM books;
 +-------------+
-| name_length |
+| name\_length |
 +-------------+
 |          26 |
 |          19 |
@@ -785,16 +785,16 @@ mysql> SELECT LENGTH(name) AS name_length FROM books;
 5 rows in set (0.00 sec)
 \`\`\`
 
-As we can observe above, the query calculates the length of the string within the **name** column and stores it in a column named **name_length**.
+As we can observe above, the query calculates the length of the string within the **name** column and stores it in a column named **name\_length**.
 
 **Aggregate Functions**
 These functions aggregate the value of multiple rows within one specified criteria in the query. It can combine multiple values into one result.
 **COUNT() Function**
 This function returns the number of records within an expression, as the example below shows.
 \`\`\`
-mysql> SELECT COUNT(*) AS total_books FROM books;
+mysql> SELECT COUNT(*) AS total\_books FROM books;
 +-------------+
-| total_books |
+| total\_books |
 +-------------+
 |           5 |
 +-------------+
@@ -802,15 +802,15 @@ mysql> SELECT COUNT(*) AS total_books FROM books;
 1 row in set (0.01 sec)
 \`\`\`
 
-This query above counts the total number of rows in the **books** table. The result is **5**, as there are five books in the books table, and it's stored in the **total_books** column.
+This query above counts the total number of rows in the **books** table. The result is **5**, as there are five books in the books table, and it's stored in the **total\_books** column.
 
 **SUM() Function**
 This function sums all values (not NULL) of a determined column.
 **Note**: There is no need to execute this query. This is just for example purposes.
 \`\`\`
-mysql> SELECT SUM(price) AS total_price FROM books;
+mysql> SELECT SUM(price) AS total\_price FROM books;
 +-------------+
-| total_price |
+| total\_price |
 +-------------+
 |      249.95 |
 +-------------+
@@ -818,14 +818,14 @@ mysql> SELECT SUM(price) AS total_price FROM books;
 1 row in set (0.00 sec)
 \`\`\`
 
-The query above calculates the total sum of the **price** column. The result provides the aggregate price of all books in the column **total_price**.
+The query above calculates the total sum of the **price** column. The result provides the aggregate price of all books in the column **total\_price**.
 
 **MAX() Function**
 This function calculates the maximum value within a provided column in an expression.
 \`\`\`
-mysql> SELECT MAX(published_date) AS latest_book FROM books;
+mysql> SELECT MAX(published\_date) AS latest\_book FROM books;
 +-------------+
-| latest_book |
+| latest\_book |
 +-------------+
 | 2021-12-21  |
 +-------------+
@@ -833,14 +833,14 @@ mysql> SELECT MAX(published_date) AS latest_book FROM books;
 1 row in set (0.00 sec)
 \`\`\`
 
-The query above retrieves the latest publication (maximum value) date from the **books** table. The result **2021-12-21** is stored in the column **latest_book**.
+The query above retrieves the latest publication (maximum value) date from the **books** table. The result **2021-12-21** is stored in the column **latest\_book**.
 
 **MIN() Function**
 This function calculates the minimum value within a provided column in an expression.
 \`\`\`
-mysql> SELECT MIN(published_date) AS earliest_book FROM books;
+mysql> SELECT MIN(published\_date) AS earliest\_book FROM books;
 +---------------+
-| earliest_book |
+| earliest\_book |
 +---------------+
 | 2014-10-14    |
 +---------------+
@@ -848,26 +848,26 @@ mysql> SELECT MIN(published_date) AS earliest_book FROM books;
 1 row in set (0.00 sec)
 \`\`\`
 
-The query above retrieves the earliest publication (minimum value) date from the **books** table. The result **2014-10-14** is stored in the **earliest_book** column.
+The query above retrieves the earliest publication (minimum value) date from the **books** table. The result **2014-10-14** is stored in the **earliest\_book** column.
 
 **Answer the questions below**⸻⸻⸻⸻⸻
 
-Using the \`tools_db\` database, what is the tool with the longest name based on character length?
+Using the \`tools\_db\` database, what is the tool with the longest name based on character length?
 **Answer:** USB Rubber Ducky
 **Reason:**
-1. Run \`USE tools_db;\`.
-2. Run \`SELECT * FROM hacking_tools ORDER BY LENGTH(name) DESC;\`
+1. Run \`USE tools\_db;\`.
+2. Run \`SELECT * FROM hacking\_tools ORDER BY LENGTH(name) DESC;\`
 
-Using the \`tools_db\` database, what is the total sum of all tools?
+Using the \`tools\_db\` database, what is the total sum of all tools?
 **Answer:** 1444
 **Reason:**
-1. Run \`USE tools_db;\`.
-2. Run \`SELECT SUM(amount) FROM hacking_tools;\`.
+1. Run \`USE tools\_db;\`.
+2. Run \`SELECT SUM(amount) FROM hacking\_tools;\`.
 
-Using the \`tools_db\` database, what are the tool names where the amount does not end in **0**, and **group** the tool names **concatenated** by " & ".
+Using the \`tools\_db\` database, what are the tool names where the amount does not end in **0**, and **group** the tool names **concatenated** by " & ".
 **Answer:** Flipper Zero & iCopy-XS
 **Reason:**
-1. Run \`USE tools_db;\`.
-2. Run \`SELECT GROUP_CONCAT(name SEPARATOR "& ") FROM hacking_tools WHERE amount % 10 != 0;\`.
+1. Run \`USE tools\_db;\`.
+2. Run \`SELECT GROUP\_CONCAT(name SEPARATOR "& ") FROM hacking\_tools WHERE amount % 10 != 0;\`.
 `
 }

@@ -250,7 +250,7 @@ Referer
 Indicates the URL from which the request came from.
 
 Cookie	
-\`Cookie: user_type=student; room=introtowebapplication; room_status=in_progress\`
+\`Cookie: user\_type=student; room=introtowebapplication; room\_status=in\_progress\`
 Information the web server previously asked the web browser to store is held in cookies.
 
 Content-Type	
@@ -288,7 +288,7 @@ Content-Disposition: form-data; name="username"
 
 aleksandra
 ----WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Disposition: form-data; name="profile_pic"; filename="aleksandra.jpg"
+Content-Disposition: form-data; name="profile\_pic"; filename="aleksandra.jpg"
 Content-Type: image/jpeg
 
 [Binary Data Here representing the image]
@@ -546,12 +546,12 @@ This is an emulator for making demo HTTP requests. Using what you've learned fro
 **Answer the questions below**⸻⸻⸻⸻⸻
 
 Make a **GET** request to \`/api/users\`. What is the flag?
-**Answer:** THM{YOU_HAVE_JUST_FOUND_THE_USER_LIST}
+**Answer:** THM{YOU\_HAVE\_JUST\_FOUND\_THE\_USER\_LIST}
 
 Make a **POST** request to \`/api/user/2\` and update the **country** of Bob from **UK** to **US**. What is the flag?
-**Answer:** THM{YOU_HAVE_MODIFIED_THE_USER_DATA}
+**Answer:** THM{YOU\_HAVE\_MODIFIED\_THE\_USER\_DATA}
 
 Make a **DELETE** request to \`/api/user/1\` to delete the user. What is the flag?
-**Answer:** {YOU_HAVE_JUST_DELETED_A_USER}
+**Answer:** {YOU\_HAVE\_JUST\_DELETED\_A\_USER}
 `
 }

@@ -229,7 +229,7 @@ Find the event that caused the alert and identify the user responsible for the p
 **Answer:** chris
 
 What is the hostname of the suspect user?
-**Answer:** HR_02
+**Answer:** HR\_02
 
 Examine the rule and the suspicious process; which term matched the rule that caused the alert?
 **Answer:** miner
@@ -240,6 +240,6 @@ Which option best represents the event? Choose from the following:
 **Answer:** True Positive
 
 Selecting the right ACTION will display the FLAG. What is the FLAG?
-**Answer:** THM{000_SIEM_INTRO}
+**Answer:** THM{000\_SIEM\_INTRO}
 `
 }

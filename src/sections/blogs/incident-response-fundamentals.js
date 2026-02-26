@@ -173,6 +173,6 @@ How many devices executed the file?
 **Answer:** 1
 
 What is the flag found at the end of the exercise? 
-**Answer:** THM{My_First_Incident_Response}
+**Answer:** THM{My\_First\_Incident\_Response}
 `
 }

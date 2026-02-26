@@ -212,7 +212,7 @@ Now, double-click the external.html file and check the results. Do you see any d
 What we did differently is use the \`src\` attribute in the **<script>** tag to load the JS from an external file. When the browser loads the page, it looks for the \`script.js\` file and loads its content into the HTML document. This approach allows us to keep the JS code separate from the HTML, making the code more organised and easier to maintain, especially when working on larger projects.
 
 **Verifying Internal or External JS**
-When pen-testing a web application, it is important to check whether the website uses internal or external JS. This can be easily verified by viewing the page's source code. To do this, open the page \`external_test.html\` located in the \`exercise\` folder in \`Chrome\`, right-click anywhere on the page, and select \`View Page Source\`.
+When pen-testing a web application, it is important to check whether the website uses internal or external JS. This can be easily verified by viewing the page's source code. To do this, open the page \`external\_test.html\` located in the \`exercise\` folder in \`Chrome\`, right-click anywhere on the page, and select \`View Page Source\`.
 
 This will display the HTML code of the rendered page. Inside the source code, any JS written directly on the page will appear between **<script>** tags without the \`src\` attribute. If you see a **<script>** tag with a src attribute, it indicates that the page is loading external JS from a separate file.
 
@@ -226,9 +226,9 @@ Which type of JavaScript integration places the code directly within the HTML do
 Which method is better for reusing JS across multiple web pages?
 **Answer:** External
 
-What is the name of the external JS file that is being called by external_test.html?
-**Answer:** thm_external.js
-**Reason:** Use the link \`/exercise/external_test.html\` then view the source code.
+What is the name of the external JS file that is being called by external\_test.html?
+**Answer:** thm\_external.js
+**Reason:** Use the link \`/exercise/external\_test.html\` then view the source code.
 
 What attribute links an external JS file in the <script> tag?
 **Answer:** src
@@ -390,26 +390,26 @@ Now, we will try to minify and obfuscate the JS code using an online tool. Visit
 
 But what if we tell you that these gibberish characters are still fully functional code? The only difference is that they are not human-readable, but the browser can still execute them correctly. The website converted our JS code to this one:
 \`\`\`
-(function(_0x114713,_0x2246f2){var _0x51a830=_0x33bf,_0x4ce60b=_0x114713();while(!![]){try
-{var _0x51ecd3=-parseInt(_0x51a830(0x88))/(-0x1bd3+-0x9a+0x2*0xe37)*(parseInt(_0x51a830(0x94))/
-(-0x15c1+-0x2*-0x3b3+0xe5d))+parseInt(_0x51a830(0x8d))/(0x961*0x1+0x2*0x4cb+0x4bd*-0x4)*
-(-parseInt(_0x51a830(0x97))/(-0x22b3+0x16e9+0x1*0xbce))+parseInt(_0x51a830(0x89))/
-(-0x631+0x20cd+0x8dd*-0x3)*(-parseInt(_0x51a830(0x95))/(-0x8fc+0x161+0x7a1))+-
-parseInt(_0x51a830(0x93))/(-0x1c38+0x193+0x1aac)*(parseInt(_0x51a830(0x8e))/
-(-0x1*-0x17a6+-0x167e+-0x3*0x60))+-parseInt(_0x51a830(0x91))/(-0x2*-0x1362+-0x4a8*0x5+-0xf73)*
-(parseInt(_0x51a830(0x8b))/(-0xb31*0x2+0x493*0x5+0x1*-0x73))+parseInt(_0x51a830(0x8f))/
-(-0x257a+-0x1752+0x3cd7)+parseInt(_0x51a830(0x90))/(-0x2244+-0x15f9+0x3849);if(_0x51ecd3
-===_0x2246f2)break;else _0x4ce60b['push'](_0x4ce60b['shift']());}catch(_0x38d15c)
-{_0x4ce60b['push'](_0x4ce60b['shift']());}}}(_0x11ed,-0x17d11*-0x1+0x2*0x2e27+0x100f*0x17));
-function hi(){var _0x48257e=_0x33bf,_0xab1127={'xMVHQ':function(_0x4eefa0,_0x4e5f74)
-{return _0x4eefa0(_0x4e5f74);},'FvtWc':_0x48257e(0x96)+_0x48257e(0x92)};_0xab1127[_0x48257e(0x8c)
-](alert,_0xab1127[_0x48257e(0x8a)]);}function _0x33bf(_0xb07259,_0x5949fe){var _0x3a386b
-=_0x11ed();return _0x33bf=function(_0x4348ee,_0x1bbf73){_0x4348ee=_0x4348ee-(0x11f7+-
-0x1*0x680+-0x3a5*0x3);var _0x423ccd=_0x3a386b[_0x4348ee];return _0x423ccd;},_0x33bf
-(_0xb07259,_0x5949fe);}function _0x11ed(){var _0x4c8fa8=['7407EbJESQ','\\x20THM',
+(function(\_0x114713,\_0x2246f2){var \_0x51a830=\_0x33bf,\_0x4ce60b=\_0x114713();while(!![]){try
+{var \_0x51ecd3=-parseInt(\_0x51a830(0x88))/(-0x1bd3+-0x9a+0x2*0xe37)*(parseInt(\_0x51a830(0x94))/
+(-0x15c1+-0x2*-0x3b3+0xe5d))+parseInt(\_0x51a830(0x8d))/(0x961*0x1+0x2*0x4cb+0x4bd*-0x4)*
+(-parseInt(\_0x51a830(0x97))/(-0x22b3+0x16e9+0x1*0xbce))+parseInt(\_0x51a830(0x89))/
+(-0x631+0x20cd+0x8dd*-0x3)*(-parseInt(\_0x51a830(0x95))/(-0x8fc+0x161+0x7a1))+-
+parseInt(\_0x51a830(0x93))/(-0x1c38+0x193+0x1aac)*(parseInt(\_0x51a830(0x8e))/
+(-0x1*-0x17a6+-0x167e+-0x3*0x60))+-parseInt(\_0x51a830(0x91))/(-0x2*-0x1362+-0x4a8*0x5+-0xf73)*
+(parseInt(\_0x51a830(0x8b))/(-0xb31*0x2+0x493*0x5+0x1*-0x73))+parseInt(\_0x51a830(0x8f))/
+(-0x257a+-0x1752+0x3cd7)+parseInt(\_0x51a830(0x90))/(-0x2244+-0x15f9+0x3849);if(\_0x51ecd3
+===\_0x2246f2)break;else \_0x4ce60b['push'](\_0x4ce60b['shift']());}catch(\_0x38d15c)
+{\_0x4ce60b['push'](\_0x4ce60b['shift']());}}}(\_0x11ed,-0x17d11*-0x1+0x2*0x2e27+0x100f*0x17));
+function hi(){var \_0x48257e=\_0x33bf,\_0xab1127={'xMVHQ':function(\_0x4eefa0,\_0x4e5f74)
+{return \_0x4eefa0(\_0x4e5f74);},'FvtWc':\_0x48257e(0x96)+\_0x48257e(0x92)};\_0xab1127[\_0x48257e(0x8c)
+](alert,\_0xab1127[\_0x48257e(0x8a)]);}function \_0x33bf(\_0xb07259,\_0x5949fe){var \_0x3a386b
+=\_0x11ed();return \_0x33bf=function(\_0x4348ee,\_0x1bbf73){\_0x4348ee=\_0x4348ee-(0x11f7+-
+0x1*0x680+-0x3a5*0x3);var \_0x423ccd=\_0x3a386b[\_0x4348ee];return \_0x423ccd;},\_0x33bf
+(\_0xb07259,\_0x5949fe);}function \_0x11ed(){var \_0x4c8fa8=['7407EbJESQ','\\x20THM',
 '2700698TTmqXC','10ILFtfZ','190500QONgph','Welcome\\x20to',
 '4492QOmepo','21623eEAyaP','65XMlsxw','FvtWc','2410qfnGAy','xMVHQ','321PfYXZg',
-'8XBaIAe','1946483GviJfa','15167592PYYhTN'];_0x11ed=function(){return _0x4c8fa8;};return _0x11ed();}hi();
+'8XBaIAe','1946483GviJfa','15167592PYYhTN'];\_0x11ed=function(){return \_0x4c8fa8;};return \_0x11ed();}hi();
 \`\`\`
 
 Click the \`Copy to Clipboard\` (highlighted as **2** in the above image) button as shown on the website. Then, remove the current content of \`hello.js\` on the attached VM and paste the obfuscated content into the file.
@@ -446,7 +446,7 @@ As discussed in earlier tasks, JS allows you to include any other JS scripts usi
 Never hardcode sensitive data like **API keys**, **access tokens**, or **credentials** into your JS code, as the user can easily check the source code and get the password. 
 \`\`\`
 // Bad Practice
-const privateAPIKey = 'pk_TryHackMe-1337'; 
+const privateAPIKey = 'pk\_TryHackMe-1337'; 
 \`\`\`
 
 **Minify and Obfuscate Your JavaScript Code**

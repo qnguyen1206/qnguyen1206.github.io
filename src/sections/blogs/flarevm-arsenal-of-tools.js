@@ -143,7 +143,7 @@ As you can see from the image above, the CFF Explorer app is open. Using **Proce
 HxD is a quick and flexible hex editor for editing files, memory, and drives of any capacity. It can be applied to forensic investigation, data recovery, debugging, and exact manipulation of binary data. Important features include viewing file and memory contents, editing, searching, and comparing hex data. Let's look at how the tool works.
 <img src="/blogs/tryhackme/flarevm-arsenal-of-tools/5e6bbe59a46ee9407fd65bbe-1727170785692.png">
 
-This HxD hex editor snapshot shows the binary file **possible_medusa.txt**. The hex data on the left indicates the file's contents in hexadecimal, and the ASCII interpretation appears on the right. Interestingly, the file starts with **4D 5A (Little Endian)**, indicating it is executable.
+This HxD hex editor snapshot shows the binary file **possible\_medusa.txt**. The hex data on the left indicates the file's contents in hexadecimal, and the ASCII interpretation appears on the right. Interestingly, the file starts with **4D 5A (Little Endian)**, indicating it is executable.
 
 The **Data Inspector** on the right allows you to examine individual bytes by displaying their values in many data types (e.g., integer, float), facilitating a more straightforward data evaluation.
 
@@ -185,7 +185,7 @@ INFO: floss.stackstrings: extracting stackstrings from 50 functions
 extracting stackstrings: 100%|██████████████████████████████████████████████████████████████████████████████████████| 50/50 [00:00<00:00, 128.00 functions/s]
 INFO: floss.tightstrings: extracting tightstrings from 4 functions...
 extracting tightstrings from function 0x402e80: 100%|██████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 31.99 functions/s]
-INFO: floss.string_decoder: decoding strings
+INFO: floss.string\_decoder: decoding strings
 emulating function 0x402e80 (call 1/1): 100%|████████████████████████████████████████████████████████████████████████| 21/21 [00:09<00:00,  2.21 functions/s]
 INFO: floss: finished execution after 265.61 seconds
 INFO: floss: rendering results 
@@ -219,10 +219,10 @@ Using the tool PEStudio to open the file cryptominer.bin in the Desktop\\Sample 
 What tool can generate file hashes for integrity verification, authenticate the source of system files, and validate their validity?
 **Answer:** CFF Explorer
 
-Using the tool CFF Explorer to open the file **possible_medusa.txt** in the Desktop\\Sample folder, what is the MD5 of the file?
+Using the tool CFF Explorer to open the file **possible\_medusa.txt** in the Desktop\\Sample folder, what is the MD5 of the file?
 **Answer:** 646698572AFBBF24F50EC5681FEB2DB7
 
-Use the CFF Explorer tool to open the file **possible_medusa.txt** in the Desktop\Sample folder. Then, go to the **DOS Header Section**. What is the e_magic value of the file?
+Use the CFF Explorer tool to open the file **possible\_medusa.txt** in the Desktop\Sample folder. Then, go to the **DOS Header Section**. What is the e\_magic value of the file?
 **Answer:** 5A4D
 
 ⸻⸻⸻⸻⸻
@@ -256,7 +256,7 @@ The **function** tabs list **API calls** that the file has imported. This is als
 
 Here are the important functions that we noted.
 
-\`set_UseShellExecute\`: This function allows the process to use the operating system's shell to execute other processes. This is often seen in malware that spawns additional processes to carry out malicious actions.
+\`set\_UseShellExecute\`: This function allows the process to use the operating system's shell to execute other processes. This is often seen in malware that spawns additional processes to carry out malicious actions.
 
 \`CryptoStream, RijndaelManaged, CipherMode, CreateDecryptor\`: These APIs indicate that the executable uses cryptographic functions, specifically Rijndael (AES encryption). Malware may use cryptography to encrypt communication and files or even implement ransomware functionality.
 
@@ -308,7 +308,7 @@ Using PEStudio, open the file windows.exe, then go to manifest (administrator se
 **Answer:** requireAdministrator
 
 Which function allows the process to use the operating system's shell to execute other processes?
-**Answer:** set_UseShellExecute
+**Answer:** set\_UseShellExecute
 
 Which API starts with R and indicates that the executable uses cryptographic functions?
 **Answer:** RijndaelManaged
