@@ -80,6 +80,10 @@ Will have to take time to take a look at the code and fully understand what it d
 - Found out there is an error during the update presentation where the players’ lobby still exists even though the host had already left the lobby.
 - Also found out there is another error in the same event where the players are not able to connect to the host due to some unknown errors but expected to be related to the previous error.
 - Try to refactor the code to eliminate unnecessary code
+- Ran into scene switching error on client side
+- Update the import PurrLobby because some import are outdated and being tampered
+- Some default script doesn’t work with Steamworks P2P so with Claude help, Steamworks P2P is added into the plugin code and has to manipulate some assembly file (asmdef file) for Unity to compile without error.
+- At least everything works now but gotta jump some hoops to get the effects and gameplay for waiting room that is needed
 
 
 
