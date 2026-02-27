@@ -64,7 +64,7 @@ export function initProjects() {
       tags: ['Godot', 'GDScript', 'Steamworks', 'GitLab', 'Krita', 'Blender', 'MS Paint'],
       status: 'beta',
       role: 'Lead Programmer, Gameplay Designer, UI/UX Designer, Artist, Technical Editor',
-      teamSize: '4',
+      teamSize: '3',
       duration: '5 years (2020 - Present)',
       gitlabLink: '',
       externalLink: 'https://store.steampowered.com/app/2165230/Kart_The_Tech_Filled_Racing_Game/',
