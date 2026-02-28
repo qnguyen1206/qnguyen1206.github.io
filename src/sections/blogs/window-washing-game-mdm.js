@@ -4,7 +4,7 @@ export default {
     category: 'Games',
     difficulty: 'Medium',
     tags: ['Game'],
-    date: '2026-02-10T12:00:00',
+    date: '2026-02-27T12:00:00',
     excerpt: 'MDM for Window Washing Game',
     content: `
 This is an MDM for the game called Window Washing Game. Since the game is still in development, this MDM is subject to change.
@@ -85,8 +85,9 @@ Will have to take time to take a look at the code and fully understand what it d
 - Some default script doesn’t work with Steamworks P2P so with Claude help, Steamworks P2P is added into the plugin code and has to manipulate some assembly file (asmdef file) for Unity to compile without error.
 - At least everything works now but gotta jump some hoops to get the effects and gameplay for waiting room that is needed
 
-
-
+**Feb. 26th, 2026**
+- Meeting with team to divide the tasks out again
+- Test multiplayer with 4 people (it works)
 
 `
 }

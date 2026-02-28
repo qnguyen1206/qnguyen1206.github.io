@@ -161,6 +161,7 @@ import flarevmArsenalOfTools from './blogs/flarevm-arsenal-of-tools.js';
 import fileInclusion from './blogs/file-inclusion.js';
 import raceConditions from './blogs/race-conditions.js';
 import sqlInjection from './blogs/sql-injection.js';
+import nmapLiveHostDiscovery from './blogs/nmap-live-host-discovery.js';
 
 /* TryHackMe Challenges */
 import theGameChallenge from './blogs/the-game-challenge.js';
