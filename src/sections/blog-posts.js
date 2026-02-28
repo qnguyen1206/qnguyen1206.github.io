@@ -216,6 +216,7 @@ export const blogPosts = [
     fileInclusion,
     raceConditions,
     sqlInjection,
+    nmapLiveHostDiscovery,
 
     /* TryHackMe Challenges */
     theGameChallenge,
