@@ -176,6 +176,7 @@ import todoApp from './blogs/todo-app.js';
 /* Games */
 import windowWashingGameMDM from './blogs/window-washing-game-mdm.js';
 import mythicalHuntMDM from './blogs/mythical-hunt-mdm.js';
+import lmc4720InteractiveNarrativeProject from './blogs/lmc-4720-interactive-narrative-project.js';
 
 export const blogPosts = [
     /* LeetCode */
@@ -230,5 +231,7 @@ export const blogPosts = [
 
     /* Games */
     windowWashingGameMDM,
+    //mythicalHuntMDM,
+    //lmc4720InteractiveNarrativeProject,
     
 ];

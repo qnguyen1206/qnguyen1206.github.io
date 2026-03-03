@@ -4,7 +4,7 @@ export default {
     category: 'Games',
     difficulty: 'Medium',
     tags: ['Game'],
-    date: '2026-02-27T12:00:00',
+    date: '2026-03-02T12:00:00',
     excerpt: 'MDM for Window Washing Game',
     content: `
 This is an MDM for the game called Window Washing Game. Since the game is still in development, this MDM is subject to change.
@@ -89,5 +89,19 @@ Will have to take time to take a look at the code and fully understand what it d
 - Meeting with team to divide the tasks out again
 - Test multiplayer with 4 people (it works)
 
+**Mar. 2nd, 2026**
+- Implemented building spawners
+- Ran into some synchronization and instantiate problems
+- Solved it using UnityProxy.InstantiateDirectly which a force bypass Instantiate on networking
+- Also watch this tutorial <a href="https://www.youtube.com/watch?v=35N_nfny6Ec&list=PLF6lFlLzb6CSO2MyOcUStQJ7YRuQmi58W&index=6">Synchronizing in Unity (SyncVar) - PurrNet</a> to learn how to sync the number of building floors.
+Welp, just figure out don’t need to use SyncVar
+- Get the building wall spawning to work
+Did learn that Unity doesn’t have add children to a game object but do have SetParent()
+- Make a little touch for the buttons UI to make it look like window glare effect.
+Have to run through so many iterations due to the overwhelming color it has on the button since the button is already too crowded with effects.
+- Try to implement window spawning system
+- Ran into problems where the windows are spawning with wrong scale and position due to conflict with parents and children’s position in addition to local vs. world transform
+- Also ran into the problem with synchronization for windows layout since we want to make it procedural and dynamic
+Consult Claude for different options for synchronization and also fixing some issues in the code for synchronization
 `
 }
