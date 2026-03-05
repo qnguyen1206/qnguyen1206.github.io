@@ -1,3 +1,5 @@
+import { trackProjectView } from '../utils/analytics.js';
+
 export function initProjects() {
   const projects = document.getElementById('projects');
   if (!projects) return;
@@ -730,6 +732,9 @@ For more information, please visit the <a href="javascript:void(0)" onclick="win
 
     modal.classList.add('active');
     document.body.style.overflow = 'hidden';
+
+    // Track project view in Google Analytics
+    trackProjectView(project.id, project.title);
   }
 
   function closeModal() {

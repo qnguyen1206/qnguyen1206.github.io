@@ -4,7 +4,7 @@ export default {
     category: 'Games',
     difficulty: 'Medium',
     tags: ['Game'],
-    date: '2026-03-02T12:00:00',
+    date: '2026-03-04T12:00:00',
     excerpt: 'MDM for Window Washing Game',
     content: `
 This is an MDM for the game called Window Washing Game. Since the game is still in development, this MDM is subject to change.
@@ -103,5 +103,12 @@ Have to run through so many iterations due to the overwhelming color it has on t
 - Ran into problems where the windows are spawning with wrong scale and position due to conflict with parents and children’s position in addition to local vs. world transform
 - Also ran into the problem with synchronization for windows layout since we want to make it procedural and dynamic
 Consult Claude for different options for synchronization and also fixing some issues in the code for synchronization
+
+**Mar. 4th, 2026**
+- Fix a bug when merging causing from the change in name of prefabs
+- Fix shader problem since there was no shader manager in the scene
+- Test out the building spawner across computer and it works
+Used Claude to find what functions and components need to plug-in in order to make the spawner happen. 😅
+- Fix lobby UI so that it shows number of players’ ready / max players instead of number of players / max players
 `
 }

@@ -14,6 +14,7 @@ import { initResume } from './sections/resume.js';
 import { initContacts } from './sections/contacts.js';
 import { initAnimations } from './utils/animations.js';
 import { initLazyLoading } from './utils/lazyload.js';
+import { initAnalytics } from './utils/analytics.js';
 
 document.querySelector('#app').innerHTML = `
   <main>
@@ -39,5 +40,6 @@ document.addEventListener('DOMContentLoaded', () => {
   setTimeout(() => {
     initAnimations();
     initLazyLoading();
+    initAnalytics();
   }, 0);
 });

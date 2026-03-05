@@ -1,6 +1,7 @@
 import hljs from 'highlight.js';
 import 'highlight.js/styles/atom-one-dark.css';
 import { blogPosts } from './blog-posts.js';
+import { trackBlogView } from '../utils/analytics.js';
 
 export function initBlog() {
   const blog = document.getElementById('blog');
@@ -1331,6 +1332,9 @@ export function initBlog() {
           modalBody.scrollTop = 0;
           document.documentElement.style.overflow = 'hidden';
           document.body.style.overflow = 'hidden';
+
+          // Track blog view in Google Analytics
+          trackBlogView(post.id, post.title, post.category);
         }
       });
     });
@@ -1370,6 +1374,9 @@ export function initBlog() {
       modalBody.scrollTop = 0;
       document.documentElement.style.overflow = 'hidden';
       document.body.style.overflow = 'hidden';
+
+      // Track blog view in Google Analytics
+      trackBlogView(post.id, post.title, post.category);
     }
   };
 
