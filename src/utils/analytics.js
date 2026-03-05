@@ -3,9 +3,26 @@
 const GA_MEASUREMENT_ID = import.meta.env.VITE_GA_MEASUREMENT_ID;
 
 /**
+ * Check if we should skip analytics (localhost/dev environment)
+ */
+function shouldSkipAnalytics() {
+  const hostname = window.location.hostname;
+  return hostname === 'localhost' || 
+         hostname === '127.0.0.1' || 
+         hostname.startsWith('192.168.') ||
+         hostname === '';
+}
+
+/**
  * Initialize Google Analytics
  */
 export function initAnalytics() {
+  // Skip analytics on local development
+  if (shouldSkipAnalytics()) {
+    console.log('Google Analytics: Skipped (local development)');
+    return;
+  }
+
   if (!GA_MEASUREMENT_ID) {
     console.warn('Google Analytics: No measurement ID provided');
     return;
