@@ -165,6 +165,7 @@ import nmapLiveHostDiscovery from './blogs/nmap-live-host-discovery.js';
 
 /* TryHackMe Challenges */
 import theGameChallenge from './blogs/the-game-challenge.js';
+import pickleRickChallenge from './blogs/pickle-rick-challenge.js';
 
 /* HackTheBox Challenges */
 import meow from './blogs/meow.js';
@@ -221,6 +222,7 @@ export const blogPosts = [
 
     /* TryHackMe Challenges */
     theGameChallenge,
+    pickleRickChallenge,
 
     /* HackTheBox Challenges */
     meow,
