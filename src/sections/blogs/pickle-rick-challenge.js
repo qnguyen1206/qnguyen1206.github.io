@@ -5,9 +5,9 @@ export default {
     difficulty: 'Easy',
     tags: ['Pen Testing, Web Application'],
     date: '2026-03-05T12:00:00',
-    excerpt: 'Write up for Pickle Rick Challenge room on TryHackMe',
+    excerpt: 'Write up and walkthrough of Pickle Rick Challenge room on TryHackMe',
     content: `
-This is the write up for the Pickle Rick Challenge room on TryHackMe.
+This is the write up and walkthrough of the Pickle Rick Challenge room on TryHackMe.
 
 ⸻⸻⸻⸻⸻
 

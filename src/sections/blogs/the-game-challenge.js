@@ -5,9 +5,9 @@ export default {
     difficulty: 'Easy',
     tags: ['Penetration Testing'],
     date: '2026-01-29T12:00:00',
-    excerpt: 'Write up of The Game Challenge room on TryHackMe.',
+    excerpt: 'Write up and walkthrough of The Game Challenge room on TryHackMe.',
     content: `
-This is a write up for the The Game Challenge room on TryHackMe.
+This is a write up and walkthrough of the The Game Challenge room on TryHackMe.
 
 ⸻⸻⸻⸻⸻
 
