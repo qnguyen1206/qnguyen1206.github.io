@@ -110,5 +110,20 @@ Consult Claude for different options for synchronization and also fixing some is
 - Test out the building spawner across computer and it works
 Used Claude to find what functions and components need to plug-in in order to make the spawner happen. 😅
 - Fix lobby UI so that it shows number of players’ ready / max players instead of number of players / max players
+
+**Mar. 8th, 2026**
+- Meeting with team to resolve art style conflict and catch up with progress
+
+**Mar. 9th, 2026**
+- Meeting with team to resolve some bug issues regarding the synchronization and UI update to resolve the art style conflict from last meeting
+Still didn’t fix the bug so will do it outside of the meeting time
+
+**Mar. 10th, 2026**
+- Find out there is a bug for synchronization after changing how the windows are spawning.
+- Try out SyncVar to see if it works
+- SyncVar solved the problem
+- Fixing a bug where the rig movement is not synchronize
+Thanks to Claude, an initial suspect of why the bug is happening is because the rig is changing in local position and the rig is animating locally.
+- That is the problem and the rig movement synchronization bug is fixed
 `
 }

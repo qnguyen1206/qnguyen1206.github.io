@@ -132,6 +132,8 @@ export function initProjects() {
 ## Designer
 - Designed and implemented the app's UI/UX.
 - Created the app's logo and branding.
+
+For more information about the design process, please visit the <a href="javascript:void(0)" onclick="window.openBlogPost('turnover-design-process')" style="color: var(--primary); text-decoration: underline; cursor: pointer;">design process page</a>.
 `
     },
     {

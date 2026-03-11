@@ -120,7 +120,26 @@
    * 
    * ⸻⸻⸻⸻⸻
    * =====================================================
-   */
+*/
+
+/*
+   * =====================================================
+   * LAYOUT CHEATSHEET
+   * =====================================================
+
+export default {
+    id: '',
+    title: '',
+    category: '',
+    difficulty: '',
+    tags: [''],
+    date: '',
+    excerpt: '',
+    content: `
+`
+}
+
+*/
 
 /* LeetCode */
 import shuffleTheArray from './blogs/shuffle-the-array.js';
@@ -173,6 +192,7 @@ import meow from './blogs/meow.js';
 /* Tools */
 import portScannerTool from './blogs/port-scanner-tool.js';
 import todoApp from './blogs/todo-app.js';
+import turnoverDesignProcess from './blogs/turnover-design-process.js';
 
 /* Games */
 import windowWashingGameMDM from './blogs/window-washing-game-mdm.js';
@@ -230,6 +250,7 @@ export const blogPosts = [
     /* Tools */
     portScannerTool,
     todoApp,
+    turnoverDesignProcess,
 
     /* Games */
     windowWashingGameMDM,
