@@ -144,7 +144,7 @@ For more information about the design process, please visit the <a href="javascr
       description: 'A party co-op game where players work together to clean the windows.',
       tags: ['Unity', 'C#', 'GitHub', 'Figma', 'Trello'],
       status: 'in development',
-      role: 'Programmer, System Designer',
+      role: 'Programmer, System Designer, UI/UX Designer',
       teamSize: '6',
       duration: '',
       githubLink: '',
@@ -158,6 +158,9 @@ For more information about the design process, please visit the <a href="javascr
 ## System Designer
 - Designed game's system architecture.
 - Designed game's data model.
+
+## UI/UX Designer
+- Designed lobby's UI including players cards.
 
 For MDM, please visit the <a href="javascript:void(0)" onclick="window.openBlogPost('window-washing-game-mdm')" style="color: var(--primary); text-decoration: underline; cursor: pointer;">writeup page</a>.
 `

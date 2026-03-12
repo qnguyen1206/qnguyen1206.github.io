@@ -125,5 +125,11 @@ Still didn’t fix the bug so will do it outside of the meeting time
 - Fixing a bug where the rig movement is not synchronize
 Thanks to Claude, an initial suspect of why the bug is happening is because the rig is changing in local position and the rig is animating locally.
 - That is the problem and the rig movement synchronization bug is fixed
+
+**Mar. 11th, 2026**
+- Fix issue with github branching for one of the team members 
+- Start Character Design with teams
+- Start working on game mechanics where the player can pick up the squeegee
+
 `
 }
