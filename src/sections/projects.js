@@ -218,7 +218,10 @@ For more information, please visit the <a href="javascript:void(0)" onclick="win
       role: 'Sole Developer',
       duration: '4 years (2021 - Present)',
       gitlabLink: 'https://gitlab.com/infinity-mythical-hunt',
-      images: []
+      images: [],
+      writeup: `
+For more information about Game Design Docs (GDD), please visit this <a href="https://docs.google.com/document/d/1UJy3OC_YYUjv-iYgKN2nyl05vAzpec3FY6-ygIBCkA4/edit?usp=sharing">link</a>.
+`,
     },
     {
       id: 'what-yours-is-mime',
