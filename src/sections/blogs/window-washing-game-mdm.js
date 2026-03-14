@@ -131,5 +131,8 @@ Thanks to Claude, an initial suspect of why the bug is happening is because the 
 - Start Character Design with teams
 - Start working on game mechanics where the player can pick up the squeegee
 
+**Mar. 13th, 2026**
+- Fixing UI bugs where player cards UI is not showing up
+- Solved git conflict when merging
 `
 }

@@ -154,6 +154,7 @@ For more information about the design process, please visit the <a href="javascr
 ## Programmer
 - Implemented game's mechanics and logic.
 - Implemented game's online multiplayer using PurrNet.
+- Resolving merge conflicts
 
 ## System Designer
 - Designed game's system architecture.
