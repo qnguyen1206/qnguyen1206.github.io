@@ -136,5 +136,20 @@ Thanks to Claude, an initial suspect of why the bug is happening is because the 
 - Solved git conflict when merging
 - Fixed UI bug where the room members use the room owners player cards
 
+**Mar. 15th, 2026*
+- Git doing Git thing and broke the game 🥲
+Took a while but apparently, I broke the game 😐😐😐😐😐😐😐😐
+Well, it fixed by the end but it took around an hour or so to fix everything
+- Work on the new squeegee and new rig model
+Still haven’t able to make the player detach from the squeegee
+Some random stuff happen with the rig after applying rigid body
+- Fix the hinge door to work properly
+- Fix the rig to move lower to allow the player to get in
+Ask Claude to help debug the problem where the player are not able to detach from the squeegee
+
+**Mar. 16th, 2026**
+- Update skybox and background for the game
+Welp, have some fun easter eggs and bugs in the game but that’s fine 😆
+
 `
 }
