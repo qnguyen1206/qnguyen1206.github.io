@@ -150,6 +150,21 @@ Ask Claude to help debug the problem where the player are not able to detach fro
 **Mar. 16th, 2026**
 - Update skybox and background for the game
 Welp, have some fun easter eggs and bugs in the game but that’s fine 😆
-
+- Help design the loading screen, settings screen, pause screen
+- Help divide tasks among the group members
+- Implement persistent data system using PlayerPrefs
+PlayerPrefs works because it is simple and the game currently doesn’t need to store anything need security or complex data
+- Fix bugs with the squeegee handling
+Kinda painful since it just collision, collider and some random problems 🫩
+OK, WHATEVER UNITY DO WITH COLLISION, PLEASE JUST FIX IT. WHY IS COLLISION HAVE MORE PROBLEMS THAN MULTIPLAYER?????
+WHYYYYYYYYY????????????????????????????????????????????????????????????????????????????JUST WHY?????????????????????????????????????????? 🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬
+- Fix the rotation bug where the player rotate on the y-axis after picking up or dropping down the squeegee
+AHAHHAHAHAHAHHAAHAHAHAHAHAHAHA, after 4 hrs of working, it finally working, AHAHAHAHAHAAHAHAHAHAHAHAHAAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHHHAHAH
+IT IS THE DAMPING THAT CAUSES THE PROBLEMS. WHO PUT THE DAMPING TO 0.05?????? GOT TO MOVE THAT TO 50. 🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳
+- Add in mechanics that allow players to turn around using mouse
+Well, there are more bugs related to collision so still hate it.
+Yeah, after 6.5 hours with Claude and still haven’t able to fix the collision so gotta take a break before having mental break down or something
+- Add in customization backend code to allow players to choose different player card skins
+Take a break from collision 😒😒😒😒😒😒😒😒😒😒😒😒😒😒😒😒
 `
 }

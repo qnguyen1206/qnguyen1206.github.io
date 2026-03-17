@@ -4,6 +4,12 @@ const certificatesData = {
   ],
   nonProfessional: [
     {
+      title: "Jr Penetration Tester",
+      issuer: "TryHackMe",
+      date: "Mar 16, 2026",
+      link: "https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-SGYE4BVITL.pdf"
+    },
+    {
       title: "Web Fundamentals",
       issuer: "TryHackMe",
       date: "Mar 5, 2026",
