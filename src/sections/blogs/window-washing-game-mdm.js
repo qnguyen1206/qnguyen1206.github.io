@@ -166,5 +166,28 @@ Well, there are more bugs related to collision so still hate it.
 Yeah, after 6.5 hours with Claude and still haven’t able to fix the collision so gotta take a break before having mental break down or something
 - Add in customization backend code to allow players to choose different player card skins
 Take a break from collision 😒😒😒😒😒😒😒😒😒😒😒😒😒😒😒😒
+- Fix bugs where after the players leave the lobby, the lobby doesn’t close in which create ghost lobbies
+
+**Mar. 17th, 2026**
+- Well, not a good day because something is wrong with the position and control scripts of the player and the squeegee. They are immune to gravity and force even though their rigid body is not position lock or rotation lock.
+Guess Rigid Body and Gravity doesn’t go to work today 😞😞😞😞😞😞😞
+HAHAHAHAHAHAHAHAHAHA, IT HAD BEEN 4 HOURS AND NOTHING WORKS AHAHAHAHAHAHAHAHAHAH 😵‍💫😵‍💫😵‍💫😵‍💫😵‍💫😵‍💫😵‍💫😵‍💫😵‍💫😵‍💫
+- Still haven’t able to fix yet
+Things that I had tried to fix this problem:
+    - Revert changes and test each commit one by one
+    - Read through each files to make sure every line of code is correct and every changes were not interfere with each other
+    - Go back to the commit that works, download the git folder, extract it, and use it to overwrite everything in the head commit
+    - Uninstall and reinstall the unity editor
+    - Git reset hard to the correct commit
+- Still haven’t fix it AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+**Mar. 18th, 2026**
+- Create a new scene with minimal objects to test
+- Figure out that the physic engine was turn off
+HOLYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+AHAHAHHHHHHAHAHAHAHAHAHAHAHAHAHHAHAHHAHAHAHAHA
+16 HOURS JUST TO FIND OUT THE PHYSICS IS TURN OFF
+AHHAAHHAHAHAHHHHHHHAHAHAHAHAHAHAHAHAHAHAAAAAAA
+
 `
 }

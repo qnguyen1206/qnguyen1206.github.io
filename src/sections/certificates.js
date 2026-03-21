@@ -57,7 +57,24 @@ const certificatesData = {
       date: "July 21, 2023",
       link: "https://www.freecodecamp.org/certification/quang_m_nguyen/javascript-algorithms-and-data-structures"
     }
-  ]
+  ],
+  honors: [
+    {
+      title: "Dean's List",
+      issuer: "Georgia Tech",
+      date: "Fall 2025"
+    },
+    {
+      title: "President's List",
+      issuer: "Georgia State University",
+      date: "Spring 2023"
+    },
+    {
+      title: "President's List",
+      issuer: "Georgia State University",
+      date: "Fall 2022"
+    },
+  ],
 };
 
 const issuerIcons = {
@@ -68,6 +85,8 @@ const issuerIcons = {
   "freeCodeCamp": "icons/freeCodeCamp.svg",
   "LinkedIn Learning": "icons/LinkedIn.svg",
   "TryHackMe": "icons/tryhackme.svg",
+  "Georgia State University": "/icons/GT_seal.png",
+  "Georgia Tech": "/icons/GSU_seal.png",
   "Coursera": {
     type: "svg",
     content: `<circle cx="12" cy="12" r="3"/><path d="M12 1v6"/><path d="M12 17v6"/><path d="M4.22 4.22l4.24 4.24"/><path d="15.54 15.54l4.24 4.24"/><path d="M1 12h6"/><path d="M17 12h6"/><path d="M4.22 19.78l4.24-4.24"/><path d="M15.54 8.46l4.24-4.24"/>`
@@ -107,6 +126,20 @@ function getIssuerIcon(issuer) {
 }
 
 function generateCertificateHTML(cert) {
+  // For honors without links, render as a div instead of an anchor
+  if (!cert.link) {
+    return `
+      <div class="certificate-card certificate-honor">
+        <div class="certificate-icon">
+          ${getIssuerIcon(cert.issuer)}
+        </div>
+        <h3>${cert.title}</h3>
+        <p class="certificate-issuer">${cert.issuer}</p>
+        <p class="certificate-date">${cert.date}</p>
+      </div>
+    `;
+  }
+
   return `
     <a href="${cert.link}" class="certificate-card" target="_blank" rel="noopener noreferrer">
       <div class="certificate-icon">
@@ -169,7 +202,7 @@ export function initCertificates() {
 
   certificatesSection.innerHTML = `
     <div class="container">
-      <h2 class="section-title reveal">Certificates</h2>
+      <h2 class="section-title reveal">Honors & Certificates</h2>
       
       <div class="certificates-tabs">
         <button class="cert-tab-btn active" data-tab="professional">
@@ -189,6 +222,15 @@ export function initCertificates() {
             <path d="M6 10.6v5.4a6 3 0 0 0 12 0v-5.4" />
           </svg>
           Non-Professional
+        </button>
+        <button class="cert-tab-btn" data-tab="honors">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M12 17v4" />
+            <path d="M9 6l-4.873 8.5a2 2 0 0 0 1.735 2.977h10.476a2 2 0 0 0 1.734 -2.977l-4.873 -8.5" />
+            <path d="M12 6v4" />
+          </svg>
+          Honors
         </button>
       </div>
 
@@ -274,6 +316,14 @@ export function initCertificates() {
         width: 100%;
         color: var(--color-gray-400);
         font-size: var(--font-size-lg);
+      }
+
+      .certificate-honor {
+        cursor: default;
+      }
+
+      .certificate-honor:hover {
+        transform: translateY(-8px);
       }
 
       .certificates-container {
