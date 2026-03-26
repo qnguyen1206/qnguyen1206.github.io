@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon TCG Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <span class="logo-icon">⚡</span>
+                <span class="logo-text">Pokemon TCG Tracker</span>
+            </div>
+            <nav class="nav">
+                <button class="nav-btn active" data-view="browse">Browse Cards</button>
+                <button class="nav-btn" data-view="collection">My Collection</button>
+                <button class="nav-btn" data-view="profile">Profile</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <!-- Mobile Filter Toggle -->
+        <button class="mobile-filter-toggle" id="mobile-filter-toggle">
+            <span>🔍</span> Filters
+            <span class="filter-toggle-arrow">▼</span>
+        </button>
+        
+        <!-- Filters Section -->
+        <aside class="filters-sidebar" id="filters-sidebar">
+            <h3>Filters</h3>
+            
+            <div class="filter-group">
+                <label for="search-input">Search</label>
+                <input type="text" id="search-input" placeholder="Search by name...">
+            </div>
+
+            <div class="filter-group collection-filter" style="display: none;">
+                <label for="owned-select">Show</label>
+                <select id="owned-select">
+                    <option value="all">All Cards</option>
+                    <option value="owned" selected>Owned</option>
+                    <option value="not-owned">Not Owned</option>
+                    <option value="duplicates">Duplicates</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label>Series & Sets</label>
+                <div class="nested-dropdown" id="series-dropdown">
+                    <button class="dropdown-trigger" id="dropdown-trigger">
+                        <span id="dropdown-label">All Sets</span>
+                        <span class="dropdown-arrow">▼</span>
+                    </button>
+                    <div class="dropdown-menu" id="dropdown-menu">
+                        <div class="dropdown-item" data-set="">
+                            <span>All Sets</span>
+                        </div>
+                        <!-- Series items will be populated by JS -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <label for="rarity-select">Rarity</label>
+                <select id="rarity-select">
+                    <option value="">All Rarities</option>
+                    <option value="Common">Common</option>
+                    <option value="Uncommon">Uncommon</option>
+                    <option value="Rare">Rare</option>
+                    <option value="Rare Holo">Rare Holo</option>
+                    <option value="Rare Holo EX">Rare Holo EX</option>
+                    <option value="Rare Holo GX">Rare Holo GX</option>
+                    <option value="Rare Holo V">Rare Holo V</option>
+                    <option value="Rare Holo VMAX">Rare Holo VMAX</option>
+                    <option value="Rare Ultra">Rare Ultra</option>
+                    <option value="Rare Secret">Rare Secret</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label for="type-select">Pokemon Type</label>
+                <select id="type-select">
+                    <option value="">All Types</option>
+                    <option value="Colorless">Colorless</option>
+                    <option value="Darkness">Darkness</option>
+                    <option value="Dragon">Dragon</option>
+                    <option value="Fairy">Fairy</option>
+                    <option value="Fighting">Fighting</option>
+                    <option value="Fire">Fire</option>
+                    <option value="Grass">Grass</option>
+                    <option value="Lightning">Lightning</option>
+                    <option value="Metal">Metal</option>
+                    <option value="Psychic">Psychic</option>
+                    <option value="Water">Water</option>
+                </select>
+            </div>
+
+            <button class="btn btn-secondary" id="clear-filters">Clear Filters</button>
+            <button class="btn btn-secondary" id="refresh-cache" style="margin-top: 0.5rem; font-size: 0.85rem;">🔄 Refresh Card Data</button>
+        </aside>
+
+        <!-- Cards Grid -->
+        <section class="content">
+            <!-- Browse View -->
+            <div id="browse-view" class="view active">
+                <div class="view-header">
+                    <h2>Browse Cards</h2>
+                    <span class="card-count" id="browse-count">Loading...</span>
+                </div>
+                <div class="cards-grid" id="browse-grid">
+                    <div class="loading">
+                        <div class="pokeball-loader"></div>
+                        <p>Loading cards...</p>
+                    </div>
+                </div>
+                <div class="pagination" id="pagination"></div>
+            </div>
+
+            <!-- Collection View -->
+            <div id="collection-view" class="view">
+                <div class="view-header">
+                    <h2>My Collection</h2>
+                    <div class="view-controls">
+                        <div class="view-toggle">
+                            <button class="view-toggle-btn active" data-view-mode="grid" title="Grid View">▦</button>
+                            <button class="view-toggle-btn" data-view-mode="list" title="List View">☰</button>
+                            <button class="view-toggle-btn" data-view-mode="binder" title="Binder View">▤</button>
+                        </div>
+                        <div class="binder-options" style="display: none;">
+                            <select id="binder-size">
+                                <option value="4">2×2 (4 cards)</option>
+                                <option value="9" selected>3×3 (9 cards)</option>
+                                <option value="12">3×4 (12 cards)</option>
+                                <option value="16">4×4 (16 cards)</option>
+                                <option value="custom">Custom</option>
+                            </select>
+                            <input type="number" id="binder-custom-size" min="1" max="36" value="9" placeholder="Cards" style="display: none; width: 60px;">
+                        </div>
+                        <span class="card-count" id="collection-count">0 cards</span>
+                    </div>
+                </div>
+                <div class="cards-grid" id="collection-grid">
+                    <p class="empty-state">Your collection is empty. Browse cards and add them to your collection!</p>
+                </div>
+                <div class="binder-pagination" id="binder-pagination" style="display: none;">
+                    <button class="binder-nav-btn" id="binder-prev">◀ Previous</button>
+                    <span class="binder-page-info" id="binder-page-info">Page 1 of 1</span>
+                    <button class="binder-nav-btn" id="binder-next">Next ▶</button>
+                </div>
+            </div>
+
+            <!-- Profile View -->
+            <div id="profile-view" class="view">
+                <div class="view-header">
+                    <h2>My Profile</h2>
+                </div>
+                <div class="stats-container">
+                    <div class="stat-card">
+                        <span class="stat-icon">🎴</span>
+                        <div class="stat-info">
+                            <span class="stat-value" id="total-cards">0</span>
+                            <span class="stat-label">Total Cards</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-icon">✨</span>
+                        <div class="stat-info">
+                            <span class="stat-value" id="unique-cards">0</span>
+                            <span class="stat-label">Unique Cards</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-icon">📦</span>
+                        <div class="stat-info">
+                            <span class="stat-value" id="sets-collected">0</span>
+                            <span class="stat-label">Sets Collected</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-icon">🏆</span>
+                        <div class="stat-info">
+                            <span class="stat-value" id="most-valuable-card">-</span>
+                            <span class="stat-label">Most Valuable</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-icon">💰</span>
+                        <div class="stat-info">
+                            <span class="stat-value" id="collection-value">$0.00</span>
+                            <span class="stat-label">Collection Value</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="stats-charts">
+                    <div class="chart-section value-history-section">
+                        <h3>Collection Value Over Time</h3>
+                        <div class="value-history-chart" id="value-history-chart"></div>
+                    </div>
+                    <div class="chart-section">
+                        <h3>Cards by Type</h3>
+                        <div class="type-bars" id="type-chart"></div>
+                    </div>
+                    <div class="chart-section">
+                        <h3>Cards by Rarity</h3>
+                        <div class="rarity-bars" id="rarity-chart"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Card Modal -->
+    <div class="modal" id="card-modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img id="modal-card-image" src="" alt="">
+                </div>
+                <div class="modal-info">
+                    <h2 id="modal-card-name"></h2>
+                    <div class="modal-details">
+                        <p><strong>Set:</strong> <span id="modal-card-set"></span></p>
+                        <p><strong>Number:</strong> <span id="modal-card-number"></span></p>
+                        <p><strong>Rarity:</strong> <span id="modal-card-rarity"></span></p>
+                        <p><strong>Type:</strong> <span id="modal-card-type"></span></p>
+                        <p><strong>Artist:</strong> <span id="modal-card-artist"></span></p>
+                    </div>
+                    <div class="modal-actions">
+                        <h4>Card Variants</h4>
+                        <div class="variants-grid" id="variants-grid">
+                            <!-- Variants will be populated by JS -->
+                        </div>
+                        <button class="btn btn-primary" id="save-to-collection">Save to Collection</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
