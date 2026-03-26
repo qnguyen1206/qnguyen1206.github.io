@@ -3,7 +3,7 @@
 import { state, elements } from './state.js';
 import { applyFiltersAndRender, renderCollection, closeModal, saveCollectionWithVariants, populateSetsDropdown, showLoading } from './ui.js';
 import { updateStats, renderValueHistoryChart, updateCharts } from './stats.js';
-import { clearCache, loadCollectionFromDB, loadValueHistoryFromDB } from './db.js';
+import { initDB, clearCache, loadCollectionFromDB, loadValueHistoryFromDB } from './db.js';
 import { loadAllCards, loadSets } from './api.js';
 
 // Setup all event listeners
@@ -240,6 +240,9 @@ export function debounce(func, wait) {
 export async function init() {
     // Show loading state
     showLoading(elements.browseGrid);
+    
+    // Initialize IndexedDB first!
+    await initDB();
     
     // Load collection from IndexedDB
     await loadCollectionFromDB();

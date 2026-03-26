@@ -7,6 +7,28 @@ export const CACHE_DB_NAME = 'pokemon-tcg-db';
 export const CACHE_DB_VERSION = 2;
 export const CACHE_EXPIRY_DAYS = 7;
 
+// API Key (optional - only needed if falling back to API instead of pre-built JSON)
+// Get one free at https://dev.pokemontcg.io/
+// Without key: 1000 requests/day, With key: 20,000 requests/day
+export const API_KEY = '';
+
+// Fetch options for API calls
+export function getFetchOptions() {
+    const options = {
+        method: 'GET',
+        headers: {
+            'Content-Type': 'application/json',
+        }
+    };
+    
+    // Add API key if provided
+    if (API_KEY) {
+        options.headers['X-Api-Key'] = API_KEY;
+    }
+    
+    return options;
+}
+
 // Card variants configuration - maps TCGPlayer price keys to display info
 // Order matters for display
 export const VARIANT_ORDER = ['normal', 'holofoil', 'reverseHolofoil', '1stEditionHolofoil', '1stEditionNormal', 'unlimitedHolofoil'];
