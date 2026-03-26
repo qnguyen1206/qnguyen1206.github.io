@@ -19,7 +19,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        'pokemon-tcg-tracker': resolve(__dirname, 'src/pokemon-tcg-tracker/index.html')
+        'pokemon-tcg-tracker/index': resolve(__dirname, 'pokemon-tcg-tracker/index.html')
       },
       output: {
         manualChunks: {
