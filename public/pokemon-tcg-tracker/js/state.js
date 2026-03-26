@@ -26,7 +26,8 @@ export const state = {
     binderSize: 9, // cards per page
     binderPage: 1,
     binderTotalPages: 1,
-    filteredCollectionCards: [] // Store filtered cards for binder pagination
+    filteredCollectionCards: [], // Store filtered cards for binder pagination
+    masterSetMode: false // When true, show each variant as separate entry in binder
 };
 
 // DOM Elements - cached for performance

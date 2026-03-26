@@ -119,20 +119,55 @@ export function renderCollection() {
         return parseInt(a.number) - parseInt(b.number);
     });
     
+    // For Master Set mode in binder view, expand cards to show each variant as separate entry
+    let displayItems = [];
+    if (state.collectionViewMode === 'binder' && state.masterSetMode) {
+        // Expand each card into its variants
+        displayCards.forEach(card => {
+            const variants = getCardVariants(card);
+            variants.forEach(variant => {
+                displayItems.push({
+                    card: card,
+                    variant: variant,
+                    isMasterSetItem: true
+                });
+            });
+        });
+    } else {
+        // Normal mode - one entry per card
+        displayItems = displayCards.map(card => ({
+            card: card,
+            variant: null,
+            isMasterSetItem: false
+        }));
+    }
+    
     // Store filtered cards for binder pagination
     state.filteredCollectionCards = displayCards;
     
-    // Count owned cards in the display
-    const ownedInDisplay = displayCards.filter(c => collectionIds.includes(c.id));
-    const totalOwnedCount = ownedInDisplay.reduce((sum, card) => sum + getCardTotalQty(card.id), 0);
-    
-    if (state.filters.owned === 'all' || state.filters.owned === 'not-owned') {
-        elements.collectionCount.textContent = `${displayCards.length} cards (${ownedInDisplay.length} owned)`;
+    // Count owned cards/variants in the display
+    let ownedCount, totalCount;
+    if (state.collectionViewMode === 'binder' && state.masterSetMode) {
+        // Count owned variants
+        ownedCount = displayItems.filter(item => {
+            const cardData = state.collection[item.card.id] || {};
+            const qty = typeof cardData === 'object' ? (cardData[item.variant.id] || 0) : 0;
+            return qty > 0;
+        }).length;
+        totalCount = displayItems.length;
+        elements.collectionCount.textContent = `${ownedCount}/${totalCount} variants`;
     } else {
-        elements.collectionCount.textContent = `${totalOwnedCount} cards (${ownedInDisplay.length} unique)`;
+        const ownedInDisplay = displayCards.filter(c => collectionIds.includes(c.id));
+        const totalOwnedCount = ownedInDisplay.reduce((sum, card) => sum + getCardTotalQty(card.id), 0);
+        
+        if (state.filters.owned === 'all' || state.filters.owned === 'not-owned') {
+            elements.collectionCount.textContent = `${displayCards.length} cards (${ownedInDisplay.length} owned)`;
+        } else {
+            elements.collectionCount.textContent = `${totalOwnedCount} cards (${ownedInDisplay.length} unique)`;
+        }
     }
     
-    if (displayCards.length === 0) {
+    if (displayItems.length === 0) {
         if (state.filters.owned === 'owned' && collectionIds.length === 0) {
             elements.collectionGrid.innerHTML = '<p class="empty-state">Your collection is empty. Browse cards and add them to your collection!</p>';
         } else {
@@ -143,24 +178,30 @@ export function renderCollection() {
     }
     
     // Handle different view modes
-    let cardsToShow;
+    let itemsToShow;
     let html;
     
     if (state.collectionViewMode === 'binder') {
         // Binder view with pagination
-        state.binderTotalPages = Math.ceil(displayCards.length / state.binderSize);
+        state.binderTotalPages = Math.ceil(displayItems.length / state.binderSize);
         if (state.binderPage > state.binderTotalPages) state.binderPage = 1;
         
         const startIndex = (state.binderPage - 1) * state.binderSize;
-        cardsToShow = displayCards.slice(startIndex, startIndex + state.binderSize);
+        itemsToShow = displayItems.slice(startIndex, startIndex + state.binderSize);
         
-        html = cardsToShow.map(card => {
-            const isOwned = collectionIds.includes(card.id);
-            return createCardHTML(card, !isOwned);
+        html = itemsToShow.map(item => {
+            if (item.isMasterSetItem) {
+                // Master set mode - show individual variant
+                return createMasterSetCardHTML(item.card, item.variant);
+            } else {
+                // Normal mode
+                const isOwned = collectionIds.includes(item.card.id);
+                return createCardHTML(item.card, !isOwned);
+            }
         }).join('');
         
         // Add empty slots if needed to complete the page
-        const emptySlots = state.binderSize - cardsToShow.length;
+        const emptySlots = state.binderSize - itemsToShow.length;
         for (let i = 0; i < emptySlots; i++) {
             html += '<div class="card-item empty-slot"></div>';
         }
@@ -176,16 +217,16 @@ export function renderCollection() {
         
         // Paginate for performance (show max 100 cards at a time)
         const MAX_DISPLAY = 100;
-        const showingAll = displayCards.length <= MAX_DISPLAY;
-        cardsToShow = showingAll ? displayCards : displayCards.slice(0, MAX_DISPLAY);
+        const showingAll = displayItems.length <= MAX_DISPLAY;
+        itemsToShow = showingAll ? displayItems : displayItems.slice(0, MAX_DISPLAY);
         
-        html = cardsToShow.map(card => {
-            const isOwned = collectionIds.includes(card.id);
-            return createCardHTML(card, !isOwned);
+        html = itemsToShow.map(item => {
+            const isOwned = collectionIds.includes(item.card.id);
+            return createCardHTML(item.card, !isOwned);
         }).join('');
         
         if (!showingAll) {
-            html += `<p class="load-more-hint">Showing ${MAX_DISPLAY} of ${displayCards.length} cards. Use filters to narrow results.</p>`;
+            html += `<p class="load-more-hint">Showing ${MAX_DISPLAY} of ${displayItems.length} cards. Use filters to narrow results.</p>`;
         }
     }
     
@@ -252,6 +293,37 @@ export function createCardHTML(card, grayed = false) {
             </div>
             <div class="card-variants" onclick="event.stopPropagation()">
                 ${variantChecks}
+            </div>
+        </div>
+    `;
+}
+
+// Create card HTML for Master Set mode (shows single variant per card slot)
+export function createMasterSetCardHTML(card, variant) {
+    const cardData = state.collection[card.id] || {};
+    const qty = typeof cardData === 'object' ? (cardData[variant.id] || 0) : 0;
+    const isOwned = qty > 0;
+    const grayedClass = !isOwned ? 'not-owned' : '';
+    const ownedBadge = qty > 0 ? `<span class="owned-badge">×${qty}</span>` : '';
+    const priceInfo = variant.price ? `$${variant.price.market?.toFixed(2) || variant.price.mid?.toFixed(2) || '?'}` : '';
+    
+    return `
+        <div class="card-item master-set-card ${grayedClass}" data-id="${card.id}" data-variant="${variant.id}">
+            ${ownedBadge}
+            <img src="${card.images.small}" alt="${card.name}" loading="lazy">
+            <div class="card-overlay">
+                <div class="card-name">${card.name}</div>
+                <div class="card-set">${card.set.name}</div>
+            </div>
+            <div class="variant-badge" style="background-color: ${variant.color}">
+                <span class="variant-name">${variant.name}</span>
+                ${priceInfo ? `<span class="variant-price">${priceInfo}</span>` : ''}
+            </div>
+            <div class="card-variants" onclick="event.stopPropagation()">
+                <label class="variant-check ${isOwned ? 'checked' : ''}" title="${variant.name}" style="--variant-color: ${variant.color}">
+                    <input type="checkbox" ${isOwned ? 'checked' : ''} data-card="${card.id}" data-variant="${variant.id}">
+                    <span class="variant-checkmark"></span>
+                </label>
             </div>
         </div>
     `;

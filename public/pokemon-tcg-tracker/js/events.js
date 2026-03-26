@@ -62,9 +62,9 @@ export function setupEventListeners() {
     if (saveBtn) saveBtn.addEventListener('click', saveCollectionWithVariants);
     
     // View mode buttons
-    document.querySelectorAll('.view-mode-btn').forEach(btn => {
+    document.querySelectorAll('.view-toggle-btn').forEach(btn => {
         btn.addEventListener('click', () => {
-            const mode = btn.dataset.mode;
+            const mode = btn.dataset.viewMode;
             setViewMode(mode);
         });
     });
@@ -74,6 +74,16 @@ export function setupEventListeners() {
         elements.binderSizeSelect.addEventListener('change', (e) => {
             state.binderSize = parseInt(e.target.value);
             state.binderPage = 1;
+            renderCollection();
+        });
+    }
+    
+    // Master Set toggle
+    const masterSetToggle = document.getElementById('master-set-toggle');
+    if (masterSetToggle) {
+        masterSetToggle.addEventListener('change', (e) => {
+            state.masterSetMode = e.target.checked;
+            state.binderPage = 1; // Reset to first page
             renderCollection();
         });
     }
@@ -110,15 +120,22 @@ export function setViewMode(mode) {
     state.collectionViewMode = mode;
     state.binderPage = 1;
     
+    // Reset master set mode when leaving binder view
+    if (mode !== 'binder') {
+        state.masterSetMode = false;
+        const masterSetToggle = document.getElementById('master-set-toggle');
+        if (masterSetToggle) masterSetToggle.checked = false;
+    }
+    
     // Update active button
-    document.querySelectorAll('.view-mode-btn').forEach(btn => {
-        btn.classList.toggle('active', btn.dataset.mode === mode);
+    document.querySelectorAll('.view-toggle-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.viewMode === mode);
     });
     
-    // Show/hide binder size control
-    const binderControls = document.querySelector('.binder-controls');
-    if (binderControls) {
-        binderControls.style.display = mode === 'binder' ? 'flex' : 'none';
+    // Show/hide binder options
+    const binderOptions = document.querySelector('.binder-options');
+    if (binderOptions) {
+        binderOptions.style.display = mode === 'binder' ? 'flex' : 'none';
     }
     
     renderCollection();
