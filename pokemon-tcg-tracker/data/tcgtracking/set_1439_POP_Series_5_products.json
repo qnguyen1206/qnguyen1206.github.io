@@ -1,0 +1,1376 @@
+{
+  "set_id": 1439,
+  "set_name": "POP Series 5",
+  "set_abbr": "POP",
+  "set_released": "2026-01-24",
+  "product_count": 18,
+  "data_modified": "2026-02-01T14:23:34-05:00",
+  "file_generated": "2026-02-02T03:32:17-05:00",
+  "pricing_url": "/tcgapi/v1/3/sets/1439/pricing",
+  "products": [
+    {
+      "id": 190534,
+      "name": "POP Series 5 Pack",
+      "clean_name": "POP Series 5 Pack",
+      "number": null,
+      "rarity": null,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/190534_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F190534%2Fpokemon-pop-series-5-pop-series-5-pack",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 282565,
+      "cardtrader_id": 105348,
+      "cardtrader": [
+        {
+          "id": 105348,
+          "match_type": "scryfall",
+          "expansion": "POP Series 5",
+          "expansion_code": "pop5",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "de",
+                "it"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 86123,
+      "name": "Ho-Oh",
+      "clean_name": "Ho Oh",
+      "number": "001/017",
+      "rarity": "Rare",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86123_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86123%2Fpokemon-pop-series-5-ho-oh",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": 124354,
+      "cardtrader": [
+        {
+          "id": 124354,
+          "match_type": "scryfall",
+          "expansion": "POP Series 5",
+          "expansion_code": "pop5",
+          "collector_number": "01/17h",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "de",
+                "it"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 86907,
+      "name": "Lugia",
+      "clean_name": "Lugia",
+      "number": "002/017",
+      "rarity": "Rare",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86907_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86907%2Fpokemon-pop-series-5-lugia",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 277484,
+      "cardtrader_id": 124355,
+      "cardtrader": [
+        {
+          "id": 124355,
+          "match_type": "scryfall",
+          "expansion": "POP Series 5",
+          "expansion_code": "pop5",
+          "collector_number": "02/17",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "de",
+                "it"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 87407,
+      "name": "Mew (Delta Species)",
+      "clean_name": "Mew Delta Species",
+      "number": "003/017",
+      "rarity": "Rare",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87407_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87407%2Fpokemon-pop-series-5-mew-delta-species",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 277485,
+      "cardtrader_id": 124357,
+      "cardtrader": [
+        {
+          "id": 124357,
+          "match_type": "scryfall",
+          "expansion": "POP Series 5",
+          "expansion_code": "pop5",
+          "collector_number": "003",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "de",
+                "it"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 84894,
+      "name": "Double Rainbow Energy",
+      "clean_name": "Double Rainbow Energy",
+      "number": "004/017",
+      "rarity": "Rare",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84894_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84894%2Fpokemon-pop-series-5-double-rainbow-energy",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 277486,
+      "cardtrader_id": 124360,
+      "cardtrader": [
+        {
+          "id": 124360,
+          "match_type": "scryfall",
+          "expansion": "POP Series 5",
+          "expansion_code": "pop5",
+          "collector_number": "04/17",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "de",
+                "it"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 84237,
+      "name": "Charmeleon (Delta Species)",
+      "clean_name": "Charmeleon Delta Species",
+      "number": "005/017",
+      "rarity": "Uncommon",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84237_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84237%2Fpokemon-pop-series-5-charmeleon-delta-species",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 277487,
+      "cardtrader_id": 124361,
+      "cardtrader": [
+        {
+          "id": 124361,
+          "match_type": "scryfall",
+          "expansion": "POP Series 5",
+          "expansion_code": "pop5",
+          "collector_number": "05/17",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "de",
+                "it"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 83840,
+      "name": "Bill's Maintenance",
+      "clean_name": "Bills Maintenance",
+      "number": "006/017",
+      "rarity": "Uncommon",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/83840_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83840%2Fpokemon-pop-series-5-bills-maintenance",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 277488,
+      "cardtrader_id": 124362,
+      "cardtrader": [
+        {
+          "id": 124362,
+          "match_type": "scryfall",
+          "expansion": "POP Series 5",
+          "expansion_code": "pop5",
+          "collector_number": "06/17",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "de",
+                "it"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 88592,
+      "name": "Rare Candy",
+      "clean_name": "Rare Candy",
+      "number": "007/017",
+      "rarity": "Uncommon",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88592_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88592%2Fpokemon-pop-series-5-rare-candy",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 277489,
+      "cardtrader_id": 124363,
+      "cardtrader": [
+        {
+          "id": 124363,
+          "match_type": "scryfall",
+          "expansion": "POP Series 5",
+          "expansion_code": "pop5",
+          "collector_number": "07/17",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "de",
+                "it"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 83941,
+      "name": "Boost Energy",
+      "clean_name": "Boost Energy",
+      "number": "008/017",
+      "rarity": "Uncommon",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/83941_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83941%2Fpokemon-pop-series-5-boost-energy",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 277490,
+      "cardtrader_id": 124364,
+      "cardtrader": [
+        {
+          "id": 124364,
+          "match_type": "scryfall",
+          "expansion": "POP Series 5",
+          "expansion_code": "pop5",
+          "collector_number": "08/17",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "de",
+                "it"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 84756,
+      "name": "Delta Rainbow Energy",
+      "clean_name": "Delta Rainbow Energy",
+      "number": "009/017",
+      "rarity": "Uncommon",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84756_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84756%2Fpokemon-pop-series-5-delta-rainbow-energy",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 277491,
+      "cardtrader_id": 124365,
+      "cardtrader": [
+        {
+          "id": 124365,
+          "match_type": "scryfall",
+          "expansion": "POP Series 5",
+          "expansion_code": "pop5",
+          "collector_number": "09/17",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "de",
+                "it"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 84221,
+      "name": "Charmander (Delta Species)",
+      "clean_name": "Charmander Delta Species",
+      "number": "010/017",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84221_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84221%2Fpokemon-pop-series-5-charmander-delta-species",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 277492,
+      "cardtrader_id": 124366,
+      "cardtrader": [
+        {
+          "id": 124366,
+          "match_type": "scryfall",
+          "expansion": "POP Series 5",
+          "expansion_code": "pop5",
+          "collector_number": "10/17",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "de",
+                "it"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 87330,
+      "name": "Meowth (Delta Species)",
+      "clean_name": "Meowth Delta Species",
+      "number": "011/017",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87330_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87330%2Fpokemon-pop-series-5-meowth-delta-species",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 277493,
+      "cardtrader_id": 124367,
+      "cardtrader": [
+        {
+          "id": 124367,
+          "match_type": "scryfall",
+          "expansion": "POP Series 5",
+          "expansion_code": "pop5",
+          "collector_number": "011",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "de",
+                "it"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 88085,
+      "name": "Pikachu",
+      "clean_name": "Pikachu",
+      "number": "012/017",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88085_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88085%2Fpokemon-pop-series-5-pikachu",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 277494,
+      "cardtrader_id": 124368,
+      "cardtrader": [
+        {
+          "id": 124368,
+          "match_type": "scryfall",
+          "expansion": "POP Series 5",
+          "expansion_code": "pop5",
+          "collector_number": "12/17",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "de",
+                "it"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 88110,
+      "name": "Pikachu (Delta Species)",
+      "clean_name": "Pikachu Delta Species",
+      "number": "013/017",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88110_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88110%2Fpokemon-pop-series-5-pikachu-delta-species",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 277495,
+      "cardtrader_id": 124371,
+      "cardtrader": [
+        {
+          "id": 124371,
+          "match_type": "scryfall",
+          "expansion": "POP Series 5",
+          "expansion_code": "pop5",
+          "collector_number": "013",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "de",
+                "it"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 87981,
+      "name": "Pelipper (Delta Species)",
+      "clean_name": "Pelipper Delta Species",
+      "number": "014/017",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87981_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87981%2Fpokemon-pop-series-5-pelipper-delta-species",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": 124373,
+      "cardtrader": [
+        {
+          "id": 124373,
+          "match_type": "scryfall",
+          "expansion": "POP Series 5",
+          "expansion_code": "pop5",
+          "collector_number": "014/017h",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "de",
+                "it"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 90709,
+      "name": "Zangoose (Delta Species)",
+      "clean_name": "Zangoose Delta Species",
+      "number": "015/017",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90709_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90709%2Fpokemon-pop-series-5-zangoose-delta-species",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": 124375,
+      "cardtrader": [
+        {
+          "id": 124375,
+          "match_type": "scryfall",
+          "expansion": "POP Series 5",
+          "expansion_code": "pop5",
+          "collector_number": "15/17h",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "de",
+                "it"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 85329,
+      "name": "Espeon Star",
+      "clean_name": "Espeon Star",
+      "number": "016/017",
+      "rarity": "Ultra Rare",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85329_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85329%2Fpokemon-pop-series-5-espeon-star",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 277498,
+      "cardtrader_id": 124376,
+      "cardtrader": [
+        {
+          "id": 124376,
+          "match_type": "scryfall",
+          "expansion": "POP Series 5",
+          "expansion_code": "pop5",
+          "collector_number": "16/17",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "de",
+                "it"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 90153,
+      "name": "Umbreon Star",
+      "clean_name": "Umbreon Star",
+      "number": "017/017",
+      "rarity": "Ultra Rare",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90153_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90153%2Fpokemon-pop-series-5-umbreon-star",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 277499,
+      "cardtrader_id": 124377,
+      "cardtrader": [
+        {
+          "id": 124377,
+          "match_type": "scryfall",
+          "expansion": "POP Series 5",
+          "expansion_code": "pop5",
+          "collector_number": "17/17",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "de",
+                "it"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

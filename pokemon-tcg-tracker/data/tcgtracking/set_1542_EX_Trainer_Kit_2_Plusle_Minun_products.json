@@ -1,0 +1,1902 @@
+{
+  "set_id": 1542,
+  "set_name": "EX Trainer Kit 2: Plusle & Minun",
+  "set_abbr": "PR",
+  "set_released": "2026-01-24",
+  "product_count": 25,
+  "data_modified": "2026-02-13T07:06:16-05:00",
+  "file_generated": "2026-02-14T03:30:47-05:00",
+  "pricing_url": "/tcgapi/v1/3/sets/1542/pricing",
+  "products": [
+    {
+      "id": 98951,
+      "name": "EX Trainer Kit 2 [Plusle & Minun]",
+      "clean_name": "EX Trainer Kit 2 Plusle and Minun",
+      "number": null,
+      "rarity": null,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/98951_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F98951%2Fpokemon-ex-trainer-kit-2-plusle-and-minun-ex-trainer-kit-2-plusle-and-minun",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 286801,
+      "cardtrader_id": 105289,
+      "cardtrader": [
+        {
+          "id": 105289,
+          "match_type": "scryfall",
+          "expansion": "EX Trainer Kit 2",
+          "expansion_code": "tk2",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "sealed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 83583,
+      "name": "Arcanine",
+      "clean_name": "Arcanine",
+      "number": "1/12",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/83583_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83583%2Fpokemon-ex-trainer-kit-2-plusle-and-minun-arcanine",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 277205,
+      "cardtrader_id": 117827,
+      "cardtrader": [
+        {
+          "id": 117827,
+          "match_type": "tcgplayer",
+          "expansion": "EX Trainer Kit 2 (Minun)",
+          "expansion_code": "minun",
+          "collector_number": "001",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 83786,
+      "name": "Beldum",
+      "clean_name": "Beldum",
+      "number": "1/12",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/83786_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83786%2Fpokemon-ex-trainer-kit-2-plusle-and-minun-beldum",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 277193,
+      "cardtrader_id": 117839,
+      "cardtrader": [
+        {
+          "id": 117839,
+          "match_type": "tcgplayer",
+          "expansion": "EX Trainer Kit 2 (Plusle)",
+          "expansion_code": "plusle",
+          "collector_number": "001",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 88340,
+      "name": "Potion (Minun)",
+      "clean_name": "Potion Minun",
+      "number": "10/12",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88340_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88340%2Fpokemon-ex-trainer-kit-2-plusle-and-minun-potion-minun",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 277198,
+      "cardtrader_id": 117836,
+      "cardtrader": [
+        {
+          "id": 117836,
+          "match_type": "tcgplayer",
+          "expansion": "EX Trainer Kit 2 (Minun)",
+          "expansion_code": "minun",
+          "collector_number": "010",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 88385,
+      "name": "Professor Cozmo's Discovery",
+      "clean_name": "Professor Cozmos Discovery",
+      "number": "10/12",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88385_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88385%2Fpokemon-ex-trainer-kit-2-plusle-and-minun-professor-cozmos-discovery",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 277186,
+      "cardtrader_id": 117848,
+      "cardtrader": [
+        {
+          "id": 117848,
+          "match_type": "tcgplayer",
+          "expansion": "EX Trainer Kit 2 (Plusle)",
+          "expansion_code": "plusle",
+          "collector_number": "10/12",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 85460,
+      "name": "Fire Energy",
+      "clean_name": "Fire Energy",
+      "number": "11/12",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85460_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85460%2Fpokemon-ex-trainer-kit-2-plusle-and-minun-fire-energy",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 277197,
+      "cardtrader_id": 117837,
+      "cardtrader": [
+        {
+          "id": 117837,
+          "match_type": "tcgplayer",
+          "expansion": "EX Trainer Kit 2 (Minun)",
+          "expansion_code": "minun",
+          "collector_number": "011",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 86763,
+      "name": "Lightning Energy (Plusle)",
+      "clean_name": "Lightning Energy Plusle",
+      "number": "11/12",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86763_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86763%2Fpokemon-ex-trainer-kit-2-plusle-and-minun-lightning-energy-plusle",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 277185,
+      "cardtrader_id": 117849,
+      "cardtrader": [
+        {
+          "id": 117849,
+          "match_type": "tcgplayer",
+          "expansion": "EX Trainer Kit 2 (Plusle)",
+          "expansion_code": "plusle",
+          "collector_number": "11/12",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 86764,
+      "name": "Lightning Energy (Minun)",
+      "clean_name": "Lightning Energy Minun",
+      "number": "12/12",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86764_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86764%2Fpokemon-ex-trainer-kit-2-plusle-and-minun-lightning-energy-minun",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 277196,
+      "cardtrader_id": 117838,
+      "cardtrader": [
+        {
+          "id": 117838,
+          "match_type": "tcgplayer",
+          "expansion": "EX Trainer Kit 2 (Minun)",
+          "expansion_code": "minun",
+          "collector_number": "012",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 88420,
+      "name": "Psychic Energy",
+      "clean_name": "Psychic Energy",
+      "number": "12/12",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88420_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88420%2Fpokemon-ex-trainer-kit-2-plusle-and-minun-psychic-energy",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 277184,
+      "cardtrader_id": 117850,
+      "cardtrader": [
+        {
+          "id": 117850,
+          "match_type": "tcgplayer",
+          "expansion": "EX Trainer Kit 2 (Plusle)",
+          "expansion_code": "plusle",
+          "collector_number": "12/12",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 84212,
+      "name": "Charmander",
+      "clean_name": "Charmander",
+      "number": "2/12",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84212_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84212%2Fpokemon-ex-trainer-kit-2-plusle-and-minun-charmander",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 277195,
+      "cardtrader_id": 117828,
+      "cardtrader": [
+        {
+          "id": 117828,
+          "match_type": "tcgplayer",
+          "expansion": "EX Trainer Kit 2 (Minun)",
+          "expansion_code": "minun",
+          "collector_number": "002",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 85136,
+      "name": "Electrike",
+      "clean_name": "Electrike",
+      "number": "2/12",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85136_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85136%2Fpokemon-ex-trainer-kit-2-plusle-and-minun-electrike",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 277182,
+      "cardtrader_id": 117840,
+      "cardtrader": [
+        {
+          "id": 117840,
+          "match_type": "tcgplayer",
+          "expansion": "EX Trainer Kit 2 (Plusle)",
+          "expansion_code": "plusle",
+          "collector_number": "02/12",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 84228,
+      "name": "Charmeleon",
+      "clean_name": "Charmeleon",
+      "number": "3/12",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84228_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84228%2Fpokemon-ex-trainer-kit-2-plusle-and-minun-charmeleon",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 277199,
+      "cardtrader_id": 117829,
+      "cardtrader": [
+        {
+          "id": 117829,
+          "match_type": "tcgplayer",
+          "expansion": "EX Trainer Kit 2 (Minun)",
+          "expansion_code": "minun",
+          "collector_number": "003",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 85968,
+      "name": "Grumpig",
+      "clean_name": "Grumpig",
+      "number": "3/12",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85968_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85968%2Fpokemon-ex-trainer-kit-2-plusle-and-minun-grumpig",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 277183,
+      "cardtrader_id": 117841,
+      "cardtrader": [
+        {
+          "id": 117841,
+          "match_type": "tcgplayer",
+          "expansion": "EX Trainer Kit 2 (Plusle)",
+          "expansion_code": "plusle",
+          "collector_number": "03/12",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 85956,
+      "name": "Growlithe",
+      "clean_name": "Growlithe",
+      "number": "4/12",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85956_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85956%2Fpokemon-ex-trainer-kit-2-plusle-and-minun-growlithe",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 277200,
+      "cardtrader_id": 117830,
+      "cardtrader": [
+        {
+          "id": 117830,
+          "match_type": "tcgplayer",
+          "expansion": "EX Trainer Kit 2 (Minun)",
+          "expansion_code": "minun",
+          "collector_number": "004",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 87319,
+      "name": "Meowth",
+      "clean_name": "Meowth",
+      "number": "4/12",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87319_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87319%2Fpokemon-ex-trainer-kit-2-plusle-and-minun-meowth",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 277187,
+      "cardtrader_id": 117842,
+      "cardtrader": [
+        {
+          "id": 117842,
+          "match_type": "tcgplayer",
+          "expansion": "EX Trainer Kit 2 (Plusle)",
+          "expansion_code": "plusle",
+          "collector_number": "04/12",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 87200,
+      "name": "Mareep",
+      "clean_name": "Mareep",
+      "number": "5/12",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87200_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87200%2Fpokemon-ex-trainer-kit-2-plusle-and-minun-mareep",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 277204,
+      "cardtrader_id": 117831,
+      "cardtrader": [
+        {
+          "id": 117831,
+          "match_type": "tcgplayer",
+          "expansion": "EX Trainer Kit 2 (Minun)",
+          "expansion_code": "minun",
+          "collector_number": "005",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 87376,
+      "name": "Metang",
+      "clean_name": "Metang",
+      "number": "5/12",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87376_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87376%2Fpokemon-ex-trainer-kit-2-plusle-and-minun-metang",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 277188,
+      "cardtrader_id": 117843,
+      "cardtrader": [
+        {
+          "id": 117843,
+          "match_type": "tcgplayer",
+          "expansion": "EX Trainer Kit 2 (Plusle)",
+          "expansion_code": "plusle",
+          "collector_number": "05/12",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 87486,
+      "name": "Minun",
+      "clean_name": "Minun",
+      "number": "6/12",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87486_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87486%2Fpokemon-ex-trainer-kit-2-plusle-and-minun-minun",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 277203,
+      "cardtrader_id": 117832,
+      "cardtrader": [
+        {
+          "id": 117832,
+          "match_type": "tcgplayer",
+          "expansion": "EX Trainer Kit 2 (Minun)",
+          "expansion_code": "minun",
+          "collector_number": "006",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 88166,
+      "name": "Plusle",
+      "clean_name": "Plusle",
+      "number": "6/12",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88166_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88166%2Fpokemon-ex-trainer-kit-2-plusle-and-minun-plusle",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 277192,
+      "cardtrader_id": 117844,
+      "cardtrader": [
+        {
+          "id": 117844,
+          "match_type": "tcgplayer",
+          "expansion": "EX Trainer Kit 2 (Plusle)",
+          "expansion_code": "plusle",
+          "collector_number": "06/12",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 89475,
+      "name": "Spoink",
+      "clean_name": "Spoink",
+      "number": "7/12",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89475_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89475%2Fpokemon-ex-trainer-kit-2-plusle-and-minun-spoink",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 277191,
+      "cardtrader_id": 117845,
+      "cardtrader": [
+        {
+          "id": 117845,
+          "match_type": "tcgplayer",
+          "expansion": "EX Trainer Kit 2 (Plusle)",
+          "expansion_code": "plusle",
+          "collector_number": "07/12",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 90439,
+      "name": "Vulpix",
+      "clean_name": "Vulpix",
+      "number": "7/12",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90439_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90439%2Fpokemon-ex-trainer-kit-2-plusle-and-minun-vulpix",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 277202,
+      "cardtrader_id": 117833,
+      "cardtrader": [
+        {
+          "id": 117833,
+          "match_type": "tcgplayer",
+          "expansion": "EX Trainer Kit 2 (Minun)",
+          "expansion_code": "minun",
+          "collector_number": "007",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 84155,
+      "name": "Celio's Network",
+      "clean_name": "Celios Network",
+      "number": "8/12",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84155_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84155%2Fpokemon-ex-trainer-kit-2-plusle-and-minun-celios-network",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 277201,
+      "cardtrader_id": 117834,
+      "cardtrader": [
+        {
+          "id": 117834,
+          "match_type": "tcgplayer",
+          "expansion": "EX Trainer Kit 2 (Minun)",
+          "expansion_code": "minun",
+          "collector_number": "008",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 85242,
+      "name": "Energy Search (Plusle)",
+      "clean_name": "Energy Search Plusle",
+      "number": "8/12",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85242_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85242%2Fpokemon-ex-trainer-kit-2-plusle-and-minun-energy-search-plusle",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 277190,
+      "cardtrader_id": 117846,
+      "cardtrader": [
+        {
+          "id": 117846,
+          "match_type": "tcgplayer",
+          "expansion": "EX Trainer Kit 2 (Plusle)",
+          "expansion_code": "plusle",
+          "collector_number": "08/12",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 85243,
+      "name": "Energy Search (Minun)",
+      "clean_name": "Energy Search Minun",
+      "number": "9/12",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85243_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85243%2Fpokemon-ex-trainer-kit-2-plusle-and-minun-energy-search-minun",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 277194,
+      "cardtrader_id": 117835,
+      "cardtrader": [
+        {
+          "id": 117835,
+          "match_type": "tcgplayer",
+          "expansion": "EX Trainer Kit 2 (Minun)",
+          "expansion_code": "minun",
+          "collector_number": "009",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 88339,
+      "name": "Potion (Plusle)",
+      "clean_name": "Potion Plusle",
+      "number": "9/12",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88339_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88339%2Fpokemon-ex-trainer-kit-2-plusle-and-minun-potion-plusle",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 277189,
+      "cardtrader_id": 117847,
+      "cardtrader": [
+        {
+          "id": 117847,
+          "match_type": "tcgplayer",
+          "expansion": "EX Trainer Kit 2 (Plusle)",
+          "expansion_code": "plusle",
+          "collector_number": "09/12",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

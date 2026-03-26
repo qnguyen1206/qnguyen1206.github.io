@@ -1,0 +1,4947 @@
+{
+  "set_id": 1540,
+  "set_name": "HGSS Trainer Kit: Gyarados & Raichu",
+  "set_abbr": "PR",
+  "set_released": "2010-05-12",
+  "product_count": 61,
+  "data_modified": "2026-02-01T14:23:46-05:00",
+  "file_generated": "2026-02-02T03:32:30-05:00",
+  "pricing_url": "/tcgapi/v1/3/sets/1540/pricing",
+  "products": [
+    {
+      "id": 98731,
+      "name": "HGSS Trainer Kit [Gyarados & Raichu]",
+      "clean_name": "HGSS Trainer Kit Gyarados and Raichu",
+      "number": null,
+      "rarity": null,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/98731_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F98731%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-hgss-trainer-kit-gyarados-and-raichu",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": null
+    },
+    {
+      "id": 87577,
+      "name": "Moomoo Milk (#1)",
+      "clean_name": "Moomoo Milk 1",
+      "number": "1/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87577_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87577%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-moomoo-milk-1",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279125,
+      "cardtrader_id": 120950,
+      "cardtrader": [
+        {
+          "id": 120950,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Raichu)",
+          "expansion_code": "raichu",
+          "collector_number": "01/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 90001,
+      "name": "Totodile (#1)",
+      "clean_name": "Totodile 1",
+      "number": "1/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90001_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90001%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-totodile-1",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279155,
+      "cardtrader_id": 120920,
+      "cardtrader": [
+        {
+          "id": 120920,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Gyarados)",
+          "expansion_code": "gyarados",
+          "collector_number": "01/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 86774,
+      "name": "Lightning Energy (#10)",
+      "clean_name": "Lightning Energy 10",
+      "number": "10/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86774_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86774%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-lightning-energy-10",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279105,
+      "cardtrader_id": 120959,
+      "cardtrader": [
+        {
+          "id": 120959,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Raichu)",
+          "expansion_code": "raichu",
+          "collector_number": "10/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 90520,
+      "name": "Water Energy (#10)",
+      "clean_name": "Water Energy 10",
+      "number": "10/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90520_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90520%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-water-energy-10",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279136,
+      "cardtrader_id": 120929,
+      "cardtrader": [
+        {
+          "id": 120929,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Gyarados)",
+          "expansion_code": "gyarados",
+          "collector_number": "10/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 86775,
+      "name": "Lightning Energy (#11)",
+      "clean_name": "Lightning Energy 11",
+      "number": "11/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86775_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86775%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-lightning-energy-11",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279104,
+      "cardtrader_id": 120960,
+      "cardtrader": [
+        {
+          "id": 120960,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Raichu)",
+          "expansion_code": "raichu",
+          "collector_number": "11/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 90521,
+      "name": "Water Energy (#11)",
+      "clean_name": "Water Energy 11",
+      "number": "11/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90521_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90521%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-water-energy-11",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279135,
+      "cardtrader_id": 120930,
+      "cardtrader": [
+        {
+          "id": 120930,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Gyarados)",
+          "expansion_code": "gyarados",
+          "collector_number": "11/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 87033,
+      "name": "Magikarp (#12)",
+      "clean_name": "Magikarp 12",
+      "number": "12/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87033_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87033%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-magikarp-12",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279137,
+      "cardtrader_id": 120931,
+      "cardtrader": [
+        {
+          "id": 120931,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Gyarados)",
+          "expansion_code": "gyarados",
+          "collector_number": "12/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 87324,
+      "name": "Meowth (#12)",
+      "clean_name": "Meowth 12",
+      "number": "12/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87324_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87324%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-meowth-12",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279106,
+      "cardtrader_id": 120961,
+      "cardtrader": [
+        {
+          "id": 120961,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Raichu)",
+          "expansion_code": "raichu",
+          "collector_number": "12/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 84501,
+      "name": "Croconaw (#13)",
+      "clean_name": "Croconaw 13",
+      "number": "13/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84501_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84501%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-croconaw-13",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279138,
+      "cardtrader_id": 120932,
+      "cardtrader": [
+        {
+          "id": 120932,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Gyarados)",
+          "expansion_code": "gyarados",
+          "collector_number": "13/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 87205,
+      "name": "Mareep (#13)",
+      "clean_name": "Mareep 13",
+      "number": "13/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87205_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87205%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-mareep-13",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279107,
+      "cardtrader_id": 120962,
+      "cardtrader": [
+        {
+          "id": 120962,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Raichu)",
+          "expansion_code": "raichu",
+          "collector_number": "13/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 86776,
+      "name": "Lightning Energy (#14)",
+      "clean_name": "Lightning Energy 14",
+      "number": "14/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86776_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86776%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-lightning-energy-14",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279109,
+      "cardtrader_id": 120963,
+      "cardtrader": [
+        {
+          "id": 120963,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Raichu)",
+          "expansion_code": "raichu",
+          "collector_number": "14/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 90002,
+      "name": "Totodile (#14)",
+      "clean_name": "Totodile 14",
+      "number": "14/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90002_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90002%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-totodile-14",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279139,
+      "cardtrader_id": 120933,
+      "cardtrader": [
+        {
+          "id": 120933,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Gyarados)",
+          "expansion_code": "gyarados",
+          "collector_number": "14/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 86777,
+      "name": "Lightning Energy (#15)",
+      "clean_name": "Lightning Energy 15",
+      "number": "15/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86777_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86777%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-lightning-energy-15",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279108,
+      "cardtrader_id": 120964,
+      "cardtrader": [
+        {
+          "id": 120964,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Raichu)",
+          "expansion_code": "raichu",
+          "collector_number": "15/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 87220,
+      "name": "Marill (#15)",
+      "clean_name": "Marill 15",
+      "number": "15/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87220_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87220%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-marill-15",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279134,
+      "cardtrader_id": 120934,
+      "cardtrader": [
+        {
+          "id": 120934,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Gyarados)",
+          "expansion_code": "gyarados",
+          "collector_number": "15/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 88100,
+      "name": "Pikachu (#16)",
+      "clean_name": "Pikachu 16",
+      "number": "16/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88100_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88100%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-pikachu-16",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279103,
+      "cardtrader_id": 120965,
+      "cardtrader": [
+        {
+          "id": 120965,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Raichu)",
+          "expansion_code": "raichu",
+          "collector_number": "16/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 90522,
+      "name": "Water Energy (#16)",
+      "clean_name": "Water Energy 16",
+      "number": "16/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90522_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90522%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-water-energy-16",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279133,
+      "cardtrader_id": 120935,
+      "cardtrader": [
+        {
+          "id": 120935,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Gyarados)",
+          "expansion_code": "gyarados",
+          "collector_number": "16/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 84502,
+      "name": "Croconaw (#17)",
+      "clean_name": "Croconaw 17",
+      "number": "17/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84502_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84502%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-croconaw-17",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279128,
+      "cardtrader_id": 120936,
+      "cardtrader": [
+        {
+          "id": 120936,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Gyarados)",
+          "expansion_code": "gyarados",
+          "collector_number": "17/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 85484,
+      "name": "Flaaffy (#17)",
+      "clean_name": "Flaaffy 17",
+      "number": "17/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85484_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85484%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-flaaffy-17",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279102,
+      "cardtrader_id": 120966,
+      "cardtrader": [
+        {
+          "id": 120966,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Raichu)",
+          "expansion_code": "raichu",
+          "collector_number": "17/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 83834,
+      "name": "Bill (#18)",
+      "clean_name": "Bill 18",
+      "number": "18/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/83834_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83834%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-bill-18",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279127,
+      "cardtrader_id": 120937,
+      "cardtrader": [
+        {
+          "id": 120937,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Gyarados)",
+          "expansion_code": "gyarados",
+          "collector_number": "18/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 86778,
+      "name": "Lightning Energy (#18)",
+      "clean_name": "Lightning Energy 18",
+      "number": "18/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86778_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86778%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-lightning-energy-18",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279097,
+      "cardtrader_id": 120967,
+      "cardtrader": [
+        {
+          "id": 120967,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Raichu)",
+          "expansion_code": "raichu",
+          "collector_number": "18/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 87034,
+      "name": "Magikarp (#19)",
+      "clean_name": "Magikarp 19",
+      "number": "19/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87034_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87034%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-magikarp-19",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279129,
+      "cardtrader_id": 120938,
+      "cardtrader": [
+        {
+          "id": 120938,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Gyarados)",
+          "expansion_code": "gyarados",
+          "collector_number": "19/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 88520,
+      "name": "Raichu (#19 Non-Holo)",
+      "clean_name": "Raichu 19 Non Holo",
+      "number": "19/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88520_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88520%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-raichu-19-non-holo",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279096,
+      "cardtrader_id": 120968,
+      "cardtrader": [
+        {
+          "id": 120968,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Raichu)",
+          "expansion_code": "raichu",
+          "collector_number": "19/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 88099,
+      "name": "Pikachu (#2)",
+      "clean_name": "Pikachu 2",
+      "number": "2/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88099_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88099%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-pikachu-2",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279098,
+      "cardtrader_id": 120951,
+      "cardtrader": [
+        {
+          "id": 120951,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Raichu)",
+          "expansion_code": "raichu",
+          "collector_number": "02/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 90513,
+      "name": "Water Energy (#2)",
+      "clean_name": "Water Energy 2",
+      "number": "2/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90513_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90513%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-water-energy-2",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279130,
+      "cardtrader_id": 120921,
+      "cardtrader": [
+        {
+          "id": 120921,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Gyarados)",
+          "expansion_code": "gyarados",
+          "collector_number": "02/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 85997,
+      "name": "Gyarados (#20 Non-Holo)",
+      "clean_name": "Gyarados 20 Non Holo",
+      "number": "20/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85997_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85997%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-gyarados-20-non-holo",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279132,
+      "cardtrader_id": 120939,
+      "cardtrader": [
+        {
+          "id": 120939,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Gyarados)",
+          "expansion_code": "gyarados",
+          "collector_number": "20/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 87206,
+      "name": "Mareep (#20)",
+      "clean_name": "Mareep 20",
+      "number": "20/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87206_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87206%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-mareep-20",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279099,
+      "cardtrader_id": 120969,
+      "cardtrader": [
+        {
+          "id": 120969,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Raichu)",
+          "expansion_code": "raichu",
+          "collector_number": "20/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 84427,
+      "name": "Copycat",
+      "clean_name": "Copycat",
+      "number": "21/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84427_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84427%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-copycat",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279101,
+      "cardtrader_id": 120970,
+      "cardtrader": [
+        {
+          "id": 120970,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Raichu)",
+          "expansion_code": "raichu",
+          "collector_number": "21/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 85260,
+      "name": "Energy Switch (Gyarados)",
+      "clean_name": "Energy Switch Gyarados",
+      "number": "21/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85260_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85260%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-energy-switch-gyarados",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279131,
+      "cardtrader_id": 120940,
+      "cardtrader": [
+        {
+          "id": 120940,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Gyarados)",
+          "expansion_code": "gyarados",
+          "collector_number": "21/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 88218,
+      "name": "Pokemon Collector (#22)",
+      "clean_name": "Pokemon Collector 22",
+      "number": "22/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88218_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88218%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-pokemon-collector-22",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279100,
+      "cardtrader_id": 120971,
+      "cardtrader": [
+        {
+          "id": 120971,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Raichu)",
+          "expansion_code": "raichu",
+          "collector_number": "22/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 88221,
+      "name": "Pokemon Communication (#22)",
+      "clean_name": "Pokemon Communication 22",
+      "number": "22/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88221_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88221%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-pokemon-communication-22",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279140,
+      "cardtrader_id": 120941,
+      "cardtrader": [
+        {
+          "id": 120941,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Gyarados)",
+          "expansion_code": "gyarados",
+          "collector_number": "22/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 86779,
+      "name": "Lightning Energy (#23)",
+      "clean_name": "Lightning Energy 23",
+      "number": "23/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86779_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86779%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-lightning-energy-23",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279110,
+      "cardtrader_id": 120972,
+      "cardtrader": [
+        {
+          "id": 120972,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Raichu)",
+          "expansion_code": "raichu",
+          "collector_number": "23/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 88190,
+      "name": "Poke Ball (Gyarados)",
+      "clean_name": "Poke Ball Gyarados",
+      "number": "23/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88190_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88190%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-poke-ball-gyarados",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279141,
+      "cardtrader_id": 120942,
+      "cardtrader": [
+        {
+          "id": 120942,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Gyarados)",
+          "expansion_code": "gyarados",
+          "collector_number": "23/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 87221,
+      "name": "Marill (#24)",
+      "clean_name": "Marill 24",
+      "number": "24/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87221_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87221%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-marill-24",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279151,
+      "cardtrader_id": 120943,
+      "cardtrader": [
+        {
+          "id": 120943,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Gyarados)",
+          "expansion_code": "gyarados",
+          "collector_number": "24/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 89720,
+      "name": "Switch (Raichu)",
+      "clean_name": "Switch Raichu",
+      "number": "24/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89720_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89720%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-switch-raichu",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279111,
+      "cardtrader_id": 120973,
+      "cardtrader": [
+        {
+          "id": 120973,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Raichu)",
+          "expansion_code": "raichu",
+          "collector_number": "24/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 88191,
+      "name": "Poke Ball (Raichu)",
+      "clean_name": "Poke Ball Raichu",
+      "number": "25/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88191_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88191%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-poke-ball-raichu",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279121,
+      "cardtrader_id": 120974,
+      "cardtrader": [
+        {
+          "id": 120974,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Raichu)",
+          "expansion_code": "raichu",
+          "collector_number": "25/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 88393,
+      "name": "Professor Elm's Training Method",
+      "clean_name": "Professor Elms Training Method",
+      "number": "25/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88393_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88393%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-professor-elms-training-method",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279150,
+      "cardtrader_id": 120944,
+      "cardtrader": [
+        {
+          "id": 120944,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Gyarados)",
+          "expansion_code": "gyarados",
+          "collector_number": "25/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 87578,
+      "name": "Moomoo Milk (#26)",
+      "clean_name": "Moomoo Milk 26",
+      "number": "26/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87578_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87578%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-moomoo-milk-26",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279120,
+      "cardtrader_id": 120975,
+      "cardtrader": [
+        {
+          "id": 120975,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Raichu)",
+          "expansion_code": "raichu",
+          "collector_number": "26/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 90523,
+      "name": "Water Energy (#26)",
+      "clean_name": "Water Energy 26",
+      "number": "26/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90523_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90523%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-water-energy-26",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279152,
+      "cardtrader_id": 120945,
+      "cardtrader": [
+        {
+          "id": 120945,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Gyarados)",
+          "expansion_code": "gyarados",
+          "collector_number": "26/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 88219,
+      "name": "Pokemon Collector (#27)",
+      "clean_name": "Pokemon Collector 27",
+      "number": "27/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88219_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88219%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-pokemon-collector-27",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279122,
+      "cardtrader_id": 120976,
+      "cardtrader": [
+        {
+          "id": 120976,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Raichu)",
+          "expansion_code": "raichu",
+          "collector_number": "27/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 88222,
+      "name": "Pokemon Communication (#27)",
+      "clean_name": "Pokemon Communication 27",
+      "number": "27/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88222_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88222%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-pokemon-communication-27",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279153,
+      "cardtrader_id": 120946,
+      "cardtrader": [
+        {
+          "id": 120946,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Gyarados)",
+          "expansion_code": "gyarados",
+          "collector_number": "27/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 86780,
+      "name": "Lightning Energy (#28)",
+      "clean_name": "Lightning Energy 28",
+      "number": "28/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86780_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86780%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-lightning-energy-28",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279123,
+      "cardtrader_id": 120977,
+      "cardtrader": [
+        {
+          "id": 120977,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Raichu)",
+          "expansion_code": "raichu",
+          "collector_number": "28/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 89719,
+      "name": "Switch (Gyarados)",
+      "clean_name": "Switch Gyarados",
+      "number": "28/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89719_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89719%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-switch-gyarados",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279154,
+      "cardtrader_id": 120947,
+      "cardtrader": [
+        {
+          "id": 120947,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Gyarados)",
+          "expansion_code": "gyarados",
+          "collector_number": "28/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 85261,
+      "name": "Energy Switch (Raichu)",
+      "clean_name": "Energy Switch Raichu",
+      "number": "29/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85261_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85261%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-energy-switch-raichu",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279124,
+      "cardtrader_id": 120978,
+      "cardtrader": [
+        {
+          "id": 120978,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Raichu)",
+          "expansion_code": "raichu",
+          "collector_number": "29/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 90524,
+      "name": "Water Energy (#29)",
+      "clean_name": "Water Energy 29",
+      "number": "29/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90524_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90524%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-water-energy-29",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279149,
+      "cardtrader_id": 120948,
+      "cardtrader": [
+        {
+          "id": 120948,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Gyarados)",
+          "expansion_code": "gyarados",
+          "collector_number": "29/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 85483,
+      "name": "Flaaffy (#3)",
+      "clean_name": "Flaaffy 3",
+      "number": "3/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85483_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85483%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-flaaffy-3",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279119,
+      "cardtrader_id": 120952,
+      "cardtrader": [
+        {
+          "id": 120952,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Raichu)",
+          "expansion_code": "raichu",
+          "collector_number": "03/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 90514,
+      "name": "Water Energy (#3)",
+      "clean_name": "Water Energy 3",
+      "number": "3/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90514_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90514%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-water-energy-3",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279148,
+      "cardtrader_id": 120922,
+      "cardtrader": [
+        {
+          "id": 120922,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Gyarados)",
+          "expansion_code": "gyarados",
+          "collector_number": "03/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 85998,
+      "name": "Gyarados (#30 Holo)",
+      "clean_name": "Gyarados 30 Holo",
+      "number": "30/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85998_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85998%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-gyarados-30-holo",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279143,
+      "cardtrader_id": 120949,
+      "cardtrader": [
+        {
+          "id": 120949,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Gyarados)",
+          "expansion_code": "gyarados",
+          "collector_number": "30/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 88521,
+      "name": "Raichu (#30 Holo)",
+      "clean_name": "Raichu 30 Holo",
+      "number": "30/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88521_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88521%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-raichu-30-holo",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279118,
+      "cardtrader_id": 120979,
+      "cardtrader": [
+        {
+          "id": 120979,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Raichu)",
+          "expansion_code": "raichu",
+          "collector_number": "30/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 87323,
+      "name": "Meowth (#4)",
+      "clean_name": "Meowth 4",
+      "number": "4/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87323_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87323%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-meowth-4",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279113,
+      "cardtrader_id": 120953,
+      "cardtrader": [
+        {
+          "id": 120953,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Raichu)",
+          "expansion_code": "raichu",
+          "collector_number": "04/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 90515,
+      "name": "Water Energy (#4)",
+      "clean_name": "Water Energy 4",
+      "number": "4/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90515_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90515%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-water-energy-4",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279142,
+      "cardtrader_id": 120923,
+      "cardtrader": [
+        {
+          "id": 120923,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Gyarados)",
+          "expansion_code": "gyarados",
+          "collector_number": "04/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 83833,
+      "name": "Bill (#5)",
+      "clean_name": "Bill 5",
+      "number": "5/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/83833_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83833%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-bill-5",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279144,
+      "cardtrader_id": 120924,
+      "cardtrader": [
+        {
+          "id": 120924,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Gyarados)",
+          "expansion_code": "gyarados",
+          "collector_number": "05/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 86769,
+      "name": "Lightning Energy (#5)",
+      "clean_name": "Lightning Energy 5",
+      "number": "5/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86769_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86769%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-lightning-energy-5",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279112,
+      "cardtrader_id": 120954,
+      "cardtrader": [
+        {
+          "id": 120954,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Raichu)",
+          "expansion_code": "raichu",
+          "collector_number": "05/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 86770,
+      "name": "Lightning Energy (#6)",
+      "clean_name": "Lightning Energy 6",
+      "number": "6/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86770_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86770%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-lightning-energy-6",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279114,
+      "cardtrader_id": 120955,
+      "cardtrader": [
+        {
+          "id": 120955,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Raichu)",
+          "expansion_code": "raichu",
+          "collector_number": "06/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 90516,
+      "name": "Water Energy (#6)",
+      "clean_name": "Water Energy 6",
+      "number": "6/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90516_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90516%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-water-energy-6",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279145,
+      "cardtrader_id": 120925,
+      "cardtrader": [
+        {
+          "id": 120925,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Gyarados)",
+          "expansion_code": "gyarados",
+          "collector_number": "06/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 86771,
+      "name": "Lightning Energy (#7)",
+      "clean_name": "Lightning Energy 7",
+      "number": "7/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86771_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86771%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-lightning-energy-7",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279115,
+      "cardtrader_id": 120956,
+      "cardtrader": [
+        {
+          "id": 120956,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Raichu)",
+          "expansion_code": "raichu",
+          "collector_number": "07/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 90517,
+      "name": "Water Energy (#7)",
+      "clean_name": "Water Energy 7",
+      "number": "7/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90517_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90517%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-water-energy-7",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279147,
+      "cardtrader_id": 120926,
+      "cardtrader": [
+        {
+          "id": 120926,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Gyarados)",
+          "expansion_code": "gyarados",
+          "collector_number": "07/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 86772,
+      "name": "Lightning Energy (#8)",
+      "clean_name": "Lightning Energy 8",
+      "number": "8/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86772_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86772%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-lightning-energy-8",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279117,
+      "cardtrader_id": 120957,
+      "cardtrader": [
+        {
+          "id": 120957,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Raichu)",
+          "expansion_code": "raichu",
+          "collector_number": "08/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 90518,
+      "name": "Water Energy (#8)",
+      "clean_name": "Water Energy 8",
+      "number": "8/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90518_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90518%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-water-energy-8",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279146,
+      "cardtrader_id": 120927,
+      "cardtrader": [
+        {
+          "id": 120927,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Gyarados)",
+          "expansion_code": "gyarados",
+          "collector_number": "08/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 86773,
+      "name": "Lightning Energy (#9)",
+      "clean_name": "Lightning Energy 9",
+      "number": "9/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86773_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86773%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-lightning-energy-9",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279116,
+      "cardtrader_id": 120958,
+      "cardtrader": [
+        {
+          "id": 120958,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Raichu)",
+          "expansion_code": "raichu",
+          "collector_number": "09/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 90519,
+      "name": "Water Energy (#9)",
+      "clean_name": "Water Energy 9",
+      "number": "9/30",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90519_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90519%2Fpokemon-hgss-trainer-kit-gyarados-and-raichu-water-energy-9",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 279126,
+      "cardtrader_id": 120928,
+      "cardtrader": [
+        {
+          "id": 120928,
+          "match_type": "tcgplayer",
+          "expansion": "HS Trainer Kit (Gyarados)",
+          "expansion_code": "gyarados",
+          "collector_number": "09/30",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

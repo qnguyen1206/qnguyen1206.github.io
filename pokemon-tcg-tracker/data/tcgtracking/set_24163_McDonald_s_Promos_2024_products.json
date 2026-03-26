@@ -1,0 +1,1473 @@
+{
+  "set_id": 24163,
+  "set_name": "McDonald's Promos 2024",
+  "set_abbr": "M24",
+  "set_released": "2025-01-21",
+  "product_count": 16,
+  "data_modified": "2026-02-01T14:24:43-05:00",
+  "file_generated": "2026-02-02T03:32:18-05:00",
+  "pricing_url": "/tcgapi/v1/3/sets/24163/pricing",
+  "products": [
+    {
+      "id": 615609,
+      "name": "McDonald's 2024 Match & Battle Pack",
+      "clean_name": "McDonalds 2024 Match and Battle Pack",
+      "number": null,
+      "rarity": null,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/615609_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F615609%2Fpokemon-mcdonalds-promos-2024-mcdonalds-2024-match-and-battle-pack",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": null
+    },
+    {
+      "id": 614370,
+      "name": "Charizard",
+      "clean_name": "Charizard",
+      "number": "001/015",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/614370_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F614370%2Fpokemon-mcdonalds-promos-2024-charizard",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 802823,
+      "cardtrader_id": 314915,
+      "cardtrader": [
+        {
+          "id": 314915,
+          "match_type": "scryfall",
+          "expansion": "McDonald's Dragon Discovery",
+          "expansion_code": "m24",
+          "collector_number": "001",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 614371,
+      "name": "Pikachu",
+      "clean_name": "Pikachu",
+      "number": "002/015",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/614371_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F614371%2Fpokemon-mcdonalds-promos-2024-pikachu",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 802824,
+      "cardtrader_id": 314913,
+      "cardtrader": [
+        {
+          "id": 314913,
+          "match_type": "scryfall",
+          "expansion": "McDonald's Dragon Discovery",
+          "expansion_code": "m24",
+          "collector_number": "002",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 614372,
+      "name": "Miraidon",
+      "clean_name": "Miraidon",
+      "number": "003/015",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/614372_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F614372%2Fpokemon-mcdonalds-promos-2024-miraidon",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 802825,
+      "cardtrader_id": 314918,
+      "cardtrader": [
+        {
+          "id": 314918,
+          "match_type": "scryfall",
+          "expansion": "McDonald's Dragon Discovery",
+          "expansion_code": "m24",
+          "collector_number": "003",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 614373,
+      "name": "Jigglypuff",
+      "clean_name": "Jigglypuff",
+      "number": "004/015",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/614373_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F614373%2Fpokemon-mcdonalds-promos-2024-jigglypuff",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 802826,
+      "cardtrader_id": 314920,
+      "cardtrader": [
+        {
+          "id": 314920,
+          "match_type": "scryfall",
+          "expansion": "McDonald's Dragon Discovery",
+          "expansion_code": "m24",
+          "collector_number": "004",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 614374,
+      "name": "Hatenna",
+      "clean_name": "Hatenna",
+      "number": "005/015",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/614374_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F614374%2Fpokemon-mcdonalds-promos-2024-hatenna",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 802827,
+      "cardtrader_id": 314921,
+      "cardtrader": [
+        {
+          "id": 314921,
+          "match_type": "scryfall",
+          "expansion": "McDonald's Dragon Discovery",
+          "expansion_code": "m24",
+          "collector_number": "005",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 614375,
+      "name": "Dragapult",
+      "clean_name": "Dragapult",
+      "number": "006/015",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/614375_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F614375%2Fpokemon-mcdonalds-promos-2024-dragapult",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 802828,
+      "cardtrader_id": 314923,
+      "cardtrader": [
+        {
+          "id": 314923,
+          "match_type": "scryfall",
+          "expansion": "McDonald's Dragon Discovery",
+          "expansion_code": "m24",
+          "collector_number": "006",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 614376,
+      "name": "Quagsire",
+      "clean_name": "Quagsire",
+      "number": "007/015",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/614376_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F614376%2Fpokemon-mcdonalds-promos-2024-quagsire",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 802829,
+      "cardtrader_id": 314924,
+      "cardtrader": [
+        {
+          "id": 314924,
+          "match_type": "scryfall",
+          "expansion": "McDonald's Dragon Discovery",
+          "expansion_code": "m24",
+          "collector_number": "007",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 614377,
+      "name": "Koraidon",
+      "clean_name": "Koraidon",
+      "number": "008/015",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/614377_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F614377%2Fpokemon-mcdonalds-promos-2024-koraidon",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 802830,
+      "cardtrader_id": 314925,
+      "cardtrader": [
+        {
+          "id": 314925,
+          "match_type": "scryfall",
+          "expansion": "McDonald's Dragon Discovery",
+          "expansion_code": "m24",
+          "collector_number": "008",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 614378,
+      "name": "Umbreon",
+      "clean_name": "Umbreon",
+      "number": "009/015",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/614378_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F614378%2Fpokemon-mcdonalds-promos-2024-umbreon",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 802831,
+      "cardtrader_id": 314926,
+      "cardtrader": [
+        {
+          "id": 314926,
+          "match_type": "scryfall",
+          "expansion": "McDonald's Dragon Discovery",
+          "expansion_code": "m24",
+          "collector_number": "009",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 614379,
+      "name": "Hydreigon",
+      "clean_name": "Hydreigon",
+      "number": "010/015",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/614379_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F614379%2Fpokemon-mcdonalds-promos-2024-hydreigon",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 802832,
+      "cardtrader_id": 314927,
+      "cardtrader": [
+        {
+          "id": 314927,
+          "match_type": "scryfall",
+          "expansion": "McDonald's Dragon Discovery",
+          "expansion_code": "m24",
+          "collector_number": "010",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 614380,
+      "name": "Roaring Moon",
+      "clean_name": "Roaring Moon",
+      "number": "011/015",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/614380_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F614380%2Fpokemon-mcdonalds-promos-2024-roaring-moon",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 802833,
+      "cardtrader_id": 314928,
+      "cardtrader": [
+        {
+          "id": 314928,
+          "match_type": "scryfall",
+          "expansion": "McDonald's Dragon Discovery",
+          "expansion_code": "m24",
+          "collector_number": "011",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 614381,
+      "name": "Dragonite",
+      "clean_name": "Dragonite",
+      "number": "012/015",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/614381_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F614381%2Fpokemon-mcdonalds-promos-2024-dragonite",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 802834,
+      "cardtrader_id": 314929,
+      "cardtrader": [
+        {
+          "id": 314929,
+          "match_type": "scryfall",
+          "expansion": "McDonald's Dragon Discovery",
+          "expansion_code": "m24",
+          "collector_number": "012",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 614382,
+      "name": "Eevee",
+      "clean_name": "Eevee",
+      "number": "013/015",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/614382_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F614382%2Fpokemon-mcdonalds-promos-2024-eevee",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 802835,
+      "cardtrader_id": 314930,
+      "cardtrader": [
+        {
+          "id": 314930,
+          "match_type": "scryfall",
+          "expansion": "McDonald's Dragon Discovery",
+          "expansion_code": "m24",
+          "collector_number": "013",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 614383,
+      "name": "Rayquaza",
+      "clean_name": "Rayquaza",
+      "number": "014/015",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/614383_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F614383%2Fpokemon-mcdonalds-promos-2024-rayquaza",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 802836,
+      "cardtrader_id": 314931,
+      "cardtrader": [
+        {
+          "id": 314931,
+          "match_type": "scryfall",
+          "expansion": "McDonald's Dragon Discovery",
+          "expansion_code": "m24",
+          "collector_number": "014",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 614384,
+      "name": "Drampa",
+      "clean_name": "Drampa",
+      "number": "015/015",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/614384_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F614384%2Fpokemon-mcdonalds-promos-2024-drampa",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 802837,
+      "cardtrader_id": 314932,
+      "cardtrader": [
+        {
+          "id": 314932,
+          "match_type": "scryfall",
+          "expansion": "McDonald's Dragon Discovery",
+          "expansion_code": "m24",
+          "collector_number": "015",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

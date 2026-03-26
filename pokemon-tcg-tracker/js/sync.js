@@ -109,6 +109,8 @@ export function importCollection(file) {
 // ============================================
 
 // Generate a short sync code
+import { getFirebaseDB } from './firebase.js';
+
 function generateSyncCode() {
     const chars = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'; // Removed similar looking chars
     let code = '';
@@ -141,20 +143,19 @@ function compressCollection(collection) {
 export async function createSyncCode() {
     const syncCode = generateSyncCode();
     const compressedData = compressCollection(state.collection);
-    
     const syncData = {
         code: syncCode,
         version: 2,
         createdAt: new Date().toISOString(),
         collection: compressedData
     };
-    
     try {
-        // Store in localStorage with the code as key
-        // Note: For true cross-device sync, you'd need a backend service
-        // The code can be shared manually between devices on the same network
-        localStorage.setItem(`pokemon_sync_${syncCode}`, JSON.stringify(syncData));
-        
+        // Store in Firebase Realtime Database
+        const db = getFirebaseDB();
+        // Use set to overwrite or create
+        await import('firebase/database').then(({ ref, set }) =>
+            set(ref(db, `syncCodes/${syncCode}`), syncData)
+        );
         return syncCode;
     } catch (error) {
         console.error('Failed to create sync code:', error);
@@ -164,17 +165,17 @@ export async function createSyncCode() {
 
 export async function loadFromSyncCode(code) {
     const normalizedCode = code.toUpperCase().replace(/[^A-Z0-9]/g, '');
-    
     try {
-        // First try localStorage
-        const localData = localStorage.getItem(`pokemon_sync_${normalizedCode}`);
-        if (localData) {
-            const syncData = JSON.parse(localData);
+        // Fetch from Firebase Realtime Database
+        const db = getFirebaseDB();
+        const { ref, get, child } = await import('firebase/database');
+        const snapshot = await get(child(ref(db), `syncCodes/${normalizedCode}`));
+        if (snapshot.exists()) {
+            const syncData = snapshot.val();
             return syncData.collection;
+        } else {
+            throw new Error('Sync code not found. Make sure you entered it correctly.');
         }
-        
-        // Try JSONBin.io search (would need backend in production)
-        throw new Error('Sync code not found. Make sure you entered it correctly.');
     } catch (error) {
         throw error;
     }

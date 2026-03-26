@@ -1,0 +1,3279 @@
+{
+  "set_id": 3179,
+  "set_name": "Trick or Trade BOOster Bundle",
+  "set_abbr": "TTBB",
+  "set_released": "2022-09-01",
+  "product_count": 33,
+  "data_modified": "2026-02-01T14:24:29-05:00",
+  "file_generated": "2026-02-02T03:32:21-05:00",
+  "pricing_url": "/tcgapi/v1/3/sets/3179/pricing",
+  "products": [
+    {
+      "id": 280301,
+      "name": "Trick or Trade BOOster Bundle - Mini Booster Pack",
+      "clean_name": "Trick or Trade BOOster Bundle Mini Booster Pack",
+      "number": null,
+      "rarity": null,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/280301_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F280301%2Fpokemon-trick-or-trade-booster-bundle-trick-or-trade-booster-bundle-mini-booster-pack",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 669556,
+      "cardtrader_id": 247276,
+      "cardtrader": [
+        {
+          "id": 247276,
+          "match_type": "scryfall",
+          "expansion": "Trick or Trade",
+          "expansion_code": "trickortrade",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 659627,
+      "name": "Trick or Trade BOOster Bundle (120 ct)",
+      "clean_name": "Trick or Trade BOOster Bundle 120 ct",
+      "number": null,
+      "rarity": null,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/659627_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F659627%2Fpokemon-trick-or-trade-booster-bundle-trick-or-trade-booster-bundle-120-ct",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": null
+    },
+    {
+      "id": 280302,
+      "name": "Trick or Trade BOOster Bundle (40 ct)",
+      "clean_name": "Trick or Trade BOOster Bundle 40 ct",
+      "number": null,
+      "rarity": null,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/280302_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F280302%2Fpokemon-trick-or-trade-booster-bundle-trick-or-trade-booster-bundle-40-ct",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": null
+    },
+    {
+      "id": 283793,
+      "name": "Trevenant",
+      "clean_name": "Trevenant",
+      "number": "015/192",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/283793_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F283793%2Fpokemon-trick-or-trade-booster-bundle-trevenant",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 671591,
+      "cardtrader_id": 224023,
+      "cardtrader": [
+        {
+          "id": 224023,
+          "match_type": "scryfall",
+          "expansion": "Trick or Trade",
+          "expansion_code": "trickortrade",
+          "collector_number": "015",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 283826,
+      "name": "Phantump",
+      "clean_name": "Phantump",
+      "number": "016/264",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/283826_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F283826%2Fpokemon-trick-or-trade-booster-bundle-phantump",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 671590,
+      "cardtrader_id": 224017,
+      "cardtrader": [
+        {
+          "id": 224017,
+          "match_type": "scryfall",
+          "expansion": "Trick or Trade",
+          "expansion_code": "trickortrade",
+          "collector_number": "016",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 283833,
+      "name": "Hatenna",
+      "clean_name": "Hatenna",
+      "number": "018/073",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/283833_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F283833%2Fpokemon-trick-or-trade-booster-bundle-hatenna",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 671596,
+      "cardtrader_id": 224005,
+      "cardtrader": [
+        {
+          "id": 224005,
+          "match_type": "scryfall",
+          "expansion": "Trick or Trade",
+          "expansion_code": "trickortrade",
+          "collector_number": "018",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 283824,
+      "name": "Litwick",
+      "clean_name": "Litwick",
+      "number": "031/192",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/283824_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F283824%2Fpokemon-trick-or-trade-booster-bundle-litwick",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 671587,
+      "cardtrader_id": 224010,
+      "cardtrader": [
+        {
+          "id": 224010,
+          "match_type": "scryfall",
+          "expansion": "Trick or Trade",
+          "expansion_code": "trickortrade",
+          "collector_number": "031",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 283825,
+      "name": "Lampent",
+      "clean_name": "Lampent",
+      "number": "032/192",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/283825_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F283825%2Fpokemon-trick-or-trade-booster-bundle-lampent",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 671588,
+      "cardtrader_id": 224009,
+      "cardtrader": [
+        {
+          "id": 224009,
+          "match_type": "scryfall",
+          "expansion": "Trick or Trade",
+          "expansion_code": "trickortrade",
+          "collector_number": "032",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 283790,
+      "name": "Chandelure",
+      "clean_name": "Chandelure",
+      "number": "033/192",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/283790_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F283790%2Fpokemon-trick-or-trade-booster-bundle-chandelure",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 671589,
+      "cardtrader_id": 223996,
+      "cardtrader": [
+        {
+          "id": 223996,
+          "match_type": "scryfall",
+          "expansion": "Trick or Trade",
+          "expansion_code": "trickortrade",
+          "collector_number": "033",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 283805,
+      "name": "Pikachu",
+      "clean_name": "Pikachu",
+      "number": "049/203",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/283805_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F283805%2Fpokemon-trick-or-trade-booster-bundle-pikachu",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 671571,
+      "cardtrader_id": 224018,
+      "cardtrader": [
+        {
+          "id": 224018,
+          "match_type": "scryfall",
+          "expansion": "Trick or Trade",
+          "expansion_code": "trickortrade",
+          "collector_number": "049",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 283811,
+      "name": "Gastly",
+      "clean_name": "Gastly",
+      "number": "055/198",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/283811_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F283811%2Fpokemon-trick-or-trade-booster-bundle-gastly",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 671574,
+      "cardtrader_id": 224002,
+      "cardtrader": [
+        {
+          "id": 224002,
+          "match_type": "scryfall",
+          "expansion": "Trick or Trade",
+          "expansion_code": "trickortrade",
+          "collector_number": "055",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 283785,
+      "name": "Mewtwo",
+      "clean_name": "Mewtwo",
+      "number": "056/172",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/283785_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F283785%2Fpokemon-trick-or-trade-booster-bundle-mewtwo",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 671577,
+      "cardtrader_id": 224011,
+      "cardtrader": [
+        {
+          "id": 224011,
+          "match_type": "scryfall",
+          "expansion": "Trick or Trade",
+          "expansion_code": "trickortrade",
+          "collector_number": "056",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 283812,
+      "name": "Haunter",
+      "clean_name": "Haunter",
+      "number": "056/198",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/283812_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F283812%2Fpokemon-trick-or-trade-booster-bundle-haunter",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 671575,
+      "cardtrader_id": 224008,
+      "cardtrader": [
+        {
+          "id": 224008,
+          "match_type": "scryfall",
+          "expansion": "Trick or Trade",
+          "expansion_code": "trickortrade",
+          "collector_number": "056",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 283766,
+      "name": "Gengar (2021 Copyright Date)",
+      "clean_name": "Gengar 2021 Copyright Date",
+      "number": "057/198",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/283766_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F283766%2Fpokemon-trick-or-trade-booster-bundle-gengar-2021-copyright-date",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 671576,
+      "cardtrader_id": 224003,
+      "cardtrader": [
+        {
+          "id": 224003,
+          "match_type": "scryfall",
+          "expansion": "Trick or Trade",
+          "expansion_code": "trickortrade",
+          "collector_number": "057",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 283820,
+      "name": "Misdreavus",
+      "clean_name": "Misdreavus",
+      "number": "058/189",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/283820_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F283820%2Fpokemon-trick-or-trade-booster-bundle-misdreavus",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 671581,
+      "cardtrader_id": 224013,
+      "cardtrader": [
+        {
+          "id": 224013,
+          "match_type": "scryfall",
+          "expansion": "Trick or Trade",
+          "expansion_code": "trickortrade",
+          "collector_number": "058",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 283786,
+      "name": "Mismagius",
+      "clean_name": "Mismagius",
+      "number": "059/189",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/283786_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F283786%2Fpokemon-trick-or-trade-booster-bundle-mismagius",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 671582,
+      "cardtrader_id": 224014,
+      "cardtrader": [
+        {
+          "id": 224014,
+          "match_type": "scryfall",
+          "expansion": "Trick or Trade",
+          "expansion_code": "trickortrade",
+          "collector_number": "059",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 283821,
+      "name": "Duskull",
+      "clean_name": "Duskull",
+      "number": "060/172",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/283821_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F283821%2Fpokemon-trick-or-trade-booster-bundle-duskull",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 671583,
+      "cardtrader_id": 224001,
+      "cardtrader": [
+        {
+          "id": 224001,
+          "match_type": "scryfall",
+          "expansion": "Trick or Trade",
+          "expansion_code": "trickortrade",
+          "collector_number": "060",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 283822,
+      "name": "Dusclops",
+      "clean_name": "Dusclops",
+      "number": "061/172",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/283822_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F283822%2Fpokemon-trick-or-trade-booster-bundle-dusclops",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 671584,
+      "cardtrader_id": 223999,
+      "cardtrader": [
+        {
+          "id": 223999,
+          "match_type": "scryfall",
+          "expansion": "Trick or Trade",
+          "expansion_code": "trickortrade",
+          "collector_number": "061",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 283787,
+      "name": "Dusknoir",
+      "clean_name": "Dusknoir",
+      "number": "062/172",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/283787_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F283787%2Fpokemon-trick-or-trade-booster-bundle-dusknoir",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 671585,
+      "cardtrader_id": 224000,
+      "cardtrader": [
+        {
+          "id": 224000,
+          "match_type": "scryfall",
+          "expansion": "Trick or Trade",
+          "expansion_code": "trickortrade",
+          "collector_number": "062",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 283807,
+      "name": "Cubone",
+      "clean_name": "Cubone",
+      "number": "069/163",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/283807_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F283807%2Fpokemon-trick-or-trade-booster-bundle-cubone",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 671572,
+      "cardtrader_id": 223997,
+      "cardtrader": [
+        {
+          "id": 223997,
+          "match_type": "scryfall",
+          "expansion": "Trick or Trade",
+          "expansion_code": "trickortrade",
+          "collector_number": "069",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 283836,
+      "name": "Hattrem",
+      "clean_name": "Hattrem",
+      "number": "072/198",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/283836_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F283836%2Fpokemon-trick-or-trade-booster-bundle-hattrem",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 671597,
+      "cardtrader_id": 224007,
+      "cardtrader": [
+        {
+          "id": 224007,
+          "match_type": "scryfall",
+          "expansion": "Trick or Trade",
+          "expansion_code": "trickortrade",
+          "collector_number": "072",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 283801,
+      "name": "Hatterene",
+      "clean_name": "Hatterene",
+      "number": "073/198",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/283801_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F283801%2Fpokemon-trick-or-trade-booster-bundle-hatterene",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 671598,
+      "cardtrader_id": 224006,
+      "cardtrader": [
+        {
+          "id": 224006,
+          "match_type": "scryfall",
+          "expansion": "Trick or Trade",
+          "expansion_code": "trickortrade",
+          "collector_number": "073",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 283828,
+      "name": "Pumpkaboo",
+      "clean_name": "Pumpkaboo",
+      "number": "076/203",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/283828_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F283828%2Fpokemon-trick-or-trade-booster-bundle-pumpkaboo",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 671592,
+      "cardtrader_id": 224020,
+      "cardtrader": [
+        {
+          "id": 224020,
+          "match_type": "scryfall",
+          "expansion": "Trick or Trade",
+          "expansion_code": "trickortrade",
+          "collector_number": "076",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 283795,
+      "name": "Gourgeist",
+      "clean_name": "Gourgeist",
+      "number": "077/203",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/283795_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F283795%2Fpokemon-trick-or-trade-booster-bundle-gourgeist",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 671593,
+      "cardtrader_id": 224004,
+      "cardtrader": [
+        {
+          "id": 224004,
+          "match_type": "scryfall",
+          "expansion": "Trick or Trade",
+          "expansion_code": "trickortrade",
+          "collector_number": "077",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 283798,
+      "name": "Mimikyu",
+      "clean_name": "Mimikyu",
+      "number": "081/189",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/283798_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F283798%2Fpokemon-trick-or-trade-booster-bundle-mimikyu",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 671594,
+      "cardtrader_id": 224012,
+      "cardtrader": [
+        {
+          "id": 224012,
+          "match_type": "scryfall",
+          "expansion": "Trick or Trade",
+          "expansion_code": "trickortrade",
+          "collector_number": "081",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 283838,
+      "name": "Sinistea",
+      "clean_name": "Sinistea",
+      "number": "082/189",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/283838_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F283838%2Fpokemon-trick-or-trade-booster-bundle-sinistea",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 671599,
+      "cardtrader_id": 224021,
+      "cardtrader": [
+        {
+          "id": 224021,
+          "match_type": "scryfall",
+          "expansion": "Trick or Trade",
+          "expansion_code": "trickortrade",
+          "collector_number": "082",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 283839,
+      "name": "Polteageist",
+      "clean_name": "Polteageist",
+      "number": "083/189",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/283839_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F283839%2Fpokemon-trick-or-trade-booster-bundle-polteageist",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 671600,
+      "cardtrader_id": 224019,
+      "cardtrader": [
+        {
+          "id": 224019,
+          "match_type": "scryfall",
+          "expansion": "Trick or Trade",
+          "expansion_code": "trickortrade",
+          "collector_number": "083",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 283810,
+      "name": "Zubat",
+      "clean_name": "Zubat",
+      "number": "089/163",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/283810_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F283810%2Fpokemon-trick-or-trade-booster-bundle-zubat",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 671573,
+      "cardtrader_id": 224024,
+      "cardtrader": [
+        {
+          "id": 224024,
+          "match_type": "scryfall",
+          "expansion": "Trick or Trade",
+          "expansion_code": "trickortrade",
+          "collector_number": "089",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 283819,
+      "name": "Murkrow",
+      "clean_name": "Murkrow",
+      "number": "093/163",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/283819_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F283819%2Fpokemon-trick-or-trade-booster-bundle-murkrow",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 671580,
+      "cardtrader_id": 224015,
+      "cardtrader": [
+        {
+          "id": 224015,
+          "match_type": "scryfall",
+          "expansion": "Trick or Trade",
+          "expansion_code": "trickortrade",
+          "collector_number": "093",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 283815,
+      "name": "Spinarak",
+      "clean_name": "Spinarak",
+      "number": "102/189",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/283815_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F283815%2Fpokemon-trick-or-trade-booster-bundle-spinarak",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 671578,
+      "cardtrader_id": 224022,
+      "cardtrader": [
+        {
+          "id": 224022,
+          "match_type": "scryfall",
+          "expansion": "Trick or Trade",
+          "expansion_code": "trickortrade",
+          "collector_number": "102",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 283818,
+      "name": "Ariados",
+      "clean_name": "Ariados",
+      "number": "103/189",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/283818_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F283818%2Fpokemon-trick-or-trade-booster-bundle-ariados",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 671579,
+      "cardtrader_id": 223955,
+      "cardtrader": [
+        {
+          "id": 223955,
+          "match_type": "scryfall",
+          "expansion": "Trick or Trade",
+          "expansion_code": "trickortrade",
+          "collector_number": "103",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 283831,
+      "name": "Nickit",
+      "clean_name": "Nickit",
+      "number": "103/189",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/283831_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F283831%2Fpokemon-trick-or-trade-booster-bundle-nickit",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 671595,
+      "cardtrader_id": 224016,
+      "cardtrader": [
+        {
+          "id": 224016,
+          "match_type": "scryfall",
+          "expansion": "Trick or Trade",
+          "expansion_code": "trickortrade",
+          "collector_number": "103",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 283788,
+      "name": "Darkrai",
+      "clean_name": "Darkrai",
+      "number": "105/189",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/283788_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F283788%2Fpokemon-trick-or-trade-booster-bundle-darkrai",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 671586,
+      "cardtrader_id": 223998,
+      "cardtrader": [
+        {
+          "id": 223998,
+          "match_type": "scryfall",
+          "expansion": "Trick or Trade",
+          "expansion_code": "trickortrade",
+          "collector_number": "105",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

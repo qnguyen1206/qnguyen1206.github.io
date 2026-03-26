@@ -1,0 +1,1608 @@
+{
+  "set_id": 3150,
+  "set_name": "McDonald's Promos 2022",
+  "set_abbr": "MCD22",
+  "set_released": "2022-08-03",
+  "product_count": 16,
+  "data_modified": "2026-02-01T14:24:27-05:00",
+  "file_generated": "2026-02-02T03:32:21-05:00",
+  "pricing_url": "/tcgapi/v1/3/sets/3150/pricing",
+  "products": [
+    {
+      "id": 282530,
+      "name": "McDonald's 2022 Match & Battle Pack",
+      "clean_name": "McDonalds 2022 Match and Battle Pack",
+      "number": null,
+      "rarity": null,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/282530_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F282530%2Fpokemon-mcdonalds-promos-2022-mcdonalds-2022-match-and-battle-pack",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": null
+    },
+    {
+      "id": 281476,
+      "name": "Ledyba - 1/15",
+      "clean_name": "Ledyba 1 15",
+      "number": "001/015",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/281476_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F281476%2Fpokemon-mcdonalds-promos-2022-ledyba-1-15",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 670466,
+      "cardtrader_id": 224254,
+      "cardtrader": [
+        {
+          "id": 224254,
+          "match_type": "scryfall",
+          "expansion": "McDonald's Match Battle 2022",
+          "expansion_code": "mc22",
+          "collector_number": "001",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 281473,
+      "name": "Rowlet - 2/15",
+      "clean_name": "Rowlet 2 15",
+      "number": "002/015",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/281473_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F281473%2Fpokemon-mcdonalds-promos-2022-rowlet-2-15",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 670467,
+      "cardtrader_id": 224258,
+      "cardtrader": [
+        {
+          "id": 224258,
+          "match_type": "scryfall",
+          "expansion": "McDonald's Match Battle 2022",
+          "expansion_code": "mc22",
+          "collector_number": "002",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 281482,
+      "name": "Gossifleur - 3/15",
+      "clean_name": "Gossifleur 3 15",
+      "number": "003/015",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/281482_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F281482%2Fpokemon-mcdonalds-promos-2022-gossifleur-3-15",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 670468,
+      "cardtrader_id": 224251,
+      "cardtrader": [
+        {
+          "id": 224251,
+          "match_type": "scryfall",
+          "expansion": "McDonald's Match Battle 2022",
+          "expansion_code": "mc22",
+          "collector_number": "003",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 281503,
+      "name": "Growlithe - 4/15",
+      "clean_name": "Growlithe 4 15",
+      "number": "004/015",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/281503_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F281503%2Fpokemon-mcdonalds-promos-2022-growlithe-4-15",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 670469,
+      "cardtrader_id": 224252,
+      "cardtrader": [
+        {
+          "id": 224252,
+          "match_type": "scryfall",
+          "expansion": "McDonald's Match Battle 2022",
+          "expansion_code": "mc22",
+          "collector_number": "004",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 281493,
+      "name": "Victini - 5/15",
+      "clean_name": "Victini 5 15",
+      "number": "005/015",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/281493_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F281493%2Fpokemon-mcdonalds-promos-2022-victini-5-15",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 670470,
+      "cardtrader_id": 224261,
+      "cardtrader": [
+        {
+          "id": 224261,
+          "match_type": "scryfall",
+          "expansion": "McDonald's Match Battle 2022",
+          "expansion_code": "mc22",
+          "collector_number": "005",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 281485,
+      "name": "Lapras - 6/15",
+      "clean_name": "Lapras 6 15",
+      "number": "006/015",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/281485_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F281485%2Fpokemon-mcdonalds-promos-2022-lapras-6-15",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 670471,
+      "cardtrader_id": 224255,
+      "cardtrader": [
+        {
+          "id": 224255,
+          "match_type": "scryfall",
+          "expansion": "McDonald's Match Battle 2022",
+          "expansion_code": "mc22",
+          "collector_number": "006",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 282523,
+      "name": "Pikachu - 7/15",
+      "clean_name": "Pikachu 7 15",
+      "number": "007/015",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/282523_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F282523%2Fpokemon-mcdonalds-promos-2022-pikachu-7-15",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 670472,
+      "cardtrader_id": 224257,
+      "cardtrader": [
+        {
+          "id": 224257,
+          "match_type": "scryfall",
+          "expansion": "McDonald's Match Battle 2022",
+          "expansion_code": "mc22",
+          "collector_number": "007",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 281491,
+      "name": "Chinchou - 8/15",
+      "clean_name": "Chinchou 8 15",
+      "number": "008/015",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/281491_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F281491%2Fpokemon-mcdonalds-promos-2022-chinchou-8-15",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 670473,
+      "cardtrader_id": 224247,
+      "cardtrader": [
+        {
+          "id": 224247,
+          "match_type": "scryfall",
+          "expansion": "McDonald's Match Battle 2022",
+          "expansion_code": "mc22",
+          "collector_number": "008",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 281478,
+      "name": "Flaaffy - 9/15",
+      "clean_name": "Flaaffy 9 15",
+      "number": "009/015",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/281478_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F281478%2Fpokemon-mcdonalds-promos-2022-flaaffy-9-15",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 670474,
+      "cardtrader_id": 224250,
+      "cardtrader": [
+        {
+          "id": 224250,
+          "match_type": "scryfall",
+          "expansion": "McDonald's Match Battle 2022",
+          "expansion_code": "mc22",
+          "collector_number": "009",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 281472,
+      "name": "Tynamo - 10/15",
+      "clean_name": "Tynamo 10 15",
+      "number": "010/015",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/281472_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F281472%2Fpokemon-mcdonalds-promos-2022-tynamo-10-15",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 670475,
+      "cardtrader_id": 224260,
+      "cardtrader": [
+        {
+          "id": 224260,
+          "match_type": "scryfall",
+          "expansion": "McDonald's Match Battle 2022",
+          "expansion_code": "mc22",
+          "collector_number": "010",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 281494,
+      "name": "Cutiefly - 11/15",
+      "clean_name": "Cutiefly 11 15",
+      "number": "011/015",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/281494_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F281494%2Fpokemon-mcdonalds-promos-2022-cutiefly-11-15",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 670476,
+      "cardtrader_id": 224248,
+      "cardtrader": [
+        {
+          "id": 224248,
+          "match_type": "scryfall",
+          "expansion": "McDonald's Match Battle 2022",
+          "expansion_code": "mc22",
+          "collector_number": "011",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 281504,
+      "name": "Bewear - 12/15",
+      "clean_name": "Bewear 12 15",
+      "number": "012/015",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/281504_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F281504%2Fpokemon-mcdonalds-promos-2022-bewear-12-15",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 670477,
+      "cardtrader_id": 224245,
+      "cardtrader": [
+        {
+          "id": 224245,
+          "match_type": "scryfall",
+          "expansion": "McDonald's Match Battle 2022",
+          "expansion_code": "mc22",
+          "collector_number": "012",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 281505,
+      "name": "Pangoro - 13/15",
+      "clean_name": "Pangoro 13 15",
+      "number": "013/015",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/281505_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F281505%2Fpokemon-mcdonalds-promos-2022-pangoro-13-15",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 670478,
+      "cardtrader_id": 224256,
+      "cardtrader": [
+        {
+          "id": 224256,
+          "match_type": "scryfall",
+          "expansion": "McDonald's Match Battle 2022",
+          "expansion_code": "mc22",
+          "collector_number": "013",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 281497,
+      "name": "Drampa - 14/15",
+      "clean_name": "Drampa 14 15",
+      "number": "014/015",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/281497_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F281497%2Fpokemon-mcdonalds-promos-2022-drampa-14-15",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 670479,
+      "cardtrader_id": 224249,
+      "cardtrader": [
+        {
+          "id": 224249,
+          "match_type": "scryfall",
+          "expansion": "McDonald's Match Battle 2022",
+          "expansion_code": "mc22",
+          "collector_number": "014",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 281500,
+      "name": "Smeargle - 15/15",
+      "clean_name": "Smeargle 15 15",
+      "number": "015/015",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/281500_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F281500%2Fpokemon-mcdonalds-promos-2022-smeargle-15-15",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 670480,
+      "cardtrader_id": 224259,
+      "cardtrader": [
+        {
+          "id": 224259,
+          "match_type": "scryfall",
+          "expansion": "McDonald's Match Battle 2022",
+          "expansion_code": "mc22",
+          "collector_number": "015",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
