@@ -19,11 +19,10 @@ export function setupEventListeners() {
     // Mobile filter toggle
     if (elements.mobileFilterToggle && elements.filtersSidebar) {
         elements.mobileFilterToggle.addEventListener('click', () => {
-            elements.filtersSidebar.classList.toggle('expanded');
-            const isExpanded = elements.filtersSidebar.classList.contains('expanded');
-            const toggleText = elements.mobileFilterToggle.querySelector('.toggle-text') || elements.mobileFilterToggle;
+            elements.mobileFilterToggle.classList.toggle('active');
+            elements.filtersSidebar.classList.toggle('mobile-open');
+            const isExpanded = elements.filtersSidebar.classList.contains('mobile-open');
             const toggleIcon = elements.mobileFilterToggle.querySelector('.filter-toggle-arrow');
-            if (toggleText) toggleText.textContent = isExpanded ? 'Hide Filters' : 'Filters';
             if (toggleIcon) toggleIcon.textContent = isExpanded ? '▲' : '▼';
         });
     }
