@@ -1,4 +1,5 @@
 import { defineConfig } from 'vite'
+import { resolve } from 'path'
 
 export default defineConfig({
   // Copy the 3705 folder to dist during build
@@ -16,6 +17,10 @@ export default defineConfig({
     
     // Optimize chunk splitting
     rollupOptions: {
+      input: {
+        main: resolve(__dirname, 'index.html'),
+        'pokemon-tcg-tracker': resolve(__dirname, 'src/pokemon-tcg-tracker/index.html')
+      },
       output: {
         manualChunks: {
           // Split large components into separate chunks
