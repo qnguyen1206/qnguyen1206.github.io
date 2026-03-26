@@ -6,6 +6,8 @@ export const state = {
     cards: [],     // Filtered cards for current view
     sets: [],
     collection: {},  // Loaded from IndexedDB
+    collectionUpdatedAt: 0, // Local timestamp for the latest collection edit
+    lastServerUpdate: 0, // Last Firebase timestamp applied locally
     valueHistory: [], // Loaded from IndexedDB
     currentPage: 1,
     totalPages: 1,

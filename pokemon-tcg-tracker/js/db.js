@@ -7,6 +7,28 @@ import { state } from './state.js';
 // IndexedDB instance
 let db = null;
 
+const COLLECTION_UPDATED_AT_KEY = 'collectionUpdatedAt';
+const LAST_SERVER_UPDATE_KEY = 'lastServerUpdate';
+
+function readLocalStorageNumber(key) {
+    const value = Number(localStorage.getItem(key) || 0);
+    return Number.isFinite(value) ? value : 0;
+}
+
+function hasCollectionEntries() {
+    return Object.keys(state.collection).length > 0;
+}
+
+function loadCollectionMetadataFromLocalStorage() {
+    state.collectionUpdatedAt = readLocalStorageNumber(COLLECTION_UPDATED_AT_KEY);
+    state.lastServerUpdate = readLocalStorageNumber(LAST_SERVER_UPDATE_KEY);
+    
+    // Legacy collections did not persist timestamps; treat them as local data to protect them.
+    if (!state.collectionUpdatedAt && hasCollectionEntries()) {
+        state.collectionUpdatedAt = Date.now();
+    }
+}
+
 // Get database instance (for other modules)
 export function getDB() {
     return db;
@@ -215,7 +237,7 @@ export async function clearCache() {
             const transaction = db.transaction(['cards', 'sets', 'metadata'], 'readwrite');
             transaction.objectStore('cards').clear();
             transaction.objectStore('sets').clear();
-            transaction.objectStore('metadata').clear();
+            transaction.objectStore('metadata').delete('cacheTimestamp');
             
             transaction.oncomplete = () => {
                 console.log('Cache cleared');
@@ -234,14 +256,18 @@ export async function loadCollectionFromDB() {
     if (!db) {
         // Fallback to localStorage if IndexedDB not available
         state.collection = JSON.parse(localStorage.getItem('pokemon-collection')) || {};
+        loadCollectionMetadataFromLocalStorage();
         return;
     }
     
     return new Promise((resolve) => {
         try {
-            const transaction = db.transaction(['collection'], 'readonly');
-            const store = transaction.objectStore('collection');
-            const request = store.getAll();
+            const transaction = db.transaction(['collection', 'metadata'], 'readonly');
+            const collectionStore = transaction.objectStore('collection');
+            const metadataStore = transaction.objectStore('metadata');
+            const request = collectionStore.getAll();
+            const updatedAtRequest = metadataStore.get(COLLECTION_UPDATED_AT_KEY);
+            const lastServerRequest = metadataStore.get(LAST_SERVER_UPDATE_KEY);
             
             request.onsuccess = () => {
                 const items = request.result;
@@ -257,40 +283,75 @@ export async function loadCollectionFromDB() {
                     const localData = localStorage.getItem('pokemon-collection');
                     if (localData) {
                         state.collection = JSON.parse(localData);
+                        loadCollectionMetadataFromLocalStorage();
                         console.log('Migrating collection from localStorage to IndexedDB...');
-                        saveCollectionToDB().then(() => {
+                        saveCollectionToDB({ markLocalChange: false }).then(() => {
                             // Clear localStorage after successful migration
                             localStorage.removeItem('pokemon-collection');
+                            localStorage.removeItem(COLLECTION_UPDATED_AT_KEY);
+                            localStorage.removeItem(LAST_SERVER_UPDATE_KEY);
                             console.log('Collection migrated to IndexedDB');
                         });
                     }
                 }
+            };
+            
+            transaction.oncomplete = () => {
+                if (updatedAtRequest.result) {
+                    state.collectionUpdatedAt = Number(updatedAtRequest.result.value) || 0;
+                } else if (hasCollectionEntries()) {
+                    state.collectionUpdatedAt = Date.now();
+                } else {
+                    state.collectionUpdatedAt = 0;
+                }
+                
+                state.lastServerUpdate = lastServerRequest.result
+                    ? (Number(lastServerRequest.result.value) || 0)
+                    : 0;
+                
                 resolve();
             };
             
             request.onerror = () => {
                 state.collection = JSON.parse(localStorage.getItem('pokemon-collection')) || {};
+                loadCollectionMetadataFromLocalStorage();
+                resolve();
+            };
+            
+            transaction.onerror = () => {
+                state.collection = JSON.parse(localStorage.getItem('pokemon-collection')) || {};
+                loadCollectionMetadataFromLocalStorage();
                 resolve();
             };
         } catch (e) {
             state.collection = JSON.parse(localStorage.getItem('pokemon-collection')) || {};
+            loadCollectionMetadataFromLocalStorage();
             resolve();
         }
     });
 }
 
 // Save collection to IndexedDB
-export async function saveCollectionToDB() {
+export async function saveCollectionToDB(options = {}) {
+    const { markLocalChange = true } = options;
+    
+    if (markLocalChange) {
+        state.collectionUpdatedAt = Date.now();
+    }
+    
     if (!db) {
         // Fallback to localStorage
         localStorage.setItem('pokemon-collection', JSON.stringify(state.collection));
+        localStorage.setItem(COLLECTION_UPDATED_AT_KEY, String(state.collectionUpdatedAt || 0));
+        localStorage.setItem(LAST_SERVER_UPDATE_KEY, String(state.lastServerUpdate || 0));
         return;
     }
     
     return new Promise((resolve) => {
         try {
-            const transaction = db.transaction(['collection'], 'readwrite');
+            const transaction = db.transaction(['collection', 'metadata'], 'readwrite');
             const store = transaction.objectStore('collection');
+            const metadataStore = transaction.objectStore('metadata');
             
             // Clear existing collection
             store.clear();
@@ -300,11 +361,16 @@ export async function saveCollectionToDB() {
                 store.put({ cardId, variants });
             });
             
+            metadataStore.put({ key: COLLECTION_UPDATED_AT_KEY, value: state.collectionUpdatedAt || 0 });
+            metadataStore.put({ key: LAST_SERVER_UPDATE_KEY, value: state.lastServerUpdate || 0 });
+            
             transaction.oncomplete = () => resolve();
             transaction.onerror = () => resolve();
         } catch (e) {
             // Fallback to localStorage
             localStorage.setItem('pokemon-collection', JSON.stringify(state.collection));
+            localStorage.setItem(COLLECTION_UPDATED_AT_KEY, String(state.collectionUpdatedAt || 0));
+            localStorage.setItem(LAST_SERVER_UPDATE_KEY, String(state.lastServerUpdate || 0));
             resolve();
         }
     });

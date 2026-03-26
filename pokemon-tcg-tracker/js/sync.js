@@ -6,16 +6,263 @@ import { renderCollection } from './ui.js';
 import { updateStats } from './stats.js';
 import { FIREBASE_CONFIG } from './config.js';
 
+const REQUIRED_FIREBASE_FIELDS = ['apiKey', 'authDomain', 'databaseURL', 'projectId', 'appId'];
+
 // Check if Firebase is configured
-const isFirebaseConfigured = () => FIREBASE_CONFIG.apiKey && FIREBASE_CONFIG.projectId;
+const getMissingFirebaseFields = () => REQUIRED_FIREBASE_FIELDS.filter(field => !FIREBASE_CONFIG[field]);
+const isFirebaseConfigured = () => getMissingFirebaseFields().length === 0;
 
 // State for sync
 export const syncState = {
     firebaseUser: null,
     firebaseDb: null,
     isFirebaseInitialized: false,
-    lastSyncTime: null
+    lastSyncTime: null,
+    collectionRef: null,
+    collectionListener: null,
+    isResolvingConflict: false
 };
+
+function getCollectionSize(collection = state.collection) {
+    return Object.values(collection || {}).reduce((sum, cardData) => {
+        if (typeof cardData === 'number') {
+            return sum + Math.max(cardData, 0);
+        }
+        
+        if (cardData && typeof cardData === 'object') {
+            return sum + Object.values(cardData).reduce((cardSum, qty) => cardSum + (Number(qty) || 0), 0);
+        }
+        
+        return sum;
+    }, 0);
+}
+
+function cloneCollection(collection = {}) {
+    const cloned = {};
+    
+    Object.entries(collection || {}).forEach(([cardId, cardData]) => {
+        if (cardData && typeof cardData === 'object') {
+            cloned[cardId] = { ...cardData };
+        } else {
+            cloned[cardId] = cardData;
+        }
+    });
+    
+    return cloned;
+}
+
+function normalizeCardVariants(cardData) {
+    if (typeof cardData === 'number') {
+        return cardData > 0 ? { normal: cardData } : {};
+    }
+    
+    if (cardData && typeof cardData === 'object') {
+        return { ...cardData };
+    }
+    
+    return {};
+}
+
+function mergeCollections(baseCollection = {}, incomingCollection = {}) {
+    const merged = cloneCollection(baseCollection);
+    
+    Object.entries(incomingCollection || {}).forEach(([cardId, cardData]) => {
+        if (!merged[cardId]) {
+            merged[cardId] = cardData && typeof cardData === 'object'
+                ? { ...cardData }
+                : cardData;
+            return;
+        }
+        
+        const existingVariants = normalizeCardVariants(merged[cardId]);
+        const incomingVariants = normalizeCardVariants(cardData);
+        
+        Object.entries(incomingVariants).forEach(([variant, qty]) => {
+            existingVariants[variant] = Math.max(existingVariants[variant] || 0, qty);
+        });
+        
+        if (Object.keys(existingVariants).length > 0) {
+            merged[cardId] = existingVariants;
+        }
+    });
+    
+    return merged;
+}
+
+function formatSyncTimestamp(timestamp) {
+    if (!timestamp) return 'Not synced yet';
+    
+    return new Date(timestamp).toLocaleString([], {
+        month: 'short',
+        day: 'numeric',
+        year: 'numeric',
+        hour: 'numeric',
+        minute: '2-digit'
+    });
+}
+
+function applyCollectionUI() {
+    renderCollection();
+    updateStats();
+}
+
+async function applyCollectionSnapshot(collection, {
+    collectionUpdatedAt = state.collectionUpdatedAt,
+    lastServerUpdate = state.lastServerUpdate,
+    markLocalChange = false
+} = {}) {
+    state.collection = cloneCollection(collection);
+    state.collectionUpdatedAt = collectionUpdatedAt || 0;
+    state.lastServerUpdate = lastServerUpdate || 0;
+    
+    await saveCollectionToDB({ markLocalChange });
+    applyCollectionUI();
+}
+
+function hasUnsyncedLocalChanges() {
+    return (state.collectionUpdatedAt || 0) > (state.lastServerUpdate || 0);
+}
+
+function cleanupRealtimeSync() {
+    if (syncState.collectionRef && syncState.collectionListener) {
+        syncState.collectionRef.off('value', syncState.collectionListener);
+    }
+    
+    syncState.collectionRef = null;
+    syncState.collectionListener = null;
+}
+
+async function fetchCloudCollection(userId) {
+    const collectionRef = syncState.firebaseDb.ref(`users/${userId}/collection`);
+    const snapshot = await collectionRef.once('value');
+    return snapshot.val();
+}
+
+async function applyServerCollection(serverData, successMessage) {
+    const serverUpdatedAt = Number(serverData?.updatedAt) || Date.now();
+    
+    await applyCollectionSnapshot(serverData?.collection || {}, {
+        collectionUpdatedAt: serverUpdatedAt,
+        lastServerUpdate: serverUpdatedAt,
+        markLocalChange: false
+    });
+    
+    if (successMessage) {
+        showSyncNotification(successMessage, 'success');
+    }
+}
+
+function showSyncConflictDialog({ title, message, localCollection, localUpdatedAt, cloudCollection, cloudUpdatedAt }) {
+    return new Promise((resolve) => {
+        const dialog = document.createElement('div');
+        dialog.className = 'import-dialog-overlay';
+        dialog.innerHTML = `
+            <div class="import-dialog">
+                <h3>${title}</h3>
+                <p>${message}</p>
+                <p><strong>This device:</strong> ${getCollectionSize(localCollection)} cards, ${formatSyncTimestamp(localUpdatedAt)}</p>
+                <p><strong>Cloud:</strong> ${getCollectionSize(cloudCollection)} cards, ${formatSyncTimestamp(cloudUpdatedAt)}</p>
+                <div class="import-dialog-buttons">
+                    <button class="btn btn-primary" data-action="local">Use Local Collection</button>
+                    <button class="btn btn-secondary" data-action="cloud">Use Cloud Collection</button>
+                    <button class="btn btn-secondary" data-action="merge">Merge Both</button>
+                </div>
+            </div>
+        `;
+        document.body.appendChild(dialog);
+        
+        dialog.querySelectorAll('button').forEach(btn => {
+            btn.onclick = () => {
+                dialog.remove();
+                resolve(btn.dataset.action);
+            };
+        });
+    });
+}
+
+async function resolveCollectionConflict(serverData, { initial = false } = {}) {
+    if (syncState.isResolvingConflict) return;
+    
+    syncState.isResolvingConflict = true;
+    
+    try {
+        const cloudCollection = serverData?.collection || {};
+        const cloudUpdatedAt = Number(serverData?.updatedAt) || 0;
+        const action = await showSyncConflictDialog({
+            title: initial ? 'Choose Sync Source' : 'Sync Conflict Detected',
+            message: initial
+                ? 'We found both a local collection and a cloud collection. Pick which version to keep before syncing.'
+                : 'This device has unsynced changes and the cloud collection changed too. Pick how to resolve the conflict.',
+            localCollection: state.collection,
+            localUpdatedAt: state.collectionUpdatedAt,
+            cloudCollection,
+            cloudUpdatedAt
+        });
+        
+        if (action === 'cloud') {
+            await applyServerCollection(
+                serverData,
+                initial ? 'Loaded your cloud collection.' : 'Applied the cloud collection.'
+            );
+            return;
+        }
+        
+        if (action === 'merge') {
+            state.collection = mergeCollections(state.collection, cloudCollection);
+            await saveCollectionToDB();
+            applyCollectionUI();
+            
+            await syncToFirebase({
+                successMessage: initial
+                    ? 'Merged local and cloud collections.'
+                    : 'Merged local and cloud changes.'
+            });
+            return;
+        }
+        
+        await syncToFirebase({
+            successMessage: initial
+                ? 'Uploaded your local collection to the cloud.'
+                : 'Kept local changes and synced them to the cloud.'
+        });
+    } finally {
+        syncState.isResolvingConflict = false;
+    }
+}
+
+async function resolveInitialCloudSync(user) {
+    const serverData = await fetchCloudCollection(user.uid);
+    
+    if (!serverData || !serverData.updatedAt) {
+        if (getCollectionSize(state.collection) > 0) {
+            await syncToFirebase({
+                successMessage: 'Cloud collection was empty, so your local collection was uploaded.'
+            });
+        }
+        return;
+    }
+    
+    const serverUpdatedAt = Number(serverData.updatedAt) || 0;
+    
+    if (!serverUpdatedAt) return;
+    
+    if (!hasUnsyncedLocalChanges() && getCollectionSize(state.collection) === 0) {
+        await applyServerCollection(serverData, 'Loaded your collection from the cloud.');
+        return;
+    }
+    
+    if (serverUpdatedAt > (state.lastServerUpdate || 0)) {
+        if (hasUnsyncedLocalChanges()) {
+            await resolveCollectionConflict(serverData, { initial: true });
+        } else {
+            await applyServerCollection(serverData, 'Loaded your collection from the cloud.');
+        }
+        return;
+    }
+    
+    state.lastServerUpdate = Math.max(state.lastServerUpdate || 0, serverUpdatedAt);
+    await saveCollectionToDB({ markLocalChange: false });
+}
 
 // ============================================
 // OPTION 1: Manual Export/Import
@@ -70,29 +317,13 @@ export function importCollection(file) {
                 }
                 
                 if (action === 'replace') {
-                    state.collection = data.collection;
+                    state.collection = cloneCollection(data.collection);
                 } else if (action === 'merge') {
-                    // Merge collections
-                    for (const [cardId, cardData] of Object.entries(data.collection)) {
-                        if (!state.collection[cardId]) {
-                            state.collection[cardId] = cardData;
-                        } else {
-                            // Merge variants
-                            if (typeof cardData === 'object' && typeof state.collection[cardId] === 'object') {
-                                for (const [variant, qty] of Object.entries(cardData)) {
-                                    state.collection[cardId][variant] = Math.max(
-                                        state.collection[cardId][variant] || 0,
-                                        qty
-                                    );
-                                }
-                            }
-                        }
-                    }
+                    state.collection = mergeCollections(state.collection, data.collection);
                 }
                 
                 await saveCollectionToDB();
-                renderCollection();
-                updateStats();
+                applyCollectionUI();
                 showSyncNotification('Collection imported successfully!', 'success');
                 resolve(true);
             } catch (error) {
@@ -186,26 +417,13 @@ export async function applySyncCode(code, mode = 'replace') {
         const collection = await loadFromSyncCode(code);
         
         if (mode === 'replace') {
-            state.collection = collection;
+            state.collection = cloneCollection(collection);
         } else {
-            // Merge
-            for (const [cardId, cardData] of Object.entries(collection)) {
-                if (!state.collection[cardId]) {
-                    state.collection[cardId] = cardData;
-                } else if (typeof cardData === 'object' && typeof state.collection[cardId] === 'object') {
-                    for (const [variant, qty] of Object.entries(cardData)) {
-                        state.collection[cardId][variant] = Math.max(
-                            state.collection[cardId][variant] || 0,
-                            qty
-                        );
-                    }
-                }
-            }
+            state.collection = mergeCollections(state.collection, collection);
         }
         
         await saveCollectionToDB();
-        renderCollection();
-        updateStats();
+        applyCollectionUI();
         showSyncNotification('Collection synced successfully!', 'success');
         return true;
     } catch (error) {
@@ -350,10 +568,17 @@ export async function initFirebase() {
         firebase.auth().onAuthStateChanged((user) => {
             syncState.firebaseUser = user;
             updateSyncUI();
+            cleanupRealtimeSync();
             
             if (user) {
-                // Start syncing
-                setupRealtimeSync(user.uid);
+                resolveInitialCloudSync(user)
+                    .then(() => {
+                        setupRealtimeSync(user.uid);
+                    })
+                    .catch((error) => {
+                        console.error('Failed to initialize cloud sync:', error);
+                        showSyncNotification(`Cloud sync setup failed: ${error.message}`, 'error');
+                    });
             }
         });
         
@@ -376,7 +601,8 @@ function loadScript(src) {
 
 export async function signInWithGoogle() {
     if (!isFirebaseConfigured()) {
-        showSyncNotification('Firebase not configured. Add your Firebase config to .env file.', 'error');
+        const missingFields = getMissingFirebaseFields().join(', ');
+        showSyncNotification(`Firebase not configured. Missing: ${missingFields}`, 'error');
         return null;
     }
     
@@ -395,6 +621,7 @@ export async function signInWithGoogle() {
 
 export async function signOut() {
     try {
+        cleanupRealtimeSync();
         await firebase.auth().signOut();
         syncState.firebaseUser = null;
         showSyncNotification('Signed out successfully', 'success');
@@ -405,24 +632,41 @@ export async function signOut() {
 }
 
 function setupRealtimeSync(userId) {
+    cleanupRealtimeSync();
+    
     const collectionRef = syncState.firebaseDb.ref(`users/${userId}/collection`);
     
     // Listen for changes from server
-    collectionRef.on('value', (snapshot) => {
+    const listener = async (snapshot) => {
         const serverData = snapshot.val();
-        if (serverData && serverData.updatedAt > (state.lastServerUpdate || 0)) {
-            // Server has newer data
-            state.collection = serverData.collection || {};
-            state.lastServerUpdate = serverData.updatedAt;
-            saveCollectionToDB();
-            renderCollection();
-            updateStats();
-            console.log('Synced from server');
+        const serverUpdatedAt = Number(serverData?.updatedAt) || 0;
+        
+        if (!serverUpdatedAt || serverUpdatedAt <= (state.lastServerUpdate || 0) || syncState.isResolvingConflict) {
+            return;
         }
-    });
+        
+        try {
+            if (hasUnsyncedLocalChanges()) {
+                await resolveCollectionConflict(serverData);
+                return;
+            }
+            
+            await applyServerCollection(serverData, 'Cloud collection updated from another device.');
+            console.log('Synced from server');
+        } catch (error) {
+            console.error('Realtime sync failed:', error);
+            showSyncNotification(`Realtime sync failed: ${error.message}`, 'error');
+        }
+    };
+    
+    collectionRef.on('value', listener);
+    syncState.collectionRef = collectionRef;
+    syncState.collectionListener = listener;
 }
 
-export async function syncToFirebase() {
+export async function syncToFirebase(options = {}) {
+    const { successMessage = 'Synced to cloud!' } = options;
+    
     if (!syncState.firebaseUser) {
         throw new Error('Not signed in');
     }
@@ -431,15 +675,18 @@ export async function syncToFirebase() {
     const collectionRef = syncState.firebaseDb.ref(`users/${userId}/collection`);
     
     const syncData = {
-        collection: state.collection,
+        collection: compressCollection(state.collection),
         updatedAt: Date.now()
     };
     
     await collectionRef.set(syncData);
     state.lastServerUpdate = syncData.updatedAt;
-    syncState.lastSyncTime = new Date();
+    state.collectionUpdatedAt = syncData.updatedAt;
+    syncState.lastSyncTime = new Date(syncData.updatedAt);
     
-    showSyncNotification('Synced to cloud!', 'success');
+    await saveCollectionToDB({ markLocalChange: false });
+    
+    showSyncNotification(successMessage, 'success');
 }
 
 // ============================================
@@ -607,7 +854,23 @@ export function setupSyncModal() {
     // Firebase sign in
     document.getElementById('firebase-signin')?.addEventListener('click', signInWithGoogle);
     document.getElementById('firebase-signout')?.addEventListener('click', signOut);
-    document.getElementById('firebase-sync')?.addEventListener('click', syncToFirebase);
+    document.getElementById('firebase-sync')?.addEventListener('click', async (e) => {
+        const button = e.currentTarget;
+        const originalText = button.textContent;
+        
+        button.disabled = true;
+        button.textContent = 'Syncing...';
+        
+        try {
+            await syncToFirebase();
+        } catch (error) {
+            console.error('Manual cloud sync failed:', error);
+            showSyncNotification(`Cloud sync failed: ${error.message}`, 'error');
+        } finally {
+            button.disabled = false;
+            button.textContent = originalText;
+        }
+    });
     
     // Close modal
     modal.querySelector('.modal-close')?.addEventListener('click', closeSyncModal);
