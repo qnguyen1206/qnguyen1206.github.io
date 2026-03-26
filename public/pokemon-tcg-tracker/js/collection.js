@@ -14,19 +14,41 @@ export function syncCardUI(cardId) {
     
     // Update all instances of this card in both grids
     document.querySelectorAll(`.card-item[data-id="${cardId}"]`).forEach(cardEl => {
-        // Update owned/not-owned visual state (gray out)
-        cardEl.classList.toggle('not-owned', totalQty <= 0);
+        // Check if this is a master set card (has a specific variant assigned)
+        const isMasterSetCard = cardEl.classList.contains('master-set-card');
+        const cardVariantId = cardEl.dataset.variant;
         
-        // Update badge
-        let badge = cardEl.querySelector('.owned-badge');
-        if (totalQty > 0) {
-            if (badge) {
-                badge.textContent = `×${totalQty}`;
-            } else {
-                cardEl.insertAdjacentHTML('afterbegin', `<span class="owned-badge">×${totalQty}</span>`);
+        if (isMasterSetCard && cardVariantId) {
+            // Master set mode: check only the specific variant for this card
+            const variantQty = typeof cardData === 'object' ? (cardData[cardVariantId] || 0) : 0;
+            cardEl.classList.toggle('not-owned', variantQty <= 0);
+            
+            // Update badge for this specific variant
+            let badge = cardEl.querySelector('.owned-badge');
+            if (variantQty > 0) {
+                if (badge) {
+                    badge.textContent = `×${variantQty}`;
+                } else {
+                    cardEl.insertAdjacentHTML('afterbegin', `<span class="owned-badge">×${variantQty}</span>`);
+                }
+            } else if (badge) {
+                badge.remove();
             }
-        } else if (badge) {
-            badge.remove();
+        } else {
+            // Normal mode: use total quantity across all variants
+            cardEl.classList.toggle('not-owned', totalQty <= 0);
+            
+            // Update badge
+            let badge = cardEl.querySelector('.owned-badge');
+            if (totalQty > 0) {
+                if (badge) {
+                    badge.textContent = `×${totalQty}`;
+                } else {
+                    cardEl.insertAdjacentHTML('afterbegin', `<span class="owned-badge">×${totalQty}</span>`);
+                }
+            } else if (badge) {
+                badge.remove();
+            }
         }
         
         // Update all variant checkboxes

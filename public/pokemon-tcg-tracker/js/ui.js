@@ -21,8 +21,24 @@ export function applyFiltersAndRender() {
         filtered = filtered.filter(c => c.rarity === state.filters.rarity);
     }
     if (state.filters.search) {
-        const search = state.filters.search.toLowerCase();
-        filtered = filtered.filter(c => c.name.toLowerCase().includes(search));
+        const search = state.filters.search.toLowerCase().trim();
+        filtered = filtered.filter(c => {
+            const nameMatch = c.name.toLowerCase().includes(search);
+            // Card number without leading zeros (e.g., "81/172")
+            const cardNumber = `${c.number}/${c.set.printedTotal || c.set.total}`;
+            // Card number with leading zeros (e.g., "081/172")
+            const paddedNumber = `${c.number.padStart(3, '0')}/${c.set.printedTotal || c.set.total}`;
+            // Check if search contains a number pattern
+            const numberMatch = cardNumber.includes(search) || paddedNumber.includes(search);
+            // Also try removing leading zeros from search (user searches "081", we also check "81")
+            const searchNoLeadingZeros = search.replace(/\b0+(\d+)/g, '$1');
+            const numberMatchNormalized = cardNumber.includes(searchNoLeadingZeros);
+            // Match "name number" format like "oddish 081/172" or "oddish 81/172"
+            const fullMatch = `${c.name} ${cardNumber}`.toLowerCase().includes(search) ||
+                              `${c.name} ${paddedNumber}`.toLowerCase().includes(search) ||
+                              `${c.name} ${cardNumber}`.toLowerCase().includes(searchNoLeadingZeros);
+            return nameMatch || numberMatch || numberMatchNormalized || fullMatch;
+        });
     }
     
     // Sort by release date (newest first) then by number
@@ -107,8 +123,24 @@ export function renderCollection() {
         displayCards = displayCards.filter(c => c.rarity === state.filters.rarity);
     }
     if (state.filters.search) {
-        const search = state.filters.search.toLowerCase();
-        displayCards = displayCards.filter(c => c.name.toLowerCase().includes(search));
+        const search = state.filters.search.toLowerCase().trim();
+        displayCards = displayCards.filter(c => {
+            const nameMatch = c.name.toLowerCase().includes(search);
+            // Card number without leading zeros (e.g., "81/172")
+            const cardNumber = `${c.number}/${c.set.printedTotal || c.set.total}`;
+            // Card number with leading zeros (e.g., "081/172")
+            const paddedNumber = `${c.number.padStart(3, '0')}/${c.set.printedTotal || c.set.total}`;
+            // Check if search contains a number pattern
+            const numberMatch = cardNumber.includes(search) || paddedNumber.includes(search);
+            // Also try removing leading zeros from search (user searches "081", we also check "81")
+            const searchNoLeadingZeros = search.replace(/\b0+(\d+)/g, '$1');
+            const numberMatchNormalized = cardNumber.includes(searchNoLeadingZeros);
+            // Match "name number" format like "oddish 081/172" or "oddish 81/172"
+            const fullMatch = `${c.name} ${cardNumber}`.toLowerCase().includes(search) ||
+                              `${c.name} ${paddedNumber}`.toLowerCase().includes(search) ||
+                              `${c.name} ${cardNumber}`.toLowerCase().includes(searchNoLeadingZeros);
+            return nameMatch || numberMatch || numberMatchNormalized || fullMatch;
+        });
     }
     
     // Sort by release date (newest first) then by number
