@@ -1,5 +1,54 @@
 // Application State Management
 
+export const DEFAULT_FILTERS = Object.freeze({
+    set: '',
+    type: '',
+    rarity: '',
+    search: '',
+    owned: 'owned'
+});
+
+const FILTER_STORAGE_KEY = 'pokemon-filter-state-v1';
+
+function normalizeStringFilter(value) {
+    return typeof value === 'string' ? value : '';
+}
+
+export function normalizeFilters(filters = {}) {
+    const owned = typeof filters?.owned === 'string' ? filters.owned : DEFAULT_FILTERS.owned;
+
+    return {
+        set: normalizeStringFilter(filters?.set),
+        type: normalizeStringFilter(filters?.type),
+        rarity: normalizeStringFilter(filters?.rarity),
+        search: normalizeStringFilter(filters?.search),
+        owned: ['all', 'owned', 'not-owned', 'duplicates'].includes(owned)
+            ? owned
+            : DEFAULT_FILTERS.owned
+    };
+}
+
+export function loadFiltersFromStorage() {
+    try {
+        const rawValue = localStorage.getItem(FILTER_STORAGE_KEY);
+        if (!rawValue) {
+            return { ...DEFAULT_FILTERS };
+        }
+
+        return normalizeFilters(JSON.parse(rawValue));
+    } catch (error) {
+        return { ...DEFAULT_FILTERS };
+    }
+}
+
+export function saveFiltersToStorage(filters = state.filters) {
+    try {
+        localStorage.setItem(FILTER_STORAGE_KEY, JSON.stringify(normalizeFilters(filters)));
+    } catch (error) {
+        // Ignore storage failures and keep the app usable.
+    }
+}
+
 // State object - central store for app data
 export const state = {
     allCards: [],  // All cards from cache
@@ -13,13 +62,7 @@ export const state = {
     totalPages: 1,
     totalCards: 0,
     currentView: 'browse',
-    filters: {
-        set: '',
-        type: '',
-        rarity: '',
-        search: '',
-        owned: 'owned'
-    },
+    filters: { ...DEFAULT_FILTERS },
     selectedCard: null,
     modalVariants: {}, // Temporary variant quantities in modal
     isLoading: false,

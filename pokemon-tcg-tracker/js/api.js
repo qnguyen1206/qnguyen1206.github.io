@@ -1,6 +1,6 @@
 // API Operations and Data Loading
 
-import { API_BASE, getFetchOptions } from './config.js';
+import { API_BASE, CATALOG_CACHE_VERSION, getFetchOptions } from './config.js';
 import { state, elements } from './state.js';
 import { 
     isCacheValid, 
@@ -12,6 +12,12 @@ import {
 
 // Path to pre-built data files (relative to index.html)
 const DATA_PATH = './data';
+const CARD_FILE_CANDIDATES = ['cards.tcgtracking.json', 'cards.json'];
+const SET_FILE_CANDIDATES = ['sets.tcgtracking.json', 'sets.json'];
+
+function buildCatalogUrl(fileName) {
+    return `${DATA_PATH}/${fileName}?v=${encodeURIComponent(CATALOG_CACHE_VERSION)}`;
+}
 
 // Show loading progress
 export function showLoadingProgress(current, total, message = '') {
@@ -33,7 +39,7 @@ export function showLoadingProgress(current, total, message = '') {
 // Load all cards - tries: 1) IndexedDB cache, 2) Pre-built JSON, 3) API
 export async function loadAllCards() {
     // 1. Check IndexedDB cache first
-    if (await isCacheValid()) {
+    if (await isCacheValid('cards')) {
         const cachedCards = await getCachedCards();
         if (cachedCards && cachedCards.length > 0) {
             state.allCards = cachedCards;
@@ -58,59 +64,64 @@ export async function loadAllCards() {
 async function loadCardsFromJSON() {
     showLoadingProgress(0, 100, 'Loading card database...');
     
-    try {
-        const response = await fetch(`${DATA_PATH}/cards.json`);
-        if (!response.ok) {
-            console.log('Pre-built cards.json not found, will use API');
-            return false;
+    for (const fileName of CARD_FILE_CANDIDATES) {
+        try {
+            const response = await fetch(buildCatalogUrl(fileName), { cache: 'no-store' });
+            if (!response.ok) {
+                continue;
+            }
+
+            showLoadingProgress(50, 100, 'Parsing card data...');
+            const cards = await response.json();
+
+            if (cards && cards.length > 0) {
+                state.allCards = cards;
+                console.log(`Loaded ${cards.length} cards from ${fileName}`);
+                
+                // Cache to IndexedDB for even faster subsequent loads
+                showLoadingProgress(80, 100, 'Caching for offline use...');
+                await saveCardsToCache(cards);
+                
+                showLoadingProgress(100, 100, 'Done!');
+                return true;
+            }
+        } catch (error) {
+            console.log(`Failed to load ${fileName}:`, error.message);
         }
-        
-        showLoadingProgress(50, 100, 'Parsing card data...');
-        const cards = await response.json();
-        
-        if (cards && cards.length > 0) {
-            state.allCards = cards;
-            console.log(`Loaded ${cards.length} cards from pre-built JSON`);
-            
-            // Cache to IndexedDB for even faster subsequent loads
-            showLoadingProgress(80, 100, 'Caching for offline use...');
-            await saveCardsToCache(cards);
-            
-            showLoadingProgress(100, 100, 'Done!');
-            return true;
-        }
-        
-        return false;
-    } catch (error) {
-        console.log('Failed to load cards.json:', error.message);
-        return false;
     }
+
+    console.log('Pre-built card catalog not found, will use API');
+    return false;
 }
 
 // Load sets - tries: 1) IndexedDB cache, 2) Pre-built JSON, 3) API
 export async function loadSets() {
     // 1. Check IndexedDB cache
-    const cachedSets = await getCachedSets();
-    if (cachedSets && cachedSets.length > 0) {
-        state.sets = cachedSets;
-        console.log(`Loaded ${cachedSets.length} sets from cache`);
-        return;
+    if (await isCacheValid('sets')) {
+        const cachedSets = await getCachedSets();
+        if (cachedSets && cachedSets.length > 0) {
+            state.sets = cachedSets;
+            console.log(`Loaded ${cachedSets.length} sets from cache`);
+            return;
+        }
     }
     
     // 2. Try loading from pre-built JSON
-    try {
-        const response = await fetch(`${DATA_PATH}/sets.json`);
-        if (response.ok) {
-            const sets = await response.json();
-            if (sets && sets.length > 0) {
-                state.sets = sets;
-                await saveSetsToCache(sets);
-                console.log(`Loaded ${sets.length} sets from pre-built JSON`);
-                return;
+    for (const fileName of SET_FILE_CANDIDATES) {
+        try {
+            const response = await fetch(buildCatalogUrl(fileName), { cache: 'no-store' });
+            if (response.ok) {
+                const sets = await response.json();
+                if (sets && sets.length > 0) {
+                    state.sets = sets;
+                    await saveSetsToCache(sets);
+                    console.log(`Loaded ${sets.length} sets from ${fileName}`);
+                    return;
+                }
             }
+        } catch (error) {
+            console.log(`Failed to load ${fileName}:`, error.message);
         }
-    } catch (error) {
-        console.log('Failed to load sets.json:', error.message);
     }
     
     // 3. Fallback to API

@@ -47,6 +47,10 @@ body {
     overflow-x: hidden;
 }
 
+body.modal-open {
+    overflow: hidden;
+}
+
 /* Header */
 .header {
     background: var(--surface);
@@ -620,13 +624,17 @@ body {
 }
 
 .cards-grid.binder-view .variant-check {
-    width: 14px;
-    height: 14px;
+    width: 16px;
+    min-width: 16px;
+    height: 16px;
+    padding: 2px;
+    border-radius: 5px;
 }
 
 .cards-grid.binder-view .variant-checkmark {
-    width: 14px;
-    height: 14px;
+    width: 10px;
+    height: 10px;
+    border-width: 1px;
 }
 
 /* Binder Size Variations */
@@ -885,21 +893,47 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 24px;
-    height: 24px;
-    border-radius: 4px;
-    background: transparent;
+    width: 22px;
+    min-width: 22px;
+    height: 22px;
+    border-radius: 6px;
+    padding: 3px;
+    background: var(--variant-shell, linear-gradient(180deg, rgba(255, 255, 255, 0.06) 0%, rgba(15, 23, 42, 0.35) 100%));
+    border: 1px solid var(--variant-border, var(--variant-color, var(--border)));
     cursor: pointer;
     transition: all 0.2s ease;
     position: relative;
+    overflow: hidden;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.variant-check::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: var(--variant-overlay, none);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.35;
+    pointer-events: none;
 }
 
 .variant-check:hover {
-    transform: scale(1.1);
+    transform: translateY(-1px) scale(1.08);
 }
 
 .variant-check.checked .variant-checkmark {
-    background: var(--variant-color, var(--success));
+    transform: scale(1.02);
+    background-image: var(--variant-fill, linear-gradient(180deg, rgba(148,163,184,0.2) 0%, rgba(71,85,105,0.5) 100%));
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1);
+}
+
+.variant-check.checked {
+    box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.12),
+        0 0 0 1px rgba(255, 255, 255, 0.06);
 }
 
 .variant-check.checked .variant-checkmark::after {
@@ -911,23 +945,30 @@ body {
 }
 
 .variant-checkmark {
-    width: 18px;
-    height: 18px;
-    border: 2px solid var(--variant-color, var(--text-muted));
+    width: 14px;
+    height: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
     border-radius: 4px;
-    background: transparent;
+    background: rgba(2, 6, 23, 0.82);
     transition: all 0.2s ease;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.08),
+        inset 0 -1px 0 rgba(15, 23, 42, 0.45);
 }
 
 .variant-checkmark::after {
     content: '';
     display: none;
+    position: relative;
+    z-index: 1;
     width: 5px;
     height: 9px;
-    border: solid white;
+    border: solid var(--variant-check-color, #ffffff);
     border-width: 0 2px 2px 0;
     transform: rotate(45deg);
     margin-bottom: 2px;
@@ -960,17 +1001,34 @@ body {
 .legend-item {
     display: flex;
     align-items: center;
-    gap: 0.35rem;
-}
-
-.legend-color {
-    width: 14px;
-    height: 14px;
-    border-radius: 3px;
+    gap: 0.45rem;
 }
 
 .legend-name {
     color: var(--text);
+}
+
+.legend-check {
+    width: 18px;
+    min-width: 18px;
+    height: 18px;
+    padding: 2px;
+    border-radius: 5px;
+    pointer-events: none;
+    cursor: default;
+}
+
+.legend-check::before {
+    opacity: 0.35;
+}
+
+.legend-check:hover {
+    transform: none;
+}
+
+.legend-check .variant-checkmark {
+    width: 11px;
+    height: 11px;
 }
 
 .owned-badge {
@@ -1291,6 +1349,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 1rem;
 }
 
 .modal-overlay {
@@ -1307,9 +1366,11 @@ body {
     background: var(--surface);
     border-radius: 16px;
     max-width: 700px;
-    width: 90%;
-    max-height: 90vh;
+    width: min(90vw, 700px);
+    max-height: min(90vh, calc(100dvh - 2rem));
     overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
 }
 
 .modal-close {
@@ -1362,6 +1423,99 @@ body {
     color: var(--text);
 }
 
+.alternate-prints-section {
+    margin-bottom: 1.25rem;
+    padding: 1rem;
+    background: linear-gradient(180deg, rgba(78, 205, 196, 0.08), rgba(26, 26, 46, 0.85));
+    border: 1px solid var(--border);
+    border-radius: 12px;
+}
+
+.alternate-prints-header {
+    margin-bottom: 0.9rem;
+}
+
+.alternate-prints-header h4 {
+    margin: 0 0 0.35rem;
+    font-size: 1rem;
+    color: var(--text);
+}
+
+.alternate-prints-header p {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+}
+
+.alternate-prints-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.alternate-print-card {
+    background: rgba(37, 37, 61, 0.9);
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    border-radius: 10px;
+    padding: 0.85rem 0.95rem;
+}
+
+.alternate-print-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-bottom: 0.7rem;
+}
+
+.alternate-print-name {
+    font-weight: 600;
+    line-height: 1.35;
+}
+
+.alternate-print-link {
+    flex-shrink: 0;
+    color: var(--secondary);
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.alternate-print-link:hover {
+    color: var(--text);
+}
+
+.alternate-print-prices {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.alternate-print-price {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    padding: 0.35rem 0.55rem;
+    border-radius: 999px;
+    background: rgba(15, 15, 26, 0.9);
+    border: 1px solid var(--variant-color, var(--border));
+}
+
+.alternate-print-price-name {
+    color: var(--text-muted);
+    font-size: 0.76rem;
+}
+
+.alternate-print-price-value {
+    color: var(--text);
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.alternate-print-empty {
+    color: var(--text-muted);
+    font-size: 0.8rem;
+}
+
 .modal-actions {
     display: flex;
     flex-direction: column;
@@ -1396,6 +1550,12 @@ body {
     gap: 0.75rem;
 }
 
+.variant-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+}
+
 .variant-icon {
     font-size: 1.25rem;
 }
@@ -1410,6 +1570,17 @@ body {
 .variant-name {
     font-weight: 500;
     font-size: 0.95rem;
+}
+
+.variant-link {
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: var(--secondary);
+    text-decoration: none;
+}
+
+.variant-link:hover {
+    color: var(--text);
 }
 
 .variant-price {
@@ -1500,15 +1671,16 @@ body {
         grid-template-columns: 1fr;
     }
     
-    .header-content {
-        flex-direction: column;
-        gap: 1rem;
-        padding: 1rem;
-    }
-    
-    .nav {
-        flex-wrap: wrap;
-        justify-content: center;
+.header-content {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    align-items: stretch;
+}
+
+.nav {
+    flex-wrap: wrap;
+    justify-content: center;
     }
     
     .stats-grid {
@@ -1544,10 +1716,18 @@ body {
     .logo-icon {
         font-size: 1.5rem;
     }
+
+    .nav {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
     
     .nav-btn {
+        width: 100%;
         padding: 0.5rem 0.75rem;
         font-size: 0.85rem;
+        text-align: center;
     }
     
     /* View header */
@@ -1592,13 +1772,17 @@ body {
     
     /* Modal */
     .modal {
-        max-width: 95%;
-        max-height: 90vh;
-        margin: 1rem;
+        padding:
+            max(0.75rem, env(safe-area-inset-top))
+            0.75rem
+            max(0.75rem, env(safe-area-inset-bottom));
+        align-items: flex-start;
     }
     
     .modal-content {
-        padding: 1rem;
+        width: 100%;
+        max-height: calc(100dvh - 1.5rem - env(safe-area-inset-top) - env(safe-area-inset-bottom));
+        border-radius: 14px;
     }
     
     .modal-header h2 {
@@ -1607,6 +1791,10 @@ body {
     
     .modal-body {
         gap: 1rem;
+    }
+
+    .alternate-print-top {
+        flex-direction: column;
     }
     
     .variant-grid {
@@ -1652,6 +1840,7 @@ body {
     .main {
         padding: 0.75rem;
         gap: 1rem;
+        padding-bottom: max(0.75rem, env(safe-area-inset-bottom));
     }
     
     /* Cards Grid - 2 columns on phone */
@@ -1698,10 +1887,16 @@ body {
         gap: 2px;
     }
     
-    .variant-check,
+    .variant-check {
+        width: 16px;
+        min-width: 16px;
+        height: 16px;
+        padding: 2px;
+    }
+
     .variant-checkmark {
-        width: 14px;
-        height: 14px;
+        width: 10px;
+        height: 10px;
     }
     
     /* Owned badge */
@@ -1779,14 +1974,14 @@ body {
     
     /* Modal on phone */
     .modal {
-        max-width: 100%;
-        max-height: 95vh;
-        margin: 0.5rem;
-        border-radius: 12px;
+        padding:
+            max(0.5rem, env(safe-area-inset-top))
+            0.5rem
+            max(0.5rem, env(safe-area-inset-bottom));
     }
     
     .modal-content {
-        padding: 0.75rem;
+        max-height: calc(100dvh - 1rem - env(safe-area-inset-top) - env(safe-area-inset-bottom));
     }
     
     .modal-header {
@@ -1978,6 +2173,10 @@ body {
     .variant-info {
         justify-content: center;
     }
+
+    .alternate-print-prices {
+        justify-content: center;
+    }
     
     .variant-qty-control {
         justify-content: center;
@@ -2028,12 +2227,14 @@ body {
     /* Variant checkbox easier to tap */
     .variant-check {
         width: 20px;
+        min-width: 20px;
         height: 20px;
+        padding: 2px;
     }
     
     .variant-checkmark {
-        width: 20px;
-        height: 20px;
+        width: 14px;
+        height: 14px;
     }
 }
 
@@ -2413,6 +2614,14 @@ body {
 
 /* Mobile adjustments for sync modal */
 @media (max-width: 768px) {
+    .sync-modal .modal-content {
+        width: 100%;
+    }
+
+    .sync-modal-content {
+        padding: 1rem;
+    }
+
     .sync-tabs {
         flex-wrap: wrap;
     }
@@ -2421,14 +2630,53 @@ body {
         font-size: 0.75rem;
         padding: 0.5rem 0.25rem;
     }
+
+    .sync-input-group {
+        flex-direction: column;
+    }
+
+    .sync-input-group .btn,
+    .file-input-label {
+        width: 100%;
+        text-align: center;
+    }
     
     .sync-code-display {
         font-size: 1.5rem;
         letter-spacing: 0.2rem;
+        overflow-wrap: anywhere;
     }
     
     .sync-code-input {
         font-size: 1rem;
+        letter-spacing: 0.16rem;
+    }
+
+    .firebase-user-info {
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .import-dialog {
+        width: calc(100% - 1.5rem);
+        max-height: calc(100dvh - 1.5rem);
+        overflow: auto;
+    }
+
+    .qr-scanner-content {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .qr-scanner-content video {
+        max-height: 60dvh;
+        object-fit: cover;
+    }
+
+    .sync-notification {
+        width: min(calc(100% - 1rem), 420px);
+        bottom: max(20px, env(safe-area-inset-bottom));
+        padding: 0.9rem 1rem;
     }
 }
 

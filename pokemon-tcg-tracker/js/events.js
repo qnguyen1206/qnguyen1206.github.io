@@ -1,10 +1,53 @@
 // Event Listeners and Handlers
 
-import { state, elements } from './state.js';
+import { DEFAULT_FILTERS, state, elements, loadFiltersFromStorage, normalizeFilters, saveFiltersToStorage } from './state.js';
 import { applyFiltersAndRender, renderCollection, closeModal, saveCollectionWithVariants, populateSetsDropdown, showLoading } from './ui.js';
 import { updateStats, renderValueHistoryChart, updateCharts } from './stats.js';
 import { initDB, clearCache, loadCollectionFromDB, loadValueHistoryFromDB } from './db.js';
 import { loadAllCards, loadSets } from './api.js';
+
+function syncFilterControlsFromState() {
+    const normalizedFilters = normalizeFilters(state.filters);
+    state.filters = normalizedFilters;
+
+    if (elements.typeSelect) {
+        elements.typeSelect.value = normalizedFilters.type;
+    }
+
+    if (elements.raritySelect) {
+        elements.raritySelect.value = normalizedFilters.rarity;
+    }
+
+    if (elements.searchInput) {
+        elements.searchInput.value = normalizedFilters.search;
+    }
+
+    if (elements.ownedSelect) {
+        elements.ownedSelect.value = normalizedFilters.owned;
+    }
+
+    if (!elements.dropdownLabel) {
+        return;
+    }
+
+    if (!normalizedFilters.set) {
+        elements.dropdownLabel.textContent = 'All Sets';
+        return;
+    }
+
+    const selectedSet = state.sets.find(set => set.id === normalizedFilters.set);
+    if (selectedSet) {
+        elements.dropdownLabel.textContent = selectedSet.name;
+        return;
+    }
+
+    state.filters.set = '';
+    elements.dropdownLabel.textContent = 'All Sets';
+}
+
+function persistCurrentFilters() {
+    saveFiltersToStorage(state.filters);
+}
 
 // Setup all event listeners
 export function setupEventListeners() {
@@ -37,6 +80,7 @@ export function setupEventListeners() {
         elements.ownedSelect.addEventListener('change', () => {
             state.filters.owned = elements.ownedSelect.value;
             state.binderPage = 1; // Reset to first page
+            persistCurrentFilters();
             renderCollection();
         });
     }
@@ -52,7 +96,7 @@ export function setupEventListeners() {
     if (modalClose) modalClose.addEventListener('click', closeModal);
     if (elements.modal) {
         elements.modal.addEventListener('click', (e) => {
-            if (e.target === elements.modal) closeModal();
+            if (e.target === elements.modal || e.target.classList.contains('modal-overlay')) closeModal();
         });
     }
     
@@ -143,6 +187,12 @@ export function setViewMode(mode) {
 // Switch between views
 export function switchView(view) {
     state.currentView = view;
+    if (window.innerWidth <= 768 && elements.mobileFilterToggle && elements.filtersSidebar) {
+        elements.mobileFilterToggle.classList.remove('active');
+        elements.filtersSidebar.classList.remove('mobile-open');
+        const toggleIcon = elements.mobileFilterToggle.querySelector('.filter-toggle-arrow');
+        if (toggleIcon) toggleIcon.textContent = '▼';
+    }
     
     // Update navigation
     document.querySelectorAll('.nav-btn').forEach(btn => {
@@ -178,6 +228,7 @@ export function handleFilterChange() {
     state.filters.search = elements.searchInput ? elements.searchInput.value : '';
     state.currentPage = 1;
     state.binderPage = 1; // Also reset binder page
+    persistCurrentFilters();
     
     if (state.currentView === 'browse') {
         applyFiltersAndRender();
@@ -197,15 +248,10 @@ export function clearFilters() {
         elements.ownedSelect.value = 'owned';
     }
     
-    state.filters = {
-        set: '',
-        type: '',
-        rarity: '',
-        search: '',
-        owned: 'owned'
-    };
+    state.filters = { ...DEFAULT_FILTERS };
     state.currentPage = 1;
     state.binderPage = 1;
+    persistCurrentFilters();
     
     if (state.currentView === 'browse') {
         applyFiltersAndRender();
@@ -250,6 +296,9 @@ export async function init() {
     // Load sets for dropdown
     await loadSets();
     populateSetsDropdown();
+    state.filters = loadFiltersFromStorage();
+    syncFilterControlsFromState();
+    persistCurrentFilters();
     
     // Load all cards (from cache or API)
     await loadAllCards();

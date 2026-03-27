@@ -24,7 +24,7 @@ async function main() {
   // 2. For each set, fetch products and pricing
   for (const set of setsData.sets) {
     const setId = set.id;
-    const setSlug = set.abbr || set.name.replace(/\W+/g, '_');
+    const setSlug = (set.abbreviation || set.name || 'set').replace(/\W+/g, '_');
     console.log(`Fetching set ${setId}: ${set.name}`);
     try {
       const [products, pricing] = await Promise.all([

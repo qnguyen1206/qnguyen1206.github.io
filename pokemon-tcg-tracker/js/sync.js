@@ -4,9 +4,12 @@ import { state } from './state.js';
 import { saveCollectionToDB } from './db.js';
 import { renderCollection } from './ui.js';
 import { updateStats } from './stats.js';
-import { FIREBASE_CONFIG } from './config.js';
+import { CATALOG_CACHE_VERSION, FIREBASE_CONFIG } from './config.js';
 
 const REQUIRED_FIREBASE_FIELDS = ['apiKey', 'authDomain', 'databaseURL', 'projectId', 'appId'];
+const EXPORT_SCHEMA_VERSION = 3;
+const EXPORT_SCHEMA_NAME = 'pokemon-tcg-tracker.collection';
+const MAX_IMPORT_FILE_SIZE_BYTES = 5 * 1024 * 1024;
 
 // Check if Firebase is configured
 const getMissingFirebaseFields = () => REQUIRED_FIREBASE_FIELDS.filter(field => !FIREBASE_CONFIG[field]);
@@ -37,6 +40,15 @@ function getCollectionSize(collection = state.collection) {
     }, 0);
 }
 
+function normalizeQuantity(value) {
+    const numericValue = Number(value);
+    if (!Number.isFinite(numericValue)) {
+        return 0;
+    }
+
+    return Math.max(0, Math.trunc(numericValue));
+}
+
 function cloneCollection(collection = {}) {
     const cloned = {};
     
@@ -53,14 +65,116 @@ function cloneCollection(collection = {}) {
 
 function normalizeCardVariants(cardData) {
     if (typeof cardData === 'number') {
-        return cardData > 0 ? { normal: cardData } : {};
+        const quantity = normalizeQuantity(cardData);
+        return quantity > 0 ? { normal: quantity } : {};
     }
     
     if (cardData && typeof cardData === 'object') {
-        return { ...cardData };
+        const normalized = {};
+        Object.entries(cardData).forEach(([variantId, qty]) => {
+            const safeVariantId = String(variantId || '').trim();
+            const normalizedQty = normalizeQuantity(qty);
+            if (!safeVariantId || normalizedQty <= 0) {
+                return;
+            }
+            normalized[safeVariantId] = normalizedQty;
+        });
+        return normalized;
     }
     
     return {};
+}
+
+function sanitizeCollection(collection = {}) {
+    const sanitized = {};
+
+    Object.entries(collection || {})
+        .sort(([cardIdA], [cardIdB]) => String(cardIdA).localeCompare(String(cardIdB)))
+        .forEach(([cardId, cardData]) => {
+            const safeCardId = String(cardId || '').trim();
+            if (!safeCardId) {
+                return;
+            }
+
+            const normalizedVariants = normalizeCardVariants(cardData);
+            if (Object.keys(normalizedVariants).length > 0) {
+                sanitized[safeCardId] = normalizedVariants;
+            }
+        });
+
+    return sanitized;
+}
+
+function buildCollectionStats(collection = {}) {
+    return {
+        totalCards: getCollectionSize(collection),
+        uniqueCards: Object.keys(collection).length
+    };
+}
+
+function looksLikeRawCollectionExport(data) {
+    if (!data || typeof data !== 'object' || Array.isArray(data)) {
+        return false;
+    }
+
+    const entries = Object.entries(data);
+    if (entries.length === 0) {
+        return true;
+    }
+
+    return entries.every(([, value]) => {
+        if (typeof value === 'number') {
+            return true;
+        }
+
+        return Boolean(value) && typeof value === 'object' && !Array.isArray(value);
+    });
+}
+
+function parseImportedCollectionData(data) {
+    if (!data || typeof data !== 'object' || Array.isArray(data)) {
+        throw new Error('Invalid file format: expected a JSON object');
+    }
+
+    const rawCollection = data.collection && typeof data.collection === 'object' && !Array.isArray(data.collection)
+        ? data.collection
+        : (looksLikeRawCollectionExport(data) ? data : null);
+
+    if (!rawCollection) {
+        throw new Error('Invalid file format: missing collection data');
+    }
+
+    const collection = sanitizeCollection(rawCollection);
+    const stats = buildCollectionStats(collection);
+
+    return {
+        collection,
+        stats,
+        version: Number(data.version) || 1,
+        exportDate: data.exportDate || data.exportedAt || '',
+        metadata: data.metadata && typeof data.metadata === 'object' ? data.metadata : {}
+    };
+}
+
+function buildExportPayload() {
+    const collection = sanitizeCollection(state.collection);
+    const stats = buildCollectionStats(collection);
+    const exportedAt = new Date().toISOString();
+
+    return {
+        schema: EXPORT_SCHEMA_NAME,
+        version: EXPORT_SCHEMA_VERSION,
+        exportedAt,
+        exportDate: exportedAt,
+        metadata: {
+            catalogVersion: CATALOG_CACHE_VERSION,
+            collectionUpdatedAt: state.collectionUpdatedAt || 0,
+            lastServerUpdate: state.lastServerUpdate || 0,
+            variantStorage: 'variants-by-card'
+        },
+        collection,
+        stats
+    };
 }
 
 function mergeCollections(baseCollection = {}, incomingCollection = {}) {
@@ -269,20 +383,7 @@ async function resolveInitialCloudSync(user) {
 // ============================================
 
 export function exportCollection() {
-    const exportData = {
-        version: 2,
-        exportDate: new Date().toISOString(),
-        collection: state.collection,
-        stats: {
-            totalCards: Object.values(state.collection).reduce((sum, card) => {
-                if (typeof card === 'object') {
-                    return sum + Object.values(card).reduce((s, q) => s + q, 0);
-                }
-                return sum + card;
-            }, 0),
-            uniqueCards: Object.keys(state.collection).length
-        }
-    };
+    const exportData = buildExportPayload();
     
     const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: 'application/json' });
     const url = URL.createObjectURL(blob);
@@ -294,45 +395,44 @@ export function exportCollection() {
     document.body.removeChild(a);
     URL.revokeObjectURL(url);
     
-    showSyncNotification('Collection exported successfully!', 'success');
+    showSyncNotification(`Collection exported successfully! ${exportData.stats.uniqueCards} unique cards backed up.`, 'success');
 }
 
-export function importCollection(file) {
-    return new Promise((resolve, reject) => {
-        const reader = new FileReader();
-        reader.onload = async (e) => {
-            try {
-                const data = JSON.parse(e.target.result);
-                
-                // Validate data
-                if (!data.collection) {
-                    throw new Error('Invalid file format: missing collection data');
-                }
-                
-                // Ask user about merge vs replace
-                const action = await showImportDialog(data);
-                if (action === 'cancel') {
-                    resolve(false);
-                    return;
-                }
-                
-                if (action === 'replace') {
-                    state.collection = cloneCollection(data.collection);
-                } else if (action === 'merge') {
-                    state.collection = mergeCollections(state.collection, data.collection);
-                }
-                
-                await saveCollectionToDB();
-                applyCollectionUI();
-                showSyncNotification('Collection imported successfully!', 'success');
-                resolve(true);
-            } catch (error) {
-                showSyncNotification(`Import failed: ${error.message}`, 'error');
-                reject(error);
-            }
-        };
-        reader.readAsText(file);
-    });
+export async function importCollection(file) {
+    try {
+        if (!file) {
+            throw new Error('Please choose a JSON file to import');
+        }
+
+        if (file.size > MAX_IMPORT_FILE_SIZE_BYTES) {
+            throw new Error('Import file is too large');
+        }
+
+        const text = await file.text();
+        const parsed = parseImportedCollectionData(JSON.parse(text));
+
+        const action = await showImportDialog(parsed);
+        if (action === 'cancel') {
+            return false;
+        }
+
+        if (action === 'replace') {
+            state.collection = cloneCollection(parsed.collection);
+        } else if (action === 'merge') {
+            state.collection = mergeCollections(state.collection, parsed.collection);
+        }
+
+        state.collectionUpdatedAt = Date.now();
+        state.lastServerUpdate = 0;
+
+        await saveCollectionToDB({ markLocalChange: false });
+        applyCollectionUI();
+        showSyncNotification(`Collection imported successfully! ${parsed.stats.uniqueCards} unique cards loaded.`, 'success');
+        return true;
+    } catch (error) {
+        showSyncNotification(`Import failed: ${error.message}`, 'error');
+        throw error;
+    }
 }
 
 // ============================================
@@ -709,14 +809,25 @@ export function showSyncNotification(message, type = 'info') {
     }, 3000);
 }
 
-function showImportDialog(data) {
+function showImportDialog(importData) {
     return new Promise((resolve) => {
+        const parsedExportDate = importData.exportDate ? new Date(importData.exportDate) : null;
+        const exportDateText = parsedExportDate && !Number.isNaN(parsedExportDate.getTime())
+            ? parsedExportDate.toLocaleString([], {
+                month: 'short',
+                day: 'numeric',
+                year: 'numeric',
+                hour: 'numeric',
+                minute: '2-digit'
+            })
+            : '';
         const dialog = document.createElement('div');
         dialog.className = 'import-dialog-overlay';
         dialog.innerHTML = `
             <div class="import-dialog">
                 <h3>Import Collection</h3>
-                <p>Found ${Object.keys(data.collection).length} unique cards.</p>
+                <p>Found ${importData.stats.uniqueCards} unique cards and ${importData.stats.totalCards} total cards.</p>
+                ${exportDateText ? `<p>Exported ${exportDateText}.</p>` : ''}
                 <p>What would you like to do?</p>
                 <div class="import-dialog-buttons">
                     <button class="btn btn-primary" data-action="replace">Replace Current</button>
@@ -734,6 +845,10 @@ function showImportDialog(data) {
             };
         });
     });
+}
+
+function syncBodyModalState() {
+    document.body.classList.toggle('modal-open', Boolean(document.querySelector('.modal.active')));
 }
 
 export function updateSyncUI() {
@@ -790,7 +905,11 @@ export function setupSyncModal() {
     // Import button
     document.getElementById('import-file')?.addEventListener('change', async (e) => {
         if (e.target.files.length > 0) {
-            await importCollection(e.target.files[0]);
+            try {
+                await importCollection(e.target.files[0]);
+            } catch (error) {
+                console.error('Import failed:', error);
+            }
             e.target.value = '';
         }
     });
@@ -871,6 +990,15 @@ export function setupSyncModal() {
             button.textContent = originalText;
         }
     });
+
+    document.getElementById('sync-code-input')?.addEventListener('keydown', async (event) => {
+        if (event.key !== 'Enter') {
+            return;
+        }
+
+        event.preventDefault();
+        document.getElementById('apply-code-btn')?.click();
+    });
     
     // Close modal
     modal.querySelector('.modal-close')?.addEventListener('click', closeSyncModal);
@@ -889,8 +1017,10 @@ export function setupSyncModal() {
 
 export function openSyncModal() {
     document.getElementById('sync-modal')?.classList.add('active');
+    syncBodyModalState();
 }
 
 export function closeSyncModal() {
     document.getElementById('sync-modal')?.classList.remove('active');
+    syncBodyModalState();
 }

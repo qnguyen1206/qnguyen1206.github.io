@@ -1,7 +1,7 @@
 // UI Rendering Functions
 
-import { CARDS_PER_PAGE, getCardVariants, renderVariantLegend } from './config.js';
-import { state, elements, getCardTotalQty } from './state.js';
+import { CARDS_PER_PAGE, getCardVariants, renderVariantLegendForCards } from './config.js';
+import { state, elements, getCardTotalQty, saveFiltersToStorage } from './state.js';
 import { setupVariantCheckboxes, syncCardUI } from './collection.js';
 import { updateStats, updateCharts } from './stats.js';
 import { saveCollectionToDB } from './db.js';
@@ -76,9 +76,9 @@ export function renderCards() {
     if (!legendContainer) {
         legendContainer = document.createElement('div');
         legendContainer.className = 'variant-legend-container';
-        legendContainer.innerHTML = renderVariantLegend();
         elements.browseGrid.parentElement.insertBefore(legendContainer, elements.browseGrid);
     }
+    legendContainer.innerHTML = renderVariantLegendForCards(state.cards);
     
     elements.browseGrid.innerHTML = state.cards.map(card => createCardHTML(card)).join('');
     
@@ -308,8 +308,8 @@ export function createCardHTML(card, grayed = false) {
         const isChecked = qty > 0;
         const priceInfo = variant.price ? ` - $${variant.price.market?.toFixed(2) || variant.price.mid?.toFixed(2) || '?'}` : '';
         return `
-            <label class="variant-check ${isChecked ? 'checked' : ''}" title="${variant.name}${priceInfo}${qty > 1 ? ' (×' + qty + ')' : ''}" style="--variant-color: ${variant.color}">
-                <input type="checkbox" ${isChecked ? 'checked' : ''} data-card="${card.id}" data-variant="${variant.id}">
+            <label class="variant-check ${isChecked ? 'checked' : ''}" title="${variant.name}${priceInfo}${qty > 1 ? ' (×' + qty + ')' : ''}" style="${variant.visualStyle}" data-variant-id="${variant.id}">
+                <input type="checkbox" ${isChecked ? 'checked' : ''} data-card="${card.id}" data-variant="${variant.id}" aria-label="${variant.name}">
                 <span class="variant-checkmark"></span>
             </label>
         `;
@@ -352,8 +352,8 @@ export function createMasterSetCardHTML(card, variant) {
                 ${priceInfo ? `<span class="variant-price">${priceInfo}</span>` : ''}
             </div>
             <div class="card-variants" onclick="event.stopPropagation()">
-                <label class="variant-check ${isOwned ? 'checked' : ''}" title="${variant.name}" style="--variant-color: ${variant.color}">
-                    <input type="checkbox" ${isOwned ? 'checked' : ''} data-card="${card.id}" data-variant="${variant.id}">
+                <label class="variant-check ${isOwned ? 'checked' : ''}" title="${variant.name}" style="${variant.visualStyle}" data-variant-id="${variant.id}">
+                    <input type="checkbox" ${isOwned ? 'checked' : ''} data-card="${card.id}" data-variant="${variant.id}" aria-label="${variant.name}">
                     <span class="variant-checkmark"></span>
                 </label>
             </div>
@@ -423,6 +423,68 @@ export function renderPagination() {
     });
 }
 
+function formatVariantPrice(price) {
+    if (!price) return '';
+
+    const amount = price.market ?? price.mid ?? price.low;
+    return Number.isFinite(amount) ? `$${amount.toFixed(2)}` : '';
+}
+
+function renderAlternatePrints(card) {
+    const section = document.getElementById('alternate-prints-section');
+    const list = document.getElementById('alternate-prints-list');
+    const alternateProducts = card?.tcgtracking?.alternateProducts || [];
+
+    if (!section || !list) {
+        return;
+    }
+
+    if (alternateProducts.length === 0) {
+        section.hidden = true;
+        list.innerHTML = '';
+        return;
+    }
+
+    list.innerHTML = alternateProducts.map(product => {
+        const variants = getCardVariants({
+            tcgplayer: {
+                prices: product.tcgplayer?.prices || {}
+            }
+        }).filter(variant => variant.price);
+
+        const priceChips = variants.length > 0
+            ? variants.map(variant => `
+                <span class="alternate-print-price" style="--variant-color: ${variant.color}">
+                    <span class="alternate-print-price-name">${variant.name}</span>
+                    <span class="alternate-print-price-value">${formatVariantPrice(variant.price)}</span>
+                </span>
+            `).join('')
+            : '<span class="alternate-print-empty">No live price available yet</span>';
+
+        const linkHTML = product.tcgplayer?.url
+            ? `<a class="alternate-print-link" href="${product.tcgplayer.url}" target="_blank" rel="noopener noreferrer">View on TCGplayer</a>`
+            : '';
+
+        return `
+            <div class="alternate-print-card">
+                <div class="alternate-print-top">
+                    <div class="alternate-print-name">${product.name}</div>
+                    ${linkHTML}
+                </div>
+                <div class="alternate-print-prices">
+                    ${priceChips}
+                </div>
+            </div>
+        `;
+    }).join('');
+
+    section.hidden = false;
+}
+
+function syncBodyModalState() {
+    document.body.classList.toggle('modal-open', Boolean(document.querySelector('.modal.active')));
+}
+
 // Open card modal
 export async function openCardModal(cardId) {
     // Find card in cached cards
@@ -442,9 +504,10 @@ export async function openCardModal(cardId) {
     
     // Populate modal
     document.getElementById('modal-card-image').src = card.images.large;
+    document.getElementById('modal-card-image').alt = card.name;
     document.getElementById('modal-card-name').textContent = card.name;
     document.getElementById('modal-card-set').textContent = card.set.name;
-    document.getElementById('modal-card-number').textContent = `${card.number}/${card.set.printedTotal}`;
+    document.getElementById('modal-card-number').textContent = `${card.number}/${card.set.printedTotal || card.set.total || '?'}`;
     document.getElementById('modal-card-rarity').textContent = card.rarity || 'Unknown';
     document.getElementById('modal-card-type').textContent = card.types ? card.types.join(', ') : 'N/A';
     document.getElementById('modal-card-artist').textContent = card.artist || 'Unknown';
@@ -466,8 +529,10 @@ export async function openCardModal(cardId) {
     
     // Render variants grid
     renderVariantsGrid(variants);
+    renderAlternatePrints(card);
     
     elements.modal.classList.add('active');
+    syncBodyModalState();
 }
 
 // Render variants grid in modal
@@ -476,11 +541,17 @@ export function renderVariantsGrid(variants) {
     
     grid.innerHTML = variants.map(variant => {
         const priceInfo = variant.price ? `$${variant.price.market?.toFixed(2) || variant.price.mid?.toFixed(2) || '?'}` : '';
+        const linkHTML = variant.url
+            ? `<a class="variant-link" href="${variant.url}" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">TCGplayer</a>`
+            : '';
         return `
             <div class="variant-row" data-variant="${variant.id}">
                 <div class="variant-info">
                     <span class="variant-color-dot" style="background-color: ${variant.color}"></span>
-                    <span class="variant-name">${variant.name}</span>
+                    <div class="variant-text">
+                        <span class="variant-name">${variant.name}</span>
+                        ${linkHTML}
+                    </div>
                     ${priceInfo ? `<span class="variant-price">${priceInfo}</span>` : ''}
                 </div>
                 <div class="variant-qty-control">
@@ -514,6 +585,8 @@ export function closeModal() {
     elements.modal.classList.remove('active');
     state.selectedCard = null;
     state.modalVariants = {};
+    renderAlternatePrints(null);
+    syncBodyModalState();
 }
 
 // Save collection with variants (from modal)
@@ -637,6 +710,13 @@ export function setupNestedDropdown() {
             state.filters.set = setId;
             state.currentPage = 1;
             elements.dropdownMenu.classList.remove('open');
+            saveFiltersToStorage(state.filters);
+            if (window.innerWidth <= 768 && elements.mobileFilterToggle && elements.filtersSidebar) {
+                elements.mobileFilterToggle.classList.remove('active');
+                elements.filtersSidebar.classList.remove('mobile-open');
+                const toggleIcon = elements.mobileFilterToggle.querySelector('.filter-toggle-arrow');
+                if (toggleIcon) toggleIcon.textContent = '▼';
+            }
             
             if (state.currentView === 'browse') {
                 applyFiltersAndRender();

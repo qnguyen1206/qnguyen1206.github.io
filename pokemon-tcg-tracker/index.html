@@ -241,6 +241,13 @@
                         <p><strong>Type:</strong> <span id="modal-card-type"></span></p>
                         <p><strong>Artist:</strong> <span id="modal-card-artist"></span></p>
                     </div>
+                    <div class="alternate-prints-section" id="alternate-prints-section" hidden>
+                        <div class="alternate-prints-header">
+                            <h4>Additional TCGTracking Prints</h4>
+                            <p>Special print patterns and parallel releases are shown here for pricing reference only.</p>
+                        </div>
+                        <div class="alternate-prints-list" id="alternate-prints-list"></div>
+                    </div>
                     <div class="modal-actions">
                         <h4>Card Variants</h4>
                         <div class="variants-grid" id="variants-grid">
@@ -279,7 +286,7 @@
                     <p>Load a collection from a previously exported JSON file.</p>
                     <label class="btn btn-secondary file-input-label">
                         📤 Select File
-                        <input type="file" id="import-file" accept=".json" style="display: none;">
+                        <input type="file" id="import-file" accept=".json,application/json" style="display: none;">
                     </label>
                 </div>
             </div>
@@ -301,7 +308,7 @@
                 <div class="sync-section">
                     <h3>Load from Code</h3>
                     <div class="sync-input-group">
-                        <input type="text" id="sync-code-input" placeholder="Enter sync code" maxlength="8" class="sync-code-input">
+                        <input type="text" id="sync-code-input" placeholder="Enter sync code" maxlength="8" class="sync-code-input" inputmode="text" autocomplete="off" autocapitalize="characters" spellcheck="false" enterkeyhint="done">
                         <button class="btn btn-primary" id="apply-code-btn">Apply</button>
                     </div>
                     <button class="btn btn-secondary" id="scan-qr-btn">📷 Scan QR Code</button>

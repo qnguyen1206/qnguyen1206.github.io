@@ -1,7 +1,7 @@
 // Database Operations (IndexedDB)
 // Handles caching cards/sets and storing collection/value history
 
-import { CACHE_DB_NAME, CACHE_DB_VERSION, CACHE_EXPIRY_DAYS } from './config.js';
+import { CACHE_DB_NAME, CACHE_DB_VERSION, CACHE_EXPIRY_DAYS, CATALOG_CACHE_VERSION } from './config.js';
 import { state } from './state.js';
 
 // IndexedDB instance
@@ -9,6 +9,10 @@ let db = null;
 
 const COLLECTION_UPDATED_AT_KEY = 'collectionUpdatedAt';
 const LAST_SERVER_UPDATE_KEY = 'lastServerUpdate';
+const CARDS_CACHE_TIMESTAMP_KEY = 'cardsCacheTimestamp';
+const SETS_CACHE_TIMESTAMP_KEY = 'setsCacheTimestamp';
+const CARDS_CACHE_VERSION_KEY = 'cardsCatalogCacheVersion';
+const SETS_CACHE_VERSION_KEY = 'setsCatalogCacheVersion';
 
 function readLocalStorageNumber(key) {
     const value = Number(localStorage.getItem(key) || 0);
@@ -73,36 +77,43 @@ export function initDB() {
     });
 }
 
+function isFreshCacheTimestamp(timestamp) {
+    if (!timestamp) return false;
+
+    const now = Date.now();
+    const expiryTime = CACHE_EXPIRY_DAYS * 24 * 60 * 60 * 1000;
+    return (now - timestamp) < expiryTime;
+}
+
 // Check if cache is valid
-export async function isCacheValid() {
+export async function isCacheValid(cacheType = 'cards') {
     if (!db) return false;
     
     return new Promise((resolve) => {
         try {
             const transaction = db.transaction(['metadata'], 'readonly');
             const store = transaction.objectStore('metadata');
-            const request = store.get('cacheTimestamp');
+            const timestampKey = cacheType === 'sets' ? SETS_CACHE_TIMESTAMP_KEY : CARDS_CACHE_TIMESTAMP_KEY;
+            const versionKey = cacheType === 'sets' ? SETS_CACHE_VERSION_KEY : CARDS_CACHE_VERSION_KEY;
+            const timestampRequest = store.get(timestampKey);
+            const versionRequest = store.get(versionKey);
             
-            request.onsuccess = () => {
-                if (!request.result) {
+            transaction.oncomplete = () => {
+                const timestamp = timestampRequest.result?.value;
+                const version = versionRequest.result?.value;
+
+                if (!isFreshCacheTimestamp(timestamp) || version !== CATALOG_CACHE_VERSION) {
                     resolve(false);
                     return;
                 }
-                
-                const timestamp = request.result.value;
+
                 const now = Date.now();
-                const expiryTime = CACHE_EXPIRY_DAYS * 24 * 60 * 60 * 1000;
-                const isValid = (now - timestamp) < expiryTime;
-                
-                if (isValid) {
-                    const daysAgo = Math.floor((now - timestamp) / (24 * 60 * 60 * 1000));
-                    console.log(`Cache is valid (${daysAgo} days old)`);
-                }
-                
-                resolve(isValid);
+                const daysAgo = Math.floor((now - timestamp) / (24 * 60 * 60 * 1000));
+                console.log(`${cacheType} cache is valid (${daysAgo} days old)`);
+                resolve(true);
             };
             
-            request.onerror = () => resolve(false);
+            transaction.onerror = () => resolve(false);
         } catch (e) {
             resolve(false);
         }
@@ -181,7 +192,8 @@ export async function saveCardsToCache(cards) {
             });
             
             // Update timestamp
-            metaStore.put({ key: 'cacheTimestamp', value: Date.now() });
+            metaStore.put({ key: CARDS_CACHE_TIMESTAMP_KEY, value: Date.now() });
+            metaStore.put({ key: CARDS_CACHE_VERSION_KEY, value: CATALOG_CACHE_VERSION });
             
             transaction.oncomplete = () => {
                 console.log(`Cached ${cards.length} cards to IndexedDB`);
@@ -205,8 +217,9 @@ export async function saveSetsToCache(sets) {
     
     return new Promise((resolve) => {
         try {
-            const transaction = db.transaction(['sets'], 'readwrite');
+            const transaction = db.transaction(['sets', 'metadata'], 'readwrite');
             const store = transaction.objectStore('sets');
+            const metaStore = transaction.objectStore('metadata');
             
             // Clear existing sets
             store.clear();
@@ -215,6 +228,9 @@ export async function saveSetsToCache(sets) {
             sets.forEach(set => {
                 store.put(set);
             });
+
+            metaStore.put({ key: SETS_CACHE_TIMESTAMP_KEY, value: Date.now() });
+            metaStore.put({ key: SETS_CACHE_VERSION_KEY, value: CATALOG_CACHE_VERSION });
             
             transaction.oncomplete = () => {
                 console.log(`Cached ${sets.length} sets to IndexedDB`);
@@ -237,7 +253,10 @@ export async function clearCache() {
             const transaction = db.transaction(['cards', 'sets', 'metadata'], 'readwrite');
             transaction.objectStore('cards').clear();
             transaction.objectStore('sets').clear();
-            transaction.objectStore('metadata').delete('cacheTimestamp');
+            transaction.objectStore('metadata').delete(CARDS_CACHE_TIMESTAMP_KEY);
+            transaction.objectStore('metadata').delete(SETS_CACHE_TIMESTAMP_KEY);
+            transaction.objectStore('metadata').delete(CARDS_CACHE_VERSION_KEY);
+            transaction.objectStore('metadata').delete(SETS_CACHE_VERSION_KEY);
             
             transaction.oncomplete = () => {
                 console.log('Cache cleared');

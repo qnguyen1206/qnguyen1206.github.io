@@ -1,0 +1,615 @@
+{
+  "generatedAt": "2026-03-26T23:01:53.420Z",
+  "totals": {
+    "legacyCards": 20113,
+    "legacySets": 171,
+    "tcgtrackingSets": 215,
+    "outputCards": 27086,
+    "outputSets": 237
+  },
+  "matches": {
+    "matchedSets": 147,
+    "unmatchedTcgtrackingSets": 66,
+    "matchedCards": 18589,
+    "tcgtrackingOnlyCards": 6973,
+    "legacyOnlyCards": 1524
+  },
+  "missingFiles": [
+    {
+      "setId": 609,
+      "name": "DP Training Kit 1 Blue",
+      "missing": "products"
+    },
+    {
+      "setId": 610,
+      "name": "DP Training Kit 1 Gold",
+      "missing": "products"
+    }
+  ],
+  "unmatchedSets": [
+    {
+      "setId": 1729,
+      "abbreviation": "GEN",
+      "name": "Generations: Radiant Collection",
+      "publishedOn": "2016-02-22",
+      "cardEntries": 32,
+      "rawProducts": 33
+    },
+    {
+      "setId": 1465,
+      "abbreviation": "LTR",
+      "name": "Legendary Treasures: Radiant Collection",
+      "publishedOn": "2013-11-06",
+      "cardEntries": 25,
+      "rawProducts": 25
+    },
+    {
+      "setId": 1423,
+      "abbreviation": "PR",
+      "name": "Nintendo Promos",
+      "publishedOn": "2026-03-10",
+      "cardEntries": 88,
+      "rawProducts": 95
+    },
+    {
+      "setId": 1539,
+      "abbreviation": "PR",
+      "name": "League & Championship Cards",
+      "publishedOn": "2016-06-01",
+      "cardEntries": 509,
+      "rawProducts": 520
+    },
+    {
+      "setId": 1528,
+      "abbreviation": "PR",
+      "name": "Jumbo Cards",
+      "publishedOn": "2015-04-01",
+      "cardEntries": 311,
+      "rawProducts": 312
+    },
+    {
+      "setId": 2175,
+      "abbreviation": "BKP",
+      "name": "Burger King Promos",
+      "publishedOn": "2009-04-03",
+      "cardEntries": 24,
+      "rawProducts": 24
+    },
+    {
+      "setId": 23323,
+      "abbreviation": "CL",
+      "name": "Trading Card Game Classic",
+      "publishedOn": "2023-11-17",
+      "cardEntries": 85,
+      "rawProducts": 102
+    },
+    {
+      "setId": 1938,
+      "abbreviation": "PR",
+      "name": "Alternate Art Promos",
+      "publishedOn": "2017-05-19",
+      "cardEntries": 54,
+      "rawProducts": 56
+    },
+    {
+      "setId": 1453,
+      "abbreviation": "PR",
+      "name": "HGSS Promos",
+      "publishedOn": "2010-02-01",
+      "cardEntries": 36,
+      "rawProducts": 38
+    },
+    {
+      "setId": 1541,
+      "abbreviation": "PR",
+      "name": "DP Trainer Kit: Manaphy & Lucario",
+      "publishedOn": "2007-09-03",
+      "cardEntries": 23,
+      "rawProducts": 23
+    },
+    {
+      "setId": 1543,
+      "abbreviation": "PR",
+      "name": "EX Trainer Kit 1: Latias & Latios",
+      "publishedOn": "2026-02-10",
+      "cardEntries": 19,
+      "rawProducts": 20
+    },
+    {
+      "setId": 1840,
+      "abbreviation": "PR",
+      "name": "Deck Exclusives",
+      "publishedOn": "2016-09-01",
+      "cardEntries": 444,
+      "rawProducts": 462
+    },
+    {
+      "setId": 1538,
+      "abbreviation": "BLW",
+      "name": "BW Trainer Kit: Excadrill & Zoroark",
+      "publishedOn": "2011-09-05",
+      "cardEntries": 60,
+      "rawProducts": 60
+    },
+    {
+      "setId": 1853,
+      "abbreviation": "BST",
+      "name": "EX Battle Stadium",
+      "publishedOn": "2004-10-18",
+      "cardEntries": 47,
+      "rawProducts": 49
+    },
+    {
+      "setId": 1542,
+      "abbreviation": "PR",
+      "name": "EX Trainer Kit 2: Plusle & Minun",
+      "publishedOn": "2026-01-24",
+      "cardEntries": 24,
+      "rawProducts": 24
+    },
+    {
+      "setId": 1796,
+      "abbreviation": "PR",
+      "name": "XY Trainer Kit: Pikachu Libre & Suicune",
+      "publishedOn": "2016-04-27",
+      "cardEntries": 59,
+      "rawProducts": 60
+    },
+    {
+      "setId": 1536,
+      "abbreviation": "PR",
+      "name": "XY Trainer Kit: Latias & Latios",
+      "publishedOn": "2015-04-29",
+      "cardEntries": 59,
+      "rawProducts": 60
+    },
+    {
+      "setId": 1533,
+      "abbreviation": "PR",
+      "name": "XY Trainer Kit: Bisharp & Wigglytuff",
+      "publishedOn": "2014-11-14",
+      "cardEntries": 60,
+      "rawProducts": 60
+    },
+    {
+      "setId": 1532,
+      "abbreviation": "PR",
+      "name": "XY Trainer Kit: Sylveon & Noivern",
+      "publishedOn": "2014-03-12",
+      "cardEntries": 58,
+      "rawProducts": 60
+    },
+    {
+      "setId": 1451,
+      "abbreviation": "PR",
+      "name": "XY Promos",
+      "publishedOn": "2013-12-16",
+      "cardEntries": 250,
+      "rawProducts": 269
+    },
+    {
+      "setId": 1540,
+      "abbreviation": "PR",
+      "name": "HGSS Trainer Kit: Gyarados & Raichu",
+      "publishedOn": "2010-05-12",
+      "cardEntries": 60,
+      "rawProducts": 60
+    },
+    {
+      "setId": 1455,
+      "abbreviation": "PR",
+      "name": "Best of Promos",
+      "publishedOn": "2002-12-01",
+      "cardEntries": 15,
+      "rawProducts": 15
+    },
+    {
+      "setId": 1407,
+      "abbreviation": "PR",
+      "name": "Black and White Promos",
+      "publishedOn": "2011-04-25",
+      "cardEntries": 142,
+      "rawProducts": 148
+    },
+    {
+      "setId": 24451,
+      "abbreviation": "MEP",
+      "name": "ME: Mega Evolution Promo",
+      "publishedOn": "2025-09-26",
+      "cardEntries": 38,
+      "rawProducts": 44
+    },
+    {
+      "setId": 24461,
+      "abbreviation": "MEE",
+      "name": "MEE: Mega Evolution Energies",
+      "publishedOn": "2025-09-26",
+      "cardEntries": 8,
+      "rawProducts": 8
+    },
+    {
+      "setId": 1663,
+      "abbreviation": "BSS",
+      "name": "Base Set (Shadowless)",
+      "publishedOn": "1999-01-09",
+      "cardEntries": 101,
+      "rawProducts": 102
+    },
+    {
+      "setId": 22872,
+      "abbreviation": "SVP",
+      "name": "SV: Scarlet & Violet Promo Cards",
+      "publishedOn": "2023-03-31",
+      "cardEntries": 257,
+      "rawProducts": 285
+    },
+    {
+      "setId": 3150,
+      "abbreviation": "M22",
+      "name": "McDonald's Promos 2022",
+      "publishedOn": "2022-08-03",
+      "cardEntries": 15,
+      "rawProducts": 15
+    },
+    {
+      "setId": 2782,
+      "abbreviation": "M21",
+      "name": "McDonald's 25th Anniversary Promos",
+      "publishedOn": "2021-02-09",
+      "cardEntries": 25,
+      "rawProducts": 25
+    },
+    {
+      "setId": 2364,
+      "abbreviation": "M18",
+      "name": "McDonald's Promos 2018",
+      "publishedOn": "2018-11-02",
+      "cardEntries": 12,
+      "rawProducts": 12
+    },
+    {
+      "setId": 2148,
+      "abbreviation": "M17",
+      "name": "McDonald's Promos 2017",
+      "publishedOn": "2017-11-07",
+      "cardEntries": 12,
+      "rawProducts": 12
+    },
+    {
+      "setId": 1692,
+      "abbreviation": "M14",
+      "name": "McDonald's Promos 2014",
+      "publishedOn": "2014-05-23",
+      "cardEntries": 12,
+      "rawProducts": 12
+    },
+    {
+      "setId": 1427,
+      "abbreviation": "M12",
+      "name": "McDonald's Promos 2012",
+      "publishedOn": "2012-06-15",
+      "cardEntries": 12,
+      "rawProducts": 12
+    },
+    {
+      "setId": 1401,
+      "abbreviation": "M11",
+      "name": "McDonald's Promos 2011",
+      "publishedOn": "2011-06-17",
+      "cardEntries": 12,
+      "rawProducts": 12
+    },
+    {
+      "setId": 1957,
+      "abbreviation": "SM03",
+      "name": "SM - Burning Shadows",
+      "publishedOn": "2017-08-04",
+      "cardEntries": 169,
+      "rawProducts": 169
+    },
+    {
+      "setId": 24584,
+      "abbreviation": null,
+      "name": "First Partner Collection 2026",
+      "publishedOn": "2026-03-30",
+      "cardEntries": 0,
+      "rawProducts": 0
+    },
+    {
+      "setId": 23520,
+      "abbreviation": "BA24",
+      "name": "Battle Academy 2024",
+      "publishedOn": "2024-06-21",
+      "cardEntries": 138,
+      "rawProducts": 138
+    },
+    {
+      "setId": 3051,
+      "abbreviation": "BA22",
+      "name": "Battle Academy 2022",
+      "publishedOn": "2022-04-01",
+      "cardEntries": 42,
+      "rawProducts": 101
+    },
+    {
+      "setId": 24163,
+      "abbreviation": "M24",
+      "name": "McDonald's Promos 2024",
+      "publishedOn": "2025-01-21",
+      "cardEntries": 15,
+      "rawProducts": 15
+    },
+    {
+      "setId": 23561,
+      "abbreviation": "TTBB24",
+      "name": "Trick or Trade BOOster Bundle 2024",
+      "publishedOn": "2024-08-30",
+      "cardEntries": 30,
+      "rawProducts": 30
+    },
+    {
+      "setId": 23306,
+      "abbreviation": "M23",
+      "name": "McDonald's Promos 2023",
+      "publishedOn": "2023-09-12",
+      "cardEntries": 15,
+      "rawProducts": 15
+    },
+    {
+      "setId": 23266,
+      "abbreviation": "TTBB23",
+      "name": "Trick or Trade BOOster Bundle 2023",
+      "publishedOn": "2023-09-01",
+      "cardEntries": 30,
+      "rawProducts": 30
+    },
+    {
+      "setId": 2555,
+      "abbreviation": "M19",
+      "name": "McDonald's Promos 2019",
+      "publishedOn": "2019-10-01",
+      "cardEntries": 12,
+      "rawProducts": 12
+    },
+    {
+      "setId": 3087,
+      "abbreviation": "M16",
+      "name": "McDonald's Promos 2016",
+      "publishedOn": "2016-08-05",
+      "cardEntries": 12,
+      "rawProducts": 12
+    },
+    {
+      "setId": 1694,
+      "abbreviation": "M15",
+      "name": "McDonald's Promos 2015",
+      "publishedOn": "2015-11-23",
+      "cardEntries": 12,
+      "rawProducts": 12
+    },
+    {
+      "setId": 1433,
+      "abbreviation": "RUM",
+      "name": "Rumble",
+      "publishedOn": "2009-11-16",
+      "cardEntries": 16,
+      "rawProducts": 16
+    },
+    {
+      "setId": 23095,
+      "abbreviation": "AVTR",
+      "name": "Ash vs Team Rocket Deck Kit (JP Exclusive)",
+      "publishedOn": "2017-04-21",
+      "cardEntries": 21,
+      "rawProducts": 21
+    },
+    {
+      "setId": 2374,
+      "abbreviation": "MCAP",
+      "name": "Miscellaneous Cards & Products",
+      "publishedOn": "2018-11-01",
+      "cardEntries": 542,
+      "rawProducts": 598
+    },
+    {
+      "setId": 24493,
+      "abbreviation": "SAMPLE",
+      "name": "e-Reader Sample Cards",
+      "publishedOn": "2002-08-02",
+      "cardEntries": 1,
+      "rawProducts": 1
+    },
+    {
+      "setId": 2289,
+      "abbreviation": "BLE",
+      "name": "Blister Exclusives",
+      "publishedOn": "1998-02-27",
+      "cardEntries": 128,
+      "rawProducts": 130
+    },
+    {
+      "setId": 24529,
+      "abbreviation": null,
+      "name": "Player Placement Trainer Promos",
+      "publishedOn": "2026-01-02",
+      "cardEntries": 4,
+      "rawProducts": 4
+    },
+    {
+      "setId": 23330,
+      "abbreviation": null,
+      "name": "My First Battle",
+      "publishedOn": "2023-09-29",
+      "cardEntries": 0,
+      "rawProducts": 0
+    },
+    {
+      "setId": 22880,
+      "abbreviation": null,
+      "name": "Prize Pack Series Cards",
+      "publishedOn": "2022-11-30",
+      "cardEntries": 670,
+      "rawProducts": 693
+    },
+    {
+      "setId": 3179,
+      "abbreviation": "TTBB",
+      "name": "Trick or Trade BOOster Bundle",
+      "publishedOn": "2022-09-01",
+      "cardEntries": 30,
+      "rawProducts": 30
+    },
+    {
+      "setId": 2776,
+      "abbreviation": "FPP",
+      "name": "First Partner Pack",
+      "publishedOn": "2021-02-26",
+      "cardEntries": 24,
+      "rawProducts": 24
+    },
+    {
+      "setId": 24655,
+      "abbreviation": "CRI",
+      "name": "ME04: Chaos Rising",
+      "publishedOn": "2026-05-22",
+      "cardEntries": 0,
+      "rawProducts": 0
+    },
+    {
+      "setId": 24587,
+      "abbreviation": "ME03",
+      "name": "ME03: Perfect Order",
+      "publishedOn": "2026-03-27",
+      "cardEntries": 124,
+      "rawProducts": 124
+    },
+    {
+      "setId": 2686,
+      "abbreviation": "BTA",
+      "name": "Battle Academy",
+      "publishedOn": "2020-07-31",
+      "cardEntries": 38,
+      "rawProducts": 101
+    },
+    {
+      "setId": 2282,
+      "abbreviation": "WCD",
+      "name": "World Championship Decks",
+      "publishedOn": "2018-07-01",
+      "cardEntries": 1157,
+      "rawProducts": 1715
+    },
+    {
+      "setId": 2208,
+      "abbreviation": "SMK2",
+      "name": "SM Trainer Kit: Alolan Sandslash & Alolan Ninetales",
+      "publishedOn": "2018-04-06",
+      "cardEntries": 52,
+      "rawProducts": 60
+    },
+    {
+      "setId": 2069,
+      "abbreviation": "SMK1",
+      "name": "SM Trainer Kit: Lycanroc & Alolan Raichu",
+      "publishedOn": "2017-04-21",
+      "cardEntries": 55,
+      "rawProducts": 60
+    },
+    {
+      "setId": 1861,
+      "abbreviation": "SMP",
+      "name": "SM Promos",
+      "publishedOn": "2016-12-14",
+      "cardEntries": 327,
+      "rawProducts": 333
+    },
+    {
+      "setId": 2332,
+      "abbreviation": "PPP",
+      "name": "Professor Program Promos",
+      "publishedOn": "2011-01-07",
+      "cardEntries": 39,
+      "rawProducts": 47
+    },
+    {
+      "setId": 2205,
+      "abbreviation": "PWCP",
+      "name": "Pikachu World Collection Promos",
+      "publishedOn": "2010-07-08",
+      "cardEntries": 19,
+      "rawProducts": 20
+    },
+    {
+      "setId": 2155,
+      "abbreviation": "CCP",
+      "name": "Countdown Calendar Promos",
+      "publishedOn": "2008-10-01",
+      "cardEntries": 24,
+      "rawProducts": 24
+    },
+    {
+      "setId": 2214,
+      "abbreviation": "KWBP",
+      "name": "Kids WB Promos",
+      "publishedOn": "2004-07-02",
+      "cardEntries": 5,
+      "rawProducts": 5
+    }
+  ],
+  "lowCoverageSets": [
+    {
+      "tcgtrackingSetId": 24382,
+      "normalizedSetId": "sve",
+      "name": "Scarlet & Violet Energies",
+      "matchedCards": 16,
+      "tcgtrackingCards": 40,
+      "rawProducts": 40,
+      "coverage": 40
+    },
+    {
+      "tcgtrackingSetId": 24073,
+      "normalizedSetId": "sv9",
+      "name": "Journey Together",
+      "matchedCards": 190,
+      "tcgtrackingCards": 225,
+      "rawProducts": 225,
+      "coverage": 84.4
+    },
+    {
+      "tcgtrackingSetId": 1418,
+      "normalizedSetId": "basep",
+      "name": "Wizards Black Star Promos",
+      "matchedCards": 53,
+      "tcgtrackingCards": 68,
+      "rawProducts": 70,
+      "coverage": 77.9
+    },
+    {
+      "tcgtrackingSetId": 2931,
+      "normalizedSetId": "cel25c",
+      "name": "Celebrations: Classic Collection",
+      "matchedCards": 22,
+      "tcgtrackingCards": 25,
+      "rawProducts": 25,
+      "coverage": 88
+    },
+    {
+      "tcgtrackingSetId": 1421,
+      "normalizedSetId": "dpp",
+      "name": "DP Black Star Promos",
+      "matchedCards": 54,
+      "tcgtrackingCards": 66,
+      "rawProducts": 66,
+      "coverage": 81.8
+    },
+    {
+      "tcgtrackingSetId": 1863,
+      "normalizedSetId": "smp",
+      "name": "SM Black Star Promos",
+      "matchedCards": 17,
+      "tcgtrackingCards": 163,
+      "rawProducts": 163,
+      "coverage": 10.4
+    }
+  ]
+}
