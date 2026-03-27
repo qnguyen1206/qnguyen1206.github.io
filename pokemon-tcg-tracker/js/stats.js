@@ -1,7 +1,7 @@
 // Stats, Charts, and Value Calculations
 
 import { state, getCardTotalQty } from './state.js';
-import { getCardVariants } from './config.js';
+import { getCardVariants, getPreferredPriceAmount } from './config.js';
 import { saveValueHistoryToDB } from './db.js';
 
 // Update stats
@@ -59,26 +59,10 @@ export function updateCollectionValue(cardIds) {
         const cardData = state.collection[cardId];
         if (!cardData) return;
         
-        // Get price from tcgplayer or cardmarket
-        const getVariantPrice = (variantId) => {
-            // Try tcgplayer first
-            if (card.tcgplayer && card.tcgplayer.prices && card.tcgplayer.prices[variantId]) {
-                const p = card.tcgplayer.prices[variantId];
-                return p.market || p.mid || 0;
-            }
-            // Fallback to cardmarket
-            if (card.cardmarket && card.cardmarket.prices) {
-                const cm = card.cardmarket.prices;
-                if (variantId === 'normal') {
-                    return cm.averageSellPrice || cm.trendPrice || 0;
-                } else if (variantId === 'reverseHolofoil') {
-                    return cm.reverseHoloSell || cm.reverseHoloTrend || 0;
-                }
-                // For other variants, use averageSellPrice as fallback
-                return cm.averageSellPrice || cm.trendPrice || 0;
-            }
-            return 0;
-        };
+        const variantPriceMap = new Map(
+            getCardVariants(card).map(variant => [variant.id, getPreferredPriceAmount(variant.price)])
+        );
+        const getVariantPrice = (variantId) => variantPriceMap.get(variantId) || 0;
         
         // Handle different collection data formats
         if (typeof cardData === 'number') {
@@ -123,7 +107,7 @@ export async function updateMostValuableCard(cardIds) {
         variants.forEach(variant => {
             const qty = cardData[variant.id] || 0;
             if (qty > 0 && variant.price) {
-                const price = variant.price.market || variant.price.mid || 0;
+                const price = getPreferredPriceAmount(variant.price);
                 if (price > maxValue) {
                     maxValue = price;
                     mostValuableCard = card;

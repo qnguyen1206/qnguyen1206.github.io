@@ -14,9 +14,32 @@ import {
 const DATA_PATH = './data';
 const CARD_FILE_CANDIDATES = ['cards.tcgtracking.json', 'cards.json'];
 const SET_FILE_CANDIDATES = ['sets.tcgtracking.json', 'sets.json'];
+const CATALOG_REPORT_FILE = 'tcgtracking-report.json';
+let catalogRevisionPromise = null;
 
 function buildCatalogUrl(fileName) {
     return `${DATA_PATH}/${fileName}?v=${encodeURIComponent(CATALOG_CACHE_VERSION)}`;
+}
+
+async function getCatalogRevision() {
+    if (!catalogRevisionPromise) {
+        catalogRevisionPromise = (async () => {
+            try {
+                const response = await fetch(buildCatalogUrl(CATALOG_REPORT_FILE), { cache: 'no-store' });
+                if (!response.ok) {
+                    return '';
+                }
+
+                const report = await response.json();
+                return String(report?.generatedAt || '').trim();
+            } catch (error) {
+                console.log('Failed to load catalog revision:', error.message);
+                return '';
+            }
+        })();
+    }
+
+    return catalogRevisionPromise;
 }
 
 // Show loading progress
@@ -38,8 +61,10 @@ export function showLoadingProgress(current, total, message = '') {
 
 // Load all cards - tries: 1) IndexedDB cache, 2) Pre-built JSON, 3) API
 export async function loadAllCards() {
+    const catalogRevision = await getCatalogRevision();
+
     // 1. Check IndexedDB cache first
-    if (await isCacheValid('cards')) {
+    if (await isCacheValid('cards', catalogRevision)) {
         const cachedCards = await getCachedCards();
         if (cachedCards && cachedCards.length > 0) {
             state.allCards = cachedCards;
@@ -49,7 +74,7 @@ export async function loadAllCards() {
     }
     
     // 2. Try loading from pre-built JSON file
-    const loaded = await loadCardsFromJSON();
+    const loaded = await loadCardsFromJSON(catalogRevision);
     if (loaded) {
         return true;
     }
@@ -61,7 +86,7 @@ export async function loadAllCards() {
 }
 
 // Load cards from pre-built JSON file
-async function loadCardsFromJSON() {
+async function loadCardsFromJSON(catalogRevision = '') {
     showLoadingProgress(0, 100, 'Loading card database...');
     
     for (const fileName of CARD_FILE_CANDIDATES) {
@@ -80,7 +105,7 @@ async function loadCardsFromJSON() {
                 
                 // Cache to IndexedDB for even faster subsequent loads
                 showLoadingProgress(80, 100, 'Caching for offline use...');
-                await saveCardsToCache(cards);
+                await saveCardsToCache(cards, catalogRevision);
                 
                 showLoadingProgress(100, 100, 'Done!');
                 return true;
@@ -96,8 +121,10 @@ async function loadCardsFromJSON() {
 
 // Load sets - tries: 1) IndexedDB cache, 2) Pre-built JSON, 3) API
 export async function loadSets() {
+    const catalogRevision = await getCatalogRevision();
+
     // 1. Check IndexedDB cache
-    if (await isCacheValid('sets')) {
+    if (await isCacheValid('sets', catalogRevision)) {
         const cachedSets = await getCachedSets();
         if (cachedSets && cachedSets.length > 0) {
             state.sets = cachedSets;
@@ -114,7 +141,7 @@ export async function loadSets() {
                 const sets = await response.json();
                 if (sets && sets.length > 0) {
                     state.sets = sets;
-                    await saveSetsToCache(sets);
+                    await saveSetsToCache(sets, catalogRevision);
                     console.log(`Loaded ${sets.length} sets from ${fileName}`);
                     return;
                 }
@@ -132,7 +159,7 @@ export async function loadSets() {
         }
         const data = await response.json();
         state.sets = data.data;
-        await saveSetsToCache(state.sets);
+        await saveSetsToCache(state.sets, catalogRevision);
         console.log(`Loaded ${state.sets.length} sets from API`);
     } catch (error) {
         console.error('Error loading sets:', error);
@@ -215,7 +242,7 @@ export async function fetchAllCardsFromAPI() {
         
         if (allCards.length > 0) {
             state.allCards = allCards;
-            await saveCardsToCache(allCards);
+            await saveCardsToCache(allCards, await getCatalogRevision());
             console.log(`Loaded ${allCards.length} cards from API`);
         } else {
             throw new Error('No cards were loaded');

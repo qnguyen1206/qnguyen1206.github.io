@@ -6,7 +6,7 @@ export const CARDS_PER_PAGE = 20;
 export const CACHE_DB_NAME = 'pokemon-tcg-db';
 export const CACHE_DB_VERSION = 2;
 export const CACHE_EXPIRY_DAYS = 7;
-export const CATALOG_CACHE_VERSION = 'tcgtracking-v3';
+export const CATALOG_CACHE_VERSION = 'tcgtracking-v4';
 
 // API Key (not needed since we use pre-built JSON)
 export const API_KEY = import.meta.env.VITE_POKEMON_TCG_API_KEY || '';
@@ -41,7 +41,7 @@ export function getFetchOptions() {
     return options;
 }
 
-// Card variants configuration - maps TCGPlayer price keys to display info
+// Card variants configuration - maps catalog price keys to display info
 // Order matters for display
 export const VARIANT_ORDER = ['normal', 'holofoil', 'reverseHolofoil', '1stEditionHolofoil', '1stEditionNormal', 'unlimited', 'unlimitedHolofoil'];
 
@@ -58,6 +58,32 @@ export const VARIANT_MAP = {
 function getVariantSortOrder(variantId) {
     const index = VARIANT_ORDER.indexOf(variantId);
     return index === -1 ? 10000 : index * 100;
+}
+
+export function getPreferredPriceAmount(price) {
+    if (!price || typeof price !== 'object') {
+        return 0;
+    }
+
+    const preferredKeys = ['market', 'low', 'mid', 'high', 'directLow'];
+    let firstFinite = null;
+
+    for (const key of preferredKeys) {
+        const amount = Number(price[key]);
+        if (!Number.isFinite(amount)) {
+            continue;
+        }
+
+        if (firstFinite === null) {
+            firstFinite = amount;
+        }
+
+        if (amount > 0) {
+            return amount;
+        }
+    }
+
+    return firstFinite ?? 0;
 }
 
 function normalizeVariantToken(value) {
@@ -348,7 +374,7 @@ function buildVariantVisualStyle(variant) {
     ].join('; ');
 }
 
-// Get available variants for a card based on tcgplayer.prices
+// Get available variants for a card based on the normalized catalog price map
 export function getCardVariants(card) {
     const variants = [];
     const priceMap = card?.tcgplayer?.prices || {};

@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "build:tcgtracking-catalog": "node pokemon-tcg-tracker/scripts/build-tcgtracking-catalog.cjs"
+    "build:tcgtracking-catalog": "node pokemon-tcg-tracker/scripts/build-tcgtracking-catalog.cjs",
+    "refresh:tcgtracking-catalog": "node pokemon-tcg-tracker/scripts/fetch-all-pokemon-data.cjs && npm run build:tcgtracking-catalog"
   },
   "devDependencies": {
     "terser": "^5.44.0",

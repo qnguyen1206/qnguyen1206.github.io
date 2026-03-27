@@ -1,6 +1,6 @@
 // UI Rendering Functions
 
-import { CARDS_PER_PAGE, getCardVariants, renderVariantLegendForCards } from './config.js';
+import { CARDS_PER_PAGE, getCardVariants, getPreferredPriceAmount, renderVariantLegendForCards } from './config.js';
 import { state, elements, getCardTotalQty, saveFiltersToStorage } from './state.js';
 import { setupVariantCheckboxes, syncCardUI } from './collection.js';
 import { updateStats, updateCharts } from './stats.js';
@@ -80,7 +80,7 @@ export function renderCards() {
     }
     legendContainer.innerHTML = renderVariantLegendForCards(state.cards);
     
-    elements.browseGrid.innerHTML = state.cards.map(card => createCardHTML(card)).join('');
+    elements.browseGrid.innerHTML = state.cards.map(card => createCardHTML(card, getCardTotalQty(card.id) <= 0)).join('');
     
     // Add click handlers for card (open modal)
     elements.browseGrid.querySelectorAll('.card-item').forEach(cardEl => {
@@ -89,6 +89,11 @@ export function renderCards() {
     
     // Add click handlers for variant checkboxes
     setupVariantCheckboxes(elements.browseGrid);
+}
+
+function formatInlinePrice(price) {
+    const amount = getPreferredPriceAmount(price);
+    return amount > 0 ? `$${amount.toFixed(2)}` : '';
 }
 
 // Render collection
@@ -294,19 +299,21 @@ export function renderCollection() {
 }
 
 // Create card HTML
-export function createCardHTML(card, grayed = false) {
+export function createCardHTML(card, grayed = null) {
     const totalQty = getCardTotalQty(card.id);
     const ownedBadge = totalQty > 0 ? `<span class="owned-badge">×${totalQty}</span>` : '';
     const cardData = state.collection[card.id] || {};
     const variants = getCardVariants(card);
-    const grayedClass = grayed ? 'not-owned' : '';
+    const shouldGrayCard = typeof grayed === 'boolean' ? grayed : totalQty <= 0;
+    const grayedClass = shouldGrayCard ? 'not-owned' : '';
     
     // Build variant checkboxes based on available variants for this card
     const variantChecks = variants.map(variant => {
         const qty = typeof cardData === 'object' ? (cardData[variant.id] || 0) : 
                     (variant.id === 'normal' && typeof cardData === 'number' ? cardData : 0);
         const isChecked = qty > 0;
-        const priceInfo = variant.price ? ` - $${variant.price.market?.toFixed(2) || variant.price.mid?.toFixed(2) || '?'}` : '';
+        const formattedPrice = formatInlinePrice(variant.price);
+        const priceInfo = formattedPrice ? ` - ${formattedPrice}` : '';
         return `
             <label class="variant-check ${isChecked ? 'checked' : ''}" title="${variant.name}${priceInfo}${qty > 1 ? ' (×' + qty + ')' : ''}" style="${variant.visualStyle}" data-variant-id="${variant.id}">
                 <input type="checkbox" ${isChecked ? 'checked' : ''} data-card="${card.id}" data-variant="${variant.id}" aria-label="${variant.name}">
@@ -337,7 +344,7 @@ export function createMasterSetCardHTML(card, variant) {
     const isOwned = qty > 0;
     const grayedClass = !isOwned ? 'not-owned' : '';
     const ownedBadge = qty > 0 ? `<span class="owned-badge">×${qty}</span>` : '';
-    const priceInfo = variant.price ? `$${variant.price.market?.toFixed(2) || variant.price.mid?.toFixed(2) || '?'}` : '';
+    const priceInfo = formatInlinePrice(variant.price);
     
     return `
         <div class="card-item master-set-card ${grayedClass}" data-id="${card.id}" data-variant="${variant.id}">
@@ -424,10 +431,7 @@ export function renderPagination() {
 }
 
 function formatVariantPrice(price) {
-    if (!price) return '';
-
-    const amount = price.market ?? price.mid ?? price.low;
-    return Number.isFinite(amount) ? `$${amount.toFixed(2)}` : '';
+    return formatInlinePrice(price);
 }
 
 function renderAlternatePrints(card) {
@@ -540,7 +544,7 @@ export function renderVariantsGrid(variants) {
     const grid = document.getElementById('variants-grid');
     
     grid.innerHTML = variants.map(variant => {
-        const priceInfo = variant.price ? `$${variant.price.market?.toFixed(2) || variant.price.mid?.toFixed(2) || '?'}` : '';
+        const priceInfo = formatInlinePrice(variant.price);
         const linkHTML = variant.url
             ? `<a class="variant-link" href="${variant.url}" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">TCGplayer</a>`
             : '';

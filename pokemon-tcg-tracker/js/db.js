@@ -13,6 +13,8 @@ const CARDS_CACHE_TIMESTAMP_KEY = 'cardsCacheTimestamp';
 const SETS_CACHE_TIMESTAMP_KEY = 'setsCacheTimestamp';
 const CARDS_CACHE_VERSION_KEY = 'cardsCatalogCacheVersion';
 const SETS_CACHE_VERSION_KEY = 'setsCatalogCacheVersion';
+const CARDS_CACHE_REVISION_KEY = 'cardsCatalogRevision';
+const SETS_CACHE_REVISION_KEY = 'setsCatalogRevision';
 
 function readLocalStorageNumber(key) {
     const value = Number(localStorage.getItem(key) || 0);
@@ -86,7 +88,7 @@ function isFreshCacheTimestamp(timestamp) {
 }
 
 // Check if cache is valid
-export async function isCacheValid(cacheType = 'cards') {
+export async function isCacheValid(cacheType = 'cards', expectedRevision = '') {
     if (!db) return false;
     
     return new Promise((resolve) => {
@@ -95,14 +97,22 @@ export async function isCacheValid(cacheType = 'cards') {
             const store = transaction.objectStore('metadata');
             const timestampKey = cacheType === 'sets' ? SETS_CACHE_TIMESTAMP_KEY : CARDS_CACHE_TIMESTAMP_KEY;
             const versionKey = cacheType === 'sets' ? SETS_CACHE_VERSION_KEY : CARDS_CACHE_VERSION_KEY;
+            const revisionKey = cacheType === 'sets' ? SETS_CACHE_REVISION_KEY : CARDS_CACHE_REVISION_KEY;
             const timestampRequest = store.get(timestampKey);
             const versionRequest = store.get(versionKey);
+            const revisionRequest = store.get(revisionKey);
             
             transaction.oncomplete = () => {
                 const timestamp = timestampRequest.result?.value;
                 const version = versionRequest.result?.value;
+                const revision = revisionRequest.result?.value || '';
 
                 if (!isFreshCacheTimestamp(timestamp) || version !== CATALOG_CACHE_VERSION) {
+                    resolve(false);
+                    return;
+                }
+
+                if (expectedRevision && revision !== expectedRevision) {
                     resolve(false);
                     return;
                 }
@@ -174,7 +184,7 @@ export async function getCachedSets() {
 }
 
 // Save cards to cache
-export async function saveCardsToCache(cards) {
+export async function saveCardsToCache(cards, catalogRevision = '') {
     if (!db) return;
     
     return new Promise((resolve) => {
@@ -194,6 +204,7 @@ export async function saveCardsToCache(cards) {
             // Update timestamp
             metaStore.put({ key: CARDS_CACHE_TIMESTAMP_KEY, value: Date.now() });
             metaStore.put({ key: CARDS_CACHE_VERSION_KEY, value: CATALOG_CACHE_VERSION });
+            metaStore.put({ key: CARDS_CACHE_REVISION_KEY, value: catalogRevision });
             
             transaction.oncomplete = () => {
                 console.log(`Cached ${cards.length} cards to IndexedDB`);
@@ -212,7 +223,7 @@ export async function saveCardsToCache(cards) {
 }
 
 // Save sets to cache
-export async function saveSetsToCache(sets) {
+export async function saveSetsToCache(sets, catalogRevision = '') {
     if (!db) return;
     
     return new Promise((resolve) => {
@@ -231,6 +242,7 @@ export async function saveSetsToCache(sets) {
 
             metaStore.put({ key: SETS_CACHE_TIMESTAMP_KEY, value: Date.now() });
             metaStore.put({ key: SETS_CACHE_VERSION_KEY, value: CATALOG_CACHE_VERSION });
+            metaStore.put({ key: SETS_CACHE_REVISION_KEY, value: catalogRevision });
             
             transaction.oncomplete = () => {
                 console.log(`Cached ${sets.length} sets to IndexedDB`);
@@ -257,6 +269,8 @@ export async function clearCache() {
             transaction.objectStore('metadata').delete(SETS_CACHE_TIMESTAMP_KEY);
             transaction.objectStore('metadata').delete(CARDS_CACHE_VERSION_KEY);
             transaction.objectStore('metadata').delete(SETS_CACHE_VERSION_KEY);
+            transaction.objectStore('metadata').delete(CARDS_CACHE_REVISION_KEY);
+            transaction.objectStore('metadata').delete(SETS_CACHE_REVISION_KEY);
             
             transaction.oncomplete = () => {
                 console.log('Cache cleared');

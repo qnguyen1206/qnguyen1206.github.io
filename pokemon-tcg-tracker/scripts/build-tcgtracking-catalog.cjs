@@ -362,12 +362,12 @@ function toFiniteNumber(...values) {
     return undefined;
 }
 
-function normalizeVariantPrice(priceData, fallbackPrice) {
-    const market = toFiniteNumber(priceData?.market, fallbackPrice?.market, fallbackPrice?.mid, fallbackPrice?.low);
-    const low = toFiniteNumber(priceData?.low, fallbackPrice?.low, market);
-    const mid = toFiniteNumber(priceData?.mid, fallbackPrice?.mid, market, low);
-    const high = toFiniteNumber(priceData?.high, fallbackPrice?.high, mid, market, low);
-    const directLow = toFiniteNumber(priceData?.directLow, fallbackPrice?.directLow);
+function normalizeVariantPrice(priceData) {
+    const market = toFiniteNumber(priceData?.market);
+    const low = toFiniteNumber(priceData?.low);
+    const mid = toFiniteNumber(priceData?.mid);
+    const high = toFiniteNumber(priceData?.high);
+    const directLow = toFiniteNumber(priceData?.directLow);
 
     const normalized = {};
     if (low !== undefined) normalized.low = low;
@@ -379,33 +379,32 @@ function normalizeVariantPrice(priceData, fallbackPrice) {
     return Object.keys(normalized).length > 0 ? normalized : null;
 }
 
-function normalizeTcgplayerData(product, pricingEntry, legacyCard, pricingUpdatedAt) {
-    const legacyTcgplayer = clonePlainObject(legacyCard?.tcgplayer) || {};
-    const normalizedPrices = clonePlainObject(legacyTcgplayer.prices) || {};
+function normalizeTcgplayerData(product, pricingEntry, pricingUpdatedAt) {
+    const normalizedPrices = {};
     const tcgPrices = pricingEntry?.tcg || {};
 
     Object.entries(tcgPrices).forEach(([sourceVariant, priceData]) => {
         const variantId = VARIANT_NAME_MAP.get(sourceVariant);
         if (!variantId) return;
 
-        const normalized = normalizeVariantPrice(priceData, normalizedPrices[variantId]);
+        const normalized = normalizeVariantPrice(priceData);
         if (normalized) {
             normalizedPrices[variantId] = normalized;
         }
     });
 
-    if (!Object.keys(normalizedPrices).length && !legacyTcgplayer.url && !product?.tcgplayer_url) {
+    if (!Object.keys(normalizedPrices).length && !product?.tcgplayer_url) {
         return undefined;
     }
 
     return {
-        url: product?.tcgplayer_url || legacyTcgplayer.url,
-        updatedAt: formatAppDate(pricingUpdatedAt || legacyTcgplayer.updatedAt),
+        url: product?.tcgplayer_url || undefined,
+        updatedAt: pricingUpdatedAt ? formatAppDate(pricingUpdatedAt) : undefined,
         prices: normalizedPrices
     };
 }
 
-function buildSpecialPrintVariantEntries(product, pricingEntry, existingPrices = {}, pricingUpdatedAt) {
+function buildSpecialPrintVariantEntries(product, pricingEntry, pricingUpdatedAt) {
     const printLabel = extractPrintVariantLabel(product.name || product.clean_name);
     if (!printLabel) {
         return [];
@@ -420,7 +419,7 @@ function buildSpecialPrintVariantEntries(product, pricingEntry, existingPrices =
             }
 
             const variantId = `${toCamelCase(printLabel)}${sourceVariantId[0].toUpperCase()}${sourceVariantId.slice(1)}`;
-            const price = normalizeVariantPrice(priceData, existingPrices[variantId]);
+            const price = normalizeVariantPrice(priceData);
             if (!price) {
                 return null;
             }
@@ -463,16 +462,14 @@ function buildAlternateProduct(product, pricingEntry, pricingUpdatedAt) {
         cleanName: product.clean_name || null,
         imageUrl: product.image_url || null,
         imageCount: product.image_count || 0,
-        tcgplayer: normalizeTcgplayerData(product, pricingEntry, null, pricingUpdatedAt)
+        tcgplayer: normalizeTcgplayerData(product, pricingEntry, pricingUpdatedAt)
     });
 }
 
 function mergeAlternateProduct(existingCard, product, pricingEntry, pricingUpdatedAt) {
-    const existingPrices = clonePlainObject(existingCard.tcgplayer?.prices) || {};
     const specialPrintVariants = buildSpecialPrintVariantEntries(
         product,
         pricingEntry,
-        existingPrices,
         pricingUpdatedAt
     );
 
@@ -574,7 +571,8 @@ function buildNormalizedCard({
         number: legacy.number || normalizeCardNumber(product.number),
         set: compactSetForCard(set),
         images,
-        tcgplayer: normalizeTcgplayerData(product, pricingEntry, legacyCard, pricingUpdatedAt),
+        cardmarket: undefined,
+        tcgplayer: normalizeTcgplayerData(product, pricingEntry, pricingUpdatedAt),
         tcgtracking: {
             productId: product.id,
             setId: tcgSet.id,
@@ -583,6 +581,7 @@ function buildNormalizedCard({
             imageUrl: product.image_url || null,
             imageCount: product.image_count || 0,
             cleanName: product.clean_name || null,
+            pricingSource: 'tcgtracking',
             pricingUpdatedAt: pricingUpdatedAt || null,
             matchedLegacyCardId: legacyCard?.id || null
         }
@@ -833,7 +832,9 @@ function main() {
         const set = normalizedSetMap.get(card.set.id) || card.set;
         normalizedCards.push(pruneUndefinedDeep({
             ...clonePlainObject(card),
-            set: compactSetForCard(set)
+            set: compactSetForCard(set),
+            cardmarket: undefined,
+            tcgplayer: undefined
         }));
     });
 
