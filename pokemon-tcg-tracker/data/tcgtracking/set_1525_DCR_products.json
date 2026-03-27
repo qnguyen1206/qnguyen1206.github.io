@@ -1,0 +1,2971 @@
+{
+  "set_id": 1525,
+  "set_name": "Double Crisis",
+  "set_abbr": "DCR",
+  "set_released": "2015-03-25",
+  "product_count": 37,
+  "data_modified": "2026-02-01T14:23:42-05:00",
+  "file_generated": "2026-02-02T03:32:28-05:00",
+  "pricing_url": "/tcgapi/v1/3/sets/1525/pricing",
+  "products": [
+    {
+      "id": 229226,
+      "name": "Double Crisis Booster Pack",
+      "clean_name": "Double Crisis Booster Pack",
+      "number": null,
+      "rarity": null,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/229226_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F229226%2Fpokemon-double-crisis-double-crisis-booster-pack",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 282553,
+      "cardtrader_id": 105639,
+      "cardtrader": [
+        {
+          "id": 105639,
+          "match_type": "tcgplayer",
+          "expansion": "Double Crisis",
+          "expansion_code": "dcr",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 97765,
+      "name": "Double Crisis: Team Aqua Blister",
+      "clean_name": "Team Aqua Blister",
+      "number": null,
+      "rarity": null,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/97765_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97765%2Fpokemon-double-crisis-team-aqua-blister",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": null
+    },
+    {
+      "id": 97764,
+      "name": "Double Crisis: Team Magma Blister",
+      "clean_name": "Double Crisis Team Magma Blister",
+      "number": null,
+      "rarity": null,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/97764_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97764%2Fpokemon-double-crisis-double-crisis-team-magma-blister",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": null
+    },
+    {
+      "id": 97047,
+      "name": "Team Magma's Numel",
+      "clean_name": "Team Magmas Numel",
+      "number": "1/34",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/97047_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97047%2Fpokemon-double-crisis-team-magmas-numel",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 282512,
+      "cardtrader_id": 114225,
+      "cardtrader": [
+        {
+          "id": 114225,
+          "match_type": "tcgplayer",
+          "expansion": "Double Crisis",
+          "expansion_code": "dcr",
+          "collector_number": "01/34",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "pt",
+            "ru"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "pt",
+                "ru"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 97056,
+      "name": "Team Magma's Baltoy",
+      "clean_name": "Team Magmas Baltoy",
+      "number": "10/34",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/97056_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97056%2Fpokemon-double-crisis-team-magmas-baltoy",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 282521,
+      "cardtrader_id": 114234,
+      "cardtrader": [
+        {
+          "id": 114234,
+          "match_type": "tcgplayer",
+          "expansion": "Double Crisis",
+          "expansion_code": "dcr",
+          "collector_number": "10/34",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "pt",
+            "ru"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "pt",
+                "ru"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 97057,
+      "name": "Team Magma's Claydol",
+      "clean_name": "Team Magmas Claydol",
+      "number": "11/34",
+      "rarity": "Holo Rare",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/97057_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97057%2Fpokemon-double-crisis-team-magmas-claydol",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 282522,
+      "cardtrader_id": 114235,
+      "cardtrader": [
+        {
+          "id": 114235,
+          "match_type": "tcgplayer",
+          "expansion": "Double Crisis",
+          "expansion_code": "dcr",
+          "collector_number": "11/34",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "pt",
+            "ru"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "pt",
+                "ru"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 97058,
+      "name": "Team Magma's Aron",
+      "clean_name": "Team Magmas Aron",
+      "number": "12/34",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/97058_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97058%2Fpokemon-double-crisis-team-magmas-aron",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 282523,
+      "cardtrader_id": 114236,
+      "cardtrader": [
+        {
+          "id": 114236,
+          "match_type": "tcgplayer",
+          "expansion": "Double Crisis",
+          "expansion_code": "dcr",
+          "collector_number": "12/34",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "pt",
+            "ru"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "pt",
+                "ru"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 97059,
+      "name": "Team Magma's Lairon",
+      "clean_name": "Team Magmas Lairon",
+      "number": "13/34",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/97059_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97059%2Fpokemon-double-crisis-team-magmas-lairon",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 282524,
+      "cardtrader_id": 114237,
+      "cardtrader": [
+        {
+          "id": 114237,
+          "match_type": "tcgplayer",
+          "expansion": "Double Crisis",
+          "expansion_code": "dcr",
+          "collector_number": "13/34",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "pt",
+            "ru"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "pt",
+                "ru"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 97060,
+      "name": "Team Magma's Aggron",
+      "clean_name": "Team Magmas Aggron",
+      "number": "14/34",
+      "rarity": "Holo Rare",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/97060_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97060%2Fpokemon-double-crisis-team-magmas-aggron",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 282525,
+      "cardtrader_id": 114238,
+      "cardtrader": [
+        {
+          "id": 114238,
+          "match_type": "tcgplayer",
+          "expansion": "Double Crisis",
+          "expansion_code": "dcr",
+          "collector_number": "14/34",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "pt",
+            "ru"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "pt",
+                "ru"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 97061,
+      "name": "Team Magma's Groudon EX",
+      "clean_name": "Team Magmas Groudon EX",
+      "number": "15/34",
+      "rarity": "Ultra Rare",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/97061_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97061%2Fpokemon-double-crisis-team-magmas-groudon-ex",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 282526,
+      "cardtrader_id": 114239,
+      "cardtrader": [
+        {
+          "id": 114239,
+          "match_type": "tcgplayer",
+          "expansion": "Double Crisis",
+          "expansion_code": "dcr",
+          "collector_number": "15/34",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "pt",
+            "ru"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "pt",
+                "ru"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 97063,
+      "name": "Team Aqua's Poochyena",
+      "clean_name": "Team Aquas Poochyena",
+      "number": "16/34",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/97063_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97063%2Fpokemon-double-crisis-team-aquas-poochyena",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 282527,
+      "cardtrader_id": 114240,
+      "cardtrader": [
+        {
+          "id": 114240,
+          "match_type": "tcgplayer",
+          "expansion": "Double Crisis",
+          "expansion_code": "dcr",
+          "collector_number": "16/34",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "pt",
+            "ru"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "pt",
+                "ru"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 97062,
+      "name": "Team Magma's Poochyena",
+      "clean_name": "Team Magmas Poochyena",
+      "number": "17/34",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/97062_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97062%2Fpokemon-double-crisis-team-magmas-poochyena",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 282528,
+      "cardtrader_id": 114241,
+      "cardtrader": [
+        {
+          "id": 114241,
+          "match_type": "tcgplayer",
+          "expansion": "Double Crisis",
+          "expansion_code": "dcr",
+          "collector_number": "17/34",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "pt",
+            "ru"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "pt",
+                "ru"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 97064,
+      "name": "Team Aqua's Mightyena",
+      "clean_name": "Team Aquas Mightyena",
+      "number": "18/34",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/97064_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97064%2Fpokemon-double-crisis-team-aquas-mightyena",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 282529,
+      "cardtrader_id": 114242,
+      "cardtrader": [
+        {
+          "id": 114242,
+          "match_type": "tcgplayer",
+          "expansion": "Double Crisis",
+          "expansion_code": "dcr",
+          "collector_number": "18/34",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "pt",
+            "ru"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "pt",
+                "ru"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 97065,
+      "name": "Team Magma's Mightyena",
+      "clean_name": "Team Magmas Mightyena",
+      "number": "19/34",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/97065_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97065%2Fpokemon-double-crisis-team-magmas-mightyena",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 282530,
+      "cardtrader_id": 114243,
+      "cardtrader": [
+        {
+          "id": 114243,
+          "match_type": "tcgplayer",
+          "expansion": "Double Crisis",
+          "expansion_code": "dcr",
+          "collector_number": "19/34",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "pt",
+            "ru"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "pt",
+                "ru"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 97048,
+      "name": "Team Magma's Camerupt",
+      "clean_name": "Team Magmas Camerupt",
+      "number": "2/34",
+      "rarity": "Holo Rare",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/97048_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97048%2Fpokemon-double-crisis-team-magmas-camerupt",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 282513,
+      "cardtrader_id": 114226,
+      "cardtrader": [
+        {
+          "id": 114226,
+          "match_type": "tcgplayer",
+          "expansion": "Double Crisis",
+          "expansion_code": "dcr",
+          "collector_number": "02/34",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "pt",
+            "ru"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "pt",
+                "ru"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 97066,
+      "name": "Team Aqua's Carvanha",
+      "clean_name": "Team Aquas Carvanha",
+      "number": "20/34",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/97066_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97066%2Fpokemon-double-crisis-team-aquas-carvanha",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 282531,
+      "cardtrader_id": 114244,
+      "cardtrader": [
+        {
+          "id": 114244,
+          "match_type": "tcgplayer",
+          "expansion": "Double Crisis",
+          "expansion_code": "dcr",
+          "collector_number": "20/34",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "pt",
+            "ru"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "pt",
+                "ru"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 97067,
+      "name": "Team Aqua's Sharpedo",
+      "clean_name": "Team Aquas Sharpedo",
+      "number": "21/34",
+      "rarity": "Holo Rare",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/97067_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97067%2Fpokemon-double-crisis-team-aquas-sharpedo",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 282532,
+      "cardtrader_id": 114245,
+      "cardtrader": [
+        {
+          "id": 114245,
+          "match_type": "tcgplayer",
+          "expansion": "Double Crisis",
+          "expansion_code": "dcr",
+          "collector_number": "21/34",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "pt",
+            "ru"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "pt",
+                "ru"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 97068,
+      "name": "Team Magma's Zangoose",
+      "clean_name": "Team Magmas Zangoose",
+      "number": "22/34",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/97068_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97068%2Fpokemon-double-crisis-team-magmas-zangoose",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 282533,
+      "cardtrader_id": 114246,
+      "cardtrader": [
+        {
+          "id": 114246,
+          "match_type": "tcgplayer",
+          "expansion": "Double Crisis",
+          "expansion_code": "dcr",
+          "collector_number": "22/34",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "pt",
+            "ru"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "pt",
+                "ru"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 97069,
+      "name": "Aqua Diffuser",
+      "clean_name": "Aqua Diffuser",
+      "number": "23/34",
+      "rarity": "Uncommon",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/97069_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97069%2Fpokemon-double-crisis-aqua-diffuser",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 282534,
+      "cardtrader_id": 114247,
+      "cardtrader": [
+        {
+          "id": 114247,
+          "match_type": "tcgplayer",
+          "expansion": "Double Crisis",
+          "expansion_code": "dcr",
+          "collector_number": "23/34",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "pt",
+            "ru"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "pt",
+                "ru"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 97070,
+      "name": "Magma Pointer",
+      "clean_name": "Magma Pointer",
+      "number": "24/34",
+      "rarity": "Uncommon",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/97070_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97070%2Fpokemon-double-crisis-magma-pointer",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 282535,
+      "cardtrader_id": 114248,
+      "cardtrader": [
+        {
+          "id": 114248,
+          "match_type": "tcgplayer",
+          "expansion": "Double Crisis",
+          "expansion_code": "dcr",
+          "collector_number": "24/34",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "pt",
+            "ru"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "pt",
+                "ru"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 97071,
+      "name": "Team Aqua Admin",
+      "clean_name": "Team Aqua Admin",
+      "number": "25/34",
+      "rarity": "Uncommon",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/97071_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97071%2Fpokemon-double-crisis-team-aqua-admin",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 282536,
+      "cardtrader_id": 114250,
+      "cardtrader": [
+        {
+          "id": 114250,
+          "match_type": "tcgplayer",
+          "expansion": "Double Crisis",
+          "expansion_code": "dcr",
+          "collector_number": "25/34",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "pt",
+            "ru"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "pt",
+                "ru"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 97072,
+      "name": "Team Aqua Grunt",
+      "clean_name": "Team Aqua Grunt",
+      "number": "26/34",
+      "rarity": "Uncommon",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/97072_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97072%2Fpokemon-double-crisis-team-aqua-grunt",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 282537,
+      "cardtrader_id": 114251,
+      "cardtrader": [
+        {
+          "id": 114251,
+          "match_type": "tcgplayer",
+          "expansion": "Double Crisis",
+          "expansion_code": "dcr",
+          "collector_number": "26/34",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "pt",
+            "ru"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "pt",
+                "ru"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 97073,
+      "name": "Team Aqua's Great Ball",
+      "clean_name": "Team Aquas Great Ball",
+      "number": "27/34",
+      "rarity": "Uncommon",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/97073_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97073%2Fpokemon-double-crisis-team-aquas-great-ball",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 282538,
+      "cardtrader_id": 114252,
+      "cardtrader": [
+        {
+          "id": 114252,
+          "match_type": "tcgplayer",
+          "expansion": "Double Crisis",
+          "expansion_code": "dcr",
+          "collector_number": "27/34",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "pt",
+            "ru"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "pt",
+                "ru"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 97074,
+      "name": "Team Aqua's Secret Base",
+      "clean_name": "Team Aquas Secret Base",
+      "number": "28/34",
+      "rarity": "Uncommon",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/97074_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97074%2Fpokemon-double-crisis-team-aquas-secret-base",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 282539,
+      "cardtrader_id": 114253,
+      "cardtrader": [
+        {
+          "id": 114253,
+          "match_type": "tcgplayer",
+          "expansion": "Double Crisis",
+          "expansion_code": "dcr",
+          "collector_number": "28/34",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "pt",
+            "ru"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "pt",
+                "ru"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 97075,
+      "name": "Team Magma Admin",
+      "clean_name": "Team Magma Admin",
+      "number": "29/34",
+      "rarity": "Uncommon",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/97075_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97075%2Fpokemon-double-crisis-team-magma-admin",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 282540,
+      "cardtrader_id": 114254,
+      "cardtrader": [
+        {
+          "id": 114254,
+          "match_type": "tcgplayer",
+          "expansion": "Double Crisis",
+          "expansion_code": "dcr",
+          "collector_number": "29/34",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "pt",
+            "ru"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "pt",
+                "ru"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 97049,
+      "name": "Team Aqua's Spheal",
+      "clean_name": "Team Aquas Spheal",
+      "number": "3/34",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/97049_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97049%2Fpokemon-double-crisis-team-aquas-spheal",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 282514,
+      "cardtrader_id": 114227,
+      "cardtrader": [
+        {
+          "id": 114227,
+          "match_type": "tcgplayer",
+          "expansion": "Double Crisis",
+          "expansion_code": "dcr",
+          "collector_number": "03/34",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "pt",
+            "ru"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "pt",
+                "ru"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 97076,
+      "name": "Team Magma Grunt",
+      "clean_name": "Team Magma Grunt",
+      "number": "30/34",
+      "rarity": "Uncommon",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/97076_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97076%2Fpokemon-double-crisis-team-magma-grunt",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 282541,
+      "cardtrader_id": 114255,
+      "cardtrader": [
+        {
+          "id": 114255,
+          "match_type": "tcgplayer",
+          "expansion": "Double Crisis",
+          "expansion_code": "dcr",
+          "collector_number": "30/34",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "pt",
+            "ru"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "pt",
+                "ru"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 97077,
+      "name": "Team Magma's Great Ball",
+      "clean_name": "Team Magmas Great Ball",
+      "number": "31/34",
+      "rarity": "Uncommon",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/97077_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97077%2Fpokemon-double-crisis-team-magmas-great-ball",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 282542,
+      "cardtrader_id": 114256,
+      "cardtrader": [
+        {
+          "id": 114256,
+          "match_type": "tcgplayer",
+          "expansion": "Double Crisis",
+          "expansion_code": "dcr",
+          "collector_number": "31/34",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "pt",
+            "ru"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "pt",
+                "ru"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 97078,
+      "name": "Team Magma's Secret Base",
+      "clean_name": "Team Magmas Secret Base",
+      "number": "32/34",
+      "rarity": "Uncommon",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/97078_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97078%2Fpokemon-double-crisis-team-magmas-secret-base",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 282543,
+      "cardtrader_id": 114257,
+      "cardtrader": [
+        {
+          "id": 114257,
+          "match_type": "tcgplayer",
+          "expansion": "Double Crisis",
+          "expansion_code": "dcr",
+          "collector_number": "32/34",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "pt",
+            "ru"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "pt",
+                "ru"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 97079,
+      "name": "Double Aqua Energy",
+      "clean_name": "Double Aqua Energy",
+      "number": "33/34",
+      "rarity": "Uncommon",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/97079_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97079%2Fpokemon-double-crisis-double-aqua-energy",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 282544,
+      "cardtrader_id": 114258,
+      "cardtrader": [
+        {
+          "id": 114258,
+          "match_type": "tcgplayer",
+          "expansion": "Double Crisis",
+          "expansion_code": "dcr",
+          "collector_number": "33/34",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "pt",
+            "ru"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "pt",
+                "ru"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 97080,
+      "name": "Double Magma Energy",
+      "clean_name": "Double Magma Energy",
+      "number": "34/34",
+      "rarity": "Uncommon",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/97080_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97080%2Fpokemon-double-crisis-double-magma-energy",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 282545,
+      "cardtrader_id": 114259,
+      "cardtrader": [
+        {
+          "id": 114259,
+          "match_type": "tcgplayer",
+          "expansion": "Double Crisis",
+          "expansion_code": "dcr",
+          "collector_number": "34/34",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "pt",
+            "ru"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "pt",
+                "ru"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 97050,
+      "name": "Team Aqua's Sealeo",
+      "clean_name": "Team Aquas Sealeo",
+      "number": "4/34",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/97050_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97050%2Fpokemon-double-crisis-team-aquas-sealeo",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 282515,
+      "cardtrader_id": 114228,
+      "cardtrader": [
+        {
+          "id": 114228,
+          "match_type": "tcgplayer",
+          "expansion": "Double Crisis",
+          "expansion_code": "dcr",
+          "collector_number": "04/34",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "pt",
+            "ru"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "pt",
+                "ru"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 97051,
+      "name": "Team Aqua's Walrein",
+      "clean_name": "Team Aquas Walrein",
+      "number": "5/34",
+      "rarity": "Holo Rare",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/97051_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97051%2Fpokemon-double-crisis-team-aquas-walrein",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 282516,
+      "cardtrader_id": 114229,
+      "cardtrader": [
+        {
+          "id": 114229,
+          "match_type": "tcgplayer",
+          "expansion": "Double Crisis",
+          "expansion_code": "dcr",
+          "collector_number": "005",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "pt",
+            "ru"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "pt",
+                "ru"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 97052,
+      "name": "Team Aqua's Kyogre EX",
+      "clean_name": "Team Aquas Kyogre EX",
+      "number": "6/34",
+      "rarity": "Ultra Rare",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/97052_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97052%2Fpokemon-double-crisis-team-aquas-kyogre-ex",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 282517,
+      "cardtrader_id": 114230,
+      "cardtrader": [
+        {
+          "id": 114230,
+          "match_type": "tcgplayer",
+          "expansion": "Double Crisis",
+          "expansion_code": "dcr",
+          "collector_number": "06/34",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "pt",
+            "ru"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "pt",
+                "ru"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 97053,
+      "name": "Team Aqua's Grimer",
+      "clean_name": "Team Aquas Grimer",
+      "number": "7/34",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/97053_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97053%2Fpokemon-double-crisis-team-aquas-grimer",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 282518,
+      "cardtrader_id": 114231,
+      "cardtrader": [
+        {
+          "id": 114231,
+          "match_type": "tcgplayer",
+          "expansion": "Double Crisis",
+          "expansion_code": "dcr",
+          "collector_number": "07/34",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "pt",
+            "ru"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "pt",
+                "ru"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 97054,
+      "name": "Team Aqua's Muk",
+      "clean_name": "Team Aquas Muk",
+      "number": "8/34",
+      "rarity": "Holo Rare",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/97054_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97054%2Fpokemon-double-crisis-team-aquas-muk",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 282519,
+      "cardtrader_id": 114232,
+      "cardtrader": [
+        {
+          "id": 114232,
+          "match_type": "tcgplayer",
+          "expansion": "Double Crisis",
+          "expansion_code": "dcr",
+          "collector_number": "008",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "pt",
+            "ru"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "pt",
+                "ru"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 97055,
+      "name": "Team Aqua's Seviper",
+      "clean_name": "Team Aquas Seviper",
+      "number": "9/34",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/97055_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97055%2Fpokemon-double-crisis-team-aquas-seviper",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 282520,
+      "cardtrader_id": 114233,
+      "cardtrader": [
+        {
+          "id": 114233,
+          "match_type": "tcgplayer",
+          "expansion": "Double Crisis",
+          "expansion_code": "dcr",
+          "collector_number": "09/34",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "pt",
+            "ru"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "pt",
+                "ru"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
