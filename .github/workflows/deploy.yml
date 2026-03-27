@@ -35,8 +35,8 @@ jobs:
 
       - name: Copy data into dist
         run: |
-          mkdir -p data
-          cp -r pokemon-tcg-tracker/data/* dist/data/
+          mkdir -p dist/data
+          cp -r pokemon-tcg-tracker/data/* dist/pokemon-tcg-tracker/data/
 
       - name: Build
         run: npm run build

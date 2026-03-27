@@ -28,7 +28,7 @@ export default defineConfig({
           // Split large components into separate chunks
           'projects': ['./src/sections/projects.js'],
           'skills': ['./src/sections/skills.js'],
-          'certificates': ['./src/sections/certificates.js']
+          'certificates': ['./src/sections/certificates.js'],
         }
       }
     },
