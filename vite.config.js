@@ -2,6 +2,8 @@ import { defineConfig } from 'vite'
 import { resolve } from 'path'
 
 export default defineConfig({
+  base: './',
+
   // Copy the 3705 folder to dist during build
   publicDir: 'public',
   
