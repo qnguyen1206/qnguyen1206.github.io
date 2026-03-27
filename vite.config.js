@@ -29,6 +29,10 @@ export default defineConfig({
           'projects': ['./src/sections/projects.js'],
           'skills': ['./src/sections/skills.js'],
           'certificates': ['./src/sections/certificates.js'],
+          'blog': ['./src/sections/blog.js'],
+          'contacts': ['./src/sections/contacts.js'],
+          'blog-posts': ['./src/sections/blog-posts.js'],
+          'resume': ['./src/sections/resume.js'],
         }
       }
     },
