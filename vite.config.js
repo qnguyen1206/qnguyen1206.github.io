@@ -1,8 +1,20 @@
 import { defineConfig } from 'vite'
 import { resolve } from 'path'
+import { viteStaticCopy } from 'vite-plugin-static-copy'
 
 export default defineConfig({
   base: './',
+
+   plugins: [
+    viteStaticCopy({
+      targets: [
+        {
+          src: 'pokemon-tcg-tracker/data/*',
+          dest: 'pokemon-tcg-tracker/data'
+        }
+      ]
+    })
+  ],
 
   // Copy the 3705 folder to dist during build
   publicDir: 'public',
