@@ -4,8 +4,8 @@
   "set_abbr": "BTA",
   "set_released": "2020-07-31",
   "product_count": 140,
-  "data_modified": "2026-02-01T14:24:17-05:00",
-  "file_generated": "2026-02-02T03:32:23-05:00",
+  "data_modified": "2026-03-26T07:03:38-04:00",
+  "file_generated": "2026-03-27T04:30:51-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/2686/pricing",
   "products": [
     {
@@ -10661,8 +10661,8 @@
         {
           "id": 270691,
           "match_type": "tcgplayer",
-          "expansion": "Sun & Moon Promos",
-          "expansion_code": "psum",
+          "expansion": "SM-P: Sun & Moon Promos",
+          "expansion_code": "sm-p",
           "collector_number": "SM186",
           "finishes": [
             "normal"
@@ -10703,15 +10703,6 @@
             },
             {
               "name": "altered",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "first_edition",
               "type": "boolean",
               "default_value": "false",
               "possible_values": [
