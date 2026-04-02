@@ -189,5 +189,36 @@ AHAHAHHHHHHAHAHAHAHAHAHAHAHAHAHHAHAHHAHAHAHAHA
 16 HOURS JUST TO FIND OUT THE PHYSICS IS TURN OFF
 AHHAAHHAHAHAHHHHHHHAHAHAHAHAHAHAHAHAHAHAAAAAAA
 
+**Mar. 21st, 2026**
+- Implemented squeegee cleaning mechanics
+- Fix bug where the player cards does not change after leaving and entering new lobby
+- Fix bug where all the players will start their own server instead of joining
+Welp can’t fix it today so will pick up on it tomorrow
+
+**Mar. 25th, 2025**
+- No idea why sometimes all the players will start the server and sometimes it just works normally
+Fun Time!!! 
+- Figured out that if a player had hosted a lobby before, that player will instantly had isOwner marked as true doesn’t matter if they are currently a client or a server
+Things had tried to fix:
+    - Reset code: cause more problem so revert everything back
+    - Check Steam Transport: doesn’t find anything that can cause problem
+    - Check PlayerPrefs: Everything seems fine
+New Discovery: it works on one computer but doesn’t work on another one
+Need more testing to figure out exactly why this works on one computer and totally messed up on the other one
+Well, sometimes it works, and sometimes it doesn’t 😵‍💫😵‍💫😵‍💫😵‍💫😵‍💫😵‍💫😵‍💫😵‍💫😵‍💫
+
+Mar. 30th, 2026
+- Worked with team members to fix the bug
+Apparently, onDestroy() LobbyDataHolder was deleted before all the computers are connected which cause the problem
+- Fixed camera and in game spacing
+
+Apr. 1st, 2026
+- Added in water gun
+- Fixed rig issue where the rig just bug out after interact
+- Implemented water gun mechanics
+- Fixed the water gun mechanic issue where the progress bar doesn’t show up
+It only took 5.5 hours before the bug is fixed
+
+
 `
 }
