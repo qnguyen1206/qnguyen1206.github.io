@@ -207,18 +207,26 @@ New Discovery: it works on one computer but doesn’t work on another one
 Need more testing to figure out exactly why this works on one computer and totally messed up on the other one
 Well, sometimes it works, and sometimes it doesn’t 😵‍💫😵‍💫😵‍💫😵‍💫😵‍💫😵‍💫😵‍💫😵‍💫😵‍💫
 
-Mar. 30th, 2026
+**Mar. 30th, 2026**
 - Worked with team members to fix the bug
 Apparently, onDestroy() LobbyDataHolder was deleted before all the computers are connected which cause the problem
 - Fixed camera and in game spacing
 
-Apr. 1st, 2026
+**Apr. 1st, 2026**
 - Added in water gun
 - Fixed rig issue where the rig just bug out after interact
 - Implemented water gun mechanics
 - Fixed the water gun mechanic issue where the progress bar doesn’t show up
 It only took 5.5 hours before the bug is fixed
 
+**Apr. 2nd, 2026**
+- Fixing some issues with synchronization with water gun spray
+- Ran into some problems with collision for fast objects
+
+**Apr. 3rd, 2026**
+- Fixed synchronization issue with the water projectiles
+Took a while like 5 or 6 hours but apparently, forgot to broadcast the water projectiles to everyone
+- Added in some condition to force the player to be next to the Rig Controller in order to control the rig instead of stand everywhere
 
 `
 }
