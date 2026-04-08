@@ -4,7 +4,7 @@ export default {
     category: 'Games',
     difficulty: 'Medium',
     tags: ['Game'],
-    date: '2026-04-01T12:00:00',
+    date: '2026-04-06T12:00:00',
     excerpt: 'MDM for Window Washing Game',
     content: `
 This is an MDM for the game called Window Washing Game. Since the game is still in development, this MDM is subject to change.
@@ -227,6 +227,10 @@ It only took 5.5 hours before the bug is fixed
 - Fixed synchronization issue with the water projectiles
 Took a while like 5 or 6 hours but apparently, forgot to broadcast the water projectiles to everyone
 - Added in some condition to force the player to be next to the Rig Controller in order to control the rig instead of stand everywhere
+
+**Apr. 6th, 2026**
+- Meet up with the team to split up the work
+- Start working on the loading screen, win screen, and lose screen
 
 `
 }
