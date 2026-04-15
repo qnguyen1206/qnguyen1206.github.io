@@ -30,7 +30,7 @@ What is the flag value after logging in to the dashboard?
 8. After accessing \`http://MACHINE\_IP:1337/hmr_logs\`, we will find a log file that contains some errors in which one of the username \`tester@hammer.thm\` was exposed.
 9. Now, we can try to bypass the login using the forgot password feature. We will enter the email and use Burp Suite to intercept the request. We will see that the request have a \`recovery\_code\` and a \`s\` body parameter.
 10. Personally, I tried the sniper attack in order to try to brute force the recovery code but it was not successful due to the \`Rate-Limit-Pending\`. After struggling for 2 hours, I decided to look for help on others write-ups and come across **0xb0b** write-up on TryHackMe.
-11. In the write-up, I found the script that he used to bypass the recovery code and I modify the script to fit my current situation.
+11. In the write-up, I found the script that he used to get the recovery code and I modify the script to fit my current situation. The link to his write-up is <a href="https://0xb0b.gitbook.io/writeups/tryhackme/2024/hammer">https://0xb0b.gitbook.io/writeups/tryhackme/2024/hammer</a>.
 \`\`\`
 	import subprocess
 	
@@ -97,8 +97,8 @@ What is the flag value after logging in to the dashboard?
 	    main()
 	
 \`\`\`
-12. 
-
+12. After running the script, we will get the recovery code and use it to reset the password.
+13. From there, we can log in to the dashboard and get the flag using the username and the new password.
 
 What is the content of the file **/home/ubuntu/flag.txt**?
 **Answer:** THM{RUNANYCOMMAND1337}
