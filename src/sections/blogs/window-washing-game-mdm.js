@@ -4,7 +4,7 @@ export default {
     category: 'Games',
     difficulty: 'Medium',
     tags: ['Game'],
-    date: '2026-04-06T12:00:00',
+    date: '2026-04-15T12:00:00',
     excerpt: 'MDM for Window Washing Game',
     content: `
 This is an MDM for the game called Window Washing Game. Since the game is still in development, this MDM is subject to change.
@@ -179,7 +179,9 @@ Things that I had tried to fix this problem:
     - Go back to the commit that works, download the git folder, extract it, and use it to overwrite everything in the head commit
     - Uninstall and reinstall the unity editor
     - Git reset hard to the correct commit
-- Still haven’t fix it AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+- Still haven’t fix it AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 
 **Mar. 18th, 2026**
 - Create a new scene with minimal objects to test
@@ -232,5 +234,8 @@ Took a while like 5 or 6 hours but apparently, forgot to broadcast the water pro
 - Meet up with the team to split up the work
 - Start working on the loading screen, win screen, and lose screen
 
+**Apr. 15th, 2026**
+- Continue working on the loading screen and the death attempts
+Did use AI to help with some bugs and logic flaws in the code
 `
 }
