@@ -1,12 +1,12 @@
 export default {
-    id: 'hammer-challenge',
-    title: 'Hammer',
-    category: 'TryHackMe',
-    difficulty: 'Medium',
-    tags: ['Penetration Testing', 'Web Application', 'Authentication'],
-    date: '2026-04-08T12:00:00',
-    excerpt: 'Write up and walkthrough of Hammer Challenge room on TryHackMe.',
-    content: `
+	id: 'hammer-challenge',
+	title: 'Hammer',
+	category: 'TryHackMe',
+	difficulty: 'Medium',
+	tags: ['Penetration Testing', 'Web Application', 'Authentication'],
+	date: '2026-04-08T12:00:00',
+	excerpt: 'Write up and walkthrough of Hammer Challenge room on TryHackMe.',
+	content: `
 This is the write up and walkthrough of the Pickle Rick Challenge room on TryHackMe.
 
 ⸻⸻⸻⸻⸻
@@ -103,6 +103,7 @@ What is the flag value after logging in to the dashboard?
 What is the content of the file **/home/ubuntu/flag.txt**?
 **Answer:** THM{RUNANYCOMMAND1337}
 **Reason:**
+1. 
 
 `
 }
