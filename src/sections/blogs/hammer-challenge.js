@@ -103,7 +103,19 @@ What is the flag value after logging in to the dashboard?
 What is the content of the file **/home/ubuntu/flag.txt**?
 **Answer:** THM{RUNANYCOMMAND1337}
 **Reason:**
-1. 
-
+1. After logging into the dashboard, we will see that there is an input field that allow us to run some commands.
+2. We will quickly find out that we can only run \`ls\` command and nothing else.
+3. When we run \`ls\`, we will see that there is a \`.key\` file.
+4. We can download the file using \`http://MACHINE\_IP:1337/{filename}\`.
+5. After downloading the file, we will find there is a key inside the file. It maybe helpful for us in the future.
+6. At this point, we ran into a problem where after a few seconds, the website will log us out.
+7. Using Burp Suite to intercept the log in response, we will find that there is a time limit, we can set the \`persistentSession\` to \`true\`. In addition, we can also delete the time constrain that had been set in the request.
+8. Now, after we have persistent session, we can try to take a look at the source code of the dashboard. After scrolling down, we will find the script and it seems like the website use a JWT token to authenticate.
+9. Use jwt.io to decode the token and we see the decoded token. We can see that there is a field called \`kid\` which take in a path to a \`.key\` file. We change the path to \`/var/www/html/{filename}\` since when we run \`ls\` command, we find our \`.key\` file is located there.
+10. Then under the secret field, we can put in the key that we found in the \`.key\` file.
+11. We also change the \`role\` field to \`admin\` since we want to have admin access.
+12. We can then intercept the \`ls\` command request, and replace the JWT token with the one that we had crafted.
+13. After confirming the request is working with the new JWT token, we can try to send a different command such as \`id\` through the intercepted request.
+14. After confirming that we can run other commands other than \`ls\`, we can now run \`cat /home/ubuntu/flag.txt\` to get the flag from the intercepted response.
 `
 }

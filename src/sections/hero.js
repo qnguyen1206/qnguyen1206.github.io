@@ -7,12 +7,6 @@ export function initHero() {
       <div class="hero-content">
         <div class="hero-text">
           <h1 class="hero-title animate-fadeInUp delay-200" style="padding-bottom: 0.2rem;">Quang Nguyen</h1>
-          <div class="hero-description">
-            <div class="role-carousel">
-              <span id="role-text"></span>
-              <span class="typing-cursor">|</span>
-            </div>
-          </div>
           <div class="hero-cta" style="margin-top: 1.5rem;">
             <button class="btn btn-primary" data-scroll-to="projects">View My Works</button>
             <button class="btn btn-secondary" data-scroll-to="contacts">Contact Me</button>
@@ -294,37 +288,6 @@ export function initHero() {
         margin-bottom: var(--space-4);
       }
 
-      .role-carousel {
-        font-size: var(--font-size-xl);
-        font-weight: 600;
-        color: var(--color-neutral-100);
-        height: 32px;
-        display: flex;
-        align-items: center;
-        font-family: 'Courier New', monospace;
-      }
-
-      #role-text {
-        color: white;
-        display: inline;
-      }
-
-      .typing-cursor {
-        color: white;
-        animation: blink 1s infinite;
-        display: inline;
-      }
-
-      @keyframes blink {
-        0%, 50% { opacity: 1; }
-        51%, 100% { opacity: 0; }
-      }
-
-      @keyframes typewriter {
-        from { width: 0; }
-        to { width: 100%; }
-      }
-
       .hero-cta {
         display: flex;
         gap: var(--space-4);
@@ -464,70 +427,6 @@ export function initHero() {
     </style>
   `;
 
-  const roles = [
-    "Full Stack Developer",
-    "Web Developer",
-    "Game Developer",
-    "App Developer",
-    "UI/UX Designer",
-  ];
-
-  let roleIndex = 0;
-  let isTyping = false;
-  let typewriterTimeout = null;
-  const roleText = document.getElementById("role-text");
-
-  function clearTypewriterTimeout() {
-    if (typewriterTimeout) {
-      clearTimeout(typewriterTimeout);
-      typewriterTimeout = null;
-    }
-  }
-
-  function typeWriter(text, element, speed = 100) {
-    if (isTyping) return;
-    isTyping = true;
-    element.textContent = '';
-    let i = 0;
-
-    function type() {
-      if (i < text.length && isTyping) {
-        element.textContent += text.charAt(i);
-        i++;
-        typewriterTimeout = setTimeout(type, speed + Math.random() * 30);
-      } else {
-        isTyping = false;
-      }
-    }
-
-    type();
-  }
-
-  function eraseText(element, speed = 50) {
-    if (isTyping) return;
-    isTyping = true;
-    const text = element.textContent;
-    let i = text.length;
-
-    function erase() {
-      if (i > 0 && isTyping) {
-        element.textContent = text.substring(0, i - 1);
-        i--;
-        typewriterTimeout = setTimeout(erase, speed);
-      } else {
-        isTyping = false;
-        roleIndex = (roleIndex + 1) % roles.length;
-        typewriterTimeout = setTimeout(() => {
-          if (!isTyping) {
-            typeWriter(roles[roleIndex], roleText);
-          }
-        }, 200);
-      }
-    }
-
-    erase();
-  }
-
   const starsContainer = document.querySelector('.stars-container');
   const numStars = 50;
 
@@ -549,25 +448,6 @@ export function initHero() {
   }
 
   createStars();
-
-
-  setTimeout(() => {
-    if (!isTyping) {
-      typeWriter(roles[0], roleText);
-    }
-  }, 1000);
-
-  let rotationInterval = setInterval(() => {
-    if (!isTyping) {
-      eraseText(roleText);
-    }
-  }, 5000);
-
-  window.addEventListener('beforeunload', () => {
-    clearInterval(rotationInterval);
-    clearTypewriterTimeout();
-    isTyping = false;
-  });
 
   window.addEventListener('scroll', () => {
     const scrolled = window.pageYOffset;
