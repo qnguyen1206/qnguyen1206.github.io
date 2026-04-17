@@ -14,35 +14,40 @@ export function initAbout() {
             <p>I have worked on many teams and personal projects during my time at Georgia Tech ranging from <span class="highlight">game development</span> to <span class="highlight">app development</span>.</p>
           </div>
           <div class="about-image-right">
-            <img src="images/GT.png" alt="Georgia Tech" loading="lazy">
+            <img src="images/GT.png" alt="Georgia Tech" loading="eager" decoding="async">
           </div>
         </div>
 
         <!-- Section 2: Image Left, Text Right -->
         <div class="about-section reveal">
           <div class="about-image-left">
-            <img src="images/kart-tech-racing/kart_screenshot1.png" alt="Projects" loading="lazy">
-            <img src="images/kart-tech-racing/kart_screenshot2.png" alt="Projects" loading="lazy">
-            <img src="images/kart-tech-racing/kart_screenshot3.png" alt="Projects" loading="lazy">
+            <img src="images/UI_1.png" alt="Learning" loading="eager" decoding="async">
+            <img src="images/UI_2.png" alt="Learning" loading="eager" decoding="async">
+            <img src="images/UI_3.png" alt="Learning" loading="eager" decoding="async">
           </div>
           <div class="about-text-right">
-            <p>One of the most notable projects I have worked on is <span class="highlight">Kart: The Tech Filled Racing Game</span>, a game where cars and technology meet with each car having their own unique abilities. We have released the game on <span class="highlight"><a href="https://store.steampowered.com/app/2165230/Kart_The_Tech_Filled_Racing_Game/" target="_blank" rel="noopener noreferrer">Steam</a></span> so check it out if you are interested. 👍</p>
+            <p>Besides developing games and apps, I am also learning about <span class="highlight">graphic design</span>, <span class="highlight">UI/UX</span> and <span class="highlight">cybersecurity</span> to expand my knowledge and skillset.</p>
+            <br>
+            <p>I think that both cybersecurity and design are necessary in today's world and in order to create a secure and beautiful piece of software, UI/UX, graphic design and cybersecurity are a very good and important skillsets to have.</p>
+            <br>
+            <p>Beside that, I like to explore new places and enjoy world building during my free time. I also like to learn new skills and discover new hobbies.</p>
           </div>
         </div>
 
+        
         <!-- Section 3: Text Left, Image Right -->
         <div class="about-section reveal">
           <div class="about-text-left">
-            <p>Besides developing games and apps, I am also learning about <span class="highlight">graphic design</span>, <span class="highlight">UI/UX</span> and <span class="highlight">cybersecurity</span> to expand my knowledge and skillset.</p>
-            <br>
-            <p>I like to explore new places and enjoy world building during my free time. I also like to learn new skills and discover new hobbies.</p>
+            <p>One of the most notable projects I have worked on is <span class="highlight">Kart: The Tech Filled Racing Game</span>, a game where cars and technology meet with each car having their own unique abilities. We have released the game on <span class="highlight"><a href="https://store.steampowered.com/app/2165230/Kart_The_Tech_Filled_Racing_Game/" target="_blank" rel="noopener noreferrer">Steam</a></span> so check it out if you are interested. 👍</p>
           </div>
           <div class="about-image-right">
-            <img src="images/UI_1.png" alt="Learning" loading="lazy">
-            <img src="images/UI_2.png" alt="Learning" loading="lazy">
-            <img src="images/UI_3.png" alt="Learning" loading="lazy">
+          <img src="images/kart-tech-racing/kart_screenshot1.png" alt="Projects" loading="eager" decoding="async">
+            <img src="images/kart-tech-racing/kart_screenshot2.png" alt="Projects" loading="eager" decoding="async">
+            <img src="images/kart-tech-racing/kart_screenshot3.png" alt="Projects" loading="eager" decoding="async">
           </div>
         </div>
+
+        
       </div>
     </div>
     
@@ -249,4 +254,9 @@ export function initAbout() {
       }
     </style>
   `;
+
+  // Ensure About content is visible immediately without waiting for scroll-triggered reveal.
+  about.querySelectorAll('.reveal').forEach((element) => {
+    element.classList.add('active');
+  });
 }
