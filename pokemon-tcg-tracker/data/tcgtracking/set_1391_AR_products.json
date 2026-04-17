@@ -4,8 +4,8 @@
   "set_abbr": "AR",
   "set_released": "2009-11-04",
   "product_count": 120,
-  "data_modified": "2026-02-14T07:06:00-05:00",
-  "file_generated": "2026-02-15T03:30:53-05:00",
+  "data_modified": "2026-04-15T07:07:38-04:00",
+  "file_generated": "2026-04-16T04:30:47-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/1391/pricing",
   "products": [
     {
@@ -70,9 +70,13 @@
       "cardtrader": [
         {
           "id": 105432,
+          "name": "Arceus Booster Box",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -106,7 +110,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            271937
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105432/preview_arceus-booster-box-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 98593,
+          "game_id": 5,
+          "category_id": 67,
+          "category_name": "Pokémon Booster Box",
+          "product_type": "booster_box",
+          "group_id": 1391
         }
       ]
     },
@@ -127,9 +142,13 @@
       "cardtrader": [
         {
           "id": 105431,
+          "name": "Arceus Booster",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -163,7 +182,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            271858
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105431/preview_arceus-booster-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 98594,
+          "game_id": 5,
+          "category_id": 66,
+          "category_name": "Pokémon Booster",
+          "product_type": "booster",
+          "group_id": 1391
         }
       ]
     },
@@ -184,9 +214,13 @@
       "cardtrader": [
         {
           "id": 104595,
-          "match_type": "scryfall",
+          "name": "Arceus Collector's Tins: Arceus LV.X Tin (Blue)",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon Products",
           "expansion_code": "popr",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -220,7 +254,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            286913
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/104595/preview_arceus-collector-s-tins-arceus-lv-x-tin-blue-pokemon-products.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 485830,
+          "game_id": 5,
+          "category_id": 59,
+          "category_name": "Pokémon Tins",
+          "product_type": "sealed",
+          "group_id": 2374
         }
       ]
     },
@@ -241,9 +286,13 @@
       "cardtrader": [
         {
           "id": 104594,
-          "match_type": "scryfall",
+          "name": "Arceus Collector's Tins: Arceus LV.X Tin (Green)",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon Products",
           "expansion_code": "popr",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -277,7 +326,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            286912
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/104594/preview_arceus-collector-s-tins-arceus-lv-x-tin-green-pokemon-products.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 485829,
+          "game_id": 5,
+          "category_id": 59,
+          "category_name": "Pokémon Tins",
+          "product_type": "sealed",
+          "group_id": 2374
         }
       ]
     },
@@ -328,10 +388,13 @@
       "cardtrader": [
         {
           "id": 125686,
+          "name": "Charizard Lv.60",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "001",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal",
             "foil"
@@ -395,7 +458,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278873
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125686/preview_charizard-rare-holo-1-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84191,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -416,10 +490,13 @@
       "cardtrader": [
         {
           "id": 125704,
+          "name": "Tangrowth",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "010",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal",
             "foil"
@@ -483,7 +560,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278882
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125704/preview_tangrowth-rare-holo-10-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89753,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -504,10 +592,13 @@
       "cardtrader": [
         {
           "id": 125706,
+          "name": "Toxicroak",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "011",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal",
             "foil"
@@ -571,7 +662,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278883
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125706/preview_toxicroak-rare-holo-11-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90009,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -592,10 +694,13 @@
       "cardtrader": [
         {
           "id": 125708,
+          "name": "Zapdos G Lv.60",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "012",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal",
             "foil"
@@ -659,7 +764,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278884
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125708/preview_zapdos-g-rare-holo-12-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90726,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -680,10 +796,13 @@
       "cardtrader": [
         {
           "id": 125710,
+          "name": "Aerodactyl Lv.47",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "013",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -747,7 +866,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278885
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125710/preview_aerodactyl-13-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83470,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -768,10 +898,13 @@
       "cardtrader": [
         {
           "id": 125712,
+          "name": "Bronzong Lv.49",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "014",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -835,7 +968,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278886
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125712/preview_bronzong-14-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83995,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -856,10 +1000,13 @@
       "cardtrader": [
         {
           "id": 125714,
+          "name": "Cherrim",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "015",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -923,7 +1070,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278887
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125714/preview_cherrim-15-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84255,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -944,10 +1102,13 @@
       "cardtrader": [
         {
           "id": 125716,
+          "name": "Gengar",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "016",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -1011,7 +1172,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278888
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125716/preview_gengar-16-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85677,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -1032,10 +1204,13 @@
       "cardtrader": [
         {
           "id": 125718,
+          "name": "Gengar",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "017",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -1099,7 +1274,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278889
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125718/preview_gengar-17-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85678,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -1120,10 +1306,13 @@
       "cardtrader": [
         {
           "id": 125720,
+          "name": "Glalie",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "018",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -1187,7 +1376,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278890
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125720/preview_glalie-18-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85756,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -1208,10 +1408,13 @@
       "cardtrader": [
         {
           "id": 125722,
+          "name": "Golem",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "019",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -1275,7 +1478,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278891
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125722/preview_golem-19-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85829,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -1296,10 +1510,13 @@
       "cardtrader": [
         {
           "id": 125688,
+          "name": "Froslass",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "002",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal",
             "foil"
@@ -1363,7 +1580,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278874
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125688/preview_froslass-rare-holo-2-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85573,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -1384,10 +1612,13 @@
       "cardtrader": [
         {
           "id": 125724,
+          "name": "Hariyama",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "020",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -1451,7 +1682,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278892
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125724/preview_hariyama-20-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86015,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -1472,10 +1714,13 @@
       "cardtrader": [
         {
           "id": 125726,
+          "name": "Lopunny",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "021",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -1539,7 +1784,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278893
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125726/preview_lopunny-21-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86827,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -1560,10 +1816,13 @@
       "cardtrader": [
         {
           "id": 125728,
+          "name": "Manectric",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "022",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -1627,7 +1886,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278894
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125728/preview_manectric-22-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87163,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -1648,10 +1918,13 @@
       "cardtrader": [
         {
           "id": 125730,
+          "name": "Omastar",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "023",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -1715,7 +1988,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278895
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125730/preview_omastar-23-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87871,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -1736,10 +2020,13 @@
       "cardtrader": [
         {
           "id": 125732,
+          "name": "Pelipper",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "024",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -1803,7 +2090,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278896
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125732/preview_pelipper-24-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87978,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -1824,10 +2122,13 @@
       "cardtrader": [
         {
           "id": 125734,
+          "name": "Pichu",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "025",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -1891,7 +2192,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278897
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125734/preview_pichu-25-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88021,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -1912,10 +2224,13 @@
       "cardtrader": [
         {
           "id": 125736,
+          "name": "Porygon-Z G",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "026",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -1979,7 +2294,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278898
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125736/preview_porygon-z-g-26-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88320,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -2000,10 +2326,13 @@
       "cardtrader": [
         {
           "id": 125738,
+          "name": "Raichu",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "027",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -2067,7 +2396,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278899
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125738/preview_raichu-27-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88516,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -2088,10 +2428,13 @@
       "cardtrader": [
         {
           "id": 125740,
+          "name": "Rapidash",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "028",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -2155,7 +2498,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278900
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125740/preview_rapidash-28-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88585,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -2176,10 +2530,13 @@
       "cardtrader": [
         {
           "id": 125742,
+          "name": "Raticate",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "029",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -2243,7 +2600,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278901
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125742/preview_raticate-29-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88605,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -2264,10 +2632,13 @@
       "cardtrader": [
         {
           "id": 125690,
+          "name": "Heatran",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "003",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal",
             "foil"
@@ -2331,7 +2702,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278875
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125690/preview_heatran-rare-holo-3-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86050,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -2352,10 +2734,13 @@
       "cardtrader": [
         {
           "id": 125744,
+          "name": "Sceptile",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "030",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -2419,7 +2804,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278902
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125744/preview_sceptile-30-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88951,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -2440,10 +2836,13 @@
       "cardtrader": [
         {
           "id": 125746,
+          "name": "Sceptile",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "031",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -2507,7 +2906,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278903
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125746/preview_sceptile-31-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88952,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -2528,10 +2938,13 @@
       "cardtrader": [
         {
           "id": 125748,
+          "name": "Spiritomb",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "032",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -2595,7 +3008,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278904
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125748/preview_spiritomb-32-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89466,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -2616,10 +3040,13 @@
       "cardtrader": [
         {
           "id": 125750,
+          "name": "Bronzong Lv.45",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "033",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -2683,7 +3110,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278905
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125750/preview_bronzong-33-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83996,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -2704,10 +3142,13 @@
       "cardtrader": [
         {
           "id": 125752,
+          "name": "Bronzor Lv.9",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "034",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -2771,7 +3212,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278906
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125752/preview_bronzor-34-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84004,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -2792,10 +3244,13 @@
       "cardtrader": [
         {
           "id": 125754,
+          "name": "Charmeleon Lv.31",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "035",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -2859,7 +3314,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278907
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125754/preview_charmeleon-35-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84233,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -2880,10 +3346,13 @@
       "cardtrader": [
         {
           "id": 125756,
+          "name": "Gastly",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "036",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -2947,7 +3416,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278908
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125756/preview_gastly-36-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85654,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -2968,10 +3448,13 @@
       "cardtrader": [
         {
           "id": 125758,
+          "name": "Graveler",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "037",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -3035,7 +3518,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278909
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125758/preview_graveler-37-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85894,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -3056,10 +3550,13 @@
       "cardtrader": [
         {
           "id": 125760,
+          "name": "Grovyle",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "038",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -3123,7 +3620,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278910
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125760/preview_grovyle-38-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85943,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -3144,10 +3652,13 @@
       "cardtrader": [
         {
           "id": 125762,
+          "name": "Grovyle",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "039",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -3211,7 +3722,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278911
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125762/preview_grovyle-39-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85944,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -3232,10 +3754,13 @@
       "cardtrader": [
         {
           "id": 125692,
+          "name": "Kabutops",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "004",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal",
             "foil"
@@ -3299,7 +3824,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278876
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125692/preview_kabutops-rare-holo-4-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86400,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -3320,10 +3856,13 @@
       "cardtrader": [
         {
           "id": 125764,
+          "name": "Gulpin",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "040",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -3387,7 +3926,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278912
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125764/preview_gulpin-40-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85978,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -3408,10 +3958,13 @@
       "cardtrader": [
         {
           "id": 125766,
+          "name": "Haunter",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "041",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -3475,7 +4028,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278913
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125766/preview_haunter-41-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86029,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -3496,10 +4060,13 @@
       "cardtrader": [
         {
           "id": 125768,
+          "name": "Haunter",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "042",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -3563,7 +4130,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278914
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125768/preview_haunter-42-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86030,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -3584,10 +4162,13 @@
       "cardtrader": [
         {
           "id": 125770,
+          "name": "Luxio",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "043",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -3651,7 +4232,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278915
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125770/preview_luxio-43-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86942,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -3672,10 +4264,13 @@
       "cardtrader": [
         {
           "id": 125772,
+          "name": "Manectric",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "044",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -3739,7 +4334,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278916
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125772/preview_manectric-44-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87164,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -3760,10 +4366,13 @@
       "cardtrader": [
         {
           "id": 125774,
+          "name": "Pelipper",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "045",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -3827,7 +4436,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278917
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125774/preview_pelipper-45-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87979,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -3848,10 +4468,13 @@
       "cardtrader": [
         {
           "id": 125776,
+          "name": "Ponyta",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "046",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -3915,7 +4538,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278918
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125776/preview_ponyta-46-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88289,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -3936,10 +4570,13 @@
       "cardtrader": [
         {
           "id": 125778,
+          "name": "Rapidash",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "047",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -4003,7 +4640,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278919
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125778/preview_rapidash-47-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88586,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -4024,10 +4672,13 @@
       "cardtrader": [
         {
           "id": 125780,
+          "name": "Shelgon",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "048",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -4091,7 +4742,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278920
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125780/preview_shelgon-48-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89129,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -4112,10 +4774,13 @@
       "cardtrader": [
         {
           "id": 125782,
+          "name": "Wormadam Plant Cloak Lv.46",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "049",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -4179,7 +4844,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278921
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125782/preview_wormadam-plant-cloak-49-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90641,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -4200,10 +4876,13 @@
       "cardtrader": [
         {
           "id": 125694,
+          "name": "Luxray",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "005",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal",
             "foil"
@@ -4267,7 +4946,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278877
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125694/preview_luxray-rare-holo-5-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86949,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -4288,10 +4978,13 @@
       "cardtrader": [
         {
           "id": 125784,
+          "name": "Wormadam Sandy Cloak Lv.45",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "050",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -4355,7 +5048,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278922
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125784/preview_wormadam-sandy-cloak-50-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90644,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -4376,10 +5080,13 @@
       "cardtrader": [
         {
           "id": 125786,
+          "name": "Wormadam Trash Cloak Lv.44",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "051",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -4443,7 +5150,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278923
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125786/preview_wormadam-trash-cloak-51-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90646,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -4464,10 +5182,13 @@
       "cardtrader": [
         {
           "id": 125788,
+          "name": "Bagon Lv.18",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "052",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -4531,7 +5252,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278924
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125788/preview_bagon-52-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83699,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -4552,10 +5284,13 @@
       "cardtrader": [
         {
           "id": 125790,
+          "name": "Beedrill G Lv.56",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "053",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -4619,7 +5354,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278925
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125790/preview_beedrill-g-53-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83776,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -4640,10 +5386,13 @@
       "cardtrader": [
         {
           "id": 125792,
+          "name": "Bronzor Lv.15",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "054",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -4707,7 +5456,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278926
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125792/preview_bronzor-54-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84005,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -4728,10 +5488,13 @@
       "cardtrader": [
         {
           "id": 125794,
+          "name": "Buneary Lv.17",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "055",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -4795,7 +5558,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278927
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125794/preview_buneary-55-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84044,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -4816,10 +5590,13 @@
       "cardtrader": [
         {
           "id": 125796,
+          "name": "Burmy Plant Cloak",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "056",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -4883,7 +5660,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278928
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125796/preview_burmy-plant-cloak-56-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84051,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -4904,10 +5692,13 @@
       "cardtrader": [
         {
           "id": 125798,
+          "name": "Burmy Sandy Cloak",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "057",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -4971,7 +5762,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278929
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125798/preview_burmy-sandy-cloak-57-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84055,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -4992,10 +5794,13 @@
       "cardtrader": [
         {
           "id": 125800,
+          "name": "Burmy Trash Cloak",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "058",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -5059,7 +5864,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278930
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125800/preview_burmy-trash-cloak-58-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84057,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -5080,10 +5896,13 @@
       "cardtrader": [
         {
           "id": 125802,
+          "name": "Charmander Lv.13",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "059",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -5147,7 +5966,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278931
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125802/preview_charmander-59-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84217,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -5168,10 +5998,13 @@
       "cardtrader": [
         {
           "id": 125696,
+          "name": "Mothim",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "006",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal",
             "foil"
@@ -5235,7 +6068,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278878
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125696/preview_mothim-rare-holo-6-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87583,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -5256,10 +6100,13 @@
       "cardtrader": [
         {
           "id": 125804,
+          "name": "Cherubi Lv.12",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "060",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -5323,7 +6170,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278932
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125804/preview_cherubi-60-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84263,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -5344,10 +6202,13 @@
       "cardtrader": [
         {
           "id": 125806,
+          "name": "Croagunk",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "061",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -5411,7 +6272,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278933
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125806/preview_croagunk-61-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84478,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -5432,10 +6304,13 @@
       "cardtrader": [
         {
           "id": 125808,
+          "name": "Electrike Lv.22",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "062",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -5499,7 +6374,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278934
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125808/preview_electrike-62-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85142,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -5520,10 +6406,13 @@
       "cardtrader": [
         {
           "id": 125810,
+          "name": "Electrike Lv.20",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "063",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -5587,7 +6476,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278935
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125810/preview_electrike-63-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85143,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -5608,10 +6508,13 @@
       "cardtrader": [
         {
           "id": 125812,
+          "name": "Gastly",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "064",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -5675,7 +6578,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278936
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125812/preview_gastly-64-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85655,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -5696,10 +6610,13 @@
       "cardtrader": [
         {
           "id": 125814,
+          "name": "Geodude",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "065",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -5763,7 +6680,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278937
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125814/preview_geodude-65-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85693,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -5784,10 +6712,13 @@
       "cardtrader": [
         {
           "id": 125816,
+          "name": "Gulpin",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "066",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -5851,7 +6782,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278938
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125816/preview_gulpin-66-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85979,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -5872,10 +6814,13 @@
       "cardtrader": [
         {
           "id": 125818,
+          "name": "Kabuto",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "067",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -5939,7 +6884,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278939
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125818/preview_kabuto-67-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86387,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -5960,10 +6916,13 @@
       "cardtrader": [
         {
           "id": 125820,
+          "name": "Makuhita",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "068",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -6027,7 +6986,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278940
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125820/preview_makuhita-68-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87132,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -6048,10 +7018,13 @@
       "cardtrader": [
         {
           "id": 125822,
+          "name": "Nosepass",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "069",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -6115,7 +7088,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278941
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125822/preview_nosepass-69-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87803,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -6136,10 +7120,13 @@
       "cardtrader": [
         {
           "id": 125698,
+          "name": "Probopass",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "007",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal",
             "foil"
@@ -6203,7 +7190,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278879
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125698/preview_probopass-rare-holo-7-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88378,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -6224,10 +7222,13 @@
       "cardtrader": [
         {
           "id": 125824,
+          "name": "Omanyte",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "070",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -6291,7 +7292,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278942
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125824/preview_omanyte-70-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87861,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -6312,10 +7324,13 @@
       "cardtrader": [
         {
           "id": 125826,
+          "name": "Pikachu",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "071",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -6379,7 +7394,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278943
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125826/preview_pikachu-71-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88094,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -6400,10 +7426,13 @@
       "cardtrader": [
         {
           "id": 125828,
+          "name": "Ponyta",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "072",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -6467,7 +7496,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278944
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125828/preview_ponyta-72-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88290,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -6488,10 +7528,13 @@
       "cardtrader": [
         {
           "id": 125830,
+          "name": "Rattata",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "073",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -6555,7 +7598,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278945
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125830/preview_rattata-73-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88619,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -6576,10 +7630,13 @@
       "cardtrader": [
         {
           "id": 125832,
+          "name": "Shinx",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "074",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -6643,7 +7700,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278946
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125832/preview_shinx-74-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89177,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -6664,10 +7732,13 @@
       "cardtrader": [
         {
           "id": 125834,
+          "name": "Snorunt",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "075",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -6731,7 +7802,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278947
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125834/preview_snorunt-75-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89403,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -6752,10 +7834,13 @@
       "cardtrader": [
         {
           "id": 125836,
+          "name": "Tangela",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "076",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -6819,7 +7904,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278948
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125836/preview_tangela-76-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89746,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -6840,10 +7936,13 @@
       "cardtrader": [
         {
           "id": 125838,
+          "name": "Tangela",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "077",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -6907,7 +8006,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278949
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125838/preview_tangela-77-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89747,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -6928,10 +8038,13 @@
       "cardtrader": [
         {
           "id": 125840,
+          "name": "Treecko",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "078",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -6995,7 +8108,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278950
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125840/preview_treecko-78-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90041,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -7016,10 +8140,13 @@
       "cardtrader": [
         {
           "id": 125842,
+          "name": "Treecko",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "079",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -7083,7 +8210,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278951
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125842/preview_treecko-79-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90042,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -7104,10 +8242,13 @@
       "cardtrader": [
         {
           "id": 125700,
+          "name": "Salamence",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "008",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal",
             "foil"
@@ -7171,7 +8312,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278880
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125700/preview_salamence-rare-holo-8-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88899,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -7192,10 +8344,13 @@
       "cardtrader": [
         {
           "id": 125844,
+          "name": "Wingull Lv.5",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "080",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -7259,7 +8414,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278952
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125844/preview_wingull-80-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90610,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -7280,10 +8446,13 @@
       "cardtrader": [
         {
           "id": 125846,
+          "name": "Wingull Lv.8",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "081",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -7347,7 +8516,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278953
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125846/preview_wingull-81-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90611,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -7368,10 +8548,13 @@
       "cardtrader": [
         {
           "id": 125848,
+          "name": "Beginning Door",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "082",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -7435,7 +8618,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278954
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125848/preview_beginning-door-82-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83777,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -7456,10 +8650,13 @@
       "cardtrader": [
         {
           "id": 125850,
+          "name": "Bench Shield",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "083",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -7523,7 +8720,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278955
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125850/preview_bench-shield-83-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83811,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -7544,10 +8752,13 @@
       "cardtrader": [
         {
           "id": 125852,
+          "name": "Buffer Piece",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "084",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -7611,7 +8822,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278956
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125852/preview_buffer-piece-84-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84014,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -7632,10 +8854,13 @@
       "cardtrader": [
         {
           "id": 125854,
+          "name": "Department Store Girl",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "085",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -7699,7 +8924,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278957
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125854/preview_department-store-girl-85-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84780,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -7720,10 +8956,13 @@
       "cardtrader": [
         {
           "id": 125856,
+          "name": "Energy Restore",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "086",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -7787,7 +9026,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278958
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125856/preview_energy-restore-86-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85229,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -7808,10 +9058,13 @@
       "cardtrader": [
         {
           "id": 125858,
+          "name": "Expert Belt",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "087",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -7875,7 +9128,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278959
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125858/preview_expert-belt-87-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85369,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -7896,10 +9160,13 @@
       "cardtrader": [
         {
           "id": 125860,
+          "name": "Lucky Egg",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "088",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -7963,7 +9230,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278960
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125860/preview_lucky-egg-88-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86892,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -7984,10 +9262,13 @@
       "cardtrader": [
         {
           "id": 125862,
+          "name": "Old Amber",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "089",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -8051,7 +9332,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278961
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125862/preview_old-amber-89-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87849,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -8072,10 +9364,13 @@
       "cardtrader": [
         {
           "id": 125702,
+          "name": "Swalot",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "009",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal",
             "foil"
@@ -8139,7 +9434,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278881
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125702/preview_swalot-rare-holo-9-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89674,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -8160,10 +9466,13 @@
       "cardtrader": [
         {
           "id": 125864,
+          "name": "Professor Oak's Visit",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "090",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -8227,7 +9536,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278962
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125864/preview_professor-oak-s-visit-90-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88406,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -8248,10 +9568,13 @@
       "cardtrader": [
         {
           "id": 125866,
+          "name": "Ultimate Zone",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "091",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -8315,7 +9638,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278963
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125866/preview_ultimate-zone-91-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90133,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -8336,10 +9670,13 @@
       "cardtrader": [
         {
           "id": 125868,
+          "name": "Dome Fossil",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "092",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -8403,7 +9740,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278964
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125868/preview_dome-fossil-92-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84869,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -8424,10 +9772,13 @@
       "cardtrader": [
         {
           "id": 125870,
+          "name": "Helix Fossil",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "093",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -8491,7 +9842,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278965
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125870/preview_helix-fossil-93-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86058,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -8512,10 +9874,13 @@
       "cardtrader": [
         {
           "id": 125872,
+          "name": "Arceus LV.X",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "094",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal",
             "foil"
@@ -8579,7 +9944,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278966
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125872/preview_arceus-lv-x-rare-holo-94-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83602,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -8600,10 +9976,13 @@
       "cardtrader": [
         {
           "id": 125873,
+          "name": "Arceus LV.X",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "095",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal",
             "foil"
@@ -8667,7 +10046,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278967
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125873/preview_arceus-lv-x-rare-holo-95-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83603,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -8688,10 +10078,13 @@
       "cardtrader": [
         {
           "id": 125874,
+          "name": "Arceus LV.X",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "096",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal",
             "foil"
@@ -8755,7 +10148,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278968
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125874/preview_arceus-lv-x-rare-holo-96-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83604,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -8776,10 +10180,13 @@
       "cardtrader": [
         {
           "id": 125875,
+          "name": "Gengar LV.X",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "097",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal",
             "foil"
@@ -8843,7 +10250,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278969
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125875/preview_gengar-lv-x-rare-holo-97-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85682,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -8864,10 +10282,13 @@
       "cardtrader": [
         {
           "id": 125876,
+          "name": "Salamence LV.X",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "098",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal",
             "foil"
@@ -8931,7 +10352,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278970
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125876/preview_salamence-lv-x-rare-holo-98-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88906,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -8952,10 +10384,13 @@
       "cardtrader": [
         {
           "id": 125877,
+          "name": "Tangrowth LV.X",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "099",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal",
             "foil"
@@ -9019,7 +10454,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278971
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125877/preview_tangrowth-lv-x-rare-holo-99-99-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89757,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -9040,10 +10486,13 @@
       "cardtrader": [
         {
           "id": 125881,
+          "name": "Arceus Lv.100",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "AR1",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -9106,7 +10555,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278865
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125881/preview_arceus-rare-holo-ar1-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83592,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -9127,10 +10587,13 @@
       "cardtrader": [
         {
           "id": 125882,
+          "name": "Arceus Lv.100",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "AR2",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -9193,7 +10656,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278864
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125882/preview_arceus-rare-holo-ar2-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83593,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -9214,10 +10688,13 @@
       "cardtrader": [
         {
           "id": 125883,
+          "name": "Arceus Lv.100",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "AR3",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -9280,7 +10757,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278863
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125883/preview_arceus-rare-holo-ar3-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83594,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -9301,10 +10789,13 @@
       "cardtrader": [
         {
           "id": 125884,
+          "name": "Arceus Lv.100",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "AR4",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -9367,7 +10858,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278861
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125884/preview_arceus-rare-holo-ar4-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83595,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -9388,10 +10890,13 @@
       "cardtrader": [
         {
           "id": 125885,
+          "name": "Arceus Lv.100",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "AR5",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -9454,7 +10959,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278867
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125885/preview_arceus-rare-holo-ar5-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83596,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -9475,10 +10991,13 @@
       "cardtrader": [
         {
           "id": 125886,
+          "name": "Arceus Lv.100",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "AR6",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -9541,7 +11060,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278862
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125886/preview_arceus-rare-holo-ar6-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83597,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -9562,10 +11092,13 @@
       "cardtrader": [
         {
           "id": 125887,
+          "name": "Arceus Lv.100",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "AR7",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -9628,7 +11161,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278866
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125887/preview_arceus-rare-holo-ar7-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83598,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -9649,10 +11193,13 @@
       "cardtrader": [
         {
           "id": 125888,
+          "name": "Arceus Lv.100",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "AR8",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -9715,7 +11262,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278868
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125888/preview_arceus-rare-holo-ar8-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83599,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -9736,10 +11294,13 @@
       "cardtrader": [
         {
           "id": 125889,
+          "name": "Arceus Lv.100",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "AR9",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -9802,7 +11363,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278871
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125889/preview_arceus-rare-holo-ar9-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83600,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -9823,10 +11395,13 @@
       "cardtrader": [
         {
           "id": 125878,
+          "name": "Bagon",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "SH10",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -9880,7 +11455,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278870
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125878/preview_bagon-sh10-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83700,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -9901,10 +11487,13 @@
       "cardtrader": [
         {
           "id": 125879,
+          "name": "Ponyta",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "SH11",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -9958,7 +11547,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278869
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125879/preview_ponyta-sh11-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88291,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     },
@@ -9979,10 +11579,13 @@
       "cardtrader": [
         {
           "id": 125880,
+          "name": "Shinx",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Platinum Arceus",
           "expansion_code": "ar",
           "collector_number": "SH12",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -10036,7 +11639,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278872
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/125880/preview_shinx-sh12-platinum-arceus.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89178,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1391
         }
       ]
     }

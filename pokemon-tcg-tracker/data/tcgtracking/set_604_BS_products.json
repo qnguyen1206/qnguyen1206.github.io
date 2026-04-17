@@ -4,8 +4,8 @@
   "set_abbr": "BS",
   "set_released": "1999-01-09",
   "product_count": 109,
-  "data_modified": "2026-02-14T01:01:09-05:00",
-  "file_generated": "2026-02-14T03:30:53-05:00",
+  "data_modified": "2026-04-15T07:07:31-04:00",
+  "file_generated": "2026-04-16T04:30:49-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/604/pricing",
   "products": [
     {
@@ -25,9 +25,13 @@
       "cardtrader": [
         {
           "id": 105161,
-          "match_type": "scryfall",
+          "name": "Base Set Booster Box",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -73,7 +77,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            271824
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105161/preview_base-set-booster-box-base-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 185731,
+          "game_id": 5,
+          "category_id": 67,
+          "category_name": "Pokémon Booster Box",
+          "product_type": "booster_box",
+          "group_id": 604
         }
       ]
     },
@@ -94,9 +109,13 @@
       "cardtrader": [
         {
           "id": 105159,
-          "match_type": "scryfall",
+          "name": "Base Set Booster",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -133,7 +152,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            271823
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105159/preview_base-set-booster-base-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 138130,
+          "game_id": 5,
+          "category_id": 66,
+          "category_name": "Pokémon Booster",
+          "product_type": "booster",
+          "group_id": 604
         }
       ]
     },
@@ -229,10 +259,13 @@
       "cardtrader": [
         {
           "id": 111148,
-          "match_type": "scryfall",
+          "name": "Alakazam",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "001",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -299,7 +332,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273696
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111148/preview_alakazam-holo-rare-1-102-base-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42346,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -320,10 +364,13 @@
       "cardtrader": [
         {
           "id": 111149,
-          "match_type": "scryfall",
+          "name": "Blastoise",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "002",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -390,7 +437,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273697
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111149/preview_blastoise-holo-rare-2-102-base-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42360,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -411,10 +469,13 @@
       "cardtrader": [
         {
           "id": 111150,
-          "match_type": "scryfall",
+          "name": "Chansey",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "003",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -481,7 +542,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273698
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111150/preview_chansey-holo-rare-3-102-base-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42371,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -502,10 +574,13 @@
       "cardtrader": [
         {
           "id": 111151,
-          "match_type": "scryfall",
+          "name": "Charizard",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "004",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -572,7 +647,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273699
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111151/preview_charizard-holo-rare-4-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42382,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -608,10 +694,13 @@
       "cardtrader": [
         {
           "id": 111152,
-          "match_type": "scryfall",
+          "name": "Clefairy",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "005",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -678,7 +767,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273700
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111152/preview_clefairy-holo-rare-5-102-base-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42393,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -699,10 +799,13 @@
       "cardtrader": [
         {
           "id": 111153,
-          "match_type": "scryfall",
+          "name": "Gyarados",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "006",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -769,7 +872,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273701
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111153/preview_gyarados-holo-rare-6-102-base-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42404,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -790,10 +904,13 @@
       "cardtrader": [
         {
           "id": 111154,
-          "match_type": "scryfall",
+          "name": "Hitmonchan",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "007",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -860,7 +977,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273702
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111154/preview_hitmonchan-holo-rare-7-102-base-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42415,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -881,10 +1009,13 @@
       "cardtrader": [
         {
           "id": 111156,
-          "match_type": "scryfall",
+          "name": "Magneton",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "009",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -951,7 +1082,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273704
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111156/preview_magneton-holo-rare-9-102-base-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42433,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -972,10 +1114,13 @@
       "cardtrader": [
         {
           "id": 111157,
-          "match_type": "scryfall",
+          "name": "Mewtwo",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "010",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1042,7 +1187,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273705
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111157/preview_mewtwo-holo-rare-10-102-base-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42347,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -1063,10 +1219,13 @@
       "cardtrader": [
         {
           "id": 111158,
-          "match_type": "scryfall",
+          "name": "Nidoking",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "011",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1133,7 +1292,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273706
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111158/preview_nidoking-holo-rare-11-102-base-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42351,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -1154,10 +1324,13 @@
       "cardtrader": [
         {
           "id": 111159,
-          "match_type": "scryfall",
+          "name": "Ninetales",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "012",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1224,7 +1397,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273707
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111159/preview_ninetales-holo-rare-12-102-base-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42352,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -1245,10 +1429,13 @@
       "cardtrader": [
         {
           "id": 111160,
-          "match_type": "scryfall",
+          "name": "Poliwrath",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "013",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1315,7 +1502,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273708
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111160/preview_poliwrath-holo-rare-13-102-base-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42353,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -1336,10 +1534,13 @@
       "cardtrader": [
         {
           "id": 111161,
-          "match_type": "scryfall",
+          "name": "Raichu",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "014",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1406,7 +1607,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273709
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111161/preview_raichu-holo-rare-14-102-base-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42354,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -1427,10 +1639,13 @@
       "cardtrader": [
         {
           "id": 111162,
-          "match_type": "scryfall",
+          "name": "Venusaur",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "015",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1497,7 +1712,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273710
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111162/preview_venusaur-holo-rare-15-102-base-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42355,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -1518,10 +1744,13 @@
       "cardtrader": [
         {
           "id": 111163,
-          "match_type": "scryfall",
+          "name": "Zapdos",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "016",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1588,7 +1817,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273711
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111163/preview_zapdos-holo-rare-16-102-base-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42356,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -1609,10 +1849,13 @@
       "cardtrader": [
         {
           "id": 111164,
-          "match_type": "scryfall",
+          "name": "Beedrill",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "017",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -1679,7 +1922,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273712
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111164/preview_beedrill-17-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42357,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -1700,10 +1954,13 @@
       "cardtrader": [
         {
           "id": 111165,
-          "match_type": "scryfall",
+          "name": "Dragonair",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "018",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -1770,7 +2027,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273713
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111165/preview_dragonair-18-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42358,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -1791,10 +2059,13 @@
       "cardtrader": [
         {
           "id": 111166,
-          "match_type": "scryfall",
+          "name": "Dugtrio",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "019",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -1861,7 +2132,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273714
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111166/preview_dugtrio-19-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42359,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -1882,10 +2164,13 @@
       "cardtrader": [
         {
           "id": 111167,
-          "match_type": "scryfall",
+          "name": "Electabuzz",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "020",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -1952,7 +2237,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273715
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111167/preview_electabuzz-20-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42361,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -1973,10 +2269,13 @@
       "cardtrader": [
         {
           "id": 111168,
-          "match_type": "scryfall",
+          "name": "Electrode",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "021",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2043,7 +2342,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273716
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111168/preview_electrode-21-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42362,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -2064,10 +2374,13 @@
       "cardtrader": [
         {
           "id": 111169,
-          "match_type": "scryfall",
+          "name": "Pidgeotto",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "022",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2134,7 +2447,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273717
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111169/preview_pidgeotto-22-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42363,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -2155,10 +2479,13 @@
       "cardtrader": [
         {
           "id": 111170,
-          "match_type": "scryfall",
+          "name": "Arcanine",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "023",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2225,7 +2552,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273718
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111170/preview_arcanine-23-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42364,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -2246,10 +2584,13 @@
       "cardtrader": [
         {
           "id": 111171,
-          "match_type": "scryfall",
+          "name": "Charmeleon",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "024",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2316,7 +2657,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273719
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111171/preview_charmeleon-24-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42365,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -2337,10 +2689,13 @@
       "cardtrader": [
         {
           "id": 111172,
-          "match_type": "scryfall",
+          "name": "Dewgong",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "025",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2407,7 +2762,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273720
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111172/preview_dewgong-25-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42366,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -2428,10 +2794,13 @@
       "cardtrader": [
         {
           "id": 111173,
-          "match_type": "scryfall",
+          "name": "Dratini",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "026",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2498,7 +2867,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273721
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111173/preview_dratini-26-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42367,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -2519,10 +2899,13 @@
       "cardtrader": [
         {
           "id": 111174,
-          "match_type": "scryfall",
+          "name": "Farfetch'd",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "027",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2589,7 +2972,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273722
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111174/preview_farfetch-d-27-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42368,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -2610,10 +3004,13 @@
       "cardtrader": [
         {
           "id": 111175,
-          "match_type": "scryfall",
+          "name": "Growlithe",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "028",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2680,7 +3077,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273723
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111175/preview_growlithe-28-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42369,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -2701,10 +3109,13 @@
       "cardtrader": [
         {
           "id": 111176,
-          "match_type": "scryfall",
+          "name": "Haunter",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "029",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2771,7 +3182,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273724
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111176/preview_haunter-29-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42370,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -2792,10 +3214,13 @@
       "cardtrader": [
         {
           "id": 111177,
-          "match_type": "scryfall",
+          "name": "Ivysaur",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "030",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2862,7 +3287,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273725
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111177/preview_ivysaur-30-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42372,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -2883,10 +3319,13 @@
       "cardtrader": [
         {
           "id": 111178,
-          "match_type": "scryfall",
+          "name": "Jynx",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "031",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2953,7 +3392,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273726
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111178/preview_jynx-31-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42373,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -2974,10 +3424,13 @@
       "cardtrader": [
         {
           "id": 111179,
-          "match_type": "scryfall",
+          "name": "Kadabra",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "032",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3044,7 +3497,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273727
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111179/preview_kadabra-32-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42374,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -3065,10 +3529,13 @@
       "cardtrader": [
         {
           "id": 111180,
-          "match_type": "scryfall",
+          "name": "Kakuna",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "033",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3135,7 +3602,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273728
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111180/preview_kakuna-33-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42375,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -3156,10 +3634,13 @@
       "cardtrader": [
         {
           "id": 111181,
-          "match_type": "scryfall",
+          "name": "Machoke",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "034",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3226,7 +3707,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273729
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111181/preview_machoke-34-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42376,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -3247,10 +3739,13 @@
       "cardtrader": [
         {
           "id": 111182,
-          "match_type": "scryfall",
+          "name": "Magikarp",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "035",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3317,7 +3812,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273730
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111182/preview_magikarp-35-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42377,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -3338,10 +3844,13 @@
       "cardtrader": [
         {
           "id": 111183,
-          "match_type": "scryfall",
+          "name": "Magmar",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "036",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3408,7 +3917,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273731
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111183/preview_magmar-36-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42378,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -3429,10 +3949,13 @@
       "cardtrader": [
         {
           "id": 111184,
-          "match_type": "scryfall",
+          "name": "Nidorino",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "037",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3499,7 +4022,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273732
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111184/preview_nidorino-37-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42379,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -3520,10 +4054,13 @@
       "cardtrader": [
         {
           "id": 111185,
-          "match_type": "scryfall",
+          "name": "Poliwhirl",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "038",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3590,7 +4127,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273733
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111185/preview_poliwhirl-38-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42380,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -3611,10 +4159,13 @@
       "cardtrader": [
         {
           "id": 111186,
-          "match_type": "scryfall",
+          "name": "Porygon",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "039",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3681,7 +4232,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273734
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111186/preview_porygon-39-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42381,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -3702,10 +4264,13 @@
       "cardtrader": [
         {
           "id": 111187,
-          "match_type": "scryfall",
+          "name": "Raticate",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "040",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3772,7 +4337,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273735
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111187/preview_raticate-40-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42383,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -3793,10 +4369,13 @@
       "cardtrader": [
         {
           "id": 111188,
-          "match_type": "scryfall",
+          "name": "Seel",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "041",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3863,7 +4442,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273736
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111188/preview_seel-41-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42384,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -3884,10 +4474,13 @@
       "cardtrader": [
         {
           "id": 111189,
-          "match_type": "scryfall",
+          "name": "Wartortle",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "042",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3954,7 +4547,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273737
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111189/preview_wartortle-42-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42385,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -3975,10 +4579,13 @@
       "cardtrader": [
         {
           "id": 111190,
-          "match_type": "scryfall",
+          "name": "Abra",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "043",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4045,7 +4652,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273738
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111190/preview_abra-43-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42386,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -4066,10 +4684,13 @@
       "cardtrader": [
         {
           "id": 111191,
-          "match_type": "scryfall",
+          "name": "Bulbasaur",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "044",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4136,7 +4757,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273739
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111191/preview_bulbasaur-44-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42387,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -4157,10 +4789,13 @@
       "cardtrader": [
         {
           "id": 111192,
-          "match_type": "scryfall",
+          "name": "Caterpie",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "045",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4227,7 +4862,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273740
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111192/preview_caterpie-45-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42388,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -4248,10 +4894,13 @@
       "cardtrader": [
         {
           "id": 111193,
-          "match_type": "scryfall",
+          "name": "Charmander",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "046",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4318,7 +4967,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273741
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111193/preview_charmander-46-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42389,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -4339,10 +4999,13 @@
       "cardtrader": [
         {
           "id": 111194,
-          "match_type": "scryfall",
+          "name": "Diglett",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "047",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4409,7 +5072,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273742
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111194/preview_diglett-47-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42390,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -4430,10 +5104,13 @@
       "cardtrader": [
         {
           "id": 111195,
-          "match_type": "scryfall",
+          "name": "Doduo",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "048",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4500,7 +5177,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273743
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111195/preview_doduo-48-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42391,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -4521,10 +5209,13 @@
       "cardtrader": [
         {
           "id": 111196,
-          "match_type": "scryfall",
+          "name": "Drowzee",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "049",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4591,7 +5282,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273744
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111196/preview_drowzee-49-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42392,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -4612,10 +5314,13 @@
       "cardtrader": [
         {
           "id": 111197,
-          "match_type": "scryfall",
+          "name": "Gastly",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "050",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4682,7 +5387,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273745
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111197/preview_gastly-50-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42394,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -4703,10 +5419,13 @@
       "cardtrader": [
         {
           "id": 111198,
-          "match_type": "scryfall",
+          "name": "Koffing",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "051",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4773,7 +5492,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273746
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111198/preview_koffing-51-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42395,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -4794,10 +5524,13 @@
       "cardtrader": [
         {
           "id": 111199,
-          "match_type": "scryfall",
+          "name": "Machop",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "052",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4864,7 +5597,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273747
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111199/preview_machop-52-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42396,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -4885,10 +5629,13 @@
       "cardtrader": [
         {
           "id": 111200,
-          "match_type": "scryfall",
+          "name": "Magnemite",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "053",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4955,7 +5702,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273748
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111200/preview_magnemite-53-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42397,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -4976,10 +5734,13 @@
       "cardtrader": [
         {
           "id": 111201,
-          "match_type": "scryfall",
+          "name": "Metapod",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "054",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5046,7 +5807,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273749
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111201/preview_metapod-54-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42398,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -5067,10 +5839,13 @@
       "cardtrader": [
         {
           "id": 111202,
-          "match_type": "scryfall",
+          "name": "Nidoran ♂",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "055",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5137,7 +5912,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273750
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111202/preview_nidoran-55-102-base-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42399,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -5158,10 +5944,13 @@
       "cardtrader": [
         {
           "id": 111203,
-          "match_type": "scryfall",
+          "name": "Onix",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "056",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5228,7 +6017,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273751
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111203/preview_onix-56-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42400,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -5249,10 +6049,13 @@
       "cardtrader": [
         {
           "id": 111204,
-          "match_type": "scryfall",
+          "name": "Pidgey",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "057",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5319,7 +6122,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273752
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111204/preview_pidgey-57-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42401,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -5340,10 +6154,13 @@
       "cardtrader": [
         {
           "id": 111205,
-          "match_type": "scryfall",
+          "name": "Pikachu",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "058",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5410,7 +6227,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273753
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111205/preview_pikachu-58-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42402,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -5431,10 +6259,13 @@
       "cardtrader": [
         {
           "id": 111206,
-          "match_type": "scryfall",
+          "name": "Poliwag",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "059",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5501,7 +6332,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273754
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111206/preview_poliwag-59-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42403,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -5522,10 +6364,13 @@
       "cardtrader": [
         {
           "id": 111207,
-          "match_type": "scryfall",
+          "name": "Ponyta",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "060",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5592,7 +6437,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273755
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111207/preview_ponyta-60-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42405,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -5613,10 +6469,13 @@
       "cardtrader": [
         {
           "id": 111208,
-          "match_type": "scryfall",
+          "name": "Rattata",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "061",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5683,7 +6542,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273756
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111208/preview_rattata-61-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42406,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -5704,10 +6574,13 @@
       "cardtrader": [
         {
           "id": 111209,
-          "match_type": "scryfall",
+          "name": "Sandshrew",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "062",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5774,7 +6647,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273757
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111209/preview_sandshrew-62-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42407,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -5795,10 +6679,13 @@
       "cardtrader": [
         {
           "id": 111210,
-          "match_type": "scryfall",
+          "name": "Squirtle",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "063",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5865,7 +6752,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273758
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111210/preview_squirtle-63-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42408,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -5886,10 +6784,13 @@
       "cardtrader": [
         {
           "id": 111211,
-          "match_type": "scryfall",
+          "name": "Starmie",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "064",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5956,7 +6857,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273759
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111211/preview_starmie-64-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42409,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -5977,10 +6889,13 @@
       "cardtrader": [
         {
           "id": 111212,
-          "match_type": "scryfall",
+          "name": "Staryu",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "065",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6047,7 +6962,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273760
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111212/preview_staryu-65-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42410,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -6068,10 +6994,13 @@
       "cardtrader": [
         {
           "id": 111213,
-          "match_type": "scryfall",
+          "name": "Tangela",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "066",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6138,7 +7067,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273761
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111213/preview_tangela-66-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42411,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -6159,10 +7099,13 @@
       "cardtrader": [
         {
           "id": 111214,
-          "match_type": "scryfall",
+          "name": "Voltorb",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "067",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6229,7 +7172,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273762
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111214/preview_voltorb-67-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42412,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -6250,10 +7204,13 @@
       "cardtrader": [
         {
           "id": 111215,
-          "match_type": "scryfall",
+          "name": "Vulpix",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "068",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6320,7 +7277,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273763
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111215/preview_vulpix-68-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42413,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -6341,10 +7309,13 @@
       "cardtrader": [
         {
           "id": 111216,
-          "match_type": "scryfall",
+          "name": "Weedle",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "069",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6411,7 +7382,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273764
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111216/preview_weedle-69-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42414,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -6432,10 +7414,13 @@
       "cardtrader": [
         {
           "id": 111217,
-          "match_type": "scryfall",
+          "name": "Clefairy Doll",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "070",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -6502,7 +7487,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273765
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111217/preview_clefairy-doll-70-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42416,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -6523,10 +7519,13 @@
       "cardtrader": [
         {
           "id": 111218,
-          "match_type": "scryfall",
+          "name": "Computer Search",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "071",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -6593,7 +7592,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273766
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111218/preview_computer-search-71-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42417,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -6614,10 +7624,13 @@
       "cardtrader": [
         {
           "id": 111219,
-          "match_type": "scryfall",
+          "name": "Devolution Spray",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "072",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -6684,7 +7697,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273767
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111219/preview_devolution-spray-72-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42418,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -6705,10 +7729,13 @@
       "cardtrader": [
         {
           "id": 111220,
-          "match_type": "scryfall",
+          "name": "Imposter Professor Oak",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "073",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -6775,7 +7802,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273768
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111220/preview_imposter-professor-oak-73-102-base-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86271,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -6796,10 +7834,13 @@
       "cardtrader": [
         {
           "id": 111221,
-          "match_type": "scryfall",
+          "name": "Item Finder",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "074",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -6866,7 +7907,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273769
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111221/preview_item-finder-74-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42420,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -6887,10 +7939,13 @@
       "cardtrader": [
         {
           "id": 111222,
-          "match_type": "scryfall",
+          "name": "Lass",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "075",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -6957,7 +8012,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273770
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111222/preview_lass-75-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42421,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -6978,10 +8044,13 @@
       "cardtrader": [
         {
           "id": 111223,
-          "match_type": "scryfall",
+          "name": "Pokémon Breeder",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "076",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -7048,7 +8117,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273771
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111223/preview_pokemon-breeder-76-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42422,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -7069,10 +8149,13 @@
       "cardtrader": [
         {
           "id": 111224,
-          "match_type": "scryfall",
+          "name": "Pokémon Trader",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "077",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -7139,7 +8222,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273772
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111224/preview_pokemon-trader-77-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 108648,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -7160,10 +8254,13 @@
       "cardtrader": [
         {
           "id": 111225,
-          "match_type": "scryfall",
+          "name": "Scoop Up",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "078",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -7230,7 +8327,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273773
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111225/preview_scoop-up-78-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42423,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -7251,10 +8359,13 @@
       "cardtrader": [
         {
           "id": 111226,
-          "match_type": "scryfall",
+          "name": "Super Energy Removal",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "079",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -7321,7 +8432,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273774
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111226/preview_super-energy-removal-79-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42424,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -7342,10 +8464,13 @@
       "cardtrader": [
         {
           "id": 111227,
-          "match_type": "scryfall",
+          "name": "Defender",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "080",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -7412,7 +8537,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273775
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111227/preview_defender-80-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42426,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -7433,10 +8569,13 @@
       "cardtrader": [
         {
           "id": 111228,
-          "match_type": "scryfall",
+          "name": "Energy Retrieval",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "081",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -7503,7 +8642,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273776
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111228/preview_energy-retrieval-81-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42427,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -7524,10 +8674,13 @@
       "cardtrader": [
         {
           "id": 111229,
-          "match_type": "scryfall",
+          "name": "Full Heal",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "082",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -7594,7 +8747,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273777
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111229/preview_full-heal-82-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42428,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -7615,10 +8779,13 @@
       "cardtrader": [
         {
           "id": 111230,
-          "match_type": "scryfall",
+          "name": "Maintenance",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "083",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -7685,7 +8852,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273778
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111230/preview_maintenance-83-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42429,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -7706,10 +8884,13 @@
       "cardtrader": [
         {
           "id": 111231,
-          "match_type": "scryfall",
+          "name": "PlusPower",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "084",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -7776,7 +8957,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273779
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111231/preview_pluspower-84-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42430,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -7797,10 +8989,13 @@
       "cardtrader": [
         {
           "id": 111232,
-          "match_type": "scryfall",
+          "name": "Pokémon Center",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "085",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -7867,7 +9062,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273780
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111232/preview_pokemon-center-85-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 108646,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -7888,10 +9094,13 @@
       "cardtrader": [
         {
           "id": 111233,
-          "match_type": "scryfall",
+          "name": "Pokémon Flute",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "086",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -7958,7 +9167,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273781
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111233/preview_pokemon-flute-86-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 108647,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -7979,10 +9199,13 @@
       "cardtrader": [
         {
           "id": 111234,
-          "match_type": "scryfall",
+          "name": "Pokédex",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "087",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -8049,7 +9272,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273782
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111234/preview_pokedex-87-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 108645,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -8070,10 +9304,13 @@
       "cardtrader": [
         {
           "id": 111235,
-          "match_type": "scryfall",
+          "name": "Professor Oak",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "088",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -8140,7 +9377,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273783
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111235/preview_professor-oak-88-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42431,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -8161,10 +9409,13 @@
       "cardtrader": [
         {
           "id": 111236,
-          "match_type": "scryfall",
+          "name": "Revive",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "089",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -8231,7 +9482,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273784
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111236/preview_revive-89-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42432,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -8252,10 +9514,13 @@
       "cardtrader": [
         {
           "id": 111237,
-          "match_type": "scryfall",
+          "name": "Super Potion",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "090",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -8322,7 +9587,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273785
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111237/preview_super-potion-90-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42434,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -8343,10 +9619,13 @@
       "cardtrader": [
         {
           "id": 111238,
-          "match_type": "scryfall",
+          "name": "Bill",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "091",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -8413,7 +9692,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273786
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111238/preview_bill-91-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42435,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -8434,10 +9724,13 @@
       "cardtrader": [
         {
           "id": 111239,
-          "match_type": "scryfall",
+          "name": "Energy Removal",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "092",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -8504,7 +9797,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273787
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111239/preview_energy-removal-92-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42436,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -8525,10 +9829,13 @@
       "cardtrader": [
         {
           "id": 111240,
-          "match_type": "scryfall",
+          "name": "Gust of Wind",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "093",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -8595,7 +9902,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273788
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111240/preview_gust-of-wind-93-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42437,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -8616,10 +9934,13 @@
       "cardtrader": [
         {
           "id": 111241,
-          "match_type": "scryfall",
+          "name": "Potion",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "094",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -8686,7 +10007,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273789
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111241/preview_potion-94-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42438,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -8707,10 +10039,13 @@
       "cardtrader": [
         {
           "id": 111242,
-          "match_type": "scryfall",
+          "name": "Switch",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "095",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -8777,7 +10112,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273790
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111242/preview_switch-95-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42439,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -8798,10 +10144,13 @@
       "cardtrader": [
         {
           "id": 111243,
-          "match_type": "scryfall",
+          "name": "Double Colorless Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "096",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -8868,7 +10217,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273791
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111243/preview_double-colorless-energy-96-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42440,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -8889,10 +10249,13 @@
       "cardtrader": [
         {
           "id": 111244,
-          "match_type": "scryfall",
+          "name": "Fighting Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "097",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -8959,7 +10322,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273792
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111244/preview_fighting-energy-97-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42441,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -8980,10 +10354,13 @@
       "cardtrader": [
         {
           "id": 111245,
-          "match_type": "scryfall",
+          "name": "Fire Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "098",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -9050,7 +10427,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273793
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111245/preview_fire-energy-98-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42442,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -9071,10 +10459,13 @@
       "cardtrader": [
         {
           "id": 111246,
-          "match_type": "scryfall",
+          "name": "Grass Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "099",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -9141,7 +10532,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273794
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111246/preview_grass-energy-99-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42443,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -9162,10 +10564,13 @@
       "cardtrader": [
         {
           "id": 111247,
-          "match_type": "scryfall",
+          "name": "Lightning Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "100",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -9232,7 +10637,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273795
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111247/preview_lightning-energy-100-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42348,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -9253,10 +10669,13 @@
       "cardtrader": [
         {
           "id": 111248,
-          "match_type": "scryfall",
+          "name": "Psychic Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "101",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -9323,7 +10742,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273796
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111248/preview_psychic-energy-101-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42349,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     },
@@ -9344,10 +10774,13 @@
       "cardtrader": [
         {
           "id": 111249,
-          "match_type": "scryfall",
+          "name": "Water Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Base Set",
           "expansion_code": "bs",
           "collector_number": "102",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -9414,7 +10847,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273797
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111249/preview_water-energy-102-102-base-set(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 42350,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 604
         }
       ]
     }

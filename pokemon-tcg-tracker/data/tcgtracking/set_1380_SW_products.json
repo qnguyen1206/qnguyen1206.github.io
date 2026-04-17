@@ -4,8 +4,8 @@
   "set_abbr": "SW",
   "set_released": "2007-11-07",
   "product_count": 134,
-  "data_modified": "2026-02-13T07:06:02-05:00",
-  "file_generated": "2026-02-14T03:30:52-05:00",
+  "data_modified": "2026-04-15T07:07:36-04:00",
+  "file_generated": "2026-04-16T04:30:48-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/1380/pricing",
   "products": [
     {
@@ -25,9 +25,13 @@
       "cardtrader": [
         {
           "id": 105373,
-          "match_type": "scryfall",
+          "name": "Secret Wonders Booster Box",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -61,7 +65,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            271905
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105373/preview_secret-wonders-booster-box-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 98568,
+          "game_id": 5,
+          "category_id": 67,
+          "category_name": "Pokémon Booster Box",
+          "product_type": "booster_box",
+          "group_id": 1380
         }
       ]
     },
@@ -82,9 +97,13 @@
       "cardtrader": [
         {
           "id": 105372,
-          "match_type": "scryfall",
+          "name": "Secret Wonders Booster",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -118,7 +137,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            271838
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105372/preview_secret-wonders-booster-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 98569,
+          "game_id": 5,
+          "category_id": 66,
+          "category_name": "Pokémon Booster",
+          "product_type": "booster",
+          "group_id": 1380
         }
       ]
     },
@@ -139,10 +169,13 @@
       "cardtrader": [
         {
           "id": 127104,
-          "match_type": "scryfall",
+          "name": "Ampharos Lv.52",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "001/132",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -207,7 +240,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277754
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127104/preview_ampharos-rare-holo-1-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83541,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -228,10 +272,13 @@
       "cardtrader": [
         {
           "id": 127122,
-          "match_type": "scryfall",
+          "name": "Ho-Oh Lv.45",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "010/132",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -296,7 +343,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277763
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127122/preview_ho-oh-rare-holo-10-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86124,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -317,10 +375,13 @@
       "cardtrader": [
         {
           "id": 127302,
-          "match_type": "scryfall",
+          "name": "Psyduck Lv.15",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "100/132",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -385,7 +446,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277853
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127302/preview_psyduck-100-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88438,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -406,10 +478,13 @@
       "cardtrader": [
         {
           "id": 127304,
-          "match_type": "scryfall",
+          "name": "Qwilfish Lv.31",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "101/132",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -474,7 +549,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277854
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127304/preview_qwilfish-101-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88494,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -495,10 +581,13 @@
       "cardtrader": [
         {
           "id": 127306,
-          "match_type": "scryfall",
+          "name": "Ralts Lv.13",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "102/132",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -563,7 +652,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277855
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127306/preview_ralts-102-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88561,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -584,10 +684,13 @@
       "cardtrader": [
         {
           "id": 127308,
-          "match_type": "scryfall",
+          "name": "Rattata Lv.10",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "103/132",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -652,7 +755,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277856
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127308/preview_rattata-103-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88618,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -673,10 +787,13 @@
       "cardtrader": [
         {
           "id": 127310,
-          "match_type": "scryfall",
+          "name": "Sentret Lv.11",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "104/132",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -741,7 +858,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277857
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127310/preview_sentret-104-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89066,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -762,10 +890,13 @@
       "cardtrader": [
         {
           "id": 127312,
-          "match_type": "scryfall",
+          "name": "Shellder Lv.10",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "105/132",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -830,7 +961,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277858
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127312/preview_shellder-105-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89138,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -851,10 +993,13 @@
       "cardtrader": [
         {
           "id": 127314,
-          "match_type": "scryfall",
+          "name": "Shellos East Sea",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "106/132",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -919,7 +1064,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277859
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127314/preview_shellos-east-sea-106-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89141,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -940,10 +1096,13 @@
       "cardtrader": [
         {
           "id": 127316,
-          "match_type": "scryfall",
+          "name": "Shellos West Sea",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "107/132",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -1008,7 +1167,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277860
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127316/preview_shellos-west-sea-107-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89144,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -1029,10 +1199,13 @@
       "cardtrader": [
         {
           "id": 127318,
-          "match_type": "scryfall",
+          "name": "Shroomish",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "108/132",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -1097,7 +1270,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277861
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127318/preview_shroomish-108-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89185,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -1118,10 +1302,13 @@
       "cardtrader": [
         {
           "id": 127320,
-          "match_type": "scryfall",
+          "name": "Shuckle",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "109/132",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -1186,7 +1373,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277862
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127320/preview_shuckle-109-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89191,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -1207,10 +1405,13 @@
       "cardtrader": [
         {
           "id": 127124,
-          "match_type": "scryfall",
+          "name": "Jumpluff Lv.42",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "011/132",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1275,7 +1476,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277764
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127124/preview_jumpluff-rare-holo-11-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86366,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -1296,10 +1508,13 @@
       "cardtrader": [
         {
           "id": 127322,
-          "match_type": "scryfall",
+          "name": "Shuppet",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "110/132",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -1364,7 +1579,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277863
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127322/preview_shuppet-110-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89200,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -1385,10 +1611,13 @@
       "cardtrader": [
         {
           "id": 127324,
-          "match_type": "scryfall",
+          "name": "Spinda",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "111/132",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -1453,7 +1682,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277864
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127324/preview_spinda-111-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89461,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -1474,10 +1714,13 @@
       "cardtrader": [
         {
           "id": 127326,
-          "match_type": "scryfall",
+          "name": "Squirtle",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "112/132",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -1542,7 +1785,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277865
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127326/preview_squirtle-112-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89494,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -1563,10 +1817,13 @@
       "cardtrader": [
         {
           "id": 127328,
-          "match_type": "scryfall",
+          "name": "Stantler",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "113/132",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -1631,7 +1888,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277866
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127328/preview_stantler-113-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89504,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -1652,10 +1920,13 @@
       "cardtrader": [
         {
           "id": 127330,
-          "match_type": "scryfall",
+          "name": "Sunkern",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "114/132",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -1720,7 +1991,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277867
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127330/preview_sunkern-114-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89621,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -1741,10 +2023,13 @@
       "cardtrader": [
         {
           "id": 127332,
-          "match_type": "scryfall",
+          "name": "Trapinch",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "115/132",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -1809,7 +2094,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277868
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127332/preview_trapinch-115-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90023,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -1830,10 +2126,13 @@
       "cardtrader": [
         {
           "id": 127334,
-          "match_type": "scryfall",
+          "name": "Venonat",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "116/132",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -1898,7 +2197,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277869
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127334/preview_venonat-116-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90308,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -1919,10 +2229,13 @@
       "cardtrader": [
         {
           "id": 127336,
-          "match_type": "scryfall",
+          "name": "Voltorb Lv.29",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "117/132",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -1987,7 +2300,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277870
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127336/preview_voltorb-117-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90418,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -2008,10 +2332,13 @@
       "cardtrader": [
         {
           "id": 127338,
-          "match_type": "scryfall",
+          "name": "Wooper Lv.11",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "118/132",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -2076,7 +2403,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277871
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127338/preview_wooper-118-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90636,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -2097,10 +2435,13 @@
       "cardtrader": [
         {
           "id": 127340,
-          "match_type": "scryfall",
+          "name": "Bebe's Search",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "119/132",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2165,7 +2506,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277872
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127340/preview_bebe-s-search-119-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83762,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -2186,10 +2538,13 @@
       "cardtrader": [
         {
           "id": 127126,
-          "match_type": "scryfall",
+          "name": "Lickilicky Lv.46",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "012/132",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -2254,7 +2609,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277765
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127126/preview_lickilicky-rare-holo-12-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86712,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -2275,10 +2641,13 @@
       "cardtrader": [
         {
           "id": 127342,
-          "match_type": "scryfall",
+          "name": "Night Maintenance",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "120/132",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2343,7 +2712,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277873
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127342/preview_night-maintenance-120-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87751,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -2364,10 +2744,13 @@
       "cardtrader": [
         {
           "id": 127344,
-          "match_type": "scryfall",
+          "name": "PlusPower",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "121/132",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2432,7 +2815,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277874
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127344/preview_pluspower-121-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88177,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -2453,10 +2847,13 @@
       "cardtrader": [
         {
           "id": 127346,
-          "match_type": "scryfall",
+          "name": "Professor Oak's Visit",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "122/132",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2521,7 +2918,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277875
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127346/preview_professor-oak-s-visit-122-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88405,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -2542,10 +2950,13 @@
       "cardtrader": [
         {
           "id": 127348,
-          "match_type": "scryfall",
+          "name": "Professor Rowan",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "123/132",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2610,7 +3021,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277876
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127348/preview_professor-rowan-123-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88408,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -2631,10 +3053,13 @@
       "cardtrader": [
         {
           "id": 127350,
-          "match_type": "scryfall",
+          "name": "Rival",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "124/132",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2699,7 +3124,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277877
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127350/preview_rival-124-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88765,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -2720,10 +3156,13 @@
       "cardtrader": [
         {
           "id": 127352,
-          "match_type": "scryfall",
+          "name": "Roseanne's Research",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "125/132",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2788,7 +3227,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277878
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127352/preview_roseanne-s-research-125-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88815,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -2809,10 +3259,13 @@
       "cardtrader": [
         {
           "id": 127354,
-          "match_type": "scryfall",
+          "name": "Team Galactic's Mars",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "126/132",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2877,7 +3330,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277879
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127354/preview_team-galactic-s-mars-126-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89810,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -2898,10 +3362,13 @@
       "cardtrader": [
         {
           "id": 127356,
-          "match_type": "scryfall",
+          "name": "Potion",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "127/132",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -2966,7 +3433,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277880
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127356/preview_potion-127-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88343,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -2987,10 +3465,13 @@
       "cardtrader": [
         {
           "id": 127358,
-          "match_type": "scryfall",
+          "name": "Switch",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "128/132",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -3055,7 +3536,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277881
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127358/preview_switch-128-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89716,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -3076,10 +3568,13 @@
       "cardtrader": [
         {
           "id": 127360,
-          "match_type": "scryfall",
+          "name": "Darkness Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "129/132",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3144,7 +3639,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277882
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127360/preview_darkness-energy-129-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84690,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -3165,10 +3671,13 @@
       "cardtrader": [
         {
           "id": 127128,
-          "match_type": "scryfall",
+          "name": "Ludicolo Lv.47",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "013/132",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -3233,7 +3742,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277766
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127128/preview_ludicolo-rare-holo-13-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86899,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -3254,10 +3774,13 @@
       "cardtrader": [
         {
           "id": 127362,
-          "match_type": "scryfall",
+          "name": "Metal Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "130/132",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3322,7 +3845,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277883
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127362/preview_metal-energy-130-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87363,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -3343,10 +3877,13 @@
       "cardtrader": [
         {
           "id": 127364,
-          "match_type": "scryfall",
+          "name": "Gardevoir LV.X",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "131/132",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -3411,7 +3948,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277884
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127364/preview_gardevoir-lv-x-rare-holo-131-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85643,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -3432,10 +3980,13 @@
       "cardtrader": [
         {
           "id": 127365,
-          "match_type": "scryfall",
+          "name": "Honchkrow LV.X",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "132/132",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -3500,7 +4051,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277885
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127365/preview_honchkrow-lv-x-rare-holo-132-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86165,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -3521,10 +4083,13 @@
       "cardtrader": [
         {
           "id": 127130,
-          "match_type": "scryfall",
+          "name": "Lugia Lv.43",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "014/132",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -3589,7 +4154,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277767
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127130/preview_lugia-rare-holo-14-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86908,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -3610,10 +4186,13 @@
       "cardtrader": [
         {
           "id": 127132,
-          "match_type": "scryfall",
+          "name": "Mew Lv.40",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "015/132",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -3678,7 +4257,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277768
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127132/preview_mew-rare-holo-15-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87403,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -3699,10 +4289,13 @@
       "cardtrader": [
         {
           "id": 127134,
-          "match_type": "scryfall",
+          "name": "Raikou Lv.42",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "016/132",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -3767,7 +4360,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277769
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127134/preview_raikou-rare-holo-16-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88534,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -3788,10 +4392,13 @@
       "cardtrader": [
         {
           "id": 127136,
-          "match_type": "scryfall",
+          "name": "Roserade Lv.37",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "017/132",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -3856,7 +4463,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277770
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127136/preview_roserade-rare-holo-17-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88827,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -3877,10 +4495,13 @@
       "cardtrader": [
         {
           "id": 127138,
-          "match_type": "scryfall",
+          "name": "Salamence Lv.62",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "018/132",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -3945,7 +4566,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277771
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127138/preview_salamence-rare-holo-18-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88897,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -3966,10 +4598,13 @@
       "cardtrader": [
         {
           "id": 127140,
-          "match_type": "scryfall",
+          "name": "Suicune Lv.44",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "019/132",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -4034,7 +4669,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277772
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127140/preview_suicune-rare-holo-19-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89604,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -4055,10 +4701,13 @@
       "cardtrader": [
         {
           "id": 127106,
-          "match_type": "scryfall",
+          "name": "Blastoise Lv.52",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "002/132",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -4123,7 +4772,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277755
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127106/preview_blastoise-rare-holo-2-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83893,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -4144,10 +4804,13 @@
       "cardtrader": [
         {
           "id": 127142,
-          "match_type": "scryfall",
+          "name": "Venusaur Lv.51",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "020/132",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -4212,7 +4875,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277773
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127142/preview_venusaur-rare-holo-20-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90319,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -4233,10 +4907,13 @@
       "cardtrader": [
         {
           "id": 127144,
-          "match_type": "scryfall",
+          "name": "Absol Lv.31",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "021",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -4301,7 +4978,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277774
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127144/preview_absol-21-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83453,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -4322,10 +5010,13 @@
       "cardtrader": [
         {
           "id": 127146,
-          "match_type": "scryfall",
+          "name": "Arcanine Lv.48",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "022/132",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -4390,7 +5081,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277775
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127146/preview_arcanine-22-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83584,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -4411,10 +5113,13 @@
       "cardtrader": [
         {
           "id": 127148,
-          "match_type": "scryfall",
+          "name": "Banette Lv.42",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "023/132",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -4479,7 +5184,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277776
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127148/preview_banette-23-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83722,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -4500,10 +5216,13 @@
       "cardtrader": [
         {
           "id": 127150,
-          "match_type": "scryfall",
+          "name": "Dugtrio Lv.46",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "024/132",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -4568,7 +5287,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277777
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127150/preview_dugtrio-24-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85002,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -4589,10 +5319,13 @@
       "cardtrader": [
         {
           "id": 127152,
-          "match_type": "scryfall",
+          "name": "Electivire Lv.50",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "025/132",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -4657,7 +5390,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277778
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127152/preview_electivire-25-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85122,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -4678,10 +5422,13 @@
       "cardtrader": [
         {
           "id": 127154,
-          "match_type": "scryfall",
+          "name": "Electrode Lv.42",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "026/132",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -4746,7 +5493,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277779
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127154/preview_electrode-26-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85156,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -4767,10 +5525,13 @@
       "cardtrader": [
         {
           "id": 127156,
-          "match_type": "scryfall",
+          "name": "Furret Lv.35",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "027/132",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -4835,7 +5596,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277780
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127156/preview_furret-27-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85593,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -4856,10 +5628,13 @@
       "cardtrader": [
         {
           "id": 127158,
-          "match_type": "scryfall",
+          "name": "Golduck Lv.39",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "028/132",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -4924,7 +5699,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277781
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127158/preview_golduck-28-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85815,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -4945,10 +5731,13 @@
       "cardtrader": [
         {
           "id": 127160,
-          "match_type": "scryfall",
+          "name": "Golem Lv.52",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "029/132",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -5013,7 +5802,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277782
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127160/preview_golem-29-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85828,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -5034,10 +5834,13 @@
       "cardtrader": [
         {
           "id": 127108,
-          "match_type": "scryfall",
+          "name": "Charizard Lv.55",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "003/132",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -5102,7 +5905,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277756
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127108/preview_charizard-rare-holo-3-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84189,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -5123,10 +5937,13 @@
       "cardtrader": [
         {
           "id": 127162,
-          "match_type": "scryfall",
+          "name": "Jynx Lv.30",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "030/132",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -5191,7 +6008,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277783
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127162/preview_jynx-30-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86376,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -5212,10 +6040,13 @@
       "cardtrader": [
         {
           "id": 127164,
-          "match_type": "scryfall",
+          "name": "Magmortar Lv.52",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "031/132",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -5280,7 +6111,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277784
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127164/preview_magmortar-31-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87056,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -5301,10 +6143,13 @@
       "cardtrader": [
         {
           "id": 127166,
-          "match_type": "scryfall",
+          "name": "Minun Lv.30",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "032/132",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -5369,7 +6214,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277785
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127166/preview_minun-32-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87488,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -5390,10 +6246,13 @@
       "cardtrader": [
         {
           "id": 127168,
-          "match_type": "scryfall",
+          "name": "Mothim Lv.39",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "033/132",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -5458,7 +6317,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277786
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127168/preview_mothim-33-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87580,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -5479,10 +6349,13 @@
       "cardtrader": [
         {
           "id": 127170,
-          "match_type": "scryfall",
+          "name": "Nidoking Lv.55",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "034/132",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -5547,7 +6420,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277787
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127170/preview_nidoking-34-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87697,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -5568,10 +6452,13 @@
       "cardtrader": [
         {
           "id": 127172,
-          "match_type": "scryfall",
+          "name": "Pidgeot Lv.50",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "035/132",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -5636,7 +6523,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277788
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127172/preview_pidgeot-35-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88033,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -5657,10 +6555,13 @@
       "cardtrader": [
         {
           "id": 127174,
-          "match_type": "scryfall",
+          "name": "Plusle Lv.30",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "036/132",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -5725,7 +6626,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277789
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127174/preview_plusle-36-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88168,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -5746,10 +6658,13 @@
       "cardtrader": [
         {
           "id": 127176,
-          "match_type": "scryfall",
+          "name": "Sharpedo Lv.39",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "037/132",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -5814,7 +6729,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277790
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127176/preview_sharpedo-37-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89099,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -5835,10 +6761,13 @@
       "cardtrader": [
         {
           "id": 127178,
-          "match_type": "scryfall",
+          "name": "Sunflora Lv.35",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "038/132",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -5903,7 +6832,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277791
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127178/preview_sunflora-38-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89615,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -5924,10 +6864,13 @@
       "cardtrader": [
         {
           "id": 127180,
-          "match_type": "scryfall",
+          "name": "Unown [S] Lv.18",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "039/132",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -5992,7 +6935,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277792
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127180/preview_unown-s-39-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90233,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -6013,10 +6967,13 @@
       "cardtrader": [
         {
           "id": 127110,
-          "match_type": "scryfall",
+          "name": "Entei Lv.43",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "004/132",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -6081,7 +7038,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277757
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127110/preview_entei-rare-holo-4-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85272,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -6102,10 +7070,13 @@
       "cardtrader": [
         {
           "id": 127182,
-          "match_type": "scryfall",
+          "name": "Weavile Lv.30",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "040",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -6171,7 +7142,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277793
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127182/preview_weavile-40-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90532,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -6192,10 +7174,13 @@
       "cardtrader": [
         {
           "id": 127184,
-          "match_type": "scryfall",
+          "name": "Wormadam Plant Cloak Lv.36",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "041/132",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -6260,7 +7245,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277794
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127184/preview_wormadam-plant-cloak-41-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90640,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -6281,10 +7277,13 @@
       "cardtrader": [
         {
           "id": 127186,
-          "match_type": "scryfall",
+          "name": "Wormadam Sandy Cloak Lv.37",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "042/132",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -6349,7 +7348,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277795
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127186/preview_wormadam-sandy-cloak-42-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90642,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -6370,10 +7380,13 @@
       "cardtrader": [
         {
           "id": 127188,
-          "match_type": "scryfall",
+          "name": "Wormadam Trash Cloak Lv.38",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "043/132",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -6438,7 +7451,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277796
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127188/preview_wormadam-trash-cloak-43-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90645,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -6459,10 +7483,13 @@
       "cardtrader": [
         {
           "id": 127190,
-          "match_type": "scryfall",
+          "name": "Xatu Lv.44",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "044/132",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -6527,7 +7554,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277797
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127190/preview_xatu-44-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90665,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -6548,10 +7586,13 @@
       "cardtrader": [
         {
           "id": 127192,
-          "match_type": "scryfall",
+          "name": "Breloom Lv.40",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "045/132",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -6616,7 +7657,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277798
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127192/preview_breloom-45-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83957,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -6637,10 +7689,13 @@
       "cardtrader": [
         {
           "id": 127194,
-          "match_type": "scryfall",
+          "name": "Charmeleon Lv.29",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "046/132",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -6705,7 +7760,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277799
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127194/preview_charmeleon-46-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84231,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -6726,10 +7792,13 @@
       "cardtrader": [
         {
           "id": 127196,
-          "match_type": "scryfall",
+          "name": "Cloyster Lv.40",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "047/132",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -6794,7 +7863,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277800
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127196/preview_cloyster-47-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84374,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -6815,10 +7895,13 @@
       "cardtrader": [
         {
           "id": 127198,
-          "match_type": "scryfall",
+          "name": "Donphan Lv.48",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "048/132",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -6883,7 +7966,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277801
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127198/preview_donphan-48-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84876,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -6904,10 +7998,13 @@
       "cardtrader": [
         {
           "id": 127200,
-          "match_type": "scryfall",
+          "name": "Farfetch'd Lv.26",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "049/132",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -6972,7 +8069,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277802
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127200/preview_farfetch-d-49-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85386,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -6993,10 +8101,13 @@
       "cardtrader": [
         {
           "id": 127112,
-          "match_type": "scryfall",
+          "name": "Flygon Lv.60",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "005/132",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -7061,7 +8172,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277758
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127112/preview_flygon-rare-holo-5-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85525,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -7082,10 +8204,13 @@
       "cardtrader": [
         {
           "id": 127202,
-          "match_type": "scryfall",
+          "name": "Flaaffy Lv.26",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "050/132",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -7150,7 +8275,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277803
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127202/preview_flaaffy-50-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85479,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -7171,10 +8307,13 @@
       "cardtrader": [
         {
           "id": 127204,
-          "match_type": "scryfall",
+          "name": "Ivysaur Lv.24",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "051/132",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -7239,7 +8378,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277804
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127204/preview_ivysaur-51-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86302,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -7260,10 +8410,13 @@
       "cardtrader": [
         {
           "id": 127206,
-          "match_type": "scryfall",
+          "name": "Kecleon Lv.28",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "052/132",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -7328,7 +8481,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277805
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127206/preview_kecleon-52-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86430,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -7349,10 +8513,13 @@
       "cardtrader": [
         {
           "id": 127208,
-          "match_type": "scryfall",
+          "name": "Kirlia Lv.28",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "053/132",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -7417,7 +8584,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277806
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127208/preview_kirlia-53-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86466,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -7438,10 +8616,13 @@
       "cardtrader": [
         {
           "id": 127210,
-          "match_type": "scryfall",
+          "name": "Lombre Lv.26",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "054/132",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -7506,7 +8687,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277807
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127210/preview_lombre-54-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86819,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -7527,10 +8719,13 @@
       "cardtrader": [
         {
           "id": 127212,
-          "match_type": "scryfall",
+          "name": "Miltank Lv.32",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "055/132",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -7595,7 +8790,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277808
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127212/preview_miltank-55-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87464,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -7616,10 +8822,13 @@
       "cardtrader": [
         {
           "id": 127214,
-          "match_type": "scryfall",
+          "name": "Muk Lv.43",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "056/132",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -7684,7 +8893,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277809
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127214/preview_muk-56-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87623,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -7705,10 +8925,13 @@
       "cardtrader": [
         {
           "id": 127216,
-          "match_type": "scryfall",
+          "name": "Nidorino Lv.28",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "057/132",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -7773,7 +8996,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277810
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127216/preview_nidorino-57-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87745,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -7794,10 +9028,13 @@
       "cardtrader": [
         {
           "id": 127218,
-          "match_type": "scryfall",
+          "name": "Pidgeotto Lv.21",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "058/132",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -7862,7 +9099,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277811
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127218/preview_pidgeotto-58-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88041,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -7883,10 +9131,13 @@
       "cardtrader": [
         {
           "id": 127220,
-          "match_type": "scryfall",
+          "name": "Pinsir Lv.30",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "059/132",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -7951,7 +9202,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277812
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127220/preview_pinsir-59-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88137,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -7972,10 +9234,13 @@
       "cardtrader": [
         {
           "id": 127114,
-          "match_type": "scryfall",
+          "name": "Gallade Lv.55",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "006/132",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -8040,7 +9305,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277759
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127114/preview_gallade-rare-holo-6-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85604,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -8061,10 +9337,13 @@
       "cardtrader": [
         {
           "id": 127222,
-          "match_type": "scryfall",
+          "name": "Quagsire Lv.38",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "060/132",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -8129,7 +9408,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277813
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127222/preview_quagsire-60-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88472,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -8150,10 +9440,13 @@
       "cardtrader": [
         {
           "id": 127224,
-          "match_type": "scryfall",
+          "name": "Raticate Lv.29",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "061/132",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -8218,7 +9511,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277814
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127224/preview_raticate-61-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88604,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -8239,10 +9543,13 @@
       "cardtrader": [
         {
           "id": 127226,
-          "match_type": "scryfall",
+          "name": "Roselia Lv.32",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "062/132",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -8307,7 +9614,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277815
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127226/preview_roselia-62-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88820,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -8328,10 +9646,13 @@
       "cardtrader": [
         {
           "id": 127228,
-          "match_type": "scryfall",
+          "name": "Sableye Lv.26",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "063/132",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -8396,7 +9717,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277816
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127228/preview_sableye-63-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88852,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -8417,10 +9749,13 @@
       "cardtrader": [
         {
           "id": 127230,
-          "match_type": "scryfall",
+          "name": "Shelgon Lv.32",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "064/132",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -8485,7 +9820,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277817
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127230/preview_shelgon-64-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89127,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -8506,10 +9852,13 @@
       "cardtrader": [
         {
           "id": 127232,
-          "match_type": "scryfall",
+          "name": "Skiploom Lv.20",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "065/132",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -8574,7 +9923,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277818
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127232/preview_skiploom-65-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89256,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -8595,10 +9955,13 @@
       "cardtrader": [
         {
           "id": 127234,
-          "match_type": "scryfall",
+          "name": "Smeargle Lv.31",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "066/132",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -8663,7 +10026,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277819
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127234/preview_smeargle-66-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89355,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -8684,10 +10058,13 @@
       "cardtrader": [
         {
           "id": 127236,
-          "match_type": "scryfall",
+          "name": "Smoochum Lv.6",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "067/132",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -8752,7 +10129,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277820
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127236/preview_smoochum-67-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89362,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -8773,10 +10161,13 @@
       "cardtrader": [
         {
           "id": 127238,
-          "match_type": "scryfall",
+          "name": "Unown [K] Lv.15",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "068/132",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -8841,7 +10232,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277821
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127238/preview_unown-k-68-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90218,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -8862,10 +10264,13 @@
       "cardtrader": [
         {
           "id": 127240,
-          "match_type": "scryfall",
+          "name": "Unown [N] Lv.16",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "069/132",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -8930,7 +10335,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277822
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127240/preview_unown-n-69-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90224,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -8951,10 +10367,13 @@
       "cardtrader": [
         {
           "id": 127116,
-          "match_type": "scryfall",
+          "name": "Gardevoir Lv.55",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "007/132",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -9019,7 +10438,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277760
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127116/preview_gardevoir-rare-holo-7-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85635,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -9040,10 +10470,13 @@
       "cardtrader": [
         {
           "id": 127242,
-          "match_type": "scryfall",
+          "name": "Unown [O] Lv.12",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "070/132",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -9108,7 +10541,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277823
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127242/preview_unown-o-70-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90226,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -9129,10 +10573,13 @@
       "cardtrader": [
         {
           "id": 127244,
-          "match_type": "scryfall",
+          "name": "Unown [X] Lv.11",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "071/132",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -9197,7 +10644,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277824
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127244/preview_unown-x-71-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90243,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -9218,10 +10676,13 @@
       "cardtrader": [
         {
           "id": 127246,
-          "match_type": "scryfall",
+          "name": "Unown [Z] Lv.16",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "072/132",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -9286,7 +10747,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277825
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127246/preview_unown-z-72-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90247,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -9307,10 +10779,13 @@
       "cardtrader": [
         {
           "id": 127248,
-          "match_type": "scryfall",
+          "name": "Venomoth Lv.42",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "073/132",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -9375,7 +10850,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277826
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127248/preview_venomoth-73-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90302,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -9396,10 +10882,13 @@
       "cardtrader": [
         {
           "id": 127250,
-          "match_type": "scryfall",
+          "name": "Vibrava Lv.37",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "074/132",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -9464,7 +10953,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277827
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127250/preview_vibrava-74-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90337,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -9485,10 +10985,13 @@
       "cardtrader": [
         {
           "id": 127252,
-          "match_type": "scryfall",
+          "name": "Wartortle Lv.28",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "075/132",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -9553,7 +11056,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277828
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127252/preview_wartortle-75-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90489,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -9574,10 +11088,13 @@
       "cardtrader": [
         {
           "id": 127254,
-          "match_type": "scryfall",
+          "name": "Bagon Lv.11",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "076/132",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -9642,7 +11159,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277829
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127254/preview_bagon-76-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83697,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -9663,10 +11191,13 @@
       "cardtrader": [
         {
           "id": 127256,
-          "match_type": "scryfall",
+          "name": "Bulbasaur Lv.14",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "077/132",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -9731,7 +11262,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277830
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127256/preview_bulbasaur-77-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84034,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -9752,10 +11294,13 @@
       "cardtrader": [
         {
           "id": 127258,
-          "match_type": "scryfall",
+          "name": "Burmy Plant Cloak",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "078/132",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -9820,7 +11365,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277831
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127258/preview_burmy-plant-cloak-78-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84049,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -9841,10 +11397,13 @@
       "cardtrader": [
         {
           "id": 127260,
-          "match_type": "scryfall",
+          "name": "Burmy Sandy Cloak",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "079/132",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -9909,7 +11468,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277832
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127260/preview_burmy-sandy-cloak-79-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84052,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -9930,10 +11500,13 @@
       "cardtrader": [
         {
           "id": 127118,
-          "match_type": "scryfall",
+          "name": "Gastrodon East Sea Lv.43",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "008/132",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -9998,7 +11571,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277761
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127118/preview_gastrodon-east-sea-rare-holo-8-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85657,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -10019,10 +11603,13 @@
       "cardtrader": [
         {
           "id": 127262,
-          "match_type": "scryfall",
+          "name": "Burmy Trash Cloak",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "080/132",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -10087,7 +11674,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277833
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127262/preview_burmy-trash-cloak-80-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84056,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -10108,10 +11706,13 @@
       "cardtrader": [
         {
           "id": 127264,
-          "match_type": "scryfall",
+          "name": "Carvanha Lv.18",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "081/132",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -10176,7 +11777,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277834
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127264/preview_carvanha-81-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84114,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -10197,10 +11809,13 @@
       "cardtrader": [
         {
           "id": 127266,
-          "match_type": "scryfall",
+          "name": "Charmander Lv.8",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "082/132",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -10265,7 +11880,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277835
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127266/preview_charmander-82-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84215,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -10286,10 +11912,13 @@
       "cardtrader": [
         {
           "id": 127268,
-          "match_type": "scryfall",
+          "name": "Clefairy Lv.17",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "083/132",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -10354,7 +11983,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277836
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127268/preview_clefairy-83-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84357,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -10375,10 +12015,13 @@
       "cardtrader": [
         {
           "id": 127270,
-          "match_type": "scryfall",
+          "name": "Corsola Lv.32",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "084/132",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -10443,7 +12086,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277837
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127270/preview_corsola-84-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84441,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -10464,10 +12118,13 @@
       "cardtrader": [
         {
           "id": 127272,
-          "match_type": "scryfall",
+          "name": "Diglett Lv.10",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "085/132",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -10532,7 +12189,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277838
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127272/preview_diglett-85-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84823,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -10553,10 +12221,13 @@
       "cardtrader": [
         {
           "id": 127274,
-          "match_type": "scryfall",
+          "name": "Duskull Lv.11",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "086/132",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -10621,7 +12292,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277839
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127274/preview_duskull-86-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85051,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -10642,10 +12324,13 @@
       "cardtrader": [
         {
           "id": 127276,
-          "match_type": "scryfall",
+          "name": "Electabuzz Lv.32",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "087/132",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -10710,7 +12395,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277840
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127276/preview_electabuzz-87-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85115,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -10731,10 +12427,13 @@
       "cardtrader": [
         {
           "id": 127278,
-          "match_type": "scryfall",
+          "name": "Grimer Lv.15",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "088/132",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -10799,7 +12498,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277841
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127278/preview_grimer-88-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85911,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -10820,10 +12530,13 @@
       "cardtrader": [
         {
           "id": 127280,
-          "match_type": "scryfall",
+          "name": "Growlithe Lv.20",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "089/132",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -10888,7 +12601,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277842
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127280/preview_growlithe-89-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85957,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -10909,10 +12633,13 @@
       "cardtrader": [
         {
           "id": 127120,
-          "match_type": "scryfall",
+          "name": "Gastrodon West Sea Lv.44",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "009/132",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -10977,7 +12704,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277762
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127120/preview_gastrodon-west-sea-rare-holo-9-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85659,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -10998,10 +12736,13 @@
       "cardtrader": [
         {
           "id": 127282,
-          "match_type": "scryfall",
+          "name": "Hoppip Lv.7",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "090/132",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -11066,7 +12807,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277843
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127282/preview_hoppip-90-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86181,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -11087,10 +12839,13 @@
       "cardtrader": [
         {
           "id": 127284,
-          "match_type": "scryfall",
+          "name": "Lickitung Lv.27",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "091/132",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -11155,7 +12910,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277844
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127284/preview_lickitung-91-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86720,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -11176,10 +12942,13 @@
       "cardtrader": [
         {
           "id": 127286,
-          "match_type": "scryfall",
+          "name": "Lotad Lv.13",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "092/132",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -11244,7 +13013,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277845
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127286/preview_lotad-92-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86836,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -11265,10 +13045,13 @@
       "cardtrader": [
         {
           "id": 127288,
-          "match_type": "scryfall",
+          "name": "Magmar Lv.27",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "093/132",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -11333,7 +13116,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277846
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127288/preview_magmar-93-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87048,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -11354,10 +13148,13 @@
       "cardtrader": [
         {
           "id": 127290,
-          "match_type": "scryfall",
+          "name": "Mareep Lv.11",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "094/132",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -11422,7 +13219,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277847
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127290/preview_mareep-94-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87201,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -11443,10 +13251,13 @@
       "cardtrader": [
         {
           "id": 127292,
-          "match_type": "scryfall",
+          "name": "Murkrow Lv.10",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "095/132",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -11511,7 +13322,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277848
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127292/preview_murkrow-95-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87653,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -11532,10 +13354,13 @@
       "cardtrader": [
         {
           "id": 127294,
-          "match_type": "scryfall",
+          "name": "Natu Lv.9",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "096/132",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -11600,7 +13425,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277849
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127294/preview_natu-96-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87686,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -11621,10 +13457,13 @@
       "cardtrader": [
         {
           "id": 127296,
-          "match_type": "scryfall",
+          "name": "Nidoran ♂",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "097/132",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -11689,7 +13528,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277850
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127296/preview_nidoran-male-97-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87727,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -11710,10 +13560,13 @@
       "cardtrader": [
         {
           "id": 127298,
-          "match_type": "scryfall",
+          "name": "Phanpy Lv.14",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "098/132",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -11778,7 +13631,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277851
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127298/preview_phanpy-98-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88002,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     },
@@ -11799,10 +13663,13 @@
       "cardtrader": [
         {
           "id": 127300,
-          "match_type": "scryfall",
+          "name": "Pidgey Lv.8",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Secret Wonders",
           "expansion_code": "sw",
           "collector_number": "099/132",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -11867,7 +13734,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277852
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127300/preview_pidgey-99-132-secret-wonders.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88050,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1380
         }
       ]
     }

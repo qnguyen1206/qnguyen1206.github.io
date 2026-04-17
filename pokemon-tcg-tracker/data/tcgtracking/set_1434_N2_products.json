@@ -4,8 +4,8 @@
   "set_abbr": "N2",
   "set_released": "2001-06-01",
   "product_count": 80,
-  "data_modified": "2026-01-31T01:01:28-05:00",
-  "file_generated": "2026-01-31T03:32:28-05:00",
+  "data_modified": "2026-04-15T07:07:48-04:00",
+  "file_generated": "2026-04-16T04:30:48-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/1434/pricing",
   "products": [
     {
@@ -100,10 +100,13 @@
       "cardtrader": [
         {
           "id": 123537,
-          "match_type": "scryfall",
+          "name": "Magnemite",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "026",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -173,7 +176,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274537
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123537/preview_magnemite-26-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87065,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -194,10 +208,13 @@
       "cardtrader": [
         {
           "id": 123512,
-          "match_type": "scryfall",
+          "name": "Espeon",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "001",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -267,7 +284,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274512
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123512/preview_espeon-rare-holo-1-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85316,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -288,10 +316,13 @@
       "cardtrader": [
         {
           "id": 123513,
-          "match_type": "scryfall",
+          "name": "Forretress",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "002",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -361,7 +392,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274513
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123513/preview_forretress-rare-holo-2-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85542,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -382,10 +424,13 @@
       "cardtrader": [
         {
           "id": 123514,
-          "match_type": "scryfall",
+          "name": "Hitmontop",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "003",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -455,7 +500,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274514
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123514/preview_hitmontop-rare-holo-3-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86110,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -476,10 +532,13 @@
       "cardtrader": [
         {
           "id": 123515,
-          "match_type": "scryfall",
+          "name": "Houndoom",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "004",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -549,7 +608,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274515
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123515/preview_houndoom-rare-holo-4-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86197,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -570,10 +640,13 @@
       "cardtrader": [
         {
           "id": 123516,
-          "match_type": "scryfall",
+          "name": "Houndour",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "005",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -643,7 +716,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274516
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123516/preview_houndour-rare-holo-5-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86216,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -664,10 +748,13 @@
       "cardtrader": [
         {
           "id": 123517,
-          "match_type": "scryfall",
+          "name": "Kabutops",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "006",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -737,7 +824,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274517
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123517/preview_kabutops-rare-holo-6-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86389,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -758,10 +856,13 @@
       "cardtrader": [
         {
           "id": 123518,
-          "match_type": "scryfall",
+          "name": "Magnemite",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "007",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -831,7 +932,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274518
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123518/preview_magnemite-rare-holo-7-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87064,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -852,10 +964,13 @@
       "cardtrader": [
         {
           "id": 123519,
-          "match_type": "scryfall",
+          "name": "Politoed",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "008",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -925,7 +1040,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274519
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123519/preview_politoed-rare-holo-8-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88246,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -946,10 +1072,13 @@
       "cardtrader": [
         {
           "id": 123520,
-          "match_type": "scryfall",
+          "name": "Poliwrath",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "009",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1019,7 +1148,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274520
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123520/preview_poliwrath-rare-holo-9-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88269,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -1040,10 +1180,13 @@
       "cardtrader": [
         {
           "id": 123521,
-          "match_type": "scryfall",
+          "name": "Scizor",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "010",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1113,7 +1256,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274521
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123521/preview_scizor-rare-holo-10-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88956,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -1134,10 +1288,13 @@
       "cardtrader": [
         {
           "id": 123522,
-          "match_type": "scryfall",
+          "name": "Smeargle",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "011",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1207,7 +1364,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274522
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123522/preview_smeargle-rare-holo-11-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89350,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -1228,10 +1396,13 @@
       "cardtrader": [
         {
           "id": 123523,
-          "match_type": "scryfall",
+          "name": "Tyranitar",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "012",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1301,7 +1472,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274523
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123523/preview_tyranitar-rare-holo-12-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90113,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -1322,10 +1504,13 @@
       "cardtrader": [
         {
           "id": 123524,
-          "match_type": "scryfall",
+          "name": "Umbreon",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "013",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1395,7 +1580,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274524
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123524/preview_umbreon-rare-holo-13-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90137,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -1416,10 +1612,13 @@
       "cardtrader": [
         {
           "id": 123525,
-          "match_type": "scryfall",
+          "name": "Unown A",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "014",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1489,7 +1688,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274525
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123525/preview_unown-a-rare-holo-14-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90196,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -1510,10 +1720,13 @@
       "cardtrader": [
         {
           "id": 123526,
-          "match_type": "scryfall",
+          "name": "Ursaring",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "015",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1583,7 +1796,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274526
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123526/preview_ursaring-rare-holo-15-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90249,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -1604,10 +1828,13 @@
       "cardtrader": [
         {
           "id": 123527,
-          "match_type": "scryfall",
+          "name": "Wobbuffet",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "016",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1677,7 +1904,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274527
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123527/preview_wobbuffet-rare-holo-16-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90612,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -1698,10 +1936,13 @@
       "cardtrader": [
         {
           "id": 123528,
-          "match_type": "scryfall",
+          "name": "Yanma",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "017",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1771,7 +2012,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274528
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123528/preview_yanma-rare-holo-17-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90680,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -1792,10 +2044,13 @@
       "cardtrader": [
         {
           "id": 123529,
-          "match_type": "scryfall",
+          "name": "Beedrill",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "018",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -1865,7 +2120,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274529
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123529/preview_beedrill-18-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83767,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -1886,10 +2152,13 @@
       "cardtrader": [
         {
           "id": 123530,
-          "match_type": "scryfall",
+          "name": "Butterfree",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "019",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -1959,7 +2228,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274530
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123530/preview_butterfree-19-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84061,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -1980,10 +2260,13 @@
       "cardtrader": [
         {
           "id": 123531,
-          "match_type": "scryfall",
+          "name": "Espeon",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "020",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2053,7 +2336,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274531
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123531/preview_espeon-20-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85320,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -2074,10 +2368,13 @@
       "cardtrader": [
         {
           "id": 123532,
-          "match_type": "scryfall",
+          "name": "Forretress",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "021",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2147,7 +2444,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274532
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123532/preview_forretress-21-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85545,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -2168,10 +2476,13 @@
       "cardtrader": [
         {
           "id": 123533,
-          "match_type": "scryfall",
+          "name": "Hitmontop",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "022",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2241,7 +2552,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274533
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123533/preview_hitmontop-22-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86111,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -2262,10 +2584,13 @@
       "cardtrader": [
         {
           "id": 123534,
-          "match_type": "scryfall",
+          "name": "Houndoom",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "023",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2335,7 +2660,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274534
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123534/preview_houndoom-23-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86204,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -2356,10 +2692,13 @@
       "cardtrader": [
         {
           "id": 123535,
-          "match_type": "scryfall",
+          "name": "Houndour",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "024",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2429,7 +2768,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274535
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123535/preview_houndour-24-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86217,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -2450,10 +2800,13 @@
       "cardtrader": [
         {
           "id": 123536,
-          "match_type": "scryfall",
+          "name": "Kabutops",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "025",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2523,7 +2876,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274536
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123536/preview_kabutops-25-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86394,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -2544,10 +2908,13 @@
       "cardtrader": [
         {
           "id": 123538,
-          "match_type": "scryfall",
+          "name": "Politoed",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "027",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2617,7 +2984,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274538
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123538/preview_politoed-27-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88249,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -2638,10 +3016,13 @@
       "cardtrader": [
         {
           "id": 123539,
-          "match_type": "scryfall",
+          "name": "Poliwrath",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "028",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2711,7 +3092,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274539
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123539/preview_poliwrath-28-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88274,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -2732,10 +3124,13 @@
       "cardtrader": [
         {
           "id": 123540,
-          "match_type": "scryfall",
+          "name": "Scizor",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "029",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2805,7 +3200,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274540
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123540/preview_scizor-29-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88958,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -2826,10 +3232,13 @@
       "cardtrader": [
         {
           "id": 123541,
-          "match_type": "scryfall",
+          "name": "Smeargle",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "030",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2899,7 +3308,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274541
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123541/preview_smeargle-30-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89351,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -2920,10 +3340,13 @@
       "cardtrader": [
         {
           "id": 123542,
-          "match_type": "scryfall",
+          "name": "Tyranitar",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "031",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2993,7 +3416,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274542
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123542/preview_tyranitar-31-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90116,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -3014,10 +3448,13 @@
       "cardtrader": [
         {
           "id": 123543,
-          "match_type": "scryfall",
+          "name": "Umbreon",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "032",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -3087,7 +3524,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274543
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123543/preview_umbreon-32-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90142,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -3108,10 +3556,13 @@
       "cardtrader": [
         {
           "id": 123544,
-          "match_type": "scryfall",
+          "name": "Unown A",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "033",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -3181,7 +3632,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274544
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123544/preview_unown-a-33-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90197,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -3202,10 +3664,13 @@
       "cardtrader": [
         {
           "id": 123545,
-          "match_type": "scryfall",
+          "name": "Ursaring",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "034",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -3275,7 +3740,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274545
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123545/preview_ursaring-34-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90250,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -3296,10 +3772,13 @@
       "cardtrader": [
         {
           "id": 123546,
-          "match_type": "scryfall",
+          "name": "Wobbuffet",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "035",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -3369,7 +3848,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274546
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123546/preview_wobbuffet-35-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90614,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -3390,10 +3880,13 @@
       "cardtrader": [
         {
           "id": 123547,
-          "match_type": "scryfall",
+          "name": "Yanma",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "036",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -3463,7 +3956,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274547
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123547/preview_yanma-36-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90681,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -3484,10 +3988,13 @@
       "cardtrader": [
         {
           "id": 123548,
-          "match_type": "scryfall",
+          "name": "Corsola",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "037",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3557,7 +4064,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274548
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123548/preview_corsola-37-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84437,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -3578,10 +4096,13 @@
       "cardtrader": [
         {
           "id": 123549,
-          "match_type": "scryfall",
+          "name": "Eevee",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "038",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3651,7 +4172,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274549
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123549/preview_eevee-38-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85075,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -3672,10 +4204,13 @@
       "cardtrader": [
         {
           "id": 123550,
-          "match_type": "scryfall",
+          "name": "Houndour",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "039",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3745,7 +4280,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274550
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123550/preview_houndour-39-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86218,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -3766,10 +4312,13 @@
       "cardtrader": [
         {
           "id": 123551,
-          "match_type": "scryfall",
+          "name": "Igglybuff",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "040",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3839,7 +4388,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274551
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123551/preview_igglybuff-40-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86257,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -3860,10 +4420,13 @@
       "cardtrader": [
         {
           "id": 123552,
-          "match_type": "scryfall",
+          "name": "Kakuna",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "041",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3933,7 +4496,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274552
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123552/preview_kakuna-41-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86408,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -3954,10 +4528,13 @@
       "cardtrader": [
         {
           "id": 123553,
-          "match_type": "scryfall",
+          "name": "Metapod",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "042",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4027,7 +4604,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274553
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123553/preview_metapod-42-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87385,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -4048,10 +4636,13 @@
       "cardtrader": [
         {
           "id": 123554,
-          "match_type": "scryfall",
+          "name": "Omastar",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "043",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4121,7 +4712,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274554
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123554/preview_omastar-43-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87866,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -4142,10 +4744,13 @@
       "cardtrader": [
         {
           "id": 123555,
-          "match_type": "scryfall",
+          "name": "Poliwhirl",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "044",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4215,7 +4820,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274555
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123555/preview_poliwhirl-44-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88262,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -4236,10 +4852,13 @@
       "cardtrader": [
         {
           "id": 123556,
-          "match_type": "scryfall",
+          "name": "Pupitar",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "045",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4309,7 +4928,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274556
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123556/preview_pupitar-45-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88445,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -4330,10 +4960,13 @@
       "cardtrader": [
         {
           "id": 123557,
-          "match_type": "scryfall",
+          "name": "Scyther",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "046",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4403,7 +5036,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274557
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123557/preview_scyther-46-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88994,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -4424,10 +5068,13 @@
       "cardtrader": [
         {
           "id": 123558,
-          "match_type": "scryfall",
+          "name": "Unown [D]",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "047",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4497,7 +5144,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274558
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123558/preview_unown-d-47-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90203,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -4518,10 +5176,13 @@
       "cardtrader": [
         {
           "id": 123559,
-          "match_type": "scryfall",
+          "name": "Unown [F]",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "048",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4591,7 +5252,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274559
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123559/preview_unown-f-48-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90207,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -4612,10 +5284,13 @@
       "cardtrader": [
         {
           "id": 123560,
-          "match_type": "scryfall",
+          "name": "Unown [M]",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "049",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4685,7 +5360,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274560
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123560/preview_unown-m-49-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90221,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -4706,10 +5392,13 @@
       "cardtrader": [
         {
           "id": 123561,
-          "match_type": "scryfall",
+          "name": "Unown [N]",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "050",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4779,7 +5468,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274561
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123561/preview_unown-n-50-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90223,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -4800,10 +5500,13 @@
       "cardtrader": [
         {
           "id": 123562,
-          "match_type": "scryfall",
+          "name": "Unown [U]",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "051",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4873,7 +5576,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274562
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123562/preview_unown-u-51-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90236,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -4894,10 +5608,13 @@
       "cardtrader": [
         {
           "id": 123563,
-          "match_type": "scryfall",
+          "name": "Xatu",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "052",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4967,7 +5684,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274563
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123563/preview_xatu-52-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90660,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -4988,10 +5716,13 @@
       "cardtrader": [
         {
           "id": 123564,
-          "match_type": "scryfall",
+          "name": "Caterpie",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "053",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5061,7 +5792,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274564
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123564/preview_caterpie-53-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84133,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -5082,10 +5824,13 @@
       "cardtrader": [
         {
           "id": 123565,
-          "match_type": "scryfall",
+          "name": "Dunsparce",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "054",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5155,7 +5900,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274565
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123565/preview_dunsparce-54-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85007,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -5176,10 +5932,13 @@
       "cardtrader": [
         {
           "id": 123566,
-          "match_type": "scryfall",
+          "name": "Hoppip",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "055",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5249,7 +6008,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274566
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123566/preview_hoppip-55-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86176,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -5270,10 +6040,13 @@
       "cardtrader": [
         {
           "id": 123567,
-          "match_type": "scryfall",
+          "name": "Kabuto",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "056",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5343,7 +6116,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274567
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123567/preview_kabuto-56-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86383,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -5364,10 +6148,13 @@
       "cardtrader": [
         {
           "id": 123568,
-          "match_type": "scryfall",
+          "name": "Larvitar",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "057",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5437,7 +6224,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274568
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123568/preview_larvitar-57-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86632,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -5458,10 +6256,13 @@
       "cardtrader": [
         {
           "id": 123569,
-          "match_type": "scryfall",
+          "name": "Mareep",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "058",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5531,7 +6332,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274569
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123569/preview_mareep-58-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87192,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -5552,10 +6364,13 @@
       "cardtrader": [
         {
           "id": 123570,
-          "match_type": "scryfall",
+          "name": "Natu",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "059",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5625,7 +6440,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274570
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123570/preview_natu-59-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87680,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -5646,10 +6472,13 @@
       "cardtrader": [
         {
           "id": 123571,
-          "match_type": "scryfall",
+          "name": "Omanyte",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "060",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5719,7 +6548,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274571
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123571/preview_omanyte-60-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87856,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -5740,10 +6580,13 @@
       "cardtrader": [
         {
           "id": 123572,
-          "match_type": "scryfall",
+          "name": "Pineco",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "061",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5813,7 +6656,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274572
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123572/preview_pineco-61-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88122,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -5834,10 +6688,13 @@
       "cardtrader": [
         {
           "id": 123573,
-          "match_type": "scryfall",
+          "name": "Poliwag",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "062",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5907,7 +6764,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274573
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123573/preview_poliwag-62-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88254,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -5928,10 +6796,13 @@
       "cardtrader": [
         {
           "id": 123574,
-          "match_type": "scryfall",
+          "name": "Sentret",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "063",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6001,7 +6872,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274574
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123574/preview_sentret-63-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89061,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -6022,10 +6904,13 @@
       "cardtrader": [
         {
           "id": 123575,
-          "match_type": "scryfall",
+          "name": "Spinarak",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "064",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6095,7 +6980,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274575
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123575/preview_spinarak-64-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89452,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -6116,10 +7012,13 @@
       "cardtrader": [
         {
           "id": 123576,
-          "match_type": "scryfall",
+          "name": "Teddiursa",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "065",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6189,7 +7088,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274576
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123576/preview_teddiursa-65-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89855,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -6210,10 +7120,13 @@
       "cardtrader": [
         {
           "id": 123577,
-          "match_type": "scryfall",
+          "name": "Tyrogue",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "066",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6283,7 +7196,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274577
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123577/preview_tyrogue-66-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90128,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -6304,10 +7228,13 @@
       "cardtrader": [
         {
           "id": 123578,
-          "match_type": "scryfall",
+          "name": "Unown E",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "067",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6377,7 +7304,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274578
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123578/preview_unown-e-67-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90205,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -6398,10 +7336,13 @@
       "cardtrader": [
         {
           "id": 123579,
-          "match_type": "scryfall",
+          "name": "Unown I",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "068",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6471,7 +7412,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274579
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123579/preview_unown-i-68-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90213,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -6492,10 +7444,13 @@
       "cardtrader": [
         {
           "id": 123580,
-          "match_type": "scryfall",
+          "name": "Unown O",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "069",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6565,7 +7520,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274580
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123580/preview_unown-o-69-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90225,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -6586,10 +7552,13 @@
       "cardtrader": [
         {
           "id": 123581,
-          "match_type": "scryfall",
+          "name": "Weedle",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "070",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6659,7 +7628,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274581
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123581/preview_weedle-70-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90538,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -6680,10 +7660,13 @@
       "cardtrader": [
         {
           "id": 123582,
-          "match_type": "scryfall",
+          "name": "Wooper",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "071",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6753,7 +7736,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274582
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123582/preview_wooper-71-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90631,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -6774,10 +7768,13 @@
       "cardtrader": [
         {
           "id": 123583,
-          "match_type": "scryfall",
+          "name": "Fossil Egg",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "072",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -6847,7 +7844,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274583
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123583/preview_fossil-egg-72-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85555,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -6868,10 +7876,13 @@
       "cardtrader": [
         {
           "id": 123584,
-          "match_type": "scryfall",
+          "name": "Hyper Devolution Spray",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "073",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -6941,7 +7952,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274584
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123584/preview_hyper-devolution-spray-73-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86245,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -6962,10 +7984,13 @@
       "cardtrader": [
         {
           "id": 123585,
-          "match_type": "scryfall",
+          "name": "Ruin Wall",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "074",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -7035,7 +8060,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274585
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123585/preview_ruin-wall-74-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88845,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     },
@@ -7056,10 +8092,13 @@
       "cardtrader": [
         {
           "id": 123586,
-          "match_type": "scryfall",
+          "name": "Energy Ark",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Discovery",
           "expansion_code": "n2",
           "collector_number": "075",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7129,7 +8168,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274586
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123586/preview_energy-ark-75-75-neo-discovery.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85209,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1434
         }
       ]
     }

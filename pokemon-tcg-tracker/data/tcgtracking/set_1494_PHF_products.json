@@ -4,8 +4,8 @@
   "set_abbr": "PHF",
   "set_released": "2014-11-05",
   "product_count": 156,
-  "data_modified": "2026-02-01T14:23:41-05:00",
-  "file_generated": "2026-02-02T03:32:28-05:00",
+  "data_modified": "2026-04-16T07:07:14-04:00",
+  "file_generated": "2026-04-17T04:30:47-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/1494/pricing",
   "products": [
     {
@@ -265,9 +265,13 @@
       "cardtrader": [
         {
           "id": 104776,
-          "match_type": "scryfall",
+          "name": "Gallade EX Box",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon Products",
           "expansion_code": "popr",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -310,7 +314,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            286999
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/104776/preview_gallade-ex-box-pokemon-products.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 97794,
+          "game_id": 5,
+          "category_id": 60,
+          "category_name": "Pokémon Box Set",
+          "product_type": "box_set",
+          "group_id": 2374
         }
       ]
     },
@@ -331,9 +346,13 @@
       "cardtrader": [
         {
           "id": 104753,
-          "match_type": "scryfall",
+          "name": "Hoenn Collection: Primal Groudon Collection",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon Products",
           "expansion_code": "popr",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -376,7 +395,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            286969
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/104753/preview_hoenn-collection-primal-groudon-collection-pokemon-products.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 97789,
+          "game_id": 5,
+          "category_id": 60,
+          "category_name": "Pokémon Box Set",
+          "product_type": "box_set",
+          "group_id": 2374
         }
       ]
     },
@@ -397,9 +427,13 @@
       "cardtrader": [
         {
           "id": 104755,
-          "match_type": "scryfall",
+          "name": "Hoenn Collection: Primal Kyogre Collection",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon Products",
           "expansion_code": "popr",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -442,7 +476,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            286970
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/104755/preview_hoenn-collection-primal-kyogre-collection-pokemon-products.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 97790,
+          "game_id": 5,
+          "category_id": 60,
+          "category_name": "Pokémon Box Set",
+          "product_type": "box_set",
+          "group_id": 2374
         }
       ]
     },
@@ -553,9 +598,13 @@
       "cardtrader": [
         {
           "id": 105621,
+          "name": "Phantom Forces Elite Trainer Box",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -598,7 +647,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            286949
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105621/preview_phantom-forces-elite-trainer-box-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 97786,
+          "game_id": 5,
+          "category_id": 68,
+          "category_name": "Pokémon Bundle ",
+          "product_type": "bundle",
+          "group_id": 1494
         }
       ]
     },
@@ -679,9 +739,13 @@
       "cardtrader": [
         {
           "id": 105620,
+          "name": "Phantom Forces: Bolt Twister Theme Deck",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -724,7 +788,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            286624
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105620/preview_phantom-forces-bolt-twister-theme-deck-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94625,
+          "game_id": 5,
+          "category_id": 69,
+          "category_name": "Pokémon Preconstructed Deck",
+          "product_type": "precon_deck",
+          "group_id": 1494
         }
       ]
     },
@@ -745,9 +820,13 @@
       "cardtrader": [
         {
           "id": 105619,
+          "name": "Phantom Forces: Burning Winds Theme Deck",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -790,7 +869,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            286623
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105619/preview_phantom-forces-burning-winds-theme-deck-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94624,
+          "game_id": 5,
+          "category_id": 69,
+          "category_name": "Pokémon Preconstructed Deck",
+          "product_type": "precon_deck",
+          "group_id": 1494
         }
       ]
     },
@@ -811,9 +901,13 @@
       "cardtrader": [
         {
           "id": 105618,
+          "name": "Phantom Forces Booster Box",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -847,7 +941,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            271440
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105618/preview_phantom-forces-booster-box-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94623,
+          "game_id": 5,
+          "category_id": 67,
+          "category_name": "Pokémon Booster Box",
+          "product_type": "booster_box",
+          "group_id": 1494
         }
       ]
     },
@@ -868,9 +973,13 @@
       "cardtrader": [
         {
           "id": 105617,
+          "name": "Phantom Forces Booster",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -904,7 +1013,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            271439
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105617/preview_phantom-forces-booster-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94622,
+          "game_id": 5,
+          "category_id": 66,
+          "category_name": "Pokémon Booster",
+          "product_type": "booster",
+          "group_id": 1494
         }
       ]
     },
@@ -925,10 +1045,13 @@
       "cardtrader": [
         {
           "id": 124478,
+          "name": "Venonat",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "001",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -997,7 +1120,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281802
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124478/preview_venonat-1-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94134,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -1018,10 +1152,13 @@
       "cardtrader": [
         {
           "id": 124496,
+          "name": "Talonflame",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "010/119",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -1090,7 +1227,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281811
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124496/preview_talonflame-10-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94143,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -1111,10 +1259,13 @@
       "cardtrader": [
         {
           "id": 124666,
+          "name": "Manectric Spirit Link",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "100/119",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -1183,7 +1334,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281907
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124666/preview_manectric-spirit-link-100-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94668,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -1204,10 +1366,13 @@
       "cardtrader": [
         {
           "id": 124668,
+          "name": "Professor Sycamore",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "101/119",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -1276,7 +1441,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281908
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124668/preview_professor-sycamore-101-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94669,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -1297,10 +1473,13 @@
       "cardtrader": [
         {
           "id": 124670,
+          "name": "Robo Substitute",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "102/119",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -1369,7 +1548,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281909
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124670/preview_robo-substitute-102-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94670,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -1390,10 +1580,13 @@
       "cardtrader": [
         {
           "id": 124672,
+          "name": "Roller Skates",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "103/119",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -1462,7 +1655,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281910
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124672/preview_roller-skates-103-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94671,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -1483,10 +1687,13 @@
       "cardtrader": [
         {
           "id": 124674,
+          "name": "Shauna",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "104/119",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -1555,7 +1762,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281911
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124674/preview_shauna-104-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94672,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -1576,10 +1794,13 @@
       "cardtrader": [
         {
           "id": 124676,
+          "name": "Steel Shelter",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "105/119",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -1648,7 +1869,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281912
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124676/preview_steel-shelter-105-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94673,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -1669,10 +1901,13 @@
       "cardtrader": [
         {
           "id": 124678,
+          "name": "Target Whistle",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "106/119",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -1741,7 +1976,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281913
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124678/preview_target-whistle-106-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94674,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -1762,10 +2008,13 @@
       "cardtrader": [
         {
           "id": 124680,
+          "name": "Tierno",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "107/119",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -1834,7 +2083,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281914
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124680/preview_tierno-107-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94675,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -1855,10 +2115,13 @@
       "cardtrader": [
         {
           "id": 124682,
+          "name": "Trick Coin",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "108/119",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -1927,7 +2190,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281915
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124682/preview_trick-coin-108-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94676,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -1948,10 +2222,13 @@
       "cardtrader": [
         {
           "id": 124684,
+          "name": "VS Seeker",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "109/119",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2020,7 +2297,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281916
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124684/preview_vs-seeker-109-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94677,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -2041,10 +2329,13 @@
       "cardtrader": [
         {
           "id": 124498,
+          "name": "Litleo",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "011/119",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -2113,7 +2404,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281813
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124498/preview_litleo-11-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94144,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -2134,10 +2436,13 @@
       "cardtrader": [
         {
           "id": 124686,
+          "name": "Xerosic",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "110/119",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2206,7 +2511,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281917
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124686/preview_xerosic-110-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94678,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -2227,10 +2543,13 @@
       "cardtrader": [
         {
           "id": 124688,
+          "name": "Double Colorless Energy",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "111/119",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2299,7 +2618,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281918
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124688/preview_double-colorless-energy-111-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94680,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -2320,10 +2650,13 @@
       "cardtrader": [
         {
           "id": 124690,
+          "name": "Mystery Energy",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "112/119",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2392,7 +2725,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281919
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124690/preview_mystery-energy-112-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94681,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -2413,10 +2757,13 @@
       "cardtrader": [
         {
           "id": 124692,
+          "name": "Manectric EX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "113/119",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -2476,7 +2823,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281920
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124692/preview_manectric-ex-rare-ultra-113-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94682,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -2497,10 +2855,13 @@
       "cardtrader": [
         {
           "id": 124693,
+          "name": "Gengar EX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "114/119",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -2560,7 +2921,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281921
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124693/preview_gengar-ex-rare-ultra-114-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94683,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -2581,10 +2953,13 @@
       "cardtrader": [
         {
           "id": 124694,
+          "name": "Malamar EX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "115/119",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -2644,7 +3019,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281922
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124694/preview_malamar-ex-rare-ultra-115-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94684,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -2665,10 +3051,13 @@
       "cardtrader": [
         {
           "id": 124695,
+          "name": "Florges EX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "116/119",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -2728,7 +3117,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281923
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124695/preview_florges-ex-rare-ultra-116-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94685,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -2749,10 +3149,13 @@
       "cardtrader": [
         {
           "id": 124696,
+          "name": "AZ",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "117/119",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -2812,7 +3215,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281924
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124696/preview_az-rare-ultra-117-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94660,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -2833,10 +3247,13 @@
       "cardtrader": [
         {
           "id": 124697,
+          "name": "Lysandre's Trump Card",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "118/119",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -2896,7 +3313,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281925
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124697/preview_lysandre-s-trump-card-rare-ultra-118-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94686,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -2917,10 +3345,13 @@
       "cardtrader": [
         {
           "id": 124698,
+          "name": "Xerosic",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "119/119",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -2980,7 +3411,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281926
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124698/preview_xerosic-rare-ultra-119-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94679,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -3001,10 +3443,13 @@
       "cardtrader": [
         {
           "id": 124500,
+          "name": "Pyroar",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "012/119",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -3073,7 +3518,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281815
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124500/preview_pyroar-rare-holo-12-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94145,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -3094,10 +3550,13 @@
       "cardtrader": [
         {
           "id": 124699,
+          "name": "M Manectric EX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "120/119",
+          "rarity": "Secret Rare",
           "finishes": [
             "normal"
           ],
@@ -3157,7 +3616,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281927
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124699/preview_m-manectric-ex-secret-rare-120-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94687,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -3178,10 +3648,13 @@
       "cardtrader": [
         {
           "id": 124700,
+          "name": "M Gengar EX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "121/119",
+          "rarity": "Secret Rare",
           "finishes": [
             "normal"
           ],
@@ -3241,7 +3714,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281928
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124700/preview_m-gengar-ex-secret-rare-121-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94688,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -3262,10 +3746,13 @@
       "cardtrader": [
         {
           "id": 124701,
+          "name": "Dialga EX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "122/119",
+          "rarity": "Secret Rare",
           "finishes": [
             "normal"
           ],
@@ -3325,7 +3812,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281929
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124701/preview_dialga-ex-secret-rare-122-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94689,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -3346,10 +3844,13 @@
       "cardtrader": [
         {
           "id": 124502,
+          "name": "Krabby",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "013/119",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -3418,7 +3919,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281816
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124502/preview_krabby-13-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94146,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -3439,10 +3951,13 @@
       "cardtrader": [
         {
           "id": 124504,
+          "name": "Kingler",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "014/119",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3511,7 +4026,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281817
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124504/preview_kingler-14-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94147,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -3532,10 +4058,13 @@
       "cardtrader": [
         {
           "id": 124506,
+          "name": "Totodile",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "015/119",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -3604,7 +4133,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281818
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124506/preview_totodile-15-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94148,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -3625,10 +4165,13 @@
       "cardtrader": [
         {
           "id": 124508,
+          "name": "Croconaw",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "016/119",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3697,7 +4240,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281819
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124508/preview_croconaw-16-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94149,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -3718,10 +4272,13 @@
       "cardtrader": [
         {
           "id": 124510,
+          "name": "Feraligatr",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "017/119",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -3790,7 +4347,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281820
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124510/preview_feraligatr-holo-rare-17-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94150,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -3811,10 +4379,13 @@
       "cardtrader": [
         {
           "id": 124512,
+          "name": "Finneon",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "018/119",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -3883,7 +4454,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281822
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124512/preview_finneon-18-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94151,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -3904,10 +4486,13 @@
       "cardtrader": [
         {
           "id": 124514,
+          "name": "Lumineon",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "019/119",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3976,7 +4561,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281823
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124514/preview_lumineon-19-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94152,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -3997,10 +4593,13 @@
       "cardtrader": [
         {
           "id": 124480,
+          "name": "Venomoth",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "002/119",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -4069,7 +4668,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281803
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124480/preview_venomoth-2-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94135,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -4090,10 +4700,13 @@
       "cardtrader": [
         {
           "id": 124516,
+          "name": "Frillish",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "020/119",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -4162,7 +4775,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281824
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124516/preview_frillish-20-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94153,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -4183,10 +4807,13 @@
       "cardtrader": [
         {
           "id": 124518,
+          "name": "Jellicent",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "021/119",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -4255,7 +4882,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281825
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124518/preview_jellicent-21-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94154,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -4276,10 +4914,13 @@
       "cardtrader": [
         {
           "id": 124520,
+          "name": "Alomomola",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "022/119",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4348,7 +4989,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281826
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124520/preview_alomomola-22-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94155,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -4369,10 +5021,13 @@
       "cardtrader": [
         {
           "id": 124522,
+          "name": "Manectric EX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "023/119",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -4432,7 +5087,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281827
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124522/preview_manectric-ex-23-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94156,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -4453,10 +5119,13 @@
       "cardtrader": [
         {
           "id": 124523,
+          "name": "M Manectric EX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "024/119",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -4516,7 +5185,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281828
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124523/preview_m-manectric-ex-24-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94157,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -4537,10 +5217,13 @@
       "cardtrader": [
         {
           "id": 124524,
+          "name": "Pachirisu",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "025/119",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -4609,7 +5292,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281829
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124524/preview_pachirisu-25-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94158,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -4630,10 +5324,13 @@
       "cardtrader": [
         {
           "id": 124526,
+          "name": "Joltik",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "026/119",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4702,7 +5399,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281830
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124526/preview_joltik-26-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94159,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -4723,10 +5431,13 @@
       "cardtrader": [
         {
           "id": 124528,
+          "name": "Galvantula",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "027/119",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -4795,7 +5506,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281831
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124528/preview_galvantula-27-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94160,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -4816,10 +5538,13 @@
       "cardtrader": [
         {
           "id": 124530,
+          "name": "Helioptile",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "028/119",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4888,7 +5613,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281833
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124530/preview_helioptile-28-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94161,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -4909,10 +5645,13 @@
       "cardtrader": [
         {
           "id": 124532,
+          "name": "Helioptile",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "029/119",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4981,7 +5720,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281834
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124532/preview_helioptile-29-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94162,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -5002,10 +5752,13 @@
       "cardtrader": [
         {
           "id": 124482,
+          "name": "Yanma",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "003/119",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5074,7 +5827,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281804
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124482/preview_yanma-3-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94136,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -5095,10 +5859,13 @@
       "cardtrader": [
         {
           "id": 124534,
+          "name": "Heliolisk",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "030/119",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -5167,7 +5934,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281835
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124534/preview_heliolisk-rare-holo-30-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94163,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -5188,10 +5966,13 @@
       "cardtrader": [
         {
           "id": 124536,
+          "name": "Zubat",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "031/119",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5260,7 +6041,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281837
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124536/preview_zubat-31-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94164,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -5281,10 +6073,13 @@
       "cardtrader": [
         {
           "id": 124538,
+          "name": "Golbat",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "032/119",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -5353,7 +6148,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281838
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124538/preview_golbat-32-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94165,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -5374,10 +6180,13 @@
       "cardtrader": [
         {
           "id": 124540,
+          "name": "Crobat",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "033/119",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -5446,7 +6255,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281839
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124540/preview_crobat-33-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94166,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -5467,10 +6287,13 @@
       "cardtrader": [
         {
           "id": 124542,
+          "name": "Gengar EX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "034/119",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -5530,7 +6353,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281840
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124542/preview_gengar-ex-34-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94167,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -5551,10 +6385,13 @@
       "cardtrader": [
         {
           "id": 124543,
+          "name": "M Gengar EX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "035/119",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -5614,7 +6451,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281841
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124543/preview_m-gengar-ex-35-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94168,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -5635,10 +6483,13 @@
       "cardtrader": [
         {
           "id": 124544,
+          "name": "Wobbuffet",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "036/119",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -5707,7 +6558,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281842
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124544/preview_wobbuffet-36-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94169,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -5728,10 +6590,13 @@
       "cardtrader": [
         {
           "id": 124546,
+          "name": "Gulpin",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "037/119",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5800,7 +6665,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281843
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124546/preview_gulpin-37-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94235,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -5821,10 +6697,13 @@
       "cardtrader": [
         {
           "id": 124548,
+          "name": "Swalot",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "038/119",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -5893,7 +6772,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281844
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124548/preview_swalot-38-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94236,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -5914,10 +6804,13 @@
       "cardtrader": [
         {
           "id": 124550,
+          "name": "Munna",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "039/119",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5986,7 +6879,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281845
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124550/preview_munna-39-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94237,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -6007,10 +6911,13 @@
       "cardtrader": [
         {
           "id": 124484,
+          "name": "Yanmega",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "004/119",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -6079,7 +6986,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281805
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124484/preview_yanmega-4-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94137,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -6100,10 +7018,13 @@
       "cardtrader": [
         {
           "id": 124552,
+          "name": "Musharna",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "040/119",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -6172,7 +7093,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281846
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124552/preview_musharna-40-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94238,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -6193,10 +7125,13 @@
       "cardtrader": [
         {
           "id": 124554,
+          "name": "Litwick",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "041/119",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6265,7 +7200,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281847
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124554/preview_litwick-41-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94239,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -6286,10 +7232,13 @@
       "cardtrader": [
         {
           "id": 124556,
+          "name": "Lampent",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "042/119",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -6358,7 +7307,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281848
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124556/preview_lampent-42-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94500,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -6379,10 +7339,13 @@
       "cardtrader": [
         {
           "id": 124558,
+          "name": "Chandelure",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "043/119",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -6451,7 +7414,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281849
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124558/preview_chandelure-rare-holo-43-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94501,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -6472,10 +7446,13 @@
       "cardtrader": [
         {
           "id": 124560,
+          "name": "Pumpkaboo",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "044/119",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6544,7 +7521,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281850
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124560/preview_pumpkaboo-44-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94502,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -6565,10 +7553,13 @@
       "cardtrader": [
         {
           "id": 124562,
+          "name": "Gourgeist",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "045/119",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -6637,7 +7628,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281851
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124562/preview_gourgeist-rare-holo-45-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94503,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -6658,10 +7660,13 @@
       "cardtrader": [
         {
           "id": 124564,
+          "name": "Gligar",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "046/119",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6730,7 +7735,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281852
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124564/preview_gligar-46-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94504,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -6751,10 +7767,13 @@
       "cardtrader": [
         {
           "id": 124566,
+          "name": "Gliscor",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "047/119",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -6823,7 +7842,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281853
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124566/preview_gliscor-47-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94505,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -6844,10 +7874,13 @@
       "cardtrader": [
         {
           "id": 124568,
+          "name": "Roggenrola",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "048/119",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6916,7 +7949,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281854
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124568/preview_roggenrola-48-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94506,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -6937,10 +7981,13 @@
       "cardtrader": [
         {
           "id": 124570,
+          "name": "Boldore",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "049/119",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -7009,7 +8056,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281855
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124570/preview_boldore-49-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94507,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -7030,10 +8088,13 @@
       "cardtrader": [
         {
           "id": 124486,
+          "name": "Sewaddle",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "005/119",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7102,7 +8163,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281806
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124486/preview_sewaddle-5-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94138,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -7123,10 +8195,13 @@
       "cardtrader": [
         {
           "id": 124572,
+          "name": "Gigalith",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "050/119",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -7195,7 +8270,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281856
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124572/preview_gigalith-rare-holo-50-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94508,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -7216,10 +8302,13 @@
       "cardtrader": [
         {
           "id": 124574,
+          "name": "Murkrow",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "051/119",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7288,7 +8377,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281857
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124574/preview_murkrow-51-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94509,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -7309,10 +8409,13 @@
       "cardtrader": [
         {
           "id": 124576,
+          "name": "Honchkrow",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "052/119",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -7381,7 +8484,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281858
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124576/preview_honchkrow-52-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94510,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -7402,10 +8516,13 @@
       "cardtrader": [
         {
           "id": 124578,
+          "name": "Poochyena",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "053/119",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7474,7 +8591,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281859
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124578/preview_poochyena-53-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94511,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -7495,10 +8623,13 @@
       "cardtrader": [
         {
           "id": 124580,
+          "name": "Mightyena",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "054/119",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -7567,7 +8698,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281860
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124580/preview_mightyena-54-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94512,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -7588,10 +8730,13 @@
       "cardtrader": [
         {
           "id": 124582,
+          "name": "Spiritomb",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "055/119",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -7660,7 +8805,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281861
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124582/preview_spiritomb-55-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94513,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -7681,10 +8837,13 @@
       "cardtrader": [
         {
           "id": 124584,
+          "name": "Purrloin",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "056/119",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7753,7 +8912,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281862
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124584/preview_purrloin-56-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94514,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -7774,10 +8944,13 @@
       "cardtrader": [
         {
           "id": 124586,
+          "name": "Liepard",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "057/119",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -7846,7 +9019,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281863
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124586/preview_liepard-57-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94515,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -7867,10 +9051,13 @@
       "cardtrader": [
         {
           "id": 124588,
+          "name": "Malamar EX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "058/119",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -7930,7 +9117,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281864
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124588/preview_malamar-ex-58-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94626,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -7951,10 +9149,13 @@
       "cardtrader": [
         {
           "id": 124589,
+          "name": "Skarmory",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "059/119",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -8023,7 +9224,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281865
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124589/preview_skarmory-59-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94627,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -8044,10 +9256,13 @@
       "cardtrader": [
         {
           "id": 124488,
+          "name": "Swadloon",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "006/119",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -8116,7 +9331,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281807
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124488/preview_swadloon-6-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94139,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -8137,10 +9363,13 @@
       "cardtrader": [
         {
           "id": 124591,
+          "name": "Bronzor",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "060/119",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -8209,7 +9438,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281866
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124591/preview_bronzor-60-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94628,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -8230,10 +9470,13 @@
       "cardtrader": [
         {
           "id": 124593,
+          "name": "Bronzong",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "061/119",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -8302,7 +9545,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281867
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124593/preview_bronzong-61-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94629,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -8323,10 +9577,13 @@
       "cardtrader": [
         {
           "id": 124595,
+          "name": "Dialga EX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "062/119",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -8386,7 +9643,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281868
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124595/preview_dialga-ex-62-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94630,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -8407,10 +9675,13 @@
       "cardtrader": [
         {
           "id": 124596,
+          "name": "Heatran",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "063/119",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -8479,7 +9750,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281869
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124596/preview_heatran-rare-holo-63-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94631,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -8500,10 +9782,13 @@
       "cardtrader": [
         {
           "id": 124598,
+          "name": "Escavalier",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "064/119",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -8572,7 +9857,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281870
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124598/preview_escavalier-64-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94632,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -8593,10 +9889,13 @@
       "cardtrader": [
         {
           "id": 124600,
+          "name": "Aegislash EX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "065",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -8656,7 +9955,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281871
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124600/preview_aegislash-ex-65-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94633,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -8677,10 +9987,13 @@
       "cardtrader": [
         {
           "id": 124601,
+          "name": "Klefki",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "066/119",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -8749,7 +10062,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281872
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124601/preview_klefki-66-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94634,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -8770,10 +10094,13 @@
       "cardtrader": [
         {
           "id": 124603,
+          "name": "Florges EX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "067/119",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -8833,7 +10160,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281873
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124603/preview_florges-ex-67-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94635,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -8854,10 +10192,13 @@
       "cardtrader": [
         {
           "id": 124604,
+          "name": "Swirlix",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "068/119",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -8926,7 +10267,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281874
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124604/preview_swirlix-68-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94636,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -8947,10 +10299,13 @@
       "cardtrader": [
         {
           "id": 124606,
+          "name": "Slurpuff",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "069/119",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -9019,7 +10374,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281875
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124606/preview_slurpuff-rare-holo-69-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94637,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -9040,10 +10406,13 @@
       "cardtrader": [
         {
           "id": 124490,
+          "name": "Leavanny",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "007/119",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -9112,7 +10481,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281808
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124490/preview_leavanny-7-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94140,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -9133,10 +10513,13 @@
       "cardtrader": [
         {
           "id": 124608,
+          "name": "Dedenne",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "070/119",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -9205,7 +10588,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281876
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124608/preview_dedenne-70-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94638,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -9226,10 +10620,13 @@
       "cardtrader": [
         {
           "id": 124610,
+          "name": "Diancie",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "071/119",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -9298,7 +10695,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281877
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124610/preview_diancie-rare-holo-71-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94639,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -9319,10 +10727,13 @@
       "cardtrader": [
         {
           "id": 124612,
+          "name": "Deino",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "072/119",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -9391,7 +10802,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281878
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124612/preview_deino-72-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94640,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -9412,10 +10834,13 @@
       "cardtrader": [
         {
           "id": 124614,
+          "name": "Zweilous",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "073/119",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -9484,7 +10909,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281879
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124614/preview_zweilous-73-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94641,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -9505,10 +10941,13 @@
       "cardtrader": [
         {
           "id": 124616,
+          "name": "Hydreigon",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "074/119",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -9577,7 +11016,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281880
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124616/preview_hydreigon-rare-holo-74-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94642,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -9598,10 +11048,13 @@
       "cardtrader": [
         {
           "id": 124618,
+          "name": "Goomy",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "075/119",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -9670,7 +11123,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281881
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124618/preview_goomy-75-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94643,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -9691,10 +11155,13 @@
       "cardtrader": [
         {
           "id": 124620,
+          "name": "Sliggoo",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "076/119",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -9763,7 +11230,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281882
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124620/preview_sliggoo-76-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94644,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -9784,10 +11262,13 @@
       "cardtrader": [
         {
           "id": 124622,
+          "name": "Goodra",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "077/119",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -9856,7 +11337,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281883
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124622/preview_goodra-rare-holo-77-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94645,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -9877,10 +11369,13 @@
       "cardtrader": [
         {
           "id": 124624,
+          "name": "Spearow",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "078/119",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -9949,7 +11444,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281884
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124624/preview_spearow-78-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94646,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -9970,10 +11476,13 @@
       "cardtrader": [
         {
           "id": 124626,
+          "name": "Fearow",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "079/119",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -10042,7 +11551,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281885
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124626/preview_fearow-79-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94647,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -10063,10 +11583,13 @@
       "cardtrader": [
         {
           "id": 124492,
+          "name": "Karrablast",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "008/119",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -10135,7 +11658,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281809
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124492/preview_karrablast-8-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94141,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -10156,10 +11690,13 @@
       "cardtrader": [
         {
           "id": 124628,
+          "name": "Chansey",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "080/119",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -10228,7 +11765,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281886
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124628/preview_chansey-80-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94648,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -10249,10 +11797,13 @@
       "cardtrader": [
         {
           "id": 124630,
+          "name": "Blissey",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "081/119",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -10321,7 +11872,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281887
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124630/preview_blissey-81-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94649,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -10342,10 +11904,13 @@
       "cardtrader": [
         {
           "id": 124632,
+          "name": "Girafarig",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "082/119",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -10414,7 +11979,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281888
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124632/preview_girafarig-82-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94650,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -10435,10 +12011,13 @@
       "cardtrader": [
         {
           "id": 124634,
+          "name": "Whismur",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "083/119",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -10507,7 +12086,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281889
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124634/preview_whismur-83-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94651,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -10528,10 +12118,13 @@
       "cardtrader": [
         {
           "id": 124636,
+          "name": "Loudred",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "084/119",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -10600,7 +12193,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281890
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124636/preview_loudred-84-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94652,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -10621,10 +12225,13 @@
       "cardtrader": [
         {
           "id": 124638,
+          "name": "Exploud",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "085/119",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -10693,7 +12300,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281891
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124638/preview_exploud-85-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94653,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -10714,10 +12332,13 @@
       "cardtrader": [
         {
           "id": 124640,
+          "name": "Regigigas",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "086/119",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -10786,7 +12407,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281892
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124640/preview_regigigas-rare-holo-86-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94654,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -10807,10 +12439,13 @@
       "cardtrader": [
         {
           "id": 124642,
+          "name": "Bunnelby",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "087/119",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -10879,7 +12514,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281893
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124642/preview_bunnelby-87-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94655,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -10900,10 +12546,13 @@
       "cardtrader": [
         {
           "id": 124644,
+          "name": "Diggersby",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "088/119",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -10972,7 +12621,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281894
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124644/preview_diggersby-88-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94656,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -10993,10 +12653,13 @@
       "cardtrader": [
         {
           "id": 124646,
+          "name": "Fletchling",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "089/119",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -11065,7 +12728,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281895
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124646/preview_fletchling-89-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94657,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -11086,10 +12760,13 @@
       "cardtrader": [
         {
           "id": 124494,
+          "name": "Fletchinder",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "009/119",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -11158,7 +12835,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281810
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124494/preview_fletchinder-9-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94142,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -11179,10 +12867,13 @@
       "cardtrader": [
         {
           "id": 124648,
+          "name": "Furfrou",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "090/119",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -11251,7 +12942,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281896
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124648/preview_furfrou-90-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94658,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -11272,10 +12974,13 @@
       "cardtrader": [
         {
           "id": 124650,
+          "name": "AZ",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "091/119",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -11344,7 +13049,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281897
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124650/preview_az-91-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94659,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -11365,10 +13081,13 @@
       "cardtrader": [
         {
           "id": 124652,
+          "name": "Battle Compressor",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "092/119",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -11437,7 +13156,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281898
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124652/preview_battle-compressor-92-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94661,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -11458,10 +13188,13 @@
       "cardtrader": [
         {
           "id": 124654,
+          "name": "Dimension Valley",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "093/119",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -11530,7 +13263,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281899
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124654/preview_dimension-valley-93-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94662,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -11551,10 +13295,13 @@
       "cardtrader": [
         {
           "id": 124656,
+          "name": "Enhanced Hammer",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "094/119",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -11623,7 +13370,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281900
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124656/preview_enhanced-hammer-94-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94690,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -11644,10 +13402,13 @@
       "cardtrader": [
         {
           "id": 124658,
+          "name": "Gengar Spirit Link",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "095/119",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -11716,7 +13477,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281902
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124658/preview_gengar-spirit-link-95-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94663,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -11737,10 +13509,13 @@
       "cardtrader": [
         {
           "id": 124660,
+          "name": "Hand Scope",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "096/119",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -11809,7 +13584,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281903
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124660/preview_hand-scope-96-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94664,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -11830,10 +13616,13 @@
       "cardtrader": [
         {
           "id": 124662,
+          "name": "Head Ringer",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "097/119",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -11902,7 +13691,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281904
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124662/preview_head-ringer-rare-holo-97-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94665,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -11923,10 +13723,13 @@
       "cardtrader": [
         {
           "id": 124663,
+          "name": "Jamming Net",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "098/119",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -11995,7 +13798,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281905
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124663/preview_jamming-net-rare-holo-98-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94666,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     },
@@ -12016,10 +13830,13 @@
       "cardtrader": [
         {
           "id": 124664,
+          "name": "Lysandre's Trump Card",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Phantom Forces",
           "expansion_code": "phf",
           "collector_number": "099/119",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -12088,7 +13905,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281906
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124664/preview_lysandre-s-trump-card-99-119-phantom-forces.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 94667,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1494
         }
       ]
     }
