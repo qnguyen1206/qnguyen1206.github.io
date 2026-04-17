@@ -4,8 +4,8 @@
   "set_abbr": "UD",
   "set_released": "2010-08-18",
   "product_count": 93,
-  "data_modified": "2026-02-01T14:23:20-05:00",
-  "file_generated": "2026-02-02T03:32:29-05:00",
+  "data_modified": "2026-04-15T07:07:41-04:00",
+  "file_generated": "2026-04-16T04:30:47-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/1403/pricing",
   "products": [
     {
@@ -25,9 +25,13 @@
       "cardtrader": [
         {
           "id": 105457,
+          "name": "Undaunted Booster Box",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -61,7 +65,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            271928
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105457/preview_undaunted-booster-box-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 98587,
+          "game_id": 5,
+          "category_id": 67,
+          "category_name": "Pokémon Booster Box",
+          "product_type": "booster_box",
+          "group_id": 1403
         }
       ]
     },
@@ -82,9 +97,13 @@
       "cardtrader": [
         {
           "id": 105456,
+          "name": "Undaunted Booster",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -118,7 +137,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            271875
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105456/preview_undaunted-booster-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 98586,
+          "game_id": 5,
+          "category_id": 66,
+          "category_name": "Pokémon Booster",
+          "product_type": "booster",
+          "group_id": 1403
         }
       ]
     },
@@ -139,10 +169,13 @@
       "cardtrader": [
         {
           "id": 130824,
+          "name": "Bellossom",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "01/90",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -209,7 +242,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279254
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130824/preview_bellossom-holo-rare-1-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83801,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -230,10 +274,13 @@
       "cardtrader": [
         {
           "id": 130842,
+          "name": "Umbreon",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "10/90",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -300,7 +347,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279263
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130842/preview_umbreon-holo-rare-10-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90145,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -321,10 +379,13 @@
       "cardtrader": [
         {
           "id": 130844,
+          "name": "Dodrio",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "11/90",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -391,7 +452,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279264
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130844/preview_dodrio-11-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84854,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -412,10 +484,13 @@
       "cardtrader": [
         {
           "id": 130846,
+          "name": "Drifblim",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "12/90",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -482,7 +557,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279265
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130846/preview_drifblim-12-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84948,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -503,10 +589,13 @@
       "cardtrader": [
         {
           "id": 130848,
+          "name": "Forretress",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "13/90",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -573,7 +662,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279266
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130848/preview_forretress-13-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85552,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -594,10 +694,13 @@
       "cardtrader": [
         {
           "id": 130850,
+          "name": "Hariyama",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "14/90",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -664,7 +767,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279267
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130850/preview_hariyama-14-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86016,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -685,10 +799,13 @@
       "cardtrader": [
         {
           "id": 130852,
+          "name": "Honchkrow",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "15/90",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -755,7 +872,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279268
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130852/preview_honchkrow-15-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86161,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -776,10 +904,13 @@
       "cardtrader": [
         {
           "id": 130854,
+          "name": "Honchkrow",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "16/90",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -846,7 +977,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279269
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130854/preview_honchkrow-16-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86162,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -867,10 +1009,13 @@
       "cardtrader": [
         {
           "id": 130856,
+          "name": "Leafeon",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "17/90",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -937,7 +1082,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279270
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130856/preview_leafeon-17-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86680,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -958,10 +1114,13 @@
       "cardtrader": [
         {
           "id": 130858,
+          "name": "Metagross",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "18/90",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -1028,7 +1187,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279271
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130858/preview_metagross-18-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87341,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -1049,10 +1219,13 @@
       "cardtrader": [
         {
           "id": 130860,
+          "name": "Mismagius",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "19/90",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -1119,7 +1292,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279272
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130860/preview_mismagius-19-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87518,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -1140,10 +1324,13 @@
       "cardtrader": [
         {
           "id": 130826,
+          "name": "Espeon",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "002",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1210,7 +1397,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279255
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130826/preview_espeon-holo-rare-2-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85322,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -1231,10 +1429,13 @@
       "cardtrader": [
         {
           "id": 130862,
+          "name": "Rotom",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "20/90",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -1301,7 +1502,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279273
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130862/preview_rotom-20-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88839,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -1322,10 +1534,13 @@
       "cardtrader": [
         {
           "id": 130864,
+          "name": "Skarmory",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "21/90",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -1392,7 +1607,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279274
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130864/preview_skarmory-21-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89242,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -1413,10 +1639,13 @@
       "cardtrader": [
         {
           "id": 130866,
+          "name": "Tropius",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "22/90",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -1483,7 +1712,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279275
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130866/preview_tropius-22-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90062,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -1504,10 +1744,13 @@
       "cardtrader": [
         {
           "id": 130868,
+          "name": "Vespiquen",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "23/90",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -1574,7 +1817,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279276
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130868/preview_vespiquen-23-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90329,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -1595,10 +1849,13 @@
       "cardtrader": [
         {
           "id": 130870,
+          "name": "Vileplume",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "24/90",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -1665,7 +1922,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279277
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130870/preview_vileplume-24-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90381,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -1686,10 +1954,13 @@
       "cardtrader": [
         {
           "id": 130872,
+          "name": "Weavile",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "25/90",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -1756,7 +2027,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279278
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130872/preview_weavile-25-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90533,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -1777,10 +2059,13 @@
       "cardtrader": [
         {
           "id": 130874,
+          "name": "Flareon",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "26/90",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -1847,7 +2132,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279279
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130874/preview_flareon-26-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85498,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -1868,10 +2164,13 @@
       "cardtrader": [
         {
           "id": 130876,
+          "name": "Gloom",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "27/90",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -1938,7 +2237,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279280
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130876/preview_gloom-27-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85786,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -1959,10 +2269,13 @@
       "cardtrader": [
         {
           "id": 130878,
+          "name": "Jolteon",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "28/90",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2029,7 +2342,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279281
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130878/preview_jolteon-28-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86345,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -2050,10 +2374,13 @@
       "cardtrader": [
         {
           "id": 130880,
+          "name": "Lairon",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "29/90",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2120,7 +2447,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279282
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130880/preview_lairon-29-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86582,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -2141,10 +2479,13 @@
       "cardtrader": [
         {
           "id": 130828,
+          "name": "Forretress",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "03/90",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -2211,7 +2552,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279256
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130828/preview_forretress-rare-holo-3-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85551,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -2232,10 +2584,13 @@
       "cardtrader": [
         {
           "id": 130882,
+          "name": "Metang",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "30/90",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2302,7 +2657,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279283
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130882/preview_metang-30-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87382,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -2323,10 +2689,13 @@
       "cardtrader": [
         {
           "id": 130884,
+          "name": "Muk",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "31/90",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2393,7 +2762,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279284
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130884/preview_muk-31-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87625,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -2414,10 +2794,13 @@
       "cardtrader": [
         {
           "id": 130886,
+          "name": "Pinsir",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "32/90",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2484,7 +2867,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279285
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130886/preview_pinsir-32-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88139,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -2505,10 +2899,13 @@
       "cardtrader": [
         {
           "id": 130888,
+          "name": "Raichu",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "33/90",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2575,7 +2972,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279286
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130888/preview_raichu-33-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88518,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -2596,10 +3004,13 @@
       "cardtrader": [
         {
           "id": 130890,
+          "name": "Raticate",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "34/90",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2666,7 +3077,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279287
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130890/preview_raticate-34-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88606,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -2687,10 +3109,13 @@
       "cardtrader": [
         {
           "id": 130892,
+          "name": "Sableye",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "35/90",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2757,7 +3182,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279288
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130892/preview_sableye-35-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88854,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -2778,10 +3214,13 @@
       "cardtrader": [
         {
           "id": 130894,
+          "name": "Scyther",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "36/90",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2848,7 +3287,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279289
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130894/preview_scyther-36-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89003,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -2869,10 +3319,13 @@
       "cardtrader": [
         {
           "id": 130896,
+          "name": "Skuntank",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "37/90",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2939,7 +3392,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279290
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130896/preview_skuntank-37-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89282,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -2960,10 +3424,13 @@
       "cardtrader": [
         {
           "id": 130898,
+          "name": "Slowbro",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "38/90",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3030,7 +3497,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279291
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130898/preview_slowbro-38-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89308,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -3051,10 +3529,13 @@
       "cardtrader": [
         {
           "id": 130900,
+          "name": "Togetic",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "39/90",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3121,7 +3602,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279292
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130900/preview_togetic-39-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89944,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -3142,10 +3634,13 @@
       "cardtrader": [
         {
           "id": 130830,
+          "name": "Gliscor",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "04/90",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -3212,7 +3707,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279257
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130830/preview_gliscor-rare-holo-4-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85774,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -3233,10 +3739,13 @@
       "cardtrader": [
         {
           "id": 130902,
+          "name": "Unown",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "40/90",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3303,7 +3812,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279293
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130902/preview_unown-40-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90164,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -3324,10 +3844,13 @@
       "cardtrader": [
         {
           "id": 130904,
+          "name": "Vaporeon",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "41/90",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3394,7 +3917,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279294
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130904/preview_vaporeon-41-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90286,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -3415,10 +3949,13 @@
       "cardtrader": [
         {
           "id": 130906,
+          "name": "Aron",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "42/90",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -3485,7 +4022,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279295
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130906/preview_aron-42-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83638,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -3506,10 +4054,13 @@
       "cardtrader": [
         {
           "id": 130908,
+          "name": "Beldum",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "43/90",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -3576,7 +4127,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279296
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130908/preview_beldum-43-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83792,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -3597,10 +4159,13 @@
       "cardtrader": [
         {
           "id": 130910,
+          "name": "Combee",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "44/90",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -3667,7 +4232,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279297
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130910/preview_combee-44-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84397,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -3688,10 +4264,13 @@
       "cardtrader": [
         {
           "id": 130912,
+          "name": "Doduo",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "45/90",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -3758,7 +4337,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279298
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130912/preview_doduo-45-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84865,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -3779,10 +4369,13 @@
       "cardtrader": [
         {
           "id": 130914,
+          "name": "Drifloon",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "46/90",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -3849,7 +4442,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279299
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130914/preview_drifloon-46-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84960,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -3870,10 +4474,13 @@
       "cardtrader": [
         {
           "id": 130916,
+          "name": "Eevee",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "47/90",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -3940,7 +4547,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279300
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130916/preview_eevee-47-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85087,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -3961,10 +4579,13 @@
       "cardtrader": [
         {
           "id": 130918,
+          "name": "Eevee",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "48/90",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4031,7 +4652,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279301
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130918/preview_eevee-48-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85088,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -4052,10 +4684,13 @@
       "cardtrader": [
         {
           "id": 130920,
+          "name": "Gligar",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "49/90",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4122,7 +4757,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279302
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130920/preview_gligar-49-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85768,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -4143,10 +4789,13 @@
       "cardtrader": [
         {
           "id": 130832,
+          "name": "Houndoom",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "05/90",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -4213,7 +4862,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279258
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130832/preview_houndoom-rare-holo-5-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86209,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -4234,10 +4894,13 @@
       "cardtrader": [
         {
           "id": 130922,
+          "name": "Grimer",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "50/90",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4304,7 +4967,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279303
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130922/preview_grimer-50-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85913,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -4325,10 +4999,13 @@
       "cardtrader": [
         {
           "id": 130924,
+          "name": "Hitmonchan",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "51/90",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4395,7 +5072,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279304
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130924/preview_hitmonchan-51-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86095,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -4416,10 +5104,13 @@
       "cardtrader": [
         {
           "id": 130926,
+          "name": "Hitmonlee",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "52/90",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4486,7 +5177,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279305
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130926/preview_hitmonlee-52-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86107,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -4507,10 +5209,13 @@
       "cardtrader": [
         {
           "id": 130928,
+          "name": "Houndour",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "53/90",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4577,7 +5282,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279306
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130928/preview_houndour-53-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86230,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -4598,10 +5314,13 @@
       "cardtrader": [
         {
           "id": 130930,
+          "name": "Houndour",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "54/90",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4668,7 +5387,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279307
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130930/preview_houndour-54-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86231,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -4689,10 +5419,13 @@
       "cardtrader": [
         {
           "id": 130932,
+          "name": "Makuhita",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "55/90",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4759,7 +5492,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279308
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130932/preview_makuhita-55-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87133,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -4780,10 +5524,13 @@
       "cardtrader": [
         {
           "id": 130934,
+          "name": "Mawile",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "56/90",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4850,7 +5597,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279309
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130934/preview_mawile-56-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87263,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -4871,10 +5629,13 @@
       "cardtrader": [
         {
           "id": 130936,
+          "name": "Misdreavus",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "57/90",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4941,7 +5702,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279310
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130936/preview_misdreavus-57-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87511,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -4962,10 +5734,13 @@
       "cardtrader": [
         {
           "id": 130938,
+          "name": "Murkrow",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "58/90",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5032,7 +5807,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279311
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130938/preview_murkrow-58-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87655,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -5053,10 +5839,13 @@
       "cardtrader": [
         {
           "id": 130940,
+          "name": "Murkrow",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "59/90",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5123,7 +5912,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279312
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130940/preview_murkrow-59-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87656,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -5144,10 +5944,13 @@
       "cardtrader": [
         {
           "id": 130834,
+          "name": "Magcargo",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "06/90",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -5214,7 +6017,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279259
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130834/preview_magcargo-rare-holo-6-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87017,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -5235,10 +6049,13 @@
       "cardtrader": [
         {
           "id": 130942,
+          "name": "Oddish",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "60/90",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5305,7 +6122,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279313
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130942/preview_oddish-60-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87845,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -5326,10 +6154,13 @@
       "cardtrader": [
         {
           "id": 130944,
+          "name": "Pikachu",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "61/90",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5396,7 +6227,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279314
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130944/preview_pikachu-61-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88097,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -5417,10 +6259,13 @@
       "cardtrader": [
         {
           "id": 130946,
+          "name": "Pineco",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "62/90",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5487,7 +6332,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279315
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130946/preview_pineco-62-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88129,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -5508,10 +6364,13 @@
       "cardtrader": [
         {
           "id": 130948,
+          "name": "Pineco",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "63/90",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5578,7 +6437,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279316
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130948/preview_pineco-63-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88130,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -5599,10 +6469,13 @@
       "cardtrader": [
         {
           "id": 130950,
+          "name": "Rattata",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "64/90",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5669,7 +6542,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279317
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130950/preview_rattata-64-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88621,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -5690,10 +6574,13 @@
       "cardtrader": [
         {
           "id": 130952,
+          "name": "Scyther",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "65/90",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5760,7 +6647,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279318
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130952/preview_scyther-65-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89004,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -5781,10 +6679,13 @@
       "cardtrader": [
         {
           "id": 130954,
+          "name": "Slowpoke",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "66/90",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5851,7 +6752,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279319
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130954/preview_slowpoke-66-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89333,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -5872,10 +6784,13 @@
       "cardtrader": [
         {
           "id": 130956,
+          "name": "Slugma",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "67/90",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5942,7 +6857,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279320
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130956/preview_slugma-67-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89346,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -5963,10 +6889,13 @@
       "cardtrader": [
         {
           "id": 130958,
+          "name": "Sneasel",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "68/90",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6033,7 +6962,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279321
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130958/preview_sneasel-68-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89371,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -6054,10 +6994,13 @@
       "cardtrader": [
         {
           "id": 130960,
+          "name": "Stunky",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "69/90",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6124,7 +7067,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279322
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130960/preview_stunky-69-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89587,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -6145,10 +7099,13 @@
       "cardtrader": [
         {
           "id": 130836,
+          "name": "Scizor",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "07/90",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -6215,7 +7172,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279260
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130836/preview_scizor-rare-holo-7-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88963,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -6236,10 +7204,13 @@
       "cardtrader": [
         {
           "id": 130962,
+          "name": "Togepi",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "70/90",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6306,7 +7277,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279323
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130962/preview_togepi-70-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89935,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -6327,10 +7309,13 @@
       "cardtrader": [
         {
           "id": 130964,
+          "name": "Burned Tower",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "71/90",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -6397,7 +7382,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279324
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130964/preview_burned-tower-71-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84058,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -6418,10 +7414,13 @@
       "cardtrader": [
         {
           "id": 130966,
+          "name": "Defender",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "72/90",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -6488,7 +7487,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279325
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130966/preview_defender-72-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84727,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -6509,10 +7519,13 @@
       "cardtrader": [
         {
           "id": 130968,
+          "name": "Energy Exchanger",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "73/90",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -6579,7 +7592,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279326
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130968/preview_energy-exchanger-73-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85212,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -6600,10 +7624,13 @@
       "cardtrader": [
         {
           "id": 130970,
+          "name": "Flower Shop Lady",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "74/90",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -6670,7 +7697,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279327
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130970/preview_flower-shop-lady-74-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85519,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -6691,10 +7729,13 @@
       "cardtrader": [
         {
           "id": 130972,
+          "name": "Legend Box",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "75/90",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -6761,7 +7802,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279328
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130972/preview_legend-box-75-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86709,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -6782,10 +7834,13 @@
       "cardtrader": [
         {
           "id": 130974,
+          "name": "Ruins of Alph",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "76/90",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -6852,7 +7907,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279329
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130974/preview_ruins-of-alph-76-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88846,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -6873,10 +7939,13 @@
       "cardtrader": [
         {
           "id": 130976,
+          "name": "Sage's Training",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "77/90",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -6943,7 +8012,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279330
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130976/preview_sage-s-training-77-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88893,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -6964,10 +8044,13 @@
       "cardtrader": [
         {
           "id": 130978,
+          "name": "Team Rocket's Trickery",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "78/90",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -7034,7 +8117,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279331
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130978/preview_team-rocket-s-trickery-78-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89852,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -7055,10 +8149,13 @@
       "cardtrader": [
         {
           "id": 130980,
+          "name": "Darkness Energy",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "79/90",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -7125,7 +8222,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279332
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130980/preview_darkness-energy-79-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84693,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -7146,10 +8254,13 @@
       "cardtrader": [
         {
           "id": 130838,
+          "name": "Smeargle",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "08/90",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -7216,7 +8327,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279261
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130838/preview_smeargle-rare-holo-8-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89356,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -7237,10 +8359,13 @@
       "cardtrader": [
         {
           "id": 130982,
+          "name": "Metal Energy",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "80/90",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -7307,7 +8432,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279333
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130982/preview_metal-energy-80-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87366,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -7328,10 +8464,13 @@
       "cardtrader": [
         {
           "id": 130984,
+          "name": "Espeon",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "81/90",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -7389,7 +8528,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279334
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130984/preview_espeon-super-rare-holo-81-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85323,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -7410,10 +8560,13 @@
       "cardtrader": [
         {
           "id": 130985,
+          "name": "Houndoom",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "82/90",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -7471,7 +8624,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279335
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130985/preview_houndoom-super-rare-holo-82-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86210,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -7492,10 +8656,13 @@
       "cardtrader": [
         {
           "id": 130986,
+          "name": "Raichu",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "83/90",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -7553,7 +8720,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279336
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130986/preview_raichu-super-rare-holo-83-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88519,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -7574,10 +8752,13 @@
       "cardtrader": [
         {
           "id": 130987,
+          "name": "Scizor",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "84/90",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -7635,7 +8816,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279337
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130987/preview_scizor-super-rare-holo-84-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88964,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -7656,10 +8848,13 @@
       "cardtrader": [
         {
           "id": 130988,
+          "name": "Slowking",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "85/90",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -7717,7 +8912,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279338
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130988/preview_slowking-super-rare-holo-85-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89318,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -7738,10 +8944,13 @@
       "cardtrader": [
         {
           "id": 130989,
+          "name": "Umbreon",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "86/90",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -7799,7 +9008,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279339
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130989/preview_umbreon-super-rare-holo-86-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90146,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -7820,10 +9040,13 @@
       "cardtrader": [
         {
           "id": 130990,
+          "name": "Kyogre & Groudon Legend",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "87/90",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -7881,7 +9104,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279340
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130990/preview_kyogre-groudon-legend-top-87-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86554,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -7902,10 +9136,13 @@
       "cardtrader": [
         {
           "id": 130991,
+          "name": "Kyogre & Groudon Legend",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "88/90",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -7963,7 +9200,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279341
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130991/preview_kyogre-groudon-legend-bottom-88-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86553,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -7984,10 +9232,13 @@
       "cardtrader": [
         {
           "id": 130992,
+          "name": "Rayquaza & Deoxys Legend",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "89/90",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -8045,7 +9296,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279342
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130992/preview_rayquaza-deoxys-legend-top-89-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88638,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -8066,10 +9328,13 @@
       "cardtrader": [
         {
           "id": 130840,
+          "name": "Togekiss",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "09/90",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -8136,7 +9401,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279262
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130840/preview_togekiss-holo-rare-9-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89924,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -8157,10 +9433,13 @@
       "cardtrader": [
         {
           "id": 130993,
+          "name": "Rayquaza & Deoxys Legend",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "90/90",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -8218,7 +9497,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279343
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130993/preview_rayquaza-deoxys-legend-bottom-90-90-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88637,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     },
@@ -8239,10 +9529,13 @@
       "cardtrader": [
         {
           "id": 130994,
+          "name": "Alph Lithograph",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Undaunted",
           "expansion_code": "und",
           "collector_number": "THREE",
+          "rarity": "Secret Rare",
           "finishes": [
             "normal"
           ],
@@ -8300,7 +9593,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            279253
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130994/preview_alph-lithograph-secret-rare-three-undaunted.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83511,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1403
         }
       ]
     }
