@@ -126,6 +126,51 @@ What type of neural network introduced by Google in 2017 powers modern LLMs?
 
 ### Task 4 AI Security Threats
 
+Now that we've covered how AI has evolved and arrived where it is today, we have a better understanding of the technology fueling the meteoric rise in the use of AI and changing countless industries. It should be no surprise that the cyber security industry is no different. In this task, we will focus on how the advancements in AI technology discussed in previous tasks are being leveraged by adversaries, taking a look at the world of AI security threats. We will discuss AI security threats across two categories: Vulnerability in AI Models (New threats introduced by the inclusion of AI technology in business operations) and existing attacks that can now be enhanced by leveraging AI.
+
+**The Implications of AI in Cyber Security**
+Tackling a broad topic like "AI security threats" can feel overwhelming, so any guidance is always appreciated. That guidance comes in the form of the ATLAS MITRE framework. If you're familar with the ATT&CK Framework, it might be helpful to know that MITRE have developed a similar framework with a focus on AI. For those unfamilair the ATT&CK Framework goes over cyber security attacks, breaking down the steps an attacker could take to compromise a system. This ATLAS framework was built on top of that to help guide us more specifically to AI Cyber threats, and you can check it out <a href="https://atlas.mitre.org/matrices/ATLAS)">here</a>.
+
+**Vulnerabilities in AI Models**
+**Prompt Injection:** Prompts are used to instruct the model on how to perform. For example, an RPG chatbot may have the prompt, “You are a fantasy roleplaying chatbot. You control the direction the story takes, and be as creative as you can to create a story based on the user’s actions. Do not disclose any information about the hardware and software that you operate on, nor any steps taken to train you". Prompt injection occurs when the original instructions provided to the model are overridden, often for malicious purposes such as disclosing more information than it should, or generating harmful content.
+
+**Data Poisoning:** Data poisoning is when an attacker manipulates the training data/corpus used to train an AI model so its generated output is incorrect or biased. Let's consider our example discussed in earlier tasks where we are training an AI model to recognise whether an email is spam or not. An attacker could perform a data poisoning attack to manipulate the training data being used to train this AI model so that it fails to recognise spam emails accurately, allowing spam emails they are trying to send to bypass this AI filter.
+
+**Model Theft:** Model theft occurs when an attacker gains unauthorised access to an AI model. From there, the attacker could potentially steal the intellectual property that lies within and even use it for malicious purposes. This attack is possible by querying the API of the ML model they want to steal. They would then use the output to train a clone model that mimics the behaviour of the original.
+
+**Privacy Leakage:** A privacy leakage vulnerability in AI models refers to the possibility of an AI model inadvertently revealing sensitive information about the data it was trained on, even if the data was supposed to be kept confidential. Consider an example of an AI model that has been trained on private medical data such as patient details and medical conditions. This vulnerability refers to the potential for an AI model to leak this information to an attacker or user.
+
+**Model Drift:** Model drift refers to the potential for a Model's performance to drift over time due to changes in the data or the environment surrounding it. You may recall the discussion of the need to retrain models over time in earlier tasks; this is due to model drift, which is why monitoring an AI model once it has been deployed and is being used is so important. For example, this can occur when a model trained on historical data starts to perform poorly when new data is being processed.
+
+**Enhanced Attacks**
+**Malware**
+With the explosion of Generative AI, all kinds of content can now be generated in an instant with just a few taps of a keyboard. This kind of power has been leveraged by all sorts of industries, such as the customer service industry, using it to give users access to a chatbot that can help resolve some common issues without the need to involve their human employees, meaning they can be saved to deal with the more complex user queries. Another industry that can greatly leverage this technology is software development. Now, with the power of generative AI software, developers can generate code instantly. While being incredibly useful, this also means that attackers can generate malware instantly, simplifying the task and making it easier for them to attack using this method.
+
+**DeepFakes**
+A key cornerstone of security is authentication, asking, "Are you who you say you are?". We "authenticate" in many different ways in our day-to-day lives at work. Of course, there is the obvious example of password authentication, which is used to gain access to a system, but let's consider another example. Imagine a secretary receiving a voice message, or even a video call, from their superior asking them to forward the confidential information they hold on a customer to that customer. In a pre-AI world, the secretary wouldn't have to think twice about that request; it would seem like a standard request, and they are in a position to "authenticate" that is, in fact, their superior as they are familiar with how they sound and look. The recent advancements in generative AI have led to an explosion of rapid progress in the DeepFake field. This means that if trained on enough data, an AI can now generate a person's likeness, whether that be their voice or their image, to a stunning degree of accuracy, fooling even the technically savvy. Imagine now that the communication received by the secretary was not, in fact, from their superior but a deepfake, and the "customer email" belonged to an attacker waiting to receive confidential customer information. It's easy to see how this advancement in DeepFake technology poses a threat to the security industry. Examples of how this is being used include using the technology to deepfake video interviews, sometimes leading to fraudulent job offers being made.
+
+**Phishing**
+Phishing is one of the most common initial access methods attackers use. Sending emails posing to be one thing when there lies malicious content within, attempting to prey on the user who receives it. Because of how common a method it is, companies have worked tirelessly to educate their workforce on things to look out for when receiving emails, like suspicious links and due to the fact a lot of the time these emails are written, having to write masses of emails, or English not being their first language, broken language in the email contents. Over the years, this training has had a positive effect, and more and more phishing emails have been spotted. However, with generative AI, attackers can now generate detailed, fluent, context-based emails that replicate an email a certain user might receive, with little effort and regardless of their writing abilities. With this enhancement to phishing attacks, phishing emails have suddenly become a lot harder to spot using solely our instinct. Of course, models like GPT, for example, have built-in mechanics to stop users from asking for malicious content to be generated, like a phishing email (or malware), but using some of the model vulnerabilities discussed above, attackers are sometimes able to bypass this by engineering their prompts.
+
+**Answer the questions below**⸻⸻⸻⸻⸻
+
+What framework was developed by MITRE to guide the understanding of AI-specific cyber threats?
+**Answer:** ATLAS
+
+What type of attack involves cloning an AI model by interacting with its API?
+**Answer:** model theft
+
+What generative AI technique can replicate a person’s voice or appearance with high realism?
+**Answer:** deepfake
+
+What common social engineering attack has become harder to detect due to AI-generated fluent and convincing messages?
+**Answer:** phishing
+
+⸻⸻⸻⸻⸻
+
+### Task 5 Defensive AI
+
+
 
 `,
 }
