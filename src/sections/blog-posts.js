@@ -52,6 +52,23 @@
    *   \`\`\`
    *   [/solutions]
    * 
+    * COLLAPSIBLE DROPDOWNS:
+    *   [dropdown:Section Title]
+    *   Any markdown content here...
+    *   [/dropdown]
+    * 
+    * COLLAPSIBLE DROPDOWN TABS:
+    *   [dropdown-tabs:Tab Group Title]
+    *   [tab:Overview]
+    *   Markdown for overview tab...
+    *   [/tab]
+    *   [tab:Details]
+    *   Markdown for details tab...
+    *   [/tab]
+    *   [/dropdown-tabs]
+    *   (optional labels also work: [dropdown-tabs] ... [tab]Content[/tab] ... [/dropdown-tabs])
+    *   (if no [tab] blocks are provided, all content still renders inside one collapsible section)
+    * 
    * LISTS (unordered):
    *   - Item one            → bullet point
    *   - Item two            → bullet point

@@ -9,6 +9,9 @@ export function initBlog() {
   const categories = ['All', 'LeetCode', 'TryHackMe', 'HackTheBox' , 'Tools', 'Games'];
   const difficulties = ['All', 'Easy', 'Medium', 'Hard', 'Challenge', 'Extreme'];
   const POSTS_PER_PAGE = 9;
+  let currentPage = 1;
+  let currentFilter = 'all';
+  let currentDifficulty = 'all';
   
   // Sort blog posts by date (most recent first)
   const sortedPosts = [...blogPosts].sort((a, b) => new Date(b.date) - new Date(a.date));
@@ -108,29 +111,89 @@ export function initBlog() {
     return paginationHTML;
   }
 
+  function createDropdownMarkup(label, options, type, activeValue) {
+    const activeLabel = options.find(option => option.toLowerCase() === activeValue) || options[0];
+
+    return `
+      <div class="blog-dropdown" data-dropdown-type="${type}">
+        <button type="button" class="blog-dropdown-trigger" aria-expanded="false">
+          <span class="blog-dropdown-trigger-label">${label}</span>
+          <span class="blog-dropdown-trigger-value">${activeLabel}</span>
+          <span class="blog-dropdown-caret" aria-hidden="true">▾</span>
+        </button>
+        <div class="blog-dropdown-menu" hidden>
+          ${options.map(option => `
+            <button
+              type="button"
+              class="blog-dropdown-option ${option.toLowerCase() === activeValue ? 'active' : ''}"
+              data-dropdown-option="${type}"
+              data-value="${option.toLowerCase()}"
+            >
+              ${option}
+            </button>
+          `).join('')}
+        </div>
+      </div>
+    `;
+  }
+
+  function syncDropdownState() {
+    const dropdowns = blog.querySelectorAll('.blog-dropdown');
+
+    dropdowns.forEach(dropdown => {
+      const type = dropdown.dataset.dropdownType;
+      const value = type === 'category' ? currentFilter : currentDifficulty;
+      const triggerValue = dropdown.querySelector('.blog-dropdown-trigger-value');
+      const trigger = dropdown.querySelector('.blog-dropdown-trigger');
+      const options = dropdown.querySelectorAll('.blog-dropdown-option');
+
+      options.forEach(option => {
+        option.classList.toggle('active', option.dataset.value === value);
+      });
+
+      const activeOption = dropdown.querySelector(`.blog-dropdown-option[data-value="${value}"]`);
+
+      if (triggerValue && activeOption) {
+        triggerValue.textContent = activeOption.textContent.trim();
+      }
+
+      if (trigger) {
+        trigger.setAttribute('aria-expanded', dropdown.classList.contains('open') ? 'true' : 'false');
+      }
+    });
+  }
+
+  function closeDropdowns(exceptDropdown = null) {
+    blog.querySelectorAll('.blog-dropdown').forEach(dropdown => {
+      if (dropdown !== exceptDropdown) {
+        dropdown.classList.remove('open');
+        const trigger = dropdown.querySelector('.blog-dropdown-trigger');
+        if (trigger) {
+          trigger.setAttribute('aria-expanded', 'false');
+        }
+        const menu = dropdown.querySelector('.blog-dropdown-menu');
+        if (menu) {
+          menu.hidden = true;
+        }
+      }
+    });
+  }
+
   blog.innerHTML = `
     <div class="container">
       <h2 class="section-title">Writeups</h2>
       <div class="blog-filters-container">
-        <div class="blog-filters">
-          <span class="filter-label">Category:</span>
-          ${categories.map((cat, index) => `
-            <button class="filter-btn ${index === 0 ? 'active' : ''}" data-filter="${cat.toLowerCase()}">${cat}</button>
-          `).join('')}
-        </div>
-        <div class="blog-filters difficulty-filters">
-          <span class="filter-label">Difficulty:</span>
-          ${difficulties.map((diff, index) => `
-            <button class="filter-btn difficulty-btn ${index === 0 ? 'active' : ''}" data-difficulty="${diff.toLowerCase()}">${diff}</button>
-          `).join('')}
+        <div class="blog-dropdown-row">
+          ${createDropdownMarkup('Category', categories, 'category', currentFilter)}
+          ${createDropdownMarkup('Difficulty', difficulties, 'difficulty', currentDifficulty)}
         </div>
       </div>
 
       <div class="blog-grid">
-        ${renderBlogCards(sortedPosts, 1)}
+        ${renderBlogCards(sortedPosts, currentPage)}
       </div>
 
-      ${renderPagination(sortedPosts.length, 1)}
+      ${renderPagination(sortedPosts.length, currentPage)}
 
       <!-- Modal for full writeup -->
       <div class="blog-modal" id="blog-modal">
@@ -170,63 +233,124 @@ export function initBlog() {
         margin-bottom: var(--space-8);
       }
 
-      .blog-filters {
+      .blog-dropdown-row {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: var(--space-3);
+        gap: var(--space-4);
         flex-wrap: wrap;
       }
 
-      .filter-label {
-        font-size: var(--font-size-sm);
-        color: var(--color-gray-400);
-        font-weight: 500;
-        margin-right: var(--space-1);
+      .blog-dropdown {
+        position: relative;
+        min-width: min(100%, 240px);
       }
 
-      .filter-btn {
-        padding: var(--space-2) var(--space-4);
+      .blog-dropdown-trigger {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: var(--space-3);
+        padding: var(--space-3) var(--space-4);
         border: 1px solid rgba(139, 92, 246, 0.3);
         border-radius: var(--radius-full);
-        background: transparent;
-        color: var(--color-gray-300);
+        background: linear-gradient(135deg, rgba(139, 92, 246, 0.12), rgba(59, 130, 246, 0.08));
+        color: var(--color-gray-200);
         cursor: pointer;
         transition: all 0.3s ease;
         font-size: var(--font-size-sm);
+        font-family: inherit;
+        box-shadow: 0 8px 24px rgba(15, 23, 42, 0.18);
       }
 
-      .filter-btn:hover,
-      .filter-btn.active {
-        background: linear-gradient(135deg, rgba(139, 92, 246, 0.3), rgba(59, 130, 246, 0.3));
+      .blog-dropdown-trigger:hover,
+      .blog-dropdown.open .blog-dropdown-trigger {
         border-color: var(--color-primary-500);
+        background: linear-gradient(135deg, rgba(139, 92, 246, 0.22), rgba(59, 130, 246, 0.16));
         color: var(--color-white);
       }
 
-      /* Difficulty-specific button colors when active */
-      .difficulty-btn.active[data-difficulty="easy"] {
-        background: linear-gradient(135deg, rgba(74, 222, 128, 0.4), rgba(34, 197, 94, 0.4));
-        border-color: #4ade80;
+      .blog-dropdown-trigger-label {
+        color: var(--color-gray-400);
+        font-weight: 500;
       }
 
-      .difficulty-btn.active[data-difficulty="medium"] {
-        background: linear-gradient(135deg, rgba(251, 191, 36, 0.4), rgba(245, 158, 11, 0.4));
-        border-color: #fbbf24;
+      .blog-dropdown-trigger-value {
+        font-weight: 600;
+        margin-left: auto;
       }
 
-      .difficulty-btn.active[data-difficulty="hard"] {
-        background: linear-gradient(135deg, rgba(248, 113, 113, 0.4), rgba(239, 68, 68, 0.4));
-        border-color: #f87171;
+      .blog-dropdown-caret {
+        font-size: 0.8em;
+        transition: transform 0.2s ease;
       }
 
-      .difficulty-btn.active[data-difficulty="challenge"] {
-        background: linear-gradient(135deg, rgba(192, 132, 252, 0.4), rgba(168, 85, 247, 0.4));
-        border-color: #c084fc;
+      .blog-dropdown.open .blog-dropdown-caret {
+        transform: rotate(180deg);
       }
 
-      .difficulty-btn.active[data-difficulty="extreme"] {
-        background: linear-gradient(135deg, rgba(244, 63, 94, 0.4), rgba(225, 29, 72, 0.4));
-        border-color: #f43f5e;
+      .blog-dropdown-menu {
+        position: absolute;
+        top: calc(100% + var(--space-2));
+        left: 0;
+        right: 0;
+        z-index: 20;
+        display: flex;
+        flex-direction: column;
+        padding: var(--space-2);
+        border: 1px solid rgba(139, 92, 246, 0.25);
+        border-radius: var(--radius-lg);
+        background: rgba(15, 23, 42, 0.96);
+        backdrop-filter: blur(14px);
+        box-shadow: 0 18px 40px rgba(15, 23, 42, 0.35);
+      }
+
+      .blog-dropdown-option {
+        padding: var(--space-2) var(--space-3);
+        border: none;
+        border-radius: var(--radius-md);
+        background: transparent;
+        color: var(--color-gray-300);
+        cursor: pointer;
+        text-align: left;
+        font-size: var(--font-size-sm);
+        font-family: inherit;
+        transition: all 0.2s ease;
+      }
+
+      .blog-dropdown-option:hover {
+        background: rgba(139, 92, 246, 0.14);
+        color: var(--color-white);
+      }
+
+      .blog-dropdown-option.active {
+        background: rgba(139, 92, 246, 0.24);
+        color: var(--color-white);
+      }
+
+      .blog-dropdown-option.active[data-value="easy"] {
+        background: rgba(74, 222, 128, 0.24);
+      }
+
+      .blog-dropdown-option.active[data-value="medium"] {
+        background: rgba(251, 191, 36, 0.24);
+      }
+
+      .blog-dropdown-option.active[data-value="hard"] {
+        background: rgba(248, 113, 113, 0.24);
+      }
+
+      .blog-dropdown-option.active[data-value="challenge"] {
+        background: rgba(192, 132, 252, 0.24);
+      }
+
+      .blog-dropdown-option.active[data-value="extreme"] {
+        background: rgba(244, 63, 94, 0.24);
+      }
+
+      .blog-dropdown-menu[hidden] {
+        display: none;
       }
 
       .blog-grid {
@@ -666,6 +790,108 @@ export function initBlog() {
         border-radius: 0;
       }
 
+      .markdown-dropdown {
+        margin: var(--space-4) 0;
+        border: 1px solid rgba(139, 92, 246, 0.28);
+        border-radius: var(--radius-md);
+        background: rgba(15, 23, 42, 0.5);
+        overflow: hidden;
+      }
+
+      .markdown-dropdown > summary {
+        list-style: none;
+        cursor: pointer;
+        padding: var(--space-3) var(--space-4);
+        color: var(--color-white);
+        font-weight: 600;
+        background: rgba(139, 92, 246, 0.12);
+        user-select: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .markdown-dropdown > summary::-webkit-details-marker {
+        display: none;
+      }
+
+      .markdown-dropdown > summary::after {
+        content: '▾';
+        color: var(--color-gray-300);
+        transition: transform 0.2s ease;
+      }
+
+      .markdown-dropdown[open] > summary::after {
+        transform: rotate(180deg);
+      }
+
+      .markdown-dropdown-content {
+        padding: var(--space-4);
+      }
+
+      .markdown-dropdown-tabs .markdown-dropdown-content {
+        padding-top: var(--space-3);
+      }
+
+      .markdown-tabs {
+        border: 1px solid rgba(139, 92, 246, 0.24);
+        border-radius: var(--radius-md);
+        overflow: hidden;
+      }
+
+      .markdown-tabs-header {
+        display: flex;
+        flex-wrap: wrap;
+        background: rgba(139, 92, 246, 0.08);
+        border-bottom: 1px solid rgba(139, 92, 246, 0.2);
+      }
+
+      .markdown-tab-btn {
+        padding: var(--space-2) var(--space-4);
+        border: none;
+        border-right: 1px solid rgba(139, 92, 246, 0.2);
+        background: transparent;
+        color: var(--color-gray-400);
+        cursor: pointer;
+        font-size: var(--font-size-sm);
+        transition: all 0.2s ease;
+        font-family: inherit;
+      }
+
+      .markdown-tab-btn:last-child {
+        border-right: none;
+      }
+
+      .markdown-tab-btn:hover {
+        background: rgba(139, 92, 246, 0.14);
+        color: var(--color-gray-200);
+      }
+
+      .markdown-tab-btn.active {
+        background: rgba(139, 92, 246, 0.24);
+        color: var(--color-white);
+      }
+
+      .markdown-tabs-body {
+        padding: var(--space-4);
+      }
+
+      .markdown-tab-panel {
+        display: none;
+      }
+
+      .markdown-tab-panel.active {
+        display: block;
+      }
+
+      .markdown-tab-panel > *:first-child {
+        margin-top: 0;
+      }
+
+      .markdown-tab-panel > *:last-child {
+        margin-bottom: 0;
+      }
+
       @media (max-width: 768px) {
         .blog-grid {
           grid-template-columns: 1fr;
@@ -675,17 +901,11 @@ export function initBlog() {
           gap: var(--space-4);
         }
 
-        .blog-filters {
-          gap: var(--space-2);
-        }
-
-        .filter-label {
+        .blog-dropdown {
           width: 100%;
-          text-align: center;
-          margin-bottom: var(--space-1);
         }
 
-        .filter-btn {
+        .blog-dropdown-trigger {
           padding: var(--space-2) var(--space-3);
           font-size: var(--font-size-xs);
         }
@@ -771,11 +991,6 @@ export function initBlog() {
     </style>
   `;
 
-  // Pagination state
-  let currentPage = 1;
-  let currentFilter = 'all';
-  let currentDifficulty = 'all';
-
   // Get filtered posts based on current filters
   function getFilteredPosts() {
     return sortedPosts.filter(post => {
@@ -790,6 +1005,9 @@ export function initBlog() {
     const filteredPosts = getFilteredPosts();
     const blogGrid = blog.querySelector('.blog-grid');
     const paginationContainer = blog.querySelector('.blog-pagination');
+    const totalPages = Math.max(1, Math.ceil(filteredPosts.length / POSTS_PER_PAGE));
+
+    currentPage = Math.min(Math.max(currentPage, 1), totalPages);
     
     // Update blog cards
     blogGrid.innerHTML = renderBlogCards(filteredPosts, currentPage);
@@ -807,6 +1025,9 @@ export function initBlog() {
     
     // Re-attach pagination listeners
     attachPaginationListeners();
+
+    // Keep dropdown labels and active states in sync after filtering
+    syncDropdownState();
   }
 
   // Attach pagination event listeners
@@ -827,6 +1048,7 @@ export function initBlog() {
 
   // Simple markdown parser for writeups - Line-by-line approach
   let solutionTabCounter = 0;
+  let markdownTabCounter = 0;
   
   function parseMarkdown(text) {
     // Normalize line endings to Unix-style \n
@@ -840,6 +1062,64 @@ export function initBlog() {
     
     // Protect escaped backslashes first
     text = text.replace(/\\\\/g, '~~ESCBACKSLASH~~');
+
+    // Process collapsible dropdowns
+    text = text.replace(/\[dropdown(?::([^\]]+))?\]([\s\S]*?)\[\/dropdown\]/gi, (match, title, content) => {
+      const dropdownTitle = title && title.trim() ? title.trim() : 'Details';
+      const dropdownContent = parseMarkdown(content.trim());
+      const placeholder = `~~DROPDOWNBLOCK${codeBlockStore.length}~~`;
+
+      codeBlockStore.push(
+        `<details class="markdown-dropdown"><summary>${dropdownTitle}</summary><div class="markdown-dropdown-content">${dropdownContent}</div></details>`
+      );
+
+      return placeholder;
+    });
+
+    // Process collapsible tab groups
+    text = text.replace(/\[dropdown-tabs(?::([^\]]+))?\]([\s\S]*?)\[\/dropdown-tabs\]/gi, (match, title, content) => {
+      const groupTitle = title && title.trim() ? title.trim() : 'Sections';
+      const tabRegex = /\[tab(?::([^\]]+))?\]([\s\S]*?)\[\/tab\]/gi;
+      const tabId = `markdown-tabs-${markdownTabCounter++}`;
+      const tabs = [];
+      let tabMatch;
+
+      while ((tabMatch = tabRegex.exec(content)) !== null) {
+        const fallbackLabel = `Tab ${tabs.length + 1}`;
+        const tabLabel = tabMatch[1] && tabMatch[1].trim() ? tabMatch[1].trim() : fallbackLabel;
+        tabs.push({
+          label: tabLabel,
+          body: parseMarkdown(tabMatch[2].trim()),
+        });
+      }
+
+      if (tabs.length === 0) {
+        const fallbackBody = parseMarkdown(content.trim());
+        const placeholder = `~~DROPDOWNTABSBLOCK${codeBlockStore.length}~~`;
+
+        codeBlockStore.push(
+          `<details class="markdown-dropdown markdown-dropdown-tabs"><summary>${groupTitle}</summary><div class="markdown-dropdown-content">${fallbackBody}</div></details>`
+        );
+
+        return placeholder;
+      }
+
+      const headers = tabs.map((tab, index) =>
+        `<button class="markdown-tab-btn ${index === 0 ? 'active' : ''}" data-markdown-tab="${tabId}-${index}">${tab.label}</button>`
+      ).join('');
+
+      const panels = tabs.map((tab, index) =>
+        `<div class="markdown-tab-panel ${index === 0 ? 'active' : ''}" data-markdown-tab-content="${tabId}-${index}">${tab.body}</div>`
+      ).join('');
+
+      const placeholder = `~~DROPDOWNTABSBLOCK${codeBlockStore.length}~~`;
+
+      codeBlockStore.push(
+        `<details class="markdown-dropdown markdown-dropdown-tabs"><summary>${groupTitle}</summary><div class="markdown-dropdown-content"><div class="markdown-tabs" data-markdown-tabs="${tabId}"><div class="markdown-tabs-header">${headers}</div><div class="markdown-tabs-body">${panels}</div></div></div></details>`
+      );
+
+      return placeholder;
+    });
     
     // Process solution tabs (protect their code blocks)
     text = text.replace(/\[solutions\]([\s\S]*?)\[\/solutions\]/g, (match, content) => {
@@ -1051,7 +1331,7 @@ export function initBlog() {
       if (paragraphBuffer.length > 0) {
         const content = paragraphBuffer.join('<br>');
         // Don't wrap if it's just a placeholder
-        if (/^~~(CODEBLOCK|SOLUTIONTABS)\d+~~$/.test(content.trim())) {
+        if (/^~~(CODEBLOCK|SOLUTIONTABS|TABLEBLOCK|DROPDOWNBLOCK|DROPDOWNTABSBLOCK)\d+~~$/.test(content.trim())) {
           output.push(content.trim());
         } else {
           output.push(`<p>${applyInlineFormatting(content)}</p>`);
@@ -1135,7 +1415,7 @@ export function initBlog() {
       }
       
       // Code block or solution tabs placeholder - output as-is
-      if (/^~~(CODEBLOCK|SOLUTIONTABS)\d+~~$/.test(trimmedContent)) {
+      if (/^~~(CODEBLOCK|SOLUTIONTABS|TABLEBLOCK|DROPDOWNBLOCK|DROPDOWNTABSBLOCK)\d+~~$/.test(trimmedContent)) {
         flushList();
         flushParagraph();
         output.push(trimmedContent);
@@ -1260,6 +1540,8 @@ export function initBlog() {
       text = text.replace(`~~CODEBLOCK${i}~~`, code);
       text = text.replace(`~~SOLUTIONTABS${i}~~`, code);
       text = text.replace(`~~TABLEBLOCK${i}~~`, code);
+      text = text.replace(`~~DROPDOWNBLOCK${i}~~`, code);
+      text = text.replace(`~~DROPDOWNTABSBLOCK${i}~~`, code);
     });
     inlineCodeStore.forEach((code, i) => {
       text = text.replace(`~~INLINECODE${i}~~`, code);
@@ -1324,6 +1606,20 @@ export function initBlog() {
               tabsContainer.querySelector(`[data-tab-content="${tabId}"]`).classList.add('active');
             });
           });
+
+          // Initialize markdown dropdown tab groups click handlers
+          modalBody.querySelectorAll('.markdown-tab-btn').forEach(tabBtn => {
+            tabBtn.addEventListener('click', () => {
+              const tabId = tabBtn.dataset.markdownTab;
+              const tabsContainer = tabBtn.closest('.markdown-tabs');
+
+              tabsContainer.querySelectorAll('.markdown-tab-btn').forEach(btn => btn.classList.remove('active'));
+              tabBtn.classList.add('active');
+
+              tabsContainer.querySelectorAll('.markdown-tab-panel').forEach(content => content.classList.remove('active'));
+              tabsContainer.querySelector(`[data-markdown-tab-content="${tabId}"]`).classList.add('active');
+            });
+          });
           
           modal.classList.add('active');
           // Reset scroll positions to top
@@ -1345,6 +1641,59 @@ export function initBlog() {
 
   // Initial attachment of pagination listeners
   attachPaginationListeners();
+
+  // Dropdown functionality
+  blog.querySelectorAll('.blog-dropdown-trigger').forEach(trigger => {
+    trigger.addEventListener('click', (event) => {
+      event.stopPropagation();
+
+      const dropdown = trigger.closest('.blog-dropdown');
+      const menu = dropdown.querySelector('.blog-dropdown-menu');
+      const isOpen = dropdown.classList.contains('open');
+
+      closeDropdowns(isOpen ? null : dropdown);
+
+      if (isOpen) {
+        dropdown.classList.remove('open');
+        trigger.setAttribute('aria-expanded', 'false');
+        menu.hidden = true;
+      } else {
+        dropdown.classList.add('open');
+        trigger.setAttribute('aria-expanded', 'true');
+        menu.hidden = false;
+      }
+    });
+  });
+
+  blog.querySelectorAll('.blog-dropdown-option').forEach(option => {
+    option.addEventListener('click', () => {
+      const dropdownType = option.dataset.dropdownOption;
+      const value = option.dataset.value;
+
+      if (dropdownType === 'category') {
+        currentFilter = value;
+      } else if (dropdownType === 'difficulty') {
+        currentDifficulty = value;
+      }
+
+      currentPage = 1;
+      closeDropdowns();
+      syncDropdownState();
+      updateBlogView();
+    });
+  });
+
+  document.addEventListener('click', (event) => {
+    if (!event.target.closest('.blog-dropdown')) {
+      closeDropdowns();
+    }
+  });
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') {
+      closeDropdowns();
+    }
+  });
 
   // Expose function to open blog post from anywhere (e.g., projects section)
   window.openBlogPost = function(postId) {
@@ -1410,41 +1759,5 @@ export function initBlog() {
       document.documentElement.style.overflow = '';
       document.body.style.overflow = '';
     }
-  });
-
-  // Filter functionality - Category filters
-  const filterBtns = blog.querySelectorAll('.filter-btn:not(.difficulty-btn)');
-
-  filterBtns.forEach(btn => {
-    btn.addEventListener('click', () => {
-      const filter = btn.dataset.filter;
-
-      // Update active button
-      filterBtns.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-
-      // Update filter and reset to page 1
-      currentFilter = filter;
-      currentPage = 1;
-      updateBlogView();
-    });
-  });
-
-  // Filter functionality - Difficulty filters
-  const difficultyBtns = blog.querySelectorAll('.difficulty-btn');
-
-  difficultyBtns.forEach(btn => {
-    btn.addEventListener('click', () => {
-      const difficulty = btn.dataset.difficulty;
-
-      // Update active button
-      difficultyBtns.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-
-      // Update filter and reset to page 1
-      currentDifficulty = difficulty;
-      currentPage = 1;
-      updateBlogView();
-    });
   });
 }

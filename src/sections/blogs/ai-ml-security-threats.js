@@ -11,8 +11,7 @@ This is a write up and walkthrough of the AI/ML Security Threats room on TryHack
 
 ⸻⸻⸻⸻⸻
 
-### Task 1 Introduction
-
+[dropdown-tabs:Task 1 Introduction]
 The world is changing; industries are coming to terms with the reality of how they will be affected by Artificial Intelligence (AI), and cyber security is no different. It should come as no surprise that Artificial Intelligence is at the heart of many discussions in the cyber security industry. A lot of ongoing research is being done to answer the questions so many have at this point in time. This room aims to answer these questions:
 
     - What is AI/ Machine Learning (ML)?
@@ -22,34 +21,34 @@ The world is changing; industries are coming to terms with the reality of how th
 
 This intro room aims to ease you into the world of AI so that you can leave with a better understanding of how the technology works and its implications for this industry and the world as a whole.
 
-**Learning Prerequisites**
+### Learning Prerequisites
 This room doesn’t require any previous rooms or modules to be completed and is intended to be an entry point in learning about AI. However, knowledge of cyber security basics, such as common attacks, is assumed.
 
-**Learning Objectives**
+### Learning Objectives
 - Understand AI, ML, and their impact on the cyber security industry.
 - Understand Deep Learning (DL) and neural networks, and how they have made the applications of AI, we see today, possible.
 - Understand how adversaries use AI to enhance existing attacks and take advantage of AI Model vulnerabilities.
 - Understand the key role AI will play in defending against AI.
-
+[/dropdown-tabs]
 ⸻⸻⸻⸻⸻
 
-### Task 2 The Building Blocks of AI
+[dropdown-tabs:Task 2 The Building Blocks of AI]
 
 We must empower our cyber security workforce to combat AI security threats. Knowledge is power, so we begin by arming you with the foundational knowledge of AI and ML. Let's start by discussing how we define "Artificial Intelligence". Artificial intelligence refers to a machine or computer system that is able to carry out tasks that would otherwise require human reasoning, comprehension, problem-solving, or creativity.
 
 It's a term that, truthfully, doesn't have just one simple definition due to the sheer scope of its application in today's society and its potential applications in the future. Still, we can use this definition to begin to understand what it is and where it started. This term and field dates back to the 1950s when research began on the pursuit of having machines perform tasks by simulating human intelligence; however, this was still a niche term that was not widely known.
 
-**Machine Learning**
+### Machine Learning
 The next significant advancement in the development of AI came with the emergence of ML. ML is a subfield of AI that refers to a computer’s ability to learn from data without being given instructions and is comparable to how the human brain learns. Over time, with more data and time, these algorithms will get better at accuracy and decisions.
 
 ML follows a structured lifecycle to ensure the reliable development and deployment of models. This process begins with defining the problem, such as determining whether an email is spam. Next, data is collected, cleaned, and prepared through feature engineering, ensuring meaningful patterns are extracted while avoiding overfitting (When a model's familiarity with the training data causes a failure to make generalisations on unseen/raw data). The model is then trained using a selected algorithm, followed by evaluation and tuning to optimise performance. Once refined, the model is deployed into a production environment for real-world use, such as classifying emails in real-time. However, the lifecycle doesn’t end there—ongoing monitoring ensures the model maintains accuracy over time, triggering retraining when needed. Since models require continuous improvement, the Machine Learning Lifecycle remains an iterative process.
 
-**Machine Learning Algorithms**
+### Machine Learning Algorithms
 ML algorithms are the mathematical methods used to learn patterns from data, while ML models are the trained outputs derived from these algorithms. These algorithms consist of three key components: a decision process, which makes predictions or classifications based on input data; an error function, which evaluates performance and provides feedback; and a model optimisation process, which fine-tunes the algorithm to minimise errors and improve accuracy. This iterative process continues until the model reaches a satisfactory performance level.
 
 ML algorithms fall into four main categories: supervised, unsupervised, semi-supervised, and reinforcement learning. **Supervised learning** relies on labeled data to train models for classification or regression tasks, such as predicting house prices or identifying spam emails. **Unsupervised learning**, on the other hand, works with unlabeled data to discover hidden patterns, often using clustering, association, or dimensionality reduction techniques. **Semi-supervised learning** combines elements of both, using a small portion of labeled data to guide the learning process. Finally,**reinforcement learning** mimics human learning by rewarding correct decisions and penalizing mistakes, allowing an agent to refine its actions over time to achieve the best outcome.
 
-**Neural networks and Deep learning**
+### Neural networks and Deep learning
 If you recall, the main objective of AI is to enable computers to behave like humans. One method that allows us to do this is through the use of neural networks. If you cast your mind back to high school biology, you may remember being taught how the human brain works. The human brain processes information using interconnected neurons (a type of cell responsible for transmitting communications between the body and brain), which communicate with each other using synapses. Synapses allow the brain to send electrical/chemical signals from neuron to neuron; in other words, they are a connection. This network of neurons learns by adjusting the strengths of these connections when we experience something new based on patterns we encounter. It's this behaviour that is replicated in a neural network.
 
 The diagram below represents a neural network. Like the human brain processes sensory input, the input layer receives raw data, with the number of nodes depending on the data type (e.g., a 4x4 pixel image has 16 nodes). Each node represents a neuron, and connections between them act as synapses. The hidden layers process and refine the input, bringing the network closer to a prediction. Each connection has a weight, determining its importance—for example, in email classification, the body text might have more weight than the subject line. The output layer then produces the final prediction.
@@ -74,15 +73,16 @@ Which learning method does not require human-labeled data and can extract featur
 What are the weighted connections between nodes in a neural network meant to simulate in the human brain?
 **Answer:** synapses
 
+[/dropdown-tabs]
 ⸻⸻⸻⸻⸻
 
-### Task 3 LLMs
+[dropdown-tabs:Task 3 LLMs]
 
 Okay, so we've taken a walk through history in this room. From our goal to have computers behave like humans, the AI field was born, a field that would come closer to achieving that goal with the introduction of ML. In more recent years, the further development of these fields has allowed us to unlock even more potential with neural networks and DL, both of which play a crucial role in enabling our next industry-changing technology: LLMs.
 
 Now, I'm no ML algorithm, but if I had to assign a prediction score to the chance of this room's user base having heard of ChatGPT, it would be very high. ChatGPT emerged smack back in the middle of "The AI Boom"; its ability to generate human-like text in response to a user query blew the minds of near everyone with the technology triggering discussions in the news, politics, education, industry, the list goes on. Something had changed. We were entering a new era and everyone knew it, which brings us up to date. Now, let's look at how the technologies we've covered so far enabled LLMs like ChatGPT, LLama and Deepseek to exist, kicking off a technological revolution.
 
-**What are LLMs, and how do they work?**
+### What are LLMs, and how do they work?
 Large Language Models (or LLMs) are deep learning-based AI models that can process and generate text by predicting the next word in a sequence. For example, consider this quote:
 
 <img src="/blogs/tryhackme/ai-ml-security-threats/6228f0d4ca8e57005149c3e3-1745606524858.svg">
@@ -122,16 +122,17 @@ What is the first training stage where an LLM processes massive amounts of data?
 What type of neural network introduced by Google in 2017 powers modern LLMs?
 **Answer:** transformer
 
+[/dropdown-tabs]
 ⸻⸻⸻⸻⸻
 
-### Task 4 AI Security Threats
+[dropdown-tabs:Task 4 AI Security Threats]
 
 Now that we've covered how AI has evolved and arrived where it is today, we have a better understanding of the technology fueling the meteoric rise in the use of AI and changing countless industries. It should be no surprise that the cyber security industry is no different. In this task, we will focus on how the advancements in AI technology discussed in previous tasks are being leveraged by adversaries, taking a look at the world of AI security threats. We will discuss AI security threats across two categories: Vulnerability in AI Models (New threats introduced by the inclusion of AI technology in business operations) and existing attacks that can now be enhanced by leveraging AI.
 
-**The Implications of AI in Cyber Security**
+### The Implications of AI in Cyber Security
 Tackling a broad topic like "AI security threats" can feel overwhelming, so any guidance is always appreciated. That guidance comes in the form of the ATLAS MITRE framework. If you're familar with the ATT&CK Framework, it might be helpful to know that MITRE have developed a similar framework with a focus on AI. For those unfamilair the ATT&CK Framework goes over cyber security attacks, breaking down the steps an attacker could take to compromise a system. This ATLAS framework was built on top of that to help guide us more specifically to AI Cyber threats, and you can check it out <a href="https://atlas.mitre.org/matrices/ATLAS)">here</a>.
 
-**Vulnerabilities in AI Models**
+### Vulnerabilities in AI Models
 **Prompt Injection:** Prompts are used to instruct the model on how to perform. For example, an RPG chatbot may have the prompt, “You are a fantasy roleplaying chatbot. You control the direction the story takes, and be as creative as you can to create a story based on the user’s actions. Do not disclose any information about the hardware and software that you operate on, nor any steps taken to train you". Prompt injection occurs when the original instructions provided to the model are overridden, often for malicious purposes such as disclosing more information than it should, or generating harmful content.
 
 **Data Poisoning:** Data poisoning is when an attacker manipulates the training data/corpus used to train an AI model so its generated output is incorrect or biased. Let's consider our example discussed in earlier tasks where we are training an AI model to recognise whether an email is spam or not. An attacker could perform a data poisoning attack to manipulate the training data being used to train this AI model so that it fails to recognise spam emails accurately, allowing spam emails they are trying to send to bypass this AI filter.
@@ -142,7 +143,7 @@ Tackling a broad topic like "AI security threats" can feel overwhelming, so any 
 
 **Model Drift:** Model drift refers to the potential for a Model's performance to drift over time due to changes in the data or the environment surrounding it. You may recall the discussion of the need to retrain models over time in earlier tasks; this is due to model drift, which is why monitoring an AI model once it has been deployed and is being used is so important. For example, this can occur when a model trained on historical data starts to perform poorly when new data is being processed.
 
-**Enhanced Attacks**
+### Enhanced Attacks
 **Malware**
 With the explosion of Generative AI, all kinds of content can now be generated in an instant with just a few taps of a keyboard. This kind of power has been leveraged by all sorts of industries, such as the customer service industry, using it to give users access to a chatbot that can help resolve some common issues without the need to involve their human employees, meaning they can be saved to deal with the more complex user queries. Another industry that can greatly leverage this technology is software development. Now, with the power of generative AI software, developers can generate code instantly. While being incredibly useful, this also means that attackers can generate malware instantly, simplifying the task and making it easier for them to attack using this method.
 
@@ -166,11 +167,126 @@ What generative AI technique can replicate a person’s voice or appearance with
 What common social engineering attack has become harder to detect due to AI-generated fluent and convincing messages?
 **Answer:** phishing
 
+[/dropdown-tabs]
 ⸻⸻⸻⸻⸻
 
-### Task 5 Defensive AI
+[dropdown-tabs:Task 5 Defensive AI]
 
+During this "AI Boom" we are undergoing, there is no shortage of news articles, blog posts or social media posts that instil in us a sense of fear that "AI is taking over" and that, in general, AI is something that should be feared. A lot of what was covered in the previous task likely fed into that fear, but let's now take a walk out of the dark, scary forest and into the sunlit, bright green fields and discuss how AI is going to, in fact, help us. That's right. AI is not something that should be feared at all. It's something that should be understood, harnessed and embraced. There are many ways in which we can harness this technology in cyber security to make our lives easier and, most importantly, help us fight against AI security threats. 
 
+A very useful resource that helps show us just how much this is the case is IBM's Cost of a Databreach report, which they do annually. The findings from the latest report showed us that companies that adopted and embraced AI saved on average $2.2 Million in expenses due to a data breach. This figure is even more impressive when you know the average cost of a data breach in these latest figures was $4.88 Million; that's a whopping saving. Other statistics from this report also tell us that the use of AI cuts down the time it takes to identify and contain a breach by 108 days. All these findings point to one thing: the best thing we can do for security is embrace and adopt AI. Let's consider some ways AI can help us in this industry and what we can leverage to see the results just discussed. AI can enhance: 
 
+**Our ability to analyse**
+If you think about the tasks we do in cyber security every day, many of them involve some kind of analysis. We take in data points and look for patterns and, within those patterns, anomalies. Consider, for example, intrusion detection, where we analyse network traffic patterns to identify unusual activity that may indicate a cyber attack. Now, cast your mind back to when we discussed ML; this is precisely the sort of task that ML thrives on handling. It is trained on data to recognise correlations between data points and make predictions based on those correlations, meaning this technology can be harnessed to help us in cases like the intrusion detection mentioned and many more. It can analyse input data, like network traffic, and find anomalies for us, so we don't have to, and it can do so at dizzying speeds. Now, the figures from the IBM report telling us how much faster breaches are identified start to make sense. There are products in the market that are already leveraging the power of AI/ML to enhance their analytical abilities, such as Microsoft Defender for Endpoint and Splunk.
+
+**Our ability to predict**
+Automation has been cited as a key method for improving our overall security posture. It is at the heart of methodologies like DevSecOps. As discussed previously, AI models can be trained on data to make accurate predictions on that training data and then eventually on raw unseen data. Now, if you think about automation as a sequence of "if-then" actions, for example, "if code is pushed to main, then trigger this pipeline", we can begin to see how AI can be harnessed to help us automate our security workflows. Consider an example discussed in our previous task: a phishing attack. We discussed how, now, with AI, attackers can enhance this attack, making it harder for us to identify phishing emails from legitimate emails. Well, just as attackers can harness the power of AI to enhance their phishing emails, so too can we harness the power of AI in identifying phishing emails, as the AI model will be trained on countless examples of phishing emails and so can recognise patterns we may have missed. Once it has successfully predicted it is a phishing email, it can then make a prediction that this email should not reach users and automate the blocking of this email before it reaches them.
+
+**Our ability to summarise/digest(?)**
+In our industry, there are a lot of events, incidents, breaches, etc, and all of these generate artefacts. Artefacts that we have to read, understand and digest to gauge the implications of what has happened. These artefacts could be documents or incident reports, and reading them can take up a lot of our time. Now, with the power of AI, we could have these tools summarise the contents of a document for us so we get the cliff notes of it, now being able to move on in minutes or have them summarise an incident that has occurred, even drawing correlations between other incidents which we may not have picked up on. This, again, is a massive time save and gives us an enormous advantage in the defensive context.
+
+**Our ability to investigate**
+Another large part of security is troubleshooting and investigating, working out the root cause of a security issue or identifying what kind of attack we are suffering. The ability to query chatbots in natural language and have it respond in a human-like fashion unlocks all kinds of help in this avenue, suddenly we can feed an LLM logs and ask it to identify what is going on, and the LLM can provide queries to be run which give output helpful in the diagnosis of the issue, helping with incident triage. These chatbots (which, as mentioned, are built on LLMs and are possible through advancements in DL) are also helpful in any task involving the human imagination; after all, it does have its limitations. Take, for example, threat hunting. It's on us to imagine possible scenarios in which attackers could breach our system. AI could think of potential avenues attackers would take that we wouldn't have thought of.
+
+### Secure AI
+The benefits of AI in the cyber security space are undeniable, and like with many discussions with AI, what has been discussed above is just a few examples of how AI can be used to help us secure our systems; the possibilities are truly endless. However, while adopting technology like Generative AI is a great thing and should be encouraged, it needs to be done securely. As discussed in the previous task, AI models have vulnerabilities themself, so while the adoption of generative AI technology IS the solution to the threat of attackers equipped with the power of AI, it also introduces a host of new vulnerabilities; these vulnerabilities need to be considered from the moment this technology is introduced into a system. This is not currently the case with the IBM cost of a data breach report, finding that only 24% of gen AI initiatives are secured. If we don't secure the AI we are adopting, then the benefits we stand to gain from it could be overshadowed by attackers taking advantage of these AI vulnerabilities. Here are some things that can be done to secure AI:
+
+**Securing AI Models:** Many of the vulnerabilities mentioned in the previous task involved an attacker getting access to sensitive data the model has access to. The key to preventing these kinds of attacks is to secure the models themself. One method of preventing unauthorised access to AI models is by enforcing strict controls over who can interact with them. This will involve implementing strong authentication measures and carefully defining access permission. The use of RBAC (Role-Based Access Control) and MFA (Multi-Factor Authentication) can help restrict access and add an extra layer of security to AI systems.
+
+**Privacy Protection:** As discussed, the training data a model is trained on can sometimes contain confidential or sensitive information, such as patient records. For this reason, training data should be treated as any other sensitive data and encrypted.
+
+**Implementation of AI Security Standards:** To ensure the security of an AI system, you must implement well-established standards and frameworks. Incorporating these recognised security standards throughout the development, deployment, and maintenance stages means organisations can proactively address potential risks. For example, standards like ISO/IEC 27090 provide guidance on identifying and mitigating security threats specific to AI systems. Following these best practices ensures you are adopting AI in a secure way, minimising exposure to cyber threats.
+
+**Model Monitoring:** In addition to spotting when a model's performance drops and flagging when it needs to be retrained, monitoring should also detect unexpected behaviour, biases, or anomalies that may indicate a security attack. This can be done using "explainability tools" examples of which include SHAP and LIME.
+
+This task has aimed to demonstrate that AI is not something to be feared but embraced and fast because the quicker we take advantage of the many benefits it offers us in the defensive cyber security field, the better equipped we will be to combat attackers armed with the same technology. However, it has also been emphasised that it is just as essential to implement this technology securely from the get-go, or you risk introducing vulnerabilities along with AI. We have touched on some of the ways this can be done, but this is just the beginning; we will have content diving deeper into AI and how to defend against it soon!
+
+**Answer the questions below**⸻⸻⸻⸻⸻
+
+According to IBM, how many days faster does AI help identify and contain breaches?
+**Answer:** 108
+
+What cybersecurity task benefits from AI helping to imagine attacker behavior we might not consider?
+**Answer:** threat hunting
+
+Explainability tools such as SHAP and LIME help with what?
+**Answer:** model monitoring
+
+[/dropdown-tabs]
+⸻⸻⸻⸻⸻
+
+[dropdown-tabs:Task 6 Practical]
+
+### AI, Your Cyber Assistant!
+As it has now been established, in the fight against AI, your best friend is...AI. Seems paradoxical until you get hands on with the technology. So let's do exactly that! For this practical, we will give you access to your very own AI assistant, and we'll take a little tour of how this technology can be taken advantage of in a defensive security context.
+
+### Putting it to the Test
+This AI assistant works very simply, send it a prompt and it will return an answer. Feel free to have a play around with it before continuing. Let's now take a look at a few examples of how this tool can be used in a defensive context to help us.
+
+**Log Analysis**
+Logs are the first line of defence in cyber security, but interpreting them quickly is critical, especially when responding to an active incident. Let's see how AI can assist by analysing and explaining a log entry in these high-intensity situations, or to help explain in general. We can use AI for these purposes by running a prompt like this:
+\`Here’s a logline:\`
+\`Apr 22 11:45:09 ubuntu sshd[1245]: Failed password for invalid user admin from 203.0.113.55 port 56231 ssh2\`
+\`Can you explain what is happening in this log entry?\`
+
+**Phishing Email Detection**
+AI can help defenders identify phishing attempts by analysing suspicious emails for common red flags. Let's test its ability to catch a potential threat using a prompt like this:
+
+Here's a suspicious email. Can you identify if it's a phishing attempt and explain why?
+\`\`\`
+Subject: Urgent: Account Verification Needed
+
+Dear User,
+
+We've detected unusual login activity on your company Microsoft 365 account from a new device in Frankfurt, Germany. For your security, we've temporarily suspended access.
+
+To restore access, please verify your identity within the next 12 hours by visiting the secure link below:
+
+=I [https://microsoft365-support-verify.com/login](https://microsoft365-support-verify.com/login)
+
+If you do not verify your account, it will remain locked and you may lose access to important work files and emails.
+
+Thank you for your cooperation.
+
+Microsoft 365 Support Team
+security@m1crosoft365-security.com 
+\`\`\`
+
+**Threat Hunting Scenario**
+Threat hunting relies heavily on creativity; defenders must think like attackers to find hidden threats. As previously mentioned, the limit of the human imagination can sometimes lead us to missing potential attack scenarios. Let’s see how AI can help brainstorm new hunting ideas using a prompt like this:
+\`Can you suggest three realistic threat hunting scenarios that a cyber security analyst should investigate within a corporate network environment?\`
+
+**Content Generation**
+AI can assist by generating technical resources like detection rules or regex. Here, we'll see if it can create a regex pattern useful for us in a defensive cyber security context. Let's try giving the LLM a prompt like this:
+\`Please write a regex pattern that would match failed SSH login attempts in a typical Linux system authentication log.\`
+
+**Putting it to the test**
+It has now been established how AI can help us in a cinch when securing our systems. Let's finish this room up by showcasing AI's ability to fetch information at a moment's notice. This can help us with troubleshooting, research etc but right now we're going to use to get a flag. The flag for this task is as follows:
+\`thm{DNS over HTTPS (DoH) Port/SYN flood timeout/ windows ephemeral port range size}\`
+
+That is to say, the numerical values that these represent will make up the flag. Without the need to look these values up individually you can simply ask your AI assistant:
+\`what are these values:\`
+\`DNS over HTTPS (DoH) Port , SYN flood timeout and Windows ephemeral port range size?\`
+
+With those values returned, you can substitute them into the flag and that concludes this task.
+
+**Answer the questions below**⸻⸻⸻⸻⸻
+
+What's the flag?
+**Answer:** thm{443/60/16384}
+
+[/dropdown-tabs]
+
+⸻⸻⸻⸻⸻
+
+[dropdown-tabs:Task 7 Conclusion]
+At the beginning of this room, it was noted that "Knowledge is power" and that this is especially true in the fight against AI cyber threats. The rate at which this technology has exploded onto the scene has left many feeling left in the dust. Now, with a better understanding of AI and the underlying technology which enables it to be the force it currently is in our (and all) industry, you understand what is posing a threat to our systems and what needs to be secured as a result. Here is a recap of what's been covered:
+    - **Artificial Intelligence** (AI) is the overarching field concerned with enabling machines/systems to mimic human behaviour.
+    - **Machine learning** (ML) is a subfield of AI in which a model can be fed and trained on input and used to make predictions.
+    - **Deep learning** (DL) is then a subfield of ML. It no longer needs human interaction and can self-tech and process mass amounts of data, possible through the use of **Neural Networks**.
+    - DL has enabled the emergence of technologies like **LLMs** (and other **generative AI**), which, through the use of transformer neural networks and attention, can be queried in natural language, understand it and respond in a human-like, conversational fashion.
+    - AI is a dangerous weapon in the hands of an attacker. It has the potential to **enhance existing cyber attacks** like phishing and increase the attack surface by **introducing AI vulnerabilities**.
+    - While being dangerous in the hands of attackers, **AI can be invaluable in the fight against AI cyber threats** and should be adopted, but **done so securely** so vulnerabilities are not introduced.
+[/dropdown-tabs]
 `,
 }
