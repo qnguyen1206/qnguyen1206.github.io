@@ -4,8 +4,8 @@
   "set_abbr": "N4",
   "set_released": "2002-02-28",
   "product_count": 119,
-  "data_modified": "2026-02-01T14:23:36-05:00",
-  "file_generated": "2026-02-02T03:32:33-05:00",
+  "data_modified": "2026-04-15T02:00:49-04:00",
+  "file_generated": "2026-04-16T04:30:48-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/1444/pricing",
   "products": [
     {
@@ -55,9 +55,13 @@
       "cardtrader": [
         {
           "id": 105218,
-          "match_type": "scryfall",
+          "name": "Neo Destiny Booster",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -91,7 +95,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            271854
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105218/preview_neo-destiny-booster-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 138148,
+          "game_id": 5,
+          "category_id": 66,
+          "category_name": "Pokémon Booster",
+          "product_type": "booster",
+          "group_id": 1444
         }
       ]
     },
@@ -127,9 +142,13 @@
       "cardtrader": [
         {
           "id": 105221,
-          "match_type": "scryfall",
+          "name": "Neo Destiny: Dark Theme Deck",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -172,7 +191,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            286569
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105221/preview_neo-destiny-dark-theme-deck-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 232872,
+          "game_id": 5,
+          "category_id": 69,
+          "category_name": "Pokémon Preconstructed Deck",
+          "product_type": "precon_deck",
+          "group_id": 1444
         }
       ]
     },
@@ -193,9 +223,13 @@
       "cardtrader": [
         {
           "id": 105220,
-          "match_type": "scryfall",
+          "name": "Neo Destiny: Light Theme Deck",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -238,7 +272,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            286568
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105220/preview_neo-destiny-light-theme-deck-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 232869,
+          "game_id": 5,
+          "category_id": 69,
+          "category_name": "Pokémon Preconstructed Deck",
+          "product_type": "precon_deck",
+          "group_id": 1444
         }
       ]
     },
@@ -259,10 +304,13 @@
       "cardtrader": [
         {
           "id": 123399,
-          "match_type": "scryfall",
+          "name": "Dark Ampharos",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "001",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -332,7 +380,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274653
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123399/preview_dark-ampharos-rare-holo-1-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84561,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -353,10 +412,13 @@
       "cardtrader": [
         {
           "id": 123400,
-          "match_type": "scryfall",
+          "name": "Dark Crobat",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "002",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -426,7 +488,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274654
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123400/preview_dark-crobat-rare-holo-2-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84576,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -447,10 +520,13 @@
       "cardtrader": [
         {
           "id": 123401,
-          "match_type": "scryfall",
+          "name": "Dark Donphan",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "003",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -520,7 +596,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274655
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123401/preview_dark-donphan-rare-holo-3-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84579,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -541,10 +628,13 @@
       "cardtrader": [
         {
           "id": 123402,
-          "match_type": "scryfall",
+          "name": "Dark Espeon",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "004",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -614,7 +704,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274656
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123402/preview_dark-espeon-rare-holo-4-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84592,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -635,10 +736,13 @@
       "cardtrader": [
         {
           "id": 123403,
-          "match_type": "scryfall",
+          "name": "Dark Feraligatr",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "005",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -708,7 +812,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274657
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123403/preview_dark-feraligatr-rare-holo-5-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84594,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -729,10 +844,13 @@
       "cardtrader": [
         {
           "id": 123404,
-          "match_type": "scryfall",
+          "name": "Dark Gengar",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "006",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -802,7 +920,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274658
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123404/preview_dark-gengar-rare-holo-6-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84599,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -823,10 +952,13 @@
       "cardtrader": [
         {
           "id": 123405,
-          "match_type": "scryfall",
+          "name": "Dark Houndoom",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "007",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -896,7 +1028,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274659
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123405/preview_dark-houndoom-rare-holo-7-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84610,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -917,10 +1060,13 @@
       "cardtrader": [
         {
           "id": 123406,
-          "match_type": "scryfall",
+          "name": "Dark Porygon2",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "008",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -990,7 +1136,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274660
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123406/preview_dark-porygon2-rare-holo-8-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84640,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -1011,10 +1168,13 @@
       "cardtrader": [
         {
           "id": 123407,
-          "match_type": "scryfall",
+          "name": "Dark Scizor",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "009",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1084,7 +1244,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274661
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123407/preview_dark-scizor-rare-holo-9-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84652,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -1105,10 +1276,13 @@
       "cardtrader": [
         {
           "id": 123408,
-          "match_type": "scryfall",
+          "name": "Dark Typhlosion",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "010",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1178,7 +1352,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274662
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123408/preview_dark-typhlosion-rare-holo-10-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84659,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -1199,10 +1384,13 @@
       "cardtrader": [
         {
           "id": 123409,
-          "match_type": "scryfall",
+          "name": "Dark Tyranitar",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "011",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1272,7 +1460,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274663
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123409/preview_dark-tyranitar-rare-holo-11-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84660,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -1293,10 +1492,13 @@
       "cardtrader": [
         {
           "id": 123410,
-          "match_type": "scryfall",
+          "name": "Light Arcanine",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "012",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1366,7 +1568,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274664
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123410/preview_light-arcanine-rare-holo-12-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86734,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -1387,10 +1600,13 @@
       "cardtrader": [
         {
           "id": 123411,
-          "match_type": "scryfall",
+          "name": "Light Azumarill",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "013",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1460,7 +1676,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274665
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123411/preview_light-azumarill-rare-holo-13-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86735,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -1481,10 +1708,13 @@
       "cardtrader": [
         {
           "id": 123412,
-          "match_type": "scryfall",
+          "name": "Light Dragonite",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "014",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1554,7 +1784,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274666
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123412/preview_light-dragonite-rare-holo-14-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86738,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -1575,10 +1816,13 @@
       "cardtrader": [
         {
           "id": 123413,
-          "match_type": "scryfall",
+          "name": "Light Togetic",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "015",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1648,7 +1892,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274667
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123413/preview_light-togetic-rare-holo-15-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86750,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -1669,10 +1924,13 @@
       "cardtrader": [
         {
           "id": 123414,
-          "match_type": "scryfall",
+          "name": "Miracle Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "016",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1742,7 +2000,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274668
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123414/preview_miracle-energy-rare-holo-16-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87496,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -1763,10 +2032,13 @@
       "cardtrader": [
         {
           "id": 123415,
-          "match_type": "scryfall",
+          "name": "Dark Ariados",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "017",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1836,7 +2108,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274669
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123415/preview_dark-ariados-17-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84566,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -1857,10 +2140,13 @@
       "cardtrader": [
         {
           "id": 123416,
-          "match_type": "scryfall",
+          "name": "Dark Magcargo",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "018",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1930,7 +2216,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274670
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123416/preview_dark-magcargo-18-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84622,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -1951,10 +2248,13 @@
       "cardtrader": [
         {
           "id": 123417,
-          "match_type": "scryfall",
+          "name": "Dark Omastar",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "019",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -2024,7 +2324,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274671
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123417/preview_dark-omastar-19-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84635,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -2045,10 +2356,13 @@
       "cardtrader": [
         {
           "id": 123418,
-          "match_type": "scryfall",
+          "name": "Dark Slowking",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "020",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -2118,7 +2432,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274672
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123418/preview_dark-slowking-20-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84656,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -2139,10 +2464,13 @@
       "cardtrader": [
         {
           "id": 123419,
-          "match_type": "scryfall",
+          "name": "Dark Ursaring",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "021",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -2212,7 +2540,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274673
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123419/preview_dark-ursaring-21-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84663,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -2233,10 +2572,13 @@
       "cardtrader": [
         {
           "id": 123420,
-          "match_type": "scryfall",
+          "name": "Light Dragonair",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "022",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -2306,7 +2648,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274674
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123420/preview_light-dragonair-22-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86737,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -2327,10 +2680,13 @@
       "cardtrader": [
         {
           "id": 123421,
-          "match_type": "scryfall",
+          "name": "Light Lanturn",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "023",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -2400,7 +2756,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274675
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123421/preview_light-lanturn-23-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86742,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -2421,10 +2788,13 @@
       "cardtrader": [
         {
           "id": 123422,
-          "match_type": "scryfall",
+          "name": "Light Ledian",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "024",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -2494,7 +2864,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274676
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123422/preview_light-ledian-24-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86743,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -2515,10 +2896,13 @@
       "cardtrader": [
         {
           "id": 123423,
-          "match_type": "scryfall",
+          "name": "Light Machamp",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "025",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -2588,7 +2972,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274677
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123423/preview_light-machamp-25-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86744,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -2609,10 +3004,13 @@
       "cardtrader": [
         {
           "id": 123424,
-          "match_type": "scryfall",
+          "name": "Light Piloswine",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "026",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -2682,7 +3080,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274678
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123424/preview_light-piloswine-26-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86747,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -2703,10 +3112,13 @@
       "cardtrader": [
         {
           "id": 123425,
-          "match_type": "scryfall",
+          "name": "Unown [G]",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "027",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -2776,7 +3188,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274679
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123425/preview_unown-g-27-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90209,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -2797,10 +3220,13 @@
       "cardtrader": [
         {
           "id": 123426,
-          "match_type": "scryfall",
+          "name": "Unown [H]",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "028",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -2870,7 +3296,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274680
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123426/preview_unown-h-28-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90211,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -2891,10 +3328,13 @@
       "cardtrader": [
         {
           "id": 123427,
-          "match_type": "scryfall",
+          "name": "Unown [W]",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "029",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -2964,7 +3404,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274681
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123427/preview_unown-w-29-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90240,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -2985,10 +3436,13 @@
       "cardtrader": [
         {
           "id": 123428,
-          "match_type": "scryfall",
+          "name": "Unown [X]",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "030",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -3058,7 +3512,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274682
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123428/preview_unown-x-30-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90242,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -3079,10 +3544,13 @@
       "cardtrader": [
         {
           "id": 123429,
-          "match_type": "scryfall",
+          "name": "Chansey",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "031",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3152,7 +3620,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274683
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123429/preview_chansey-31-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84170,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -3173,10 +3652,13 @@
       "cardtrader": [
         {
           "id": 123430,
-          "match_type": "scryfall",
+          "name": "Dark Croconaw",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "032",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3246,7 +3728,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274684
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123430/preview_dark-croconaw-32-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84578,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -3267,10 +3760,13 @@
       "cardtrader": [
         {
           "id": 123431,
-          "match_type": "scryfall",
+          "name": "Dark Exeggcutor",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "033",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3340,7 +3836,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274685
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123431/preview_dark-exeggutor-33-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84593,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -3361,10 +3868,13 @@
       "cardtrader": [
         {
           "id": 123432,
-          "match_type": "scryfall",
+          "name": "Dark Flaaffy",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "034",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3434,7 +3944,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274686
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123432/preview_dark-flaaffy-34-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84595,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -3455,10 +3976,13 @@
       "cardtrader": [
         {
           "id": 123433,
-          "match_type": "scryfall",
+          "name": "Dark Forretress",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "035",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3528,7 +4052,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274687
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123433/preview_dark-forretress-35-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84598,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -3549,10 +4084,13 @@
       "cardtrader": [
         {
           "id": 123434,
-          "match_type": "scryfall",
+          "name": "Dark Haunter",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "036",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3622,7 +4160,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274688
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123434/preview_dark-haunter-36-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84609,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -3643,10 +4192,13 @@
       "cardtrader": [
         {
           "id": 123435,
-          "match_type": "scryfall",
+          "name": "Dark Omanyte",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "037",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3716,7 +4268,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274689
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123435/preview_dark-omanyte-37-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84634,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -3737,10 +4300,13 @@
       "cardtrader": [
         {
           "id": 123436,
-          "match_type": "scryfall",
+          "name": "Dark Pupitar",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "038",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3810,7 +4376,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274690
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123436/preview_dark-pupitar-38-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84642,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -3831,10 +4408,13 @@
       "cardtrader": [
         {
           "id": 123437,
-          "match_type": "scryfall",
+          "name": "Dark Quilava",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "039",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3904,7 +4484,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274691
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123437/preview_dark-quilava-39-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84645,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -3925,10 +4516,13 @@
       "cardtrader": [
         {
           "id": 123438,
-          "match_type": "scryfall",
+          "name": "Dark Wigglytuff",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "040",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3998,7 +4592,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274692
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123438/preview_dark-wigglytuff-40-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84674,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -4019,10 +4624,13 @@
       "cardtrader": [
         {
           "id": 123439,
-          "match_type": "scryfall",
+          "name": "Heracross",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "041",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4092,7 +4700,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274693
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123439/preview_heracross-41-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86060,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -4113,10 +4732,13 @@
       "cardtrader": [
         {
           "id": 123440,
-          "match_type": "scryfall",
+          "name": "Hitmonlee",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "042",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4186,7 +4808,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274694
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123440/preview_hitmonlee-42-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86103,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -4207,10 +4840,13 @@
       "cardtrader": [
         {
           "id": 123441,
-          "match_type": "scryfall",
+          "name": "Houndour",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "043",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4280,7 +4916,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274695
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123441/preview_houndour-43-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86219,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -4301,10 +4948,13 @@
       "cardtrader": [
         {
           "id": 123442,
-          "match_type": "scryfall",
+          "name": "Jigglypuff",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "044",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4374,7 +5024,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274696
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123442/preview_jigglypuff-44-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86311,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -4395,10 +5056,13 @@
       "cardtrader": [
         {
           "id": 123443,
-          "match_type": "scryfall",
+          "name": "Light Dewgong",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "045",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4468,7 +5132,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274697
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123443/preview_light-dewgong-45-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86736,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -4489,10 +5164,13 @@
       "cardtrader": [
         {
           "id": 123444,
-          "match_type": "scryfall",
+          "name": "Light Flareon",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "046",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4562,7 +5240,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274698
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123444/preview_light-flareon-46-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86739,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -4583,10 +5272,13 @@
       "cardtrader": [
         {
           "id": 123445,
-          "match_type": "scryfall",
+          "name": "Light Golduck",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "047",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4656,7 +5348,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274699
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123445/preview_light-golduck-47-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86740,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -4677,10 +5380,13 @@
       "cardtrader": [
         {
           "id": 123446,
-          "match_type": "scryfall",
+          "name": "Light Jolteon",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "048",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4750,7 +5456,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274700
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123446/preview_light-jolteon-48-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86741,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -4771,10 +5488,13 @@
       "cardtrader": [
         {
           "id": 123447,
-          "match_type": "scryfall",
+          "name": "Light Machoke",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "049",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4844,7 +5564,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274701
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123447/preview_light-machoke-49-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86745,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -4865,10 +5596,13 @@
       "cardtrader": [
         {
           "id": 123448,
-          "match_type": "scryfall",
+          "name": "Light Ninetales",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "050",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4938,7 +5672,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274702
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123448/preview_light-ninetales-50-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86746,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -4959,10 +5704,13 @@
       "cardtrader": [
         {
           "id": 123449,
-          "match_type": "scryfall",
+          "name": "Light Slowbro",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "051",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -5032,7 +5780,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274703
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123449/preview_light-slowbro-51-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86748,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -5053,10 +5812,13 @@
       "cardtrader": [
         {
           "id": 123450,
-          "match_type": "scryfall",
+          "name": "Light Vaporeon",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "052",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -5126,7 +5888,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274704
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123450/preview_light-vaporeon-52-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86751,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -5147,10 +5920,13 @@
       "cardtrader": [
         {
           "id": 123451,
-          "match_type": "scryfall",
+          "name": "Light Venomoth",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "053",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -5220,7 +5996,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274705
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123451/preview_light-venomoth-53-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86752,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -5241,10 +6028,13 @@
       "cardtrader": [
         {
           "id": 123452,
-          "match_type": "scryfall",
+          "name": "Light Wigglytuff",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "054",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -5314,7 +6104,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274706
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123452/preview_light-wigglytuff-54-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86753,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -5335,10 +6136,13 @@
       "cardtrader": [
         {
           "id": 123453,
-          "match_type": "scryfall",
+          "name": "Scyther",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "055",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -5408,7 +6212,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274707
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123453/preview_scyther-55-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88995,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -5429,10 +6244,13 @@
       "cardtrader": [
         {
           "id": 123454,
-          "match_type": "scryfall",
+          "name": "Togepi",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "056",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -5502,7 +6320,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274708
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123454/preview_togepi-56-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89930,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -5523,10 +6352,13 @@
       "cardtrader": [
         {
           "id": 123455,
-          "match_type": "scryfall",
+          "name": "Unown [C]",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "057",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -5596,7 +6428,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274709
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123455/preview_unown-c-57-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90201,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -5617,10 +6460,13 @@
       "cardtrader": [
         {
           "id": 123456,
-          "match_type": "scryfall",
+          "name": "Unown [P]",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "058",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -5690,7 +6536,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274710
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123456/preview_unown-p-58-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90227,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -5711,10 +6568,13 @@
       "cardtrader": [
         {
           "id": 123457,
-          "match_type": "scryfall",
+          "name": "Unown [Q]",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "059",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -5784,7 +6644,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274711
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123457/preview_unown-q-59-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90229,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -5805,10 +6676,13 @@
       "cardtrader": [
         {
           "id": 123458,
-          "match_type": "scryfall",
+          "name": "Unown [Z]",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "060",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -5878,7 +6752,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274712
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123458/preview_unown-z-60-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90246,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -5899,10 +6784,13 @@
       "cardtrader": [
         {
           "id": 123459,
-          "match_type": "scryfall",
+          "name": "Cyndaquil",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "061",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5972,7 +6860,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274713
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123459/preview_cyndaquil-61-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84546,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -5993,10 +6892,13 @@
       "cardtrader": [
         {
           "id": 123460,
-          "match_type": "scryfall",
+          "name": "Dark Octillery",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "062",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6066,7 +6968,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274714
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123460/preview_dark-octillery-62-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84632,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -6087,10 +7000,13 @@
       "cardtrader": [
         {
           "id": 123461,
-          "match_type": "scryfall",
+          "name": "Dratini",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "063",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6160,7 +7076,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274715
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123461/preview_dratini-63-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84929,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -6181,10 +7108,13 @@
       "cardtrader": [
         {
           "id": 123462,
-          "match_type": "scryfall",
+          "name": "Exeggcute",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "064",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6254,7 +7184,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274716
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123462/preview_exeggcute-64-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85342,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -6275,10 +7216,13 @@
       "cardtrader": [
         {
           "id": 123463,
-          "match_type": "scryfall",
+          "name": "Gastly",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "065",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6348,7 +7292,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274717
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123463/preview_gastly-65-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85647,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -6369,10 +7324,13 @@
       "cardtrader": [
         {
           "id": 123464,
-          "match_type": "scryfall",
+          "name": "Girafarig",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "066",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6442,7 +7400,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274718
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123464/preview_girafarig-66-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85728,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -6463,10 +7432,13 @@
       "cardtrader": [
         {
           "id": 123465,
-          "match_type": "scryfall",
+          "name": "Gligar",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "067",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6536,7 +7508,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274719
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123465/preview_gligar-67-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85762,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -6557,10 +7540,13 @@
       "cardtrader": [
         {
           "id": 123466,
-          "match_type": "scryfall",
+          "name": "Growlithe",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "068",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6630,7 +7616,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274720
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123466/preview_growlithe-68-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85952,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -6651,10 +7648,13 @@
       "cardtrader": [
         {
           "id": 123467,
-          "match_type": "scryfall",
+          "name": "Hitmonchan",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "069",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6724,7 +7724,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274721
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123467/preview_hitmonchan-69-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86090,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -6745,10 +7756,13 @@
       "cardtrader": [
         {
           "id": 123468,
-          "match_type": "scryfall",
+          "name": "Larvitar",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "070",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6818,7 +7832,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274722
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123468/preview_larvitar-70-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86633,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -6839,10 +7864,13 @@
       "cardtrader": [
         {
           "id": 123469,
-          "match_type": "scryfall",
+          "name": "Ledyba",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "071",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6912,7 +7940,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274723
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123469/preview_ledyba-71-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86700,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -6933,10 +7972,13 @@
       "cardtrader": [
         {
           "id": 123470,
-          "match_type": "scryfall",
+          "name": "Light Sunflora",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "072",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7006,7 +8048,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274724
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123470/preview_light-sunflora-72-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86749,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -7027,10 +8080,13 @@
       "cardtrader": [
         {
           "id": 123471,
-          "match_type": "scryfall",
+          "name": "Machop",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "073",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7100,7 +8156,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274725
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123471/preview_machop-73-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86988,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -7121,10 +8188,13 @@
       "cardtrader": [
         {
           "id": 123472,
-          "match_type": "scryfall",
+          "name": "Mantine",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "074",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7194,7 +8264,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274726
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123472/preview_mantine-74-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87180,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -7215,10 +8296,13 @@
       "cardtrader": [
         {
           "id": 123473,
-          "match_type": "scryfall",
+          "name": "Mareep",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "075",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7288,7 +8372,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274727
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123473/preview_mareep-75-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87194,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -7309,10 +8404,13 @@
       "cardtrader": [
         {
           "id": 123474,
-          "match_type": "scryfall",
+          "name": "Phanpy",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "076",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7382,7 +8480,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274728
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123474/preview_phanpy-76-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87997,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -7403,10 +8512,13 @@
       "cardtrader": [
         {
           "id": 123475,
-          "match_type": "scryfall",
+          "name": "Pineco",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "077",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7476,7 +8588,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274729
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123475/preview_pineco-77-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88123,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -7497,10 +8620,13 @@
       "cardtrader": [
         {
           "id": 123476,
-          "match_type": "scryfall",
+          "name": "Porygon",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "078",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7570,7 +8696,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274730
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123476/preview_porygon-78-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88305,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -7591,10 +8728,13 @@
       "cardtrader": [
         {
           "id": 123477,
-          "match_type": "scryfall",
+          "name": "Psyduck",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "079",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7664,7 +8804,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274731
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123477/preview_psyduck-79-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88433,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -7685,10 +8836,13 @@
       "cardtrader": [
         {
           "id": 123478,
-          "match_type": "scryfall",
+          "name": "Remoraid",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "080",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7758,7 +8912,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274732
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123478/preview_remoraid-80-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88693,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -7779,10 +8944,13 @@
       "cardtrader": [
         {
           "id": 123479,
-          "match_type": "scryfall",
+          "name": "Seel",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "081",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7852,7 +9020,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274733
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123479/preview_seel-81-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89048,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -7873,10 +9052,13 @@
       "cardtrader": [
         {
           "id": 123480,
-          "match_type": "scryfall",
+          "name": "Slugma",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "082",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7946,7 +9128,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274734
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123480/preview_slugma-82-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89337,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -7967,10 +9160,13 @@
       "cardtrader": [
         {
           "id": 123481,
-          "match_type": "scryfall",
+          "name": "Sunkern",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "083",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -8040,7 +9236,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274735
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123481/preview_sunkern-83-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89618,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -8061,10 +9268,13 @@
       "cardtrader": [
         {
           "id": 123482,
-          "match_type": "scryfall",
+          "name": "Swinub",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "084",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -8134,7 +9344,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274736
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123482/preview_swinub-84-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89699,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -8155,10 +9376,13 @@
       "cardtrader": [
         {
           "id": 123483,
-          "match_type": "scryfall",
+          "name": "Totodile",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "085",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -8228,7 +9452,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274737
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123483/preview_totodile-85-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89993,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -8249,10 +9484,13 @@
       "cardtrader": [
         {
           "id": 123484,
-          "match_type": "scryfall",
+          "name": "Unown [L]",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "086",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -8322,7 +9560,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274738
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123484/preview_unown-l-86-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90219,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -8343,10 +9592,13 @@
       "cardtrader": [
         {
           "id": 123485,
-          "match_type": "scryfall",
+          "name": "Unown [S]",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "087",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -8416,7 +9668,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274739
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123485/preview_unown-s-87-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90232,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -8437,10 +9700,13 @@
       "cardtrader": [
         {
           "id": 123486,
-          "match_type": "scryfall",
+          "name": "Unown [T]",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "088",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -8510,7 +9776,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274740
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123486/preview_unown-t-88-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90234,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -8531,10 +9808,13 @@
       "cardtrader": [
         {
           "id": 123487,
-          "match_type": "scryfall",
+          "name": "Unown [V]",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "089",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -8604,7 +9884,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274741
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123487/preview_unown-v-89-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90238,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -8625,10 +9916,13 @@
       "cardtrader": [
         {
           "id": 123488,
-          "match_type": "scryfall",
+          "name": "Venonat",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "090",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -8698,7 +9992,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274742
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123488/preview_venonat-90-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90305,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -8719,10 +10024,13 @@
       "cardtrader": [
         {
           "id": 123489,
-          "match_type": "scryfall",
+          "name": "Vulpix",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "091",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -8792,7 +10100,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274743
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123489/preview_vulpix-91-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90433,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -8813,10 +10132,13 @@
       "cardtrader": [
         {
           "id": 123490,
-          "match_type": "scryfall",
+          "name": "Broken Ground Gym",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "092",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -8886,7 +10208,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274744
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123490/preview_broken-ground-gym-92-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83990,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -8907,10 +10240,13 @@
       "cardtrader": [
         {
           "id": 123491,
-          "match_type": "scryfall",
+          "name": "EXP.ALL",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "093",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -8980,7 +10316,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274745
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123491/preview_exp-all-93-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85367,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -9001,10 +10348,13 @@
       "cardtrader": [
         {
           "id": 123492,
-          "match_type": "scryfall",
+          "name": "Impostor Professor Oak's Invention",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "094",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -9074,7 +10424,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274746
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123492/preview_impostor-professor-oak-s-invention-94-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86272,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -9095,10 +10456,13 @@
       "cardtrader": [
         {
           "id": 123493,
-          "match_type": "scryfall",
+          "name": "Radio Tower",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "095",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -9168,7 +10532,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274747
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123493/preview_radio-tower-95-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88497,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -9189,10 +10564,13 @@
       "cardtrader": [
         {
           "id": 123494,
-          "match_type": "scryfall",
+          "name": "Thought Wave Machine",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "096",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -9262,7 +10640,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274748
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123494/preview_thought-wave-machine-96-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89898,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -9283,10 +10672,13 @@
       "cardtrader": [
         {
           "id": 123495,
-          "match_type": "scryfall",
+          "name": "Counterattack Claws",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "097",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -9356,7 +10748,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274749
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123495/preview_counterattack-claws-97-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84448,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -9377,10 +10780,13 @@
       "cardtrader": [
         {
           "id": 123496,
-          "match_type": "scryfall",
+          "name": "Energy Amplifier",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "098",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -9450,7 +10856,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274750
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123496/preview_energy-amplifier-98-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85208,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -9471,10 +10888,13 @@
       "cardtrader": [
         {
           "id": 123497,
-          "match_type": "scryfall",
+          "name": "Energy Stadium",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "099",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -9544,7 +10964,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274751
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123497/preview_energy-stadium-99-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85251,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -9565,10 +10996,13 @@
       "cardtrader": [
         {
           "id": 123498,
-          "match_type": "scryfall",
+          "name": "Lucky Stadium",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "100",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -9638,7 +11072,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274752
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123498/preview_lucky-stadium-100-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86893,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -9659,10 +11104,13 @@
       "cardtrader": [
         {
           "id": 123499,
-          "match_type": "scryfall",
+          "name": "Magnifier",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "101",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -9732,7 +11180,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274753
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123499/preview_magnifier-101-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87122,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -9753,10 +11212,13 @@
       "cardtrader": [
         {
           "id": 123500,
-          "match_type": "scryfall",
+          "name": "Pokémon Personality Test",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "102",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -9826,7 +11288,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274754
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123500/preview_pokemon-personality-test-102-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88232,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -9847,10 +11320,13 @@
       "cardtrader": [
         {
           "id": 123501,
-          "match_type": "scryfall",
+          "name": "Team Rocket's Evil Deeds",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "103",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -9920,7 +11396,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274755
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123501/preview_team-rocket-s-evil-deeds-103-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89850,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -9941,10 +11428,13 @@
       "cardtrader": [
         {
           "id": 123502,
-          "match_type": "scryfall",
+          "name": "Heal Powder",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "104",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -10014,7 +11504,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274756
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123502/preview_heal-powder-104-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86039,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -10035,10 +11536,13 @@
       "cardtrader": [
         {
           "id": 123503,
-          "match_type": "scryfall",
+          "name": "Mail from Bill",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "105",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -10108,7 +11612,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274757
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123503/preview_mail-from-bill-105-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87123,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -10129,10 +11644,13 @@
       "cardtrader": [
         {
           "id": 123504,
-          "match_type": "scryfall",
+          "name": "Shining Celebi",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "106",
+          "rarity": "Shiny Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -10193,7 +11711,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274758
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123504/preview_shining-celebi-106-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89162,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -10214,10 +11743,13 @@
       "cardtrader": [
         {
           "id": 123505,
-          "match_type": "scryfall",
+          "name": "Shining Charizard",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "107",
+          "rarity": "Shiny Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -10278,7 +11810,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274759
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123505/preview_shining-charizard-107-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89163,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -10299,10 +11842,13 @@
       "cardtrader": [
         {
           "id": 123506,
-          "match_type": "scryfall",
+          "name": "Shining Kabutops",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "108",
+          "rarity": "Shiny Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -10363,7 +11909,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274760
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123506/preview_shining-kabutops-108-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89165,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -10384,10 +11941,13 @@
       "cardtrader": [
         {
           "id": 123507,
-          "match_type": "scryfall",
+          "name": "Shining Mewtwo",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "109",
+          "rarity": "Shiny Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -10448,7 +12008,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274761
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123507/preview_shining-mewtwo-109-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89167,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -10469,10 +12040,13 @@
       "cardtrader": [
         {
           "id": 123508,
-          "match_type": "scryfall",
+          "name": "Shining Noctowl",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "110",
+          "rarity": "Shiny Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -10533,7 +12107,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274762
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123508/preview_shining-noctowl-110-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89168,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -10554,10 +12139,13 @@
       "cardtrader": [
         {
           "id": 123509,
-          "match_type": "scryfall",
+          "name": "Shining Raichu",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "111",
+          "rarity": "Shiny Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -10618,7 +12206,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274763
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123509/preview_shining-raichu-111-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89169,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -10639,10 +12238,13 @@
       "cardtrader": [
         {
           "id": 123510,
-          "match_type": "scryfall",
+          "name": "Shining Steelix",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "112",
+          "rarity": "Shiny Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -10703,7 +12305,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274764
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123510/preview_shining-steelix-112-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89170,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     },
@@ -10724,10 +12337,13 @@
       "cardtrader": [
         {
           "id": 123511,
-          "match_type": "scryfall",
+          "name": "Shining Tyranitar",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Neo Destiny",
           "expansion_code": "n4",
           "collector_number": "113",
+          "rarity": "Shiny Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -10788,7 +12404,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274765
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123511/preview_shining-tyranitar-113-105-neo-destiny.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89171,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1444
         }
       ]
     }

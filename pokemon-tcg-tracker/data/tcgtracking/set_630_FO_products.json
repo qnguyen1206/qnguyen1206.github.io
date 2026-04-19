@@ -4,8 +4,8 @@
   "set_abbr": "FO",
   "set_released": "1999-10-10",
   "product_count": 68,
-  "data_modified": "2026-02-14T01:01:08-05:00",
-  "file_generated": "2026-02-14T03:30:53-05:00",
+  "data_modified": "2026-04-15T07:07:32-04:00",
+  "file_generated": "2026-04-16T04:30:48-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/630/pricing",
   "products": [
     {
@@ -25,9 +25,13 @@
       "cardtrader": [
         {
           "id": 105173,
-          "match_type": "scryfall",
+          "name": "Fossil Booster",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -70,7 +74,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            271849
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105173/preview_fossil-booster-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 138133,
+          "game_id": 5,
+          "category_id": 66,
+          "category_name": "Pokémon Booster",
+          "product_type": "booster",
+          "group_id": 630
         }
       ]
     },
@@ -106,9 +121,13 @@
       "cardtrader": [
         {
           "id": 105176,
-          "match_type": "scryfall",
+          "name": "Fossil: BodyGuard Theme Deck",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -151,7 +170,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            286496
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105176/preview_fossil-bodyguard-theme-deck-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 107607,
+          "game_id": 5,
+          "category_id": 69,
+          "category_name": "Pokémon Preconstructed Deck",
+          "product_type": "precon_deck",
+          "group_id": 630
         }
       ]
     },
@@ -172,9 +202,13 @@
       "cardtrader": [
         {
           "id": 105175,
-          "match_type": "scryfall",
+          "name": "Fossil: LockDown Theme Deck",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -217,7 +251,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            286495
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105175/preview_fossil-lockdown-theme-deck-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 107608,
+          "game_id": 5,
+          "category_id": 69,
+          "category_name": "Pokémon Preconstructed Deck",
+          "product_type": "precon_deck",
+          "group_id": 630
         }
       ]
     },
@@ -268,10 +313,13 @@
       "cardtrader": [
         {
           "id": 119603,
-          "match_type": "scryfall",
+          "name": "Aerodactyl",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "001",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -338,7 +386,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273862
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119603/preview_aerodactyl-holo-rare-1-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44418,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -359,10 +418,13 @@
       "cardtrader": [
         {
           "id": 119604,
-          "match_type": "scryfall",
+          "name": "Articuno",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "002",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -429,7 +491,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273863
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119604/preview_articuno-holo-rare-2-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 106518,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -450,10 +523,13 @@
       "cardtrader": [
         {
           "id": 119605,
-          "match_type": "scryfall",
+          "name": "Ditto",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "003",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -520,7 +596,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273864
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119605/preview_ditto-holo-rare-3-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 106519,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -541,10 +628,13 @@
       "cardtrader": [
         {
           "id": 119606,
-          "match_type": "scryfall",
+          "name": "Dragonite",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "004",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -611,7 +701,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273865
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119606/preview_dragonite-holo-rare-4-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 106520,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -632,10 +733,13 @@
       "cardtrader": [
         {
           "id": 119607,
-          "match_type": "scryfall",
+          "name": "Gengar",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "005",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -702,7 +806,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273866
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119607/preview_gengar-holo-rare-5-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 106521,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -723,10 +838,13 @@
       "cardtrader": [
         {
           "id": 119608,
-          "match_type": "scryfall",
+          "name": "Haunter",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "006",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -793,7 +911,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273867
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119608/preview_haunter-holo-rare-6-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 106522,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -814,10 +943,13 @@
       "cardtrader": [
         {
           "id": 119609,
-          "match_type": "scryfall",
+          "name": "Hitmonlee",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "007",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -884,7 +1016,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273868
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119609/preview_hitmonlee-holo-rare-7-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 106523,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -905,10 +1048,13 @@
       "cardtrader": [
         {
           "id": 119610,
-          "match_type": "scryfall",
+          "name": "Hypno",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "008",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -975,7 +1121,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273869
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119610/preview_hypno-holo-rare-8-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 106524,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -996,10 +1153,13 @@
       "cardtrader": [
         {
           "id": 119611,
-          "match_type": "scryfall",
+          "name": "Kabutops",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "009",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1066,7 +1226,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273870
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119611/preview_kabutops-holo-rare-9-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 106525,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -1087,10 +1258,13 @@
       "cardtrader": [
         {
           "id": 119612,
-          "match_type": "scryfall",
+          "name": "Lapras",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "010",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1157,7 +1331,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273871
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119612/preview_lapras-holo-rare-10-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44419,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -1178,10 +1363,13 @@
       "cardtrader": [
         {
           "id": 119613,
-          "match_type": "scryfall",
+          "name": "Magneton",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "011",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1248,7 +1436,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273872
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119613/preview_magneton-holo-rare-11-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44420,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -1269,10 +1468,13 @@
       "cardtrader": [
         {
           "id": 119614,
-          "match_type": "scryfall",
+          "name": "Moltres",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "012",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1339,7 +1541,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273873
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119614/preview_moltres-holo-rare-12-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44421,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -1360,10 +1573,13 @@
       "cardtrader": [
         {
           "id": 119615,
-          "match_type": "scryfall",
+          "name": "Muk",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "013",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1430,7 +1646,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273874
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119615/preview_muk-holo-rare-13-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44422,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -1451,10 +1678,13 @@
       "cardtrader": [
         {
           "id": 119616,
-          "match_type": "scryfall",
+          "name": "Raichu",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "014",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1521,7 +1751,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273875
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119616/preview_raichu-holo-rare-14-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44423,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -1542,10 +1783,13 @@
       "cardtrader": [
         {
           "id": 119617,
-          "match_type": "scryfall",
+          "name": "Zapdos",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "015",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1612,7 +1856,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273876
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119617/preview_zapdos-holo-rare-15-62-1999-wizards-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44424,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -1633,10 +1888,13 @@
       "cardtrader": [
         {
           "id": 119618,
-          "match_type": "scryfall",
+          "name": "Aerodactyl",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "016",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -1703,7 +1961,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273877
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119618/preview_aerodactyl-16-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 106526,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -1724,10 +1993,13 @@
       "cardtrader": [
         {
           "id": 119619,
-          "match_type": "scryfall",
+          "name": "Articuno",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "017",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -1794,7 +2066,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273878
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119619/preview_articuno-17-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44425,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -1815,10 +2098,13 @@
       "cardtrader": [
         {
           "id": 119620,
-          "match_type": "scryfall",
+          "name": "Ditto",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "018",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -1885,7 +2171,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273879
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119620/preview_ditto-18-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44426,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -1906,10 +2203,13 @@
       "cardtrader": [
         {
           "id": 119621,
-          "match_type": "scryfall",
+          "name": "Dragonite",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "019",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -1976,7 +2276,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273880
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119621/preview_dragonite-19-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44427,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -1997,10 +2308,13 @@
       "cardtrader": [
         {
           "id": 119622,
-          "match_type": "scryfall",
+          "name": "Gengar",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "020",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2067,7 +2381,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273881
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119622/preview_gengar-20-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44428,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -2088,10 +2413,13 @@
       "cardtrader": [
         {
           "id": 119623,
-          "match_type": "scryfall",
+          "name": "Haunter",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "021",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2158,7 +2486,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273882
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119623/preview_haunter-21-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44429,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -2179,10 +2518,13 @@
       "cardtrader": [
         {
           "id": 119624,
-          "match_type": "scryfall",
+          "name": "Hitmonlee",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "022",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2249,7 +2591,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273883
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119624/preview_hitmonlee-22-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44430,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -2270,10 +2623,13 @@
       "cardtrader": [
         {
           "id": 119625,
-          "match_type": "scryfall",
+          "name": "Hypno",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "023",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2340,7 +2696,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273884
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119625/preview_hypno-23-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44431,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -2361,10 +2728,13 @@
       "cardtrader": [
         {
           "id": 119626,
-          "match_type": "scryfall",
+          "name": "Kabutops",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "024",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2431,7 +2801,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273885
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119626/preview_kabutops-24-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44432,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -2452,10 +2833,13 @@
       "cardtrader": [
         {
           "id": 119627,
-          "match_type": "scryfall",
+          "name": "Lapras",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "025",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2522,7 +2906,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273886
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119627/preview_lapras-25-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 106527,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -2543,10 +2938,13 @@
       "cardtrader": [
         {
           "id": 119628,
-          "match_type": "scryfall",
+          "name": "Magneton",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "026",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2613,7 +3011,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273887
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119628/preview_magneton-26-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 106528,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -2634,10 +3043,13 @@
       "cardtrader": [
         {
           "id": 119629,
-          "match_type": "scryfall",
+          "name": "Moltres",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "027",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2704,7 +3116,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273888
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119629/preview_moltres-27-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 106529,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -2725,10 +3148,13 @@
       "cardtrader": [
         {
           "id": 119630,
-          "match_type": "scryfall",
+          "name": "Muk",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "028",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2795,7 +3221,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273889
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119630/preview_muk-28-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 106530,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -2816,10 +3253,13 @@
       "cardtrader": [
         {
           "id": 119631,
-          "match_type": "scryfall",
+          "name": "Raichu",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "029",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2886,7 +3326,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273890
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119631/preview_raichu-29-62-non-holo-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 106531,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -2907,10 +3358,13 @@
       "cardtrader": [
         {
           "id": 119632,
-          "match_type": "scryfall",
+          "name": "Zapdos",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "030",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2977,7 +3431,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273891
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119632/preview_zapdos-30-62-non-holo-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 106532,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -2998,10 +3463,13 @@
       "cardtrader": [
         {
           "id": 119633,
-          "match_type": "scryfall",
+          "name": "Arbok",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "031",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3068,7 +3536,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273892
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119633/preview_arbok-31-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44433,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -3089,10 +3568,13 @@
       "cardtrader": [
         {
           "id": 119634,
-          "match_type": "scryfall",
+          "name": "Cloyster",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "032",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3159,7 +3641,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273893
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119634/preview_cloyster-32-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44434,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -3180,10 +3673,13 @@
       "cardtrader": [
         {
           "id": 119635,
-          "match_type": "scryfall",
+          "name": "Gastly",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "033",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3250,7 +3746,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273894
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119635/preview_gastly-33-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44435,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -3271,10 +3778,13 @@
       "cardtrader": [
         {
           "id": 119636,
-          "match_type": "scryfall",
+          "name": "Golbat",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "034",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3341,7 +3851,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273895
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119636/preview_golbat-34-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44436,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -3362,10 +3883,13 @@
       "cardtrader": [
         {
           "id": 119637,
-          "match_type": "scryfall",
+          "name": "Golduck",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "035",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3432,7 +3956,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273896
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119637/preview_golduck-35-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44437,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -3453,10 +3988,13 @@
       "cardtrader": [
         {
           "id": 119638,
-          "match_type": "scryfall",
+          "name": "Golem",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "036",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3523,7 +4061,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273897
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119638/preview_golem-36-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44438,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -3544,10 +4093,13 @@
       "cardtrader": [
         {
           "id": 119639,
-          "match_type": "scryfall",
+          "name": "Graveler",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "037",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3614,7 +4166,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273898
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119639/preview_graveler-37-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44439,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -3635,10 +4198,13 @@
       "cardtrader": [
         {
           "id": 119640,
-          "match_type": "scryfall",
+          "name": "Kingler",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "038",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3705,7 +4271,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273899
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119640/preview_kingler-38-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44440,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -3726,10 +4303,13 @@
       "cardtrader": [
         {
           "id": 119641,
-          "match_type": "scryfall",
+          "name": "Magmar",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "039",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3796,7 +4376,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273900
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119641/preview_magmar-39-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44441,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -3817,10 +4408,13 @@
       "cardtrader": [
         {
           "id": 119642,
-          "match_type": "scryfall",
+          "name": "Omastar",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "040",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3887,7 +4481,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273901
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119642/preview_omastar-40-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44442,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -3908,10 +4513,13 @@
       "cardtrader": [
         {
           "id": 119643,
-          "match_type": "scryfall",
+          "name": "Sandslash",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "041",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3978,7 +4586,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273902
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119643/preview_sandslash-41-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44443,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -3999,10 +4618,13 @@
       "cardtrader": [
         {
           "id": 119644,
-          "match_type": "scryfall",
+          "name": "Seadra",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "042",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4069,7 +4691,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273903
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119644/preview_seadra-42-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44444,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -4090,10 +4723,13 @@
       "cardtrader": [
         {
           "id": 119645,
-          "match_type": "scryfall",
+          "name": "Slowbro",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "043",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4160,7 +4796,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273904
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119645/preview_slowbro-43-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44445,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -4181,10 +4828,13 @@
       "cardtrader": [
         {
           "id": 119646,
-          "match_type": "scryfall",
+          "name": "Tentacruel",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "044",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4251,7 +4901,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273905
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119646/preview_tentacruel-44-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44446,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -4272,10 +4933,13 @@
       "cardtrader": [
         {
           "id": 119647,
-          "match_type": "scryfall",
+          "name": "Weezing",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "045",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4342,7 +5006,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273906
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119647/preview_weezing-45-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44447,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -4363,10 +5038,13 @@
       "cardtrader": [
         {
           "id": 119648,
-          "match_type": "scryfall",
+          "name": "Ekans",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "046",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4433,7 +5111,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273907
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119648/preview_ekans-46-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44448,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -4454,10 +5143,13 @@
       "cardtrader": [
         {
           "id": 119649,
-          "match_type": "scryfall",
+          "name": "Geodude",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "047",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4524,7 +5216,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273908
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119649/preview_geodude-47-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44449,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -4545,10 +5248,13 @@
       "cardtrader": [
         {
           "id": 119650,
-          "match_type": "scryfall",
+          "name": "Grimer",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "048",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4615,7 +5321,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273909
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119650/preview_grimer-48-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44450,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -4636,10 +5353,13 @@
       "cardtrader": [
         {
           "id": 119651,
-          "match_type": "scryfall",
+          "name": "Horsea",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "049",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4706,7 +5426,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273910
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119651/preview_horsea-49-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44451,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -4727,10 +5458,13 @@
       "cardtrader": [
         {
           "id": 119652,
-          "match_type": "scryfall",
+          "name": "Kabuto",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "050",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4797,7 +5531,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273911
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119652/preview_kabuto-50-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44452,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -4818,10 +5563,13 @@
       "cardtrader": [
         {
           "id": 119653,
-          "match_type": "scryfall",
+          "name": "Krabby",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "051",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4888,7 +5636,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273912
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119653/preview_krabby-51-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44453,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -4909,10 +5668,13 @@
       "cardtrader": [
         {
           "id": 119654,
-          "match_type": "scryfall",
+          "name": "Omanyte",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "052",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4979,7 +5741,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273913
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119654/preview_omanyte-52-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44454,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -5000,10 +5773,13 @@
       "cardtrader": [
         {
           "id": 119655,
-          "match_type": "scryfall",
+          "name": "Psyduck",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "053",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5070,7 +5846,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273914
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119655/preview_psyduck-53-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44455,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -5091,10 +5878,13 @@
       "cardtrader": [
         {
           "id": 119656,
-          "match_type": "scryfall",
+          "name": "Shellder",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "054",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5161,7 +5951,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273915
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119656/preview_shellder-54-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44456,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -5182,10 +5983,13 @@
       "cardtrader": [
         {
           "id": 119657,
-          "match_type": "scryfall",
+          "name": "Slowpoke",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "055",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5252,7 +6056,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273916
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119657/preview_slowpoke-55-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44457,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -5273,10 +6088,13 @@
       "cardtrader": [
         {
           "id": 119658,
-          "match_type": "scryfall",
+          "name": "Tentacool",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "056",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5343,7 +6161,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273917
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119658/preview_tentacool-56-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44458,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -5364,10 +6193,13 @@
       "cardtrader": [
         {
           "id": 119659,
-          "match_type": "scryfall",
+          "name": "Zubat",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "057",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5434,7 +6266,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273918
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119659/preview_zubat-57-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44459,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -5455,10 +6298,13 @@
       "cardtrader": [
         {
           "id": 119660,
-          "match_type": "scryfall",
+          "name": "Mr. Fuji",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "058",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -5525,7 +6371,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273919
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119660/preview_mr-fuji-58-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44460,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -5546,10 +6403,13 @@
       "cardtrader": [
         {
           "id": 119661,
-          "match_type": "scryfall",
+          "name": "Energy Search",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "059",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5616,7 +6476,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273920
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119661/preview_energy-search-59-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44461,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -5637,10 +6508,13 @@
       "cardtrader": [
         {
           "id": 119662,
-          "match_type": "scryfall",
+          "name": "Gambler",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "060",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5707,7 +6581,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273921
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119662/preview_gambler-60-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44462,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -5728,10 +6613,13 @@
       "cardtrader": [
         {
           "id": 119663,
-          "match_type": "scryfall",
+          "name": "Recycle",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "061",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5798,7 +6686,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273922
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119663/preview_recycle-61-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44463,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     },
@@ -5819,10 +6718,13 @@
       "cardtrader": [
         {
           "id": 119664,
-          "match_type": "scryfall",
+          "name": "Mysterious Fossil",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Fossil",
           "expansion_code": "fo",
           "collector_number": "062",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5889,7 +6791,18 @@
                 "nl"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            273923
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119664/preview_mysterious-fossil-62-62-fossil.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 44464,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 630
         }
       ]
     }

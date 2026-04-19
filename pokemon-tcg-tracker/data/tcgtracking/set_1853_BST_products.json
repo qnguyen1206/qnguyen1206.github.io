@@ -4,8 +4,8 @@
   "set_abbr": "BST",
   "set_released": "2004-10-18",
   "product_count": 52,
-  "data_modified": "2026-02-01T14:23:54-05:00",
-  "file_generated": "2026-02-02T03:32:32-05:00",
+  "data_modified": "2026-04-15T07:07:58-04:00",
+  "file_generated": "2026-04-16T04:30:48-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/1853/pricing",
   "products": [
     {
@@ -25,12 +25,17 @@
       "cardtrader": [
         {
           "id": 147798,
-          "match_type": "scryfall",
+          "name": "EX Battle Stadium",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
+          "languages": [],
           "properties": [
             {
               "name": "sealed",
@@ -41,7 +46,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            570260
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/147798/preview_ex-battle-stadium-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 210078,
+          "game_id": 5,
+          "category_id": 69,
+          "category_name": "Pokémon Preconstructed Deck",
+          "product_type": "precon_deck",
+          "group_id": 1853
         }
       ]
     },
@@ -92,10 +108,13 @@
       "cardtrader": [
         {
           "id": 231173,
-          "match_type": "scryfall",
+          "name": "Blaziken",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "003",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -177,7 +196,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/231173/preview_blaziken-003-52-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125112,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -198,10 +226,13 @@
       "cardtrader": [
         {
           "id": 231174,
-          "match_type": "scryfall",
+          "name": "Blaziken",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "003h",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -274,7 +305,16 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/231174/preview_blaziken-holo-rare-003-52-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125113,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -295,10 +335,13 @@
       "cardtrader": [
         {
           "id": 236984,
-          "match_type": "scryfall",
+          "name": "Gardevoir",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "007",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -380,7 +423,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/236984/preview_gardevoir-007-052-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125138,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -401,10 +453,13 @@
       "cardtrader": [
         {
           "id": 236985,
-          "match_type": "scryfall",
+          "name": "Gardevoir",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "007",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -477,7 +532,16 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/236985/preview_gardevoir-holo-rare-007-052-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125139,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -498,10 +562,13 @@
       "cardtrader": [
         {
           "id": 236981,
-          "match_type": "scryfall",
+          "name": "Espeon",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "016",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -583,7 +650,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/236981/preview_espeon-016-052-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125145,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -604,10 +680,13 @@
       "cardtrader": [
         {
           "id": 237007,
-          "match_type": "scryfall",
+          "name": "Seaking",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "021",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -689,7 +768,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/237007/preview_seaking-021-052-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125117,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -710,10 +798,13 @@
       "cardtrader": [
         {
           "id": 236971,
-          "match_type": "scryfall",
+          "name": "Camerupt",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "024",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -795,7 +886,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/236971/preview_camerupt-024-052-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125115,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -816,10 +916,13 @@
       "cardtrader": [
         {
           "id": 236973,
-          "match_type": "scryfall",
+          "name": "Combusken",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "025",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -901,7 +1004,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/236973/preview_combusken-025-052-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125111,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -922,10 +1034,13 @@
       "cardtrader": [
         {
           "id": 236975,
-          "match_type": "scryfall",
+          "name": "Delcatty",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "029",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -1007,7 +1122,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/236975/preview_delcatty-029-052-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125133,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -1028,10 +1152,13 @@
       "cardtrader": [
         {
           "id": 236987,
-          "match_type": "scryfall",
+          "name": "Hariyama",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "033",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -1113,7 +1240,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/236987/preview_hariyama-033-052-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125143,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -1134,10 +1270,13 @@
       "cardtrader": [
         {
           "id": 236991,
-          "match_type": "scryfall",
+          "name": "Kirlia",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "034",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -1219,7 +1358,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/236991/preview_kirlia-034-052-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125137,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -1240,10 +1388,13 @@
       "cardtrader": [
         {
           "id": 237006,
-          "match_type": "scryfall",
+          "name": "Seadra",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "039",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -1325,7 +1476,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/237006/preview_seadra-039-052-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125119,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -1346,10 +1506,13 @@
       "cardtrader": [
         {
           "id": 236995,
-          "match_type": "scryfall",
+          "name": "Medicham",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "042",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -1431,7 +1594,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/236995/preview_medicham-042-052-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125141,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -1452,10 +1624,13 @@
       "cardtrader": [
         {
           "id": 237009,
-          "match_type": "scryfall",
+          "name": "Swellow",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "046",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -1537,7 +1712,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/237009/preview_swellow-046-052-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125156,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -1558,10 +1742,13 @@
       "cardtrader": [
         {
           "id": 237004,
-          "match_type": "scryfall",
+          "name": "Quilava",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "051",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -1643,7 +1830,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/237004/preview_quilava-051-052-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125131,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -1664,10 +1860,13 @@
       "cardtrader": [
         {
           "id": 236986,
-          "match_type": "scryfall",
+          "name": "Goldeen",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "055",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -1749,7 +1948,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/236986/preview_goldeen-secret-rare-055-052-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125116,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -1770,10 +1978,13 @@
       "cardtrader": [
         {
           "id": 237016,
-          "match_type": "scryfall",
+          "name": "Xatu",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "055",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -1855,7 +2066,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/237016/preview_xatu-secret-rare-055-052-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125153,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -1876,10 +2096,13 @@
       "cardtrader": [
         {
           "id": 236994,
-          "match_type": "scryfall",
+          "name": "Makuhita",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "057",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -1961,7 +2184,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/236994/preview_makuhita-secret-rare-057-052-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125142,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -1982,10 +2214,13 @@
       "cardtrader": [
         {
           "id": 236989,
-          "match_type": "scryfall",
+          "name": "Horsea",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "058",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -2067,7 +2302,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/236989/preview_horsea-secret-rare-058-052-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125118,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -2088,10 +2332,13 @@
       "cardtrader": [
         {
           "id": 236974,
-          "match_type": "scryfall",
+          "name": "Cyndaquil",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "059",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -2173,7 +2420,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/236974/preview_cyndaquil-secret-rare-059-052-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125130,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -2194,10 +2450,13 @@
       "cardtrader": [
         {
           "id": 236977,
-          "match_type": "scryfall",
+          "name": "Dunsparce",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "060",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -2279,7 +2538,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/236977/preview_dunsparce-secret-rare-060-052-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125154,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -2300,10 +2568,13 @@
       "cardtrader": [
         {
           "id": 236998,
-          "match_type": "scryfall",
+          "name": "Numel",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "061",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -2385,7 +2656,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/236998/preview_numel-secret-rare-061-052-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125126,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -2406,10 +2686,13 @@
       "cardtrader": [
         {
           "id": 236978,
-          "match_type": "scryfall",
+          "name": "Eevee",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "063",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -2491,7 +2774,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/236978/preview_eevee-secret-rare-063-052-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125144,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -2512,10 +2804,13 @@
       "cardtrader": [
         {
           "id": 236990,
-          "match_type": "scryfall",
+          "name": "Jigglypuff",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "063",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -2597,7 +2892,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/236990/preview_jigglypuff-secret-rare-063-052-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125127,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -2618,10 +2922,13 @@
       "cardtrader": [
         {
           "id": 236996,
-          "match_type": "scryfall",
+          "name": "Meditite",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "065",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -2703,7 +3010,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/236996/preview_meditite-secret-rare-065-052-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125140,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -2724,10 +3040,13 @@
       "cardtrader": [
         {
           "id": 236997,
-          "match_type": "scryfall",
+          "name": "Natu",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "069",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -2809,7 +3128,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/236997/preview_natu-secret-rare-069-052-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125152,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -2830,10 +3158,13 @@
       "cardtrader": [
         {
           "id": 236999,
-          "match_type": "scryfall",
+          "name": "Numel",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "069",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -2915,7 +3246,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/236999/preview_numel-secret-rare-069-052-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125114,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -2936,10 +3276,13 @@
       "cardtrader": [
         {
           "id": 237000,
-          "match_type": "scryfall",
+          "name": "Onix",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "071",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -3021,7 +3364,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/237000/preview_onix-secret-rare-071-052-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125157,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -3042,10 +3394,13 @@
       "cardtrader": [
         {
           "id": 237011,
-          "match_type": "scryfall",
+          "name": "Taillow",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "072",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -3127,7 +3482,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/237011/preview_taillow-secret-rare-072-052-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125155,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -3148,10 +3512,13 @@
       "cardtrader": [
         {
           "id": 237012,
-          "match_type": "scryfall",
+          "name": "Torchic",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "073",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -3233,7 +3600,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/237012/preview_torchic-secret-rare-073-052-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125110,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -3254,10 +3630,13 @@
       "cardtrader": [
         {
           "id": 237005,
-          "match_type": "scryfall",
+          "name": "Ralts",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "074",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -3339,7 +3718,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/237005/preview_ralts-secret-rare-074-052-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125136,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -3360,10 +3748,13 @@
       "cardtrader": [
         {
           "id": 237008,
-          "match_type": "scryfall",
+          "name": "Skitty",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "079",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -3445,7 +3836,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/237008/preview_skitty-secret-rare-079-052-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125132,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -3466,10 +3866,13 @@
       "cardtrader": [
         {
           "id": 236988,
-          "match_type": "scryfall",
+          "name": "High Pressure System",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "085",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -3551,7 +3954,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/236988/preview_high-pressure-system-secret-rare-085-052-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125134,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -3572,10 +3984,13 @@
       "cardtrader": [
         {
           "id": 236976,
-          "match_type": "scryfall",
+          "name": "Double Full Heal",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "086",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -3657,7 +4072,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/236976/preview_double-full-heal-secret-rare-086-052-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125128,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -3678,10 +4102,13 @@
       "cardtrader": [
         {
           "id": 231172,
-          "match_type": "scryfall",
+          "name": "Ancient Tomb",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "087",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -3763,7 +4190,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/231172/preview_ancient-tomb-87-52-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125158,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -3784,10 +4220,13 @@
       "cardtrader": [
         {
           "id": 236972,
-          "match_type": "scryfall",
+          "name": "Celio's Network",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "088",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -3869,7 +4308,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/236972/preview_celio-s-network-secret-rare-088-052-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125120,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -3890,10 +4338,13 @@
       "cardtrader": [
         {
           "id": 237010,
-          "match_type": "scryfall",
+          "name": "TV Reporter",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "088",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -3975,7 +4426,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/237010/preview_tv-reporter-secret-rare-088-052-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125147,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -3996,10 +4456,13 @@
       "cardtrader": [
         {
           "id": 237014,
-          "match_type": "scryfall",
+          "name": "Warp Point",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "088",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -4081,7 +4544,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/237014/preview_warp-point-secret-rare-088-052-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125129,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -4102,10 +4574,13 @@
       "cardtrader": [
         {
           "id": 236979,
-          "match_type": "scryfall",
+          "name": "Energy Removal 2",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "080",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -4187,7 +4662,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/236979/preview_energy-removal-2-secret-rare-080-052-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125146,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -4208,10 +4692,13 @@
       "cardtrader": [
         {
           "id": 237002,
-          "match_type": "scryfall",
+          "name": "Professor Birch",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "089",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -4293,7 +4780,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/237002/preview_professor-birch-secret-rare-089-052-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125122,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -4314,10 +4810,13 @@
       "cardtrader": [
         {
           "id": 237013,
-          "match_type": "scryfall",
+          "name": "Wally's Training",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "089",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -4399,7 +4898,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/237013/preview_wally-s-training-secret-rare-089-052-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125148,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -4420,10 +4928,13 @@
       "cardtrader": [
         {
           "id": 236980,
-          "match_type": "scryfall",
+          "name": "Energy Search",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "090",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -4505,7 +5016,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/236980/preview_energy-search-secret-rare-090-052-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125123,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -4526,10 +5046,13 @@
       "cardtrader": [
         {
           "id": 237001,
-          "match_type": "scryfall",
+          "name": "Potion",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "091",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -4611,7 +5134,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/237001/preview_potion-secret-rare-091-052-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125135,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -4632,10 +5164,13 @@
       "cardtrader": [
         {
           "id": 236992,
-          "match_type": "scryfall",
+          "name": "Life Herb",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "093",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -4717,7 +5252,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/236992/preview_life-herb-secret-rare-093-052-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125121,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -4738,10 +5282,13 @@
       "cardtrader": [
         {
           "id": 236982,
-          "match_type": "scryfall",
+          "name": "Fighting Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "105",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -4823,7 +5370,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/236982/preview_fighting-energy-secret-rare-105-052-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125151,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -4844,10 +5400,13 @@
       "cardtrader": [
         {
           "id": 237015,
-          "match_type": "scryfall",
+          "name": "Water Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "106",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -4929,7 +5488,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/237015/preview_water-energy-secret-rare-106-052-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125125,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -4950,10 +5518,13 @@
       "cardtrader": [
         {
           "id": 237003,
-          "match_type": "scryfall",
+          "name": "Psychic Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "107",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -5035,7 +5606,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/237003/preview_psychic-energy-secret-rare-107-052-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125150,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -5056,10 +5636,13 @@
       "cardtrader": [
         {
           "id": 236983,
-          "match_type": "scryfall",
+          "name": "Fire Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "108",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -5141,7 +5724,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/236983/preview_fire-energy-secret-rare-108-052-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125124,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     },
@@ -5162,10 +5754,13 @@
       "cardtrader": [
         {
           "id": 236993,
-          "match_type": "scryfall",
+          "name": "Metal Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Battle Stadium",
           "expansion_code": "exbst",
           "collector_number": "094",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -5247,7 +5842,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/236993/preview_metal-energy-special-094-109-ex-battle-stadium.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 214286,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1853
         }
       ]
     }

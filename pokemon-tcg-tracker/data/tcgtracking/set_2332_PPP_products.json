@@ -2,10 +2,10 @@
   "set_id": 2332,
   "set_name": "Professor Program Promos",
   "set_abbr": "PPP",
-  "set_released": "2011-01-07",
+  "set_released": "2026-04-14",
   "product_count": 49,
-  "data_modified": "2026-03-28T02:01:17-04:00",
-  "file_generated": "2026-03-28T04:30:52-04:00",
+  "data_modified": "2026-04-16T16:07:29-04:00",
+  "file_generated": "2026-04-17T04:30:44-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/2332/pricing",
   "products": [
     {
@@ -265,10 +265,13 @@
       "cardtrader": [
         {
           "id": 280943,
-          "match_type": "scryfall",
+          "name": "Gym Trainer",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Professor Program",
           "expansion_code": "prof",
           "collector_number": "059",
+          "rarity": "Promo",
           "finishes": [
             "normal"
           ],
@@ -332,7 +335,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            674249
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/280943/preview_gym-trainer-professor-program-stamp-059-072-professor-program.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 499366,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2332
         }
       ]
     },
@@ -353,10 +367,13 @@
       "cardtrader": [
         {
           "id": 280940,
-          "match_type": "scryfall",
+          "name": "Professor's Research - Professor Juniper",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Professor Program",
           "expansion_code": "prof",
           "collector_number": "060",
+          "rarity": "Promo",
           "finishes": [
             "normal"
           ],
@@ -420,7 +437,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            664808
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/280940/preview_professor-s-research-professor-program-stamp-060-072-professor-program.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 278686,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2332
         }
       ]
     },
@@ -436,8 +464,95 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 751839,
+      "cardtrader_id": 280948,
+      "cardtrader": [
+        {
+          "id": 280948,
+          "name": "Voltorb",
+          "match_type": "name",
+          "match_confidence": 98,
+          "expansion": "Professor Program",
+          "expansion_code": "prof",
+          "collector_number": "066",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            751839
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/280948/preview_voltorb-professor-program-stamp-066-193-professor-program.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": null,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2332
+        }
+      ]
     },
     {
       "id": 617018,
@@ -471,10 +586,13 @@
       "cardtrader": [
         {
           "id": 111656,
-          "match_type": "scryfall",
+          "name": "Professor Juniper",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Professor Program",
           "expansion_code": "prof",
           "collector_number": "101",
+          "rarity": "Promo",
           "finishes": [
             "normal"
           ],
@@ -534,7 +652,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            738952
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/111656/preview_professor-juniper-professor-program-101-114-black-white-promos.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 176633,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2332
         }
       ]
     },
@@ -555,10 +684,13 @@
       "cardtrader": [
         {
           "id": 117218,
-          "match_type": "scryfall",
+          "name": "Grass Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Professor Program",
           "expansion_code": "prof",
           "collector_number": "104",
+          "rarity": "Promo",
           "finishes": [
             "normal",
             "foil"
@@ -624,7 +756,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            450613
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/117218/preview_grass-energy-professor-program-104-109-ex-ruby-sapphire-promos.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 176627,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2332
         }
       ]
     },
@@ -645,10 +788,13 @@
       "cardtrader": [
         {
           "id": 117219,
-          "match_type": "scryfall",
+          "name": "Fighting Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Professor Program",
           "expansion_code": "prof",
           "collector_number": "105",
+          "rarity": "Promo",
           "finishes": [
             "normal"
           ],
@@ -713,7 +859,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            450583
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/117219/preview_fighting-energy-professor-program-105-109-ex-ruby-sapphire-promos.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 176625,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2332
         }
       ]
     },
@@ -734,10 +891,13 @@
       "cardtrader": [
         {
           "id": 117220,
-          "match_type": "scryfall",
+          "name": "Water Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Professor Program",
           "expansion_code": "prof",
           "collector_number": "106",
+          "rarity": "Promo",
           "finishes": [
             "normal",
             "foil"
@@ -803,7 +963,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            450683
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/117220/preview_water-energy-professor-program-106-109-ex-ruby-sapphire-promos.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 176636,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2332
         }
       ]
     },
@@ -824,10 +995,13 @@
       "cardtrader": [
         {
           "id": 117221,
-          "match_type": "scryfall",
+          "name": "Psychic Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Professor Program",
           "expansion_code": "prof",
           "collector_number": "107",
+          "rarity": "Promo",
           "finishes": [
             "normal",
             "foil"
@@ -893,7 +1067,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            450663
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/117221/preview_psychic-energy-professor-program-107-109-ex-ruby-sapphire-promos.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 176637,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2332
         }
       ]
     },
@@ -914,10 +1099,13 @@
       "cardtrader": [
         {
           "id": 117222,
-          "match_type": "scryfall",
+          "name": "Fire Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Professor Program",
           "expansion_code": "prof",
           "collector_number": "108",
+          "rarity": "Promo",
           "finishes": [
             "normal",
             "foil"
@@ -983,7 +1171,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            450588
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/117222/preview_fire-energy-professor-program-108-109-ex-ruby-sapphire-promos.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 176626,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2332
         }
       ]
     },
@@ -1004,10 +1203,13 @@
       "cardtrader": [
         {
           "id": 119599,
-          "match_type": "scryfall",
+          "name": "Judge",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Professor Program",
           "expansion_code": "prof",
           "collector_number": "108",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -1065,7 +1267,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            450688
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119599/preview_judge-professor-program-108-131-professor-program.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 213516,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2332
         }
       ]
     },
@@ -1086,10 +1299,13 @@
       "cardtrader": [
         {
           "id": 117223,
-          "match_type": "scryfall",
+          "name": "Lightning Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Professor Program",
           "expansion_code": "prof",
           "collector_number": "109",
+          "rarity": "Promo",
           "finishes": [
             "normal",
             "foil"
@@ -1155,7 +1371,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            450628
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/117223/preview_lightning-energy-professor-program-109-109-ex-ruby-sapphire-promos.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 176628,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2332
         }
       ]
     },
@@ -1191,10 +1418,13 @@
       "cardtrader": [
         {
           "id": 114223,
-          "match_type": "scryfall",
+          "name": "Professor Rowan",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Professor Program",
           "expansion_code": "prof",
           "collector_number": "112",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -1252,7 +1482,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            450658
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/114223/preview_professor-rowan-professor-program-112-130-diamond-pearl-promos.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 176634,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2332
         }
       ]
     },
@@ -1273,10 +1514,13 @@
       "cardtrader": [
         {
           "id": 127381,
-          "match_type": "scryfall",
+          "name": "Professor Oak's Visit",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Professor Program",
           "expansion_code": "prof",
           "collector_number": "122",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -1332,7 +1576,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            450638
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127381/preview_professor-oak-s-visit-professor-program-122-132-secret-wonders-promos.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 176631,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2332
         }
       ]
     },
@@ -1353,10 +1608,13 @@
       "cardtrader": [
         {
           "id": 132385,
-          "match_type": "scryfall",
+          "name": "Professor Sycamore",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Professor Program",
           "expansion_code": "prof",
           "collector_number": "122",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -1429,7 +1687,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            738951
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/132385/preview_professor-sycamore-professor-program-122-146-xy-promos.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 176638,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2332
         }
       ]
     },
@@ -1450,10 +1719,13 @@
       "cardtrader": [
         {
           "id": 280949,
-          "match_type": "scryfall",
+          "name": "Friends in Sinnoh",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Professor Program",
           "expansion_code": "prof",
           "collector_number": "131",
+          "rarity": "Promo",
           "finishes": [
             "normal"
           ],
@@ -1517,7 +1789,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            756328
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/280949/preview_friends-in-sinnoh-professor-program-stamp-131-159-professor-program.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 557102,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2332
         }
       ]
     },
@@ -1553,10 +1836,13 @@
       "cardtrader": [
         {
           "id": 359270,
-          "match_type": "scryfall",
+          "name": "Friends in Galar",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Professor Program",
           "expansion_code": "prof",
           "collector_number": "140",
+          "rarity": "Promo",
           "finishes": [
             "normal"
           ],
@@ -1612,7 +1898,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            800092
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/359270/preview_friends-in-galar-professor-program-stamp-140-172-professor-program.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 556967,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2332
         }
       ]
     },
@@ -1628,8 +1925,95 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 857739,
+      "cardtrader_id": 357378,
+      "cardtrader": [
+        {
+          "id": 357378,
+          "name": "Bianca's Devotion",
+          "match_type": "name",
+          "match_confidence": 98,
+          "expansion": "Professor Program",
+          "expansion_code": "prof",
+          "collector_number": "142",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            857739
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/357378/preview_bianca-s-devotion-professor-program-stamp-142-162-professor-program.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": null,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2332
+        }
+      ]
     },
     {
       "id": 278687,
@@ -1648,10 +2032,13 @@
       "cardtrader": [
         {
           "id": 280939,
-          "match_type": "scryfall",
+          "name": "Professor's Research - Professor Rowan",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Professor Program",
           "expansion_code": "prof",
           "collector_number": "147",
+          "rarity": "Promo",
           "finishes": [
             "normal"
           ],
@@ -1715,7 +2102,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            664811
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/280939/preview_professor-s-research-professor-program-stamp-147-172-professor-program.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 278687,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2332
         }
       ]
     },
@@ -1731,8 +2129,95 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 747249,
+      "cardtrader_id": 280947,
+      "cardtrader": [
+        {
+          "id": 280947,
+          "name": "Roseanne's Backup",
+          "match_type": "name",
+          "match_confidence": 100,
+          "expansion": "Professor Program",
+          "expansion_code": "prof",
+          "collector_number": "148",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            747249
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/280947/preview_kamado-copy-professor-program-stamp-148-189-professor-program.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": null,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2332
+        }
+      ]
     },
     {
       "id": 556969,
@@ -1751,10 +2236,13 @@
       "cardtrader": [
         {
           "id": 280945,
-          "match_type": "scryfall",
+          "name": "Roxanne",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Professor Program",
           "expansion_code": "prof",
           "collector_number": "150",
+          "rarity": "Promo",
           "finishes": [
             "normal"
           ],
@@ -1818,7 +2306,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            724618
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/280945/preview_roxanne-professor-program-stamp-150-189-professor-program.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 556969,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2332
         }
       ]
     },
@@ -1839,10 +2338,13 @@
       "cardtrader": [
         {
           "id": 280942,
-          "match_type": "scryfall",
+          "name": "League Staff",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Professor Program",
           "expansion_code": "prof",
           "collector_number": "153",
+          "rarity": "Promo",
           "finishes": [
             "normal"
           ],
@@ -1906,7 +2408,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            709555
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/280942/preview_league-staff-professor-program-stamp-153-185-professor-program.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 499857,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2332
         }
       ]
     },
@@ -1942,10 +2455,13 @@
       "cardtrader": [
         {
           "id": 280944,
-          "match_type": "scryfall",
+          "name": "Sonia",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Professor Program",
           "expansion_code": "prof",
           "collector_number": "192",
+          "rarity": "Promo",
           "finishes": [
             "normal"
           ],
@@ -2009,7 +2525,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            653505
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/280944/preview_sonia-professor-program-stamp-167-192-professor-program.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 556956,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2332
         }
       ]
     },
@@ -2030,10 +2557,13 @@
       "cardtrader": [
         {
           "id": 280938,
-          "match_type": "scryfall",
+          "name": "Professor's Research - Professor Sada",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Professor Program",
           "expansion_code": "prof",
           "collector_number": "189",
+          "rarity": "Promo",
           "finishes": [
             "normal"
           ],
@@ -2097,7 +2627,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            759901
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/280938/preview_professor-s-research-professor-program-stamp-189-198-professor-program.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 556953,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2332
         }
       ]
     },
@@ -2118,10 +2659,13 @@
       "cardtrader": [
         {
           "id": 280952,
-          "match_type": "scryfall",
+          "name": "Professor's Research - Professor Turo",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Professor Program",
           "expansion_code": "prof",
           "collector_number": "190",
+          "rarity": "Promo",
           "finishes": [
             "normal"
           ],
@@ -2185,7 +2729,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            759902
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/280952/preview_professor-s-research-professor-program-stamp-190-198-professor-program.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 556957,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2332
         }
       ]
     },
@@ -2206,10 +2761,13 @@
       "cardtrader": [
         {
           "id": 115726,
-          "match_type": "scryfall",
+          "name": "Professor Elm's Training Method",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Professor Program",
           "expansion_code": "prof",
           "collector_number": "079",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2261,7 +2819,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            450648
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115726/preview_professor-elm-s-training-method-professor-program-79-101-ex-dragon-frontiers-promos.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 176639,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2332
         }
       ]
     },
@@ -2282,10 +2851,13 @@
       "cardtrader": [
         {
           "id": 115949,
-          "match_type": "scryfall",
+          "name": "Professor Birch",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Professor Program",
           "expansion_code": "prof",
           "collector_number": "082",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -2349,7 +2921,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            450643
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115949/preview_professor-birch-professor-program-82-106-ex-emerald-promos.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 176630,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2332
         }
       ]
     },
@@ -2370,10 +2953,13 @@
       "cardtrader": [
         {
           "id": 113920,
-          "match_type": "scryfall",
+          "name": "Professor Juniper",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Professor Program",
           "expansion_code": "prof",
           "collector_number": "098",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2433,7 +3019,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            450653
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113920/preview_professor-juniper-professor-program-98-108-dark-explorers-promos.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 176632,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2332
         }
       ]
     },
@@ -2454,10 +3051,13 @@
       "cardtrader": [
         {
           "id": 116176,
-          "match_type": "scryfall",
+          "name": "Prof. Oak's Research",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Professor Program",
           "expansion_code": "prof",
           "collector_number": "098",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -2519,7 +3119,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            450633
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/116176/preview_prof-oak-s-research-professor-program-98-112-ex-firered-leafgreen-promos.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 176629,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2332
         }
       ]
     },
@@ -2540,10 +3151,13 @@
       "cardtrader": [
         {
           "id": 280941,
-          "match_type": "scryfall",
+          "name": "Professor Burnet",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Professor Program",
           "expansion_code": "prof",
           "collector_number": "167",
+          "rarity": "Promo",
           "finishes": [
             "normal"
           ],
@@ -2607,7 +3221,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            664818
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/280941/preview_professor-burnet-professor-program-stamp-swsh-167-professor-program.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 278685,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2332
         }
       ]
     }

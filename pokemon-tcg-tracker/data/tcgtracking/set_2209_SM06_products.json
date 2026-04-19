@@ -4,8 +4,8 @@
   "set_abbr": "SM06",
   "set_released": "2018-05-04",
   "product_count": 178,
-  "data_modified": "2026-01-31T01:01:23-05:00",
-  "file_generated": "2026-01-31T03:32:19-05:00",
+  "data_modified": "2026-04-16T07:07:21-04:00",
+  "file_generated": "2026-04-17T04:30:47-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/2209/pricing",
   "products": [
     {
@@ -205,9 +205,13 @@
       "cardtrader": [
         {
           "id": 104697,
-          "match_type": "scryfall",
+          "name": "Dawn Wings Necrozma Box",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon Products",
           "expansion_code": "popr",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -250,7 +254,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            321174
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/104697/preview_dawn-wings-necrozma-box-pokemon-products.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 246414,
+          "game_id": 5,
+          "category_id": 60,
+          "category_name": "Pokémon Box Set",
+          "product_type": "box_set",
+          "group_id": 2374
         }
       ]
     },
@@ -266,8 +281,57 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 882024,
+      "cardtrader_id": 382808,
+      "cardtrader": [
+        {
+          "id": 382808,
+          "name": "Dawn Wings Necrozma Premium Collection",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Sun & Moon Merchandise",
+          "expansion_code": "msm",
+          "collector_number": null,
+          "rarity": null,
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            882024
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/382808/preview_dawn-wings-necrozma-premium-collection-sun-moon-merchandise.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 164314,
+          "game_id": 5,
+          "category_id": 60,
+          "category_name": "Pokémon Box Set",
+          "product_type": "box_set",
+          "group_id": 2209
+        }
+      ]
     },
     {
       "id": 246415,
@@ -286,9 +350,13 @@
       "cardtrader": [
         {
           "id": 104698,
-          "match_type": "scryfall",
+          "name": "Dusk Mane Necrozma Box",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon Products",
           "expansion_code": "popr",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -331,7 +399,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            321175
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/104698/preview_dusk-mane-necrozma-box-pokemon-products.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 246415,
+          "game_id": 5,
+          "category_id": 60,
+          "category_name": "Pokémon Box Set",
+          "product_type": "box_set",
+          "group_id": 2374
         }
       ]
     },
@@ -347,8 +426,57 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 882026,
+      "cardtrader_id": 382809,
+      "cardtrader": [
+        {
+          "id": 382809,
+          "name": "Dusk Mane Necrozma Premium Collection",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Sun & Moon Merchandise",
+          "expansion_code": "msm",
+          "collector_number": null,
+          "rarity": null,
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            882026
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/382809/preview_dusk-mane-necrozma-premium-collection-sun-moon-merchandise.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 164315,
+          "game_id": 5,
+          "category_id": 60,
+          "category_name": "Pokémon Box Set",
+          "product_type": "box_set",
+          "group_id": 2209
+        }
+      ]
     },
     {
       "id": 164298,
@@ -412,9 +540,13 @@
       "cardtrader": [
         {
           "id": 105811,
+          "name": "Forbidden Light Booster Box",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -448,7 +580,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316135
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105811/preview_forbidden-light-booster-box-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 164296,
+          "game_id": 5,
+          "category_id": 67,
+          "category_name": "Pokémon Booster Box",
+          "product_type": "booster_box",
+          "group_id": 2209
         }
       ]
     },
@@ -469,9 +612,13 @@
       "cardtrader": [
         {
           "id": 105810,
+          "name": "Forbidden Light Booster",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -505,7 +652,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316136
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105810/preview_forbidden-light-booster-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 164297,
+          "game_id": 5,
+          "category_id": 66,
+          "category_name": "Pokémon Booster",
+          "product_type": "booster",
+          "group_id": 2209
         }
       ]
     },
@@ -541,9 +699,13 @@
       "cardtrader": [
         {
           "id": 105815,
+          "name": "Forbidden Light Elite Trainer Box",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -586,7 +748,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316134
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105815/preview_forbidden-light-elite-trainer-box-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 164303,
+          "game_id": 5,
+          "category_id": 68,
+          "category_name": "Pokémon Bundle ",
+          "product_type": "bundle",
+          "group_id": 2209
         }
       ]
     },
@@ -607,9 +780,13 @@
       "cardtrader": [
         {
           "id": 105814,
+          "name": "Forbidden Light: Build & Battle Kit",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -643,7 +820,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355254
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105814/preview_forbidden-light-build-battle-kit-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 166413,
+          "game_id": 5,
+          "category_id": 68,
+          "category_name": "Pokémon Bundle ",
+          "product_type": "bundle",
+          "group_id": 2209
         }
       ]
     },
@@ -724,9 +912,13 @@
       "cardtrader": [
         {
           "id": 105813,
+          "name": "Forbidden Light: Tropical Takedown Theme Deck",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -769,7 +961,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            320015
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105813/preview_forbidden-light-tropical-takedown-theme-deck-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 164305,
+          "game_id": 5,
+          "category_id": 69,
+          "category_name": "Pokémon Preconstructed Deck",
+          "product_type": "precon_deck",
+          "group_id": 2209
         }
       ]
     },
@@ -790,9 +993,13 @@
       "cardtrader": [
         {
           "id": 105812,
+          "name": "Forbidden Light: Twilight Rogue Theme Deck",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -835,7 +1042,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            320014
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105812/preview_forbidden-light-twilight-rogue-theme-deck-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 164306,
+          "game_id": 5,
+          "category_id": 69,
+          "category_name": "Pokémon Preconstructed Deck",
+          "product_type": "precon_deck",
+          "group_id": 2209
         }
       ]
     },
@@ -886,10 +1104,13 @@
       "cardtrader": [
         {
           "id": 119331,
+          "name": "Exeggcute",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "001/131",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -956,7 +1177,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355522
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119331/preview_exeggcute-1-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165648,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -977,10 +1209,13 @@
       "cardtrader": [
         {
           "id": 119349,
+          "name": "Gogoat",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "010/131",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -1047,7 +1282,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355531
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119349/preview_gogoat-10-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165657,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -1068,10 +1314,13 @@
       "cardtrader": [
         {
           "id": 119518,
+          "name": "Noibat",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "100/131",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -1138,7 +1387,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355613
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119518/preview_noibat-100-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165762,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -1159,10 +1419,13 @@
       "cardtrader": [
         {
           "id": 119520,
+          "name": "Noivern",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "101/131",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -1229,7 +1492,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355614
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119520/preview_noivern-101-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165763,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -1250,10 +1524,13 @@
       "cardtrader": [
         {
           "id": 119522,
+          "name": "Beast Ring",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "102/131",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -1320,7 +1597,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355615
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119522/preview_beast-ring-102-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165764,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -1341,10 +1629,13 @@
       "cardtrader": [
         {
           "id": 119524,
+          "name": "Bonnie",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "103/131",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -1411,7 +1702,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355616
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119524/preview_bonnie-103-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165767,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -1432,10 +1734,13 @@
       "cardtrader": [
         {
           "id": 119526,
+          "name": "Crasher Wake",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "104/131",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -1502,7 +1807,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355617
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119526/preview_crasher-wake-104-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165782,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -1523,10 +1839,13 @@
       "cardtrader": [
         {
           "id": 119528,
+          "name": "Diantha",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "105/131",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -1593,7 +1912,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355618
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119528/preview_diantha-105-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165768,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -1614,10 +1944,13 @@
       "cardtrader": [
         {
           "id": 119530,
+          "name": "Eneporter",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "106/131",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -1684,7 +2017,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355619
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119530/preview_eneporter-106-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165785,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -1705,10 +2049,13 @@
       "cardtrader": [
         {
           "id": 119532,
+          "name": "Fossil Excavation Map",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "107/131",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -1775,7 +2122,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355620
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119532/preview_fossil-excavation-map-107-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165770,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -1796,10 +2154,13 @@
       "cardtrader": [
         {
           "id": 119534,
+          "name": "Judge",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "108/131",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -1866,7 +2227,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355621
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119534/preview_judge-108-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165771,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -1887,10 +2259,13 @@
       "cardtrader": [
         {
           "id": 119536,
+          "name": "Lady",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "109/131",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -1957,7 +2332,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355622
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119536/preview_lady-109-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165772,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -1978,10 +2364,13 @@
       "cardtrader": [
         {
           "id": 119351,
+          "name": "Pheromosa",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "011/131",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2048,7 +2437,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            320583
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119351/preview_pheromosa-11-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165658,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -2069,10 +2469,13 @@
       "cardtrader": [
         {
           "id": 119538,
+          "name": "Lysandre ◇ Prism Star",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "110/131",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -2130,7 +2533,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355623
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119538/preview_lysandre-prism-star-110-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165773,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -2151,10 +2565,13 @@
       "cardtrader": [
         {
           "id": 119539,
+          "name": "Lysandre Labs",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "111/131",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2221,7 +2638,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119539/preview_lysandre-labs-111-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165774,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -2242,10 +2668,13 @@
       "cardtrader": [
         {
           "id": 119541,
+          "name": "Metal Frying Pan",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "112/131",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2312,7 +2741,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119541/preview_metal-frying-pan-112-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165786,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -2333,10 +2771,13 @@
       "cardtrader": [
         {
           "id": 119543,
+          "name": "Mysterious Treasure",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "113/131",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2403,7 +2844,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119543/preview_mysterious-treasure-113-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165789,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -2424,10 +2874,13 @@
       "cardtrader": [
         {
           "id": 119545,
+          "name": "Ultra Recon Squad",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "114/131",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2494,7 +2947,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119545/preview_ultra-recon-squad-114-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165775,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -2515,10 +2977,13 @@
       "cardtrader": [
         {
           "id": 119547,
+          "name": "Ultra Space",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "115/131",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2585,7 +3050,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119547/preview_ultra-space-115-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165777,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -2606,10 +3080,13 @@
       "cardtrader": [
         {
           "id": 119549,
+          "name": "Unidentified Fossil",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "116/131",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2676,7 +3153,16 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119549/preview_unidentified-fossil-116-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165778,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -2697,10 +3183,13 @@
       "cardtrader": [
         {
           "id": 119551,
+          "name": "Beast Energy ◇ Prism",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "117/131",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -2758,7 +3247,16 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119551/preview_beast-energy-prism-star-117-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165779,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -2779,10 +3277,13 @@
       "cardtrader": [
         {
           "id": 119552,
+          "name": "Unit Energy FDY",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "118/131",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2849,7 +3350,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355629
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119552/preview_unit-energy-fdy-118-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165790,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -2870,10 +3382,13 @@
       "cardtrader": [
         {
           "id": 119553,
+          "name": "Palkia GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "119/131",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -2931,7 +3446,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355630
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119553/preview_palkia-gx-rare-ultra-119-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165668,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -2952,10 +3478,13 @@
       "cardtrader": [
         {
           "id": 119353,
+          "name": "Alolan Marowak",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "012/131",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -3022,7 +3551,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355532
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119353/preview_alolan-marowak-12-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165659,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -3043,10 +3583,13 @@
       "cardtrader": [
         {
           "id": 119554,
+          "name": "Greninja GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "120/131",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -3104,7 +3647,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355631
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119554/preview_greninja-gx-rare-ultra-120-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165674,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -3125,10 +3679,13 @@
       "cardtrader": [
         {
           "id": 119555,
+          "name": "Naganadel GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "121/131",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -3186,7 +3743,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355632
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119555/preview_naganadel-gx-rare-ultra-121-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165707,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -3207,10 +3775,13 @@
       "cardtrader": [
         {
           "id": 119556,
+          "name": "Lucario GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "122/131",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -3268,7 +3839,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355633
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119556/preview_lucario-gx-rare-ultra-122-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165780,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -3289,10 +3871,13 @@
       "cardtrader": [
         {
           "id": 119557,
+          "name": "Zygarde GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "123/131",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -3350,7 +3935,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355634
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119557/preview_zygarde-gx-rare-ultra-123-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165726,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -3371,10 +3967,13 @@
       "cardtrader": [
         {
           "id": 119558,
+          "name": "Yveltal GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "124/131",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -3432,7 +4031,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355635
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119558/preview_yveltal-gx-rare-ultra-124-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165734,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -3453,10 +4063,13 @@
       "cardtrader": [
         {
           "id": 119559,
+          "name": "Dialga GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "125/131",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -3514,7 +4127,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355636
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119559/preview_dialga-gx-rare-ultra-125-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165739,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -3535,10 +4159,13 @@
       "cardtrader": [
         {
           "id": 119560,
+          "name": "Xerneas GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "126/131",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -3596,7 +4223,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355637
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119560/preview_xerneas-gx-rare-ultra-126-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165749,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -3617,10 +4255,13 @@
       "cardtrader": [
         {
           "id": 119561,
+          "name": "Ultra Necrozma GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "127/131",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -3678,7 +4319,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355638
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119561/preview_ultra-necrozma-gx-rare-ultra-127-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165756,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -3699,10 +4351,13 @@
       "cardtrader": [
         {
           "id": 119562,
+          "name": "Bonnie",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "128/131",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -3760,7 +4415,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            327209
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119562/preview_bonnie-rare-ultra-128-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165766,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -3781,10 +4447,13 @@
       "cardtrader": [
         {
           "id": 119563,
+          "name": "Crasher Wake",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "129/131",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -3842,7 +4511,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355640
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119563/preview_crasher-wake-rare-ultra-129-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165783,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -3863,10 +4543,13 @@
       "cardtrader": [
         {
           "id": 119355,
+          "name": "Heatran",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "013/131",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -3933,7 +4616,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355533
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119355/preview_heatran-13-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165660,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -3954,10 +4648,13 @@
       "cardtrader": [
         {
           "id": 119564,
+          "name": "Diantha",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "130/131",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -4015,7 +4712,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355641
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119564/preview_diantha-rare-ultra-130-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165769,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -4036,10 +4744,13 @@
       "cardtrader": [
         {
           "id": 119565,
+          "name": "Ultra Recon Squad",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "131/131",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -4097,7 +4808,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355642
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119565/preview_ultra-recon-squad-rare-ultra-131-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165776,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -4118,10 +4840,13 @@
       "cardtrader": [
         {
           "id": 119566,
+          "name": "Palkia GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "132/131",
+          "rarity": "Secret Rare",
           "finishes": [
             "normal"
           ],
@@ -4179,7 +4904,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355643
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119566/preview_palkia-gx-rare-rainbow-132-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165669,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -4200,10 +4936,13 @@
       "cardtrader": [
         {
           "id": 119567,
+          "name": "Greninja GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "133/131",
+          "rarity": "Secret Rare",
           "finishes": [
             "normal"
           ],
@@ -4261,7 +5000,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355644
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119567/preview_greninja-gx-rare-rainbow-133-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165675,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -4282,10 +5032,13 @@
       "cardtrader": [
         {
           "id": 119568,
+          "name": "Naganadel GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "134/131",
+          "rarity": "Secret Rare",
           "finishes": [
             "normal"
           ],
@@ -4343,7 +5096,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355645
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119568/preview_naganadel-gx-rare-rainbow-134-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165708,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -4364,10 +5128,13 @@
       "cardtrader": [
         {
           "id": 119569,
+          "name": "Lucario GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "135/131",
+          "rarity": "Secret Rare",
           "finishes": [
             "normal"
           ],
@@ -4425,7 +5192,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355646
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119569/preview_lucario-gx-rare-rainbow-135-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165781,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -4446,10 +5224,13 @@
       "cardtrader": [
         {
           "id": 119570,
+          "name": "Zygarde GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "136/131",
+          "rarity": "Secret Rare",
           "finishes": [
             "normal"
           ],
@@ -4507,7 +5288,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355647
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119570/preview_zygarde-gx-rare-rainbow-136-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165727,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -4528,10 +5320,13 @@
       "cardtrader": [
         {
           "id": 119571,
+          "name": "Yveltal GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "137/131",
+          "rarity": "Secret Rare",
           "finishes": [
             "normal"
           ],
@@ -4589,7 +5384,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355648
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119571/preview_yveltal-gx-rare-rainbow-137-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165735,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -4610,10 +5416,13 @@
       "cardtrader": [
         {
           "id": 119572,
+          "name": "Dialga GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "138/131",
+          "rarity": "Secret Rare",
           "finishes": [
             "normal"
           ],
@@ -4671,7 +5480,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355649
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119572/preview_dialga-gx-rare-rainbow-138-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165740,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -4692,10 +5512,13 @@
       "cardtrader": [
         {
           "id": 119573,
+          "name": "Xerneas GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "139/131",
+          "rarity": "Secret Rare",
           "finishes": [
             "normal"
           ],
@@ -4753,7 +5576,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355650
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119573/preview_xerneas-gx-rare-rainbow-139-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165750,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -4774,10 +5608,13 @@
       "cardtrader": [
         {
           "id": 119357,
+          "name": "Fennekin",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "014/131",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4844,7 +5681,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355534
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119357/preview_fennekin-14-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165661,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -4865,10 +5713,13 @@
       "cardtrader": [
         {
           "id": 119574,
+          "name": "Ultra Necrozma GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "140/131",
+          "rarity": "Secret Rare",
           "finishes": [
             "normal"
           ],
@@ -4926,7 +5777,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355651
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119574/preview_ultra-necrozma-gx-rare-rainbow-140-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165757,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -4947,10 +5809,13 @@
       "cardtrader": [
         {
           "id": 119575,
+          "name": "Beast Ring",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "141/131",
+          "rarity": "Secret Rare",
           "finishes": [
             "normal"
           ],
@@ -5008,7 +5873,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355652
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119575/preview_beast-ring-secret-rare-141-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165765,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -5029,10 +5905,13 @@
       "cardtrader": [
         {
           "id": 119576,
+          "name": "Eneporter",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "142/131",
+          "rarity": "Secret Rare",
           "finishes": [
             "normal"
           ],
@@ -5090,7 +5969,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355653
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119576/preview_eneporter-secret-rare-142-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165784,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -5111,10 +6001,13 @@
       "cardtrader": [
         {
           "id": 119577,
+          "name": "Energy Recycler",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "143/131",
+          "rarity": "Secret Rare",
           "finishes": [
             "normal"
           ],
@@ -5172,7 +6065,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355654
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119577/preview_energy-recycler-secret-rare-143-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165792,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -5193,10 +6097,13 @@
       "cardtrader": [
         {
           "id": 119578,
+          "name": "Metal Frying Pan",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "144/131",
+          "rarity": "Secret Rare",
           "finishes": [
             "normal"
           ],
@@ -5254,7 +6161,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355655
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119578/preview_metal-frying-pan-secret-rare-144-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165787,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -5275,10 +6193,13 @@
       "cardtrader": [
         {
           "id": 119579,
+          "name": "Mysterious Treasure",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "145/131",
+          "rarity": "Secret Rare",
           "finishes": [
             "normal"
           ],
@@ -5336,7 +6257,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355656
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119579/preview_mysterious-treasure-secret-rare-145-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165788,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -5357,10 +6289,13 @@
       "cardtrader": [
         {
           "id": 119580,
+          "name": "Unit Energy FDY",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "146/131",
+          "rarity": "Secret Rare",
           "finishes": [
             "normal"
           ],
@@ -5418,7 +6353,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355657
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119580/preview_unit-energy-fdy-secret-rare-146-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165791,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -5439,10 +6385,13 @@
       "cardtrader": [
         {
           "id": 119359,
+          "name": "Fennekin",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "015/131",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5509,7 +6458,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355535
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119359/preview_fennekin-15-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165662,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -5530,10 +6490,13 @@
       "cardtrader": [
         {
           "id": 119361,
+          "name": "Braixen",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "016/131",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -5600,7 +6563,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355536
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119361/preview_braixen-16-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165663,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -5621,10 +6595,13 @@
       "cardtrader": [
         {
           "id": 119363,
+          "name": "Delphox",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "017/131",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -5691,7 +6668,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355537
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119363/preview_delphox-17-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165664,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -5712,10 +6700,13 @@
       "cardtrader": [
         {
           "id": 119365,
+          "name": "Litleo",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "018/131",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5782,7 +6773,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355538
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119365/preview_litleo-18-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165665,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -5803,10 +6805,13 @@
       "cardtrader": [
         {
           "id": 119367,
+          "name": "Pyroar",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "019/131",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -5873,7 +6878,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355539
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119367/preview_pyroar-rare-holo-19-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165666,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -5894,10 +6910,13 @@
       "cardtrader": [
         {
           "id": 119333,
+          "name": "Alolan Exeggutor",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "002/131",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -5964,7 +6983,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355523
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119333/preview_alolan-exeggutor-2-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165649,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -5985,10 +7015,13 @@
       "cardtrader": [
         {
           "id": 119369,
+          "name": "Palkia GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "020/131",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -6046,7 +7079,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355540
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119369/preview_palkia-gx-rare-holo-20-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165667,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -6067,10 +7111,13 @@
       "cardtrader": [
         {
           "id": 119370,
+          "name": "Froakie",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "021/131",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6137,7 +7184,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355541
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119370/preview_froakie-21-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165670,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -6158,10 +7216,13 @@
       "cardtrader": [
         {
           "id": 119372,
+          "name": "Froakie",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "022/131",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6228,7 +7289,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355542
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119372/preview_froakie-22-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165671,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -6249,10 +7321,13 @@
       "cardtrader": [
         {
           "id": 119374,
+          "name": "Frogadier",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "023/131",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -6319,7 +7394,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355543
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119374/preview_frogadier-23-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165672,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -6340,10 +7426,13 @@
       "cardtrader": [
         {
           "id": 119376,
+          "name": "Greninja GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "024/131",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -6401,7 +7490,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355358
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119376/preview_greninja-gx-rare-holo-24-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165673,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -6422,10 +7522,13 @@
       "cardtrader": [
         {
           "id": 119377,
+          "name": "Clauncher",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "025/131",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6492,7 +7595,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355544
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119377/preview_clauncher-25-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165676,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -6513,10 +7627,13 @@
       "cardtrader": [
         {
           "id": 119379,
+          "name": "Clawitzer",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "026/131",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -6583,7 +7700,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355545
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119379/preview_clawitzer-26-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165677,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -6604,10 +7732,13 @@
       "cardtrader": [
         {
           "id": 119381,
+          "name": "Amaura",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "027/131",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -6674,7 +7805,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355546
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119381/preview_amaura-27-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165678,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -6695,10 +7837,13 @@
       "cardtrader": [
         {
           "id": 119383,
+          "name": "Aurorus",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "028/131",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -6765,7 +7910,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355547
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119383/preview_aurorus-rare-holo-28-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165679,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -6786,10 +7942,13 @@
       "cardtrader": [
         {
           "id": 119385,
+          "name": "Bergmite",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "029/131",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6856,7 +8015,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355548
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119385/preview_bergmite-29-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165680,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -6877,10 +8047,13 @@
       "cardtrader": [
         {
           "id": 119335,
+          "name": "Snover",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "003/131",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6947,7 +8120,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355524
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119335/preview_snover-3-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165650,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -6968,10 +8152,13 @@
       "cardtrader": [
         {
           "id": 119387,
+          "name": "Avalugg",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "030/131",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -7038,7 +8225,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355549
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119387/preview_avalugg-30-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165681,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -7059,10 +8257,13 @@
       "cardtrader": [
         {
           "id": 119389,
+          "name": "Volcanion ◇ Prism Star",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "031/131",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -7120,7 +8321,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355550
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119389/preview_volcanion-prism-star-31-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165682,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -7141,10 +8353,13 @@
       "cardtrader": [
         {
           "id": 119390,
+          "name": "Dewpider",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "032/131",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7211,7 +8426,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355551
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119390/preview_dewpider-32-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165683,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -7232,10 +8458,13 @@
       "cardtrader": [
         {
           "id": 119392,
+          "name": "Araquanid",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "033/131",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -7302,7 +8531,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355552
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119392/preview_araquanid-33-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165684,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -7323,10 +8563,13 @@
       "cardtrader": [
         {
           "id": 119394,
+          "name": "Magnemite",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "034/131",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7393,7 +8636,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355553
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119394/preview_magnemite-34-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165685,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -7414,10 +8668,13 @@
       "cardtrader": [
         {
           "id": 119396,
+          "name": "Magneton",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "035/131",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -7484,7 +8741,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355554
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119396/preview_magneton-35-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165686,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -7505,10 +8773,13 @@
       "cardtrader": [
         {
           "id": 119398,
+          "name": "Magnezone",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "036/131",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -7575,7 +8846,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355555
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119398/preview_magnezone-holo-rare-36-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165687,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -7596,10 +8878,13 @@
       "cardtrader": [
         {
           "id": 119400,
+          "name": "Helioptile",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "037/131",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7666,7 +8951,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355556
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119400/preview_helioptile-37-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165688,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -7687,10 +8983,13 @@
       "cardtrader": [
         {
           "id": 119402,
+          "name": "Heliolisk",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "038/131",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -7757,7 +9056,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355557
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119402/preview_heliolisk-38-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165689,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -7778,10 +9088,13 @@
       "cardtrader": [
         {
           "id": 119404,
+          "name": "Xurkitree",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "039/131",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -7848,7 +9161,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355558
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119404/preview_xurkitree-39-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165690,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -7869,10 +9193,13 @@
       "cardtrader": [
         {
           "id": 119337,
+          "name": "Abomasnow",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "004/131",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -7939,7 +9266,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355525
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119337/preview_abomasnow-4-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165651,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -7960,10 +9298,13 @@
       "cardtrader": [
         {
           "id": 119406,
+          "name": "Rotom",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "040/131",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -8030,7 +9371,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355559
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119406/preview_rotom-40-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165691,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -8051,10 +9403,13 @@
       "cardtrader": [
         {
           "id": 119408,
+          "name": "Uxie",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "041/131",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -8121,7 +9476,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355560
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119408/preview_uxie-41-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165692,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -8142,10 +9508,13 @@
       "cardtrader": [
         {
           "id": 119410,
+          "name": "Mesprit",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "042/131",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -8212,7 +9581,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355561
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119410/preview_mesprit-42-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165693,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -8233,10 +9613,13 @@
       "cardtrader": [
         {
           "id": 119412,
+          "name": "Azelf",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "043/131",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -8303,7 +9686,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355562
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119412/preview_azelf-43-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165694,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -8324,10 +9718,13 @@
       "cardtrader": [
         {
           "id": 119414,
+          "name": "Espurr",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "044/131",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -8394,7 +9791,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355563
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119414/preview_espurr-44-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165695,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -8415,10 +9823,13 @@
       "cardtrader": [
         {
           "id": 119416,
+          "name": "Meowstic",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "045/131",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -8485,7 +9896,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355564
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119416/preview_meowstic-45-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165696,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -8506,10 +9928,13 @@
       "cardtrader": [
         {
           "id": 119418,
+          "name": "Honedge",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "046/131",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -8576,7 +10001,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355565
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119418/preview_honedge-46-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165697,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -8597,10 +10033,13 @@
       "cardtrader": [
         {
           "id": 119420,
+          "name": "Honedge",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "047/131",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -8667,7 +10106,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355566
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119420/preview_honedge-47-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165698,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -8688,10 +10138,13 @@
       "cardtrader": [
         {
           "id": 119422,
+          "name": "Doublade",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "048/131",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -8758,7 +10211,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355567
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119422/preview_doublade-48-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165699,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -8779,10 +10243,13 @@
       "cardtrader": [
         {
           "id": 119424,
+          "name": "Aegislash",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "049",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -8849,7 +10316,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355568
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119424/preview_aegislash-49-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165700,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -8870,10 +10348,13 @@
       "cardtrader": [
         {
           "id": 119339,
+          "name": "Scatterbug",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "005",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -8940,7 +10421,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355526
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119339/preview_scatterbug-5-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165652,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -8961,10 +10453,13 @@
       "cardtrader": [
         {
           "id": 119426,
+          "name": "Inkay",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "050/131",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -9031,7 +10526,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355569
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119426/preview_inkay-50-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 166464,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -9052,10 +10558,13 @@
       "cardtrader": [
         {
           "id": 119428,
+          "name": "Malamar",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "051/131",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -9122,7 +10631,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355570
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119428/preview_malamar-51-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165701,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -9143,10 +10663,13 @@
       "cardtrader": [
         {
           "id": 119430,
+          "name": "Skrelp",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "052/131",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -9213,7 +10736,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355571
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119430/preview_skrelp-52-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165702,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -9234,10 +10768,13 @@
       "cardtrader": [
         {
           "id": 119432,
+          "name": "Dragalge",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "053/131",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -9304,7 +10841,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355572
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119432/preview_dragalge-53-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165703,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -9325,10 +10873,13 @@
       "cardtrader": [
         {
           "id": 119434,
+          "name": "Hoopa",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "054/131",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -9395,7 +10946,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355573
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119434/preview_hoopa-54-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165704,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -9416,10 +10978,13 @@
       "cardtrader": [
         {
           "id": 119436,
+          "name": "Poipole",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "055/131",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -9486,7 +11051,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355574
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119436/preview_poipole-55-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165705,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -9507,10 +11083,13 @@
       "cardtrader": [
         {
           "id": 119438,
+          "name": "Naganadel GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "056/131",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -9568,7 +11147,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            319907
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119438/preview_naganadel-gx-56-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165706,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -9589,10 +11179,13 @@
       "cardtrader": [
         {
           "id": 119439,
+          "name": "Cubone",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "057/131",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -9659,7 +11252,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355575
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119439/preview_cubone-57-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165709,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -9680,10 +11284,13 @@
       "cardtrader": [
         {
           "id": 119441,
+          "name": "Torterra",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "058/131",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -9750,7 +11357,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355576
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119441/preview_torterra-58-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165710,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -9771,10 +11389,13 @@
       "cardtrader": [
         {
           "id": 119443,
+          "name": "Infernape",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "059/131",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -9841,7 +11462,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355577
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119443/preview_infernape-rare-holo-59-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165711,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -9862,10 +11494,13 @@
       "cardtrader": [
         {
           "id": 119341,
+          "name": "Scatterbug",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "006/131",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -9932,7 +11567,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355527
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119341/preview_scatterbug-6-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165653,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -9953,10 +11599,13 @@
       "cardtrader": [
         {
           "id": 119445,
+          "name": "Gible",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "060/131",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -10023,7 +11672,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355578
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119445/preview_gible-60-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165712,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -10044,10 +11704,13 @@
       "cardtrader": [
         {
           "id": 119447,
+          "name": "Gabite",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "061/131",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -10114,7 +11777,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355579
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119447/preview_gabite-61-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165713,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -10135,10 +11809,13 @@
       "cardtrader": [
         {
           "id": 119449,
+          "name": "Garchomp",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "062/131",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -10205,7 +11882,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355580
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119449/preview_garchomp-rare-holo-62-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165714,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -10226,10 +11914,13 @@
       "cardtrader": [
         {
           "id": 119451,
+          "name": "Croagunk",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "063/131",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -10296,7 +11987,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355581
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119451/preview_croagunk-63-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165715,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -10317,10 +12019,13 @@
       "cardtrader": [
         {
           "id": 119453,
+          "name": "Toxicroak",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "064/131",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -10387,7 +12092,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355582
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119453/preview_toxicroak-64-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165716,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -10408,10 +12124,13 @@
       "cardtrader": [
         {
           "id": 119455,
+          "name": "Pancham",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "065/131",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -10478,7 +12197,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355583
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119455/preview_pancham-65-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165717,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -10499,10 +12229,13 @@
       "cardtrader": [
         {
           "id": 119457,
+          "name": "Binacle",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "066/131",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -10569,7 +12302,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355584
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119457/preview_binacle-66-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165718,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -10590,10 +12334,13 @@
       "cardtrader": [
         {
           "id": 119459,
+          "name": "Barbaracle",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "067/131",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -10660,7 +12407,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355585
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119459/preview_barbaracle-67-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165719,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -10681,10 +12439,13 @@
       "cardtrader": [
         {
           "id": 119461,
+          "name": "Tyrunt",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "068/131",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -10751,7 +12512,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355586
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119461/preview_tyrunt-68-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165720,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -10772,10 +12544,13 @@
       "cardtrader": [
         {
           "id": 119463,
+          "name": "Tyrantrum",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "069/131",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -10842,7 +12617,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355587
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119463/preview_tyrantrum-69-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165721,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -10863,10 +12649,13 @@
       "cardtrader": [
         {
           "id": 119343,
+          "name": "Spewpa",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "007/131",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -10933,7 +12722,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355528
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119343/preview_spewpa-7-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165654,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -10954,10 +12754,13 @@
       "cardtrader": [
         {
           "id": 119465,
+          "name": "Hawlucha",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "070/131",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -11024,7 +12827,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355588
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119465/preview_hawlucha-70-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165722,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -11045,10 +12859,13 @@
       "cardtrader": [
         {
           "id": 119467,
+          "name": "Zygarde",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "071/131",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -11115,7 +12932,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355658
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119467/preview_zygarde-71-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165723,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -11136,10 +12964,13 @@
       "cardtrader": [
         {
           "id": 119469,
+          "name": "Zygarde",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "072/131",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -11206,7 +13037,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355589
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119469/preview_zygarde-72-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165724,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -11227,10 +13069,13 @@
       "cardtrader": [
         {
           "id": 119471,
+          "name": "Zygarde GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "073/131",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -11288,7 +13133,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            327207
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119471/preview_zygarde-gx-rare-holo-73-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165725,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -11309,10 +13165,13 @@
       "cardtrader": [
         {
           "id": 119472,
+          "name": "Diancie ◇ Prism Star",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "074/131",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -11370,7 +13229,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            327208
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119472/preview_diancie-prism-star-74-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165728,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -11391,10 +13261,13 @@
       "cardtrader": [
         {
           "id": 119473,
+          "name": "Rockruff",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "075/131",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -11461,7 +13334,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355590
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119473/preview_rockruff-75-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165729,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -11482,10 +13366,13 @@
       "cardtrader": [
         {
           "id": 119475,
+          "name": "Lycanroc",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "076/131",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -11552,7 +13439,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355591
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119475/preview_lycanroc-76-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165730,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -11573,10 +13471,13 @@
       "cardtrader": [
         {
           "id": 119477,
+          "name": "Buzzwole",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "077/131",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -11643,7 +13544,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355592
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119477/preview_buzzwole-77-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165731,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -11664,10 +13576,13 @@
       "cardtrader": [
         {
           "id": 119479,
+          "name": "Pangoro",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "078/131",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -11734,7 +13649,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355593
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119479/preview_pangoro-78-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165732,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -11755,10 +13681,13 @@
       "cardtrader": [
         {
           "id": 119481,
+          "name": "Yveltal GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "079/131",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -11816,7 +13745,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355594
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119481/preview_yveltal-gx-rare-holo-79-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165733,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -11837,10 +13777,13 @@
       "cardtrader": [
         {
           "id": 119345,
+          "name": "Vivillon",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "008/131",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -11907,7 +13850,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355529
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119345/preview_vivillon-8-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165655,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -11928,10 +13882,13 @@
       "cardtrader": [
         {
           "id": 119482,
+          "name": "Guzzlord",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "080/131",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -11998,7 +13955,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            320584
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119482/preview_guzzlord-rare-holo-80-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165736,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -12019,10 +13987,13 @@
       "cardtrader": [
         {
           "id": 119484,
+          "name": "Empoleon",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "081/131",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -12089,7 +14060,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355595
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119484/preview_empoleon-rare-holo-81-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165737,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -12110,10 +14092,13 @@
       "cardtrader": [
         {
           "id": 119486,
+          "name": "Dialga GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "082/131",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -12171,7 +14156,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355596
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119486/preview_dialga-gx-rare-holo-82-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165738,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -12192,10 +14188,13 @@
       "cardtrader": [
         {
           "id": 119487,
+          "name": "Flabébé",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "083/131",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -12262,7 +14261,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355597
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119487/preview_flabebe-83-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165741,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -12283,10 +14293,13 @@
       "cardtrader": [
         {
           "id": 119489,
+          "name": "Flabébé",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "084/131",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -12353,7 +14366,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355598
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119489/preview_flabebe-84-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165742,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -12374,10 +14398,13 @@
       "cardtrader": [
         {
           "id": 119491,
+          "name": "Floette",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "085/131",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -12444,7 +14471,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355599
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119491/preview_floette-85-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165743,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -12465,10 +14503,13 @@
       "cardtrader": [
         {
           "id": 119493,
+          "name": "Florges",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "086/131",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -12535,7 +14576,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355600
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119493/preview_florges-86-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165744,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -12556,10 +14608,13 @@
       "cardtrader": [
         {
           "id": 119495,
+          "name": "Sylveon",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "087/131",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -12626,7 +14681,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355601
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119495/preview_sylveon-87-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165745,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -12647,10 +14713,13 @@
       "cardtrader": [
         {
           "id": 119497,
+          "name": "Dedenne",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "088/131",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -12717,7 +14786,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355602
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119497/preview_dedenne-88-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165746,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -12738,10 +14818,13 @@
       "cardtrader": [
         {
           "id": 119499,
+          "name": "Klefki",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "089/131",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -12808,7 +14891,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355603
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119499/preview_klefki-89-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165747,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -12829,10 +14923,13 @@
       "cardtrader": [
         {
           "id": 119347,
+          "name": "Skiddo",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "009/131",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -12899,7 +14996,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355530
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119347/preview_skiddo-9-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165656,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -12920,10 +15028,13 @@
       "cardtrader": [
         {
           "id": 119501,
+          "name": "Xerneas GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "090/131",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -12981,7 +15092,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355604
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119501/preview_xerneas-gx-rare-holo-90-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165748,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -13002,10 +15124,13 @@
       "cardtrader": [
         {
           "id": 119502,
+          "name": "Goomy",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "091/131",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -13072,7 +15197,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355605
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119502/preview_goomy-91-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165751,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -13093,10 +15229,13 @@
       "cardtrader": [
         {
           "id": 119504,
+          "name": "Goomy",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "092/131",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -13163,7 +15302,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355606
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119504/preview_goomy-92-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165752,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -13184,10 +15334,13 @@
       "cardtrader": [
         {
           "id": 119506,
+          "name": "Sliggoo",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "093/131",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -13254,7 +15407,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355607
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119506/preview_sliggoo-93-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165753,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -13275,10 +15439,13 @@
       "cardtrader": [
         {
           "id": 119508,
+          "name": "Goodra",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "094/131",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -13345,7 +15512,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355608
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119508/preview_goodra-rare-holo-94-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165754,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -13366,10 +15544,13 @@
       "cardtrader": [
         {
           "id": 119510,
+          "name": "Ultra Necrozma GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "095/131",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -13427,7 +15608,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            319908
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119510/preview_ultra-necrozma-gx-rare-holo-95-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165755,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -13448,10 +15640,13 @@
       "cardtrader": [
         {
           "id": 119511,
+          "name": "Arceus ◇ Prism Star",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "096/131",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -13509,7 +15704,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355609
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119511/preview_arceus-prism-star-96-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165758,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -13530,10 +15736,13 @@
       "cardtrader": [
         {
           "id": 119512,
+          "name": "Bunnelby",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "097/131",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -13600,7 +15809,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355610
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119512/preview_bunnelby-97-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165759,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -13621,10 +15841,13 @@
       "cardtrader": [
         {
           "id": 119514,
+          "name": "Diggersby",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "098/131",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -13691,7 +15914,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355611
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119514/preview_diggersby-98-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165760,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     },
@@ -13712,10 +15946,13 @@
       "cardtrader": [
         {
           "id": 119516,
+          "name": "Furfrou",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Forbidden Light",
           "expansion_code": "fli",
           "collector_number": "099/131",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -13782,7 +16019,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            355612
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/119516/preview_furfrou-99-131-forbidden-light.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 165761,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2209
         }
       ]
     }

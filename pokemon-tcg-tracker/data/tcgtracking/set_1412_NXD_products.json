@@ -4,8 +4,8 @@
   "set_abbr": "NXD",
   "set_released": "2012-02-08",
   "product_count": 120,
-  "data_modified": "2026-02-15T01:00:35-05:00",
-  "file_generated": "2026-02-15T03:30:53-05:00",
+  "data_modified": "2026-04-15T07:07:43-04:00",
+  "file_generated": "2026-04-16T04:30:47-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/1412/pricing",
   "products": [
     {
@@ -145,9 +145,13 @@
       "cardtrader": [
         {
           "id": 104550,
-          "match_type": "scryfall",
+          "name": "EX Tins: Kyurem-EX Tin",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon Products",
           "expansion_code": "popr",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -181,7 +185,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            286857
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/104550/preview_ex-tins-kyurem-ex-tin-pokemon-products.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 98637,
+          "game_id": 5,
+          "category_id": 59,
+          "category_name": "Pokémon Tins",
+          "product_type": "sealed",
+          "group_id": 2374
         }
       ]
     },
@@ -202,9 +217,13 @@
       "cardtrader": [
         {
           "id": 104549,
-          "match_type": "scryfall",
+          "name": "EX Tins: Reshiram-EX Tin",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon Products",
           "expansion_code": "popr",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -238,7 +257,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            286856
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/104549/preview_ex-tins-reshiram-ex-tin-pokemon-products.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 98636,
+          "game_id": 5,
+          "category_id": 59,
+          "category_name": "Pokémon Tins",
+          "product_type": "sealed",
+          "group_id": 2374
         }
       ]
     },
@@ -274,9 +304,13 @@
       "cardtrader": [
         {
           "id": 104759,
-          "match_type": "scryfall",
+          "name": "Forces of Nature Collection",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon Products",
           "expansion_code": "popr",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -319,7 +353,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            286972
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/104759/preview_forces-of-nature-collection-pokemon-products.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 98639,
+          "game_id": 5,
+          "category_id": 60,
+          "category_name": "Pokémon Box Set",
+          "product_type": "box_set",
+          "group_id": 2374
         }
       ]
     },
@@ -340,9 +385,13 @@
       "cardtrader": [
         {
           "id": 104813,
-          "match_type": "scryfall",
+          "name": "Mewtwo Collection",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon Products",
           "expansion_code": "popr",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -385,7 +434,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            287059
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/104813/preview_mewtwo-collection-pokemon-products.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 98635,
+          "game_id": 5,
+          "category_id": 60,
+          "category_name": "Pokémon Box Set",
+          "product_type": "box_set",
+          "group_id": 2374
         }
       ]
     },
@@ -421,9 +481,13 @@
       "cardtrader": [
         {
           "id": 105502,
+          "name": "Next Destinies Booster",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -457,7 +521,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            271830
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105502/preview_next-destinies-booster-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 98538,
+          "game_id": 5,
+          "category_id": 66,
+          "category_name": "Pokémon Booster",
+          "product_type": "booster",
+          "group_id": 1412
         }
       ]
     },
@@ -508,10 +583,13 @@
       "cardtrader": [
         {
           "id": 123764,
+          "name": "Pinsir",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "001",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -581,7 +659,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280226
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123764/preview_pinsir-1-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88140,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -602,10 +691,13 @@
       "cardtrader": [
         {
           "id": 123781,
+          "name": "Growlithe",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "010",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -675,7 +767,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280235
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123781/preview_growlithe-10-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85961,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -696,10 +799,13 @@
       "cardtrader": [
         {
           "id": 123950,
+          "name": "Emboar",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "100",
+          "rarity": "Secret Rare",
           "finishes": [
             "normal"
           ],
@@ -759,7 +865,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280325
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123950/preview_emboar-secret-rare-100-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85184,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -780,10 +897,13 @@
       "cardtrader": [
         {
           "id": 123951,
+          "name": "Chandelure",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "101",
+          "rarity": "Secret Rare",
           "finishes": [
             "normal"
           ],
@@ -843,7 +963,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280326
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123951/preview_chandelure-secret-rare-101-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84166,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -864,10 +995,13 @@
       "cardtrader": [
         {
           "id": 123952,
+          "name": "Zoroark",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "102",
+          "rarity": "Secret Rare",
           "finishes": [
             "normal"
           ],
@@ -927,7 +1061,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280327
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123952/preview_zoroark-secret-rare-102-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90753,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -948,10 +1093,13 @@
       "cardtrader": [
         {
           "id": 123953,
+          "name": "Hydreigon",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "103",
+          "rarity": "Secret Rare",
           "finishes": [
             "normal"
           ],
@@ -1011,7 +1159,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280328
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123953/preview_hydreigon-secret-rare-103-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86240,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -1032,10 +1191,13 @@
       "cardtrader": [
         {
           "id": 123783,
+          "name": "Growlithe",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "011",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -1105,7 +1267,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280236
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123783/preview_growlithe-11-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85962,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -1126,10 +1299,13 @@
       "cardtrader": [
         {
           "id": 123785,
+          "name": "Arcanine",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "012",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -1199,7 +1375,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280237
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123785/preview_arcanine-12-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83588,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -1220,10 +1407,13 @@
       "cardtrader": [
         {
           "id": 123787,
+          "name": "Arcanine",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "013",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -1293,7 +1483,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280238
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123787/preview_arcanine-13-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83589,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -1314,10 +1515,13 @@
       "cardtrader": [
         {
           "id": 123789,
+          "name": "Moltres",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "014",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal",
             "foil"
@@ -1387,7 +1591,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280239
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123789/preview_moltres-holo-rare-14-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87564,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -1408,10 +1623,13 @@
       "cardtrader": [
         {
           "id": 123791,
+          "name": "Pansear",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "015",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -1481,7 +1699,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280240
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123791/preview_pansear-15-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87943,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -1502,10 +1731,13 @@
       "cardtrader": [
         {
           "id": 123793,
+          "name": "Simisear",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "016",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -1575,7 +1807,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280241
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123793/preview_simisear-16-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89228,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -1596,10 +1839,13 @@
       "cardtrader": [
         {
           "id": 123795,
+          "name": "Darumaka",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "017",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -1669,7 +1915,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280242
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123795/preview_darumaka-17-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84721,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -1690,10 +1947,13 @@
       "cardtrader": [
         {
           "id": 123797,
+          "name": "Litwick",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "018",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -1763,7 +2023,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280243
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123797/preview_litwick-18-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86811,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -1784,10 +2055,13 @@
       "cardtrader": [
         {
           "id": 123799,
+          "name": "Lampent",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "019",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -1857,7 +2131,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280244
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123799/preview_lampent-19-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86588,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -1878,10 +2163,13 @@
       "cardtrader": [
         {
           "id": 123766,
+          "name": "Seedot",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "002",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -1951,7 +2239,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280227
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123766/preview_seedot-2-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89045,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -1972,10 +2271,13 @@
       "cardtrader": [
         {
           "id": 123801,
+          "name": "Chandelure",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "020",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal",
             "foil"
@@ -2045,7 +2347,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280245
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123801/preview_chandelure-holo-rare-20-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 91397,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -2066,10 +2379,13 @@
       "cardtrader": [
         {
           "id": 123803,
+          "name": "Reshiram",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "021",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -2139,7 +2455,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280246
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123803/preview_reshiram-21-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88707,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -2160,10 +2487,13 @@
       "cardtrader": [
         {
           "id": 123805,
+          "name": "Reshiram EX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "022",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -2223,7 +2553,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280247
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123805/preview_reshiram-ex-22-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88713,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -2244,10 +2585,13 @@
       "cardtrader": [
         {
           "id": 123806,
+          "name": "Staryu",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "023",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -2317,7 +2661,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280248
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123806/preview_staryu-23-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89553,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -2338,10 +2693,13 @@
       "cardtrader": [
         {
           "id": 123808,
+          "name": "Starmie",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "024",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -2411,7 +2769,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280249
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123808/preview_starmie-24-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89538,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -2432,10 +2801,13 @@
       "cardtrader": [
         {
           "id": 123810,
+          "name": "Lapras",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "025",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -2505,7 +2877,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280250
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123810/preview_lapras-25-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86622,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -2526,10 +2909,13 @@
       "cardtrader": [
         {
           "id": 123812,
+          "name": "Lapras",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "026",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -2599,7 +2985,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280251
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123812/preview_lapras-26-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86623,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -2620,10 +3017,13 @@
       "cardtrader": [
         {
           "id": 123814,
+          "name": "Articuno",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "027",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal",
             "foil"
@@ -2693,7 +3093,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280252
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123814/preview_articuno-holo-rare-27-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83652,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -2714,10 +3125,13 @@
       "cardtrader": [
         {
           "id": 123816,
+          "name": "Panpour",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "028",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -2787,7 +3201,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280253
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123816/preview_panpour-28-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87929,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -2808,10 +3233,13 @@
       "cardtrader": [
         {
           "id": 123818,
+          "name": "Simipour",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "029",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -2881,7 +3309,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280254
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123818/preview_simipour-29-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89219,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -2902,10 +3341,13 @@
       "cardtrader": [
         {
           "id": 123768,
+          "name": "Kricketot",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "003",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -2975,7 +3417,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280228
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123768/preview_kricketot-3-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86531,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -2996,10 +3449,13 @@
       "cardtrader": [
         {
           "id": 123820,
+          "name": "Basculin",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "030",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -3069,7 +3525,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280255
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123820/preview_basculin-30-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83733,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -3090,10 +3557,13 @@
       "cardtrader": [
         {
           "id": 123822,
+          "name": "Vanillite",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "031",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -3163,7 +3633,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280256
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123822/preview_vanillite-31-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90269,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -3184,10 +3665,13 @@
       "cardtrader": [
         {
           "id": 123824,
+          "name": "Vanillish",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "032",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -3257,7 +3741,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280257
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123824/preview_vanillish-32-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90264,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -3278,10 +3773,13 @@
       "cardtrader": [
         {
           "id": 123826,
+          "name": "Vanilluxe",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "033",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal",
             "foil"
@@ -3351,7 +3849,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280258
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123826/preview_vanilluxe-rare-holo-33-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90274,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -3372,10 +3881,13 @@
       "cardtrader": [
         {
           "id": 123828,
+          "name": "Frillish",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "034",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -3445,7 +3957,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280259
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123828/preview_frillish-34-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85564,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -3466,10 +3989,13 @@
       "cardtrader": [
         {
           "id": 123830,
+          "name": "Jellicent",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "035",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -3539,7 +4065,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280260
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123830/preview_jellicent-35-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86306,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -3560,10 +4097,13 @@
       "cardtrader": [
         {
           "id": 123832,
+          "name": "Cubchoo",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "036",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -3633,7 +4173,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280261
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123832/preview_cubchoo-36-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84525,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -3654,10 +4205,13 @@
       "cardtrader": [
         {
           "id": 123834,
+          "name": "Beartic",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "037",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -3727,7 +4281,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280262
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123834/preview_beartic-37-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83753,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -3748,10 +4313,13 @@
       "cardtrader": [
         {
           "id": 123836,
+          "name": "Kyurem EX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "038",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -3811,7 +4379,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280263
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123836/preview_kyurem-ex-38-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86566,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -3832,10 +4411,13 @@
       "cardtrader": [
         {
           "id": 123837,
+          "name": "Pikachu",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "039",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -3905,7 +4487,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280264
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123837/preview_pikachu-39-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88102,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -3926,10 +4519,13 @@
       "cardtrader": [
         {
           "id": 123770,
+          "name": "Kricketune",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "004",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -3999,7 +4595,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280229
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123770/preview_kricketune-4-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86535,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -4020,10 +4627,13 @@
       "cardtrader": [
         {
           "id": 123839,
+          "name": "Raichu",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "040",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -4093,7 +4703,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280265
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123839/preview_raichu-40-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88522,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -4114,10 +4735,13 @@
       "cardtrader": [
         {
           "id": 123841,
+          "name": "Zapdos",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "041",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal",
             "foil"
@@ -4187,7 +4811,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280266
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123841/preview_zapdos-holo-rare-41-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90721,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -4208,10 +4843,13 @@
       "cardtrader": [
         {
           "id": 123843,
+          "name": "Shinx",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "042",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -4281,7 +4919,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280267
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123843/preview_shinx-42-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89179,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -4302,10 +4951,13 @@
       "cardtrader": [
         {
           "id": 123845,
+          "name": "Shinx",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "043",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -4375,7 +5027,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280268
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123845/preview_shinx-43-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89180,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -4396,10 +5059,13 @@
       "cardtrader": [
         {
           "id": 123847,
+          "name": "Luxio",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "044",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -4469,7 +5135,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280269
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123847/preview_luxio-44-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86943,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -4490,10 +5167,13 @@
       "cardtrader": [
         {
           "id": 123849,
+          "name": "Luxio",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "045",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -4563,7 +5243,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280270
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123849/preview_luxio-45-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86944,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -4584,10 +5275,13 @@
       "cardtrader": [
         {
           "id": 123851,
+          "name": "Luxray",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "046",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal",
             "foil"
@@ -4657,7 +5351,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280271
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123851/preview_luxray-rare-holo-46-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 91399,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -4678,10 +5383,13 @@
       "cardtrader": [
         {
           "id": 123853,
+          "name": "Blitzle",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "047",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -4751,7 +5459,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280272
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123853/preview_blitzle-47-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83931,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -4772,10 +5491,13 @@
       "cardtrader": [
         {
           "id": 123855,
+          "name": "Zebstrika",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "048",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -4845,7 +5567,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280273
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123855/preview_zebstrika-48-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90730,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -4866,10 +5599,13 @@
       "cardtrader": [
         {
           "id": 123857,
+          "name": "Emolga",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "049",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -4939,7 +5675,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280274
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123857/preview_emolga-49-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85190,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -4960,10 +5707,13 @@
       "cardtrader": [
         {
           "id": 123772,
+          "name": "Shaymin EX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "005",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -5023,7 +5773,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280230
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123772/preview_shaymin-ex-5-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89111,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -5044,10 +5805,13 @@
       "cardtrader": [
         {
           "id": 123859,
+          "name": "Zekrom",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "050",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -5117,7 +5881,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280275
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123859/preview_zekrom-50-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90735,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -5138,10 +5913,13 @@
       "cardtrader": [
         {
           "id": 123861,
+          "name": "Zekrom EX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "051",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -5201,7 +5979,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280276
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123861/preview_zekrom-ex-51-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90740,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -5222,10 +6011,13 @@
       "cardtrader": [
         {
           "id": 123862,
+          "name": "Grimer",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "052",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -5295,7 +6087,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280277
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123862/preview_grimer-52-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85914,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -5316,10 +6119,13 @@
       "cardtrader": [
         {
           "id": 123864,
+          "name": "Muk",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "053",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -5389,7 +6195,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280278
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123864/preview_muk-53-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87626,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -5410,10 +6227,13 @@
       "cardtrader": [
         {
           "id": 123866,
+          "name": "Mewtwo EX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "054",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -5473,7 +6293,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280279
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123866/preview_mewtwo-ex-54-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87429,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -5494,10 +6325,13 @@
       "cardtrader": [
         {
           "id": 123867,
+          "name": "Ralts",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "055",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -5567,7 +6401,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280280
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123867/preview_ralts-55-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88564,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -5588,10 +6433,13 @@
       "cardtrader": [
         {
           "id": 123869,
+          "name": "Kirlia",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "056",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -5661,7 +6509,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280281
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123869/preview_kirlia-56-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86469,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -5682,10 +6541,13 @@
       "cardtrader": [
         {
           "id": 123871,
+          "name": "Gardevoir",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "057",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal",
             "foil"
@@ -5755,7 +6617,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280282
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123871/preview_gardevoir-rare-holo-57-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85637,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -5776,10 +6649,13 @@
       "cardtrader": [
         {
           "id": 123873,
+          "name": "Munna",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "058",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -5849,7 +6725,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280283
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123873/preview_munna-58-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87643,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -5870,10 +6757,13 @@
       "cardtrader": [
         {
           "id": 123875,
+          "name": "Musharna",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "059",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -5943,7 +6833,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280284
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123875/preview_musharna-59-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87660,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -5964,10 +6865,13 @@
       "cardtrader": [
         {
           "id": 123773,
+          "name": "Pansage",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "006",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -6037,7 +6941,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280231
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123773/preview_pansage-6-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87936,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -6058,10 +6973,13 @@
       "cardtrader": [
         {
           "id": 123877,
+          "name": "Darmanitan",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "060",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -6131,7 +7049,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280285
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123877/preview_darmanitan-60-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84715,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -6152,10 +7081,13 @@
       "cardtrader": [
         {
           "id": 123879,
+          "name": "Elgyem",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "061",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -6225,7 +7157,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280286
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123879/preview_elgyem-61-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85177,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -6246,10 +7189,13 @@
       "cardtrader": [
         {
           "id": 123881,
+          "name": "Beheeyem",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "062",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -6319,7 +7265,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280287
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123881/preview_beheeyem-62-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83779,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -6340,10 +7297,13 @@
       "cardtrader": [
         {
           "id": 123883,
+          "name": "Riolu",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "063",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -6413,7 +7373,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280288
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123883/preview_riolu-63-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88759,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -6434,10 +7405,13 @@
       "cardtrader": [
         {
           "id": 123885,
+          "name": "Lucario",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "064",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal",
             "foil"
@@ -6507,7 +7481,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280289
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123885/preview_lucario-holo-rare-64-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86882,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -6528,10 +7513,13 @@
       "cardtrader": [
         {
           "id": 123887,
+          "name": "Hippopotas",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "065",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -6601,7 +7589,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280290
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123887/preview_hippopotas-65-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86082,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -6622,10 +7621,13 @@
       "cardtrader": [
         {
           "id": 123889,
+          "name": "Hippowdon",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "066",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -6695,7 +7697,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280291
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123889/preview_hippowdon-66-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86086,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -6716,10 +7729,13 @@
       "cardtrader": [
         {
           "id": 123891,
+          "name": "Mienfoo",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "067",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -6789,7 +7805,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280292
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123891/preview_mienfoo-67-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87437,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -6810,10 +7837,13 @@
       "cardtrader": [
         {
           "id": 123893,
+          "name": "Mienshao",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "068",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -6883,7 +7913,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280293
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123893/preview_mienshao-68-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87441,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -6904,10 +7945,13 @@
       "cardtrader": [
         {
           "id": 123895,
+          "name": "Sneasel",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "069",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -6977,7 +8021,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280294
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123895/preview_sneasel-69-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89372,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -6998,10 +8053,13 @@
       "cardtrader": [
         {
           "id": 123775,
+          "name": "Simisage",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "007",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -7071,7 +8129,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280232
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123775/preview_simisage-7-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89223,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -7092,10 +8161,13 @@
       "cardtrader": [
         {
           "id": 123897,
+          "name": "Weavile",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "070",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -7165,7 +8237,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280295
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123897/preview_weavile-70-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90534,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -7186,10 +8269,13 @@
       "cardtrader": [
         {
           "id": 123899,
+          "name": "Nuzleaf",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "071",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -7259,7 +8345,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280296
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123899/preview_nuzleaf-71-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87827,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -7280,10 +8377,13 @@
       "cardtrader": [
         {
           "id": 123901,
+          "name": "Shiftry",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "072",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -7353,7 +8453,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280297
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123901/preview_shiftry-72-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89159,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -7374,10 +8485,13 @@
       "cardtrader": [
         {
           "id": 123903,
+          "name": "Scraggy",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "073",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -7447,7 +8561,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280298
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123903/preview_scraggy-73-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88983,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -7468,10 +8593,13 @@
       "cardtrader": [
         {
           "id": 123905,
+          "name": "Scrafty",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "074",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal",
             "foil"
@@ -7541,7 +8669,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280299
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123905/preview_scrafty-holo-rare-74-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88978,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -7562,10 +8701,13 @@
       "cardtrader": [
         {
           "id": 123907,
+          "name": "Bronzor",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "075",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -7635,7 +8777,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280300
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123907/preview_bronzor-75-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84007,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -7656,10 +8809,13 @@
       "cardtrader": [
         {
           "id": 123909,
+          "name": "Bronzong",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "076",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -7729,7 +8885,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280301
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123909/preview_bronzong-76-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83998,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -7750,10 +8917,13 @@
       "cardtrader": [
         {
           "id": 123911,
+          "name": "Ferroseed",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "077",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -7823,7 +8993,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280302
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123911/preview_ferroseed-77-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85427,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -7844,10 +9025,13 @@
       "cardtrader": [
         {
           "id": 123913,
+          "name": "Jigglypuff",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "078",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -7917,7 +9101,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280303
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123913/preview_jigglypuff-78-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86320,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -7938,10 +9133,13 @@
       "cardtrader": [
         {
           "id": 123915,
+          "name": "Wigglytuff",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "079",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -8011,7 +9209,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280304
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123915/preview_wigglytuff-79-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90600,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -8032,10 +9241,13 @@
       "cardtrader": [
         {
           "id": 123777,
+          "name": "Foongus",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "008",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -8105,7 +9317,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280233
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123777/preview_foongus-8-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85538,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -8126,10 +9349,13 @@
       "cardtrader": [
         {
           "id": 123917,
+          "name": "Meowth",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "080",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -8199,7 +9425,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280305
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123917/preview_meowth-80-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87326,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -8220,10 +9457,13 @@
       "cardtrader": [
         {
           "id": 123919,
+          "name": "Persian",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "081",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -8293,7 +9533,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280306
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123919/preview_persian-81-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87988,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -8314,10 +9565,13 @@
       "cardtrader": [
         {
           "id": 123921,
+          "name": "Regigigas EX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "082",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -8377,7 +9631,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280307
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123921/preview_regigigas-ex-82-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88666,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -8398,10 +9663,13 @@
       "cardtrader": [
         {
           "id": 123922,
+          "name": "Pidove",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "083",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -8471,7 +9739,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280308
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123922/preview_pidove-83-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88058,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -8492,10 +9771,13 @@
       "cardtrader": [
         {
           "id": 123924,
+          "name": "Minccino",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "084",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -8565,7 +9847,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280309
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123924/preview_minccino-84-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87476,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -8586,10 +9879,13 @@
       "cardtrader": [
         {
           "id": 123926,
+          "name": "Cinccino",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "085",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal",
             "foil"
@@ -8659,7 +9955,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280310
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123926/preview_cinccino-rare-holo-85-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84319,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -8680,10 +9987,13 @@
       "cardtrader": [
         {
           "id": 123928,
+          "name": "Cilan",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "086",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -8753,7 +10063,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280311
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123928/preview_cilan-86-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84316,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -8774,10 +10095,13 @@
       "cardtrader": [
         {
           "id": 123930,
+          "name": "Exp. Share",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "087",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -8847,7 +10171,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280312
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123930/preview_exp-share-87-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85365,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -8868,10 +10203,13 @@
       "cardtrader": [
         {
           "id": 123932,
+          "name": "Heavy Ball",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "088",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -8941,7 +10279,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280313
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123932/preview_heavy-ball-88-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86056,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -8962,10 +10311,13 @@
       "cardtrader": [
         {
           "id": 123934,
+          "name": "Level Ball",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "089",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -9035,7 +10387,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280314
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123934/preview_level-ball-89-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86710,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -9056,10 +10419,13 @@
       "cardtrader": [
         {
           "id": 123779,
+          "name": "Amoonguss",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "009",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -9129,7 +10495,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280234
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123779/preview_amoonguss-9-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83532,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -9150,10 +10527,13 @@
       "cardtrader": [
         {
           "id": 123936,
+          "name": "Pokémon Center",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "090",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -9223,7 +10603,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280315
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123936/preview_pokemon-center-90-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88215,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -9244,10 +10635,13 @@
       "cardtrader": [
         {
           "id": 123938,
+          "name": "Skyarrow Bridge",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "091",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -9317,7 +10711,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280316
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123938/preview_skyarrow-bridge-91-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89285,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -9338,10 +10743,13 @@
       "cardtrader": [
         {
           "id": 123940,
+          "name": "Double Colorless Energy",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "092",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -9411,7 +10819,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280317
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123940/preview_double-colorless-energy-92-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84884,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -9432,10 +10851,13 @@
       "cardtrader": [
         {
           "id": 123942,
+          "name": "Prism Energy",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "093",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -9505,7 +10927,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280318
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123942/preview_prism-energy-93-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88374,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -9526,10 +10959,13 @@
       "cardtrader": [
         {
           "id": 123944,
+          "name": "Shaymin EX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "094",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -9589,7 +11025,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280319
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123944/preview_shaymin-ex-rare-ultra-94-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89112,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -9610,10 +11057,13 @@
       "cardtrader": [
         {
           "id": 123945,
+          "name": "Reshiram EX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "095",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -9673,7 +11123,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280320
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123945/preview_reshiram-ex-rare-ultra-95-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88716,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -9694,10 +11155,13 @@
       "cardtrader": [
         {
           "id": 123946,
+          "name": "Kyurem EX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "096",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -9757,7 +11221,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280321
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123946/preview_kyurem-ex-rare-ultra-96-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86570,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -9778,10 +11253,13 @@
       "cardtrader": [
         {
           "id": 123947,
+          "name": "Zekrom EX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "097",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -9841,7 +11319,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280322
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123947/preview_zekrom-ex-rare-ultra-97-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90743,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -9862,10 +11351,13 @@
       "cardtrader": [
         {
           "id": 123948,
+          "name": "Mewtwo EX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "098",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -9925,7 +11417,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280323
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123948/preview_mewtwo-ex-rare-ultra-98-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87432,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     },
@@ -9946,10 +11449,13 @@
       "cardtrader": [
         {
           "id": 123949,
+          "name": "Regigigas EX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Next Destinies",
           "expansion_code": "nxd",
           "collector_number": "099",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -10009,7 +11515,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280324
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123949/preview_regigigas-ex-rare-ultra-99-99-next-destinies.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88667,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1412
         }
       ]
     }

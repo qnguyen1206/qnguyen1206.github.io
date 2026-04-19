@@ -4,8 +4,8 @@
   "set_abbr": "KSS",
   "set_released": "2013-11-08",
   "product_count": 51,
-  "data_modified": "2026-02-01T14:23:42-05:00",
-  "file_generated": "2026-02-02T03:32:28-05:00",
+  "data_modified": "2026-04-16T16:07:29-04:00",
+  "file_generated": "2026-04-17T04:30:48-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/1522/pricing",
   "products": [
     {
@@ -205,10 +205,13 @@
       "cardtrader": [
         {
           "id": 132297,
+          "name": "Weedle",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "XY Kalos Starter Set",
           "expansion_code": "kss",
           "collector_number": "01/39",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -275,7 +278,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281267
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/132297/preview_weedle-1-39-xy-kalos-starter-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90549,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1522
         }
       ]
     },
@@ -296,10 +310,13 @@
       "cardtrader": [
         {
           "id": 132311,
+          "name": "Delphox",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "XY Kalos Starter Set",
           "expansion_code": "kss",
           "collector_number": "10/39",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -366,7 +383,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281276
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/132311/preview_delphox-10-39-xy-kalos-starter-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84753,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1522
         }
       ]
     },
@@ -382,8 +410,89 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 281277,
+      "cardtrader_id": 132313,
+      "cardtrader": [
+        {
+          "id": 132313,
+          "name": "Panpour",
+          "match_type": "name",
+          "match_confidence": 100,
+          "expansion": "XY Kalos Starter Set",
+          "expansion_code": "kss",
+          "collector_number": "11/39",
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            281277
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/132313/preview_panpour-11-39-xy-kalos-starter-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": null,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1522
+        }
+      ]
     },
     {
       "id": 85569,
@@ -402,10 +511,13 @@
       "cardtrader": [
         {
           "id": 132314,
+          "name": "Froakie",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "XY Kalos Starter Set",
           "expansion_code": "kss",
           "collector_number": "12/39",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -472,7 +584,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281278
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/132314/preview_froakie-12-39-xy-kalos-starter-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85569,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1522
         }
       ]
     },
@@ -493,10 +616,13 @@
       "cardtrader": [
         {
           "id": 132316,
+          "name": "Frogadier",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "XY Kalos Starter Set",
           "expansion_code": "kss",
           "collector_number": "13/39",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -554,7 +680,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281279
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/132316/preview_frogadier-13-39-xy-kalos-starter-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85571,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1522
         }
       ]
     },
@@ -575,10 +712,13 @@
       "cardtrader": [
         {
           "id": 132318,
+          "name": "Greninja",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "XY Kalos Starter Set",
           "expansion_code": "kss",
           "collector_number": "14/39",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -636,7 +776,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281280
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/132318/preview_greninja-14-39-xy-kalos-starter-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85903,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1522
         }
       ]
     },
@@ -657,10 +808,13 @@
       "cardtrader": [
         {
           "id": 132320,
+          "name": "Clauncher",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "XY Kalos Starter Set",
           "expansion_code": "kss",
           "collector_number": "15/39",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -718,7 +872,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281281
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/132320/preview_clauncher-15-39-xy-kalos-starter-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84326,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1522
         }
       ]
     },
@@ -739,10 +904,13 @@
       "cardtrader": [
         {
           "id": 132321,
+          "name": "Poochyena",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "XY Kalos Starter Set",
           "expansion_code": "kss",
           "collector_number": "16/39",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -800,7 +968,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281282
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/132321/preview_poochyena-16-39-xy-kalos-starter-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88302,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1522
         }
       ]
     },
@@ -821,10 +1000,13 @@
       "cardtrader": [
         {
           "id": 132322,
+          "name": "Mightyena",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "XY Kalos Starter Set",
           "expansion_code": "kss",
           "collector_number": "17/39",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -882,7 +1064,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281283
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/132322/preview_mightyena-17-39-xy-kalos-starter-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87449,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1522
         }
       ]
     },
@@ -903,10 +1096,13 @@
       "cardtrader": [
         {
           "id": 132323,
+          "name": "Inkay",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "XY Kalos Starter Set",
           "expansion_code": "kss",
           "collector_number": "18/39",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -964,7 +1160,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281284
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/132323/preview_inkay-18-39-xy-kalos-starter-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86285,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1522
         }
       ]
     },
@@ -985,10 +1192,13 @@
       "cardtrader": [
         {
           "id": 132324,
+          "name": "Pawniard",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "XY Kalos Starter Set",
           "expansion_code": "kss",
           "collector_number": "19/39",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -1046,7 +1256,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281285
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/132324/preview_pawniard-19-39-xy-kalos-starter-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87973,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1522
         }
       ]
     },
@@ -1067,10 +1288,13 @@
       "cardtrader": [
         {
           "id": 132298,
+          "name": "Pansage",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "XY Kalos Starter Set",
           "expansion_code": "kss",
           "collector_number": "02/39",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -1137,7 +1361,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281268
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/132298/preview_pansage-2-39-xy-kalos-starter-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87939,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1522
         }
       ]
     },
@@ -1158,10 +1393,13 @@
       "cardtrader": [
         {
           "id": 132325,
+          "name": "Bisharp",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "XY Kalos Starter Set",
           "expansion_code": "kss",
           "collector_number": "20/39",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -1219,7 +1457,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281286
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/132325/preview_bisharp-20-39-xy-kalos-starter-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83847,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1522
         }
       ]
     },
@@ -1240,10 +1489,13 @@
       "cardtrader": [
         {
           "id": 132326,
+          "name": "Honedge",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "XY Kalos Starter Set",
           "expansion_code": "kss",
           "collector_number": "21/39",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -1301,7 +1553,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281287
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/132326/preview_honedge-21-39-xy-kalos-starter-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86167,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1522
         }
       ]
     },
@@ -1322,10 +1585,13 @@
       "cardtrader": [
         {
           "id": 132327,
+          "name": "Snubbull",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "XY Kalos Starter Set",
           "expansion_code": "kss",
           "collector_number": "22/39",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -1383,7 +1649,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281288
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/132327/preview_snubbull-22-39-xy-kalos-starter-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89418,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1522
         }
       ]
     },
@@ -1404,10 +1681,13 @@
       "cardtrader": [
         {
           "id": 132328,
+          "name": "Granbull",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "XY Kalos Starter Set",
           "expansion_code": "kss",
           "collector_number": "23/39",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -1465,7 +1745,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281289
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/132328/preview_granbull-23-39-xy-kalos-starter-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85867,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1522
         }
       ]
     },
@@ -1486,10 +1777,13 @@
       "cardtrader": [
         {
           "id": 132329,
+          "name": "Swirlix",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "XY Kalos Starter Set",
           "expansion_code": "kss",
           "collector_number": "24/39",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -1547,7 +1841,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281290
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/132329/preview_swirlix-24-39-xy-kalos-starter-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89708,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1522
         }
       ]
     },
@@ -1568,10 +1873,13 @@
       "cardtrader": [
         {
           "id": 132330,
+          "name": "Farfetch'd",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "XY Kalos Starter Set",
           "expansion_code": "kss",
           "collector_number": "25/39",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -1629,7 +1937,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281291
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/132330/preview_farfetch-d-25-39-xy-kalos-starter-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85390,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1522
         }
       ]
     },
@@ -1650,10 +1969,13 @@
       "cardtrader": [
         {
           "id": 132331,
+          "name": "Snorlax",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "XY Kalos Starter Set",
           "expansion_code": "kss",
           "collector_number": "26/39",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -1711,7 +2033,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281292
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/132331/preview_snorlax-26-39-xy-kalos-starter-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89394,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1522
         }
       ]
     },
@@ -1732,10 +2065,13 @@
       "cardtrader": [
         {
           "id": 132332,
+          "name": "Miltank",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "XY Kalos Starter Set",
           "expansion_code": "kss",
           "collector_number": "27/39",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -1793,7 +2129,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281293
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/132332/preview_miltank-27-39-xy-kalos-starter-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87468,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1522
         }
       ]
     },
@@ -1814,10 +2161,13 @@
       "cardtrader": [
         {
           "id": 132333,
+          "name": "Skitty",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "XY Kalos Starter Set",
           "expansion_code": "kss",
           "collector_number": "28/39",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -1875,7 +2225,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281294
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/132333/preview_skitty-28-39-xy-kalos-starter-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89272,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1522
         }
       ]
     },
@@ -1896,10 +2257,13 @@
       "cardtrader": [
         {
           "id": 132334,
+          "name": "Bidoof",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "XY Kalos Starter Set",
           "expansion_code": "kss",
           "collector_number": "29/39",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -1957,7 +2321,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281295
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/132334/preview_bidoof-29-39-xy-kalos-starter-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83831,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1522
         }
       ]
     },
@@ -1978,10 +2353,13 @@
       "cardtrader": [
         {
           "id": 132299,
+          "name": "Chespin",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "XY Kalos Starter Set",
           "expansion_code": "kss",
           "collector_number": "03/39",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -2048,7 +2426,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281269
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/132299/preview_chespin-3-39-xy-kalos-starter-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84271,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1522
         }
       ]
     },
@@ -2069,10 +2458,13 @@
       "cardtrader": [
         {
           "id": 132335,
+          "name": "Bunnelby",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "XY Kalos Starter Set",
           "expansion_code": "kss",
           "collector_number": "30/39",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -2130,7 +2522,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281296
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/132335/preview_bunnelby-30-39-xy-kalos-starter-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84047,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1522
         }
       ]
     },
@@ -2151,10 +2554,13 @@
       "cardtrader": [
         {
           "id": 132336,
+          "name": "Fletchling",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "XY Kalos Starter Set",
           "expansion_code": "kss",
           "collector_number": "31/39",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -2212,7 +2618,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281297
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/132336/preview_fletchling-31-39-xy-kalos-starter-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85508,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1522
         }
       ]
     },
@@ -2233,10 +2650,13 @@
       "cardtrader": [
         {
           "id": 132337,
+          "name": "Furfrou",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "XY Kalos Starter Set",
           "expansion_code": "kss",
           "collector_number": "32/39",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -2294,7 +2714,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281298
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/132337/preview_furfrou-32-39-xy-kalos-starter-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85587,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1522
         }
       ]
     },
@@ -2315,10 +2746,13 @@
       "cardtrader": [
         {
           "id": 132338,
+          "name": "Furfrou",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "XY Kalos Starter Set",
           "expansion_code": "kss",
           "collector_number": "33/39",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -2376,7 +2810,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281299
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/132338/preview_furfrou-33-39-xy-kalos-starter-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85588,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1522
         }
       ]
     },
@@ -2397,10 +2842,13 @@
       "cardtrader": [
         {
           "id": 132339,
+          "name": "Crushing Hammer",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "XY Kalos Starter Set",
           "expansion_code": "kss",
           "collector_number": "34/39",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -2458,7 +2906,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281300
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/132339/preview_crushing-hammer-34-39-xy-kalos-starter-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84507,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1522
         }
       ]
     },
@@ -2479,10 +2938,13 @@
       "cardtrader": [
         {
           "id": 132341,
+          "name": "Poké Ball",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "XY Kalos Starter Set",
           "expansion_code": "kss",
           "collector_number": "35/39",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -2540,7 +3002,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281301
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/132341/preview_poke-ball-35-39-xy-kalos-starter-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88194,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1522
         }
       ]
     },
@@ -2561,10 +3034,13 @@
       "cardtrader": [
         {
           "id": 132342,
+          "name": "Pokémon Catcher",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "XY Kalos Starter Set",
           "expansion_code": "kss",
           "collector_number": "36/39",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -2622,7 +3098,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281302
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/132342/preview_pokemon-catcher-36-39-xy-kalos-starter-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88211,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1522
         }
       ]
     },
@@ -2643,10 +3130,13 @@
       "cardtrader": [
         {
           "id": 132344,
+          "name": "Potion",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "XY Kalos Starter Set",
           "expansion_code": "kss",
           "collector_number": "37/39",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -2704,7 +3194,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281303
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/132344/preview_potion-37-39-xy-kalos-starter-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88349,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1522
         }
       ]
     },
@@ -2725,10 +3226,13 @@
       "cardtrader": [
         {
           "id": 132345,
+          "name": "Switch",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "XY Kalos Starter Set",
           "expansion_code": "kss",
           "collector_number": "38/39",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -2786,7 +3290,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281304
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/132345/preview_switch-38-39-xy-kalos-starter-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89723,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1522
         }
       ]
     },
@@ -2807,10 +3322,13 @@
       "cardtrader": [
         {
           "id": 132346,
+          "name": "Tierno",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "XY Kalos Starter Set",
           "expansion_code": "kss",
           "collector_number": "39/39",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -2868,7 +3386,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281305
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/132346/preview_tierno-39-39-xy-kalos-starter-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89911,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1522
         }
       ]
     },
@@ -2889,10 +3418,13 @@
       "cardtrader": [
         {
           "id": 132301,
+          "name": "Quilladin",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "XY Kalos Starter Set",
           "expansion_code": "kss",
           "collector_number": "04/39",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -2959,7 +3491,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281270
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/132301/preview_quilladin-4-39-xy-kalos-starter-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88490,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1522
         }
       ]
     },
@@ -2980,10 +3523,13 @@
       "cardtrader": [
         {
           "id": 132303,
+          "name": "Chesnaught",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "XY Kalos Starter Set",
           "expansion_code": "kss",
           "collector_number": "05/39",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -3050,7 +3596,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281271
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/132303/preview_chesnaught-5-39-xy-kalos-starter-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84268,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1522
         }
       ]
     },
@@ -3071,10 +3628,13 @@
       "cardtrader": [
         {
           "id": 132305,
+          "name": "Slugma",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "XY Kalos Starter Set",
           "expansion_code": "kss",
           "collector_number": "06/39",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -3141,7 +3701,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281272
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/132305/preview_slugma-6-39-xy-kalos-starter-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89348,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1522
         }
       ]
     },
@@ -3162,10 +3733,13 @@
       "cardtrader": [
         {
           "id": 132306,
+          "name": "Pansear",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "XY Kalos Starter Set",
           "expansion_code": "kss",
           "collector_number": "07/39",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -3232,7 +3806,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281273
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/132306/preview_pansear-7-39-xy-kalos-starter-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87946,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1522
         }
       ]
     },
@@ -3253,10 +3838,13 @@
       "cardtrader": [
         {
           "id": 132307,
+          "name": "Fennekin",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "XY Kalos Starter Set",
           "expansion_code": "kss",
           "collector_number": "08/39",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -3323,7 +3911,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281274
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/132307/preview_fennekin-8-39-xy-kalos-starter-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85411,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1522
         }
       ]
     },
@@ -3344,10 +3943,13 @@
       "cardtrader": [
         {
           "id": 132309,
+          "name": "Braixen",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "XY Kalos Starter Set",
           "expansion_code": "kss",
           "collector_number": "09/39",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -3414,7 +4016,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            281275
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/132309/preview_braixen-9-39-xy-kalos-starter-set.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83949,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1522
         }
       ]
     }
