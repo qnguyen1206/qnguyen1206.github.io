@@ -181,6 +181,7 @@ import fileInclusion from './blogs/file-inclusion.js';
 import raceConditions from './blogs/race-conditions.js';
 import sqlInjection from './blogs/sql-injection.js';
 import nmapLiveHostDiscovery from './blogs/nmap-live-host-discovery.js';
+import aiMlSecurityThreats from './blogs/ai-ml-security-threats.js';
 
 /* TryHackMe Challenges */
 import theGameChallenge from './blogs/the-game-challenge.js';
@@ -240,6 +241,7 @@ export const blogPosts = [
     raceConditions,
     sqlInjection,
     nmapLiveHostDiscovery,
+    aiMlSecurityThreats,
 
     /* TryHackMe Challenges */
     theGameChallenge,
