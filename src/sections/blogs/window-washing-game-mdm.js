@@ -4,7 +4,7 @@ export default {
     category: 'Games',
     difficulty: 'Medium',
     tags: ['Game'],
-    date: '2026-04-15T12:00:00',
+    date: '2026-04-20T12:00:00',
     excerpt: 'MDM for Window Washing Game',
     content: `
 This is an MDM for the game called Window Washing Game. Since the game is still in development, this MDM is subject to change.
@@ -237,5 +237,13 @@ Took a while like 5 or 6 hours but apparently, forgot to broadcast the water pro
 **Apr. 15th, 2026**
 - Continue working on the loading screen and the death attempts
 Did use AI to help with some bugs and logic flaws in the code
+
+**Apr. 20th, 2026**
+Merge conflicts everywhereeeeeeeee
+- Resolving merge conflicts through manual changes and asked each team members what they have changed
+Painful process
+- Implemented in-game memberlist UI 
+Took a while to wire data, thanks to GPT-Codex, actually painful when give it instruction on how to do exactly what I want 😃👍
+- Merge branch to get all the updates from team members to main branch including pause screen, death screen, and camera movement
 `
 }
