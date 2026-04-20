@@ -4,8 +4,8 @@
   "set_abbr": "LC",
   "set_released": "2002-05-24",
   "product_count": 113,
-  "data_modified": "2026-02-01T14:23:07-05:00",
-  "file_generated": "2026-02-02T03:32:33-05:00",
+  "data_modified": "2026-04-15T07:07:34-04:00",
+  "file_generated": "2026-04-16T04:30:48-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/1374/pricing",
   "products": [
     {
@@ -25,9 +25,13 @@
       "cardtrader": [
         {
           "id": 105222,
-          "match_type": "scryfall",
+          "name": "Legendary Collection Booster",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -61,7 +65,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            271853
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105222/preview_legendary-collection-booster-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 138150,
+          "game_id": 5,
+          "category_id": 66,
+          "category_name": "Pokémon Booster",
+          "product_type": "booster",
+          "group_id": 1374
         }
       ]
     },
@@ -82,9 +97,13 @@
       "cardtrader": [
         {
           "id": 105225,
-          "match_type": "scryfall",
+          "name": "Legendary Collection: Lava Theme Deck",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -127,7 +146,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            286571
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105225/preview_legendary-collection-lava-theme-deck-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 450748,
+          "game_id": 5,
+          "category_id": 69,
+          "category_name": "Pokémon Preconstructed Deck",
+          "product_type": "precon_deck",
+          "group_id": 1374
         }
       ]
     },
@@ -148,9 +178,13 @@
       "cardtrader": [
         {
           "id": 105224,
-          "match_type": "scryfall",
+          "name": "Legendary Collection: Turmoil Theme Deck",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -193,7 +227,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            286570
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105224/preview_legendary-collection-turmoil-theme-deck-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 451094,
+          "game_id": 5,
+          "category_id": 69,
+          "category_name": "Pokémon Preconstructed Deck",
+          "product_type": "precon_deck",
+          "group_id": 1374
         }
       ]
     },
@@ -214,13 +259,17 @@
       "cardtrader": [
         {
           "id": 121534,
-          "match_type": "scryfall",
+          "name": "Alakazam",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "001/110",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
+          "languages": [],
           "properties": [
             {
               "name": "condition",
@@ -261,7 +310,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274766
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121534/preview_alakazam-rare-holo-1-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83496,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -282,10 +342,13 @@
       "cardtrader": [
         {
           "id": 121536,
-          "match_type": "scryfall",
+          "name": "Articuno",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "002/110",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -340,7 +403,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274767
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121536/preview_articuno-rare-holo-2-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83643,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -361,10 +435,13 @@
       "cardtrader": [
         {
           "id": 121538,
-          "match_type": "scryfall",
+          "name": "Charizard",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "003/110",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -419,7 +496,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274768
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121538/preview_charizard-rare-holo-3-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84196,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -440,10 +528,13 @@
       "cardtrader": [
         {
           "id": 121540,
-          "match_type": "scryfall",
+          "name": "Dark Blastoise",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "004/110",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -498,7 +589,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274769
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121540/preview_dark-blastoise-rare-holo-4-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84569,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -519,10 +621,13 @@
       "cardtrader": [
         {
           "id": 121542,
-          "match_type": "scryfall",
+          "name": "Dark Dragonite",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "005/110",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -577,7 +682,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274770
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121542/preview_dark-dragonite-rare-holo-5-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84585,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -598,10 +714,13 @@
       "cardtrader": [
         {
           "id": 121544,
-          "match_type": "scryfall",
+          "name": "Dark Persian",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "006/110",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -656,7 +775,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274771
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121544/preview_dark-persian-rare-holo-6-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84637,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -677,10 +807,13 @@
       "cardtrader": [
         {
           "id": 121546,
-          "match_type": "scryfall",
+          "name": "Dark Raichu",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "007/110",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -735,7 +868,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274772
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121546/preview_dark-raichu-rare-holo-7-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84646,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -756,10 +900,13 @@
       "cardtrader": [
         {
           "id": 121548,
-          "match_type": "scryfall",
+          "name": "Dark Slowbro",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "008/110",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -814,7 +961,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274773
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121548/preview_dark-slowbro-rare-holo-8-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84653,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -835,10 +993,13 @@
       "cardtrader": [
         {
           "id": 121550,
-          "match_type": "scryfall",
+          "name": "Dark Vaporeon",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "009/110",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -893,7 +1054,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274774
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121550/preview_dark-vaporeon-rare-holo-9-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84664,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -914,10 +1086,13 @@
       "cardtrader": [
         {
           "id": 121552,
-          "match_type": "scryfall",
+          "name": "Flareon",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "010/110",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -972,7 +1147,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274775
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121552/preview_flareon-rare-holo-10-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85492,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -993,10 +1179,13 @@
       "cardtrader": [
         {
           "id": 121554,
-          "match_type": "scryfall",
+          "name": "Gengar",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "011/110",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1051,7 +1240,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274776
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121554/preview_gengar-rare-holo-11-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85670,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -1072,10 +1272,13 @@
       "cardtrader": [
         {
           "id": 121556,
-          "match_type": "scryfall",
+          "name": "Gyarados",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "012/110",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1130,7 +1333,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274777
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121556/preview_gyarados-rare-holo-12-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85989,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -1151,10 +1365,13 @@
       "cardtrader": [
         {
           "id": 121558,
-          "match_type": "scryfall",
+          "name": "Hitmonlee",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "013/110",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1209,7 +1426,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274778
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121558/preview_hitmonlee-rare-holo-13-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86101,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -1230,10 +1458,13 @@
       "cardtrader": [
         {
           "id": 121560,
-          "match_type": "scryfall",
+          "name": "Jolteon",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "014/110",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1288,7 +1519,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274779
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121560/preview_jolteon-rare-holo-14-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86339,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -1309,10 +1551,13 @@
       "cardtrader": [
         {
           "id": 121562,
-          "match_type": "scryfall",
+          "name": "Machamp",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "015/110",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1367,7 +1612,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274780
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121562/preview_machamp-rare-holo-15-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86957,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -1388,10 +1644,13 @@
       "cardtrader": [
         {
           "id": 121564,
-          "match_type": "scryfall",
+          "name": "Muk",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "016/110",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1446,7 +1705,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274781
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121564/preview_muk-rare-holo-16-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87618,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -1467,10 +1737,13 @@
       "cardtrader": [
         {
           "id": 121566,
-          "match_type": "scryfall",
+          "name": "Ninetales",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "017/110",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1525,7 +1798,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274782
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121566/preview_ninetales-rare-holo-17-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87764,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -1546,10 +1830,13 @@
       "cardtrader": [
         {
           "id": 121568,
-          "match_type": "scryfall",
+          "name": "Venusaur",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "018/110",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1604,7 +1891,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274783
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121568/preview_venusaur-rare-holo-18-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90313,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -1625,10 +1923,13 @@
       "cardtrader": [
         {
           "id": 121570,
-          "match_type": "scryfall",
+          "name": "Zapdos",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "019/110",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1683,7 +1984,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274784
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121570/preview_zapdos-rare-holo-19-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90712,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -1704,10 +2016,13 @@
       "cardtrader": [
         {
           "id": 121572,
-          "match_type": "scryfall",
+          "name": "Beedrill",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "020/110",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -1762,7 +2077,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274785
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121572/preview_beedrill-20-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83768,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -1783,10 +2109,13 @@
       "cardtrader": [
         {
           "id": 121574,
-          "match_type": "scryfall",
+          "name": "Butterfree",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "021/110",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -1841,7 +2170,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274786
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121574/preview_butterfree-21-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84062,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -1862,10 +2202,13 @@
       "cardtrader": [
         {
           "id": 121576,
-          "match_type": "scryfall",
+          "name": "Electrode",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "022/110",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -1920,7 +2263,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274787
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121576/preview_electrode-22-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85151,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -1941,10 +2295,13 @@
       "cardtrader": [
         {
           "id": 121578,
-          "match_type": "scryfall",
+          "name": "Exeggutor",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "023/110",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -1999,7 +2356,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274788
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121578/preview_exeggutor-23-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85357,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -2020,10 +2388,13 @@
       "cardtrader": [
         {
           "id": 121580,
-          "match_type": "scryfall",
+          "name": "Golem",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "024/110",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2078,7 +2449,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274789
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121580/preview_golem-24-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85822,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -2099,10 +2481,13 @@
       "cardtrader": [
         {
           "id": 121582,
-          "match_type": "scryfall",
+          "name": "Hypno",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "025/110",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2157,7 +2542,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274790
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121582/preview_hypno-25-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86251,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -2178,10 +2574,13 @@
       "cardtrader": [
         {
           "id": 121584,
-          "match_type": "scryfall",
+          "name": "Jynx",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "026/110",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2236,7 +2635,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274791
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121584/preview_jynx-26-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86371,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -2257,10 +2667,13 @@
       "cardtrader": [
         {
           "id": 121586,
-          "match_type": "scryfall",
+          "name": "Kabutops",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "027/110",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2315,7 +2728,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274792
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121586/preview_kabutops-27-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86395,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -2336,10 +2760,13 @@
       "cardtrader": [
         {
           "id": 121588,
-          "match_type": "scryfall",
+          "name": "Magneton",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "028/110",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2394,7 +2821,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274793
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121588/preview_magneton-28-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87099,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -2415,10 +2853,13 @@
       "cardtrader": [
         {
           "id": 121590,
-          "match_type": "scryfall",
+          "name": "Mewtwo",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "029/110",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2473,7 +2914,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274794
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121590/preview_mewtwo-29-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87419,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -2494,10 +2946,13 @@
       "cardtrader": [
         {
           "id": 121592,
-          "match_type": "scryfall",
+          "name": "Moltres",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "030/110",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2552,7 +3007,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274795
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121592/preview_moltres-30-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87560,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -2573,10 +3039,13 @@
       "cardtrader": [
         {
           "id": 121594,
-          "match_type": "scryfall",
+          "name": "Nidoking",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "031/110",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2631,7 +3100,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274796
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121594/preview_nidoking-31-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87694,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -2652,10 +3132,13 @@
       "cardtrader": [
         {
           "id": 121596,
-          "match_type": "scryfall",
+          "name": "Nidoqueen",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "032/110",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2710,7 +3193,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274797
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121596/preview_nidoqueen-32-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87706,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -2731,10 +3225,13 @@
       "cardtrader": [
         {
           "id": 121598,
-          "match_type": "scryfall",
+          "name": "Pidgeot",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "033/110",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2789,7 +3286,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274798
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121598/preview_pidgeot-33-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88028,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -2810,10 +3318,13 @@
       "cardtrader": [
         {
           "id": 121600,
-          "match_type": "scryfall",
+          "name": "Pidgeotto",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "034/110",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2868,7 +3379,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274799
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121600/preview_pidgeotto-34-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88038,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -2889,10 +3411,13 @@
       "cardtrader": [
         {
           "id": 121602,
-          "match_type": "scryfall",
+          "name": "Rhydon",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "035/110",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2947,7 +3472,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274800
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121602/preview_rhydon-35-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88730,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -2968,10 +3504,13 @@
       "cardtrader": [
         {
           "id": 121604,
-          "match_type": "scryfall",
+          "name": "Arcanine",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "036/110",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3026,7 +3565,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274801
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121604/preview_arcanine-36-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83581,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -3047,10 +3597,13 @@
       "cardtrader": [
         {
           "id": 121606,
-          "match_type": "scryfall",
+          "name": "Charmeleon",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "037/110",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3105,7 +3658,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274802
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121606/preview_charmeleon-37-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84223,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -3126,10 +3690,13 @@
       "cardtrader": [
         {
           "id": 121608,
-          "match_type": "scryfall",
+          "name": "Dark Dragonair",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "038/110",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3184,7 +3751,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274803
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121608/preview_dark-dragonair-38-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84581,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -3205,10 +3783,13 @@
       "cardtrader": [
         {
           "id": 121610,
-          "match_type": "scryfall",
+          "name": "Dark Wartortle",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "039/110",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3263,7 +3844,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274804
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121610/preview_dark-wartortle-39-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84669,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -3284,10 +3876,13 @@
       "cardtrader": [
         {
           "id": 121612,
-          "match_type": "scryfall",
+          "name": "Dewgong",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "040/110",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3342,7 +3937,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274805
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121612/preview_dewgong-40-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84788,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -3363,10 +3969,13 @@
       "cardtrader": [
         {
           "id": 121614,
-          "match_type": "scryfall",
+          "name": "Dodrio",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "041/110",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3421,7 +4030,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274806
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121614/preview_dodrio-41-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84847,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -3442,10 +4062,13 @@
       "cardtrader": [
         {
           "id": 121616,
-          "match_type": "scryfall",
+          "name": "Fearow",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "042/110",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3500,7 +4123,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274807
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121616/preview_fearow-42-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85395,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -3521,10 +4155,13 @@
       "cardtrader": [
         {
           "id": 121618,
-          "match_type": "scryfall",
+          "name": "Golduck",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "043/110",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3579,7 +4216,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274808
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121618/preview_golduck-43-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85812,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -3600,10 +4248,13 @@
       "cardtrader": [
         {
           "id": 121620,
-          "match_type": "scryfall",
+          "name": "Graveler",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "044/110",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3658,7 +4309,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274809
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121620/preview_graveler-44-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85887,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -3679,10 +4341,13 @@
       "cardtrader": [
         {
           "id": 121622,
-          "match_type": "scryfall",
+          "name": "Growlithe",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "045/110",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3737,7 +4402,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274810
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121622/preview_growlithe-45-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85948,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -3758,10 +4434,13 @@
       "cardtrader": [
         {
           "id": 121624,
-          "match_type": "scryfall",
+          "name": "Haunter",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "046/110",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3816,7 +4495,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274811
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121624/preview_haunter-46-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86022,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -3837,10 +4527,13 @@
       "cardtrader": [
         {
           "id": 121626,
-          "match_type": "scryfall",
+          "name": "Ivysaur",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "047/110",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3895,7 +4588,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274812
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121626/preview_ivysaur-47-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86295,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -3916,10 +4620,13 @@
       "cardtrader": [
         {
           "id": 121628,
-          "match_type": "scryfall",
+          "name": "Kabuto",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "048/110",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3974,7 +4681,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274813
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121628/preview_kabuto-48-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86381,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -3995,10 +4713,13 @@
       "cardtrader": [
         {
           "id": 121630,
-          "match_type": "scryfall",
+          "name": "Kadabra",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "049/110",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4053,7 +4774,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274814
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121630/preview_kadabra-49-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86404,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -4074,10 +4806,13 @@
       "cardtrader": [
         {
           "id": 121632,
-          "match_type": "scryfall",
+          "name": "Kakuna",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "050/110",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4132,7 +4867,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274815
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121632/preview_kakuna-50-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86409,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -4153,10 +4899,13 @@
       "cardtrader": [
         {
           "id": 121634,
-          "match_type": "scryfall",
+          "name": "Machoke",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "051/110",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4211,7 +4960,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274816
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121634/preview_machoke-51-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86976,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -4232,10 +4992,13 @@
       "cardtrader": [
         {
           "id": 121636,
-          "match_type": "scryfall",
+          "name": "Magikarp",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "052/110",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4290,7 +5053,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274817
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121636/preview_magikarp-52-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87022,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -4311,10 +5085,13 @@
       "cardtrader": [
         {
           "id": 121638,
-          "match_type": "scryfall",
+          "name": "Meowth",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "053/110",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4369,7 +5146,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274818
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121638/preview_meowth-53-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87311,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -4390,10 +5178,13 @@
       "cardtrader": [
         {
           "id": 121640,
-          "match_type": "scryfall",
+          "name": "Metapod",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "054/110",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4448,7 +5239,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274819
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121640/preview_metapod-54-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87387,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -4469,10 +5271,13 @@
       "cardtrader": [
         {
           "id": 121642,
-          "match_type": "scryfall",
+          "name": "Nidorina",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "055/110",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4527,7 +5332,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274820
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121642/preview_nidorina-55-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87733,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -4548,10 +5364,13 @@
       "cardtrader": [
         {
           "id": 121644,
-          "match_type": "scryfall",
+          "name": "Nidorino",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "056/110",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4606,7 +5425,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274821
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121644/preview_nidorino-56-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87743,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -4627,10 +5457,13 @@
       "cardtrader": [
         {
           "id": 121646,
-          "match_type": "scryfall",
+          "name": "Omanyte",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "057/110",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4685,7 +5518,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274822
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121646/preview_omanyte-57-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87855,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -4706,10 +5550,13 @@
       "cardtrader": [
         {
           "id": 121648,
-          "match_type": "scryfall",
+          "name": "Omastar",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "058/110",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4764,7 +5611,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274823
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121648/preview_omastar-58-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87867,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -4785,10 +5643,13 @@
       "cardtrader": [
         {
           "id": 121650,
-          "match_type": "scryfall",
+          "name": "Primeape",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "059/110",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4843,7 +5704,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274824
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121650/preview_primeape-59-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88361,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -4864,10 +5736,13 @@
       "cardtrader": [
         {
           "id": 121652,
-          "match_type": "scryfall",
+          "name": "Rapidash",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "060/110",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4922,7 +5797,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274825
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121652/preview_rapidash-60-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88579,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -4943,10 +5829,13 @@
       "cardtrader": [
         {
           "id": 121654,
-          "match_type": "scryfall",
+          "name": "Raticate",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "061/110",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -5001,7 +5890,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274826
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121654/preview_raticate-61-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88601,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -5022,10 +5922,13 @@
       "cardtrader": [
         {
           "id": 121656,
-          "match_type": "scryfall",
+          "name": "Sandslash",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "062/110",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -5080,7 +5983,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274827
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121656/preview_sandslash-62-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88930,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -5101,10 +6015,13 @@
       "cardtrader": [
         {
           "id": 121658,
-          "match_type": "scryfall",
+          "name": "Seadra",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "063/110",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -5159,7 +6076,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274828
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121658/preview_seadra-63-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89011,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -5180,10 +6108,13 @@
       "cardtrader": [
         {
           "id": 121660,
-          "match_type": "scryfall",
+          "name": "Snorlax",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "064/110",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -5238,7 +6169,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274829
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121660/preview_snorlax-64-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89386,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -5259,10 +6201,13 @@
       "cardtrader": [
         {
           "id": 121662,
-          "match_type": "scryfall",
+          "name": "Tauros",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "065/110",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -5317,7 +6262,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274830
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121662/preview_tauros-65-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89759,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -5338,10 +6294,13 @@
       "cardtrader": [
         {
           "id": 121664,
-          "match_type": "scryfall",
+          "name": "Tentacruel",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "066/110",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -5396,7 +6355,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274831
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121664/preview_tentacruel-66-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89874,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -5417,13 +6387,17 @@
       "cardtrader": [
         {
           "id": 121666,
-          "match_type": "scryfall",
+          "name": "Abra",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "067/110",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
+          "languages": [],
           "properties": [
             {
               "name": "condition",
@@ -5464,7 +6438,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274832
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121666/preview_abra-67-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83446,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -5485,10 +6470,13 @@
       "cardtrader": [
         {
           "id": 121668,
-          "match_type": "scryfall",
+          "name": "Bulbasaur",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "068/110",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5543,7 +6531,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274833
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121668/preview_bulbasaur-68-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84025,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -5564,10 +6563,13 @@
       "cardtrader": [
         {
           "id": 121670,
-          "match_type": "scryfall",
+          "name": "Caterpie",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "069/110",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5622,7 +6624,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274834
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121670/preview_caterpie-69-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84134,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -5643,10 +6656,13 @@
       "cardtrader": [
         {
           "id": 121672,
-          "match_type": "scryfall",
+          "name": "Charmander",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "070/110",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5701,7 +6717,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274835
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121672/preview_charmander-70-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84205,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -5722,10 +6749,13 @@
       "cardtrader": [
         {
           "id": 121674,
-          "match_type": "scryfall",
+          "name": "Doduo",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "071/110",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5780,7 +6810,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274836
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121674/preview_doduo-71-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84858,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -5801,10 +6842,13 @@
       "cardtrader": [
         {
           "id": 121676,
-          "match_type": "scryfall",
+          "name": "Dratini",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "072/110",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5859,7 +6903,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274837
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121676/preview_dratini-72-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84930,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -5880,10 +6935,13 @@
       "cardtrader": [
         {
           "id": 121678,
-          "match_type": "scryfall",
+          "name": "Drowzee",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "073/110",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5938,7 +6996,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274838
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121678/preview_drowzee-73-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84970,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -5959,10 +7028,13 @@
       "cardtrader": [
         {
           "id": 121680,
-          "match_type": "scryfall",
+          "name": "Eevee",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "074/110",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6017,7 +7089,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274839
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121680/preview_eevee-74-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85079,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -6038,10 +7121,13 @@
       "cardtrader": [
         {
           "id": 121682,
-          "match_type": "scryfall",
+          "name": "Exeggcute",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "075/110",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6096,7 +7182,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274840
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121682/preview_exeggcute-75-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85343,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -6117,10 +7214,13 @@
       "cardtrader": [
         {
           "id": 121684,
-          "match_type": "scryfall",
+          "name": "Gastly",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "076/110",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6175,7 +7275,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274841
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121684/preview_gastly-76-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85648,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -6196,10 +7307,13 @@
       "cardtrader": [
         {
           "id": 121686,
-          "match_type": "scryfall",
+          "name": "Geodude",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "077/110",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6254,7 +7368,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274842
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121686/preview_geodude-77-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85685,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -6275,10 +7400,13 @@
       "cardtrader": [
         {
           "id": 121688,
-          "match_type": "scryfall",
+          "name": "Grimer",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "078/110",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6333,7 +7461,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274843
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121688/preview_grimer-78-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85906,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -6354,10 +7493,13 @@
       "cardtrader": [
         {
           "id": 121690,
-          "match_type": "scryfall",
+          "name": "Machop",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "079/110",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6412,7 +7554,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274844
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121690/preview_machop-79-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86990,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -6433,10 +7586,13 @@
       "cardtrader": [
         {
           "id": 121692,
-          "match_type": "scryfall",
+          "name": "Magnemite",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "080/110",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6491,7 +7647,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274845
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121692/preview_magnemite-80-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87070,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -6512,10 +7679,13 @@
       "cardtrader": [
         {
           "id": 121694,
-          "match_type": "scryfall",
+          "name": "Mankey",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "081/110",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6570,7 +7740,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274846
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121694/preview_mankey-81-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87171,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -6591,10 +7772,13 @@
       "cardtrader": [
         {
           "id": 121696,
-          "match_type": "scryfall",
+          "name": "Nidoran ♀",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "082/110",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6649,7 +7833,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274847
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121696/preview_nidoran-f-82-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87715,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -6670,10 +7865,13 @@
       "cardtrader": [
         {
           "id": 121698,
-          "match_type": "scryfall",
+          "name": "Nidoran ♂",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "083/110",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6728,7 +7926,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274848
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121698/preview_nidoran-m-83-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87724,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -6749,10 +7958,13 @@
       "cardtrader": [
         {
           "id": 121700,
-          "match_type": "scryfall",
+          "name": "Onix",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "084/110",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6807,7 +8019,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274849
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121700/preview_onix-84-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87877,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -6828,10 +8051,13 @@
       "cardtrader": [
         {
           "id": 121702,
-          "match_type": "scryfall",
+          "name": "Pidgey",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "085/110",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6886,7 +8112,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274850
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121702/preview_pidgey-85-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88046,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -6907,10 +8144,13 @@
       "cardtrader": [
         {
           "id": 121704,
-          "match_type": "scryfall",
+          "name": "Pikachu",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "086/110",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6965,7 +8205,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274851
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121704/preview_pikachu-86-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88075,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -6986,10 +8237,13 @@
       "cardtrader": [
         {
           "id": 121706,
-          "match_type": "scryfall",
+          "name": "Ponyta",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "087/110",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7044,7 +8298,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274852
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121706/preview_ponyta-87-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88282,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -7065,10 +8330,13 @@
       "cardtrader": [
         {
           "id": 121708,
-          "match_type": "scryfall",
+          "name": "Psyduck",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "088/110",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7123,7 +8391,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274853
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121708/preview_psyduck-88-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88434,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -7144,10 +8423,13 @@
       "cardtrader": [
         {
           "id": 121710,
-          "match_type": "scryfall",
+          "name": "Rattata",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "089/110",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7202,7 +8484,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274854
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121710/preview_rattata-89-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88612,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -7223,10 +8516,13 @@
       "cardtrader": [
         {
           "id": 121712,
-          "match_type": "scryfall",
+          "name": "Rhyhorn",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "090/110",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7281,7 +8577,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274855
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121712/preview_rhyhorn-90-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88738,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -7302,10 +8609,13 @@
       "cardtrader": [
         {
           "id": 121714,
-          "match_type": "scryfall",
+          "name": "Sandshrew",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "091/110",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7360,7 +8670,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274856
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121714/preview_sandshrew-91-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88920,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -7381,10 +8702,13 @@
       "cardtrader": [
         {
           "id": 121716,
-          "match_type": "scryfall",
+          "name": "Seel",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "092/110",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7439,7 +8763,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274857
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121716/preview_seel-92-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89049,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -7460,10 +8795,13 @@
       "cardtrader": [
         {
           "id": 121718,
-          "match_type": "scryfall",
+          "name": "Slowpoke",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "093/110",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7518,7 +8856,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274858
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121718/preview_slowpoke-93-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89324,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -7539,10 +8888,13 @@
       "cardtrader": [
         {
           "id": 121720,
-          "match_type": "scryfall",
+          "name": "Spearow",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "094/110",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7597,7 +8949,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274859
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121720/preview_spearow-94-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89437,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -7618,10 +8981,13 @@
       "cardtrader": [
         {
           "id": 121722,
-          "match_type": "scryfall",
+          "name": "Squirtle",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "095/110",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7676,7 +9042,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274860
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121722/preview_squirtle-95-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89485,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -7697,10 +9074,13 @@
       "cardtrader": [
         {
           "id": 121724,
-          "match_type": "scryfall",
+          "name": "Tentacool",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "096/110",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7755,7 +9135,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274861
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121724/preview_tentacool-96-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89864,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -7776,10 +9167,13 @@
       "cardtrader": [
         {
           "id": 121726,
-          "match_type": "scryfall",
+          "name": "Voltorb",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "097/110",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7834,7 +9228,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274862
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121726/preview_voltorb-97-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90410,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -7855,10 +9260,13 @@
       "cardtrader": [
         {
           "id": 121728,
-          "match_type": "scryfall",
+          "name": "Vulpix",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "098/110",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7913,7 +9321,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274863
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121728/preview_vulpix-98-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90434,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -7934,10 +9353,13 @@
       "cardtrader": [
         {
           "id": 121730,
-          "match_type": "scryfall",
+          "name": "Weedle",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "099/110",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7992,7 +9414,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274864
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121730/preview_weedle-99-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90539,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -8013,10 +9446,13 @@
       "cardtrader": [
         {
           "id": 121732,
-          "match_type": "scryfall",
+          "name": "Full Heal Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "100/110",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -8071,7 +9507,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274865
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121732/preview_full-heal-energy-100-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85585,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -8092,10 +9539,13 @@
       "cardtrader": [
         {
           "id": 121734,
-          "match_type": "scryfall",
+          "name": "Potion Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "101/110",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -8150,7 +9600,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274866
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121734/preview_potion-energy-101-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88351,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -8171,10 +9632,13 @@
       "cardtrader": [
         {
           "id": 121736,
-          "match_type": "scryfall",
+          "name": "Pokémon Breeder",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "102/110",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -8229,7 +9693,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274867
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121736/preview_pokemon-breeder-102-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88207,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -8250,10 +9725,13 @@
       "cardtrader": [
         {
           "id": 121738,
-          "match_type": "scryfall",
+          "name": "Pokémon Trader",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "103/110",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -8308,7 +9786,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274868
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121738/preview_pokemon-trader-103-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88242,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -8329,10 +9818,13 @@
       "cardtrader": [
         {
           "id": 121740,
-          "match_type": "scryfall",
+          "name": "Scoop Up",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "104/110",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -8387,7 +9879,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274869
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121740/preview_scoop-up-104-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88973,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -8408,10 +9911,13 @@
       "cardtrader": [
         {
           "id": 121742,
-          "match_type": "scryfall",
+          "name": "The Boss's Way",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "105/110",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -8466,7 +9972,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274870
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121742/preview_the-boss-s-way-105-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89895,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -8487,10 +10004,13 @@
       "cardtrader": [
         {
           "id": 121744,
-          "match_type": "scryfall",
+          "name": "Challenge!",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "106/110",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -8545,7 +10065,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274871
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121744/preview_challenge-106-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84160,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -8566,10 +10097,13 @@
       "cardtrader": [
         {
           "id": 121746,
-          "match_type": "scryfall",
+          "name": "Energy Retrieval",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "107/110",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -8624,7 +10158,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274872
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121746/preview_energy-retrieval-107-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85233,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -8645,10 +10190,13 @@
       "cardtrader": [
         {
           "id": 121748,
-          "match_type": "scryfall",
+          "name": "Bill",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "108/110",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -8703,7 +10251,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274873
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121748/preview_bill-108-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83836,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -8724,10 +10283,13 @@
       "cardtrader": [
         {
           "id": 121750,
-          "match_type": "scryfall",
+          "name": "Mysterious Fossil",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "109/110",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -8782,7 +10344,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274874
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121750/preview_mysterious-fossil-109-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87668,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     },
@@ -8803,10 +10376,13 @@
       "cardtrader": [
         {
           "id": 121752,
-          "match_type": "scryfall",
+          "name": "Potion",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Legendary Collection",
           "expansion_code": "lc",
           "collector_number": "110/110",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -8861,7 +10437,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            274875
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/121752/preview_potion-110-110-legendary-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88332,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
         }
       ]
     }

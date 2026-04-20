@@ -4,8 +4,8 @@
   "set_abbr": "DEX",
   "set_released": "2012-05-09",
   "product_count": 117,
-  "data_modified": "2026-02-01T14:23:13-05:00",
-  "file_generated": "2026-02-02T03:32:29-05:00",
+  "data_modified": "2026-04-15T07:07:37-04:00",
+  "file_generated": "2026-04-16T04:30:47-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/1386/pricing",
   "products": [
     {
@@ -70,9 +70,13 @@
       "cardtrader": [
         {
           "id": 105513,
+          "name": "Dark Explorers Booster Box",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -106,7 +110,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            271892
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105513/preview_dark-explorers-booster-box-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 98520,
+          "game_id": 5,
+          "category_id": 67,
+          "category_name": "Pokémon Booster Box",
+          "product_type": "booster_box",
+          "group_id": 1386
         }
       ]
     },
@@ -127,9 +142,13 @@
       "cardtrader": [
         {
           "id": 105512,
+          "name": "Dark Explorers Booster",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -163,7 +182,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            271826
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105512/preview_dark-explorers-booster-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 98521,
+          "game_id": 5,
+          "category_id": 66,
+          "category_name": "Pokémon Booster",
+          "product_type": "booster",
+          "group_id": 1386
         }
       ]
     },
@@ -199,10 +229,13 @@
       "cardtrader": [
         {
           "id": 113685,
+          "name": "Bulbasaur",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "001/108",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -271,7 +304,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280329
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113685/preview_bulbasaur-1-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84036,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -292,10 +336,13 @@
       "cardtrader": [
         {
           "id": 113703,
+          "name": "Shelmet",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "010/108",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -364,7 +411,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280338
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113703/preview_shelmet-10-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89147,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -385,10 +443,13 @@
       "cardtrader": [
         {
           "id": 113877,
+          "name": "Rare Candy",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "100/108",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -457,7 +518,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280428
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113877/preview_rare-candy-100-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88596,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -478,10 +550,13 @@
       "cardtrader": [
         {
           "id": 113879,
+          "name": "Twist Mountain",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "101/108",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -550,7 +625,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280429
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113879/preview_twist-mountain-101-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90087,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -571,10 +657,13 @@
       "cardtrader": [
         {
           "id": 113881,
+          "name": "Ultra Ball",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "102/108",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -643,7 +732,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280430
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113881/preview_ultra-ball-102-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90134,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -664,10 +764,13 @@
       "cardtrader": [
         {
           "id": 113883,
+          "name": "Entei EX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "103/108",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -727,7 +830,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280431
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113883/preview_entei-ex-rare-ultra-103-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85280,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -748,10 +862,13 @@
       "cardtrader": [
         {
           "id": 113884,
+          "name": "Kyogre EX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "104/108",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -811,7 +928,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280432
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113884/preview_kyogre-ex-rare-ultra-104-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86560,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -832,10 +960,13 @@
       "cardtrader": [
         {
           "id": 113885,
+          "name": "Raikou EX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "105/108",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -895,7 +1026,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280433
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113885/preview_raikou-ex-rare-ultra-105-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88542,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -916,10 +1058,13 @@
       "cardtrader": [
         {
           "id": 113886,
+          "name": "Groudon EX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "106/108",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -979,7 +1124,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280434
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113886/preview_groudon-ex-rare-ultra-106-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85933,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -1000,10 +1156,13 @@
       "cardtrader": [
         {
           "id": 113887,
+          "name": "Darkrai EX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "107/108",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -1063,7 +1222,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280435
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113887/preview_darkrai-ex-rare-ultra-107-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84709,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -1084,10 +1254,13 @@
       "cardtrader": [
         {
           "id": 113888,
+          "name": "Tornadus EX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "108/108",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -1147,7 +1320,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280436
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113888/preview_tornadus-ex-rare-ultra-108-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89980,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -1168,10 +1352,13 @@
       "cardtrader": [
         {
           "id": 113889,
+          "name": "Gardevoir",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "109/108",
+          "rarity": "Secret Rare",
           "finishes": [
             "normal"
           ],
@@ -1231,7 +1418,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280437
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113889/preview_gardevoir-secret-rare-109-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85638,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -1252,10 +1450,13 @@
       "cardtrader": [
         {
           "id": 113705,
+          "name": "Accelgor",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "011",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -1324,7 +1525,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280339
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113705/preview_accelgor-11-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83460,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -1345,10 +1557,13 @@
       "cardtrader": [
         {
           "id": 113890,
+          "name": "Archeops",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "110/108",
+          "rarity": "Secret Rare",
           "finishes": [
             "normal"
           ],
@@ -1408,7 +1623,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280438
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113890/preview_archeops-secret-rare-110-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83610,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -1429,10 +1655,13 @@
       "cardtrader": [
         {
           "id": 113891,
+          "name": "Pokémon Catcher",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "111/108",
+          "rarity": "Secret Rare",
           "finishes": [
             "normal"
           ],
@@ -1492,7 +1721,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280439
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113891/preview_pokemon-catcher-secret-rare-111-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88212,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -1513,10 +1753,13 @@
       "cardtrader": [
         {
           "id": 113707,
+          "name": "Flareon",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "012/108",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -1585,7 +1828,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280340
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113707/preview_flareon-12-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85500,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -1606,10 +1860,13 @@
       "cardtrader": [
         {
           "id": 113709,
+          "name": "Entei EX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "013/108",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1669,7 +1926,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280341
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113709/preview_entei-ex-13-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85279,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -1690,10 +1958,13 @@
       "cardtrader": [
         {
           "id": 113710,
+          "name": "Torchic",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "014/108",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -1762,7 +2033,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280342
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113710/preview_torchic-14-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89962,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -1783,10 +2065,13 @@
       "cardtrader": [
         {
           "id": 113712,
+          "name": "Torchic",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "015/108",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -1855,7 +2140,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280343
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113712/preview_torchic-15-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89963,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -1876,10 +2172,13 @@
       "cardtrader": [
         {
           "id": 113714,
+          "name": "Combusken",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "016/108",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -1948,7 +2247,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280344
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113714/preview_combusken-16-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84413,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -1969,10 +2279,13 @@
       "cardtrader": [
         {
           "id": 113716,
+          "name": "Blaziken",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "017/108",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -2041,7 +2354,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280345
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113716/preview_blaziken-rare-holo-17-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83911,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -2062,10 +2386,13 @@
       "cardtrader": [
         {
           "id": 113718,
+          "name": "Torkoal",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "018/108",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2134,7 +2461,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280346
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113718/preview_torkoal-18-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89973,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -2155,10 +2493,13 @@
       "cardtrader": [
         {
           "id": 113720,
+          "name": "Heatmor",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "019/108",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2227,7 +2568,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280347
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113720/preview_heatmor-19-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86045,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -2248,10 +2600,13 @@
       "cardtrader": [
         {
           "id": 113687,
+          "name": "Ivysaur",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "002/108",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2320,7 +2675,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280330
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113687/preview_ivysaur-2-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86304,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -2341,10 +2707,13 @@
       "cardtrader": [
         {
           "id": 113722,
+          "name": "Larvesta",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "020/108",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -2413,7 +2782,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280348
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113722/preview_larvesta-20-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86629,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -2434,10 +2814,13 @@
       "cardtrader": [
         {
           "id": 113724,
+          "name": "Larvesta",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "021/108",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -2506,7 +2889,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280349
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113724/preview_larvesta-21-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86630,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -2527,10 +2921,13 @@
       "cardtrader": [
         {
           "id": 113726,
+          "name": "Volcarona",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "022/108",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -2599,7 +2996,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280350
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113726/preview_volcarona-rare-holo-22-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90404,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -2620,10 +3028,13 @@
       "cardtrader": [
         {
           "id": 113728,
+          "name": "Slowpoke",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "023/108",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -2692,7 +3103,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280351
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113728/preview_slowpoke-23-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89335,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -2713,10 +3135,13 @@
       "cardtrader": [
         {
           "id": 113730,
+          "name": "Slowbro",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "024/108",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2785,7 +3210,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280352
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113730/preview_slowbro-24-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89309,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -2806,10 +3242,13 @@
       "cardtrader": [
         {
           "id": 113732,
+          "name": "Vaporeon",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "025/108",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2878,7 +3317,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280353
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113732/preview_vaporeon-25-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90288,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -2899,10 +3349,13 @@
       "cardtrader": [
         {
           "id": 113734,
+          "name": "Kyogre EX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "026/108",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -2962,7 +3415,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280354
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113734/preview_kyogre-ex-26-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86559,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -2983,10 +3447,13 @@
       "cardtrader": [
         {
           "id": 113735,
+          "name": "Piplup",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "027/108",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -3055,7 +3522,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280355
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113735/preview_piplup-27-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88152,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -3076,10 +3554,13 @@
       "cardtrader": [
         {
           "id": 113737,
+          "name": "Prinplup",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "028/108",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3148,7 +3629,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280356
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113737/preview_prinplup-28-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88372,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -3169,10 +3661,13 @@
       "cardtrader": [
         {
           "id": 113739,
+          "name": "Empoleon",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "029/108",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -3241,7 +3736,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280357
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113739/preview_empoleon-holo-rare-29-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85201,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -3262,10 +3768,13 @@
       "cardtrader": [
         {
           "id": 113689,
+          "name": "Venusaur",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "003/108",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -3334,7 +3843,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280331
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113689/preview_venusaur-rare-holo-3-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90322,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -3355,10 +3875,13 @@
       "cardtrader": [
         {
           "id": 113741,
+          "name": "Glaceon",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "030/108",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -3427,7 +3950,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280358
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113741/preview_glaceon-30-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85747,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -3448,10 +3982,13 @@
       "cardtrader": [
         {
           "id": 113743,
+          "name": "Tympole",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "031/108",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -3520,7 +4057,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280359
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113743/preview_tympole-31-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90089,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -3541,10 +4089,13 @@
       "cardtrader": [
         {
           "id": 113745,
+          "name": "Palpitoad",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "032/108",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3613,7 +4164,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280360
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113745/preview_palpitoad-32-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87923,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -3634,10 +4196,13 @@
       "cardtrader": [
         {
           "id": 113747,
+          "name": "Vanillite",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "033/108",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -3706,7 +4271,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280361
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113747/preview_vanillite-33-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90270,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -3727,10 +4303,13 @@
       "cardtrader": [
         {
           "id": 113749,
+          "name": "Vanillish",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "034/108",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3799,7 +4378,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280362
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113749/preview_vanillish-34-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90265,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -3820,10 +4410,13 @@
       "cardtrader": [
         {
           "id": 113751,
+          "name": "Ducklett",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "035/108",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -3892,7 +4485,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280363
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113751/preview_ducklett-35-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84993,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -3913,10 +4517,13 @@
       "cardtrader": [
         {
           "id": 113753,
+          "name": "Swanna",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "036/108",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -3985,7 +4592,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280364
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113753/preview_swanna-36-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89686,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -4006,10 +4624,13 @@
       "cardtrader": [
         {
           "id": 113755,
+          "name": "Jolteon",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "037/108",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4078,7 +4699,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280365
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113755/preview_jolteon-37-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86347,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -4099,10 +4731,13 @@
       "cardtrader": [
         {
           "id": 113757,
+          "name": "Raikou EX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "038/108",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -4162,7 +4797,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280366
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113757/preview_raikou-ex-38-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88541,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -4183,10 +4829,13 @@
       "cardtrader": [
         {
           "id": 113758,
+          "name": "Plusle",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "039/108",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4255,7 +4904,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280367
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113758/preview_plusle-39-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88173,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -4276,10 +4936,13 @@
       "cardtrader": [
         {
           "id": 113691,
+          "name": "Scyther",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "004/108",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4348,7 +5011,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280332
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113691/preview_scyther-4-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89005,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -4369,10 +5043,13 @@
       "cardtrader": [
         {
           "id": 113760,
+          "name": "Minun",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "040/108",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4441,7 +5118,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280368
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113760/preview_minun-40-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87493,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -4462,10 +5150,13 @@
       "cardtrader": [
         {
           "id": 113762,
+          "name": "Joltik",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "041/108",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4534,7 +5225,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280369
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113762/preview_joltik-41-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86356,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -4555,10 +5257,13 @@
       "cardtrader": [
         {
           "id": 113764,
+          "name": "Joltik",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "042/108",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4627,7 +5332,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280370
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113764/preview_joltik-42-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86357,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -4648,10 +5364,13 @@
       "cardtrader": [
         {
           "id": 113766,
+          "name": "Galvantula",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "043/108",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -4720,7 +5439,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280371
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113766/preview_galvantula-43-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85612,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -4741,10 +5471,13 @@
       "cardtrader": [
         {
           "id": 113768,
+          "name": "Tynamo",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "044/108",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4813,7 +5546,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280372
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113768/preview_tynamo-44-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90095,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -4834,10 +5578,13 @@
       "cardtrader": [
         {
           "id": 113770,
+          "name": "Tynamo",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "045/108",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4906,7 +5653,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280373
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113770/preview_tynamo-45-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90096,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -4927,10 +5685,13 @@
       "cardtrader": [
         {
           "id": 113772,
+          "name": "Eelektrik",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "046/108",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4999,7 +5760,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280374
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113772/preview_eelektrik-46-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85068,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -5020,10 +5792,13 @@
       "cardtrader": [
         {
           "id": 113774,
+          "name": "Eelektross",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "047/108",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -5092,7 +5867,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280375
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113774/preview_eelektross-rare-holo-47-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85071,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -5113,10 +5899,13 @@
       "cardtrader": [
         {
           "id": 113776,
+          "name": "Espeon",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "048/108",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -5185,7 +5974,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280376
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113776/preview_espeon-48-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85325,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -5206,10 +6006,13 @@
       "cardtrader": [
         {
           "id": 113778,
+          "name": "Slowking",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "049/108",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -5278,7 +6081,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280377
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113778/preview_slowking-49-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89320,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -5299,10 +6113,13 @@
       "cardtrader": [
         {
           "id": 113693,
+          "name": "Carnivine",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "005/108",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -5371,7 +6188,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280333
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113693/preview_carnivine-5-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84106,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -5392,10 +6220,13 @@
       "cardtrader": [
         {
           "id": 113780,
+          "name": "Woobat",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "050/108",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5464,7 +6295,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280378
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113780/preview_woobat-50-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90626,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -5485,10 +6327,13 @@
       "cardtrader": [
         {
           "id": 113782,
+          "name": "Yamask",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "051/108",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -5557,7 +6402,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280379
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113782/preview_yamask-51-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90677,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -5578,10 +6434,13 @@
       "cardtrader": [
         {
           "id": 113784,
+          "name": "Cofagrigus",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "052/108",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -5650,7 +6509,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280380
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113784/preview_cofagrigus-52-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84386,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -5671,10 +6541,13 @@
       "cardtrader": [
         {
           "id": 113786,
+          "name": "Aerodactyl",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "053/108",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -5743,7 +6616,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280381
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113786/preview_aerodactyl-53-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83471,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -5764,10 +6648,13 @@
       "cardtrader": [
         {
           "id": 113788,
+          "name": "Groudon EX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "054/108",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -5827,7 +6714,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280382
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113788/preview_groudon-ex-54-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85932,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -5848,10 +6746,13 @@
       "cardtrader": [
         {
           "id": 113789,
+          "name": "Drilbur",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "055/108",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5920,7 +6821,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280383
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113789/preview_drilbur-55-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84966,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -5941,10 +6853,13 @@
       "cardtrader": [
         {
           "id": 113791,
+          "name": "Excadrill",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "056/108",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -6013,7 +6928,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280384
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113791/preview_excadrill-56-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85338,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -6034,10 +6960,13 @@
       "cardtrader": [
         {
           "id": 113793,
+          "name": "Excadrill",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "057/108",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -6106,7 +7035,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280385
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113793/preview_excadrill-57-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85339,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -6127,10 +7067,13 @@
       "cardtrader": [
         {
           "id": 113795,
+          "name": "Timburr",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "058/108",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6199,7 +7142,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280386
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113795/preview_timburr-58-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89915,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -6220,10 +7174,13 @@
       "cardtrader": [
         {
           "id": 113797,
+          "name": "Gurdurr",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "059/108",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -6292,7 +7249,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280387
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113797/preview_gurdurr-59-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85982,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -6313,10 +7281,13 @@
       "cardtrader": [
         {
           "id": 113695,
+          "name": "Leafeon",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "006/108",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -6385,7 +7356,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280334
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113695/preview_leafeon-6-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86682,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -6406,10 +7388,13 @@
       "cardtrader": [
         {
           "id": 113799,
+          "name": "Umbreon",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "060/108",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -6478,7 +7463,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280388
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113799/preview_umbreon-60-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90148,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -6499,10 +7495,13 @@
       "cardtrader": [
         {
           "id": 113801,
+          "name": "Umbreon",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "061/108",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -6571,7 +7570,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280389
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113801/preview_umbreon-61-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90149,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -6592,10 +7602,13 @@
       "cardtrader": [
         {
           "id": 113803,
+          "name": "Sableye",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "062/108",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -6664,7 +7677,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280390
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113803/preview_sableye-62-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88855,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -6685,10 +7709,13 @@
       "cardtrader": [
         {
           "id": 113805,
+          "name": "Darkrai EX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "063/108",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -6748,7 +7775,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280391
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113805/preview_darkrai-ex-63-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84706,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -6769,10 +7807,13 @@
       "cardtrader": [
         {
           "id": 113806,
+          "name": "Sandile",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "064/108",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6841,7 +7882,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280392
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113806/preview_sandile-64-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88915,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -6862,10 +7914,13 @@
       "cardtrader": [
         {
           "id": 113808,
+          "name": "Krokorok",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "065/108",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -6934,7 +7989,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280393
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113808/preview_krokorok-65-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86538,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -6955,10 +8021,13 @@
       "cardtrader": [
         {
           "id": 113810,
+          "name": "Krookodile",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "066/108",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -7027,7 +8096,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280394
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113810/preview_krookodile-holo-rare-66-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86543,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -7048,10 +8128,13 @@
       "cardtrader": [
         {
           "id": 113812,
+          "name": "Scraggy",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "067/108",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7120,7 +8203,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280395
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113812/preview_scraggy-67-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88984,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -7141,10 +8235,13 @@
       "cardtrader": [
         {
           "id": 113814,
+          "name": "Scrafty",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "068/108",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -7213,7 +8310,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280396
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113814/preview_scrafty-68-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88979,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -7234,10 +8342,13 @@
       "cardtrader": [
         {
           "id": 113816,
+          "name": "Zorua",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "069/108",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7306,7 +8417,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280397
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113816/preview_zorua-69-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90761,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -7327,10 +8449,13 @@
       "cardtrader": [
         {
           "id": 113697,
+          "name": "Dwebble",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "007/108",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7399,7 +8524,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280335
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113697/preview_dwebble-7-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85062,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -7420,10 +8556,13 @@
       "cardtrader": [
         {
           "id": 113818,
+          "name": "Zorua",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "070/108",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7492,7 +8631,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280398
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113818/preview_zorua-70-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90762,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -7513,10 +8663,13 @@
       "cardtrader": [
         {
           "id": 113820,
+          "name": "Zoroark",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "071/108",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -7585,7 +8738,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280399
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113820/preview_zoroark-71-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90754,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -7606,10 +8770,13 @@
       "cardtrader": [
         {
           "id": 113822,
+          "name": "Bisharp",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "072/108",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -7678,7 +8845,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280400
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113822/preview_bisharp-72-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83844,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -7699,10 +8877,13 @@
       "cardtrader": [
         {
           "id": 113824,
+          "name": "Vullaby",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "073/108",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -7771,7 +8952,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280401
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113824/preview_vullaby-73-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90430,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -7792,10 +8984,13 @@
       "cardtrader": [
         {
           "id": 113826,
+          "name": "Escavalier",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "074/108",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -7864,7 +9059,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280402
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113826/preview_escavalier-74-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85314,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -7885,10 +9091,13 @@
       "cardtrader": [
         {
           "id": 113828,
+          "name": "Klink",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "075/108",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7957,7 +9166,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280403
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113828/preview_klink-75-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86482,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -7978,10 +9198,13 @@
       "cardtrader": [
         {
           "id": 113830,
+          "name": "Klang",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "076/108",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -8050,7 +9273,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280404
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113830/preview_klang-76-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86476,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -8071,10 +9305,13 @@
       "cardtrader": [
         {
           "id": 113832,
+          "name": "Klinklang",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "077/108",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -8143,7 +9380,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280405
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113832/preview_klinklang-rare-holo-77-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86487,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -8164,10 +9412,13 @@
       "cardtrader": [
         {
           "id": 113834,
+          "name": "Pawniard",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "078/108",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -8236,7 +9487,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280406
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113834/preview_pawniard-78-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87969,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -8257,10 +9519,13 @@
       "cardtrader": [
         {
           "id": 113836,
+          "name": "Bisharp",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "079/108",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -8329,7 +9594,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280407
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113836/preview_bisharp-79-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83845,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -8350,10 +9626,13 @@
       "cardtrader": [
         {
           "id": 113699,
+          "name": "Crustle",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "008/108",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -8422,7 +9701,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280336
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113699/preview_crustle-8-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84509,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -8443,10 +9733,13 @@
       "cardtrader": [
         {
           "id": 113838,
+          "name": "Chansey",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "080/108",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -8515,7 +9808,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280408
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113838/preview_chansey-80-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84178,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -8536,10 +9840,13 @@
       "cardtrader": [
         {
           "id": 113840,
+          "name": "Chansey",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "081/108",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -8608,7 +9915,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280409
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113840/preview_chansey-81-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84179,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -8629,10 +9947,13 @@
       "cardtrader": [
         {
           "id": 113842,
+          "name": "Blissey",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "082/108",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -8701,7 +10022,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280410
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113842/preview_blissey-holo-rare-82-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83925,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -8722,10 +10054,13 @@
       "cardtrader": [
         {
           "id": 113844,
+          "name": "Eevee",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "083/108",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -8794,7 +10129,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280411
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113844/preview_eevee-83-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85090,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -8815,10 +10161,13 @@
       "cardtrader": [
         {
           "id": 113846,
+          "name": "Eevee",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "084/108",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -8887,7 +10236,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280412
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113846/preview_eevee-84-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85091,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -8908,10 +10268,13 @@
       "cardtrader": [
         {
           "id": 113848,
+          "name": "Chatot",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "085/108",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -8980,7 +10343,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280413
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113848/preview_chatot-85-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84243,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -9001,10 +10375,13 @@
       "cardtrader": [
         {
           "id": 113850,
+          "name": "Lillipup",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "086/108",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -9073,7 +10450,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280414
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113850/preview_lillipup-86-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86799,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -9094,10 +10482,13 @@
       "cardtrader": [
         {
           "id": 113852,
+          "name": "Herdier",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "087/108",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -9166,7 +10557,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280415
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113852/preview_herdier-87-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86070,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -9187,10 +10589,13 @@
       "cardtrader": [
         {
           "id": 113854,
+          "name": "Stoutland",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "088/108",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -9259,7 +10664,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280416
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113854/preview_stoutland-88-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89571,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -9280,10 +10696,13 @@
       "cardtrader": [
         {
           "id": 113856,
+          "name": "Haxorus",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "089/108",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -9352,7 +10771,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280417
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113856/preview_haxorus-rare-holo-89-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86033,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -9373,10 +10803,13 @@
       "cardtrader": [
         {
           "id": 113701,
+          "name": "Karrablast",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "009/108",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -9445,7 +10878,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280337
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113701/preview_karrablast-9-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86426,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -9466,10 +10910,13 @@
       "cardtrader": [
         {
           "id": 113858,
+          "name": "Tornadus EX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "090/108",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -9529,7 +10976,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280418
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113858/preview_tornadus-ex-90-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89978,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -9550,10 +11008,13 @@
       "cardtrader": [
         {
           "id": 113859,
+          "name": "Cheren",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "091/108",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -9622,7 +11083,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280419
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113859/preview_cheren-91-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84249,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -9643,10 +11115,13 @@
       "cardtrader": [
         {
           "id": 113861,
+          "name": "Dark Claw",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "092/108",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -9715,7 +11190,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280420
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113861/preview_dark-claw-92-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84575,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -9736,10 +11222,13 @@
       "cardtrader": [
         {
           "id": 113863,
+          "name": "Dark Patch",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "093/108",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -9808,7 +11297,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280421
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113863/preview_dark-patch-93-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84636,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -9829,10 +11329,13 @@
       "cardtrader": [
         {
           "id": 113865,
+          "name": "Enhanced Hammer",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "094/108",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -9901,7 +11404,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280422
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113865/preview_enhanced-hammer-94-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85265,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -9922,10 +11436,13 @@
       "cardtrader": [
         {
           "id": 113867,
+          "name": "Hooligans Jim & Cas",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "095/108",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -9994,7 +11511,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280423
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113867/preview_hooligans-jim-cas-95-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86168,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -10015,10 +11543,13 @@
       "cardtrader": [
         {
           "id": 113869,
+          "name": "N",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "096/108",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -10087,7 +11618,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280424
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113869/preview_n-96-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87676,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -10108,10 +11650,13 @@
       "cardtrader": [
         {
           "id": 113871,
+          "name": "Old Amber Aerodactyl",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "097/108",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -10180,7 +11725,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280425
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113871/preview_old-amber-aerodactyl-97-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87850,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -10201,10 +11757,13 @@
       "cardtrader": [
         {
           "id": 113873,
+          "name": "Professor Juniper",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "098/108",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -10273,7 +11832,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280426
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113873/preview_professor-juniper-98-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88396,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     },
@@ -10294,10 +11864,13 @@
       "cardtrader": [
         {
           "id": 113875,
+          "name": "Random Receiver",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Dark Explorers",
           "expansion_code": "dex",
           "collector_number": "099/108",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -10366,7 +11939,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            280427
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113875/preview_random-receiver-99-108-dark-explorers.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88573,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1386
         }
       ]
     }
