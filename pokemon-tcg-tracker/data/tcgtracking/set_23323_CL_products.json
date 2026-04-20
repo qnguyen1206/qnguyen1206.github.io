@@ -4,8 +4,8 @@
   "set_abbr": "CL",
   "set_released": "2023-11-17",
   "product_count": 103,
-  "data_modified": "2026-02-01T14:24:37-05:00",
-  "file_generated": "2026-02-02T03:32:19-05:00",
+  "data_modified": "2026-04-15T07:08:20-04:00",
+  "file_generated": "2026-04-16T04:30:44-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/23323/pricing",
   "products": [
     {
@@ -25,9 +25,13 @@
       "cardtrader": [
         {
           "id": 269385,
-          "match_type": "scryfall",
+          "name": "Pokemon Trading Card Game Classic",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon Products",
           "expansion_code": "popr",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -61,7 +65,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            737598
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269385/preview_pokemon-trading-card-game-classic-pokemon-products.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 518886,
+          "game_id": 5,
+          "category_id": 60,
+          "category_name": "Pokémon Box Set",
+          "product_type": "box_set",
+          "group_id": 2374
         }
       ]
     },
@@ -82,10 +97,13 @@
       "cardtrader": [
         {
           "id": 269600,
-          "match_type": "scryfall",
+          "name": "Bulbasaur",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Venusaur & Lugia ex Deck",
           "expansion_code": "clv",
           "collector_number": "001",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -158,7 +176,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745659
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269600/preview_bulbasaur-001-034-pokemon-tcg-classic-venusaur-lugia-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527883,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -179,10 +208,13 @@
       "cardtrader": [
         {
           "id": 269270,
-          "match_type": "scryfall",
+          "name": "Charmander",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Charizard & Ho-Oh ex Deck",
           "expansion_code": "clc",
           "collector_number": "001",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -255,7 +287,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745693
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269270/preview_charmander-001-034-pokemon-tcg-classic-charizard-ho-oh-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527936,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -276,10 +319,13 @@
       "cardtrader": [
         {
           "id": 269318,
-          "match_type": "scryfall",
+          "name": "Squirtle",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Blastoise & Suicune ex Deck",
           "expansion_code": "clb",
           "collector_number": "001",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -352,7 +398,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745727
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269318/preview_squirtle-001-034-pokemon-tcg-classic-blastoise-suicune-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527985,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -373,10 +430,13 @@
       "cardtrader": [
         {
           "id": 269273,
-          "match_type": "scryfall",
+          "name": "Charmeleon",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Charizard & Ho-Oh ex Deck",
           "expansion_code": "clc",
           "collector_number": "002",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -449,7 +509,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745694
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269273/preview_charmeleon-002-034-pokemon-tcg-classic-charizard-ho-oh-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527937,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -470,10 +541,13 @@
       "cardtrader": [
         {
           "id": 269595,
-          "match_type": "scryfall",
+          "name": "Ivysaur",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Venusaur & Lugia ex Deck",
           "expansion_code": "clv",
           "collector_number": "002",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -546,7 +620,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745660
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269595/preview_ivysaur-002-034-pokemon-tcg-classic-venusaur-lugia-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527884,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -567,10 +652,13 @@
       "cardtrader": [
         {
           "id": 269336,
-          "match_type": "scryfall",
+          "name": "Wartortle",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Blastoise & Suicune ex Deck",
           "expansion_code": "clb",
           "collector_number": "002",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -643,7 +731,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745728
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269336/preview_wartortle-002-034-pokemon-tcg-classic-blastoise-suicune-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527987,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -664,10 +763,13 @@
       "cardtrader": [
         {
           "id": 269343,
-          "match_type": "scryfall",
+          "name": "Blastoise",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Blastoise & Suicune ex Deck",
           "expansion_code": "clb",
           "collector_number": "003",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -740,7 +842,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745729
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269343/preview_blastoise-003-034-pokemon-tcg-classic-blastoise-suicune-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527988,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -761,10 +874,13 @@
       "cardtrader": [
         {
           "id": 269260,
-          "match_type": "scryfall",
+          "name": "Charizard",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Charizard & Ho-Oh ex Deck",
           "expansion_code": "clc",
           "collector_number": "003",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -837,7 +953,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745695
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269260/preview_charizard-003-034-pokemon-tcg-classic-charizard-ho-oh-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527938,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -858,10 +985,13 @@
       "cardtrader": [
         {
           "id": 269596,
-          "match_type": "scryfall",
+          "name": "Venusaur",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Venusaur & Lugia ex Deck",
           "expansion_code": "clv",
           "collector_number": "003",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -934,7 +1064,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745661
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269596/preview_venusaur-003-034-pokemon-tcg-classic-venusaur-lugia-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527885,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -955,10 +1096,13 @@
       "cardtrader": [
         {
           "id": 269588,
-          "match_type": "scryfall",
+          "name": "Paras",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Venusaur & Lugia ex Deck",
           "expansion_code": "clv",
           "collector_number": "004",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -1031,7 +1175,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745662
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269588/preview_paras-004-034-pokemon-tcg-classic-venusaur-lugia-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527886,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -1052,10 +1207,13 @@
       "cardtrader": [
         {
           "id": 269261,
-          "match_type": "scryfall",
+          "name": "Ponyta",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Charizard & Ho-Oh ex Deck",
           "expansion_code": "clc",
           "collector_number": "004",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -1128,7 +1286,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745696
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269261/preview_ponyta-004-034-pokemon-tcg-classic-charizard-ho-oh-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527939,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -1149,10 +1318,13 @@
       "cardtrader": [
         {
           "id": 269344,
-          "match_type": "scryfall",
+          "name": "Staryu",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Blastoise & Suicune ex Deck",
           "expansion_code": "clb",
           "collector_number": "004",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -1225,7 +1397,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745730
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269344/preview_staryu-004-034-pokemon-tcg-classic-blastoise-suicune-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527989,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -1246,10 +1429,13 @@
       "cardtrader": [
         {
           "id": 269597,
-          "match_type": "scryfall",
+          "name": "Parasect Lv.33",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Venusaur & Lugia ex Deck",
           "expansion_code": "clv",
           "collector_number": "005",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -1322,7 +1508,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745663
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269597/preview_parasect-lv-33-005-034-pokemon-tcg-classic-venusaur-lugia-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527887,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -1343,10 +1540,13 @@
       "cardtrader": [
         {
           "id": 269256,
-          "match_type": "scryfall",
+          "name": "Rapidash",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Charizard & Ho-Oh ex Deck",
           "expansion_code": "clc",
           "collector_number": "005",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -1419,7 +1619,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745697
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269256/preview_rapidash-005-034-pokemon-tcg-classic-charizard-ho-oh-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527940,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -1440,10 +1651,13 @@
       "cardtrader": [
         {
           "id": 269340,
-          "match_type": "scryfall",
+          "name": "Starmie",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Blastoise & Suicune ex Deck",
           "expansion_code": "clb",
           "collector_number": "005",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -1516,7 +1730,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745731
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269340/preview_starmie-005-034-pokemon-tcg-classic-blastoise-suicune-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527990,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -1537,10 +1762,13 @@
       "cardtrader": [
         {
           "id": 269346,
-          "match_type": "scryfall",
+          "name": "Magikarp",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Blastoise & Suicune ex Deck",
           "expansion_code": "clb",
           "collector_number": "006",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -1613,7 +1841,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745732
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269346/preview_magikarp-006-034-pokemon-tcg-classic-blastoise-suicune-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527991,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -1634,10 +1873,13 @@
       "cardtrader": [
         {
           "id": 269271,
-          "match_type": "scryfall",
+          "name": "Magmar",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Charizard & Ho-Oh ex Deck",
           "expansion_code": "clc",
           "collector_number": "006",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -1710,7 +1952,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745698
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269271/preview_magmar-006-034-pokemon-tcg-classic-charizard-ho-oh-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527941,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -1731,10 +1984,13 @@
       "cardtrader": [
         {
           "id": 269579,
-          "match_type": "scryfall",
+          "name": "Scyther",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Venusaur & Lugia ex Deck",
           "expansion_code": "clv",
           "collector_number": "006",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -1807,7 +2063,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745664
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269579/preview_scyther-006-034-pokemon-tcg-classic-venusaur-lugia-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527888,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -1828,10 +2095,13 @@
       "cardtrader": [
         {
           "id": 269345,
-          "match_type": "scryfall",
+          "name": "Gyarados",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Blastoise & Suicune ex Deck",
           "expansion_code": "clb",
           "collector_number": "007",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -1904,7 +2174,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745733
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269345/preview_gyarados-007-034-pokemon-tcg-classic-blastoise-suicune-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527992,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -1925,10 +2206,13 @@
       "cardtrader": [
         {
           "id": 267586,
-          "match_type": "scryfall",
+          "name": "Ho-Oh ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Charizard & Ho-Oh ex Deck",
           "expansion_code": "clc",
           "collector_number": "007",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -2001,7 +2285,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745699
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/267586/preview_ho-oh-007-034-pokemon-tcg-classic-charizard-ho-oh-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527942,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -2022,10 +2317,13 @@
       "cardtrader": [
         {
           "id": 269593,
-          "match_type": "scryfall",
+          "name": "Pinsir",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Venusaur & Lugia ex Deck",
           "expansion_code": "clv",
           "collector_number": "007",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -2098,7 +2396,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745665
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269593/preview_pinsir-007-034-pokemon-tcg-classic-venusaur-lugia-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527891,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -2119,10 +2428,13 @@
       "cardtrader": [
         {
           "id": 269337,
-          "match_type": "scryfall",
+          "name": "Lapras",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Blastoise & Suicune ex Deck",
           "expansion_code": "clb",
           "collector_number": "008",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -2195,7 +2507,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745734
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269337/preview_lapras-008-034-pokemon-tcg-classic-blastoise-suicune-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527994,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -2216,10 +2539,13 @@
       "cardtrader": [
         {
           "id": 269263,
-          "match_type": "scryfall",
+          "name": "Pikachu",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Charizard & Ho-Oh ex Deck",
           "expansion_code": "clc",
           "collector_number": "008",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -2292,7 +2618,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745700
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269263/preview_pikachu-008-034-pokemon-tcg-classic-charizard-ho-oh-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527943,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -2313,10 +2650,13 @@
       "cardtrader": [
         {
           "id": 269602,
-          "match_type": "scryfall",
+          "name": "Sandshrew",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Venusaur & Lugia ex Deck",
           "expansion_code": "clv",
           "collector_number": "008",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -2389,7 +2729,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745666
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269602/preview_sandshrew-008-034-pokemon-tcg-classic-venusaur-lugia-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527893,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -2410,10 +2761,13 @@
       "cardtrader": [
         {
           "id": 269331,
-          "match_type": "scryfall",
+          "name": "Articuno",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Blastoise & Suicune ex Deck",
           "expansion_code": "clb",
           "collector_number": "009",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -2486,7 +2840,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745735
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269331/preview_articuno-009-034-pokemon-tcg-classic-blastoise-suicune-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527996,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -2507,10 +2872,13 @@
       "cardtrader": [
         {
           "id": 269248,
-          "match_type": "scryfall",
+          "name": "Raichu",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Charizard & Ho-Oh ex Deck",
           "expansion_code": "clc",
           "collector_number": "009",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -2583,7 +2951,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745701
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269248/preview_raichu-009-034-pokemon-tcg-classic-charizard-ho-oh-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527944,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -2604,10 +2983,13 @@
       "cardtrader": [
         {
           "id": 269592,
-          "match_type": "scryfall",
+          "name": "Sandslash",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Venusaur & Lugia ex Deck",
           "expansion_code": "clv",
           "collector_number": "009",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -2680,7 +3062,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745667
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269592/preview_sandslash-009-034-pokemon-tcg-classic-venusaur-lugia-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527894,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -2701,10 +3094,13 @@
       "cardtrader": [
         {
           "id": 269590,
-          "match_type": "scryfall",
+          "name": "Onix",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Venusaur & Lugia ex Deck",
           "expansion_code": "clv",
           "collector_number": "010",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -2777,7 +3173,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745668
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269590/preview_onix-010-034-pokemon-tcg-classic-venusaur-lugia-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527895,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -2798,10 +3205,13 @@
       "cardtrader": [
         {
           "id": 267587,
-          "match_type": "scryfall",
+          "name": "Suicune ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Blastoise & Suicune ex Deck",
           "expansion_code": "clb",
           "collector_number": "010",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -2874,7 +3284,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745736
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/267587/preview_suicune-ex-010-034-pokemon-tcg-classic-charizard-ho-oh-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527998,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -2895,10 +3316,13 @@
       "cardtrader": [
         {
           "id": 269247,
-          "match_type": "scryfall",
+          "name": "Voltorb",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Charizard & Ho-Oh ex Deck",
           "expansion_code": "clc",
           "collector_number": "010",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -2971,7 +3395,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745702
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269247/preview_voltorb-010-034-pokemon-tcg-classic-charizard-ho-oh-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527945,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -2992,10 +3427,13 @@
       "cardtrader": [
         {
           "id": 269350,
-          "match_type": "scryfall",
+          "name": "Drowzee",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Blastoise & Suicune ex Deck",
           "expansion_code": "clb",
           "collector_number": "011",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -3068,7 +3506,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745737
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269350/preview_drowzee-011-034-pokemon-tcg-classic-blastoise-suicune-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527999,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -3089,10 +3538,13 @@
       "cardtrader": [
         {
           "id": 269254,
-          "match_type": "scryfall",
+          "name": "Electrode",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Charizard & Ho-Oh ex Deck",
           "expansion_code": "clc",
           "collector_number": "011",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -3165,7 +3617,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745703
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269254/preview_electrode-011-034-pokemon-tcg-classic-charizard-ho-oh-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527946,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -3186,10 +3649,13 @@
       "cardtrader": [
         {
           "id": 269591,
-          "match_type": "scryfall",
+          "name": "Hitmonlee",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Venusaur & Lugia ex Deck",
           "expansion_code": "clv",
           "collector_number": "011",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -3262,7 +3728,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745669
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269591/preview_hitmonlee-011-034-pokemon-tcg-classic-venusaur-lugia-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527898,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -3283,10 +3760,13 @@
       "cardtrader": [
         {
           "id": 269599,
-          "match_type": "scryfall",
+          "name": "Hitmonchan",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Venusaur & Lugia ex Deck",
           "expansion_code": "clv",
           "collector_number": "012",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -3359,7 +3839,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745670
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269599/preview_hitmonchan-012-034-pokemon-tcg-classic-venusaur-lugia-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527899,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -3380,10 +3871,13 @@
       "cardtrader": [
         {
           "id": 269334,
-          "match_type": "scryfall",
+          "name": "Hypno",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Blastoise & Suicune ex Deck",
           "expansion_code": "clb",
           "collector_number": "012",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -3456,7 +3950,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745738
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269334/preview_hypno-012-034-pokemon-tcg-classic-blastoise-suicune-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 528000,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -3477,10 +3982,13 @@
       "cardtrader": [
         {
           "id": 269245,
-          "match_type": "scryfall",
+          "name": "Zapdos",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Charizard & Ho-Oh ex Deck",
           "expansion_code": "clc",
           "collector_number": "012",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -3553,7 +4061,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745704
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269245/preview_zapdos-012-034-pokemon-tcg-classic-charizard-ho-oh-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527947,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -3574,10 +4093,13 @@
       "cardtrader": [
         {
           "id": 269275,
-          "match_type": "scryfall",
+          "name": "Clefairy",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Charizard & Ho-Oh ex Deck",
           "expansion_code": "clc",
           "collector_number": "013",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -3650,7 +4172,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745705
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269275/preview_clefairy-013-034-pokemon-tcg-classic-charizard-ho-oh-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527948,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -3671,10 +4204,13 @@
       "cardtrader": [
         {
           "id": 269585,
-          "match_type": "scryfall",
+          "name": "Doduo",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Venusaur & Lugia ex Deck",
           "expansion_code": "clv",
           "collector_number": "013",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -3747,7 +4283,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745671
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269585/preview_doduo-013-034-pokemon-tcg-classic-venusaur-lugia-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527900,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -3768,10 +4315,13 @@
       "cardtrader": [
         {
           "id": 269342,
-          "match_type": "scryfall",
+          "name": "Mr. Mime",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Blastoise & Suicune ex Deck",
           "expansion_code": "clb",
           "collector_number": "013",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -3844,7 +4394,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745739
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269342/preview_mr-mime-013-034-pokemon-tcg-classic-blastoise-suicune-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 528184,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -3865,10 +4426,13 @@
       "cardtrader": [
         {
           "id": 269258,
-          "match_type": "scryfall",
+          "name": "Clefable",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Charizard & Ho-Oh ex Deck",
           "expansion_code": "clc",
           "collector_number": "014",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -3941,7 +4505,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745706
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269258/preview_clefable-014-034-pokemon-tcg-classic-charizard-ho-oh-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527949,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -3962,10 +4537,13 @@
       "cardtrader": [
         {
           "id": 269575,
-          "match_type": "scryfall",
+          "name": "Dodrio",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Venusaur & Lugia ex Deck",
           "expansion_code": "clv",
           "collector_number": "014",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -4038,7 +4616,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745672
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269575/preview_dodrio-014-034-pokemon-tcg-classic-venusaur-lugia-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527901,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -4059,10 +4648,13 @@
       "cardtrader": [
         {
           "id": 269347,
-          "match_type": "scryfall",
+          "name": "Mewtwo",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Blastoise & Suicune ex Deck",
           "expansion_code": "clb",
           "collector_number": "014",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -4135,7 +4727,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745740
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269347/preview_mewtwo-014-034-pokemon-tcg-classic-blastoise-suicune-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 528002,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -4156,10 +4759,13 @@
       "cardtrader": [
         {
           "id": 269587,
-          "match_type": "scryfall",
+          "name": "Chansey",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Venusaur & Lugia ex Deck",
           "expansion_code": "clv",
           "collector_number": "015",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -4232,7 +4838,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745673
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269587/preview_chansey-015-034-pokemon-tcg-classic-venusaur-lugia-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527902,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -4253,10 +4870,13 @@
       "cardtrader": [
         {
           "id": 269274,
-          "match_type": "scryfall",
+          "name": "Dunsparce",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Charizard & Ho-Oh ex Deck",
           "expansion_code": "clc",
           "collector_number": "015",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -4329,7 +4949,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745707
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269274/preview_dunsparce-015-034-pokemon-tcg-classic-charizard-ho-oh-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527952,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -4350,10 +4981,13 @@
       "cardtrader": [
         {
           "id": 269348,
-          "match_type": "scryfall",
+          "name": "Lt. Surge's Rattata",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Blastoise & Suicune ex Deck",
           "expansion_code": "clb",
           "collector_number": "015",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -4426,7 +5060,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745741
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269348/preview_lt-surge-s-rattata-015-034-pokemon-tcg-classic-blastoise-suicune-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 528003,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -4447,10 +5092,13 @@
       "cardtrader": [
         {
           "id": 269349,
-          "match_type": "scryfall",
+          "name": "Lt. Surge's Raticate",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Blastoise & Suicune ex Deck",
           "expansion_code": "clb",
           "collector_number": "016",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -4523,7 +5171,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745742
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269349/preview_lt-surge-s-raticate-016-034-pokemon-tcg-classic-blastoise-suicune-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 528004,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -4544,10 +5203,13 @@
       "cardtrader": [
         {
           "id": 269589,
-          "match_type": "scryfall",
+          "name": "Snorlax",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Venusaur & Lugia ex Deck",
           "expansion_code": "clv",
           "collector_number": "016",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -4620,7 +5282,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745674
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269589/preview_snorlax-016-034-pokemon-tcg-classic-venusaur-lugia-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527903,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -4641,10 +5314,13 @@
       "cardtrader": [
         {
           "id": 269252,
-          "match_type": "scryfall",
+          "name": "Stantler Lv.28",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Charizard & Ho-Oh ex Deck",
           "expansion_code": "clc",
           "collector_number": "016",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -4717,7 +5393,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745708
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269252/preview_stantler-lv-28-016-034-pokemon-tcg-classic-charizard-ho-oh-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527950,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -4738,10 +5425,13 @@
       "cardtrader": [
         {
           "id": 269339,
-          "match_type": "scryfall",
+          "name": "Kangaskhan",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Blastoise & Suicune ex Deck",
           "expansion_code": "clb",
           "collector_number": "017",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -4814,7 +5504,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745743
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269339/preview_kangaskhan-017-034-pokemon-tcg-classic-blastoise-suicune-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 528005,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -4835,10 +5536,13 @@
       "cardtrader": [
         {
           "id": 267585,
-          "match_type": "scryfall",
+          "name": "Lugia ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Venusaur & Lugia ex Deck",
           "expansion_code": "clv",
           "collector_number": "017",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -4911,7 +5615,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745675
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/267585/preview_lugia-ex-017-032-pokemon-tcg-classic-venusaur-lugia-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527905,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -4932,10 +5647,13 @@
       "cardtrader": [
         {
           "id": 269272,
-          "match_type": "scryfall",
+          "name": "Miltank Lv.32",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Charizard & Ho-Oh ex Deck",
           "expansion_code": "clc",
           "collector_number": "017",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -5008,7 +5726,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745709
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269272/preview_miltank-lv-32-017-034-pokemon-tcg-classic-charizard-ho-oh-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527951,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -5029,10 +5758,13 @@
       "cardtrader": [
         {
           "id": 269324,
-          "match_type": "scryfall",
+          "name": "Bill",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Blastoise & Suicune ex Deck",
           "expansion_code": "clb",
           "collector_number": "018",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -5105,7 +5837,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745744
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269324/preview_bill-018-034-pokemon-tcg-classic-blastoise-suicune-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 528014,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -5126,10 +5869,13 @@
       "cardtrader": [
         {
           "id": 269264,
-          "match_type": "scryfall",
+          "name": "Bill",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Charizard & Ho-Oh ex Deck",
           "expansion_code": "clc",
           "collector_number": "018",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -5202,7 +5948,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745710
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269264/preview_bill-018-034-pokemon-tcg-classic-charizard-ho-oh-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527954,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -5223,10 +5980,13 @@
       "cardtrader": [
         {
           "id": 269582,
-          "match_type": "scryfall",
+          "name": "Bill",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Venusaur & Lugia ex Deck",
           "expansion_code": "clv",
           "collector_number": "018",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -5299,7 +6059,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745676
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269582/preview_bill-018-034-pokemon-tcg-classic-venusaur-lugia-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527907,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -5320,10 +6091,13 @@
       "cardtrader": [
         {
           "id": 269330,
-          "match_type": "scryfall",
+          "name": "Boss's Orders - Giovanni",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Blastoise & Suicune ex Deck",
           "expansion_code": "clb",
           "collector_number": "019",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -5396,7 +6170,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745745
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269330/preview_boss-s-orders-019-034-pokemon-tcg-classic-blastoise-suicune-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 528015,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -5417,10 +6202,13 @@
       "cardtrader": [
         {
           "id": 269262,
-          "match_type": "scryfall",
+          "name": "Boss's Orders - Giovanni",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Charizard & Ho-Oh ex Deck",
           "expansion_code": "clc",
           "collector_number": "019",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -5493,7 +6281,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745711
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269262/preview_boss-s-orders-019-034-pokemon-tcg-classic-charizard-ho-oh-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527955,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -5514,10 +6313,13 @@
       "cardtrader": [
         {
           "id": 269577,
-          "match_type": "scryfall",
+          "name": "Boss's Orders - Giovanni",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Venusaur & Lugia ex Deck",
           "expansion_code": "clv",
           "collector_number": "019",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -5590,7 +6392,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745677
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269577/preview_boss-s-orders-019-034-pokemon-tcg-classic-venusaur-lugia-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527908,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -5611,10 +6424,13 @@
       "cardtrader": [
         {
           "id": 269341,
-          "match_type": "scryfall",
+          "name": "Computer Search",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Blastoise & Suicune ex Deck",
           "expansion_code": "clb",
           "collector_number": "020",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -5687,7 +6503,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745746
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269341/preview_computer-search-020-034-pokemon-tcg-classic-blastoise-suicune-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 528016,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -5708,10 +6535,13 @@
       "cardtrader": [
         {
           "id": 269257,
-          "match_type": "scryfall",
+          "name": "Computer Search",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Charizard & Ho-Oh ex Deck",
           "expansion_code": "clc",
           "collector_number": "020",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -5784,7 +6614,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745712
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269257/preview_computer-search-020-034-pokemon-tcg-classic-charizard-ho-oh-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527957,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -5805,10 +6646,13 @@
       "cardtrader": [
         {
           "id": 269584,
-          "match_type": "scryfall",
+          "name": "Computer Search",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Venusaur & Lugia ex Deck",
           "expansion_code": "clv",
           "collector_number": "020",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -5881,7 +6725,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745678
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269584/preview_computer-search-020-034-pokemon-tcg-classic-venusaur-lugia-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527909,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -5902,10 +6757,13 @@
       "cardtrader": [
         {
           "id": 269323,
-          "match_type": "scryfall",
+          "name": "Drops in the Ocean",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Blastoise & Suicune ex Deck",
           "expansion_code": "clb",
           "collector_number": "021",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -5978,7 +6836,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745747
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269323/preview_drops-in-the-ocean-021-034-pokemon-tcg-classic-blastoise-suicune-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 528026,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -5999,10 +6868,13 @@
       "cardtrader": [
         {
           "id": 269266,
-          "match_type": "scryfall",
+          "name": "Poké Ball",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Charizard & Ho-Oh ex Deck",
           "expansion_code": "clc",
           "collector_number": "021",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -6075,7 +6947,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745713
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269266/preview_poke-ball-021-034-pokemon-tcg-classic-charizard-ho-oh-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527958,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -6096,10 +6979,13 @@
       "cardtrader": [
         {
           "id": 269583,
-          "match_type": "scryfall",
+          "name": "Poké Ball",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Venusaur & Lugia ex Deck",
           "expansion_code": "clv",
           "collector_number": "021",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -6172,7 +7058,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745679
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269583/preview_poke-ball-021-034-pokemon-tcg-classic-venusaur-lugia-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527910,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -6193,10 +7090,13 @@
       "cardtrader": [
         {
           "id": 269322,
-          "match_type": "scryfall",
+          "name": "Fisherman",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Blastoise & Suicune ex Deck",
           "expansion_code": "clb",
           "collector_number": "022",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -6269,7 +7169,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745748
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269322/preview_fisherman-022-034-pokemon-tcg-classic-blastoise-suicune-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 528027,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -6290,10 +7201,13 @@
       "cardtrader": [
         {
           "id": 269265,
-          "match_type": "scryfall",
+          "name": "Pokémon Fan Club",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Charizard & Ho-Oh ex Deck",
           "expansion_code": "clc",
           "collector_number": "022",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -6366,7 +7280,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745714
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269265/preview_pokemon-fan-club-022-034-pokemon-tcg-classic-charizard-ho-oh-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527959,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -6387,10 +7312,13 @@
       "cardtrader": [
         {
           "id": 269581,
-          "match_type": "scryfall",
+          "name": "Pokémon Fan Club",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Venusaur & Lugia ex Deck",
           "expansion_code": "clv",
           "collector_number": "022",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -6463,7 +7391,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745680
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269581/preview_pokemon-fan-club-022-034-pokemon-tcg-classic-venusaur-lugia-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527911,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -6484,10 +7423,13 @@
       "cardtrader": [
         {
           "id": 269333,
-          "match_type": "scryfall",
+          "name": "Poké Ball",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Blastoise & Suicune ex Deck",
           "expansion_code": "clb",
           "collector_number": "023",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -6560,7 +7502,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745749
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269333/preview_poke-ball-023-034-pokemon-tcg-classic-blastoise-suicune-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 528018,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -6581,10 +7534,13 @@
       "cardtrader": [
         {
           "id": 269580,
-          "match_type": "scryfall",
+          "name": "Pokémon Nurse",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Venusaur & Lugia ex Deck",
           "expansion_code": "clv",
           "collector_number": "023",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -6657,7 +7613,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745681
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269580/preview_pokemon-nurse-023-034-pokemon-tcg-classic-venusaur-lugia-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527912,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -6678,10 +7645,13 @@
       "cardtrader": [
         {
           "id": 269259,
-          "match_type": "scryfall",
+          "name": "Professor Oak",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Charizard & Ho-Oh ex Deck",
           "expansion_code": "clc",
           "collector_number": "023",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -6754,7 +7724,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745715
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269259/preview_professor-oak-023-034-pokemon-tcg-classic-charizard-ho-oh-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527960,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -6775,10 +7756,13 @@
       "cardtrader": [
         {
           "id": 269335,
-          "match_type": "scryfall",
+          "name": "Pokémon Fan Club",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Blastoise & Suicune ex Deck",
           "expansion_code": "clb",
           "collector_number": "024",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -6851,7 +7835,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745750
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269335/preview_pokemon-fan-club-024-034-pokemon-tcg-classic-blastoise-suicune-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 528019,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -6872,10 +7867,13 @@
       "cardtrader": [
         {
           "id": 269578,
-          "match_type": "scryfall",
+          "name": "Professor Oak",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Venusaur & Lugia ex Deck",
           "expansion_code": "clv",
           "collector_number": "024",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -6948,7 +7946,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745682
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269578/preview_professor-oak-024-034-pokemon-tcg-classic-venusaur-lugia-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527913,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -6969,10 +7978,13 @@
       "cardtrader": [
         {
           "id": 269255,
-          "match_type": "scryfall",
+          "name": "Rare Candy",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Charizard & Ho-Oh ex Deck",
           "expansion_code": "clc",
           "collector_number": "024",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -7045,7 +8057,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745716
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269255/preview_rare-candy-024-034-pokemon-tcg-classic-charizard-ho-oh-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527961,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -7066,10 +8089,13 @@
       "cardtrader": [
         {
           "id": 269328,
-          "match_type": "scryfall",
+          "name": "Professor Oak",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Blastoise & Suicune ex Deck",
           "expansion_code": "clb",
           "collector_number": "025",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -7142,7 +8168,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745751
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269328/preview_professor-oak-025-034-pokemon-tcg-classic-blastoise-suicune-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 528020,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -7163,10 +8200,13 @@
       "cardtrader": [
         {
           "id": 269576,
-          "match_type": "scryfall",
+          "name": "Rare Candy",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Venusaur & Lugia ex Deck",
           "expansion_code": "clv",
           "collector_number": "025",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -7239,7 +8279,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745683
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269576/preview_rare-candy-025-034-pokemon-tcg-classic-venusaur-lugia-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527916,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -7260,10 +8311,13 @@
       "cardtrader": [
         {
           "id": 269253,
-          "match_type": "scryfall",
+          "name": "Rocket's Admin.",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Charizard & Ho-Oh ex Deck",
           "expansion_code": "clc",
           "collector_number": "025",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -7336,7 +8390,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745717
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269253/preview_rocket-s-admin-025-034-pokemon-tcg-classic-charizard-ho-oh-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527962,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -7357,10 +8422,13 @@
       "cardtrader": [
         {
           "id": 269332,
-          "match_type": "scryfall",
+          "name": "Rare Candy",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Blastoise & Suicune ex Deck",
           "expansion_code": "clb",
           "collector_number": "026",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -7433,7 +8501,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745752
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269332/preview_rare-candy-026-034-pokemon-tcg-classic-blastoise-suicune-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 528021,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -7454,10 +8533,13 @@
       "cardtrader": [
         {
           "id": 269603,
-          "match_type": "scryfall",
+          "name": "Rocket's Admin.",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Venusaur & Lugia ex Deck",
           "expansion_code": "clv",
           "collector_number": "026",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -7530,7 +8612,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745684
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269603/preview_rocket-s-admin-026-034-pokemon-tcg-classic-venusaur-lugia-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527917,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -7551,10 +8644,13 @@
       "cardtrader": [
         {
           "id": 269243,
-          "match_type": "scryfall",
+          "name": "Scorching Charcoal",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Charizard & Ho-Oh ex Deck",
           "expansion_code": "clc",
           "collector_number": "026",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -7627,7 +8723,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745718
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269243/preview_scorching-charcoal-026-034-pokemon-tcg-classic-charizard-ho-oh-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527972,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -7648,10 +8755,13 @@
       "cardtrader": [
         {
           "id": 269320,
-          "match_type": "scryfall",
+          "name": "Rocket's Admin.",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Blastoise & Suicune ex Deck",
           "expansion_code": "clb",
           "collector_number": "027",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -7724,7 +8834,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745753
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269320/preview_rocket-s-admin-027-034-pokemon-tcg-classic-blastoise-suicune-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 528022,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -7745,10 +8866,13 @@
       "cardtrader": [
         {
           "id": 269601,
-          "match_type": "scryfall",
+          "name": "Sun Seed",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Venusaur & Lugia ex Deck",
           "expansion_code": "clv",
           "collector_number": "027",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -7821,7 +8945,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745685
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269601/preview_sun-seed-027-034-pokemon-tcg-classic-venusaur-lugia-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527918,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -7842,10 +8977,13 @@
       "cardtrader": [
         {
           "id": 269251,
-          "match_type": "scryfall",
+          "name": "Super Rod",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Charizard & Ho-Oh ex Deck",
           "expansion_code": "clc",
           "collector_number": "027",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -7918,7 +9056,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745719
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269251/preview_super-rod-027-034-pokemon-tcg-classic-charizard-ho-oh-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527967,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -7939,10 +9088,13 @@
       "cardtrader": [
         {
           "id": 269319,
-          "match_type": "scryfall",
+          "name": "Super Rod",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Blastoise & Suicune ex Deck",
           "expansion_code": "clb",
           "collector_number": "028",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -8015,7 +9167,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745754
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269319/preview_super-rod-028-034-pokemon-tcg-classic-blastoise-suicune-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 528023,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -8036,10 +9199,13 @@
       "cardtrader": [
         {
           "id": 269598,
-          "match_type": "scryfall",
+          "name": "Super Rod",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Venusaur & Lugia ex Deck",
           "expansion_code": "clv",
           "collector_number": "028",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -8112,7 +9278,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745686
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269598/preview_super-rod-028-034-pokemon-tcg-classic-venusaur-lugia-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527919,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -8133,10 +9310,13 @@
       "cardtrader": [
         {
           "id": 269246,
-          "match_type": "scryfall",
+          "name": "Super Scoop Up",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Charizard & Ho-Oh ex Deck",
           "expansion_code": "clc",
           "collector_number": "028",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -8209,7 +9389,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745720
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269246/preview_super-scoop-up-028-034-pokemon-tcg-classic-charizard-ho-oh-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 528028,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -8230,10 +9421,13 @@
       "cardtrader": [
         {
           "id": 269326,
-          "match_type": "scryfall",
+          "name": "Switch",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Blastoise & Suicune ex Deck",
           "expansion_code": "clb",
           "collector_number": "029",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -8306,7 +9500,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745755
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269326/preview_switch-029-034-pokemon-tcg-classic-blastoise-suicune-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 528024,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -8327,10 +9532,13 @@
       "cardtrader": [
         {
           "id": 269250,
-          "match_type": "scryfall",
+          "name": "Switch",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Charizard & Ho-Oh ex Deck",
           "expansion_code": "clc",
           "collector_number": "029",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -8403,7 +9611,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745721
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269250/preview_switch-029-034-pokemon-tcg-classic-charizard-ho-oh-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527968,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -8424,10 +9643,13 @@
       "cardtrader": [
         {
           "id": 269586,
-          "match_type": "scryfall",
+          "name": "Switch",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Venusaur & Lugia ex Deck",
           "expansion_code": "clv",
           "collector_number": "029",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -8500,7 +9722,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745687
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269586/preview_switch-029-034-pokemon-tcg-classic-venusaur-lugia-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527920,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -8521,10 +9754,13 @@
       "cardtrader": [
         {
           "id": 269327,
-          "match_type": "scryfall",
+          "name": "Ultra Ball",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Blastoise & Suicune ex Deck",
           "expansion_code": "clb",
           "collector_number": "030",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -8597,7 +9833,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745756
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269327/preview_ultra-ball-030-034-pokemon-tcg-classic-blastoise-suicune-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 528025,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -8618,10 +9865,13 @@
       "cardtrader": [
         {
           "id": 269249,
-          "match_type": "scryfall",
+          "name": "Ultra Ball",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Charizard & Ho-Oh ex Deck",
           "expansion_code": "clc",
           "collector_number": "030",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -8694,7 +9944,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745722
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269249/preview_ultra-ball-030-034-pokemon-tcg-classic-charizard-ho-oh-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527970,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -8715,10 +9976,13 @@
       "cardtrader": [
         {
           "id": 269574,
-          "match_type": "scryfall",
+          "name": "Ultra Ball",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Venusaur & Lugia ex Deck",
           "expansion_code": "clv",
           "collector_number": "030",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -8791,7 +10055,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745688
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269574/preview_ultra-ball-030-034-pokemon-tcg-classic-venusaur-lugia-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527921,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -8812,10 +10087,13 @@
       "cardtrader": [
         {
           "id": 269329,
-          "match_type": "scryfall",
+          "name": "VS Seeker",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Blastoise & Suicune ex Deck",
           "expansion_code": "clb",
           "collector_number": "031",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -8888,7 +10166,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745757
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269329/preview_vs-seeker-031-034-pokemon-tcg-classic-blastoise-suicune-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 528200,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -8909,10 +10198,13 @@
       "cardtrader": [
         {
           "id": 269244,
-          "match_type": "scryfall",
+          "name": "VS Seeker",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Charizard & Ho-Oh ex Deck",
           "expansion_code": "clc",
           "collector_number": "031",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -8985,7 +10277,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745723
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269244/preview_vs-seeker-031-034-pokemon-tcg-classic-charizard-ho-oh-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 528207,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -9006,10 +10309,13 @@
       "cardtrader": [
         {
           "id": 269594,
-          "match_type": "scryfall",
+          "name": "VS Seeker",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Venusaur & Lugia ex Deck",
           "expansion_code": "clv",
           "collector_number": "031",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -9082,7 +10388,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745689
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269594/preview_vs-seeker-031-034-pokemon-tcg-classic-venusaur-lugia-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 528225,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -9103,10 +10420,13 @@
       "cardtrader": [
         {
           "id": 269325,
-          "match_type": "scryfall",
+          "name": "Double Colorless Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Blastoise & Suicune ex Deck",
           "expansion_code": "clb",
           "collector_number": "032",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -9179,7 +10499,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745758
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269325/preview_double-colorless-energy-032-034-pokemon-tcg-classic-blastoise-suicune-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 528017,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -9200,10 +10531,13 @@
       "cardtrader": [
         {
           "id": 269268,
-          "match_type": "scryfall",
+          "name": "Double Colorless Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Charizard & Ho-Oh ex Deck",
           "expansion_code": "clc",
           "collector_number": "032",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -9276,7 +10610,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745724
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269268/preview_double-colorless-energy-032-034-pokemon-tcg-classic-charizard-ho-oh-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527974,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -9297,10 +10642,13 @@
       "cardtrader": [
         {
           "id": 269571,
-          "match_type": "scryfall",
+          "name": "Double Colorless Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Venusaur & Lugia ex Deck",
           "expansion_code": "clv",
           "collector_number": "032",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -9373,7 +10721,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745690
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269571/preview_double-colorless-energy-032-034-pokemon-tcg-classic-venusaur-lugia-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527926,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -9394,10 +10753,13 @@
       "cardtrader": [
         {
           "id": 269269,
-          "match_type": "scryfall",
+          "name": "Fire Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Charizard & Ho-Oh ex Deck",
           "expansion_code": "clc",
           "collector_number": "033",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -9470,7 +10832,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745725
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269269/preview_fire-energy-033-034-pokemon-tcg-classic-charizard-ho-oh-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527983,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -9491,10 +10864,13 @@
       "cardtrader": [
         {
           "id": 269573,
-          "match_type": "scryfall",
+          "name": "Grass Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Venusaur & Lugia ex Deck",
           "expansion_code": "clv",
           "collector_number": "033",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -9567,7 +10943,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745691
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269573/preview_grass-energy-033-034-pokemon-tcg-classic-venusaur-lugia-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527924,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -9588,10 +10975,13 @@
       "cardtrader": [
         {
           "id": 269338,
-          "match_type": "scryfall",
+          "name": "Water Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Blastoise & Suicune ex Deck",
           "expansion_code": "clb",
           "collector_number": "033",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -9664,7 +11054,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745759
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269338/preview_water-energy-033-034-pokemon-tcg-classic-blastoise-suicune-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 528201,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -9685,10 +11086,13 @@
       "cardtrader": [
         {
           "id": 269572,
-          "match_type": "scryfall",
+          "name": "Fighting Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Venusaur & Lugia ex Deck",
           "expansion_code": "clv",
           "collector_number": "034",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -9761,7 +11165,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745692
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269572/preview_fighting-energy-034-034-pokemon-tcg-classic-venusaur-lugia-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527925,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -9782,10 +11197,13 @@
       "cardtrader": [
         {
           "id": 269267,
-          "match_type": "scryfall",
+          "name": "Lightning Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Charizard & Ho-Oh ex Deck",
           "expansion_code": "clc",
           "collector_number": "034",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -9858,7 +11276,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745726
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269267/preview_lightning-energy-034-034-pokemon-tcg-classic-charizard-ho-oh-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 527984,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     },
@@ -9879,10 +11308,13 @@
       "cardtrader": [
         {
           "id": 269321,
-          "match_type": "scryfall",
+          "name": "Psychic Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon TCG Classic: Blastoise & Suicune ex Deck",
           "expansion_code": "clb",
           "collector_number": "034",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -9955,7 +11387,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            745760
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/269321/preview_psychic-energy-034-034-pokemon-tcg-classic-blastoise-suicune-ex-deck.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 528203,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 23323
         }
       ]
     }
