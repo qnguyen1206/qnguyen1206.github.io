@@ -4,8 +4,8 @@
   "set_abbr": "POP",
   "set_released": "2026-01-24",
   "product_count": 19,
-  "data_modified": "2026-02-01T14:23:36-05:00",
-  "file_generated": "2026-02-02T03:32:17-05:00",
+  "data_modified": "2026-04-16T16:07:29-04:00",
+  "file_generated": "2026-04-17T04:30:44-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/1442/pricing",
   "products": [
     {
@@ -25,9 +25,13 @@
       "cardtrader": [
         {
           "id": 105317,
-          "match_type": "scryfall",
+          "name": "POP Series 3 Booster",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "POP Series 3",
           "expansion_code": "pop3",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -51,7 +55,18 @@
                 "pt"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            282563
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105317/preview_pop-series-3-booster-pop-series-3.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 190532,
+          "game_id": 5,
+          "category_id": 66,
+          "category_name": "Pokémon Booster",
+          "product_type": "booster",
+          "group_id": 1442
         }
       ]
     },
@@ -72,10 +87,13 @@
       "cardtrader": [
         {
           "id": 124305,
-          "match_type": "scryfall",
+          "name": "Blastoise",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "POP Series 3",
           "expansion_code": "pop3",
           "collector_number": "01/17",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -138,7 +156,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277449
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124305/preview_blastoise-non-holo-promo-1-17-pop-series-3.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83891,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1442
         }
       ]
     },
@@ -155,7 +184,91 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardtrader_id": 124307,
+      "cardtrader": [
+        {
+          "id": 124307,
+          "name": "Flareon",
+          "match_type": "name",
+          "match_confidence": 100,
+          "expansion": "POP Series 3",
+          "expansion_code": "pop3",
+          "collector_number": "02/17",
+          "rarity": "Rare",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124307/preview_flareon-non-holo-promo-2-17-pop-series-3(2).jpg",
+          "scryfall_id": null,
+          "tcg_player_id": null,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1442
+        }
+      ]
     },
     {
       "id": 86342,
@@ -174,10 +287,13 @@
       "cardtrader": [
         {
           "id": 124310,
-          "match_type": "scryfall",
+          "name": "Jolteon",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "POP Series 3",
           "expansion_code": "pop3",
           "collector_number": "03/17h",
+          "rarity": "Promo",
           "finishes": [
             "normal"
           ],
@@ -231,7 +347,16 @@
                 "pt"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124310/preview_jolteon-holo-promo-3-17-pop-series-3.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86342,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1442
         }
       ]
     },
@@ -252,10 +377,13 @@
       "cardtrader": [
         {
           "id": 124311,
-          "match_type": "scryfall",
+          "name": "Minun",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "POP Series 3",
           "expansion_code": "pop3",
           "collector_number": "04/17",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -318,7 +446,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277452
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124311/preview_minun-non-holo-promo-4-17-pop-series-3.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87487,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1442
         }
       ]
     },
@@ -339,10 +478,13 @@
       "cardtrader": [
         {
           "id": 124313,
-          "match_type": "scryfall",
+          "name": "Plusle",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "POP Series 3",
           "expansion_code": "pop3",
           "collector_number": "05/17",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -405,7 +547,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277453
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124313/preview_plusle-non-holo-promo-5-17-pop-series-3.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88167,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1442
         }
       ]
     },
@@ -426,10 +579,13 @@
       "cardtrader": [
         {
           "id": 124315,
-          "match_type": "scryfall",
+          "name": "Vaporeon",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "POP Series 3",
           "expansion_code": "pop3",
           "collector_number": "06/17",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -492,7 +648,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277454
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124315/preview_vaporeon-non-holo-promo-6-17-pop-series-3.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90283,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1442
         }
       ]
     },
@@ -513,10 +680,13 @@
       "cardtrader": [
         {
           "id": 124317,
-          "match_type": "scryfall",
+          "name": "Combusken",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "POP Series 3",
           "expansion_code": "pop3",
           "collector_number": "07/17",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -579,7 +749,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277455
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124317/preview_combusken-non-holo-promo-7-17-pop-series-3.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84405,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1442
         }
       ]
     },
@@ -600,10 +781,13 @@
       "cardtrader": [
         {
           "id": 124318,
-          "match_type": "scryfall",
+          "name": "Donphan",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "POP Series 3",
           "expansion_code": "pop3",
           "collector_number": "08/17",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -666,7 +850,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277456
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124318/preview_donphan-non-holo-promo-8-17-pop-series-3.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84874,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1442
         }
       ]
     },
@@ -687,10 +882,13 @@
       "cardtrader": [
         {
           "id": 124319,
-          "match_type": "scryfall",
+          "name": "Forretress",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "POP Series 3",
           "expansion_code": "pop3",
           "collector_number": "09/17",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -753,7 +951,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277457
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124319/preview_forretress-non-holo-promo-9-17-pop-series-3.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85549,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1442
         }
       ]
     },
@@ -774,10 +983,13 @@
       "cardtrader": [
         {
           "id": 124320,
-          "match_type": "scryfall",
+          "name": "High Pressure System",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "POP Series 3",
           "expansion_code": "pop3",
           "collector_number": "10/17",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -840,7 +1052,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277458
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124320/preview_high-pressure-system-non-holo-promo-10-17-pop-series-3.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86077,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1442
         }
       ]
     },
@@ -861,10 +1084,13 @@
       "cardtrader": [
         {
           "id": 124321,
-          "match_type": "scryfall",
+          "name": "Low Pressure System",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "POP Series 3",
           "expansion_code": "pop3",
           "collector_number": "11/17",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -927,7 +1153,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277459
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124321/preview_low-pressure-system-non-holo-promo-11-17-pop-series-3.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86847,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1442
         }
       ]
     },
@@ -948,10 +1185,13 @@
       "cardtrader": [
         {
           "id": 124322,
-          "match_type": "scryfall",
+          "name": "Ditto",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "POP Series 3",
           "expansion_code": "pop3",
           "collector_number": "12/17",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -1014,7 +1254,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277460
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124322/preview_ditto-mr-mime-non-holo-promo-12-17-pop-series-3.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84842,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1442
         }
       ]
     },
@@ -1035,10 +1286,13 @@
       "cardtrader": [
         {
           "id": 124323,
-          "match_type": "scryfall",
+          "name": "Eevee",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "POP Series 3",
           "expansion_code": "pop3",
           "collector_number": "13/17",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -1101,7 +1355,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277461
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124323/preview_eevee-non-holo-promo-13-17-pop-series-3.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85083,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1442
         }
       ]
     },
@@ -1122,10 +1387,13 @@
       "cardtrader": [
         {
           "id": 124324,
-          "match_type": "scryfall",
+          "name": "Ivysaur",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "POP Series 3",
           "expansion_code": "pop3",
           "collector_number": "14/17",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -1188,7 +1456,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277462
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124324/preview_ivysaur-non-holo-promo-14-17-pop-series-3.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86299,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1442
         }
       ]
     },
@@ -1209,10 +1488,13 @@
       "cardtrader": [
         {
           "id": 124325,
-          "match_type": "scryfall",
+          "name": "Marshtomp",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "POP Series 3",
           "expansion_code": "pop3",
           "collector_number": "15/17",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -1275,7 +1557,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277463
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124325/preview_marshtomp-non-holo-promo-15-17-pop-series-3.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87236,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1442
         }
       ]
     },
@@ -1296,10 +1589,13 @@
       "cardtrader": [
         {
           "id": 124326,
-          "match_type": "scryfall",
+          "name": "Pichu Bros.",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "POP Series 3",
           "expansion_code": "pop3",
           "collector_number": "16/17",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -1362,7 +1658,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277464
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124326/preview_pichu-bros-non-holo-promo-16-17-pop-series-3.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88024,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1442
         }
       ]
     },
@@ -1383,10 +1690,13 @@
       "cardtrader": [
         {
           "id": 124328,
-          "match_type": "scryfall",
+          "name": "Ho-Oh EX",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "POP Series 3",
           "expansion_code": "pop3",
           "collector_number": "17/17h",
+          "rarity": "Promo",
           "finishes": [
             "normal"
           ],
@@ -1440,7 +1750,16 @@
                 "pt"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124328/preview_ho-oh-ex-holo-promo-17-17-pop-series-3.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 97809,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1442
         }
       ]
     },
@@ -1461,10 +1780,13 @@
       "cardtrader": [
         {
           "id": 124327,
-          "match_type": "scryfall",
+          "name": "Ho-Oh EX",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "POP Series 3",
           "expansion_code": "pop3",
           "collector_number": "17/17",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1518,7 +1840,18 @@
                 "pt"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277465
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124327/preview_ho-oh-ex-non-holo-promo-17-17-pop-series-3.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86129,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1442
         }
       ]
     }
