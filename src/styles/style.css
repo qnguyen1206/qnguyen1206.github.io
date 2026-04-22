@@ -1,15 +1,7 @@
 /* Base styles */
 body {
   font-family: var(--font-family);
-  background: linear-gradient(
-    to bottom,
-    #3d5a80 0%,
-    #2c4563 20%,
-    #1e3047 40%,
-    #12202e 60%,
-    #0a1219 80%,
-    #000000 100%
-  );
+  background: #000000;
   background-attachment: fixed;
   color: var(--color-text);
   line-height: var(--line-height-normal);
@@ -26,8 +18,8 @@ body {
 ::-webkit-scrollbar-track {
   background: linear-gradient(
     to bottom,
-    rgba(61, 90, 128, 0.3),
-    rgba(10, 18, 25, 0.3)
+    rgba(8, 8, 8, 0.9),
+    rgba(0, 0, 0, 0.95)
   );
   border-radius: 10px;
 }
@@ -64,7 +56,7 @@ body {
 /* Firefox Scrollbar */
 * {
   scrollbar-width: thin;
-  scrollbar-color: rgba(33, 212, 255, 0.6) rgba(10, 18, 25, 0.3);
+  scrollbar-color: rgba(33, 212, 255, 0.6) rgba(0, 0, 0, 0.9);
 }
 
 /* Layout */

@@ -2,7 +2,6 @@ export function initHero() {
   const hero = document.getElementById('hero');
 
   hero.innerHTML = `
-    <div class="parallax-bg"></div>
     <div class="container">
       <div class="hero-content">
         <div class="hero-text">
@@ -33,13 +32,6 @@ export function initHero() {
     <div class="hero-footer">
       <div class="hero-copyright">
         <p>© ${new Date().getFullYear()} Quang Nguyen All rights reserved</p>
-      </div>
-      <div class="scroll-indicator">
-        <img src="/images/Scroll down.gif" alt="Scroll Down" class="scroll-gif" />
-      </div>
-      <div class="bg-credit">
-        Background image by 
-        <a href="https://www.needpix.com/photo/1104067/full-moon-landscape-sea-lake-island-bank-trees-reflections-night">needpix.com</a>
       </div>
     </div>
     <div class="stars-container"></div>
@@ -78,13 +70,6 @@ export function initHero() {
         margin: 0;
       }
 
-      .bg-credit {
-        font-size: var(--font-size-xs);
-        color: rgba(255, 255, 255, 0.7);
-        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
-        text-align: right;
-      }
-
       .scroll-indicator {
         display: flex;
         align-items: center;
@@ -98,32 +83,6 @@ export function initHero() {
         opacity: 1;
         transition: opacity 0.3s ease;
         filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
-      }
-
-      .bg-credit a {
-        color: rgba(255, 255, 255, 0.7);
-        text-decoration: underline;
-        transition: color var(--transition-normal) var(--easing-out);
-      }
-
-      .bg-credit a:hover {
-        color: var(--color-primary-500);
-      }
-
-      .parallax-bg {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-image: url('/images/background_img.jpg');
-        background-size: cover;
-        background-position: center top;
-        background-repeat: no-repeat;
-        animation: fadeInBackground 1s ease-out;
-        transform: translateY(0);
-        z-index: -1;
-        background-color: rgba(0, 0, 0, 0.7);
       }
 
       .hero-content {
@@ -349,15 +308,6 @@ export function initHero() {
         100% { background-position: 0% 50%; }
       }
 
-      @keyframes fadeInBackground {
-        from {
-          opacity: 0;
-        }
-        to {
-          opacity: 1;
-        }
-      }
-
       @keyframes fadeInUp {
         from {
           opacity: 0;
@@ -399,10 +349,6 @@ export function initHero() {
           text-align: center;
         }
 
-        .bg-credit {
-          text-align: center;
-          font-size: var(--font-size-2xs);
-        }
       }
 
       @media (max-width: 480px) {
@@ -413,11 +359,6 @@ export function initHero() {
 
         .hero-copyright {
           font-size: var(--font-size-2xs);
-        }
-
-        .bg-credit {
-          font-size: 10px;
-          line-height: 1.3;
         }
 
         .scroll-gif {
@@ -448,17 +389,6 @@ export function initHero() {
   }
 
   createStars();
-
-  window.addEventListener('scroll', () => {
-    const scrolled = window.pageYOffset;
-    const parallaxBg = document.querySelector('.parallax-bg');
-    parallaxBg.style.transform = `translateY(${scrolled * 0.3}px)`;
-  });
-
-  window.addEventListener('load', () => {
-    const parallaxBg = document.querySelector('.parallax-bg');
-    parallaxBg.style.transform = 'translateY(0)';
-  });
 
   initHeroNavigation();
 }
