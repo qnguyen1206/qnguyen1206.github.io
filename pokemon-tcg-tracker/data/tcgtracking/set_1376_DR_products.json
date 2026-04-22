@@ -4,8 +4,8 @@
   "set_abbr": "DR",
   "set_released": "2003-11-24",
   "product_count": 103,
-  "data_modified": "2026-02-01T14:23:08-05:00",
-  "file_generated": "2026-02-02T03:32:32-05:00",
+  "data_modified": "2026-04-15T07:07:35-04:00",
+  "file_generated": "2026-04-16T04:30:48-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/1376/pricing",
   "products": [
     {
@@ -55,9 +55,13 @@
       "cardtrader": [
         {
           "id": 105250,
-          "match_type": "scryfall",
+          "name": "EX Dragon Booster",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -91,7 +95,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            271842
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105250/preview_ex-dragon-booster-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 98519,
+          "game_id": 5,
+          "category_id": 66,
+          "category_name": "Pokémon Booster",
+          "product_type": "booster",
+          "group_id": 1376
         }
       ]
     },
@@ -112,10 +127,13 @@
       "cardtrader": [
         {
           "id": 115346,
-          "match_type": "scryfall",
+          "name": "Absol",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "001",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -176,7 +194,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275878
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115346/preview_absol-rare-holo-1-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83449,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -197,10 +226,13 @@
       "cardtrader": [
         {
           "id": 115364,
-          "match_type": "scryfall",
+          "name": "Salamence",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "010",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -261,7 +293,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275887
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115364/preview_salamence-rare-holo-10-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88895,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -282,10 +325,13 @@
       "cardtrader": [
         {
           "id": 115534,
-          "match_type": "scryfall",
+          "name": "Charizard",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "100/97",
+          "rarity": "Secret Rare",
           "finishes": [
             "normal"
           ],
@@ -337,7 +383,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275977
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115534/preview_charizard-secret-rare-100-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84187,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -358,10 +415,13 @@
       "cardtrader": [
         {
           "id": 115366,
-          "match_type": "scryfall",
+          "name": "Shedinja",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "11/97",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -422,7 +482,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275888
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115366/preview_shedinja-rare-holo-11-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89117,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -443,10 +514,13 @@
       "cardtrader": [
         {
           "id": 115369,
-          "match_type": "scryfall",
+          "name": "Torkoal",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "12/97",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -507,7 +581,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275889
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115369/preview_torkoal-rare-holo-12-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89966,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -528,10 +613,13 @@
       "cardtrader": [
         {
           "id": 115371,
-          "match_type": "scryfall",
+          "name": "Crawdaunt",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "13/97",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -592,7 +680,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275890
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115371/preview_crawdaunt-13-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84462,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -613,10 +712,13 @@
       "cardtrader": [
         {
           "id": 115373,
-          "match_type": "scryfall",
+          "name": "Dragonair",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "14/97",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -677,7 +779,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275891
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115373/preview_dragonair-14-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84899,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -698,10 +811,13 @@
       "cardtrader": [
         {
           "id": 115375,
-          "match_type": "scryfall",
+          "name": "Flygon",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "15/97",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -762,7 +878,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275892
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115375/preview_flygon-15-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85522,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -783,10 +910,13 @@
       "cardtrader": [
         {
           "id": 115377,
-          "match_type": "scryfall",
+          "name": "Girafarig",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "16/97",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -847,7 +977,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275893
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115377/preview_girafarig-16-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85729,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -868,10 +1009,13 @@
       "cardtrader": [
         {
           "id": 115379,
-          "match_type": "scryfall",
+          "name": "Magneton",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "17/97",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -932,7 +1076,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275894
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115379/preview_magneton-17-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87100,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -953,10 +1108,13 @@
       "cardtrader": [
         {
           "id": 115381,
-          "match_type": "scryfall",
+          "name": "Ninjask",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "18/97",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -1017,7 +1175,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275895
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115381/preview_ninjask-18-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87783,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -1038,10 +1207,13 @@
       "cardtrader": [
         {
           "id": 115383,
-          "match_type": "scryfall",
+          "name": "Salamence",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "19/97",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -1102,7 +1274,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275896
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115383/preview_salamence-19-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88896,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -1123,10 +1306,13 @@
       "cardtrader": [
         {
           "id": 115348,
-          "match_type": "scryfall",
+          "name": "Altaria",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "002",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -1187,7 +1373,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275879
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115348/preview_altaria-rare-holo-2-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83513,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -1208,10 +1405,13 @@
       "cardtrader": [
         {
           "id": 115385,
-          "match_type": "scryfall",
+          "name": "Shelgon",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "20/97",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -1272,7 +1472,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275897
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115385/preview_shelgon-20-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89122,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -1293,10 +1504,13 @@
       "cardtrader": [
         {
           "id": 115387,
-          "match_type": "scryfall",
+          "name": "Skarmory",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "21/97",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -1357,7 +1571,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275898
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115387/preview_skarmory-21-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89237,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -1378,10 +1603,13 @@
       "cardtrader": [
         {
           "id": 115389,
-          "match_type": "scryfall",
+          "name": "Vibrava",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "22/97",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -1442,7 +1670,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275899
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115389/preview_vibrava-22-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90332,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -1463,10 +1702,13 @@
       "cardtrader": [
         {
           "id": 115391,
-          "match_type": "scryfall",
+          "name": "Bagon",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "23/97",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -1527,7 +1769,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275900
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115391/preview_bagon-23-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83691,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -1548,10 +1801,13 @@
       "cardtrader": [
         {
           "id": 115393,
-          "match_type": "scryfall",
+          "name": "Camerupt",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "24/97",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -1612,7 +1868,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275901
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115393/preview_camerupt-24-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84088,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -1633,10 +1900,13 @@
       "cardtrader": [
         {
           "id": 115395,
-          "match_type": "scryfall",
+          "name": "Combusken",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "25/97",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -1697,7 +1967,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275902
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115395/preview_combusken-25-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84402,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -1718,10 +1999,13 @@
       "cardtrader": [
         {
           "id": 115397,
-          "match_type": "scryfall",
+          "name": "Dratini",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "26/97",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -1782,7 +2066,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275903
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115397/preview_dratini-26-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84932,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -1803,10 +2098,13 @@
       "cardtrader": [
         {
           "id": 115399,
-          "match_type": "scryfall",
+          "name": "Flaaffy",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "27/97",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -1867,7 +2165,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275904
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115399/preview_flaaffy-27-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85476,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -1888,10 +2197,13 @@
       "cardtrader": [
         {
           "id": 115401,
-          "match_type": "scryfall",
+          "name": "Forretress",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "28/97",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -1952,7 +2264,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275905
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115401/preview_forretress-28-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85547,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -1973,10 +2296,13 @@
       "cardtrader": [
         {
           "id": 115403,
-          "match_type": "scryfall",
+          "name": "Graveler",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "29/97",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2037,7 +2363,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275906
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115403/preview_graveler-29-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85889,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -2058,10 +2395,13 @@
       "cardtrader": [
         {
           "id": 115350,
-          "match_type": "scryfall",
+          "name": "Crawdaunt",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "03/97",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -2122,7 +2462,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275880
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115350/preview_crawdaunt-rare-holo-3-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84461,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -2143,10 +2494,13 @@
       "cardtrader": [
         {
           "id": 115405,
-          "match_type": "scryfall",
+          "name": "Graveler",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "30/97",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2207,7 +2561,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275907
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115405/preview_graveler-30-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85890,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -2228,10 +2593,13 @@
       "cardtrader": [
         {
           "id": 115407,
-          "match_type": "scryfall",
+          "name": "Grovyle",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "31/97",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2292,7 +2660,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275908
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115407/preview_grovyle-31-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85937,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -2313,10 +2692,13 @@
       "cardtrader": [
         {
           "id": 115409,
-          "match_type": "scryfall",
+          "name": "Gyarados",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "32/97",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2377,7 +2759,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275909
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115409/preview_gyarados-32-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85990,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -2398,10 +2791,13 @@
       "cardtrader": [
         {
           "id": 115411,
-          "match_type": "scryfall",
+          "name": "Horsea",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "33/97",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2462,7 +2858,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275910
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115411/preview_horsea-33-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86188,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -2483,10 +2890,13 @@
       "cardtrader": [
         {
           "id": 115413,
-          "match_type": "scryfall",
+          "name": "Houndoom",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "34/97",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2547,7 +2957,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275911
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115413/preview_houndoom-34-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86205,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -2568,10 +2989,13 @@
       "cardtrader": [
         {
           "id": 115415,
-          "match_type": "scryfall",
+          "name": "Magneton",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "35/97",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2632,7 +3056,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275912
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115415/preview_magneton-35-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87101,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -2653,10 +3088,13 @@
       "cardtrader": [
         {
           "id": 115417,
-          "match_type": "scryfall",
+          "name": "Marshtomp",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "36/97",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2717,7 +3155,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275913
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115417/preview_marshtomp-36-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87234,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -2738,10 +3187,13 @@
       "cardtrader": [
         {
           "id": 115419,
-          "match_type": "scryfall",
+          "name": "Meditite",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "37/97",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2802,7 +3254,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275914
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115419/preview_meditite-37-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87278,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -2823,10 +3286,13 @@
       "cardtrader": [
         {
           "id": 115421,
-          "match_type": "scryfall",
+          "name": "Ninjask",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "38/97",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2887,7 +3353,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275915
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115421/preview_ninjask-38-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87784,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -2908,10 +3385,13 @@
       "cardtrader": [
         {
           "id": 115423,
-          "match_type": "scryfall",
+          "name": "Seadra",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "39/97",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2972,7 +3452,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275916
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115423/preview_seadra-39-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89012,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -2993,10 +3484,13 @@
       "cardtrader": [
         {
           "id": 115352,
-          "match_type": "scryfall",
+          "name": "Flygon",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "004",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -3057,7 +3551,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275881
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115352/preview_flygon-rare-holo-4-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85521,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -3078,10 +3583,13 @@
       "cardtrader": [
         {
           "id": 115425,
-          "match_type": "scryfall",
+          "name": "Seadra",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "40/97",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3142,7 +3650,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275917
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115425/preview_seadra-40-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89013,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -3163,10 +3682,13 @@
       "cardtrader": [
         {
           "id": 115427,
-          "match_type": "scryfall",
+          "name": "Shelgon",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "41/97",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3227,7 +3749,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275918
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115427/preview_shelgon-41-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89123,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -3248,10 +3781,13 @@
       "cardtrader": [
         {
           "id": 115429,
-          "match_type": "scryfall",
+          "name": "Shelgon",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "42/97",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3312,7 +3848,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275919
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115429/preview_shelgon-42-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89124,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -3333,10 +3880,13 @@
       "cardtrader": [
         {
           "id": 115431,
-          "match_type": "scryfall",
+          "name": "Shuppet",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "43/97",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3397,7 +3947,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275920
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115431/preview_shuppet-43-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89195,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -3418,10 +3979,13 @@
       "cardtrader": [
         {
           "id": 115433,
-          "match_type": "scryfall",
+          "name": "Snorunt",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "44/97",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3482,7 +4046,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275921
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115433/preview_snorunt-44-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89398,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -3503,10 +4078,13 @@
       "cardtrader": [
         {
           "id": 115435,
-          "match_type": "scryfall",
+          "name": "Swellow",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "45/97",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3567,7 +4145,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275922
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115435/preview_swellow-45-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89689,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -3588,10 +4177,13 @@
       "cardtrader": [
         {
           "id": 115437,
-          "match_type": "scryfall",
+          "name": "Vibrava",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "46/97",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3652,7 +4244,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275923
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115437/preview_vibrava-46-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90333,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -3673,10 +4276,13 @@
       "cardtrader": [
         {
           "id": 115439,
-          "match_type": "scryfall",
+          "name": "Vibrava",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "47/97",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3737,7 +4343,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275924
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115439/preview_vibrava-47-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90334,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -3758,10 +4375,13 @@
       "cardtrader": [
         {
           "id": 115441,
-          "match_type": "scryfall",
+          "name": "Whiscash",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "48/97",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3822,7 +4442,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275925
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115441/preview_whiscash-48-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90574,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -3843,10 +4474,13 @@
       "cardtrader": [
         {
           "id": 115443,
-          "match_type": "scryfall",
+          "name": "Bagon",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "49/97",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -3907,7 +4541,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275926
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115443/preview_bagon-49-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83692,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -3928,10 +4573,13 @@
       "cardtrader": [
         {
           "id": 115354,
-          "match_type": "scryfall",
+          "name": "Golem",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "005",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -3992,7 +4640,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275882
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115354/preview_golem-rare-holo-5-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85826,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -4013,10 +4672,13 @@
       "cardtrader": [
         {
           "id": 115445,
-          "match_type": "scryfall",
+          "name": "Bagon",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "50/97",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4077,7 +4739,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275927
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115445/preview_bagon-50-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83693,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -4098,10 +4771,13 @@
       "cardtrader": [
         {
           "id": 115447,
-          "match_type": "scryfall",
+          "name": "Barboach",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "51/97",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4162,7 +4838,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275928
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115447/preview_barboach-51-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83726,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -4183,10 +4870,13 @@
       "cardtrader": [
         {
           "id": 115449,
-          "match_type": "scryfall",
+          "name": "Corphish",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "52/97",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4247,7 +4937,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275929
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115449/preview_corphish-52-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84429,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -4268,10 +4969,13 @@
       "cardtrader": [
         {
           "id": 115451,
-          "match_type": "scryfall",
+          "name": "Corphish",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "53/97",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4332,7 +5036,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275930
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115451/preview_corphish-53-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84430,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -4353,10 +5068,13 @@
       "cardtrader": [
         {
           "id": 115453,
-          "match_type": "scryfall",
+          "name": "Corphish",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "54/97",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4417,7 +5135,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275931
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115453/preview_corphish-54-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84431,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -4438,10 +5167,13 @@
       "cardtrader": [
         {
           "id": 115455,
-          "match_type": "scryfall",
+          "name": "Geodude",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "55/97",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4502,7 +5234,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275932
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115455/preview_geodude-55-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85687,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -4523,10 +5266,13 @@
       "cardtrader": [
         {
           "id": 115457,
-          "match_type": "scryfall",
+          "name": "Geodude",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "56/97",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4587,7 +5333,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275933
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115457/preview_geodude-56-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85688,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -4608,10 +5365,13 @@
       "cardtrader": [
         {
           "id": 115459,
-          "match_type": "scryfall",
+          "name": "Grimer",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "57/97",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4672,7 +5432,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275934
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115459/preview_grimer-57-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85908,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -4693,10 +5464,13 @@
       "cardtrader": [
         {
           "id": 115461,
-          "match_type": "scryfall",
+          "name": "Horsea",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "58/97",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4757,7 +5531,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275935
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115461/preview_horsea-58-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86189,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -4778,10 +5563,13 @@
       "cardtrader": [
         {
           "id": 115463,
-          "match_type": "scryfall",
+          "name": "Houndour",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "59/97",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4842,7 +5630,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275936
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115463/preview_houndour-59-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86224,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -4863,10 +5662,13 @@
       "cardtrader": [
         {
           "id": 115356,
-          "match_type": "scryfall",
+          "name": "Grumpig",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "006",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -4927,7 +5729,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275883
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115356/preview_grumpig-rare-holo-6-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85964,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -4948,10 +5761,13 @@
       "cardtrader": [
         {
           "id": 115465,
-          "match_type": "scryfall",
+          "name": "Magikarp",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "60/97",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5012,7 +5828,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275937
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115465/preview_magikarp-60-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87025,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -5033,10 +5860,13 @@
       "cardtrader": [
         {
           "id": 115467,
-          "match_type": "scryfall",
+          "name": "Magnemite",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "61/97",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5097,7 +5927,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275938
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115467/preview_magnemite-61-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87072,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -5118,10 +5959,13 @@
       "cardtrader": [
         {
           "id": 115469,
-          "match_type": "scryfall",
+          "name": "Magnemite",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "62/97",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5182,7 +6026,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275939
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115469/preview_magnemite-62-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87073,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -5203,10 +6058,13 @@
       "cardtrader": [
         {
           "id": 115471,
-          "match_type": "scryfall",
+          "name": "Magnemite",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "63/97",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5267,7 +6125,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275940
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115471/preview_magnemite-63-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87074,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -5288,10 +6157,13 @@
       "cardtrader": [
         {
           "id": 115473,
-          "match_type": "scryfall",
+          "name": "Mareep",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "64/97",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5352,7 +6224,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275941
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115473/preview_mareep-64-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87197,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -5373,10 +6256,13 @@
       "cardtrader": [
         {
           "id": 115475,
-          "match_type": "scryfall",
+          "name": "Mudkip",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "65/97",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5437,7 +6323,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275942
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115475/preview_mudkip-65-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87607,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -5458,10 +6355,13 @@
       "cardtrader": [
         {
           "id": 115477,
-          "match_type": "scryfall",
+          "name": "Nincada",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "66/97",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5522,7 +6422,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275943
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115477/preview_nincada-66-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87756,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -5543,10 +6454,13 @@
       "cardtrader": [
         {
           "id": 115479,
-          "match_type": "scryfall",
+          "name": "Nincada",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "67/97",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5607,7 +6521,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275944
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115479/preview_nincada-67-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87757,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -5628,10 +6553,13 @@
       "cardtrader": [
         {
           "id": 115481,
-          "match_type": "scryfall",
+          "name": "Nincada",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "68/97",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5692,7 +6620,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275945
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115481/preview_nincada-68-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87758,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -5713,10 +6652,13 @@
       "cardtrader": [
         {
           "id": 115483,
-          "match_type": "scryfall",
+          "name": "Numel",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "69/97",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5777,7 +6719,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275946
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115483/preview_numel-69-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87806,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -5798,10 +6751,13 @@
       "cardtrader": [
         {
           "id": 115358,
-          "match_type": "scryfall",
+          "name": "Minun",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "007",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -5862,7 +6818,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275884
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115358/preview_minun-rare-holo-7-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87481,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -5883,10 +6850,13 @@
       "cardtrader": [
         {
           "id": 115485,
-          "match_type": "scryfall",
+          "name": "Numel",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "70/97",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5947,7 +6917,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275947
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115485/preview_numel-70-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87807,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -5968,10 +6949,13 @@
       "cardtrader": [
         {
           "id": 115487,
-          "match_type": "scryfall",
+          "name": "Pineco",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "71/97",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6032,7 +7016,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275948
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115487/preview_pineco-71-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88126,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -6053,10 +7048,13 @@
       "cardtrader": [
         {
           "id": 115489,
-          "match_type": "scryfall",
+          "name": "Slugma",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "72/97",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6117,7 +7115,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275949
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115489/preview_slugma-72-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89340,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -6138,10 +7147,13 @@
       "cardtrader": [
         {
           "id": 115491,
-          "match_type": "scryfall",
+          "name": "Spoink",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "73/97",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6202,7 +7214,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275950
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115491/preview_spoink-73-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89470,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -6223,10 +7246,13 @@
       "cardtrader": [
         {
           "id": 115493,
-          "match_type": "scryfall",
+          "name": "Spoink",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "74/97",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6287,7 +7313,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275951
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115493/preview_spoink-74-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89471,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -6308,10 +7345,13 @@
       "cardtrader": [
         {
           "id": 115495,
-          "match_type": "scryfall",
+          "name": "Swablu",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "75/97",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6372,7 +7412,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275952
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115495/preview_swablu-75-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89653,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -6393,10 +7444,13 @@
       "cardtrader": [
         {
           "id": 115497,
-          "match_type": "scryfall",
+          "name": "Taillow",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "76/97",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6457,7 +7511,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275953
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115497/preview_taillow-76-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89731,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -6478,10 +7543,13 @@
       "cardtrader": [
         {
           "id": 115499,
-          "match_type": "scryfall",
+          "name": "Torchic",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "77/97",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6542,7 +7610,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275954
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115499/preview_torchic-77-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89951,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -6563,10 +7642,13 @@
       "cardtrader": [
         {
           "id": 115501,
-          "match_type": "scryfall",
+          "name": "Trapinch",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "78/97",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6627,7 +7709,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275955
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115501/preview_trapinch-78-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90019,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -6648,10 +7741,13 @@
       "cardtrader": [
         {
           "id": 115503,
-          "match_type": "scryfall",
+          "name": "Trapinch",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "79/97",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6712,7 +7808,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275956
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115503/preview_trapinch-79-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90020,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -6733,10 +7840,13 @@
       "cardtrader": [
         {
           "id": 115360,
-          "match_type": "scryfall",
+          "name": "Plusle",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "08/97",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -6797,7 +7907,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275885
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115360/preview_plusle-rare-holo-8-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88161,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -6818,10 +7939,13 @@
       "cardtrader": [
         {
           "id": 115505,
-          "match_type": "scryfall",
+          "name": "Treecko",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "80/97",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6882,7 +8006,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275957
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115505/preview_treecko-80-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90034,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -6903,10 +8038,13 @@
       "cardtrader": [
         {
           "id": 115507,
-          "match_type": "scryfall",
+          "name": "Wurmple",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "81/97",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6967,7 +8105,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275958
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115507/preview_wurmple-81-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90648,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -6988,10 +8137,13 @@
       "cardtrader": [
         {
           "id": 115509,
-          "match_type": "scryfall",
+          "name": "Balloon Berry",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "82/97",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -7052,7 +8204,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275959
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115509/preview_balloon-berry-82-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83708,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -7073,10 +8236,13 @@
       "cardtrader": [
         {
           "id": 115511,
-          "match_type": "scryfall",
+          "name": "Buffer Piece",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "83/97",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -7137,7 +8303,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275960
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115511/preview_buffer-piece-83-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84012,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -7158,10 +8335,13 @@
       "cardtrader": [
         {
           "id": 115513,
-          "match_type": "scryfall",
+          "name": "Energy Recycle System",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "84/97",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -7222,7 +8402,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275961
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115513/preview_energy-recycle-system-84-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85216,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -7243,10 +8434,13 @@
       "cardtrader": [
         {
           "id": 115515,
-          "match_type": "scryfall",
+          "name": "High Pressure System",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "85/97",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -7307,7 +8501,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275962
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115515/preview_high-pressure-system-85-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86076,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -7328,10 +8533,13 @@
       "cardtrader": [
         {
           "id": 115517,
-          "match_type": "scryfall",
+          "name": "Low Pressure System",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "86/97",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -7392,7 +8600,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275963
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115517/preview_low-pressure-system-86-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86846,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -7413,10 +8632,13 @@
       "cardtrader": [
         {
           "id": 115519,
-          "match_type": "scryfall",
+          "name": "Mr. Briney's Compassion",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "87/97",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -7477,7 +8699,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275964
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115519/preview_mr-briney-s-compassion-87-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87585,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -7498,10 +8731,13 @@
       "cardtrader": [
         {
           "id": 115521,
-          "match_type": "scryfall",
+          "name": "TV Reporter",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "88/97",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -7562,7 +8798,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275965
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115521/preview_tv-reporter-88-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90083,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -7583,10 +8830,13 @@
       "cardtrader": [
         {
           "id": 115523,
-          "match_type": "scryfall",
+          "name": "Ampharos ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "89/97",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -7638,7 +8888,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275966
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115523/preview_ampharos-ex-rare-holo-89-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83550,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -7659,10 +8920,13 @@
       "cardtrader": [
         {
           "id": 115362,
-          "match_type": "scryfall",
+          "name": "Roselia",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "09/97",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -7723,7 +8987,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275886
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115362/preview_roselia-rare-holo-9-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88817,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -7744,10 +9019,13 @@
       "cardtrader": [
         {
           "id": 115524,
-          "match_type": "scryfall",
+          "name": "Dragonite ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "90/97",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -7799,7 +9077,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275967
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115524/preview_dragonite-ex-rare-holo-90-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84918,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -7820,10 +9109,13 @@
       "cardtrader": [
         {
           "id": 115525,
-          "match_type": "scryfall",
+          "name": "Golem ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "91/97",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -7875,7 +9167,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275968
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115525/preview_golem-ex-rare-holo-91-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85831,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -7896,10 +9199,13 @@
       "cardtrader": [
         {
           "id": 115526,
-          "match_type": "scryfall",
+          "name": "Kingdra ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "92/97",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -7951,7 +9257,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275969
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115526/preview_kingdra-ex-rare-holo-92-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86451,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -7972,10 +9289,13 @@
       "cardtrader": [
         {
           "id": 115527,
-          "match_type": "scryfall",
+          "name": "Latias ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "93/97",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -8027,7 +9347,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275970
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115527/preview_latias-ex-rare-holo-93-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86659,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -8048,10 +9379,13 @@
       "cardtrader": [
         {
           "id": 115528,
-          "match_type": "scryfall",
+          "name": "Latios ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "94/97",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -8103,7 +9437,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275971
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115528/preview_latios-ex-rare-holo-94-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86673,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -8124,10 +9469,13 @@
       "cardtrader": [
         {
           "id": 115529,
-          "match_type": "scryfall",
+          "name": "Magcargo ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "95/97",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -8179,7 +9527,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275972
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115529/preview_magcargo-ex-rare-holo-95-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87019,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -8200,10 +9559,13 @@
       "cardtrader": [
         {
           "id": 115530,
-          "match_type": "scryfall",
+          "name": "Muk ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "96/97",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -8255,7 +9617,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275973
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115530/preview_muk-ex-rare-holo-96-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87628,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -8276,10 +9649,13 @@
       "cardtrader": [
         {
           "id": 115531,
-          "match_type": "scryfall",
+          "name": "Rayquaza ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "97/97",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -8331,7 +9707,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275974
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115531/preview_rayquaza-ex-rare-holo-97-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88642,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -8352,10 +9739,13 @@
       "cardtrader": [
         {
           "id": 115532,
-          "match_type": "scryfall",
+          "name": "Charmander",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "98/97",
+          "rarity": "Secret Rare",
           "finishes": [
             "normal"
           ],
@@ -8407,7 +9797,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275975
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115532/preview_charmander-secret-rare-98-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84208,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     },
@@ -8428,10 +9829,13 @@
       "cardtrader": [
         {
           "id": 115533,
-          "match_type": "scryfall",
+          "name": "Charmeleon",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Dragon",
           "expansion_code": "dr",
           "collector_number": "99/97",
+          "rarity": "Secret Rare",
           "finishes": [
             "normal"
           ],
@@ -8483,7 +9887,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275976
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/115533/preview_charmeleon-secret-rare-99-97-ex-dragon.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84225,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1376
         }
       ]
     }
