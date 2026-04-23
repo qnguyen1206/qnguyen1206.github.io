@@ -2,10 +2,10 @@
   "set_id": 1414,
   "set_name": "POP Series 7",
   "set_abbr": "POP",
-  "set_released": "2026-01-24",
+  "set_released": "2026-02-27",
   "product_count": 18,
-  "data_modified": "2026-02-01T14:23:26-05:00",
-  "file_generated": "2026-02-02T03:32:17-05:00",
+  "data_modified": "2026-04-21T07:08:05-04:00",
+  "file_generated": "2026-04-22T04:30:42-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/1414/pricing",
   "products": [
     {
@@ -25,9 +25,13 @@
       "cardtrader": [
         {
           "id": 105389,
-          "match_type": "scryfall",
+          "name": "POP Series 7 Booster",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "POP Series 7",
           "expansion_code": "pop7",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -61,7 +65,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            282567
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105389/preview_pop-series-7-booster-pop-series-7.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 190535,
+          "game_id": 5,
+          "category_id": 66,
+          "category_name": "Pokémon Booster",
+          "product_type": "booster",
+          "group_id": 1414
         }
       ]
     },
@@ -82,10 +97,13 @@
       "cardtrader": [
         {
           "id": 124403,
-          "match_type": "scryfall",
+          "name": "Ampharos Lv.52",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "POP Series 7",
           "expansion_code": "pop7",
           "collector_number": "01/17",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -146,7 +164,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278033
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124403/preview_ampharos-non-holo-promo-1-17-pop-series-7.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83542,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1414
         }
       ]
     },
@@ -167,10 +196,13 @@
       "cardtrader": [
         {
           "id": 124405,
-          "match_type": "scryfall",
+          "name": "Gallade",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "POP Series 7",
           "expansion_code": "pop7",
           "collector_number": "02/17",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -231,7 +263,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278034
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124405/preview_gallade-non-holo-promo-2-17-pop-series-7.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85605,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1414
         }
       ]
     },
@@ -252,10 +295,13 @@
       "cardtrader": [
         {
           "id": 124407,
-          "match_type": "scryfall",
+          "name": "Latias",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "POP Series 7",
           "expansion_code": "pop7",
           "collector_number": "03/17",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -316,7 +362,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278035
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124407/preview_latias-non-holo-promo-3-17-pop-series-7.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86652,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1414
         }
       ]
     },
@@ -337,10 +394,13 @@
       "cardtrader": [
         {
           "id": 124409,
-          "match_type": "scryfall",
+          "name": "Latios",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "POP Series 7",
           "expansion_code": "pop7",
           "collector_number": "04/17",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -401,7 +461,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278036
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124409/preview_latios-non-holo-promo-4-17-pop-series-7.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86666,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1414
         }
       ]
     },
@@ -422,12 +493,16 @@
       "cardtrader": [
         {
           "id": 124411,
-          "match_type": "scryfall",
+          "name": "Mothim Lv.39",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "POP Series 7",
           "expansion_code": "pop7",
           "collector_number": "05/17",
+          "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -486,7 +561,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278037
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124411/preview_mothim-non-holo-promo-5-17-pop-series-7.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87581,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1414
         }
       ]
     },
@@ -507,10 +593,13 @@
       "cardtrader": [
         {
           "id": 124413,
-          "match_type": "scryfall",
+          "name": "Delibird Lv.26",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "POP Series 7",
           "expansion_code": "pop7",
           "collector_number": "06/17",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -571,7 +660,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278038
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124413/preview_delibird-non-holo-promo-6-17-pop-series-7.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84749,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1414
         }
       ]
     },
@@ -592,10 +692,13 @@
       "cardtrader": [
         {
           "id": 124414,
-          "match_type": "scryfall",
+          "name": "Flaaffy Lv.26",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "POP Series 7",
           "expansion_code": "pop7",
           "collector_number": "07/17",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -656,7 +759,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278039
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124414/preview_flaaffy-non-holo-promo-7-17-pop-series-7.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85480,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1414
         }
       ]
     },
@@ -677,10 +791,13 @@
       "cardtrader": [
         {
           "id": 124415,
-          "match_type": "scryfall",
+          "name": "Kirlia",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "POP Series 7",
           "expansion_code": "pop7",
           "collector_number": "08/17",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -741,7 +858,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278040
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124415/preview_kirlia-non-holo-promo-8-17-pop-series-7.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86467,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1414
         }
       ]
     },
@@ -762,10 +890,13 @@
       "cardtrader": [
         {
           "id": 124417,
-          "match_type": "scryfall",
+          "name": "Stantler",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "POP Series 7",
           "expansion_code": "pop7",
           "collector_number": "09/17",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -826,7 +957,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278041
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124417/preview_stantler-non-holo-promo-9-17-pop-series-7.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89505,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1414
         }
       ]
     },
@@ -847,10 +989,13 @@
       "cardtrader": [
         {
           "id": 124418,
-          "match_type": "scryfall",
+          "name": "Wormadam Sandy Cloak",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "POP Series 7",
           "expansion_code": "pop7",
           "collector_number": "10/17",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -911,7 +1056,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278042
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124418/preview_wormadam-sandy-cloak-non-holo-promo-10-17-pop-series-7.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90643,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1414
         }
       ]
     },
@@ -932,10 +1088,13 @@
       "cardtrader": [
         {
           "id": 124419,
-          "match_type": "scryfall",
+          "name": "Burmy Plant Cloak",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "POP Series 7",
           "expansion_code": "pop7",
           "collector_number": "11/17",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -987,7 +1146,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278043
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124419/preview_burmy-plant-cloak-non-holo-promo-11-17-pop-series-7.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84050,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1414
         }
       ]
     },
@@ -1008,10 +1178,13 @@
       "cardtrader": [
         {
           "id": 124420,
-          "match_type": "scryfall",
+          "name": "Burmy Sandy Cloak",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "POP Series 7",
           "expansion_code": "pop7",
           "collector_number": "12/17",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -1063,7 +1236,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278044
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124420/preview_burmy-sandy-cloak-non-holo-promo-12-17-pop-series-7.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84053,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1414
         }
       ]
     },
@@ -1084,10 +1268,13 @@
       "cardtrader": [
         {
           "id": 124421,
-          "match_type": "scryfall",
+          "name": "Corsola Lv.32",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "POP Series 7",
           "expansion_code": "pop7",
           "collector_number": "13/17",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -1139,7 +1326,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278045
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124421/preview_corsola-non-holo-promo-13-17-pop-series-7.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84442,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1414
         }
       ]
     },
@@ -1160,10 +1358,13 @@
       "cardtrader": [
         {
           "id": 124422,
-          "match_type": "scryfall",
+          "name": "Mareep Lv.11",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "POP Series 7",
           "expansion_code": "pop7",
           "collector_number": "14/17",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -1215,7 +1416,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278046
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124422/preview_mareep-non-holo-promo-14-17-pop-series-7.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87202,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1414
         }
       ]
     },
@@ -1236,10 +1448,13 @@
       "cardtrader": [
         {
           "id": 124423,
-          "match_type": "scryfall",
+          "name": "Ralts",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "POP Series 7",
           "expansion_code": "pop7",
           "collector_number": "15/17",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -1291,7 +1506,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278047
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124423/preview_ralts-non-holo-promo-15-17-pop-series-7.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88562,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1414
         }
       ]
     },
@@ -1312,10 +1538,13 @@
       "cardtrader": [
         {
           "id": 124424,
-          "match_type": "scryfall",
+          "name": "Sentret",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "POP Series 7",
           "expansion_code": "pop7",
           "collector_number": "16/17",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -1367,7 +1596,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278048
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124424/preview_sentret-non-holo-promo-16-17-pop-series-7.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89067,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1414
         }
       ]
     },
@@ -1388,10 +1628,13 @@
       "cardtrader": [
         {
           "id": 124425,
-          "match_type": "scryfall",
+          "name": "Spinda",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "POP Series 7",
           "expansion_code": "pop7",
           "collector_number": "17/17",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -1443,7 +1686,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278049
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/124425/preview_spinda-non-holo-promo-17-17-pop-series-7.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89462,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1414
         }
       ]
     }

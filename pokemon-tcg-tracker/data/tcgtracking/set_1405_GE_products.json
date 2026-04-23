@@ -4,8 +4,8 @@
   "set_abbr": "GE",
   "set_released": "2008-02-13",
   "product_count": 108,
-  "data_modified": "2026-02-07T07:05:49-05:00",
-  "file_generated": "2026-02-08T03:30:41-05:00",
+  "data_modified": "2026-04-15T07:07:42-04:00",
+  "file_generated": "2026-04-16T04:30:48-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/1405/pricing",
   "products": [
     {
@@ -25,9 +25,13 @@
       "cardtrader": [
         {
           "id": 105381,
-          "match_type": "scryfall",
+          "name": "Great Encounters Booster Box",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -61,7 +65,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            271901
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105381/preview_great-encounters-booster-box-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 98544,
+          "game_id": 5,
+          "category_id": 67,
+          "category_name": "Pokémon Booster Box",
+          "product_type": "booster_box",
+          "group_id": 1405
         }
       ]
     },
@@ -82,9 +97,13 @@
       "cardtrader": [
         {
           "id": 105380,
-          "match_type": "scryfall",
+          "name": "Great Encounters Booster",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -118,7 +137,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            271834
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105380/preview_great-encounters-booster-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 98545,
+          "game_id": 5,
+          "category_id": 66,
+          "category_name": "Pokémon Booster",
+          "product_type": "booster",
+          "group_id": 1405
         }
       ]
     },
@@ -139,10 +169,13 @@
       "cardtrader": [
         {
           "id": 120073,
-          "match_type": "scryfall",
+          "name": "Blaziken Lv.56",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "001",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal",
             "foil"
@@ -206,7 +239,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277903
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120073/preview_blaziken-rare-holo-1-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83909,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -227,10 +271,13 @@
       "cardtrader": [
         {
           "id": 120091,
-          "match_type": "scryfall",
+          "name": "Tangrowth Lv.38",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "010",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal",
             "foil"
@@ -294,7 +341,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277912
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120091/preview_tangrowth-rare-holo-10-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89751,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -315,10 +373,13 @@
       "cardtrader": [
         {
           "id": 120271,
-          "match_type": "scryfall",
+          "name": "Moonlight Stadium",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "100",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -381,7 +442,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278002
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120271/preview_moonlight-stadium-100-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87579,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -402,10 +474,13 @@
       "cardtrader": [
         {
           "id": 120273,
-          "match_type": "scryfall",
+          "name": "Premier Ball",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "101",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -468,7 +543,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278003
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120273/preview_premier-ball-101-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88356,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -489,10 +575,13 @@
       "cardtrader": [
         {
           "id": 120275,
-          "match_type": "scryfall",
+          "name": "Rare Candy",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "102",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -555,7 +644,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278004
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120275/preview_rare-candy-102-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88593,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -576,10 +676,13 @@
       "cardtrader": [
         {
           "id": 120277,
-          "match_type": "scryfall",
+          "name": "Cresselia LV.X",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "103",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal",
             "foil"
@@ -643,7 +746,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278005
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120277/preview_cresselia-lv-x-rare-holo-103-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84472,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -664,10 +778,13 @@
       "cardtrader": [
         {
           "id": 120278,
-          "match_type": "scryfall",
+          "name": "Darkrai LV.X",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "104",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal",
             "foil"
@@ -731,7 +848,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278006
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120278/preview_darkrai-lv-x-rare-holo-104-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84711,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -752,10 +880,13 @@
       "cardtrader": [
         {
           "id": 120279,
-          "match_type": "scryfall",
+          "name": "Dialga LV.X",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "105",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal",
             "foil"
@@ -819,7 +950,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278007
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120279/preview_dialga-lv-x-rare-holo-105-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84812,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -840,10 +982,13 @@
       "cardtrader": [
         {
           "id": 120280,
-          "match_type": "scryfall",
+          "name": "Palkia LV.X",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "106",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal",
             "foil"
@@ -907,7 +1052,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278008
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120280/preview_palkia-lv-x-rare-holo-106-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87919,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -928,10 +1084,13 @@
       "cardtrader": [
         {
           "id": 120093,
-          "match_type": "scryfall",
+          "name": "Togekiss Lv.51",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "011",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal",
             "foil"
@@ -995,7 +1154,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277913
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120093/preview_togekiss-rare-holo-11-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89923,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -1016,10 +1186,13 @@
       "cardtrader": [
         {
           "id": 120095,
-          "match_type": "scryfall",
+          "name": "Altaria Lv.42",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "012",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -1083,7 +1256,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277914
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120095/preview_altaria-12-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83516,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -1104,10 +1288,13 @@
       "cardtrader": [
         {
           "id": 120097,
-          "match_type": "scryfall",
+          "name": "Beedrill Lv.41",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "013",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -1171,7 +1358,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277915
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120097/preview_beedrill-13-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83770,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -1192,10 +1390,13 @@
       "cardtrader": [
         {
           "id": 120099,
-          "match_type": "scryfall",
+          "name": "Butterfree Lv.36",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "014",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -1259,7 +1460,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277916
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120099/preview_butterfree-14-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84066,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -1280,10 +1492,13 @@
       "cardtrader": [
         {
           "id": 120101,
-          "match_type": "scryfall",
+          "name": "Claydol Lv.45",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "015",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -1347,7 +1562,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277917
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120101/preview_claydol-15-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84337,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -1368,10 +1594,13 @@
       "cardtrader": [
         {
           "id": 120103,
-          "match_type": "scryfall",
+          "name": "Dialga Lv.68",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "016",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -1435,7 +1664,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277918
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120103/preview_dialga-16-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84799,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -1456,10 +1696,13 @@
       "cardtrader": [
         {
           "id": 120105,
-          "match_type": "scryfall",
+          "name": "Exploud Lv.58",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "017",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -1523,7 +1766,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277919
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120105/preview_exploud-17-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85372,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -1544,10 +1798,13 @@
       "cardtrader": [
         {
           "id": 120107,
-          "match_type": "scryfall",
+          "name": "Houndoom Lv.41",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "018",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -1611,7 +1868,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277920
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120107/preview_houndoom-18-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86207,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -1632,10 +1900,13 @@
       "cardtrader": [
         {
           "id": 120109,
-          "match_type": "scryfall",
+          "name": "Hypno Lv.28",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "019",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -1699,7 +1970,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277921
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120109/preview_hypno-19-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86254,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -1720,10 +2002,13 @@
       "cardtrader": [
         {
           "id": 120075,
-          "match_type": "scryfall",
+          "name": "Cresselia Lv.48",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "002",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal",
             "foil"
@@ -1787,7 +2072,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277904
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120075/preview_blaziken-rare-holo-1-106-great-encounters-120075.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84467,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -1808,10 +2104,13 @@
       "cardtrader": [
         {
           "id": 120111,
-          "match_type": "scryfall",
+          "name": "Kingler Lv.33",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "020",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -1875,7 +2174,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277922
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120111/preview_kingler-20-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86457,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -1896,10 +2206,13 @@
       "cardtrader": [
         {
           "id": 120113,
-          "match_type": "scryfall",
+          "name": "Lapras Lv.47",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "021",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -1963,7 +2276,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277923
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120113/preview_lapras-21-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86618,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -1984,10 +2308,13 @@
       "cardtrader": [
         {
           "id": 120115,
-          "match_type": "scryfall",
+          "name": "Latias Lv.45",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "022",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -2051,7 +2378,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277924
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120115/preview_latias-22-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86651,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -2072,10 +2410,13 @@
       "cardtrader": [
         {
           "id": 120117,
-          "match_type": "scryfall",
+          "name": "Latios Lv.47",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "023",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -2139,7 +2480,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277925
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120117/preview_latios-23-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86665,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -2160,10 +2512,13 @@
       "cardtrader": [
         {
           "id": 120119,
-          "match_type": "scryfall",
+          "name": "Mawile Lv.32",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "024",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -2227,7 +2582,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277926
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120119/preview_mawile-24-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87261,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -2248,10 +2614,13 @@
       "cardtrader": [
         {
           "id": 120121,
-          "match_type": "scryfall",
+          "name": "Milotic Lv.47",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "025",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -2315,7 +2684,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277927
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120121/preview_milotic-25-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87454,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -2336,10 +2716,13 @@
       "cardtrader": [
         {
           "id": 120123,
-          "match_type": "scryfall",
+          "name": "Palkia Lv.67",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "026",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -2403,7 +2786,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277928
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120123/preview_palkia-26-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87907,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -2424,10 +2818,13 @@
       "cardtrader": [
         {
           "id": 120125,
-          "match_type": "scryfall",
+          "name": "Primeape Lv.41",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "027",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -2491,7 +2888,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277929
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120125/preview_primeape-27-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88363,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -2512,10 +2920,13 @@
       "cardtrader": [
         {
           "id": 120127,
-          "match_type": "scryfall",
+          "name": "Slowking Lv.41",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "028",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -2579,7 +2990,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277930
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120127/preview_slowking-28-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89316,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -2600,10 +3022,13 @@
       "cardtrader": [
         {
           "id": 120129,
-          "match_type": "scryfall",
+          "name": "Unown [H] Lv.12",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "029",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -2667,7 +3092,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277931
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120129/preview_unown-h-29-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90212,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -2688,10 +3124,13 @@
       "cardtrader": [
         {
           "id": 120077,
-          "match_type": "scryfall",
+          "name": "Darkrai Lv.38",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "003",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal",
             "foil"
@@ -2755,7 +3194,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277905
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120077/preview_darkrai-rare-holo-3-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84698,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -2776,10 +3226,13 @@
       "cardtrader": [
         {
           "id": 120131,
-          "match_type": "scryfall",
+          "name": "Wailord Lv.43",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "030",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -2843,7 +3296,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277932
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120131/preview_wailord-30-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90459,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -2864,10 +3328,13 @@
       "cardtrader": [
         {
           "id": 120133,
-          "match_type": "scryfall",
+          "name": "Weezing Lv.42",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "031",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -2931,7 +3398,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277933
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120133/preview_weezing-31-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90562,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -2952,10 +3430,13 @@
       "cardtrader": [
         {
           "id": 120135,
-          "match_type": "scryfall",
+          "name": "Wigglytuff Lv.46",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "032",
+          "rarity": "Rare",
           "finishes": [
             "normal",
             "foil"
@@ -3019,7 +3500,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277934
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120135/preview_wigglytuff-32-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90598,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -3040,10 +3532,13 @@
       "cardtrader": [
         {
           "id": 120137,
-          "match_type": "scryfall",
+          "name": "Arbok Lv.31",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "033",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -3107,7 +3602,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277935
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120137/preview_arbok-33-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83570,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -3128,10 +3634,13 @@
       "cardtrader": [
         {
           "id": 120139,
-          "match_type": "scryfall",
+          "name": "Cacturne Lv.36",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "034",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -3195,7 +3704,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277936
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120139/preview_cacturne-34-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84080,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -3216,10 +3736,13 @@
       "cardtrader": [
         {
           "id": 120141,
-          "match_type": "scryfall",
+          "name": "Combusken Lv.24",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "035",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -3283,7 +3806,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277937
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120141/preview_combusken-35-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84411,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -3304,10 +3838,13 @@
       "cardtrader": [
         {
           "id": 120143,
-          "match_type": "scryfall",
+          "name": "Delibird Lv.26",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "036",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -3371,7 +3908,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277938
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120143/preview_delibird-36-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84748,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -3392,10 +3940,13 @@
       "cardtrader": [
         {
           "id": 120145,
-          "match_type": "scryfall",
+          "name": "Floatzel Lv.32",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "037",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -3459,7 +4010,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277939
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120145/preview_floatzel-37-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85513,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -3480,10 +4042,13 @@
       "cardtrader": [
         {
           "id": 120147,
-          "match_type": "scryfall",
+          "name": "Gorebyss Lv.34",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "038",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -3547,7 +4112,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277940
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120147/preview_gorebyss-38-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85844,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -3568,10 +4144,13 @@
       "cardtrader": [
         {
           "id": 120149,
-          "match_type": "scryfall",
+          "name": "Granbull Lv.34",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "039",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -3635,7 +4214,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277941
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120149/preview_granbull-39-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85864,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -3656,10 +4246,13 @@
       "cardtrader": [
         {
           "id": 120079,
-          "match_type": "scryfall",
+          "name": "Darkrai Lv.40",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "004",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal",
             "foil"
@@ -3723,7 +4316,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277906
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120079/preview_darkrai-rare-holo-4-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84699,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -3744,10 +4348,13 @@
       "cardtrader": [
         {
           "id": 120151,
-          "match_type": "scryfall",
+          "name": "Grovyle Lv.26",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "040",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -3811,7 +4418,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277942
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120151/preview_grovyle-40-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85941,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -3832,10 +4450,13 @@
       "cardtrader": [
         {
           "id": 120153,
-          "match_type": "scryfall",
+          "name": "Hariyama Lv.38",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "041",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -3899,7 +4520,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277943
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120153/preview_hariyama-41-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86014,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -3920,10 +4552,13 @@
       "cardtrader": [
         {
           "id": 120155,
-          "match_type": "scryfall",
+          "name": "Huntail Lv.33",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "042",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -3987,7 +4622,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277944
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120155/preview_huntail-42-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86238,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -4008,10 +4654,13 @@
       "cardtrader": [
         {
           "id": 120157,
-          "match_type": "scryfall",
+          "name": "Linoone Lv.24",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "043",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -4075,7 +4724,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277945
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120157/preview_linoone-43-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86807,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -4096,10 +4756,13 @@
       "cardtrader": [
         {
           "id": 120159,
-          "match_type": "scryfall",
+          "name": "Loudred Lv.31",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "044",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -4163,7 +4826,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277946
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120159/preview_loudred-44-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86843,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -4184,10 +4858,13 @@
       "cardtrader": [
         {
           "id": 120161,
-          "match_type": "scryfall",
+          "name": "Magcargo Lv.35",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "045",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -4251,7 +4928,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277947
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120161/preview_magcargo-45-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87016,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -4272,10 +4960,13 @@
       "cardtrader": [
         {
           "id": 120163,
-          "match_type": "scryfall",
+          "name": "Marshtomp Lv.23",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "046",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -4339,7 +5030,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277948
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120163/preview_marshtomp-46-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87239,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -4360,10 +5062,13 @@
       "cardtrader": [
         {
           "id": 120165,
-          "match_type": "scryfall",
+          "name": "Metapod Lv.9",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "047",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -4427,7 +5132,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277949
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120165/preview_metapod-47-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87390,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -4448,10 +5164,13 @@
       "cardtrader": [
         {
           "id": 120167,
-          "match_type": "scryfall",
+          "name": "Pelipper Lv.45",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "048",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -4515,7 +5234,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277950
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120167/preview_pelipper-48-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87977,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -4536,10 +5266,13 @@
       "cardtrader": [
         {
           "id": 120169,
-          "match_type": "scryfall",
+          "name": "Porygon2 Lv.39",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "049",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -4603,7 +5336,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277951
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120169/preview_porygon2-49-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88326,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -4624,10 +5368,13 @@
       "cardtrader": [
         {
           "id": 120081,
-          "match_type": "scryfall",
+          "name": "Pachirisu Lv.30",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "005",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal",
             "foil"
@@ -4691,7 +5438,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277907
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120081/preview_pachirisu-rare-holo-5-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87899,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -4712,10 +5470,13 @@
       "cardtrader": [
         {
           "id": 120171,
-          "match_type": "scryfall",
+          "name": "Purugly Lv.47",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "050",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -4779,7 +5540,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277952
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120171/preview_purugly-50-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88465,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -4800,10 +5572,13 @@
       "cardtrader": [
         {
           "id": 120173,
-          "match_type": "scryfall",
+          "name": "Relicanth Lv.31",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "051",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -4867,7 +5642,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277953
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120173/preview_relicanth-51-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88687,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -4888,10 +5674,13 @@
       "cardtrader": [
         {
           "id": 120175,
-          "match_type": "scryfall",
+          "name": "Seviper Lv.26",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "052",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -4955,7 +5744,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277954
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120175/preview_seviper-52-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89086,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -4976,10 +5776,13 @@
       "cardtrader": [
         {
           "id": 120177,
-          "match_type": "scryfall",
+          "name": "Skarmory Lv.31",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "053",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -5043,7 +5846,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277955
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120177/preview_skarmory-53-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89240,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -5064,10 +5878,13 @@
       "cardtrader": [
         {
           "id": 120179,
-          "match_type": "scryfall",
+          "name": "Slowbro Lv.39",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "054",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -5131,7 +5948,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277956
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120179/preview_slowbro-54-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89306,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -5152,10 +5980,13 @@
       "cardtrader": [
         {
           "id": 120181,
-          "match_type": "scryfall",
+          "name": "Togetic Lv.23",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "055",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -5219,7 +6050,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277957
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120181/preview_togetic-55-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89943,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -5240,10 +6082,13 @@
       "cardtrader": [
         {
           "id": 120183,
-          "match_type": "scryfall",
+          "name": "Unown [F] Lv.13",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "056",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -5307,7 +6152,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277958
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120183/preview_unown-f-56-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90208,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -5328,10 +6184,13 @@
       "cardtrader": [
         {
           "id": 120185,
-          "match_type": "scryfall",
+          "name": "Unown [G] Lv.17",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "057",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -5395,7 +6254,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277959
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120185/preview_unown-g-57-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90210,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -5416,10 +6286,13 @@
       "cardtrader": [
         {
           "id": 120187,
-          "match_type": "scryfall",
+          "name": "Wailmer Lv.14",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "058",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -5483,7 +6356,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277960
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120187/preview_wailmer-58-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90453,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -5504,10 +6388,13 @@
       "cardtrader": [
         {
           "id": 120189,
-          "match_type": "scryfall",
+          "name": "Zangoose Lv.23",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "059",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -5571,7 +6458,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277961
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120189/preview_zangoose-59-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90706,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -5592,10 +6490,13 @@
       "cardtrader": [
         {
           "id": 120083,
-          "match_type": "scryfall",
+          "name": "Porygon-Z Lv.54",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "006",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal",
             "foil"
@@ -5659,7 +6560,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277908
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120083/preview_porygon-z-rare-holo-6-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88315,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -5680,10 +6592,13 @@
       "cardtrader": [
         {
           "id": 120191,
-          "match_type": "scryfall",
+          "name": "Baltoy Lv.11",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "060",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -5747,7 +6662,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277962
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120191/preview_baltoy-60-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83716,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -5768,10 +6694,13 @@
       "cardtrader": [
         {
           "id": 120193,
-          "match_type": "scryfall",
+          "name": "Buizel Lv.14",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "061",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -5835,7 +6764,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277963
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120193/preview_buizel-61-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84018,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -5856,10 +6796,13 @@
       "cardtrader": [
         {
           "id": 120195,
-          "match_type": "scryfall",
+          "name": "Cacnea Lv.12",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "062",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -5923,7 +6866,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277964
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120195/preview_cacnea-62-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84075,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -5944,10 +6898,13 @@
       "cardtrader": [
         {
           "id": 120197,
-          "match_type": "scryfall",
+          "name": "Caterpie Lv.6",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "063",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -6011,7 +6968,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277965
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120197/preview_caterpie-63-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84137,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -6032,10 +7000,13 @@
       "cardtrader": [
         {
           "id": 120199,
-          "match_type": "scryfall",
+          "name": "Clamperl Lv.15",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "064",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -6099,7 +7070,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277966
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120199/preview_clamperl-64-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84325,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -6120,10 +7102,13 @@
       "cardtrader": [
         {
           "id": 120201,
-          "match_type": "scryfall",
+          "name": "Drowzee Lv.13",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "065",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -6187,7 +7172,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277967
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120201/preview_drowzee-65-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84976,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -6208,10 +7204,13 @@
       "cardtrader": [
         {
           "id": 120203,
-          "match_type": "scryfall",
+          "name": "Ekans Lv.16",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "066",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -6275,7 +7274,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277968
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120203/preview_ekans-66-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85103,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -6296,10 +7306,13 @@
       "cardtrader": [
         {
           "id": 120205,
-          "match_type": "scryfall",
+          "name": "Feebas Lv.4",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "067",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -6363,7 +7376,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277969
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120205/preview_feebas-67-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85404,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -6384,10 +7408,13 @@
       "cardtrader": [
         {
           "id": 120207,
-          "match_type": "scryfall",
+          "name": "Glameow Lv.14",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "068",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -6451,7 +7478,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277970
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120207/preview_glameow-68-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85759,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -6472,10 +7510,13 @@
       "cardtrader": [
         {
           "id": 120209,
-          "match_type": "scryfall",
+          "name": "Houndour Lv.13",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "069",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -6539,7 +7580,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277971
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120209/preview_houndour-69-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86228,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -6560,10 +7612,13 @@
       "cardtrader": [
         {
           "id": 120085,
-          "match_type": "scryfall",
+          "name": "Rotom Lv.38",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "007",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal",
             "foil"
@@ -6627,7 +7682,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277909
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120085/preview_rotom-rare-holo-7-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88835,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -6648,10 +7714,13 @@
       "cardtrader": [
         {
           "id": 120211,
-          "match_type": "scryfall",
+          "name": "Igglybuff Lv.6",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "070",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -6715,7 +7784,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277972
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120211/preview_igglybuff-70-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86262,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -6736,10 +7816,13 @@
       "cardtrader": [
         {
           "id": 120213,
-          "match_type": "scryfall",
+          "name": "Illumise Lv.29",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "071",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -6803,7 +7886,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277973
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120213/preview_illumise-71-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86267,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -6824,10 +7918,13 @@
       "cardtrader": [
         {
           "id": 120215,
-          "match_type": "scryfall",
+          "name": "Jigglypuff Lv.23",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "072",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -6891,7 +7988,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277974
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120215/preview_jigglypuff-72-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86318,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -6912,10 +8020,13 @@
       "cardtrader": [
         {
           "id": 120217,
-          "match_type": "scryfall",
+          "name": "Kakuna Lv.9",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "073",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -6979,7 +8090,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277975
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120217/preview_kakuna-73-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86413,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -7000,10 +8122,13 @@
       "cardtrader": [
         {
           "id": 120219,
-          "match_type": "scryfall",
+          "name": "Koffing Lv.18",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "074",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -7067,7 +8192,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277976
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120219/preview_koffing-74-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86496,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -7088,10 +8224,13 @@
       "cardtrader": [
         {
           "id": 120221,
-          "match_type": "scryfall",
+          "name": "Krabby Lv.8",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "075",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -7155,7 +8294,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277977
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120221/preview_krabby-75-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86526,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -7176,10 +8326,13 @@
       "cardtrader": [
         {
           "id": 120223,
-          "match_type": "scryfall",
+          "name": "Lunatone Lv.31",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "076",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -7243,7 +8396,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277978
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120223/preview_lunatone-76-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86926,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -7264,10 +8428,13 @@
       "cardtrader": [
         {
           "id": 120225,
-          "match_type": "scryfall",
+          "name": "Luvdisc Lv.28",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "077",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -7331,7 +8498,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277979
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120225/preview_luvdisc-77-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86936,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -7352,10 +8530,13 @@
       "cardtrader": [
         {
           "id": 120227,
-          "match_type": "scryfall",
+          "name": "Makuhita Lv.15",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "078",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -7419,7 +8600,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277980
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120227/preview_makuhita-78-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87131,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -7440,10 +8632,13 @@
       "cardtrader": [
         {
           "id": 120229,
-          "match_type": "scryfall",
+          "name": "Mankey Lv.14",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "079",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -7507,7 +8702,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277981
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120229/preview_mankey-79-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87174,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -7528,10 +8734,13 @@
       "cardtrader": [
         {
           "id": 120087,
-          "match_type": "scryfall",
+          "name": "Sceptile Lv.52",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "008",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal",
             "foil"
@@ -7595,7 +8804,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277910
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120087/preview_sceptile-rare-holo-8-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88949,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -7616,10 +8836,13 @@
       "cardtrader": [
         {
           "id": 120231,
-          "match_type": "scryfall",
+          "name": "Mudkip Lv.7",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "080",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -7683,7 +8906,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277982
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120231/preview_mudkip-80-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87614,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -7704,10 +8938,13 @@
       "cardtrader": [
         {
           "id": 120233,
-          "match_type": "scryfall",
+          "name": "Porygon Lv.7",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "081",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -7771,7 +9008,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277983
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120233/preview_porygon-81-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88311,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -7792,10 +9040,13 @@
       "cardtrader": [
         {
           "id": 120235,
-          "match_type": "scryfall",
+          "name": "Slowpoke Lv.10",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "082",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -7859,7 +9110,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277984
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120235/preview_slowpoke-82-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89331,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -7880,10 +9142,13 @@
       "cardtrader": [
         {
           "id": 120237,
-          "match_type": "scryfall",
+          "name": "Slugma Lv.11",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "083",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -7947,7 +9212,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277985
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120237/preview_slugma-83-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89345,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -7968,10 +9244,13 @@
       "cardtrader": [
         {
           "id": 120239,
-          "match_type": "scryfall",
+          "name": "Snubbull Lv.11",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "084",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -8035,7 +9314,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277986
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120239/preview_snubbull-84-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89415,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -8056,10 +9346,13 @@
       "cardtrader": [
         {
           "id": 120241,
-          "match_type": "scryfall",
+          "name": "Solrock Lv.29",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "085",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -8123,7 +9416,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277987
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120241/preview_solrock-85-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89428,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -8144,10 +9448,13 @@
       "cardtrader": [
         {
           "id": 120243,
-          "match_type": "scryfall",
+          "name": "Swablu Lv.7",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "086",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -8211,7 +9518,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277988
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120243/preview_swablu-86-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89657,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -8232,10 +9550,13 @@
       "cardtrader": [
         {
           "id": 120245,
-          "match_type": "scryfall",
+          "name": "Tangela Lv.12",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "087",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -8299,7 +9620,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277989
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120245/preview_tangela-87-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89744,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -8320,10 +9652,13 @@
       "cardtrader": [
         {
           "id": 120247,
-          "match_type": "scryfall",
+          "name": "Togepi Lv.4",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "088",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -8387,7 +9722,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277990
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120247/preview_togepi-88-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89934,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -8408,10 +9754,13 @@
       "cardtrader": [
         {
           "id": 120249,
-          "match_type": "scryfall",
+          "name": "Torchic Lv.7",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "089",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -8475,7 +9824,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277991
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120249/preview_torchic-89-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89960,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -8496,10 +9856,13 @@
       "cardtrader": [
         {
           "id": 120089,
-          "match_type": "scryfall",
+          "name": "Swampert Lv.53",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "009",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal",
             "foil"
@@ -8563,7 +9926,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277911
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120089/preview_swampert-rare-holo-9-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89680,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -8584,10 +9958,13 @@
       "cardtrader": [
         {
           "id": 120251,
-          "match_type": "scryfall",
+          "name": "Treecko Lv.7",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "090",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -8651,7 +10028,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277992
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120251/preview_treecko-90-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90039,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -8672,10 +10060,13 @@
       "cardtrader": [
         {
           "id": 120253,
-          "match_type": "scryfall",
+          "name": "Unown [L] Lv.18",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "091",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -8739,7 +10130,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277993
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120253/preview_unown-l-91-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90220,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -8760,10 +10162,13 @@
       "cardtrader": [
         {
           "id": 120255,
-          "match_type": "scryfall",
+          "name": "Volbeat Lv.34",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "092",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -8827,7 +10232,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277994
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120255/preview_volbeat-92-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90399,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -8848,10 +10264,13 @@
       "cardtrader": [
         {
           "id": 120257,
-          "match_type": "scryfall",
+          "name": "Weedle Lv.5",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "093",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -8915,7 +10334,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277995
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120257/preview_weedle-93-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90544,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -8936,10 +10366,13 @@
       "cardtrader": [
         {
           "id": 120259,
-          "match_type": "scryfall",
+          "name": "Whismur Lv.8",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "094",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -9003,7 +10436,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277996
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120259/preview_whismur-94-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90583,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -9024,10 +10468,13 @@
       "cardtrader": [
         {
           "id": 120261,
-          "match_type": "scryfall",
+          "name": "Wingull Lv.6",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "095",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -9091,7 +10538,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277997
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120261/preview_wingull-95-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90609,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -9112,10 +10570,13 @@
       "cardtrader": [
         {
           "id": 120263,
-          "match_type": "scryfall",
+          "name": "Zigzagoon Lv.6",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "096",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -9179,7 +10640,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277998
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120263/preview_zigzagoon-96-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90748,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -9200,10 +10672,13 @@
       "cardtrader": [
         {
           "id": 120265,
-          "match_type": "scryfall",
+          "name": "Amulet Coin",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "097",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -9267,7 +10742,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277999
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120265/preview_amulet-coin-97-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83551,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -9288,10 +10774,13 @@
       "cardtrader": [
         {
           "id": 120267,
-          "match_type": "scryfall",
+          "name": "Felicity's Drawing",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "098",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -9355,7 +10844,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278000
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120267/preview_felicity-s-drawing-98-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85408,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     },
@@ -9376,10 +10876,13 @@
       "cardtrader": [
         {
           "id": 120269,
-          "match_type": "scryfall",
+          "name": "Leftovers",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Great Encounters",
           "expansion_code": "ge",
           "collector_number": "099",
+          "rarity": "Uncommon",
           "finishes": [
             "normal",
             "foil"
@@ -9443,7 +10946,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            278001
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/120269/preview_leftovers-99-106-great-encounters.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86708,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1405
         }
       ]
     }

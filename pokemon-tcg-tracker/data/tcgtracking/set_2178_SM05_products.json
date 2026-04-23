@@ -4,8 +4,8 @@
   "set_abbr": "SM05",
   "set_released": "2018-02-02",
   "product_count": 211,
-  "data_modified": "2026-03-12T02:01:42-04:00",
-  "file_generated": "2026-03-12T04:30:45-04:00",
+  "data_modified": "2026-04-16T16:07:29-04:00",
+  "file_generated": "2026-04-17T04:30:47-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/2178/pricing",
   "products": [
     {
@@ -25,9 +25,13 @@
       "cardtrader": [
         {
           "id": 104700,
-          "match_type": "scryfall",
+          "name": "Charmander Sidekick Collection",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon Products",
           "expansion_code": "popr",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -70,7 +74,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            367772
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/104700/preview_charmander-sidekick-collection-pokemon-products.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 186105,
+          "game_id": 5,
+          "category_id": 60,
+          "category_name": "Pokémon Box Set",
+          "product_type": "box_set",
+          "group_id": 2374
         }
       ]
     },
@@ -376,9 +391,13 @@
       "cardtrader": [
         {
           "id": 104516,
-          "match_type": "scryfall",
+          "name": "Dawn Wings Necrozma GX Tin",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon Products",
           "expansion_code": "popr",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -412,7 +431,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316116
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/104516/preview_dawn-wings-necrozma-gx-tin-pokemon-products.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 162046,
+          "game_id": 5,
+          "category_id": 59,
+          "category_name": "Pokémon Tins",
+          "product_type": "sealed",
+          "group_id": 2374
         }
       ]
     },
@@ -433,9 +463,13 @@
       "cardtrader": [
         {
           "id": 104508,
-          "match_type": "scryfall",
+          "name": "Dusk Mane Necrozma GX Tin",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Pokémon Products",
           "expansion_code": "popr",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -469,7 +503,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316115
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/104508/preview_dusk-mane-necrozma-gx-tin-pokemon-products.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 162045,
+          "game_id": 5,
+          "category_id": 59,
+          "category_name": "Pokémon Tins",
+          "product_type": "sealed",
+          "group_id": 2374
         }
       ]
     },
@@ -550,9 +595,13 @@
       "cardtrader": [
         {
           "id": 105800,
+          "name": "Ultra Prism Booster Box",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -586,7 +635,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315121
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105800/preview_ultra-prism-booster-box-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 155661,
+          "game_id": 5,
+          "category_id": 67,
+          "category_name": "Pokémon Booster Box",
+          "product_type": "booster_box",
+          "group_id": 2178
         }
       ]
     },
@@ -607,9 +667,13 @@
       "cardtrader": [
         {
           "id": 105799,
+          "name": "Ultra Prism Booster",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -643,7 +707,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315122
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105799/preview_ultra-prism-booster-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 155662,
+          "game_id": 5,
+          "category_id": 66,
+          "category_name": "Pokémon Booster",
+          "product_type": "booster",
+          "group_id": 2178
         }
       ]
     },
@@ -679,9 +754,13 @@
       "cardtrader": [
         {
           "id": 105805,
+          "name": "Ultra Prism Elite Trainer Box (Dawn Wings Necrozma)",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -724,7 +803,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315120
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105805/preview_ultra-prism-elite-trainer-box-dawn-wings-necrozma-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 155663,
+          "game_id": 5,
+          "category_id": 68,
+          "category_name": "Pokémon Bundle ",
+          "product_type": "bundle",
+          "group_id": 2178
         }
       ]
     },
@@ -745,9 +835,13 @@
       "cardtrader": [
         {
           "id": 105804,
+          "name": "Ultra Prism Elite Trainer Box (Dusk Mane Necrozma)",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -790,7 +884,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315119
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105804/preview_ultra-prism-elite-trainer-box-dusk-mane-necrozma-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 155664,
+          "game_id": 5,
+          "category_id": 68,
+          "category_name": "Pokémon Bundle ",
+          "product_type": "bundle",
+          "group_id": 2178
         }
       ]
     },
@@ -811,9 +916,13 @@
       "cardtrader": [
         {
           "id": 105803,
+          "name": "Ultra Prism Prerelease Pack",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -856,7 +965,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316241
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105803/preview_ultra-prism-prerelease-pack-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 158254,
+          "game_id": 5,
+          "category_id": 68,
+          "category_name": "Pokémon Bundle ",
+          "product_type": "bundle",
+          "group_id": 2178
         }
       ]
     },
@@ -922,9 +1042,13 @@
       "cardtrader": [
         {
           "id": 105801,
+          "name": "Ultra Prism: Empoleon Theme Deck",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -967,7 +1091,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315117
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105801/preview_ultra-prism-empoleon-theme-deck-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 155666,
+          "game_id": 5,
+          "category_id": 69,
+          "category_name": "Pokémon Preconstructed Deck",
+          "product_type": "precon_deck",
+          "group_id": 2178
         }
       ]
     },
@@ -988,9 +1123,13 @@
       "cardtrader": [
         {
           "id": 105802,
+          "name": "Ultra Prism: Garchomp Theme Deck",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -1033,7 +1172,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315118
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105802/preview_ultra-prism-garchomp-theme-deck-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 155665,
+          "game_id": 5,
+          "category_id": 69,
+          "category_name": "Pokémon Preconstructed Deck",
+          "product_type": "precon_deck",
+          "group_id": 2178
         }
       ]
     },
@@ -1069,10 +1219,13 @@
       "cardtrader": [
         {
           "id": 130070,
+          "name": "Exeggcute",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "001",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -1141,7 +1294,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315933
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130070/preview_exeggcute-1-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157618,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -1162,10 +1326,13 @@
       "cardtrader": [
         {
           "id": 130088,
+          "name": "Cherubi",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "010/156",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -1234,7 +1401,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315942
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130088/preview_cherubi-10-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157627,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -1255,10 +1433,13 @@
       "cardtrader": [
         {
           "id": 130260,
+          "name": "Dialga GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "100/156",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -1318,7 +1499,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316026
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130260/preview_dialga-gx-rare-holo-100-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157717,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -1339,10 +1531,13 @@
       "cardtrader": [
         {
           "id": 130261,
+          "name": "Palkia GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "101/156",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -1402,7 +1597,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316027
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130261/preview_palkia-gx-rare-holo-101-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157718,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -1423,10 +1629,13 @@
       "cardtrader": [
         {
           "id": 130262,
+          "name": "Lickitung",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "102/156",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -1495,7 +1704,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316028
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130262/preview_lickitung-102-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157719,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -1516,10 +1736,13 @@
       "cardtrader": [
         {
           "id": 130264,
+          "name": "Lickilicky",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "103/156",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -1588,7 +1811,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316029
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130264/preview_lickilicky-103-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157720,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -1609,10 +1843,13 @@
       "cardtrader": [
         {
           "id": 130266,
+          "name": "Eevee",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "104/156",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -1681,7 +1918,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316030
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130266/preview_eevee-104-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157721,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -1702,10 +1950,13 @@
       "cardtrader": [
         {
           "id": 130268,
+          "name": "Eevee",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "105/156",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -1774,7 +2025,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316031
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130268/preview_eevee-105-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157722,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -1795,10 +2057,13 @@
       "cardtrader": [
         {
           "id": 130270,
+          "name": "Buneary",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "106/156",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -1867,7 +2132,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316032
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130270/preview_buneary-106-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157723,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -1888,10 +2164,13 @@
       "cardtrader": [
         {
           "id": 130272,
+          "name": "Lopunny",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "107/156",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -1960,7 +2239,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316033
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130272/preview_lopunny-107-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157724,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -1981,10 +2271,13 @@
       "cardtrader": [
         {
           "id": 130274,
+          "name": "Glameow",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "108/156",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -2053,7 +2346,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316034
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130274/preview_glameow-108-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157725,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -2074,10 +2378,13 @@
       "cardtrader": [
         {
           "id": 130276,
+          "name": "Purugly",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "109/156",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2146,7 +2453,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316035
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130276/preview_purugly-109-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157726,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -2167,10 +2485,13 @@
       "cardtrader": [
         {
           "id": 130090,
+          "name": "Cherrim",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "011/156",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2239,7 +2560,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315943
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130090/preview_cherrim-11-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157628,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -2260,10 +2592,13 @@
       "cardtrader": [
         {
           "id": 130278,
+          "name": "Fan Rotom",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "110/156",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2332,7 +2667,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316036
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130278/preview_fan-rotom-110-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157727,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -2353,10 +2699,13 @@
       "cardtrader": [
         {
           "id": 130280,
+          "name": "Shaymin",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "111/156",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2425,7 +2774,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316037
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130280/preview_shaymin-111-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157728,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -2446,10 +2806,13 @@
       "cardtrader": [
         {
           "id": 130282,
+          "name": "Yungoos",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "112/156",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -2518,7 +2881,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316038
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130282/preview_yungoos-112-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157729,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -2539,10 +2913,13 @@
       "cardtrader": [
         {
           "id": 130284,
+          "name": "Gumshoos",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "113/156",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2611,7 +2988,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316039
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130284/preview_gumshoos-113-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157730,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -2632,10 +3020,13 @@
       "cardtrader": [
         {
           "id": 130286,
+          "name": "Oranguru",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "114/156",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -2704,7 +3095,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316040
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130286/preview_oranguru-114-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157731,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -2725,10 +3127,13 @@
       "cardtrader": [
         {
           "id": 130288,
+          "name": "Type: Null",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "115/156",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2797,7 +3202,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316041
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130288/preview_type-null-115-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157732,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -2818,10 +3234,13 @@
       "cardtrader": [
         {
           "id": 130290,
+          "name": "Silvally GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "116/156",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -2881,7 +3300,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316042
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130290/preview_silvally-gx-rare-holo-116-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157733,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -2902,10 +3332,13 @@
       "cardtrader": [
         {
           "id": 130291,
+          "name": "Drampa",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "117/156",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -2974,7 +3407,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316043
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130291/preview_drampa-rare-holo-117-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157734,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -2995,10 +3439,13 @@
       "cardtrader": [
         {
           "id": 130293,
+          "name": "Ancient Crystal",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "118/156",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3067,7 +3514,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316044
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130293/preview_ancient-crystal-118-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157735,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -3088,10 +3546,13 @@
       "cardtrader": [
         {
           "id": 130295,
+          "name": "Cynthia",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "119/156",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3160,7 +3621,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316045
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130295/preview_cynthia-119-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157736,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -3181,10 +3653,13 @@
       "cardtrader": [
         {
           "id": 130092,
+          "name": "Carnivine",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "012/156",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -3253,7 +3728,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315944
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130092/preview_carnivine-12-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157629,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -3274,10 +3760,13 @@
       "cardtrader": [
         {
           "id": 130297,
+          "name": "Cyrus ◇ Prism Star",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "120/156",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -3337,7 +3826,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315827
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130297/preview_cyrus-prism-star-120-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157737,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -3358,10 +3858,13 @@
       "cardtrader": [
         {
           "id": 130298,
+          "name": "Electric Memory",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "121/156",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3430,7 +3933,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316046
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130298/preview_electric-memory-121-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157738,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -3451,10 +3965,13 @@
       "cardtrader": [
         {
           "id": 130300,
+          "name": "Escape Board",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "122/156",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3523,7 +4040,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316047
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130300/preview_escape-board-122-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157739,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -3544,10 +4072,13 @@
       "cardtrader": [
         {
           "id": 130302,
+          "name": "Fire Memory",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "123/156",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3616,7 +4147,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316048
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130302/preview_fire-memory-123-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157740,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -3637,10 +4179,13 @@
       "cardtrader": [
         {
           "id": 130304,
+          "name": "Gardenia",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "124/156",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3709,7 +4254,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316049
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130304/preview_gardenia-124-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157741,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -3730,10 +4286,13 @@
       "cardtrader": [
         {
           "id": 130306,
+          "name": "Lillie",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "125/156",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3802,7 +4361,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316050
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130306/preview_lillie-125-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157742,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -3823,10 +4393,13 @@
       "cardtrader": [
         {
           "id": 130308,
+          "name": "Looker",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "126/156",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3895,7 +4468,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316051
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130308/preview_looker-126-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157743,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -3916,10 +4500,13 @@
       "cardtrader": [
         {
           "id": 130310,
+          "name": "Looker Whistle",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "127/156",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3988,7 +4575,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316052
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130310/preview_looker-whistle-127-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157744,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -4009,10 +4607,13 @@
       "cardtrader": [
         {
           "id": 130312,
+          "name": "Mars",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "128/156",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4081,7 +4682,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316053
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130312/preview_mars-128-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157745,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -4102,10 +4714,13 @@
       "cardtrader": [
         {
           "id": 130314,
+          "name": "Missing Clover",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "129/156",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4174,7 +4789,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316054
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130314/preview_missing-clover-129-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157746,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -4195,10 +4821,13 @@
       "cardtrader": [
         {
           "id": 130094,
+          "name": "Leafeon GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "013/156",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -4258,7 +4887,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315503
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130094/preview_leafeon-gx-rare-holo-13-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157630,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -4279,10 +4919,13 @@
       "cardtrader": [
         {
           "id": 130316,
+          "name": "Mt. Coronet",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "130/156",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4351,7 +4994,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316055
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130316/preview_mt-coronet-130-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 158187,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -4372,10 +5026,13 @@
       "cardtrader": [
         {
           "id": 130318,
+          "name": "Order Pad",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "131/156",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4444,7 +5101,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316056
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130318/preview_order-pad-131-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157747,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -4465,10 +5133,13 @@
       "cardtrader": [
         {
           "id": 130320,
+          "name": "Pal Pad",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "132/156",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4537,7 +5208,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316057
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130320/preview_pal-pad-132-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157748,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -4558,10 +5240,13 @@
       "cardtrader": [
         {
           "id": 130322,
+          "name": "Pokémon Fan Club",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "133/156",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4630,7 +5315,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316058
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130322/preview_pokemon-fan-club-133-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157749,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -4651,10 +5347,13 @@
       "cardtrader": [
         {
           "id": 130324,
+          "name": "Unidentified Fossil",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "134/156",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4723,7 +5422,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316059
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130324/preview_unidentified-fossil-134-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157750,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -4744,10 +5454,13 @@
       "cardtrader": [
         {
           "id": 130326,
+          "name": "Volkner",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "135/156",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4816,7 +5529,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316060
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130326/preview_volkner-135-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157751,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -4837,10 +5561,13 @@
       "cardtrader": [
         {
           "id": 130328,
+          "name": "Super Boost Energy◇ Prism Star",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "136/156",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -4900,7 +5627,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315123
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130328/preview_super-boost-energy-prism-star-136-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157752,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -4921,10 +5659,13 @@
       "cardtrader": [
         {
           "id": 130329,
+          "name": "Unit Energy GFW",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "137/156",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -4993,7 +5734,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316061
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130329/preview_unit-energy-gfw-137-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157753,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -5014,10 +5766,13 @@
       "cardtrader": [
         {
           "id": 130331,
+          "name": "Unit Energy LPM",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "138/156",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -5086,7 +5841,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316062
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130331/preview_unit-energy-lpm-138-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157754,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -5107,10 +5873,13 @@
       "cardtrader": [
         {
           "id": 130333,
+          "name": "Leafeon GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "139/156",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -5170,7 +5939,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316063
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130333/preview_leafeon-gx-rare-ultra-139-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157755,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -5191,10 +5971,13 @@
       "cardtrader": [
         {
           "id": 130095,
+          "name": "Mow Rotom",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "014/156",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -5263,7 +6046,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315945
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130095/preview_mow-rotom-14-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157631,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -5284,10 +6078,13 @@
       "cardtrader": [
         {
           "id": 130334,
+          "name": "Pheromosa GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "140/156",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -5347,7 +6144,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316064
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130334/preview_pheromosa-gx-rare-ultra-140-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157756,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -5368,10 +6176,13 @@
       "cardtrader": [
         {
           "id": 130335,
+          "name": "Glaceon GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "141/156",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -5431,7 +6242,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316065
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130335/preview_glaceon-gx-rare-ultra-141-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157757,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -5452,10 +6274,13 @@
       "cardtrader": [
         {
           "id": 130336,
+          "name": "Xurkitree GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "142/156",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -5515,7 +6340,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316066
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130336/preview_xurkitree-gx-rare-ultra-142-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157758,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -5536,10 +6372,13 @@
       "cardtrader": [
         {
           "id": 130337,
+          "name": "Dawn Wings Necrozma GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "143/156",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -5599,7 +6438,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316067
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130337/preview_dawn-wings-necrozma-gx-rare-ultra-143-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157759,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -5620,10 +6470,13 @@
       "cardtrader": [
         {
           "id": 130338,
+          "name": "Celesteela GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "144/156",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -5683,7 +6536,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316068
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130338/preview_celesteela-gx-rare-ultra-144-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157760,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -5704,10 +6568,13 @@
       "cardtrader": [
         {
           "id": 130339,
+          "name": "Dusk Mane Necrozma GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "145/156",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -5767,7 +6634,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316069
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130339/preview_dusk-mane-necrozma-gx-rare-ultra-145-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157761,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -5788,10 +6666,13 @@
       "cardtrader": [
         {
           "id": 130340,
+          "name": "Dialga GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "146/156",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -5851,7 +6732,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316070
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130340/preview_dialga-gx-rare-ultra-146-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157762,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -5872,10 +6764,13 @@
       "cardtrader": [
         {
           "id": 130341,
+          "name": "Palkia GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "147/156",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -5935,7 +6830,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316071
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130341/preview_palkia-gx-rare-ultra-147-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157763,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -5956,10 +6862,13 @@
       "cardtrader": [
         {
           "id": 130342,
+          "name": "Cynthia",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "148/156",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -6019,7 +6928,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316072
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130342/preview_cynthia-rare-ultra-148-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157764,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -6040,10 +6960,13 @@
       "cardtrader": [
         {
           "id": 130343,
+          "name": "Gardenia",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "149/156",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -6103,7 +7026,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316073
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130343/preview_gardenia-rare-ultra-149-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157765,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -6124,10 +7058,13 @@
       "cardtrader": [
         {
           "id": 130097,
+          "name": "Shaymin",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "015/156",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -6196,7 +7133,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315946
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130097/preview_shaymin-rare-holo-15-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157632,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -6217,10 +7165,13 @@
       "cardtrader": [
         {
           "id": 130344,
+          "name": "Lana",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "150/156",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -6280,7 +7231,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316074
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130344/preview_lana-rare-ultra-150-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157766,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -6301,10 +7263,13 @@
       "cardtrader": [
         {
           "id": 130345,
+          "name": "Lillie",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "151/156",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -6364,7 +7329,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316075
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130345/preview_lillie-rare-ultra-151-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157767,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -6385,10 +7361,13 @@
       "cardtrader": [
         {
           "id": 130346,
+          "name": "Looker",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "152/156",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -6448,7 +7427,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316076
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130346/preview_looker-rare-ultra-152-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157768,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -6469,10 +7459,13 @@
       "cardtrader": [
         {
           "id": 130347,
+          "name": "Lusamine",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "153/156",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -6532,7 +7525,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316077
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130347/preview_lusamine-rare-ultra-153-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157769,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -6553,10 +7557,13 @@
       "cardtrader": [
         {
           "id": 130348,
+          "name": "Mars",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "154/156",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -6616,7 +7623,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316078
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130348/preview_mars-rare-ultra-154-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157770,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -6637,10 +7655,13 @@
       "cardtrader": [
         {
           "id": 130349,
+          "name": "Pokémon Fan Club",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "155/156",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -6700,7 +7721,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316079
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130349/preview_pokemon-fan-club-rare-ultra-155-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157771,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -6721,10 +7753,13 @@
       "cardtrader": [
         {
           "id": 130350,
+          "name": "Volkner",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "156/156",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -6784,7 +7819,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316080
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130350/preview_volkner-rare-ultra-156-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157772,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -6805,10 +7851,13 @@
       "cardtrader": [
         {
           "id": 130351,
+          "name": "Leafeon GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "157/156",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -6868,7 +7917,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316081
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130351/preview_leafeon-gx-secret-rare-157-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157773,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -6889,10 +7949,13 @@
       "cardtrader": [
         {
           "id": 130352,
+          "name": "Pheromosa GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "158/156",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -6952,7 +8015,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316082
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130352/preview_pheromosa-gx-secret-rare-158-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157774,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -6973,10 +8047,13 @@
       "cardtrader": [
         {
           "id": 130353,
+          "name": "Glaceon GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "159/156",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -7036,7 +8113,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316083
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130353/preview_glaceon-gx-secret-rare-159-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157775,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -7057,10 +8145,13 @@
       "cardtrader": [
         {
           "id": 130099,
+          "name": "Dewpider",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "016/156",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7129,7 +8220,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315947
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130099/preview_dewpider-16-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157633,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -7150,10 +8252,13 @@
       "cardtrader": [
         {
           "id": 130354,
+          "name": "Xurkitree GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "160/156",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -7213,7 +8318,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316084
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130354/preview_xurkitree-gx-secret-rare-160-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157776,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -7234,10 +8350,13 @@
       "cardtrader": [
         {
           "id": 130355,
+          "name": "Dawn Wings Necrozma GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "161/156",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -7297,7 +8416,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316085
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130355/preview_dawn-wings-necrozma-gx-secret-rare-161-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157777,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -7318,10 +8448,13 @@
       "cardtrader": [
         {
           "id": 130356,
+          "name": "Celesteela GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "162/156",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -7381,7 +8514,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316086
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130356/preview_celesteela-gx-secret-rare-162-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157778,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -7402,10 +8546,13 @@
       "cardtrader": [
         {
           "id": 130357,
+          "name": "Dusk Mane Necrozma GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "163/156",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -7465,7 +8612,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316087
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130357/preview_dusk-mane-necrozma-gx-secret-rare-163-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157779,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -7486,10 +8644,13 @@
       "cardtrader": [
         {
           "id": 130358,
+          "name": "Dialga GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "164/156",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -7549,7 +8710,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316088
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130358/preview_dialga-gx-secret-rare-164-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157780,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -7570,10 +8742,13 @@
       "cardtrader": [
         {
           "id": 130359,
+          "name": "Palkia GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "165/156",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -7633,7 +8808,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316089
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130359/preview_palkia-gx-secret-rare-165-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157781,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -7654,10 +8840,13 @@
       "cardtrader": [
         {
           "id": 130360,
+          "name": "Crushing Hammer",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "166/156",
+          "rarity": "Secret Rare",
           "finishes": [
             "normal"
           ],
@@ -7717,7 +8906,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316090
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130360/preview_crushing-hammer-secret-rare-166-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157782,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -7738,10 +8938,13 @@
       "cardtrader": [
         {
           "id": 130361,
+          "name": "Escape Board",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "167/156",
+          "rarity": "Secret Rare",
           "finishes": [
             "normal"
           ],
@@ -7801,7 +9004,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316091
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130361/preview_escape-board-secret-rare-167-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157783,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -7822,10 +9036,13 @@
       "cardtrader": [
         {
           "id": 130362,
+          "name": "Missing Clover",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "168/156",
+          "rarity": "Secret Rare",
           "finishes": [
             "normal"
           ],
@@ -7885,7 +9102,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316092
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130362/preview_missing-clover-secret-rare-168-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157784,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -7906,10 +9134,13 @@
       "cardtrader": [
         {
           "id": 130363,
+          "name": "Peeking Red Card",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "169/156",
+          "rarity": "Secret Rare",
           "finishes": [
             "normal"
           ],
@@ -7969,7 +9200,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316093
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130363/preview_peeking-red-card-secret-rare-169-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157785,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -7990,10 +9232,13 @@
       "cardtrader": [
         {
           "id": 130101,
+          "name": "Araquanid",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "017/156",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -8062,7 +9307,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315948
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130101/preview_araquanid-17-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157634,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -8083,10 +9339,13 @@
       "cardtrader": [
         {
           "id": 130364,
+          "name": "Unit Energy GFW",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "170/156",
+          "rarity": "Secret Rare",
           "finishes": [
             "normal"
           ],
@@ -8146,7 +9405,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316094
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130364/preview_unit-energy-gfw-secret-rare-170-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157786,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -8167,10 +9437,13 @@
       "cardtrader": [
         {
           "id": 130365,
+          "name": "Unit Energy LPM",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "171/156",
+          "rarity": "Secret Rare",
           "finishes": [
             "normal"
           ],
@@ -8230,7 +9503,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316095
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130365/preview_unit-energy-lpm-secret-rare-171-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157787,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -8251,10 +9535,13 @@
       "cardtrader": [
         {
           "id": 130366,
+          "name": "Lunala GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "172/156",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -8314,7 +9601,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316096
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130366/preview_lunala-gx-secret-rare-172-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157788,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -8335,10 +9633,13 @@
       "cardtrader": [
         {
           "id": 130367,
+          "name": "Solgaleo GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "173/156",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -8398,7 +9699,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316097
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130367/preview_solgaleo-gx-secret-rare-173-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157789,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -8419,10 +9731,13 @@
       "cardtrader": [
         {
           "id": 130103,
+          "name": "Magmar",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "018/156",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -8491,7 +9806,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315949
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130103/preview_magmar-18-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157635,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -8512,10 +9838,13 @@
       "cardtrader": [
         {
           "id": 130105,
+          "name": "Magmortar",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "019/156",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -8584,7 +9913,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315950
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130105/preview_magmortar-rare-holo-19-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157636,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -8605,10 +9945,13 @@
       "cardtrader": [
         {
           "id": 130072,
+          "name": "Yanma",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "002/156",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -8677,7 +10020,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315934
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130072/preview_yanma-2-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157619,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -8698,10 +10052,13 @@
       "cardtrader": [
         {
           "id": 130107,
+          "name": "Chimchar",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "020/156",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -8770,7 +10127,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315951
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130107/preview_chimchar-20-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157637,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -8791,10 +10159,13 @@
       "cardtrader": [
         {
           "id": 130109,
+          "name": "Chimchar",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "021/156",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -8863,7 +10234,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315952
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130109/preview_chimchar-21-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157638,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -8884,10 +10266,13 @@
       "cardtrader": [
         {
           "id": 130111,
+          "name": "Monferno",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "022/156",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -8956,7 +10341,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315953
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130111/preview_monferno-22-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157639,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -8977,10 +10373,13 @@
       "cardtrader": [
         {
           "id": 130113,
+          "name": "Infernape",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "023/156",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -9049,7 +10448,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315826
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130113/preview_infernape-rare-holo-23-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157640,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -9070,10 +10480,13 @@
       "cardtrader": [
         {
           "id": 130115,
+          "name": "Heat Rotom",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "024/156",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -9142,7 +10555,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315955
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130115/preview_heat-rotom-24-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157641,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -9163,10 +10587,13 @@
       "cardtrader": [
         {
           "id": 130117,
+          "name": "Salandit",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "025/156",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -9235,7 +10662,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315956
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130117/preview_salandit-25-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157642,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -9256,10 +10694,13 @@
       "cardtrader": [
         {
           "id": 130119,
+          "name": "Salazzle",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "026/156",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -9328,7 +10769,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315957
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130119/preview_salazzle-26-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157643,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -9349,10 +10801,13 @@
       "cardtrader": [
         {
           "id": 130121,
+          "name": "Turtonator",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "027/156",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -9421,7 +10876,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315958
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130121/preview_turtonator-27-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157644,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -9442,10 +10908,13 @@
       "cardtrader": [
         {
           "id": 130123,
+          "name": "Alolan Sandshrew",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "028/156",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -9514,7 +10983,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315959
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130123/preview_alolan-sandshrew-28-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157645,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -9535,10 +11015,13 @@
       "cardtrader": [
         {
           "id": 130125,
+          "name": "Alolan Sandslash",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "029/156",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -9607,7 +11090,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315960
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130125/preview_alolan-sandslash-29-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157646,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -9628,10 +11122,13 @@
       "cardtrader": [
         {
           "id": 130074,
+          "name": "Yanmega",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "003/156",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -9700,7 +11197,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315935
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130074/preview_yanmega-3-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157620,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -9721,10 +11229,13 @@
       "cardtrader": [
         {
           "id": 130127,
+          "name": "Alolan Vulpix",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "030/156",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -9793,7 +11304,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315961
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130127/preview_alolan-vulpix-30-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157647,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -9814,10 +11336,13 @@
       "cardtrader": [
         {
           "id": 130129,
+          "name": "Piplup",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "031/156",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -9886,7 +11411,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315962
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130129/preview_piplup-31-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157648,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -9907,10 +11443,13 @@
       "cardtrader": [
         {
           "id": 130131,
+          "name": "Piplup",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "032/156",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -9979,7 +11518,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315963
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130131/preview_piplup-32-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157649,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -10000,10 +11550,13 @@
       "cardtrader": [
         {
           "id": 130133,
+          "name": "Prinplup",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "033/156",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -10072,7 +11625,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315964
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130133/preview_prinplup-33-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157650,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -10093,10 +11657,13 @@
       "cardtrader": [
         {
           "id": 130135,
+          "name": "Empoleon",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "034/156",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -10165,7 +11732,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315965
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130135/preview_empoleon-34-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157651,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -10186,10 +11764,13 @@
       "cardtrader": [
         {
           "id": 130137,
+          "name": "Buizel",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "035/156",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -10258,7 +11839,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315966
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130137/preview_buizel-35-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157652,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -10279,10 +11871,13 @@
       "cardtrader": [
         {
           "id": 130139,
+          "name": "Floatzel",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "036/156",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -10351,7 +11946,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315967
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130139/preview_floatzel-36-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157653,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -10372,10 +11978,13 @@
       "cardtrader": [
         {
           "id": 130141,
+          "name": "Snover",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "037/156",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -10444,7 +12053,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315968
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130141/preview_snover-37-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157654,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -10465,10 +12085,13 @@
       "cardtrader": [
         {
           "id": 130143,
+          "name": "Abomasnow",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "038/156",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -10537,7 +12160,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315969
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130143/preview_abomasnow-38-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157655,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -10558,10 +12192,13 @@
       "cardtrader": [
         {
           "id": 130145,
+          "name": "Glaceon GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "039/156",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -10621,7 +12258,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315504
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130145/preview_glaceon-gx-rare-holo-39-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157656,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -10642,10 +12290,13 @@
       "cardtrader": [
         {
           "id": 130076,
+          "name": "Roselia",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "004/156",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -10714,7 +12365,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315936
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130076/preview_roselia-4-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157621,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -10735,10 +12397,13 @@
       "cardtrader": [
         {
           "id": 130146,
+          "name": "Wash Rotom",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "040/156",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -10807,7 +12472,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315970
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130146/preview_wash-rotom-40-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157657,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -10828,10 +12504,13 @@
       "cardtrader": [
         {
           "id": 130148,
+          "name": "Frost Rotom",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "041/156",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -10900,7 +12579,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315971
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130148/preview_frost-rotom-41-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157658,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -10921,10 +12611,13 @@
       "cardtrader": [
         {
           "id": 130150,
+          "name": "Manaphy",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "042/156",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -10993,7 +12686,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315972
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130150/preview_manaphy-42-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157659,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -11014,10 +12718,13 @@
       "cardtrader": [
         {
           "id": 130152,
+          "name": "Electabuzz",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "043/156",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -11086,7 +12793,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315973
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130152/preview_electabuzz-43-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157660,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -11107,10 +12825,13 @@
       "cardtrader": [
         {
           "id": 130154,
+          "name": "Electivire",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "044/156",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -11179,7 +12900,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315974
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130154/preview_electivire-44-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157661,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -11200,10 +12932,13 @@
       "cardtrader": [
         {
           "id": 130156,
+          "name": "Shinx",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "045/156",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -11272,7 +13007,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315975
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130156/preview_shinx-45-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157662,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -11293,10 +13039,13 @@
       "cardtrader": [
         {
           "id": 130158,
+          "name": "Shinx",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "046/156",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -11365,7 +13114,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315976
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130158/preview_shinx-46-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157663,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -11386,10 +13146,13 @@
       "cardtrader": [
         {
           "id": 130160,
+          "name": "Luxio",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "047/156",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -11458,7 +13221,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315977
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130160/preview_luxio-47-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157664,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -11479,10 +13253,13 @@
       "cardtrader": [
         {
           "id": 130162,
+          "name": "Luxray",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "048/156",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -11551,7 +13328,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315978
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130162/preview_luxray-rare-holo-48-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157665,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -11572,10 +13360,13 @@
       "cardtrader": [
         {
           "id": 130164,
+          "name": "Pachirisu",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "049/156",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -11644,7 +13435,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315979
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130164/preview_pachirisu-49-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157666,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -11665,10 +13467,13 @@
       "cardtrader": [
         {
           "id": 130078,
+          "name": "Roserade",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "005/156",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -11737,7 +13542,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315937
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130078/preview_roserade-5-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157622,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -11758,10 +13574,13 @@
       "cardtrader": [
         {
           "id": 130166,
+          "name": "Rotom",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "050/156",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -11830,7 +13649,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315980
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130166/preview_rotom-50-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157667,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -11851,10 +13681,13 @@
       "cardtrader": [
         {
           "id": 130168,
+          "name": "Drifloon",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "051/156",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -11923,7 +13756,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315981
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130168/preview_drifloon-51-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157668,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -11944,10 +13788,13 @@
       "cardtrader": [
         {
           "id": 130170,
+          "name": "Drifblim",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "052/156",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -12016,7 +13863,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315982
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130170/preview_drifblim-52-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157669,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -12037,10 +13895,13 @@
       "cardtrader": [
         {
           "id": 130172,
+          "name": "Spiritomb",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "053/156",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -12109,7 +13970,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315983
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130172/preview_spiritomb-53-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157670,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -12130,10 +14002,13 @@
       "cardtrader": [
         {
           "id": 130174,
+          "name": "Skorupi",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "054/156",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -12202,7 +14077,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315984
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130174/preview_skorupi-54-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157671,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -12223,10 +14109,13 @@
       "cardtrader": [
         {
           "id": 130176,
+          "name": "Drapion",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "055/156",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -12295,7 +14184,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315985
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130176/preview_drapion-55-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157672,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -12316,10 +14216,13 @@
       "cardtrader": [
         {
           "id": 130178,
+          "name": "Croagunk",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "056/156",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -12388,7 +14291,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315986
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130178/preview_croagunk-56-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157673,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -12409,10 +14323,13 @@
       "cardtrader": [
         {
           "id": 130180,
+          "name": "Toxicroak",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "057/156",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -12481,7 +14398,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315987
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130180/preview_toxicroak-57-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157674,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -12502,10 +14430,13 @@
       "cardtrader": [
         {
           "id": 130182,
+          "name": "Giratina ◇ Prism Star",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "058/156",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -12565,7 +14496,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315988
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130182/preview_giratina-prism-star-58-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157675,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -12586,10 +14528,13 @@
       "cardtrader": [
         {
           "id": 130183,
+          "name": "Cresselia",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "059/156",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -12658,7 +14603,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315989
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130183/preview_cresselia-rare-holo-59-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157676,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -12679,10 +14635,13 @@
       "cardtrader": [
         {
           "id": 130080,
+          "name": "Turtwig",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "006/156",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -12751,7 +14710,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315938
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130080/preview_turtwig-6-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157623,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -12772,10 +14742,13 @@
       "cardtrader": [
         {
           "id": 130185,
+          "name": "Cosmog",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "060/156",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -12844,7 +14817,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315990
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130185/preview_cosmog-60-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157677,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -12865,10 +14849,13 @@
       "cardtrader": [
         {
           "id": 130187,
+          "name": "Cosmoem",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "061/156",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -12937,7 +14924,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315991
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130187/preview_cosmoem-61-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157678,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -12958,10 +14956,13 @@
       "cardtrader": [
         {
           "id": 130189,
+          "name": "Lunala ◇ Prism Star",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "062/156",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -13021,7 +15022,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315124
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130189/preview_lunala-prism-star-62-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157679,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -13042,10 +15054,13 @@
       "cardtrader": [
         {
           "id": 130190,
+          "name": "Dawn Wings Necrozma GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "063/156",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -13105,7 +15120,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315828
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130190/preview_dawn-wings-necrozma-gx-rare-holo-63-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157680,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -13126,10 +15152,13 @@
       "cardtrader": [
         {
           "id": 130191,
+          "name": "Cranidos",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "064/156",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -13198,7 +15227,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315992
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130191/preview_cranidos-64-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157681,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -13219,10 +15259,13 @@
       "cardtrader": [
         {
           "id": 130193,
+          "name": "Rampardos",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "065/156",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -13291,7 +15334,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315993
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130193/preview_rampardos-rare-holo-65-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157682,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -13312,10 +15366,13 @@
       "cardtrader": [
         {
           "id": 130195,
+          "name": "Riolu",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "066/156",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -13384,7 +15441,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315994
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130195/preview_riolu-66-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157683,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -13405,10 +15473,13 @@
       "cardtrader": [
         {
           "id": 130197,
+          "name": "Lucario",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "067/156",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -13477,7 +15548,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315995
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130197/preview_lucario-rare-holo-67-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157684,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -13498,10 +15580,13 @@
       "cardtrader": [
         {
           "id": 130199,
+          "name": "Hippopotas",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "068/156",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -13570,7 +15655,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315996
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130199/preview_hippopotas-68-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157685,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -13591,10 +15687,13 @@
       "cardtrader": [
         {
           "id": 130201,
+          "name": "Hippowdon",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "069/156",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -13663,7 +15762,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315997
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130201/preview_hippowdon-69-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157686,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -13684,10 +15794,13 @@
       "cardtrader": [
         {
           "id": 130082,
+          "name": "Turtwig",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "007/156",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -13756,7 +15869,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315939
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130082/preview_turtwig-7-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157624,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -13777,10 +15901,13 @@
       "cardtrader": [
         {
           "id": 130203,
+          "name": "Passimian",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "070/156",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -13849,7 +15976,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315998
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130203/preview_passimian-70-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157687,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -13870,10 +16008,13 @@
       "cardtrader": [
         {
           "id": 130205,
+          "name": "Murkrow",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "071/156",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -13942,7 +16083,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315999
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130205/preview_murkrow-71-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157688,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -13963,10 +16115,13 @@
       "cardtrader": [
         {
           "id": 130207,
+          "name": "Honchkrow",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "072/156",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -14035,7 +16190,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316000
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130207/preview_honchkrow-72-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157689,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -14056,10 +16222,13 @@
       "cardtrader": [
         {
           "id": 130209,
+          "name": "Sneasel",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "073/156",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -14128,7 +16297,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316001
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130209/preview_sneasel-73-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157690,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -14149,10 +16329,13 @@
       "cardtrader": [
         {
           "id": 130211,
+          "name": "Weavile",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "074/156",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -14221,7 +16404,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316002
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130211/preview_weavile-rare-holo-74-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157691,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -14242,10 +16436,13 @@
       "cardtrader": [
         {
           "id": 130213,
+          "name": "Stunky",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "075/156",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -14314,7 +16511,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316003
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130213/preview_stunky-75-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157692,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -14335,10 +16543,13 @@
       "cardtrader": [
         {
           "id": 130215,
+          "name": "Skuntank",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "076/156",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -14407,7 +16618,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316004
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130215/preview_skuntank-76-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157693,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -14428,10 +16650,13 @@
       "cardtrader": [
         {
           "id": 130217,
+          "name": "Darkrai ◇ Prism Star",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "077/156",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -14491,7 +16716,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315825
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130217/preview_darkrai-prism-star-rare-holo-77-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157694,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -14512,10 +16748,13 @@
       "cardtrader": [
         {
           "id": 130218,
+          "name": "Alolan Diglett",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "078/156",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -14584,7 +16823,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316005
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130218/preview_alolan-diglett-78-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157695,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -14605,10 +16855,13 @@
       "cardtrader": [
         {
           "id": 130220,
+          "name": "Alolan Dugtrio",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "079/156",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -14677,7 +16930,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316006
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130220/preview_alolan-dugtrio-79-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157696,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -14698,10 +16962,13 @@
       "cardtrader": [
         {
           "id": 130084,
+          "name": "Grotle",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "008/156",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -14770,7 +17037,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315940
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130084/preview_grotle-8-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157625,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -14791,10 +17069,13 @@
       "cardtrader": [
         {
           "id": 130222,
+          "name": "Magnemite",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "080/156",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -14863,7 +17144,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316007
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130222/preview_magnemite-80-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157697,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -14884,10 +17176,13 @@
       "cardtrader": [
         {
           "id": 130224,
+          "name": "Magnemite",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "081/156",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -14956,7 +17251,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316008
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130224/preview_magnemite-81-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157698,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -14977,10 +17283,13 @@
       "cardtrader": [
         {
           "id": 130226,
+          "name": "Magneton",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "082/156",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -15049,7 +17358,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316009
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130226/preview_magneton-82-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157699,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -15070,10 +17390,13 @@
       "cardtrader": [
         {
           "id": 130228,
+          "name": "Magnezone",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "083/156",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -15142,7 +17465,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316010
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130228/preview_magnezone-rare-holo-83-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157700,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -15163,10 +17497,13 @@
       "cardtrader": [
         {
           "id": 130230,
+          "name": "Shieldon",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "084/156",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -15235,7 +17572,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316011
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130230/preview_shieldon-84-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157701,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -15256,10 +17604,13 @@
       "cardtrader": [
         {
           "id": 130232,
+          "name": "Bastiodon",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "085/156",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -15328,7 +17679,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316012
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130232/preview_bastiodon-rare-holo-85-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157702,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -15349,10 +17711,13 @@
       "cardtrader": [
         {
           "id": 130234,
+          "name": "Bronzor",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "086",
+          "rarity": "Common",
           "finishes": [
             "normal",
             "foil"
@@ -15427,7 +17792,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316013
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130234/preview_bronzor-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157703,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -15448,10 +17824,13 @@
       "cardtrader": [
         {
           "id": 130236,
+          "name": "Bronzong",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "087/156",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -15520,7 +17899,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316014
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130236/preview_bronzong-87-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157704,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -15541,10 +17931,13 @@
       "cardtrader": [
         {
           "id": 130238,
+          "name": "Heatran",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "088/156",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -15613,7 +18006,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316015
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130238/preview_heatran-rare-holo-88-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157705,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -15634,10 +18038,13 @@
       "cardtrader": [
         {
           "id": 130240,
+          "name": "Solgaleo Prism Star",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "089/156",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -15697,7 +18104,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316016
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130240/preview_solgaleo-prism-star-89-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157706,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -15713,8 +18131,100 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 315941,
+      "cardtrader_id": 130086,
+      "cardtrader": [
+        {
+          "id": 130086,
+          "name": "Torterra",
+          "match_type": "name",
+          "match_confidence": 100,
+          "expansion": "Ultra Prism",
+          "expansion_code": "upr",
+          "collector_number": "009/156",
+          "rarity": "Holo Rare",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "kr",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "kr",
+                "pt",
+                "ru",
+                "es"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            315941
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130086/preview_torterra-9-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": null,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
+        }
+      ]
     },
     {
       "id": 157707,
@@ -15733,10 +18243,13 @@
       "cardtrader": [
         {
           "id": 130241,
+          "name": "Dusk Mane Necrozma GX",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "090/156",
+          "rarity": "Ultra Rare",
           "finishes": [
             "normal"
           ],
@@ -15796,7 +18309,18 @@
                 "es"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            315829
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130241/preview_dusk-mane-necrozma-gx-rare-holo-90-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157707,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -15817,10 +18341,13 @@
       "cardtrader": [
         {
           "id": 130242,
+          "name": "Magearna",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "091/156",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -15889,7 +18416,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316017
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130242/preview_magearna-91-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157708,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -15910,10 +18448,13 @@
       "cardtrader": [
         {
           "id": 130244,
+          "name": "Morelull",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "092/156",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -15982,7 +18523,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316018
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130244/preview_morelull-92-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157709,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -16003,10 +18555,13 @@
       "cardtrader": [
         {
           "id": 130246,
+          "name": "Shiinotic",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "093/156",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -16075,7 +18630,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316019
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130246/preview_shiinotic-93-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157710,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -16096,10 +18662,13 @@
       "cardtrader": [
         {
           "id": 130248,
+          "name": "Tapu Lele",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "094/156",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -16168,7 +18737,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316020
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130248/preview_tapu-lele-94-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157711,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -16189,10 +18769,13 @@
       "cardtrader": [
         {
           "id": 130250,
+          "name": "Alolan Exeggutor",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "095/156",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -16261,7 +18844,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316021
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130250/preview_alolan-exeggutor-95-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157712,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -16282,10 +18876,13 @@
       "cardtrader": [
         {
           "id": 130252,
+          "name": "Gible",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "096/156",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -16354,7 +18951,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316022
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130252/preview_gible-96-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157713,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -16375,10 +18983,13 @@
       "cardtrader": [
         {
           "id": 130254,
+          "name": "Gible",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "097/156",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -16447,7 +19058,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316023
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130254/preview_gible-97-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157714,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -16468,10 +19090,13 @@
       "cardtrader": [
         {
           "id": 130256,
+          "name": "Gabite",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "098/156",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -16540,7 +19165,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316024
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130256/preview_gabite-98-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157715,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     },
@@ -16561,10 +19197,13 @@
       "cardtrader": [
         {
           "id": 130258,
+          "name": "Garchomp",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Ultra Prism",
           "expansion_code": "upr",
           "collector_number": "099/156",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -16633,7 +19272,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            316025
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/130258/preview_garchomp-99-156-ultra-prism.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 157716,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2178
         }
       ]
     }

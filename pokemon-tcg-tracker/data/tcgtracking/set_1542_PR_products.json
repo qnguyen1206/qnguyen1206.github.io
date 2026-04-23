@@ -4,8 +4,8 @@
   "set_abbr": "PR",
   "set_released": "2026-01-24",
   "product_count": 25,
-  "data_modified": "2026-02-13T07:06:16-05:00",
-  "file_generated": "2026-02-14T03:30:47-05:00",
+  "data_modified": "2026-04-15T07:07:54-04:00",
+  "file_generated": "2026-04-16T04:30:43-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/1542/pricing",
   "products": [
     {
@@ -25,9 +25,13 @@
       "cardtrader": [
         {
           "id": 105289,
-          "match_type": "scryfall",
+          "name": "EX Trainer Kit 2",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Trainer Kit 2",
           "expansion_code": "tk2",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -70,7 +74,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            286801
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105289/preview_ex-trainer-kit-2-plusle-minun-ex-trainer-kit-2.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 98951,
+          "game_id": 5,
+          "category_id": 69,
+          "category_name": "Pokémon Preconstructed Deck",
+          "product_type": "precon_deck",
+          "group_id": 1542
         }
       ]
     },
@@ -91,10 +106,13 @@
       "cardtrader": [
         {
           "id": 117827,
+          "name": "Arcanine",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Trainer Kit 2 (Minun)",
           "expansion_code": "minun",
           "collector_number": "001",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -146,7 +164,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277205
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/117827/preview_arcanine-non-holo-trainer-kit-1-12-ex-trainer-kit-2-minun.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83583,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1542
         }
       ]
     },
@@ -167,10 +196,13 @@
       "cardtrader": [
         {
           "id": 117839,
+          "name": "Beldum",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Trainer Kit 2 (Plusle)",
           "expansion_code": "plusle",
           "collector_number": "001",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -222,7 +254,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277193
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/117839/preview_beldum-non-holo-trainer-kit-1-12-ex-trainer-kit-2-plusle.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83786,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1542
         }
       ]
     },
@@ -243,10 +286,13 @@
       "cardtrader": [
         {
           "id": 117836,
+          "name": "Potion",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Trainer Kit 2 (Minun)",
           "expansion_code": "minun",
           "collector_number": "010",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -298,7 +344,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277198
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/117836/preview_potion-non-holo-trainer-kit-10-12-ex-trainer-kit-2-minun.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88340,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1542
         }
       ]
     },
@@ -319,10 +376,13 @@
       "cardtrader": [
         {
           "id": 117848,
+          "name": "Professor Cozmo's Discovery",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Trainer Kit 2 (Plusle)",
           "expansion_code": "plusle",
           "collector_number": "10/12",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -374,7 +434,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277186
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/117848/preview_professor-cozmo-s-discovery-non-holo-trainer-kit-10-12-ex-trainer-kit-2-plusle.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88385,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1542
         }
       ]
     },
@@ -395,10 +466,13 @@
       "cardtrader": [
         {
           "id": 117837,
+          "name": "Fire Energy",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Trainer Kit 2 (Minun)",
           "expansion_code": "minun",
           "collector_number": "011",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -450,7 +524,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277197
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/117837/preview_fire-energy-non-holo-trainer-kit-11-12-ex-trainer-kit-2-minun.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85460,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1542
         }
       ]
     },
@@ -471,10 +556,13 @@
       "cardtrader": [
         {
           "id": 117849,
+          "name": "Lightning Energy",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Trainer Kit 2 (Plusle)",
           "expansion_code": "plusle",
           "collector_number": "11/12",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -526,7 +614,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277185
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/117849/preview_lightning-energy-non-holo-trainer-kit-11-12-ex-trainer-kit-2-plusle.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86763,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1542
         }
       ]
     },
@@ -547,10 +646,13 @@
       "cardtrader": [
         {
           "id": 117838,
+          "name": "Lightning Energy",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Trainer Kit 2 (Minun)",
           "expansion_code": "minun",
           "collector_number": "012",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -602,7 +704,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277196
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/117838/preview_lightning-energy-non-holo-trainer-kit-12-12-ex-trainer-kit-2-minun.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86764,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1542
         }
       ]
     },
@@ -623,10 +736,13 @@
       "cardtrader": [
         {
           "id": 117850,
+          "name": "Psychic Energy",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Trainer Kit 2 (Plusle)",
           "expansion_code": "plusle",
           "collector_number": "12/12",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -678,7 +794,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277184
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/117850/preview_psychic-energy-non-holo-trainer-kit-12-12-ex-trainer-kit-2-plusle.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88420,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1542
         }
       ]
     },
@@ -699,10 +826,13 @@
       "cardtrader": [
         {
           "id": 117828,
+          "name": "Charmander",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Trainer Kit 2 (Minun)",
           "expansion_code": "minun",
           "collector_number": "002",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -754,7 +884,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277195
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/117828/preview_charmander-non-holo-trainer-kit-2-12-ex-trainer-kit-2-minun.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84212,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1542
         }
       ]
     },
@@ -775,10 +916,13 @@
       "cardtrader": [
         {
           "id": 117840,
+          "name": "Electrike",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Trainer Kit 2 (Plusle)",
           "expansion_code": "plusle",
           "collector_number": "02/12",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -830,7 +974,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277182
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/117840/preview_electrike-non-holo-trainer-kit-2-12-ex-trainer-kit-2-plusle.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85136,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1542
         }
       ]
     },
@@ -851,10 +1006,13 @@
       "cardtrader": [
         {
           "id": 117829,
+          "name": "Charmeleon",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Trainer Kit 2 (Minun)",
           "expansion_code": "minun",
           "collector_number": "003",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -906,7 +1064,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277199
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/117829/preview_charmeleon-non-holo-trainer-kit-3-12-ex-trainer-kit-2-minun.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84228,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1542
         }
       ]
     },
@@ -927,10 +1096,13 @@
       "cardtrader": [
         {
           "id": 117841,
+          "name": "Grumpig",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Trainer Kit 2 (Plusle)",
           "expansion_code": "plusle",
           "collector_number": "03/12",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -982,7 +1154,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277183
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/117841/preview_grumpig-non-holo-trainer-kit-3-12-ex-trainer-kit-2-plusle.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85968,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1542
         }
       ]
     },
@@ -1003,10 +1186,13 @@
       "cardtrader": [
         {
           "id": 117830,
+          "name": "Growlithe",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Trainer Kit 2 (Minun)",
           "expansion_code": "minun",
           "collector_number": "004",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -1058,7 +1244,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277200
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/117830/preview_growlithe-non-holo-trainer-kit-4-12-ex-trainer-kit-2-minun.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85956,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1542
         }
       ]
     },
@@ -1079,10 +1276,13 @@
       "cardtrader": [
         {
           "id": 117842,
+          "name": "Meowth",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Trainer Kit 2 (Plusle)",
           "expansion_code": "plusle",
           "collector_number": "04/12",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -1134,7 +1334,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277187
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/117842/preview_meowth-non-holo-trainer-kit-4-12-ex-trainer-kit-2-plusle.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87319,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1542
         }
       ]
     },
@@ -1155,10 +1366,13 @@
       "cardtrader": [
         {
           "id": 117831,
+          "name": "Mareep",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Trainer Kit 2 (Minun)",
           "expansion_code": "minun",
           "collector_number": "005",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -1210,7 +1424,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277204
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/117831/preview_mareep-non-holo-trainer-kit-5-12-ex-trainer-kit-2-minun.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87200,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1542
         }
       ]
     },
@@ -1231,10 +1456,13 @@
       "cardtrader": [
         {
           "id": 117843,
+          "name": "Metang",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Trainer Kit 2 (Plusle)",
           "expansion_code": "plusle",
           "collector_number": "05/12",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -1286,7 +1514,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277188
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/117843/preview_metang-non-holo-trainer-kit-5-12-ex-trainer-kit-2-plusle.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87376,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1542
         }
       ]
     },
@@ -1307,10 +1546,13 @@
       "cardtrader": [
         {
           "id": 117832,
+          "name": "Minun",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Trainer Kit 2 (Minun)",
           "expansion_code": "minun",
           "collector_number": "006",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -1362,7 +1604,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277203
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/117832/preview_minun-holo-trainer-kit-6-12-ex-trainer-kit-2-minun.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87486,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1542
         }
       ]
     },
@@ -1383,10 +1636,13 @@
       "cardtrader": [
         {
           "id": 117844,
+          "name": "Plusle",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Trainer Kit 2 (Plusle)",
           "expansion_code": "plusle",
           "collector_number": "06/12",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -1438,7 +1694,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277192
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/117844/preview_plusle-holo-trainer-kit-6-12-ex-trainer-kit-2-plusle.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88166,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1542
         }
       ]
     },
@@ -1459,10 +1726,13 @@
       "cardtrader": [
         {
           "id": 117845,
+          "name": "Spoink",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Trainer Kit 2 (Plusle)",
           "expansion_code": "plusle",
           "collector_number": "07/12",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -1514,7 +1784,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277191
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/117845/preview_spoink-non-holo-trainer-kit-7-12-ex-trainer-kit-2-plusle.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89475,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1542
         }
       ]
     },
@@ -1535,10 +1816,13 @@
       "cardtrader": [
         {
           "id": 117833,
+          "name": "Vulpix",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Trainer Kit 2 (Minun)",
           "expansion_code": "minun",
           "collector_number": "007",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -1590,7 +1874,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277202
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/117833/preview_vulpix-non-holo-trainer-kit-7-12-ex-trainer-kit-2-minun.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90439,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1542
         }
       ]
     },
@@ -1611,10 +1906,13 @@
       "cardtrader": [
         {
           "id": 117834,
+          "name": "Celio's Network",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Trainer Kit 2 (Minun)",
           "expansion_code": "minun",
           "collector_number": "008",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -1666,7 +1964,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277201
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/117834/preview_celio-s-network-non-holo-trainer-kit-8-12-ex-trainer-kit-2-minun.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84155,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1542
         }
       ]
     },
@@ -1687,10 +1996,13 @@
       "cardtrader": [
         {
           "id": 117846,
+          "name": "Energy Search",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Trainer Kit 2 (Plusle)",
           "expansion_code": "plusle",
           "collector_number": "08/12",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -1742,7 +2054,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277190
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/117846/preview_energy-search-non-holo-trainer-kit-8-12-ex-trainer-kit-2-plusle.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85242,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1542
         }
       ]
     },
@@ -1763,10 +2086,13 @@
       "cardtrader": [
         {
           "id": 117835,
+          "name": "Energy Search",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Trainer Kit 2 (Minun)",
           "expansion_code": "minun",
           "collector_number": "009",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -1818,7 +2144,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277194
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/117835/preview_energy-search-non-holo-trainer-kit-9-12-ex-trainer-kit-2-minun.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85243,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1542
         }
       ]
     },
@@ -1839,10 +2176,13 @@
       "cardtrader": [
         {
           "id": 117847,
+          "name": "Potion",
           "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "EX Trainer Kit 2 (Plusle)",
           "expansion_code": "plusle",
           "collector_number": "09/12",
+          "rarity": "Fixed",
           "finishes": [
             "normal"
           ],
@@ -1894,7 +2234,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            277189
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/117847/preview_potion-non-holo-trainer-kit-9-12-ex-trainer-kit-2-plusle.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88339,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1542
         }
       ]
     }

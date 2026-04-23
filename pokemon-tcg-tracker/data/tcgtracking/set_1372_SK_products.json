@@ -4,8 +4,8 @@
   "set_abbr": "SK",
   "set_released": "2003-05-12",
   "product_count": 185,
-  "data_modified": "2026-02-01T14:23:06-05:00",
-  "file_generated": "2026-02-02T03:32:32-05:00",
+  "data_modified": "2026-04-21T07:07:57-04:00",
+  "file_generated": "2026-04-22T04:30:47-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/1372/pricing",
   "products": [
     {
@@ -25,9 +25,13 @@
       "cardtrader": [
         {
           "id": 105234,
-          "match_type": "scryfall",
+          "name": "Skyridge Booster",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -61,7 +65,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            271860
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105234/preview_skyridge-booster-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 138153,
+          "game_id": 5,
+          "category_id": 66,
+          "category_name": "Pokémon Booster",
+          "product_type": "booster",
+          "group_id": 1372
         }
       ]
     },
@@ -82,9 +97,13 @@
       "cardtrader": [
         {
           "id": 105236,
-          "match_type": "scryfall",
+          "name": "Skyridge: Eeveelution Theme Deck",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -127,7 +146,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            286576
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105236/preview_skyridge-eeveelution-theme-deck-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 232867,
+          "game_id": 5,
+          "category_id": 69,
+          "category_name": "Pokémon Preconstructed Deck",
+          "product_type": "precon_deck",
+          "group_id": 1372
         }
       ]
     },
@@ -148,9 +178,13 @@
       "cardtrader": [
         {
           "id": 105237,
-          "match_type": "scryfall",
+          "name": "Skyridge: Mind Machine Theme Deck",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
+          "collector_number": null,
+          "rarity": null,
           "finishes": [
             "normal"
           ],
@@ -193,7 +227,18 @@
                 "sv"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            286577
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/105237/preview_skyridge-mind-machine-theme-deck-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 232868,
+          "game_id": 5,
+          "category_id": 69,
+          "category_name": "Pokémon Preconstructed Deck",
+          "product_type": "precon_deck",
+          "group_id": 1372
         }
       ]
     },
@@ -214,10 +259,13 @@
       "cardtrader": [
         {
           "id": 127562,
-          "match_type": "scryfall",
+          "name": "Aerodactyl",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "001",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -276,7 +324,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275259
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127562/preview_aerodactyl-1-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83465,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -297,10 +356,13 @@
       "cardtrader": [
         {
           "id": 127564,
-          "match_type": "scryfall",
+          "name": "Alakazam",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "002/144",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -359,7 +421,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275260
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127564/preview_alakazam-2-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83499,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -380,10 +453,13 @@
       "cardtrader": [
         {
           "id": 127566,
-          "match_type": "scryfall",
+          "name": "Arcanine",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "003/144",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -442,7 +518,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275261
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127566/preview_arcanine-3-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83577,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -463,10 +550,13 @@
       "cardtrader": [
         {
           "id": 127568,
-          "match_type": "scryfall",
+          "name": "Articuno",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "004/144",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -525,7 +615,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275262
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127568/preview_articuno-4-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83645,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -546,10 +647,13 @@
       "cardtrader": [
         {
           "id": 127570,
-          "match_type": "scryfall",
+          "name": "Beedrill",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "005/144",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -608,7 +712,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275263
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127570/preview_beedrill-5-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83765,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -629,10 +744,13 @@
       "cardtrader": [
         {
           "id": 127572,
-          "match_type": "scryfall",
+          "name": "Crobat",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "006/144",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -691,7 +809,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275264
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127572/preview_crobat-6-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84484,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -712,10 +841,13 @@
       "cardtrader": [
         {
           "id": 127574,
-          "match_type": "scryfall",
+          "name": "Dewgong",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "007/144",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -774,7 +906,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275265
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127574/preview_dewgong-7-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84786,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -795,10 +938,13 @@
       "cardtrader": [
         {
           "id": 127576,
-          "match_type": "scryfall",
+          "name": "Flareon",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "008/144",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -857,7 +1003,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275266
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127576/preview_flareon-8-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85491,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -878,10 +1035,13 @@
       "cardtrader": [
         {
           "id": 127578,
-          "match_type": "scryfall",
+          "name": "Forretress",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "009/144",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -940,7 +1100,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275267
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127578/preview_forretress-9-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85544,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -961,10 +1132,13 @@
       "cardtrader": [
         {
           "id": 127580,
-          "match_type": "scryfall",
+          "name": "Gengar",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "010/144",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -1023,7 +1197,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275268
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127580/preview_gengar-10-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85669,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -1044,10 +1229,13 @@
       "cardtrader": [
         {
           "id": 127582,
-          "match_type": "scryfall",
+          "name": "Gyarados",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "011/144",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -1106,7 +1294,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275269
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127582/preview_gyarados-11-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85988,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -1127,10 +1326,13 @@
       "cardtrader": [
         {
           "id": 127584,
-          "match_type": "scryfall",
+          "name": "Houndoom",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "012/144",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -1189,7 +1391,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275270
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127584/preview_houndoom-12-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86201,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -1210,10 +1423,13 @@
       "cardtrader": [
         {
           "id": 127586,
-          "match_type": "scryfall",
+          "name": "Jolteon",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "013/144",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -1272,7 +1488,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275271
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127586/preview_jolteon-13-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86338,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -1293,10 +1520,13 @@
       "cardtrader": [
         {
           "id": 127588,
-          "match_type": "scryfall",
+          "name": "Kabutops",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "014/144",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -1355,7 +1585,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275272
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127588/preview_kabutops-14-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86392,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -1376,10 +1617,13 @@
       "cardtrader": [
         {
           "id": 127590,
-          "match_type": "scryfall",
+          "name": "Ledian",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "015/144",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -1438,7 +1682,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275273
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127590/preview_ledian-15-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86691,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -1459,10 +1714,13 @@
       "cardtrader": [
         {
           "id": 127592,
-          "match_type": "scryfall",
+          "name": "Machamp",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "016/144",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -1521,7 +1779,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275274
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127592/preview_machamp-16-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86959,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -1542,10 +1811,13 @@
       "cardtrader": [
         {
           "id": 127594,
-          "match_type": "scryfall",
+          "name": "Magcargo",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "017/144",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -1604,7 +1876,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275276
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127594/preview_magcargo-17-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87009,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -1625,10 +1908,13 @@
       "cardtrader": [
         {
           "id": 127596,
-          "match_type": "scryfall",
+          "name": "Magcargo",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "018/144",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -1687,7 +1973,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275275
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127596/preview_magcargo-18-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87011,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -1708,10 +2005,13 @@
       "cardtrader": [
         {
           "id": 127598,
-          "match_type": "scryfall",
+          "name": "Magneton",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "019/144",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -1770,7 +2070,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275277
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127598/preview_magneton-19-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87089,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -1791,10 +2102,13 @@
       "cardtrader": [
         {
           "id": 127600,
-          "match_type": "scryfall",
+          "name": "Magneton",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "020/144",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -1853,7 +2167,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275278
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127600/preview_magneton-20-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87090,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -1874,10 +2199,13 @@
       "cardtrader": [
         {
           "id": 127602,
-          "match_type": "scryfall",
+          "name": "Moltres",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "021/144",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -1936,7 +2264,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275279
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127602/preview_moltres-21-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87558,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -1957,10 +2296,13 @@
       "cardtrader": [
         {
           "id": 127604,
-          "match_type": "scryfall",
+          "name": "Nidoqueen",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "022/144",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2019,7 +2361,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275280
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127604/preview_nidoqueen-22-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87704,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -2040,10 +2393,13 @@
       "cardtrader": [
         {
           "id": 127606,
-          "match_type": "scryfall",
+          "name": "Omastar",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "023/144",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2102,7 +2458,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275281
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127606/preview_omastar-23-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87864,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -2123,10 +2490,13 @@
       "cardtrader": [
         {
           "id": 127608,
-          "match_type": "scryfall",
+          "name": "Piloswine",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "024/144",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2185,7 +2555,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275301
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127608/preview_piloswine-24-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88113,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -2206,10 +2587,13 @@
       "cardtrader": [
         {
           "id": 127610,
-          "match_type": "scryfall",
+          "name": "Politoed",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "025/144",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2268,7 +2652,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275283
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127610/preview_politoed-25-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88248,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -2289,10 +2684,13 @@
       "cardtrader": [
         {
           "id": 127612,
-          "match_type": "scryfall",
+          "name": "Poliwrath",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "026/144",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2351,7 +2749,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275284
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127612/preview_poliwrath-26-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88273,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -2372,10 +2781,13 @@
       "cardtrader": [
         {
           "id": 127614,
-          "match_type": "scryfall",
+          "name": "Raichu",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "027/144",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2434,7 +2846,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275285
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127614/preview_raichu-27-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88503,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -2455,10 +2878,13 @@
       "cardtrader": [
         {
           "id": 127616,
-          "match_type": "scryfall",
+          "name": "Raikou",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "028/144",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2517,7 +2943,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275286
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127616/preview_raikou-28-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88532,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -2538,10 +2975,13 @@
       "cardtrader": [
         {
           "id": 127618,
-          "match_type": "scryfall",
+          "name": "Rhydon",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "029/144",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2600,7 +3040,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275287
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127618/preview_rhydon-29-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88729,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -2621,10 +3072,13 @@
       "cardtrader": [
         {
           "id": 127620,
-          "match_type": "scryfall",
+          "name": "Starmie",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "030/144",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2683,7 +3137,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275288
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127620/preview_starmie-30-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89529,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -2704,10 +3169,13 @@
       "cardtrader": [
         {
           "id": 127622,
-          "match_type": "scryfall",
+          "name": "Steelix",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "031/144",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2766,7 +3234,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275289
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127622/preview_steelix-31-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89559,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -2787,10 +3266,13 @@
       "cardtrader": [
         {
           "id": 127624,
-          "match_type": "scryfall",
+          "name": "Umbreon",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "032/144",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2849,7 +3331,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275290
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127624/preview_umbreon-32-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90141,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -2870,10 +3363,13 @@
       "cardtrader": [
         {
           "id": 127626,
-          "match_type": "scryfall",
+          "name": "Vaporeon",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "033/144",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -2932,7 +3428,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275291
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127626/preview_vaporeon-33-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90281,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -2953,10 +3460,13 @@
       "cardtrader": [
         {
           "id": 127628,
-          "match_type": "scryfall",
+          "name": "Wigglytuff",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "034/144",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -3015,7 +3525,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275292
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127628/preview_wigglytuff-34-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90595,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -3036,10 +3557,13 @@
       "cardtrader": [
         {
           "id": 127630,
-          "match_type": "scryfall",
+          "name": "Xatu",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "035/144",
+          "rarity": "Rare",
           "finishes": [
             "normal"
           ],
@@ -3098,7 +3622,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275293
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127630/preview_xatu-35-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90659,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -3119,10 +3654,13 @@
       "cardtrader": [
         {
           "id": 127632,
-          "match_type": "scryfall",
+          "name": "Electrode",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "036/144",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3181,7 +3719,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275294
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127632/preview_electrode-36-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85152,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -3202,10 +3751,13 @@
       "cardtrader": [
         {
           "id": 127634,
-          "match_type": "scryfall",
+          "name": "Kabuto",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "037/144",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3264,7 +3816,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275295
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127634/preview_kabuto-37-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86379,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -3285,10 +3848,13 @@
       "cardtrader": [
         {
           "id": 127636,
-          "match_type": "scryfall",
+          "name": "Machoke",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "038/144",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3347,7 +3913,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275296
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127636/preview_machoke-38-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86975,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -3368,10 +3945,13 @@
       "cardtrader": [
         {
           "id": 127638,
-          "match_type": "scryfall",
+          "name": "Misdreavus",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "039/144",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3430,7 +4010,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275297
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127638/preview_misdreavus-39-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87502,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -3451,10 +4042,13 @@
       "cardtrader": [
         {
           "id": 127640,
-          "match_type": "scryfall",
+          "name": "Noctowl",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "040/144",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3513,7 +4107,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275298
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127640/preview_noctowl-40-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87790,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -3534,10 +4139,13 @@
       "cardtrader": [
         {
           "id": 127642,
-          "match_type": "scryfall",
+          "name": "Omanyte",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "041/144",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3596,7 +4204,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275299
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127642/preview_omanyte-41-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87853,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -3617,10 +4236,13 @@
       "cardtrader": [
         {
           "id": 127644,
-          "match_type": "scryfall",
+          "name": "Persian",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "042/144",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3679,7 +4301,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275300
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127644/preview_persian-42-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87982,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -3700,10 +4333,13 @@
       "cardtrader": [
         {
           "id": 127646,
-          "match_type": "scryfall",
+          "name": "Piloswine",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "043/144",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3762,7 +4398,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275282
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127646/preview_piloswine-43-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88115,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -3783,10 +4430,13 @@
       "cardtrader": [
         {
           "id": 127648,
-          "match_type": "scryfall",
+          "name": "Starmie",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "044/144",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3845,7 +4495,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275302
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127648/preview_starmie-44-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89530,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -3866,10 +4527,13 @@
       "cardtrader": [
         {
           "id": 127650,
-          "match_type": "scryfall",
+          "name": "Wobbuffet",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "045/144",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -3928,7 +4592,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275303
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127650/preview_wobbuffet-45-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90615,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -3949,10 +4624,13 @@
       "cardtrader": [
         {
           "id": 127652,
-          "match_type": "scryfall",
+          "name": "Abra",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "046/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4011,7 +4689,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275304
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127652/preview_abra-46-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83444,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -4032,10 +4721,13 @@
       "cardtrader": [
         {
           "id": 127654,
-          "match_type": "scryfall",
+          "name": "Buried Fossil",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "047/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4094,7 +4786,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275305
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127654/preview_buried-fossil-47-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84048,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -4115,10 +4818,13 @@
       "cardtrader": [
         {
           "id": 127656,
-          "match_type": "scryfall",
+          "name": "Cleffa",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "048/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4177,7 +4883,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275306
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127656/preview_cleffa-48-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84364,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -4198,10 +4915,13 @@
       "cardtrader": [
         {
           "id": 127658,
-          "match_type": "scryfall",
+          "name": "Delibird",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "049/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4260,7 +4980,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275307
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127658/preview_delibird-49-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84746,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -4281,10 +5012,13 @@
       "cardtrader": [
         {
           "id": 127660,
-          "match_type": "scryfall",
+          "name": "Diglett",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "050/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4343,7 +5077,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275308
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127660/preview_diglett-50-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84818,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -4364,10 +5109,13 @@
       "cardtrader": [
         {
           "id": 127662,
-          "match_type": "scryfall",
+          "name": "Ditto",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "051/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4426,7 +5174,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275309
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127662/preview_ditto-51-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84830,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -4447,10 +5206,13 @@
       "cardtrader": [
         {
           "id": 127664,
-          "match_type": "scryfall",
+          "name": "Dugtrio",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "052/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4509,7 +5271,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275310
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127664/preview_dugtrio-52-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84999,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -4530,10 +5303,13 @@
       "cardtrader": [
         {
           "id": 127666,
-          "match_type": "scryfall",
+          "name": "Dunsparce",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "053/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4592,7 +5368,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275311
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127666/preview_dunsparce-53-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85006,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -4613,10 +5400,13 @@
       "cardtrader": [
         {
           "id": 127668,
-          "match_type": "scryfall",
+          "name": "Eevee",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "054/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4675,7 +5465,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275312
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127668/preview_eevee-54-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85077,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -4696,10 +5497,13 @@
       "cardtrader": [
         {
           "id": 127670,
-          "match_type": "scryfall",
+          "name": "Farfetch'd",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "055/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4758,7 +5562,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275313
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127670/preview_farfetch-d-55-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85383,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -4779,10 +5594,13 @@
       "cardtrader": [
         {
           "id": 127672,
-          "match_type": "scryfall",
+          "name": "Forretress",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "056/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4841,7 +5659,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275314
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127672/preview_forretress-56-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85546,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -4862,10 +5691,13 @@
       "cardtrader": [
         {
           "id": 127674,
-          "match_type": "scryfall",
+          "name": "Gastly",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "057/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -4924,7 +5756,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275315
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127674/preview_gastly-57-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85646,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -4945,10 +5788,13 @@
       "cardtrader": [
         {
           "id": 127676,
-          "match_type": "scryfall",
+          "name": "Girafarig",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "058/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5007,7 +5853,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275316
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127676/preview_girafarig-58-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85727,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -5028,10 +5885,13 @@
       "cardtrader": [
         {
           "id": 127678,
-          "match_type": "scryfall",
+          "name": "Gligar",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "059/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5090,7 +5950,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275317
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127678/preview_gligar-59-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85763,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -5111,10 +5982,13 @@
       "cardtrader": [
         {
           "id": 127680,
-          "match_type": "scryfall",
+          "name": "Golbat",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "060/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5173,7 +6047,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275318
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127680/preview_golbat-60-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85792,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -5194,10 +6079,13 @@
       "cardtrader": [
         {
           "id": 127682,
-          "match_type": "scryfall",
+          "name": "Granbull",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "061/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5256,7 +6144,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275319
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127682/preview_granbull-61-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85862,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -5277,10 +6176,13 @@
       "cardtrader": [
         {
           "id": 127684,
-          "match_type": "scryfall",
+          "name": "Growlithe",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "062/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5339,7 +6241,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275320
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127684/preview_growlithe-62-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85950,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -5360,10 +6273,13 @@
       "cardtrader": [
         {
           "id": 127686,
-          "match_type": "scryfall",
+          "name": "Haunter",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "063/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5422,7 +6338,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275321
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127686/preview_haunter-63-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86023,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -5443,10 +6370,13 @@
       "cardtrader": [
         {
           "id": 127688,
-          "match_type": "scryfall",
+          "name": "Heracross",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "064/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5505,7 +6435,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275322
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127688/preview_heracross-64-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86061,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -5526,10 +6467,13 @@
       "cardtrader": [
         {
           "id": 127690,
-          "match_type": "scryfall",
+          "name": "Hoothoot",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "065/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5588,7 +6532,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275323
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127690/preview_hoothoot-65-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86170,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -5609,10 +6564,13 @@
       "cardtrader": [
         {
           "id": 127692,
-          "match_type": "scryfall",
+          "name": "Houndour",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "066/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5671,7 +6629,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275324
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127692/preview_houndour-66-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86220,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -5692,10 +6661,13 @@
       "cardtrader": [
         {
           "id": 127694,
-          "match_type": "scryfall",
+          "name": "Igglybuff",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "067/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5754,7 +6726,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275325
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127694/preview_igglybuff-67-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86258,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -5775,10 +6758,13 @@
       "cardtrader": [
         {
           "id": 127696,
-          "match_type": "scryfall",
+          "name": "Jigglypuff",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "068/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5837,7 +6823,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275326
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127696/preview_jigglypuff-68-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86313,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -5858,10 +6855,13 @@
       "cardtrader": [
         {
           "id": 127698,
-          "match_type": "scryfall",
+          "name": "Kadabra",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "069/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -5920,7 +6920,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275327
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127698/preview_kadabra-69-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86405,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -5941,10 +6952,13 @@
       "cardtrader": [
         {
           "id": 127700,
-          "match_type": "scryfall",
+          "name": "Kakuna",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "070/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6003,7 +7017,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275328
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127700/preview_kakuna-70-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86410,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -6024,10 +7049,13 @@
       "cardtrader": [
         {
           "id": 127702,
-          "match_type": "scryfall",
+          "name": "Lapras",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "071/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6086,7 +7114,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275329
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127702/preview_lapras-71-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86616,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -6107,10 +7146,13 @@
       "cardtrader": [
         {
           "id": 127704,
-          "match_type": "scryfall",
+          "name": "Ledyba",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "072/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6169,7 +7211,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275330
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127704/preview_ledyba-72-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86701,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -6190,10 +7243,13 @@
       "cardtrader": [
         {
           "id": 127706,
-          "match_type": "scryfall",
+          "name": "Ledyba",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "073/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6252,7 +7308,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275331
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127706/preview_ledyba-73-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86702,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -6273,10 +7340,13 @@
       "cardtrader": [
         {
           "id": 127708,
-          "match_type": "scryfall",
+          "name": "Machop",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "074/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6335,7 +7405,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275332
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127708/preview_machop-74-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86989,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -6356,10 +7437,13 @@
       "cardtrader": [
         {
           "id": 127710,
-          "match_type": "scryfall",
+          "name": "Magikarp",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "075/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6418,7 +7502,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275333
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127710/preview_magikarp-75-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87023,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -6439,10 +7534,13 @@
       "cardtrader": [
         {
           "id": 127712,
-          "match_type": "scryfall",
+          "name": "Magnemite",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "076/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6501,7 +7599,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275334
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127712/preview_magnemite-76-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87069,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -6522,10 +7631,13 @@
       "cardtrader": [
         {
           "id": 127714,
-          "match_type": "scryfall",
+          "name": "Mantine",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "077/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6584,7 +7696,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275335
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127714/preview_mantine-77-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87181,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -6605,10 +7728,13 @@
       "cardtrader": [
         {
           "id": 127716,
-          "match_type": "scryfall",
+          "name": "Meowth",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "078/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6667,7 +7793,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275336
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127716/preview_meowth-78-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87314,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -6688,10 +7825,13 @@
       "cardtrader": [
         {
           "id": 127718,
-          "match_type": "scryfall",
+          "name": "Murkrow",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "079/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6750,7 +7890,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275337
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127718/preview_murkrow-79-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87649,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -6771,10 +7922,13 @@
       "cardtrader": [
         {
           "id": 127720,
-          "match_type": "scryfall",
+          "name": "Natu",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "080/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6833,7 +7987,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275338
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127720/preview_natu-80-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87683,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -6854,10 +8019,13 @@
       "cardtrader": [
         {
           "id": 127722,
-          "match_type": "scryfall",
+          "name": "Nidoran ♀",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "081/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6916,7 +8084,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275339
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127722/preview_nidoran-f-81-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87714,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -6937,10 +8116,13 @@
       "cardtrader": [
         {
           "id": 127724,
-          "match_type": "scryfall",
+          "name": "Nidoran ♀",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "082/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -6999,7 +8181,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275340
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127724/preview_nidoran-f-82-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87716,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -7020,10 +8213,13 @@
       "cardtrader": [
         {
           "id": 127726,
-          "match_type": "scryfall",
+          "name": "Nidorina",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "083/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7082,7 +8278,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275341
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127726/preview_nidorina-83-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87734,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -7103,10 +8310,13 @@
       "cardtrader": [
         {
           "id": 127728,
-          "match_type": "scryfall",
+          "name": "Pikachu",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "084/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7165,7 +8375,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275342
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127728/preview_pikachu-84-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88074,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -7186,10 +8407,13 @@
       "cardtrader": [
         {
           "id": 127730,
-          "match_type": "scryfall",
+          "name": "Pineco",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "085/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7248,7 +8472,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275343
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127730/preview_pineco-85-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88124,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -7269,10 +8504,13 @@
       "cardtrader": [
         {
           "id": 127732,
-          "match_type": "scryfall",
+          "name": "Pineco",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "086/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7331,7 +8569,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275344
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127732/preview_pineco-86-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88125,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -7352,10 +8601,13 @@
       "cardtrader": [
         {
           "id": 127734,
-          "match_type": "scryfall",
+          "name": "Poliwag",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "087/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7414,7 +8666,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275345
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127734/preview_poliwag-87-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88255,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -7435,10 +8698,13 @@
       "cardtrader": [
         {
           "id": 127736,
-          "match_type": "scryfall",
+          "name": "Poliwhirl",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "088/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7497,7 +8763,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275346
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127736/preview_poliwhirl-88-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88263,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -7518,10 +8795,13 @@
       "cardtrader": [
         {
           "id": 127738,
-          "match_type": "scryfall",
+          "name": "Raticate",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "089/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7580,7 +8860,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275347
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127738/preview_raticate-89-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88602,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -7601,10 +8892,13 @@
       "cardtrader": [
         {
           "id": 127740,
-          "match_type": "scryfall",
+          "name": "Rattata",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "090/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7663,7 +8957,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275348
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127740/preview_rattata-90-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88613,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -7684,10 +8989,13 @@
       "cardtrader": [
         {
           "id": 127742,
-          "match_type": "scryfall",
+          "name": "Rhyhorn",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "091/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7746,7 +9054,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275349
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127742/preview_rhyhorn-91-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88739,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -7767,10 +9086,13 @@
       "cardtrader": [
         {
           "id": 127744,
-          "match_type": "scryfall",
+          "name": "Sandshrew",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "092/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7829,7 +9151,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275350
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127744/preview_sandshrew-92-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88921,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -7850,10 +9183,13 @@
       "cardtrader": [
         {
           "id": 127746,
-          "match_type": "scryfall",
+          "name": "Sandslash",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "093/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7912,7 +9248,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275351
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127746/preview_sandslash-93-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88931,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -7933,10 +9280,13 @@
       "cardtrader": [
         {
           "id": 127748,
-          "match_type": "scryfall",
+          "name": "Seel",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "094/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -7995,7 +9345,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275352
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127748/preview_seel-94-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89050,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -8016,10 +9377,13 @@
       "cardtrader": [
         {
           "id": 127750,
-          "match_type": "scryfall",
+          "name": "Seel",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "095/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -8078,7 +9442,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275353
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127750/preview_seel-95-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89051,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -8099,10 +9474,13 @@
       "cardtrader": [
         {
           "id": 127752,
-          "match_type": "scryfall",
+          "name": "Shuckle",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "096/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -8161,7 +9539,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275354
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127752/preview_shuckle-96-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89189,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -8182,10 +9571,13 @@
       "cardtrader": [
         {
           "id": 127754,
-          "match_type": "scryfall",
+          "name": "Skarmory",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "097/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -8244,7 +9636,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275355
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127754/preview_skarmory-97-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89236,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -8265,12 +9668,16 @@
       "cardtrader": [
         {
           "id": 127756,
-          "match_type": "scryfall",
+          "name": "Slugma",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "098/144",
+          "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -8327,7 +9734,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275357
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127756/preview_slugma-98-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89338,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -8348,12 +9766,16 @@
       "cardtrader": [
         {
           "id": 127758,
-          "match_type": "scryfall",
+          "name": "Slugma",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "099/144",
+          "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -8410,7 +9832,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275356
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127758/preview_slugma-99-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89339,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -8431,10 +9864,13 @@
       "cardtrader": [
         {
           "id": 127760,
-          "match_type": "scryfall",
+          "name": "Snorlax",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "100/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -8493,7 +9929,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275358
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127760/preview_snorlax-100-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89387,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -8514,10 +9961,13 @@
       "cardtrader": [
         {
           "id": 127762,
-          "match_type": "scryfall",
+          "name": "Snubbull",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "101/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -8576,7 +10026,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275359
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127762/preview_snubbull-101-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89413,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -8597,10 +10058,13 @@
       "cardtrader": [
         {
           "id": 127764,
-          "match_type": "scryfall",
+          "name": "Stantler",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "102/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -8659,7 +10123,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275360
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127764/preview_stantler-102-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89502,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -8680,10 +10155,13 @@
       "cardtrader": [
         {
           "id": 127766,
-          "match_type": "scryfall",
+          "name": "Staryu",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "103/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -8742,7 +10220,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275362
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127766/preview_staryu-103-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89544,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -8763,10 +10252,13 @@
       "cardtrader": [
         {
           "id": 127768,
-          "match_type": "scryfall",
+          "name": "Staryu",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "104/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -8825,7 +10317,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275361
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127768/preview_staryu-104-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89545,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -8846,10 +10349,13 @@
       "cardtrader": [
         {
           "id": 127770,
-          "match_type": "scryfall",
+          "name": "Sunflora",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "105/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -8908,7 +10414,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275363
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127770/preview_sunflora-105-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89613,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -8929,10 +10446,13 @@
       "cardtrader": [
         {
           "id": 127772,
-          "match_type": "scryfall",
+          "name": "Sunkern",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "106/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -8991,7 +10511,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275364
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127772/preview_sunkern-106-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89619,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -9012,10 +10543,13 @@
       "cardtrader": [
         {
           "id": 127774,
-          "match_type": "scryfall",
+          "name": "Swinub",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "107/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -9074,7 +10608,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275366
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127774/preview_swinub-107-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89700,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -9095,10 +10640,13 @@
       "cardtrader": [
         {
           "id": 127776,
-          "match_type": "scryfall",
+          "name": "Swinub",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "108/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -9157,7 +10705,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275365
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127776/preview_swinub-108-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89701,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -9178,10 +10737,13 @@
       "cardtrader": [
         {
           "id": 127778,
-          "match_type": "scryfall",
+          "name": "Teddiursa",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "109/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -9240,7 +10802,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275367
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127778/preview_teddiursa-109-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89856,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -9261,10 +10834,13 @@
       "cardtrader": [
         {
           "id": 127780,
-          "match_type": "scryfall",
+          "name": "Ursaring",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "110/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -9323,7 +10899,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275368
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127780/preview_ursaring-110-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90251,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -9344,10 +10931,13 @@
       "cardtrader": [
         {
           "id": 127782,
-          "match_type": "scryfall",
+          "name": "Venomoth",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "111/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -9406,7 +10996,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275369
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127782/preview_venomoth-111-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90300,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -9427,10 +11028,13 @@
       "cardtrader": [
         {
           "id": 127784,
-          "match_type": "scryfall",
+          "name": "Venonat",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "112/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -9489,7 +11093,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275370
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127784/preview_venonat-112-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90306,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -9510,10 +11125,13 @@
       "cardtrader": [
         {
           "id": 127786,
-          "match_type": "scryfall",
+          "name": "Voltorb",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "113/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -9572,7 +11190,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275371
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127786/preview_voltorb-113-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90411,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -9593,10 +11222,13 @@
       "cardtrader": [
         {
           "id": 127788,
-          "match_type": "scryfall",
+          "name": "Weedle",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "114/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -9655,7 +11287,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275372
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127788/preview_weedle-114-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90540,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -9676,10 +11319,13 @@
       "cardtrader": [
         {
           "id": 127790,
-          "match_type": "scryfall",
+          "name": "Weedle",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "115/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -9738,7 +11384,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275373
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127790/preview_weedle-115-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90541,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -9759,10 +11416,13 @@
       "cardtrader": [
         {
           "id": 127792,
-          "match_type": "scryfall",
+          "name": "Yanma",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "116/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -9821,7 +11481,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275374
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127792/preview_yanma-116-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90682,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -9842,10 +11513,13 @@
       "cardtrader": [
         {
           "id": 127794,
-          "match_type": "scryfall",
+          "name": "Zubat",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "117/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -9904,7 +11578,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275376
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127794/preview_zubat-117-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90768,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -9925,10 +11610,13 @@
       "cardtrader": [
         {
           "id": 127796,
-          "match_type": "scryfall",
+          "name": "Zubat",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "118/144",
+          "rarity": "Common",
           "finishes": [
             "normal"
           ],
@@ -9987,7 +11675,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275375
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127796/preview_zubat-118-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90769,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -10008,10 +11707,13 @@
       "cardtrader": [
         {
           "id": 127798,
-          "match_type": "scryfall",
+          "name": "Ancient Ruins",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "119/144",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -10070,7 +11772,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275377
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127798/preview_ancient-ruins-119-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83552,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -10091,10 +11804,13 @@
       "cardtrader": [
         {
           "id": 127800,
-          "match_type": "scryfall",
+          "name": "Relic Hunter",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "120/144",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -10153,7 +11869,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275378
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127800/preview_relic-hunter-120-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88683,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -10174,10 +11901,13 @@
       "cardtrader": [
         {
           "id": 127802,
-          "match_type": "scryfall",
+          "name": "Apricorn Maker",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "121/144",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -10236,7 +11966,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275379
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127802/preview_apricorn-maker-121-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83564,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -10257,10 +11998,13 @@
       "cardtrader": [
         {
           "id": 127804,
-          "match_type": "scryfall",
+          "name": "Crystal Shard",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "122/144",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -10319,7 +12063,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275380
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127804/preview_crystal-shard-122-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84519,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -10340,10 +12095,13 @@
       "cardtrader": [
         {
           "id": 127806,
-          "match_type": "scryfall",
+          "name": "Desert Shaman",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "123/144",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -10402,7 +12160,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275381
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127806/preview_desert-shaman-123-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84782,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -10423,10 +12192,13 @@
       "cardtrader": [
         {
           "id": 127808,
-          "match_type": "scryfall",
+          "name": "Fast Ball",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "124/144",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -10485,7 +12257,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275382
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127808/preview_fast-ball-124-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85391,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -10506,10 +12289,13 @@
       "cardtrader": [
         {
           "id": 127810,
-          "match_type": "scryfall",
+          "name": "Fisherman",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "125/144",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -10568,7 +12354,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275383
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127810/preview_fisherman-125-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85471,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -10589,10 +12386,13 @@
       "cardtrader": [
         {
           "id": 127812,
-          "match_type": "scryfall",
+          "name": "Friend Ball",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "126/144",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -10651,7 +12451,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275384
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127812/preview_friend-ball-126-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85562,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -10672,10 +12483,13 @@
       "cardtrader": [
         {
           "id": 127814,
-          "match_type": "scryfall",
+          "name": "Hyper Potion",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "127/144",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -10734,7 +12548,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275385
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127814/preview_hyper-potion-127-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86246,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -10755,10 +12580,13 @@
       "cardtrader": [
         {
           "id": 127816,
-          "match_type": "scryfall",
+          "name": "Lure Ball",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "128/144",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -10817,7 +12645,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275386
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127816/preview_lure-ball-128-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86931,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -10838,12 +12677,16 @@
       "cardtrader": [
         {
           "id": 127818,
-          "match_type": "scryfall",
+          "name": "Miracle Sphere α Alpha",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "129/144",
+          "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -10900,7 +12743,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275387
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127818/preview_miracle-sphere-alpha-129-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87497,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -10921,12 +12775,16 @@
       "cardtrader": [
         {
           "id": 127820,
-          "match_type": "scryfall",
+          "name": "Miracle Sphere β Beta",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "130/144",
+          "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -10983,7 +12841,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275388
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127820/preview_miracle-sphere-beta-130-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87498,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -11004,12 +12873,16 @@
       "cardtrader": [
         {
           "id": 127822,
-          "match_type": "scryfall",
+          "name": "Miracle Sphere γ Gamma",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "131/144",
+          "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -11066,7 +12939,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275389
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127822/preview_miracle-sphere-gamma-131-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87499,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -11087,10 +12971,13 @@
       "cardtrader": [
         {
           "id": 127824,
-          "match_type": "scryfall",
+          "name": "Mirage Stadium",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "132/144",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -11149,7 +13036,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275390
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127824/preview_mirage-stadium-132-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87500,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -11170,12 +13068,16 @@
       "cardtrader": [
         {
           "id": 127826,
-          "match_type": "scryfall",
+          "name": "Mystery Plate α Alpha",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "133/144",
+          "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -11232,7 +13134,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275391
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127826/preview_mystery-plate-alpha-133-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87670,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -11253,12 +13166,16 @@
       "cardtrader": [
         {
           "id": 127828,
-          "match_type": "scryfall",
+          "name": "Mystery Plate β Beta",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "134/144",
+          "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -11315,7 +13232,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275392
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127828/preview_mystery-plate-beta-134-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87671,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -11336,12 +13264,16 @@
       "cardtrader": [
         {
           "id": 127830,
-          "match_type": "scryfall",
+          "name": "Mystery Plate γ Gamma",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "135/144",
+          "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -11398,7 +13330,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275393
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127830/preview_mystery-plate-gamma-135-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87673,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -11419,10 +13362,13 @@
       "cardtrader": [
         {
           "id": 127832,
-          "match_type": "scryfall",
+          "name": "Mystery Plate δ Delta",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "136/144",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -11472,7 +13418,18 @@
                 "it"
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275394
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127832/preview_mystery-plate-delta-136-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87672,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -11493,10 +13450,13 @@
       "cardtrader": [
         {
           "id": 127834,
-          "match_type": "scryfall",
+          "name": "Mystery Zone",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "137/144",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -11555,7 +13515,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275395
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127834/preview_mystery-zone-137-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87674,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -11576,10 +13547,13 @@
       "cardtrader": [
         {
           "id": 127836,
-          "match_type": "scryfall",
+          "name": "Oracle",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "138/144",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -11638,7 +13612,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275396
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127836/preview_oracle-138-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87887,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -11659,10 +13644,13 @@
       "cardtrader": [
         {
           "id": 127838,
-          "match_type": "scryfall",
+          "name": "Star Piece",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "139/144",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -11721,7 +13709,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275397
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127838/preview_star-piece-139-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89507,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -11742,10 +13741,13 @@
       "cardtrader": [
         {
           "id": 127840,
-          "match_type": "scryfall",
+          "name": "Underground Expedition",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "140/144",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -11804,7 +13806,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275398
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127840/preview_underground-expedition-140-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90155,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -11825,10 +13838,13 @@
       "cardtrader": [
         {
           "id": 127842,
-          "match_type": "scryfall",
+          "name": "Underground Lake",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "141/144",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -11887,7 +13903,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275399
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127842/preview_underground-lake-141-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90157,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -11908,10 +13935,13 @@
       "cardtrader": [
         {
           "id": 127844,
-          "match_type": "scryfall",
+          "name": "Bounce Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "142/144",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -11970,7 +14000,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275400
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127844/preview_bounce-energy-142-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83947,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -11991,10 +14032,13 @@
       "cardtrader": [
         {
           "id": 127846,
-          "match_type": "scryfall",
+          "name": "Cyclone Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "143/144",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -12053,7 +14097,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275401
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127846/preview_cyclone-energy-143-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84539,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -12074,10 +14129,13 @@
       "cardtrader": [
         {
           "id": 127848,
-          "match_type": "scryfall",
+          "name": "Retro Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "144/144",
+          "rarity": "Uncommon",
           "finishes": [
             "normal"
           ],
@@ -12136,7 +14194,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275402
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127848/preview_retro-energy-144-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88718,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -12157,10 +14226,13 @@
       "cardtrader": [
         {
           "id": 127850,
-          "match_type": "scryfall",
+          "name": "Celebi",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "145/144",
+          "rarity": "Secret Rare",
           "finishes": [
             "normal"
           ],
@@ -12219,7 +14291,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275403
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127850/preview_celebi-secret-rare-145-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84144,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -12240,10 +14323,13 @@
       "cardtrader": [
         {
           "id": 127851,
-          "match_type": "scryfall",
+          "name": "Charizard",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "146/144",
+          "rarity": "Secret Rare",
           "finishes": [
             "normal"
           ],
@@ -12302,7 +14388,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275404
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127851/preview_charizard-secret-rare-146-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84186,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -12323,10 +14420,13 @@
       "cardtrader": [
         {
           "id": 127852,
-          "match_type": "scryfall",
+          "name": "Crobat",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "147/144",
+          "rarity": "Secret Rare",
           "finishes": [
             "normal"
           ],
@@ -12385,7 +14485,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275405
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127852/preview_crobat-secret-rare-147-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84485,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -12406,10 +14517,13 @@
       "cardtrader": [
         {
           "id": 127853,
-          "match_type": "scryfall",
+          "name": "Golem",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "148/144",
+          "rarity": "Secret Rare",
           "finishes": [
             "normal"
           ],
@@ -12468,7 +14582,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275406
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127853/preview_golem-secret-rare-148-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85825,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -12489,10 +14614,13 @@
       "cardtrader": [
         {
           "id": 127854,
-          "match_type": "scryfall",
+          "name": "Ho-Oh",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "149/144",
+          "rarity": "Secret Rare",
           "finishes": [
             "normal"
           ],
@@ -12551,7 +14679,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275407
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127854/preview_ho-oh-secret-rare-149-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86121,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -12572,10 +14711,13 @@
       "cardtrader": [
         {
           "id": 127855,
-          "match_type": "scryfall",
+          "name": "Kabutops",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "150/144",
+          "rarity": "Secret Rare",
           "finishes": [
             "normal"
           ],
@@ -12634,7 +14776,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275408
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127855/preview_kabutops-secret-rare-150-144-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86396,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -12655,10 +14808,13 @@
       "cardtrader": [
         {
           "id": 127530,
-          "match_type": "scryfall",
+          "name": "Alakazam",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "0H1/H32",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -12717,7 +14873,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275238
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127530/preview_alakazam-rare-holo-h1-h32-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83498,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -12738,10 +14905,13 @@
       "cardtrader": [
         {
           "id": 127531,
-          "match_type": "scryfall",
+          "name": "Arcanine",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "0H2/H32",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -12800,7 +14970,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275227
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127531/preview_arcanine-rare-holo-h2-h32-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83574,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -12821,10 +15002,13 @@
       "cardtrader": [
         {
           "id": 127532,
-          "match_type": "scryfall",
+          "name": "Articuno",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "0H3/H32",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -12883,7 +15067,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275258
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127532/preview_articuno-rare-holo-h3-h32-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83644,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -12904,10 +15099,13 @@
       "cardtrader": [
         {
           "id": 127533,
-          "match_type": "scryfall",
+          "name": "Beedrill",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "0H4/H32",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -12966,7 +15164,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275246
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127533/preview_beedrill-rare-holo-h4-h32-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83764,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -12987,10 +15196,13 @@
       "cardtrader": [
         {
           "id": 127534,
-          "match_type": "scryfall",
+          "name": "Crobat",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "0H5/H32",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -13049,7 +15261,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275245
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127534/preview_crobat-rare-holo-h5-h32-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84483,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -13070,10 +15293,13 @@
       "cardtrader": [
         {
           "id": 127535,
-          "match_type": "scryfall",
+          "name": "Dewgong",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "0H6/H32",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -13132,7 +15358,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275248
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127535/preview_dewgong-rare-holo-h6-h32-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84785,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -13153,10 +15390,13 @@
       "cardtrader": [
         {
           "id": 127536,
-          "match_type": "scryfall",
+          "name": "Flareon",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "0H7/H32",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -13215,7 +15455,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275249
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127536/preview_flareon-rare-holo-h7-h32-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85490,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -13236,10 +15487,13 @@
       "cardtrader": [
         {
           "id": 127537,
-          "match_type": "scryfall",
+          "name": "Forretress",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "0H8/H32",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -13298,7 +15552,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275251
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127537/preview_forretress-rare-holo-h8-h32-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85543,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -13319,10 +15584,13 @@
       "cardtrader": [
         {
           "id": 127538,
-          "match_type": "scryfall",
+          "name": "Gengar",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "0H9/H32",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -13381,7 +15649,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275250
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127538/preview_gengar-rare-holo-h9-h32-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85668,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -13402,10 +15681,13 @@
       "cardtrader": [
         {
           "id": 127539,
-          "match_type": "scryfall",
+          "name": "Gyarados",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "H10/H32",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -13464,7 +15746,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275237
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127539/preview_gyarados-rare-holo-h10-h32-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85987,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -13485,10 +15778,13 @@
       "cardtrader": [
         {
           "id": 127540,
-          "match_type": "scryfall",
+          "name": "Houndoom",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "H11/H32",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -13547,7 +15843,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275236
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127540/preview_houndoom-rare-holo-h11-h32-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86200,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -13568,10 +15875,13 @@
       "cardtrader": [
         {
           "id": 127541,
-          "match_type": "scryfall",
+          "name": "Jolteon",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "H12/H32",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -13630,7 +15940,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275239
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127541/preview_jolteon-rare-holo-h12-h32-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86337,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -13651,10 +15972,13 @@
       "cardtrader": [
         {
           "id": 127542,
-          "match_type": "scryfall",
+          "name": "Kabutops",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "H13/H32",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -13713,7 +16037,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275240
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127542/preview_kabutops-rare-holo-h13-h32-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86391,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -13734,10 +16069,13 @@
       "cardtrader": [
         {
           "id": 127543,
-          "match_type": "scryfall",
+          "name": "Ledian",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "H14/H32",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -13796,7 +16134,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275242
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127543/preview_ledian-rare-holo-h14-h32-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86690,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -13817,10 +16166,13 @@
       "cardtrader": [
         {
           "id": 127544,
-          "match_type": "scryfall",
+          "name": "Machamp",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "H15/H32",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -13879,7 +16231,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275241
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127544/preview_machamp-rare-holo-h15-h32-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86958,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -13900,10 +16263,13 @@
       "cardtrader": [
         {
           "id": 127545,
-          "match_type": "scryfall",
+          "name": "Magcargo",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "H16/H32",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -13962,7 +16328,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275235
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127545/preview_magcargo-rare-holo-h16-h32-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87008,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -13983,10 +16360,13 @@
       "cardtrader": [
         {
           "id": 127546,
-          "match_type": "scryfall",
+          "name": "Magcargo",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "H17/H32",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -14045,7 +16425,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275234
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127546/preview_magcargo-rare-holo-h17-h32-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87010,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -14066,10 +16457,13 @@
       "cardtrader": [
         {
           "id": 127547,
-          "match_type": "scryfall",
+          "name": "Magneton",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "H18/H32",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -14128,7 +16522,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275229
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127547/preview_magneton-rare-holo-h18-h32-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87095,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -14149,10 +16554,13 @@
       "cardtrader": [
         {
           "id": 127548,
-          "match_type": "scryfall",
+          "name": "Magneton",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "H19/H32",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -14211,7 +16619,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275228
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127548/preview_magneton-rare-holo-h19-h32-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87096,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -14232,10 +16651,13 @@
       "cardtrader": [
         {
           "id": 127549,
-          "match_type": "scryfall",
+          "name": "Moltres",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "H20/H32",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -14294,7 +16716,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275230
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127549/preview_moltres-rare-holo-h20-h32-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87556,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -14315,10 +16748,13 @@
       "cardtrader": [
         {
           "id": 127550,
-          "match_type": "scryfall",
+          "name": "Nidoqueen",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "H21/H32",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -14377,7 +16813,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275231
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127550/preview_nidoqueen-rare-holo-h21-h32-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87703,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -14398,10 +16845,13 @@
       "cardtrader": [
         {
           "id": 127551,
-          "match_type": "scryfall",
+          "name": "Piloswine",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "H22/H32",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -14460,7 +16910,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275233
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127551/preview_piloswine-rare-holo-h22-h32-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88112,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -14481,10 +16942,13 @@
       "cardtrader": [
         {
           "id": 127552,
-          "match_type": "scryfall",
+          "name": "Politoed",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "H23/H32",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -14543,7 +17007,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275244
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127552/preview_politoed-rare-holo-h23-h32-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88247,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -14564,10 +17039,13 @@
       "cardtrader": [
         {
           "id": 127553,
-          "match_type": "scryfall",
+          "name": "Poliwrath",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "H24/H32",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -14626,7 +17104,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275232
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127553/preview_poliwrath-rare-holo-h24-h32-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88272,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -14647,10 +17136,13 @@
       "cardtrader": [
         {
           "id": 127554,
-          "match_type": "scryfall",
+          "name": "Raichu",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "H25/H32",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -14709,7 +17201,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275243
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127554/preview_raichu-rare-holo-h25-h32-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88502,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -14730,10 +17233,13 @@
       "cardtrader": [
         {
           "id": 127555,
-          "match_type": "scryfall",
+          "name": "Raikou",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "H26/H32",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -14792,7 +17298,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275247
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127555/preview_raikou-rare-holo-h26-h32-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88531,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -14813,10 +17330,13 @@
       "cardtrader": [
         {
           "id": 127556,
-          "match_type": "scryfall",
+          "name": "Rhydon",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "H27/H32",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -14875,7 +17395,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275257
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127556/preview_rhydon-rare-holo-h27-h32-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88728,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -14896,10 +17427,13 @@
       "cardtrader": [
         {
           "id": 127557,
-          "match_type": "scryfall",
+          "name": "Starmie",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "H28/H32",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -14958,7 +17492,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275254
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127557/preview_starmie-rare-holo-h28-h32-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89528,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -14979,10 +17524,13 @@
       "cardtrader": [
         {
           "id": 127558,
-          "match_type": "scryfall",
+          "name": "Steelix",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "H29/H32",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -15041,7 +17589,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275256
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127558/preview_steelix-rare-holo-h29-h32-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89558,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -15062,10 +17621,13 @@
       "cardtrader": [
         {
           "id": 127559,
-          "match_type": "scryfall",
+          "name": "Umbreon",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "H30/H32",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -15124,7 +17686,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275255
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127559/preview_umbreon-rare-holo-h30-h32-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90140,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -15145,10 +17718,13 @@
       "cardtrader": [
         {
           "id": 127560,
-          "match_type": "scryfall",
+          "name": "Vaporeon",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "H31/H32",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -15207,7 +17783,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275252
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127560/preview_vaporeon-rare-holo-h31-h32-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90280,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     },
@@ -15228,10 +17815,13 @@
       "cardtrader": [
         {
           "id": 127561,
-          "match_type": "scryfall",
+          "name": "Xatu",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
           "expansion": "Skyridge",
           "expansion_code": "skg",
           "collector_number": "H32/H32",
+          "rarity": "Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -15290,7 +17880,18 @@
                 false
               ]
             }
-          ]
+          ],
+          "cardmarket_ids": [
+            275253
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127561/preview_xatu-rare-holo-h32-h32-skyridge.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90658,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1372
         }
       ]
     }
