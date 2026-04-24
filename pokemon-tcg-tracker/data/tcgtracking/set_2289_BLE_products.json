@@ -4,8 +4,8 @@
   "set_abbr": "BLE",
   "set_released": "2026-04-14",
   "product_count": 130,
-  "data_modified": "2026-04-15T07:08:03-04:00",
-  "file_generated": "2026-04-16T04:30:43-04:00",
+  "data_modified": "2026-04-21T07:08:19-04:00",
+  "file_generated": "2026-04-22T04:30:42-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/2289/pricing",
   "products": [
     {
@@ -429,15 +429,15 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 128714,
+      "cardtrader_id": null,
       "cardtrader": [
         {
           "id": 128714,
-          "name": "Metagross",
+          "name": "Metagross Lv.68",
           "match_type": "tcgplayer",
           "match_confidence": 95,
-          "expansion": "Supreme Victors Promos",
-          "expansion_code": "psv",
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
           "collector_number": "007",
           "rarity": "Promo",
           "finishes": [
@@ -504,7 +504,7 @@
           "category_id": 73,
           "category_name": "Pokémon Singles",
           "product_type": "single",
-          "group_id": 1539
+          "group_id": 1840
         }
       ]
     },
@@ -581,15 +581,15 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 134932,
+      "cardtrader_id": null,
       "cardtrader": [
         {
           "id": 134932,
           "name": "Grookey",
           "match_type": "tcgplayer",
           "match_confidence": 95,
-          "expansion": "S-P: Sword & Shield Promos",
-          "expansion_code": "s-p",
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
           "collector_number": "010",
           "rarity": "Common",
           "finishes": [
@@ -658,7 +658,7 @@
           "category_id": 73,
           "category_name": "Pokémon Singles",
           "product_type": "single",
-          "group_id": 23876
+          "group_id": 1840
         }
       ]
     },
@@ -3025,15 +3025,15 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 134935,
+      "cardtrader_id": null,
       "cardtrader": [
         {
           "id": 134935,
           "name": "Scorbunny",
           "match_type": "tcgplayer",
           "match_confidence": 95,
-          "expansion": "S-P: Sword & Shield Promos",
-          "expansion_code": "s-p",
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
           "collector_number": "030",
           "rarity": "Common",
           "finishes": [
@@ -3102,7 +3102,7 @@
           "category_id": 73,
           "category_name": "Pokémon Singles",
           "product_type": "single",
-          "group_id": 23876
+          "group_id": 1840
         }
       ]
     },
@@ -8873,7 +8873,88 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardtrader_id": 114689,
+      "cardtrader": [
+        {
+          "id": 114689,
+          "name": "Garchomp",
+          "match_type": "name",
+          "match_confidence": 98,
+          "expansion": "Dragons Exalted Promos",
+          "expansion_code": "pdrx",
+          "collector_number": "091/124c",
+          "rarity": "Rare",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "kr",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "kr",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/114689/preview_garchomp-holo-promo-alternate-91-124-dragons-exalted-promos.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": null,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2289
+        }
+      ]
     },
     {
       "id": 227093,
@@ -9955,15 +10036,15 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 122721,
+      "cardtrader_id": null,
       "cardtrader": [
         {
           "id": 122721,
           "name": "Steelix",
           "match_type": "tcgplayer",
           "match_confidence": 95,
-          "expansion": "Lost Thunder Promos",
-          "expansion_code": "plot",
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
           "collector_number": "125",
           "rarity": "Promo",
           "finishes": [
@@ -10032,7 +10113,7 @@
           "category_id": 73,
           "category_name": "Pokémon Singles",
           "product_type": "single",
-          "group_id": 1539
+          "group_id": 1840
         }
       ]
     },
