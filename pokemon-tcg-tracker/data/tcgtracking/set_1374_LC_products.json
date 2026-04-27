@@ -3,11 +3,26 @@
   "set_name": "Legendary Collection",
   "set_abbr": "LC",
   "set_released": "2002-05-24",
-  "product_count": 113,
-  "data_modified": "2026-04-15T07:07:34-04:00",
-  "file_generated": "2026-04-16T04:30:48-04:00",
+  "product_count": 114,
+  "data_modified": "2026-04-22T02:00:32-04:00",
+  "file_generated": "2026-04-22T04:30:47-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/1374/pricing",
   "products": [
+    {
+      "id": 691155,
+      "name": "Legendary Collection Booster Box",
+      "clean_name": "Legendary Collection Booster Box",
+      "number": null,
+      "rarity": null,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/691155_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F691155%2Fpokemon-legendary-collection-legendary-collection-booster-box",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": null
+    },
     {
       "id": 138150,
       "name": "Legendary Collection Booster Pack",
@@ -2853,7 +2868,7 @@
       "cardtrader": [
         {
           "id": 121590,
-          "name": "Mewtwo",
+          "name": "Mewtwo Lv.30",
           "match_type": "tcgplayer",
           "match_confidence": 95,
           "expansion": "Legendary Collection",
@@ -2861,7 +2876,8 @@
           "collector_number": "029/110",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
