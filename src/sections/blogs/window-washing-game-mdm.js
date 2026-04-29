@@ -4,12 +4,16 @@ export default {
     category: 'Games',
     difficulty: 'Medium',
     tags: ['Game'],
-    date: '2026-04-20T12:00:00',
+    date: '2026-04-28T12:00:00',
     excerpt: 'MDM for Window Washing Game',
     content: `
 This is an MDM for the game called Window Washing Game. Since the game is still in development, this MDM is subject to change.
 
 ⸻⸻⸻⸻⸻
+
+This is a supplement explanation for my MDM because I had treated my MDM as a journal during the semester so there are not a lot of reasons why I make the decisions that happen in each entry.
+
+Since a lot of my work revolves around actually implementing the game and fixing bugs, there are not a lot I really want to say. But since our game revolves around the players, I want to create an environment that allows the players to connect with each other through a medium, in this case, a computer game. So, most of my design decisions on both backend and frontend are catering toward how smoothly the players can interact with each other and how they interact with each other. For example, do the in-game characters synchronize with each other like how the players will in the real world, because if only one in-game character is moving or existing, then the immersion will break due to the fact that the players can not interact with each other. Another example is how they are able to interact and express themselves such as player card skins which allow the players to choose the color they want and our team has designed a system that allows the players to choose the skins that they want and allow us to add in more skins upon the players request. In addition to how the players interact with each other, the immersion and the story-telling is also being expressed through the gameplay and how the players interact with the game environment such as cleaning windows (the main goal of this game), dodging objects/obstacles, and some lore cues that spread around the level. Thus, with these interactions between players vs. players, and players vs. environments, our game is actively allowing the players to make their own stories and from there full-filling the definition of procedural rhetoric.
 
 **Jan. 30th, 2026**
 - Create game concepts including basic mechanics and map layout.
@@ -245,5 +249,52 @@ Painful process
 - Implemented in-game memberlist UI 
 Took a while to wire data, thanks to GPT-Codex, actually painful when give it instruction on how to do exactly what I want 😃👍
 - Merge branch to get all the updates from team members to main branch including pause screen, death screen, and camera movement
+
+**Apr. 22th, 2026**
+- Resolve merge conflict with team
+
+**Apr. 23th, 2026**
+- Putting everything together
+A lot of weird stuffs and errors happens but it all fixable, just need some wiring
+- Ran into a weird animation error where the model position is wrong but the collider is correct 🫠
+
+**Apr. 24th, 2026**
+- Fixing some more issues
+- Polishing up the gameplay
+- Wiring up some stuffs
+- Add in the end screen
+Since the team member in charge of the UI haven’t made one yet, have to re-use the loading screen and put some extra stuffs on
+
+**Apr. 25th, 202**6
+- Fixing some bugs and make sure everything works correctly in multiplayer
+Of course it is not 😒
+- Fixing some issues with latency and synchronization
+- Add in the start screen
+- Fix the issue where if the host leave mid-game, the client side game will froze
+Now the client player will send back to main menu instead
+
+**Apr. 26th, 2026**
+- Fixing some issues with host leaving mid-game logistic
+- Fixing some warning due to overwrite and deprecated functions
+Still have no idea how to fix host leaving mid-game due to some logic issue, the client side keep going back to the main menu but instantly being sent to the game scene which cause the crash
+- Add in flying obstacles
+- Make some update to the window wet state
+- Make some update for the water shader
+- Add in settings screen
+- Polishing up the demo
+
+**Apr. 27th, 2026**
+- Fixing some wiring bugs for audio sources
+- Fixing a bug where the players can not start the game because they are stuck in ready mode
+Still can not fix the bug
+
+**Apr. 28th, 2026**
+- Implement in a counting system to allow setting win or lose state
+- Implement in a win or lose state based on how much progress the players made
+- Add in squeegee respawn mechanism as requested after the playtest
+- Add in UI that show player name during the game
+
+
+
 `
 }
