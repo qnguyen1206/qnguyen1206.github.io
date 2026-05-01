@@ -2,10 +2,10 @@
   "set_id": 2289,
   "set_name": "Blister Exclusives",
   "set_abbr": "BLE",
-  "set_released": "2026-04-14",
-  "product_count": 130,
-  "data_modified": "2026-04-21T07:08:19-04:00",
-  "file_generated": "2026-04-22T04:30:42-04:00",
+  "set_released": "2026-04-23",
+  "product_count": 131,
+  "data_modified": "2026-04-24T02:00:56-04:00",
+  "file_generated": "2026-04-24T04:30:43-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/2289/pricing",
   "products": [
     {
@@ -17,6 +17,21 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/535897_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F535897%2Fpokemon-blister-exclusives-houndstone-042-cosmos-holo",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": null
+    },
+    {
+      "id": 691978,
+      "name": "Rayquaza - 003/017 (2006)",
+      "clean_name": "Rayquaza 003 017 2006",
+      "number": "003/017",
+      "rarity": "Rare",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/691978_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F691978%2Fpokemon-blister-exclusives-rayquaza-003-017-2006",
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
@@ -7591,7 +7606,88 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardtrader_id": 386846,
+      "cardtrader": [
+        {
+          "id": 386846,
+          "name": "Noivern",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "077",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "kr",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "kr",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/386846/preview_noivern-cosmos-holo-77-111-theme-deck-blisters-exclusives.png",
+          "scryfall_id": null,
+          "tcg_player_id": 179081,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 173114,
