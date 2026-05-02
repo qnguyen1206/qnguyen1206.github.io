@@ -4,8 +4,8 @@
   "set_abbr": "",
   "set_released": "2022-11-30",
   "product_count": 725,
-  "data_modified": "2026-04-16T16:07:29-04:00",
-  "file_generated": "2026-04-17T04:30:45-04:00",
+  "data_modified": "2026-04-28T07:04:50-04:00",
+  "file_generated": "2026-04-29T04:30:50-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/22880/pricing",
   "products": [
     {
@@ -4885,8 +4885,87 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 864405,
+      "cardtrader_id": 388504,
+      "cardtrader": [
+        {
+          "id": 388504,
+          "name": "Yanmega ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Play! Pokémon Prize Pack Series",
+          "expansion_code": "playprizep",
+          "collector_number": "003",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            864405
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/388504/preview_yanmega-ex-003-182-play-pokemon-prize-pack-series.png",
+          "scryfall_id": null,
+          "tcg_player_id": 671742,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 22880
+        }
+      ]
     },
     {
       "id": 648328,
@@ -5915,8 +5994,87 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 864397,
+      "cardtrader_id": 388505,
+      "cardtrader": [
+        {
+          "id": 388505,
+          "name": "Shaymin",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Play! Pokémon Prize Pack Series",
+          "expansion_code": "playprizep",
+          "collector_number": "010",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            864397
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/388505/preview_shaymin-non-holo-010-182-play-pokemon-prize-pack-series.png",
+          "scryfall_id": null,
+          "tcg_player_id": 671679,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 22880
+        }
+      ]
     },
     {
       "id": 596428,
@@ -9396,8 +9554,87 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 864375,
+      "cardtrader_id": 388499,
+      "cardtrader": [
+        {
+          "id": 388499,
+          "name": "Kyurem ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Play! Pokémon Prize Pack Series",
+          "expansion_code": "playprizep",
+          "collector_number": "033",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            864375
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/388499/preview_kyurem-ex-028-086-play-pokemon-prize-pack-series.png",
+          "scryfall_id": null,
+          "tcg_player_id": 671619,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 22880
+        }
+      ]
     },
     {
       "id": 671307,
@@ -10406,8 +10643,87 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 864406,
+      "cardtrader_id": 388502,
+      "cardtrader": [
+        {
+          "id": 388502,
+          "name": "Zekrom ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Play! Pokémon Prize Pack Series",
+          "expansion_code": "playprizep",
+          "collector_number": "034",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            864406
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/388502/preview_zekrom-ex-034-086-play-pokemon-prize-pack-series.png",
+          "scryfall_id": null,
+          "tcg_player_id": 671743,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 22880
+        }
+      ]
     },
     {
       "id": 648636,
@@ -15187,7 +15503,7 @@
           ],
           "image_url": "https://cardtrader.com/uploads/blueprints/image/364965/preview_conkeldurr-non-holo-049-086-play-pokemon-prize-pack-series-eight.jpg",
           "scryfall_id": null,
-          "tcg_player_id": null,
+          "tcg_player_id": 671308,
           "game_id": 5,
           "category_id": 73,
           "category_name": "Pokémon Singles",
@@ -20318,8 +20634,87 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 864365,
+      "cardtrader_id": 388503,
+      "cardtrader": [
+        {
+          "id": 388503,
+          "name": "Genesect ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Play! Pokémon Prize Pack Series",
+          "expansion_code": "playprizep",
+          "collector_number": "067",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            864365
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/388503/preview_genesect-ex-067-086-play-pokemon-prize-pack-series.png",
+          "scryfall_id": null,
+          "tcg_player_id": 671556,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 22880
+        }
+      ]
     },
     {
       "id": 648676,
@@ -23876,8 +24271,87 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 864401,
+      "cardtrader_id": 388508,
+      "cardtrader": [
+        {
+          "id": 388508,
+          "name": "Team Rocket's Mewtwo ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Play! Pokémon Prize Pack Series",
+          "expansion_code": "playprizep",
+          "collector_number": "081",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            864401
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/388508/preview_team-rocket-s-mewtwo-ex-081-182-play-pokemon-prize-pack-series.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 677318,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 22880
+        }
+      ]
     },
     {
       "id": 492592,
@@ -28790,8 +29264,87 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 864380,
+      "cardtrader_id": 388500,
+      "cardtrader": [
+        {
+          "id": 388500,
+          "name": "Latios",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Play! Pokémon Prize Pack Series",
+          "expansion_code": "playprizep",
+          "collector_number": "101",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            864380
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/388500/preview_latios-cosmos-holo-101-132-play-pokemon-prize-pack-series.png",
+          "scryfall_id": null,
+          "tcg_player_id": 671623,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 22880
+        }
+      ]
     },
     {
       "id": 476060,
@@ -34322,8 +34875,87 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 864402,
+      "cardtrader_id": 388509,
+      "cardtrader": [
+        {
+          "id": 388509,
+          "name": "Team Rocket's Nidoking ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Play! Pokémon Prize Pack Series",
+          "expansion_code": "playprizep",
+          "collector_number": "119",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            864402
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/388509/preview_team-rocket-s-nidoking-ex-119-182-play-pokemon-prize-pack-series.png",
+          "scryfall_id": null,
+          "tcg_player_id": 671694,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 22880
+        }
+      ]
     },
     {
       "id": 513778,
@@ -56658,8 +57290,87 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 864443,
+      "cardtrader_id": 388511,
+      "cardtrader": [
+        {
+          "id": 388511,
+          "name": "Team Rocket's Archer",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Play! Pokémon Prize Pack Series",
+          "expansion_code": "playprizep",
+          "collector_number": "170",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            864443
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/388511/preview_team-rocket-s-archer-non-holo-170-182-play-pokemon-prize-pack-series.png",
+          "scryfall_id": null,
+          "tcg_player_id": 671323,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 22880
+        }
+      ]
     },
     {
       "id": 515469,
@@ -56985,8 +57696,87 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 864442,
+      "cardtrader_id": 388512,
+      "cardtrader": [
+        {
+          "id": 388512,
+          "name": "Team Rocket's Ariana",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Play! Pokémon Prize Pack Series",
+          "expansion_code": "playprizep",
+          "collector_number": "171",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            864442
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/388512/preview_team-rocket-s-ariana-non-holo-171-182-play-pokemon-prize-pack-series.png",
+          "scryfall_id": null,
+          "tcg_player_id": 671319,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 22880
+        }
+      ]
     },
     {
       "id": 476132,
@@ -57535,8 +58325,87 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 864444,
+      "cardtrader_id": 388513,
+      "cardtrader": [
+        {
+          "id": 388513,
+          "name": "Team Rocket's Factory",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Play! Pokémon Prize Pack Series",
+          "expansion_code": "playprizep",
+          "collector_number": "173",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            864444
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/388513/preview_team-rocket-s-factory-cosmos-holo-173-182-play-pokemon-prize-pack-series.png",
+          "scryfall_id": null,
+          "tcg_player_id": 671316,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 22880
+        }
+      ]
     },
     {
       "id": 538755,

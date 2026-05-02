@@ -2,10 +2,10 @@
   "set_id": 2374,
   "set_name": "Miscellaneous Cards & Products",
   "set_abbr": "MCAP",
-  "set_released": "2026-04-21",
+  "set_released": "2026-04-28",
   "product_count": 1473,
-  "data_modified": "2026-04-22T02:00:32-04:00",
-  "file_generated": "2026-04-22T04:30:42-04:00",
+  "data_modified": "2026-04-29T02:01:16-04:00",
+  "file_generated": "2026-04-29T04:30:48-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/2374/pricing",
   "products": [
     {
@@ -1003,7 +1003,7 @@
       "rarity": null,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/609597_200w.jpg",
       "image_count": 1,
-      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F609597%2Fpokemon-miscellaneous-cards-and-products-blooming-waters-premium-collection",
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F609597%2Fpokemon-sv-scarlet-and-violet-151-blooming-waters-premium-collection",
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
@@ -30907,8 +30907,87 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 877704,
+      "cardtrader_id": 388474,
+      "cardtrader": [
+        {
+          "id": 388474,
+          "name": "Aurorus",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Prerelease Promos",
+          "expansion_code": "pre-poke",
+          "collector_number": "024",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            877704
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/388474/preview_aurorus-perfect-order-stamped-024-088-prerelease-promos.png",
+          "scryfall_id": null,
+          "tcg_player_id": 685559,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 282798,
@@ -33470,8 +33549,87 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 877705,
+      "cardtrader_id": 388473,
+      "cardtrader": [
+        {
+          "id": 388473,
+          "name": "Luxray",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Prerelease Promos",
+          "expansion_code": "pre-poke",
+          "collector_number": "028",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            877705
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/388473/preview_luxray-perfect-order-stamped-028-088-prerelease-promos.png",
+          "scryfall_id": null,
+          "tcg_player_id": 685560,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 216514,
@@ -50282,7 +50440,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884418,
       "cardtrader_id": 327055,
       "cardtrader": [
         {
@@ -50367,7 +50525,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884418
+          ],
           "image_url": "https://cardtrader.com/uploads/blueprints/image/327055/preview_hisuian-zoroark-eb-games-promo-076-miscellaneous-promos.jpg",
           "scryfall_id": null,
           "tcg_player_id": 552434,
@@ -60253,7 +60413,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884419,
       "cardtrader_id": 323070,
       "cardtrader": [
         {
@@ -60338,7 +60498,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884419
+          ],
           "image_url": "https://cardtrader.com/uploads/blueprints/image/323070/preview_dragonite-eb-games-promo-131-swsh-black-star-promos.jpg",
           "scryfall_id": null,
           "tcg_player_id": 550632,
