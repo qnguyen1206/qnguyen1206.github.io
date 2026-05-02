@@ -1,5 +1,11 @@
 const certificatesData = {
   professional: [
+    {
+      title: "Foundational C# with Microsoft",
+      issuer: "freeCodeCamp",
+      date: "May 1, 2026",
+      link: "https://www.freecodecamp.org/certification/quang_m_nguyen/foundational-c-sharp-with-microsoft"
+    },
     
   ],
   nonProfessional: [
