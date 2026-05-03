@@ -4,8 +4,8 @@
   "set_abbr": "PR",
   "set_released": "1999-07-01",
   "product_count": 71,
-  "data_modified": "2026-04-21T07:08:05-04:00",
-  "file_generated": "2026-04-22T04:30:47-04:00",
+  "data_modified": "2026-04-28T07:04:25-04:00",
+  "file_generated": "2026-04-29T04:30:54-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/1418/pricing",
   "products": [
     {
@@ -1076,8 +1076,83 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 275429,
+      "cardtrader_id": 131729,
+      "cardtrader": [
+        {
+          "id": 131729,
+          "name": "Meowth",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Wizards Black Star Promos",
+          "expansion_code": "wiz",
+          "collector_number": "010",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            275429
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/131729/preview_meowth-cosmos-holo-10-wizards-black-star-promos.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 87309,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1528
+        }
+      ]
     },
     {
       "id": 85074,
@@ -1211,8 +1286,83 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 275437,
+      "cardtrader_id": 131737,
+      "cardtrader": [
+        {
+          "id": 131737,
+          "name": "Team Rocket's Meowth",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Wizards Black Star Promos",
+          "expansion_code": "wiz",
+          "collector_number": "018",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            275437
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/131737/preview_team-rocket-s-meowth-cosmos-holo-18-wizards-black-star-promos.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 89851,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1528
+        }
+      ]
     },
     {
       "id": 88862,
