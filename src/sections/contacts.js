@@ -52,6 +52,13 @@ export function initContacts() {
             </div>
           </a>
 
+          <a href="https://kairu1206.itch.io" target="_blank" class="contact-item itch-io-item">
+            <div class="contact-info">
+              <h3>Itch.io</h3>
+              <p>Check out my profile →</p>
+            </div>
+          </a>
+
         </div>
       </div>
     </div>

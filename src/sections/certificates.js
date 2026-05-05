@@ -2,7 +2,7 @@ const certificatesData = {
   professional: [
     {
       title: "Foundational C# with Microsoft",
-      issuer: "freeCodeCamp",
+      issuer: "Microsoft, freeCodeCamp",
       date: "May 1, 2026",
       link: "https://www.freecodecamp.org/certification/quang_m_nguyen/foundational-c-sharp-with-microsoft"
     },
@@ -11,7 +11,7 @@ const certificatesData = {
   nonProfessional: [
     {
       title: "IT Security Foundations: Network Security",
-      issuer: "NASBA",
+      issuer: "NASBA, LinkedIn Learning",
       date: "Apr 9, 2026",
       link: "https://www.linkedin.com/learning/certificates/1eb6a17bed666fffc16b4fa913271d42d186094d0925bbbd294cb341d03edb7c?trk=share_certificate"
     },
@@ -132,11 +132,45 @@ const issuerIcons = {
   }
 };
 
+function getIssuerClassName(issuer) {
+  return String(issuer || "default")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+function hasMultipleIssuers(issuer) {
+  return String(issuer || "")
+    .split(",")
+    .map((name) => name.trim())
+    .filter(Boolean).length > 1;
+}
+
 function getIssuerIcon(issuer) {
+  const issuers = String(issuer || "")
+    .split(",")
+    .map((name) => name.trim())
+    .filter(Boolean);
+
+  if (issuers.length > 1) {
+    return `
+      <div class="issuer-combo" aria-label="${issuers.join(" x ")} logos">
+        ${issuers
+          .map(
+            (name, index) => `
+              <div class="issuer-logo">${getIssuerIcon(name)}</div>
+              ${index < issuers.length - 1 ? '<span class="issuer-separator">X</span>' : ""}
+            `
+          )
+          .join("")}
+      </div>
+    `;
+  }
+
   const icon = issuerIcons[issuer] || issuerIcons["default"];
 
   if (typeof icon === "string") {
-    return `<img src="${icon}" alt="${issuer} logo" style="width: 48px; height: 48px; object-fit: contain;" />`;
+    return `<img src="${icon}" alt="${issuer} logo" class="issuer-image issuer-image-${getIssuerClassName(issuer)}" />`;
   } else if (icon.type === "svg") {
     return `<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/>${icon.content}</svg>`;
   }
@@ -149,11 +183,10 @@ function generateCertificateHTML(cert) {
   if (!cert.link) {
     return `
       <div class="certificate-card certificate-honor">
-        <div class="certificate-icon">
+        <div class="certificate-icon${hasMultipleIssuers(cert.issuer) ? ' certificate-icon-combo' : ''}">
           ${getIssuerIcon(cert.issuer)}
         </div>
         <h3>${cert.title}</h3>
-        <p class="certificate-issuer">${cert.issuer}</p>
         <p class="certificate-date">${cert.date}</p>
       </div>
     `;
@@ -161,11 +194,10 @@ function generateCertificateHTML(cert) {
 
   return `
     <a href="${cert.link}" class="certificate-card" target="_blank" rel="noopener noreferrer">
-      <div class="certificate-icon">
+      <div class="certificate-icon${hasMultipleIssuers(cert.issuer) ? ' certificate-icon-combo' : ''}">
         ${getIssuerIcon(cert.issuer)}
       </div>
       <h3>${cert.title}</h3>
-      <p class="certificate-issuer">${cert.issuer}</p>
       <p class="certificate-date">${cert.date}</p>
       <div class="certificate-cta">
         <span class="view-certificate">View Certificate</span>
@@ -496,18 +528,64 @@ export function initCertificates() {
         padding: var(--space-2);
       }
 
+      .issuer-combo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        line-height: 1;
+        flex-wrap: nowrap;
+      }
+
+      .issuer-logo {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .issuer-separator {
+        font-size: 1.1rem;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.9);
+      }
+
+      .certificate-icon-combo {
+        width: 136px;
+        height: 96px;
+        border-radius: 999px;
+      }
+
       .certificate-icon svg {
         width: 48px;
         height: 48px;
         color: white;
       }
 
-      .certificate-icon img {
+      .certificate-icon .issuer-image {
         width: 48px;
         height: 48px;
         object-fit: contain;
         border-radius: 4px;
         filter: brightness(0) invert(1);
+      }
+
+      .certificate-icon .issuer-image-microsoft {
+        width: 64px;
+        height: 30px;
+        border-radius: 0;
+      }
+
+      .issuer-combo .issuer-image {
+        width: 42px;
+        height: 42px;
+      }
+
+      .issuer-combo .issuer-image-microsoft {
+        width: 68px;
+        height: 32px;
       }
 
       .certificate-card h3 {
@@ -588,6 +666,11 @@ export function initCertificates() {
         .certificate-icon {
           width: 60px;
           height: 60px;
+        }
+
+        .certificate-icon-combo {
+          width: 102px;
+          height: 72px;
         }
 
         .certificate-icon svg {
