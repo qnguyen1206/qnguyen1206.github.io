@@ -2,10 +2,10 @@
   "set_id": 2205,
   "set_name": "Pikachu World Collection Promos",
   "set_abbr": "PWCP",
-  "set_released": "2026-04-14",
-  "product_count": 21,
-  "data_modified": "2026-04-15T07:08:01-04:00",
-  "file_generated": "2026-04-16T04:30:43-04:00",
+  "set_released": "2026-05-05",
+  "product_count": 22,
+  "data_modified": "2026-05-06T02:01:40-04:00",
+  "file_generated": "2026-05-06T04:30:53-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/2205/pricing",
   "products": [
     {
@@ -515,6 +515,108 @@
           "image_url": "https://cardtrader.com/uploads/blueprints/image/171165/preview_flying-pikachu-german-pikachu-world-collection.jpg",
           "scryfall_id": null,
           "tcg_player_id": 161749,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2205
+        }
+      ]
+    },
+    {
+      "id": 161747,
+      "name": "Pikachu (Baby)",
+      "clean_name": "Pikachu Baby",
+      "number": "27",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/161747_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F161747%2Fpokemon-pikachu-world-collection-promos-pikachu-baby",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 576942,
+      "cardtrader_id": 171160,
+      "cardtrader": [
+        {
+          "id": 171160,
+          "name": "Pikachu",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
+          "expansion": "Pikachu World Collection",
+          "expansion_code": "pwc",
+          "collector_number": "WP 27",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "",
+              "possible_values": [
+                "it"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            576942
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/171160/preview_pikachu-italian-pikachu-world-collection.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 161747,
           "game_id": 5,
           "category_id": 73,
           "category_name": "Pokémon Singles",
