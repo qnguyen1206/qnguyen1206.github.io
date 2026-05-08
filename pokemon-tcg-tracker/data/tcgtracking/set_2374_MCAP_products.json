@@ -2,10 +2,10 @@
   "set_id": 2374,
   "set_name": "Miscellaneous Cards & Products",
   "set_abbr": "MCAP",
-  "set_released": "2026-05-05",
+  "set_released": "2026-05-06",
   "product_count": 1477,
-  "data_modified": "2026-05-06T02:01:40-04:00",
-  "file_generated": "2026-05-06T04:30:52-04:00",
+  "data_modified": "2026-05-07T02:01:11-04:00",
+  "file_generated": "2026-05-07T04:30:57-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/2374/pricing",
   "products": [
     {
@@ -24067,67 +24067,8 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": 858502,
-      "cardtrader_id": 353001,
-      "cardtrader": [
-        {
-          "id": 353001,
-          "name": "Genesect",
-          "match_type": "name",
-          "match_confidence": 98,
-          "expansion": "Prerelease Promos",
-          "expansion_code": "pre-poke",
-          "collector_number": "008",
-          "rarity": "Holo Rare",
-          "finishes": [
-            "normal"
-          ],
-          "languages": [],
-          "properties": [
-            {
-              "name": "condition",
-              "type": "string",
-              "default_value": "Near Mint",
-              "possible_values": [
-                "Near Mint",
-                "Slightly Played",
-                "Moderately Played",
-                "Played",
-                "Poor"
-              ]
-            },
-            {
-              "name": "signed",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "altered",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            }
-          ],
-          "cardmarket_ids": [
-            858502
-          ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/353001/preview_genesect-prerelease-stamp-008-094-mep-black-star-promos.jpg",
-          "scryfall_id": null,
-          "tcg_player_id": null,
-          "game_id": 5,
-          "category_id": 73,
-          "category_name": "Pokémon Singles",
-          "product_type": "single",
-          "group_id": 2374
-        }
-      ]
+      "cardmarket_id": null,
+      "cardtrader_id": 353001
     },
     {
       "id": 164231,
@@ -38959,91 +38900,8 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": 873083,
-      "cardtrader_id": 118520,
-      "cardtrader": [
-        {
-          "id": 118520,
-          "name": "Electabuzz",
-          "match_type": "name",
-          "match_confidence": 98,
-          "expansion": "Retail Exclusive Promos",
-          "expansion_code": "promo-retail",
-          "collector_number": "041",
-          "rarity": "Promo",
-          "finishes": [
-            "normal"
-          ],
-          "languages": [
-            "en",
-            "fr",
-            "de",
-            "it",
-            "kr",
-            "pt",
-            "ru",
-            "es"
-          ],
-          "properties": [
-            {
-              "name": "condition",
-              "type": "string",
-              "default_value": "Near Mint",
-              "possible_values": [
-                "Near Mint",
-                "Slightly Played",
-                "Moderately Played",
-                "Played",
-                "Poor"
-              ]
-            },
-            {
-              "name": "signed",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "altered",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "pokemon_language",
-              "type": "string",
-              "default_value": "en",
-              "possible_values": [
-                "en",
-                "fr",
-                "de",
-                "it",
-                "kr",
-                "pt",
-                "ru",
-                "es"
-              ]
-            }
-          ],
-          "cardmarket_ids": [
-            873083
-          ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/118520/preview_electabuzz-holo-promo-41-108-evolutions-promos.jpg",
-          "scryfall_id": null,
-          "tcg_player_id": null,
-          "game_id": 5,
-          "category_id": 73,
-          "category_name": "Pokémon Singles",
-          "product_type": "single",
-          "group_id": 2374
-        }
-      ]
+      "cardmarket_id": null,
+      "cardtrader_id": 118520
     },
     {
       "id": 618119,
@@ -47078,91 +46936,8 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": 785463,
-      "cardtrader_id": 319581,
-      "cardtrader": [
-        {
-          "id": 319581,
-          "name": "Pikachu ex",
-          "match_type": "name",
-          "match_confidence": 98,
-          "expansion": "Holiday Calendar",
-          "expansion_code": "holy",
-          "collector_number": "063",
-          "rarity": "Promo",
-          "finishes": [
-            "normal"
-          ],
-          "languages": [
-            "en",
-            "fr",
-            "de",
-            "it",
-            "kr",
-            "pt",
-            "ru",
-            "es"
-          ],
-          "properties": [
-            {
-              "name": "condition",
-              "type": "string",
-              "default_value": "Near Mint",
-              "possible_values": [
-                "Near Mint",
-                "Slightly Played",
-                "Moderately Played",
-                "Played",
-                "Poor"
-              ]
-            },
-            {
-              "name": "signed",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "altered",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "pokemon_language",
-              "type": "string",
-              "default_value": "en",
-              "possible_values": [
-                "en",
-                "fr",
-                "de",
-                "it",
-                "kr",
-                "pt",
-                "ru",
-                "es"
-              ]
-            }
-          ],
-          "cardmarket_ids": [
-            785463
-          ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/319581/preview_pikachu-ex-063-holiday-snowflake-stamp-scarlet-violet-products.jpg",
-          "scryfall_id": null,
-          "tcg_player_id": null,
-          "game_id": 5,
-          "category_id": 73,
-          "category_name": "Pokémon Singles",
-          "product_type": "single",
-          "group_id": 2374
-        }
-      ]
+      "cardmarket_id": null,
+      "cardtrader_id": 319581
     },
     {
       "id": 693054,
@@ -48118,84 +47893,7 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 352982,
-      "cardtrader": [
-        {
-          "id": 352982,
-          "name": "Mimikyu ex",
-          "match_type": "name",
-          "match_confidence": 98,
-          "expansion": "Prerelease Promos",
-          "expansion_code": "pre-poke",
-          "collector_number": "069",
-          "rarity": "Promo",
-          "finishes": [
-            "normal"
-          ],
-          "languages": [
-            "en",
-            "fr",
-            "de",
-            "it",
-            "pt",
-            "es"
-          ],
-          "properties": [
-            {
-              "name": "condition",
-              "type": "string",
-              "default_value": "Near Mint",
-              "possible_values": [
-                "Near Mint",
-                "Slightly Played",
-                "Moderately Played",
-                "Played",
-                "Poor"
-              ]
-            },
-            {
-              "name": "signed",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "altered",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "pokemon_language",
-              "type": "string",
-              "default_value": "en",
-              "possible_values": [
-                "en",
-                "fr",
-                "de",
-                "it",
-                "pt",
-                "es"
-              ]
-            }
-          ],
-          "cardmarket_ids": [],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/352982/preview_mimikyu-ex-journey-together-stamp-mep-black-star-promos.jpg",
-          "scryfall_id": null,
-          "tcg_player_id": null,
-          "game_id": 5,
-          "category_id": 73,
-          "category_name": "Pokémon Singles",
-          "product_type": "single",
-          "group_id": 2374
-        }
-      ]
+      "cardtrader_id": 352982
     },
     {
       "id": 213010,
@@ -51696,84 +51394,7 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 352986,
-      "cardtrader": [
-        {
-          "id": 352986,
-          "name": "Lugia ex",
-          "match_type": "name",
-          "match_confidence": 98,
-          "expansion": "Prerelease Promos",
-          "expansion_code": "pre-poke",
-          "collector_number": "082",
-          "rarity": "Promo",
-          "finishes": [
-            "normal"
-          ],
-          "languages": [
-            "en",
-            "fr",
-            "de",
-            "it",
-            "pt",
-            "es"
-          ],
-          "properties": [
-            {
-              "name": "condition",
-              "type": "string",
-              "default_value": "Near Mint",
-              "possible_values": [
-                "Near Mint",
-                "Slightly Played",
-                "Moderately Played",
-                "Played",
-                "Poor"
-              ]
-            },
-            {
-              "name": "signed",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "altered",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "pokemon_language",
-              "type": "string",
-              "default_value": "en",
-              "possible_values": [
-                "en",
-                "fr",
-                "de",
-                "it",
-                "pt",
-                "es"
-              ]
-            }
-          ],
-          "cardmarket_ids": [],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/352986/preview_lugia-ex-prismatic-evolutions-stamp-mep-black-star-promos.jpg",
-          "scryfall_id": null,
-          "tcg_player_id": null,
-          "game_id": 5,
-          "category_id": 73,
-          "category_name": "Pokémon Singles",
-          "product_type": "single",
-          "group_id": 2374
-        }
-      ]
+      "cardtrader_id": 352986
     },
     {
       "id": 268049,
@@ -60756,93 +60377,7 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 350890,
-      "cardtrader": [
-        {
-          "id": 350890,
-          "name": "Bulbasaur",
-          "match_type": "name",
-          "match_confidence": 98,
-          "expansion": "Mega Evolution Products",
-          "expansion_code": "meproducts",
-          "collector_number": "133",
-          "rarity": "Promo",
-          "finishes": [
-            "normal"
-          ],
-          "languages": [
-            "en",
-            "fr",
-            "de",
-            "it",
-            "pt",
-            "es"
-          ],
-          "properties": [
-            {
-              "name": "condition",
-              "type": "string",
-              "default_value": "Near Mint",
-              "possible_values": [
-                "Near Mint",
-                "Slightly Played",
-                "Moderately Played",
-                "Played",
-                "Poor"
-              ]
-            },
-            {
-              "name": "signed",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "altered",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "pokemon_language",
-              "type": "string",
-              "default_value": "en",
-              "possible_values": [
-                "en",
-                "fr",
-                "de",
-                "it",
-                "pt",
-                "es"
-              ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            }
-          ],
-          "cardmarket_ids": [],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/350890/preview_bulbasaur-mega-evolution-stamped-133-132-mega-evolution-products.webp",
-          "scryfall_id": null,
-          "tcg_player_id": null,
-          "game_id": 5,
-          "category_id": 73,
-          "category_name": "Pokémon Singles",
-          "product_type": "single",
-          "group_id": 2374
-        }
-      ]
+      "cardtrader_id": 350890
     },
     {
       "id": 559565,
@@ -64996,82 +64531,7 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 115946,
-      "cardtrader": [
-        {
-          "id": 115946,
-          "name": "Torchic",
-          "match_type": "name",
-          "match_confidence": 98,
-          "expansion": "Miscellaneous Promos",
-          "expansion_code": "pr",
-          "collector_number": "069",
-          "rarity": "Promo",
-          "finishes": [
-            "normal"
-          ],
-          "languages": [
-            "en",
-            "fr",
-            "de",
-            "it",
-            "pt"
-          ],
-          "properties": [
-            {
-              "name": "condition",
-              "type": "string",
-              "default_value": "Near Mint",
-              "possible_values": [
-                "Near Mint",
-                "Slightly Played",
-                "Moderately Played",
-                "Played",
-                "Poor"
-              ]
-            },
-            {
-              "name": "signed",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "altered",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "pokemon_language",
-              "type": "string",
-              "default_value": "en",
-              "possible_values": [
-                "en",
-                "fr",
-                "de",
-                "it",
-                "pt"
-              ]
-            }
-          ],
-          "cardmarket_ids": [],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/115946/preview_torchic-wizard-world-chicago-promo-69-106-miscellaneous-promos.jpg",
-          "scryfall_id": null,
-          "tcg_player_id": null,
-          "game_id": 5,
-          "category_id": 73,
-          "category_name": "Pokémon Singles",
-          "product_type": "single",
-          "group_id": 2374
-        }
-      ]
+      "cardtrader_id": 115946
     },
     {
       "id": 637079,
