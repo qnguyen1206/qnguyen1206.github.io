@@ -3,9 +3,9 @@
   "set_name": "SV: Scarlet & Violet 151",
   "set_abbr": "MEW",
   "set_released": "2023-09-22",
-  "product_count": 247,
-  "data_modified": "2026-04-16T07:07:33-04:00",
-  "file_generated": "2026-04-17T04:30:45-04:00",
+  "product_count": 249,
+  "data_modified": "2026-05-02T02:00:55-04:00",
+  "file_generated": "2026-05-02T04:30:51-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/23237/pricing",
   "products": [
     {
@@ -1674,6 +1674,78 @@
       ]
     },
     {
+      "id": 609597,
+      "name": "Blooming Waters Premium Collection",
+      "clean_name": "Blooming Waters Premium Collection",
+      "number": null,
+      "rarity": null,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/609597_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F609597%2Fpokemon-sv-scarlet-and-violet-151-blooming-waters-premium-collection",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 807118,
+      "cardtrader_id": 315107,
+      "cardtrader": [
+        {
+          "id": 315107,
+          "name": "151 Blooming Waters Premium Collection",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
+          "expansion": "Pokémon Products",
+          "expansion_code": "popr",
+          "collector_number": null,
+          "rarity": null,
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            807118
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/315107/preview_151-blooming-waters-premium-collection-pokemon-products.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 609597,
+          "game_id": 5,
+          "category_id": 60,
+          "category_name": "Pokémon Box Set",
+          "product_type": "box_set",
+          "group_id": 2374
+        }
+      ]
+    },
+    {
       "id": 517267,
       "name": "Code Card - 151 Booster Pack",
       "clean_name": "Code Card 151 Booster Pack",
@@ -1772,6 +1844,21 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/517553_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F517553%2Fpokemon-sv-scarlet-and-violet-151-code-card-151-poster-collection",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": null
+    },
+    {
+      "id": 692583,
+      "name": "Costco Scarlet & Violet 151 Zapdos ex & Alakazam ex Bundle",
+      "clean_name": "Costco Scarlet and Violet 151 Zapdos ex and Alakazam ex Bundle",
+      "number": null,
+      "rarity": null,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/692583_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F692583%2Fpokemon-sv-scarlet-and-violet-151-costco-scarlet-and-violet-151-zapdos-ex-and-alakazam-ex-bundle",
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
