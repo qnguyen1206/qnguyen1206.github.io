@@ -4,8 +4,8 @@
   "set_abbr": "WCD",
   "set_released": "2018-07-01",
   "product_count": 1986,
-  "data_modified": "2026-04-22T07:08:20-04:00",
-  "file_generated": "2026-04-23T04:30:40-04:00",
+  "data_modified": "2026-05-09T07:06:43-04:00",
+  "file_generated": "2026-05-10T04:30:58-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/2282/pricing",
   "products": [
     {
@@ -17247,8 +17247,87 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 833264,
+      "cardtrader_id": 389892,
+      "cardtrader": [
+        {
+          "id": 389892,
+          "name": "Lumineon V",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "World Championship Decks 2023",
+          "expansion_code": "wcd2023",
+          "collector_number": "040",
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            833264
+          ],
+          "image_url": "https://cardtrader.com/fallbacks/card_uploader/preview.png",
+          "scryfall_id": null,
+          "tcg_player_id": 682917,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2282
+        }
+      ]
     },
     {
       "id": 637598,
