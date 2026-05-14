@@ -4,8 +4,8 @@
   "set_abbr": "PR",
   "set_released": "2016-06-01",
   "product_count": 617,
-  "data_modified": "2026-05-01T09:29:36-04:00",
-  "file_generated": "2026-05-02T04:30:54-04:00",
+  "data_modified": "2026-05-09T07:06:35-04:00",
+  "file_generated": "2026-05-10T04:30:59-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/1539/pricing",
   "products": [
     {
@@ -8972,95 +8972,7 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 111622,
-      "cardtrader": [
-        {
-          "id": 111622,
-          "name": "Snivy",
-          "match_type": "name",
-          "match_confidence": 98,
-          "expansion": "League Promos",
-          "expansion_code": "lpr",
-          "collector_number": "001/114l",
-          "rarity": "Common",
-          "finishes": [
-            "normal"
-          ],
-          "languages": [
-            "en",
-            "fr",
-            "de",
-            "it",
-            "pt",
-            "ru",
-            "es"
-          ],
-          "properties": [
-            {
-              "name": "condition",
-              "type": "string",
-              "default_value": "Near Mint",
-              "possible_values": [
-                "Near Mint",
-                "Slightly Played",
-                "Moderately Played",
-                "Played",
-                "Poor"
-              ]
-            },
-            {
-              "name": "signed",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "altered",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "pokemon_language",
-              "type": "string",
-              "default_value": "en",
-              "possible_values": [
-                "en",
-                "fr",
-                "de",
-                "it",
-                "pt",
-                "ru",
-                "es"
-              ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            }
-          ],
-          "cardmarket_ids": [],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/111622/preview_snivy-pokemon-league-1-114-black-white-promos.jpg",
-          "scryfall_id": null,
-          "tcg_player_id": null,
-          "game_id": 5,
-          "category_id": 73,
-          "category_name": "Pokémon Singles",
-          "product_type": "single",
-          "group_id": 1539
-        }
-      ]
+      "cardtrader_id": 111622
     },
     {
       "id": 153278,
@@ -9876,15 +9788,15 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 450328,
-      "cardtrader_id": 113894,
+      "cardtrader_id": null,
       "cardtrader": [
         {
           "id": 113894,
           "name": "Scyther",
           "match_type": "tcgplayer",
           "match_confidence": 95,
-          "expansion": "Dark Explorers Promos",
-          "expansion_code": "pdex",
+          "expansion": "League Promos",
+          "expansion_code": "lpr",
           "collector_number": "004/108a",
           "rarity": "Promo",
           "finishes": [
@@ -9974,15 +9886,15 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 450333,
-      "cardtrader_id": 113895,
+      "cardtrader_id": null,
       "cardtrader": [
         {
           "id": 113895,
           "name": "Scyther",
           "match_type": "tcgplayer",
           "match_confidence": 95,
-          "expansion": "Dark Explorers Promos",
-          "expansion_code": "pdex",
+          "expansion": "League Promos",
+          "expansion_code": "lpr",
           "collector_number": "004/108b",
           "rarity": "Uncommon",
           "finishes": [
@@ -10043,15 +9955,6 @@
                 "ru",
                 "es"
               ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
             }
           ],
           "cardmarket_ids": [
@@ -10081,16 +9984,16 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 450338,
-      "cardtrader_id": 113896,
+      "cardtrader_id": null,
       "cardtrader": [
         {
           "id": 113896,
           "name": "Scyther",
           "match_type": "tcgplayer",
           "match_confidence": 95,
-          "expansion": "Dark Explorers Promos",
-          "expansion_code": "pdex",
-          "collector_number": "004/108c",
+          "expansion": "League Promos",
+          "expansion_code": "lpr",
+          "collector_number": "004",
           "rarity": "Promo",
           "finishes": [
             "normal"
@@ -10179,15 +10082,15 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 450343,
-      "cardtrader_id": 113897,
+      "cardtrader_id": null,
       "cardtrader": [
         {
           "id": 113897,
           "name": "Scyther",
           "match_type": "tcgplayer",
           "match_confidence": 95,
-          "expansion": "Dark Explorers Promos",
-          "expansion_code": "pdex",
+          "expansion": "League Promos",
+          "expansion_code": "lpr",
           "collector_number": "004/108d",
           "rarity": "Promo",
           "finishes": [
@@ -15460,95 +15363,7 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 111628,
-      "cardtrader": [
-        {
-          "id": 111628,
-          "name": "Tepig",
-          "match_type": "name",
-          "match_confidence": 98,
-          "expansion": "League Promos",
-          "expansion_code": "lpr",
-          "collector_number": "015",
-          "rarity": "Common",
-          "finishes": [
-            "normal"
-          ],
-          "languages": [
-            "en",
-            "fr",
-            "de",
-            "it",
-            "pt",
-            "ru",
-            "es"
-          ],
-          "properties": [
-            {
-              "name": "condition",
-              "type": "string",
-              "default_value": "Near Mint",
-              "possible_values": [
-                "Near Mint",
-                "Slightly Played",
-                "Moderately Played",
-                "Played",
-                "Poor"
-              ]
-            },
-            {
-              "name": "signed",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "altered",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "pokemon_language",
-              "type": "string",
-              "default_value": "en",
-              "possible_values": [
-                "en",
-                "fr",
-                "de",
-                "it",
-                "pt",
-                "ru",
-                "es"
-              ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            }
-          ],
-          "cardmarket_ids": [],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/111628/preview_tepig-pokemon-league-15-114-black-white-promos.jpg",
-          "scryfall_id": null,
-          "tcg_player_id": null,
-          "game_id": 5,
-          "category_id": 73,
-          "category_name": "Pokémon Singles",
-          "product_type": "single",
-          "group_id": 1539
-        }
-      ]
+      "cardtrader_id": 111628
     },
     {
       "id": 153068,
@@ -16663,91 +16478,8 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": 855029,
-      "cardtrader_id": 357871,
-      "cardtrader": [
-        {
-          "id": 357871,
-          "name": "Reshiram ex",
-          "match_type": "name",
-          "match_confidence": 98,
-          "expansion": "League Promos",
-          "expansion_code": "lpr",
-          "collector_number": "020",
-          "rarity": "Promo",
-          "finishes": [
-            "normal"
-          ],
-          "languages": [
-            "en",
-            "fr",
-            "de",
-            "it",
-            "kr",
-            "pt",
-            "ru",
-            "es"
-          ],
-          "properties": [
-            {
-              "name": "condition",
-              "type": "string",
-              "default_value": "Near Mint",
-              "possible_values": [
-                "Near Mint",
-                "Slightly Played",
-                "Moderately Played",
-                "Played",
-                "Poor"
-              ]
-            },
-            {
-              "name": "signed",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "altered",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "pokemon_language",
-              "type": "string",
-              "default_value": "en",
-              "possible_values": [
-                "en",
-                "fr",
-                "de",
-                "it",
-                "kr",
-                "pt",
-                "ru",
-                "es"
-              ]
-            }
-          ],
-          "cardmarket_ids": [
-            855029
-          ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/357871/preview_reshiram-ex-wht-020-league-promos.jpg",
-          "scryfall_id": null,
-          "tcg_player_id": null,
-          "game_id": 5,
-          "category_id": 73,
-          "category_name": "Pokémon Singles",
-          "product_type": "single",
-          "group_id": 1539
-        }
-      ]
+      "cardmarket_id": null,
+      "cardtrader_id": 357871
     },
     {
       "id": 130327,
@@ -18387,15 +18119,15 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 449318,
-      "cardtrader_id": 113901,
+      "cardtrader_id": null,
       "cardtrader": [
         {
           "id": 113901,
           "name": "Vaporeon",
           "match_type": "tcgplayer",
           "match_confidence": 95,
-          "expansion": "Dark Explorers Promos",
-          "expansion_code": "pdex",
+          "expansion": "League Promos",
+          "expansion_code": "lpr",
           "collector_number": "025/108",
           "rarity": "Promo",
           "finishes": [
@@ -18456,15 +18188,6 @@
                 "ru",
                 "es"
               ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
             }
           ],
           "cardmarket_ids": [
@@ -18494,15 +18217,15 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 113902,
+      "cardtrader_id": null,
       "cardtrader": [
         {
           "id": 113902,
           "name": "Vaporeon",
           "match_type": "tcgplayer",
           "match_confidence": 95,
-          "expansion": "Dark Explorers Promos",
-          "expansion_code": "pdex",
+          "expansion": "League Promos",
+          "expansion_code": "lpr",
           "collector_number": "025/108s",
           "rarity": "Promo",
           "finishes": [
@@ -18562,15 +18285,6 @@
                 "pt",
                 "ru",
                 "es"
-              ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
               ]
             }
           ],
@@ -19288,7 +19002,8 @@
           "collector_number": "028/111l",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -20874,15 +20589,15 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 449643,
-      "cardtrader_id": 113904,
+      "cardtrader_id": null,
       "cardtrader": [
         {
           "id": 113904,
           "name": "Jolteon",
           "match_type": "tcgplayer",
           "match_confidence": 95,
-          "expansion": "Dark Explorers Promos",
-          "expansion_code": "pdex",
+          "expansion": "League Promos",
+          "expansion_code": "lpr",
           "collector_number": "037/108",
           "rarity": "Promo",
           "finishes": [
@@ -20943,15 +20658,6 @@
                 "ru",
                 "es"
               ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
             }
           ],
           "cardmarket_ids": [
@@ -20981,15 +20687,15 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 113905,
+      "cardtrader_id": null,
       "cardtrader": [
         {
           "id": 113905,
           "name": "Jolteon",
           "match_type": "tcgplayer",
           "match_confidence": 95,
-          "expansion": "Dark Explorers Promos",
-          "expansion_code": "pdex",
+          "expansion": "League Promos",
+          "expansion_code": "lpr",
           "collector_number": "037/108s",
           "rarity": "Promo",
           "finishes": [
@@ -21049,15 +20755,6 @@
                 "pt",
                 "ru",
                 "es"
-              ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
               ]
             }
           ],
@@ -23097,15 +22794,15 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 449493,
-      "cardtrader_id": 113906,
+      "cardtrader_id": null,
       "cardtrader": [
         {
           "id": 113906,
           "name": "Espeon",
           "match_type": "tcgplayer",
           "match_confidence": 95,
-          "expansion": "Dark Explorers Promos",
-          "expansion_code": "pdex",
+          "expansion": "League Promos",
+          "expansion_code": "lpr",
           "collector_number": "048/108",
           "rarity": "Rare",
           "finishes": [
@@ -23166,15 +22863,6 @@
                 "ru",
                 "es"
               ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
             }
           ],
           "cardmarket_ids": [
@@ -23204,15 +22892,15 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 113907,
+      "cardtrader_id": null,
       "cardtrader": [
         {
           "id": 113907,
           "name": "Espeon",
           "match_type": "tcgplayer",
           "match_confidence": 95,
-          "expansion": "Dark Explorers Promos",
-          "expansion_code": "pdex",
+          "expansion": "League Promos",
+          "expansion_code": "lpr",
           "collector_number": "048/108s",
           "rarity": "Promo",
           "finishes": [
@@ -23272,15 +22960,6 @@
                 "pt",
                 "ru",
                 "es"
-              ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
               ]
             }
           ],
@@ -24513,7 +24192,8 @@
           "collector_number": "053/111l",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -26282,15 +25962,15 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 450448,
-      "cardtrader_id": 113909,
+      "cardtrader_id": null,
       "cardtrader": [
         {
           "id": 113909,
           "name": "Umbreon",
           "match_type": "tcgplayer",
           "match_confidence": 95,
-          "expansion": "Dark Explorers Promos",
-          "expansion_code": "pdex",
+          "expansion": "League Promos",
+          "expansion_code": "lpr",
           "collector_number": "060/108",
           "rarity": "Promo",
           "finishes": [
@@ -26351,15 +26031,6 @@
                 "ru",
                 "es"
               ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
             }
           ],
           "cardmarket_ids": [
@@ -26389,15 +26060,15 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 113910,
+      "cardtrader_id": null,
       "cardtrader": [
         {
           "id": 113910,
           "name": "Umbreon",
           "match_type": "tcgplayer",
           "match_confidence": 95,
-          "expansion": "Dark Explorers Promos",
-          "expansion_code": "pdex",
+          "expansion": "League Promos",
+          "expansion_code": "lpr",
           "collector_number": "060/108s",
           "rarity": "Promo",
           "finishes": [
@@ -26457,15 +26128,6 @@
                 "pt",
                 "ru",
                 "es"
-              ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
               ]
             }
           ],
@@ -28858,7 +28520,8 @@
           "collector_number": "068/111l",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -31013,87 +30676,8 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": 855688,
-      "cardtrader_id": 356923,
-      "cardtrader": [
-        {
-          "id": 356923,
-          "name": "Team Rocket's Mewtwo ex",
-          "match_type": "name",
-          "match_confidence": 100,
-          "expansion": "League Promos",
-          "expansion_code": "lpr",
-          "collector_number": "081",
-          "rarity": "Promo",
-          "finishes": [
-            "normal"
-          ],
-          "languages": [
-            "en",
-            "fr",
-            "de",
-            "it",
-            "pt",
-            "es"
-          ],
-          "properties": [
-            {
-              "name": "condition",
-              "type": "string",
-              "default_value": "Near Mint",
-              "possible_values": [
-                "Near Mint",
-                "Slightly Played",
-                "Moderately Played",
-                "Played",
-                "Poor"
-              ]
-            },
-            {
-              "name": "signed",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "altered",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "pokemon_language",
-              "type": "string",
-              "default_value": "en",
-              "possible_values": [
-                "en",
-                "fr",
-                "de",
-                "it",
-                "pt",
-                "es"
-              ]
-            }
-          ],
-          "cardmarket_ids": [
-            855688
-          ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/356923/preview_team-rocket-s-mewtwo-ex-cosmos-holo-league-promo-004-131-league-promos.jpg",
-          "scryfall_id": null,
-          "tcg_player_id": null,
-          "game_id": 5,
-          "category_id": 73,
-          "category_name": "Pokémon Singles",
-          "product_type": "single",
-          "group_id": 1539
-        }
-      ]
+      "cardmarket_id": null,
+      "cardtrader_id": 356923
     },
     {
       "id": 221298,
@@ -32801,7 +32385,8 @@
           "collector_number": "084/111a",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -32908,7 +32493,8 @@
           "collector_number": "084/111b",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -33015,7 +32601,8 @@
           "collector_number": "084/111c",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -33122,7 +32709,8 @@
           "collector_number": "084/111d",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -35823,7 +35411,8 @@
           "collector_number": "091/111",
           "rarity": "Promo",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -35928,7 +35517,8 @@
           "collector_number": "091/111s",
           "rarity": "Promo",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -36593,89 +36183,7 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 117425,
-      "cardtrader": [
-        {
-          "id": 117425,
-          "name": "Multi Energy",
-          "match_type": "name",
-          "match_confidence": 98,
-          "expansion": "League Promos",
-          "expansion_code": "lpr",
-          "collector_number": "093/100w",
-          "rarity": "Promo",
-          "finishes": [
-            "normal"
-          ],
-          "languages": [
-            "en",
-            "fr",
-            "de",
-            "it"
-          ],
-          "properties": [
-            {
-              "name": "condition",
-              "type": "string",
-              "default_value": "Near Mint",
-              "possible_values": [
-                "Near Mint",
-                "Slightly Played",
-                "Moderately Played",
-                "Played",
-                "Poor"
-              ]
-            },
-            {
-              "name": "signed",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "altered",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "pokemon_language",
-              "type": "string",
-              "default_value": "en",
-              "possible_values": [
-                "en",
-                "fr",
-                "de",
-                "it"
-              ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            }
-          ],
-          "cardmarket_ids": [],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117425/preview_multi-energy-winner-holo-promo-93-100-ex-sandstorm-promos.jpg",
-          "scryfall_id": null,
-          "tcg_player_id": null,
-          "game_id": 5,
-          "category_id": 73,
-          "category_name": "Pokémon Singles",
-          "product_type": "single",
-          "group_id": 1539
-        }
-      ]
+      "cardtrader_id": 117425
     },
     {
       "id": 228157,
@@ -37160,84 +36668,7 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 117216,
-      "cardtrader": [
-        {
-          "id": 117216,
-          "name": "Metal Energy",
-          "match_type": "name",
-          "match_confidence": 98,
-          "expansion": "League Promos",
-          "expansion_code": "lpr",
-          "collector_number": "094/109",
-          "rarity": "Promo",
-          "finishes": [
-            "normal"
-          ],
-          "languages": [
-            "en",
-            "fr",
-            "de",
-            "it",
-            "pt",
-            "es"
-          ],
-          "properties": [
-            {
-              "name": "condition",
-              "type": "string",
-              "default_value": "Near Mint",
-              "possible_values": [
-                "Near Mint",
-                "Slightly Played",
-                "Moderately Played",
-                "Played",
-                "Poor"
-              ]
-            },
-            {
-              "name": "signed",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "altered",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "pokemon_language",
-              "type": "string",
-              "default_value": "en",
-              "possible_values": [
-                "en",
-                "fr",
-                "de",
-                "it",
-                "pt",
-                "es"
-              ]
-            }
-          ],
-          "cardmarket_ids": [],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117216/preview_metal-energy-holo-promo-94-109-ex-ruby-sapphire-promos.jpg",
-          "scryfall_id": null,
-          "tcg_player_id": null,
-          "game_id": 5,
-          "category_id": 73,
-          "category_name": "Pokémon Singles",
-          "product_type": "single",
-          "group_id": 1539
-        }
-      ]
+      "cardtrader_id": 117216
     },
     {
       "id": 236463,
@@ -37687,7 +37118,8 @@
           "collector_number": "095/111",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -37794,7 +37226,8 @@
           "collector_number": "095/111s",
           "rarity": "Promo",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -41880,89 +41313,8 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": 450528,
-      "cardtrader_id": 111659,
-      "cardtrader": [
-        {
-          "id": 111659,
-          "name": "Water Energy",
-          "match_type": "name",
-          "match_confidence": 92,
-          "expansion": "League Promos",
-          "expansion_code": "lpr",
-          "collector_number": "107/114",
-          "rarity": "Common",
-          "finishes": [
-            "normal"
-          ],
-          "languages": [
-            "en",
-            "fr",
-            "de",
-            "it",
-            "pt",
-            "ru",
-            "es"
-          ],
-          "properties": [
-            {
-              "name": "condition",
-              "type": "string",
-              "default_value": "Near Mint",
-              "possible_values": [
-                "Near Mint",
-                "Slightly Played",
-                "Moderately Played",
-                "Played",
-                "Poor"
-              ]
-            },
-            {
-              "name": "signed",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "altered",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "pokemon_language",
-              "type": "string",
-              "default_value": "en",
-              "possible_values": [
-                "en",
-                "fr",
-                "de",
-                "it",
-                "pt",
-                "ru",
-                "es"
-              ]
-            }
-          ],
-          "cardmarket_ids": [
-            450528
-          ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/111659/preview_water-energy-play-pokemon-107-114-black-white-promos.jpg",
-          "scryfall_id": null,
-          "tcg_player_id": null,
-          "game_id": 5,
-          "category_id": 73,
-          "category_name": "Pokémon Singles",
-          "product_type": "single",
-          "group_id": 1539
-        }
-      ]
+      "cardmarket_id": null,
+      "cardtrader_id": 111659
     },
     {
       "id": 557369,
@@ -51850,91 +51202,8 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": 771335,
-      "cardtrader_id": 290596,
-      "cardtrader": [
-        {
-          "id": 290596,
-          "name": "Technical Machine: Evolution",
-          "match_type": "name",
-          "match_confidence": 98,
-          "expansion": "League Promos",
-          "expansion_code": "lpr",
-          "collector_number": "178",
-          "rarity": "Promo",
-          "finishes": [
-            "normal"
-          ],
-          "languages": [
-            "en",
-            "fr",
-            "de",
-            "it",
-            "kr",
-            "pt",
-            "ru",
-            "es"
-          ],
-          "properties": [
-            {
-              "name": "condition",
-              "type": "string",
-              "default_value": "Near Mint",
-              "possible_values": [
-                "Near Mint",
-                "Slightly Played",
-                "Moderately Played",
-                "Played",
-                "Poor"
-              ]
-            },
-            {
-              "name": "signed",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "altered",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "pokemon_language",
-              "type": "string",
-              "default_value": "en",
-              "possible_values": [
-                "en",
-                "fr",
-                "de",
-                "it",
-                "kr",
-                "pt",
-                "ru",
-                "es"
-              ]
-            }
-          ],
-          "cardmarket_ids": [
-            771335
-          ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/290596/preview_technical-machine-evolution-178-182-league-promos.png",
-          "scryfall_id": null,
-          "tcg_player_id": null,
-          "game_id": 5,
-          "category_id": 73,
-          "category_name": "Pokémon Singles",
-          "product_type": "single",
-          "group_id": 1539
-        }
-      ]
+      "cardmarket_id": null,
+      "cardtrader_id": 290596
     },
     {
       "id": 211519,

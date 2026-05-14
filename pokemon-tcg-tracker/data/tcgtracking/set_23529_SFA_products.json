@@ -4,8 +4,8 @@
   "set_abbr": "SFA",
   "set_released": "2024-08-02",
   "product_count": 137,
-  "data_modified": "2026-04-16T16:07:29-04:00",
-  "file_generated": "2026-04-17T04:30:44-04:00",
+  "data_modified": "2026-05-06T07:06:51-04:00",
+  "file_generated": "2026-05-07T04:30:58-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/23529/pricing",
   "products": [
     {
@@ -1934,87 +1934,8 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": 780809,
-      "cardtrader_id": 295721,
-      "cardtrader": [
-        {
-          "id": 295721,
-          "name": "Basic Darkness Energy",
-          "match_type": "name",
-          "match_confidence": 98,
-          "expansion": "Shrouded Fable",
-          "expansion_code": "sfa",
-          "collector_number": "007",
-          "rarity": "Common",
-          "finishes": [
-            "normal"
-          ],
-          "languages": [
-            "en",
-            "fr",
-            "de",
-            "it",
-            "pt",
-            "es"
-          ],
-          "properties": [
-            {
-              "name": "condition",
-              "type": "string",
-              "default_value": "Near Mint",
-              "possible_values": [
-                "Near Mint",
-                "Slightly Played",
-                "Moderately Played",
-                "Played",
-                "Poor"
-              ]
-            },
-            {
-              "name": "signed",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "altered",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "pokemon_language",
-              "type": "string",
-              "default_value": "en",
-              "possible_values": [
-                "en",
-                "fr",
-                "de",
-                "it",
-                "pt",
-                "es"
-              ]
-            }
-          ],
-          "cardmarket_ids": [
-            780809
-          ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/295721/preview_basic-darkness-energy-reverse-holo-007-shrouded-fable.jpg",
-          "scryfall_id": null,
-          "tcg_player_id": null,
-          "game_id": 5,
-          "category_id": 73,
-          "category_name": "Pokémon Singles",
-          "product_type": "single",
-          "group_id": 23529
-        }
-      ]
+      "cardmarket_id": null,
+      "cardtrader_id": 295721
     },
     {
       "id": 562159,
@@ -2028,87 +1949,8 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": 780810,
-      "cardtrader_id": 295722,
-      "cardtrader": [
-        {
-          "id": 295722,
-          "name": "Basic Metal Energy",
-          "match_type": "name",
-          "match_confidence": 98,
-          "expansion": "Shrouded Fable",
-          "expansion_code": "sfa",
-          "collector_number": "008",
-          "rarity": "Common",
-          "finishes": [
-            "normal"
-          ],
-          "languages": [
-            "en",
-            "fr",
-            "de",
-            "it",
-            "pt",
-            "es"
-          ],
-          "properties": [
-            {
-              "name": "condition",
-              "type": "string",
-              "default_value": "Near Mint",
-              "possible_values": [
-                "Near Mint",
-                "Slightly Played",
-                "Moderately Played",
-                "Played",
-                "Poor"
-              ]
-            },
-            {
-              "name": "signed",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "altered",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "pokemon_language",
-              "type": "string",
-              "default_value": "en",
-              "possible_values": [
-                "en",
-                "fr",
-                "de",
-                "it",
-                "pt",
-                "es"
-              ]
-            }
-          ],
-          "cardmarket_ids": [
-            780810
-          ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/295722/preview_basic-metal-energy-reverse-holo-008-shrouded-fable.webp",
-          "scryfall_id": null,
-          "tcg_player_id": null,
-          "game_id": 5,
-          "category_id": 73,
-          "category_name": "Pokémon Singles",
-          "product_type": "single",
-          "group_id": 23529
-        }
-      ]
+      "cardmarket_id": null,
+      "cardtrader_id": 295722
     },
     {
       "id": 560311,
