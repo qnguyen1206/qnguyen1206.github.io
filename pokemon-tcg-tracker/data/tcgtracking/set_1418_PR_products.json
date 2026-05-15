@@ -4,8 +4,8 @@
   "set_abbr": "PR",
   "set_released": "1999-07-01",
   "product_count": 70,
-  "data_modified": "2026-05-05T07:05:37-04:00",
-  "file_generated": "2026-05-06T04:30:59-04:00",
+  "data_modified": "2026-05-06T07:06:23-04:00",
+  "file_generated": "2026-05-07T04:31:06-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/1418/pricing",
   "products": [
     {
@@ -668,77 +668,8 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": 275591,
-      "cardtrader_id": 120886,
-      "cardtrader": [
-        {
-          "id": 120886,
-          "name": "Misty's Psyduck Lv.15",
-          "match_type": "name",
-          "match_confidence": 98,
-          "expansion": "W Promos",
-          "expansion_code": "wpromos",
-          "collector_number": "054",
-          "rarity": "Promo",
-          "finishes": [
-            "normal"
-          ],
-          "languages": [
-            "en"
-          ],
-          "properties": [
-            {
-              "name": "condition",
-              "type": "string",
-              "default_value": "Near Mint",
-              "possible_values": [
-                "Near Mint",
-                "Slightly Played",
-                "Moderately Played",
-                "Played",
-                "Poor"
-              ]
-            },
-            {
-              "name": "signed",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "altered",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "pokemon_language",
-              "type": "string",
-              "default_value": "en",
-              "possible_values": [
-                "en"
-              ]
-            }
-          ],
-          "cardmarket_ids": [
-            275591
-          ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/120886/preview_misty-s-psyduck-w-promo-54-132-w-promos.jpg",
-          "scryfall_id": null,
-          "tcg_player_id": null,
-          "game_id": 5,
-          "category_id": 73,
-          "category_name": "Pokémon Singles",
-          "product_type": "single",
-          "group_id": 1418
-        }
-      ]
+      "cardmarket_id": null,
+      "cardtrader_id": 120886
     },
     {
       "id": 83578,
