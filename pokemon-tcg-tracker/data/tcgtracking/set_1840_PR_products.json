@@ -4,8 +4,8 @@
   "set_abbr": "PR",
   "set_released": "2016-09-01",
   "product_count": 495,
-  "data_modified": "2026-05-07T02:01:09-04:00",
-  "file_generated": "2026-05-07T04:31:02-04:00",
+  "data_modified": "2026-05-15T02:01:38-04:00",
+  "file_generated": "2026-05-15T04:30:59-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/1840/pricing",
   "products": [
     {
@@ -14782,16 +14782,16 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 127525,
+      "cardtrader_id": null,
       "cardtrader": [
         {
           "id": 127525,
           "name": "Pikachu",
           "match_type": "tcgplayer",
           "match_confidence": 95,
-          "expansion": "Shining Legends Promos",
-          "expansion_code": "pslg",
-          "collector_number": "28/73a",
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "028",
           "rarity": "Promo",
           "finishes": [
             "normal"
@@ -14854,14 +14854,14 @@
             }
           ],
           "cardmarket_ids": [],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/127525/preview_pikachu-holo-promo-alt-28-73-shining-legends-promos.jpg",
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/127525/preview_127525-pikachu-cracked-ice-holo-28-73-theme-deck-blisters-exclusives.jpg",
           "scryfall_id": null,
           "tcg_player_id": 189761,
           "game_id": 5,
           "category_id": 73,
           "category_name": "Pokémon Singles",
           "product_type": "single",
-          "group_id": 2374
+          "group_id": 1840
         }
       ]
     },
@@ -18619,7 +18619,7 @@
           "match_confidence": 95,
           "expansion": "Crimson Invasion Promos",
           "expansion_code": "pcin",
-          "collector_number": "038/111",
+          "collector_number": "038",
           "rarity": "Rare",
           "finishes": [
             "normal"
@@ -18678,15 +18678,6 @@
                 "pt",
                 "ru",
                 "es"
-              ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
               ]
             }
           ],
@@ -25999,7 +25990,7 @@
           "match_confidence": 95,
           "expansion": "Crimson Invasion Promos",
           "expansion_code": "pcin",
-          "collector_number": "062/111",
+          "collector_number": "062",
           "rarity": "Promo",
           "finishes": [
             "normal"
@@ -26062,7 +26053,7 @@
             }
           ],
           "cardmarket_ids": [],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/113569/preview_hydreigon-holo-promo-62-111-crimson-invasion-promos.jpg",
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113569/preview_113569-hydreigon-cracked-ice-holo-62-111-theme-deck-blisters-exclusives.png",
           "scryfall_id": null,
           "tcg_player_id": 173089,
           "game_id": 5,
@@ -29403,7 +29394,7 @@
           "match_confidence": 95,
           "expansion": "Crimson Invasion Promos",
           "expansion_code": "pcin",
-          "collector_number": "077/111",
+          "collector_number": "077",
           "rarity": "Promo",
           "finishes": [
             "normal"
@@ -29466,7 +29457,7 @@
             }
           ],
           "cardmarket_ids": [],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/113576/preview_kommo-o-holo-promo-77-111-crimson-invasion-promos.jpg",
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/113576/preview_113576-kommo-o-cracked-ice-holo-77-111-theme-deck-blisters-exclusives.png",
           "scryfall_id": null,
           "tcg_player_id": 229611,
           "game_id": 5,
