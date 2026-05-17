@@ -4,8 +4,8 @@
   "set_abbr": "N1",
   "set_released": "2000-12-16",
   "product_count": 117,
-  "data_modified": "2026-04-21T07:08:01-04:00",
-  "file_generated": "2026-04-22T04:30:47-04:00",
+  "data_modified": "2026-05-14T02:01:45-04:00",
+  "file_generated": "2026-05-14T04:31:02-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/1396/pricing",
   "products": [
     {
@@ -6067,116 +6067,6 @@
           "image_url": "https://cardtrader.com/uploads/blueprints/image/123638/preview_xatu-52-111-neo-genesis.jpg",
           "scryfall_id": null,
           "tcg_player_id": 90661,
-          "game_id": 5,
-          "category_id": 73,
-          "category_name": "Pokémon Singles",
-          "product_type": "single",
-          "group_id": 1396
-        }
-      ]
-    },
-    {
-      "id": 84272,
-      "name": "Chikorita (53)",
-      "clean_name": "Chikorita 53",
-      "number": "053/111",
-      "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84272_200w.jpg",
-      "image_count": 1,
-      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84272%2Fpokemon-neo-genesis-chikorita-53",
-      "manapool_url": null,
-      "scryfall_id": null,
-      "mtgjson_uuid": null,
-      "cardmarket_id": 274453,
-      "cardtrader_id": 123639,
-      "cardtrader": [
-        {
-          "id": 123639,
-          "name": "Chikorita",
-          "match_type": "tcgplayer",
-          "match_confidence": 95,
-          "expansion": "Neo Genesis",
-          "expansion_code": "n1",
-          "collector_number": "053",
-          "rarity": "Common",
-          "finishes": [
-            "normal"
-          ],
-          "languages": [
-            "en",
-            "fr",
-            "de",
-            "it",
-            "es"
-          ],
-          "properties": [
-            {
-              "name": "condition",
-              "type": "string",
-              "default_value": "Near Mint",
-              "possible_values": [
-                "Near Mint",
-                "Slightly Played",
-                "Moderately Played",
-                "Played",
-                "Poor"
-              ]
-            },
-            {
-              "name": "signed",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "altered",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "first_edition",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "pokemon_language",
-              "type": "string",
-              "default_value": "en",
-              "possible_values": [
-                "en",
-                "fr",
-                "de",
-                "it",
-                "es"
-              ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            }
-          ],
-          "cardmarket_ids": [
-            274453
-          ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/123639/preview_chikorita-53-111-neo-genesis.jpg",
-          "scryfall_id": null,
-          "tcg_player_id": 84272,
           "game_id": 5,
           "category_id": 73,
           "category_name": "Pokémon Singles",
@@ -12557,6 +12447,116 @@
           "image_url": "https://cardtrader.com/uploads/blueprints/image/123697/preview_water-energy-111-111-neo-genesis.jpg",
           "scryfall_id": null,
           "tcg_player_id": 90502,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1396
+        }
+      ]
+    },
+    {
+      "id": 84272,
+      "name": "Chikorita (53)",
+      "clean_name": "Chikorita 53",
+      "number": "53/111",
+      "rarity": "Common",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84272_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84272%2Fpokemon-neo-genesis-chikorita-53",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 274453,
+      "cardtrader_id": 123639,
+      "cardtrader": [
+        {
+          "id": 123639,
+          "name": "Chikorita",
+          "match_type": "tcgplayer",
+          "match_confidence": 95,
+          "expansion": "Neo Genesis",
+          "expansion_code": "n1",
+          "collector_number": "053",
+          "rarity": "Common",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "es"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            274453
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/123639/preview_chikorita-53-111-neo-genesis.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84272,
           "game_id": 5,
           "category_id": 73,
           "category_name": "Pokémon Singles",
