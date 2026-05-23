@@ -3,9 +3,9 @@
   "set_name": "Deck Exclusives",
   "set_abbr": "PR",
   "set_released": "2016-09-01",
-  "product_count": 495,
-  "data_modified": "2026-05-15T02:01:38-04:00",
-  "file_generated": "2026-05-15T04:30:59-04:00",
+  "product_count": 499,
+  "data_modified": "2026-05-21T02:01:24-04:00",
+  "file_generated": "2026-05-21T04:30:34-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/1840/pricing",
   "products": [
     {
@@ -3992,18 +3992,105 @@
     },
     {
       "id": 689165,
-      "name": "Serperior - 006/088",
-      "clean_name": "Serperior 006 088",
+      "name": "Serperior - 006/088 (Non-Holo)",
+      "clean_name": "Serperior 006 088 Non Holo",
       "number": "006/088",
       "rarity": "Rare",
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/689165_200w.jpg",
       "image_count": 1,
-      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F689165%2Fpokemon-deck-exclusives-serperior-006-088",
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F689165%2Fpokemon-deck-exclusives-serperior-006-088-non-holo",
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 881886,
+      "cardtrader_id": 391085,
+      "cardtrader": [
+        {
+          "id": 391085,
+          "name": "Serperior",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "006",
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            881886
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/391085/preview_391085-serperior-non-holo-006-088-theme-deck-blisters-exclusives.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 689165,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 125060,
@@ -7789,6 +7876,21 @@
           "group_id": 1539
         }
       ]
+    },
+    {
+      "id": 694632,
+      "name": "Delphox - 013/086 (Non-Holo)",
+      "clean_name": "Delphox 013 086 Non Holo",
+      "number": "013/086",
+      "rarity": "Holo Rare",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/694632_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F694632%2Fpokemon-deck-exclusives-delphox-013-086-non-holo",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": null
     },
     {
       "id": 91370,
@@ -15449,6 +15551,21 @@
       ]
     },
     {
+      "id": 694633,
+      "name": "Ampharos - 029/086 (Non-Holo)",
+      "clean_name": "Ampharos 029 086 Non Holo",
+      "number": "029/086",
+      "rarity": "Rare",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/694633_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F694633%2Fpokemon-deck-exclusives-ampharos-029-086-non-holo",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": null
+    },
+    {
       "id": 177163,
       "name": "Empoleon - 29/108 (Battle Arena Deck Exclusive)",
       "clean_name": "Empoleon 29 108 Battle Arena Deck Exclusive",
@@ -19681,18 +19798,105 @@
     },
     {
       "id": 689164,
-      "name": "Landorus - 041/088",
-      "clean_name": "Landorus 041 088",
+      "name": "Landorus - 041/088 (Non-Holo)",
+      "clean_name": "Landorus 041 088 Non Holo",
       "number": "041/088",
       "rarity": "Rare",
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/689164_200w.jpg",
       "image_count": 1,
-      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F689164%2Fpokemon-deck-exclusives-landorus-041-088",
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F689164%2Fpokemon-deck-exclusives-landorus-041-088-non-holo",
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 881887,
+      "cardtrader_id": 391087,
+      "cardtrader": [
+        {
+          "id": 391087,
+          "name": "Landorus",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "041",
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            881887
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/391087/preview_391087-landorus-non-holo-041-088-theme-deck-blisters-exclusives.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 689164,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 216812,
@@ -20676,18 +20880,105 @@
     },
     {
       "id": 688902,
-      "name": "Tyrantrum",
-      "clean_name": "Tyrantrum",
+      "name": "Tyrantrum - 047/088 (Non-Holo)",
+      "clean_name": "Tyrantrum 047 088 Non Holo",
       "number": "045/088",
       "rarity": "Rare",
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/688902_200w.jpg",
       "image_count": 1,
-      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F688902%2Fpokemon-deck-exclusives-tyrantrum",
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F688902%2Fpokemon-deck-exclusives-tyrantrum-047-088-non-holo",
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 881888,
+      "cardtrader_id": 391086,
+      "cardtrader": [
+        {
+          "id": 391086,
+          "name": "Tyrantrum",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "045",
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            881888
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/391086/preview_391086-tyrantrum-non-holo-045-088-theme-deck-blisters-exclusives.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 688902,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 664005,
@@ -22128,6 +22419,21 @@
           "group_id": 1840
         }
       ]
+    },
+    {
+      "id": 694636,
+      "name": "Crobat - 051/086 (Non-Holo)",
+      "clean_name": "Crobat 051 086 Non Holo",
+      "number": "051/086",
+      "rarity": "Rare",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/694636_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F694636%2Fpokemon-deck-exclusives-crobat-051-086-non-holo",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": null
     },
     {
       "id": 131305,
@@ -27340,6 +27646,21 @@
       ]
     },
     {
+      "id": 694638,
+      "name": "Goodra - 068/086 (Non-Holo)",
+      "clean_name": "Goodra 068 086 Non Holo",
+      "number": "068/086",
+      "rarity": "Uncommon",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/694638_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F694638%2Fpokemon-deck-exclusives-goodra-068-086-non-holo",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": null
+    },
+    {
       "id": 663937,
       "name": "Toxtricity - 068/094",
       "clean_name": "Toxtricity 068 094",
@@ -31144,13 +31465,13 @@
     },
     {
       "id": 689163,
-      "name": "Growing Grass Energy - 086/088",
-      "clean_name": "Growing Grass Energy 086 088",
+      "name": "Growing Grass Energy - 086/088 (Non-Holo)",
+      "clean_name": "Growing Grass Energy 086 088 Non Holo",
       "number": "086/088",
       "rarity": "Rare",
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/689163_200w.jpg",
       "image_count": 1,
-      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F689163%2Fpokemon-deck-exclusives-growing-grass-energy-086-088",
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F689163%2Fpokemon-deck-exclusives-growing-grass-energy-086-088-non-holo",
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
@@ -31159,13 +31480,13 @@
     },
     {
       "id": 688898,
-      "name": "Rocky Fighting Energy",
-      "clean_name": "Rocky Fighting Energy",
+      "name": "Rocky Fighting Energy - 087/088 (Non-Holo)",
+      "clean_name": "Rocky Fighting Energy 087 088 Non Holo",
       "number": "087/088",
       "rarity": "Rare",
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/688898_200w.jpg",
       "image_count": 1,
-      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F688898%2Fpokemon-deck-exclusives-rocky-fighting-energy",
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F688898%2Fpokemon-deck-exclusives-rocky-fighting-energy-087-088-non-holo",
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
