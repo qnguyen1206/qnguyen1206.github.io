@@ -4,8 +4,8 @@
   "set_abbr": "PR",
   "set_released": "2016-06-01",
   "product_count": 617,
-  "data_modified": "2026-05-14T02:01:44-04:00",
-  "file_generated": "2026-05-14T04:30:59-04:00",
+  "data_modified": "2026-05-22T08:12:34-04:00",
+  "file_generated": "2026-05-23T04:30:33-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/1539/pricing",
   "products": [
     {
@@ -29285,8 +29285,87 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 888576,
+      "cardtrader_id": 391485,
+      "cardtrader": [
+        {
+          "id": 391485,
+          "name": "Judge",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "League Promos",
+          "expansion_code": "lpr",
+          "collector_number": "076",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            888576
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/391485/preview_391485-judge-regional-championships-076-088-league-promos.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 688808,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1539
+        }
+      ]
     },
     {
       "id": 680955,
