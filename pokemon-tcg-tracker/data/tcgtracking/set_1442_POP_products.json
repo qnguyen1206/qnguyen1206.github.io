@@ -2,10 +2,10 @@
   "set_id": 1442,
   "set_name": "POP Series 3",
   "set_abbr": "POP",
-  "set_released": "2026-01-24",
+  "set_released": "2026-05-30",
   "product_count": 19,
-  "data_modified": "2026-04-16T16:07:29-04:00",
-  "file_generated": "2026-04-17T04:30:44-04:00",
+  "data_modified": "2026-05-31T02:01:34-04:00",
+  "file_generated": "2026-05-31T04:30:43-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/1442/pricing",
   "products": [
     {
@@ -27,7 +27,7 @@
           "id": 105317,
           "name": "POP Series 3 Booster",
           "match_type": "tcgplayer",
-          "match_confidence": 95,
+          "match_confidence": 100,
           "expansion": "POP Series 3",
           "expansion_code": "pop3",
           "collector_number": null,
@@ -89,7 +89,7 @@
           "id": 124305,
           "name": "Blastoise",
           "match_type": "tcgplayer",
-          "match_confidence": 95,
+          "match_confidence": 100,
           "expansion": "POP Series 3",
           "expansion_code": "pop3",
           "collector_number": "01/17",
@@ -184,91 +184,7 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 124307,
-      "cardtrader": [
-        {
-          "id": 124307,
-          "name": "Flareon",
-          "match_type": "name",
-          "match_confidence": 100,
-          "expansion": "POP Series 3",
-          "expansion_code": "pop3",
-          "collector_number": "02/17",
-          "rarity": "Rare",
-          "finishes": [
-            "normal"
-          ],
-          "languages": [
-            "en",
-            "fr",
-            "de",
-            "it",
-            "pt"
-          ],
-          "properties": [
-            {
-              "name": "condition",
-              "type": "string",
-              "default_value": "Near Mint",
-              "possible_values": [
-                "Near Mint",
-                "Slightly Played",
-                "Moderately Played",
-                "Played",
-                "Poor"
-              ]
-            },
-            {
-              "name": "signed",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "altered",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "pokemon_language",
-              "type": "string",
-              "default_value": "en",
-              "possible_values": [
-                "en",
-                "fr",
-                "de",
-                "it",
-                "pt"
-              ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            }
-          ],
-          "cardmarket_ids": [],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/124307/preview_flareon-non-holo-promo-2-17-pop-series-3(2).jpg",
-          "scryfall_id": null,
-          "tcg_player_id": null,
-          "game_id": 5,
-          "category_id": 73,
-          "category_name": "Pokémon Singles",
-          "product_type": "single",
-          "group_id": 1442
-        }
-      ]
+      "cardtrader_id": null
     },
     {
       "id": 86342,
@@ -289,7 +205,7 @@
           "id": 124310,
           "name": "Jolteon",
           "match_type": "tcgplayer",
-          "match_confidence": 95,
+          "match_confidence": 100,
           "expansion": "POP Series 3",
           "expansion_code": "pop3",
           "collector_number": "03/17h",
@@ -379,7 +295,7 @@
           "id": 124311,
           "name": "Minun",
           "match_type": "tcgplayer",
-          "match_confidence": 95,
+          "match_confidence": 100,
           "expansion": "POP Series 3",
           "expansion_code": "pop3",
           "collector_number": "04/17",
@@ -480,7 +396,7 @@
           "id": 124313,
           "name": "Plusle",
           "match_type": "tcgplayer",
-          "match_confidence": 95,
+          "match_confidence": 100,
           "expansion": "POP Series 3",
           "expansion_code": "pop3",
           "collector_number": "05/17",
@@ -581,7 +497,7 @@
           "id": 124315,
           "name": "Vaporeon",
           "match_type": "tcgplayer",
-          "match_confidence": 95,
+          "match_confidence": 100,
           "expansion": "POP Series 3",
           "expansion_code": "pop3",
           "collector_number": "06/17",
@@ -682,7 +598,7 @@
           "id": 124317,
           "name": "Combusken",
           "match_type": "tcgplayer",
-          "match_confidence": 95,
+          "match_confidence": 100,
           "expansion": "POP Series 3",
           "expansion_code": "pop3",
           "collector_number": "07/17",
@@ -783,7 +699,7 @@
           "id": 124318,
           "name": "Donphan",
           "match_type": "tcgplayer",
-          "match_confidence": 95,
+          "match_confidence": 100,
           "expansion": "POP Series 3",
           "expansion_code": "pop3",
           "collector_number": "08/17",
@@ -884,7 +800,7 @@
           "id": 124319,
           "name": "Forretress",
           "match_type": "tcgplayer",
-          "match_confidence": 95,
+          "match_confidence": 100,
           "expansion": "POP Series 3",
           "expansion_code": "pop3",
           "collector_number": "09/17",
@@ -985,7 +901,7 @@
           "id": 124320,
           "name": "High Pressure System",
           "match_type": "tcgplayer",
-          "match_confidence": 95,
+          "match_confidence": 100,
           "expansion": "POP Series 3",
           "expansion_code": "pop3",
           "collector_number": "10/17",
@@ -1086,7 +1002,7 @@
           "id": 124321,
           "name": "Low Pressure System",
           "match_type": "tcgplayer",
-          "match_confidence": 95,
+          "match_confidence": 100,
           "expansion": "POP Series 3",
           "expansion_code": "pop3",
           "collector_number": "11/17",
@@ -1187,7 +1103,7 @@
           "id": 124322,
           "name": "Ditto",
           "match_type": "tcgplayer",
-          "match_confidence": 95,
+          "match_confidence": 100,
           "expansion": "POP Series 3",
           "expansion_code": "pop3",
           "collector_number": "12/17",
@@ -1288,7 +1204,7 @@
           "id": 124323,
           "name": "Eevee",
           "match_type": "tcgplayer",
-          "match_confidence": 95,
+          "match_confidence": 100,
           "expansion": "POP Series 3",
           "expansion_code": "pop3",
           "collector_number": "13/17",
@@ -1389,7 +1305,7 @@
           "id": 124324,
           "name": "Ivysaur",
           "match_type": "tcgplayer",
-          "match_confidence": 95,
+          "match_confidence": 100,
           "expansion": "POP Series 3",
           "expansion_code": "pop3",
           "collector_number": "14/17",
@@ -1490,7 +1406,7 @@
           "id": 124325,
           "name": "Marshtomp",
           "match_type": "tcgplayer",
-          "match_confidence": 95,
+          "match_confidence": 100,
           "expansion": "POP Series 3",
           "expansion_code": "pop3",
           "collector_number": "15/17",
@@ -1591,7 +1507,7 @@
           "id": 124326,
           "name": "Pichu Bros.",
           "match_type": "tcgplayer",
-          "match_confidence": 95,
+          "match_confidence": 100,
           "expansion": "POP Series 3",
           "expansion_code": "pop3",
           "collector_number": "16/17",
@@ -1692,7 +1608,7 @@
           "id": 124328,
           "name": "Ho-Oh EX",
           "match_type": "tcgplayer",
-          "match_confidence": 95,
+          "match_confidence": 100,
           "expansion": "POP Series 3",
           "expansion_code": "pop3",
           "collector_number": "17/17h",
@@ -1782,7 +1698,7 @@
           "id": 124327,
           "name": "Ho-Oh EX",
           "match_type": "tcgplayer",
-          "match_confidence": 95,
+          "match_confidence": 100,
           "expansion": "POP Series 3",
           "expansion_code": "pop3",
           "collector_number": "17/17",
