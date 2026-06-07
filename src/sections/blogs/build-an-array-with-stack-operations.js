@@ -71,7 +71,7 @@ If the \`target_index\` equals or exceeds the length of the \`target\` array, I 
 
 ## Solutions
 [solutions]
-\`\`\`python
+\`\`\`Python
 class Solution(object):
     def buildArray(self, target, n):
         """
@@ -90,6 +90,46 @@ class Solution(object):
             else:
                 stack.append("Pop")
         return stack
+\`\`\`
+\`\`\`Java
+class Solution {
+    public List<String> buildArray(int[] target, int n) {
+        List<String> stack = new ArrayList<String>();
+        int target_index = 0;
+        for (int i = 1; i < n + 1; i++) {
+            stack.add("Push");
+            if (target_index < target.length && i == target[target_index]) {
+                target_index++;
+                if (target_index >= target.length) {
+                    break;
+                }
+            } else {
+                stack.add("Pop");
+            }
+        }
+        return stack;
+    }
+}
+\`\`\`
+\`\`\`C#
+public class Solution {
+    public IList<string> BuildArray(int[] target, int n) {
+        IList<string> stack = new List<string>();
+        int target_index = 0;
+        for (int i = 1; i < n + 1; i++) {
+            stack.Add("Push");
+            if (target_index < target.Length && i == target[target_index]) {
+                target_index++;
+                if (target_index >= target.Length) {
+                    break;
+                }
+            } else {
+                stack.Add("Pop");
+            }
+        }
+        return stack;
+    }
+}
 \`\`\`
 [/solutions]
 
