@@ -165,7 +165,7 @@ import maxConsecutiveOnes from './blogs/max-consecutive-ones.js';
 import setMismatch from './blogs/set-mismatch.js';
 import howManyNumbersAreSmallerThanTheCurrentNumber from './blogs/how-many-numbers-are-smaller-than-the-current-number.js';
 import findAllNumbersDisappearedInAnArray from './blogs/find-all-numbers-disappeared-in-an-array.js';
-
+import buildAnArrayWithStackOperations from './blogs/build-an-array-with-stack-operations.js';
 
 /* TryHackMe */
 import offensiveSecurityIntro from './blogs/offensive-security-intro.js';
@@ -226,6 +226,7 @@ export const blogPosts = [
     setMismatch,
     howManyNumbersAreSmallerThanTheCurrentNumber,
     findAllNumbersDisappearedInAnArray,
+    buildAnArrayWithStackOperations,
 
     /* TryHackMe */
     cryptographyBasics,

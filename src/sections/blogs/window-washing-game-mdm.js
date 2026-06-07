@@ -4,7 +4,7 @@ export default {
     category: 'Games',
     difficulty: 'Medium',
     tags: ['Game'],
-    date: '2026-04-28T12:00:00',
+    date: '2026-05-06T12:00:00',
     excerpt: 'MDM for Window Washing Game',
     content: `
 This is an MDM for the game called Window Washing Game. Since the game is still in development, this MDM is subject to change.
@@ -294,7 +294,17 @@ Still can not fix the bug
 - Add in squeegee respawn mechanism as requested after the playtest
 - Add in UI that show player name during the game
 
+**May 2nd, 2026**
+- Add in level select
+Still very basic but it can control the level flying stuffs spawn speed, level height, and level speed
 
+**May 4th, 2026**
+- Change level select to include background
+- Fix some issues with client start screen UI display incorrect information
 
+**May 6th, 2026**
+- Decided to change the game loop toward at the end of the game, the players will now go back to the main screen instead of the lobby
+This can fix the issue of unready lobby, however, this will increase the amount of work for the player and will have to find a fix for this issue later
+- Fix bug for the level data that doesn’t get applied into the gameplay
 `
 }
