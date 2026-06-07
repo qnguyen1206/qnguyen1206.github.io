@@ -103,8 +103,8 @@ const issuerIcons = {
   "freeCodeCamp": "icons/freeCodeCamp.svg",
   "LinkedIn Learning": "icons/LinkedIn.svg",
   "TryHackMe": "icons/tryhackme.svg",
-  "Georgia State University": "/icons/GT_seal.png",
-  "Georgia Tech": "/icons/GSU_seal.png",
+  "Georgia State University": "/icons/GSU_seal.png",
+  "Georgia Tech": "/icons/GT_seal.png",
   "NASBA" : "/icons/NASBA.png",
   "Coursera": {
     type: "svg",
