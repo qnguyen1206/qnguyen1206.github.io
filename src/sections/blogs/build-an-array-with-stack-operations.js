@@ -71,7 +71,7 @@ If the \`target_index\` equals or exceeds the length of the \`target\` array, I 
 
 ## Solutions
 [solutions]
-\`\`\`Python
+\`\`\`python:Python
 class Solution(object):
     def buildArray(self, target, n):
         """
@@ -91,7 +91,7 @@ class Solution(object):
                 stack.append("Pop")
         return stack
 \`\`\`
-\`\`\`Java
+\`\`\`java:Java
 class Solution {
     public List<String> buildArray(int[] target, int n) {
         List<String> stack = new ArrayList<String>();
@@ -111,7 +111,7 @@ class Solution {
     }
 }
 \`\`\`
-\`\`\`C#
+\`\`\`csharp:C#
 public class Solution {
     public IList<string> BuildArray(int[] target, int n) {
         IList<string> stack = new List<string>();
