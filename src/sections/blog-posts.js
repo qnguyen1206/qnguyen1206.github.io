@@ -199,6 +199,7 @@ import raceConditions from './blogs/race-conditions.js';
 import sqlInjection from './blogs/sql-injection.js';
 import nmapLiveHostDiscovery from './blogs/nmap-live-host-discovery.js';
 import aiMlSecurityThreats from './blogs/ai-ml-security-threats.js';
+import aiModelsAndData from './blogs/ai-models-and-data.js';
 
 /* TryHackMe Challenges */
 import theGameChallenge from './blogs/the-game-challenge.js';
@@ -260,7 +261,8 @@ export const blogPosts = [
     sqlInjection,
     nmapLiveHostDiscovery,
     aiMlSecurityThreats,
-
+    aiModelsAndData,
+    
     /* TryHackMe Challenges */
     theGameChallenge,
     pickleRickChallenge,
