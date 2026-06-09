@@ -4,8 +4,8 @@
   "set_abbr": "SMP",
   "set_released": "2016-12-14",
   "product_count": 333,
-  "data_modified": "2026-05-31T02:01:29-04:00",
-  "file_generated": "2026-05-31T04:31:41-04:00",
+  "data_modified": "2026-06-05T16:43:06-04:00",
+  "file_generated": "2026-06-06T04:31:44-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/1861/pricing",
   "products": [
     {
@@ -3945,31 +3945,16 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": null
-    },
-    {
-      "id": 166295,
-      "name": "Lycanroc - SM118 (Prerelease) [Staff]",
-      "clean_name": "Lycanroc SM118 Prerelease Staff",
-      "number": "SM118",
-      "rarity": "Promo",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/166295_200w.jpg",
-      "image_count": 1,
-      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F166295%2Fpokemon-sm-promos-lycanroc-sm118-prerelease-staff",
-      "manapool_url": null,
-      "scryfall_id": null,
-      "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": 126893,
+      "cardtrader_id": 394850,
       "cardtrader": [
         {
-          "id": 126893,
+          "id": 394850,
           "name": "Lycanroc",
           "match_type": "tcgplayer",
           "match_confidence": 100,
-          "expansion": "SM Black Star Promos",
-          "expansion_code": "smbs",
-          "collector_number": "SM118",
+          "expansion": "Prerelease Promos",
+          "expansion_code": "pre-poke",
+          "collector_number": "118",
           "rarity": "Promo",
           "finishes": [
             "normal"
@@ -4032,14 +4017,110 @@
             }
           ],
           "cardmarket_ids": [],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/126893/preview_lycanroc-holo-promo-sm118-sm-black-star-promos.jpg",
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/394850/preview_394850-lycanroc-prerelease-promo-sm118-prerelease-promos.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 166294,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2374
+        }
+      ]
+    },
+    {
+      "id": 166295,
+      "name": "Lycanroc - SM118 (Prerelease) [Staff]",
+      "clean_name": "Lycanroc SM118 Prerelease Staff",
+      "number": "SM118",
+      "rarity": "Promo",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/166295_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F166295%2Fpokemon-sm-promos-lycanroc-sm118-prerelease-staff",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": null,
+      "cardtrader": [
+        {
+          "id": 126893,
+          "name": "Lycanroc",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Prerelease Promos",
+          "expansion_code": "pre-poke",
+          "collector_number": "118s",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "kr",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "kr",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/126893/preview_126893-lycanroc-staff-prerelease-promo-sm118-prerelease-promos.jpg",
           "scryfall_id": null,
           "tcg_player_id": 166295,
           "game_id": 5,
           "category_id": 73,
           "category_name": "Pokémon Singles",
           "product_type": "single",
-          "group_id": 1861
+          "group_id": 2374
         }
       ]
     },
