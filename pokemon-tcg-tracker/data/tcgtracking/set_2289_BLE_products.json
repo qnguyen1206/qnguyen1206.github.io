@@ -2,10 +2,10 @@
   "set_id": 2289,
   "set_name": "Blister Exclusives",
   "set_abbr": "BLE",
-  "set_released": "2026-06-03",
+  "set_released": "2026-06-10",
   "product_count": 135,
-  "data_modified": "2026-06-04T02:01:22-04:00",
-  "file_generated": "2026-06-04T04:30:43-04:00",
+  "data_modified": "2026-06-11T02:01:27-04:00",
+  "file_generated": "2026-06-11T04:30:36-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/2289/pricing",
   "products": [
     {
@@ -3338,8 +3338,87 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 891252,
+      "cardtrader_id": 395141,
+      "cardtrader": [
+        {
+          "id": 395141,
+          "name": "Pawmot",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "034",
+          "rarity": "Rare",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            891252
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/395141/preview_395141-pawmot-cosmos-holo-034-094-theme-deck-blisters-exclusives.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 696233,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 220118,
@@ -5902,8 +5981,91 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 785699,
+      "cardtrader_id": 395247,
+      "cardtrader": [
+        {
+          "id": 395247,
+          "name": "Baxcalibur",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "060",
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "kr",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "kr",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            785699
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/395247/preview_395247-baxcalibur-cosmos-holo-060-193-theme-deck-blisters-exclusives.png",
+          "scryfall_id": null,
+          "tcg_player_id": 555880,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 144668,
