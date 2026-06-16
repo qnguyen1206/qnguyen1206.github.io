@@ -65,14 +65,17 @@ export function initProjects() {
       description: '',
       tags: [],
       status: 'in development',
-      role: '',
+      role: 'VR Environment Concept Artist',
       teamSize: '9',
-      duration: '',
+      duration: '2 months (June 2026 - July 2026)',
       githubLink: '',
       gitlabLink: '',
       externalLink: '',
       images: [],
-      writeup: ``,
+      writeup: `
+## VR Environment Concept Artist
+
+`,
       hidden: true,
     },
     {
@@ -100,10 +103,11 @@ export function initProjects() {
       ],
       writeup: `
 ## Lead Programmer
-- Design and implemented P2P multiplayer system including lobby, in-game chat, and leaderboard using Steamworks' API and GodotSteam built-in functions.
+- Designed and implemented P2P multiplayer system including lobby, in-game chat, and leaderboard using Steamworks' API and GodotSteam built-in functions.
 - Programmed gameplay logic, karts physics and ability system.
-- Design and implemented persistent save system using custom scripts.
+- Designed and implemented persistent save system using custom scripts.
 - Reviewed and solved merge conflicts using GitHub desktop.
+- Designed and implemented dynamic opponent AIs system using path navigation, finite state machine, and raycasting.
 
 ## Gameplay Designer
 - Designed and balanced abilities for each kart.
@@ -160,7 +164,7 @@ For more information about the design process, please visit the <a href="javascr
       image: 'images/windowWashingIcon.png',
       description: 'A party co-op game where players work together to clean the windows.',
       tags: ['Unity', 'C#', 'GitHub', 'Figma', 'Trello'],
-      status: 'in development',
+      status: 'complete',
       role: 'Programmer, System Designer, UI/UX Designer',
       teamSize: '6',
       duration: '3 months (2026 - Present)',
@@ -199,7 +203,9 @@ For MDM, please visit the <a href="javascript:void(0)" onclick="window.openBlogP
       externalLink: '',
       images: [],
       writeup: `
+## Designer
 
+## Programmer
 `,
       hidden: true,
     },
@@ -208,7 +214,7 @@ For MDM, please visit the <a href="javascript:void(0)" onclick="window.openBlogP
       title: 'Redesign Ebay',
       category: 'App Development',
       image: '',
-      description: '',
+      description: 'A redesign of Ebay\'s website using Figma and FigJam for design and Google Sheets and Google Docs for project management and documentation.',
       tags: ['Figma', 'FigJam', 'Google Sheets', 'Google Docs'],
       status: 'complete',
       role: 'Designer, Technical Writer',
@@ -218,7 +224,11 @@ For MDM, please visit the <a href="javascript:void(0)" onclick="window.openBlogP
       gitlabLink: '',
       externalLink: '',
       images: [],
-      writeup: ``,
+      writeup: `
+## Designer
+
+## Technical Writer
+`,
       hidden: true,
     },
     {
