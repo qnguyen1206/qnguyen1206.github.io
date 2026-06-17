@@ -124,6 +124,8 @@ export function initProjects() {
 
 ## Technical Editor
 - Maintained the game's design documented.
+
+For more information about the design process, please visit the <a href="javascript:void(0)" onclick="window.openBlogPost('kart-the-tech-filled-racing-game')" style="color: var(--primary); text-decoration: underline; cursor: pointer;">design process page</a>.
 `,
     },
     {

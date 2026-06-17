@@ -218,6 +218,7 @@ import turnoverDesignProcess from './blogs/turnover-design-process.js';
 import windowWashingGameMDM from './blogs/window-washing-game-mdm.js';
 import mythicalHuntMDM from './blogs/mythical-hunt-mdm.js';
 import lmc4720InteractiveNarrativeProject from './blogs/lmc-4720-interactive-narrative-project.js';
+import kartTheTechFilledRacingGame from './blogs/kart-the-tech-filled-racing-game.js';
 
 export const blogPosts = [
     /* LeetCode */
@@ -280,5 +281,6 @@ export const blogPosts = [
     windowWashingGameMDM,
     //mythicalHuntMDM,
     //lmc4720InteractiveNarrativeProject,
+    kartTheTechFilledRacingGame,
     
 ];
