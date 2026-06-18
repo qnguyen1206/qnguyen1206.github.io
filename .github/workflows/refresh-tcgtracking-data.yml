@@ -41,6 +41,7 @@ jobs:
       - name: Commit updated catalog
         id: commit
         run: |
+          git pull
           git add -A pokemon-tcg-tracker/data/tcgtracking pokemon-tcg-tracker/data/cards.tcgtracking.json pokemon-tcg-tracker/data/sets.tcgtracking.json pokemon-tcg-tracker/data/tcgtracking-report.json
           if git diff --cached --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
