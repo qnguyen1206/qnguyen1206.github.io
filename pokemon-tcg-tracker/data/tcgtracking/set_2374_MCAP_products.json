@@ -2,10 +2,10 @@
   "set_id": 2374,
   "set_name": "Miscellaneous Cards & Products",
   "set_abbr": "MCAP",
-  "set_released": "2026-06-07",
-  "product_count": 1497,
-  "data_modified": "2026-06-08T02:00:37-04:00",
-  "file_generated": "2026-06-08T04:30:43-04:00",
+  "set_released": "2026-06-12",
+  "product_count": 1498,
+  "data_modified": "2026-06-13T02:01:06-04:00",
+  "file_generated": "2026-06-13T04:30:48-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/2374/pricing",
   "products": [
     {
@@ -7732,8 +7732,66 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 794228,
+      "cardtrader_id": 395299,
+      "cardtrader": [
+        {
+          "id": 395299,
+          "name": "Iron Leaves ex Battle Deck",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Pokémon Products",
+          "expansion_code": "popr",
+          "collector_number": null,
+          "rarity": null,
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "sealed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            794228
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/395299/preview_395299-iron-leaves-ex-battle-deck-pokemon-products.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 564278,
+          "game_id": 5,
+          "category_id": 69,
+          "category_name": "Pokémon Preconstructed Deck",
+          "product_type": "precon_deck",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 527674,
@@ -8020,8 +8078,66 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 794227,
+      "cardtrader_id": 395298,
+      "cardtrader": [
+        {
+          "id": 395298,
+          "name": "Tapu Koko ex Battle Deck",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Pokémon Products",
+          "expansion_code": "popr",
+          "collector_number": null,
+          "rarity": null,
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "sealed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            794227
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/395298/preview_395298-tapu-koko-ex-battle-deck-pokemon-products.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 564277,
+          "game_id": 5,
+          "category_id": 69,
+          "category_name": "Pokémon Preconstructed Deck",
+          "product_type": "precon_deck",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 497841,
@@ -14423,6 +14539,21 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/562354_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F562354%2Fpokemon-miscellaneous-cards-and-products-paradox-destinies-tin-iron-crown-ex",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": null
+    },
+    {
+      "id": 698545,
+      "name": "Paradox Destinies Tin [Iron Crown ex] (International Version)",
+      "clean_name": "Paradox Destinies Tin Iron Crown ex International Version",
+      "number": null,
+      "rarity": "Double Rare",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/698545_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F698545%2Fpokemon-miscellaneous-cards-and-products-paradox-destinies-tin-iron-crown-ex-international-version",
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
@@ -31981,7 +32112,88 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardtrader_id": 395253,
+      "cardtrader": [
+        {
+          "id": 395253,
+          "name": "Scovillain",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "025",
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "kr",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "kr",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/395253/preview_395253-scovillain-cosmos-holo-025-197-theme-deck-blisters-exclusives.png",
+          "scryfall_id": null,
+          "tcg_player_id": 555695,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 257770,
@@ -35423,8 +35635,91 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 786600,
+      "cardtrader_id": 395249,
+      "cardtrader": [
+        {
+          "id": 395249,
+          "name": "Kingdra",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "032",
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "kr",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "kr",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            786600
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/395249/preview_395249-kingdra-cosmos-holo-060-193-theme-deck-blisters-exclusives.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 617017,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 283287,
@@ -41551,8 +41846,79 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 881891,
+      "cardtrader_id": 395255,
+      "cardtrader": [
+        {
+          "id": 395255,
+          "name": "Gengar",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Retail Exclusive Promos",
+          "expansion_code": "promo-retail",
+          "collector_number": "050eb",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            881891
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/395255/preview_395255-gengar-copy-eb-games-promo-050-088-retail-exclusive-promos.png",
+          "scryfall_id": null,
+          "tcg_player_id": 686505,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 685555,
@@ -41566,8 +41932,79 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 877703,
+      "cardtrader_id": 395254,
+      "cardtrader": [
+        {
+          "id": 395254,
+          "name": "Gengar",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Retail Exclusive Promos",
+          "expansion_code": "promo-retail",
+          "collector_number": "050g",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            877703
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/395254/preview_395254-gengar-gamestop-promo-050-088-retail-exclusive-promos.png",
+          "scryfall_id": null,
+          "tcg_player_id": 685555,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 285695,
@@ -46307,8 +46744,91 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 821592,
+      "cardtrader_id": 395252,
+      "cardtrader": [
+        {
+          "id": 395252,
+          "name": "Iron Thorns",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "062",
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "kr",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "kr",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            821592
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/395252/preview_395252-iron-thorns-cosmos-holo-062-162-theme-deck-blisters-exclusives.png",
+          "scryfall_id": null,
+          "tcg_player_id": 604490,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 565434,
@@ -46494,8 +47014,91 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 785704,
+      "cardtrader_id": 395250,
+      "cardtrader": [
+        {
+          "id": 395250,
+          "name": "Palafin",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "062",
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "kr",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "kr",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            785704
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/395250/preview_395250-palafin-cosmos-holo-062-197-theme-deck-blisters-exclusives.png",
+          "scryfall_id": null,
+          "tcg_player_id": 554803,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 155084,
@@ -58881,8 +59484,91 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 785702,
+      "cardtrader_id": 395248,
+      "cardtrader": [
+        {
+          "id": 395248,
+          "name": "Glimmora",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "126",
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "kr",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "kr",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            785702
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/395248/preview_395248-glimmora-cosmos-holo-060-193-theme-deck-blisters-exclusives.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 538219,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 595476,
@@ -61260,8 +61946,91 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 786605,
+      "cardtrader_id": 395251,
+      "cardtrader": [
+        {
+          "id": 395251,
+          "name": "Porygon-Z",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "144",
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "kr",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "kr",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            786605
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/395251/preview_395251-porygon-z-cosmos-holo-144-182-theme-deck-blisters-exclusives.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 557146,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 491203,
