@@ -75,6 +75,8 @@ export function initProjects() {
       writeup: `
 ## VR Environment Concept Artist
 
+
+
 `,
       hidden: true,
     },
@@ -134,7 +136,7 @@ For more information about the design process, please visit the <a href="javascr
       category: 'App Development',
       image: 'images/Turnover-Logo.jpg',
       description: 'A web app that allow the coaches and athletes to track and analyze their performance through video analysis using computer vision.',
-      tags: ["HTML", "CSS", "JavaScript", "React", "Vite", "MongoDB", "Express", "Cloudinary", "Python", "Flask", "YOLO"],
+      tags: ["HTML", "CSS", "JavaScript", "React", "Vite", "MongoDB", "Express", "Cloudinary", "Python", "Flask", "YOLO", "Figma"],
       status: 'MVP',
       role: 'Co-Founder, Developer, Designer',
       teamSize: '4',
@@ -200,14 +202,17 @@ For MDM, please visit the <a href="javascript:void(0)" onclick="window.openBlogP
       role: 'Designer, Programmer',
       teamSize: '3',
       duration: '5 months (Jan 2026 - May 2026)',
-      githubLink: '',
+      githubLink: 'https://github.com/qnguyen1206/EscapeFromTeamRocket/tree/main',
       gitlabLink: '',
       externalLink: '',
       images: [],
       writeup: `
 ## Designer
+- Designed the game's narrative and branching storylines through collaboration with the team.
 
 ## Programmer
+- Implemented the first scene of the game using Unity and C#.
+- Fixed bugs and optimized the game's performance.
 `,
       hidden: true,
     },
@@ -228,8 +233,10 @@ For MDM, please visit the <a href="javascript:void(0)" onclick="window.openBlogP
       images: [],
       writeup: `
 ## Designer
+- Redesigned Ebay's website using Figma and FigJam.
 
 ## Technical Writer
+- Maintained the design documentation and project management documents using Google Docs, Gooogle Sheets and FigJam.
 `,
       hidden: true,
     },

@@ -10,6 +10,12 @@ const certificatesData = {
   ],
   nonProfessional: [
     {
+      title: "Learning Docker",
+      issuer: "LinkedIn Learning",
+      date: "June 18, 2026",
+      link: "https://www.linkedin.com/learning/certificates/6a38781388b7dbec70e063efe5c3d1aa59b12150af339bff708cd1e9da6160b8?trk=share_certificate"
+    },
+    {
       title: "IT Security Foundations: Network Security",
       issuer: "NASBA, LinkedIn Learning",
       date: "Apr 9, 2026",
