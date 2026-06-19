@@ -143,7 +143,9 @@ For more information about the design process, please visit the <a href="javascr
       duration: '6 months (2025 - Present)',
       githubLink: 'https://github.com/qnguyen1206/cs4803',
       externalLink: 'https://cs4803-eight.vercel.app/',
-      images: [],
+      images: [
+
+      ],
       writeup: `
 ## Co-Founder
 - Initiated the project idea
@@ -217,30 +219,6 @@ For MDM, please visit the <a href="javascript:void(0)" onclick="window.openBlogP
       hidden: true,
     },
     {
-      id: 'redesign-ebay',
-      title: 'Redesign Ebay',
-      category: 'App Development',
-      image: '',
-      description: 'A redesign of Ebay\'s website using Figma and FigJam for design and Google Sheets and Google Docs for project management and documentation.',
-      tags: ['Figma', 'FigJam', 'Google Sheets', 'Google Docs'],
-      status: 'complete',
-      role: 'Designer, Technical Writer',
-      teamSize: '4',
-      duration: '5 months (Jan 2026 - May 2026)',
-      githubLink: '',
-      gitlabLink: '',
-      externalLink: '',
-      images: [],
-      writeup: `
-## Designer
-- Redesigned Ebay's website using Figma and FigJam.
-
-## Technical Writer
-- Maintained the design documentation and project management documents using Google Docs, Gooogle Sheets and FigJam.
-`,
-      hidden: true,
-    },
-    {
       id: 'todo-app',
       title: 'TO DO App',
       category: 'App Development',
@@ -263,24 +241,35 @@ For MDM, please visit the <a href="javascript:void(0)" onclick="window.openBlogP
 For more information, please visit the <a href="javascript:void(0)" onclick="window.openBlogPost('todo-app')" style="color: var(--primary); text-decoration: underline; cursor: pointer;">writeup page</a>.
 `
     },
-    {
-      id: 'rock-open-game',
-      title: 'Rock Open Game',
-      category: 'Game Development',
-      image: 'images/webrockgameicon.png',
-      description: 'A browser-based multiplayer game reimagining a high school project with modern web technologies.\n I started this project because I want to learn HTML, CSS, and JavaScript. In addition, I want to learn more about React, NodeJS, and Tailwind CSS. Moreover, I learn how hosting a website on Firebase and learn how to secure it.',
-      tags: ['JavaScript', 'React', 'Firebase', 'NodeJS'],
-      status: 'release',
-      role: 'Solo Developer',
-      duration: '9 months (2025)',
-      githubLink: 'https://github.com/qnguyen1206/RockOpenGameWeb',
-      externalLink: 'https://rockopengameweb.web.app/',
+        {
+      id: 'redesign-ebay',
+      title: 'Redesign Ebay',
+      category: 'App Development',
+      image: 'images/Redesign-ebay-logo.png',
+      description: 'A redesign of Ebay\'s website using Figma and FigJam for design and Google Sheets and Google Docs for project management and documentation.',
+      tags: ['Figma', 'FigJam', 'Google Sheets', 'Google Docs'],
+      status: 'complete',
+      role: 'Designer, Technical Writer',
+      teamSize: '4',
+      duration: '5 months (Jan 2026 - May 2026)',
+      githubLink: '',
+      gitlabLink: '',
+      externalLink: 'https://www.figma.com/proto/qmfM5SbiJ5lZTYX0hR1pw0/CS3803-High-Fi-Prototype?node-id=2-4&starting-point-node-id=2%3A4&t=982lOIQutyrlaFXV-1',
       images: [
-        { src: 'images/rock-open-game/rock_open_game_screenshot1.png', alt: 'Rock Open Game Screenshot 1' },
-        { src: 'images/rock-open-game/rock_open_game_screenshot2.png', alt: 'Rock Open Game Screenshot 2' },
-        { src: 'images/rock-open-game/rock_open_game_screenshot3.png', alt: 'Rock Open Game Screenshot 3' },
-        { src: 'images/rock-open-game/rock_open_game_screenshot4.png', alt: 'Rock Open Game Screenshot 4' }
-      ]
+        { src: 'blogs/design-process/redesign-ebay/Bidding-Page.png', alt: 'Redesign Ebay Bidding Page' },
+        { src: 'blogs/design-process/redesign-ebay/Home-Page.png', alt: 'Redesign Ebay Home Page' },
+        { src: 'blogs/design-process/redesign-ebay/Search-Page.png', alt: 'Redesign Ebay Product Page' },
+        { src: 'blogs/design-process/redesign-ebay/Watchlist-Page.png', alt: 'Redesign Ebay Search Page' },
+        { src: 'blogs/design-process/redesign-ebay/Item-Listing-Page.png', alt: 'Redesign Ebay Watchlist Page' },
+      ],
+      writeup: `
+## Designer
+- Redesigned Ebay's website using Figma and FigJam.
+- Conducted user research and usability testing to inform design decisions and improve user experience.
+
+## Technical Writer
+- Maintained the design documentation and project management documents using Google Docs, Gooogle Sheets and FigJam.
+`
     },
     {
       id: 'infinity-mythical-hunt',
@@ -340,6 +329,25 @@ For more information about Game Design Docs (GDD), please visit this <a href="ht
 - Implemented player movement and physical interactions using C#.
 - Implemented items interactions using C#.
 `
+    },
+        {
+      id: 'rock-open-game',
+      title: 'Rock Open Game',
+      category: 'Game Development',
+      image: 'images/webrockgameicon.png',
+      description: 'A browser-based multiplayer game reimagining a high school project with modern web technologies.\n I started this project because I want to learn HTML, CSS, and JavaScript. In addition, I want to learn more about React, NodeJS, and Tailwind CSS. Moreover, I learn how hosting a website on Firebase and learn how to secure it.',
+      tags: ['JavaScript', 'React', 'Firebase', 'NodeJS'],
+      status: 'release',
+      role: 'Solo Developer',
+      duration: '9 months (2025)',
+      githubLink: 'https://github.com/qnguyen1206/RockOpenGameWeb',
+      externalLink: 'https://rockopengameweb.web.app/',
+      images: [
+        { src: 'images/rock-open-game/rock_open_game_screenshot1.png', alt: 'Rock Open Game Screenshot 1' },
+        { src: 'images/rock-open-game/rock_open_game_screenshot2.png', alt: 'Rock Open Game Screenshot 2' },
+        { src: 'images/rock-open-game/rock_open_game_screenshot3.png', alt: 'Rock Open Game Screenshot 3' },
+        { src: 'images/rock-open-game/rock_open_game_screenshot4.png', alt: 'Rock Open Game Screenshot 4' }
+      ]
     },
     {
       id: 'wander-sync-app',

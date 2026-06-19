@@ -195,7 +195,7 @@ Since feature 1 is how we are able to obtain customer footage, it is a core feat
 <img src="/images/Turnover-Logo.jpg">
 
 Designs choice
-    - #E34234 
+    - #E34234 and #000000 is the main choice of the color palette due to its contrast, boldness and uniqueness. The red color is also associated with energy, passion, and action, which aligns well with the dynamic nature of sports. The black color adds a sense of sophistication and professionalism to the brand, making it suitable for a sports analytics platform that aims to provide high-quality insights and data-driven solutions.
     - Minimalist aesthetic
     - Modern UI / UX elements
     - Intuitive drag & drop feature
@@ -221,7 +221,5 @@ These are the constraints during MVP developement:
 ### MVP
 <a href="https://cs4803-eight.vercel.app/"><img src="/blogs/design-process/turnover/mvp-1.png"></a>
 <a href="https://cs4803-eight.vercel.app/">Product Website Link</a>
-
-## Reflection
 `
 }
