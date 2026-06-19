@@ -3,9 +3,9 @@
   "set_name": "Prize Pack Series Cards",
   "set_abbr": "",
   "set_released": "2022-11-30",
-  "product_count": 725,
-  "data_modified": "2026-05-31T02:01:28-04:00",
-  "file_generated": "2026-05-31T04:31:21-04:00",
+  "product_count": 726,
+  "data_modified": "2026-06-16T05:11:44-04:00",
+  "file_generated": "2026-06-17T04:31:48-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/22880/pricing",
   "products": [
     {
@@ -16768,13 +16768,13 @@
     },
     {
       "id": 476095,
-      "name": "Boss's Orders - 058/072",
-      "clean_name": "Bosss Orders 058 072",
+      "name": "Boss's Orders [Lysandre] - 058/072",
+      "clean_name": "Bosss Orders Lysandre 058 072",
       "number": "058/072",
       "rarity": "Rare",
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/476095_200w.jpg",
       "image_count": 1,
-      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F476095%2Fpokemon-prize-pack-series-cards-bosss-orders-058-072",
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F476095%2Fpokemon-prize-pack-series-cards-bosss-orders-lysandre-058-072",
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
@@ -34907,8 +34907,97 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 782253,
+      "cardtrader_id": 296382,
+      "cardtrader": [
+        {
+          "id": 296382,
+          "name": "Jirachi",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Play! Pokémon Prize Pack Series Five",
+          "expansion_code": "play5",
+          "collector_number": "126",
+          "rarity": "Promo",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            782253
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/296382/preview_jirachi-par-126-play-pokemon-prize-pack-series-five.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 565471,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 22880
+        }
+      ]
     },
     {
       "id": 671327,
@@ -37520,110 +37609,6 @@
       ]
     },
     {
-      "id": 515539,
-      "name": "Boss's Orders",
-      "clean_name": "Bosss Orders",
-      "number": "132/172",
-      "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/515539_200w.jpg",
-      "image_count": 1,
-      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F515539%2Fpokemon-prize-pack-series-cards-bosss-orders",
-      "manapool_url": null,
-      "scryfall_id": null,
-      "mtgjson_uuid": null,
-      "cardmarket_id": 728166,
-      "cardtrader_id": 258885,
-      "cardtrader": [
-        {
-          "id": 258885,
-          "name": "Boss's Orders - Cyrus",
-          "match_type": "tcgplayer",
-          "match_confidence": 100,
-          "expansion": "Play! Pokémon Prize Pack Series Three",
-          "expansion_code": "play3",
-          "collector_number": "132",
-          "rarity": "Promo",
-          "finishes": [
-            "normal",
-            "foil"
-          ],
-          "languages": [
-            "en",
-            "fr",
-            "de",
-            "it",
-            "pt",
-            "es"
-          ],
-          "properties": [
-            {
-              "name": "condition",
-              "type": "string",
-              "default_value": "Near Mint",
-              "possible_values": [
-                "Near Mint",
-                "Slightly Played",
-                "Moderately Played",
-                "Played",
-                "Poor"
-              ]
-            },
-            {
-              "name": "signed",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "altered",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "pokemon_language",
-              "type": "string",
-              "default_value": "en",
-              "possible_values": [
-                "en",
-                "fr",
-                "de",
-                "it",
-                "pt",
-                "es"
-              ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            }
-          ],
-          "cardmarket_ids": [
-            728166
-          ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/258885/preview_boss-s-orders-brs-132-play-pokemon-prize-pack-series-three.jpg",
-          "scryfall_id": null,
-          "tcg_player_id": 515539,
-          "game_id": 5,
-          "category_id": 73,
-          "category_name": "Pokémon Singles",
-          "product_type": "single",
-          "group_id": 22880
-        }
-      ]
-    },
-    {
       "id": 490484,
       "name": "Boss's Orders - 132/172",
       "clean_name": "Bosss Orders 132 172",
@@ -37728,6 +37713,125 @@
       ]
     },
     {
+      "id": 515539,
+      "name": "Boss's Orders [Cyrus] - 132/172",
+      "clean_name": "Bosss Orders Cyrus 132 172",
+      "number": "132/172",
+      "rarity": "Rare",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/515539_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F515539%2Fpokemon-prize-pack-series-cards-bosss-orders-cyrus-132-172",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 728166,
+      "cardtrader_id": 258885,
+      "cardtrader": [
+        {
+          "id": 258885,
+          "name": "Boss's Orders - Cyrus",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Play! Pokémon Prize Pack Series Three",
+          "expansion_code": "play3",
+          "collector_number": "132",
+          "rarity": "Promo",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            728166
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/258885/preview_boss-s-orders-brs-132-play-pokemon-prize-pack-series-three.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 515539,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 22880
+        }
+      ]
+    },
+    {
+      "id": 698134,
+      "name": "Boss's Orders [Cyrus] - 132/172 (Cosmos Holo)",
+      "clean_name": "Bosss Orders Cyrus 132 172 Cosmos Holo",
+      "number": "132/172",
+      "rarity": "Rare",
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/698134_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F698134%2Fpokemon-prize-pack-series-cards-bosss-orders-cyrus-132-172-cosmos-holo",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": null
+    },
+    {
       "id": 623240,
       "name": "Crispin",
       "clean_name": "Crispin",
@@ -37823,13 +37927,13 @@
     },
     {
       "id": 648323,
-      "name": "Blissey ex - 134/167 (Cosmos Holo)",
-      "clean_name": "Blissey ex 134 167 Cosmos Holo",
+      "name": "Blissey ex - 134/167",
+      "clean_name": "Blissey ex 134 167",
       "number": "134/167",
       "rarity": "Double Rare",
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/648323_200w.jpg",
       "image_count": 1,
-      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F648323%2Fpokemon-prize-pack-series-cards-blissey-ex-134-167-cosmos-holo",
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F648323%2Fpokemon-prize-pack-series-cards-blissey-ex-134-167",
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
@@ -53365,13 +53469,13 @@
     },
     {
       "id": 538754,
-      "name": "Boss's Orders - 172/193",
-      "clean_name": "Bosss Orders 172 193",
+      "name": "Boss's Orders [Ghetsis] - 172/193",
+      "clean_name": "Bosss Orders Ghetsis 172 193",
       "number": "172/193",
       "rarity": "Rare",
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/538754_200w.jpg",
       "image_count": 1,
-      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F538754%2Fpokemon-prize-pack-series-cards-bosss-orders-172-193",
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F538754%2Fpokemon-prize-pack-series-cards-bosss-orders-ghetsis-172-193",
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
