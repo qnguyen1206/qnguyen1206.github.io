@@ -105,27 +105,27 @@ export function initProjects() {
       ],
       writeup: `
 ## Lead Programmer
-- Designed and implemented P2P multiplayer system including lobby, in-game chat, and leaderboard using Steamworks' API and GodotSteam built-in functions.
-- Programmed gameplay logic, karts physics and ability system.
-- Designed and implemented persistent save system using custom scripts.
-- Reviewed and solved merge conflicts using GitHub desktop.
-- Designed and implemented dynamic opponent AIs system using path navigation, finite state machine, and raycasting.
+- 🛞 Designed and implemented P2P multiplayer system including lobby, in-game chat, and leaderboard using Steamworks' API and GodotSteam built-in functions.
+- 🛞 Programmed gameplay logic, karts physics and ability system.
+- 🛞 Designed and implemented persistent save system using custom scripts.
+- 🛞 Reviewed and solved merge conflicts using GitHub desktop.
+- 🛞 Designed and implemented dynamic opponent AIs system using path navigation, finite state machine, and raycasting.
 
 ## Gameplay Designer
-- Designed and balanced abilities for each kart.
-- Designed map layout and environment.
+- 🛞 Designed and balanced abilities for each kart.
+- 🛞 Designed map layout and environment.
 
 ## UI/UX Designer
-- Designed and implemented settings menu, pause menu, and in-game UI.
-- Established UI typography, layout and visual consistency across the game.
-- Designed and implemented start screen, lobby screen, and end screen UI.
-- Enhanced user experience by adding particles effects.
+- 🛞 Designed and implemented settings menu, pause menu, and in-game UI.
+- 🛞 Established UI typography, layout and visual consistency across the game.
+- 🛞 Designed and implemented start screen, lobby screen, and end screen UI.
+- 🛞 Enhanced user experience by adding particles effects.
 
 ## Artist
-- Created game arts including karts abilities icons, tabs icons and buttons UI.
+- 🛞 Created game arts including karts abilities icons, tabs icons and buttons UI.
 
 ## Technical Editor
-- Maintained the game's design documented.
+- 🛞 Maintained the game's design documented.
 
 For more information about the design process, please visit the <a href="javascript:void(0)" onclick="window.openBlogPost('kart-the-tech-filled-racing-game')" style="color: var(--primary); text-decoration: underline; cursor: pointer;">design process page</a>.
 `,
@@ -148,17 +148,17 @@ For more information about the design process, please visit the <a href="javascr
       ],
       writeup: `
 ## Co-Founder
-- Initiated the project idea
-- Conducted market research to validate the idea.
+- 🟑 Initiated the project idea
+- 🟑 Conducted market research to validate the idea.
 
 ## Developer
-- Implemented user authentication and authorization using JSON Web Tokens (JWT).
-- Implemented video upload and storage using Cloudinary.
-- Implemented video analysis using YOLO object detection model.
+- 🟑 Implemented user authentication and authorization using JSON Web Tokens (JWT).
+- 🟑 Implemented video upload and storage using Cloudinary.
+- 🟑 Implemented video analysis using YOLO object detection model.
 
 ## Designer
-- Designed and implemented the app's UI/UX.
-- Created the app's logo and branding.
+- 🟑 Designed and implemented the app's UI/UX.
+- 🟑 Created the app's logo and branding.
 
 For more information about the design process, please visit the <a href="javascript:void(0)" onclick="window.openBlogPost('turnover-design-process')" style="color: var(--primary); text-decoration: underline; cursor: pointer;">design process page</a>.
 `
@@ -179,16 +179,16 @@ For more information about the design process, please visit the <a href="javascr
       images: [],
       writeup: `
 ## Programmer
-- Implemented game's mechanics and logic.
-- Implemented game's online multiplayer using PurrNet.
-- Resolving merge conflicts
+- 🪟 Implemented game's mechanics and logic.
+- 🪟 Implemented game's online multiplayer using PurrNet.
+- 🪟 Resolving merge conflicts
 
 ## System Designer
-- Designed game's system architecture.
-- Designed game's data model.
+- 🪟 Designed game's system architecture.
+- 🪟 Designed game's data model.
 
 ## UI/UX Designer
-- Designed lobby's UI including players cards.
+- 🪟 Designed lobby's UI including players cards.
 
 For MDM, please visit the <a href="javascript:void(0)" onclick="window.openBlogPost('window-washing-game-mdm')" style="color: var(--primary); text-decoration: underline; cursor: pointer;">writeup page</a>.
 `
@@ -210,11 +210,11 @@ For MDM, please visit the <a href="javascript:void(0)" onclick="window.openBlogP
       images: [],
       writeup: `
 ## Designer
-- Designed the game's narrative and branching storylines through collaboration with the team.
+- 🚀 Designed the game's narrative and branching storylines through collaboration with the team.
 
 ## Programmer
-- Implemented the first scene of the game using Unity and C#.
-- Fixed bugs and optimized the game's performance.
+- 🚀 Implemented the first scene of the game using Unity and C#.
+- 🚀 Fixed bugs and optimized the game's performance.
 `,
       hidden: true,
     },
@@ -264,11 +264,13 @@ For more information, please visit the <a href="javascript:void(0)" onclick="win
       ],
       writeup: `
 ## Designer
-- Redesigned Ebay's website using Figma and FigJam.
-- Conducted user research and usability testing to inform design decisions and improve user experience.
+- 🛍 Redesigned Ebay's website using Figma and FigJam.
+- 🛍 Conducted user research and usability testing to inform design decisions and improve user experience.
 
 ## Technical Writer
-- Maintained the design documentation and project management documents using Google Docs, Gooogle Sheets and FigJam.
+- 🛍 Maintained the design documentation and project management documents using Google Docs, Gooogle Sheets and FigJam.
+
+For more information about the design process, please visit the <a href="javascript:void(0)" onclick="window.openBlogPost('redesign-ebay-design-process')" style="color: var(--primary); text-decoration: underline; cursor: pointer;">design process page</a>.
 `
     },
     {
