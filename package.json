@@ -18,5 +18,9 @@
     "firebase": "^12.11.0",
     "highlight.js": "^11.11.1",
     "vite-plugin-static-copy": "^3.4.0"
+  },
+  "allowScripts": {
+    "@firebase/util@1.15.0": true,
+    "protobufjs@7.6.4": true
   }
 }

@@ -213,6 +213,7 @@ import meow from './blogs/meow.js';
 import portScannerTool from './blogs/port-scanner-tool.js';
 import todoApp from './blogs/todo-app.js';
 import turnoverDesignProcess from './blogs/turnover-design-process.js';
+import redesignEbayDesignProcess from './blogs/redesign-ebay-design-process.js';
 
 /* Games */
 import windowWashingGameMDM from './blogs/window-washing-game-mdm.js';
@@ -276,6 +277,7 @@ export const blogPosts = [
     portScannerTool,
     todoApp,
     turnoverDesignProcess,
+    redesignEbayDesignProcess,
 
     /* Games */
     windowWashingGameMDM,
