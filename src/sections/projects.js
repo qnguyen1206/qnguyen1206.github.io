@@ -272,7 +272,7 @@ For more information, please visit the <a href="javascript:void(0)" onclick="win
 
 For more information about the design process, please visit the <a href="javascript:void(0)" onclick="window.openBlogPost('redesign-ebay-design-process')" style="color: var(--primary); text-decoration: underline; cursor: pointer;">design process page</a>.
 
-For tech report, please visit the <a href="https://sites.google.com/view/cs3803techreport/home">tech report</a>.
+For tech report, please visit the <a href="https://sites.google.com/view/cs3803techreport/home" style="color: var(--primary); text-decoration: underline; cursor: pointer;">tech report</a>.
 `
     },
     {
@@ -288,7 +288,7 @@ For tech report, please visit the <a href="https://sites.google.com/view/cs3803t
       gitlabLink: 'https://gitlab.com/infinity-mythical-hunt',
       images: [],
       writeup: `
-For more information about Game Design Docs (GDD), please visit this <a href="https://docs.google.com/document/d/1UJy3OC_YYUjv-iYgKN2nyl05vAzpec3FY6-ygIBCkA4/edit?usp=sharing">link</a>.
+For more information about Game Design Docs (GDD), please visit this <a href="https://docs.google.com/document/d/1UJy3OC_YYUjv-iYgKN2nyl05vAzpec3FY6-ygIBCkA4/edit?usp=sharing" style="color: var(--primary); text-decoration: underline; cursor: pointer;">link</a>.
 `,
     },
     {

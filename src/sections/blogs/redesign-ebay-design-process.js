@@ -116,11 +116,11 @@ Based on the lofi prototype, we created a hifi prototype to further refine the d
 <img src="blogs/design-process/redesign-ebay/Search-Page.png" alt="Hifi Prototype - Search Page">
 <img src="blogs/design-process/redesign-ebay/Watchlist-Page.png" alt="Hifi Prototype - Watchlist Page">
 
-<a href="https://www.figma.com/proto/qmfM5SbiJ5lZTYX0hR1pw0/CS3803-High-Fi-Prototype?node-id=2-4&amp%3Bp=f&amp%3Bt=6esvClBS4N8uKfGh-1&amp%3Bscaling=scale-down&amp%3Bcontent-scaling=fixed&amp%3Bpage-id=0%3A1&amp%3Bstarting-point-node-id=2%3A4&t=GAcLv0d2ouLHIJZ6-1">Click here to view the hifi prototype on Figma</a>
+Click <a href="https://www.figma.com/proto/qmfM5SbiJ5lZTYX0hR1pw0/CS3803-High-Fi-Prototype?node-id=2-4&amp%3Bp=f&amp%3Bt=6esvClBS4N8uKfGh-1&amp%3Bscaling=scale-down&amp%3Bcontent-scaling=fixed&amp%3Bpage-id=0%3A1&amp%3Bstarting-point-node-id=2%3A4&t=GAcLv0d2ouLHIJZ6-1" style="color: var(--primary); text-decoration: underline; cursor: pointer;">here</a> to view the hifi prototype on Figma.
 ⸻⸻⸻⸻⸻
 
 ## Tech Report
 
-Please visit this <a href="https://sites.google.com/view/cs3803techreport/home">link</a> to view the tech report for this project.
+Please visit this <a href="https://sites.google.com/view/cs3803techreport/home" style="color: var(--primary); text-decoration: underline; cursor: pointer;">link</a> to view the tech report for this project.
 `
 }

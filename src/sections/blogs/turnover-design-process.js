@@ -189,6 +189,8 @@ Since feature 1 is how we are able to obtain customer footage, it is a core feat
 <a href="https://www.figma.com/proto/qR6MO8OJDOcKrBGsicWrt7/Untitled?node-id=12-20820&p=f&t=klqdyriqfhM4S7q3-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=12%3A20820"><img src="/blogs/design-process/turnover/wireframe-figma.png"></a>
 <a href="https://www.figma.com/proto/qR6MO8OJDOcKrBGsicWrt7/Untitled?node-id=12-20820&p=f&t=klqdyriqfhM4S7q3-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=12%3A20820">Link to Wireframes</a>
 
+Click <a href="https://www.figma.com/proto/qR6MO8OJDOcKrBGsicWrt7/Untitled?node-id=12-20820&p=f&t=klqdyriqfhM4S7q3-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=12%3A20820" style="color: var(--primary); text-decoration: underline; cursor: pointer;">here</a> to view the wireframes on Figma.
+
 ## Visual Design & Branding
 
 **Logo**
