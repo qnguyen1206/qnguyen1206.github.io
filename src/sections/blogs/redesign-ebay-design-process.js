@@ -122,7 +122,5 @@ Based on the lofi prototype, we created a hifi prototype to further refine the d
 ## Tech Report
 
 Please visit this <a href="https://sites.google.com/view/cs3803techreport/home">link</a> to view the tech report for this project.
-
-⸻⸻⸻⸻⸻
 `
 }
