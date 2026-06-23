@@ -2,10 +2,10 @@
   "set_id": 2289,
   "set_name": "Blister Exclusives",
   "set_abbr": "BLE",
-  "set_released": "2026-06-10",
+  "set_released": "2026-06-14",
   "product_count": 135,
-  "data_modified": "2026-06-11T02:01:27-04:00",
-  "file_generated": "2026-06-11T04:30:36-04:00",
+  "data_modified": "2026-06-17T05:11:28-04:00",
+  "file_generated": "2026-06-18T04:30:40-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/2289/pricing",
   "products": [
     {
@@ -4480,8 +4480,91 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 891734,
+      "cardtrader_id": 395792,
+      "cardtrader": [
+        {
+          "id": 395792,
+          "name": "Zacian",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "045",
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "kr",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "kr",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            891734
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/395792/preview_395792-zacian-cosmos-holo-045-094-theme-deck-blisters-exclusives.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 696145,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 220184,
@@ -5187,8 +5270,91 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 891754,
+      "cardtrader_id": 395791,
+      "cardtrader": [
+        {
+          "id": 395791,
+          "name": "Flygon",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "053",
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "kr",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "kr",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            891754
+          ],
+          "image_url": "https://cardtrader.com/uploads/blueprints/image/395791/preview_395791-flygon-cosmos-holo-053-094-theme-deck-blisters-exclusives.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 696232,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 173094,
