@@ -4,8 +4,8 @@
   "set_abbr": "PR",
   "set_released": "2016-06-01",
   "product_count": 619,
-  "data_modified": "2026-06-03T08:12:37-04:00",
-  "file_generated": "2026-06-04T04:30:58-04:00",
+  "data_modified": "2026-06-15T08:12:50-04:00",
+  "file_generated": "2026-06-21T04:31:13-04:00",
   "pricing_url": "/tcgapi/v1/3/sets/1539/pricing",
   "products": [
     {
@@ -982,7 +982,8 @@
           "collector_number": "2006-2007",
           "rarity": "Promo",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -1041,7 +1042,7 @@
             {
               "name": "pokemon_reverse",
               "type": "boolean",
-              "default_value": "true",
+              "default_value": "false",
               "possible_values": [
                 true,
                 false
@@ -17024,7 +17025,8 @@
           "collector_number": "021",
           "rarity": "Promo",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -17083,7 +17085,7 @@
             {
               "name": "pokemon_reverse",
               "type": "boolean",
-              "default_value": "true",
+              "default_value": "false",
               "possible_values": [
                 true,
                 false
@@ -44985,7 +44987,7 @@
             {
               "name": "pokemon_reverse",
               "type": "boolean",
-              "default_value": "true",
+              "default_value": "false",
               "possible_values": [
                 true,
                 false
@@ -45745,7 +45747,8 @@
           "collector_number": "123/146",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -45806,7 +45809,7 @@
             {
               "name": "pokemon_reverse",
               "type": "boolean",
-              "default_value": "true",
+              "default_value": "false",
               "possible_values": [
                 true,
                 false
