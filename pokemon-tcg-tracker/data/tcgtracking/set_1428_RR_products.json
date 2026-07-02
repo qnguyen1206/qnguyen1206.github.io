@@ -4,9 +4,12 @@
   "set_abbr": "RR",
   "set_released": "2004-11-01",
   "product_count": 113,
-  "data_modified": "2026-05-30T08:12:33-04:00",
-  "file_generated": "2026-05-31T04:31:46-04:00",
-  "pricing_url": "/tcgapi/v1/3/sets/1428/pricing",
+  "data_modified": "2026-06-27T14:54:13-04:00",
+  "file_generated": "2026-07-01T08:31:22-04:00",
+  "pricing_url": "/v1/3/sets/1428/pricing",
+  "cards_url": "/v1/3/sets/1428/cards",
+  "sealed_url": "/v1/3/sets/1428/sealed",
+  "skus_url": "/v1/3/sets/1428/skus",
   "products": [
     {
       "id": 98579,
@@ -14,7 +17,7 @@
       "clean_name": "Team Rocket Returns Booster Box",
       "number": null,
       "rarity": null,
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/98579_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/98579_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F98579%2Fpokemon-team-rocket-returns-team-rocket-returns-booster-box",
       "manapool_url": null,
@@ -53,7 +56,7 @@
           "cardmarket_ids": [
             271921
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/105278/preview_ex-team-rocket-returns-booster-box-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/98579_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 98579,
           "game_id": 5,
@@ -70,7 +73,7 @@
       "clean_name": "Team Rocket Returns Booster Pack",
       "number": null,
       "rarity": null,
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/98578_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/98578_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F98578%2Fpokemon-team-rocket-returns-team-rocket-returns-booster-pack",
       "manapool_url": null,
@@ -109,7 +112,7 @@
           "cardmarket_ids": [
             271869
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/105277/preview_ex-team-rocket-returns-booster-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/98578_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 98578,
           "game_id": 5,
@@ -126,7 +129,7 @@
       "clean_name": "Azumarill",
       "number": "1/109",
       "rarity": "Holo Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/83682_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/83682_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83682%2Fpokemon-team-rocket-returns-azumarill",
       "manapool_url": null,
@@ -145,7 +148,8 @@
           "collector_number": "001",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -157,6 +161,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -204,7 +209,7 @@
           "cardmarket_ids": [
             276293
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117615/preview_azumarill-rare-holo-1-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/83682_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 83682,
           "game_id": 5,
@@ -221,7 +226,7 @@
       "clean_name": "Dark Steelix",
       "number": "10/109",
       "rarity": "Holo Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84658_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84658_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84658%2Fpokemon-team-rocket-returns-dark-steelix",
       "manapool_url": null,
@@ -240,7 +245,8 @@
           "collector_number": "010",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -252,6 +258,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -299,7 +306,7 @@
           "cardmarket_ids": [
             276302
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117633/preview_dark-steelix-rare-holo-10-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84658_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84658,
           "game_id": 5,
@@ -316,7 +323,7 @@
       "clean_name": "Rockets Moltres ex",
       "number": "100/109",
       "rarity": "Ultra Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88782_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88782_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88782%2Fpokemon-team-rocket-returns-rockets-moltres-ex",
       "manapool_url": null,
@@ -347,6 +354,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -385,7 +393,7 @@
           "cardmarket_ids": [
             276392
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117810/preview_rocket-s-moltres-ex-rare-holo-100-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88782_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88782,
           "game_id": 5,
@@ -402,7 +410,7 @@
       "clean_name": "Rockets Scizor ex",
       "number": "101/109",
       "rarity": "Ultra Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88787_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88787_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88787%2Fpokemon-team-rocket-returns-rockets-scizor-ex",
       "manapool_url": null,
@@ -433,6 +441,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -471,7 +480,7 @@
           "cardmarket_ids": [
             276393
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117811/preview_rocket-s-scizor-ex-rare-holo-101-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88787_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88787,
           "game_id": 5,
@@ -488,7 +497,7 @@
       "clean_name": "Rockets Scyther ex",
       "number": "102/109",
       "rarity": "Ultra Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88789_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88789_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88789%2Fpokemon-team-rocket-returns-rockets-scyther-ex",
       "manapool_url": null,
@@ -519,6 +528,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -557,7 +567,7 @@
           "cardmarket_ids": [
             276394
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117812/preview_rocket-s-scyther-ex-rare-holo-102-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88789_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88789,
           "game_id": 5,
@@ -574,7 +584,7 @@
       "clean_name": "Rockets Sneasel ex",
       "number": "103/109",
       "rarity": "Ultra Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88794_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88794_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88794%2Fpokemon-team-rocket-returns-rockets-sneasel-ex",
       "manapool_url": null,
@@ -605,6 +615,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -643,7 +654,7 @@
           "cardmarket_ids": [
             276395
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117813/preview_rocket-s-sneasel-ex-rare-holo-103-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88794_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88794,
           "game_id": 5,
@@ -660,7 +671,7 @@
       "clean_name": "Rockets Snorlax ex",
       "number": "104/109",
       "rarity": "Ultra Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88796_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88796_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88796%2Fpokemon-team-rocket-returns-rockets-snorlax-ex",
       "manapool_url": null,
@@ -691,6 +702,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -729,7 +741,7 @@
           "cardmarket_ids": [
             276396
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117814/preview_rocket-s-snorlax-ex-rare-holo-104-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88796_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88796,
           "game_id": 5,
@@ -746,7 +758,7 @@
       "clean_name": "Rockets Suicune ex",
       "number": "105/109",
       "rarity": "Ultra Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88797_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88797_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88797%2Fpokemon-team-rocket-returns-rockets-suicune-ex",
       "manapool_url": null,
@@ -777,6 +789,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -815,7 +828,7 @@
           "cardmarket_ids": [
             276397
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117815/preview_rocket-s-suicune-ex-rare-holo-105-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88797_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88797,
           "game_id": 5,
@@ -832,7 +845,7 @@
       "clean_name": "Rockets Zapdos ex",
       "number": "106/109",
       "rarity": "Ultra Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88801_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88801_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88801%2Fpokemon-team-rocket-returns-rockets-zapdos-ex",
       "manapool_url": null,
@@ -863,6 +876,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -901,7 +915,7 @@
           "cardmarket_ids": [
             276398
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117816/preview_rocket-s-zapdos-ex-rare-holo-106-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88801_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88801,
           "game_id": 5,
@@ -918,7 +932,7 @@
       "clean_name": "Mudkip Star",
       "number": "107/109",
       "rarity": "Ultra Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87616_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/87616_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87616%2Fpokemon-team-rocket-returns-mudkip-star",
       "manapool_url": null,
@@ -949,6 +963,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -987,7 +1002,7 @@
           "cardmarket_ids": [
             276399
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117817/preview_mudkip-rare-holo-107-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/87616_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 87616,
           "game_id": 5,
@@ -1004,7 +1019,7 @@
       "clean_name": "Torchic Star",
       "number": "108/109",
       "rarity": "Ultra Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89965_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/89965_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89965%2Fpokemon-team-rocket-returns-torchic-star",
       "manapool_url": null,
@@ -1035,6 +1050,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1073,7 +1089,7 @@
           "cardmarket_ids": [
             276400
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117818/preview_torchic-rare-holo-108-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/89965_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 89965,
           "game_id": 5,
@@ -1090,7 +1106,7 @@
       "clean_name": "Treecko Star",
       "number": "109/109",
       "rarity": "Ultra Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90046_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/90046_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90046%2Fpokemon-team-rocket-returns-treecko-star",
       "manapool_url": null,
@@ -1121,6 +1137,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1159,7 +1176,7 @@
           "cardmarket_ids": [
             276401
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117819/preview_treecko-rare-holo-109-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/90046_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 90046,
           "game_id": 5,
@@ -1176,7 +1193,7 @@
       "clean_name": "Jumpluff",
       "number": "11/109",
       "rarity": "Holo Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86365_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/86365_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86365%2Fpokemon-team-rocket-returns-jumpluff",
       "manapool_url": null,
@@ -1195,7 +1212,8 @@
           "collector_number": "011/109",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -1207,6 +1225,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1254,7 +1273,7 @@
           "cardmarket_ids": [
             276303
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117635/preview_jumpluff-rare-holo-11-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/86365_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 86365,
           "game_id": 5,
@@ -1271,7 +1290,7 @@
       "clean_name": "Charmeleon",
       "number": "110/109",
       "rarity": "Secret Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84227_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84227_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84227%2Fpokemon-team-rocket-returns-charmeleon",
       "manapool_url": null,
@@ -1302,6 +1321,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1340,7 +1360,7 @@
           "cardmarket_ids": [
             276402
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117820/preview_charmeleon-secret-rare-110-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84227_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84227,
           "game_id": 5,
@@ -1357,7 +1377,7 @@
       "clean_name": "Here Comes Team Rocket",
       "number": "111/109",
       "rarity": "Secret Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86075_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/86075_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86075%2Fpokemon-team-rocket-returns-here-comes-team-rocket",
       "manapool_url": null,
@@ -1388,6 +1408,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1426,7 +1447,7 @@
           "cardmarket_ids": [
             276403
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117821/preview_here-comes-team-rocket-secret-rare-111-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/86075_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 86075,
           "game_id": 5,
@@ -1443,7 +1464,7 @@
       "clean_name": "Kingdra",
       "number": "12/109",
       "rarity": "Holo Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86445_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/86445_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86445%2Fpokemon-team-rocket-returns-kingdra",
       "manapool_url": null,
@@ -1462,7 +1483,8 @@
           "collector_number": "012/109",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -1474,6 +1496,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1521,7 +1544,7 @@
           "cardmarket_ids": [
             276304
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117637/preview_kingdra-rare-holo-12-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/86445_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 86445,
           "game_id": 5,
@@ -1538,7 +1561,7 @@
       "clean_name": "Piloswine",
       "number": "13/109",
       "rarity": "Holo Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88117_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88117_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88117%2Fpokemon-team-rocket-returns-piloswine",
       "manapool_url": null,
@@ -1557,7 +1580,8 @@
           "collector_number": "013/109",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -1569,6 +1593,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1616,7 +1641,7 @@
           "cardmarket_ids": [
             276305
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117639/preview_piloswine-rare-holo-13-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88117_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88117,
           "game_id": 5,
@@ -1633,7 +1658,7 @@
       "clean_name": "Togetic",
       "number": "14/109",
       "rarity": "Holo Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89942_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/89942_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89942%2Fpokemon-team-rocket-returns-togetic",
       "manapool_url": null,
@@ -1652,7 +1677,8 @@
           "collector_number": "014/109",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -1664,6 +1690,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1711,7 +1738,7 @@
           "cardmarket_ids": [
             276306
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117641/preview_togetic-rare-holo-14-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/89942_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 89942,
           "game_id": 5,
@@ -1728,7 +1755,7 @@
       "clean_name": "Dark Dragonite",
       "number": "15/109",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84587_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84587_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84587%2Fpokemon-team-rocket-returns-dark-dragonite",
       "manapool_url": null,
@@ -1747,7 +1774,8 @@
           "collector_number": "015/109",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -1759,6 +1787,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1815,7 +1844,7 @@
           "cardmarket_ids": [
             276307
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117643/preview_dark-dragonite-15-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84587_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84587,
           "game_id": 5,
@@ -1832,7 +1861,7 @@
       "clean_name": "Dark Muk",
       "number": "16/109",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84631_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84631_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84631%2Fpokemon-team-rocket-returns-dark-muk",
       "manapool_url": null,
@@ -1851,7 +1880,8 @@
           "collector_number": "016/109",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -1863,6 +1893,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1910,7 +1941,7 @@
           "cardmarket_ids": [
             276308
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117645/preview_dark-muk-16-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84631_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84631,
           "game_id": 5,
@@ -1927,7 +1958,7 @@
       "clean_name": "Dark Raticate",
       "number": "17/109",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84650_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84650_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84650%2Fpokemon-team-rocket-returns-dark-raticate",
       "manapool_url": null,
@@ -1946,7 +1977,8 @@
           "collector_number": "017/109",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -1958,6 +1990,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2005,7 +2038,7 @@
           "cardmarket_ids": [
             276309
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117647/preview_dark-raticate-17-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84650_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84650,
           "game_id": 5,
@@ -2022,7 +2055,7 @@
       "clean_name": "Dark Sandslash",
       "number": "18/109",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84651_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84651_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84651%2Fpokemon-team-rocket-returns-dark-sandslash",
       "manapool_url": null,
@@ -2041,7 +2074,8 @@
           "collector_number": "018/109",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -2053,6 +2087,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2100,7 +2135,7 @@
           "cardmarket_ids": [
             276310
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117649/preview_dark-sandslash-18-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84651_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84651,
           "game_id": 5,
@@ -2117,7 +2152,7 @@
       "clean_name": "Dark Tyranitar 019 109",
       "number": "19/109",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84661_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84661_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84661%2Fpokemon-team-rocket-returns-dark-tyranitar-019-109",
       "manapool_url": null,
@@ -2136,7 +2171,8 @@
           "collector_number": "019/109",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -2148,6 +2184,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2195,7 +2232,7 @@
           "cardmarket_ids": [
             276311
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117651/preview_dark-tyranitar-19-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84661_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84661,
           "game_id": 5,
@@ -2212,7 +2249,7 @@
       "clean_name": "Dark Ampharos",
       "number": "2/109",
       "rarity": "Holo Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84562_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84562_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84562%2Fpokemon-team-rocket-returns-dark-ampharos",
       "manapool_url": null,
@@ -2231,7 +2268,8 @@
           "collector_number": "002",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -2243,6 +2281,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2290,7 +2329,7 @@
           "cardmarket_ids": [
             276294
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117617/preview_dark-ampharos-rare-holo-2-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84562_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84562,
           "game_id": 5,
@@ -2307,7 +2346,7 @@
       "clean_name": "Dark Tyranitar 020 109",
       "number": "20/109",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84662_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84662_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84662%2Fpokemon-team-rocket-returns-dark-tyranitar-020-109",
       "manapool_url": null,
@@ -2326,7 +2365,8 @@
           "collector_number": "020/109",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -2338,6 +2378,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2385,7 +2426,7 @@
           "cardmarket_ids": [
             276312
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117653/preview_dark-tyranitar-20-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84662_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84662,
           "game_id": 5,
@@ -2402,7 +2443,7 @@
       "clean_name": "Delibird",
       "number": "21/109",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84747_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84747_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84747%2Fpokemon-team-rocket-returns-delibird",
       "manapool_url": null,
@@ -2421,7 +2462,8 @@
           "collector_number": "021/109",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -2433,6 +2475,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2480,7 +2523,7 @@
           "cardmarket_ids": [
             276313
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117655/preview_delibird-21-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84747_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84747,
           "game_id": 5,
@@ -2497,7 +2540,7 @@
       "clean_name": "Furret",
       "number": "22/109",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85591_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/85591_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85591%2Fpokemon-team-rocket-returns-furret",
       "manapool_url": null,
@@ -2516,7 +2559,8 @@
           "collector_number": "022/109",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -2528,6 +2572,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2575,7 +2620,7 @@
           "cardmarket_ids": [
             276314
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117657/preview_furret-22-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/85591_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 85591,
           "game_id": 5,
@@ -2592,7 +2637,7 @@
       "clean_name": "Ledian",
       "number": "23/109",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86693_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/86693_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86693%2Fpokemon-team-rocket-returns-ledian",
       "manapool_url": null,
@@ -2611,7 +2656,8 @@
           "collector_number": "023/109",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -2623,6 +2669,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2670,7 +2717,7 @@
           "cardmarket_ids": [
             276315
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117659/preview_ledian-23-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/86693_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 86693,
           "game_id": 5,
@@ -2687,7 +2734,7 @@
       "clean_name": "Magby",
       "number": "24/109",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87003_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/87003_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87003%2Fpokemon-team-rocket-returns-magby",
       "manapool_url": null,
@@ -2706,7 +2753,8 @@
           "collector_number": "024/109",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -2718,6 +2766,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2765,7 +2814,7 @@
           "cardmarket_ids": [
             276316
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117661/preview_magby-24-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/87003_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 87003,
           "game_id": 5,
@@ -2782,7 +2831,7 @@
       "clean_name": "Misdreavus",
       "number": "25/109",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87504_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/87504_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87504%2Fpokemon-team-rocket-returns-misdreavus",
       "manapool_url": null,
@@ -2801,7 +2850,8 @@
           "collector_number": "025/109",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -2813,6 +2863,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2860,7 +2911,7 @@
           "cardmarket_ids": [
             276317
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117663/preview_misdreavus-25-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/87504_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 87504,
           "game_id": 5,
@@ -2877,7 +2928,7 @@
       "clean_name": "Quagsire",
       "number": "26/109",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88470_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88470_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88470%2Fpokemon-team-rocket-returns-quagsire",
       "manapool_url": null,
@@ -2896,7 +2947,8 @@
           "collector_number": "026/109",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -2908,6 +2960,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2955,7 +3008,7 @@
           "cardmarket_ids": [
             276318
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117665/preview_quagsire-26-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88470_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88470,
           "game_id": 5,
@@ -2972,7 +3025,7 @@
       "clean_name": "Qwilfish",
       "number": "27/109",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88493_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88493_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88493%2Fpokemon-team-rocket-returns-qwilfish",
       "manapool_url": null,
@@ -2991,7 +3044,8 @@
           "collector_number": "027/109",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -3003,6 +3057,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3050,7 +3105,7 @@
           "cardmarket_ids": [
             276319
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117667/preview_qwilfish-27-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88493_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88493,
           "game_id": 5,
@@ -3067,7 +3122,7 @@
       "clean_name": "Yanma",
       "number": "28/109",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90683_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/90683_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90683%2Fpokemon-team-rocket-returns-yanma",
       "manapool_url": null,
@@ -3086,7 +3141,8 @@
           "collector_number": "028/109",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -3098,6 +3154,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3145,7 +3202,7 @@
           "cardmarket_ids": [
             276320
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117669/preview_yanma-28-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/90683_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 90683,
           "game_id": 5,
@@ -3162,7 +3219,7 @@
       "clean_name": "Dark Arbok",
       "number": "29/109",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84565_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84565_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84565%2Fpokemon-team-rocket-returns-dark-arbok",
       "manapool_url": null,
@@ -3181,7 +3238,8 @@
           "collector_number": "029/109",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -3193,6 +3251,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3240,7 +3299,7 @@
           "cardmarket_ids": [
             276321
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117671/preview_dark-arbok-29-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84565_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84565,
           "game_id": 5,
@@ -3257,7 +3316,7 @@
       "clean_name": "Dark Crobat",
       "number": "3/109",
       "rarity": "Holo Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84577_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84577_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84577%2Fpokemon-team-rocket-returns-dark-crobat",
       "manapool_url": null,
@@ -3276,7 +3335,8 @@
           "collector_number": "003",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -3288,6 +3348,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3335,7 +3396,7 @@
           "cardmarket_ids": [
             276295
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117619/preview_dark-crobat-rare-holo-3-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84577_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84577,
           "game_id": 5,
@@ -3352,7 +3413,7 @@
       "clean_name": "Dark Ariados",
       "number": "30/109",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84567_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84567_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84567%2Fpokemon-team-rocket-returns-dark-ariados",
       "manapool_url": null,
@@ -3371,7 +3432,8 @@
           "collector_number": "030/109",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -3383,6 +3445,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3430,7 +3493,7 @@
           "cardmarket_ids": [
             276322
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117673/preview_dark-ariados-30-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84567_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84567,
           "game_id": 5,
@@ -3447,7 +3510,7 @@
       "clean_name": "Dark Dragonair 031 109",
       "number": "31/109",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84582_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84582_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84582%2Fpokemon-team-rocket-returns-dark-dragonair-031-109",
       "manapool_url": null,
@@ -3466,7 +3529,8 @@
           "collector_number": "031/109",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -3478,6 +3542,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3525,7 +3590,7 @@
           "cardmarket_ids": [
             276323
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117675/preview_dark-dragonair-31-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84582_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84582,
           "game_id": 5,
@@ -3542,7 +3607,7 @@
       "clean_name": "Dark Dragonair 032 109",
       "number": "32/109",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84583_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84583_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84583%2Fpokemon-team-rocket-returns-dark-dragonair-032-109",
       "manapool_url": null,
@@ -3561,7 +3626,8 @@
           "collector_number": "032/109",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -3573,6 +3639,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3620,7 +3687,7 @@
           "cardmarket_ids": [
             276324
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117677/preview_dark-dragonair-32-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84583_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84583,
           "game_id": 5,
@@ -3637,7 +3704,7 @@
       "clean_name": "Dark Flaaffy",
       "number": "33/109",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84596_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84596_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84596%2Fpokemon-team-rocket-returns-dark-flaaffy",
       "manapool_url": null,
@@ -3656,7 +3723,8 @@
           "collector_number": "033/109",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -3668,6 +3736,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3715,7 +3784,7 @@
           "cardmarket_ids": [
             276325
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117679/preview_dark-flaaffy-33-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84596_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84596,
           "game_id": 5,
@@ -3732,7 +3801,7 @@
       "clean_name": "Dark Golbat",
       "number": "34/109",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84603_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84603_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84603%2Fpokemon-team-rocket-returns-dark-golbat",
       "manapool_url": null,
@@ -3751,7 +3820,8 @@
           "collector_number": "034/109",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -3763,6 +3833,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3810,7 +3881,7 @@
           "cardmarket_ids": [
             276326
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117681/preview_dark-golbat-34-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84603_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84603,
           "game_id": 5,
@@ -3827,7 +3898,7 @@
       "clean_name": "Dark Golduck",
       "number": "35/109",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84605_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84605_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84605%2Fpokemon-team-rocket-returns-dark-golduck",
       "manapool_url": null,
@@ -3846,7 +3917,8 @@
           "collector_number": "035/109",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -3858,6 +3930,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3905,7 +3978,7 @@
           "cardmarket_ids": [
             276327
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117683/preview_dark-golduck-35-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84605_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84605,
           "game_id": 5,
@@ -3922,7 +3995,7 @@
       "clean_name": "Dark Gyarados",
       "number": "36/109",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84608_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84608_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84608%2Fpokemon-team-rocket-returns-dark-gyarados",
       "manapool_url": null,
@@ -3941,7 +4014,8 @@
           "collector_number": "036/109",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -3953,6 +4027,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4000,7 +4075,7 @@
           "cardmarket_ids": [
             276328
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117685/preview_dark-gyarados-36-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84608_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84608,
           "game_id": 5,
@@ -4017,7 +4092,7 @@
       "clean_name": "Dark Houndoom 037 109",
       "number": "37/109",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84612_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84612_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84612%2Fpokemon-team-rocket-returns-dark-houndoom-037-109",
       "manapool_url": null,
@@ -4036,7 +4111,8 @@
           "collector_number": "037/109",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -4048,6 +4124,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4095,7 +4172,7 @@
           "cardmarket_ids": [
             276329
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117687/preview_dark-houndoom-37-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84612_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84612,
           "game_id": 5,
@@ -4112,7 +4189,7 @@
       "clean_name": "Dark Magcargo",
       "number": "38/109",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84623_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84623_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84623%2Fpokemon-team-rocket-returns-dark-magcargo",
       "manapool_url": null,
@@ -4131,7 +4208,8 @@
           "collector_number": "038/109",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -4143,6 +4221,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4190,7 +4269,7 @@
           "cardmarket_ids": [
             276330
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117689/preview_dark-magcargo-38-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84623_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84623,
           "game_id": 5,
@@ -4207,7 +4286,7 @@
       "clean_name": "Dark Magneton",
       "number": "39/109",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84626_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84626_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84626%2Fpokemon-team-rocket-returns-dark-magneton",
       "manapool_url": null,
@@ -4226,7 +4305,8 @@
           "collector_number": "039/109",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -4238,6 +4318,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4285,7 +4366,7 @@
           "cardmarket_ids": [
             276331
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117691/preview_dark-magneton-39-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84626_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84626,
           "game_id": 5,
@@ -4302,7 +4383,7 @@
       "clean_name": "Dark Electrode",
       "number": "4/109",
       "rarity": "Holo Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84591_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84591_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84591%2Fpokemon-team-rocket-returns-dark-electrode",
       "manapool_url": null,
@@ -4321,7 +4402,8 @@
           "collector_number": "004",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -4333,6 +4415,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4380,7 +4463,7 @@
           "cardmarket_ids": [
             276296
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117621/preview_dark-electrode-rare-holo-4-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84591_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84591,
           "game_id": 5,
@@ -4397,7 +4480,7 @@
       "clean_name": "Dark Pupitar 040 109",
       "number": "40/109",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84643_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84643_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84643%2Fpokemon-team-rocket-returns-dark-pupitar-040-109",
       "manapool_url": null,
@@ -4416,7 +4499,8 @@
           "collector_number": "040/109",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -4428,6 +4512,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4475,7 +4560,7 @@
           "cardmarket_ids": [
             276332
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117693/preview_dark-pupitar-40-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84643_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84643,
           "game_id": 5,
@@ -4492,7 +4577,7 @@
       "clean_name": "Dark Pupitar 041 109",
       "number": "41/109",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84644_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84644_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84644%2Fpokemon-team-rocket-returns-dark-pupitar-041-109",
       "manapool_url": null,
@@ -4511,7 +4596,8 @@
           "collector_number": "041/109",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -4523,6 +4609,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4570,7 +4657,7 @@
           "cardmarket_ids": [
             276333
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117695/preview_dark-pupitar-41-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84644_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84644,
           "game_id": 5,
@@ -4587,7 +4674,7 @@
       "clean_name": "Dark Weezing",
       "number": "42/109",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84673_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84673_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84673%2Fpokemon-team-rocket-returns-dark-weezing",
       "manapool_url": null,
@@ -4606,7 +4693,8 @@
           "collector_number": "042/109",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -4618,6 +4706,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4665,7 +4754,7 @@
           "cardmarket_ids": [
             276334
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117697/preview_dark-weezing-42-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84673_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84673,
           "game_id": 5,
@@ -4682,7 +4771,7 @@
       "clean_name": "Heracross",
       "number": "43/109",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86063_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/86063_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86063%2Fpokemon-team-rocket-returns-heracross",
       "manapool_url": null,
@@ -4701,7 +4790,8 @@
           "collector_number": "043/109",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -4713,6 +4803,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4760,7 +4851,7 @@
           "cardmarket_ids": [
             276335
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117699/preview_heracross-43-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/86063_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 86063,
           "game_id": 5,
@@ -4777,7 +4868,7 @@
       "clean_name": "Magmar",
       "number": "44/109",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87045_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/87045_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87045%2Fpokemon-team-rocket-returns-magmar",
       "manapool_url": null,
@@ -4796,7 +4887,8 @@
           "collector_number": "044/109",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -4808,6 +4900,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4855,7 +4948,7 @@
           "cardmarket_ids": [
             276336
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117701/preview_magmar-44-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/87045_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 87045,
           "game_id": 5,
@@ -4872,7 +4965,7 @@
       "clean_name": "Mantine",
       "number": "45/109",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87182_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/87182_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87182%2Fpokemon-team-rocket-returns-mantine",
       "manapool_url": null,
@@ -4891,7 +4984,8 @@
           "collector_number": "045/109",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -4903,6 +4997,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4950,7 +5045,7 @@
           "cardmarket_ids": [
             276337
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117703/preview_mantine-45-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/87182_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 87182,
           "game_id": 5,
@@ -4967,7 +5062,7 @@
       "clean_name": "Rockets Meowth",
       "number": "46/109",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88775_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88775_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88775%2Fpokemon-team-rocket-returns-rockets-meowth",
       "manapool_url": null,
@@ -4986,7 +5081,8 @@
           "collector_number": "046/109",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -4998,6 +5094,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5045,7 +5142,7 @@
           "cardmarket_ids": [
             276338
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117705/preview_rocket-s-meowth-46-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88775_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88775,
           "game_id": 5,
@@ -5062,7 +5159,7 @@
       "clean_name": "Rockets Wobbuffet",
       "number": "47/109",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88799_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88799_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88799%2Fpokemon-team-rocket-returns-rockets-wobbuffet",
       "manapool_url": null,
@@ -5081,7 +5178,8 @@
           "collector_number": "047/109",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -5093,6 +5191,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5140,7 +5239,7 @@
           "cardmarket_ids": [
             276339
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117707/preview_rocket-s-wobbuffet-47-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88799_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88799,
           "game_id": 5,
@@ -5157,7 +5256,7 @@
       "clean_name": "Seadra",
       "number": "48/109",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89014_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/89014_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89014%2Fpokemon-team-rocket-returns-seadra",
       "manapool_url": null,
@@ -5176,7 +5275,8 @@
           "collector_number": "048/109",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -5188,6 +5288,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5235,7 +5336,7 @@
           "cardmarket_ids": [
             276340
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117709/preview_seadra-48-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/89014_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 89014,
           "game_id": 5,
@@ -5252,7 +5353,7 @@
       "clean_name": "Skiploom",
       "number": "49/109",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89255_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/89255_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89255%2Fpokemon-team-rocket-returns-skiploom",
       "manapool_url": null,
@@ -5271,7 +5372,8 @@
           "collector_number": "049/109",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -5283,6 +5385,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5330,7 +5433,7 @@
           "cardmarket_ids": [
             276341
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117711/preview_skiploom-49-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/89255_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 89255,
           "game_id": 5,
@@ -5347,7 +5450,7 @@
       "clean_name": "Dark Houndoom 005 109",
       "number": "5/109",
       "rarity": "Holo Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84611_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84611_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84611%2Fpokemon-team-rocket-returns-dark-houndoom-005-109",
       "manapool_url": null,
@@ -5366,7 +5469,8 @@
           "collector_number": "005/109",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -5378,6 +5482,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5425,7 +5530,7 @@
           "cardmarket_ids": [
             276297
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117623/preview_dark-houndoom-rare-holo-5-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84611_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84611,
           "game_id": 5,
@@ -5442,7 +5547,7 @@
       "clean_name": "Togepi",
       "number": "50/109",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89933_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/89933_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89933%2Fpokemon-team-rocket-returns-togepi",
       "manapool_url": null,
@@ -5461,7 +5566,8 @@
           "collector_number": "050/109",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -5473,6 +5579,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5520,7 +5627,7 @@
           "cardmarket_ids": [
             276342
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117713/preview_togepi-50-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/89933_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 89933,
           "game_id": 5,
@@ -5537,7 +5644,7 @@
       "clean_name": "Cubone",
       "number": "51/109",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84532_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84532_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84532%2Fpokemon-team-rocket-returns-cubone",
       "manapool_url": null,
@@ -5556,7 +5663,8 @@
           "collector_number": "051/109",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -5568,6 +5676,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5615,7 +5724,7 @@
           "cardmarket_ids": [
             276343
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117715/preview_cubone-51-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84532_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84532,
           "game_id": 5,
@@ -5632,7 +5741,7 @@
       "clean_name": "Dratini 052 109",
       "number": "52/109",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84933_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84933_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84933%2Fpokemon-team-rocket-returns-dratini-052-109",
       "manapool_url": null,
@@ -5651,7 +5760,8 @@
           "collector_number": "052/109",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -5663,6 +5773,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5710,7 +5821,7 @@
           "cardmarket_ids": [
             276344
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117717/preview_dratini-52-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84933_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84933,
           "game_id": 5,
@@ -5727,7 +5838,7 @@
       "clean_name": "Dratini 053 109",
       "number": "53/109",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84934_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84934_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84934%2Fpokemon-team-rocket-returns-dratini-053-109",
       "manapool_url": null,
@@ -5746,7 +5857,8 @@
           "collector_number": "053/109",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -5758,6 +5870,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5805,7 +5918,7 @@
           "cardmarket_ids": [
             276345
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117719/preview_dratini-53-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84934_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84934,
           "game_id": 5,
@@ -5822,7 +5935,7 @@
       "clean_name": "Drowzee",
       "number": "54/109",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84974_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84974_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84974%2Fpokemon-team-rocket-returns-drowzee",
       "manapool_url": null,
@@ -5841,7 +5954,8 @@
           "collector_number": "054/109",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -5853,6 +5967,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5900,7 +6015,7 @@
           "cardmarket_ids": [
             276346
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117721/preview_drowzee-54-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84974_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84974,
           "game_id": 5,
@@ -5917,7 +6032,7 @@
       "clean_name": "Ekans",
       "number": "55/109",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85102_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/85102_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85102%2Fpokemon-team-rocket-returns-ekans",
       "manapool_url": null,
@@ -5936,7 +6051,8 @@
           "collector_number": "055/109",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -5948,6 +6064,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5995,7 +6112,7 @@
           "cardmarket_ids": [
             276347
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117723/preview_ekans-55-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/85102_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 85102,
           "game_id": 5,
@@ -6012,7 +6129,7 @@
       "clean_name": "Grimer",
       "number": "56/109",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85909_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/85909_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85909%2Fpokemon-team-rocket-returns-grimer",
       "manapool_url": null,
@@ -6031,7 +6148,8 @@
           "collector_number": "056/109",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -6043,6 +6161,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6090,7 +6209,7 @@
           "cardmarket_ids": [
             276348
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117725/preview_grimer-56-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/85909_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 85909,
           "game_id": 5,
@@ -6107,7 +6226,7 @@
       "clean_name": "Hoppip",
       "number": "57/109",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86180_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/86180_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86180%2Fpokemon-team-rocket-returns-hoppip",
       "manapool_url": null,
@@ -6126,7 +6245,8 @@
           "collector_number": "057/109",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -6138,6 +6258,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6185,7 +6306,7 @@
           "cardmarket_ids": [
             276349
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117727/preview_hoppip-57-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/86180_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 86180,
           "game_id": 5,
@@ -6202,7 +6323,7 @@
       "clean_name": "Horsea",
       "number": "58/109",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86190_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/86190_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86190%2Fpokemon-team-rocket-returns-horsea",
       "manapool_url": null,
@@ -6221,7 +6342,8 @@
           "collector_number": "058/109",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -6233,6 +6355,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6280,7 +6403,7 @@
           "cardmarket_ids": [
             276350
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117729/preview_horsea-58-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/86190_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 86190,
           "game_id": 5,
@@ -6297,7 +6420,7 @@
       "clean_name": "Houndour 059 109",
       "number": "59/109",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86225_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/86225_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86225%2Fpokemon-team-rocket-returns-houndour-059-109",
       "manapool_url": null,
@@ -6316,7 +6439,8 @@
           "collector_number": "059/109",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -6328,6 +6452,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6375,7 +6500,7 @@
           "cardmarket_ids": [
             276351
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117731/preview_houndour-59-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/86225_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 86225,
           "game_id": 5,
@@ -6392,7 +6517,7 @@
       "clean_name": "Dark Hypno",
       "number": "6/109",
       "rarity": "Holo Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84615_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84615_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84615%2Fpokemon-team-rocket-returns-dark-hypno",
       "manapool_url": null,
@@ -6411,7 +6536,8 @@
           "collector_number": "006",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -6423,6 +6549,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6470,7 +6597,7 @@
           "cardmarket_ids": [
             276298
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117625/preview_dark-hypno-rare-holo-6-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84615_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84615,
           "game_id": 5,
@@ -6487,7 +6614,7 @@
       "clean_name": "Houndour 060 109",
       "number": "60/109",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86226_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/86226_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86226%2Fpokemon-team-rocket-returns-houndour-060-109",
       "manapool_url": null,
@@ -6506,7 +6633,8 @@
           "collector_number": "060/109",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -6518,6 +6646,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6565,7 +6694,7 @@
           "cardmarket_ids": [
             276352
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117733/preview_houndour-60-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/86226_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 86226,
           "game_id": 5,
@@ -6582,7 +6711,7 @@
       "clean_name": "Koffing",
       "number": "61/109",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86493_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/86493_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86493%2Fpokemon-team-rocket-returns-koffing",
       "manapool_url": null,
@@ -6601,7 +6730,8 @@
           "collector_number": "061/109",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -6613,6 +6743,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6660,7 +6791,7 @@
           "cardmarket_ids": [
             276353
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117735/preview_koffing-61-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/86493_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 86493,
           "game_id": 5,
@@ -6677,7 +6808,7 @@
       "clean_name": "Larvitar 062 109",
       "number": "62/109",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86637_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/86637_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86637%2Fpokemon-team-rocket-returns-larvitar-062-109",
       "manapool_url": null,
@@ -6696,7 +6827,8 @@
           "collector_number": "062/109",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -6708,6 +6840,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6755,7 +6888,7 @@
           "cardmarket_ids": [
             276354
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117737/preview_larvitar-62-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/86637_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 86637,
           "game_id": 5,
@@ -6772,7 +6905,7 @@
       "clean_name": "Larvitar 063 109",
       "number": "63/109",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86638_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/86638_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86638%2Fpokemon-team-rocket-returns-larvitar-063-109",
       "manapool_url": null,
@@ -6791,7 +6924,8 @@
           "collector_number": "063/109",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -6803,6 +6937,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6850,7 +6985,7 @@
           "cardmarket_ids": [
             276355
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117739/preview_larvitar-63-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/86638_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 86638,
           "game_id": 5,
@@ -6867,7 +7002,7 @@
       "clean_name": "Ledyba",
       "number": "64/109",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86703_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/86703_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86703%2Fpokemon-team-rocket-returns-ledyba",
       "manapool_url": null,
@@ -6886,7 +7021,8 @@
           "collector_number": "064/109",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -6898,6 +7034,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6945,7 +7082,7 @@
           "cardmarket_ids": [
             276356
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117741/preview_ledyba-64-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/86703_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 86703,
           "game_id": 5,
@@ -6962,7 +7099,7 @@
       "clean_name": "Magikarp",
       "number": "65/109",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87027_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/87027_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87027%2Fpokemon-team-rocket-returns-magikarp",
       "manapool_url": null,
@@ -6981,7 +7118,8 @@
           "collector_number": "065/109",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -6993,6 +7131,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -7040,7 +7179,7 @@
           "cardmarket_ids": [
             276357
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117743/preview_magikarp-65-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/87027_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 87027,
           "game_id": 5,
@@ -7057,7 +7196,7 @@
       "clean_name": "Magnemite",
       "number": "66/109",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87077_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/87077_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87077%2Fpokemon-team-rocket-returns-magnemite",
       "manapool_url": null,
@@ -7076,7 +7215,8 @@
           "collector_number": "066/109",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -7088,6 +7228,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -7135,7 +7276,7 @@
           "cardmarket_ids": [
             276358
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117745/preview_magnemite-66-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/87077_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 87077,
           "game_id": 5,
@@ -7152,7 +7293,7 @@
       "clean_name": "Mareep",
       "number": "67/109",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87198_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/87198_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87198%2Fpokemon-team-rocket-returns-mareep",
       "manapool_url": null,
@@ -7171,7 +7312,8 @@
           "collector_number": "067/109",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -7183,6 +7325,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -7230,7 +7373,7 @@
           "cardmarket_ids": [
             276359
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117747/preview_mareep-67-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/87198_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 87198,
           "game_id": 5,
@@ -7247,7 +7390,7 @@
       "clean_name": "Marill",
       "number": "68/109",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87216_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/87216_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87216%2Fpokemon-team-rocket-returns-marill",
       "manapool_url": null,
@@ -7266,7 +7409,8 @@
           "collector_number": "068/109",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -7278,6 +7422,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -7325,7 +7470,7 @@
           "cardmarket_ids": [
             276360
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117749/preview_marill-68-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/87216_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 87216,
           "game_id": 5,
@@ -7342,7 +7487,7 @@
       "clean_name": "Onix",
       "number": "69/109",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87880_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/87880_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87880%2Fpokemon-team-rocket-returns-onix",
       "manapool_url": null,
@@ -7361,7 +7506,8 @@
           "collector_number": "069/109",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -7373,6 +7519,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -7420,7 +7567,7 @@
           "cardmarket_ids": [
             276361
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117751/preview_onix-69-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/87880_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 87880,
           "game_id": 5,
@@ -7437,7 +7584,7 @@
       "clean_name": "Dark Marowak",
       "number": "7/109",
       "rarity": "Holo Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84627_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84627_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84627%2Fpokemon-team-rocket-returns-dark-marowak",
       "manapool_url": null,
@@ -7456,7 +7603,8 @@
           "collector_number": "007",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -7468,6 +7616,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -7515,7 +7664,7 @@
           "cardmarket_ids": [
             276299
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117627/preview_dark-marowak-rare-holo-7-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84627_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84627,
           "game_id": 5,
@@ -7532,7 +7681,7 @@
       "clean_name": "Psyduck",
       "number": "70/109",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88437_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88437_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88437%2Fpokemon-team-rocket-returns-psyduck",
       "manapool_url": null,
@@ -7551,7 +7700,8 @@
           "collector_number": "070/109",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -7563,6 +7713,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -7610,7 +7761,7 @@
           "cardmarket_ids": [
             276362
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117753/preview_psyduck-70-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88437_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88437,
           "game_id": 5,
@@ -7627,7 +7778,7 @@
       "clean_name": "Rattata 071 109",
       "number": "71/109",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88616_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88616_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88616%2Fpokemon-team-rocket-returns-rattata-071-109",
       "manapool_url": null,
@@ -7646,7 +7797,8 @@
           "collector_number": "071/109",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -7658,6 +7810,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -7705,7 +7858,7 @@
           "cardmarket_ids": [
             276363
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117755/preview_rattata-71-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88616_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88616,
           "game_id": 5,
@@ -7722,7 +7875,7 @@
       "clean_name": "Rattata 072 109",
       "number": "72/109",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88617_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88617_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88617%2Fpokemon-team-rocket-returns-rattata-072-109",
       "manapool_url": null,
@@ -7741,7 +7894,8 @@
           "collector_number": "072/109",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -7753,6 +7907,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -7800,7 +7955,7 @@
           "cardmarket_ids": [
             276364
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117757/preview_rattata-72-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88617_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88617,
           "game_id": 5,
@@ -7817,7 +7972,7 @@
       "clean_name": "Remoraid",
       "number": "73/109",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88695_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88695_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88695%2Fpokemon-team-rocket-returns-remoraid",
       "manapool_url": null,
@@ -7836,7 +7991,8 @@
           "collector_number": "073/109",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -7848,6 +8004,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -7895,7 +8052,7 @@
           "cardmarket_ids": [
             276365
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117759/preview_remoraid-73-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88695_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88695,
           "game_id": 5,
@@ -7912,7 +8069,7 @@
       "clean_name": "Sandshrew",
       "number": "74/109",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88922_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88922_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88922%2Fpokemon-team-rocket-returns-sandshrew",
       "manapool_url": null,
@@ -7931,7 +8088,8 @@
           "collector_number": "074/109",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -7943,6 +8101,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -7990,7 +8149,7 @@
           "cardmarket_ids": [
             276366
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117761/preview_sandshrew-74-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88922_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88922,
           "game_id": 5,
@@ -8007,7 +8166,7 @@
       "clean_name": "Sentret",
       "number": "75/109",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89064_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/89064_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89064%2Fpokemon-team-rocket-returns-sentret",
       "manapool_url": null,
@@ -8026,7 +8185,8 @@
           "collector_number": "075/109",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -8038,6 +8198,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -8085,7 +8246,7 @@
           "cardmarket_ids": [
             276367
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117763/preview_sentret-75-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/89064_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 89064,
           "game_id": 5,
@@ -8102,7 +8263,7 @@
       "clean_name": "Slowpoke",
       "number": "76/109",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89328_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/89328_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89328%2Fpokemon-team-rocket-returns-slowpoke",
       "manapool_url": null,
@@ -8121,7 +8282,8 @@
           "collector_number": "076/109",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -8133,6 +8295,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -8180,7 +8343,7 @@
           "cardmarket_ids": [
             276368
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117765/preview_slowpoke-76-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/89328_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 89328,
           "game_id": 5,
@@ -8197,7 +8360,7 @@
       "clean_name": "Slugma",
       "number": "77/109",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89341_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/89341_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89341%2Fpokemon-team-rocket-returns-slugma",
       "manapool_url": null,
@@ -8216,7 +8379,8 @@
           "collector_number": "077/109",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -8228,6 +8392,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -8275,7 +8440,7 @@
           "cardmarket_ids": [
             276369
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117767/preview_slugma-77-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/89341_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 89341,
           "game_id": 5,
@@ -8292,7 +8457,7 @@
       "clean_name": "Spinarak",
       "number": "78/109",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89455_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/89455_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89455%2Fpokemon-team-rocket-returns-spinarak",
       "manapool_url": null,
@@ -8311,7 +8476,8 @@
           "collector_number": "078/109",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -8323,6 +8489,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -8370,7 +8537,7 @@
           "cardmarket_ids": [
             276370
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117769/preview_spinarak-78-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/89455_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 89455,
           "game_id": 5,
@@ -8387,7 +8554,7 @@
       "clean_name": "Swinub",
       "number": "79/109",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89702_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/89702_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89702%2Fpokemon-team-rocket-returns-swinub",
       "manapool_url": null,
@@ -8406,7 +8573,8 @@
           "collector_number": "079/109",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -8418,6 +8586,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -8465,7 +8634,7 @@
           "cardmarket_ids": [
             276371
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117771/preview_swinub-79-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/89702_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 89702,
           "game_id": 5,
@@ -8482,7 +8651,7 @@
       "clean_name": "Dark Octillery",
       "number": "8/109",
       "rarity": "Holo Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84633_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84633_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84633%2Fpokemon-team-rocket-returns-dark-octillery",
       "manapool_url": null,
@@ -8501,7 +8670,8 @@
           "collector_number": "008",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -8513,6 +8683,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -8560,7 +8731,7 @@
           "cardmarket_ids": [
             276300
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117629/preview_dark-octillery-rare-holo-8-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84633_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84633,
           "game_id": 5,
@@ -8577,7 +8748,7 @@
       "clean_name": "Voltorb",
       "number": "80/109",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90415_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/90415_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90415%2Fpokemon-team-rocket-returns-voltorb",
       "manapool_url": null,
@@ -8596,7 +8767,8 @@
           "collector_number": "080/109",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -8608,6 +8780,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -8655,7 +8828,7 @@
           "cardmarket_ids": [
             276372
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117773/preview_voltorb-80-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/90415_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 90415,
           "game_id": 5,
@@ -8672,7 +8845,7 @@
       "clean_name": "Wooper",
       "number": "81/109",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90634_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/90634_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90634%2Fpokemon-team-rocket-returns-wooper",
       "manapool_url": null,
@@ -8691,7 +8864,8 @@
           "collector_number": "081/109",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -8703,6 +8877,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -8750,7 +8925,7 @@
           "cardmarket_ids": [
             276373
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117775/preview_wooper-81-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/90634_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 90634,
           "game_id": 5,
@@ -8767,7 +8942,7 @@
       "clean_name": "Zubat",
       "number": "82/109",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90771_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/90771_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90771%2Fpokemon-team-rocket-returns-zubat",
       "manapool_url": null,
@@ -8786,7 +8961,8 @@
           "collector_number": "082/109",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -8798,6 +8974,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -8845,7 +9022,7 @@
           "cardmarket_ids": [
             276374
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117777/preview_zubat-82-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/90771_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 90771,
           "game_id": 5,
@@ -8862,7 +9039,7 @@
       "clean_name": "Copycat",
       "number": "83/109",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84424_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84424_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84424%2Fpokemon-team-rocket-returns-copycat",
       "manapool_url": null,
@@ -8881,7 +9058,8 @@
           "collector_number": "083/109",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -8893,6 +9071,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -8940,7 +9119,7 @@
           "cardmarket_ids": [
             276375
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117779/preview_copycat-83-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84424_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84424,
           "game_id": 5,
@@ -8957,7 +9136,7 @@
       "clean_name": "Pokemon Retriever",
       "number": "84/109",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88234_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88234_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88234%2Fpokemon-team-rocket-returns-pokemon-retriever",
       "manapool_url": null,
@@ -8976,7 +9155,8 @@
           "collector_number": "084/109",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -8988,6 +9168,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -9035,7 +9216,7 @@
           "cardmarket_ids": [
             276376
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117781/preview_pokemon-retriever-84-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88234_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88234,
           "game_id": 5,
@@ -9052,7 +9233,7 @@
       "clean_name": "Pow Hand Extension",
       "number": "85/109",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88352_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88352_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88352%2Fpokemon-team-rocket-returns-pow-hand-extension",
       "manapool_url": null,
@@ -9071,7 +9252,8 @@
           "collector_number": "085/109",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -9083,6 +9265,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -9130,7 +9313,7 @@
           "cardmarket_ids": [
             276377
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117783/preview_pow-hand-extension-85-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88352_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88352,
           "game_id": 5,
@@ -9147,7 +9330,7 @@
       "clean_name": "Rockets Admin",
       "number": "86/109",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88767_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88767_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88767%2Fpokemon-team-rocket-returns-rockets-admin",
       "manapool_url": null,
@@ -9166,7 +9349,8 @@
           "collector_number": "086/109",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -9178,6 +9362,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -9225,7 +9410,7 @@
           "cardmarket_ids": [
             276378
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117785/preview_rocket-s-admin-86-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88767_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88767,
           "game_id": 5,
@@ -9242,7 +9427,7 @@
       "clean_name": "Rockets Hideout",
       "number": "87/109",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88771_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88771_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88771%2Fpokemon-team-rocket-returns-rockets-hideout",
       "manapool_url": null,
@@ -9261,7 +9446,8 @@
           "collector_number": "087/109",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -9273,6 +9459,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -9320,7 +9507,7 @@
           "cardmarket_ids": [
             276379
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117787/preview_rocket-s-hideout-87-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88771_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88771,
           "game_id": 5,
@@ -9337,7 +9524,7 @@
       "clean_name": "Rockets Mission",
       "number": "88/109",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88780_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88780_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88780%2Fpokemon-team-rocket-returns-rockets-mission",
       "manapool_url": null,
@@ -9356,7 +9543,8 @@
           "collector_number": "088/109",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -9368,6 +9556,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -9415,7 +9604,7 @@
           "cardmarket_ids": [
             276380
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117789/preview_rocket-s-mission-88-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88780_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88780,
           "game_id": 5,
@@ -9432,7 +9621,7 @@
       "clean_name": "Rockets Poke Ball",
       "number": "89/109",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88784_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88784_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88784%2Fpokemon-team-rocket-returns-rockets-poke-ball",
       "manapool_url": null,
@@ -9451,7 +9640,8 @@
           "collector_number": "089/109",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -9463,6 +9653,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -9510,7 +9701,7 @@
           "cardmarket_ids": [
             276381
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117791/preview_rocket-s-poke-ball-89-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88784_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88784,
           "game_id": 5,
@@ -9527,7 +9718,7 @@
       "clean_name": "Dark Slowking",
       "number": "9/109",
       "rarity": "Holo Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84657_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84657_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84657%2Fpokemon-team-rocket-returns-dark-slowking",
       "manapool_url": null,
@@ -9546,7 +9737,8 @@
           "collector_number": "009/109",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -9558,6 +9750,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -9605,7 +9798,7 @@
           "cardmarket_ids": [
             276301
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117631/preview_dark-slowking-rare-holo-9-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84657_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84657,
           "game_id": 5,
@@ -9622,7 +9815,7 @@
       "clean_name": "Rockets Tricky Gym",
       "number": "90/109",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88798_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88798_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88798%2Fpokemon-team-rocket-returns-rockets-tricky-gym",
       "manapool_url": null,
@@ -9641,7 +9834,8 @@
           "collector_number": "090/109",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -9653,6 +9847,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -9700,7 +9895,7 @@
           "cardmarket_ids": [
             276382
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117793/preview_rocket-s-tricky-gym-90-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88798_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88798,
           "game_id": 5,
@@ -9717,7 +9912,7 @@
       "clean_name": "Surprise Time Machine",
       "number": "91/109",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89645_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/89645_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89645%2Fpokemon-team-rocket-returns-surprise-time-machine",
       "manapool_url": null,
@@ -9736,7 +9931,8 @@
           "collector_number": "091/109",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -9748,6 +9944,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -9795,7 +9992,7 @@
           "cardmarket_ids": [
             276383
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117795/preview_surprise-time-machine-91-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/89645_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 89645,
           "game_id": 5,
@@ -9812,7 +10009,7 @@
       "clean_name": "Swoop Teleporter",
       "number": "92/109",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89728_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/89728_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89728%2Fpokemon-team-rocket-returns-swoop-teleporter",
       "manapool_url": null,
@@ -9831,7 +10028,8 @@
           "collector_number": "092/109",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -9843,6 +10041,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -9890,7 +10089,7 @@
           "cardmarket_ids": [
             276384
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117798/preview_swoop-teleporter-92-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/89728_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 89728,
           "game_id": 5,
@@ -9907,7 +10106,7 @@
       "clean_name": "Venture Bomb",
       "number": "93/109",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90310_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/90310_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90310%2Fpokemon-team-rocket-returns-venture-bomb",
       "manapool_url": null,
@@ -9926,7 +10125,8 @@
           "collector_number": "093/109",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -9938,6 +10138,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -9985,7 +10186,7 @@
           "cardmarket_ids": [
             276385
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117800/preview_venture-bomb-93-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/90310_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 90310,
           "game_id": 5,
@@ -10002,7 +10203,7 @@
       "clean_name": "Dark Metal Energy",
       "number": "94/109",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84628_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84628_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84628%2Fpokemon-team-rocket-returns-dark-metal-energy",
       "manapool_url": null,
@@ -10021,7 +10222,8 @@
           "collector_number": "094/109",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -10033,6 +10235,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -10080,7 +10283,7 @@
           "cardmarket_ids": [
             276386
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117802/preview_dark-metal-energy-94-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84628_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84628,
           "game_id": 5,
@@ -10097,7 +10300,7 @@
       "clean_name": "R Energy",
       "number": "95/109",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88496_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88496_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88496%2Fpokemon-team-rocket-returns-r-energy",
       "manapool_url": null,
@@ -10116,7 +10319,8 @@
           "collector_number": "095/109",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -10128,6 +10332,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -10175,7 +10380,7 @@
           "cardmarket_ids": [
             276387
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117804/preview_r-energy-95-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88496_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88496,
           "game_id": 5,
@@ -10192,7 +10397,7 @@
       "clean_name": "Rockets Articuno ex",
       "number": "96/109",
       "rarity": "Ultra Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88768_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88768_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88768%2Fpokemon-team-rocket-returns-rockets-articuno-ex",
       "manapool_url": null,
@@ -10223,6 +10428,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -10261,7 +10467,7 @@
           "cardmarket_ids": [
             276388
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117806/preview_rocket-s-articuno-ex-rare-holo-96-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88768_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88768,
           "game_id": 5,
@@ -10278,7 +10484,7 @@
       "clean_name": "Rockets Entei ex",
       "number": "97/109",
       "rarity": "Ultra Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88769_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88769_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88769%2Fpokemon-team-rocket-returns-rockets-entei-ex",
       "manapool_url": null,
@@ -10309,6 +10515,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -10347,7 +10554,7 @@
           "cardmarket_ids": [
             276389
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117807/preview_rocket-s-entei-ex-rare-holo-97-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88769_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88769,
           "game_id": 5,
@@ -10364,7 +10571,7 @@
       "clean_name": "Rockets Hitmonchan ex",
       "number": "98/109",
       "rarity": "Ultra Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88774_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88774_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88774%2Fpokemon-team-rocket-returns-rockets-hitmonchan-ex",
       "manapool_url": null,
@@ -10395,6 +10602,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -10433,7 +10641,7 @@
           "cardmarket_ids": [
             276390
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117808/preview_rocket-s-hitmonchan-ex-rare-holo-98-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88774_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88774,
           "game_id": 5,
@@ -10450,7 +10658,7 @@
       "clean_name": "Rockets Mewtwo ex",
       "number": "99/109",
       "rarity": "Ultra Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88778_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88778_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88778%2Fpokemon-team-rocket-returns-rockets-mewtwo-ex",
       "manapool_url": null,
@@ -10481,6 +10689,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -10519,7 +10728,7 @@
           "cardmarket_ids": [
             276391
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/117809/preview_rocket-s-mewtwo-ex-rare-holo-99-109-ex-team-rocket-returns.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88778_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88778,
           "game_id": 5,

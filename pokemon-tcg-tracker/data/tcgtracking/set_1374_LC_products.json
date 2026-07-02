@@ -4,9 +4,12 @@
   "set_abbr": "LC",
   "set_released": "2002-05-24",
   "product_count": 114,
-  "data_modified": "2026-05-30T08:12:19-04:00",
-  "file_generated": "2026-05-31T04:31:59-04:00",
-  "pricing_url": "/tcgapi/v1/3/sets/1374/pricing",
+  "data_modified": "2026-06-27T14:54:21-04:00",
+  "file_generated": "2026-07-01T16:48:38-04:00",
+  "pricing_url": "/v1/3/sets/1374/pricing",
+  "cards_url": "/v1/3/sets/1374/cards",
+  "sealed_url": "/v1/3/sets/1374/sealed",
+  "skus_url": "/v1/3/sets/1374/skus",
   "products": [
     {
       "id": 691155,
@@ -14,7 +17,7 @@
       "clean_name": "Legendary Collection Booster Box",
       "number": null,
       "rarity": null,
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/691155_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/691155_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F691155%2Fpokemon-legendary-collection-legendary-collection-booster-box",
       "manapool_url": null,
@@ -29,7 +32,7 @@
       "clean_name": "Legendary Collection Booster Pack",
       "number": null,
       "rarity": null,
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/138150_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/138150_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138150%2Fpokemon-legendary-collection-legendary-collection-booster-pack",
       "manapool_url": null,
@@ -84,7 +87,7 @@
           "cardmarket_ids": [
             271853
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/105222/preview_legendary-collection-booster-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/138150_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 138150,
           "game_id": 5,
@@ -98,10 +101,10 @@
     {
       "id": 450748,
       "name": "Legendary Collection Theme Deck - \"Lava\"",
-      "clean_name": "Legendary Collection Theme Deck Lava",
+      "clean_name": "Legendary Collection Theme Deck - \"Lava\"",
       "number": null,
       "rarity": null,
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/450748_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/450748_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F450748%2Fpokemon-legendary-collection-legendary-collection-theme-deck-lava",
       "manapool_url": null,
@@ -165,7 +168,7 @@
           "cardmarket_ids": [
             286571
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/105225/preview_legendary-collection-lava-theme-deck-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/450748_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 450748,
           "game_id": 5,
@@ -179,10 +182,10 @@
     {
       "id": 451094,
       "name": "Legendary Collection Theme Deck - \"Turmoil\"",
-      "clean_name": "Legendary Collection Theme Deck Turmoil",
+      "clean_name": "Legendary Collection Theme Deck - \"Turmoil\"",
       "number": null,
       "rarity": null,
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/451094_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/451094_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451094%2Fpokemon-legendary-collection-legendary-collection-theme-deck-turmoil",
       "manapool_url": null,
@@ -246,7 +249,7 @@
           "cardmarket_ids": [
             286570
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/105224/preview_legendary-collection-turmoil-theme-deck-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/451094_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 451094,
           "game_id": 5,
@@ -263,82 +266,14 @@
       "clean_name": "Alakazam",
       "number": "001/110",
       "rarity": "Holo Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/83496_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/83496_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83496%2Fpokemon-legendary-collection-alakazam",
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 274766,
-      "cardtrader_id": 121534,
-      "cardtrader": [
-        {
-          "id": 121534,
-          "name": "Alakazam",
-          "match_type": "tcgplayer",
-          "match_confidence": 100,
-          "expansion": "Legendary Collection",
-          "expansion_code": "lc",
-          "collector_number": "001/110",
-          "rarity": "Holo Rare",
-          "finishes": [
-            "normal"
-          ],
-          "languages": [],
-          "properties": [
-            {
-              "name": "condition",
-              "type": "string",
-              "default_value": "Near Mint",
-              "possible_values": [
-                "Near Mint",
-                "Slightly Played",
-                "Moderately Played",
-                "Played",
-                "Poor"
-              ]
-            },
-            {
-              "name": "signed",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "altered",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            }
-          ],
-          "cardmarket_ids": [
-            274766
-          ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121534/preview_alakazam-rare-holo-1-110-legendary-collection.jpg",
-          "scryfall_id": null,
-          "tcg_player_id": 83496,
-          "game_id": 5,
-          "category_id": 73,
-          "category_name": "Pokémon Singles",
-          "product_type": "single",
-          "group_id": 1374
-        }
-      ]
+      "cardtrader_id": 121534
     },
     {
       "id": 83643,
@@ -346,7 +281,7 @@
       "clean_name": "Articuno",
       "number": "002/110",
       "rarity": "Holo Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/83643_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/83643_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83643%2Fpokemon-legendary-collection-articuno",
       "manapool_url": null,
@@ -365,7 +300,8 @@
           "collector_number": "002/110",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -376,6 +312,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -422,7 +359,7 @@
           "cardmarket_ids": [
             274767
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121536/preview_articuno-rare-holo-2-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/83643_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 83643,
           "game_id": 5,
@@ -439,7 +376,7 @@
       "clean_name": "Charizard",
       "number": "003/110",
       "rarity": "Holo Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84196_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84196_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84196%2Fpokemon-legendary-collection-charizard",
       "manapool_url": null,
@@ -458,7 +395,8 @@
           "collector_number": "003/110",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -469,6 +407,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -515,7 +454,7 @@
           "cardmarket_ids": [
             274768
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121538/preview_charizard-rare-holo-3-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84196_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84196,
           "game_id": 5,
@@ -532,7 +471,7 @@
       "clean_name": "Dark Blastoise",
       "number": "004/110",
       "rarity": "Holo Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84569_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84569_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84569%2Fpokemon-legendary-collection-dark-blastoise",
       "manapool_url": null,
@@ -551,7 +490,8 @@
           "collector_number": "004/110",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -562,6 +502,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -608,7 +549,7 @@
           "cardmarket_ids": [
             274769
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121540/preview_dark-blastoise-rare-holo-4-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84569_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84569,
           "game_id": 5,
@@ -625,7 +566,7 @@
       "clean_name": "Dark Dragonite",
       "number": "005/110",
       "rarity": "Holo Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84585_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84585_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84585%2Fpokemon-legendary-collection-dark-dragonite",
       "manapool_url": null,
@@ -644,7 +585,8 @@
           "collector_number": "005/110",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -655,6 +597,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -701,7 +644,7 @@
           "cardmarket_ids": [
             274770
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121542/preview_dark-dragonite-rare-holo-5-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84585_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84585,
           "game_id": 5,
@@ -718,7 +661,7 @@
       "clean_name": "Dark Persian",
       "number": "006/110",
       "rarity": "Holo Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84637_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84637_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84637%2Fpokemon-legendary-collection-dark-persian",
       "manapool_url": null,
@@ -737,7 +680,8 @@
           "collector_number": "006/110",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -748,6 +692,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -794,7 +739,7 @@
           "cardmarket_ids": [
             274771
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121544/preview_dark-persian-rare-holo-6-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84637_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84637,
           "game_id": 5,
@@ -811,7 +756,7 @@
       "clean_name": "Dark Raichu",
       "number": "007/110",
       "rarity": "Holo Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84646_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84646_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84646%2Fpokemon-legendary-collection-dark-raichu",
       "manapool_url": null,
@@ -830,7 +775,8 @@
           "collector_number": "007/110",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -841,6 +787,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -887,7 +834,7 @@
           "cardmarket_ids": [
             274772
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121546/preview_dark-raichu-rare-holo-7-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84646_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84646,
           "game_id": 5,
@@ -904,7 +851,7 @@
       "clean_name": "Dark Slowbro",
       "number": "008/110",
       "rarity": "Holo Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84653_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84653_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84653%2Fpokemon-legendary-collection-dark-slowbro",
       "manapool_url": null,
@@ -923,7 +870,8 @@
           "collector_number": "008/110",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -934,6 +882,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -980,7 +929,7 @@
           "cardmarket_ids": [
             274773
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121548/preview_dark-slowbro-rare-holo-8-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84653_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84653,
           "game_id": 5,
@@ -997,7 +946,7 @@
       "clean_name": "Dark Vaporeon",
       "number": "009/110",
       "rarity": "Holo Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84664_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84664_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84664%2Fpokemon-legendary-collection-dark-vaporeon",
       "manapool_url": null,
@@ -1016,7 +965,8 @@
           "collector_number": "009/110",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -1027,6 +977,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1073,7 +1024,7 @@
           "cardmarket_ids": [
             274774
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121550/preview_dark-vaporeon-rare-holo-9-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84664_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84664,
           "game_id": 5,
@@ -1090,7 +1041,7 @@
       "clean_name": "Flareon",
       "number": "010/110",
       "rarity": "Holo Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85492_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/85492_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85492%2Fpokemon-legendary-collection-flareon",
       "manapool_url": null,
@@ -1109,7 +1060,8 @@
           "collector_number": "010/110",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -1120,6 +1072,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1166,7 +1119,7 @@
           "cardmarket_ids": [
             274775
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121552/preview_flareon-rare-holo-10-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/85492_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 85492,
           "game_id": 5,
@@ -1183,7 +1136,7 @@
       "clean_name": "Gengar",
       "number": "011/110",
       "rarity": "Holo Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85670_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/85670_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85670%2Fpokemon-legendary-collection-gengar",
       "manapool_url": null,
@@ -1202,7 +1155,8 @@
           "collector_number": "011/110",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -1213,6 +1167,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1259,7 +1214,7 @@
           "cardmarket_ids": [
             274776
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121554/preview_gengar-rare-holo-11-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/85670_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 85670,
           "game_id": 5,
@@ -1276,7 +1231,7 @@
       "clean_name": "Gyarados",
       "number": "012/110",
       "rarity": "Holo Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85989_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/85989_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85989%2Fpokemon-legendary-collection-gyarados",
       "manapool_url": null,
@@ -1295,7 +1250,8 @@
           "collector_number": "012/110",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -1306,6 +1262,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1352,7 +1309,7 @@
           "cardmarket_ids": [
             274777
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121556/preview_gyarados-rare-holo-12-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/85989_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 85989,
           "game_id": 5,
@@ -1369,7 +1326,7 @@
       "clean_name": "Hitmonlee",
       "number": "013/110",
       "rarity": "Holo Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86101_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/86101_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86101%2Fpokemon-legendary-collection-hitmonlee",
       "manapool_url": null,
@@ -1388,7 +1345,8 @@
           "collector_number": "013/110",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -1399,6 +1357,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1445,7 +1404,7 @@
           "cardmarket_ids": [
             274778
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121558/preview_hitmonlee-rare-holo-13-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/86101_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 86101,
           "game_id": 5,
@@ -1462,7 +1421,7 @@
       "clean_name": "Jolteon",
       "number": "014/110",
       "rarity": "Holo Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86339_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/86339_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86339%2Fpokemon-legendary-collection-jolteon",
       "manapool_url": null,
@@ -1481,7 +1440,8 @@
           "collector_number": "014/110",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -1492,6 +1452,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1538,7 +1499,7 @@
           "cardmarket_ids": [
             274779
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121560/preview_jolteon-rare-holo-14-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/86339_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 86339,
           "game_id": 5,
@@ -1555,7 +1516,7 @@
       "clean_name": "Machamp",
       "number": "015/110",
       "rarity": "Holo Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86957_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/86957_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86957%2Fpokemon-legendary-collection-machamp",
       "manapool_url": null,
@@ -1574,7 +1535,8 @@
           "collector_number": "015/110",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -1585,6 +1547,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1631,7 +1594,7 @@
           "cardmarket_ids": [
             274780
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121562/preview_machamp-rare-holo-15-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/86957_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 86957,
           "game_id": 5,
@@ -1648,7 +1611,7 @@
       "clean_name": "Muk",
       "number": "016/110",
       "rarity": "Holo Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87618_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/87618_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87618%2Fpokemon-legendary-collection-muk",
       "manapool_url": null,
@@ -1667,7 +1630,8 @@
           "collector_number": "016/110",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -1678,6 +1642,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1724,7 +1689,7 @@
           "cardmarket_ids": [
             274781
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121564/preview_muk-rare-holo-16-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/87618_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 87618,
           "game_id": 5,
@@ -1741,7 +1706,7 @@
       "clean_name": "Ninetales",
       "number": "017/110",
       "rarity": "Holo Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87764_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/87764_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87764%2Fpokemon-legendary-collection-ninetales",
       "manapool_url": null,
@@ -1760,7 +1725,8 @@
           "collector_number": "017/110",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -1771,6 +1737,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1817,7 +1784,7 @@
           "cardmarket_ids": [
             274782
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121566/preview_ninetales-rare-holo-17-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/87764_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 87764,
           "game_id": 5,
@@ -1834,7 +1801,7 @@
       "clean_name": "Venusaur",
       "number": "018/110",
       "rarity": "Holo Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90313_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/90313_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90313%2Fpokemon-legendary-collection-venusaur",
       "manapool_url": null,
@@ -1853,7 +1820,8 @@
           "collector_number": "018/110",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -1864,6 +1832,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1910,7 +1879,7 @@
           "cardmarket_ids": [
             274783
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121568/preview_venusaur-rare-holo-18-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/90313_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 90313,
           "game_id": 5,
@@ -1927,7 +1896,7 @@
       "clean_name": "Zapdos",
       "number": "019/110",
       "rarity": "Holo Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90712_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/90712_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90712%2Fpokemon-legendary-collection-zapdos",
       "manapool_url": null,
@@ -1946,7 +1915,8 @@
           "collector_number": "019/110",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -1957,6 +1927,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2003,7 +1974,7 @@
           "cardmarket_ids": [
             274784
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121570/preview_zapdos-rare-holo-19-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/90712_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 90712,
           "game_id": 5,
@@ -2020,7 +1991,7 @@
       "clean_name": "Beedrill",
       "number": "020/110",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/83768_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/83768_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83768%2Fpokemon-legendary-collection-beedrill",
       "manapool_url": null,
@@ -2039,7 +2010,8 @@
           "collector_number": "020/110",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -2050,6 +2022,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2096,7 +2069,7 @@
           "cardmarket_ids": [
             274785
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121572/preview_beedrill-20-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/83768_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 83768,
           "game_id": 5,
@@ -2113,7 +2086,7 @@
       "clean_name": "Butterfree",
       "number": "021/110",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84062_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84062_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84062%2Fpokemon-legendary-collection-butterfree",
       "manapool_url": null,
@@ -2132,7 +2105,8 @@
           "collector_number": "021/110",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -2143,6 +2117,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2189,7 +2164,7 @@
           "cardmarket_ids": [
             274786
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121574/preview_butterfree-21-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84062_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84062,
           "game_id": 5,
@@ -2206,7 +2181,7 @@
       "clean_name": "Electrode",
       "number": "022/110",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85151_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/85151_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85151%2Fpokemon-legendary-collection-electrode",
       "manapool_url": null,
@@ -2225,7 +2200,8 @@
           "collector_number": "022/110",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -2236,6 +2212,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2282,7 +2259,7 @@
           "cardmarket_ids": [
             274787
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121576/preview_electrode-22-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/85151_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 85151,
           "game_id": 5,
@@ -2299,7 +2276,7 @@
       "clean_name": "Exeggutor",
       "number": "023/110",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85357_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/85357_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85357%2Fpokemon-legendary-collection-exeggutor",
       "manapool_url": null,
@@ -2318,7 +2295,8 @@
           "collector_number": "023/110",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -2329,6 +2307,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2375,7 +2354,7 @@
           "cardmarket_ids": [
             274788
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121578/preview_exeggutor-23-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/85357_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 85357,
           "game_id": 5,
@@ -2392,7 +2371,7 @@
       "clean_name": "Golem",
       "number": "024/110",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85822_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/85822_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85822%2Fpokemon-legendary-collection-golem",
       "manapool_url": null,
@@ -2411,7 +2390,8 @@
           "collector_number": "024/110",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -2422,6 +2402,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2468,7 +2449,7 @@
           "cardmarket_ids": [
             274789
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121580/preview_golem-24-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/85822_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 85822,
           "game_id": 5,
@@ -2485,7 +2466,7 @@
       "clean_name": "Hypno",
       "number": "025/110",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86251_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/86251_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86251%2Fpokemon-legendary-collection-hypno",
       "manapool_url": null,
@@ -2504,7 +2485,8 @@
           "collector_number": "025/110",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -2515,6 +2497,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2561,7 +2544,7 @@
           "cardmarket_ids": [
             274790
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121582/preview_hypno-25-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/86251_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 86251,
           "game_id": 5,
@@ -2578,7 +2561,7 @@
       "clean_name": "Jynx",
       "number": "026/110",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86371_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/86371_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86371%2Fpokemon-legendary-collection-jynx",
       "manapool_url": null,
@@ -2597,7 +2580,8 @@
           "collector_number": "026/110",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -2608,6 +2592,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2654,7 +2639,7 @@
           "cardmarket_ids": [
             274791
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121584/preview_jynx-26-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/86371_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 86371,
           "game_id": 5,
@@ -2671,7 +2656,7 @@
       "clean_name": "Kabutops",
       "number": "027/110",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86395_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/86395_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86395%2Fpokemon-legendary-collection-kabutops",
       "manapool_url": null,
@@ -2690,7 +2675,8 @@
           "collector_number": "027/110",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -2701,6 +2687,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2747,7 +2734,7 @@
           "cardmarket_ids": [
             274792
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121586/preview_kabutops-27-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/86395_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 86395,
           "game_id": 5,
@@ -2764,7 +2751,7 @@
       "clean_name": "Magneton",
       "number": "028/110",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87099_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/87099_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87099%2Fpokemon-legendary-collection-magneton",
       "manapool_url": null,
@@ -2783,7 +2770,8 @@
           "collector_number": "028/110",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -2794,6 +2782,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2840,7 +2829,7 @@
           "cardmarket_ids": [
             274793
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121588/preview_magneton-28-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/87099_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 87099,
           "game_id": 5,
@@ -2857,7 +2846,7 @@
       "clean_name": "Mewtwo",
       "number": "029/110",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87419_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/87419_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87419%2Fpokemon-legendary-collection-mewtwo",
       "manapool_url": null,
@@ -2888,6 +2877,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2934,7 +2924,7 @@
           "cardmarket_ids": [
             274794
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121590/preview_mewtwo-29-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/87419_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 87419,
           "game_id": 5,
@@ -2951,7 +2941,7 @@
       "clean_name": "Moltres",
       "number": "030/110",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87560_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/87560_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87560%2Fpokemon-legendary-collection-moltres",
       "manapool_url": null,
@@ -2970,7 +2960,8 @@
           "collector_number": "030/110",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -2981,6 +2972,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3027,7 +3019,7 @@
           "cardmarket_ids": [
             274795
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121592/preview_moltres-30-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/87560_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 87560,
           "game_id": 5,
@@ -3044,7 +3036,7 @@
       "clean_name": "Nidoking",
       "number": "031/110",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87694_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/87694_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87694%2Fpokemon-legendary-collection-nidoking",
       "manapool_url": null,
@@ -3063,7 +3055,8 @@
           "collector_number": "031/110",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -3074,6 +3067,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3120,7 +3114,7 @@
           "cardmarket_ids": [
             274796
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121594/preview_nidoking-31-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/87694_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 87694,
           "game_id": 5,
@@ -3137,7 +3131,7 @@
       "clean_name": "Nidoqueen",
       "number": "032/110",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87706_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/87706_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87706%2Fpokemon-legendary-collection-nidoqueen",
       "manapool_url": null,
@@ -3156,7 +3150,8 @@
           "collector_number": "032/110",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -3167,6 +3162,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3213,7 +3209,7 @@
           "cardmarket_ids": [
             274797
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121596/preview_nidoqueen-32-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/87706_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 87706,
           "game_id": 5,
@@ -3230,7 +3226,7 @@
       "clean_name": "Pidgeot",
       "number": "033/110",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88028_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88028_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88028%2Fpokemon-legendary-collection-pidgeot",
       "manapool_url": null,
@@ -3249,7 +3245,8 @@
           "collector_number": "033/110",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -3260,6 +3257,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3306,7 +3304,7 @@
           "cardmarket_ids": [
             274798
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121598/preview_pidgeot-33-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88028_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88028,
           "game_id": 5,
@@ -3323,7 +3321,7 @@
       "clean_name": "Pidgeotto",
       "number": "034/110",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88038_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88038_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88038%2Fpokemon-legendary-collection-pidgeotto",
       "manapool_url": null,
@@ -3342,7 +3340,8 @@
           "collector_number": "034/110",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -3353,6 +3352,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3399,7 +3399,7 @@
           "cardmarket_ids": [
             274799
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121600/preview_pidgeotto-34-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88038_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88038,
           "game_id": 5,
@@ -3416,7 +3416,7 @@
       "clean_name": "Rhydon",
       "number": "035/110",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88730_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88730_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88730%2Fpokemon-legendary-collection-rhydon",
       "manapool_url": null,
@@ -3435,7 +3435,8 @@
           "collector_number": "035/110",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -3446,6 +3447,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3492,7 +3494,7 @@
           "cardmarket_ids": [
             274800
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121602/preview_rhydon-35-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88730_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88730,
           "game_id": 5,
@@ -3509,7 +3511,7 @@
       "clean_name": "Arcanine",
       "number": "036/110",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/83581_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/83581_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83581%2Fpokemon-legendary-collection-arcanine",
       "manapool_url": null,
@@ -3528,7 +3530,8 @@
           "collector_number": "036/110",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -3539,6 +3542,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3585,7 +3589,7 @@
           "cardmarket_ids": [
             274801
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121604/preview_arcanine-36-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/83581_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 83581,
           "game_id": 5,
@@ -3602,7 +3606,7 @@
       "clean_name": "Charmeleon",
       "number": "037/110",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84223_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84223_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84223%2Fpokemon-legendary-collection-charmeleon",
       "manapool_url": null,
@@ -3621,7 +3625,8 @@
           "collector_number": "037/110",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -3632,6 +3637,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3678,7 +3684,7 @@
           "cardmarket_ids": [
             274802
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121606/preview_charmeleon-37-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84223_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84223,
           "game_id": 5,
@@ -3695,7 +3701,7 @@
       "clean_name": "Dark Dragonair",
       "number": "038/110",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84581_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84581_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84581%2Fpokemon-legendary-collection-dark-dragonair",
       "manapool_url": null,
@@ -3714,7 +3720,8 @@
           "collector_number": "038/110",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -3725,6 +3732,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3771,7 +3779,7 @@
           "cardmarket_ids": [
             274803
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121608/preview_dark-dragonair-38-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84581_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84581,
           "game_id": 5,
@@ -3788,7 +3796,7 @@
       "clean_name": "Dark Wartortle",
       "number": "039/110",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84669_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84669_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84669%2Fpokemon-legendary-collection-dark-wartortle",
       "manapool_url": null,
@@ -3807,7 +3815,8 @@
           "collector_number": "039/110",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -3818,6 +3827,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3864,7 +3874,7 @@
           "cardmarket_ids": [
             274804
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121610/preview_dark-wartortle-39-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84669_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84669,
           "game_id": 5,
@@ -3881,7 +3891,7 @@
       "clean_name": "Dewgong",
       "number": "040/110",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84788_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84788_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84788%2Fpokemon-legendary-collection-dewgong",
       "manapool_url": null,
@@ -3900,7 +3910,8 @@
           "collector_number": "040/110",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -3911,6 +3922,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3957,7 +3969,7 @@
           "cardmarket_ids": [
             274805
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121612/preview_dewgong-40-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84788_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84788,
           "game_id": 5,
@@ -3974,7 +3986,7 @@
       "clean_name": "Dodrio",
       "number": "041/110",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84847_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84847_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84847%2Fpokemon-legendary-collection-dodrio",
       "manapool_url": null,
@@ -3993,7 +4005,8 @@
           "collector_number": "041/110",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -4004,6 +4017,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4050,7 +4064,7 @@
           "cardmarket_ids": [
             274806
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121614/preview_dodrio-41-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84847_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84847,
           "game_id": 5,
@@ -4067,7 +4081,7 @@
       "clean_name": "Fearow",
       "number": "042/110",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85395_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/85395_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85395%2Fpokemon-legendary-collection-fearow",
       "manapool_url": null,
@@ -4086,7 +4100,8 @@
           "collector_number": "042/110",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -4097,6 +4112,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4143,7 +4159,7 @@
           "cardmarket_ids": [
             274807
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121616/preview_fearow-42-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/85395_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 85395,
           "game_id": 5,
@@ -4160,7 +4176,7 @@
       "clean_name": "Golduck",
       "number": "043/110",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85812_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/85812_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85812%2Fpokemon-legendary-collection-golduck",
       "manapool_url": null,
@@ -4179,7 +4195,8 @@
           "collector_number": "043/110",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -4190,6 +4207,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4236,7 +4254,7 @@
           "cardmarket_ids": [
             274808
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121618/preview_golduck-43-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/85812_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 85812,
           "game_id": 5,
@@ -4253,7 +4271,7 @@
       "clean_name": "Graveler",
       "number": "044/110",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85887_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/85887_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85887%2Fpokemon-legendary-collection-graveler",
       "manapool_url": null,
@@ -4272,7 +4290,8 @@
           "collector_number": "044/110",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -4283,6 +4302,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4329,7 +4349,7 @@
           "cardmarket_ids": [
             274809
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121620/preview_graveler-44-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/85887_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 85887,
           "game_id": 5,
@@ -4346,7 +4366,7 @@
       "clean_name": "Growlithe",
       "number": "045/110",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85948_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/85948_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85948%2Fpokemon-legendary-collection-growlithe",
       "manapool_url": null,
@@ -4365,7 +4385,8 @@
           "collector_number": "045/110",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -4376,6 +4397,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4422,7 +4444,7 @@
           "cardmarket_ids": [
             274810
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121622/preview_growlithe-45-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/85948_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 85948,
           "game_id": 5,
@@ -4439,7 +4461,7 @@
       "clean_name": "Haunter",
       "number": "046/110",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86022_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/86022_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86022%2Fpokemon-legendary-collection-haunter",
       "manapool_url": null,
@@ -4458,7 +4480,8 @@
           "collector_number": "046/110",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -4469,6 +4492,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4515,7 +4539,7 @@
           "cardmarket_ids": [
             274811
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121624/preview_haunter-46-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/86022_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 86022,
           "game_id": 5,
@@ -4532,7 +4556,7 @@
       "clean_name": "Ivysaur",
       "number": "047/110",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86295_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/86295_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86295%2Fpokemon-legendary-collection-ivysaur",
       "manapool_url": null,
@@ -4551,7 +4575,8 @@
           "collector_number": "047/110",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -4562,6 +4587,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4608,7 +4634,7 @@
           "cardmarket_ids": [
             274812
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121626/preview_ivysaur-47-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/86295_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 86295,
           "game_id": 5,
@@ -4625,7 +4651,7 @@
       "clean_name": "Kabuto",
       "number": "048/110",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86381_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/86381_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86381%2Fpokemon-legendary-collection-kabuto",
       "manapool_url": null,
@@ -4644,7 +4670,8 @@
           "collector_number": "048/110",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -4655,6 +4682,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4701,7 +4729,7 @@
           "cardmarket_ids": [
             274813
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121628/preview_kabuto-48-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/86381_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 86381,
           "game_id": 5,
@@ -4718,7 +4746,7 @@
       "clean_name": "Kadabra",
       "number": "049/110",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86404_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/86404_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86404%2Fpokemon-legendary-collection-kadabra",
       "manapool_url": null,
@@ -4737,7 +4765,8 @@
           "collector_number": "049/110",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -4748,6 +4777,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4794,7 +4824,7 @@
           "cardmarket_ids": [
             274814
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121630/preview_kadabra-49-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/86404_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 86404,
           "game_id": 5,
@@ -4811,7 +4841,7 @@
       "clean_name": "Kakuna",
       "number": "050/110",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86409_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/86409_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86409%2Fpokemon-legendary-collection-kakuna",
       "manapool_url": null,
@@ -4830,7 +4860,8 @@
           "collector_number": "050/110",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -4841,6 +4872,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4887,7 +4919,7 @@
           "cardmarket_ids": [
             274815
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121632/preview_kakuna-50-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/86409_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 86409,
           "game_id": 5,
@@ -4904,7 +4936,7 @@
       "clean_name": "Machoke",
       "number": "051/110",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86976_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/86976_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86976%2Fpokemon-legendary-collection-machoke",
       "manapool_url": null,
@@ -4923,7 +4955,8 @@
           "collector_number": "051/110",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -4934,6 +4967,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4980,7 +5014,7 @@
           "cardmarket_ids": [
             274816
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121634/preview_machoke-51-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/86976_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 86976,
           "game_id": 5,
@@ -4997,7 +5031,7 @@
       "clean_name": "Magikarp",
       "number": "052/110",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87022_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/87022_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87022%2Fpokemon-legendary-collection-magikarp",
       "manapool_url": null,
@@ -5016,7 +5050,8 @@
           "collector_number": "052/110",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -5027,6 +5062,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5073,7 +5109,7 @@
           "cardmarket_ids": [
             274817
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121636/preview_magikarp-52-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/87022_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 87022,
           "game_id": 5,
@@ -5090,7 +5126,7 @@
       "clean_name": "Meowth",
       "number": "053/110",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87311_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/87311_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87311%2Fpokemon-legendary-collection-meowth",
       "manapool_url": null,
@@ -5109,7 +5145,8 @@
           "collector_number": "053/110",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -5120,6 +5157,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5166,7 +5204,7 @@
           "cardmarket_ids": [
             274818
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121638/preview_meowth-53-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/87311_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 87311,
           "game_id": 5,
@@ -5183,7 +5221,7 @@
       "clean_name": "Metapod",
       "number": "054/110",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87387_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/87387_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87387%2Fpokemon-legendary-collection-metapod",
       "manapool_url": null,
@@ -5202,7 +5240,8 @@
           "collector_number": "054/110",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -5213,6 +5252,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5259,7 +5299,7 @@
           "cardmarket_ids": [
             274819
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121640/preview_metapod-54-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/87387_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 87387,
           "game_id": 5,
@@ -5276,7 +5316,7 @@
       "clean_name": "Nidorina",
       "number": "055/110",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87733_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/87733_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87733%2Fpokemon-legendary-collection-nidorina",
       "manapool_url": null,
@@ -5295,7 +5335,8 @@
           "collector_number": "055/110",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -5306,6 +5347,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5352,7 +5394,7 @@
           "cardmarket_ids": [
             274820
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121642/preview_nidorina-55-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/87733_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 87733,
           "game_id": 5,
@@ -5369,7 +5411,7 @@
       "clean_name": "Nidorino",
       "number": "056/110",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87743_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/87743_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87743%2Fpokemon-legendary-collection-nidorino",
       "manapool_url": null,
@@ -5388,7 +5430,8 @@
           "collector_number": "056/110",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -5399,6 +5442,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5445,7 +5489,7 @@
           "cardmarket_ids": [
             274821
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121644/preview_nidorino-56-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/87743_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 87743,
           "game_id": 5,
@@ -5462,7 +5506,7 @@
       "clean_name": "Omanyte",
       "number": "057/110",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87855_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/87855_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87855%2Fpokemon-legendary-collection-omanyte",
       "manapool_url": null,
@@ -5481,7 +5525,8 @@
           "collector_number": "057/110",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -5492,6 +5537,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5538,7 +5584,7 @@
           "cardmarket_ids": [
             274822
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121646/preview_omanyte-57-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/87855_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 87855,
           "game_id": 5,
@@ -5555,7 +5601,7 @@
       "clean_name": "Omastar",
       "number": "058/110",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87867_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/87867_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87867%2Fpokemon-legendary-collection-omastar",
       "manapool_url": null,
@@ -5574,7 +5620,8 @@
           "collector_number": "058/110",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -5585,6 +5632,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5631,7 +5679,7 @@
           "cardmarket_ids": [
             274823
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121648/preview_omastar-58-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/87867_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 87867,
           "game_id": 5,
@@ -5648,7 +5696,7 @@
       "clean_name": "Primeape",
       "number": "059/110",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88361_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88361_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88361%2Fpokemon-legendary-collection-primeape",
       "manapool_url": null,
@@ -5667,7 +5715,8 @@
           "collector_number": "059/110",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -5678,6 +5727,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5724,7 +5774,7 @@
           "cardmarket_ids": [
             274824
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121650/preview_primeape-59-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88361_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88361,
           "game_id": 5,
@@ -5741,7 +5791,7 @@
       "clean_name": "Rapidash",
       "number": "060/110",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88579_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88579_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88579%2Fpokemon-legendary-collection-rapidash",
       "manapool_url": null,
@@ -5760,7 +5810,8 @@
           "collector_number": "060/110",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -5771,6 +5822,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5817,7 +5869,7 @@
           "cardmarket_ids": [
             274825
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121652/preview_rapidash-60-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88579_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88579,
           "game_id": 5,
@@ -5834,7 +5886,7 @@
       "clean_name": "Raticate",
       "number": "061/110",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88601_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88601_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88601%2Fpokemon-legendary-collection-raticate",
       "manapool_url": null,
@@ -5853,7 +5905,8 @@
           "collector_number": "061/110",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -5864,6 +5917,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5910,7 +5964,7 @@
           "cardmarket_ids": [
             274826
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121654/preview_raticate-61-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88601_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88601,
           "game_id": 5,
@@ -5927,7 +5981,7 @@
       "clean_name": "Sandslash",
       "number": "062/110",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88930_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88930_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88930%2Fpokemon-legendary-collection-sandslash",
       "manapool_url": null,
@@ -5946,7 +6000,8 @@
           "collector_number": "062/110",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -5957,6 +6012,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6003,7 +6059,7 @@
           "cardmarket_ids": [
             274827
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121656/preview_sandslash-62-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88930_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88930,
           "game_id": 5,
@@ -6020,7 +6076,7 @@
       "clean_name": "Seadra",
       "number": "063/110",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89011_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/89011_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89011%2Fpokemon-legendary-collection-seadra",
       "manapool_url": null,
@@ -6039,7 +6095,8 @@
           "collector_number": "063/110",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -6050,6 +6107,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6096,7 +6154,7 @@
           "cardmarket_ids": [
             274828
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121658/preview_seadra-63-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/89011_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 89011,
           "game_id": 5,
@@ -6113,7 +6171,7 @@
       "clean_name": "Snorlax",
       "number": "064/110",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89386_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/89386_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89386%2Fpokemon-legendary-collection-snorlax",
       "manapool_url": null,
@@ -6132,7 +6190,8 @@
           "collector_number": "064/110",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -6143,6 +6202,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6189,7 +6249,7 @@
           "cardmarket_ids": [
             274829
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121660/preview_snorlax-64-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/89386_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 89386,
           "game_id": 5,
@@ -6206,7 +6266,7 @@
       "clean_name": "Tauros",
       "number": "065/110",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89759_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/89759_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89759%2Fpokemon-legendary-collection-tauros",
       "manapool_url": null,
@@ -6225,7 +6285,8 @@
           "collector_number": "065/110",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -6236,6 +6297,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6282,7 +6344,7 @@
           "cardmarket_ids": [
             274830
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121662/preview_tauros-65-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/89759_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 89759,
           "game_id": 5,
@@ -6299,7 +6361,7 @@
       "clean_name": "Tentacruel",
       "number": "066/110",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89874_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/89874_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89874%2Fpokemon-legendary-collection-tentacruel",
       "manapool_url": null,
@@ -6318,7 +6380,8 @@
           "collector_number": "066/110",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -6329,6 +6392,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6375,7 +6439,7 @@
           "cardmarket_ids": [
             274831
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121664/preview_tentacruel-66-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/89874_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 89874,
           "game_id": 5,
@@ -6392,82 +6456,14 @@
       "clean_name": "Abra",
       "number": "067/110",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/83446_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/83446_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83446%2Fpokemon-legendary-collection-abra",
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 274832,
-      "cardtrader_id": 121666,
-      "cardtrader": [
-        {
-          "id": 121666,
-          "name": "Abra",
-          "match_type": "tcgplayer",
-          "match_confidence": 100,
-          "expansion": "Legendary Collection",
-          "expansion_code": "lc",
-          "collector_number": "067/110",
-          "rarity": "Common",
-          "finishes": [
-            "normal"
-          ],
-          "languages": [],
-          "properties": [
-            {
-              "name": "condition",
-              "type": "string",
-              "default_value": "Near Mint",
-              "possible_values": [
-                "Near Mint",
-                "Slightly Played",
-                "Moderately Played",
-                "Played",
-                "Poor"
-              ]
-            },
-            {
-              "name": "signed",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "altered",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            }
-          ],
-          "cardmarket_ids": [
-            274832
-          ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121666/preview_abra-67-110-legendary-collection.jpg",
-          "scryfall_id": null,
-          "tcg_player_id": 83446,
-          "game_id": 5,
-          "category_id": 73,
-          "category_name": "Pokémon Singles",
-          "product_type": "single",
-          "group_id": 1374
-        }
-      ]
+      "cardtrader_id": 121666
     },
     {
       "id": 84025,
@@ -6475,7 +6471,7 @@
       "clean_name": "Bulbasaur",
       "number": "068/110",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84025_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84025_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84025%2Fpokemon-legendary-collection-bulbasaur",
       "manapool_url": null,
@@ -6494,7 +6490,8 @@
           "collector_number": "068/110",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -6505,6 +6502,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6551,7 +6549,7 @@
           "cardmarket_ids": [
             274833
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121668/preview_bulbasaur-68-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84025_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84025,
           "game_id": 5,
@@ -6568,7 +6566,7 @@
       "clean_name": "Caterpie",
       "number": "069/110",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84134_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84134_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84134%2Fpokemon-legendary-collection-caterpie",
       "manapool_url": null,
@@ -6587,7 +6585,8 @@
           "collector_number": "069/110",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -6598,6 +6597,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6644,7 +6644,7 @@
           "cardmarket_ids": [
             274834
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121670/preview_caterpie-69-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84134_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84134,
           "game_id": 5,
@@ -6661,7 +6661,7 @@
       "clean_name": "Charmander",
       "number": "070/110",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84205_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84205_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84205%2Fpokemon-legendary-collection-charmander",
       "manapool_url": null,
@@ -6680,7 +6680,8 @@
           "collector_number": "070/110",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -6691,6 +6692,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6737,7 +6739,7 @@
           "cardmarket_ids": [
             274835
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121672/preview_charmander-70-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84205_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84205,
           "game_id": 5,
@@ -6754,7 +6756,7 @@
       "clean_name": "Doduo",
       "number": "071/110",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84858_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84858_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84858%2Fpokemon-legendary-collection-doduo",
       "manapool_url": null,
@@ -6773,7 +6775,8 @@
           "collector_number": "071/110",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -6784,6 +6787,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6830,7 +6834,7 @@
           "cardmarket_ids": [
             274836
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121674/preview_doduo-71-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84858_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84858,
           "game_id": 5,
@@ -6847,7 +6851,7 @@
       "clean_name": "Dratini",
       "number": "072/110",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84930_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84930_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84930%2Fpokemon-legendary-collection-dratini",
       "manapool_url": null,
@@ -6866,7 +6870,8 @@
           "collector_number": "072/110",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -6877,6 +6882,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6923,7 +6929,7 @@
           "cardmarket_ids": [
             274837
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121676/preview_dratini-72-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84930_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84930,
           "game_id": 5,
@@ -6940,7 +6946,7 @@
       "clean_name": "Drowzee",
       "number": "073/110",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84970_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84970_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84970%2Fpokemon-legendary-collection-drowzee",
       "manapool_url": null,
@@ -6959,7 +6965,8 @@
           "collector_number": "073/110",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -6970,6 +6977,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -7016,7 +7024,7 @@
           "cardmarket_ids": [
             274838
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121678/preview_drowzee-73-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84970_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84970,
           "game_id": 5,
@@ -7033,7 +7041,7 @@
       "clean_name": "Eevee",
       "number": "074/110",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85079_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/85079_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85079%2Fpokemon-legendary-collection-eevee",
       "manapool_url": null,
@@ -7052,7 +7060,8 @@
           "collector_number": "074/110",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -7063,6 +7072,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -7109,7 +7119,7 @@
           "cardmarket_ids": [
             274839
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121680/preview_eevee-74-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/85079_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 85079,
           "game_id": 5,
@@ -7126,7 +7136,7 @@
       "clean_name": "Exeggcute",
       "number": "075/110",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85343_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/85343_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85343%2Fpokemon-legendary-collection-exeggcute",
       "manapool_url": null,
@@ -7145,7 +7155,8 @@
           "collector_number": "075/110",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -7156,6 +7167,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -7202,7 +7214,7 @@
           "cardmarket_ids": [
             274840
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121682/preview_exeggcute-75-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/85343_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 85343,
           "game_id": 5,
@@ -7219,7 +7231,7 @@
       "clean_name": "Gastly",
       "number": "076/110",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85648_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/85648_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85648%2Fpokemon-legendary-collection-gastly",
       "manapool_url": null,
@@ -7238,7 +7250,8 @@
           "collector_number": "076/110",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -7249,6 +7262,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -7295,7 +7309,7 @@
           "cardmarket_ids": [
             274841
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121684/preview_gastly-76-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/85648_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 85648,
           "game_id": 5,
@@ -7312,7 +7326,7 @@
       "clean_name": "Geodude",
       "number": "077/110",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85685_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/85685_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85685%2Fpokemon-legendary-collection-geodude",
       "manapool_url": null,
@@ -7331,7 +7345,8 @@
           "collector_number": "077/110",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -7342,6 +7357,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -7388,7 +7404,7 @@
           "cardmarket_ids": [
             274842
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121686/preview_geodude-77-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/85685_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 85685,
           "game_id": 5,
@@ -7405,7 +7421,7 @@
       "clean_name": "Grimer",
       "number": "078/110",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85906_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/85906_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85906%2Fpokemon-legendary-collection-grimer",
       "manapool_url": null,
@@ -7424,7 +7440,8 @@
           "collector_number": "078/110",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -7435,6 +7452,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -7481,7 +7499,7 @@
           "cardmarket_ids": [
             274843
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121688/preview_grimer-78-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/85906_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 85906,
           "game_id": 5,
@@ -7498,7 +7516,7 @@
       "clean_name": "Machop",
       "number": "079/110",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86990_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/86990_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86990%2Fpokemon-legendary-collection-machop",
       "manapool_url": null,
@@ -7517,7 +7535,8 @@
           "collector_number": "079/110",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -7528,6 +7547,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -7574,7 +7594,7 @@
           "cardmarket_ids": [
             274844
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121690/preview_machop-79-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/86990_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 86990,
           "game_id": 5,
@@ -7591,7 +7611,7 @@
       "clean_name": "Magnemite",
       "number": "080/110",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87070_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/87070_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87070%2Fpokemon-legendary-collection-magnemite",
       "manapool_url": null,
@@ -7610,7 +7630,8 @@
           "collector_number": "080/110",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -7621,6 +7642,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -7667,7 +7689,7 @@
           "cardmarket_ids": [
             274845
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121692/preview_magnemite-80-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/87070_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 87070,
           "game_id": 5,
@@ -7684,7 +7706,7 @@
       "clean_name": "Mankey",
       "number": "081/110",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87171_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/87171_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87171%2Fpokemon-legendary-collection-mankey",
       "manapool_url": null,
@@ -7703,7 +7725,8 @@
           "collector_number": "081/110",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -7714,6 +7737,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -7760,7 +7784,7 @@
           "cardmarket_ids": [
             274846
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121694/preview_mankey-81-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/87171_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 87171,
           "game_id": 5,
@@ -7777,7 +7801,7 @@
       "clean_name": "Nidoran F",
       "number": "082/110",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87715_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/87715_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87715%2Fpokemon-legendary-collection-nidoran-f",
       "manapool_url": null,
@@ -7796,7 +7820,8 @@
           "collector_number": "082/110",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -7807,6 +7832,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -7853,7 +7879,7 @@
           "cardmarket_ids": [
             274847
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121696/preview_nidoran-f-82-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/87715_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 87715,
           "game_id": 5,
@@ -7870,7 +7896,7 @@
       "clean_name": "Nidoran M",
       "number": "083/110",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87724_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/87724_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87724%2Fpokemon-legendary-collection-nidoran-m",
       "manapool_url": null,
@@ -7889,7 +7915,8 @@
           "collector_number": "083/110",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -7900,6 +7927,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -7946,7 +7974,7 @@
           "cardmarket_ids": [
             274848
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121698/preview_nidoran-m-83-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/87724_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 87724,
           "game_id": 5,
@@ -7963,7 +7991,7 @@
       "clean_name": "Onix",
       "number": "084/110",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87877_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/87877_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87877%2Fpokemon-legendary-collection-onix",
       "manapool_url": null,
@@ -7982,7 +8010,8 @@
           "collector_number": "084/110",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -7993,6 +8022,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -8039,7 +8069,7 @@
           "cardmarket_ids": [
             274849
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121700/preview_onix-84-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/87877_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 87877,
           "game_id": 5,
@@ -8056,7 +8086,7 @@
       "clean_name": "Pidgey",
       "number": "085/110",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88046_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88046_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88046%2Fpokemon-legendary-collection-pidgey",
       "manapool_url": null,
@@ -8075,7 +8105,8 @@
           "collector_number": "085/110",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -8086,6 +8117,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -8132,7 +8164,7 @@
           "cardmarket_ids": [
             274850
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121702/preview_pidgey-85-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88046_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88046,
           "game_id": 5,
@@ -8149,7 +8181,7 @@
       "clean_name": "Pikachu",
       "number": "086/110",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88075_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88075_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88075%2Fpokemon-legendary-collection-pikachu",
       "manapool_url": null,
@@ -8168,7 +8200,8 @@
           "collector_number": "086/110",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -8179,6 +8212,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -8225,7 +8259,7 @@
           "cardmarket_ids": [
             274851
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121704/preview_pikachu-86-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88075_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88075,
           "game_id": 5,
@@ -8242,7 +8276,7 @@
       "clean_name": "Ponyta",
       "number": "087/110",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88282_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88282_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88282%2Fpokemon-legendary-collection-ponyta",
       "manapool_url": null,
@@ -8261,7 +8295,8 @@
           "collector_number": "087/110",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -8272,6 +8307,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -8318,7 +8354,7 @@
           "cardmarket_ids": [
             274852
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121706/preview_ponyta-87-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88282_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88282,
           "game_id": 5,
@@ -8335,7 +8371,7 @@
       "clean_name": "Psyduck",
       "number": "088/110",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88434_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88434_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88434%2Fpokemon-legendary-collection-psyduck",
       "manapool_url": null,
@@ -8354,7 +8390,8 @@
           "collector_number": "088/110",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -8365,6 +8402,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -8411,7 +8449,7 @@
           "cardmarket_ids": [
             274853
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121708/preview_psyduck-88-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88434_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88434,
           "game_id": 5,
@@ -8428,7 +8466,7 @@
       "clean_name": "Rattata",
       "number": "089/110",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88612_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88612_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88612%2Fpokemon-legendary-collection-rattata",
       "manapool_url": null,
@@ -8447,7 +8485,8 @@
           "collector_number": "089/110",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -8458,6 +8497,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -8504,7 +8544,7 @@
           "cardmarket_ids": [
             274854
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121710/preview_rattata-89-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88612_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88612,
           "game_id": 5,
@@ -8521,7 +8561,7 @@
       "clean_name": "Rhyhorn",
       "number": "090/110",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88738_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88738_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88738%2Fpokemon-legendary-collection-rhyhorn",
       "manapool_url": null,
@@ -8540,7 +8580,8 @@
           "collector_number": "090/110",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -8551,6 +8592,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -8597,7 +8639,7 @@
           "cardmarket_ids": [
             274855
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121712/preview_rhyhorn-90-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88738_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88738,
           "game_id": 5,
@@ -8614,7 +8656,7 @@
       "clean_name": "Sandshrew",
       "number": "091/110",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88920_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88920_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88920%2Fpokemon-legendary-collection-sandshrew",
       "manapool_url": null,
@@ -8633,7 +8675,8 @@
           "collector_number": "091/110",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -8644,6 +8687,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -8690,7 +8734,7 @@
           "cardmarket_ids": [
             274856
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121714/preview_sandshrew-91-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88920_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88920,
           "game_id": 5,
@@ -8707,7 +8751,7 @@
       "clean_name": "Seel",
       "number": "092/110",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89049_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/89049_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89049%2Fpokemon-legendary-collection-seel",
       "manapool_url": null,
@@ -8726,7 +8770,8 @@
           "collector_number": "092/110",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -8737,6 +8782,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -8783,7 +8829,7 @@
           "cardmarket_ids": [
             274857
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121716/preview_seel-92-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/89049_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 89049,
           "game_id": 5,
@@ -8800,7 +8846,7 @@
       "clean_name": "Slowpoke",
       "number": "093/110",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89324_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/89324_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89324%2Fpokemon-legendary-collection-slowpoke",
       "manapool_url": null,
@@ -8819,7 +8865,8 @@
           "collector_number": "093/110",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -8830,6 +8877,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -8876,7 +8924,7 @@
           "cardmarket_ids": [
             274858
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121718/preview_slowpoke-93-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/89324_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 89324,
           "game_id": 5,
@@ -8893,7 +8941,7 @@
       "clean_name": "Spearow",
       "number": "094/110",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89437_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/89437_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89437%2Fpokemon-legendary-collection-spearow",
       "manapool_url": null,
@@ -8912,7 +8960,8 @@
           "collector_number": "094/110",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -8923,6 +8972,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -8969,7 +9019,7 @@
           "cardmarket_ids": [
             274859
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121720/preview_spearow-94-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/89437_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 89437,
           "game_id": 5,
@@ -8986,7 +9036,7 @@
       "clean_name": "Squirtle",
       "number": "095/110",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89485_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/89485_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89485%2Fpokemon-legendary-collection-squirtle",
       "manapool_url": null,
@@ -9005,7 +9055,8 @@
           "collector_number": "095/110",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -9016,6 +9067,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -9062,7 +9114,7 @@
           "cardmarket_ids": [
             274860
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121722/preview_squirtle-95-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/89485_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 89485,
           "game_id": 5,
@@ -9079,7 +9131,7 @@
       "clean_name": "Tentacool",
       "number": "096/110",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89864_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/89864_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89864%2Fpokemon-legendary-collection-tentacool",
       "manapool_url": null,
@@ -9098,7 +9150,8 @@
           "collector_number": "096/110",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -9109,6 +9162,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -9155,7 +9209,7 @@
           "cardmarket_ids": [
             274861
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121724/preview_tentacool-96-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/89864_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 89864,
           "game_id": 5,
@@ -9172,7 +9226,7 @@
       "clean_name": "Voltorb",
       "number": "097/110",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90410_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/90410_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90410%2Fpokemon-legendary-collection-voltorb",
       "manapool_url": null,
@@ -9191,7 +9245,8 @@
           "collector_number": "097/110",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -9202,6 +9257,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -9248,7 +9304,7 @@
           "cardmarket_ids": [
             274862
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121726/preview_voltorb-97-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/90410_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 90410,
           "game_id": 5,
@@ -9265,7 +9321,7 @@
       "clean_name": "Vulpix",
       "number": "098/110",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90434_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/90434_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90434%2Fpokemon-legendary-collection-vulpix",
       "manapool_url": null,
@@ -9284,7 +9340,8 @@
           "collector_number": "098/110",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -9295,6 +9352,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -9341,7 +9399,7 @@
           "cardmarket_ids": [
             274863
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121728/preview_vulpix-98-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/90434_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 90434,
           "game_id": 5,
@@ -9358,7 +9416,7 @@
       "clean_name": "Weedle",
       "number": "099/110",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90539_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/90539_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90539%2Fpokemon-legendary-collection-weedle",
       "manapool_url": null,
@@ -9377,7 +9435,8 @@
           "collector_number": "099/110",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -9388,6 +9447,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -9434,7 +9494,7 @@
           "cardmarket_ids": [
             274864
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121730/preview_weedle-99-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/90539_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 90539,
           "game_id": 5,
@@ -9451,7 +9511,7 @@
       "clean_name": "Full Heal Energy",
       "number": "100/110",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85585_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/85585_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85585%2Fpokemon-legendary-collection-full-heal-energy",
       "manapool_url": null,
@@ -9470,7 +9530,8 @@
           "collector_number": "100/110",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -9481,6 +9542,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -9527,7 +9589,7 @@
           "cardmarket_ids": [
             274865
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121732/preview_full-heal-energy-100-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/85585_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 85585,
           "game_id": 5,
@@ -9544,7 +9606,7 @@
       "clean_name": "Potion Energy",
       "number": "101/110",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88351_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88351_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88351%2Fpokemon-legendary-collection-potion-energy",
       "manapool_url": null,
@@ -9563,7 +9625,8 @@
           "collector_number": "101/110",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -9574,6 +9637,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -9620,7 +9684,7 @@
           "cardmarket_ids": [
             274866
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121734/preview_potion-energy-101-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88351_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88351,
           "game_id": 5,
@@ -9637,7 +9701,7 @@
       "clean_name": "Pokemon Breeder",
       "number": "102/110",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88207_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88207_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88207%2Fpokemon-legendary-collection-pokemon-breeder",
       "manapool_url": null,
@@ -9656,7 +9720,8 @@
           "collector_number": "102/110",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -9667,6 +9732,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -9713,7 +9779,7 @@
           "cardmarket_ids": [
             274867
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121736/preview_pokemon-breeder-102-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88207_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88207,
           "game_id": 5,
@@ -9730,7 +9796,7 @@
       "clean_name": "Pokemon Trader",
       "number": "103/110",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88242_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88242_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88242%2Fpokemon-legendary-collection-pokemon-trader",
       "manapool_url": null,
@@ -9749,7 +9815,8 @@
           "collector_number": "103/110",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -9760,6 +9827,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -9806,7 +9874,7 @@
           "cardmarket_ids": [
             274868
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121738/preview_pokemon-trader-103-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88242_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88242,
           "game_id": 5,
@@ -9823,7 +9891,7 @@
       "clean_name": "Scoop Up",
       "number": "104/110",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88973_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88973_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88973%2Fpokemon-legendary-collection-scoop-up",
       "manapool_url": null,
@@ -9842,7 +9910,8 @@
           "collector_number": "104/110",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -9853,6 +9922,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -9899,7 +9969,7 @@
           "cardmarket_ids": [
             274869
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121740/preview_scoop-up-104-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88973_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88973,
           "game_id": 5,
@@ -9916,7 +9986,7 @@
       "clean_name": "The Bosss Way",
       "number": "105/110",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89895_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/89895_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89895%2Fpokemon-legendary-collection-the-bosss-way",
       "manapool_url": null,
@@ -9935,7 +10005,8 @@
           "collector_number": "105/110",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -9946,6 +10017,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -9992,7 +10064,7 @@
           "cardmarket_ids": [
             274870
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121742/preview_the-boss-s-way-105-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/89895_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 89895,
           "game_id": 5,
@@ -10009,7 +10081,7 @@
       "clean_name": "Challenge",
       "number": "106/110",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84160_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84160_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84160%2Fpokemon-legendary-collection-challenge",
       "manapool_url": null,
@@ -10028,7 +10100,8 @@
           "collector_number": "106/110",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -10039,6 +10112,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -10085,7 +10159,7 @@
           "cardmarket_ids": [
             274871
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121744/preview_challenge-106-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84160_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84160,
           "game_id": 5,
@@ -10102,7 +10176,7 @@
       "clean_name": "Energy Retrieval",
       "number": "107/110",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85233_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/85233_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85233%2Fpokemon-legendary-collection-energy-retrieval",
       "manapool_url": null,
@@ -10121,7 +10195,8 @@
           "collector_number": "107/110",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -10132,6 +10207,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -10178,7 +10254,7 @@
           "cardmarket_ids": [
             274872
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121746/preview_energy-retrieval-107-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/85233_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 85233,
           "game_id": 5,
@@ -10195,7 +10271,7 @@
       "clean_name": "Bill",
       "number": "108/110",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/83836_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/83836_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83836%2Fpokemon-legendary-collection-bill",
       "manapool_url": null,
@@ -10214,7 +10290,8 @@
           "collector_number": "108/110",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -10225,6 +10302,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -10271,7 +10349,7 @@
           "cardmarket_ids": [
             274873
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121748/preview_bill-108-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/83836_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 83836,
           "game_id": 5,
@@ -10288,7 +10366,7 @@
       "clean_name": "Mysterious Fossil",
       "number": "109/110",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87668_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/87668_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87668%2Fpokemon-legendary-collection-mysterious-fossil",
       "manapool_url": null,
@@ -10307,7 +10385,8 @@
           "collector_number": "109/110",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -10318,6 +10397,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -10364,7 +10444,7 @@
           "cardmarket_ids": [
             274874
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121750/preview_mysterious-fossil-109-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/87668_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 87668,
           "game_id": 5,
@@ -10381,7 +10461,7 @@
       "clean_name": "Potion",
       "number": "110/110",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88332_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88332_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88332%2Fpokemon-legendary-collection-potion",
       "manapool_url": null,
@@ -10400,7 +10480,8 @@
           "collector_number": "110/110",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -10411,6 +10492,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -10457,7 +10539,7 @@
           "cardmarket_ids": [
             274875
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/121752/preview_potion-110-110-legendary-collection.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88332_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88332,
           "game_id": 5,

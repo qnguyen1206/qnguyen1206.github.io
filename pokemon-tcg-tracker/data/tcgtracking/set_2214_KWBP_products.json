@@ -4,9 +4,12 @@
   "set_abbr": "KWBP",
   "set_released": "2004-07-02",
   "product_count": 6,
-  "data_modified": "2026-05-30T08:12:48-04:00",
-  "file_generated": "2026-05-31T04:31:46-04:00",
-  "pricing_url": "/tcgapi/v1/3/sets/2214/pricing",
+  "data_modified": "2026-06-27T14:53:29-04:00",
+  "file_generated": "2026-07-01T08:31:22-04:00",
+  "pricing_url": "/v1/3/sets/2214/pricing",
+  "cards_url": "/v1/3/sets/2214/cards",
+  "sealed_url": "/v1/3/sets/2214/sealed",
+  "skus_url": "/v1/3/sets/2214/skus",
   "products": [
     {
       "id": 162279,
@@ -14,7 +17,7 @@
       "clean_name": "Poke Card Creator Pack",
       "number": null,
       "rarity": null,
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/162279_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/162279_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F162279%2Fpokemon-kids-wb-promos-poke-card-creator-pack",
       "manapool_url": null,
@@ -29,7 +32,7 @@
       "clean_name": "Treecko 1 5",
       "number": "001/005",
       "rarity": "Promo",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/162268_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/162268_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F162268%2Fpokemon-kids-wb-promos-treecko-1-5",
       "manapool_url": null,
@@ -48,7 +51,8 @@
           "collector_number": "1/5",
           "rarity": "Promo",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -59,6 +63,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -103,7 +108,7 @@
             }
           ],
           "cardmarket_ids": [],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/125908/preview_treecko-non-holo-promo-not-tournament-legal-1-5-poke-card-creator-pack.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/162268_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 162268,
           "game_id": 5,
@@ -120,7 +125,7 @@
       "clean_name": "Wurmple 2 5",
       "number": "002/005",
       "rarity": "Promo",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/162269_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/162269_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F162269%2Fpokemon-kids-wb-promos-wurmple-2-5",
       "manapool_url": null,
@@ -139,7 +144,8 @@
           "collector_number": "2/5",
           "rarity": "Promo",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -150,6 +156,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -194,7 +201,7 @@
             }
           ],
           "cardmarket_ids": [],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/125909/preview_wurmple-non-holo-promo-not-tournament-legal-2-5-poke-card-creator-pack.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/162269_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 162269,
           "game_id": 5,
@@ -211,7 +218,7 @@
       "clean_name": "Torchic 3 5",
       "number": "003/005",
       "rarity": "Promo",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/162270_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/162270_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F162270%2Fpokemon-kids-wb-promos-torchic-3-5",
       "manapool_url": null,
@@ -230,7 +237,8 @@
           "collector_number": "3/5",
           "rarity": "Promo",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -241,6 +249,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -285,7 +294,7 @@
             }
           ],
           "cardmarket_ids": [],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/125910/preview_torchic-non-holo-promo-not-tournament-legal-3-5-poke-card-creator-pack.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/162270_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 162270,
           "game_id": 5,
@@ -302,7 +311,7 @@
       "clean_name": "Mudkip 4 5",
       "number": "004/005",
       "rarity": "Promo",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/162271_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/162271_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F162271%2Fpokemon-kids-wb-promos-mudkip-4-5",
       "manapool_url": null,
@@ -321,7 +330,8 @@
           "collector_number": "4/5",
           "rarity": "Promo",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -332,6 +342,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -376,7 +387,7 @@
             }
           ],
           "cardmarket_ids": [],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/125911/preview_mudkip-non-holo-promo-not-tournament-legal-4-5-poke-card-creator-pack.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/162271_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 162271,
           "game_id": 5,
@@ -393,7 +404,7 @@
       "clean_name": "Pikachu 5 5",
       "number": "005/005",
       "rarity": "Promo",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/162272_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/162272_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F162272%2Fpokemon-kids-wb-promos-pikachu-5-5",
       "manapool_url": null,
@@ -412,7 +423,8 @@
           "collector_number": "5/5",
           "rarity": "Promo",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -423,6 +435,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -467,7 +480,7 @@
             }
           ],
           "cardmarket_ids": [],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/125912/preview_pikachu-non-holo-promo-not-tournament-legal-5-5-poke-card-creator-pack.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/162272_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 162272,
           "game_id": 5,

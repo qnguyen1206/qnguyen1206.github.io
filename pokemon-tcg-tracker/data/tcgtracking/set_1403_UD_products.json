@@ -4,9 +4,12 @@
   "set_abbr": "UD",
   "set_released": "2010-08-18",
   "product_count": 93,
-  "data_modified": "2026-05-30T08:12:27-04:00",
-  "file_generated": "2026-05-31T04:31:43-04:00",
-  "pricing_url": "/tcgapi/v1/3/sets/1403/pricing",
+  "data_modified": "2026-06-27T14:54:16-04:00",
+  "file_generated": "2026-07-01T08:31:18-04:00",
+  "pricing_url": "/v1/3/sets/1403/pricing",
+  "cards_url": "/v1/3/sets/1403/cards",
+  "sealed_url": "/v1/3/sets/1403/sealed",
+  "skus_url": "/v1/3/sets/1403/skus",
   "products": [
     {
       "id": 98587,
@@ -14,7 +17,7 @@
       "clean_name": "Undaunted Booster Box",
       "number": null,
       "rarity": null,
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/98587_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/98587_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F98587%2Fpokemon-undaunted-undaunted-booster-box",
       "manapool_url": null,
@@ -69,7 +72,7 @@
           "cardmarket_ids": [
             271928
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/105457/preview_undaunted-booster-box-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/98587_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 98587,
           "game_id": 5,
@@ -86,7 +89,7 @@
       "clean_name": "Undaunted Booster Pack",
       "number": null,
       "rarity": null,
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/98586_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/98586_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F98586%2Fpokemon-undaunted-undaunted-booster-pack",
       "manapool_url": null,
@@ -141,7 +144,7 @@
           "cardmarket_ids": [
             271875
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/105456/preview_undaunted-booster-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/98586_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 98586,
           "game_id": 5,
@@ -158,7 +161,7 @@
       "clean_name": "Bellossom",
       "number": "1/90",
       "rarity": "Holo Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/83801_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/83801_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83801%2Fpokemon-undaunted-bellossom",
       "manapool_url": null,
@@ -177,7 +180,8 @@
           "collector_number": "01/90",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -194,6 +198,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -246,7 +251,7 @@
           "cardmarket_ids": [
             279254
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130824/preview_bellossom-holo-rare-1-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/83801_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 83801,
           "game_id": 5,
@@ -263,7 +268,7 @@
       "clean_name": "Umbreon",
       "number": "10/90",
       "rarity": "Holo Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90145_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/90145_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90145%2Fpokemon-undaunted-umbreon",
       "manapool_url": null,
@@ -282,7 +287,8 @@
           "collector_number": "10/90",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -299,6 +305,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -351,7 +358,7 @@
           "cardmarket_ids": [
             279263
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130842/preview_umbreon-holo-rare-10-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/90145_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 90145,
           "game_id": 5,
@@ -368,7 +375,7 @@
       "clean_name": "Dodrio",
       "number": "11/90",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84854_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84854_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84854%2Fpokemon-undaunted-dodrio",
       "manapool_url": null,
@@ -387,7 +394,8 @@
           "collector_number": "11/90",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -404,6 +412,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -456,7 +465,7 @@
           "cardmarket_ids": [
             279264
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130844/preview_dodrio-11-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84854_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84854,
           "game_id": 5,
@@ -473,7 +482,7 @@
       "clean_name": "Drifblim",
       "number": "12/90",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84948_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84948_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84948%2Fpokemon-undaunted-drifblim",
       "manapool_url": null,
@@ -492,7 +501,8 @@
           "collector_number": "12/90",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -509,6 +519,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -561,7 +572,7 @@
           "cardmarket_ids": [
             279265
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130846/preview_drifblim-12-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84948_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84948,
           "game_id": 5,
@@ -578,7 +589,7 @@
       "clean_name": "Forretress 13",
       "number": "13/90",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85552_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/85552_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85552%2Fpokemon-undaunted-forretress-13",
       "manapool_url": null,
@@ -597,7 +608,8 @@
           "collector_number": "13/90",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -614,6 +626,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -666,7 +679,7 @@
           "cardmarket_ids": [
             279266
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130848/preview_forretress-13-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/85552_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 85552,
           "game_id": 5,
@@ -683,7 +696,7 @@
       "clean_name": "Hariyama",
       "number": "14/90",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86016_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/86016_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86016%2Fpokemon-undaunted-hariyama",
       "manapool_url": null,
@@ -702,7 +715,8 @@
           "collector_number": "14/90",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -719,6 +733,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -771,7 +786,7 @@
           "cardmarket_ids": [
             279267
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130850/preview_hariyama-14-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/86016_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 86016,
           "game_id": 5,
@@ -788,7 +803,7 @@
       "clean_name": "Honchkrow 15",
       "number": "15/90",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86161_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/86161_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86161%2Fpokemon-undaunted-honchkrow-15",
       "manapool_url": null,
@@ -807,7 +822,8 @@
           "collector_number": "15/90",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -824,6 +840,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -876,7 +893,7 @@
           "cardmarket_ids": [
             279268
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130852/preview_honchkrow-15-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/86161_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 86161,
           "game_id": 5,
@@ -893,7 +910,7 @@
       "clean_name": "Honchkrow 16",
       "number": "16/90",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86162_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/86162_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86162%2Fpokemon-undaunted-honchkrow-16",
       "manapool_url": null,
@@ -912,7 +929,8 @@
           "collector_number": "16/90",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -929,6 +947,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -981,7 +1000,7 @@
           "cardmarket_ids": [
             279269
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130854/preview_honchkrow-16-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/86162_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 86162,
           "game_id": 5,
@@ -998,7 +1017,7 @@
       "clean_name": "Leafeon",
       "number": "17/90",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86680_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/86680_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86680%2Fpokemon-undaunted-leafeon",
       "manapool_url": null,
@@ -1017,7 +1036,8 @@
           "collector_number": "17/90",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -1034,6 +1054,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1086,7 +1107,7 @@
           "cardmarket_ids": [
             279270
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130856/preview_leafeon-17-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/86680_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 86680,
           "game_id": 5,
@@ -1103,7 +1124,7 @@
       "clean_name": "Metagross",
       "number": "18/90",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87341_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/87341_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87341%2Fpokemon-undaunted-metagross",
       "manapool_url": null,
@@ -1122,7 +1143,8 @@
           "collector_number": "18/90",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -1139,6 +1161,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1191,7 +1214,7 @@
           "cardmarket_ids": [
             279271
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130858/preview_metagross-18-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/87341_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 87341,
           "game_id": 5,
@@ -1208,7 +1231,7 @@
       "clean_name": "Mismagius",
       "number": "19/90",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87518_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/87518_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87518%2Fpokemon-undaunted-mismagius",
       "manapool_url": null,
@@ -1227,7 +1250,8 @@
           "collector_number": "19/90",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -1244,6 +1268,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1296,7 +1321,7 @@
           "cardmarket_ids": [
             279272
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130860/preview_mismagius-19-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/87518_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 87518,
           "game_id": 5,
@@ -1313,7 +1338,7 @@
       "clean_name": "Espeon",
       "number": "2/90",
       "rarity": "Holo Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85322_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/85322_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85322%2Fpokemon-undaunted-espeon",
       "manapool_url": null,
@@ -1332,7 +1357,8 @@
           "collector_number": "002",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -1349,6 +1375,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1401,7 +1428,7 @@
           "cardmarket_ids": [
             279255
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130826/preview_espeon-holo-rare-2-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/85322_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 85322,
           "game_id": 5,
@@ -1418,7 +1445,7 @@
       "clean_name": "Rotom",
       "number": "20/90",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88839_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88839_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88839%2Fpokemon-undaunted-rotom",
       "manapool_url": null,
@@ -1437,7 +1464,8 @@
           "collector_number": "20/90",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -1454,6 +1482,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1506,7 +1535,7 @@
           "cardmarket_ids": [
             279273
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130862/preview_rotom-20-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88839_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88839,
           "game_id": 5,
@@ -1523,7 +1552,7 @@
       "clean_name": "Skarmory",
       "number": "21/90",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89242_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/89242_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89242%2Fpokemon-undaunted-skarmory",
       "manapool_url": null,
@@ -1542,7 +1571,8 @@
           "collector_number": "21/90",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -1559,6 +1589,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1611,7 +1642,7 @@
           "cardmarket_ids": [
             279274
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130864/preview_skarmory-21-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/89242_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 89242,
           "game_id": 5,
@@ -1628,7 +1659,7 @@
       "clean_name": "Tropius",
       "number": "22/90",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90062_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/90062_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90062%2Fpokemon-undaunted-tropius",
       "manapool_url": null,
@@ -1647,7 +1678,8 @@
           "collector_number": "22/90",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -1664,6 +1696,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1716,7 +1749,7 @@
           "cardmarket_ids": [
             279275
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130866/preview_tropius-22-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/90062_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 90062,
           "game_id": 5,
@@ -1733,7 +1766,7 @@
       "clean_name": "Vespiquen",
       "number": "23/90",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90329_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/90329_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90329%2Fpokemon-undaunted-vespiquen",
       "manapool_url": null,
@@ -1752,7 +1785,8 @@
           "collector_number": "23/90",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -1769,6 +1803,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1821,7 +1856,7 @@
           "cardmarket_ids": [
             279276
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130868/preview_vespiquen-23-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/90329_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 90329,
           "game_id": 5,
@@ -1838,7 +1873,7 @@
       "clean_name": "Vileplume",
       "number": "24/90",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90381_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/90381_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90381%2Fpokemon-undaunted-vileplume",
       "manapool_url": null,
@@ -1857,7 +1892,8 @@
           "collector_number": "24/90",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -1874,6 +1910,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1926,7 +1963,7 @@
           "cardmarket_ids": [
             279277
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130870/preview_vileplume-24-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/90381_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 90381,
           "game_id": 5,
@@ -1943,7 +1980,7 @@
       "clean_name": "Weavile",
       "number": "25/90",
       "rarity": "Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90533_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/90533_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90533%2Fpokemon-undaunted-weavile",
       "manapool_url": null,
@@ -1962,7 +1999,8 @@
           "collector_number": "25/90",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -1979,6 +2017,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2031,7 +2070,7 @@
           "cardmarket_ids": [
             279278
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130872/preview_weavile-25-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/90533_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 90533,
           "game_id": 5,
@@ -2048,7 +2087,7 @@
       "clean_name": "Flareon",
       "number": "26/90",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85498_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/85498_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85498%2Fpokemon-undaunted-flareon",
       "manapool_url": null,
@@ -2067,7 +2106,8 @@
           "collector_number": "26/90",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -2084,6 +2124,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2136,7 +2177,7 @@
           "cardmarket_ids": [
             279279
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130874/preview_flareon-26-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/85498_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 85498,
           "game_id": 5,
@@ -2153,7 +2194,7 @@
       "clean_name": "Gloom",
       "number": "27/90",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85786_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/85786_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85786%2Fpokemon-undaunted-gloom",
       "manapool_url": null,
@@ -2172,7 +2213,8 @@
           "collector_number": "27/90",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -2189,6 +2231,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2241,7 +2284,7 @@
           "cardmarket_ids": [
             279280
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130876/preview_gloom-27-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/85786_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 85786,
           "game_id": 5,
@@ -2258,7 +2301,7 @@
       "clean_name": "Jolteon",
       "number": "28/90",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86345_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/86345_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86345%2Fpokemon-undaunted-jolteon",
       "manapool_url": null,
@@ -2277,7 +2320,8 @@
           "collector_number": "28/90",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -2294,6 +2338,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2346,7 +2391,7 @@
           "cardmarket_ids": [
             279281
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130878/preview_jolteon-28-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/86345_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 86345,
           "game_id": 5,
@@ -2363,7 +2408,7 @@
       "clean_name": "Lairon",
       "number": "29/90",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86582_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/86582_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86582%2Fpokemon-undaunted-lairon",
       "manapool_url": null,
@@ -2382,7 +2427,8 @@
           "collector_number": "29/90",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -2399,6 +2445,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2451,7 +2498,7 @@
           "cardmarket_ids": [
             279282
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130880/preview_lairon-29-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/86582_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 86582,
           "game_id": 5,
@@ -2468,7 +2515,7 @@
       "clean_name": "Forretress 3",
       "number": "3/90",
       "rarity": "Holo Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85551_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/85551_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85551%2Fpokemon-undaunted-forretress-3",
       "manapool_url": null,
@@ -2487,7 +2534,8 @@
           "collector_number": "03/90",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -2504,6 +2552,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2556,7 +2605,7 @@
           "cardmarket_ids": [
             279256
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130828/preview_forretress-rare-holo-3-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/85551_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 85551,
           "game_id": 5,
@@ -2573,7 +2622,7 @@
       "clean_name": "Metang",
       "number": "30/90",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87382_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/87382_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87382%2Fpokemon-undaunted-metang",
       "manapool_url": null,
@@ -2592,7 +2641,8 @@
           "collector_number": "30/90",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -2609,6 +2659,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2661,7 +2712,7 @@
           "cardmarket_ids": [
             279283
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130882/preview_metang-30-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/87382_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 87382,
           "game_id": 5,
@@ -2678,7 +2729,7 @@
       "clean_name": "Muk",
       "number": "31/90",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87625_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/87625_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87625%2Fpokemon-undaunted-muk",
       "manapool_url": null,
@@ -2697,7 +2748,8 @@
           "collector_number": "31/90",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -2714,6 +2766,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2766,7 +2819,7 @@
           "cardmarket_ids": [
             279284
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130884/preview_muk-31-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/87625_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 87625,
           "game_id": 5,
@@ -2783,7 +2836,7 @@
       "clean_name": "Pinsir",
       "number": "32/90",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88139_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88139_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88139%2Fpokemon-undaunted-pinsir",
       "manapool_url": null,
@@ -2802,7 +2855,8 @@
           "collector_number": "32/90",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -2819,6 +2873,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2871,7 +2926,7 @@
           "cardmarket_ids": [
             279285
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130886/preview_pinsir-32-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88139_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88139,
           "game_id": 5,
@@ -2888,7 +2943,7 @@
       "clean_name": "Raichu",
       "number": "33/90",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88518_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88518_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88518%2Fpokemon-undaunted-raichu",
       "manapool_url": null,
@@ -2907,7 +2962,8 @@
           "collector_number": "33/90",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -2924,6 +2980,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2976,7 +3033,7 @@
           "cardmarket_ids": [
             279286
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130888/preview_raichu-33-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88518_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88518,
           "game_id": 5,
@@ -2993,7 +3050,7 @@
       "clean_name": "Raticate",
       "number": "34/90",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88606_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88606_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88606%2Fpokemon-undaunted-raticate",
       "manapool_url": null,
@@ -3012,7 +3069,8 @@
           "collector_number": "34/90",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -3029,6 +3087,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3081,7 +3140,7 @@
           "cardmarket_ids": [
             279287
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130890/preview_raticate-34-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88606_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88606,
           "game_id": 5,
@@ -3098,7 +3157,7 @@
       "clean_name": "Sableye",
       "number": "35/90",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88854_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88854_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88854%2Fpokemon-undaunted-sableye",
       "manapool_url": null,
@@ -3117,7 +3176,8 @@
           "collector_number": "35/90",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -3134,6 +3194,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3186,7 +3247,7 @@
           "cardmarket_ids": [
             279288
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130892/preview_sableye-35-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88854_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88854,
           "game_id": 5,
@@ -3203,7 +3264,7 @@
       "clean_name": "Scyther 36",
       "number": "36/90",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89003_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/89003_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89003%2Fpokemon-undaunted-scyther-36",
       "manapool_url": null,
@@ -3222,7 +3283,8 @@
           "collector_number": "36/90",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -3239,6 +3301,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3291,7 +3354,7 @@
           "cardmarket_ids": [
             279289
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130894/preview_scyther-36-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/89003_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 89003,
           "game_id": 5,
@@ -3308,7 +3371,7 @@
       "clean_name": "Skuntank",
       "number": "37/90",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89282_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/89282_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89282%2Fpokemon-undaunted-skuntank",
       "manapool_url": null,
@@ -3327,7 +3390,8 @@
           "collector_number": "37/90",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -3344,6 +3408,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3396,7 +3461,7 @@
           "cardmarket_ids": [
             279290
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130896/preview_skuntank-37-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/89282_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 89282,
           "game_id": 5,
@@ -3413,7 +3478,7 @@
       "clean_name": "Slowbro",
       "number": "38/90",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89308_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/89308_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89308%2Fpokemon-undaunted-slowbro",
       "manapool_url": null,
@@ -3432,7 +3497,8 @@
           "collector_number": "38/90",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -3449,6 +3515,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3501,7 +3568,7 @@
           "cardmarket_ids": [
             279291
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130898/preview_slowbro-38-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/89308_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 89308,
           "game_id": 5,
@@ -3518,7 +3585,7 @@
       "clean_name": "Togetic",
       "number": "39/90",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89944_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/89944_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89944%2Fpokemon-undaunted-togetic",
       "manapool_url": null,
@@ -3537,7 +3604,8 @@
           "collector_number": "39/90",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -3554,6 +3622,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3606,7 +3675,7 @@
           "cardmarket_ids": [
             279292
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130900/preview_togetic-39-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/89944_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 89944,
           "game_id": 5,
@@ -3623,7 +3692,7 @@
       "clean_name": "Gliscor",
       "number": "4/90",
       "rarity": "Holo Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85774_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/85774_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85774%2Fpokemon-undaunted-gliscor",
       "manapool_url": null,
@@ -3642,7 +3711,8 @@
           "collector_number": "04/90",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -3659,6 +3729,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3711,7 +3782,7 @@
           "cardmarket_ids": [
             279257
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130830/preview_gliscor-rare-holo-4-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/85774_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 85774,
           "game_id": 5,
@@ -3728,7 +3799,7 @@
       "clean_name": "Unown",
       "number": "40/90",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90164_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/90164_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90164%2Fpokemon-undaunted-unown",
       "manapool_url": null,
@@ -3747,7 +3818,8 @@
           "collector_number": "40/90",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -3764,6 +3836,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3816,7 +3889,7 @@
           "cardmarket_ids": [
             279293
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130902/preview_unown-40-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/90164_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 90164,
           "game_id": 5,
@@ -3833,7 +3906,7 @@
       "clean_name": "Vaporeon",
       "number": "41/90",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90286_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/90286_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90286%2Fpokemon-undaunted-vaporeon",
       "manapool_url": null,
@@ -3852,7 +3925,8 @@
           "collector_number": "41/90",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -3869,6 +3943,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3921,7 +3996,7 @@
           "cardmarket_ids": [
             279294
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130904/preview_vaporeon-41-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/90286_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 90286,
           "game_id": 5,
@@ -3938,7 +4013,7 @@
       "clean_name": "Aron",
       "number": "42/90",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/83638_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/83638_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83638%2Fpokemon-undaunted-aron",
       "manapool_url": null,
@@ -3957,7 +4032,8 @@
           "collector_number": "42/90",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -3974,6 +4050,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4026,7 +4103,7 @@
           "cardmarket_ids": [
             279295
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130906/preview_aron-42-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/83638_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 83638,
           "game_id": 5,
@@ -4043,7 +4120,7 @@
       "clean_name": "Beldum",
       "number": "43/90",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/83792_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/83792_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83792%2Fpokemon-undaunted-beldum",
       "manapool_url": null,
@@ -4062,7 +4139,8 @@
           "collector_number": "43/90",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -4079,6 +4157,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4131,7 +4210,7 @@
           "cardmarket_ids": [
             279296
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130908/preview_beldum-43-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/83792_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 83792,
           "game_id": 5,
@@ -4148,7 +4227,7 @@
       "clean_name": "Combee",
       "number": "44/90",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84397_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84397_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84397%2Fpokemon-undaunted-combee",
       "manapool_url": null,
@@ -4167,7 +4246,8 @@
           "collector_number": "44/90",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -4184,6 +4264,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4236,7 +4317,7 @@
           "cardmarket_ids": [
             279297
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130910/preview_combee-44-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84397_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84397,
           "game_id": 5,
@@ -4253,7 +4334,7 @@
       "clean_name": "Doduo",
       "number": "45/90",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84865_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84865_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84865%2Fpokemon-undaunted-doduo",
       "manapool_url": null,
@@ -4272,7 +4353,8 @@
           "collector_number": "45/90",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -4289,6 +4371,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4341,7 +4424,7 @@
           "cardmarket_ids": [
             279298
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130912/preview_doduo-45-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84865_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84865,
           "game_id": 5,
@@ -4358,7 +4441,7 @@
       "clean_name": "Drifloon",
       "number": "46/90",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84960_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84960_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84960%2Fpokemon-undaunted-drifloon",
       "manapool_url": null,
@@ -4377,7 +4460,8 @@
           "collector_number": "46/90",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -4394,6 +4478,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4446,7 +4531,7 @@
           "cardmarket_ids": [
             279299
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130914/preview_drifloon-46-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84960_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84960,
           "game_id": 5,
@@ -4463,7 +4548,7 @@
       "clean_name": "Eevee 47",
       "number": "47/90",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85087_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/85087_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85087%2Fpokemon-undaunted-eevee-47",
       "manapool_url": null,
@@ -4482,7 +4567,8 @@
           "collector_number": "47/90",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -4499,6 +4585,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4551,7 +4638,7 @@
           "cardmarket_ids": [
             279300
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130916/preview_eevee-47-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/85087_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 85087,
           "game_id": 5,
@@ -4568,7 +4655,7 @@
       "clean_name": "Eevee 48",
       "number": "48/90",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85088_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/85088_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85088%2Fpokemon-undaunted-eevee-48",
       "manapool_url": null,
@@ -4587,7 +4674,8 @@
           "collector_number": "48/90",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -4604,6 +4692,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4656,7 +4745,7 @@
           "cardmarket_ids": [
             279301
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130918/preview_eevee-48-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/85088_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 85088,
           "game_id": 5,
@@ -4673,7 +4762,7 @@
       "clean_name": "Gligar",
       "number": "49/90",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85768_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/85768_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85768%2Fpokemon-undaunted-gligar",
       "manapool_url": null,
@@ -4692,7 +4781,8 @@
           "collector_number": "49/90",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -4709,6 +4799,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4761,7 +4852,7 @@
           "cardmarket_ids": [
             279302
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130920/preview_gligar-49-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/85768_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 85768,
           "game_id": 5,
@@ -4778,7 +4869,7 @@
       "clean_name": "Houndoom",
       "number": "5/90",
       "rarity": "Holo Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86209_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/86209_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86209%2Fpokemon-undaunted-houndoom",
       "manapool_url": null,
@@ -4797,7 +4888,8 @@
           "collector_number": "05/90",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -4814,6 +4906,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4866,7 +4959,7 @@
           "cardmarket_ids": [
             279258
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130832/preview_houndoom-rare-holo-5-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/86209_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 86209,
           "game_id": 5,
@@ -4883,7 +4976,7 @@
       "clean_name": "Grimer",
       "number": "50/90",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85913_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/85913_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85913%2Fpokemon-undaunted-grimer",
       "manapool_url": null,
@@ -4902,7 +4995,8 @@
           "collector_number": "50/90",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -4919,6 +5013,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4971,7 +5066,7 @@
           "cardmarket_ids": [
             279303
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130922/preview_grimer-50-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/85913_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 85913,
           "game_id": 5,
@@ -4988,7 +5083,7 @@
       "clean_name": "Hitmonchan",
       "number": "51/90",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86095_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/86095_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86095%2Fpokemon-undaunted-hitmonchan",
       "manapool_url": null,
@@ -5007,7 +5102,8 @@
           "collector_number": "51/90",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -5024,6 +5120,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5076,7 +5173,7 @@
           "cardmarket_ids": [
             279304
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130924/preview_hitmonchan-51-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/86095_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 86095,
           "game_id": 5,
@@ -5093,7 +5190,7 @@
       "clean_name": "Hitmonlee",
       "number": "52/90",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86107_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/86107_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86107%2Fpokemon-undaunted-hitmonlee",
       "manapool_url": null,
@@ -5112,7 +5209,8 @@
           "collector_number": "52/90",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -5129,6 +5227,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5181,7 +5280,7 @@
           "cardmarket_ids": [
             279305
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130926/preview_hitmonlee-52-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/86107_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 86107,
           "game_id": 5,
@@ -5198,7 +5297,7 @@
       "clean_name": "Houndour 53",
       "number": "53/90",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86230_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/86230_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86230%2Fpokemon-undaunted-houndour-53",
       "manapool_url": null,
@@ -5217,7 +5316,8 @@
           "collector_number": "53/90",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -5234,6 +5334,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5286,7 +5387,7 @@
           "cardmarket_ids": [
             279306
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130928/preview_houndour-53-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/86230_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 86230,
           "game_id": 5,
@@ -5303,7 +5404,7 @@
       "clean_name": "Houndour 54",
       "number": "54/90",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86231_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/86231_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86231%2Fpokemon-undaunted-houndour-54",
       "manapool_url": null,
@@ -5322,7 +5423,8 @@
           "collector_number": "54/90",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -5339,6 +5441,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5391,7 +5494,7 @@
           "cardmarket_ids": [
             279307
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130930/preview_houndour-54-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/86231_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 86231,
           "game_id": 5,
@@ -5408,7 +5511,7 @@
       "clean_name": "Makuhita",
       "number": "55/90",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87133_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/87133_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87133%2Fpokemon-undaunted-makuhita",
       "manapool_url": null,
@@ -5427,7 +5530,8 @@
           "collector_number": "55/90",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -5444,6 +5548,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5496,7 +5601,7 @@
           "cardmarket_ids": [
             279308
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130932/preview_makuhita-55-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/87133_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 87133,
           "game_id": 5,
@@ -5513,7 +5618,7 @@
       "clean_name": "Mawile",
       "number": "56/90",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87263_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/87263_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87263%2Fpokemon-undaunted-mawile",
       "manapool_url": null,
@@ -5532,7 +5637,8 @@
           "collector_number": "56/90",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -5549,6 +5655,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5601,7 +5708,7 @@
           "cardmarket_ids": [
             279309
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130934/preview_mawile-56-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/87263_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 87263,
           "game_id": 5,
@@ -5618,7 +5725,7 @@
       "clean_name": "Misdreavus",
       "number": "57/90",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87511_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/87511_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87511%2Fpokemon-undaunted-misdreavus",
       "manapool_url": null,
@@ -5637,7 +5744,8 @@
           "collector_number": "57/90",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -5654,6 +5762,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5706,7 +5815,7 @@
           "cardmarket_ids": [
             279310
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130936/preview_misdreavus-57-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/87511_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 87511,
           "game_id": 5,
@@ -5723,7 +5832,7 @@
       "clean_name": "Murkrow 58",
       "number": "58/90",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87655_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/87655_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87655%2Fpokemon-undaunted-murkrow-58",
       "manapool_url": null,
@@ -5742,7 +5851,8 @@
           "collector_number": "58/90",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -5759,6 +5869,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5811,7 +5922,7 @@
           "cardmarket_ids": [
             279311
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130938/preview_murkrow-58-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/87655_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 87655,
           "game_id": 5,
@@ -5828,7 +5939,7 @@
       "clean_name": "Murkrow 59",
       "number": "59/90",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87656_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/87656_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87656%2Fpokemon-undaunted-murkrow-59",
       "manapool_url": null,
@@ -5847,7 +5958,8 @@
           "collector_number": "59/90",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -5864,6 +5976,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5916,7 +6029,7 @@
           "cardmarket_ids": [
             279312
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130940/preview_murkrow-59-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/87656_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 87656,
           "game_id": 5,
@@ -5933,7 +6046,7 @@
       "clean_name": "Magcargo",
       "number": "6/90",
       "rarity": "Holo Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87017_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/87017_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87017%2Fpokemon-undaunted-magcargo",
       "manapool_url": null,
@@ -5952,7 +6065,8 @@
           "collector_number": "06/90",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -5969,6 +6083,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6021,7 +6136,7 @@
           "cardmarket_ids": [
             279259
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130834/preview_magcargo-rare-holo-6-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/87017_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 87017,
           "game_id": 5,
@@ -6038,7 +6153,7 @@
       "clean_name": "Oddish",
       "number": "60/90",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87845_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/87845_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87845%2Fpokemon-undaunted-oddish",
       "manapool_url": null,
@@ -6057,7 +6172,8 @@
           "collector_number": "60/90",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -6074,6 +6190,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6126,7 +6243,7 @@
           "cardmarket_ids": [
             279313
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130942/preview_oddish-60-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/87845_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 87845,
           "game_id": 5,
@@ -6143,7 +6260,7 @@
       "clean_name": "Pikachu",
       "number": "61/90",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88097_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88097_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88097%2Fpokemon-undaunted-pikachu",
       "manapool_url": null,
@@ -6162,7 +6279,8 @@
           "collector_number": "61/90",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -6179,6 +6297,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6231,7 +6350,7 @@
           "cardmarket_ids": [
             279314
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130944/preview_pikachu-61-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88097_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88097,
           "game_id": 5,
@@ -6248,7 +6367,7 @@
       "clean_name": "Pineco 62",
       "number": "62/90",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88129_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88129_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88129%2Fpokemon-undaunted-pineco-62",
       "manapool_url": null,
@@ -6267,7 +6386,8 @@
           "collector_number": "62/90",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -6284,6 +6404,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6336,7 +6457,7 @@
           "cardmarket_ids": [
             279315
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130946/preview_pineco-62-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88129_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88129,
           "game_id": 5,
@@ -6353,7 +6474,7 @@
       "clean_name": "Pineco 63",
       "number": "63/90",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88130_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88130_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88130%2Fpokemon-undaunted-pineco-63",
       "manapool_url": null,
@@ -6372,7 +6493,8 @@
           "collector_number": "63/90",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -6389,6 +6511,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6441,7 +6564,7 @@
           "cardmarket_ids": [
             279316
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130948/preview_pineco-63-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88130_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88130,
           "game_id": 5,
@@ -6458,7 +6581,7 @@
       "clean_name": "Rattata",
       "number": "64/90",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88621_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88621_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88621%2Fpokemon-undaunted-rattata",
       "manapool_url": null,
@@ -6477,7 +6600,8 @@
           "collector_number": "64/90",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -6494,6 +6618,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6546,7 +6671,7 @@
           "cardmarket_ids": [
             279317
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130950/preview_rattata-64-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88621_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88621,
           "game_id": 5,
@@ -6563,7 +6688,7 @@
       "clean_name": "Scyther 65",
       "number": "65/90",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89004_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/89004_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89004%2Fpokemon-undaunted-scyther-65",
       "manapool_url": null,
@@ -6582,7 +6707,8 @@
           "collector_number": "65/90",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -6599,6 +6725,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6651,7 +6778,7 @@
           "cardmarket_ids": [
             279318
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130952/preview_scyther-65-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/89004_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 89004,
           "game_id": 5,
@@ -6668,7 +6795,7 @@
       "clean_name": "Slowpoke",
       "number": "66/90",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89333_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/89333_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89333%2Fpokemon-undaunted-slowpoke",
       "manapool_url": null,
@@ -6687,7 +6814,8 @@
           "collector_number": "66/90",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -6704,6 +6832,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6756,7 +6885,7 @@
           "cardmarket_ids": [
             279319
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130954/preview_slowpoke-66-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/89333_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 89333,
           "game_id": 5,
@@ -6773,7 +6902,7 @@
       "clean_name": "Slugma",
       "number": "67/90",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89346_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/89346_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89346%2Fpokemon-undaunted-slugma",
       "manapool_url": null,
@@ -6792,7 +6921,8 @@
           "collector_number": "67/90",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -6809,6 +6939,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6861,7 +6992,7 @@
           "cardmarket_ids": [
             279320
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130956/preview_slugma-67-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/89346_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 89346,
           "game_id": 5,
@@ -6878,7 +7009,7 @@
       "clean_name": "Sneasel",
       "number": "68/90",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89371_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/89371_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89371%2Fpokemon-undaunted-sneasel",
       "manapool_url": null,
@@ -6897,7 +7028,8 @@
           "collector_number": "68/90",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -6914,6 +7046,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6966,7 +7099,7 @@
           "cardmarket_ids": [
             279321
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130958/preview_sneasel-68-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/89371_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 89371,
           "game_id": 5,
@@ -6983,7 +7116,7 @@
       "clean_name": "Stunky",
       "number": "69/90",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89587_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/89587_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89587%2Fpokemon-undaunted-stunky",
       "manapool_url": null,
@@ -7002,7 +7135,8 @@
           "collector_number": "69/90",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -7019,6 +7153,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -7071,7 +7206,7 @@
           "cardmarket_ids": [
             279322
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130960/preview_stunky-69-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/89587_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 89587,
           "game_id": 5,
@@ -7088,7 +7223,7 @@
       "clean_name": "Scizor",
       "number": "7/90",
       "rarity": "Holo Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88963_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88963_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88963%2Fpokemon-undaunted-scizor",
       "manapool_url": null,
@@ -7107,7 +7242,8 @@
           "collector_number": "07/90",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -7124,6 +7260,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -7176,7 +7313,7 @@
           "cardmarket_ids": [
             279260
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130836/preview_scizor-rare-holo-7-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88963_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88963,
           "game_id": 5,
@@ -7193,7 +7330,7 @@
       "clean_name": "Togepi",
       "number": "70/90",
       "rarity": "Common",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89935_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/89935_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89935%2Fpokemon-undaunted-togepi",
       "manapool_url": null,
@@ -7212,7 +7349,8 @@
           "collector_number": "70/90",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -7229,6 +7367,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -7281,7 +7420,7 @@
           "cardmarket_ids": [
             279323
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130962/preview_togepi-70-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/89935_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 89935,
           "game_id": 5,
@@ -7298,7 +7437,7 @@
       "clean_name": "Burned Tower",
       "number": "71/90",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84058_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84058_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84058%2Fpokemon-undaunted-burned-tower",
       "manapool_url": null,
@@ -7317,7 +7456,8 @@
           "collector_number": "71/90",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -7334,6 +7474,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -7386,7 +7527,7 @@
           "cardmarket_ids": [
             279324
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130964/preview_burned-tower-71-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84058_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84058,
           "game_id": 5,
@@ -7403,7 +7544,7 @@
       "clean_name": "Defender",
       "number": "72/90",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84727_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84727_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84727%2Fpokemon-undaunted-defender",
       "manapool_url": null,
@@ -7422,7 +7563,8 @@
           "collector_number": "72/90",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -7439,6 +7581,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -7491,7 +7634,7 @@
           "cardmarket_ids": [
             279325
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130966/preview_defender-72-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84727_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84727,
           "game_id": 5,
@@ -7508,7 +7651,7 @@
       "clean_name": "Energy Exchanger",
       "number": "73/90",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85212_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/85212_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85212%2Fpokemon-undaunted-energy-exchanger",
       "manapool_url": null,
@@ -7527,7 +7670,8 @@
           "collector_number": "73/90",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -7544,6 +7688,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -7596,7 +7741,7 @@
           "cardmarket_ids": [
             279326
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130968/preview_energy-exchanger-73-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/85212_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 85212,
           "game_id": 5,
@@ -7613,7 +7758,7 @@
       "clean_name": "Flower Shop Lady",
       "number": "74/90",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85519_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/85519_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85519%2Fpokemon-undaunted-flower-shop-lady",
       "manapool_url": null,
@@ -7632,7 +7777,8 @@
           "collector_number": "74/90",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -7649,6 +7795,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -7701,7 +7848,7 @@
           "cardmarket_ids": [
             279327
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130970/preview_flower-shop-lady-74-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/85519_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 85519,
           "game_id": 5,
@@ -7718,7 +7865,7 @@
       "clean_name": "Legend Box",
       "number": "75/90",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86709_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/86709_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86709%2Fpokemon-undaunted-legend-box",
       "manapool_url": null,
@@ -7737,7 +7884,8 @@
           "collector_number": "75/90",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -7754,6 +7902,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -7806,7 +7955,7 @@
           "cardmarket_ids": [
             279328
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130972/preview_legend-box-75-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/86709_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 86709,
           "game_id": 5,
@@ -7823,7 +7972,7 @@
       "clean_name": "Ruins Of Alph",
       "number": "76/90",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88846_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88846_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88846%2Fpokemon-undaunted-ruins-of-alph",
       "manapool_url": null,
@@ -7842,7 +7991,8 @@
           "collector_number": "76/90",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -7859,6 +8009,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -7911,7 +8062,7 @@
           "cardmarket_ids": [
             279329
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130974/preview_ruins-of-alph-76-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88846_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88846,
           "game_id": 5,
@@ -7928,7 +8079,7 @@
       "clean_name": "Sages Training",
       "number": "77/90",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88893_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88893_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88893%2Fpokemon-undaunted-sages-training",
       "manapool_url": null,
@@ -7947,7 +8098,8 @@
           "collector_number": "77/90",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -7964,6 +8116,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -8016,7 +8169,7 @@
           "cardmarket_ids": [
             279330
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130976/preview_sage-s-training-77-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88893_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88893,
           "game_id": 5,
@@ -8033,7 +8186,7 @@
       "clean_name": "Team Rockets Trickery",
       "number": "78/90",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89852_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/89852_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89852%2Fpokemon-undaunted-team-rockets-trickery",
       "manapool_url": null,
@@ -8052,7 +8205,8 @@
           "collector_number": "78/90",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -8069,6 +8223,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -8121,7 +8276,7 @@
           "cardmarket_ids": [
             279331
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130978/preview_team-rocket-s-trickery-78-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/89852_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 89852,
           "game_id": 5,
@@ -8138,7 +8293,7 @@
       "clean_name": "Darkness Energy Special",
       "number": "79/90",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84693_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/84693_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84693%2Fpokemon-undaunted-darkness-energy-special",
       "manapool_url": null,
@@ -8157,7 +8312,8 @@
           "collector_number": "79/90",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -8174,6 +8330,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -8226,7 +8383,7 @@
           "cardmarket_ids": [
             279332
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130980/preview_darkness-energy-79-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/84693_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 84693,
           "game_id": 5,
@@ -8243,7 +8400,7 @@
       "clean_name": "Smeargle",
       "number": "8/90",
       "rarity": "Holo Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89356_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/89356_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89356%2Fpokemon-undaunted-smeargle",
       "manapool_url": null,
@@ -8262,7 +8419,8 @@
           "collector_number": "08/90",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -8279,6 +8437,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -8331,7 +8490,7 @@
           "cardmarket_ids": [
             279261
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130838/preview_smeargle-rare-holo-8-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/89356_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 89356,
           "game_id": 5,
@@ -8348,7 +8507,7 @@
       "clean_name": "Metal Energy Special",
       "number": "80/90",
       "rarity": "Uncommon",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87366_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/87366_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87366%2Fpokemon-undaunted-metal-energy-special",
       "manapool_url": null,
@@ -8367,7 +8526,8 @@
           "collector_number": "80/90",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -8384,6 +8544,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -8436,7 +8597,7 @@
           "cardmarket_ids": [
             279333
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130982/preview_metal-energy-80-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/87366_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 87366,
           "game_id": 5,
@@ -8453,7 +8614,7 @@
       "clean_name": "Espeon Prime",
       "number": "81/90",
       "rarity": "Ultra Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85323_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/85323_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85323%2Fpokemon-undaunted-espeon-prime",
       "manapool_url": null,
@@ -8489,6 +8650,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -8532,7 +8694,7 @@
           "cardmarket_ids": [
             279334
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130984/preview_espeon-super-rare-holo-81-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/85323_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 85323,
           "game_id": 5,
@@ -8549,7 +8711,7 @@
       "clean_name": "Houndoom Prime",
       "number": "82/90",
       "rarity": "Ultra Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86210_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/86210_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86210%2Fpokemon-undaunted-houndoom-prime",
       "manapool_url": null,
@@ -8585,6 +8747,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -8628,7 +8791,7 @@
           "cardmarket_ids": [
             279335
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130985/preview_houndoom-super-rare-holo-82-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/86210_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 86210,
           "game_id": 5,
@@ -8645,7 +8808,7 @@
       "clean_name": "Raichu Prime",
       "number": "83/90",
       "rarity": "Ultra Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88519_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88519_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88519%2Fpokemon-undaunted-raichu-prime",
       "manapool_url": null,
@@ -8681,6 +8844,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -8724,7 +8888,7 @@
           "cardmarket_ids": [
             279336
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130986/preview_raichu-super-rare-holo-83-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88519_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88519,
           "game_id": 5,
@@ -8741,7 +8905,7 @@
       "clean_name": "Scizor Prime",
       "number": "84/90",
       "rarity": "Ultra Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88964_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88964_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88964%2Fpokemon-undaunted-scizor-prime",
       "manapool_url": null,
@@ -8777,6 +8941,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -8820,7 +8985,7 @@
           "cardmarket_ids": [
             279337
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130987/preview_scizor-super-rare-holo-84-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88964_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88964,
           "game_id": 5,
@@ -8837,7 +9002,7 @@
       "clean_name": "Slowking Prime",
       "number": "85/90",
       "rarity": "Ultra Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89318_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/89318_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89318%2Fpokemon-undaunted-slowking-prime",
       "manapool_url": null,
@@ -8873,6 +9038,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -8916,7 +9082,7 @@
           "cardmarket_ids": [
             279338
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130988/preview_slowking-super-rare-holo-85-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/89318_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 89318,
           "game_id": 5,
@@ -8933,7 +9099,7 @@
       "clean_name": "Umbreon Prime",
       "number": "86/90",
       "rarity": "Ultra Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90146_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/90146_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90146%2Fpokemon-undaunted-umbreon-prime",
       "manapool_url": null,
@@ -8969,6 +9135,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -9012,7 +9179,7 @@
           "cardmarket_ids": [
             279339
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130989/preview_umbreon-super-rare-holo-86-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/90146_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 90146,
           "game_id": 5,
@@ -9029,7 +9196,7 @@
       "clean_name": "Kyogre and Groudon Legend Top",
       "number": "87/90",
       "rarity": "Ultra Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86554_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/86554_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86554%2Fpokemon-undaunted-kyogre-and-groudon-legend-top",
       "manapool_url": null,
@@ -9065,6 +9232,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -9108,7 +9276,7 @@
           "cardmarket_ids": [
             279340
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130990/preview_kyogre-groudon-legend-top-87-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/86554_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 86554,
           "game_id": 5,
@@ -9125,7 +9293,7 @@
       "clean_name": "Kyogre and Groudon Legend Bottom",
       "number": "88/90",
       "rarity": "Ultra Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86553_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/86553_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86553%2Fpokemon-undaunted-kyogre-and-groudon-legend-bottom",
       "manapool_url": null,
@@ -9161,6 +9329,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -9204,7 +9373,7 @@
           "cardmarket_ids": [
             279341
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130991/preview_kyogre-groudon-legend-bottom-88-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/86553_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 86553,
           "game_id": 5,
@@ -9221,7 +9390,7 @@
       "clean_name": "Rayquaza and Deoxys Legend Top",
       "number": "89/90",
       "rarity": "Ultra Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88638_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88638_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88638%2Fpokemon-undaunted-rayquaza-and-deoxys-legend-top",
       "manapool_url": null,
@@ -9257,6 +9426,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -9300,7 +9470,7 @@
           "cardmarket_ids": [
             279342
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130992/preview_rayquaza-deoxys-legend-top-89-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88638_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88638,
           "game_id": 5,
@@ -9317,7 +9487,7 @@
       "clean_name": "Togekiss",
       "number": "9/90",
       "rarity": "Holo Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89924_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/89924_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89924%2Fpokemon-undaunted-togekiss",
       "manapool_url": null,
@@ -9336,7 +9506,8 @@
           "collector_number": "09/90",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -9353,6 +9524,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -9405,7 +9577,7 @@
           "cardmarket_ids": [
             279262
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130840/preview_togekiss-holo-rare-9-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/89924_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 89924,
           "game_id": 5,
@@ -9422,7 +9594,7 @@
       "clean_name": "Rayquaza and Deoxys Legend Bottom",
       "number": "90/90",
       "rarity": "Ultra Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88637_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/88637_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88637%2Fpokemon-undaunted-rayquaza-and-deoxys-legend-bottom",
       "manapool_url": null,
@@ -9458,6 +9630,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -9501,7 +9674,7 @@
           "cardmarket_ids": [
             279343
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130993/preview_rayquaza-deoxys-legend-bottom-90-90-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/88637_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88637,
           "game_id": 5,
@@ -9518,7 +9691,7 @@
       "clean_name": "Alph Lithograph",
       "number": "THREE",
       "rarity": "Ultra Rare",
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/83511_200w.jpg",
+      "image_url": "https://cdn.tcgtracking.com/product/83511_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83511%2Fpokemon-undaunted-alph-lithograph",
       "manapool_url": null,
@@ -9554,6 +9727,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -9597,7 +9771,7 @@
           "cardmarket_ids": [
             279253
           ],
-          "image_url": "https://cardtrader.com/uploads/blueprints/image/130994/preview_alph-lithograph-secret-rare-three-undaunted.jpg",
+          "image_url": "https://cdn.tcgtracking.com/product/83511_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 83511,
           "game_id": 5,
