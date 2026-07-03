@@ -286,7 +286,7 @@ export const blogPosts = [
     windowWashingGameMDM,
     //mythicalHuntMDM,
     //lmc4720InteractiveNarrativeProject,
-    kartTheTechFilledRacingGame,
+    //kartTheTechFilledRacingGame,
 
     /* Design */
     biophiliaDesignProcess,
