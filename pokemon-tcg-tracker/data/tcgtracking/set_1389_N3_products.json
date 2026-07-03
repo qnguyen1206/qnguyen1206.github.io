@@ -4,8 +4,8 @@
   "set_abbr": "N3",
   "set_released": "2001-09-21",
   "product_count": 69,
-  "data_modified": "2026-06-24T10:37:05-04:00",
-  "file_generated": "2026-06-24T21:09:40-04:00",
+  "data_modified": "2026-06-27T14:54:16-04:00",
+  "file_generated": "2026-07-01T16:48:38-04:00",
   "pricing_url": "/v1/3/sets/1389/pricing",
   "cards_url": "/v1/3/sets/1389/cards",
   "sealed_url": "/v1/3/sets/1389/sealed",
@@ -14,7 +14,7 @@
     {
       "id": 634445,
       "name": "Neo Revelation Booster Box [1st Edition]",
-      "clean_name": "Neo Revelation Booster Box 1st Edition",
+      "clean_name": "Neo Revelation Booster Box [1st Edition]",
       "number": null,
       "rarity": null,
       "image_url": "https://cdn.tcgtracking.com/product/634445_200w.jpg",
@@ -29,7 +29,7 @@
     {
       "id": 138145,
       "name": "Neo Revelation Booster Pack [1st Edition]",
-      "clean_name": "Neo Revelation Booster Pack 1st Edition",
+      "clean_name": "Neo Revelation Booster Pack [1st Edition]",
       "number": null,
       "rarity": null,
       "image_url": "https://cdn.tcgtracking.com/product/138145_200w.jpg",
@@ -44,7 +44,7 @@
     {
       "id": 138146,
       "name": "Neo Revelation Booster Pack [Unlimited Edition]",
-      "clean_name": "Neo Revelation Booster Pack Unlimited Edition",
+      "clean_name": "Neo Revelation Booster Pack [Unlimited Edition]",
       "number": null,
       "rarity": null,
       "image_url": "https://cdn.tcgtracking.com/product/138146_200w.jpg",
@@ -81,7 +81,8 @@
           "collector_number": "01/64",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -95,6 +96,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -189,7 +191,8 @@
           "collector_number": "02/64",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -203,6 +206,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -275,7 +279,7 @@
     {
       "id": 84141,
       "name": "Celebi (3)",
-      "clean_name": "Celebi 3",
+      "clean_name": "Celebi (3)",
       "number": "03/64",
       "rarity": "Holo Rare",
       "image_url": "https://cdn.tcgtracking.com/product/84141_200w.jpg",
@@ -297,7 +301,8 @@
           "collector_number": "03/64",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -311,6 +316,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -405,7 +411,8 @@
           "collector_number": "04/64",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -419,6 +426,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -513,7 +521,8 @@
           "collector_number": "05/64",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -527,6 +536,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -599,7 +609,7 @@
     {
       "id": 85266,
       "name": "Entei (6)",
-      "clean_name": "Entei 6",
+      "clean_name": "Entei (6)",
       "number": "06/64",
       "rarity": "Holo Rare",
       "image_url": "https://cdn.tcgtracking.com/product/85266_200w.jpg",
@@ -621,7 +631,8 @@
           "collector_number": "06/64",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -635,6 +646,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -707,7 +719,7 @@
     {
       "id": 86118,
       "name": "Ho-oh (7)",
-      "clean_name": "Ho oh 7",
+      "clean_name": "Ho-oh (7)",
       "number": "07/64",
       "rarity": "Holo Rare",
       "image_url": "https://cdn.tcgtracking.com/product/86118_200w.jpg",
@@ -729,7 +741,8 @@
           "collector_number": "07/64",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -743,6 +756,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -837,7 +851,8 @@
           "collector_number": "08/64",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -851,6 +866,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -945,7 +961,8 @@
           "collector_number": "09/64",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -959,6 +976,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1053,7 +1071,8 @@
           "collector_number": "10/64",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -1067,6 +1086,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1161,7 +1181,8 @@
           "collector_number": "11/64",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -1175,6 +1196,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1269,7 +1291,8 @@
           "collector_number": "12/64",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -1283,6 +1306,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1355,7 +1379,7 @@
     {
       "id": 88529,
       "name": "Raikou (13)",
-      "clean_name": "Raikou 13",
+      "clean_name": "Raikou (13)",
       "number": "13/64",
       "rarity": "Holo Rare",
       "image_url": "https://cdn.tcgtracking.com/product/88529_200w.jpg",
@@ -1377,7 +1401,8 @@
           "collector_number": "13/64",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -1391,6 +1416,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1463,7 +1489,7 @@
     {
       "id": 89597,
       "name": "Suicune (14)",
-      "clean_name": "Suicune 14",
+      "clean_name": "Suicune (14)",
       "number": "14/64",
       "rarity": "Holo Rare",
       "image_url": "https://cdn.tcgtracking.com/product/89597_200w.jpg",
@@ -1485,7 +1511,8 @@
           "collector_number": "14/64",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -1499,6 +1526,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1593,7 +1621,8 @@
           "collector_number": "015",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -1607,6 +1636,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1679,7 +1709,7 @@
     {
       "id": 84142,
       "name": "Celebi (16)",
-      "clean_name": "Celebi 16",
+      "clean_name": "Celebi (16)",
       "number": "16/64",
       "rarity": "Rare",
       "image_url": "https://cdn.tcgtracking.com/product/84142_200w.jpg",
@@ -1701,7 +1731,8 @@
           "collector_number": "16/64",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -1715,6 +1746,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1787,7 +1819,7 @@
     {
       "id": 85269,
       "name": "Entei (17)",
-      "clean_name": "Entei 17",
+      "clean_name": "Entei (17)",
       "number": "17/64",
       "rarity": "Rare",
       "image_url": "https://cdn.tcgtracking.com/product/85269_200w.jpg",
@@ -1809,7 +1841,8 @@
           "collector_number": "17/64",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -1823,6 +1856,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1895,7 +1929,7 @@
     {
       "id": 86119,
       "name": "Ho-oh (18)",
-      "clean_name": "Ho oh 18",
+      "clean_name": "Ho-oh (18)",
       "number": "18/64",
       "rarity": "Rare",
       "image_url": "https://cdn.tcgtracking.com/product/86119_200w.jpg",
@@ -1917,7 +1951,8 @@
           "collector_number": "18/64",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -1931,6 +1966,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2025,7 +2061,8 @@
           "collector_number": "19/64",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -2039,6 +2076,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2133,7 +2171,8 @@
           "collector_number": "20/64",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -2147,6 +2186,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2241,7 +2281,8 @@
           "collector_number": "21/64",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -2255,6 +2296,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2327,7 +2369,7 @@
     {
       "id": 88530,
       "name": "Raikou (22)",
-      "clean_name": "Raikou 22",
+      "clean_name": "Raikou (22)",
       "number": "22/64",
       "rarity": "Rare",
       "image_url": "https://cdn.tcgtracking.com/product/88530_200w.jpg",
@@ -2349,7 +2391,8 @@
           "collector_number": "22/64",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -2363,6 +2406,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2457,7 +2501,8 @@
           "collector_number": "23/64",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -2471,6 +2516,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2565,7 +2611,8 @@
           "collector_number": "24/64",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -2579,6 +2626,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2673,7 +2721,8 @@
           "collector_number": "25/64",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -2687,6 +2736,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2781,7 +2831,8 @@
           "collector_number": "26/64",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -2795,6 +2846,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2867,7 +2919,7 @@
     {
       "id": 89599,
       "name": "Suicune (27)",
-      "clean_name": "Suicune 27",
+      "clean_name": "Suicune (27)",
       "number": "27/64",
       "rarity": "Rare",
       "image_url": "https://cdn.tcgtracking.com/product/89599_200w.jpg",
@@ -2889,7 +2941,8 @@
           "collector_number": "27/64",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -2903,6 +2956,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2997,7 +3051,8 @@
           "collector_number": "28/64",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -3011,6 +3066,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3105,7 +3161,8 @@
           "collector_number": "29/64",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -3119,6 +3176,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3213,7 +3271,8 @@
           "collector_number": "30/64",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -3227,6 +3286,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3321,7 +3381,8 @@
           "collector_number": "31/64",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -3335,6 +3396,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3429,7 +3491,8 @@
           "collector_number": "32/64",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -3443,6 +3506,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3552,6 +3616,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3646,7 +3711,8 @@
           "collector_number": "34/64",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -3660,6 +3726,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3754,7 +3821,8 @@
           "collector_number": "35/64",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -3768,6 +3836,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3862,7 +3931,8 @@
           "collector_number": "36/64",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -3876,6 +3946,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3970,7 +4041,8 @@
           "collector_number": "37/64",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -3984,6 +4056,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4078,7 +4151,8 @@
           "collector_number": "38/64",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -4092,6 +4166,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4164,7 +4239,7 @@
     {
       "id": 90199,
       "name": "Unown [B]",
-      "clean_name": "Unown B",
+      "clean_name": "Unown [B]",
       "number": "39/64",
       "rarity": "Uncommon",
       "image_url": "https://cdn.tcgtracking.com/product/90199_200w.jpg",
@@ -4186,7 +4261,8 @@
           "collector_number": "39/64",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -4200,6 +4276,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4272,7 +4349,7 @@
     {
       "id": 90244,
       "name": "Unown [Y]",
-      "clean_name": "Unown Y",
+      "clean_name": "Unown [Y]",
       "number": "40/64",
       "rarity": "Uncommon",
       "image_url": "https://cdn.tcgtracking.com/product/90244_200w.jpg",
@@ -4294,7 +4371,8 @@
           "collector_number": "40/64",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -4308,6 +4386,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4402,7 +4481,8 @@
           "collector_number": "41/64",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -4416,6 +4496,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4510,7 +4591,8 @@
           "collector_number": "42/64",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -4524,6 +4606,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4596,7 +4679,7 @@
     {
       "id": 85382,
       "name": "Farfetch'd",
-      "clean_name": "Farfetchd",
+      "clean_name": "Farfetch'd",
       "number": "43/64",
       "rarity": "Common",
       "image_url": "https://cdn.tcgtracking.com/product/85382_200w.jpg",
@@ -4618,7 +4701,8 @@
           "collector_number": "43/64",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -4632,6 +4716,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4726,7 +4811,8 @@
           "collector_number": "44/64",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -4740,6 +4826,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4834,7 +4921,8 @@
           "collector_number": "45/64",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -4848,6 +4936,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4957,6 +5046,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5051,7 +5141,8 @@
           "collector_number": "47/64",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -5065,6 +5156,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5159,7 +5251,8 @@
           "collector_number": "48/64",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -5173,6 +5266,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5267,7 +5361,8 @@
           "collector_number": "49/64",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -5281,6 +5376,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5375,7 +5471,8 @@
           "collector_number": "50/64",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -5389,6 +5486,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5483,7 +5581,8 @@
           "collector_number": "51/64",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -5497,6 +5596,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5591,7 +5691,8 @@
           "collector_number": "52/64",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -5605,6 +5706,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5699,7 +5801,8 @@
           "collector_number": "53/64",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -5713,6 +5816,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5807,7 +5911,8 @@
           "collector_number": "54/64",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -5821,6 +5926,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5915,7 +6021,8 @@
           "collector_number": "55/64",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -5929,6 +6036,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6023,7 +6131,8 @@
           "collector_number": "56/64",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -6037,6 +6146,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6131,7 +6241,8 @@
           "collector_number": "57/64",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -6145,6 +6256,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6217,7 +6329,7 @@
     {
       "id": 90217,
       "name": "Unown [K]",
-      "clean_name": "Unown K",
+      "clean_name": "Unown [K]",
       "number": "58/64",
       "rarity": "Common",
       "image_url": "https://cdn.tcgtracking.com/product/90217_200w.jpg",
@@ -6239,7 +6351,8 @@
           "collector_number": "58/64",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -6253,6 +6366,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6347,7 +6461,8 @@
           "collector_number": "59/64",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -6361,6 +6476,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6455,7 +6571,8 @@
           "collector_number": "60/64",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -6469,6 +6586,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6563,7 +6681,8 @@
           "collector_number": "61/64",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -6577,6 +6696,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6671,7 +6791,8 @@
           "collector_number": "62/64",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -6685,6 +6806,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6757,7 +6879,7 @@
     {
       "id": 88770,
       "name": "Rocket's Hideout",
-      "clean_name": "Rockets Hideout",
+      "clean_name": "Rocket's Hideout",
       "number": "63/64",
       "rarity": "Uncommon",
       "image_url": "https://cdn.tcgtracking.com/product/88770_200w.jpg",
@@ -6779,7 +6901,8 @@
           "collector_number": "63/64",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -6793,6 +6916,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6887,7 +7011,8 @@
           "collector_number": "64/64",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -6901,6 +7026,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -7009,6 +7135,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -7108,6 +7235,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
