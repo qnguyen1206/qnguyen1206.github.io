@@ -7,6 +7,7 @@ import './styles/projects-neon.css';
 
 import { initHero } from './sections/hero.js';
 import { initAbout } from './sections/about.js';
+import {initExperience} from './sections/experience.js';
 import { initProjects } from './sections/projects.js';
 import { initBlog } from './sections/blog.js';
 import { initCertificates } from './sections/certificates.js';
@@ -20,6 +21,7 @@ document.querySelector('#app').innerHTML = `
   <main>
     <section id="hero"></section>
     <section id="about" class="section"></section>
+    <!-- <section id="experience" class="section"></section> -->
     <section id="projects" class="section"></section>
     <section id="blog" class="section"></section>
     <section id="certificates" class="section"></section>
@@ -31,6 +33,7 @@ document.querySelector('#app').innerHTML = `
 document.addEventListener('DOMContentLoaded', () => {
   initHero();
   initAbout();
+  initExperience();
   initProjects();
   initBlog();
   initCertificates();

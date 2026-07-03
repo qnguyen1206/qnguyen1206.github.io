@@ -6,7 +6,7 @@ import { trackBlogView } from '../utils/analytics.js';
 export function initBlog() {
   const blog = document.getElementById('blog');
   if (!blog) return;
-  const categories = ['All', 'LeetCode', 'TryHackMe', 'HackTheBox' , 'Tools', 'Games'];
+  const categories = ['All', 'LeetCode', 'TryHackMe', 'HackTheBox' , 'Tools', 'Games', 'Design'];
   const difficulties = ['All', 'Easy', 'Medium', 'Hard', 'Challenge', 'Extreme'];
   const POSTS_PER_PAGE = 9;
   let currentPage = 1;
@@ -419,6 +419,11 @@ export function initBlog() {
       .blog-category.games {
         background: rgba(153, 141, 35, 0.2);
         color: #e7ff30;
+      }
+
+      .blog-category.design {
+        background: rgba(153, 141, 35, 0.2);
+        color: #c248bd;
       }
 
       .blog-difficulty {
