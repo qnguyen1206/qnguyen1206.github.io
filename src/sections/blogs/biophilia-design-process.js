@@ -5,7 +5,7 @@ export default {
     difficulty: 'Hard',
     tags: ['Design', 'VR', 'Web Development', 'UI/UX'],
     date: '2026-07-02T12:00:00',
-    excerpt: 'Biophilia Design Process',
+    excerpt: 'Design Process and Sketches for Biophilia',
     content: `
 This project was awarded a Catalyst Grant and is an on going project led by Artist Belinda Person in collaboration with Professor Krystian Ramlogan.
 

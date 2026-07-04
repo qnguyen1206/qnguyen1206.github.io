@@ -24,7 +24,6 @@ export function initHero() {
             <li><a href="#projects" class="hero-nav-link">Projects</a></li>
             <li><a href="#blog" class="hero-nav-link">Writeups</a></li>
             <li><a href="#certificates" class="hero-nav-link">Certificates</a></li>
-            <li><a href="#resume" class="hero-nav-link">Resume</a></li>
             <li><a href="#contacts" class="hero-nav-link">Contact</a></li>
           </ul>
         </nav>
