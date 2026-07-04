@@ -4,8 +4,8 @@
   "set_abbr": "PR",
   "set_released": "1999-07-01",
   "product_count": 71,
-  "data_modified": "2026-06-24T10:37:05-04:00",
-  "file_generated": "2026-06-24T21:09:40-04:00",
+  "data_modified": "2026-06-27T14:54:04-04:00",
+  "file_generated": "2026-07-01T16:48:38-04:00",
   "pricing_url": "/v1/3/sets/1418/pricing",
   "cards_url": "/v1/3/sets/1418/cards",
   "sealed_url": "/v1/3/sets/1418/sealed",
@@ -29,7 +29,7 @@
     {
       "id": 477048,
       "name": "Scan-Tastic Spectacular Promo Pack [Ho-oh & Rapidash]",
-      "clean_name": "Scan Tastic Spectacular Promo Pack Ho oh and Rapidash",
+      "clean_name": "Scan-Tastic Spectacular Promo Pack [Ho-oh & Rapidash]",
       "number": null,
       "rarity": null,
       "image_url": "https://cdn.tcgtracking.com/product/477048_200w.jpg",
@@ -92,6 +92,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -212,6 +213,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -317,6 +319,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -426,7 +429,8 @@
           "collector_number": "037/132",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en"
@@ -437,6 +441,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -533,6 +538,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -623,6 +629,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -717,66 +724,7 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 275593,
-      "cardtrader_id": 111380,
-      "cardtrader": [
-        {
-          "id": 111380,
-          "name": "Wartortle",
-          "match_type": "tcgplayer",
-          "match_confidence": 100,
-          "expansion": "W Promos",
-          "expansion_code": "wpromos",
-          "collector_number": "063",
-          "rarity": "Promo",
-          "finishes": [
-            "normal"
-          ],
-          "languages": [],
-          "properties": [
-            {
-              "name": "condition",
-              "type": "string",
-              "default_value": "Near Mint",
-              "possible_values": [
-                "Near Mint",
-                "Slightly Played",
-                "Moderately Played",
-                "Played",
-                "Poor"
-              ]
-            },
-            {
-              "name": "signed",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "altered",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            }
-          ],
-          "cardmarket_ids": [
-            275593
-          ],
-          "image_url": "https://cdn.tcgtracking.com/product/127206_200w.jpg",
-          "scryfall_id": null,
-          "tcg_player_id": 127206,
-          "game_id": 5,
-          "category_id": 73,
-          "category_name": "Pokémon Singles",
-          "product_type": "single",
-          "group_id": 1418
-        }
-      ]
+      "cardtrader_id": 111380
     },
     {
       "id": 86309,
@@ -847,6 +795,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -950,6 +899,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1160,6 +1110,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1276,6 +1227,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1583,6 +1535,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1957,6 +1910,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2128,6 +2082,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
