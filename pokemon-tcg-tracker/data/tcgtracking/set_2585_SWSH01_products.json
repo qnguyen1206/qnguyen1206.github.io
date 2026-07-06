@@ -4,8 +4,8 @@
   "set_abbr": "SWSH01",
   "set_released": "2020-02-07",
   "product_count": 289,
-  "data_modified": "2026-06-27T14:54:24-04:00",
-  "file_generated": "2026-06-28T04:32:24-04:00",
+  "data_modified": "2026-07-05T06:24:08-04:00",
+  "file_generated": "2026-07-05T08:33:36-04:00",
   "pricing_url": "/v1/3/sets/2585/pricing",
   "cards_url": "/v1/3/sets/2585/cards",
   "sealed_url": "/v1/3/sets/2585/sealed",
@@ -368,6 +368,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -464,6 +465,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -560,6 +562,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -656,6 +659,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -863,7 +867,7 @@
     {
       "id": 206423,
       "name": "Galar Partners Tin [Set of 3]",
-      "clean_name": "Galar Partners Tin Set of 3",
+      "clean_name": "Galar Partners Tin [Set of 3]",
       "number": null,
       "rarity": null,
       "image_url": "https://cdn.tcgtracking.com/product/206423_200w.jpg",
@@ -917,6 +921,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1103,6 +1108,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1182,7 +1188,8 @@
           "collector_number": null,
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -1199,6 +1206,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1319,6 +1327,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -1391,7 +1400,7 @@
     {
       "id": 209531,
       "name": "Spring 2020 Collector's Chest Tin",
-      "clean_name": "Spring 2020 Collectors Chest Tin",
+      "clean_name": "Spring 2020 Collector's Chest Tin",
       "number": null,
       "rarity": null,
       "image_url": "https://cdn.tcgtracking.com/product/209531_200w.jpg",
@@ -2421,6 +2430,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2517,6 +2527,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2596,7 +2607,8 @@
           "collector_number": "002/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -2613,6 +2625,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2701,7 +2714,8 @@
           "collector_number": "003/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -2718,6 +2732,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2806,7 +2821,8 @@
           "collector_number": "004/202",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -2823,6 +2839,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -2911,7 +2928,8 @@
           "collector_number": "005/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -2928,6 +2946,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3016,7 +3035,8 @@
           "collector_number": "006/202",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -3033,6 +3053,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3121,7 +3142,8 @@
           "collector_number": "007/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -3138,6 +3160,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3226,7 +3249,8 @@
           "collector_number": "008/202",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -3243,6 +3267,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3348,6 +3373,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3427,7 +3453,8 @@
           "collector_number": "010/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -3444,6 +3471,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3532,7 +3560,8 @@
           "collector_number": "011/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -3549,6 +3578,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3637,7 +3667,8 @@
           "collector_number": "012/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -3654,6 +3685,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3742,7 +3774,8 @@
           "collector_number": "013/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -3759,6 +3792,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3847,7 +3881,8 @@
           "collector_number": "014/202h",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -3864,6 +3899,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -3952,7 +3988,8 @@
           "collector_number": "015/202",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -3969,6 +4006,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4057,7 +4095,8 @@
           "collector_number": "016/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -4074,6 +4113,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4162,7 +4202,8 @@
           "collector_number": "017/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -4179,6 +4220,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4267,7 +4309,8 @@
           "collector_number": "018/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -4284,6 +4327,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4372,7 +4416,8 @@
           "collector_number": "019/202",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -4389,6 +4434,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4477,7 +4523,8 @@
           "collector_number": "020/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -4494,6 +4541,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4582,7 +4630,8 @@
           "collector_number": "021/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -4599,6 +4648,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4687,7 +4737,8 @@
           "collector_number": "022/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -4704,6 +4755,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4792,7 +4844,8 @@
           "collector_number": "023/202",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -4809,6 +4862,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -4914,6 +4968,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5010,6 +5065,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5089,7 +5145,8 @@
           "collector_number": "026/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -5106,6 +5163,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5194,7 +5252,8 @@
           "collector_number": "027/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -5211,6 +5270,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5299,7 +5359,8 @@
           "collector_number": "028/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -5316,6 +5377,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5404,7 +5466,8 @@
           "collector_number": "029/202",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -5421,6 +5484,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5509,7 +5573,8 @@
           "collector_number": "030/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -5526,6 +5591,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5614,7 +5680,8 @@
           "collector_number": "031/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -5631,6 +5698,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5719,7 +5787,8 @@
           "collector_number": "032/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -5736,6 +5805,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5824,7 +5894,8 @@
           "collector_number": "033/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -5841,6 +5912,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -5929,7 +6001,8 @@
           "collector_number": "034/202h",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -5946,6 +6019,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6034,7 +6108,8 @@
           "collector_number": "035/202",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -6051,6 +6126,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6139,7 +6215,8 @@
           "collector_number": "036/202",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -6156,6 +6233,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6244,7 +6322,8 @@
           "collector_number": "037/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -6261,6 +6340,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6349,7 +6429,8 @@
           "collector_number": "038/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -6366,6 +6447,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6454,7 +6536,8 @@
           "collector_number": "039/202",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -6471,6 +6554,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6559,7 +6643,8 @@
           "collector_number": "040/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -6576,6 +6661,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6664,7 +6750,8 @@
           "collector_number": "041/202",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -6681,6 +6768,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6769,7 +6857,8 @@
           "collector_number": "042/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -6786,6 +6875,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6874,7 +6964,8 @@
           "collector_number": "043/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -6891,6 +6982,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -6979,7 +7071,8 @@
           "collector_number": "044/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -6996,6 +7089,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -7084,7 +7178,8 @@
           "collector_number": "045/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -7101,6 +7196,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -7189,7 +7285,8 @@
           "collector_number": "046/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -7206,6 +7303,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -7294,7 +7392,8 @@
           "collector_number": "047/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -7311,6 +7410,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -7399,7 +7499,8 @@
           "collector_number": "048/202",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -7416,6 +7517,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -7521,6 +7623,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -7617,6 +7720,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -7696,7 +7800,8 @@
           "collector_number": "051/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -7713,6 +7818,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -7801,7 +7907,8 @@
           "collector_number": "052/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -7818,6 +7925,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -7923,6 +8031,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -8002,7 +8111,8 @@
           "collector_number": "054/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -8019,6 +8129,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -8107,7 +8218,8 @@
           "collector_number": "055/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -8124,6 +8236,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -8212,7 +8325,8 @@
           "collector_number": "056/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -8229,6 +8343,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -8317,7 +8432,8 @@
           "collector_number": "057/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -8334,6 +8450,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -8422,7 +8539,8 @@
           "collector_number": "058",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -8439,6 +8557,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -8527,7 +8646,8 @@
           "collector_number": "059/202",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -8544,6 +8664,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -8632,7 +8753,8 @@
           "collector_number": "060/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -8649,6 +8771,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -8737,7 +8860,8 @@
           "collector_number": "061/202",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -8754,6 +8878,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -8842,7 +8967,8 @@
           "collector_number": "062/202",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -8859,6 +8985,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -8947,7 +9074,8 @@
           "collector_number": "063/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -8964,6 +9092,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -9052,7 +9181,8 @@
           "collector_number": "064/202",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -9069,6 +9199,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -9157,7 +9288,8 @@
           "collector_number": "065/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -9174,6 +9306,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -9262,7 +9395,8 @@
           "collector_number": "066/202",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -9279,6 +9413,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -9367,7 +9502,8 @@
           "collector_number": "067/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -9384,6 +9520,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -9472,7 +9609,8 @@
           "collector_number": "068/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -9489,6 +9627,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -9577,7 +9716,8 @@
           "collector_number": "069/202",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -9594,6 +9734,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -9682,7 +9823,8 @@
           "collector_number": "070/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -9699,6 +9841,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -9787,7 +9930,8 @@
           "collector_number": "071/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -9804,6 +9948,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -9909,6 +10054,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -9988,7 +10134,8 @@
           "collector_number": "073/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -10005,6 +10152,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -10093,7 +10241,8 @@
           "collector_number": "074/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -10110,6 +10259,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -10198,7 +10348,8 @@
           "collector_number": "075/202",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -10215,6 +10366,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -10303,7 +10455,8 @@
           "collector_number": "076/202",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -10320,6 +10473,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -10408,7 +10562,8 @@
           "collector_number": "077/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -10425,6 +10580,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -10513,7 +10669,8 @@
           "collector_number": "078/202",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -10530,6 +10687,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -10635,6 +10793,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -10731,6 +10890,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -10810,7 +10970,8 @@
           "collector_number": "081/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -10827,6 +10988,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -10915,7 +11077,8 @@
           "collector_number": "082/202",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -10932,6 +11095,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -11020,7 +11184,8 @@
           "collector_number": "083/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -11037,6 +11202,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -11125,7 +11291,8 @@
           "collector_number": "084/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -11142,6 +11309,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -11227,10 +11395,11 @@
           "match_confidence": 100,
           "expansion": "Sword & Shield",
           "expansion_code": "ssh",
-          "collector_number": "085/202",
+          "collector_number": "085",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -11247,6 +11416,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -11352,6 +11522,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -11431,7 +11602,8 @@
           "collector_number": "087/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -11448,6 +11620,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -11536,7 +11709,8 @@
           "collector_number": "088/202",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -11553,6 +11727,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -11641,7 +11816,8 @@
           "collector_number": "089/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -11658,6 +11834,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -11746,7 +11923,8 @@
           "collector_number": "090/202",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -11763,6 +11941,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -11868,6 +12047,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -11947,7 +12127,8 @@
           "collector_number": "092/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -11964,6 +12145,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -12052,7 +12234,8 @@
           "collector_number": "093/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -12069,6 +12252,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -12157,7 +12341,8 @@
           "collector_number": "094/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -12174,6 +12359,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -12262,7 +12448,8 @@
           "collector_number": "095/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -12279,6 +12466,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -12367,7 +12555,8 @@
           "collector_number": "096/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -12384,6 +12573,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -12472,7 +12662,8 @@
           "collector_number": "097/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -12489,6 +12680,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -12577,7 +12769,8 @@
           "collector_number": "098/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -12594,6 +12787,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -12682,7 +12876,8 @@
           "collector_number": "099/202",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -12699,6 +12894,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -12787,7 +12983,8 @@
           "collector_number": "100/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -12804,6 +13001,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -12892,7 +13090,8 @@
           "collector_number": "101/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -12909,6 +13108,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -12997,7 +13197,8 @@
           "collector_number": "102/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -13014,6 +13215,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -13102,7 +13304,8 @@
           "collector_number": "103/202",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -13119,6 +13322,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -13224,6 +13428,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -13303,7 +13508,8 @@
           "collector_number": "105/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -13320,6 +13526,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -13408,7 +13615,8 @@
           "collector_number": "106/202",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -13425,6 +13633,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -13513,7 +13722,8 @@
           "collector_number": "107/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -13530,6 +13740,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -13618,7 +13829,8 @@
           "collector_number": "108/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -13635,6 +13847,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -13723,7 +13936,8 @@
           "collector_number": "109/202",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -13740,6 +13954,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -13828,7 +14043,8 @@
           "collector_number": "110/202",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -13845,6 +14061,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -13933,7 +14150,8 @@
           "collector_number": "111/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -13950,6 +14168,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -14038,7 +14257,8 @@
           "collector_number": "112/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -14055,6 +14275,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -14143,7 +14364,8 @@
           "collector_number": "113/202",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -14160,6 +14382,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -14248,7 +14471,8 @@
           "collector_number": "114/202",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -14265,6 +14489,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -14370,6 +14595,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -14466,6 +14692,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -14545,7 +14772,8 @@
           "collector_number": "117/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -14562,6 +14790,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -14650,7 +14879,8 @@
           "collector_number": "118/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -14667,6 +14897,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -14755,7 +14986,8 @@
           "collector_number": "119/202",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -14772,6 +15004,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -14877,6 +15110,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -14956,7 +15190,8 @@
           "collector_number": "121/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -14973,6 +15208,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -15061,7 +15297,8 @@
           "collector_number": "122/202",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -15078,6 +15315,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -15166,7 +15404,8 @@
           "collector_number": "123/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -15183,6 +15422,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -15271,7 +15511,8 @@
           "collector_number": "124/202",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -15288,6 +15529,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -15376,7 +15618,8 @@
           "collector_number": "125/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -15393,6 +15636,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -15481,7 +15725,8 @@
           "collector_number": "126/202",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -15498,6 +15743,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -15586,7 +15832,8 @@
           "collector_number": "127/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -15603,6 +15850,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -15691,7 +15939,8 @@
           "collector_number": "128",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -15708,6 +15957,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -15796,7 +16046,8 @@
           "collector_number": "129/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -15813,6 +16064,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -15901,7 +16153,8 @@
           "collector_number": "130/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -15918,6 +16171,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -16006,7 +16260,8 @@
           "collector_number": "131/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -16023,6 +16278,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -16111,7 +16367,8 @@
           "collector_number": "132/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -16128,6 +16385,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -16216,7 +16474,8 @@
           "collector_number": "133/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -16233,6 +16492,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -16321,7 +16581,8 @@
           "collector_number": "134/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -16338,6 +16599,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -16426,7 +16688,8 @@
           "collector_number": "135/202",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -16443,6 +16706,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -16531,7 +16795,8 @@
           "collector_number": "136/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -16548,6 +16813,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -16636,7 +16902,8 @@
           "collector_number": "137/202",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -16653,6 +16920,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -16758,6 +17026,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -16854,6 +17123,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -16933,7 +17203,8 @@
           "collector_number": "140/202",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -16950,6 +17221,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -17055,6 +17327,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -17151,6 +17424,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -17230,7 +17504,8 @@
           "collector_number": "143/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -17247,6 +17522,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -17335,7 +17611,8 @@
           "collector_number": "144/202",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -17352,6 +17629,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -17440,7 +17718,8 @@
           "collector_number": "145/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -17457,6 +17736,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -17545,7 +17825,8 @@
           "collector_number": "146/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -17562,6 +17843,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -17650,7 +17932,8 @@
           "collector_number": "147/202",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -17667,6 +17950,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -17755,7 +18039,8 @@
           "collector_number": "148",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -17772,6 +18057,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -17860,7 +18146,8 @@
           "collector_number": "149/202",
           "rarity": "Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -17877,6 +18164,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -17965,7 +18253,8 @@
           "collector_number": "150/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -17982,6 +18271,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -18070,7 +18360,8 @@
           "collector_number": "151/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -18087,6 +18378,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -18175,7 +18467,8 @@
           "collector_number": "152/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -18192,6 +18485,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -18280,7 +18574,8 @@
           "collector_number": "153/202",
           "rarity": "Common",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -18297,6 +18592,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -18385,7 +18681,8 @@
           "collector_number": "154/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -18402,6 +18699,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -18507,6 +18805,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -18586,7 +18885,8 @@
           "collector_number": "156/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -18603,6 +18903,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -18691,7 +18992,8 @@
           "collector_number": "157/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -18708,6 +19010,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -18796,7 +19099,8 @@
           "collector_number": "158/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -18813,6 +19117,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -18901,7 +19206,8 @@
           "collector_number": "159/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -18918,6 +19224,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -19006,7 +19313,8 @@
           "collector_number": "160/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -19023,6 +19331,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -19111,7 +19420,8 @@
           "collector_number": "161/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -19128,6 +19438,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -19216,7 +19527,8 @@
           "collector_number": "162/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -19233,6 +19545,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -19321,7 +19634,8 @@
           "collector_number": "163/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -19338,6 +19652,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -19426,7 +19741,8 @@
           "collector_number": "164/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -19443,6 +19759,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -19531,7 +19848,8 @@
           "collector_number": "165/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -19548,6 +19866,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -19636,7 +19955,8 @@
           "collector_number": "166/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -19653,6 +19973,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -19741,7 +20062,8 @@
           "collector_number": "167/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -19758,6 +20080,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -19846,7 +20169,8 @@
           "collector_number": "168/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -19863,6 +20187,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -19951,7 +20276,8 @@
           "collector_number": "169",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -19968,6 +20294,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -20056,7 +20383,8 @@
           "collector_number": "170/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -20073,6 +20401,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -20161,7 +20490,8 @@
           "collector_number": "171/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -20178,6 +20508,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -20266,7 +20597,8 @@
           "collector_number": "172/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -20283,6 +20615,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -20371,7 +20704,8 @@
           "collector_number": "173/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -20388,6 +20722,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -20476,7 +20811,8 @@
           "collector_number": "174/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -20493,6 +20829,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -20581,7 +20918,8 @@
           "collector_number": "175/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -20598,6 +20936,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -20686,7 +21025,8 @@
           "collector_number": "176/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -20703,6 +21043,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -20791,7 +21132,8 @@
           "collector_number": "177/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -20808,6 +21150,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -20896,7 +21239,8 @@
           "collector_number": "178h",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -20913,6 +21257,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -21001,7 +21346,8 @@
           "collector_number": "179/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -21018,6 +21364,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -21106,7 +21453,8 @@
           "collector_number": "180/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -21123,6 +21471,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -21211,7 +21560,8 @@
           "collector_number": "181/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -21228,6 +21578,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -21316,7 +21667,8 @@
           "collector_number": "182/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -21333,6 +21685,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -21421,7 +21774,8 @@
           "collector_number": "183/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -21438,6 +21792,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -21526,7 +21881,8 @@
           "collector_number": "184/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -21543,6 +21899,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -21631,7 +21988,8 @@
           "collector_number": "185/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -21648,6 +22006,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -21736,7 +22095,8 @@
           "collector_number": "186/202",
           "rarity": "Uncommon",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -21753,6 +22113,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -21858,6 +22219,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -21954,6 +22316,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -22050,6 +22413,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -22146,6 +22510,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -22242,6 +22607,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -22338,6 +22704,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -22434,6 +22801,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -22530,6 +22898,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -22626,6 +22995,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -22722,6 +23092,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -22818,6 +23189,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -22914,6 +23286,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -23010,6 +23383,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -23106,6 +23480,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -23202,6 +23577,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -23298,6 +23674,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -23394,6 +23771,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -23490,6 +23868,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -23586,6 +23965,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -23682,6 +24062,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -23778,6 +24159,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -23874,6 +24256,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -23970,6 +24353,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -24066,6 +24450,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -24162,6 +24547,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -24258,6 +24644,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -24354,6 +24741,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -24450,6 +24838,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -24546,6 +24935,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
@@ -24642,6 +25032,7 @@
               "type": "string",
               "default_value": "Near Mint",
               "possible_values": [
+                "Mint",
                 "Near Mint",
                 "Slightly Played",
                 "Moderately Played",
