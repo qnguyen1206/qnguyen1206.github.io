@@ -61,9 +61,9 @@ export function initProjects() {
       id: 'biophilia',
       title: 'Biophilia',
       category: 'App Development',
-      image: '',
-      description: '',
-      tags: [],
+      image: '/images/BiophiliaIcon.png',
+      description: 'This project is awarded a Catalyst Grant and is an on going project led by Artist Belinda Person in collaboration with Professor Krystian Ramlogan.',
+      tags: ['Unity', 'C#', 'VR', 'ProCreate', 'Design'],
       status: 'in development',
       role: 'VR Environment Concept Artist',
       teamSize: '9',
@@ -74,11 +74,10 @@ export function initProjects() {
       images: [],
       writeup: `
 ## VR Environment Concept Artist
+- 🪴 Designed and conceptualized the gallery space in the VR environment.
 
-
-
+For more information about the design process, please visit the <a href="javascript:void(0)" onclick="window.openBlogPost('biophilia-design-process')" style="color: var(--primary); text-decoration: underline; cursor: pointer;">design process page</a>.
 `,
-      hidden: true,
     },
     {
       id: 'kart-tech-racing',
