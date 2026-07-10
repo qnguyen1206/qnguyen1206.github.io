@@ -3,9 +3,9 @@
   "set_name": "Prize Pack Series Cards",
   "set_abbr": "",
   "set_released": "2022-11-30",
-  "product_count": 889,
-  "data_modified": "2026-07-01T16:46:08-04:00",
-  "file_generated": "2026-07-01T16:48:19-04:00",
+  "product_count": 890,
+  "data_modified": "2026-07-07T06:14:36-04:00",
+  "file_generated": "2026-07-07T08:31:37-04:00",
   "pricing_url": "/v1/3/sets/22880/pricing",
   "cards_url": "/v1/3/sets/22880/cards",
   "sealed_url": "/v1/3/sets/22880/sealed",
@@ -8161,8 +8161,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 864396,
+      "cardtrader_id": 398066,
+      "cardtrader": [
+        {
+          "id": 398066,
+          "name": "Reshiram ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Play! Pokémon Prize Pack Series",
+          "expansion_code": "playprizep",
+          "collector_number": "020",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            864396
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/671676_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 671676,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 22880
+        }
+      ]
     },
     {
       "id": 513804,
@@ -23231,6 +23311,21 @@
       "image_url": "https://cdn.tcgtracking.com/product/671687_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F671687%2Fpokemon-prize-pack-series-cards-solrock-075-132",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": null
+    },
+    {
+      "id": 703862,
+      "name": "Solrock - 075/132 (Cosmos Holo)",
+      "clean_name": "Solrock - 075/132 (Cosmos Holo)",
+      "number": "075/132",
+      "rarity": "Uncommon",
+      "image_url": "https://cdn.tcgtracking.com/product/703862_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": null,
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
