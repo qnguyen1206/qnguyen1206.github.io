@@ -83,7 +83,12 @@ const certificatesData = {
     }
   ],
   honors: [
-  {
+    {
+      title: "Faculty Honors",
+      issuer: "Georgia Tech",
+      date: "Spring 2026"
+    },
+    {
       title: "Dean's List",
       issuer: "Georgia Tech",
       date: "Spring 2026"
