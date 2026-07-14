@@ -3,109 +3,14 @@
   "set_name": "Deck Exclusives",
   "set_abbr": "PR",
   "set_released": "2016-09-01",
-  "product_count": 499,
-  "data_modified": "2026-06-30T07:00:04-04:00",
-  "file_generated": "2026-07-01T08:31:17-04:00",
+  "product_count": 501,
+  "data_modified": "2026-07-09T06:03:17-04:00",
+  "file_generated": "2026-07-09T08:33:20-04:00",
   "pricing_url": "/v1/3/sets/1840/pricing",
   "cards_url": "/v1/3/sets/1840/cards",
   "sealed_url": "/v1/3/sets/1840/sealed",
   "skus_url": "/v1/3/sets/1840/skus",
   "products": [
-    {
-      "id": 125047,
-      "name": "Bellossom - 1/90 (HGSS Undaunted)",
-      "clean_name": "Bellossom - 1/90 (HGSS Undaunted)",
-      "number": null,
-      "rarity": "Rare",
-      "image_url": "https://cdn.tcgtracking.com/product/125047_200w.jpg",
-      "image_count": 1,
-      "tcgplayer_url": null,
-      "manapool_url": null,
-      "scryfall_id": null,
-      "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null,
-      "cardtrader": [
-        {
-          "id": 130995,
-          "name": "Bellossom",
-          "match_type": "tcgplayer",
-          "match_confidence": 100,
-          "expansion": "Theme Deck & Blisters Exclusives",
-          "expansion_code": "deckexclusives",
-          "collector_number": "01/90",
-          "rarity": "Fixed",
-          "finishes": [
-            "normal"
-          ],
-          "languages": [
-            "en",
-            "fr",
-            "de",
-            "it",
-            "pt",
-            "ru",
-            "es"
-          ],
-          "properties": [
-            {
-              "name": "condition",
-              "type": "string",
-              "default_value": "Near Mint",
-              "possible_values": [
-                "Mint",
-                "Near Mint",
-                "Slightly Played",
-                "Moderately Played",
-                "Played",
-                "Poor"
-              ]
-            },
-            {
-              "name": "signed",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "altered",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "pokemon_language",
-              "type": "string",
-              "default_value": "en",
-              "possible_values": [
-                "en",
-                "fr",
-                "de",
-                "it",
-                "pt",
-                "ru",
-                "es"
-              ]
-            }
-          ],
-          "cardmarket_ids": [],
-          "image_url": "https://cdn.tcgtracking.com/product/125047_200w.jpg",
-          "scryfall_id": null,
-          "tcg_player_id": 125047,
-          "game_id": 5,
-          "category_id": 73,
-          "category_name": "Pokémon Singles",
-          "product_type": "single",
-          "group_id": 1840
-        }
-      ]
-    },
     {
       "id": 135029,
       "name": "Darkness Energy (2013 Unnumbered)",
@@ -1299,6 +1204,101 @@
           "image_url": "https://cdn.tcgtracking.com/product/169759_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 169759,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
+    },
+    {
+      "id": 125047,
+      "name": "Bellossom - 1/90 (HGSS Undaunted)",
+      "clean_name": "Bellossom - 1/90 (HGSS Undaunted)",
+      "number": "001/090",
+      "rarity": "Rare",
+      "image_url": "https://cdn.tcgtracking.com/product/125047_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": null,
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": null,
+      "cardtrader": [
+        {
+          "id": 130995,
+          "name": "Bellossom",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "01/90",
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/125047_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125047,
           "game_id": 5,
           "category_id": 73,
           "category_name": "Pokémon Singles",
@@ -18826,6 +18826,21 @@
       ]
     },
     {
+      "id": 705061,
+      "name": "Fezandipiti ex - 038/064",
+      "clean_name": "Fezandipiti ex - 038/064",
+      "number": "038/064",
+      "rarity": "Double Rare",
+      "image_url": "https://cdn.tcgtracking.com/product/705061_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": null,
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": null
+    },
+    {
       "id": 131310,
       "name": "Magneton - 38/108 (XY Evolutions)",
       "clean_name": "Magneton - 38/108 (XY Evolutions)",
@@ -18838,7 +18853,99 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardtrader_id": 118519,
+      "cardtrader": [
+        {
+          "id": 118519,
+          "name": "Magneton",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Evolutions Promos",
+          "expansion_code": "pevo",
+          "collector_number": "038/108",
+          "rarity": "Rare",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "kr",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "kr",
+                "pt",
+                "ru",
+                "es"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/131310_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 131310,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 164116,
@@ -25330,8 +25437,8 @@
     },
     {
       "id": 276703,
-      "name": "Professor's Research - 060/072 (Cosmos Holo)",
-      "clean_name": "Professor's Research - 060/072 (Cosmos Holo)",
+      "name": "Professor's Research [Professor Juniper] - 060/072 (Cosmos Holo)",
+      "clean_name": "Professor's Research [Professor Juniper] - 060/072 (Cosmos Holo)",
       "number": "060/072",
       "rarity": "Promo",
       "image_url": "https://cdn.tcgtracking.com/product/276703_200w.jpg",
@@ -25433,8 +25540,8 @@
     },
     {
       "id": 239642,
-      "name": "Professor's Research - 060/072 (Holofoil)",
-      "clean_name": "Professor's Research - 060/072 (Holofoil)",
+      "name": "Professor's Research [Professor Juniper] - 060/072 (Line Holo)",
+      "clean_name": "Professor's Research [Professor Juniper] - 060/072 (Line Holo)",
       "number": "060/072",
       "rarity": "Holo Rare",
       "image_url": "https://cdn.tcgtracking.com/product/239642_200w.jpg",
@@ -31881,6 +31988,21 @@
       "image_url": "https://cdn.tcgtracking.com/product/282144_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F282144%2Fpokemon-deck-exclusives-solgaleo-87-145-water-web-holo",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": null
+    },
+    {
+      "id": 705021,
+      "name": "Telepathic Psychic Energy - 088/088 (Non-Holo)",
+      "clean_name": "Telepathic Psychic Energy - 088/088 (Non-Holo)",
+      "number": "088/088",
+      "rarity": "Rare",
+      "image_url": "https://cdn.tcgtracking.com/product/705021_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": null,
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
@@ -38589,8 +38711,8 @@
     },
     {
       "id": 264826,
-      "name": "Professor's Research - 147/172",
-      "clean_name": "Professor's Research - 147/172",
+      "name": "Professor's Research [Professor Rowan] - 147/172 (Non-Holo)",
+      "clean_name": "Professor's Research [Professor Rowan] - 147/172 (Non-Holo)",
       "number": "147/172",
       "rarity": "Rare",
       "image_url": "https://cdn.tcgtracking.com/product/264826_200w.jpg",
@@ -39836,8 +39958,8 @@
     },
     {
       "id": 208813,
-      "name": "Professor's Research - 178/202",
-      "clean_name": "Professor's Research - 178/202",
+      "name": "Professor's Research [Professor Magnolia] - 178/202 (Non-Holo)",
+      "clean_name": "Professor's Research [Professor Magnolia] - 178/202 (Non-Holo)",
       "number": "178/202",
       "rarity": "Rare",
       "image_url": "https://cdn.tcgtracking.com/product/208813_200w.jpg",
@@ -40123,8 +40245,8 @@
     },
     {
       "id": 494096,
-      "name": "Professor's Research - 189/198",
-      "clean_name": "Professor's Research - 189/198",
+      "name": "Professor's Research [Professor Sada] - 189/198 (Non-Holo)",
+      "clean_name": "Professor's Research [Professor Sada] - 189/198 (Non-Holo)",
       "number": "189/198",
       "rarity": "Rare",
       "image_url": "https://cdn.tcgtracking.com/product/494096_200w.jpg",
@@ -40226,8 +40348,8 @@
     },
     {
       "id": 494957,
-      "name": "Professor's Research - 190/198",
-      "clean_name": "Professor's Research - 190/198",
+      "name": "Professor's Research [Professor Turo] - 190/198 (Non-Holo)",
+      "clean_name": "Professor's Research [Professor Turo] - 190/198 (Non-Holo)",
       "number": "190/198",
       "rarity": "Promo",
       "image_url": "https://cdn.tcgtracking.com/product/494957_200w.jpg",
