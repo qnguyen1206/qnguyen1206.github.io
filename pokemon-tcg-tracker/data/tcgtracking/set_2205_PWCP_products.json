@@ -4,8 +4,8 @@
   "set_abbr": "PWCP",
   "set_released": "2026-06-23",
   "product_count": 22,
-  "data_modified": "2026-06-27T14:54:09-04:00",
-  "file_generated": "2026-07-01T16:48:14-04:00",
+  "data_modified": "2026-07-16T06:10:50-04:00",
+  "file_generated": "2026-07-16T08:31:44-04:00",
   "pricing_url": "/v1/3/sets/2205/pricing",
   "cards_url": "/v1/3/sets/2205/cards",
   "sealed_url": "/v1/3/sets/2205/sealed",
@@ -84,7 +84,86 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 576936,
-      "cardtrader_id": 171166
+      "cardtrader_id": 171166,
+      "cardtrader": [
+        {
+          "id": 171166,
+          "name": "_____'s Pikachu",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Pikachu World Collection",
+          "expansion_code": "pwc",
+          "collector_number": "WP 24",
+          "rarity": "Promo",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            576936
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/159115_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 159115,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2205
+        }
+      ]
     },
     {
       "id": 161749,
