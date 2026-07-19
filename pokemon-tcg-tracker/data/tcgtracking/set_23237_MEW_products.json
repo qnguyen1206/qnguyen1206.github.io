@@ -4,8 +4,8 @@
   "set_abbr": "MEW",
   "set_released": "2023-09-22",
   "product_count": 249,
-  "data_modified": "2026-06-27T14:54:12-04:00",
-  "file_generated": "2026-07-01T16:48:18-04:00",
+  "data_modified": "2026-07-16T06:10:52-04:00",
+  "file_generated": "2026-07-16T08:32:33-04:00",
   "pricing_url": "/v1/3/sets/23237/pricing",
   "cards_url": "/v1/3/sets/23237/cards",
   "sealed_url": "/v1/3/sets/23237/sealed",
@@ -22883,7 +22883,67 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 720951,
-      "cardtrader_id": 261658
+      "cardtrader_id": 261658,
+      "cardtrader": [
+        {
+          "id": 261658,
+          "name": "Mew ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "151",
+          "expansion_code": "mew",
+          "collector_number": null,
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            720951
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/519481_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 519481,
+          "game_id": 5,
+          "category_id": 78,
+          "category_name": "Pokémon Oversized",
+          "product_type": "oversized",
+          "group_id": 23237
+        }
+      ]
     },
     {
       "id": 517052,

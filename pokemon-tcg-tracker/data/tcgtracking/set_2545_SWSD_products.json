@@ -4,8 +4,8 @@
   "set_abbr": "SWSD",
   "set_released": "2019-11-15",
   "product_count": 343,
-  "data_modified": "2026-07-07T06:04:06-04:00",
-  "file_generated": "2026-07-07T08:32:20-04:00",
+  "data_modified": "2026-07-16T06:00:09-04:00",
+  "file_generated": "2026-07-16T08:33:13-04:00",
   "pricing_url": "/v1/3/sets/2545/pricing",
   "cards_url": "/v1/3/sets/2545/cards",
   "sealed_url": "/v1/3/sets/2545/sealed",
@@ -8870,7 +8870,86 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 516369,
-      "cardtrader_id": 202922
+      "cardtrader_id": 202922,
+      "cardtrader": [
+        {
+          "id": 202922,
+          "name": "Special Delivery Pikachu",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "SWSH Black Star Promos",
+          "expansion_code": "swshbs",
+          "collector_number": "074",
+          "rarity": "Promo",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            516369
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/227646_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 227646,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2545
+        }
+      ]
     },
     {
       "id": 282259,
@@ -11975,7 +12054,7 @@
     {
       "id": 238545,
       "name": "Gardevoir V - SWSH105",
-      "clean_name": "Gardevoir V SWSH105",
+      "clean_name": "Gardevoir V - SWSH105",
       "number": "SWSH105",
       "rarity": "Promo",
       "image_url": "https://cdn.tcgtracking.com/product/238545_200w.jpg",
@@ -16273,7 +16352,7 @@
     {
       "id": 251103,
       "name": "Poke Ball - SWSH146",
-      "clean_name": "Poke Ball SWSH146",
+      "clean_name": "Poke Ball - SWSH146",
       "number": "SWSH146",
       "rarity": "Promo",
       "image_url": "https://cdn.tcgtracking.com/product/251103_200w.jpg",
@@ -19631,7 +19710,86 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 571388,
-      "cardtrader_id": 202921
+      "cardtrader_id": 202921,
+      "cardtrader": [
+        {
+          "id": 202921,
+          "name": "Special Delivery Bidoof",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "SWSH Black Star Promos",
+          "expansion_code": "swshbs",
+          "collector_number": "177",
+          "rarity": "Promo",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            571388
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/247386_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 247386,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2545
+        }
+      ]
     },
     {
       "id": 278705,
