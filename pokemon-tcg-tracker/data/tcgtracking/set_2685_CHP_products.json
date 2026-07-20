@@ -4,8 +4,8 @@
   "set_abbr": "CHP",
   "set_released": "2020-09-25",
   "product_count": 110,
-  "data_modified": "2026-07-05T06:24:02-04:00",
-  "file_generated": "2026-07-05T08:33:24-04:00",
+  "data_modified": "2026-07-16T06:10:43-04:00",
+  "file_generated": "2026-07-16T08:33:12-04:00",
   "pricing_url": "/v1/3/sets/2685/pricing",
   "cards_url": "/v1/3/sets/2685/cards",
   "sealed_url": "/v1/3/sets/2685/sealed",
@@ -885,7 +885,45 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 519701,
-      "cardtrader_id": 200809
+      "cardtrader_id": 200809,
+      "cardtrader": [
+        {
+          "id": 200809,
+          "name": "Champion's Path: Marnie Premium Collection",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Champion's Path",
+          "expansion_code": "cpa",
+          "collector_number": null,
+          "rarity": null,
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "sealed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            519701
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/218807_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 218807,
+          "game_id": 5,
+          "category_id": 60,
+          "category_name": "Pokémon Box Set",
+          "product_type": "box_set",
+          "group_id": 2685
+        }
+      ]
     },
     {
       "id": 218803,

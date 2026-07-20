@@ -4,8 +4,8 @@
   "set_abbr": "PR",
   "set_released": "1999-07-01",
   "product_count": 71,
-  "data_modified": "2026-06-27T14:54:04-04:00",
-  "file_generated": "2026-07-01T16:48:38-04:00",
+  "data_modified": "2026-07-16T06:10:45-04:00",
+  "file_generated": "2026-07-16T08:33:57-04:00",
   "pricing_url": "/v1/3/sets/1418/pricing",
   "cards_url": "/v1/3/sets/1418/cards",
   "sealed_url": "/v1/3/sets/1418/sealed",
@@ -724,7 +724,67 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 275593,
-      "cardtrader_id": 111380
+      "cardtrader_id": 111380,
+      "cardtrader": [
+        {
+          "id": 111380,
+          "name": "Wartortle",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "W Promos",
+          "expansion_code": "wpromos",
+          "collector_number": "063",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            275593
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/127206_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 127206,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1418
+        }
+      ]
     },
     {
       "id": 86309,
@@ -1978,7 +2038,81 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardtrader_id": 399830,
+      "cardtrader": [
+        {
+          "id": 399830,
+          "name": "Rapidash",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Wizards Black Star Promos",
+          "expansion_code": "wiz",
+          "collector_number": "051",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it"
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/88575_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88575,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1528
+        }
+      ]
     },
     {
       "id": 244347,
@@ -2007,8 +2141,84 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 275471,
+      "cardtrader_id": 131771,
+      "cardtrader": [
+        {
+          "id": 131771,
+          "name": "Ho-Oh",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Wizards Black Star Promos",
+          "expansion_code": "wiz",
+          "collector_number": "052",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            275471
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/86120_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86120,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1528
+        }
+      ]
     },
     {
       "id": 244348,

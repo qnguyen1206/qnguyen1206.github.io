@@ -4,8 +4,8 @@
   "set_abbr": "XY",
   "set_released": "2014-02-05",
   "product_count": 197,
-  "data_modified": "2026-07-05T06:24:14-04:00",
-  "file_generated": "2026-07-05T08:34:04-04:00",
+  "data_modified": "2026-07-16T06:10:56-04:00",
+  "file_generated": "2026-07-16T08:33:50-04:00",
   "pricing_url": "/v1/3/sets/1387/pricing",
   "cards_url": "/v1/3/sets/1387/cards",
   "sealed_url": "/v1/3/sets/1387/sealed",
@@ -7232,7 +7232,77 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 700737,
-      "cardtrader_id": 131805
+      "cardtrader_id": 131805,
+      "cardtrader": [
+        {
+          "id": 131805,
+          "name": "Vivillon",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "XY",
+          "expansion_code": "xy-en",
+          "collector_number": "017h",
+          "rarity": "Holo Rare",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            700737
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/90395_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90395,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1387
+        }
+      ]
     },
     {
       "id": 91249,

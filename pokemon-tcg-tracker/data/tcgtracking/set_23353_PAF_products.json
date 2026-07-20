@@ -4,8 +4,8 @@
   "set_abbr": "PAF",
   "set_released": "2024-01-26",
   "product_count": 295,
-  "data_modified": "2026-06-27T14:54:21-04:00",
-  "file_generated": "2026-07-01T16:48:18-04:00",
+  "data_modified": "2026-07-16T06:10:57-04:00",
+  "file_generated": "2026-07-16T08:32:33-04:00",
   "pricing_url": "/v1/3/sets/23353/pricing",
   "cards_url": "/v1/3/sets/23353/cards",
   "sealed_url": "/v1/3/sets/23353/sealed",
@@ -1690,7 +1690,35 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 745556,
-      "cardtrader_id": 270289
+      "cardtrader_id": 270289,
+      "cardtrader": [
+        {
+          "id": 270289,
+          "name": "Paldean Fates: Tera Charizard ex Tin",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Paldean Fates",
+          "expansion_code": "paf",
+          "collector_number": null,
+          "rarity": null,
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [],
+          "cardmarket_ids": [
+            745556
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/528056_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 528056,
+          "game_id": 5,
+          "category_id": 59,
+          "category_name": "Pokémon Tins",
+          "product_type": "sealed",
+          "group_id": 23353
+        }
+      ]
     },
     {
       "id": 528057,
@@ -1705,7 +1733,33 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 270291
+      "cardtrader_id": 270291,
+      "cardtrader": [
+        {
+          "id": 270291,
+          "name": "Paldean Fates: Great Tusk ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Paldean Fates",
+          "expansion_code": "paf",
+          "collector_number": null,
+          "rarity": null,
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/528057_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 528057,
+          "game_id": 5,
+          "category_id": 59,
+          "category_name": "Pokémon Tins",
+          "product_type": "sealed",
+          "group_id": 23353
+        }
+      ]
     },
     {
       "id": 528058,
