@@ -4,8 +4,8 @@
   "set_abbr": "PR",
   "set_released": "2015-04-01",
   "product_count": 334,
-  "data_modified": "2026-07-07T06:03:20-04:00",
-  "file_generated": "2026-07-07T08:32:41-04:00",
+  "data_modified": "2026-07-16T06:00:09-04:00",
+  "file_generated": "2026-07-16T08:33:49-04:00",
   "pricing_url": "/v1/3/sets/1528/pricing",
   "cards_url": "/v1/3/sets/1528/cards",
   "sealed_url": "/v1/3/sets/1528/sealed",
@@ -8667,7 +8667,67 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 864135,
-      "cardtrader_id": 315062
+      "cardtrader_id": 315062,
+      "cardtrader": [
+        {
+          "id": 315062,
+          "name": "Zacian V",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Crown Zenith",
+          "expansion_code": "crz",
+          "collector_number": "095",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            864135
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/605497_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 605497,
+          "game_id": 5,
+          "category_id": 78,
+          "category_name": "Pokémon Oversized",
+          "product_type": "oversized",
+          "group_id": 17688
+        }
+      ]
     },
     {
       "id": 211511,
@@ -9425,7 +9485,7 @@
     {
       "id": 581987,
       "name": "Charizard ex - 125/197",
-      "clean_name": "Charizard ex 125 197",
+      "clean_name": "Charizard ex - 125/197",
       "number": "125/197",
       "rarity": "Double Rare",
       "image_url": "https://cdn.tcgtracking.com/product/581987_200w.jpg",
@@ -9846,7 +9906,65 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 315064
+      "cardtrader_id": 315064,
+      "cardtrader": [
+        {
+          "id": 315064,
+          "name": "Zacian V",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "S-P: Sword & Shield Promos",
+          "expansion_code": "s-p",
+          "collector_number": "138",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/203914_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 203914,
+          "game_id": 5,
+          "category_id": 78,
+          "category_name": "Pokémon Oversized",
+          "product_type": "oversized",
+          "group_id": 23876
+        }
+      ]
     },
     {
       "id": 484449,
@@ -9876,7 +9994,65 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 315065
+      "cardtrader_id": 315065,
+      "cardtrader": [
+        {
+          "id": 315065,
+          "name": "Zamazenta V",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "S-P: Sword & Shield Promos",
+          "expansion_code": "s-p",
+          "collector_number": "139",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/203916_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 203916,
+          "game_id": 5,
+          "category_id": 78,
+          "category_name": "Pokémon Oversized",
+          "product_type": "oversized",
+          "group_id": 23876
+        }
+      ]
     },
     {
       "id": 595474,
