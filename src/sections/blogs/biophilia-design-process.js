@@ -4,7 +4,7 @@ export default {
     category: 'Design',
     difficulty: 'Hard',
     tags: ['Design', 'VR', 'Web Development', 'UI/UX'],
-    date: '2026-07-02T12:00:00',
+    date: '2026-07-19T12:00:00',
     excerpt: 'Design Process and Sketches for Biophilia',
     content: `
 This project was awarded a Catalyst Grant and is an on going project led by Artist Belinda Person in collaboration with Professor Krystian Ramlogan.
@@ -40,5 +40,35 @@ For the third idea, I want the viewers to be more immersed into the world of the
 This is a rough sketch that I used the cover art of the project and extended it into the world, but at this angle, it is not the best to represent what I imagined.
 
 <img src="/blogs/design-process/biophilia/Layout-rough-sketch-3-2.png" alt="Layout rough sketch 3.2">
+
+After looking at the paintings and since I took on the task of designing the virtual gallery space in Unity instead of just environment concept art, I had another idea of combining the first (or second) idea with the third one such that the gallery space will not feel empty or look the same as real life gallery space. I want the virtual space to be a little bit more special and its environment to be unique to the theme and feelings of the paintings.
+
+In the gallery space, there should be a floor where the users will stand or walk around, then there will be walls in which the paintings will be displayed. 
+
+For the floor, I decided to go with wood flooring since it matches with the nature of the word “Biophilia” which means “an invitation to see nature as our teacher, asking us to slow down, observe, and listen”. In addition, I also chose this specific texture for the floor because it resembles the paintings of many colors and types of woods instead of one specific type of wood such as birch or oak.
+
+<img src="/blogs/design-process/biophilia/floor-image-1.png" alt="Floor image 1">
+
+For the wall, I decided to go with a more conventional one called beige wall since it is the most natural wall that is used in real life for any rooms or spaces. It looks the most natural and does create a good background for any decorations that will be added into the room or space later on.
+
+<img src="/blogs/design-process/biophilia/wall-image-1.png" alt="Wall image 1">
+
+For the space layout, I decided to use the enclosed space, similar to idea number two (2) above, in which the users will be enclosed with the three (3) paintings - one (1) in front, one (1) on the left, and one (1) on the right. This layout helps users to see all three (3) paintings without having to walk or move. Even though this is the standard gallery space that people will see in the real world, I would like to have some decorations or some personal/theme of the paintings around the space so that the gallery can match the paintings theme and reflect the ideas of the paintings that the artist wants to display.
+
+<img src="/blogs/design-process/biophilia/vr-layout-1.png" alt="VR layout 1">
+
+For the decorations of the space, I decided to go with Florida Foliage by Kenny Maguire Studio which is the same model that the team is using for the painting world’s VR environment. However, due to how the objects are grouped together after imported into Unity (see Image 1). I decided to go with the Tropical Plant Pack M02P by MozzarellaArc in which each object is separated on its own (see Image 2). This allows me to use individual objects to decorate instead of trying to hide or figure out the rotation in which to hide the extra plants/trees.
+
+**Image 1:**
+<img src="/blogs/design-process/biophilia/vr-decoration-1.png" alt="VR decoration 1">
+
+**Image 2:**
+<img src="/blogs/design-process/biophilia/vr-decoration-2.png" alt="VR decoration 2">
+
+For the decorations, I am adding in bits by bits so that the decoration doesn’t fill the place since I still want the gallery to have some breathing room because the player will experience the paintings’ worlds and the gallery space needs to be separated from the paintings’ world space and not overcrowd it.
+
+<img src="/blogs/design-process/biophilia/vr-layout-2.png" alt="VR layout 2">
+
+<img src="/blogs/design-process/biophilia/vr-layout-3.png" alt="VR layout 3">
 `
 }
