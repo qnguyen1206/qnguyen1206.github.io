@@ -4,8 +4,8 @@
   "set_abbr": "HP",
   "set_released": "2006-05-03",
   "product_count": 115,
-  "data_modified": "2026-06-27T14:54:21-04:00",
-  "file_generated": "2026-07-01T16:48:36-04:00",
+  "data_modified": "2026-07-16T06:10:56-04:00",
+  "file_generated": "2026-07-16T08:33:55-04:00",
   "pricing_url": "/v1/3/sets/1379/pricing",
   "cards_url": "/v1/3/sets/1379/cards",
   "sealed_url": "/v1/3/sets/1379/sealed",
@@ -987,7 +987,77 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 277075,
-      "cardtrader_id": 116592
+      "cardtrader_id": 116592,
+      "cardtrader": [
+        {
+          "id": 116592,
+          "name": "Grass Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "EX Holon Phantoms",
+          "expansion_code": "hp",
+          "collector_number": "105/110",
+          "rarity": "Holo Rare",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            277075
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/85876_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85876,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1379
+        }
+      ]
     },
     {
       "id": 85461,
@@ -1002,7 +1072,77 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 277076,
-      "cardtrader_id": 116593
+      "cardtrader_id": 116593,
+      "cardtrader": [
+        {
+          "id": 116593,
+          "name": "Fire Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "EX Holon Phantoms",
+          "expansion_code": "hp",
+          "collector_number": "106/110",
+          "rarity": "Holo Rare",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            277076
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/85461_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85461,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1379
+        }
+      ]
     },
     {
       "id": 90508,
@@ -1017,7 +1157,77 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 277077,
-      "cardtrader_id": 116594
+      "cardtrader_id": 116594,
+      "cardtrader": [
+        {
+          "id": 116594,
+          "name": "Water Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "EX Holon Phantoms",
+          "expansion_code": "hp",
+          "collector_number": "107/110",
+          "rarity": "Holo Rare",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            277077
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/90508_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 90508,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1379
+        }
+      ]
     },
     {
       "id": 86765,
@@ -1032,7 +1242,77 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 277078,
-      "cardtrader_id": 116595
+      "cardtrader_id": 116595,
+      "cardtrader": [
+        {
+          "id": 116595,
+          "name": "Lightning Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "EX Holon Phantoms",
+          "expansion_code": "hp",
+          "collector_number": "108/110",
+          "rarity": "Holo Rare",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            277078
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/86765_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86765,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1379
+        }
+      ]
     },
     {
       "id": 88421,
@@ -1047,7 +1327,77 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 277079,
-      "cardtrader_id": 116596
+      "cardtrader_id": 116596,
+      "cardtrader": [
+        {
+          "id": 116596,
+          "name": "Psychic Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "EX Holon Phantoms",
+          "expansion_code": "hp",
+          "collector_number": "109/110",
+          "rarity": "Holo Rare",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            277079
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/88421_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88421,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1379
+        }
+      ]
     },
     {
       "id": 86656,
@@ -1163,7 +1513,77 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 277080,
-      "cardtrader_id": 116597
+      "cardtrader_id": 116597,
+      "cardtrader": [
+        {
+          "id": 116597,
+          "name": "Fighting Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "EX Holon Phantoms",
+          "expansion_code": "hp",
+          "collector_number": "110/110",
+          "rarity": "Holo Rare",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            277080
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/85440_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85440,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1379
+        }
+      ]
     },
     {
       "id": 87400,

@@ -3,9 +3,9 @@
   "set_name": "Deck Exclusives",
   "set_abbr": "PR",
   "set_released": "2016-09-01",
-  "product_count": 501,
-  "data_modified": "2026-07-09T06:03:17-04:00",
-  "file_generated": "2026-07-09T08:33:20-04:00",
+  "product_count": 506,
+  "data_modified": "2026-07-18T06:07:19-04:00",
+  "file_generated": "2026-07-18T08:32:14-04:00",
   "pricing_url": "/v1/3/sets/1840/pricing",
   "cards_url": "/v1/3/sets/1840/cards",
   "sealed_url": "/v1/3/sets/1840/sealed",
@@ -5083,7 +5083,76 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 660220,
-      "cardtrader_id": 134175
+      "cardtrader_id": 134175,
+      "cardtrader": [
+        {
+          "id": 134175,
+          "name": "Machamp",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Base Set Shadowless",
+          "expansion_code": "shbs",
+          "collector_number": "008",
+          "rarity": "Rare",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            660220
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/107004_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 107004,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1663
+        }
+      ]
     },
     {
       "id": 177121,
@@ -15053,6 +15122,21 @@
       ]
     },
     {
+      "id": 707026,
+      "name": "Miraidon - 028/084",
+      "clean_name": "Miraidon - 028/084",
+      "number": "028/084",
+      "rarity": "Rare",
+      "image_url": "https://cdn.tcgtracking.com/product/707026_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": null,
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": null
+    },
+    {
       "id": 177125,
       "name": "Venusaur - 28/100 (EX Crystal Guardians)",
       "clean_name": "Venusaur - 28/100 (EX Crystal Guardians)",
@@ -17832,6 +17916,21 @@
       ]
     },
     {
+      "id": 707028,
+      "name": "Spiritomb - 035/084",
+      "clean_name": "Spiritomb - 035/084",
+      "number": "035/084",
+      "rarity": "Rare",
+      "image_url": "https://cdn.tcgtracking.com/product/707028_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": null,
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": null
+    },
+    {
       "id": 131308,
       "name": "Pikachu - 35/108 (Cracked Ice Holo)",
       "clean_name": "Pikachu - 35/108 (Cracked Ice Holo)",
@@ -18827,8 +18926,8 @@
     },
     {
       "id": 705061,
-      "name": "Fezandipiti ex - 038/064",
-      "clean_name": "Fezandipiti ex - 038/064",
+      "name": "Fezandipiti ex - 038/064 (Starless Foil)",
+      "clean_name": "Fezandipiti ex - 038/064 (Starless Foil)",
       "number": "038/064",
       "rarity": "Double Rare",
       "image_url": "https://cdn.tcgtracking.com/product/705061_200w.jpg",
@@ -26483,6 +26582,21 @@
       ]
     },
     {
+      "id": 707025,
+      "name": "Bastiodon - 062/084",
+      "clean_name": "Bastiodon - 062/084",
+      "number": "062/084",
+      "rarity": "Rare",
+      "image_url": "https://cdn.tcgtracking.com/product/707025_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": null,
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": null
+    },
+    {
       "id": 173098,
       "name": "Krookodile - 62/98 (BW Emerging Powers)",
       "clean_name": "Krookodile - 62/98 (BW Emerging Powers)",
@@ -28310,6 +28424,21 @@
           "group_id": 1840
         }
       ]
+    },
+    {
+      "id": 707027,
+      "name": "Silvally - 070/084",
+      "clean_name": "Silvally - 070/084",
+      "number": "070/084",
+      "rarity": "Rare",
+      "image_url": "https://cdn.tcgtracking.com/product/707027_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": null,
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": null
     },
     {
       "id": 245734,
@@ -31353,6 +31482,21 @@
           "group_id": 1840
         }
       ]
+    },
+    {
+      "id": 707029,
+      "name": "Voltaic Lightning Energy - 084/084",
+      "clean_name": "Voltaic Lightning Energy - 084/084",
+      "number": "084/084",
+      "rarity": "Rare",
+      "image_url": "https://cdn.tcgtracking.com/product/707029_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": null,
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": null
     },
     {
       "id": 133797,
