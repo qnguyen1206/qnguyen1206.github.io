@@ -3,9 +3,9 @@
   "set_name": "Miscellaneous Cards & Products",
   "set_abbr": "MCAP",
   "set_released": "2026-06-23",
-  "product_count": 1498,
-  "data_modified": "2026-07-15T06:16:28-04:00",
-  "file_generated": "2026-07-15T08:31:00-04:00",
+  "product_count": 1503,
+  "data_modified": "2026-07-21T06:14:33-04:00",
+  "file_generated": "2026-07-21T08:30:42-04:00",
   "pricing_url": "/v1/3/sets/2374/pricing",
   "cards_url": "/v1/3/sets/2374/cards",
   "sealed_url": "/v1/3/sets/2374/sealed",
@@ -1245,21 +1245,6 @@
       ]
     },
     {
-      "id": 695469,
-      "name": "Charizard (Library Exclusive)",
-      "clean_name": "Charizard (Library Exclusive)",
-      "number": null,
-      "rarity": "Rare",
-      "image_url": "https://cdn.tcgtracking.com/product/695469_200w.jpg",
-      "image_count": 1,
-      "tcgplayer_url": null,
-      "manapool_url": null,
-      "scryfall_id": null,
-      "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
-    },
-    {
       "id": 516576,
       "name": "Charizard ex Premium Collection",
       "clean_name": "Charizard ex Premium Collection",
@@ -2031,6 +2016,21 @@
       "cardtrader_id": null
     },
     {
+      "id": 491237,
+      "name": "Code Card - Battle Origins Tin [Mewtwo]",
+      "clean_name": "Code Card - Battle Origins Tin [Mewtwo]",
+      "number": null,
+      "rarity": "Code Card",
+      "image_url": "https://cdn.tcgtracking.com/product/491237_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F491237%2Fpokemon-world-championship-decks-code-card-battle-origins-tin-mewtwo",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": null
+    },
+    {
       "id": 665115,
       "name": "Code Card - Black Kyurem ex Box",
       "clean_name": "Code Card - Black Kyurem ex Box",
@@ -2579,6 +2579,21 @@
       "image_url": "https://cdn.tcgtracking.com/product/616954_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F616954%2Fpokemon-miscellaneous-cards-and-products-code-card-enhanced-2-pack-blister-pack-armarouge-revavroom-and-houndstone",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": null
+    },
+    {
+      "id": 491229,
+      "name": "Code Card - Enhanced 2-Pack Blister Pack [Articuno, Zapdos, & Moltres]",
+      "clean_name": "Code Card - Enhanced 2-Pack Blister Pack [Articuno, Zapdos, & Moltres]",
+      "number": null,
+      "rarity": "Code Card",
+      "image_url": "https://cdn.tcgtracking.com/product/491229_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F491229%2Fpokemon-world-championship-decks-code-card-enhanced-2-pack-blister-pack-articuno-zapdos-and-moltres",
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
@@ -9465,7 +9480,45 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 550936,
-      "cardtrader_id": 284707
+      "cardtrader_id": 284707,
+      "cardtrader": [
+        {
+          "id": 284707,
+          "name": "General Mills 25th Anniversary Booster",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Pokémon Products",
+          "expansion_code": "popr",
+          "collector_number": null,
+          "rarity": null,
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            550936
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/232770_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 232770,
+          "game_id": 5,
+          "category_id": 66,
+          "category_name": "Pokémon Booster",
+          "product_type": "booster",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 190359,
@@ -14447,7 +14500,45 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 720140,
-      "cardtrader_id": 261402
+      "cardtrader_id": 261402,
+      "cardtrader": [
+        {
+          "id": 261402,
+          "name": "Paldea Partners Tins | Quaquaval ex Tin",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Scarlet & Violet Products",
+          "expansion_code": "svproducts",
+          "collector_number": null,
+          "rarity": null,
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "sealed",
+              "type": "boolean",
+              "default_value": "true",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            720140
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/504442_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 504442,
+          "game_id": 5,
+          "category_id": 59,
+          "category_name": "Pokémon Tins",
+          "product_type": "sealed",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 517101,
@@ -14492,7 +14583,45 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 720138,
-      "cardtrader_id": 261401
+      "cardtrader_id": 261401,
+      "cardtrader": [
+        {
+          "id": 261401,
+          "name": "Paldea Partners Tins | Skeledirge ex Tin",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Scarlet & Violet Products",
+          "expansion_code": "svproducts",
+          "collector_number": null,
+          "rarity": null,
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "sealed",
+              "type": "boolean",
+              "default_value": "true",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            720138
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/504435_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 504435,
+          "game_id": 5,
+          "category_id": 59,
+          "category_name": "Pokémon Tins",
+          "product_type": "sealed",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 544241,
@@ -17587,93 +17716,6 @@
       "cardtrader_id": null
     },
     {
-      "id": 558553,
-      "name": "Teal Mask Ogerpon (Cosmos Holo) (EB Games Exclusive)",
-      "clean_name": "Teal Mask Ogerpon (Cosmos Holo) (EB Games Exclusive)",
-      "number": null,
-      "rarity": "Rare",
-      "image_url": "https://cdn.tcgtracking.com/product/558553_200w.jpg",
-      "image_count": 1,
-      "tcgplayer_url": null,
-      "manapool_url": null,
-      "scryfall_id": null,
-      "mtgjson_uuid": null,
-      "cardmarket_id": 771357,
-      "cardtrader_id": null,
-      "cardtrader": [
-        {
-          "id": 290616,
-          "name": "Teal Mask Ogerpon",
-          "match_type": "tcgplayer",
-          "match_confidence": 100,
-          "expansion": "Retail Exclusive Promos",
-          "expansion_code": "promo-retail",
-          "collector_number": "024",
-          "rarity": "Promo",
-          "finishes": [
-            "normal"
-          ],
-          "languages": [
-            "en",
-            "fr"
-          ],
-          "properties": [
-            {
-              "name": "condition",
-              "type": "string",
-              "default_value": "Near Mint",
-              "possible_values": [
-                "Mint",
-                "Near Mint",
-                "Slightly Played",
-                "Moderately Played",
-                "Played",
-                "Poor"
-              ]
-            },
-            {
-              "name": "signed",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "altered",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "pokemon_language",
-              "type": "string",
-              "default_value": "en",
-              "possible_values": [
-                "en",
-                "fr"
-              ]
-            }
-          ],
-          "cardmarket_ids": [
-            771357
-          ],
-          "image_url": "https://cdn.tcgtracking.com/product/558553_200w.jpg",
-          "scryfall_id": null,
-          "tcg_player_id": 558553,
-          "game_id": 5,
-          "category_id": 73,
-          "category_name": "Pokémon Singles",
-          "product_type": "single",
-          "group_id": 2374
-        }
-      ]
-    },
-    {
       "id": 653216,
       "name": "Team Rocket Tin [Set of 3]",
       "clean_name": "Team Rocket Tin [Set of 3]",
@@ -17914,21 +17956,6 @@
       "cardtrader_id": null
     },
     {
-      "id": 630779,
-      "name": "Torchic (Wizard World Chicago)",
-      "clean_name": "Torchic (Wizard World Chicago)",
-      "number": null,
-      "rarity": "Common",
-      "image_url": "https://cdn.tcgtracking.com/product/630779_200w.jpg",
-      "image_count": 1,
-      "tcgplayer_url": null,
-      "manapool_url": null,
-      "scryfall_id": null,
-      "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
-    },
-    {
       "id": 271999,
       "name": "Trainer Battle Deck - Brock of Pewter City Gym (JP Pokemon Center Exclusive)",
       "clean_name": "Trainer Battle Deck - Brock of Pewter City Gym (JP Pokemon Center Exclusive)",
@@ -17987,99 +18014,6 @@
       "mtgjson_uuid": null,
       "cardmarket_id": null,
       "cardtrader_id": null
-    },
-    {
-      "id": 174502,
-      "name": "Treecko - 8/168 (Toys R Us)",
-      "clean_name": "Treecko - 8/168 (Toys R Us)",
-      "number": null,
-      "rarity": "Promo",
-      "image_url": "https://cdn.tcgtracking.com/product/174502_200w.jpg",
-      "image_count": 1,
-      "tcgplayer_url": null,
-      "manapool_url": null,
-      "scryfall_id": null,
-      "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null,
-      "cardtrader": [
-        {
-          "id": 112839,
-          "name": "Treecko",
-          "match_type": "tcgplayer",
-          "match_confidence": 100,
-          "expansion": "Celestial Storm Promos",
-          "expansion_code": "pces",
-          "collector_number": "008/168",
-          "rarity": "Promo",
-          "finishes": [
-            "normal"
-          ],
-          "languages": [
-            "en",
-            "fr",
-            "de",
-            "it",
-            "pt",
-            "es"
-          ],
-          "properties": [
-            {
-              "name": "condition",
-              "type": "string",
-              "default_value": "Near Mint",
-              "possible_values": [
-                "Mint",
-                "Near Mint",
-                "Slightly Played",
-                "Moderately Played",
-                "Played",
-                "Poor"
-              ]
-            },
-            {
-              "name": "signed",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "altered",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "pokemon_language",
-              "type": "string",
-              "default_value": "en",
-              "possible_values": [
-                "en",
-                "fr",
-                "de",
-                "it",
-                "pt",
-                "es"
-              ]
-            }
-          ],
-          "cardmarket_ids": [],
-          "image_url": "https://cdn.tcgtracking.com/product/174502_200w.jpg",
-          "scryfall_id": null,
-          "tcg_player_id": 174502,
-          "game_id": 5,
-          "category_id": 73,
-          "category_name": "Pokémon Singles",
-          "product_type": "single",
-          "group_id": 1539
-        }
-      ]
     },
     {
       "id": 591146,
@@ -20430,7 +20364,77 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 275577,
-      "cardtrader_id": 152261
+      "cardtrader_id": 152261,
+      "cardtrader": [
+        {
+          "id": 152261,
+          "name": "Ancient Mew",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Miscellaneous Promos",
+          "expansion_code": "pr",
+          "collector_number": "011",
+          "rarity": "Promo",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            275577
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/108589_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 108589,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 482427,
@@ -20445,7 +20449,86 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 765790,
-      "cardtrader_id": 285903
+      "cardtrader_id": 285903,
+      "cardtrader": [
+        {
+          "id": 285903,
+          "name": "Ancient Mew",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Unnumbered Promos",
+          "expansion_code": "unpromo",
+          "collector_number": null,
+          "rarity": "Promo",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            765790
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/482427_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 482427,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 24194
+        }
+      ]
     },
     {
       "id": 187219,
@@ -23467,7 +23550,65 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 354264
+      "cardtrader_id": 354264,
+      "cardtrader": [
+        {
+          "id": 354264,
+          "name": "Leafeon",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "005",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/654704_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 654704,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 586829,
@@ -24075,8 +24216,68 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": 120062
+      "cardmarket_id": 873082,
+      "cardtrader_id": 120062,
+      "cardtrader": [
+        {
+          "id": 120062,
+          "name": "Tangela",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Retail Exclusive Promos",
+          "expansion_code": "promo-retail",
+          "collector_number": "008",
+          "rarity": "Common",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            873082
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/153280_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 153280,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 641614,
@@ -24206,6 +24407,99 @@
       ]
     },
     {
+      "id": 174502,
+      "name": "Treecko - 8/168 (Toys R Us)",
+      "clean_name": "Treecko - 8/168 (Toys R Us)",
+      "number": "008/168",
+      "rarity": "Promo",
+      "image_url": "https://cdn.tcgtracking.com/product/174502_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": null,
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": null,
+      "cardtrader": [
+        {
+          "id": 112839,
+          "name": "Treecko",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Celestial Storm Promos",
+          "expansion_code": "pces",
+          "collector_number": "008/168",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/174502_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 174502,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1539
+        }
+      ]
+    },
+    {
       "id": 680709,
       "name": "Chikorita (Cosmos Holo)",
       "clean_name": "Chikorita (Cosmos Holo)",
@@ -24313,7 +24607,65 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 118510
+      "cardtrader_id": 118510,
+      "cardtrader": [
+        {
+          "id": 118510,
+          "name": "Charmander",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Retail Exclusive Promos",
+          "expansion_code": "promo-retail",
+          "collector_number": "009",
+          "rarity": "Common",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/153290_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 153290,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 133824,
@@ -25273,6 +25625,21 @@
       "cardtrader_id": null
     },
     {
+      "id": 705528,
+      "name": "Armarouge (What's Your Favorite Stamp)",
+      "clean_name": "Armarouge (What's Your Favorite Stamp)",
+      "number": "012/084",
+      "rarity": "Rare",
+      "image_url": "https://cdn.tcgtracking.com/product/705528_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": null,
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": null
+    },
+    {
       "id": 668956,
       "name": "Victini (Black Bolt Stamped)",
       "clean_name": "Victini (Black Bolt Stamped)",
@@ -25680,7 +26047,65 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 354262
+      "cardtrader_id": 354262,
+      "cardtrader": [
+        {
+          "id": 354262,
+          "name": "Flareon",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "013",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/654775_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 654775,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 505063,
@@ -26001,8 +26426,68 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": 319194
+      "cardmarket_id": 873080,
+      "cardtrader_id": 319194,
+      "cardtrader": [
+        {
+          "id": 319194,
+          "name": "Ponyta",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Retail Exclusive Promos",
+          "expansion_code": "promo-retail",
+          "collector_number": "014",
+          "rarity": "Common",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            873080
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/153282_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 153282,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 635612,
@@ -28313,7 +28798,65 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 112268
+      "cardtrader_id": 112268,
+      "cardtrader": [
+        {
+          "id": 112268,
+          "name": "Charmander",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Retail Exclusive Promos",
+          "expansion_code": "promo-retail",
+          "collector_number": "18a",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/186319_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 186319,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 694630,
@@ -28711,6 +29254,21 @@
       ]
     },
     {
+      "id": 705526,
+      "name": "Primarina - 020/084 (What's Your Favorite Stamp)",
+      "clean_name": "Primarina - 020/084 (What's Your Favorite Stamp)",
+      "number": "020/084",
+      "rarity": "Rare",
+      "image_url": "https://cdn.tcgtracking.com/product/705526_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": null,
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": null
+    },
+    {
       "id": 668958,
       "name": "Reshiram ex (White Flare Stamped)",
       "clean_name": "Reshiram ex (White Flare Stamped)",
@@ -28723,7 +29281,65 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 366010
+      "cardtrader_id": 366010,
+      "cardtrader": [
+        {
+          "id": 366010,
+          "name": "Reshiram ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Prerelease Promos",
+          "expansion_code": "pre-poke",
+          "collector_number": "020",
+          "rarity": "Ultra Rare",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/668958_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 668958,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 141249,
@@ -29526,7 +30142,65 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 120583
+      "cardtrader_id": 120583,
+      "cardtrader": [
+        {
+          "id": 120583,
+          "name": "Alolan Vulpix",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Retail Exclusive Promos",
+          "expansion_code": "promo-retail",
+          "collector_number": "021",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/131861_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 131861,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 489358,
@@ -29633,8 +30307,68 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": 120065
+      "cardmarket_id": 873078,
+      "cardtrader_id": 120065,
+      "cardtrader": [
+        {
+          "id": 120065,
+          "name": "Magikarp",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Retail Exclusive Promos",
+          "expansion_code": "promo-retail",
+          "collector_number": "022",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            873078
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/144669_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 144669,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 246484,
@@ -29744,7 +30478,65 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 354260
+      "cardtrader_id": 354260,
+      "cardtrader": [
+        {
+          "id": 354260,
+          "name": "Vaporeon",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "022",
+          "rarity": "Rare",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/654776_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 654776,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 664136,
@@ -29898,7 +30690,67 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 550346,
-      "cardtrader_id": 262259
+      "cardtrader_id": 262259,
+      "cardtrader": [
+        {
+          "id": 262259,
+          "name": "Flapple",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Retail Exclusive Promos",
+          "expansion_code": "promo-retail",
+          "collector_number": "022g",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            550346
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/234699_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 234699,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 618093,
@@ -30600,6 +31452,93 @@
       "cardtrader_id": null
     },
     {
+      "id": 558553,
+      "name": "Teal Mask Ogerpon (Cosmos Holo) (EB Games Exclusive)",
+      "clean_name": "Teal Mask Ogerpon (Cosmos Holo) (EB Games Exclusive)",
+      "number": "024/167",
+      "rarity": "Rare",
+      "image_url": "https://cdn.tcgtracking.com/product/558553_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": null,
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 771357,
+      "cardtrader_id": null,
+      "cardtrader": [
+        {
+          "id": 290616,
+          "name": "Teal Mask Ogerpon",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Retail Exclusive Promos",
+          "expansion_code": "promo-retail",
+          "collector_number": "024",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            771357
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/558553_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 558553,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2374
+        }
+      ]
+    },
+    {
       "id": 558552,
       "name": "Teal Mask Ogerpon (Cosmos Holo) (Gamestop Exclusive)",
       "clean_name": "Teal Mask Ogerpon (Cosmos Holo) (Gamestop Exclusive)",
@@ -30811,7 +31750,65 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 354266
+      "cardtrader_id": 354266,
+      "cardtrader": [
+        {
+          "id": 354266,
+          "name": "Glaceon",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "025",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/654644_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 654644,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 212047,
@@ -31359,7 +32356,65 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 120066
+      "cardtrader_id": 120066,
+      "cardtrader": [
+        {
+          "id": 120066,
+          "name": "Pikachu",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Retail Exclusive Promos",
+          "expansion_code": "promo-retail",
+          "collector_number": "026",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/144670_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 144670,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 670788,
@@ -32597,7 +33652,65 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 127523
+      "cardtrader_id": 127523,
+      "cardtrader": [
+        {
+          "id": 127523,
+          "name": "Pikachu",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Retail Exclusive Promos",
+          "expansion_code": "promo-retail",
+          "collector_number": "028",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/186322_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 186322,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 180720,
@@ -33415,7 +34528,65 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 118096
+      "cardtrader_id": 118096,
+      "cardtrader": [
+        {
+          "id": 118096,
+          "name": "Lugia",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Miscellaneous Promos",
+          "expansion_code": "pr",
+          "collector_number": "029",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/221299_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 221299,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 654646,
@@ -33430,7 +34601,65 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 354265
+      "cardtrader_id": 354265,
+      "cardtrader": [
+        {
+          "id": 354265,
+          "name": "Jolteon",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "029",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/654646_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 654646,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 602873,
@@ -33445,7 +34674,67 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 794946,
-      "cardtrader_id": 306790
+      "cardtrader_id": 306790,
+      "cardtrader": [
+        {
+          "id": 306790,
+          "name": "Fuecoco",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Retail Exclusive Promos",
+          "expansion_code": "promo-retail",
+          "collector_number": "029",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            794946
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/602873_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 602873,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 681895,
@@ -34201,8 +35490,68 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": 120068
+      "cardmarket_id": 873081,
+      "cardtrader_id": 120068,
+      "cardtrader": [
+        {
+          "id": 120068,
+          "name": "Slowpoke",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Retail Exclusive Promos",
+          "expansion_code": "promo-retail",
+          "collector_number": "032",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            873081
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/153283_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 153283,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 189762,
@@ -34217,7 +35566,65 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 130371
+      "cardtrader_id": 130371,
+      "cardtrader": [
+        {
+          "id": 130371,
+          "name": "Piplup",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Retail Exclusive Promos",
+          "expansion_code": "promo-retail",
+          "collector_number": "032",
+          "rarity": "Common",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/189762_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 189762,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 162458,
@@ -34232,7 +35639,65 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 130370
+      "cardtrader_id": 130370,
+      "cardtrader": [
+        {
+          "id": 130370,
+          "name": "Piplup",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Retail Exclusive Promos",
+          "expansion_code": "promo-retail",
+          "collector_number": "032",
+          "rarity": "Common",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/162458_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 162458,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 650961,
@@ -34736,7 +36201,65 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 354263
+      "cardtrader_id": 354263,
+      "cardtrader": [
+        {
+          "id": 354263,
+          "name": "Espeon",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "033",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/654639_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 654639,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 212046,
@@ -34967,7 +36490,65 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 366011
+      "cardtrader_id": 366011,
+      "cardtrader": [
+        {
+          "id": 366011,
+          "name": "Zekrom ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Prerelease Promos",
+          "expansion_code": "pre-poke",
+          "collector_number": "020",
+          "rarity": "Ultra Rare",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/668957_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 668957,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 248804,
@@ -37255,7 +38836,65 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 354261
+      "cardtrader_id": 354261,
+      "cardtrader": [
+        {
+          "id": 354261,
+          "name": "Sylveon",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "040",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/654647_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 654647,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 621114,
@@ -38548,8 +40187,68 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": 120069
+      "cardmarket_id": 873077,
+      "cardtrader_id": 120069,
+      "cardtrader": [
+        {
+          "id": 120069,
+          "name": "Geodude",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Retail Exclusive Promos",
+          "expansion_code": "promo-retail",
+          "collector_number": "043",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            873077
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/153284_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 153284,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 549339,
@@ -40315,8 +42014,68 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": 323066
+      "cardmarket_id": 873076,
+      "cardtrader_id": 323066,
+      "cardtrader": [
+        {
+          "id": 323066,
+          "name": "Clefairy",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Retail Exclusive Promos",
+          "expansion_code": "promo-retail",
+          "collector_number": "050",
+          "rarity": "Common",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            873076
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/136645_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 136645,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 686505,
@@ -41669,8 +43428,68 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": 120071
+      "cardmarket_id": 873079,
+      "cardtrader_id": 120071,
+      "cardtrader": [
+        {
+          "id": 120071,
+          "name": "Meowth",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Retail Exclusive Promos",
+          "expansion_code": "promo-retail",
+          "collector_number": "053",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            873079
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/136646_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 136646,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 565438,
@@ -42405,6 +44224,21 @@
       "cardtrader_id": null
     },
     {
+      "id": 705527,
+      "name": "Zarude (What's Your Favorite Stamp)",
+      "clean_name": "Zarude (What's Your Favorite Stamp)",
+      "number": "056/084",
+      "rarity": "Rare",
+      "image_url": "https://cdn.tcgtracking.com/product/705527_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": null,
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": null
+    },
+    {
       "id": 186829,
       "name": "Tyranitar - 56/124 (Cosmos Holo)",
       "clean_name": "Tyranitar - 56/124 (Cosmos Holo)",
@@ -43047,7 +44881,75 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 111383
+      "cardtrader_id": 111383,
+      "cardtrader": [
+        {
+          "id": 111383,
+          "name": "Pikachu",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Miscellaneous Promos",
+          "expansion_code": "pr",
+          "collector_number": "058/102a",
+          "rarity": "Common",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/123634_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 123634,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 123633,
@@ -43062,7 +44964,75 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 111382
+      "cardtrader_id": 111382,
+      "cardtrader": [
+        {
+          "id": 111382,
+          "name": "Pikachu",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Miscellaneous Promos",
+          "expansion_code": "pr",
+          "collector_number": "058/102",
+          "rarity": "Common",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/123633_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 123633,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 125897,
@@ -43077,7 +45047,75 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 111384
+      "cardtrader_id": 111384,
+      "cardtrader": [
+        {
+          "id": 111384,
+          "name": "Pikachu",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Miscellaneous Promos",
+          "expansion_code": "pr",
+          "collector_number": "058/102t",
+          "rarity": "Common",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/125897_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 125897,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 668453,
@@ -43381,7 +45419,65 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 354267
+      "cardtrader_id": 354267,
+      "cardtrader": [
+        {
+          "id": 354267,
+          "name": "Umbreon",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "059",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/654638_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 654638,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 668455,
@@ -44598,7 +46694,65 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 366012
+      "cardtrader_id": 366012,
+      "cardtrader": [
+        {
+          "id": 366012,
+          "name": "Zoroark",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Prerelease Promos",
+          "expansion_code": "pre-poke",
+          "collector_number": "062",
+          "rarity": "Ultra Rare",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/668959_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 668959,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 599652,
@@ -45119,7 +47273,67 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 793388,
-      "cardtrader_id": 375726
+      "cardtrader_id": 375726,
+      "cardtrader": [
+        {
+          "id": 375726,
+          "name": "Pikachu",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Miscellaneous Promos",
+          "expansion_code": "pr",
+          "collector_number": "062",
+          "rarity": "Common",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            793388
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/593275_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 593275,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 554803,
@@ -47948,7 +50162,65 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 113575
+      "cardtrader_id": 113575,
+      "cardtrader": [
+        {
+          "id": 113575,
+          "name": "Jangmo-o",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Crimson Invasion Promos",
+          "expansion_code": "pcin",
+          "collector_number": "075",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/162459_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 162459,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1539
+        }
+      ]
     },
     {
       "id": 618089,
@@ -50509,7 +52781,67 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 727069,
-      "cardtrader_id": 256404
+      "cardtrader_id": 256404,
+      "cardtrader": [
+        {
+          "id": 256404,
+          "name": "Espeon",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Retail Exclusive Promos",
+          "expansion_code": "promo-retail",
+          "collector_number": "086",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            727069
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/512584_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 512584,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 661700,
@@ -50839,7 +53171,67 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 851265,
-      "cardtrader_id": 351717
+      "cardtrader_id": 351717,
+      "cardtrader": [
+        {
+          "id": 351717,
+          "name": "Yveltal",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Retail Exclusive Promos",
+          "expansion_code": "promo-retail",
+          "collector_number": "088",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            851265
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/655978_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 655978,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 659592,
@@ -53492,7 +55884,67 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 719854,
-      "cardtrader_id": 252219
+      "cardtrader_id": 252219,
+      "cardtrader": [
+        {
+          "id": 252219,
+          "name": "Tinkaton",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Retail Exclusive Promos",
+          "expansion_code": "promo-retail",
+          "collector_number": "105g",
+          "rarity": "Rare",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            719854
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/502625_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 502625,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 602840,
@@ -56686,7 +59138,67 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 683035,
-      "cardtrader_id": 349620
+      "cardtrader_id": 349620,
+      "cardtrader": [
+        {
+          "id": 349620,
+          "name": "Arceus V",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Brilliant Stars",
+          "expansion_code": "brs",
+          "collector_number": "122",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            683035
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/454372_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 454372,
+          "game_id": 5,
+          "category_id": 78,
+          "category_name": "Pokémon Oversized",
+          "product_type": "oversized",
+          "group_id": 2948
+        }
+      ]
     },
     {
       "id": 557166,
@@ -56815,7 +59327,67 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 683036,
-      "cardtrader_id": 349619
+      "cardtrader_id": 349619,
+      "cardtrader": [
+        {
+          "id": 349619,
+          "name": "Arceus VSTAR",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Brilliant Stars",
+          "expansion_code": "brs",
+          "collector_number": "123",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            683036
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/454373_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 454373,
+          "game_id": 5,
+          "category_id": 78,
+          "category_name": "Pokémon Oversized",
+          "product_type": "oversized",
+          "group_id": 2948
+        }
+      ]
     },
     {
       "id": 528477,
@@ -59552,6 +62124,21 @@
       ]
     },
     {
+      "id": 695469,
+      "name": "Charizard (Library Exclusive)",
+      "clean_name": "Charizard (Library Exclusive)",
+      "number": "14/181",
+      "rarity": "Rare",
+      "image_url": "https://cdn.tcgtracking.com/product/695469_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": null,
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": null
+    },
+    {
       "id": 249767,
       "name": "Snorlax - 141/192 (Cosmos Holo)",
       "clean_name": "Snorlax - 141/192 (Cosmos Holo)",
@@ -60892,7 +63479,67 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 754781,
-      "cardtrader_id": 280698
+      "cardtrader_id": 280698,
+      "cardtrader": [
+        {
+          "id": 280698,
+          "name": "Orthworm",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Retail Exclusive Promos",
+          "expansion_code": "promo-retail",
+          "collector_number": "151c",
+          "rarity": "Rare",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            754781
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/549293_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 549293,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 247410,
@@ -63363,7 +66010,82 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 275571,
-      "cardtrader_id": 121532
+      "cardtrader_id": 121532,
+      "cardtrader": [
+        {
+          "id": 121532,
+          "name": "Meowth",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Miscellaneous Promos",
+          "expansion_code": "pr",
+          "collector_number": "056",
+          "rarity": "Common",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            275571
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/126211_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 126211,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2374
+        }
+      ]
+    },
+    {
+      "id": 630779,
+      "name": "Torchic (Wizard World Chicago)",
+      "clean_name": "Torchic (Wizard World Chicago)",
+      "number": "69/106",
+      "rarity": "Common",
+      "image_url": "https://cdn.tcgtracking.com/product/630779_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": null,
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": null
     },
     {
       "id": 637079,

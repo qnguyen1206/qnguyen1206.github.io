@@ -4,8 +4,8 @@
   "set_abbr": "BST",
   "set_released": "2004-10-18",
   "product_count": 52,
-  "data_modified": "2026-06-27T14:54:21-04:00",
-  "file_generated": "2026-07-01T16:48:37-04:00",
+  "data_modified": "2026-07-16T06:10:56-04:00",
+  "file_generated": "2026-07-16T08:33:55-04:00",
   "pricing_url": "/v1/3/sets/1853/pricing",
   "cards_url": "/v1/3/sets/1853/cards",
   "sealed_url": "/v1/3/sets/1853/sealed",
@@ -24,7 +24,45 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 570260,
-      "cardtrader_id": 147798
+      "cardtrader_id": 147798,
+      "cardtrader": [
+        {
+          "id": 147798,
+          "name": "EX Battle Stadium",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "EX Battle Stadium",
+          "expansion_code": "exbst",
+          "collector_number": null,
+          "rarity": null,
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "sealed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            570260
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/210078_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 210078,
+          "game_id": 5,
+          "category_id": 69,
+          "category_name": "Pokémon Preconstructed Deck",
+          "product_type": "precon_deck",
+          "group_id": 1853
+        }
+      ]
     },
     {
       "id": 125108,

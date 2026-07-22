@@ -4,8 +4,8 @@
   "set_abbr": "PR",
   "set_released": "2002-12-01",
   "product_count": 15,
-  "data_modified": "2026-07-06T06:04:44-04:00",
-  "file_generated": "2026-07-06T08:33:12-04:00",
+  "data_modified": "2026-07-16T06:00:09-04:00",
+  "file_generated": "2026-07-16T08:33:56-04:00",
   "pricing_url": "/v1/3/sets/1455/pricing",
   "cards_url": "/v1/3/sets/1455/cards",
   "sealed_url": "/v1/3/sets/1455/sealed",
@@ -24,7 +24,75 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 111385
+      "cardtrader_id": 111385,
+      "cardtrader": [
+        {
+          "id": 111385,
+          "name": "Electabuzz",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Best of Game",
+          "expansion_code": "bog",
+          "collector_number": "001",
+          "rarity": "Promo",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/85106_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 85106,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1455
+        }
+      ]
     },
     {
       "id": 167078,
@@ -39,7 +107,75 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 111386
+      "cardtrader_id": 111386,
+      "cardtrader": [
+        {
+          "id": 111386,
+          "name": "Electabuzz",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Best of Game",
+          "expansion_code": "bog",
+          "collector_number": "1w",
+          "rarity": "Promo",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/167078_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 167078,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1455
+        }
+      ]
     },
     {
       "id": 86098,
@@ -54,7 +190,75 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 111387
+      "cardtrader_id": 111387,
+      "cardtrader": [
+        {
+          "id": 111387,
+          "name": "Hitmonchan",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Best of Game",
+          "expansion_code": "bog",
+          "collector_number": "002",
+          "rarity": "Promo",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/86098_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 86098,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1455
+        }
+      ]
     },
     {
       "id": 117599,
@@ -69,7 +273,75 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 111388
+      "cardtrader_id": 111388,
+      "cardtrader": [
+        {
+          "id": 111388,
+          "name": "Hitmonchan",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Best of Game",
+          "expansion_code": "bog",
+          "collector_number": "2w",
+          "rarity": "Promo",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/117599_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 117599,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1455
+        }
+      ]
     },
     {
       "id": 88387,
@@ -84,7 +356,75 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 111389
+      "cardtrader_id": 111389,
+      "cardtrader": [
+        {
+          "id": 111389,
+          "name": "Professor Elm",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Best of Game",
+          "expansion_code": "bog",
+          "collector_number": "003",
+          "rarity": "Promo",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/88387_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88387,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1455
+        }
+      ]
     },
     {
       "id": 88786,
@@ -99,7 +439,75 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 111391
+      "cardtrader_id": 111391,
+      "cardtrader": [
+        {
+          "id": 111391,
+          "name": "Rocket's Scizor",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Best of Game",
+          "expansion_code": "bog",
+          "collector_number": "004",
+          "rarity": "Promo",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/88786_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88786,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1455
+        }
+      ]
     },
     {
       "id": 167081,
@@ -114,7 +522,75 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 111392
+      "cardtrader_id": 111392,
+      "cardtrader": [
+        {
+          "id": 111392,
+          "name": "Rocket's Scizor",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Best of Game",
+          "expansion_code": "bog",
+          "collector_number": "4w",
+          "rarity": "Promo",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/167081_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 167081,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1455
+        }
+      ]
     },
     {
       "id": 88793,
@@ -129,7 +605,75 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 111393
+      "cardtrader_id": 111393,
+      "cardtrader": [
+        {
+          "id": 111393,
+          "name": "Rocket's Sneasel",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Best of Game",
+          "expansion_code": "bog",
+          "collector_number": "005",
+          "rarity": "Promo",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/88793_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88793,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1455
+        }
+      ]
     },
     {
       "id": 107877,
@@ -144,7 +688,75 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 111394
+      "cardtrader_id": 111394,
+      "cardtrader": [
+        {
+          "id": 111394,
+          "name": "Rocket's Sneasel",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Best of Game",
+          "expansion_code": "bog",
+          "collector_number": "5w",
+          "rarity": "Promo",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/107877_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 107877,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1455
+        }
+      ]
     },
     {
       "id": 84616,
@@ -159,7 +771,75 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 111395
+      "cardtrader_id": 111395,
+      "cardtrader": [
+        {
+          "id": 111395,
+          "name": "Dark Ivysaur",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Best of Game",
+          "expansion_code": "bog",
+          "collector_number": "006",
+          "rarity": "Promo",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/84616_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84616,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1455
+        }
+      ]
     },
     {
       "id": 107876,
@@ -174,7 +854,75 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 111396
+      "cardtrader_id": 111396,
+      "cardtrader": [
+        {
+          "id": 111396,
+          "name": "Dark Ivysaur",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Best of Game",
+          "expansion_code": "bog",
+          "collector_number": "6w",
+          "rarity": "Promo",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/107876_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 107876,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1455
+        }
+      ]
     },
     {
       "id": 84666,
@@ -189,7 +937,75 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 111397
+      "cardtrader_id": 111397,
+      "cardtrader": [
+        {
+          "id": 111397,
+          "name": "Dark Venusaur",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Best of Game",
+          "expansion_code": "bog",
+          "collector_number": "007",
+          "rarity": "Promo",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/84666_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 84666,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1455
+        }
+      ]
     },
     {
       "id": 167077,
@@ -204,7 +1020,75 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 111398
+      "cardtrader_id": 111398,
+      "cardtrader": [
+        {
+          "id": 111398,
+          "name": "Dark Venusaur",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Best of Game",
+          "expansion_code": "bog",
+          "collector_number": "7w",
+          "rarity": "Promo",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/167077_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 167077,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1455
+        }
+      ]
     },
     {
       "id": 167080,
@@ -219,7 +1103,75 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 111400
+      "cardtrader_id": 111400,
+      "cardtrader": [
+        {
+          "id": 111400,
+          "name": "Rocket's Mewtwo",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Best of Game",
+          "expansion_code": "bog",
+          "collector_number": "8w",
+          "rarity": "Promo",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/167080_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 167080,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1455
+        }
+      ]
     },
     {
       "id": 167079,
@@ -234,7 +1186,75 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 111402
+      "cardtrader_id": 111402,
+      "cardtrader": [
+        {
+          "id": 111402,
+          "name": "Rocket's Hitmonchan",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Best of Game",
+          "expansion_code": "bog",
+          "collector_number": "9w",
+          "rarity": "Promo",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/167079_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 167079,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1455
+        }
+      ]
     }
   ]
 }
