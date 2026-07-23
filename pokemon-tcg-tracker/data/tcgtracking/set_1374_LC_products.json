@@ -4,8 +4,8 @@
   "set_abbr": "LC",
   "set_released": "2002-05-24",
   "product_count": 114,
-  "data_modified": "2026-06-27T14:54:21-04:00",
-  "file_generated": "2026-07-01T16:48:38-04:00",
+  "data_modified": "2026-07-16T06:10:58-04:00",
+  "file_generated": "2026-07-16T08:33:57-04:00",
   "pricing_url": "/v1/3/sets/1374/pricing",
   "cards_url": "/v1/3/sets/1374/cards",
   "sealed_url": "/v1/3/sets/1374/sealed",
@@ -273,7 +273,77 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 274766,
-      "cardtrader_id": 121534
+      "cardtrader_id": 121534,
+      "cardtrader": [
+        {
+          "id": 121534,
+          "name": "Alakazam",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Legendary Collection",
+          "expansion_code": "lc",
+          "collector_number": "001/110",
+          "rarity": "Holo Rare",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            274766
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/83496_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83496,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
+        }
+      ]
     },
     {
       "id": 83643,
@@ -6463,7 +6533,77 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 274832,
-      "cardtrader_id": 121666
+      "cardtrader_id": 121666,
+      "cardtrader": [
+        {
+          "id": 121666,
+          "name": "Abra",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Legendary Collection",
+          "expansion_code": "lc",
+          "collector_number": "067/110",
+          "rarity": "Common",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            274832
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/83446_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 83446,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1374
+        }
+      ]
     },
     {
       "id": 84025,
