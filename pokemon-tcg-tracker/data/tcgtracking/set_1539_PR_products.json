@@ -3,9 +3,9 @@
   "set_name": "League & Championship Cards",
   "set_abbr": "PR",
   "set_released": "2016-06-01",
-  "product_count": 623,
-  "data_modified": "2026-07-08T06:07:22-04:00",
-  "file_generated": "2026-07-08T08:31:37-04:00",
+  "product_count": 626,
+  "data_modified": "2026-07-21T06:07:59-04:00",
+  "file_generated": "2026-07-21T08:31:03-04:00",
   "pricing_url": "/v1/3/sets/1539/pricing",
   "cards_url": "/v1/3/sets/1539/cards",
   "sealed_url": "/v1/3/sets/1539/sealed",
@@ -6758,105 +6758,6 @@
       ]
     },
     {
-      "id": 230928,
-      "name": "Pumpkaboo - 56/146 (Pokemon League) [3rd Place]",
-      "clean_name": "Pumpkaboo - 56/146 (Pokemon League) [3rd Place]",
-      "number": null,
-      "rarity": "Promo",
-      "image_url": "https://cdn.tcgtracking.com/product/230928_200w.jpg",
-      "image_count": 1,
-      "tcgplayer_url": null,
-      "manapool_url": null,
-      "scryfall_id": null,
-      "mtgjson_uuid": null,
-      "cardmarket_id": 450193,
-      "cardtrader_id": null,
-      "cardtrader": [
-        {
-          "id": 132363,
-          "name": "Pumpkaboo",
-          "match_type": "tcgplayer",
-          "match_confidence": 100,
-          "expansion": "XY Black Star Promos",
-          "expansion_code": "xybsp",
-          "collector_number": "056/146c",
-          "rarity": "Common",
-          "finishes": [
-            "normal"
-          ],
-          "languages": [
-            "en",
-            "fr",
-            "de",
-            "it",
-            "kr",
-            "pt",
-            "ru",
-            "es"
-          ],
-          "properties": [
-            {
-              "name": "condition",
-              "type": "string",
-              "default_value": "Near Mint",
-              "possible_values": [
-                "Mint",
-                "Near Mint",
-                "Slightly Played",
-                "Moderately Played",
-                "Played",
-                "Poor"
-              ]
-            },
-            {
-              "name": "signed",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "altered",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "pokemon_language",
-              "type": "string",
-              "default_value": "en",
-              "possible_values": [
-                "en",
-                "fr",
-                "de",
-                "it",
-                "kr",
-                "pt",
-                "ru",
-                "es"
-              ]
-            }
-          ],
-          "cardmarket_ids": [
-            450193
-          ],
-          "image_url": "https://cdn.tcgtracking.com/product/230928_200w.jpg",
-          "scryfall_id": null,
-          "tcg_player_id": 230928,
-          "game_id": 5,
-          "category_id": 73,
-          "category_name": "Pokémon Singles",
-          "product_type": "single",
-          "group_id": 1451
-        }
-      ]
-    },
-    {
       "id": 125567,
       "name": "Rainbow Energy (WotC League Promo)",
       "clean_name": "Rainbow Energy (WotC League Promo)",
@@ -11111,6 +11012,21 @@
           "group_id": 1539
         }
       ]
+    },
+    {
+      "id": 706572,
+      "name": "Bagon - 6/20 (Regional Championships) [Staff]",
+      "clean_name": "Bagon - 6/20 (Regional Championships) [Staff]",
+      "number": "006/020",
+      "rarity": "Promo",
+      "image_url": "https://cdn.tcgtracking.com/product/706572_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": null,
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": null
     },
     {
       "id": 251240,
@@ -25483,6 +25399,105 @@
           "image_url": "https://cdn.tcgtracking.com/product/230927_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 230927,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1451
+        }
+      ]
+    },
+    {
+      "id": 230928,
+      "name": "Pumpkaboo - 56/146 (Pokemon League) [3rd Place]",
+      "clean_name": "Pumpkaboo - 56/146 (Pokemon League) [3rd Place]",
+      "number": "056/146",
+      "rarity": "Promo",
+      "image_url": "https://cdn.tcgtracking.com/product/230928_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": null,
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 450193,
+      "cardtrader_id": null,
+      "cardtrader": [
+        {
+          "id": 132363,
+          "name": "Pumpkaboo",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "XY Black Star Promos",
+          "expansion_code": "xybsp",
+          "collector_number": "056/146c",
+          "rarity": "Common",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "kr",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "kr",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            450193
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/230928_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 230928,
           "game_id": 5,
           "category_id": 73,
           "category_name": "Pokémon Singles",
@@ -47933,6 +47948,21 @@
       ]
     },
     {
+      "id": 707095,
+      "name": "Combusken - 13/111 (State Championships) [Staff]",
+      "clean_name": "Combusken - 13/111 (State Championships) [Staff]",
+      "number": "13/111",
+      "rarity": "Promo",
+      "image_url": "https://cdn.tcgtracking.com/product/707095_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": null,
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": null
+    },
+    {
       "id": 190380,
       "name": "Rescue Stretcher - 130a/145 (Pokemon League)",
       "clean_name": "Rescue Stretcher - 130a/145 (Pokemon League)",
@@ -48030,6 +48060,21 @@
           "group_id": 1539
         }
       ]
+    },
+    {
+      "id": 707155,
+      "name": "Ultra Ball - 131/132 (North America International Championship)",
+      "clean_name": "Ultra Ball - 131/132 (North America International Championship)",
+      "number": "131/132",
+      "rarity": "Common",
+      "image_url": "https://cdn.tcgtracking.com/product/707155_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": null,
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": null
     },
     {
       "id": 704904,
