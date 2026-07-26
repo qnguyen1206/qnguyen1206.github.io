@@ -4,7 +4,7 @@ export default {
     category: 'Design',
     difficulty: 'Hard',
     tags: ['Design', 'VR', 'Web Development', 'UI/UX'],
-    date: '2026-07-19T12:00:00',
+    date: '2026-07-25T12:00:00',
     excerpt: 'Design Process and Sketches for Biophilia',
     content: `
 This project was awarded a Catalyst Grant and is an on going project led by Artist Belinda Person in collaboration with Professor Krystian Ramlogan.
@@ -70,5 +70,29 @@ For the decorations, I am adding in bits by bits so that the decoration doesn’
 <img src="/blogs/design-process/biophilia/vr-layout-2.png" alt="VR layout 2">
 
 <img src="/blogs/design-process/biophilia/vr-layout-3.png" alt="VR layout 3">
+
+After getting feedback and suggestions, I tried out some iterations with no walls and an open background and tried to get the background to have the same theme as the paintings. It turns out pretty decent and aligns with what I want for the environment space.
+
+<img src="/blogs/design-process/biophilia/vr-layout-4.png" alt="VR layout 4">
+
+I also got some feedback on the flooring since it doesn’t match the current environment space so I decided to change the floor texture. My first go-to texture was a forest texture but it turns out to be a terrible idea because of the texture stretch and scale on the flooring.
+
+<img src="/blogs/design-process/biophilia/floor-image-2.png" alt="Floor image 2">
+
+<img src="/blogs/design-process/biophilia/floor-image-3.png" alt="Floor image 3">
+
+For my second iteration, I decided to go with a less detailed texture which can help when stretching and scale which work pretty well.
+
+<img src="/blogs/design-process/biophilia/floor-image-4.png" alt="Floor image 4">
+
+<img src="/blogs/design-process/biophilia/floor-image-5.png" alt="Floor image 5">
+
+After adding everything together and creating a custom wall background, I decided to put everything together for the first iteration of the new environment space. Then I add fog to create some ambient and to make the space more spacious than it looks. I also increase the amount of tree to increase the density of the forest theme environment.
+
+<img src="/blogs/design-process/biophilia/vr-layout-5.png" alt="VR layout 5">
+
+<img src="/blogs/design-process/biophilia/vr-layout-6.png" alt="VR layout 6">
+
+<img src="/blogs/design-process/biophilia/vr-layout-7.png" alt="VR layout 7">
 `
 }
