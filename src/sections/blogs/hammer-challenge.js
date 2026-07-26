@@ -1,6 +1,6 @@
 export default {
 	id: 'hammer-challenge',
-	title: 'Hammer',
+	title: 'Hammer Challenge',
 	category: 'TryHackMe',
 	difficulty: 'Medium',
 	tags: ['Penetration Testing', 'Web Application', 'Authentication'],

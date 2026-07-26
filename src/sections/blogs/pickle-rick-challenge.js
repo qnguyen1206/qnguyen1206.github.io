@@ -1,6 +1,6 @@
 export default {
     id: 'pickle-rick-challenge',
-    title: 'Pickle Rick',
+    title: 'Pickle Rick Challenge',
     category: 'TryHackMe',
     difficulty: 'Easy',
     tags: ['Pen Testing, Web Application'],
