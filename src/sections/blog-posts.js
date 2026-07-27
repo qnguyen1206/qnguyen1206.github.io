@@ -279,8 +279,6 @@ export const blogPosts = [
     /* Tools */
     portScannerTool,
     todoApp,
-    turnoverDesignProcess,
-    redesignEbayDesignProcess,
 
     /* Games */
     windowWashingGameMDM,
@@ -289,6 +287,8 @@ export const blogPosts = [
     kartTheTechFilledRacingGame,
 
     /* Design */
+    turnoverDesignProcess,
+    redesignEbayDesignProcess,
     biophiliaDesignProcess,
     
 ];

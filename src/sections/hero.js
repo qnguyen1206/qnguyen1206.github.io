@@ -7,7 +7,8 @@ export function initHero() {
         <div class="hero-text">
           <h1 class="hero-title animate-fadeInUp delay-200" style="padding-bottom: 0.2rem;">Quang Nguyen</h1>
           <div class="hero-cta" style="margin-top: 1.5rem;">
-            <button class="btn btn-primary" data-scroll-to="projects">View My Works</button>
+            <button class="btn btn-primary" data-scroll-to="projects">My Experience</button>
+            <button class="btn btn-primary" data-scroll-to="projects">My Works</button>
             <button class="btn btn-secondary" data-scroll-to="contacts">Contact Me</button>
           </div>
         </div>
@@ -20,7 +21,7 @@ export function initHero() {
           <ul class="hero-nav-links">
             <li><a href="#hero" class="hero-nav-link active">Home</a></li>
             <li><a href="#about" class="hero-nav-link">About</a></li>
-            <!-- <li><a href="#experience" class="hero-nav-link">Experience</a></li> -->
+            <li><a href="#experience" class="hero-nav-link">Experience</a></li>
             <li><a href="#projects" class="hero-nav-link">Projects</a></li>
             <li><a href="#blog" class="hero-nav-link">Writeups</a></li>
             <li><a href="#certificates" class="hero-nav-link">Certificates</a></li>
@@ -117,7 +118,7 @@ export function initHero() {
       }
 
       .hero-nav-link {
-        font-family: 'Celestial Silence', sans-serif;
+        font-family: 'Playball', cursive;
         color: rgba(255, 255, 255, 0.7);
         text-decoration: none;
         font-size: var(--font-size-lg);
