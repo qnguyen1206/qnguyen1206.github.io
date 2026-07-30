@@ -4,8 +4,8 @@
   "set_abbr": "PR",
   "set_released": "2007-05-01",
   "product_count": 66,
-  "data_modified": "2026-07-06T06:04:24-04:00",
-  "file_generated": "2026-07-06T08:32:59-04:00",
+  "data_modified": "2026-07-29T06:00:08-04:00",
+  "file_generated": "2026-07-29T08:31:45-04:00",
   "pricing_url": "/v1/3/sets/1421/pricing",
   "cards_url": "/v1/3/sets/1421/cards",
   "sealed_url": "/v1/3/sets/1421/sealed",
@@ -2340,7 +2340,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 275563,
       "cardtrader_id": 347869,
       "cardtrader": [
         {
@@ -2413,7 +2413,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            275563
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/88089_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 88089,
