@@ -4,8 +4,8 @@
   "set_abbr": "PL",
   "set_released": "2009-02-11",
   "product_count": 141,
-  "data_modified": "2026-06-27T14:54:26-04:00",
-  "file_generated": "2026-07-01T16:48:36-04:00",
+  "data_modified": "2026-07-30T06:00:11-04:00",
+  "file_generated": "2026-07-30T08:31:46-04:00",
   "pricing_url": "/v1/3/sets/1406/pricing",
   "cards_url": "/v1/3/sets/1406/cards",
   "sealed_url": "/v1/3/sets/1406/sealed",
@@ -654,7 +654,7 @@
     {
       "id": 85736,
       "name": "Giratina (10)",
-      "clean_name": "Giratina 10",
+      "clean_name": "Giratina (10)",
       "number": "10/127",
       "rarity": "Holo Rare",
       "image_url": "https://cdn.tcgtracking.com/product/85736_200w.jpg",
@@ -1169,7 +1169,7 @@
     {
       "id": 83991,
       "name": "Broken Time-Space",
-      "clean_name": "Broken Time Space",
+      "clean_name": "Broken Time-Space",
       "number": "104/127",
       "rarity": "Uncommon",
       "image_url": "https://cdn.tcgtracking.com/product/83991_200w.jpg",
@@ -1272,7 +1272,7 @@
     {
       "id": 84557,
       "name": "Cyrus's Conspiracy",
-      "clean_name": "Cyruss Conspiracy",
+      "clean_name": "Cyrus's Conspiracy",
       "number": "105/127",
       "rarity": "Uncommon",
       "image_url": "https://cdn.tcgtracking.com/product/84557_200w.jpg",
@@ -1684,7 +1684,7 @@
     {
       "id": 86822,
       "name": "Looker's Investigation",
-      "clean_name": "Lookers Investigation",
+      "clean_name": "Looker's Investigation",
       "number": "109/127",
       "rarity": "Uncommon",
       "image_url": "https://cdn.tcgtracking.com/product/86822_200w.jpg",
@@ -2508,7 +2508,7 @@
     {
       "id": 89805,
       "name": "Team Galactic's Invention G-101 Energy Gain",
-      "clean_name": "Team Galactics Invention G 101 Energy Gain",
+      "clean_name": "Team Galactic's Invention G-101 Energy Gain",
       "number": "116/127",
       "rarity": "Uncommon",
       "image_url": "https://cdn.tcgtracking.com/product/89805_200w.jpg",
@@ -2611,7 +2611,7 @@
     {
       "id": 89806,
       "name": "Team Galactic's Invention G-103 Power Spray",
-      "clean_name": "Team Galactics Invention G 103 Power Spray",
+      "clean_name": "Team Galactic's Invention G-103 Power Spray",
       "number": "117/127",
       "rarity": "Uncommon",
       "image_url": "https://cdn.tcgtracking.com/product/89806_200w.jpg",
@@ -2714,7 +2714,7 @@
     {
       "id": 89807,
       "name": "Team Galactic's Invention G-105 Poke Turn",
-      "clean_name": "Team Galactics Invention G 105 Poke Turn",
+      "clean_name": "Team Galactic's Invention G-105 Poke Turn",
       "number": "118/127",
       "rarity": "Uncommon",
       "image_url": "https://cdn.tcgtracking.com/product/89807_200w.jpg",
@@ -3229,7 +3229,7 @@
     {
       "id": 84811,
       "name": "Dialga G LV.X",
-      "clean_name": "Dialga G LVX",
+      "clean_name": "Dialga G LV.X",
       "number": "122/127",
       "rarity": "Ultra Rare",
       "image_url": "https://cdn.tcgtracking.com/product/84811_200w.jpg",
@@ -3251,8 +3251,7 @@
           "collector_number": "122/127",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal",
-            "foil"
+            "normal"
           ],
           "languages": [
             "en",
@@ -3304,15 +3303,6 @@
                 "it",
                 "es"
               ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
             }
           ],
           "cardmarket_ids": [
@@ -3332,7 +3322,7 @@
     {
       "id": 84926,
       "name": "Drapion LV.X",
-      "clean_name": "Drapion LVX",
+      "clean_name": "Drapion LV.X",
       "number": "123/127",
       "rarity": "Ultra Rare",
       "image_url": "https://cdn.tcgtracking.com/product/84926_200w.jpg",
@@ -3354,8 +3344,7 @@
           "collector_number": "123/127",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal",
-            "foil"
+            "normal"
           ],
           "languages": [
             "en",
@@ -3407,15 +3396,6 @@
                 "it",
                 "es"
               ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
             }
           ],
           "cardmarket_ids": [
@@ -3435,7 +3415,7 @@
     {
       "id": 85742,
       "name": "Giratina LV.X",
-      "clean_name": "Giratina LVX",
+      "clean_name": "Giratina LV.X",
       "number": "124/127",
       "rarity": "Ultra Rare",
       "image_url": "https://cdn.tcgtracking.com/product/85742_200w.jpg",
@@ -3457,8 +3437,7 @@
           "collector_number": "124/127",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal",
-            "foil"
+            "normal"
           ],
           "languages": [
             "en",
@@ -3510,15 +3489,6 @@
                 "it",
                 "es"
               ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
             }
           ],
           "cardmarket_ids": [
@@ -3538,7 +3508,7 @@
     {
       "id": 87918,
       "name": "Palkia G Lv.X",
-      "clean_name": "Palkia G LvX",
+      "clean_name": "Palkia G Lv.X",
       "number": "125/127",
       "rarity": "Ultra Rare",
       "image_url": "https://cdn.tcgtracking.com/product/87918_200w.jpg",
@@ -3560,8 +3530,7 @@
           "collector_number": "125/127",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal",
-            "foil"
+            "normal"
           ],
           "languages": [
             "en",
@@ -3613,15 +3582,6 @@
                 "it",
                 "es"
               ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
             }
           ],
           "cardmarket_ids": [
@@ -3641,7 +3601,7 @@
     {
       "id": 89114,
       "name": "Shaymin Lv.X (Land Forme)",
-      "clean_name": "Shaymin LvX Land Forme",
+      "clean_name": "Shaymin Lv.X (Land Forme)",
       "number": "126/127",
       "rarity": "Ultra Rare",
       "image_url": "https://cdn.tcgtracking.com/product/89114_200w.jpg",
@@ -3663,8 +3623,7 @@
           "collector_number": "126/127",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal",
-            "foil"
+            "normal"
           ],
           "languages": [
             "en",
@@ -3716,15 +3675,6 @@
                 "it",
                 "es"
               ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
             }
           ],
           "cardmarket_ids": [
@@ -3744,7 +3694,7 @@
     {
       "id": 89115,
       "name": "Shaymin Lv.X (Sky Forme)",
-      "clean_name": "Shaymin LvX Sky Forme",
+      "clean_name": "Shaymin Lv.X (Sky Forme)",
       "number": "127/127",
       "rarity": "Ultra Rare",
       "image_url": "https://cdn.tcgtracking.com/product/89115_200w.jpg",
@@ -3766,8 +3716,7 @@
           "collector_number": "127/127",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal",
-            "foil"
+            "normal"
           ],
           "languages": [
             "en",
@@ -3818,15 +3767,6 @@
                 "de",
                 "it",
                 "es"
-              ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
               ]
             }
           ],
@@ -4229,7 +4169,7 @@
     {
       "id": 89108,
       "name": "Shaymin (14)",
-      "clean_name": "Shaymin 14",
+      "clean_name": "Shaymin (14)",
       "number": "14/127",
       "rarity": "Holo Rare",
       "image_url": "https://cdn.tcgtracking.com/product/89108_200w.jpg",
@@ -4332,7 +4272,7 @@
     {
       "id": 89107,
       "name": "Shaymin (15)",
-      "clean_name": "Shaymin 15",
+      "clean_name": "Shaymin (15)",
       "number": "15/127",
       "rarity": "Holo Rare",
       "image_url": "https://cdn.tcgtracking.com/product/89107_200w.jpg",
@@ -5259,7 +5199,7 @@
     {
       "id": 84802,
       "name": "Dialga (23)",
-      "clean_name": "Dialga 23",
+      "clean_name": "Dialga (23)",
       "number": "23/127",
       "rarity": "Rare",
       "image_url": "https://cdn.tcgtracking.com/product/84802_200w.jpg",
@@ -5671,7 +5611,7 @@
     {
       "id": 85735,
       "name": "Giratina (27)",
-      "clean_name": "Giratina 27",
+      "clean_name": "Giratina (27)",
       "number": "27/127",
       "rarity": "Rare",
       "image_url": "https://cdn.tcgtracking.com/product/85735_200w.jpg",
@@ -5774,7 +5714,7 @@
     {
       "id": 85734,
       "name": "Giratina (28)",
-      "clean_name": "Giratina 28",
+      "clean_name": "Giratina (28)",
       "number": "28/127",
       "rarity": "Rare",
       "image_url": "https://cdn.tcgtracking.com/product/85734_200w.jpg",
@@ -6907,7 +6847,7 @@
     {
       "id": 89106,
       "name": "Shaymin (38)",
-      "clean_name": "Shaymin 38",
+      "clean_name": "Shaymin (38)",
       "number": "38/127",
       "rarity": "Rare",
       "image_url": "https://cdn.tcgtracking.com/product/89106_200w.jpg",
@@ -7525,7 +7465,7 @@
     {
       "id": 84102,
       "name": "Carnivine (43)",
-      "clean_name": "Carnivine 43",
+      "clean_name": "Carnivine (43)",
       "number": "43/127",
       "rarity": "Uncommon",
       "image_url": "https://cdn.tcgtracking.com/product/84102_200w.jpg",
@@ -8246,7 +8186,7 @@
     {
       "id": 84804,
       "name": "Dialga (5)",
-      "clean_name": "Dialga 5",
+      "clean_name": "Dialga (5)",
       "number": "5/127",
       "rarity": "Holo Rare",
       "image_url": "https://cdn.tcgtracking.com/product/84804_200w.jpg",
@@ -9379,7 +9319,7 @@
     {
       "id": 84803,
       "name": "Dialga (6)",
-      "clean_name": "Dialga 6",
+      "clean_name": "Dialga (6)",
       "number": "6/127",
       "rarity": "Holo Rare",
       "image_url": "https://cdn.tcgtracking.com/product/84803_200w.jpg",
@@ -10306,7 +10246,7 @@
     {
       "id": 84101,
       "name": "Carnivine (68)",
-      "clean_name": "Carnivine 68",
+      "clean_name": "Carnivine (68)",
       "number": "68/127",
       "rarity": "Common",
       "image_url": "https://cdn.tcgtracking.com/product/84101_200w.jpg",
@@ -12778,7 +12718,7 @@
     {
       "id": 85737,
       "name": "Giratina (9)",
-      "clean_name": "Giratina 9",
+      "clean_name": "Giratina (9)",
       "number": "9/127",
       "rarity": "Holo Rare",
       "image_url": "https://cdn.tcgtracking.com/product/85737_200w.jpg",
@@ -13911,7 +13851,7 @@
     {
       "id": 86838,
       "name": "Lotad (Shiny)",
-      "clean_name": "Lotad Shiny",
+      "clean_name": "Lotad (Shiny)",
       "number": "SH4",
       "rarity": "Shiny Holo Rare",
       "image_url": "https://cdn.tcgtracking.com/product/86838_200w.jpg",
@@ -13931,7 +13871,7 @@
           "expansion": "Platinum",
           "expansion_code": "pl",
           "collector_number": "SH4",
-          "rarity": "Holo Rare",
+          "rarity": "Shiny Holo Rare",
           "finishes": [
             "normal"
           ],
@@ -14004,7 +13944,7 @@
     {
       "id": 89659,
       "name": "Swablu (Shiny)",
-      "clean_name": "Swablu Shiny",
+      "clean_name": "Swablu (Shiny)",
       "number": "SH5",
       "rarity": "Shiny Holo Rare",
       "image_url": "https://cdn.tcgtracking.com/product/89659_200w.jpg",
@@ -14097,7 +14037,7 @@
     {
       "id": 90443,
       "name": "Vulpix (Shiny)",
-      "clean_name": "Vulpix Shiny",
+      "clean_name": "Vulpix (Shiny)",
       "number": "SH6",
       "rarity": "Shiny Holo Rare",
       "image_url": "https://cdn.tcgtracking.com/product/90443_200w.jpg",
