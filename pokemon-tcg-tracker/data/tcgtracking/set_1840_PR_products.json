@@ -3,9 +3,9 @@
   "set_name": "Deck Exclusives",
   "set_abbr": "PR",
   "set_released": "2016-09-01",
-  "product_count": 505,
-  "data_modified": "2026-07-27T13:42:34-04:00",
-  "file_generated": "2026-07-27T14:58:11-04:00",
+  "product_count": 506,
+  "data_modified": "2026-07-31T06:07:56-04:00",
+  "file_generated": "2026-07-31T08:32:13-04:00",
   "pricing_url": "/v1/3/sets/1840/pricing",
   "cards_url": "/v1/3/sets/1840/cards",
   "sealed_url": "/v1/3/sets/1840/sealed",
@@ -1211,6 +1211,21 @@
           "group_id": 1840
         }
       ]
+    },
+    {
+      "id": 709052,
+      "name": "Energy Search",
+      "clean_name": "Energy Search",
+      "number": "90",
+      "rarity": "Uncommon",
+      "image_url": "https://cdn.tcgtracking.com/product/709052_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": null,
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": null
     },
     {
       "id": 125047,
@@ -3775,11 +3790,10 @@
           "match_confidence": 100,
           "expansion": "Legends Awakened Promos",
           "expansion_code": "pla",
-          "collector_number": "005/146",
+          "collector_number": "005",
           "rarity": "Rare",
           "finishes": [
-            "normal",
-            "foil"
+            "normal"
           ],
           "languages": [
             "en",
@@ -3830,15 +3844,6 @@
                 "de",
                 "it",
                 "es"
-              ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
               ]
             }
           ],
@@ -6109,16 +6114,15 @@
       "cardtrader": [
         {
           "id": 122276,
-          "name": "Mamoswine",
+          "name": "Mamoswine Lv.54",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "Legends Awakened Promos",
           "expansion_code": "pla",
-          "collector_number": "009/146",
+          "collector_number": "009",
           "rarity": "Rare",
           "finishes": [
-            "normal",
-            "foil"
+            "normal"
           ],
           "languages": [
             "en",
@@ -6169,15 +6173,6 @@
                 "de",
                 "it",
                 "es"
-              ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
               ]
             }
           ],
@@ -7004,16 +6999,15 @@
       "cardtrader": [
         {
           "id": 122277,
-          "name": "Metagross",
+          "name": "Metagross Lv.58",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "Legends Awakened Promos",
           "expansion_code": "pla",
-          "collector_number": "010/146",
+          "collector_number": "010",
           "rarity": "Rare",
           "finishes": [
-            "normal",
-            "foil"
+            "normal"
           ],
           "languages": [
             "en",
@@ -7065,15 +7059,6 @@
                 "it",
                 "es"
               ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
             }
           ],
           "cardmarket_ids": [],
@@ -7110,7 +7095,7 @@
           "match_confidence": 100,
           "expansion": "Celestial Storm Promos",
           "expansion_code": "pces",
-          "collector_number": "010/168",
+          "collector_number": "010",
           "rarity": "Promo",
           "finishes": [
             "normal"
@@ -10574,11 +10559,10 @@
           "match_confidence": 100,
           "expansion": "Legends Awakened Promos",
           "expansion_code": "pla",
-          "collector_number": "017/146",
+          "collector_number": "017",
           "rarity": "Rare",
           "finishes": [
-            "normal",
-            "foil"
+            "normal"
           ],
           "languages": [
             "en",
@@ -10629,15 +10613,6 @@
                 "de",
                 "it",
                 "es"
-              ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
               ]
             }
           ],
@@ -13588,7 +13563,7 @@
           "match_confidence": 100,
           "expansion": "Steam Siege Promos",
           "expansion_code": "psts",
-          "collector_number": "025/114h",
+          "collector_number": "025",
           "rarity": "Promo",
           "finishes": [
             "normal"
@@ -16087,7 +16062,7 @@
           "match_confidence": 100,
           "expansion": "Legends Awakened Promos",
           "expansion_code": "pla",
-          "collector_number": "030/146h",
+          "collector_number": "030",
           "rarity": "Promo",
           "finishes": [
             "normal"
@@ -17620,16 +17595,16 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": 112510,
+      "cardtrader_id": null,
       "cardtrader": [
         {
           "id": 112510,
           "name": "Tangrowth",
           "match_type": "tcgplayer",
           "match_confidence": 100,
-          "expansion": "Call of Legends Promos",
-          "expansion_code": "pcl",
-          "collector_number": "34/95",
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "034",
           "rarity": "Promo",
           "finishes": [
             "normal"
@@ -17698,7 +17673,7 @@
           "category_id": 73,
           "category_name": "Pokémon Singles",
           "product_type": "single",
-          "group_id": 1423
+          "group_id": 1840
         }
       ]
     },
@@ -18136,7 +18111,7 @@
           "match_confidence": 100,
           "expansion": "Celestial Storm Promos",
           "expansion_code": "pces",
-          "collector_number": "035/168",
+          "collector_number": "035",
           "rarity": "Rare",
           "finishes": [
             "normal"
@@ -18542,12 +18517,12 @@
       "cardtrader": [
         {
           "id": 122283,
-          "name": "Regigigas",
+          "name": "Regigigas Lv.48",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "Legends Awakened Promos",
           "expansion_code": "pla",
-          "collector_number": "037/146",
+          "collector_number": "037",
           "rarity": "Promo",
           "finishes": [
             "normal"
@@ -19945,11 +19920,10 @@
           "match_confidence": 100,
           "expansion": "Steam Siege Promos",
           "expansion_code": "psts",
-          "collector_number": "040/114",
+          "collector_number": "040",
           "rarity": "Rare",
           "finishes": [
-            "normal",
-            "foil"
+            "normal"
           ],
           "languages": [
             "en",
@@ -20006,15 +19980,6 @@
                 "pt",
                 "ru",
                 "es"
-              ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
               ]
             }
           ],
@@ -21053,11 +21018,10 @@
           "match_confidence": 100,
           "expansion": "Primal Clash Promos",
           "expansion_code": "pprc",
-          "collector_number": "044/160",
+          "collector_number": "044",
           "rarity": "Rare",
           "finishes": [
-            "normal",
-            "foil"
+            "normal"
           ],
           "languages": [
             "en",
@@ -21114,15 +21078,6 @@
                 "pt",
                 "ru",
                 "es"
-              ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
               ]
             }
           ],
@@ -23649,7 +23604,7 @@
           "match_confidence": 100,
           "expansion": "Primal Clash Promos",
           "expansion_code": "pprc",
-          "collector_number": "053/160",
+          "collector_number": "053",
           "rarity": "Promo",
           "finishes": [
             "normal"
@@ -26262,11 +26217,10 @@
           "match_confidence": 100,
           "expansion": "Primal Clash Promos",
           "expansion_code": "pprc",
-          "collector_number": "061/160",
+          "collector_number": "061",
           "rarity": "Rare",
           "finishes": [
-            "normal",
-            "foil"
+            "normal"
           ],
           "languages": [
             "en",
@@ -26323,15 +26277,6 @@
                 "pt",
                 "ru",
                 "es"
-              ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
               ]
             }
           ],
@@ -27883,11 +27828,10 @@
           "match_confidence": 100,
           "expansion": "Burning Shadows Promos",
           "expansion_code": "pbus",
-          "collector_number": "067/147",
+          "collector_number": "067",
           "rarity": "Rare",
           "finishes": [
-            "normal",
-            "foil"
+            "normal"
           ],
           "languages": [
             "en",
@@ -27942,15 +27886,6 @@
                 "pt",
                 "ru",
                 "es"
-              ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
               ]
             }
           ],
@@ -29060,11 +28995,10 @@
           "match_confidence": 100,
           "expansion": "Steam Siege Promos",
           "expansion_code": "psts",
-          "collector_number": "073/114",
+          "collector_number": "073",
           "rarity": "Rare",
           "finishes": [
-            "normal",
-            "foil"
+            "normal"
           ],
           "languages": [
             "en",
@@ -29121,15 +29055,6 @@
                 "pt",
                 "ru",
                 "es"
-              ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
               ]
             }
           ],
@@ -29782,7 +29707,7 @@
           "match_confidence": 100,
           "expansion": "Burning Shadows Promos",
           "expansion_code": "pbus",
-          "collector_number": "076/147",
+          "collector_number": "076",
           "rarity": "Promo",
           "finishes": [
             "normal"
@@ -31587,7 +31512,7 @@
           "match_confidence": 100,
           "expansion": "Primal Clash Promos",
           "expansion_code": "pprc",
-          "collector_number": "084/160",
+          "collector_number": "084",
           "rarity": "Promo",
           "finishes": [
             "normal"

@@ -4,8 +4,8 @@
   "set_abbr": "PR",
   "set_released": "2007-05-01",
   "product_count": 66,
-  "data_modified": "2026-07-29T06:00:08-04:00",
-  "file_generated": "2026-07-29T08:31:45-04:00",
+  "data_modified": "2026-07-31T06:00:10-04:00",
+  "file_generated": "2026-07-31T08:32:18-04:00",
   "pricing_url": "/v1/3/sets/1421/pricing",
   "cards_url": "/v1/3/sets/1421/cards",
   "sealed_url": "/v1/3/sets/1421/sealed",
@@ -755,8 +755,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 882904,
+      "cardtrader_id": 127374,
+      "cardtrader": [
+        {
+          "id": 127374,
+          "name": "Kirlia",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Secret Wonders Promos",
+          "expansion_code": "psw",
+          "collector_number": "053",
+          "rarity": "Uncommon",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            882904
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/233308_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 233308,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1539
+        }
+      ]
     },
     {
       "id": 90075,
