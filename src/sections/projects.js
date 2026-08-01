@@ -70,7 +70,7 @@ export function initProjects() {
       duration: '2 months (June 2026 - July 2026)',
       githubLink: '',
       gitlabLink: '',
-      externalLink: '',
+      externalLink: 'https://freyahuijia.github.io/biophilia-web/',
       images: [],
       writeup: `
 ## VR Environment Concept Artist

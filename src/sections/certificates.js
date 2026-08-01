@@ -10,6 +10,12 @@ const certificatesData = {
   ],
   nonProfessional: [
     {
+      title: "AI Security",
+      issuer: "TryHackMe",
+      date: "Aug 1, 2026",
+      link: "https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-DKY2QCHNPR.pdf",
+    },
+    {
       title: "Learning Docker",
       issuer: "LinkedIn Learning",
       date: "June 18, 2026",
