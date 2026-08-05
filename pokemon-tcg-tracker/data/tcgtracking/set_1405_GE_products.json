@@ -4,8 +4,8 @@
   "set_abbr": "GE",
   "set_released": "2008-02-13",
   "product_count": 108,
-  "data_modified": "2026-07-27T13:39:39-04:00",
-  "file_generated": "2026-07-27T14:58:15-04:00",
+  "data_modified": "2026-08-03T08:22:16-04:00",
+  "file_generated": "2026-08-03T08:24:21-04:00",
   "pricing_url": "/v1/3/sets/1405/pricing",
   "cards_url": "/v1/3/sets/1405/cards",
   "sealed_url": "/v1/3/sets/1405/sealed",
@@ -17,6 +17,14 @@
       "clean_name": "Great Encounters Booster Box",
       "number": null,
       "rarity": null,
+      "ext_data": {
+        "number": null,
+        "description": "",
+        "flavorText": null,
+        "rarityDbName": null,
+        "releaseDate": "2008-02-13T00:00:00Z",
+        "energyType": null
+      },
       "image_url": "https://cdn.tcgtracking.com/product/98544_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F98544%2Fpokemon-great-encounters-great-encounters-booster-box",
@@ -89,6 +97,14 @@
       "clean_name": "Great Encounters Booster Pack",
       "number": null,
       "rarity": null,
+      "ext_data": {
+        "number": null,
+        "description": "",
+        "flavorText": null,
+        "rarityDbName": null,
+        "releaseDate": "2008-02-13T00:00:00Z",
+        "energyType": null
+      },
       "image_url": "https://cdn.tcgtracking.com/product/98545_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F98545%2Fpokemon-great-encounters-great-encounters-booster-pack",
@@ -161,6 +177,15 @@
       "clean_name": "Blaziken",
       "number": "1/106",
       "rarity": "Holo Rare",
+      "ext_data": {
+        "Card Type": "Fire",
+        "HP": "130",
+        "Stage": "Stage 2",
+        "Attack 1": "[1] Fire Dance (30)\r\n<br>\r\nSearch your discard pile for a Fire Energy card and attach it to 1 of your Pokémon.",
+        "Attack 2": "[1RR] Flame Kick\r\n<br>\r\nDiscard 2 Fire Energy attached to Blaziken. This attack does 80 damage to 1 of your opponent's Pokémon. <em>(Don't apply Weakness and Resistance for Benched Pokémon.)</em>",
+        "Weakness": "W+30",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/83909_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83909%2Fpokemon-great-encounters-blaziken",
@@ -264,6 +289,16 @@
       "clean_name": "Tangrowth",
       "number": "10/106",
       "rarity": "Holo Rare",
+      "ext_data": {
+        "Card Type": "Grass",
+        "HP": "110",
+        "Stage": "Stage 1",
+        "Attack 1": "[G] Power Whip\r\n<br>\r\nChoose 1 of your opponent's Pokémon. This attack does 10 damage for each basic Energy card attached to Tangrowth to that Pokémon. <em>(Don't apply Weakness and Resistance for Benched Pokémon.)</em>",
+        "Attack 2": "[2GG] Stick and Absorb (60)\r\n<br>\r\nRemove 3 damage counters from Tangrowth. The Defending Pokémon can't retreat during your opponent's next turn.",
+        "Weakness": "R+30",
+        "Resistance": "W-20",
+        "RetreatCost": "2"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/89751_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89751%2Fpokemon-great-encounters-tangrowth",
@@ -367,6 +402,10 @@
       "clean_name": "Moonlight Stadium",
       "number": "100/106",
       "rarity": "Uncommon",
+      "ext_data": {
+        "Card Type": "Stadium",
+        "CardText": "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card.\r\n<br>\r\nThe Retreat Cost for each Psychic and Darkness Pokémon <em>(both yours and your opponent's)</em> is 0."
+      },
       "image_url": "https://cdn.tcgtracking.com/product/87579_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87579%2Fpokemon-great-encounters-moonlight-stadium",
@@ -470,6 +509,10 @@
       "clean_name": "Premier Ball",
       "number": "101/106",
       "rarity": "Uncommon",
+      "ext_data": {
+        "Card Type": "Trainer",
+        "CardText": "Search your deck or your discard pile for a Pokémon LV.X show it to your opponent, and put it into your hand. If you search your deck, shuffle your deck afterward."
+      },
       "image_url": "https://cdn.tcgtracking.com/product/88356_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88356%2Fpokemon-great-encounters-premier-ball",
@@ -573,6 +616,10 @@
       "clean_name": "Rare Candy",
       "number": "102/106",
       "rarity": "Uncommon",
+      "ext_data": {
+        "Card Type": "Trainer",
+        "CardText": "Choose 1 of your Basic Pokémon in play. If you have a Stage 1 or Stage 2 card that evolves from that Pokémon in your hand, put that card on the Basic Pokémon. (This counts as evolving that Pokémon.)"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/88593_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88593%2Fpokemon-great-encounters-rare-candy",
@@ -676,6 +723,15 @@
       "clean_name": "Cresselia LV.X",
       "number": "103/106",
       "rarity": "Ultra Rare",
+      "ext_data": {
+        "Card Type": "Psychic",
+        "HP": "100",
+        "Stage": "Level-Up",
+        "CardText": "<strong>Poké-POWER — Full Moon Dance</strong>\r\n<br>\r\nOnce during your turn <em>(before your attack)</em>, you may move 1 damage counter from either player's Pokémon to another Pokémon <em>(yours or your opponent's)</em>. This power can't be used if Cresselia is affected by a Special Condition.\r\n<br>\r\n[Put this card onto your Active Cresselia. Cresselia LV.X can use any attack, Poké-Power, or Poké-Body from its previous level.]",
+        "Attack 1": "[1PP] Moon Skip (40)\r\n<br>\r\nIf the Defending Pokémon is Knocked Out by this attack, take 1 more Prize card.",
+        "Weakness": "Px2",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/84472_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84472%2Fpokemon-great-encounters-cresselia-lvx",
@@ -695,8 +751,7 @@
           "collector_number": "103",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal",
-            "foil"
+            "normal"
           ],
           "languages": [
             "en",
@@ -747,15 +802,6 @@
                 "de",
                 "it",
                 "es"
-              ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
               ]
             }
           ],
@@ -779,6 +825,16 @@
       "clean_name": "Darkrai LV.X",
       "number": "104/106",
       "rarity": "Ultra Rare",
+      "ext_data": {
+        "Card Type": "Darkness",
+        "HP": "100",
+        "Stage": "Level-Up",
+        "CardText": "<strong>Poké-BODY — Dark Shadow</strong>\r\n<br>\r\nEach basic Darkness Energy card attached to your Darkness Pokémon now has the effect \"If the Pokémon Darkness Energy is attached to attacks, the attack does 10 more damage to the Active Pokémon <em>(before applying Weakness and Resistance)</em>.\" You can't use more than 1 Dark Shadow Poké-Body each turn.\r\n<br>\r\n[Put this card onto your Active Darkrai. Darkrai LV.X can use any attack, Poké-Power, or Poké-Body from its previous level.]",
+        "Attack 1": "[1DD] Endless Darkness (40)\r\n<br>\r\nThe Defending Pokémon is now Asleep. Flip 2 coins instead of 1 between turns. If either of them are tails, the Defending Pokémon is still Asleep. If both of them are tails, the Defending Pokémon is Knocked Out.",
+        "Weakness": "Fx2",
+        "Resistance": "P-20",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/84711_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84711%2Fpokemon-great-encounters-darkrai-lvx",
@@ -798,8 +854,7 @@
           "collector_number": "104",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal",
-            "foil"
+            "normal"
           ],
           "languages": [
             "en",
@@ -850,15 +905,6 @@
                 "de",
                 "it",
                 "es"
-              ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
               ]
             }
           ],
@@ -882,6 +928,16 @@
       "clean_name": "Dialga LV.X",
       "number": "105/106",
       "rarity": "Ultra Rare",
+      "ext_data": {
+        "Card Type": "Metal",
+        "HP": "110",
+        "Stage": "Level-Up",
+        "CardText": "<strong>Poké-POWER — Time Skip</strong>\r\n<br>\r\nOnce during your turn <em>(before your attack)</em>, you may have your opponent flip 2 coins. If both of them are heads, your turn ends. If both of them are tails, after your opponent draws a card at the beginning of his or her next turn, his or her turn ends. This power can't be used if Dialga is affected by a Special Condition.\r\n<br>\r\n[Put this card onto your Active Dialga. Dialga LV.X can use any attack, Poké-Power, or Poké-Body from its previous level.]",
+        "Attack 1": "[2MM] Metal Flash (80)\r\n<br>\r\nDuring your next turn, Dialga can't use Metal Flash.",
+        "Weakness": "Rx2",
+        "Resistance": "P-20",
+        "RetreatCost": "2"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/84812_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84812%2Fpokemon-great-encounters-dialga-lvx",
@@ -901,8 +957,7 @@
           "collector_number": "105",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal",
-            "foil"
+            "normal"
           ],
           "languages": [
             "en",
@@ -953,15 +1008,6 @@
                 "de",
                 "it",
                 "es"
-              ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
               ]
             }
           ],
@@ -985,6 +1031,15 @@
       "clean_name": "Palkia LV.X",
       "number": "106/106",
       "rarity": "Ultra Rare",
+      "ext_data": {
+        "Card Type": "Water",
+        "HP": "120",
+        "Stage": "Level Up",
+        "CardText": "<strong>Poké-POWER — Restructure</strong>\r\n<br>\r\nOnce during your turn <em>(before your attack)</em>, you may have your opponent switch 1 of your Active Pokémon with 1 of your Benched Pokémon. Then, you switch 1 of the Defending Pokémon with 1 of your opponent's Benched Pokémon. This power can't be used if Palkia is affected by a Special Condition.\r\n<br>\r\n[Put this card onto your Active Palkia. Palkia LV.X can use any attack, Poké-Power, or Poké-Body from its previous level.]",
+        "Attack 1": "[WWW] Hydro Reflect (60)\r\n<br>\r\nYou may move all Energy cards attached to Palkia to your Benched Pokémon in any way you like. (Ignore this effect if you don't have any Benched Pokémon.)",
+        "Weakness": "Lx2",
+        "RetreatCost": "3"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/87919_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87919%2Fpokemon-great-encounters-palkia-lvx",
@@ -1004,8 +1059,7 @@
           "collector_number": "106",
           "rarity": "Holo Rare",
           "finishes": [
-            "normal",
-            "foil"
+            "normal"
           ],
           "languages": [
             "en",
@@ -1057,15 +1111,6 @@
                 "it",
                 "es"
               ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
             }
           ],
           "cardmarket_ids": [
@@ -1088,6 +1133,16 @@
       "clean_name": "Togekiss",
       "number": "11/106",
       "rarity": "Holo Rare",
+      "ext_data": {
+        "Card Type": "Colorless",
+        "HP": "120",
+        "Stage": "Stage 2",
+        "CardText": "<strong>Poké-POWER — Serene Grace</strong>\r\n<br>\r\nOnce during your turn, when you play Togekiss from your hand to evolve 1 of your Pokémon, you may look at the top 10 cards of your deck, choose as many basic Energy cards as you like, and attach them to your Pokémon in any way you like. Put the other cards back on top of your deck. Shuffle your deck afterward.",
+        "Attack 1": "[3] Air Scroll (40+)\r\n<br>\r\nFlip a coin. If heads, this attack does 40 damage plus 30 more damage. If tails, remove 3 damage counters from Togekiss.",
+        "Weakness": "L+30",
+        "Resistance": "F-20",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/89923_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89923%2Fpokemon-great-encounters-togekiss",
@@ -1191,6 +1246,16 @@
       "clean_name": "Altaria",
       "number": "12/106",
       "rarity": "Rare",
+      "ext_data": {
+        "Card Type": "Colorless",
+        "HP": "80",
+        "Stage": "Stage 1",
+        "Attack 1": "[1] Dragonbreath (40)\r\n<br>\r\nFlip a coin. If tails, this attack does nothing. If heads, the Defending Pokémon is now Paralyzed.",
+        "Attack 2": "[3] Cotton Cloud (60)\r\n<br>\r\nDuring your opponent's next turn, any damage done to Altaria by attacks from your opponent's Evolved Pokémon is reduced by 30 <em>(after applying Weakness and Resistance)</em>.",
+        "Weakness": "C+20",
+        "Resistance": "F-20",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/83516_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83516%2Fpokemon-great-encounters-altaria",
@@ -1294,6 +1359,14 @@
       "clean_name": "Beedrill",
       "number": "13/106",
       "rarity": "Rare",
+      "ext_data": {
+        "Card Type": "Grass",
+        "HP": "110",
+        "Stage": "Stage 2",
+        "Attack 1": "[G] Band Attack (30x)\r\n<br>\r\nDoes 30 damage times the number of Beedrill you have in play.",
+        "Attack 2": "[3] Twineedle (50x)\r\n<br>\r\nFlip 2 coins. This attack does 50 damage times the number of heads.",
+        "Weakness": "R+30"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/83770_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83770%2Fpokemon-great-encounters-beedrill",
@@ -1397,6 +1470,14 @@
       "clean_name": "Butterfree",
       "number": "14/106",
       "rarity": "Rare",
+      "ext_data": {
+        "Card Type": "Grass",
+        "HP": "120",
+        "Stage": "Stage 2",
+        "Attack 1": "[G] Parallel Drain (30)\r\n<br>\r\nAfter your attack, remove from 1 of your Pokémon the number of damage counters equal to the damage you did to the Defending Pokémon.",
+        "Attack 2": "[1GG] Dozing Scales (60)\r\n<br>\r\nFlip a coin. If heads, the Defending Pokémon is now Asleep. If tails, the Defending Pokémon is now Poisoned.",
+        "Weakness": "R+30"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/84066_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84066%2Fpokemon-great-encounters-butterfree",
@@ -1500,6 +1581,15 @@
       "clean_name": "Claydol",
       "number": "15/106",
       "rarity": "Rare",
+      "ext_data": {
+        "Card Type": "Fighting",
+        "HP": "80",
+        "Stage": "Stage 1",
+        "CardText": "<strong>Poké-POWER — Cosmic Power</strong>\r\n<br>\r\nOnce during your turn <em>(before your attack)</em>, you may choose up to 2 cards from your hand and put them on the bottom of your deck in any order. If you do, draw cards until you have 6 cards in your hand. This power can't be used if Claydol is affected by a Special Condition.",
+        "Attack 1": "[1F] Spinning Attack (40)",
+        "Weakness": "G+20",
+        "RetreatCost": "2"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/84337_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84337%2Fpokemon-great-encounters-claydol",
@@ -1603,6 +1693,16 @@
       "clean_name": "Dialga",
       "number": "16/106",
       "rarity": "Rare",
+      "ext_data": {
+        "Card Type": "Metal",
+        "HP": "90",
+        "Stage": "Basic",
+        "Attack 1": "[M] Time Bellow (10)\r\n<br>\r\nDraw a card.",
+        "Attack 2": "[1MM] Flash Cannon (40)\r\n<br>\r\nYou may return all Energy cards attached to Dialga to your hand. If you do, remove the highest Stage Evolution card from the Defending Pokémon and shuffle that card into your opponent's deck.",
+        "Weakness": "R+20",
+        "Resistance": "P-20",
+        "RetreatCost": "2"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/84799_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84799%2Fpokemon-great-encounters-dialga",
@@ -1706,6 +1806,15 @@
       "clean_name": "Exploud",
       "number": "17/106",
       "rarity": "Rare",
+      "ext_data": {
+        "Card Type": "Colorless",
+        "HP": "130",
+        "Stage": "Stage 2",
+        "Attack 1": "[2] Ambient Noise\r\n<br>\r\nFlip 2 coins. If the first coin is heads, this attack does 50 damage to the Defending Pokémon. If the first coin is tails, this attack does 20 damage to each of your opponent's Benched Pokémon. <em>(Don't apply Weakness and Resistance for Benched Pokémon.)</em> If the second coin is heads, the Defending Pokémon is now Confused. If the second coin is tails, your opponent can't play any Trainer, Supporter, or Stadium cards from his or her hand during your opponent's next turn.",
+        "Attack 2": "[4] Hyper Voice (70)",
+        "Weakness": "F+30",
+        "RetreatCost": "3"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/85372_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85372%2Fpokemon-great-encounters-exploud",
@@ -1809,6 +1918,16 @@
       "clean_name": "Houndoom",
       "number": "18/106",
       "rarity": "Rare",
+      "ext_data": {
+        "Card Type": "Darkness",
+        "HP": "90",
+        "Stage": "Stage 1",
+        "Attack 1": "[D] Dark Fang (20)\r\n<br>\r\nChoose 1 card from your opponent's hand without looking and discard it.",
+        "Attack 2": "[1R] Black Fire (40+)\r\n<br>\r\nYou may discard a Fire or Darkness Energy attached to Houndoom. If you discard a Fire Energy, the Defending Pokémon is now Burned. If you discard a Darkness Energy, this attack does 40 damage plus 30 more damage.",
+        "Weakness": "W+20",
+        "Resistance": "P-20",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/86207_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86207%2Fpokemon-great-encounters-houndoom",
@@ -1912,6 +2031,15 @@
       "clean_name": "Hypno",
       "number": "19/106",
       "rarity": "Rare",
+      "ext_data": {
+        "Card Type": "Psychic",
+        "HP": "80",
+        "Stage": "Stage 1",
+        "Attack 1": "[2] Dream Catcher\r\n<br>\r\nIf the Defending Pokémon is Asleep, move all damage counters from Hypno to the Defending Pokémon.",
+        "Attack 2": "[1PP] Hypnoblast (60)\r\n<br>\r\nThe Defending Pokémon is now Asleep.",
+        "Weakness": "P+20",
+        "RetreatCost": "2"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/86254_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86254%2Fpokemon-great-encounters-hypno",
@@ -2015,6 +2143,15 @@
       "clean_name": "Cresselia",
       "number": "2/106",
       "rarity": "Holo Rare",
+      "ext_data": {
+        "Card Type": "Psychic",
+        "HP": "80",
+        "Stage": "Basic",
+        "Attack 1": "[1] Moon Twinkle (10)\r\n<br>\r\nIf there is any Stadium card in play, remove 2 damage counters from Cresselia.",
+        "Attack 2": "[1PP] Lunar Dance (50)\r\n<br>\r\nYou may discard 2 Energy attached to Cresselia. If you do, remove all damage counters from 1 of your Benched Pokémon.",
+        "Weakness": "P+20",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/84467_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84467%2Fpokemon-great-encounters-cresselia",
@@ -2118,6 +2255,15 @@
       "clean_name": "Kingler",
       "number": "20/106",
       "rarity": "Rare",
+      "ext_data": {
+        "Card Type": "Water",
+        "HP": "90",
+        "Stage": "Stage 1",
+        "Attack 1": "[2] Crabhammer (30)",
+        "Attack 2": "[1WW] Scissor Blow (80)\r\n<br>\r\nIf the Defending Pokémon would be Knocked Out by this attack, Kingler does 30 damage to itself.",
+        "Weakness": "L+20",
+        "RetreatCost": "3"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/86457_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86457%2Fpokemon-great-encounters-kingler",
@@ -2221,6 +2367,15 @@
       "clean_name": "Lapras",
       "number": "21/106",
       "rarity": "Rare",
+      "ext_data": {
+        "Card Type": "Water",
+        "HP": "80",
+        "Stage": "Basic",
+        "Attack 1": "[W] Carry In\r\n<br>\r\nSearch your deck for a Pokémon Tool card, a Supporter card, and a basic Energy card, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
+        "Attack 2": "[1W] Wave Splash (20)",
+        "Weakness": "L+20",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/86618_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86618%2Fpokemon-great-encounters-lapras",
@@ -2324,6 +2479,16 @@
       "clean_name": "Latias",
       "number": "22/106",
       "rarity": "Rare",
+      "ext_data": {
+        "Card Type": "Colorless",
+        "HP": "80",
+        "Stage": "Basic",
+        "Attack 1": "[1] Miraculous Light (10)\r\n<br>\r\nRemove 1 damage counter and all Special Conditions from Latias.",
+        "Attack 2": "[1RW] Mist Ball (80)\r\n<br>\r\nDiscard a Fire Energy and a Water Energy attached to Latias.",
+        "Weakness": "C+20",
+        "Resistance": "F-20",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/86651_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86651%2Fpokemon-great-encounters-latias",
@@ -2427,6 +2592,16 @@
       "clean_name": "Latios",
       "number": "23/106",
       "rarity": "Rare",
+      "ext_data": {
+        "Card Type": "Colorless",
+        "HP": "90",
+        "Stage": "Basic",
+        "Attack 1": "[1] Energy Draw (10)\r\n<br>\r\nFlip a coin. If heads, search your deck for a basic Energy card and attach it to Latios. Shuffle your deck afterward.",
+        "Attack 2": "[2GL] Luster Purge (120)\r\n<br>\r\nDiscard 3 Energy attached to Latios.",
+        "Weakness": "C+20",
+        "Resistance": "F-20",
+        "RetreatCost": "2"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/86665_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86665%2Fpokemon-great-encounters-latios",
@@ -2530,6 +2705,16 @@
       "clean_name": "Mawile",
       "number": "24/106",
       "rarity": "Rare",
+      "ext_data": {
+        "Card Type": "Metal",
+        "HP": "70",
+        "Stage": "Basic",
+        "Attack 1": "[0] Pick Out\r\n<br>\r\nChoose 1 face-down Prize card <em>(yours or your opponent's)</em> and put it face up. If that card is a Supporter card, use the effect of that card as the effect of this attack. (That card remains face up for the rest of the game.)",
+        "Attack 2": "[1M] Jaw Bite (20)\r\n<br>\r\nDuring your next turn, if an attack does damage to the Defending Pokémon <em>(after applying Weakness and Resistance)</em>, that attack does 20 more damage.",
+        "Weakness": "R+10",
+        "Resistance": "P-20",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/87261_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87261%2Fpokemon-great-encounters-mawile",
@@ -2633,6 +2818,15 @@
       "clean_name": "Milotic",
       "number": "25/106",
       "rarity": "Rare",
+      "ext_data": {
+        "Card Type": "Water",
+        "HP": "90",
+        "Stage": "Stage 1",
+        "CardText": "<strong>Poké-BODY — Marvel Scale</strong>\r\n<br>\r\nPrevent all effects of attacks, including damage, done to Milotic by your opponent's Pokémon LV.X.",
+        "Attack 1": "[2W] Twister (50)\r\n<br>\r\nFlip 2 coins. If both are tails, this attack does nothing. For each heads, discard an Energy attached to the Defending Pokémon.",
+        "Weakness": "L+20",
+        "RetreatCost": "2"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/87454_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87454%2Fpokemon-great-encounters-milotic",
@@ -2736,6 +2930,15 @@
       "clean_name": "Palkia",
       "number": "26/106",
       "rarity": "Rare",
+      "ext_data": {
+        "Card Type": "Water",
+        "HP": "90",
+        "Stage": "Basic",
+        "Attack 1": "[W] Spacial Rend (10)\r\n<br>\r\nSearch your deck for a Stadium card, show it to your opponent, and put it into your hand. Shuffle your deck afterward. If there is any Stadium card in play, discard it.",
+        "Attack 2": "[1WW] Transback (40)\r\n<br>\r\nYou may flip a coin. If heads, discard all Energy attached to Palkia and put the Defending Pokémon and all cards attached to it on top of your opponent's deck. Your opponent shuffles his or her deck afterward.",
+        "Weakness": "L+20",
+        "RetreatCost": "2"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/87907_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87907%2Fpokemon-great-encounters-palkia",
@@ -2839,6 +3042,15 @@
       "clean_name": "Primeape",
       "number": "27/106",
       "rarity": "Rare",
+      "ext_data": {
+        "Card Type": "Fighting",
+        "HP": "90",
+        "Stage": "Stage 1",
+        "CardText": "<strong>Poké-POWER — Anger Point</strong>\r\n<br>\r\nIf Primeape has any damage counters on it, Primeape's attacks do 40 more damage to the Active Pokémon <em>(before applying Weakness and Resistance)</em>.",
+        "Attack 1": "[2F] Whump (50)\r\n<br>\r\nPrimeape is now Confused. Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn.",
+        "Weakness": "P+20",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/88363_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88363%2Fpokemon-great-encounters-primeape",
@@ -2942,6 +3154,15 @@
       "clean_name": "Slowking",
       "number": "28/106",
       "rarity": "Rare",
+      "ext_data": {
+        "Card Type": "Psychic",
+        "HP": "80",
+        "Stage": "Stage 1",
+        "CardText": "<strong>Poké-POWER — Trump Card</strong>\r\n<br>\r\nOnce during your turn <em>(before your attack)</em>, if any of your Pokémon were Knocked Out during your opponent's last turn, search your deck for any 1 card and put it into your hand. Shuffle your deck afterward. This power can't be used if Slowking is affected by a Special Condition.",
+        "Attack 1": "[1P] Psych Up (30)\r\n<br>\r\nDuring your next turn, Slowking's Psych Up attack's base damage is 60.",
+        "Weakness": "P+20",
+        "RetreatCost": "2"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/89316_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89316%2Fpokemon-great-encounters-slowking",
@@ -3045,6 +3266,15 @@
       "clean_name": "Unown [H]",
       "number": "29/106",
       "rarity": "Rare",
+      "ext_data": {
+        "Card Type": "Psychic",
+        "HP": "60",
+        "Stage": "Basic",
+        "CardText": "<strong>Poké-POWER — HEAL</strong>\r\n<br>\r\nOnce during your turn <em>(before your attack)</em>, if you have Unown H, Unown E, Unown A, and Unown L on your Bench, you may remove all Special Conditions from 1 of your Active Pokémon.",
+        "Attack 1": "[P] Hidden Power (30)\r\n<br>\r\nDiscard a card from your hand. (If you can't discard a card from your hand, this attack does nothing.)",
+        "Weakness": "P+10",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/90212_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90212%2Fpokemon-great-encounters-unown-h",
@@ -3148,6 +3378,16 @@
       "clean_name": "Darkrai (3)",
       "number": "3/106",
       "rarity": "Holo Rare",
+      "ext_data": {
+        "Card Type": "Darkness",
+        "HP": "70",
+        "Stage": "Basic",
+        "Attack 1": "[0] Reach Over\r\n<br>\r\nSearch your deck for an Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+        "Attack 2": "[DDD] Darkness Pursuit (50)\r\n<br>\r\nIf the Defending Pokémon is Cresselia, this attack's base damage is 100.",
+        "Weakness": "F+20",
+        "Resistance": "P-20",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/84698_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84698%2Fpokemon-great-encounters-darkrai-3",
@@ -3251,6 +3491,15 @@
       "clean_name": "Wailord",
       "number": "30/106",
       "rarity": "Rare",
+      "ext_data": {
+        "Card Type": "Water",
+        "HP": "200",
+        "Stage": "Stage 1",
+        "CardText": "<strong>Poké-BODY — Sleeping Pulse</strong>\r\n<br>\r\nAs long as Wailord remains Asleep between turns, remove 1 damage counter from Wailord.",
+        "Attack 1": "[1WWW] Sink Deep (60)\r\n<br>\r\nIf Wailord has any damage counters on it, Wailord is now Asleep.",
+        "Weakness": "Lx2",
+        "RetreatCost": "4"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/90459_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90459%2Fpokemon-great-encounters-wailord",
@@ -3354,6 +3603,15 @@
       "clean_name": "Weezing",
       "number": "31/106",
       "rarity": "Rare",
+      "ext_data": {
+        "Card Type": "Psychic",
+        "HP": "80",
+        "Stage": "Stage 1",
+        "CardText": "<strong>Poké-BODY — Toxic Virus</strong>\r\n<br>\r\nAt any time between turns, each player puts 1 more damage counter on his or her Poisoned Pokémon.",
+        "Attack 1": "[1P] Offensive Gas (30)\r\n<br>\r\nFlip a coin. If heads, the Defending Pokémon is now Confused and Poisoned.",
+        "Weakness": "P+20",
+        "RetreatCost": "2"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/90562_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90562%2Fpokemon-great-encounters-weezing",
@@ -3457,6 +3715,15 @@
       "clean_name": "Wigglytuff",
       "number": "32/106",
       "rarity": "Rare",
+      "ext_data": {
+        "Card Type": "Colorless",
+        "HP": "90",
+        "Stage": "Stage 1",
+        "CardText": "<strong>Poké-POWER — Good Night Melody</strong>\r\n<br>\r\nOnce during your turn <em>(before your attack)</em>, you may use this power. Each Active Pokémon <em>(both yours and your opponent's)</em> is now Asleep. This power can't be used if Wigglytuff is affected by a Special Condition.",
+        "Attack 1": "[2] Balloon Attack (40+)\r\n<br>\r\nIf Igglybuff is anywhere under Wigglytuff, this attack does 40 damage plus 20 more damage.",
+        "Weakness": "F+20",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/90598_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90598%2Fpokemon-great-encounters-wigglytuff",
@@ -3560,6 +3827,15 @@
       "clean_name": "Arbok",
       "number": "33/106",
       "rarity": "Uncommon",
+      "ext_data": {
+        "Card Type": "Psychic",
+        "HP": "80",
+        "Stage": "Stage 1",
+        "Attack 1": "[P] Deadly Poison (10+)\r\n<br>\r\nIf the Defending Pokémon is Poisoned, this attack does 10 damage plus 40 more damage. If the Defending Pokémon is not Poisoned, that Pokémon is now Poisoned.",
+        "Attack 2": "[3] Wrap (50)\r\n<br>\r\nFlip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+        "Weakness": "P+20",
+        "RetreatCost": "2"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/83570_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83570%2Fpokemon-great-encounters-arbok",
@@ -3663,6 +3939,16 @@
       "clean_name": "Cacturne",
       "number": "34/106",
       "rarity": "Uncommon",
+      "ext_data": {
+        "Card Type": "Darkness",
+        "HP": "80",
+        "Stage": "Stage 1",
+        "Attack 1": "[2] Pin Missile (20x)\r\n<br>\r\nFlip 3 coins. This attack does 20 damage times the number of heads.",
+        "Attack 2": "[2D] Needle Arm (50+)\r\n<br>\r\nIf the Defending Pokémon already has any damage counters on it, this attack does 50 damage plus 20 more damage.",
+        "Weakness": "R+20",
+        "Resistance": "P-20",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/84080_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84080%2Fpokemon-great-encounters-cacturne",
@@ -3766,6 +4052,15 @@
       "clean_name": "Combusken",
       "number": "35/106",
       "rarity": "Uncommon",
+      "ext_data": {
+        "Card Type": "Fire",
+        "HP": "80",
+        "Stage": "Stage 1",
+        "Attack 1": "[R] Bulk Up (30)\r\n<br>\r\nDuring your next turn, each of Combusken's attacks does 30 more damage to the Defending Pokémon <em>(before applying Weakness and Resistance)</em>.",
+        "Attack 2": "[2R] Double Kick (50x)\r\n<br>\r\nFlip 2 coins. This attack does 50 damage times the number of heads.",
+        "Weakness": "W+20",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/84411_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84411%2Fpokemon-great-encounters-combusken",
@@ -3869,6 +4164,15 @@
       "clean_name": "Delibird",
       "number": "36/106",
       "rarity": "Uncommon",
+      "ext_data": {
+        "Card Type": "Water",
+        "HP": "70",
+        "Stage": "Basic",
+        "Attack 1": "[0] Present\r\n<br>\r\nFlip a coin. If heads, search your deck for any 1 card and put it into your hand. Shuffle your deck afterward.",
+        "Attack 2": "[W] Ice Ball (20)",
+        "Weakness": "M+20",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/84748_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84748%2Fpokemon-great-encounters-delibird",
@@ -3972,6 +4276,15 @@
       "clean_name": "Floatzel",
       "number": "37/106",
       "rarity": "Uncommon",
+      "ext_data": {
+        "Card Type": "Water",
+        "HP": "80",
+        "Stage": "Stage 1",
+        "Attack 1": "[2] Agility (20)\r\n<br>\r\nFlip a coin. If heads, prevent all effects of an attack, including damage, done to Floatzel during your opponent's next turn.",
+        "Attack 2": "[1WW] Aqua Jet (60)\r\n<br>\r\nFlip a coin. If heads, this attack does 10 damage to 1 of your opponent's Benched Pokémon. <em>(Don't apply Weakness and Resistance for Benched Pokémon.)</em>",
+        "Weakness": "L+20",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/85513_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85513%2Fpokemon-great-encounters-floatzel",
@@ -4075,6 +4388,14 @@
       "clean_name": "Gorebyss",
       "number": "38/106",
       "rarity": "Uncommon",
+      "ext_data": {
+        "Card Type": "Water",
+        "HP": "80",
+        "Stage": "Stage 1",
+        "Attack 1": "[0] Sweet Temptation\r\n<br>\r\nSwitch 1 of your opponent's Benched Pokémon with 1 of the Defending Pokémon. This attack does 10 damage to the new Defending Pokémon.",
+        "Attack 2": "[1W] Psychic Snap (30+)\r\n<br>\r\nIf Gorebyss has any Psychic Energy attached to it, this attack does 30 damage plus 20 more damage and the Defending Pokémon is now Confused.",
+        "Weakness": "L+20"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/85844_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85844%2Fpokemon-great-encounters-gorebyss",
@@ -4178,6 +4499,15 @@
       "clean_name": "Granbull",
       "number": "39/106",
       "rarity": "Uncommon",
+      "ext_data": {
+        "Card Type": "Colorless",
+        "HP": "90",
+        "Stage": "Stage 1",
+        "Attack 1": "[2] Daunt (30)\r\n<br>\r\nDuring your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 <em>(before applying Weakness and Resistance)</em>.",
+        "Attack 2": "[4] Rage (40+)\r\n<br>\r\nDoes 40 damage plus 10 more damage for each damage counter on Granbull.",
+        "Weakness": "F+20",
+        "RetreatCost": "2"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/85864_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85864%2Fpokemon-great-encounters-granbull",
@@ -4281,6 +4611,16 @@
       "clean_name": "Darkrai (4)",
       "number": "4/106",
       "rarity": "Holo Rare",
+      "ext_data": {
+        "Card Type": "Darkness",
+        "HP": "80",
+        "Stage": "Basic",
+        "Attack 1": "[1] Darkness Roar (10)\r\n<br>\r\nYou may have your opponent switch the Defending Pokémon with 1 of his or her Benched Pokémon.",
+        "Attack 2": "[1DD] Sleep Hole (40+)\r\n<br>\r\nIf the Defending Pokémon is Asleep, this attack does 40 damage plus 40 more damage. If the Defending Pokémon is not Asleep, that Pokémon is now Asleep.",
+        "Weakness": "F+20",
+        "Resistance": "P-20",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/84699_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84699%2Fpokemon-great-encounters-darkrai-4",
@@ -4384,6 +4724,16 @@
       "clean_name": "Grovyle",
       "number": "40/106",
       "rarity": "Uncommon",
+      "ext_data": {
+        "Card Type": "Grass",
+        "HP": "80",
+        "Stage": "Stage 1",
+        "Attack 1": "[0] Greenness\r\n<br>\r\nSearch your deck for up to 2 Grass Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
+        "Attack 2": "[GG] Poison Breath (30)\r\n<br>\r\nThe Defending Pokémon is now Poisoned.",
+        "Weakness": "R+20",
+        "Resistance": "W-20",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/85941_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85941%2Fpokemon-great-encounters-grovyle",
@@ -4487,6 +4837,15 @@
       "clean_name": "Hariyama",
       "number": "41/106",
       "rarity": "Uncommon",
+      "ext_data": {
+        "Card Type": "Fighting",
+        "HP": "100",
+        "Stage": "Stage 1",
+        "Attack 1": "[1F] Palm Strike (20+)\r\n<br>\r\nFlip a coin. If heads, this attack does 20 damage plus 40 more damage.",
+        "Attack 2": "[1FF] Spirited Throw (50)\r\n<br>\r\nIf Hariyama has fewer remaining HP than the Defending Pokémon, this attack's base damage is 80.",
+        "Weakness": "P+30",
+        "RetreatCost": "3"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/86014_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86014%2Fpokemon-great-encounters-hariyama",
@@ -4590,6 +4949,15 @@
       "clean_name": "Huntail",
       "number": "42/106",
       "rarity": "Uncommon",
+      "ext_data": {
+        "Card Type": "Water",
+        "HP": "90",
+        "Stage": "Stage 1",
+        "Attack 1": "[0] Scary Face\r\n<br>\r\nFlip a coin. If heads, the Defending Pokémon can't attack or retreat during your opponent's next turn.",
+        "Attack 2": "[1W] Threaten and Drop (30+)\r\n<br>\r\nIf Huntail has any Darkness Energy attached to it, this attack does 30 damage plus 20 more damage and discard a Special Energy card, if any, attached to the Defending Pokémon.",
+        "Weakness": "L+20",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/86238_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86238%2Fpokemon-great-encounters-huntail",
@@ -4693,6 +5061,14 @@
       "clean_name": "Linoone",
       "number": "43/106",
       "rarity": "Uncommon",
+      "ext_data": {
+        "Card Type": "Colorless",
+        "HP": "80",
+        "Stage": "Stage 1",
+        "Attack 1": "[0] Switcheroo\r\n<br>\r\nMove a Pokémon Tool card attached to 1 of your opponent's Pokémon to another of your opponent's Pokémon <em>(excluding Pokémon that already has a Pokémon Tool attached to it)</em>. (If an effect of this attack is prevented, this attack does nothing.)",
+        "Attack 2": "[3] Overrun (30)\r\n<br>\r\nDoes 30 damage to 1 of your opponent's Benched Pokémon. <em>(Don't apply Weakness and Resistance for Benched Pokémon.)</em>",
+        "Weakness": "F+20"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/86807_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86807%2Fpokemon-great-encounters-linoone",
@@ -4796,6 +5172,15 @@
       "clean_name": "Loudred",
       "number": "44/106",
       "rarity": "Uncommon",
+      "ext_data": {
+        "Card Type": "Colorless",
+        "HP": "80",
+        "Stage": "Stage 1",
+        "Attack 1": "[2] Bass Control\r\n<br>\r\nChoose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. <em>(Don't apply Weakness and Resistance for Benched Pokémon.)</em>",
+        "Attack 2": "[3] Stomp (40+)\r\n<br>\r\nFlip a coin. If heads, this attack does 40 damage plus 20 more damage.",
+        "Weakness": "F+20",
+        "RetreatCost": "2"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/86843_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86843%2Fpokemon-great-encounters-loudred",
@@ -4899,6 +5284,15 @@
       "clean_name": "Magcargo",
       "number": "45/106",
       "rarity": "Uncommon",
+      "ext_data": {
+        "Card Type": "Fire",
+        "HP": "90",
+        "Stage": "Stage 1",
+        "CardText": "<strong>Poké-BODY — Magma Armor</strong>\r\n<br>\r\nMagcargo can't be Asleep or Paralyzed.",
+        "Attack 1": "[1RR] Lava Plume (60)\r\n<br>\r\nYou may discard the top card of your deck. If you do, the Defending Pokémon is now Burned.",
+        "Weakness": "W+20",
+        "RetreatCost": "3"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/87016_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87016%2Fpokemon-great-encounters-magcargo",
@@ -5002,6 +5396,15 @@
       "clean_name": "Marshtomp",
       "number": "46/106",
       "rarity": "Uncommon",
+      "ext_data": {
+        "Card Type": "Water",
+        "HP": "90",
+        "Stage": "Stage 1",
+        "Attack 1": "[2] Pound (20)",
+        "Attack 2": "[2F] Muddy Bomb\r\n<br>\r\nChoose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon and 10 damage to each of your opponent's other Pokémon. <em>(Don't apply Weakness and resistance for Benched Pokémon.)</em>",
+        "Weakness": "G+20",
+        "RetreatCost": "2"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/87239_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87239%2Fpokemon-great-encounters-marshtomp",
@@ -5105,6 +5508,15 @@
       "clean_name": "Metapod",
       "number": "47/106",
       "rarity": "Uncommon",
+      "ext_data": {
+        "Card Type": "Grass",
+        "HP": "70",
+        "Stage": "Stage 1",
+        "CardText": "<strong>Poké-POWER — Emerge</strong>\r\n<br>\r\nOnce during your turn <em>(before your attack)</em>, if Metapod is your Active Pokémon, you may flip a coin. If heads, search your deck for a card that evolves from Metapod and put it onto Metapod. (This counts as evolving Metapod.) Shuffle your deck afterward. This power can't be used if Metapod is affected by a Special Condition.",
+        "Attack 1": "[1G] Ram (30)",
+        "Weakness": "R+10",
+        "RetreatCost": "2"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/87390_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87390%2Fpokemon-great-encounters-metapod",
@@ -5208,6 +5620,16 @@
       "clean_name": "Pelipper",
       "number": "48/106",
       "rarity": "Uncommon",
+      "ext_data": {
+        "Card Type": "Water",
+        "HP": "80",
+        "Stage": "Stage 1",
+        "Attack 1": "[0] Guzzle\r\n<br>\r\nChoose up to 2 basic Water Energy cards from your hand and attach them to Pelipper. Remove 2 damage counters for each Energy card attached in this way.",
+        "Attack 2": "[2W] Jet Return (30x)\r\n<br>\r\nDoes 30 damage times the number of Energy cards attached to Pelipper. Then, put all Energy cards attached to Pelipper on top of your deck. Shuffle your deck afterward.",
+        "Weakness": "L+20",
+        "Resistance": "F-20",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/87977_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87977%2Fpokemon-great-encounters-pelipper",
@@ -5311,6 +5733,15 @@
       "clean_name": "Porygon2",
       "number": "49/106",
       "rarity": "Uncommon",
+      "ext_data": {
+        "Card Type": "Colorless",
+        "HP": "70",
+        "Stage": "Stage 1",
+        "CardText": "<strong>Poké-POWER — Download</strong>\r\n<br>\r\nOnce during your turn <em>(before your attack)</em>, you may discard a Supporter card from your hand and use the effect of that card as the effect of this power. This power can't be sed if Porygon2 is affected by a Special Condition.",
+        "Attack 1": "[2] Speed Attack (30)",
+        "Weakness": "F+20",
+        "RetreatCost": "2"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/88326_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88326%2Fpokemon-great-encounters-porygon2",
@@ -5414,6 +5845,16 @@
       "clean_name": "Pachirisu",
       "number": "5/106",
       "rarity": "Holo Rare",
+      "ext_data": {
+        "Card Type": "Lightning",
+        "HP": "70",
+        "Stage": "Basic",
+        "Attack 1": "[1] Call for Family\r\n<br>\r\nSearch your deck for up to 3 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
+        "Attack 2": "[1] Smash Short (10+)\r\n<br>\r\nIf the Defending Pokémon has a Pokémon Tool card attached to it, this attack does 10 damage plus 30 more damage. Discard that Pokémon Tool card, look at your opponent's hand, and discard any Pokémon Tool cards of the same name you find there.",
+        "Weakness": "F+20",
+        "Resistance": "M-20",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/87899_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87899%2Fpokemon-great-encounters-pachirisu",
@@ -5517,6 +5958,15 @@
       "clean_name": "Purugly",
       "number": "50/106",
       "rarity": "Uncommon",
+      "ext_data": {
+        "Card Type": "Colorless",
+        "HP": "90",
+        "Stage": "Stage 1",
+        "Attack 1": "[2] Swagger (20)\r\n<br>\r\nFlip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
+        "Attack 2": "[3] Fury Swipes (40x)\r\n<br>\r\nFlip 3 coins. This attack does 40 damage times the number of heads.",
+        "Weakness": "F+20",
+        "RetreatCost": "2"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/88465_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88465%2Fpokemon-great-encounters-purugly",
@@ -5620,6 +6070,15 @@
       "clean_name": "Relicanth",
       "number": "51/106",
       "rarity": "Uncommon",
+      "ext_data": {
+        "Card Type": "Water",
+        "HP": "70",
+        "Stage": "Basic",
+        "Attack 1": "[0] Primal Calling\r\n<br>\r\nSearch your deck for up to 3 Trainer cards that have Fossil in their name, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
+        "Attack 2": "[2] Sleep Swirl (30)\r\n<br>\r\nBoth Relicanth and the Defending Pokémon are now Asleep.",
+        "Weakness": "L+20",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/88687_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88687%2Fpokemon-great-encounters-relicanth",
@@ -5723,6 +6182,15 @@
       "clean_name": "Seviper",
       "number": "52/106",
       "rarity": "Uncommon",
+      "ext_data": {
+        "Card Type": "Psychic",
+        "HP": "80",
+        "Stage": "Basic",
+        "Attack 1": "[P] Tail Blade (20)\r\n<br>\r\nFlip a coin. If heads, your opponent can't play any Trainer cards from his or her hand during your opponent's next turn.",
+        "Attack 2": "[2P] Poison Tail (30+)\r\n<br>\r\nFlip a coin. If heads, this attack does 30 damage plus 30 more damage and the Defending Pokémon is now Poisoned.",
+        "Weakness": "P+20",
+        "RetreatCost": "2"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/89086_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89086%2Fpokemon-great-encounters-seviper",
@@ -5826,6 +6294,16 @@
       "clean_name": "Skarmory",
       "number": "53/106",
       "rarity": "Uncommon",
+      "ext_data": {
+        "Card Type": "Metal",
+        "HP": "70",
+        "Stage": "Basic",
+        "Attack 1": "[M] Air Crash (20)\r\n<br>\r\nFlip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
+        "Attack 2": "[2M] Steel Wing (40)\r\n<br>\r\nDuring your opponent's next turn, any damage done to Skarmory by attacks is reduced by 20 <em>(after applying Weakness and Resistance)</em>.",
+        "Weakness": "R+20",
+        "Resistance": "P-20",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/89240_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89240%2Fpokemon-great-encounters-skarmory",
@@ -5929,6 +6407,15 @@
       "clean_name": "Slowbro",
       "number": "54/106",
       "rarity": "Uncommon",
+      "ext_data": {
+        "Card Type": "Water",
+        "HP": "80",
+        "Stage": "Stage 1",
+        "Attack 1": "[2] Amnesia (20)\r\n<br>\r\nChoose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
+        "Attack 2": "[2P] Zen Headbutt (60)",
+        "Weakness": "L+20",
+        "RetreatCost": "2"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/89306_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89306%2Fpokemon-great-encounters-slowbro",
@@ -6032,6 +6519,16 @@
       "clean_name": "Togetic",
       "number": "55/106",
       "rarity": "Uncommon",
+      "ext_data": {
+        "Card Type": "Colorless",
+        "HP": "70",
+        "Stage": "Stage 1",
+        "Attack 1": "[2] Speed Dive (20)",
+        "Attack 2": "[3] Sweet Kiss (50)\r\n<br\r\nYour opponent may draw a card.",
+        "Weakness": "L+20",
+        "Resistance": "F-20",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/89943_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89943%2Fpokemon-great-encounters-togetic",
@@ -6135,6 +6632,15 @@
       "clean_name": "Unown [F]",
       "number": "56/106",
       "rarity": "Uncommon",
+      "ext_data": {
+        "Card Type": "Psychic",
+        "HP": "50",
+        "Stage": "Basic",
+        "CardText": "<strong>Poké-POWER — FAKE</strong>\r\n<br>\r\nOnce during your turn <em>(before your attack)</em>, if Unown F is on your Bench, you may use this power. Put a coin next to your Active Pokémon without showing your opponent and cover it with your hand. Your opponent guesses if the coin is heads or tails. If he or she is wrong, draw a card.",
+        "Attack 1": "[P] Hidden Power (10)\r\n<br>\r\nYou may flip a coin. If tails, this attack does nothing. If heads, this attack's base damage is 30.",
+        "Weakness": "P+10",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/90208_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90208%2Fpokemon-great-encounters-unown-f",
@@ -6238,6 +6744,15 @@
       "clean_name": "Unown [G]",
       "number": "57/106",
       "rarity": "Uncommon",
+      "ext_data": {
+        "Card Type": "Psychic",
+        "HP": "50",
+        "Stage": "Basic",
+        "CardText": "<strong>Poké-POWER — GUARD</strong>\r\n<br>\r\nOnce during your turn <em>(before your attack)</em>, if Unown G is on your Bench, you may discard all cards attached to Unown G and attach Unown G to 1 of your Pokémon as a Pokémon Tool card. As long as Unown G is attached to a Pokémon, prevent all effects of attacks, excluding damage, done to that Pokémon.",
+        "Attack 1": "[1P] Hidden Power (50)\r\n<br>\r\nIf Unown G has any damage counters on it, this attack's base damage is 10.",
+        "Weakness": "P+10",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/90210_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90210%2Fpokemon-great-encounters-unown-g",
@@ -6341,6 +6856,15 @@
       "clean_name": "Wailmer",
       "number": "58/106",
       "rarity": "Uncommon",
+      "ext_data": {
+        "Card Type": "Water",
+        "HP": "90",
+        "Stage": "Basic",
+        "Attack 1": "[1W] Tsunami (10)\r\n<br>\r\nFlip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pokémon. <em>(Don't apply Weakness and Resistance for Benched Pokémon.)</em>",
+        "Attack 2": "[3] Ram (30)",
+        "Weakness": "L+20",
+        "RetreatCost": "3"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/90453_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90453%2Fpokemon-great-encounters-wailmer",
@@ -6444,6 +6968,15 @@
       "clean_name": "Zangoose",
       "number": "59/106",
       "rarity": "Uncommon",
+      "ext_data": {
+        "Card Type": "Colorless",
+        "HP": "70",
+        "Stage": "Basic",
+        "Attack 1": "[1] Slash (20)",
+        "Attack 2": "[3] Cutting Claw (40+)\r\n<br>\r\nIf your opponent has Seviper in play, this attack does 40 damage plus 50 more damage.",
+        "Weakness": "F+20",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/90706_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90706%2Fpokemon-great-encounters-zangoose",
@@ -6547,6 +7080,15 @@
       "clean_name": "Porygon-Z",
       "number": "6/106",
       "rarity": "Holo Rare",
+      "ext_data": {
+        "Card Type": "Colorless",
+        "HP": "110",
+        "Stage": "Stage 2",
+        "CardText": "<strong>Poké-POWER — Conversion</strong>\r\n<br>\r\nOnce during your turn <em>(before your attack)</em>, you may discard a basic Energy card from your hand. Porygon-Z is the same type as that Energy card until the end of your turn. This power can't be used if Porygon-Z is affected by a Special Condition.",
+        "Attack 1": "[2] Tri Attack (40x)\r\n<br>\r\nFlip 3 coins. This attack does 40 damage times the number of heads.",
+        "Weakness": "F+30",
+        "RetreatCost": "2"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/88315_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88315%2Fpokemon-great-encounters-porygon-z",
@@ -6650,6 +7192,15 @@
       "clean_name": "Baltoy",
       "number": "60/106",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Fighting",
+        "HP": "50",
+        "Stage": "Basic",
+        "Attack 1": "[1] Psychic Balance\r\n<br>\r\nIf you have less cards in your hand than your opponent, draw cards until you have the same number of cards as your opponent. (If you have more or the same number of cards in your hand as your opponent, this attack does nothing.)",
+        "Attack 2": "[1F] Spin Turn (20)\r\n<br>\r\nSwitch Baltoy with 1 of your Benched Pokémon.",
+        "Weakness": "G+10",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/83716_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83716%2Fpokemon-great-encounters-baltoy",
@@ -6753,6 +7304,15 @@
       "clean_name": "Buizel",
       "number": "61/106",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Water",
+        "HP": "60",
+        "Stage": "Basic",
+        "Attack 1": "[0] Headbutt (10)",
+        "Attack 2": "[WW] Surf (30)",
+        "Weakness": "L+10",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/84018_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84018%2Fpokemon-great-encounters-buizel",
@@ -6856,6 +7416,16 @@
       "clean_name": "Cacnea",
       "number": "62/106",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Grass",
+        "HP": "50",
+        "Stage": "Basic",
+        "Attack 1": "[1] Sand Attack\r\n<br>\r\nIf the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+        "Attack 2": "[1G] Poison Sting (20)\r\n<br>\r\nThe Defending Pokémon is now Poisoned.",
+        "Weakness": "R+10",
+        "Resistance": "W-20",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/84075_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84075%2Fpokemon-great-encounters-cacnea",
@@ -6959,6 +7529,15 @@
       "clean_name": "Caterpie",
       "number": "63/106",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Grass",
+        "HP": "40",
+        "Stage": "Basic",
+        "CardText": "<strong>Poké-POWER — Pupate</strong>\r\n<br>\r\nOnce during your turn <em>(before your attack)</em>, if Caterpie is your Active Pokémon, you may flip a coin. If heads, search your deck for a card that evolves from Caterpie and put it onto Caterpie. (This counts as evolving Caterpie.) Shuffle your deck afterward. This power can't be used if Caterpie is affected by a Special Condition.",
+        "Attack 1": "[G] Tackle (20)",
+        "Weakness": "R+10",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/84137_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84137%2Fpokemon-great-encounters-caterpie",
@@ -7062,6 +7641,15 @@
       "clean_name": "Clamperl",
       "number": "64/106",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Water",
+        "HP": "40",
+        "Stage": "Basic",
+        "Attack 1": "[1] Clamp (10)\r\n<br>\r\nFlip a coin. If tails, this attack does nothing. If heads, the Defending Pokémon is now Paralyzed.",
+        "Attack 2": "[1W] Sparkling Pearl (20)",
+        "Weakness": "L+10",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/84325_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84325%2Fpokemon-great-encounters-clamperl",
@@ -7165,6 +7753,15 @@
       "clean_name": "Drowzee",
       "number": "65/106",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Psychic",
+        "HP": "60",
+        "Stage": "Basic",
+        "Attack 1": "[1] Hypnosis\r\n<br>\r\nThe Defending Pokémon is now Asleep.",
+        "Attack 2": "[1P] Headbutt (20)",
+        "Weakness": "P+10",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/84976_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84976%2Fpokemon-great-encounters-drowzee",
@@ -7268,6 +7865,15 @@
       "clean_name": "Ekans",
       "number": "66/106",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Psychic",
+        "HP": "60",
+        "Stage": "Basic",
+        "Attack 1": "[1] Shed Skin\r\n<br>\r\nRemove 2 damage counters from Ekans.",
+        "Attack 2": "[P] Poison Fang (10)\r\n<br>\r\nFlip a coin. If heads, the Defending Pokémon is now Poisoned.",
+        "Weakness": "P+10",
+        "RetreatCost": "2"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/85103_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85103%2Fpokemon-great-encounters-ekans",
@@ -7371,6 +7977,15 @@
       "clean_name": "Feebas",
       "number": "67/106",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Water",
+        "HP": "30",
+        "Stage": "Basic",
+        "Attack 1": "[1] Splash (10)",
+        "Attack 2": "[W] Fast Evolution\r\n<br>\r\nSearch your deck for an Evolution card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+        "Weakness": "L+10",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/85404_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85404%2Fpokemon-great-encounters-feebas",
@@ -7474,6 +8089,15 @@
       "clean_name": "Glameow",
       "number": "68/106",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Colorless",
+        "HP": "50",
+        "Stage": "Basic",
+        "Attack 1": "[1] Captivate\r\n<br>\r\nSwitch 1 of your opponent's Benched Pokémon with 1 of the Defending Pokémon.",
+        "Attack 2": "[2] Slash (20)",
+        "Weakness": "F+10",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/85759_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85759%2Fpokemon-great-encounters-glameow",
@@ -7577,6 +8201,15 @@
       "clean_name": "Houndour",
       "number": "69/106",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Fire",
+        "HP": "50",
+        "Stage": "Basic",
+        "Attack 1": "[R] Ember (20)\r\n<br>\r\nFlip a coin. If tails, discard a Fire Energy attached to Houndour.",
+        "Attack 2": "[2] Smash Kick (20)",
+        "Weakness": "W+10",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/86228_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86228%2Fpokemon-great-encounters-houndour",
@@ -7680,6 +8313,16 @@
       "clean_name": "Rotom",
       "number": "7/106",
       "rarity": "Holo Rare",
+      "ext_data": {
+        "Card Type": "Lightning",
+        "HP": "70",
+        "Stage": "Basic",
+        "Attack 1": "[2] Astonish (20)\r\n<br>\r\nChoose 1 card from your opponent's hand without looking. Look at that card you chose, then have your opponent shuffle that card into his or her deck.",
+        "Attack 2": "[LL] Telebeam (30+)\r\n<br>\r\nFlip a coin. If heads, this attack does 30 damage plus 30 more damage and the Defending Pokémon is Paralyzed.",
+        "Weakness": "D+20",
+        "Resistance": "C-20",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/88835_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88835%2Fpokemon-great-encounters-rotom",
@@ -7783,6 +8426,15 @@
       "clean_name": "Igglybuff",
       "number": "70/106",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Colorless",
+        "HP": "50",
+        "Stage": "Basic",
+        "CardText": "<strong>Poké-POWER — Baby Evolution</strong>\r\n<br>\r\nOnce during your turn <em>(before your attack)</em>, you may put Jigglypuff from your hand onto Igglybuff (this counts as evolving Igglybuff) and remove all damage counters from Igglybuff.",
+        "Attack 1": "[0] Inquire\r\n<br>\r\nDraw a card. If you didn't play any Supporter card from your hand during this turn, draw 2 more cards.",
+        "Weakness": "F+10",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/86262_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86262%2Fpokemon-great-encounters-igglybuff",
@@ -7886,6 +8538,15 @@
       "clean_name": "Illumise",
       "number": "71/106",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Grass",
+        "HP": "70",
+        "Stage": "Basic",
+        "CardText": "<strong>Poké-POWER — Scent Conduct</strong>\r\n<br>\r\nOnce during your turn <em>(before your attack)</em>, you may flip a coin. If heads, search your deck for a Grass Basic Pokémon and put it onto your Bench. Shuffle your deck afterward. This power can't be used if Illumise is affected by a Special Condition.",
+        "Attack 1": "[1G] Firefly Scent (30)\r\n<br>\r\nIf the Defending Pokémon has any Poké-Bodies, that Pokémon is now Asleep.",
+        "Weakness": "R+20",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/86267_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86267%2Fpokemon-great-encounters-illumise",
@@ -7989,6 +8650,15 @@
       "clean_name": "Jigglypuff",
       "number": "72/106",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Colorless",
+        "HP": "60",
+        "Stage": "Basic",
+        "Attack 1": "[1] Hypnotic Gaze\r\n<br>\r\nThe Defending Pokémon is now Asleep.",
+        "Attack 2": "[2] Expand (20)\r\n<br>\r\nDuring your opponent's next turn, any damage done to Jigglypuff by attacks is reduced by 20 <em>(after applying Weakness and Resistance)</em>.",
+        "Weakness": "F+10",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/86318_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86318%2Fpokemon-great-encounters-jigglypuff",
@@ -8092,6 +8762,15 @@
       "clean_name": "Kakuna",
       "number": "73/106",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Grass",
+        "HP": "80",
+        "Stage": "Stage 1",
+        "Attack 1": "[0] Stiffen\r\n<br>\r\nDuring your opponent's next turn, any damage done to Kakuna by attacks is reduced by 30 <em>(after applying Weakness and Resistance)</em>.",
+        "Attack 2": "[G] Spit Poison (10)\r\n<br>\r\nThe Defending Pokémon is Poisoned.",
+        "Weakness": "R+20",
+        "RetreatCost": "2"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/86413_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86413%2Fpokemon-great-encounters-kakuna",
@@ -8195,6 +8874,15 @@
       "clean_name": "Koffing",
       "number": "74/106",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Psychic",
+        "HP": "60",
+        "Stage": "Basic",
+        "Attack 1": "[1] Tackle (10)",
+        "Attack 2": "[1P] Smogscreen (10)\r\n<br>\r\nThe Defending Pokémon is now Poisoned. If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+        "Weakness": "P+10",
+        "RetreatCost": "2"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/86496_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86496%2Fpokemon-great-encounters-koffing",
@@ -8298,6 +8986,15 @@
       "clean_name": "Krabby",
       "number": "75/106",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Water",
+        "HP": "60",
+        "Stage": "Basic",
+        "Attack 1": "[1] Irongrip (10)",
+        "Attack 2": "[1W] Guillotine (30)",
+        "Weakness": "L+10",
+        "RetreatCost": "2"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/86526_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86526%2Fpokemon-great-encounters-krabby",
@@ -8401,6 +9098,15 @@
       "clean_name": "Lunatone",
       "number": "76/106",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Fighting",
+        "HP": "60",
+        "Stage": "Basic",
+        "CardText": "<strong>Poké-POWER — Gravity Change</strong>\r\n<br>\r\nOnce during your turn <em>(before your attack)</em>, you may discard a card from your hand. Then, if you have Solrock in play, draw a card. This power can't be used if Lunatone is affected by a Special Condition.",
+        "Attack 1": "[1] Knock Over (20)\r\n<br>\r\nYou may discard any Stadium card in play.",
+        "Weakness": "P+20",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/86926_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86926%2Fpokemon-great-encounters-lunatone",
@@ -8504,6 +9210,15 @@
       "clean_name": "Luvdisc",
       "number": "77/106",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Water",
+        "HP": "60",
+        "Stage": "Basic",
+        "Attack 1": "[1] Rendezvous\r\n<br>\r\nReveal the top card of your deck and put it into your hand. If that card is a Pokémon, draw 2 cards.",
+        "Attack 2": "[W] Synchro Dance (10+)\r\n<br>\r\nIf Luvdisc and the Defending Pokémon have the same amount of Energy attached to them, this attack does 10 damage plus 20 more damage.",
+        "Weakness": "L+10",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/86936_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86936%2Fpokemon-great-encounters-luvdisc",
@@ -8607,6 +9322,15 @@
       "clean_name": "Makuhita",
       "number": "78/106",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Fighting",
+        "HP": "60",
+        "Stage": "Basic",
+        "Attack 1": "[1] Punch (10)",
+        "Attack 2": "[1F] Arm Thrust (40)\r\n<br>\r\nFlip a coin. If tails, this attack does nothing. If heads, discard an Energy card attached to the Defending Pokémon.",
+        "Weakness": "P+10",
+        "RetreatCost": "2"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/87131_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87131%2Fpokemon-great-encounters-makuhita",
@@ -8710,6 +9434,15 @@
       "clean_name": "Mankey",
       "number": "79/106",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Fighting",
+        "HP": "50",
+        "Stage": "Basic",
+        "Attack 1": "[F] Light Punch (10)",
+        "Attack 2": "[2] Rage (10+)\r\n<br>\r\nDoes 10 damage plus 10 more damage for each damage counter on Mankey.",
+        "Weakness": "P+10",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/87174_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87174%2Fpokemon-great-encounters-mankey",
@@ -8813,6 +9546,16 @@
       "clean_name": "Sceptile",
       "number": "8/106",
       "rarity": "Holo Rare",
+      "ext_data": {
+        "Card Type": "Grass",
+        "HP": "100",
+        "Stage": "Stage 2",
+        "CardText": "<strong>Poké-BODY — Wild Growth</strong>\r\n<br>\r\nEach basic Grass Energy card attached to your Grass Pokémon provides 2 Grass Energy instead. You can't use more than 1 Wild Growth Poké-Body each turn.",
+        "Attack 1": "[2GG] Leaf Blade (50+)\r\n<br>\r\nFlip a coin. If heads, this attack does 50 damage plus 20 more damage.",
+        "Weakness": "R+30",
+        "Resistance": "W-20",
+        "RetreatCost": "3"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/88949_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88949%2Fpokemon-great-encounters-sceptile",
@@ -8916,6 +9659,15 @@
       "clean_name": "Mudkip",
       "number": "80/106",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Water",
+        "HP": "60",
+        "Stage": "Basic",
+        "Attack 1": "[1] Mud Spatter (10)",
+        "Attack 2": "[3] Endeavor (30+)\r\n<br>\r\nFlip 2 coins. This attack does 30 damage plus 20 more damage for each heads.",
+        "Weakness": "G+10",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/87614_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87614%2Fpokemon-great-encounters-mudkip",
@@ -9019,6 +9771,15 @@
       "clean_name": "Porygon",
       "number": "81/106",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Colorless",
+        "HP": "50",
+        "Stage": "Basic",
+        "Attack 1": "[1] Calculate\r\n<br>\r\nLook at the top 3 cards of your deck and put them back on top of your deck in any order.",
+        "Attack 2": "[2] Sharpen (20)",
+        "Weakness": "F+10",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/88311_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88311%2Fpokemon-great-encounters-porygon",
@@ -9122,6 +9883,15 @@
       "clean_name": "Slowpoke",
       "number": "82/106",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Water",
+        "HP": "60",
+        "Stage": "Basic",
+        "Attack 1": "[1] Rest\r\n<br>\r\nRemove all Special Conditions and 3 damage counters from Slowpoke. Slowpoke is now Asleep.",
+        "Attack 2": "[W] Tumble Over (20)\r\n<br>\r\nSlowpoke can't attack during your next turn.",
+        "Weakness": "L+10",
+        "RetreatCost": "2"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/89331_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89331%2Fpokemon-great-encounters-slowpoke",
@@ -9225,6 +9995,15 @@
       "clean_name": "Slugma",
       "number": "83/106",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Fire",
+        "HP": "60",
+        "Stage": "Basic",
+        "Attack 1": "[R] Steady Firebreathing (10)",
+        "Attack 2": "[2] Body Slam (20)\r\n<br>\r\nFlip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+        "Weakness": "W+10",
+        "RetreatCost": "2"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/89345_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89345%2Fpokemon-great-encounters-slugma",
@@ -9328,6 +10107,15 @@
       "clean_name": "Snubbull",
       "number": "84/106",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Colorless",
+        "HP": "60",
+        "Stage": "Basic",
+        "Attack 1": "[1] Roar\r\n<br>\r\nYour opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+        "Attack 2": "[3] Bite (30)",
+        "Weakness": "F+10",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/89415_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89415%2Fpokemon-great-encounters-snubbull",
@@ -9431,6 +10219,15 @@
       "clean_name": "Solrock",
       "number": "85/106",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Fighting",
+        "HP": "70",
+        "Stage": "Basic",
+        "CardText": "<strong>Poké-BODY — Sunlight</strong>\r\n<br>\r\nIf you have Lunatone in play, damage done to your opponent's Pokémon by your Psychic or Fighting Pokémon isn't affected by Resistance.",
+        "Attack 1": "[F] Sol Charge (20)\r\n<br>\r\nSearch your discard pile for a basic Energy card and attach it to 1 of your Benched Pokémon.",
+        "Weakness": "G+20",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/89428_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89428%2Fpokemon-great-encounters-solrock",
@@ -9534,6 +10331,16 @@
       "clean_name": "Swablu",
       "number": "86/106",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Colorless",
+        "HP": "40",
+        "Stage": "Basic",
+        "Attack 1": "[1] Super Speed\r\n<br>\r\nFlip a coin. If heads, prevent all effects of an attack, including damage, done to Swablu during your opponent's next turn.",
+        "Attack 2": "[2] Shoot Through (10)\r\n<br>\r\nDoes 10 damage to 1 of your opponent's Benched Pokémon. <em>(Don't apply Weakness and Resistance for Benched Pokémon.)</em>",
+        "Weakness": "L+10",
+        "Resistance": "F-20",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/89657_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89657%2Fpokemon-great-encounters-swablu",
@@ -9637,6 +10444,15 @@
       "clean_name": "Tangela",
       "number": "87/106",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Grass",
+        "HP": "70",
+        "Stage": "Basic",
+        "Attack 1": "[1] Vine Invite\r\n<br>\r\nSwitch 1 of your opponent's Benched Pokémon with 1 of the Defending Pokémon.",
+        "Attack 2": "[1G] Grass Knot (20+)\r\n<br>\r\nDoes 20 damage plus 10 more damage for each Energy in the Defending Pokémon's Retreat Cost (after applying effects to the Retreat Cost).",
+        "Weakness": "R+10",
+        "RetreatCost": "2"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/89744_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89744%2Fpokemon-great-encounters-tangela",
@@ -9740,6 +10556,15 @@
       "clean_name": "Togepi",
       "number": "88/106",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Colorless",
+        "HP": "50",
+        "Stage": "Basic",
+        "Attack 1": "[1] Yawn\r\n<br>\r\nThe Defending Pokémon is now Asleep.",
+        "Attack 2": "[1] Find a Friend \r\n<br>\r\nFlip a coin. If heads, search your deck for a Pokémon, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+        "Weakness": "F+10",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/89934_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89934%2Fpokemon-great-encounters-togepi",
@@ -9843,6 +10668,15 @@
       "clean_name": "Torchic",
       "number": "89/106",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Fire",
+        "HP": "50",
+        "Stage": "Basic",
+        "Attack 1": "[0] Peck (10)",
+        "Attack 2": "[R] Singe\r\n<br>\r\nThe Defending Pokémon is now Burned.",
+        "Weakness": "W+10",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/89960_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89960%2Fpokemon-great-encounters-torchic",
@@ -9946,6 +10780,15 @@
       "clean_name": "Swampert",
       "number": "9/106",
       "rarity": "Holo Rare",
+      "ext_data": {
+        "Card Type": "Water",
+        "HP": "130",
+        "Stage": "Stage 2",
+        "CardText": "<strong>Poké-POWER — Wash Out</strong>\r\n<br>\r\nAs often as you like during your turn <em>(before your attack)</em>, you may move a Water or Fighting Energy attached to 1 of your Benched Pokémon to your Active Pokémon. This power can't be used if Swampert is affected by a Special Condition.",
+        "Attack 1": "[2WW] Hammer Arm (80)\r\n<br>\r\nDiscard the top card from your opponent's deck.",
+        "Weakness": "G+30",
+        "RetreatCost": "2"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/89680_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89680%2Fpokemon-great-encounters-swampert",
@@ -10049,6 +10892,16 @@
       "clean_name": "Treecko",
       "number": "90/106",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Grass",
+        "HP": "50",
+        "Stage": "Basic",
+        "Attack 1": "[1] Energy Ball (10+)\r\n<br>\r\nDoes 10 damage plus 10 more damage for each Energy attached to Treecko but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
+        "Attack 2": "[1G] Absorb (20)\r\n<br>\r\nRemove 1 damage counter from Treecko.",
+        "Weakness": "R+10",
+        "Resistance": "W-20",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/90039_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90039%2Fpokemon-great-encounters-treecko",
@@ -10152,6 +11005,15 @@
       "clean_name": "Unown [L]",
       "number": "91/106",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Psychic",
+        "HP": "50",
+        "Stage": "Basic",
+        "CardText": "<strong>Poké-BODY — LINK</strong>\r\n<br>\r\nUnown L can use any attack from any Unown in play <em>(both yours and your opponent's)</em>. You still have to pay for that attack's Energy cost.)",
+        "Attack 1": "[1P] Hidden Power\r\n<br>\r\nSearch either player's discard pile for up to any 2 cards, show them to your opponent, and put them on top of that player's deck in any order you like.",
+        "Weakness": "P+10",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/90220_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90220%2Fpokemon-great-encounters-unown-l",
@@ -10255,6 +11117,15 @@
       "clean_name": "Volbeat",
       "number": "92/106",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Grass",
+        "HP": "70",
+        "Stage": "Basic",
+        "CardText": "<strong>Poké-POWER — Light Conduct</strong>\r\n<br>\r\nOnce during your turn <em>(before your attack)</em>, if you have Illumise in play, you may search your discard pile for a Supporter card, show it to your opponent, and put it on top of your deck. This power can't be used if Volbeat is affected by a Special Condition.",
+        "Attack 1": "[GG] Firefly Light (20)\r\n<br>\r\nFlip a coin. If heads, the Defending Pokémon is now Confused.",
+        "Weakness": "R+20",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/90399_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90399%2Fpokemon-great-encounters-volbeat",
@@ -10358,6 +11229,15 @@
       "clean_name": "Weedle",
       "number": "93/106",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Grass",
+        "HP": "50",
+        "Stage": "Basic",
+        "Attack 1": "[1] Call for Family\r\n<br>\r\nSearch your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.",
+        "Attack 2": "[G] String Shot\r\n<br>\r\nFlip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+        "Weakness": "R+10",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/90544_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90544%2Fpokemon-great-encounters-weedle",
@@ -10461,6 +11341,15 @@
       "clean_name": "Whismur",
       "number": "94/106",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Colorless",
+        "HP": "50",
+        "Stage": "Basic",
+        "Attack 1": "[0] Mumble (10)",
+        "Attack 2": "[1] Uproar\r\n<br>\r\nFlip a coin. If heads, this attack does 10 damage to each of your opponent's Pokémon. <em>(Don't apply Weakness and Resistance for Benched Pokémon.)</em>",
+        "Weakness": "F+10",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/90583_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90583%2Fpokemon-great-encounters-whismur",
@@ -10564,6 +11453,16 @@
       "clean_name": "Wingull",
       "number": "95/106",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Water",
+        "HP": "50",
+        "Stage": "Basic",
+        "Attack 1": "[W] Water Drip (10)",
+        "Attack 2": "[2] Wing Attack (20)",
+        "Weakness": "L+10",
+        "Resistance": "F-20",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/90609_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90609%2Fpokemon-great-encounters-wingull",
@@ -10667,6 +11566,15 @@
       "clean_name": "Zigzagoon",
       "number": "96/106",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Colorless",
+        "HP": "50",
+        "Stage": "Basic",
+        "Attack 1": "[1] Pull Out\r\n<br>\r\nSearch your discard pile for any 1 card, show it to your opponent, and put it on top of your deck.",
+        "Attack 2": "[1] Double Stab (10x)\r\n<br>\r\nFlip 2 coins. This attack does 10 damage times the number of heads.",
+        "Weakness": "F+10",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/90748_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90748%2Fpokemon-great-encounters-zigzagoon",
@@ -10770,6 +11678,10 @@
       "clean_name": "Amulet Coin",
       "number": "97/106",
       "rarity": "Uncommon",
+      "ext_data": {
+        "Card Type": "Tool",
+        "CardText": "Attach Amulet Coin to 1 of your Pokémon that doesn't already have a Pokémon Tool attached to it. If that Pokémon is Knocked Out, discard this card.\r\n<br>\r\nIf the Pokémon Amulet Coin is attached to is your Active Pokémon at the end of your turn, draw a card."
+      },
       "image_url": "https://cdn.tcgtracking.com/product/83551_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83551%2Fpokemon-great-encounters-amulet-coin",
@@ -10873,6 +11785,10 @@
       "clean_name": "Felicity's Drawing",
       "number": "98/106",
       "rarity": "Uncommon",
+      "ext_data": {
+        "Card Type": "Supporter",
+        "CardText": "You can play only one Supporter each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card.\r\n<br>\r\nDiscard up to 2 cards from your hand. If you discard 1 card, draw 3 cards. If you discard 2 cards, draw 4 cards."
+      },
       "image_url": "https://cdn.tcgtracking.com/product/85408_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85408%2Fpokemon-great-encounters-felicitys-drawing",
@@ -10976,6 +11892,10 @@
       "clean_name": "Leftovers",
       "number": "99/106",
       "rarity": "Uncommon",
+      "ext_data": {
+        "Card Type": "Tool",
+        "CardText": "Attach Leftovers to 1 of your Pokémon that doesn't already have a Pokémon Tool attached to it. If that Pokémon is Knocked Out, discard this card.\r\n<br>\r\nIf the Pokémon Leftovers is attached to is your Active Pokémon at the end of your turn, remove 1 damage counter from that Pokémon."
+      },
       "image_url": "https://cdn.tcgtracking.com/product/86708_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86708%2Fpokemon-great-encounters-leftovers",

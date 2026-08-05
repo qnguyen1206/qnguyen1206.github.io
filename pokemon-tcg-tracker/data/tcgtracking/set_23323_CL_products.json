@@ -4,8 +4,8 @@
   "set_abbr": "CL",
   "set_released": "2023-11-17",
   "product_count": 103,
-  "data_modified": "2026-07-27T13:42:47-04:00",
-  "file_generated": "2026-07-27T14:58:03-04:00",
+  "data_modified": "2026-08-03T06:15:21-04:00",
+  "file_generated": "2026-08-03T08:23:35-04:00",
   "pricing_url": "/v1/3/sets/23323/pricing",
   "cards_url": "/v1/3/sets/23323/cards",
   "sealed_url": "/v1/3/sets/23323/sealed",
@@ -17,6 +17,9 @@
       "clean_name": "Pokemon Trading Card Game Classic",
       "number": null,
       "rarity": null,
+      "ext_data": {
+        "CardText": "Experience the timeless joy of the Pokémon TCG with Pokémon Trading Card Game Classic—a product designed for fans to enjoy friendly battles anytime and anywhere! Pokémon Trading Card Game Classic features a foldable, portable two-player game board complete with card placement zones for your Active Pokémon, Benched Pokémon, deck, discard pile, and Prize cards. Since this board features a compartment at the center, it can also hold up to three decks and a toolbox featuring accessories you need for battling.\r\n<br>\r\n<br>Recount the days of Venusaur, Charizard, and Blastoise from Base Set running wild with three specially constructed decks featuring these fully evolved Kanto first partner Pokémon. These decks also feature newly printed cards to go alongside the classics, letting you form new strategies with never-before-seen cards like Ho-Oh ex and Lugia ex. Except for Basic Energy cards, the cards in these decks are not legal for tournament play, but since the game is always changing, these static decks are perfect for challenging friends and family to an evergreen battle of the Pokémon TCG.\r\n<br>\r\n<br>Inside the toolbox, you'll find stackable damage counters that clearly indicate how much damage a Pokémon has taken, three-dimensional Poison and Burn markers, and metal orbs that take the place of Pokémon coins. At the center of the toolbox, you'll be able to roll these metal orbs down a small chute—if the orb lands in a white-bordered hole, it's treated as heads, and if it lands in a black-bordered hole, it's treated as tails. When playing with Pokémon Trading Card Game Classic, you'll never need to scrounge for dice or coins.\r\n<br>\r\n<br>Pokémon Trading Card Game Classic includes:\r\n<br>\r\n<br>• A game board that folds up to store all the items included in Pokémon Trading Card Game Classic.\r\n<br>• A toolbox for storing stackable damage counters, Poison and Burn markers, and metal orbs.\r\n<br>• Three Pokémon TCG decks featuring Venusaur, Charizard, and Blastoise, as well as newly printed cards to go along with the classics.\r\n<br>• Three deck boxes featuring Energy symbols matching the included Pokémon TCG decks."
+      },
       "image_url": "https://cdn.tcgtracking.com/product/518886_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F518886%2Fpokemon-trading-card-game-classic-pokemon-trading-card-game-classic",
@@ -89,6 +92,16 @@
       "clean_name": "Bulbasaur",
       "number": "001/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Grass",
+        "HP": "40",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[GG] Leech Seed (20)\r\n<br>Heal 10 damage from this Pokémon.",
+        "Weakness": "Rx2",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527883_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527883%2Fpokemon-trading-card-game-classic-bulbasaur",
@@ -201,6 +214,17 @@
       "clean_name": "Charmander",
       "number": "001/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Fire",
+        "HP": "50",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[1] Scratch (10)",
+        "Attack 2": "[1R] Ember (30)\r\n<br>Discard 1 Fire Energy card attached to Charmander in order to use this attack.",
+        "Weakness": "Wx2",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527936_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527936%2Fpokemon-trading-card-game-classic-charmander",
@@ -313,6 +337,17 @@
       "clean_name": "Squirtle",
       "number": "001/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Water",
+        "HP": "40",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[W] Bubble (10)\r\n<br>Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+        "Attack 2": "[1W] Withdraw\r\n<br>Flip a coin. If heads, during your opponent's next turn, prevent all damage done to this Pokémon by attacks.",
+        "Weakness": "Lx2",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527985_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527985%2Fpokemon-trading-card-game-classic-squirtle",
@@ -425,6 +460,17 @@
       "clean_name": "Charmeleon",
       "number": "002/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Fire",
+        "HP": "80",
+        "Stage": "Stage 1",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[3] Slash (30)",
+        "Attack 2": "[1RR] Flamethrower (50)\r\n<br>Discard 1 Fire Energy card attached to Charmeleon in order to use this attack.",
+        "Weakness": "W",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527937_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527937%2Fpokemon-trading-card-game-classic-charmeleon",
@@ -537,6 +583,17 @@
       "clean_name": "Ivysaur",
       "number": "002/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Grass",
+        "HP": "60",
+        "Stage": "Stage 1",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[2G] Vine Whip (30)",
+        "Attack 2": "[GGG] Poisonpowder (20)\r\n<br>Your opponent's Active Pokémon is now Poisoned.",
+        "Weakness": "Rx2",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527884_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527884%2Fpokemon-trading-card-game-classic-ivysaur",
@@ -649,6 +706,17 @@
       "clean_name": "Wartortle",
       "number": "002/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Water",
+        "HP": "70",
+        "Stage": "Stage 1",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[1W] WIthdraw\r\n<br>Flip a coin. If heads, during your opponent's next turn, prevent all damage done to this Pokémon by attacks.",
+        "Attack 2": "[2W] Bite (40)",
+        "Weakness": "L",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527987_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527987%2Fpokemon-trading-card-game-classic-wartortle",
@@ -761,6 +829,16 @@
       "clean_name": "Blastoise",
       "number": "003/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Water",
+        "HP": "100",
+        "Stage": "Stage 2",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br> \r\n<strong>Pokémon Power: Rain Dance</strong> As often as you like during your turn, you may attach a Basic Water Energy card from your hand to 1 of your Water Pokémon. This Pokémon Power can't be used if this Pokémon is Asleep, Confused or Paralyzed.",
+        "Attack 1": "[WWW] Hydro Pump (40+)\r\n<br>This attack does 10 more damage for each extra Water Energy attached to this Pokémon <em>(in addition this attack's cost)</em>. You can't add more than 20 damage in this way.",
+        "Weakness": "L",
+        "Resistance": "None",
+        "RetreatCost": "3"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527988_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527988%2Fpokemon-trading-card-game-classic-blastoise",
@@ -873,6 +951,16 @@
       "clean_name": "Charizard",
       "number": "003/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Fire",
+        "HP": "120",
+        "Stage": "Stage 2",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\n<strong>Pokémon Power: Energy Burn</strong> All Energy attached to this Pokémon are Fire Energy instead of their usual type. This Pokémon Power stops working if this Pokémon is Asleep, Confused, or Paralyzed.",
+        "Attack 1": "[RRRR] Fire Spin (100)\r\n<br>Discard 2 Energy from this Pokémon.",
+        "Weakness": "W",
+        "Resistance": "F-30",
+        "RetreatCost": "3"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527938_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527938%2Fpokemon-trading-card-game-classic-charizard",
@@ -985,6 +1073,16 @@
       "clean_name": "Venusaur",
       "number": "003/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Grass",
+        "HP": "100",
+        "Stage": "Stage 2",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\n<strong>Pokémon Power: Energy Trans</strong> As often as you like during your turn, you may move 1 Grass Energy card from 1 of your Pokémon to another of your Pokémon. This Pokémon Power can't be used if this Pokémon is Asleep, Confused or Paralyzed.",
+        "Attack 1": "[GGGG] Solar Beam (60)",
+        "Weakness": "Rx2",
+        "Resistance": "None",
+        "RetreatCost": "2"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527885_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527885%2Fpokemon-trading-card-game-classic-venusaur",
@@ -1097,6 +1195,17 @@
       "clean_name": "Paras",
       "number": "004/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Grass",
+        "HP": "50",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[1] Call for Family \r\n<br>Search your deck for up to 2 Basic Pokemon and put them onto your Bench.  Then, shuffle your deck.",
+        "Attack 2": "[G] Toxic Sport (10) \r\n<br>Flip a coin.  If heads, the Defending Pokemon is now Poisoned.",
+        "Weakness": "Rx2",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527886_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527886%2Fpokemon-trading-card-game-classic-paras",
@@ -1209,6 +1318,16 @@
       "clean_name": "Ponyta",
       "number": "004/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Fire",
+        "HP": "60",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[R] Flame Tail (20)",
+        "Weakness": "Wx2",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527939_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527939%2Fpokemon-trading-card-game-classic-ponyta",
@@ -1321,6 +1440,17 @@
       "clean_name": "Staryu",
       "number": "004/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Water",
+        "HP": "60",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[1] Recover\r\n<br> Discard an Energy from this Pokémon and heal all damage from it.",
+        "Attack 2": "[W] Water Gun (10)",
+        "Weakness": "Lx2",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527989_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527989%2Fpokemon-trading-card-game-classic-staryu",
@@ -1433,6 +1563,17 @@
       "clean_name": "Parasect",
       "number": "005/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Grass",
+        "HP": "80",
+        "Stage": "Stage 1",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[1] Nutritional Support \r\n<br>Search your deck for up to 2 G Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck.",
+        "Attack 2": "[1GG] Hibernation Spore (40) \r\n<br>Your opponent's Active Pokémon is now Asleep. During Pokémon Checkup, your opponent flips 2 coins instead of 1. If either of them is tails, that Pokémon is still Asleep.",
+        "Weakness": "R+20",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527887_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527887%2Fpokemon-trading-card-game-classic-parasect",
@@ -1545,6 +1686,17 @@
       "clean_name": "Rapidash",
       "number": "005/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Fire",
+        "HP": "100",
+        "Stage": "Stage 1",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[R] Combustion (30)",
+        "Attack 2": "[1R] Ring of Fire (50)\r\n<br>Your opponent's Active Pokémon is now Burned. It can't retreat during your opponent's next turn.",
+        "Weakness": "Wx2",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527940_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527940%2Fpokemon-trading-card-game-classic-rapidash",
@@ -1657,6 +1809,17 @@
       "clean_name": "Starmie",
       "number": "005/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Water",
+        "HP": "90",
+        "Stage": "Stage 1",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[1] Confuse Ray \r\n<br>Your opponent's Active Pokémon is now Confused.",
+        "Attack 2": "[W] Swift (50) \r\n<br>This attack's damage isn't affected by Weakness or Resistance, or by any effects on your opponent's Active Pokémon.",
+        "Weakness": "Lx2",
+        "Resistance": "None",
+        "RetreatCost": "0"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527990_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527990%2Fpokemon-trading-card-game-classic-starmie",
@@ -1769,6 +1932,15 @@
       "clean_name": "Magikarp",
       "number": "006/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Water",
+        "HP": "30",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[1] Splash (10)",
+        "Weakness": "Lx2",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527991_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527991%2Fpokemon-trading-card-game-classic-magikarp",
@@ -1881,6 +2053,17 @@
       "clean_name": "Magmar",
       "number": "006/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Fire",
+        "HP": "70",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[R] Smokescreen (10)\r\n<br>If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+        "Attack 2": "[RR] Smog (20)\r\n<br>Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+        "Weakness": "W",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527941_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527941%2Fpokemon-trading-card-game-classic-magmar",
@@ -1993,6 +2176,17 @@
       "clean_name": "Scyther",
       "number": "006/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Grass",
+        "HP": "70",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[G] Swords Dance\r\n<br>During your next turn, this Pokémon's Slash attack does 30 more damage <em>(before applying Weakness and Resistance)</em>.",
+        "Attack 2": "[3] Slash (30)",
+        "Weakness": "Rx2",
+        "Resistance": "F-30",
+        "RetreatCost": "0"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527888_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527888%2Fpokemon-trading-card-game-classic-scyther",
@@ -2105,6 +2299,17 @@
       "clean_name": "Gyarados",
       "number": "007/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Water",
+        "HP": "130",
+        "Stage": "Stage 1",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[2W] Hydro Splash (50)",
+        "Attack 2": "[2WW] Hyper Beam (80) \r\n<br>Discard an Energy card from your opponent's Active Pokémon.",
+        "Weakness": "Lx2",
+        "Resistance": "F-20",
+        "RetreatCost": "3"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527992_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527992%2Fpokemon-trading-card-game-classic-gyarados",
@@ -2217,6 +2422,17 @@
       "clean_name": "Ho-oh ex",
       "number": "007/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Fire",
+        "HP": "220",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[R] Phoenix Breath\r\n<br>Attach up to 2 Basic Energy cards from your discard pile to your Pokemon in any way you like.",
+        "Attack 2": "[2RR] Eternal Blaze (180)\r\n<br>During your next turn, this Pokemon can't attack.",
+        "Weakness": "Wx2",
+        "Resistance": "None",
+        "RetreatCost": "2"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527942_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527942%2Fpokemon-trading-card-game-classic-ho-oh-ex",
@@ -2329,6 +2545,17 @@
       "clean_name": "Pinsir",
       "number": "007/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Grass",
+        "HP": "110",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[2] Roof Fling\r\n<br>Flip a coin. If heads, return your opponent's Active Pokemon and attached all cards into your opponent's hand.",
+        "Attack 2": "[GG] Guillotine (50)",
+        "Weakness": "Rx2",
+        "Resistance": "None",
+        "RetreatCost": "2"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527891_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527891%2Fpokemon-trading-card-game-classic-pinsir",
@@ -2441,6 +2668,16 @@
       "clean_name": "Lapras",
       "number": "008/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Water",
+        "HP": "90",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[2] Ice Beam (20) \r\n<br>Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+        "Attack 2": "[WW] Ice Blade \r\n<br>This attack does 30 damage to 1 of your opponent's Pokémon. <em>(Don't apply Weakness and Resistance for Benched Pokémon.)</em>",
+        "Weakness": "Mx2",
+        "RetreatCost": "2"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527994_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527994%2Fpokemon-trading-card-game-classic-lapras",
@@ -2553,6 +2790,16 @@
       "clean_name": "Pikachu",
       "number": "008/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Lightning",
+        "HP": "40",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[1] Gnaw (10)",
+        "Attack 2": "[1L] Thunder Jolt (30)\r\n<br>Flip a coin. If tails, this Pokémon does 10 damage to itself.",
+        "Weakness": "F",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527943_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527943%2Fpokemon-trading-card-game-classic-pikachu",
@@ -2665,6 +2912,17 @@
       "clean_name": "Sandshrew",
       "number": "008/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Fighting",
+        "HP": "70",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[1] Collect\r\n<br>Draw a card.",
+        "Attack 2": "[2F] Rolling Tackle (30)",
+        "Weakness": "Gx2",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527893_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527893%2Fpokemon-trading-card-game-classic-sandshrew",
@@ -2777,6 +3035,17 @@
       "clean_name": "Articuno",
       "number": "009/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Water",
+        "HP": "70",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[WWW] Freeze Dry (30)\r\n<br>Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+        "Attack 2": "[WWWW] Blizzard (50)\r\n<br>Flip a coin. If heads, this attack also does 10 damage to each of your opponent's Benched Pokémon. If tails, this attack also does 10 damage to each of your own Benched Pokémon. <em>(Don't apply Weakness and Resistance for Benched Pokémon.)</em>",
+        "Weakness": "None",
+        "Resistance": "F-30",
+        "RetreatCost": "2"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527996_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527996%2Fpokemon-trading-card-game-classic-articuno",
@@ -2889,6 +3158,17 @@
       "clean_name": "Raichu",
       "number": "009/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Lightning",
+        "HP": "130",
+        "Stage": "Stage 1",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[1] Pain-full Punch (40)",
+        "Attack 2": "[1LL] Mach Bolt (120)",
+        "Weakness": "Fx2",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527944_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527944%2Fpokemon-trading-card-game-classic-raichu",
@@ -3001,6 +3281,17 @@
       "clean_name": "Sandslash",
       "number": "009/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Fighting",
+        "HP": "110",
+        "Stage": "Stage 1",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[1] Continuous Scratch (30x)\r\n<br>Flip 4 coins. This attack does 30 damage for each heads.",
+        "Attack 2": "[2F] Sand Tomb (90)\r\n<br>During your opponent's next turn, the Defending Pokémon can't retreat.",
+        "Weakness": "Gx2",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527894_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527894%2Fpokemon-trading-card-game-classic-sandslash",
@@ -3113,6 +3404,16 @@
       "clean_name": "Onix",
       "number": "010/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Fighting",
+        "HP": "120",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[4] Land Crush (120)",
+        "Weakness": "Gx2",
+        "Resistance": "None",
+        "RetreatCost": "4"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527895_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527895%2Fpokemon-trading-card-game-classic-onix",
@@ -3225,6 +3526,16 @@
       "clean_name": "Suicune ex",
       "number": "010/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Water",
+        "HP": "220",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\n<strong>Ability — Aqua Lift</strong>\r\n<br>If this Pokemon has any W Energy attached, it has no Retreat Cost.",
+        "Attack 1": "[3] Crystal Blast (60+)\r\n<br>This attack does 30 more damage for each W Energy attached to this Pokemon.",
+        "Weakness": "Lx2",
+        "Resistance": "None",
+        "RetreatCost": "2"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527998_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527998%2Fpokemon-trading-card-game-classic-suicune-ex",
@@ -3337,6 +3648,16 @@
       "clean_name": "Voltorb",
       "number": "010/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Lightning",
+        "HP": "40",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[1] Tackle (10)",
+        "Weakness": "F",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527945_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527945%2Fpokemon-trading-card-game-classic-voltorb",
@@ -3449,6 +3770,17 @@
       "clean_name": "Drowzee",
       "number": "011/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Psychic",
+        "HP": "70",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[P] Psychic Boom (10x)\r\n<br>This attack does 10 damage times the amount of Energy attached to your opponent's Active Pokemon.",
+        "Attack 2": "[2] Headbutt (20)",
+        "Weakness": "Px2",
+        "Resistance": "None",
+        "RetreatCost": "2"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527999_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527999%2Fpokemon-trading-card-game-classic-drowzee",
@@ -3561,6 +3893,16 @@
       "clean_name": "Electrode",
       "number": "011/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Lightning",
+        "HP": "80",
+        "Stage": "Stage 1",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\n<strong>Pokémon Power: Buzzap</strong> Once during your turn, you may Knock Out this Pokémon and attach it to 1 of your other Pokémon as a Special Energy card. While this card is attached to a Pokémon, it provides every type of Energy but provides only 2 Energy at a time. This Pokémon Power can't be used if this Pokémon is Asleep, Confused or Paralyzed.",
+        "Attack 1": "[LLL] Electric Shock (50)\r\n<br>Flip a coin. If tails, this Pokémon does 10 damage to itself.",
+        "Weakness": "F",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527946_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527946%2Fpokemon-trading-card-game-classic-electrode",
@@ -3673,6 +4015,17 @@
       "clean_name": "Hitmonlee",
       "number": "011/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Fighting",
+        "HP": "120",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[2] Low Sweep (40)",
+        "Attack 2": "[1FF] Link Attack (80+)\r\n<br>If Hitmonchan is on your Bench, this attack does 80 more damage.",
+        "Weakness": "Px2",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527898_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527898%2Fpokemon-trading-card-game-classic-hitmonlee",
@@ -3785,6 +4138,17 @@
       "clean_name": "Hitmonchan",
       "number": "012/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Fighting",
+        "HP": "120",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[F] Coordinated Beatdown (20+)\r\n<br>If Hitmonlee is on your Bench, this attack does 20 more damage.",
+        "Attack 2": "[FF] Mach Cross (60)",
+        "Weakness": "Px2",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527899_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527899%2Fpokemon-trading-card-game-classic-hitmonchan",
@@ -3897,6 +4261,17 @@
       "clean_name": "Hypno",
       "number": "012/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Psychic",
+        "HP": "110",
+        "Stage": "Stage 1",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[2] Meditate (20+)\r\n<br>This attack does 10 more damage for each damage counter on your opponent's Active Pokemon.",
+        "Attack 2": "[2P] Hypnoblast (70)\r\n<br>Your opponent's Active Pokemon is now Asleep.",
+        "Weakness": "Px2",
+        "Resistance": "None",
+        "RetreatCost": "2"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/528000_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F528000%2Fpokemon-trading-card-game-classic-hypno",
@@ -4009,6 +4384,17 @@
       "clean_name": "Zapdos",
       "number": "012/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Lightning",
+        "HP": "120",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[L] Thunder Shock (20)\r\n<br>Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+        "Attack 2": "[4] Drill Peck (120)",
+        "Weakness": "Lx2",
+        "Resistance": "F-20",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527947_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527947%2Fpokemon-trading-card-game-classic-zapdos",
@@ -4121,6 +4507,17 @@
       "clean_name": "Clefairy",
       "number": "013/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Colorless",
+        "HP": "40",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[1] Sing\r\n<br>Flip a coin. If heads, your opponent's Active Pokémon is now Asleep.",
+        "Attack 2": "[3] Metronome\r\n<br>Choose 1 of your opponent's Active Pokémon's attacks and use it as this attack.",
+        "Weakness": "F",
+        "Resistance": "P-30",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527948_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527948%2Fpokemon-trading-card-game-classic-clefairy",
@@ -4233,6 +4630,17 @@
       "clean_name": "Doduo",
       "number": "013/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Colorless",
+        "HP": "60",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[1] Double Stab (10x)\r\n<br>Flip 2 coins. This attack does 10 damage times the number of heads.",
+        "Attack 2": "[2] Doduo Delivery\r\n<br>Draw 2 cards.",
+        "Weakness": "Lx2",
+        "Resistance": "F-20",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527900_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527900%2Fpokemon-trading-card-game-classic-doduo",
@@ -4345,6 +4753,16 @@
       "clean_name": "Mr. Mime",
       "number": "013/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Psychic",
+        "HP": "50",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\n<strong>Pokémon Power: Dampening Shield</strong> As long as this Pokémon is on your Bench, Pokémon in play <em>(both yours and your opponent's)</em> have no Weakness or Resistance.",
+        "Attack 1": "[1P] Juggling (10x)\r\n<br>Flip 4 coins. This attack does 10 damage for each heads.",
+        "Weakness": "Px2",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/528184_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F528184%2Fpokemon-trading-card-game-classic-mr-mime",
@@ -4457,6 +4875,17 @@
       "clean_name": "Clefable",
       "number": "014/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Colorless",
+        "HP": "70",
+        "Stage": "Stage 1",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[1] Metronome\r\n<br>Choose 1 of your opponent's Active Pokémon's attacks and use it as this attack.",
+        "Attack 2": "[2] Minimize\r\n<br>During your opponent's next turn, this Pokémon takes 20 less damage from attacks <em>(after applying Weakness and Resistance).</em>",
+        "Weakness": "F",
+        "Resistance": "P-30",
+        "RetreatCost": "2"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527949_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527949%2Fpokemon-trading-card-game-classic-clefable",
@@ -4569,6 +4998,16 @@
       "clean_name": "Dodrio",
       "number": "014/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Colorless",
+        "HP": "80",
+        "Stage": "Stage 1",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\n<strong>[Poké-BODY] Retreat Aid</strong>\r\n<br>As long as This Pokémon is on your Bench, your Active Pokémon's Retreat Cost is [2] less.",
+        "Attack 1": "[2] Incessant Peck (20+) \r\n<br>Flip a coin until you get tails. This attack does 20 damage plus 20 more damage for each heads.",
+        "Weakness": "Lx2",
+        "Resistance": "F-20",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527901_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527901%2Fpokemon-trading-card-game-classic-dodrio",
@@ -4681,6 +5120,17 @@
       "clean_name": "Mewtwo",
       "number": "014/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Psychic",
+        "HP": "60",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[1P] Psychic (20+)\r\n<br>Does 20 more damage for each Energy attached to your opponent's Active Pokémon.",
+        "Attack 2": "[PP] Barrier\r\n<br>During your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon. If 1 of your Pokémon used Barrier during your last turn, this attack can't be used.",
+        "Weakness": "P",
+        "Resistance": "None",
+        "RetreatCost": "3"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/528002_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F528002%2Fpokemon-trading-card-game-classic-mewtwo",
@@ -4793,6 +5243,17 @@
       "clean_name": "Chansey",
       "number": "015/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Colorless",
+        "HP": "120",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[2] Scrunch\r\n<br>Flip a coin. If heads, during your opponent's next turn, prevent all damage done to this Pokémon by attacks.",
+        "Attack 2": "[4] Double-edge (80)\r\n<br>This Pokémon also does 80 damage to itself.",
+        "Weakness": "Fx2",
+        "Resistance": "P-30",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527902_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527902%2Fpokemon-trading-card-game-classic-chansey",
@@ -4905,6 +5366,17 @@
       "clean_name": "Dunsparce",
       "number": "015/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Colorless",
+        "HP": "50",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[1] Strike and Run \r\n<br>Search your deck for up to 3 Basic Pokemon and put them onto your Bench.  Then, shuffle your deck. If you put any Pokémon onto your Bench in this way, you may switch this Pokémon with 1 of your Benched Pokémon.",
+        "Attack 2": "[1] Sudden Flash (10) \r\n<br>Flip a coin.  If heads, your opponent's Active Pokémon is now Paralyzed.",
+        "Weakness": "F",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527952_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527952%2Fpokemon-trading-card-game-classic-dunsparce",
@@ -5017,6 +5489,17 @@
       "clean_name": "Lt. Surge's Rattata",
       "number": "015/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Colorless",
+        "HP": "40",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[1] Focus Energy\r\n<br>During your next turn, this Pokémon's Gnaw attack does 20 more damage <em>(before applying Weakness and Resistance)</em>.",
+        "Attack 2": "[2] Gnaw (20)",
+        "Weakness": "F",
+        "Resistance": "P-30",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/528003_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F528003%2Fpokemon-trading-card-game-classic-lt-surges-rattata",
@@ -5129,6 +5612,16 @@
       "clean_name": "Lt. Surge's Raticate",
       "number": "016/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Colorless",
+        "HP": "70",
+        "Stage": "Stage 1",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[1] Super Fang\r\n<br>Put damage counters on your opponent's Active Pokémon until its remaining HP is halved, rounded down. <em>(If your opponent's Active Pokémon has 30 HP remaining, put 2 damage counters on it.)</em>",
+        "Weakness": "F",
+        "Resistance": "P-30",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/528004_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F528004%2Fpokemon-trading-card-game-classic-lt-surges-raticate",
@@ -5241,6 +5734,17 @@
       "clean_name": "Snorlax",
       "number": "016/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Colorless",
+        "HP": "150",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[1] Collect\r\n<br>Draw 2 cards.",
+        "Attack 2": "[3] Collapse (120)\r\n<br>This Pokemon is now Asleep.",
+        "Weakness": "Fx2",
+        "Resistance": "None",
+        "RetreatCost": "4"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527903_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527903%2Fpokemon-trading-card-game-classic-snorlax",
@@ -5353,6 +5857,17 @@
       "clean_name": "Stantler",
       "number": "016/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Colorless",
+        "HP": "70",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[0] Lead\r\n<br>\r\nSearch your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck.",
+        "Attack 2": "[2] Frighten Horn (20)\r\n<br>\r\nIf your opponent's Active Pokémon is a Basic Pokémon, it is now Confused.",
+        "Weakness": "F+20",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527950_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527950%2Fpokemon-trading-card-game-classic-stantler",
@@ -5465,6 +5980,16 @@
       "clean_name": "Kangaskhan",
       "number": "017/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Colorless",
+        "HP": "100",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[1] Call for Family - Search your deck for 2 Basic Pokemon and put them onto your Bench.  Shuffle your deck afterward.",
+        "Attack 2": "[2] Comet Punch (20x) Flip 4 coins.  This attack does 20 damage times the number of heads.",
+        "Weakness": "Fx2",
+        "RetreatCost": "2"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/528005_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F528005%2Fpokemon-trading-card-game-classic-kangaskhan",
@@ -5577,6 +6102,17 @@
       "clean_name": "Lugia ex",
       "number": "017/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Colorless",
+        "HP": "230",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[2] Rising Wind (30)\r\n<br>Search your deck for a Basic Energy card and attach it to this Pokemon. Then, shuffle your deck.",
+        "Attack 2": "[4] Aero Break (200)\r\n<br>This Pokemon also does 30 damage to itself.",
+        "Weakness": "Lx2",
+        "Resistance": "F-30",
+        "RetreatCost": "2"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527905_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527905%2Fpokemon-trading-card-game-classic-lugia-ex",
@@ -5689,6 +6225,17 @@
       "clean_name": "Miltank",
       "number": "017/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Colorless",
+        "HP": "90",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[0] Healing Milk\r\n<br>\r\nChoose 1 of your Pokémon, and then flip 2 coins. For each heads, heal 30 damage from that Pokémon.",
+        "Attack 2": "[2] Continuous Tumble (20x)\r\n<br>\r\nFlip a coin until you get tails. This attack does 20 damage for each heads.",
+        "Weakness": "F+20",
+        "Resistance": "None",
+        "RetreatCost": "2"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527951_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527951%2Fpokemon-trading-card-game-classic-miltank",
@@ -5801,6 +6348,12 @@
       "clean_name": "Bill (CLB)",
       "number": "018/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Supporter",
+        "HP": "0",
+        "Stage": "Supporter",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nDraw 2 cards.\r\n<br>You may only play 1 Supporter card during your turn."
+      },
       "image_url": "https://cdn.tcgtracking.com/product/528014_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F528014%2Fpokemon-trading-card-game-classic-bill-clb",
@@ -5913,6 +6466,12 @@
       "clean_name": "Bill (CLC)",
       "number": "018/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Supporter",
+        "HP": "0",
+        "Stage": "Supporter",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nDraw 2 cards.\r\n<br>You may only play 1 Supporter card during your turn."
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527954_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527954%2Fpokemon-trading-card-game-classic-bill-clc",
@@ -6025,6 +6584,12 @@
       "clean_name": "Bill (CLV)",
       "number": "018/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Supporter",
+        "HP": "0",
+        "Stage": "Supporter",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nDraw 2 cards.\r\n<br>You may only play 1 Supporter card during your turn."
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527907_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527907%2Fpokemon-trading-card-game-classic-bill-clv",
@@ -6137,6 +6702,10 @@
       "clean_name": "Boss's Orders (CLB)",
       "number": "019/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Supporter",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nSwitch in 1 of your opponent's Benched Pokémon to the Active Spot.\r\n<br>\r\nYou may play only 1 Supporter card during your turn."
+      },
       "image_url": "https://cdn.tcgtracking.com/product/528015_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F528015%2Fpokemon-trading-card-game-classic-bosss-orders-clb",
@@ -6249,6 +6818,10 @@
       "clean_name": "Boss's Orders (CLC)",
       "number": "019/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Supporter",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nSwitch in 1 of your opponent's Benched Pokémon to the Active Spot.\r\n<br>\r\nYou may play only 1 Supporter card during your turn."
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527955_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527955%2Fpokemon-trading-card-game-classic-bosss-orders-clc",
@@ -6361,6 +6934,10 @@
       "clean_name": "Boss's Orders (CLV)",
       "number": "019/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Supporter",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nSwitch in 1 of your opponent's Benched Pokémon to the Active Spot.\r\n<br>\r\nYou may play only 1 Supporter card during your turn."
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527908_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527908%2Fpokemon-trading-card-game-classic-bosss-orders-clv",
@@ -6473,6 +7050,10 @@
       "clean_name": "Computer Search (CLB)",
       "number": "020/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Trainer",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nYou can use this card only if you discard 2 other cards from your hand.\r\n<br>Search your deck for a card and put it into your hand. Then, shuffle your deck.\r\n<br><br>You may play any number of Item cards during your turn."
+      },
       "image_url": "https://cdn.tcgtracking.com/product/528016_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F528016%2Fpokemon-trading-card-game-classic-computer-search-clb",
@@ -6585,6 +7166,10 @@
       "clean_name": "Computer Search (CLC)",
       "number": "020/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Trainer",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nYou can use this card only if you discard 2 other cards from your hand.\r\n<br>Search your deck for a card and put it into your hand. Then, shuffle your deck.\r\n<br><br>You may play any number of Item cards during your turn."
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527957_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527957%2Fpokemon-trading-card-game-classic-computer-search-clc",
@@ -6697,6 +7282,10 @@
       "clean_name": "Computer Search (CLV)",
       "number": "020/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Trainer",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nYou can use this card only if you discard 2 other cards from your hand.\r\n<br>Search your deck for a card and put it into your hand. Then, shuffle your deck.\r\n<br><br>You may play any number of Item cards during your turn."
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527909_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527909%2Fpokemon-trading-card-game-classic-computer-search-clv",
@@ -6809,6 +7398,10 @@
       "clean_name": "Drops in the Ocean",
       "number": "021/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Tool",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nThe attacks used by the Blastoise this card is attached to do 100 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance)."
+      },
       "image_url": "https://cdn.tcgtracking.com/product/528026_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F528026%2Fpokemon-trading-card-game-classic-drops-in-the-ocean",
@@ -6921,6 +7514,10 @@
       "clean_name": "Poke Ball (CLC)",
       "number": "021/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Item",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nFlip a coin. If heads, search your deck for a Pokemon, reveal it, and put it into your hand. Then, shuffle your deck.\r\n<br>\r\n<br>You may play any number of Item cards during your turn."
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527958_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527958%2Fpokemon-trading-card-game-classic-poke-ball-clc",
@@ -7033,6 +7630,10 @@
       "clean_name": "Poke Ball (CLV)",
       "number": "021/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Item",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nFlip a coin. If heads, search your deck for a Pokemon, reveal it, and put it into your hand. Then, shuffle your deck.\r\n<br>\r\n<br>You may play any number of Item cards during your turn."
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527910_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527910%2Fpokemon-trading-card-game-classic-poke-ball-clv",
@@ -7145,6 +7746,10 @@
       "clean_name": "Fisherman",
       "number": "022/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Supporter",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nPut 4 Basic Energy cards from your discard pile into your hand.\r\n<br>\r\n<br><em>You may play only 1 Supporter card during your turn (before your attack)</em>"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/528027_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F528027%2Fpokemon-trading-card-game-classic-fisherman",
@@ -7257,6 +7862,10 @@
       "clean_name": "Pokemon Fan Club (CLC)",
       "number": "022/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Supporter",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nSearch your deck for up to 2 Basic Pokemon, reveal them, and put them into your hand. Then, shuffle your deck.\r\n<br>\r\n<br>You may play only 1 Supporter card during your turn (before your attack)"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527959_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527959%2Fpokemon-trading-card-game-classic-pokemon-fan-club-clc",
@@ -7369,6 +7978,10 @@
       "clean_name": "Pokemon Fan Club (CLV)",
       "number": "022/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Supporter",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nSearch your deck for up to 2 Basic Pokemon, reveal them, and put them into your hand. Then, shuffle your deck.\r\n<br>\r\n<br>You may play only 1 Supporter card during your turn (before your attack)"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527911_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527911%2Fpokemon-trading-card-game-classic-pokemon-fan-club-clv",
@@ -7481,6 +8094,10 @@
       "clean_name": "Poke Ball (CLB)",
       "number": "023/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Item",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nFlip a coin. If heads, search your deck for a Pokemon, reveal it, and put it into your hand. Then, shuffle your deck.\r\n<br>\r\n<br>You may play any number of Item cards during your turn."
+      },
       "image_url": "https://cdn.tcgtracking.com/product/528018_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F528018%2Fpokemon-trading-card-game-classic-poke-ball-clb",
@@ -7593,6 +8210,10 @@
       "clean_name": "Pokemon Nurse",
       "number": "023/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Supporter",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nYou can play only one Supporter card each turn.\r\n<br>\r\n<br>Heal all damage from 1 of your Pokémon. If you healed any damage in this way, discard all Energy from that Pokémon."
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527912_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527912%2Fpokemon-trading-card-game-classic-pokemon-nurse",
@@ -7705,6 +8326,10 @@
       "clean_name": "Professor Oak (CLC)",
       "number": "023/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Trainer",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nDiscard your hand, then draw 7 cards.\r\n<br>\r\n<br>You may play only 1 Supporter card during your turn"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527960_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527960%2Fpokemon-trading-card-game-classic-professor-oak-clc",
@@ -7817,6 +8442,10 @@
       "clean_name": "Pokemon Fan Club (CLB)",
       "number": "024/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Supporter",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nSearch your deck for up to 2 Basic Pokemon, reveal them, and put them into your hand. Then, shuffle your deck.\r\n<br>\r\n<br>You may play only 1 Supporter card during your turn (before your attack)"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/528019_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F528019%2Fpokemon-trading-card-game-classic-pokemon-fan-club-clb",
@@ -7929,6 +8558,10 @@
       "clean_name": "Professor Oak (CLV)",
       "number": "024/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Trainer",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nDiscard your hand, then draw 7 cards.\r\n<br>\r\n<br>You may play only 1 Supporter card during your turn"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527913_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527913%2Fpokemon-trading-card-game-classic-professor-oak-clv",
@@ -8041,6 +8674,10 @@
       "clean_name": "Rare Candy (CLC)",
       "number": "024/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Item",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nChoose 1 of your Basic Pokemon in play. If you have a Stage 2 card in your hand that evolves from that Pokemon, put that card on the Basic Pokemon to evolve it, skipping the stage 1. You can't use this card during your first turn or on a Basic Pokemon that was put into play this turn.\r\n<br>\r\n<br>You may play any number of Item cards during your turn."
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527961_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527961%2Fpokemon-trading-card-game-classic-rare-candy-clc",
@@ -8153,6 +8790,10 @@
       "clean_name": "Professor Oak (CLB)",
       "number": "025/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Supporter",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nDiscard your hand, then draw 7 cards.\r\n<br>\r\n<br>You may play only 1 Supporter card during your turn"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/528020_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F528020%2Fpokemon-trading-card-game-classic-professor-oak-clb",
@@ -8265,6 +8906,10 @@
       "clean_name": "Rare Candy (CLV)",
       "number": "025/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Item",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nChoose 1 of your Basic Pokemon in play. If you have a Stage 2 card in your hand that evolves from that Pokemon, put that card on the Basic Pokemon to evolve it, skipping the stage 1. You can't use this card during your first turn or on a Basic Pokemon that was put into play this turn.\r\n<br>\r\n<br>You may play any number of Item cards during your turn."
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527916_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527916%2Fpokemon-trading-card-game-classic-rare-candy-clv",
@@ -8377,6 +9022,10 @@
       "clean_name": "Rocket's Admin. (CLC)",
       "number": "025/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Supporter",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nYou may play only one Supporter card each turn.\r\n<br>\r\n<br>Each player shuffles his or her hand into their deck.  Then, each player draws a card for each of their remaining Prize cards."
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527962_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527962%2Fpokemon-trading-card-game-classic-rockets-admin-clc",
@@ -8489,6 +9138,10 @@
       "clean_name": "Rare Candy (CLB)",
       "number": "026/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Item",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nChoose 1 of your Basic Pokemon in play. If you have a Stage 2 card in your hand that evolves from that Pokemon, put that card on the Basic Pokemon to evolve it, skipping the stage 1. You can't use this card during your first turn or on a Basic Pokemon that was put into play this turn.\r\n<br>\r\n<br>You may play any number of Item cards during your turn."
+      },
       "image_url": "https://cdn.tcgtracking.com/product/528021_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F528021%2Fpokemon-trading-card-game-classic-rare-candy-clb",
@@ -8601,6 +9254,10 @@
       "clean_name": "Rocket's Admin. (CLV)",
       "number": "026/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Supporter",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nYou may play only one Supporter card each turn.\r\n<br>\r\n<br>Each player shuffles his or her hand into their deck.  Then, each player draws a card for each of their remaining Prize cards."
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527917_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527917%2Fpokemon-trading-card-game-classic-rockets-admin-clv",
@@ -8713,6 +9370,10 @@
       "clean_name": "Scorching Charcoal",
       "number": "026/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Tool",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nThe attacks used by the Charizard this card is attached to do 100 more damage to your opponent's Active Pokemon <em>(before applying Weakness and Resistance)</em>."
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527972_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527972%2Fpokemon-trading-card-game-classic-scorching-charcoal",
@@ -8825,6 +9486,10 @@
       "clean_name": "Rocket's Admin. (CLB)",
       "number": "027/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Supporter",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nYou may play only one Supporter card each turn.\r\n<br>\r\n<br>Each player shuffles his or her hand into their deck.  Then, each player draws a card for each of their remaining Prize cards."
+      },
       "image_url": "https://cdn.tcgtracking.com/product/528022_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F528022%2Fpokemon-trading-card-game-classic-rockets-admin-clb",
@@ -8937,6 +9602,10 @@
       "clean_name": "Sun Seed",
       "number": "027/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Tool",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nThe attacks by the Venusaur this card is attached to do 100 more damage to your opponent’s Active Pokémon <em>(before applying Weakness and Resistance).</em>"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527918_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527918%2Fpokemon-trading-card-game-classic-sun-seed",
@@ -9049,6 +9718,10 @@
       "clean_name": "Super Rod (CLC)",
       "number": "027/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Item",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nShuffle up to 3 in any combination of Pokémon and Basic Energy cards from your discard pile into your deck.\r\n<br>\r\nYou may play any number of Item cards during your turn."
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527967_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527967%2Fpokemon-trading-card-game-classic-super-rod-clc",
@@ -9161,6 +9834,10 @@
       "clean_name": "Super Rod (CLB)",
       "number": "028/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Item",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nShuffle up to 3 in any combination of Pokémon and Basic Energy cards from your discard pile into your deck.\r\n<br>\r\nYou may play any number of Item cards during your turn."
+      },
       "image_url": "https://cdn.tcgtracking.com/product/528023_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F528023%2Fpokemon-trading-card-game-classic-super-rod-clb",
@@ -9273,6 +9950,10 @@
       "clean_name": "Super Rod (CLV)",
       "number": "028/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Item",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nShuffle up to 3 in any combination of Pokémon and Basic Energy cards from your discard pile into your deck.\r\n<br>\r\nYou may play any number of Item cards during your turn."
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527919_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527919%2Fpokemon-trading-card-game-classic-super-rod-clv",
@@ -9385,6 +10066,10 @@
       "clean_name": "Super Scoop Up",
       "number": "028/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Item",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nFlip a coin. If heads, put 1 of your Pokemon and all cards attached to it into your hand.\r\n<br> You may play any number of Item cards during your turn."
+      },
       "image_url": "https://cdn.tcgtracking.com/product/528028_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F528028%2Fpokemon-trading-card-game-classic-super-scoop-up",
@@ -9497,6 +10182,10 @@
       "clean_name": "Switch (CLB)",
       "number": "029/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Item",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nSwitch your Active Pokémon with 1 of your Benched Pokémon.\r\n<br>\r\nYou may play any number of Item cards during your turn."
+      },
       "image_url": "https://cdn.tcgtracking.com/product/528024_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F528024%2Fpokemon-trading-card-game-classic-switch-clb",
@@ -9609,6 +10298,10 @@
       "clean_name": "Switch (CLC)",
       "number": "029/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Item",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nSwitch your Active Pokémon with 1 of your Benched Pokémon.\r\n<br>\r\nYou may play as many Item cards as you like during your turn."
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527968_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527968%2Fpokemon-trading-card-game-classic-switch-clc",
@@ -9721,6 +10414,10 @@
       "clean_name": "Switch (CLV)",
       "number": "029/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Item",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nSwitch your Active Pokémon with 1 of your Benched Pokémon.\r\n<br>\r\nYou may play as many Item cards as you like during your turn."
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527920_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527920%2Fpokemon-trading-card-game-classic-switch-clv",
@@ -9833,6 +10530,10 @@
       "clean_name": "Ultra Ball (CLB)",
       "number": "030/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Trainer — Item",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nYou can use this card only if you discard 2 other cards from your hand.\r\n<br>Search your deck for a Pokemon, reveal it, and put it into your hand. Then, shuffle your deck.\r\n<br>\r\nYou may play any number of Item cards during your turn."
+      },
       "image_url": "https://cdn.tcgtracking.com/product/528025_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F528025%2Fpokemon-trading-card-game-classic-ultra-ball-clb",
@@ -9945,6 +10646,10 @@
       "clean_name": "Ultra Ball (CLC)",
       "number": "030/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Trainer — Item",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nYou can use this card only if you discard 2 other cards from your hand.\r\n<br>Search your deck for a Pokemon, reveal it, and put it into your hand. Then, shuffle your deck.\r\n<br>You may play any number of Item cards during your turn."
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527970_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527970%2Fpokemon-trading-card-game-classic-ultra-ball-clc",
@@ -10057,6 +10762,10 @@
       "clean_name": "Ultra Ball (CLV)",
       "number": "030/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Trainer — Item",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nYou can use this card only if you discard 2 other cards from your hand.\r\n<br>Search your deck for a Pokemon, reveal it, and put it into your hand. Then, shuffle your deck.\r\n<br>You may play any number of Item cards during your turn."
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527921_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527921%2Fpokemon-trading-card-game-classic-ultra-ball-clv",
@@ -10169,6 +10878,10 @@
       "clean_name": "VS Seeker (CLB)",
       "number": "031/034",
       "rarity": "Holo Rare",
+      "ext_data": {
+        "Card Type": "Item",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nPut a supporter card from your discard pile into your hand.\r\n<br>You may play any number of Item cards during your turn."
+      },
       "image_url": "https://cdn.tcgtracking.com/product/528200_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F528200%2Fpokemon-trading-card-game-classic-vs-seeker-clb",
@@ -10281,6 +10994,10 @@
       "clean_name": "VS Seeker (CLC)",
       "number": "031/034",
       "rarity": "Holo Rare",
+      "ext_data": {
+        "Card Type": "Item",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nPut a supporter card from your discard pile into your hand.\r\n<br>You may play any number of Item cards during your turn."
+      },
       "image_url": "https://cdn.tcgtracking.com/product/528207_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F528207%2Fpokemon-trading-card-game-classic-vs-seeker-clc",
@@ -10393,6 +11110,10 @@
       "clean_name": "VS Seeker (CLV)",
       "number": "031/034",
       "rarity": "Holo Rare",
+      "ext_data": {
+        "Card Type": "Item",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nPut a supporter card from your discard pile into your hand.\r\n<br>You may play any number of Item cards during your turn."
+      },
       "image_url": "https://cdn.tcgtracking.com/product/528225_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F528225%2Fpokemon-trading-card-game-classic-vs-seeker-clv",
@@ -10505,6 +11226,10 @@
       "clean_name": "Double Colorless Energy (CLB)",
       "number": "032/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Special Colorless Energy",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nAs long as this card is attached to a Pokémon, it provides [2] Energy."
+      },
       "image_url": "https://cdn.tcgtracking.com/product/528017_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F528017%2Fpokemon-trading-card-game-classic-double-colorless-energy-clb",
@@ -10617,6 +11342,10 @@
       "clean_name": "Double Colorless Energy (CLC)",
       "number": "032/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Special Colorless Energy",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nAs long as this card is attached to a Pokémon, it provides [2] Energy."
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527974_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527974%2Fpokemon-trading-card-game-classic-double-colorless-energy-clc",
@@ -10729,6 +11458,10 @@
       "clean_name": "Double Colorless Energy (CLV)",
       "number": "032/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Special Energy",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nAs long as this card is attached to a Pokémon, it provides [2] Energy"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527926_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527926%2Fpokemon-trading-card-game-classic-double-colorless-energy-clv",
@@ -10841,6 +11574,9 @@
       "clean_name": "Basic Fire Energy",
       "number": "033/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Basic Energy"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527983_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527983%2Fpokemon-trading-card-game-classic-basic-fire-energy",
@@ -10953,6 +11689,9 @@
       "clean_name": "Basic Grass Energy",
       "number": "033/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Basic Energy"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527924_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527924%2Fpokemon-trading-card-game-classic-basic-grass-energy",
@@ -11065,6 +11804,9 @@
       "clean_name": "Basic Water Energy",
       "number": "033/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Basic Energy"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/528201_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F528201%2Fpokemon-trading-card-game-classic-basic-water-energy",
@@ -11177,6 +11919,9 @@
       "clean_name": "Basic Fighting Energy",
       "number": "034/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Basic Energy"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527925_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527925%2Fpokemon-trading-card-game-classic-basic-fighting-energy",
@@ -11289,6 +12034,9 @@
       "clean_name": "Basic Lightning Energy",
       "number": "034/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Basic Energy"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/527984_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F527984%2Fpokemon-trading-card-game-classic-basic-lightning-energy",
@@ -11401,6 +12149,9 @@
       "clean_name": "Basic Psychic Energy",
       "number": "034/034",
       "rarity": "Classic Collection",
+      "ext_data": {
+        "Card Type": "Basic Energy"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/528203_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F528203%2Fpokemon-trading-card-game-classic-basic-psychic-energy",

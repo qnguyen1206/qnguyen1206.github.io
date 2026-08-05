@@ -4,8 +4,8 @@
   "set_abbr": "PR",
   "set_released": "2007-09-03",
   "product_count": 24,
-  "data_modified": "2026-07-27T13:21:26-04:00",
-  "file_generated": "2026-07-27T14:58:15-04:00",
+  "data_modified": "2026-08-03T08:22:16-04:00",
+  "file_generated": "2026-08-03T08:24:21-04:00",
   "pricing_url": "/v1/3/sets/1541/pricing",
   "cards_url": "/v1/3/sets/1541/cards",
   "sealed_url": "/v1/3/sets/1541/sealed",
@@ -17,6 +17,14 @@
       "clean_name": "DP Trainer Kit [Manaphy & Lucario]",
       "number": null,
       "rarity": null,
+      "ext_data": {
+        "number": null,
+        "description": "",
+        "flavorText": null,
+        "rarityDbName": null,
+        "releaseDate": "2007-09-03T00:00:00Z",
+        "energyType": null
+      },
       "image_url": "https://cdn.tcgtracking.com/product/98949_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F98949%2Fpokemon-dp-trainer-kit-manaphy-and-lucario-dp-trainer-kit-manaphy-and-lucario",
@@ -32,6 +40,15 @@
       "clean_name": "Geodude",
       "number": "1/11",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Fighting",
+        "HP": "60",
+        "Stage": "Basic",
+        "Attack 1": "[F] Stone Throw \r\n<br>Choose 2 of your opponent's Benched Pokemon.  This attack does 10 damage to each of them.  <i>(Don't apply Weakness and Resistance for Benched Pokemon.)</i>",
+        "Weakness": "G+10",
+        "Resistance": "L-20",
+        "RetreatCost": "2"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/85691_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85691%2Fpokemon-dp-trainer-kit-manaphy-and-lucario-geodude",
@@ -129,6 +146,15 @@
       "clean_name": "Buizel",
       "number": "1/12",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Water",
+        "HP": "60",
+        "Stage": "Basic",
+        "Attack 1": "[W] Splash About (10+) \r\n<br>If Buizel has less Energy attached to it than the Defending Pokemon, this attack does 10 damage plus 10 more damage.",
+        "Weakness": "L+10",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/84017_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84017%2Fpokemon-dp-trainer-kit-manaphy-and-lucario-buizel",
@@ -226,6 +252,10 @@
       "clean_name": "Quick Ball",
       "number": "10/11",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Item",
+        "CardText": "Reveal cards from your deck until you reveal a Pokemon.  Show that Pokemon to your opponent and put it into your hand.  Shuffle the other revealed cards back into your deck.  (If you don't reveal a Pokemon, shuffle all the revealed cards back into your deck.)"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/88478_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88478%2Fpokemon-dp-trainer-kit-manaphy-and-lucario-quick-ball",
@@ -323,6 +353,10 @@
       "clean_name": "Energy Search (Manaphy)",
       "number": "10/12",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Item",
+        "CardText": "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand.  Shuffle your deck afterward."
+      },
       "image_url": "https://cdn.tcgtracking.com/product/85246_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85246%2Fpokemon-dp-trainer-kit-manaphy-and-lucario-energy-search-manaphy",
@@ -420,6 +454,9 @@
       "clean_name": "Fighting Energy (Lucario)",
       "number": "11/11",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Basic Fighting Energy"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/85443_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85443%2Fpokemon-dp-trainer-kit-manaphy-and-lucario-fighting-energy-lucario",
@@ -517,6 +554,10 @@
       "clean_name": "Potion (Manaphy)",
       "number": "11/12",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Item",
+        "CardText": "<em>Remove 2 damage counters from 1 of your Pokemon (remove 1 damage counter if that Pokemon has only 1).\r\n<br>\r\n<br><b>(Outdated Text, reference latest Printing)"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/88344_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88344%2Fpokemon-dp-trainer-kit-manaphy-and-lucario-potion-manaphy",
@@ -614,6 +655,9 @@
       "clean_name": "Water Energy",
       "number": "12/12",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Basic Water Energy"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/90511_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90511%2Fpokemon-dp-trainer-kit-manaphy-and-lucario-water-energy",
@@ -711,6 +755,16 @@
       "clean_name": "Graveler",
       "number": "2/11",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Fighting",
+        "HP": "90",
+        "Stage": "Stage 1",
+        "Attack 1": "[1F] Rock Cannon (30x) \r\n<br>Flip a coin until you get tails.  This attack does 30 damage times the number of heads.",
+        "Attack 2": "[2F] Rock Slide (40) \r\n<br>Does 10 damage to 2 of your opponent's Benched Pokemon.<i>  (Don't apply Weakness and Resistance for Benched Pokemon.)</i>",
+        "Weakness": "G+20",
+        "Resistance": "L-20",
+        "RetreatCost": "3"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/85893_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85893%2Fpokemon-dp-trainer-kit-manaphy-and-lucario-graveler",
@@ -808,6 +862,16 @@
       "clean_name": "Floatzel",
       "number": "2/12",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Water",
+        "HP": "90",
+        "Stage": "Stage 1",
+        "Attack 1": "[1W] Screw Tail (30) \r\n<br>Flip a coin.  If heads, discard an Energy attached to the Defending Pokemon.",
+        "Attack 2": "[WW] Water Gun (40+) \r\n<br>Does 40 damage plus 20 more damage for each W Energy attached to Floatzel but not used to pay for this attack's Energy cost.  You can't add more than 40 damage in this way.",
+        "Weakness": "L+20",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/85512_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85512%2Fpokemon-dp-trainer-kit-manaphy-and-lucario-floatzel",
@@ -905,6 +969,16 @@
       "clean_name": "Lucario",
       "number": "3/11",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Fighting",
+        "HP": "90",
+        "Stage": "Stage 1",
+        "Attack 1": "[1] Feint (30) \r\n<br>This attack's damage isn't affected by Resistance.",
+        "Attack 2": "[FF] Aura Sphere (40)\r\n<br>Does 20 damage to 1 of your opponent's Benched Pokemon. <i> (Don't apply Weakness and Resistance for Benched Pokemon.)</i>",
+        "Weakness": "P+20",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/86875_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86875%2Fpokemon-dp-trainer-kit-manaphy-and-lucario-lucario",
@@ -1002,6 +1076,16 @@
       "clean_name": "Goldeen",
       "number": "3/12",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Water",
+        "HP": "60",
+        "Stage": "Basic",
+        "Attack 1": "[1] Horn Attack (10)",
+        "Attack 2": "[1W] Take Down (30) \r\n<br>Goldeen does 10 damage to itself.",
+        "Weakness": "L+10",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/85808_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85808%2Fpokemon-dp-trainer-kit-manaphy-and-lucario-goldeen",
@@ -1099,6 +1183,16 @@
       "clean_name": "Machoke",
       "number": "4/11",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Fighting",
+        "HP": "80",
+        "Stage": "Stage 1",
+        "Attack 1": "[1F] Karate Chop (40-) \r\n<br>Does 40 minus 10 damage for each damage counter on Machoke.",
+        "Attack 2": "[1FF] Seismic Toss (60)",
+        "Weakness": "P+20",
+        "Resistance": "None",
+        "RetreatCost": "2"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/86982_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86982%2Fpokemon-dp-trainer-kit-manaphy-and-lucario-machoke",
@@ -1196,6 +1290,16 @@
       "clean_name": "Manaphy",
       "number": "4/12",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Water",
+        "HP": "70",
+        "Stage": "Basic",
+        "Attack 1": "[1] Call for Family \r\n<br>Search your deck for a Basic Pokemon and put it onto your Bench.  Shuffle your deck afterward.",
+        "Attack 2": "[WW] Aqua Ring (30) \r\n<br>Switch Manaphy with 1 of your Benched Pokemon.",
+        "Weakness": "L+20",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/87145_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87145%2Fpokemon-dp-trainer-kit-manaphy-and-lucario-manaphy",
@@ -1293,6 +1397,15 @@
       "clean_name": "Machop",
       "number": "5/11",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Fighting",
+        "HP": "60",
+        "Stage": "Basic",
+        "Attack 1": "[F] Low Kick (20)",
+        "Weakness": "P+10",
+        "Resistance": "None",
+        "RetreatCost": "2"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/86996_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86996%2Fpokemon-dp-trainer-kit-manaphy-and-lucario-machop",
@@ -1390,6 +1503,16 @@
       "clean_name": "Piplup",
       "number": "5/12",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Water",
+        "HP": "60",
+        "Stage": "Basic",
+        "Attack 1": "[0] Peck (10)",
+        "Attack 2": "[1W] Water Splash (20+) \r\n<br>Flip a coin.  If heads, this attack does 20 damage plus 10 more damage.",
+        "Weakness": "L+10",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/88144_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88144%2Fpokemon-dp-trainer-kit-manaphy-and-lucario-piplup",
@@ -1487,6 +1610,16 @@
       "clean_name": "Prinplup",
       "number": "6/12",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Water",
+        "HP": "80",
+        "Stage": "Stage 1",
+        "Attack 1": "[W] Aqua Shower \r\n<br>Does 10 damage to each of your opponent's Pokemon. <i> (Don't apply Weakness and Resistance for Benched Pokemon.)</i>",
+        "Attack 2": "[WW] Brine \r\n<Br>Choose 1 of your opponent's Pokemon that has any damage counters on it.  This attack does 40 damage to that Pokemon.  <i>(Don't apply Weakness and Resistance for Benched Pokemon.)</i>",
+        "Weakness": "L+20",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/88369_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88369%2Fpokemon-dp-trainer-kit-manaphy-and-lucario-prinplup",
@@ -1584,6 +1717,15 @@
       "clean_name": "Riolu",
       "number": "6/12",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Fighting",
+        "HP": "60",
+        "Stage": "Basic",
+        "Attack 1": "[F] Wild Kick (30) \r\n<br>Flip a coin.  If tails, this attack does nothing.",
+        "Weakness": "P+10",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/88753_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88753%2Fpokemon-dp-trainer-kit-manaphy-and-lucario-riolu",
@@ -1681,6 +1823,16 @@
       "clean_name": "Starly",
       "number": "7/11",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Colorless",
+        "HP": "50",
+        "Stage": "Basic",
+        "Attack 1": "[1] Gust (10)",
+        "Attack 2": "[2] Quick Attack (10+) \r\n<br>Flip a coin.  If heads, this attack does 10 damage plus 20 more damage.",
+        "Weakness": "L+10",
+        "Resistance": "F-20",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/89522_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89522%2Fpokemon-dp-trainer-kit-manaphy-and-lucario-starly",
@@ -1778,6 +1930,16 @@
       "clean_name": "Seaking",
       "number": "7/12",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Water",
+        "HP": "80",
+        "Stage": "Stage 1",
+        "Attack 1": "[2] Flail (10x) \r\n<br>Does 10 damage times the number of damage counters on Seaking.",
+        "Attack 2": "[WW] Horn Drill (50)",
+        "Weakness": "L+20",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/89027_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89027%2Fpokemon-dp-trainer-kit-manaphy-and-lucario-seaking",
@@ -1875,6 +2037,10 @@
       "clean_name": "Energy Search (Lucario)",
       "number": "8/11",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Item",
+        "CardText": "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand.  Shuffle your deck afterward."
+      },
       "image_url": "https://cdn.tcgtracking.com/product/85247_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85247%2Fpokemon-dp-trainer-kit-manaphy-and-lucario-energy-search-lucario",
@@ -1972,6 +2138,16 @@
       "clean_name": "Totodile",
       "number": "8/12",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Water",
+        "HP": "50",
+        "Stage": "Basic",
+        "Attack 1": "[0] Bite (10)",
+        "Attack 2": "[W] Shining Fang (10+) \r\n<br>If the Defending Pokemon already has any damage counters on it, this attack does 10 damage plus 10 more damage.",
+        "Weakness": "L+10",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/89999_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89999%2Fpokemon-dp-trainer-kit-manaphy-and-lucario-totodile",
@@ -2069,6 +2245,10 @@
       "clean_name": "Dusk Ball",
       "number": "9/12",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Item",
+        "CardText": "Look at the 7 cards from the bottom of your deck.  Choose 1 Pokemon you find there, show it to your opponent, and put it into your hand.  Put the remaining cards back on top of your deck.  Shuffle your deck afterward."
+      },
       "image_url": "https://cdn.tcgtracking.com/product/85034_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85034%2Fpokemon-dp-trainer-kit-manaphy-and-lucario-dusk-ball",
@@ -2166,6 +2346,10 @@
       "clean_name": "Potion (Lucario)",
       "number": "9/12",
       "rarity": "Common",
+      "ext_data": {
+        "Card Type": "Item",
+        "CardText": "<em>Remove 2 damage counters from 1 of your Pokemon (remove 1 damage counter if that Pokemon has only 1).\r\n<br>\r\n<br><b>(Outdated text, reference latest Printing.)</em></b>"
+      },
       "image_url": "https://cdn.tcgtracking.com/product/88345_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88345%2Fpokemon-dp-trainer-kit-manaphy-and-lucario-potion-lucario",
