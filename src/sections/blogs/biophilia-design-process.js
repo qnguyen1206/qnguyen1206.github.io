@@ -94,5 +94,13 @@ After adding everything together and creating a custom wall background, I decide
 <img src="/blogs/design-process/biophilia/vr-layout-6.png" alt="VR layout 6">
 
 <img src="/blogs/design-process/biophilia/vr-layout-7.png" alt="VR layout 7">
+
+After getting some more feedback and learning how to use post-processing, I decided to go all out on the forest theme since it makes the scene more realistic and matches with the paintings theme. I also added some spot lights for each of the paintings so that the paintings can be lit up while in this dim light space.
+
+<img src="/blogs/design-process/biophilia/vr-layout-8.png" alt="VR layout 8">
+
+This is the second iteration with more spotlights and changing the position of the spotlights to make the paintings stand out more. I tried to make the light a little warmer so that some of the painting's details can stand out better in the cold environment.
+
+<img src="/blogs/design-process/biophilia/vr-layout-9.png" alt="VR layout 9">
 `
 }

@@ -12,6 +12,18 @@ export const experienceData = [
 
     ]
   },
+  {
+    title: 'Designer',
+    company: 'Biophilia VR',
+    date: 'June 1st - Present',
+    bullets: [
+      'Designed immersive VR gallery environments in Unity, creating concept art, layouts, lighting, and shaders to support interactive museum experiences. ',
+      'Created 7 iterative sketches and 9 spatial prototypes to communicate environment composition, navigation flow, and user experience to the development team. ',
+      'Researched museum architecture and VR exhibition design to inform layout, lighting, and environmental storytelling.',
+      'Built and refined VR gallery environment, implementing scene composition, lighting, shaders and interactive layouts.',
+      'Collaborated with developers to evaluate design alternatives, balancing immersion, accessibility, and technical constraints throughout development.',
+    ]
+  },
 ];
 
 function escapeHtml(str) {
