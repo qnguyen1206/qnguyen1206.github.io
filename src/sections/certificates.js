@@ -10,6 +10,12 @@ const certificatesData = {
   ],
   nonProfessional: [
     {
+      title: "Hacker Holidays Completion Certificate",
+      issuer: "TryHackMe",
+      date: "Aug 12, 2026",
+      link: "https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-VR7UQJRHKN.pdf"
+    },
+    {
       title: "AI Security",
       issuer: "TryHackMe",
       date: "Aug 1, 2026",
