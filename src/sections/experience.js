@@ -1,8 +1,16 @@
 export const experienceData = [
   {
+    title: 'Full Stack Developer Intern',
+    company: 'Y22 AI',
+    date: 'Aug 17th, 2026 - Dec 10th, 2026',
+    bullets: [
+      
+    ],
+  },
+  {
     title: 'Developer Experience Assistant',
     company: 'Hashforest Technology LLC',
-    date: 'July 1st - Present',
+    date: 'July 1st, 2026 - Present',
     bullets: [
       'Validated Phala Cloud infrastructure by testing CLI tools, REST APIs, Python SDKs, Docker deployments, and Trusted Execution Environment (TEE) applications across Linux and Windows environments.',
       'Executed end-to-end deployment testing for confidential cloud applications, debugging Docker containers, networking, encrypted environment variables, authentication, SSH connectivity, and cloud deployment workflows.',
@@ -15,7 +23,7 @@ export const experienceData = [
   {
     title: 'Designer',
     company: 'Biophilia VR',
-    date: 'June 1st - Present',
+    date: 'June 1st, 2026 - Present',
     bullets: [
       'Designed immersive VR gallery environments in Unity, creating concept art, layouts, lighting, and shaders to support interactive museum experiences. ',
       'Created 7 iterative sketches and 9 spatial prototypes to communicate environment composition, navigation flow, and user experience to the development team. ',
