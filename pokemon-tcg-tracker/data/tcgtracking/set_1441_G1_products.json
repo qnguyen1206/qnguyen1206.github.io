@@ -4,8 +4,8 @@
   "set_abbr": "G1",
   "set_released": "2000-10-14",
   "product_count": 140,
-  "data_modified": "2026-08-03T08:22:16-04:00",
-  "file_generated": "2026-08-03T08:24:24-04:00",
+  "data_modified": "2026-08-13T06:26:24-04:00",
+  "file_generated": "2026-08-13T08:31:49-04:00",
   "pricing_url": "/v1/3/sets/1441/pricing",
   "cards_url": "/v1/3/sets/1441/cards",
   "sealed_url": "/v1/3/sets/1441/sealed",
@@ -4192,9 +4192,7 @@
             "normal",
             "foil"
           ],
-          "languages": [
-            "en"
-          ],
+          "languages": [],
           "properties": [
             {
               "name": "condition",
@@ -4234,14 +4232,6 @@
               "possible_values": [
                 true,
                 false
-              ]
-            },
-            {
-              "name": "pokemon_language",
-              "type": "string",
-              "default_value": "en",
-              "possible_values": [
-                "en"
               ]
             },
             {
@@ -5314,7 +5304,7 @@
       "cardtrader": [
         {
           "id": 120795,
-          "name": "Erika's Exeggcute",
+          "name": "Erika's exeggcute",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "Gym Heroes",
@@ -5427,7 +5417,7 @@
       "cardtrader": [
         {
           "id": 120796,
-          "name": "Erika's Exeggutor",
+          "name": "Erika's exeggutor",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "Gym Heroes",
@@ -9148,7 +9138,7 @@
       "cardtrader": [
         {
           "id": 120829,
-          "name": "Erika's Exeggcute",
+          "name": "Erika's exeggcute",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "Gym Heroes",
@@ -14529,7 +14519,7 @@
       "cardtrader": [
         {
           "id": 120878,
-          "name": "Trash Exchange",
+          "name": "Trash exchange",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "Gym Heroes",

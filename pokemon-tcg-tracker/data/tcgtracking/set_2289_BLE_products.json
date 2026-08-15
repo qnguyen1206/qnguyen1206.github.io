@@ -3,9 +3,9 @@
   "set_name": "Blister Exclusives",
   "set_abbr": "BLE",
   "set_released": "2026-06-23",
-  "product_count": 139,
-  "data_modified": "2026-08-04T06:12:11-04:00",
-  "file_generated": "2026-08-04T08:31:09-04:00",
+  "product_count": 140,
+  "data_modified": "2026-08-12T06:00:10-04:00",
+  "file_generated": "2026-08-12T08:30:56-04:00",
   "pricing_url": "/v1/3/sets/2289/pricing",
   "cards_url": "/v1/3/sets/2289/cards",
   "sealed_url": "/v1/3/sets/2289/sealed",
@@ -6713,6 +6713,45 @@
       ]
     },
     {
+      "id": 706251,
+      "name": "Zarude - 056/084 (Cosmos Holo)",
+      "clean_name": "Zarude - 056/084 (Cosmos Holo)",
+      "number": "056/084",
+      "rarity": "Rare",
+      "ext_data": {
+        "description": "",
+        "attack2": "[DDD] Shadowy Whip (100+)<br>If your Benched Pokémon have any Shadowy Darkness Energy attached, this attack does 70 more damage.",
+        "stage": "Basic",
+        "detailNote": "This product is a Presale item with an estimated shipping date of 7/17/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated.",
+        "energyType": [
+          "Darkness"
+        ],
+        "releaseDate": null,
+        "number": "056/084",
+        "cardType": [
+          "Pokemon"
+        ],
+        "retreatCost": "2",
+        "cardTypeB": "Darkness",
+        "resistance": null,
+        "rarityDbName": "Rare",
+        "weakness": "Gx2",
+        "flavorText": "Within dense forests, this Pokémon lives in a pack with others of its kind. It's incredibly aggressive, and the other Pokémon of the forest fear it.",
+        "attack1": "[D] Overhead Throw (30)<br> This attack also does 30 damage to 1 of your Benched Pokémon. <em>(Don't apply Weakness and Resistance for Benched Pokémon.)</em>",
+        "hp": "130",
+        "attack3": null,
+        "attack4": null
+      },
+      "image_url": "https://cdn.tcgtracking.com/product/706251_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": null,
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": null
+    },
+    {
       "id": 173097,
       "name": "Excadrill - 56/98 (Cosmos Holo)",
       "clean_name": "Excadrill - 56/98 (Cosmos Holo)",
@@ -6739,7 +6778,7 @@
       "cardtrader": [
         {
           "id": 118306,
-          "name": "Excadrill",
+          "name": "excadrill",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "Theme Deck & Blisters Exclusives",
