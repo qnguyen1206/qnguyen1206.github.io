@@ -4,8 +4,8 @@
   "set_abbr": "LC",
   "set_released": "2002-05-24",
   "product_count": 114,
-  "data_modified": "2026-08-03T08:22:16-04:00",
-  "file_generated": "2026-08-03T08:24:24-04:00",
+  "data_modified": "2026-08-13T06:26:16-04:00",
+  "file_generated": "2026-08-13T08:31:49-04:00",
   "pricing_url": "/v1/3/sets/1374/pricing",
   "cards_url": "/v1/3/sets/1374/cards",
   "sealed_url": "/v1/3/sets/1374/sealed",
@@ -2587,7 +2587,7 @@
       "cardtrader": [
         {
           "id": 121578,
-          "name": "Exeggutor",
+          "name": "exeggutor",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "Legendary Collection",
@@ -6864,9 +6864,7 @@
             "normal",
             "foil"
           ],
-          "languages": [
-            "en"
-          ],
+          "languages": [],
           "properties": [
             {
               "name": "condition",
@@ -6897,14 +6895,6 @@
               "possible_values": [
                 true,
                 false
-              ]
-            },
-            {
-              "name": "pokemon_language",
-              "type": "string",
-              "default_value": "en",
-              "possible_values": [
-                "en"
               ]
             },
             {
@@ -7982,7 +7972,7 @@
       "cardtrader": [
         {
           "id": 121682,
-          "name": "Exeggcute",
+          "name": "exeggcute",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "Legendary Collection",

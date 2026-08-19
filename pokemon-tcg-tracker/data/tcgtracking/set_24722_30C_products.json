@@ -4,8 +4,8 @@
   "set_abbr": "30C",
   "set_released": "2026-09-16",
   "product_count": 67,
-  "data_modified": "2026-08-03T08:22:16-04:00",
-  "file_generated": "2026-08-03T08:23:02-04:00",
+  "data_modified": "2026-08-18T08:03:20-04:00",
+  "file_generated": "2026-08-18T08:30:59-04:00",
   "pricing_url": "/v1/3/sets/24722/pricing",
   "cards_url": "/v1/3/sets/24722/cards",
   "sealed_url": "/v1/3/sets/24722/sealed",
@@ -994,7 +994,95 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": null,
+      "cardtrader_id": 406674,
+      "cardtrader": [
+        {
+          "id": 406674,
+          "name": "Victini",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "30th Celebration",
+          "expansion_code": "30c",
+          "collector_number": "013",
+          "rarity": "Common",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/696830_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 696830,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 24722
+        }
+      ],
       "is_presale": true,
       "presale_release_date": "2026-09-16",
       "presale_note": "This product is a Presale item with an estimated shipping date of 9/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
@@ -1021,7 +1109,85 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": null,
+      "cardtrader_id": 406682,
+      "cardtrader": [
+        {
+          "id": 406682,
+          "name": "Greninja ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "30th Celebration",
+          "expansion_code": "30c",
+          "collector_number": "021",
+          "rarity": "Ultra Rare",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/696676_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 696676,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 24722
+        }
+      ],
       "is_presale": true,
       "presale_release_date": "2026-09-16",
       "presale_note": "This product is a Presale item with an estimated shipping date of 9/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
@@ -1047,7 +1213,95 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": null,
+      "cardtrader_id": 406697,
+      "cardtrader": [
+        {
+          "id": 406697,
+          "name": "Pikachu",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "30th Celebration",
+          "expansion_code": "30c",
+          "collector_number": "036",
+          "rarity": "Common",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/696680_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 696680,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 24722
+        }
+      ],
       "is_presale": true,
       "presale_release_date": "2026-09-16",
       "presale_note": "This product is a Presale item with an estimated shipping date of 9/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
@@ -1074,7 +1328,95 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": null,
+      "cardtrader_id": 406698,
+      "cardtrader": [
+        {
+          "id": 406698,
+          "name": "Pikachu",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "30th Celebration",
+          "expansion_code": "30c",
+          "collector_number": "037",
+          "rarity": "Common",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/696681_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 696681,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 24722
+        }
+      ],
       "is_presale": true,
       "presale_release_date": "2026-09-16",
       "presale_note": "This product is a Presale item with an estimated shipping date of 9/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
@@ -1100,7 +1442,95 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": null,
+      "cardtrader_id": 406708,
+      "cardtrader": [
+        {
+          "id": 406708,
+          "name": "Pikachu",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "30th Celebration",
+          "expansion_code": "30c",
+          "collector_number": "047",
+          "rarity": "Common",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/696682_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 696682,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 24722
+        }
+      ],
       "is_presale": true,
       "presale_release_date": "2026-09-16",
       "presale_note": "This product is a Presale item with an estimated shipping date of 9/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
@@ -1127,7 +1557,95 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": null,
+      "cardtrader_id": 406718,
+      "cardtrader": [
+        {
+          "id": 406718,
+          "name": "Zeraora",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "30th Celebration",
+          "expansion_code": "30c",
+          "collector_number": "057",
+          "rarity": "Common",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/696831_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 696831,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 24722
+        }
+      ],
       "is_presale": true,
       "presale_release_date": "2026-09-16",
       "presale_note": "This product is a Presale item with an estimated shipping date of 9/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
@@ -1155,7 +1673,95 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": null,
+      "cardtrader_id": 406730,
+      "cardtrader": [
+        {
+          "id": 406730,
+          "name": "Espeon",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "30th Celebration",
+          "expansion_code": "30c",
+          "collector_number": "069",
+          "rarity": "Common",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/696678_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 696678,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 24722
+        }
+      ],
       "is_presale": true,
       "presale_release_date": "2026-09-16",
       "presale_note": "This product is a Presale item with an estimated shipping date of 9/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
@@ -1182,7 +1788,85 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": null,
+      "cardtrader_id": 406731,
+      "cardtrader": [
+        {
+          "id": 406731,
+          "name": "Espeon ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "30th Celebration",
+          "expansion_code": "30c",
+          "collector_number": "070",
+          "rarity": "Ultra Rare",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/696834_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 696834,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 24722
+        }
+      ],
       "is_presale": true,
       "presale_release_date": "2026-09-16",
       "presale_note": "This product is a Presale item with an estimated shipping date of 9/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
@@ -1208,7 +1892,85 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": null,
+      "cardtrader_id": 406732,
+      "cardtrader": [
+        {
+          "id": 406732,
+          "name": "Sylveon ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "30th Celebration",
+          "expansion_code": "30c",
+          "collector_number": "071",
+          "rarity": "Ultra Rare",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/696677_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 696677,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 24722
+        }
+      ],
       "is_presale": true,
       "presale_release_date": "2026-09-16",
       "presale_note": "This product is a Presale item with an estimated shipping date of 9/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
@@ -1235,7 +1997,95 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": null,
+      "cardtrader_id": 406752,
+      "cardtrader": [
+        {
+          "id": 406752,
+          "name": "Umbreon",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "30th Celebration",
+          "expansion_code": "30c",
+          "collector_number": "091",
+          "rarity": "Common",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/696679_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 696679,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 24722
+        }
+      ],
       "is_presale": true,
       "presale_release_date": "2026-09-16",
       "presale_note": "This product is a Presale item with an estimated shipping date of 9/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
@@ -1261,7 +2111,85 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": null,
+      "cardtrader_id": 406753,
+      "cardtrader": [
+        {
+          "id": 406753,
+          "name": "Umbreon ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "30th Celebration",
+          "expansion_code": "30c",
+          "collector_number": "092",
+          "rarity": "Ultra Rare",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/696835_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 696835,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 24722
+        }
+      ],
       "is_presale": true,
       "presale_release_date": "2026-09-16",
       "presale_note": "This product is a Presale item with an estimated shipping date of 9/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
@@ -1287,7 +2215,95 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": null,
+      "cardtrader_id": 406778,
+      "cardtrader": [
+        {
+          "id": 406778,
+          "name": "Eevee",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "30th Celebration",
+          "expansion_code": "30c",
+          "collector_number": "117",
+          "rarity": "Common",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/696832_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 696832,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 24722
+        }
+      ],
       "is_presale": true,
       "presale_release_date": "2026-09-16",
       "presale_note": "This product is a Presale item with an estimated shipping date of 9/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
@@ -1313,7 +2329,95 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": null,
+      "cardtrader_id": 406779,
+      "cardtrader": [
+        {
+          "id": 406779,
+          "name": "Eevee",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "30th Celebration",
+          "expansion_code": "30c",
+          "collector_number": "118",
+          "rarity": "Common",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/696833_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 696833,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 24722
+        }
+      ],
       "is_presale": true,
       "presale_release_date": "2026-09-16",
       "presale_note": "This product is a Presale item with an estimated shipping date of 9/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
@@ -1340,7 +2444,85 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": null,
+      "cardtrader_id": 406792,
+      "cardtrader": [
+        {
+          "id": 406792,
+          "name": "Lapras",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "30th Celebration",
+          "expansion_code": "30c",
+          "collector_number": "131",
+          "rarity": "Illustration Rare",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/696683_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 696683,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 24722
+        }
+      ],
       "is_presale": true,
       "presale_release_date": "2026-09-16",
       "presale_note": "This product is a Presale item with an estimated shipping date of 9/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
@@ -1367,7 +2549,85 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": null,
+      "cardtrader_id": 406797,
+      "cardtrader": [
+        {
+          "id": 406797,
+          "name": "Drifloon",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "30th Celebration",
+          "expansion_code": "30c",
+          "collector_number": "136",
+          "rarity": "Illustration Rare",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/696684_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 696684,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 24722
+        }
+      ],
       "is_presale": true,
       "presale_release_date": "2026-09-16",
       "presale_note": "This product is a Presale item with an estimated shipping date of 9/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
@@ -1394,7 +2654,85 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": null,
+      "cardtrader_id": 406799,
+      "cardtrader": [
+        {
+          "id": 406799,
+          "name": "Lycanroc",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "30th Celebration",
+          "expansion_code": "30c",
+          "collector_number": "138",
+          "rarity": "Illustration Rare",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/696685_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 696685,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 24722
+        }
+      ],
       "is_presale": true,
       "presale_release_date": "2026-09-16",
       "presale_note": "This product is a Presale item with an estimated shipping date of 9/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
@@ -1420,7 +2758,85 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": null,
+      "cardtrader_id": 406808,
+      "cardtrader": [
+        {
+          "id": 406808,
+          "name": "Hisuian Zorua",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "30th Celebration",
+          "expansion_code": "30c",
+          "collector_number": "147",
+          "rarity": "Illustration Rare",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/696686_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 696686,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 24722
+        }
+      ],
       "is_presale": true,
       "presale_release_date": "2026-09-16",
       "presale_note": "This product is a Presale item with an estimated shipping date of 9/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
@@ -1448,7 +2864,85 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": null,
+      "cardtrader_id": 406661,
+      "cardtrader": [
+        {
+          "id": 406661,
+          "name": "Mewtwo ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "30th Celebration",
+          "expansion_code": "30c",
+          "collector_number": "157",
+          "rarity": "Futuristic Rare",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/696687_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 696687,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 24722
+        }
+      ],
       "is_presale": true,
       "presale_release_date": "2026-09-16",
       "presale_note": "This product is a Presale item with an estimated shipping date of 9/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
@@ -1476,7 +2970,85 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": null,
+      "cardtrader_id": 406660,
+      "cardtrader": [
+        {
+          "id": 406660,
+          "name": "Mew ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "30th Celebration",
+          "expansion_code": "30c",
+          "collector_number": "158",
+          "rarity": "Futuristic Rare",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/696688_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 696688,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 24722
+        }
+      ],
       "is_presale": true,
       "presale_release_date": "2026-09-16",
       "presale_note": "This product is a Presale item with an estimated shipping date of 9/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
