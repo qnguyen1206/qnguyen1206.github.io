@@ -4,8 +4,8 @@
   "set_abbr": "MEW",
   "set_released": "2023-09-22",
   "product_count": 249,
-  "data_modified": "2026-08-12T06:26:09-04:00",
-  "file_generated": "2026-08-12T08:31:02-04:00",
+  "data_modified": "2026-08-19T08:04:58-04:00",
+  "file_generated": "2026-08-19T08:31:08-04:00",
   "pricing_url": "/v1/3/sets/23237/pricing",
   "cards_url": "/v1/3/sets/23237/cards",
   "sealed_url": "/v1/3/sets/23237/sealed",
@@ -1422,18 +1422,7 @@
           "finishes": [
             "normal"
           ],
-          "languages": [
-            "en",
-            "fr",
-            "it",
-            "de",
-            "es",
-            "pt",
-            "nl",
-            "ru",
-            "pl",
-            "sv"
-          ],
+          "languages": [],
           "properties": [
             {
               "name": "sealed",
@@ -1442,23 +1431,6 @@
               "possible_values": [
                 true,
                 false
-              ]
-            },
-            {
-              "name": "pokemon_language",
-              "type": "string",
-              "default_value": "en",
-              "possible_values": [
-                "en",
-                "fr",
-                "it",
-                "de",
-                "es",
-                "pt",
-                "nl",
-                "ru",
-                "pl",
-                "sv"
               ]
             }
           ],
@@ -13593,7 +13565,7 @@
       "cardtrader": [
         {
           "id": 261116,
-          "name": "exeggcute",
+          "name": "Exeggcute",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "151",
@@ -13708,7 +13680,7 @@
       "cardtrader": [
         {
           "id": 261176,
-          "name": "exeggutor",
+          "name": "Exeggutor",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "151",
