@@ -3,9 +3,9 @@
   "set_name": "Miscellaneous Cards & Products",
   "set_abbr": "MCAP",
   "set_released": "2026-06-23",
-  "product_count": 1504,
-  "data_modified": "2026-08-04T06:40:00-04:00",
-  "file_generated": "2026-08-04T08:31:21-04:00",
+  "product_count": 1506,
+  "data_modified": "2026-08-13T06:26:25-04:00",
+  "file_generated": "2026-08-13T08:31:29-04:00",
   "pricing_url": "/v1/3/sets/2374/pricing",
   "cards_url": "/v1/3/sets/2374/cards",
   "sealed_url": "/v1/3/sets/2374/sealed",
@@ -171,8 +171,57 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 867795,
+      "cardtrader_id": 406049,
+      "cardtrader": [
+        {
+          "id": 406049,
+          "name": "2-Pack Blister: Raikou",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Mega Evolution Products",
+          "expansion_code": "meproducts",
+          "collector_number": null,
+          "rarity": null,
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            867795
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/671274_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 671274,
+          "game_id": 5,
+          "category_id": 190,
+          "category_name": "Pokémon Blisters",
+          "product_type": "booster",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 671271,
@@ -187,6 +236,86 @@
       "image_url": "https://cdn.tcgtracking.com/product/671271_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F671271%2Fpokemon-miscellaneous-cards-and-products-2-pack-blister-raikou-3-tab",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 867796,
+      "cardtrader_id": 354629,
+      "cardtrader": [
+        {
+          "id": 354629,
+          "name": "2-Pack Blister: Raikou",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Mega Evolution Products",
+          "expansion_code": "meproducts",
+          "collector_number": null,
+          "rarity": null,
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            867796
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/671271_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 671271,
+          "game_id": 5,
+          "category_id": 190,
+          "category_name": "Pokémon Blisters",
+          "product_type": "booster",
+          "group_id": 2374
+        }
+      ]
+    },
+    {
+      "id": 706250,
+      "name": "2-Pack Blister [Zarude]",
+      "clean_name": "2-Pack Blister [Zarude]",
+      "number": null,
+      "rarity": null,
+      "ext_data": {
+        "number": null,
+        "description": "Give Your Collection a Boost!\r\n<br>\r\nExpand your collection with a foil Pokémon TCG card featuring Zarude —plus a metallic coin and two Pokémon TCG booster packs! <em>(packs and pack contents vary)</em>",
+        "flavorText": null,
+        "rarityDbName": null,
+        "releaseDate": null,
+        "energyType": null
+      },
+      "image_url": "https://cdn.tcgtracking.com/product/706250_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": null,
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
@@ -7434,6 +7563,30 @@
       "cardtrader_id": null
     },
     {
+      "id": 710570,
+      "name": "Deck Crafter's Collection - Meowth ex",
+      "clean_name": "Deck Crafter's Collection - Meowth ex",
+      "number": null,
+      "rarity": "Double Rare",
+      "ext_data": {
+        "number": null,
+        "description": "Dozens of Essential Cards for Building Powerful Decks!\r\n<br>\r\nGet ready to battle among the best with this collection of 40 tournament-staple cards, including Meowth ex! Whether you want to build a 60-card deck\r\nfrom scratch or simply power up the decks you already have, you can combine these essential Supporter, Item, and Pokémon Tool cards with cards from\r\nyour own collection to create a strategy that’s ready for everything from friendly matches to major tournaments on the Championship Series stage!\r\n<br><br>\r\n\r\nThe Pokémon TCG: Deck Crafter’s Collection includes:<br>\r\n• 1 foil card featuring Meowth ex<br>\r\n• 39 tournament-ready Trainer cards<br>\r\n• A Deck Crafter’s Guide<br>\r\n• 9 labeled dividers for organizing cards<br>\r\n• 1 Pokémon TCG booster pack<br>\r\n• A code card for Pokémon TCG Live",
+        "flavorText": null,
+        "rarityDbName": null,
+        "releaseDate": null,
+        "detailNote": "This product is a Presale item with an estimated shipping date of 10/23/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated.",
+        "energyType": null
+      },
+      "image_url": "https://cdn.tcgtracking.com/product/710570_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": null,
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": null
+    },
+    {
       "id": 564146,
       "name": "Deluxe Battle Deck [Koraidon ex]",
       "clean_name": "Deluxe Battle Deck [Koraidon ex]",
@@ -9865,8 +10018,74 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 845850,
+      "cardtrader_id": 349039,
+      "cardtrader": [
+        {
+          "id": 349039,
+          "name": "Fall 2025 Collector Chest",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Mega Evolution Products",
+          "expansion_code": "meproducts",
+          "collector_number": null,
+          "rarity": null,
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "sealed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            845850
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/654593_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 654593,
+          "game_id": 5,
+          "category_id": 59,
+          "category_name": "Pokémon Tins",
+          "product_type": "sealed",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 249705,
@@ -12666,8 +12885,74 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 867793,
+      "cardtrader_id": 354631,
+      "cardtrader": [
+        {
+          "id": 354631,
+          "name": "Knock Out Collection: Kyogre",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Mega Evolution Products",
+          "expansion_code": "meproducts",
+          "collector_number": null,
+          "rarity": null,
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "sealed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            867793
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/670782_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 670782,
+          "game_id": 5,
+          "category_id": 69,
+          "category_name": "Pokémon Preconstructed Deck",
+          "product_type": "precon_deck",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 186994,
@@ -12788,8 +13073,74 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 867794,
+      "cardtrader_id": 354630,
+      "cardtrader": [
+        {
+          "id": 354630,
+          "name": "Knock Out Collection: Suicune",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Mega Evolution Products",
+          "expansion_code": "meproducts",
+          "collector_number": null,
+          "rarity": null,
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "sealed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            867794
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/670783_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 670783,
+          "game_id": 5,
+          "category_id": 69,
+          "category_name": "Pokémon Preconstructed Deck",
+          "product_type": "precon_deck",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 264416,
@@ -13171,8 +13522,74 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 877299,
+      "cardtrader_id": 399229,
+      "cardtrader": [
+        {
+          "id": 399229,
+          "name": "Mega Lucario ex League Battle Deck",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Mega Evolution Products",
+          "expansion_code": "meproducts",
+          "collector_number": null,
+          "rarity": null,
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "sealed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            877299
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/684106_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 684106,
+          "game_id": 5,
+          "category_id": 60,
+          "category_name": "Pokémon Box Set",
+          "product_type": "box_set",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 516580,
@@ -14211,8 +14628,57 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 878508,
+      "cardtrader_id": 380328,
+      "cardtrader": [
+        {
+          "id": 380328,
+          "name": "Lumiose City: Emboar Mini Tin",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Mega Evolution Products",
+          "expansion_code": "meproducts",
+          "collector_number": null,
+          "rarity": null,
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            878508
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/685577_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 685577,
+          "game_id": 5,
+          "category_id": 59,
+          "category_name": "Pokémon Tins",
+          "product_type": "sealed",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 685578,
@@ -14230,8 +14696,57 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 878509,
+      "cardtrader_id": 380329,
+      "cardtrader": [
+        {
+          "id": 380329,
+          "name": "Lumiose City: Feraligatr Mini Tin",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Mega Evolution Products",
+          "expansion_code": "meproducts",
+          "collector_number": null,
+          "rarity": null,
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            878509
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/685578_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 685578,
+          "game_id": 5,
+          "category_id": 59,
+          "category_name": "Pokémon Tins",
+          "product_type": "sealed",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 685579,
@@ -14249,8 +14764,57 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 878510,
+      "cardtrader_id": 380330,
+      "cardtrader": [
+        {
+          "id": 380330,
+          "name": "Lumiose City: Gallade Mini Tin",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Mega Evolution Products",
+          "expansion_code": "meproducts",
+          "collector_number": null,
+          "rarity": null,
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            878510
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/685579_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 685579,
+          "game_id": 5,
+          "category_id": 59,
+          "category_name": "Pokémon Tins",
+          "product_type": "sealed",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 685576,
@@ -14268,8 +14832,57 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 878507,
+      "cardtrader_id": 380327,
+      "cardtrader": [
+        {
+          "id": 380327,
+          "name": "Lumiose City: Meganium Mini Tin",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Mega Evolution Products",
+          "expansion_code": "meproducts",
+          "collector_number": null,
+          "rarity": null,
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            878507
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/685576_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 685576,
+          "game_id": 5,
+          "category_id": 59,
+          "category_name": "Pokémon Tins",
+          "product_type": "sealed",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 685575,
@@ -14287,8 +14900,57 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 878506,
+      "cardtrader_id": 380326,
+      "cardtrader": [
+        {
+          "id": 380326,
+          "name": "Lumiose City: Salamence Mini Tin",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Mega Evolution Products",
+          "expansion_code": "meproducts",
+          "collector_number": null,
+          "rarity": null,
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            878506
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/685575_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 685575,
+          "game_id": 5,
+          "category_id": 59,
+          "category_name": "Pokémon Tins",
+          "product_type": "sealed",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 685580,
@@ -14325,8 +14987,65 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 878511,
+      "cardtrader_id": 380325,
+      "cardtrader": [
+        {
+          "id": 380325,
+          "name": "Lumiose City: Mini Tin Display",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Mega Evolution Products",
+          "expansion_code": "meproducts",
+          "collector_number": null,
+          "rarity": null,
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            878511
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/685574_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 685574,
+          "game_id": 5,
+          "category_id": 59,
+          "category_name": "Pokémon Tins",
+          "product_type": "sealed",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 685581,
@@ -14585,8 +15304,74 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 841990,
+      "cardtrader_id": 345798,
+      "cardtrader": [
+        {
+          "id": 345798,
+          "name": "Mega Diancie ex Mega Battle Deck",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Mega Evolution Products",
+          "expansion_code": "meproducts",
+          "collector_number": null,
+          "rarity": null,
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "sealed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            841990
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/659193_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 659193,
+          "game_id": 5,
+          "category_id": 69,
+          "category_name": "Pokémon Preconstructed Deck",
+          "product_type": "precon_deck",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 659192,
@@ -14604,8 +15389,74 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 841989,
+      "cardtrader_id": 345797,
+      "cardtrader": [
+        {
+          "id": 345797,
+          "name": "Mega Gengar ex Mega Battle Deck",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Mega Evolution Products",
+          "expansion_code": "meproducts",
+          "collector_number": null,
+          "rarity": null,
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "sealed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            841989
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/659192_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 659192,
+          "game_id": 5,
+          "category_id": 69,
+          "category_name": "Pokémon Preconstructed Deck",
+          "product_type": "precon_deck",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 661998,
@@ -14716,8 +15567,57 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 846718,
+      "cardtrader_id": 352969,
+      "cardtrader": [
+        {
+          "id": 352969,
+          "name": "Mega Charizard X ex Ultra-Premium Collection",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Mega Evolution Products",
+          "expansion_code": "meproducts",
+          "collector_number": null,
+          "rarity": null,
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            846718
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/654213_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 654213,
+          "game_id": 5,
+          "category_id": 60,
+          "category_name": "Pokémon Box Set",
+          "product_type": "box_set",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 664895,
@@ -15011,8 +15911,57 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null,
+      "cardmarket_id": 884751,
+      "cardtrader_id": 388485,
+      "cardtrader": [
+        {
+          "id": 388485,
+          "name": "Mega Greninja ex Premium Collection",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Mega Evolution Products",
+          "expansion_code": "meproducts",
+          "collector_number": null,
+          "rarity": null,
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            884751
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/690660_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 690660,
+          "game_id": 5,
+          "category_id": 60,
+          "category_name": "Pokémon Box Set",
+          "product_type": "box_set",
+          "group_id": 2374
+        }
+      ],
       "is_presale": true,
       "presale_release_date": "2026-07-03",
       "presale_note": "This product is a Presale item with an estimated shipping date of 7/03/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
@@ -15123,8 +16072,65 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 838385,
+      "cardtrader_id": 344923,
+      "cardtrader": [
+        {
+          "id": 344923,
+          "name": "Mega Latias ex Box",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Mega Evolution Products",
+          "expansion_code": "meproducts",
+          "collector_number": null,
+          "rarity": null,
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            838385
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/654188_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 654188,
+          "game_id": 5,
+          "category_id": 60,
+          "category_name": "Pokémon Box Set",
+          "product_type": "box_set",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 656487,
@@ -15229,8 +16235,65 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 878505,
+      "cardtrader_id": 380381,
+      "cardtrader": [
+        {
+          "id": 380381,
+          "name": "Mega Moonlit Tins: Mega Clefable ex Tin",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Mega Evolution Products",
+          "expansion_code": "meproducts",
+          "collector_number": null,
+          "rarity": null,
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            878505
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/686438_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 686438,
+          "game_id": 5,
+          "category_id": 59,
+          "category_name": "Pokémon Tins",
+          "product_type": "sealed",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 686437,
@@ -15248,8 +16311,65 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 878504,
+      "cardtrader_id": 380380,
+      "cardtrader": [
+        {
+          "id": 380380,
+          "name": "Mega Moonlit Tins: Mega Gengar ex Tin",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Mega Evolution Products",
+          "expansion_code": "meproducts",
+          "collector_number": null,
+          "rarity": null,
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            878504
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/686437_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 686437,
+          "game_id": 5,
+          "category_id": 59,
+          "category_name": "Pokémon Tins",
+          "product_type": "sealed",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 686439,
@@ -15354,8 +16474,57 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 873312,
+      "cardtrader_id": 374638,
+      "cardtrader": [
+        {
+          "id": 374638,
+          "name": "Mega Zygarde ex Premium Collection",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Mega Evolution Products",
+          "expansion_code": "meproducts",
+          "collector_number": null,
+          "rarity": null,
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            873312
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/682939_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 682939,
+          "game_id": 5,
+          "category_id": 60,
+          "category_name": "Pokémon Box Set",
+          "product_type": "box_set",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 682940,
@@ -18496,8 +19665,65 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 859327,
+      "cardtrader_id": 358700,
+      "cardtrader": [
+        {
+          "id": 358700,
+          "name": "Pokémon Day 2026 Collection",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Mega Evolution Products",
+          "expansion_code": "meproducts",
+          "collector_number": null,
+          "rarity": null,
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            859327
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/668590_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 668590,
+          "game_id": 5,
+          "category_id": 60,
+          "category_name": "Pokémon Box Set",
+          "product_type": "box_set",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 668591,
@@ -31890,8 +33116,68 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 858504,
+      "cardtrader_id": 357390,
+      "cardtrader": [
+        {
+          "id": 357390,
+          "name": "Reshiram",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "MEP Black Star Promos",
+          "expansion_code": "mep",
+          "collector_number": "017",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            858504
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/664098_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 664098,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 24451
+        }
+      ]
     },
     {
       "id": 155083,
@@ -48444,8 +49730,96 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 870424,
+      "cardtrader_id": 359086,
+      "cardtrader": [
+        {
+          "id": 359086,
+          "name": "Pikachu",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Mega Evolution Products",
+          "expansion_code": "meproducts",
+          "collector_number": "051",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            870424
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/673358_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 673358,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 658500,
@@ -49814,7 +51188,7 @@
           "match_confidence": 100,
           "expansion": "Miscellaneous Promos",
           "expansion_code": "pr",
-          "collector_number": "055",
+          "collector_number": "55",
           "rarity": "Holo Rare",
           "finishes": [
             "normal"
@@ -56980,8 +58354,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 855659,
+      "cardtrader_id": 352984,
+      "cardtrader": [
+        {
+          "id": 352984,
+          "name": "Alcremie ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Prerelease Promos",
+          "expansion_code": "pre-poke",
+          "collector_number": "075",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            855659
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/660079_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 660079,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 543584,
@@ -60551,7 +62005,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 901173,
       "cardtrader_id": 115345,
       "cardtrader": [
         {
@@ -60620,7 +62074,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            901173
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/286613_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 286613,
@@ -69367,8 +70823,98 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 851067,
+      "cardtrader_id": 350890,
+      "cardtrader": [
+        {
+          "id": 350890,
+          "name": "Bulbasaur",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Mega Evolution Products",
+          "expansion_code": "meproducts",
+          "collector_number": "133",
+          "rarity": "Promo",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            851067
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/654703_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 654703,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 559565,
@@ -69631,8 +71177,115 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 901074,
+      "cardtrader_id": 404611,
+      "cardtrader": [
+        {
+          "id": 404611,
+          "name": "Glass Trumpet",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Southeast Asia Gym Promos",
+          "expansion_code": "sa-gym",
+          "collector_number": "061",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "it",
+            "jp",
+            "es",
+            "fr",
+            "de",
+            "pt",
+            "kr",
+            "zh-TW",
+            "zh-CN",
+            "nl",
+            "id",
+            "pl",
+            "sv",
+            "ru"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "it",
+                "jp",
+                "es",
+                "fr",
+                "de",
+                "pt",
+                "kr",
+                "zh-TW",
+                "zh-CN",
+                "nl",
+                "id",
+                "pl",
+                "sv",
+                "ru"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            901074
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/688885_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 688885,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 628292,

@@ -4,8 +4,8 @@
   "set_abbr": "WCD",
   "set_released": "2018-07-01",
   "product_count": 2000,
-  "data_modified": "2026-08-03T08:22:16-04:00",
-  "file_generated": "2026-08-03T08:24:04-04:00",
+  "data_modified": "2026-08-19T08:04:58-04:00",
+  "file_generated": "2026-08-19T08:31:14-04:00",
   "pricing_url": "/v1/3/sets/2282/pricing",
   "cards_url": "/v1/3/sets/2282/cards",
   "sealed_url": "/v1/3/sets/2282/sealed",
@@ -2231,8 +2231,74 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 867801,
+      "cardtrader_id": 368298,
+      "cardtrader": [
+        {
+          "id": 368298,
+          "name": "WCD 2025 Display",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "World Championship Decks",
+          "expansion_code": "wcdecks",
+          "collector_number": null,
+          "rarity": null,
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "sealed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            867801
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/696640_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 696640,
+          "game_id": 5,
+          "category_id": 68,
+          "category_name": "Pokémon Bundle ",
+          "product_type": "bundle",
+          "group_id": 2282
+        }
+      ]
     },
     {
       "id": 696639,
@@ -2250,8 +2316,66 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 867800,
+      "cardtrader_id": 368297,
+      "cardtrader": [
+        {
+          "id": 368297,
+          "name": "WCD 2025: Jose Cruz Galindo-Resendiz \"Pult Bomb\"",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "World Championship Decks",
+          "expansion_code": "wcdecks",
+          "collector_number": null,
+          "rarity": null,
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "sealed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            867800
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/696639_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 696639,
+          "game_id": 5,
+          "category_id": 69,
+          "category_name": "Pokémon Preconstructed Deck",
+          "product_type": "precon_deck",
+          "group_id": 2282
+        }
+      ]
     },
     {
       "id": 696637,
@@ -2269,8 +2393,66 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 867798,
+      "cardtrader_id": 368295,
+      "cardtrader": [
+        {
+          "id": 368295,
+          "name": "WCD 2025: Liao Fu Guan \"Joltdengo\"",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "World Championship Decks",
+          "expansion_code": "wcdecks",
+          "collector_number": null,
+          "rarity": null,
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "sealed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            867798
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/696637_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 696637,
+          "game_id": 5,
+          "category_id": 69,
+          "category_name": "Pokémon Preconstructed Deck",
+          "product_type": "precon_deck",
+          "group_id": 2282
+        }
+      ]
     },
     {
       "id": 696636,
@@ -2288,8 +2470,66 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 867797,
+      "cardtrader_id": 368294,
+      "cardtrader": [
+        {
+          "id": 368294,
+          "name": "WCD 2025: Riley McKay \"KSI's Gardevoir",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "World Championship Decks",
+          "expansion_code": "wcdecks",
+          "collector_number": null,
+          "rarity": null,
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "sealed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            867797
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/696636_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 696636,
+          "game_id": 5,
+          "category_id": 69,
+          "category_name": "Pokémon Preconstructed Deck",
+          "product_type": "precon_deck",
+          "group_id": 2282
+        }
+      ]
     },
     {
       "id": 696638,
@@ -2307,8 +2547,66 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 867799,
+      "cardtrader_id": 368296,
+      "cardtrader": [
+        {
+          "id": 368296,
+          "name": "WCD 2025: Yuya Okita \"JP Raging Bolt\"",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "World Championship Decks",
+          "expansion_code": "wcdecks",
+          "collector_number": null,
+          "rarity": null,
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "sealed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            867799
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/696638_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 696638,
+          "game_id": 5,
+          "category_id": 69,
+          "category_name": "Pokémon Preconstructed Deck",
+          "product_type": "precon_deck",
+          "group_id": 2282
+        }
+      ]
     },
     {
       "id": 696740,
@@ -2325,8 +2623,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 883883,
+      "cardtrader_id": 406051,
+      "cardtrader": [
+        {
+          "id": 406051,
+          "name": "Basic Darkness Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "World Championship Decks 2025",
+          "expansion_code": "wcd2025",
+          "collector_number": null,
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            883883
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/696740_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 696740,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2282
+        }
+      ]
     },
     {
       "id": 696742,
@@ -2343,8 +2721,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 884380,
+      "cardtrader_id": 406053,
+      "cardtrader": [
+        {
+          "id": 406053,
+          "name": "Basic Fighting Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "World Championship Decks 2025",
+          "expansion_code": "wcd2025",
+          "collector_number": null,
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            884380
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/696742_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 696742,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2282
+        }
+      ]
     },
     {
       "id": 696745,
@@ -2361,8 +2819,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 884413,
+      "cardtrader_id": 406056,
+      "cardtrader": [
+        {
+          "id": 406056,
+          "name": "Basic Fire Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "World Championship Decks 2025",
+          "expansion_code": "wcd2025",
+          "collector_number": null,
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            884413
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/696745_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 696745,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2282
+        }
+      ]
     },
     {
       "id": 696746,
@@ -2379,8 +2917,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 884313,
+      "cardtrader_id": 406060,
+      "cardtrader": [
+        {
+          "id": 406060,
+          "name": "Basic Grass Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "World Championship Decks 2025",
+          "expansion_code": "wcd2025",
+          "collector_number": null,
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            884313
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/696746_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 696746,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2282
+        }
+      ]
     },
     {
       "id": 696748,
@@ -2397,8 +3015,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 884379,
+      "cardtrader_id": 406054,
+      "cardtrader": [
+        {
+          "id": 406054,
+          "name": "Basic Grass Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "World Championship Decks 2025",
+          "expansion_code": "wcd2025",
+          "collector_number": null,
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            884379
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/696748_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 696748,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2282
+        }
+      ]
     },
     {
       "id": 696750,
@@ -2415,8 +3113,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 884314,
+      "cardtrader_id": 406061,
+      "cardtrader": [
+        {
+          "id": 406061,
+          "name": "Basic Lightning Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "World Championship Decks 2025",
+          "expansion_code": "wcd2025",
+          "collector_number": null,
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            884314
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/696750_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 696750,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2282
+        }
+      ]
     },
     {
       "id": 696751,
@@ -2433,8 +3211,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 884381,
+      "cardtrader_id": 406055,
+      "cardtrader": [
+        {
+          "id": 406055,
+          "name": "Basic Lightning Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "World Championship Decks 2025",
+          "expansion_code": "wcd2025",
+          "collector_number": null,
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            884381
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/696751_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 696751,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2282
+        }
+      ]
     },
     {
       "id": 696753,
@@ -2451,8 +3309,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 884315,
+      "cardtrader_id": 406062,
+      "cardtrader": [
+        {
+          "id": 406062,
+          "name": "Basic Metal Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "World Championship Decks 2025",
+          "expansion_code": "wcd2025",
+          "collector_number": null,
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            884315
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/696753_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 696753,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2282
+        }
+      ]
     },
     {
       "id": 696754,
@@ -2469,8 +3407,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 884412,
+      "cardtrader_id": 406057,
+      "cardtrader": [
+        {
+          "id": 406057,
+          "name": "Basic Psychic Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "World Championship Decks 2025",
+          "expansion_code": "wcd2025",
+          "collector_number": null,
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            884412
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/696754_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 696754,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2282
+        }
+      ]
     },
     {
       "id": 696756,
@@ -2487,8 +3505,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 883882,
+      "cardtrader_id": 406052,
+      "cardtrader": [
+        {
+          "id": 406052,
+          "name": "Basic Psychic Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "World Championship Decks 2025",
+          "expansion_code": "wcd2025",
+          "collector_number": null,
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            883882
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/696756_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 696756,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2282
+        }
+      ]
     },
     {
       "id": 542057,
@@ -3375,7 +4473,85 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardtrader_id": 406065,
+      "cardtrader": [
+        {
+          "id": 406065,
+          "name": "Dragapult ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "World Championship Decks 2025",
+          "expansion_code": "wcd2025",
+          "collector_number": null,
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/696842_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 696842,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2282
+        }
+      ]
     },
     {
       "id": 485075,
@@ -6633,7 +7809,85 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardtrader_id": 406064,
+      "cardtrader": [
+        {
+          "id": 406064,
+          "name": "Gardevoir ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "World Championship Decks 2025",
+          "expansion_code": "wcd2025",
+          "collector_number": null,
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/696839_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 696839,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2282
+        }
+      ]
     },
     {
       "id": 696840,
@@ -6651,7 +7905,85 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardtrader_id": 406066,
+      "cardtrader": [
+        {
+          "id": 406066,
+          "name": "Gholdengo ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "World Championship Decks 2025",
+          "expansion_code": "wcd2025",
+          "collector_number": null,
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/696840_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 696840,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2282
+        }
+      ]
     },
     {
       "id": 477526,
@@ -9517,8 +10849,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 884414,
+      "cardtrader_id": 406058,
+      "cardtrader": [
+        {
+          "id": 406058,
+          "name": "Luminous Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "World Championship Decks 2025",
+          "expansion_code": "wcd2025",
+          "collector_number": null,
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            884414
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/696764_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 696764,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2282
+        }
+      ]
     },
     {
       "id": 485059,
@@ -10226,8 +11638,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 884415,
+      "cardtrader_id": 406059,
+      "cardtrader": [
+        {
+          "id": 406059,
+          "name": "Neo Upper Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "World Championship Decks 2025",
+          "expansion_code": "wcd2025",
+          "collector_number": null,
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            884415
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/696767_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 696767,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2282
+        }
+      ]
     },
     {
       "id": 485041,
@@ -12750,7 +14242,85 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardtrader_id": 406063,
+      "cardtrader": [
+        {
+          "id": 406063,
+          "name": "Raging Bolt ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "World Championship Decks 2025",
+          "expansion_code": "wcd2025",
+          "collector_number": null,
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/696841_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 696841,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 2282
+        }
+      ]
     },
     {
       "id": 485061,
@@ -15931,7 +17501,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884388,
       "cardtrader_id": 385588,
       "cardtrader": [
         {
@@ -16000,7 +17570,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884388
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690488_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690488,
@@ -16552,7 +18124,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884387,
       "cardtrader_id": 385589,
       "cardtrader": [
         {
@@ -16621,7 +18193,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884387
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690487_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690487,
@@ -16655,7 +18229,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884386,
       "cardtrader_id": 385590,
       "cardtrader": [
         {
@@ -16724,7 +18298,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884386
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690486_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690486,
@@ -16758,7 +18334,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884385,
       "cardtrader_id": 385591,
       "cardtrader": [
         {
@@ -16827,7 +18403,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884385
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690484_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690484,
@@ -16965,7 +18543,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884359,
       "cardtrader_id": 385517,
       "cardtrader": [
         {
@@ -17034,7 +18612,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884359
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690282_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690282,
@@ -17691,7 +19271,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884389,
       "cardtrader_id": 385592,
       "cardtrader": [
         {
@@ -17760,7 +19340,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884389
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690489_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690489,
@@ -17793,7 +19375,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884298,
       "cardtrader_id": 385541,
       "cardtrader": [
         {
@@ -17862,7 +19444,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884298
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690263_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690263,
@@ -17999,7 +19583,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884365,
       "cardtrader_id": 385518,
       "cardtrader": [
         {
@@ -18068,7 +19652,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884365
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690288_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690288,
@@ -18196,7 +19782,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884390,
       "cardtrader_id": 385593,
       "cardtrader": [
         {
@@ -18265,7 +19851,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884390
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690491_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690491,
@@ -20706,7 +22294,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884295,
       "cardtrader_id": 385542,
       "cardtrader": [
         {
@@ -20775,7 +22363,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884295
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/689620_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 689620,
@@ -21427,7 +23017,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884297,
       "cardtrader_id": 385543,
       "cardtrader": [
         {
@@ -21496,7 +23086,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884297
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690251_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690251,
@@ -22144,7 +23736,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884407,
       "cardtrader_id": 385594,
       "cardtrader": [
         {
@@ -22213,7 +23805,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884407
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690508_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690508,
@@ -22649,7 +24243,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884294,
       "cardtrader_id": 385544,
       "cardtrader": [
         {
@@ -22718,7 +24312,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884294
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/689618_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 689618,
@@ -23181,7 +24777,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884293,
       "cardtrader_id": 385545,
       "cardtrader": [
         {
@@ -23250,7 +24846,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884293
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/689147_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 689147,
@@ -23494,7 +25092,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884299,
       "cardtrader_id": 385546,
       "cardtrader": [
         {
@@ -23563,7 +25161,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884299
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690264_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690264,
@@ -23597,7 +25197,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884366,
       "cardtrader_id": 385520,
       "cardtrader": [
         {
@@ -23666,7 +25266,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884366
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690289_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690289,
@@ -24424,7 +26026,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884410,
       "cardtrader_id": 385595,
       "cardtrader": [
         {
@@ -24493,7 +26095,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884410
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690510_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690510,
@@ -24521,7 +26125,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884311,
       "cardtrader_id": 385547,
       "cardtrader": [
         {
@@ -24590,7 +26194,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884311
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690279_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690279,
@@ -24933,7 +26539,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884296,
       "cardtrader_id": 385548,
       "cardtrader": [
         {
@@ -25002,7 +26608,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884296
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/689621_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 689621,
@@ -25240,7 +26848,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884402,
       "cardtrader_id": 385596,
       "cardtrader": [
         {
@@ -25309,7 +26917,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884402
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690501_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690501,
@@ -25337,7 +26947,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884309,
       "cardtrader_id": 385549,
       "cardtrader": [
         {
@@ -25406,7 +27016,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884309
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690277_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690277,
@@ -26476,7 +28088,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884396,
       "cardtrader_id": 385597,
       "cardtrader": [
         {
@@ -26545,7 +28157,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884396
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690493_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690493,
@@ -26781,7 +28395,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884292,
       "cardtrader_id": 385550,
       "cardtrader": [
         {
@@ -26850,7 +28464,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884292
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/689146_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 689146,
@@ -28936,7 +30552,7 @@
       "cardtrader": [
         {
           "id": 314904,
-          "name": "Jolteon Star",
+          "name": "Jolteon ☆ Gold Star",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -32120,7 +33736,7 @@
       "cardtrader": [
         {
           "id": 314914,
-          "name": "Ralts LV.13",
+          "name": "Ralts Lv.13",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -34813,7 +36429,7 @@
       "cardtrader": [
         {
           "id": 314168,
-          "name": "Flygon LV.X",
+          "name": "Flygon Lv.X",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -39605,7 +41221,7 @@
       "cardtrader": [
         {
           "id": 318794,
-          "name": "Luxray [GL] LV.X",
+          "name": "Luxray [GL] Lv.X",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -39709,7 +41325,7 @@
       "cardtrader": [
         {
           "id": 317625,
-          "name": "Luxray [GL] LV.X",
+          "name": "Luxray [GL] Lv.X",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -39813,7 +41429,7 @@
       "cardtrader": [
         {
           "id": 318843,
-          "name": "Luxray [GL] LV.X",
+          "name": "Luxray [GL] Lv.X",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -39917,7 +41533,7 @@
       "cardtrader": [
         {
           "id": 316039,
-          "name": "Luxray [GL] LV.X",
+          "name": "Luxray [GL] Lv.X",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -42359,7 +43975,7 @@
       "cardtrader": [
         {
           "id": 320236,
-          "name": "Genesect EX",
+          "name": "Genesect ex",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -43974,7 +45590,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884364,
       "cardtrader_id": 385521,
       "cardtrader": [
         {
@@ -44043,7 +45659,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884364
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690287_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690287,
@@ -46188,7 +47806,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884361,
       "cardtrader_id": 385522,
       "cardtrader": [
         {
@@ -46257,7 +47875,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884361
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690284_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690284,
@@ -47199,7 +48819,7 @@
       "cardtrader": [
         {
           "id": 314160,
-          "name": "Trapinch LV.9",
+          "name": "Trapinch Lv.9",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -47299,7 +48919,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884360,
       "cardtrader_id": 385523,
       "cardtrader": [
         {
@@ -47368,7 +48988,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884360
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690283_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690283,
@@ -49295,7 +50917,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884363,
       "cardtrader_id": 385524,
       "cardtrader": [
         {
@@ -49364,7 +50986,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884363
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690286_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690286,
@@ -49694,7 +51318,7 @@
       "cardtrader": [
         {
           "id": 315535,
-          "name": "Beast Energy ◇ Prism",
+          "name": "Beast Energy ◇ Prism Star",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -51780,7 +53404,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884362,
       "cardtrader_id": 385525,
       "cardtrader": [
         {
@@ -51849,7 +53473,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884362
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690285_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690285,
@@ -52091,7 +53717,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884391,
       "cardtrader_id": 385598,
       "cardtrader": [
         {
@@ -52160,7 +53786,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884391
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690492_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690492,
@@ -56486,7 +58114,7 @@
       "cardtrader": [
         {
           "id": 317602,
-          "name": "Dialga [G] LV.X",
+          "name": "Dialga [G] Lv.X",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -56591,7 +58219,7 @@
       "cardtrader": [
         {
           "id": 316055,
-          "name": "Dialga [G] LV.X",
+          "name": "Dialga [G] Lv.X",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -57986,7 +59614,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884358,
       "cardtrader_id": 385526,
       "cardtrader": [
         {
@@ -58055,7 +59683,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884358
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690281_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690281,
@@ -62955,7 +64585,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884384,
       "cardtrader_id": 385599,
       "cardtrader": [
         {
@@ -63024,7 +64654,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884384
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690483_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690483,
@@ -63256,7 +64888,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884383,
       "cardtrader_id": 385600,
       "cardtrader": [
         {
@@ -63325,7 +64957,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884383
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690481_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690481,
@@ -63461,7 +65095,7 @@
       "cardtrader": [
         {
           "id": 318785,
-          "name": "Beedrill LV.41",
+          "name": "Beedrill Lv.41",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -64662,7 +66296,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884382,
       "cardtrader_id": 385601,
       "cardtrader": [
         {
@@ -64731,7 +66365,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884382
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690480_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690480,
@@ -64769,7 +66405,7 @@
       "cardtrader": [
         {
           "id": 374959,
-          "name": "Gardevoir LV.X",
+          "name": "Gardevoir Lv.X",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks 2008",
@@ -64873,7 +66509,7 @@
       "cardtrader": [
         {
           "id": 314308,
-          "name": "Gardevoir LV.X",
+          "name": "Gardevoir Lv.X",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -64967,7 +66603,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884374,
       "cardtrader_id": 385527,
       "cardtrader": [
         {
@@ -65036,7 +66672,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884374
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690469_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690469,
@@ -65668,7 +67306,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884367,
       "cardtrader_id": 385528,
       "cardtrader": [
         {
@@ -65737,7 +67375,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884367
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690462_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690462,
@@ -66161,7 +67801,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884371,
       "cardtrader_id": 385529,
       "cardtrader": [
         {
@@ -66230,7 +67870,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884371
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690466_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690466,
@@ -73538,7 +75180,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884291,
       "cardtrader_id": 385551,
       "cardtrader": [
         {
@@ -73607,7 +75249,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884291
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/689136_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 689136,
@@ -73849,7 +75493,7 @@
       "cardtrader": [
         {
           "id": 318796,
-          "name": "Mesprit LV.30",
+          "name": "Mesprit Lv.30",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -73948,7 +75592,7 @@
       "cardtrader": [
         {
           "id": 316252,
-          "name": "Underground Expedition",
+          "name": "Underground expedition",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -74047,7 +75691,7 @@
       "cardtrader": [
         {
           "id": 326768,
-          "name": "Underground Expedition",
+          "name": "Underground expedition",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -74151,7 +75795,7 @@
       "cardtrader": [
         {
           "id": 314302,
-          "name": "Azelf LV.X",
+          "name": "Azelf Lv.X",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -75756,7 +77400,7 @@
       "cardtrader": [
         {
           "id": 314172,
-          "name": "Mewtwo LV.X",
+          "name": "Mewtwo Lv.X",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -75949,7 +77593,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884404,
       "cardtrader_id": 385602,
       "cardtrader": [
         {
@@ -76018,7 +77662,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884404
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690503_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690503,
@@ -76046,7 +77692,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884308,
       "cardtrader_id": 385552,
       "cardtrader": [
         {
@@ -76115,7 +77761,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884308
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690275_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690275,
@@ -76350,7 +77998,7 @@
       "cardtrader": [
         {
           "id": 316069,
-          "name": "Garchomp [C] LV.X",
+          "name": "Garchomp [C] Lv.X",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -77048,7 +78696,7 @@
       "cardtrader": [
         {
           "id": 317521,
-          "name": "Uxie LV.X",
+          "name": "Uxie Lv.X",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -77152,7 +78800,7 @@
       "cardtrader": [
         {
           "id": 316051,
-          "name": "Uxie LV.X",
+          "name": "Uxie Lv.X",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -77246,7 +78894,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884401,
       "cardtrader_id": 385603,
       "cardtrader": [
         {
@@ -77315,7 +78963,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884401
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690499_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690499,
@@ -77343,7 +78993,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884302,
       "cardtrader_id": 385553,
       "cardtrader": [
         {
@@ -77412,7 +79062,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884302
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690268_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690268,
@@ -80341,7 +81993,7 @@
       "cardtrader": [
         {
           "id": 314170,
-          "name": "Claydol LV.45",
+          "name": "Claydol Lv.45",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -80445,7 +82097,7 @@
       "cardtrader": [
         {
           "id": 318870,
-          "name": "Claydol LV.45",
+          "name": "Claydol Lv.45",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -80549,7 +82201,7 @@
       "cardtrader": [
         {
           "id": 318781,
-          "name": "Claydol LV.45",
+          "name": "Claydol Lv.45",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -80757,7 +82409,7 @@
       "cardtrader": [
         {
           "id": 325853,
-          "name": "Claydol LV.45",
+          "name": "Claydol Lv.45",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -80861,7 +82513,7 @@
       "cardtrader": [
         {
           "id": 318789,
-          "name": "Beedrill LV.47",
+          "name": "Beedrill Lv.47",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -81069,7 +82721,7 @@
       "cardtrader": [
         {
           "id": 320757,
-          "name": "Piplup LV.9",
+          "name": "Piplup Lv.9",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -81173,7 +82825,7 @@
       "cardtrader": [
         {
           "id": 314900,
-          "name": "Ralts LV.13",
+          "name": "Ralts Lv.13",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -81370,7 +83022,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884305,
       "cardtrader_id": 385554,
       "cardtrader": [
         {
@@ -81439,7 +83091,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884305
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690272_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690272,
@@ -83066,7 +84720,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884403,
       "cardtrader_id": 385604,
       "cardtrader": [
         {
@@ -83135,7 +84789,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884403
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690502_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690502,
@@ -83163,7 +84819,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884375,
       "cardtrader_id": 385530,
       "cardtrader": [
         {
@@ -83232,7 +84888,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884375
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690472_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690472,
@@ -83878,7 +85536,7 @@
       "cardtrader": [
         {
           "id": 318879,
-          "name": "Colress's Experiment",
+          "name": "Colress's experiment",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -84882,7 +86540,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884310,
       "cardtrader_id": 385555,
       "cardtrader": [
         {
@@ -84951,7 +86609,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884310
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690278_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690278,
@@ -84979,7 +86639,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884378,
       "cardtrader_id": 385531,
       "cardtrader": [
         {
@@ -85048,7 +86708,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884378
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690479_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690479,
@@ -86008,7 +87670,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884406,
       "cardtrader_id": 385605,
       "cardtrader": [
         {
@@ -86077,7 +87739,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884406
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690507_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690507,
@@ -87276,7 +88940,7 @@
             }
           ],
           "cardmarket_ids": [
-            883872
+            883877
           ],
           "image_url": "https://cdn.tcgtracking.com/product/689112_200w.jpg",
           "scryfall_id": null,
@@ -87770,9 +89434,7 @@
               ]
             }
           ],
-          "cardmarket_ids": [
-            883877
-          ],
+          "cardmarket_ids": [],
           "image_url": "https://cdn.tcgtracking.com/product/689029_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 689029,
@@ -88494,7 +90156,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884399,
       "cardtrader_id": 385606,
       "cardtrader": [
         {
@@ -88563,7 +90225,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884399
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690497_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690497,
@@ -88591,7 +90255,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884300,
       "cardtrader_id": 385557,
       "cardtrader": [
         {
@@ -88660,7 +90324,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884300
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690265_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690265,
@@ -89300,7 +90966,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884368,
       "cardtrader_id": 385533,
       "cardtrader": [
         {
@@ -89369,7 +91035,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884368
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690463_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690463,
@@ -90013,7 +91681,7 @@
       "cardtrader": [
         {
           "id": 320775,
-          "name": "Empoleon LV.49",
+          "name": "Empoleon Lv.49",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -90626,7 +92294,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884369,
       "cardtrader_id": 385534,
       "cardtrader": [
         {
@@ -90695,7 +92363,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884369
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690464_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690464,
@@ -92029,7 +93699,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884400,
       "cardtrader_id": 385607,
       "cardtrader": [
         {
@@ -92098,7 +93768,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884400
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690498_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690498,
@@ -92126,7 +93798,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884301,
       "cardtrader_id": 385558,
       "cardtrader": [
         {
@@ -92195,7 +93867,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884301
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690266_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690266,
@@ -92223,7 +93897,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884370,
       "cardtrader_id": 385535,
       "cardtrader": [
         {
@@ -92292,7 +93966,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884370
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690465_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690465,
@@ -92518,7 +94194,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884312,
       "cardtrader_id": 385559,
       "cardtrader": [
         {
@@ -92587,7 +94263,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884312
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690280_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690280,
@@ -92813,7 +94491,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884377,
       "cardtrader_id": 385536,
       "cardtrader": [
         {
@@ -92882,7 +94560,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884377
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690478_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690478,
@@ -93009,7 +94689,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884304,
       "cardtrader_id": 385560,
       "cardtrader": [
         {
@@ -93078,7 +94758,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884304
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690271_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690271,
@@ -93224,7 +94906,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884303,
       "cardtrader_id": 385561,
       "cardtrader": [
         {
@@ -93293,7 +94975,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884303
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690270_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690270,
@@ -93321,7 +95005,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884373,
       "cardtrader_id": 385537,
       "cardtrader": [
         {
@@ -93390,7 +95074,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884373
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690468_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690468,
@@ -94032,7 +95718,7 @@
       "cardtrader": [
         {
           "id": 319935,
-          "name": "Gengar LV.43",
+          "name": "Gengar Lv.43",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -94830,7 +96516,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884306,
       "cardtrader_id": 385562,
       "cardtrader": [
         {
@@ -94899,7 +96585,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884306
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690273_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690273,
@@ -95026,7 +96714,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884376,
       "cardtrader_id": 385538,
       "cardtrader": [
         {
@@ -95095,7 +96783,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884376
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690474_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690474,
@@ -96509,7 +98199,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884397,
       "cardtrader_id": 385608,
       "cardtrader": [
         {
@@ -96578,7 +98268,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884397
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690495_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690495,
@@ -96705,7 +98397,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884372,
       "cardtrader_id": 385539,
       "cardtrader": [
         {
@@ -96774,7 +98466,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884372
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690467_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690467,
@@ -98002,7 +99696,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884307,
       "cardtrader_id": 385563,
       "cardtrader": [
         {
@@ -98071,7 +99765,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884307
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690274_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690274,
@@ -98396,7 +100092,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884398,
       "cardtrader_id": 385609,
       "cardtrader": [
         {
@@ -98465,7 +100161,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884398
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690496_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690496,
@@ -98901,7 +100599,7 @@
       "cardtrader": [
         {
           "id": 318798,
-          "name": "Gyarados LV.52",
+          "name": "Gyarados Lv.52",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -99215,7 +100913,7 @@
       "cardtrader": [
         {
           "id": 314166,
-          "name": "Azelf LV.55",
+          "name": "Azelf Lv.55",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -99319,7 +101017,7 @@
       "cardtrader": [
         {
           "id": 318784,
-          "name": "Azelf LV.55",
+          "name": "Azelf Lv.55",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -99423,7 +101121,7 @@
       "cardtrader": [
         {
           "id": 317634,
-          "name": "Azelf LV.55",
+          "name": "Azelf Lv.55",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -99527,7 +101225,7 @@
       "cardtrader": [
         {
           "id": 314322,
-          "name": "Azelf LV.55",
+          "name": "Azelf Lv.55",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -99631,7 +101329,7 @@
       "cardtrader": [
         {
           "id": 318812,
-          "name": "Azelf LV.55",
+          "name": "Azelf Lv.55",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -99735,7 +101433,7 @@
       "cardtrader": [
         {
           "id": 316059,
-          "name": "Azelf LV.55",
+          "name": "Azelf Lv.55",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -100051,7 +101749,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884409,
       "cardtrader_id": 385610,
       "cardtrader": [
         {
@@ -100120,7 +101818,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884409
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690509_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690509,
@@ -101435,7 +103135,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 884405,
       "cardtrader_id": 385611,
       "cardtrader": [
         {
@@ -101504,7 +103204,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            884405
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/690505_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 690505,
@@ -101939,7 +103641,7 @@
       "cardtrader": [
         {
           "id": 320780,
-          "name": "Dusknoir LV.42",
+          "name": "Dusknoir Lv.42",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -102044,7 +103746,7 @@
       "cardtrader": [
         {
           "id": 252791,
-          "name": "Dusknoir LV.42",
+          "name": "Dusknoir Lv.42",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -102149,7 +103851,7 @@
       "cardtrader": [
         {
           "id": 314324,
-          "name": "Dusknoir LV.42",
+          "name": "Dusknoir Lv.42",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -102253,7 +103955,7 @@
       "cardtrader": [
         {
           "id": 314917,
-          "name": "Gallade LV.55",
+          "name": "Gallade Lv.55",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -102357,7 +104059,7 @@
       "cardtrader": [
         {
           "id": 314323,
-          "name": "Gallade LV.55",
+          "name": "Gallade Lv.55",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -102462,7 +104164,7 @@
       "cardtrader": [
         {
           "id": 314313,
-          "name": "Machamp LV.62",
+          "name": "Machamp Lv.62",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -102880,7 +104582,7 @@
       "cardtrader": [
         {
           "id": 314149,
-          "name": "Seismitoad EX",
+          "name": "Seismitoad ex",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -107771,7 +109473,7 @@
       "cardtrader": [
         {
           "id": 314175,
-          "name": "Palkia LV.67",
+          "name": "Palkia Lv.67",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -108083,7 +109785,7 @@
       "cardtrader": [
         {
           "id": 326734,
-          "name": "Electrode LV.42",
+          "name": "Electrode Lv.42",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -108186,7 +109888,7 @@
       "cardtrader": [
         {
           "id": 317621,
-          "name": "Ditto LV.33",
+          "name": "Ditto Lv.33",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -108706,7 +110408,7 @@
       "cardtrader": [
         {
           "id": 252794,
-          "name": "Scizor LV.42",
+          "name": "Scizor Lv.42",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -109020,7 +110722,7 @@
       "cardtrader": [
         {
           "id": 314179,
-          "name": "Nidoqueen LV.54",
+          "name": "Nidoqueen Lv.54",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -109126,7 +110828,7 @@
       "cardtrader": [
         {
           "id": 319924,
-          "name": "Nidoqueen LV.54",
+          "name": "Nidoqueen Lv.54",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -109230,7 +110932,7 @@
       "cardtrader": [
         {
           "id": 326721,
-          "name": "Toxicroak LV.32",
+          "name": "Toxicroak Lv.32",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -110998,7 +112700,7 @@
       "cardtrader": [
         {
           "id": 314327,
-          "name": "Dusclops LV.40",
+          "name": "Dusclops Lv.40",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -111515,7 +113217,7 @@
       "cardtrader": [
         {
           "id": 315528,
-          "name": "Hoopa EX",
+          "name": "Hoopa ex",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -111619,7 +113321,7 @@
       "cardtrader": [
         {
           "id": 316027,
-          "name": "Hoopa EX",
+          "name": "Hoopa ex",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -111933,7 +113635,7 @@
       "cardtrader": [
         {
           "id": 316092,
-          "name": "Raikou EX",
+          "name": "Raikou ex",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -112038,7 +113740,7 @@
       "cardtrader": [
         {
           "id": 325882,
-          "name": "Raikou EX",
+          "name": "Raikou ex",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -112246,7 +113948,7 @@
       "cardtrader": [
         {
           "id": 294581,
-          "name": "Thundurus EX",
+          "name": "Thundurus ex",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -112351,7 +114053,7 @@
       "cardtrader": [
         {
           "id": 325689,
-          "name": "Thundurus EX",
+          "name": "Thundurus ex",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -112975,7 +114677,7 @@
       "cardtrader": [
         {
           "id": 318808,
-          "name": "Azelf LV.50",
+          "name": "Azelf Lv.50",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -113289,7 +114991,7 @@
       "cardtrader": [
         {
           "id": 319934,
-          "name": "Haunter LV.35",
+          "name": "Haunter Lv.35",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -114123,7 +115825,7 @@
       "cardtrader": [
         {
           "id": 317636,
-          "name": "Toxicroak [G] LV.40",
+          "name": "Toxicroak [G] Lv.40",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -114537,7 +116239,7 @@
       "cardtrader": [
         {
           "id": 317616,
-          "name": "Bronzong [G] LV.58",
+          "name": "Bronzong [G] Lv.58",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -114642,7 +116344,7 @@
       "cardtrader": [
         {
           "id": 316065,
-          "name": "Bronzong [G] LV.58",
+          "name": "Bronzong [G] Lv.58",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -115267,7 +116969,7 @@
       "cardtrader": [
         {
           "id": 316359,
-          "name": "Budew LV.6",
+          "name": "Budew Lv.6",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -115371,7 +117073,7 @@
       "cardtrader": [
         {
           "id": 314152,
-          "name": "Uxie LV.35",
+          "name": "Uxie Lv.35",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -115475,7 +117177,7 @@
       "cardtrader": [
         {
           "id": 319919,
-          "name": "Uxie LV.55",
+          "name": "Uxie Lv.55",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -115579,7 +117281,7 @@
       "cardtrader": [
         {
           "id": 317601,
-          "name": "Uxie LV.55",
+          "name": "Uxie Lv.55",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -115683,7 +117385,7 @@
       "cardtrader": [
         {
           "id": 314328,
-          "name": "Uxie LV.55",
+          "name": "Uxie Lv.55",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -115787,7 +117489,7 @@
       "cardtrader": [
         {
           "id": 318803,
-          "name": "Uxie LV.55",
+          "name": "Uxie Lv.55",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -115891,7 +117593,7 @@
       "cardtrader": [
         {
           "id": 325847,
-          "name": "Uxie LV.55",
+          "name": "Uxie Lv.55",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -115995,7 +117697,7 @@
       "cardtrader": [
         {
           "id": 316046,
-          "name": "Uxie LV.55",
+          "name": "Uxie Lv.55",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -116203,7 +117905,7 @@
       "cardtrader": [
         {
           "id": 320778,
-          "name": "Prinplup LV.24",
+          "name": "Prinplup Lv.24",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -117659,7 +119361,7 @@
       "cardtrader": [
         {
           "id": 318513,
-          "name": "Keldeo EX",
+          "name": "Keldeo ex",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -117869,7 +119571,7 @@
       "cardtrader": [
         {
           "id": 326728,
-          "name": "Scyther LV.12",
+          "name": "Scyther Lv.12",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -118910,7 +120612,7 @@
       "cardtrader": [
         {
           "id": 319893,
-          "name": "Crobat G LV.44",
+          "name": "Crobat G Lv.44",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -119014,7 +120716,7 @@
       "cardtrader": [
         {
           "id": 318775,
-          "name": "Crobat [G] LV.44",
+          "name": "Crobat [G] Lv.44",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -119118,7 +120820,7 @@
       "cardtrader": [
         {
           "id": 317600,
-          "name": "Crobat [G] LV.44",
+          "name": "Crobat [G] Lv.44",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -119222,7 +120924,7 @@
       "cardtrader": [
         {
           "id": 318804,
-          "name": "Crobat [G] LV.44",
+          "name": "Crobat [G] Lv.44",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -119326,7 +121028,7 @@
       "cardtrader": [
         {
           "id": 325849,
-          "name": "Crobat [G] LV.44",
+          "name": "Crobat [G] Lv.44",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -119639,7 +121341,7 @@
       "cardtrader": [
         {
           "id": 317622,
-          "name": "Sableye LV.31",
+          "name": "Sableye Lv.31",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -119744,7 +121446,7 @@
       "cardtrader": [
         {
           "id": 318799,
-          "name": "Sableye LV.31",
+          "name": "Sableye Lv.31",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -119951,7 +121653,7 @@
       "cardtrader": [
         {
           "id": 318805,
-          "name": "Unown [Q] LV.15",
+          "name": "Unown [Q] Lv.15",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -120054,7 +121756,7 @@
       "cardtrader": [
         {
           "id": 325843,
-          "name": "Unown [Q] LV.15",
+          "name": "Unown [Q] Lv.15",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -120158,7 +121860,7 @@
       "cardtrader": [
         {
           "id": 325891,
-          "name": "Keldeo EX",
+          "name": "Keldeo ex",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -120262,7 +121964,7 @@
       "cardtrader": [
         {
           "id": 315570,
-          "name": "Keldeo EX",
+          "name": "Keldeo ex",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -120366,7 +122068,7 @@
       "cardtrader": [
         {
           "id": 314892,
-          "name": "Keldeo EX",
+          "name": "Keldeo ex",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -120470,7 +122172,7 @@
       "cardtrader": [
         {
           "id": 318259,
-          "name": "Keldeo EX",
+          "name": "Keldeo ex",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -121095,7 +122797,7 @@
       "cardtrader": [
         {
           "id": 314169,
-          "name": "Flygon LV.65",
+          "name": "Flygon Lv.65",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -121199,7 +122901,7 @@
       "cardtrader": [
         {
           "id": 326595,
-          "name": "Blissey LV.44",
+          "name": "Blissey Lv.44",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -121717,7 +123419,7 @@
       "cardtrader": [
         {
           "id": 314321,
-          "name": "Kirlia LV.24",
+          "name": "Kirlia Lv.24",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -122239,7 +123941,7 @@
       "cardtrader": [
         {
           "id": 315612,
-          "name": "Espeon EX",
+          "name": "Espeon ex",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -122658,7 +124360,7 @@
       "cardtrader": [
         {
           "id": 325865,
-          "name": "Deoxys EX",
+          "name": "Deoxys ex",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -122761,7 +124463,7 @@
       "cardtrader": [
         {
           "id": 325686,
-          "name": "Deoxys EX",
+          "name": "Deoxys ex",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -123287,7 +124989,7 @@
       "cardtrader": [
         {
           "id": 315478,
-          "name": "Lucario EX",
+          "name": "Lucario ex",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -124231,7 +125933,7 @@
       "cardtrader": [
         {
           "id": 252792,
-          "name": "Chatot LV.30",
+          "name": "Chatot Lv.30",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -124335,7 +126037,7 @@
       "cardtrader": [
         {
           "id": 252793,
-          "name": "Chatot LV.30",
+          "name": "Chatot Lv.30",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -124439,7 +126141,7 @@
       "cardtrader": [
         {
           "id": 252790,
-          "name": "Chatot LV.30",
+          "name": "Chatot Lv.30",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -124543,7 +126245,7 @@
       "cardtrader": [
         {
           "id": 318792,
-          "name": "Chatot LV.30",
+          "name": "Chatot Lv.30",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -125581,7 +127283,7 @@
       "cardtrader": [
         {
           "id": 316066,
-          "name": "Dragonite [FB] LV.50",
+          "name": "Dragonite [FB] Lv.50",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -125686,7 +127388,7 @@
       "cardtrader": [
         {
           "id": 318837,
-          "name": "Combee LV.12",
+          "name": "Combee Lv.12",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -125790,7 +127492,7 @@
       "cardtrader": [
         {
           "id": 314174,
-          "name": "Unown [G] LV.17",
+          "name": "Unown [G] Lv.17",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -125894,7 +127596,7 @@
       "cardtrader": [
         {
           "id": 319914,
-          "name": "Unown [G] LV.17",
+          "name": "Unown [G] Lv.17",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -125998,7 +127700,7 @@
       "cardtrader": [
         {
           "id": 318772,
-          "name": "Unown [G] LV.17",
+          "name": "Unown [G] Lv.17",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -126102,7 +127804,7 @@
       "cardtrader": [
         {
           "id": 317624,
-          "name": "Unown [G] LV.17",
+          "name": "Unown [G] Lv.17",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -126206,7 +127908,7 @@
       "cardtrader": [
         {
           "id": 314325,
-          "name": "Unown [G] LV.17",
+          "name": "Unown [G] Lv.17",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -127359,7 +129061,7 @@
       "cardtrader": [
         {
           "id": 316031,
-          "name": "Giratina EX",
+          "name": "Giratina ex",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -127567,7 +129269,7 @@
       "cardtrader": [
         {
           "id": 315034,
-          "name": "Prinplup LV.20",
+          "name": "Prinplup Lv.20",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -127671,7 +129373,7 @@
       "cardtrader": [
         {
           "id": 320760,
-          "name": "Prinplup LV.20",
+          "name": "Prinplup Lv.20",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -128191,7 +129893,7 @@
       "cardtrader": [
         {
           "id": 326733,
-          "name": "Croagunk LV.13",
+          "name": "Croagunk Lv.13",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -128816,7 +130518,7 @@
       "cardtrader": [
         {
           "id": 320235,
-          "name": "Jirachi EX",
+          "name": "Jirachi ex",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -128921,7 +130623,7 @@
       "cardtrader": [
         {
           "id": 318272,
-          "name": "Jirachi EX",
+          "name": "Jirachi ex",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -129025,7 +130727,7 @@
       "cardtrader": [
         {
           "id": 320770,
-          "name": "Baltoy LV.11",
+          "name": "Baltoy Lv.11",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -129233,7 +130935,7 @@
       "cardtrader": [
         {
           "id": 314165,
-          "name": "Baltoy LV.11",
+          "name": "Baltoy Lv.11",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -129337,7 +131039,7 @@
       "cardtrader": [
         {
           "id": 319936,
-          "name": "Baltoy LV.11",
+          "name": "Baltoy Lv.11",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -129441,7 +131143,7 @@
       "cardtrader": [
         {
           "id": 318779,
-          "name": "Baltoy LV.11",
+          "name": "Baltoy Lv.11",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -129545,7 +131247,7 @@
       "cardtrader": [
         {
           "id": 325848,
-          "name": "Baltoy LV.11",
+          "name": "Baltoy Lv.11",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -130495,7 +132197,7 @@
       "cardtrader": [
         {
           "id": 316057,
-          "name": "Garchomp C LV.62",
+          "name": "Garchomp [C] Lv.62",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -131322,7 +133024,7 @@
       "cardtrader": [
         {
           "id": 319933,
-          "name": "Gastly LV.14",
+          "name": "Gastly Lv.14",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -131837,7 +133539,7 @@
       "cardtrader": [
         {
           "id": 326744,
-          "name": "Darkrai EX",
+          "name": "Darkrai ex",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -131942,7 +133644,7 @@
       "cardtrader": [
         {
           "id": 314903,
-          "name": "Darkrai EX",
+          "name": "Darkrai ex",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -132983,7 +134685,7 @@
       "cardtrader": [
         {
           "id": 325852,
-          "name": "Skiploom LV.20",
+          "name": "Skiploom Lv.20",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -133191,7 +134893,7 @@
       "cardtrader": [
         {
           "id": 318773,
-          "name": "Kakuna LV.8",
+          "name": "Kakuna Lv.8",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -135757,7 +137459,7 @@
       "cardtrader": [
         {
           "id": 317633,
-          "name": "Dialga [G] LV.79",
+          "name": "Dialga [G] Lv.79",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -135862,7 +137564,7 @@
       "cardtrader": [
         {
           "id": 316053,
-          "name": "Dialga [G] LV.79",
+          "name": "Dialga [G] Lv.79",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -135966,7 +137668,7 @@
       "cardtrader": [
         {
           "id": 314912,
-          "name": "Gardevoir LV.55",
+          "name": "Gardevoir Lv.55",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -136789,7 +138491,7 @@
       "cardtrader": [
         {
           "id": 314177,
-          "name": "Nidoran ♀ LV.14",
+          "name": "Nidoran ♀ Lv.14",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -136893,7 +138595,7 @@
       "cardtrader": [
         {
           "id": 319907,
-          "name": "Nidoran♀ LV.14",
+          "name": "Nidoran♀ Lv.14",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -137802,7 +139504,7 @@
       "cardtrader": [
         {
           "id": 320759,
-          "name": "Piplup LV.8",
+          "name": "Piplup Lv.8",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -139610,7 +141312,7 @@
       "cardtrader": [
         {
           "id": 319922,
-          "name": "Nidorina LV.29",
+          "name": "Nidorina Lv.29",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -141245,7 +142947,7 @@
       "cardtrader": [
         {
           "id": 315978,
-          "name": "Darkrai EX",
+          "name": "Darkrai ex",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -143648,7 +145350,7 @@
       "cardtrader": [
         {
           "id": 326596,
-          "name": "Chansey LV.31",
+          "name": "Chansey Lv.31",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -144456,7 +146158,7 @@
       "cardtrader": [
         {
           "id": 318267,
-          "name": "Shaymin EX",
+          "name": "Shaymin ex",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -144561,7 +146263,7 @@
       "cardtrader": [
         {
           "id": 314148,
-          "name": "Shaymin EX",
+          "name": "Shaymin ex",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -144666,7 +146368,7 @@
       "cardtrader": [
         {
           "id": 315484,
-          "name": "Shaymin EX",
+          "name": "Shaymin ex",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -144771,7 +146473,7 @@
       "cardtrader": [
         {
           "id": 315494,
-          "name": "Shaymin EX",
+          "name": "Shaymin ex",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -144876,7 +146578,7 @@
       "cardtrader": [
         {
           "id": 315552,
-          "name": "Shaymin EX",
+          "name": "Shaymin ex",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -144981,7 +146683,7 @@
       "cardtrader": [
         {
           "id": 316030,
-          "name": "Shaymin EX",
+          "name": "Shaymin ex",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -145190,7 +146892,7 @@
       "cardtrader": [
         {
           "id": 317628,
-          "name": "Honchkrow [G] LV.47",
+          "name": "Honchkrow [G] Lv.47",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -145502,7 +147204,7 @@
       "cardtrader": [
         {
           "id": 325842,
-          "name": "Unown [R] LV.16",
+          "name": "Unown [R] Lv.16",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -145904,7 +147606,7 @@
       "cardtrader": [
         {
           "id": 318517,
-          "name": "Kangaskhan EX",
+          "name": "Kangaskhan ex",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -147916,7 +149618,7 @@
       "cardtrader": [
         {
           "id": 317638,
-          "name": "Lucario [GL] LV. 32",
+          "name": "Lucario [GL] Lv. 32",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -148020,7 +149722,7 @@
       "cardtrader": [
         {
           "id": 316044,
-          "name": "Lucario [GL] LV. 32",
+          "name": "Lucario [GL] Lv. 32",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -148227,7 +149929,7 @@
       "cardtrader": [
         {
           "id": 314898,
-          "name": "Kirlia LV.28",
+          "name": "Kirlia Lv.28",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -148750,7 +150452,7 @@
       "cardtrader": [
         {
           "id": 320779,
-          "name": "Duskull LV.15",
+          "name": "Duskull Lv.15",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -154438,7 +156140,7 @@
       "cardtrader": [
         {
           "id": 315534,
-          "name": "Audino EX",
+          "name": "Audino ex",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -155636,7 +157338,7 @@
       "cardtrader": [
         {
           "id": 326792,
-          "name": "Pow! Hand Extension",
+          "name": "Pow! Hand extension",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -155736,7 +157438,7 @@
       "cardtrader": [
         {
           "id": 314896,
-          "name": "Pow! Hand Extension",
+          "name": "Pow! Hand extension",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -156335,7 +158037,7 @@
       "cardtrader": [
         {
           "id": 325681,
-          "name": "Latias EX",
+          "name": "Latias ex",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -156543,7 +158245,7 @@
       "cardtrader": [
         {
           "id": 249262,
-          "name": "Rayquaza EX",
+          "name": "Rayquaza ex",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -156648,7 +158350,7 @@
       "cardtrader": [
         {
           "id": 325695,
-          "name": "Groudon EX",
+          "name": "Groudon ex",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -159242,7 +160944,7 @@
       "cardtrader": [
         {
           "id": 314320,
-          "name": "Duskull LV.11",
+          "name": "Duskull Lv.11",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -159346,7 +161048,7 @@
       "cardtrader": [
         {
           "id": 325715,
-          "name": "Primal Groudon EX",
+          "name": "Primal Groudon ex",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -167208,7 +168910,7 @@
       "cardtrader": [
         {
           "id": 314311,
-          "name": "Ralts LV.16",
+          "name": "Ralts Lv.16",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -167418,7 +169120,7 @@
       "cardtrader": [
         {
           "id": 344674,
-          "name": "Landorus EX",
+          "name": "Landorus ex",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -168647,7 +170349,7 @@
       "cardtrader": [
         {
           "id": 318782,
-          "name": "Luxray [GL] LV.48",
+          "name": "Luxray [GL] Lv.48",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -168752,7 +170454,7 @@
       "cardtrader": [
         {
           "id": 317627,
-          "name": "Luxray [GL] LV.48",
+          "name": "Luxray [GL] Lv.48",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -168857,7 +170559,7 @@
       "cardtrader": [
         {
           "id": 318795,
-          "name": "Luxray [GL] LV.48",
+          "name": "Luxray [GL] Lv.48",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -170474,7 +172176,7 @@
       "cardtrader": [
         {
           "id": 316635,
-          "name": "Tornadus EX",
+          "name": "Tornadus ex",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -171276,7 +172978,7 @@
       "cardtrader": [
         {
           "id": 325850,
-          "name": "Hoppip LV.7",
+          "name": "Hoppip Lv.7",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -180540,7 +182242,7 @@
       "cardtrader": [
         {
           "id": 315028,
-          "name": "Piplup LV.9",
+          "name": "Piplup Lv.9",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -182152,7 +183854,7 @@
       "cardtrader": [
         {
           "id": 317615,
-          "name": "Skuntank [G] LV.46",
+          "name": "Skuntank [G] Lv.46",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -190143,7 +191845,7 @@
       "cardtrader": [
         {
           "id": 314130,
-          "name": "Head Ringer (Team Flare Hyper Gear)",
+          "name": "Head Ringer",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -195913,7 +197615,7 @@
       "cardtrader": [
         {
           "id": 320762,
-          "name": "Piplup LV.9",
+          "name": "Piplup Lv.9",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -196017,7 +197719,7 @@
       "cardtrader": [
         {
           "id": 314167,
-          "name": "Palkia LV.X",
+          "name": "Palkia Lv.X",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",
@@ -196121,7 +197823,7 @@
       "cardtrader": [
         {
           "id": 323653,
-          "name": "Toxicroak G LV.45",
+          "name": "Toxicroak G Lv.45",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "World Championship Decks",

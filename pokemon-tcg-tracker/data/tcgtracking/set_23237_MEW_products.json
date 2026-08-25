@@ -4,8 +4,8 @@
   "set_abbr": "MEW",
   "set_released": "2023-09-22",
   "product_count": 249,
-  "data_modified": "2026-08-03T06:16:25-04:00",
-  "file_generated": "2026-08-03T08:23:35-04:00",
+  "data_modified": "2026-08-19T08:04:58-04:00",
+  "file_generated": "2026-08-19T08:31:08-04:00",
   "pricing_url": "/v1/3/sets/23237/pricing",
   "cards_url": "/v1/3/sets/23237/cards",
   "sealed_url": "/v1/3/sets/23237/sealed",
@@ -119,8 +119,74 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 719695,
+      "cardtrader_id": 258621,
+      "cardtrader": [
+        {
+          "id": 258621,
+          "name": "151 Booster Bundle",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "151",
+          "expansion_code": "mew",
+          "collector_number": null,
+          "rarity": null,
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "sealed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            719695
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/502000_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 502000,
+          "game_id": 5,
+          "category_id": 68,
+          "category_name": "Pokémon Bundle ",
+          "product_type": "bundle",
+          "group_id": 23237
+        }
+      ]
     },
     {
       "id": 530105,
@@ -1356,18 +1422,7 @@
           "finishes": [
             "normal"
           ],
-          "languages": [
-            "en",
-            "fr",
-            "it",
-            "de",
-            "es",
-            "pt",
-            "nl",
-            "ru",
-            "pl",
-            "sv"
-          ],
+          "languages": [],
           "properties": [
             {
               "name": "sealed",
@@ -1376,23 +1431,6 @@
               "possible_values": [
                 true,
                 false
-              ]
-            },
-            {
-              "name": "pokemon_language",
-              "type": "string",
-              "default_value": "en",
-              "possible_values": [
-                "en",
-                "fr",
-                "it",
-                "de",
-                "es",
-                "pt",
-                "nl",
-                "ru",
-                "pl",
-                "sv"
               ]
             }
           ],
@@ -4637,7 +4675,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 733619,
       "cardtrader_id": 261060,
       "cardtrader": [
         {
@@ -4706,7 +4744,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            733619
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/515956_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 515956,
@@ -4739,7 +4779,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 733620,
       "cardtrader_id": 261140,
       "cardtrader": [
         {
@@ -4818,7 +4858,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            733620
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/517033_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 517033,
@@ -8620,7 +8662,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 733654,
       "cardtrader_id": 261061,
       "cardtrader": [
         {
@@ -8699,7 +8741,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            733654
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/516248_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 516248,
@@ -9076,7 +9120,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 733658,
       "cardtrader_id": 261058,
       "cardtrader": [
         {
@@ -9155,7 +9199,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            733658
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/516268_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 516268,
@@ -17044,7 +17090,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 733728,
       "cardtrader_id": 261112,
       "cardtrader": [
         {
@@ -17123,7 +17169,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            733728
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/516696_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 516696,
@@ -18074,7 +18122,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 733737,
       "cardtrader_id": 261059,
       "cardtrader": [
         {
@@ -18153,7 +18201,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            733737
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/516705_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 516705,
@@ -18982,7 +19032,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 733745,
       "cardtrader_id": 261235,
       "cardtrader": [
         {
@@ -19061,7 +19111,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            733745
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/516713_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 516713,
@@ -21460,7 +21512,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 733768,
       "cardtrader_id": 261321,
       "cardtrader": [
         {
@@ -21529,7 +21581,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            733768
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/513721_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 513721,
@@ -23552,7 +23606,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 733788,
       "cardtrader_id": 261253,
       "cardtrader": [
         {
@@ -23621,7 +23675,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            733788
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/517027_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 517027,
@@ -25054,7 +25110,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 733802,
       "cardtrader_id": 261385,
       "cardtrader": [
         {
@@ -25123,7 +25179,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            733802
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/517053_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 517053,

@@ -4,8 +4,8 @@
   "set_abbr": "SVP",
   "set_released": "2023-03-31",
   "product_count": 282,
-  "data_modified": "2026-08-03T08:22:16-04:00",
-  "file_generated": "2026-08-03T08:23:36-04:00",
+  "data_modified": "2026-08-13T06:00:07-04:00",
+  "file_generated": "2026-08-13T08:31:36-04:00",
   "pricing_url": "/v1/3/sets/22872/pricing",
   "cards_url": "/v1/3/sets/22872/cards",
   "sealed_url": "/v1/3/sets/22872/sealed",
@@ -6992,7 +6992,7 @@
           "match_confidence": 100,
           "expansion": "SV Black Star Promos",
           "expansion_code": "svpromo",
-          "collector_number": "051",
+          "collector_number": "51",
           "rarity": "Promo",
           "finishes": [
             "normal"
@@ -7097,7 +7097,7 @@
           "match_confidence": 100,
           "expansion": "Pokémon Center",
           "expansion_code": "pkm-center",
-          "collector_number": "051",
+          "collector_number": "51",
           "rarity": "Promo",
           "finishes": [
             "normal"
@@ -21154,8 +21154,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 805366,
+      "cardtrader_id": 315084,
+      "cardtrader": [
+        {
+          "id": 315084,
+          "name": "Jolteon",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "SV Black Star Promos",
+          "expansion_code": "svpromo",
+          "collector_number": "169",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            805366
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/653353_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 653353,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 22872
+        }
+      ]
     },
     {
       "id": 611829,

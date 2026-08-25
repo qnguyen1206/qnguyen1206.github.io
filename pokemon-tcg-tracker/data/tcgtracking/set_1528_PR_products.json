@@ -3,9 +3,9 @@
   "set_name": "Jumbo Cards",
   "set_abbr": "PR",
   "set_released": "2015-04-01",
-  "product_count": 342,
-  "data_modified": "2026-08-05T06:00:16-04:00",
-  "file_generated": "2026-08-05T08:31:37-04:00",
+  "product_count": 343,
+  "data_modified": "2026-08-12T06:00:10-04:00",
+  "file_generated": "2026-08-12T08:31:11-04:00",
   "pricing_url": "/v1/3/sets/1528/pricing",
   "cards_url": "/v1/3/sets/1528/cards",
   "sealed_url": "/v1/3/sets/1528/sealed",
@@ -362,8 +362,106 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 865392,
+      "cardtrader_id": 368300,
+      "cardtrader": [
+        {
+          "id": 368300,
+          "name": "Pikachu at the Museum",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "MEP Black Star Promos",
+          "expansion_code": "mep",
+          "collector_number": null,
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "it",
+            "jp",
+            "es",
+            "fr",
+            "de",
+            "pt",
+            "kr",
+            "zh-TW",
+            "zh-CN",
+            "nl",
+            "id",
+            "pl",
+            "sv",
+            "ru"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "it",
+                "jp",
+                "es",
+                "fr",
+                "de",
+                "pt",
+                "kr",
+                "zh-TW",
+                "zh-CN",
+                "nl",
+                "id",
+                "pl",
+                "sv",
+                "ru"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            865392
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/678659_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 678659,
+          "game_id": 5,
+          "category_id": 78,
+          "category_name": "Pokémon Oversized",
+          "product_type": "oversized",
+          "group_id": 24451
+        }
+      ]
     },
     {
       "id": 251100,
@@ -1685,8 +1783,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 851066,
+      "cardtrader_id": 352965,
+      "cardtrader": [
+        {
+          "id": 352965,
+          "name": "Mega Latias ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "MEP Black Star Promos",
+          "expansion_code": "mep",
+          "collector_number": "011",
+          "rarity": "Oversized",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            851066
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/657847_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 657847,
+          "game_id": 5,
+          "category_id": 78,
+          "category_name": "Pokémon Oversized",
+          "product_type": "oversized",
+          "group_id": 24451
+        }
+      ]
     },
     {
       "id": 663178,
@@ -1709,8 +1887,115 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 858147,
+      "cardtrader_id": 352973,
+      "cardtrader": [
+        {
+          "id": 352973,
+          "name": "Mega Lucario ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "MEP Black Star Promos",
+          "expansion_code": "mep",
+          "collector_number": "012",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "it",
+            "jp",
+            "es",
+            "fr",
+            "de",
+            "pt",
+            "kr",
+            "zh-TW",
+            "zh-CN",
+            "nl",
+            "id",
+            "pl",
+            "sv",
+            "ru"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "it",
+                "jp",
+                "es",
+                "fr",
+                "de",
+                "pt",
+                "kr",
+                "zh-TW",
+                "zh-CN",
+                "nl",
+                "id",
+                "pl",
+                "sv",
+                "ru"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            858147
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/663178_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 663178,
+          "game_id": 5,
+          "category_id": 78,
+          "category_name": "Pokémon Oversized",
+          "product_type": "oversized",
+          "group_id": 24451
+        }
+      ]
     },
     {
       "id": 668464,
@@ -1733,8 +2018,115 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 859012,
+      "cardtrader_id": 352976,
+      "cardtrader": [
+        {
+          "id": 352976,
+          "name": "Mega Venusaur ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "MEP Black Star Promos",
+          "expansion_code": "mep",
+          "collector_number": "013",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "it",
+            "jp",
+            "es",
+            "fr",
+            "de",
+            "pt",
+            "kr",
+            "zh-TW",
+            "zh-CN",
+            "nl",
+            "id",
+            "pl",
+            "sv",
+            "ru"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "it",
+                "jp",
+                "es",
+                "fr",
+                "de",
+                "pt",
+                "kr",
+                "zh-TW",
+                "zh-CN",
+                "nl",
+                "id",
+                "pl",
+                "sv",
+                "ru"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            859012
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/668464_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 668464,
+          "game_id": 5,
+          "category_id": 78,
+          "category_name": "Pokémon Oversized",
+          "product_type": "oversized",
+          "group_id": 24451
+        }
+      ]
     },
     {
       "id": 497721,
@@ -1862,8 +2254,115 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 859039,
+      "cardtrader_id": 352980,
+      "cardtrader": [
+        {
+          "id": 352980,
+          "name": "Mega Kangaskhan ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "MEP Black Star Promos",
+          "expansion_code": "mep",
+          "collector_number": "025",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "it",
+            "jp",
+            "es",
+            "fr",
+            "de",
+            "pt",
+            "kr",
+            "zh-TW",
+            "zh-CN",
+            "nl",
+            "id",
+            "pl",
+            "sv",
+            "ru"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "it",
+                "jp",
+                "es",
+                "fr",
+                "de",
+                "pt",
+                "kr",
+                "zh-TW",
+                "zh-CN",
+                "nl",
+                "id",
+                "pl",
+                "sv",
+                "ru"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            859039
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/668511_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 668511,
+          "game_id": 5,
+          "category_id": 78,
+          "category_name": "Pokémon Oversized",
+          "product_type": "oversized",
+          "group_id": 24451
+        }
+      ]
     },
     {
       "id": 692115,
@@ -1885,8 +2384,115 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 873718,
+      "cardtrader_id": 374896,
+      "cardtrader": [
+        {
+          "id": 374896,
+          "name": "Mega Meganium ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "MEP Black Star Promos",
+          "expansion_code": "mep",
+          "collector_number": "034",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "it",
+            "jp",
+            "es",
+            "fr",
+            "de",
+            "pt",
+            "kr",
+            "zh-TW",
+            "zh-CN",
+            "nl",
+            "id",
+            "pl",
+            "sv",
+            "ru"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "it",
+                "jp",
+                "es",
+                "fr",
+                "de",
+                "pt",
+                "kr",
+                "zh-TW",
+                "zh-CN",
+                "nl",
+                "id",
+                "pl",
+                "sv",
+                "ru"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            873718
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/692115_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 692115,
+          "game_id": 5,
+          "category_id": 78,
+          "category_name": "Pokémon Oversized",
+          "product_type": "oversized",
+          "group_id": 24451
+        }
+      ]
     },
     {
       "id": 692116,
@@ -1908,8 +2514,115 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 873720,
+      "cardtrader_id": 374898,
+      "cardtrader": [
+        {
+          "id": 374898,
+          "name": "Mega Emboar ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "MEP Black Star Promos",
+          "expansion_code": "mep",
+          "collector_number": "035",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "it",
+            "jp",
+            "es",
+            "fr",
+            "de",
+            "pt",
+            "kr",
+            "zh-TW",
+            "zh-CN",
+            "nl",
+            "id",
+            "pl",
+            "sv",
+            "ru"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "it",
+                "jp",
+                "es",
+                "fr",
+                "de",
+                "pt",
+                "kr",
+                "zh-TW",
+                "zh-CN",
+                "nl",
+                "id",
+                "pl",
+                "sv",
+                "ru"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            873720
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/692116_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 692116,
+          "game_id": 5,
+          "category_id": 78,
+          "category_name": "Pokémon Oversized",
+          "product_type": "oversized",
+          "group_id": 24451
+        }
+      ]
     },
     {
       "id": 692117,
@@ -1931,8 +2644,115 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 873722,
+      "cardtrader_id": 374900,
+      "cardtrader": [
+        {
+          "id": 374900,
+          "name": "Mega Feraligatr ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "MEP Black Star Promos",
+          "expansion_code": "mep",
+          "collector_number": "036",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "it",
+            "jp",
+            "es",
+            "fr",
+            "de",
+            "pt",
+            "kr",
+            "zh-TW",
+            "zh-CN",
+            "nl",
+            "id",
+            "pl",
+            "sv",
+            "ru"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "it",
+                "jp",
+                "es",
+                "fr",
+                "de",
+                "pt",
+                "kr",
+                "zh-TW",
+                "zh-CN",
+                "nl",
+                "id",
+                "pl",
+                "sv",
+                "ru"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            873722
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/692117_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 692117,
+          "game_id": 5,
+          "category_id": 78,
+          "category_name": "Pokémon Oversized",
+          "product_type": "oversized",
+          "group_id": 24451
+        }
+      ]
     },
     {
       "id": 520722,
@@ -2270,8 +3090,106 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 873311,
+      "cardtrader_id": 374639,
+      "cardtrader": [
+        {
+          "id": 374639,
+          "name": "Mega Zygarde ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "MEP Black Star Promos",
+          "expansion_code": "mep",
+          "collector_number": "071",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "it",
+            "jp",
+            "es",
+            "fr",
+            "de",
+            "pt",
+            "kr",
+            "zh-TW",
+            "zh-CN",
+            "nl",
+            "id",
+            "pl",
+            "sv",
+            "ru"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "it",
+                "jp",
+                "es",
+                "fr",
+                "de",
+                "pt",
+                "kr",
+                "zh-TW",
+                "zh-CN",
+                "nl",
+                "id",
+                "pl",
+                "sv",
+                "ru"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            873311
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/696460_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 696460,
+          "game_id": 5,
+          "category_id": 78,
+          "category_name": "Pokémon Oversized",
+          "product_type": "oversized",
+          "group_id": 24451
+        }
+      ]
     },
     {
       "id": 666593,
@@ -8278,8 +9196,115 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 855661,
+      "cardtrader_id": 352983,
+      "cardtrader": [
+        {
+          "id": 352983,
+          "name": "Mimikyu ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Prerelease Promos",
+          "expansion_code": "pre-poke",
+          "collector_number": "069",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "it",
+            "jp",
+            "es",
+            "fr",
+            "de",
+            "pt",
+            "kr",
+            "zh-TW",
+            "zh-CN",
+            "nl",
+            "id",
+            "pl",
+            "sv",
+            "ru"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "it",
+                "jp",
+                "es",
+                "fr",
+                "de",
+                "pt",
+                "kr",
+                "zh-TW",
+                "zh-CN",
+                "nl",
+                "id",
+                "pl",
+                "sv",
+                "ru"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            855661
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/660078_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 660078,
+          "game_id": 5,
+          "category_id": 78,
+          "category_name": "Pokémon Oversized",
+          "product_type": "oversized",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 450093,
@@ -9399,8 +10424,115 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 868296,
+      "cardtrader_id": 352988,
+      "cardtrader": [
+        {
+          "id": 352988,
+          "name": "Lugia ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Prerelease Promos",
+          "expansion_code": "pre-poke",
+          "collector_number": "086",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "it",
+            "jp",
+            "es",
+            "fr",
+            "de",
+            "pt",
+            "kr",
+            "zh-TW",
+            "zh-CN",
+            "nl",
+            "id",
+            "pl",
+            "sv",
+            "ru"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "it",
+                "jp",
+                "es",
+                "fr",
+                "de",
+                "pt",
+                "kr",
+                "zh-TW",
+                "zh-CN",
+                "nl",
+                "id",
+                "pl",
+                "sv",
+                "ru"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            868296
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/657883_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 657883,
+          "game_id": 5,
+          "category_id": 78,
+          "category_name": "Pokémon Oversized",
+          "product_type": "oversized",
+          "group_id": 2374
+        }
+      ]
     },
     {
       "id": 274414,
@@ -10721,6 +11853,44 @@
           "group_id": 1861
         }
       ]
+    },
+    {
+      "id": 710794,
+      "name": "Mega Hawlucha ex - 116/217",
+      "clean_name": "Mega Hawlucha ex - 116/217",
+      "number": "116/217",
+      "rarity": "Double Rare",
+      "ext_data": {
+        "description": "<strong>Ability: Tenacious Body</strong> If this Pokemon would be Knocked Out by damage from an attack, flip a coin. If heads, this Pokemon is not Knocked Out, and its remaining HP becomes 10.",
+        "attack2": null,
+        "stage": "Basic",
+        "energyType": [
+          "Fighting"
+        ],
+        "releaseDate": "2015-04-01T00:00:00Z",
+        "number": "116/217",
+        "cardType": [
+          "Pokemon"
+        ],
+        "retreatCost": "1",
+        "cardTypeB": "Fighting",
+        "resistance": null,
+        "rarityDbName": "Double Rare",
+        "weakness": "Px2",
+        "flavorText": "",
+        "attack1": "[FFC] Somersault Dive (120+)<br> If a Stadium is in play, this attack does 140 more damage. Then, discard that Stadium.",
+        "hp": "250",
+        "attack3": null,
+        "attack4": null
+      },
+      "image_url": "https://cdn.tcgtracking.com/product/710794_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": null,
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": null
     },
     {
       "id": 707209,
