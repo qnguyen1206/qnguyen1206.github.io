@@ -4,8 +4,8 @@
   "set_abbr": "PR",
   "set_released": "2026-06-23",
   "product_count": 95,
-  "data_modified": "2026-08-13T06:00:07-04:00",
-  "file_generated": "2026-08-13T08:31:30-04:00",
+  "data_modified": "2026-08-24T08:09:22-04:00",
+  "file_generated": "2026-08-24T08:31:08-04:00",
   "pricing_url": "/v1/3/sets/1423/pricing",
   "cards_url": "/v1/3/sets/1423/cards",
   "sealed_url": "/v1/3/sets/1423/sealed",
@@ -6778,7 +6778,85 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardtrader_id": 127377,
+      "cardtrader": [
+        {
+          "id": 127377,
+          "name": "Shellos East Sea Lv.23",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Secret Wonders Promos",
+          "expansion_code": "psw",
+          "collector_number": "106",
+          "rarity": "Common",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/213026_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 213026,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1539
+        }
+      ]
     },
     {
       "id": 213027,
@@ -6802,7 +6880,85 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardtrader_id": 127378,
+      "cardtrader": [
+        {
+          "id": 127378,
+          "name": "Shellos East Sea Lv.23",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Secret Wonders Promos",
+          "expansion_code": "psw",
+          "collector_number": "106s",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/213027_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 213027,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1539
+        }
+      ]
     },
     {
       "id": 228481,
@@ -8460,7 +8616,7 @@
       "cardtrader": [
         {
           "id": 116602,
-          "name": "exeggutor δ Delta Species",
+          "name": "Exeggutor δ Delta Species",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "Prerelease Promos",
@@ -10046,12 +10202,12 @@
       "cardtrader": [
         {
           "id": 114214,
-          "name": "Shinx",
+          "name": "Shinx Lv.7",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "Diamond & Pearl Promos",
           "expansion_code": "pdp",
-          "collector_number": "098/130",
+          "collector_number": "098",
           "rarity": "Common",
           "finishes": [
             "normal"
