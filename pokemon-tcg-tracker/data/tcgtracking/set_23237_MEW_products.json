@@ -4,8 +4,8 @@
   "set_abbr": "MEW",
   "set_released": "2023-09-22",
   "product_count": 249,
-  "data_modified": "2026-08-19T08:04:58-04:00",
-  "file_generated": "2026-08-19T08:31:08-04:00",
+  "data_modified": "2026-08-25T08:09:34-04:00",
+  "file_generated": "2026-08-25T08:31:36-04:00",
   "pricing_url": "/v1/3/sets/23237/pricing",
   "cards_url": "/v1/3/sets/23237/cards",
   "sealed_url": "/v1/3/sets/23237/sealed",
@@ -2047,8 +2047,47 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 903970,
+      "cardtrader_id": 408237,
+      "cardtrader": [
+        {
+          "id": 408237,
+          "name": "151: Sam's Club 4-Pack Mini Tin Bundle",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "151",
+          "expansion_code": "mew",
+          "collector_number": null,
+          "rarity": null,
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en"
+          ],
+          "properties": [
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            903970
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/662302_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 662302,
+          "game_id": 5,
+          "category_id": 59,
+          "category_name": "Pokémon Tins",
+          "product_type": "sealed",
+          "group_id": 23237
+        }
+      ]
     },
     {
       "id": 502552,
