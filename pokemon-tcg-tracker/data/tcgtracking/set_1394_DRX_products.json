@@ -4,8 +4,8 @@
   "set_abbr": "DRX",
   "set_released": "2012-08-15",
   "product_count": 131,
-  "data_modified": "2026-08-12T06:25:43-04:00",
-  "file_generated": "2026-08-12T08:31:12-04:00",
+  "data_modified": "2026-08-31T10:03:43-04:00",
+  "file_generated": "2026-08-31T10:04:43-04:00",
   "pricing_url": "/v1/3/sets/1394/pricing",
   "cards_url": "/v1/3/sets/1394/cards",
   "sealed_url": "/v1/3/sets/1394/sealed",
@@ -18,7 +18,8 @@
       "number": null,
       "rarity": "Code Card",
       "ext_data": {
-        "CardText": "This listing is <strong>not</strong> a physical item. Please keep in mind that this <strong>Code Card</strong> listing represents a digital copy of the stated item for the Pokémon TCG Online <strong>and/or</strong> the Pokémon TCG Live games. You may receive the physical <strong>Code Card</strong>. Upon purchase, please work with your specific Seller by sending them a message using the <strong>Contact Seller</strong> button on the order details in your <a href=https://store.tcgplayer.com/myaccount/orderhistory>Order History</a> to opt in to having your <strong>Code Card</strong> code delivered digitally due to the nature of the product."
+        "Card Number / Rarity": " / Code Card",
+        "Card Text": "This listing is <strong>not</strong> a physical item. Please keep in mind that this <strong>Code Card</strong> listing represents a digital copy of the stated item for the Pokémon TCG Online <strong>and/or</strong> the Pokémon TCG Live games. You may receive the physical <strong>Code Card</strong>. Upon purchase, please work with your specific Seller by sending them a message using the <strong>Contact Seller</strong> button on the order details in your <a href=https://store.tcgplayer.com/myaccount/orderhistory>Order History</a> to opt in to having your <strong>Code Card</strong> code delivered digitally due to the nature of the product."
       },
       "image_url": "https://cdn.tcgtracking.com/product/280553_200w.jpg",
       "image_count": 1,
@@ -196,13 +197,10 @@
       "number": "1/124",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Grass",
-        "HP": "30",
-        "Stage": "Basic",
+        "Card Number / Rarity": "1/124 / Common",
+        "Card Type / HP / Stage": "Grass / 30 / Basic",
         "Attack 1": "[G] Flail Around (10x) Flip 3 coins.  This attack does 10 damage times the number of heads.",
-        "Weakness": "Rx2",
-        "Resistance": "W-20",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Rx2 / W-20 / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/86183_200w.jpg",
       "image_count": 1,
@@ -314,12 +312,10 @@
       "number": "10/124",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Grass",
-        "HP": "40",
-        "Stage": "Basic",
+        "Card Number / Rarity": "10/124 / Common",
+        "Card Type / HP / Stage": "Grass / 40 / Basic",
         "Attack 1": "[1] Dig (10) Flip a coin.  If heads, prevent all effects of attacks, including damage, done to this Pokemon during your opponent's next turn.",
-        "Weakness": "Rx2",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Rx2 /  / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/87762_200w.jpg",
       "image_count": 1,
@@ -431,13 +427,11 @@
       "number": "100/124",
       "rarity": "Rare",
       "ext_data": {
-        "Card Type": "Colorless",
-        "HP": "80",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "100/124 / Rare",
+        "Card Type / HP / Stage": "Colorless / 80 / Stage 1",
         "Attack 1": "[1] Double Hit (20x) Flip 2 coins.  This attack does 20 damage times the number of heads.",
         "Attack 2": "[2] Hand Fling (10x) Does 10 damage times the number of cards in your hand.",
-        "Weakness": "Fx2",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Fx2 /  / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/83529_200w.jpg",
       "image_count": 1,
@@ -549,12 +543,10 @@
       "number": "101/124",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Colorless",
-        "HP": "60",
-        "Stage": "Basic",
+        "Card Number / Rarity": "101/124 / Common",
+        "Card Type / HP / Stage": "Colorless / 60 / Basic",
         "Attack 1": "[1] Smack 'n' Slack (10) This Pokemon is now Asleep.",
-        "Weakness": "Fx2",
-        "RetreatCost": "2"
+        "Weakness / Resistance / Retreat Cost": "Fx2 /  / 2"
       },
       "image_url": "https://cdn.tcgtracking.com/product/89300_200w.jpg",
       "image_count": 1,
@@ -666,12 +658,10 @@
       "number": "102/124",
       "rarity": "Uncommon",
       "ext_data": {
-        "Card Type": "Colorless",
-        "HP": "80",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "102/124 / Uncommon",
+        "Card Type / HP / Stage": "Colorless / 80 / Stage 1",
         "Attack 1": "[2] Ambush (20+) Flip a coin.  If heads, this attack does 40 more damage.",
-        "Weakness": "Fx2",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Fx2 /  / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/90372_200w.jpg",
       "image_count": 1,
@@ -783,13 +773,11 @@
       "number": "103/124",
       "rarity": "Holo Rare",
       "ext_data": {
-        "Card Type": "Colorless",
-        "HP": "150",
-        "Stage": "Stage 2",
-        "CardText": "Unobservant - If your opponent's Active Pokemon is a Basic Pokemon, this Pokemon can't attack.  (Ability)",
+        "Card Number / Rarity": "103/124 / Holo Rare",
+        "Card Type / HP / Stage": "Colorless / 150 / Stage 2",
+        "Card Text": "Unobservant - If your opponent's Active Pokemon is a Basic Pokemon, this Pokemon can't attack.  (Ability)",
         "Attack 1": "[4] Crushing Blow (100) Discard an Energy attached to the Defending Pokemon.",
-        "Weakness": "Fx2",
-        "RetreatCost": "4"
+        "Weakness / Resistance / Retreat Cost": "Fx2 /  / 4"
       },
       "image_url": "https://cdn.tcgtracking.com/product/89293_200w.jpg",
       "image_count": 1,
@@ -901,14 +889,11 @@
       "number": "104/124",
       "rarity": "Uncommon",
       "ext_data": {
-        "Card Type": "Colorless",
-        "HP": "40",
-        "Stage": "Basic",
+        "Card Number / Rarity": "104/124 / Uncommon",
+        "Card Type / HP / Stage": "Colorless / 40 / Basic",
         "Attack 1": "[1] Sing - The Defending Pokemon is now Asleep.",
         "Attack 2": "[2] Peck (20)",
-        "Weakness": "Lx2",
-        "Resistance": "F-20",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Lx2 / F-20 / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/89661_200w.jpg",
       "image_count": 1,
@@ -1020,13 +1005,10 @@
       "number": "105/124",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Colorless",
-        "HP": "40",
-        "Stage": "Basic",
+        "Card Number / Rarity": "105/124 / Common",
+        "Card Type / HP / Stage": "Colorless / 40 / Basic",
         "Attack 1": "[1] Peck (10)",
-        "Weakness": "Lx2",
-        "Resistance": "F-20",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Lx2 / F-20 / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/89662_200w.jpg",
       "image_count": 1,
@@ -1138,12 +1120,10 @@
       "number": "106/124",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Colorless",
-        "HP": "70",
-        "Stage": "Basic",
+        "Card Number / Rarity": "106/124 / Common",
+        "Card Type / HP / Stage": "Colorless / 70 / Basic",
         "Attack 1": "[2] Bang Heads (20) Both this Pokemon and the Defending Pokemon are now Confused.",
-        "Weakness": "Fx2",
-        "RetreatCost": "2"
+        "Weakness / Resistance / Retreat Cost": "Fx2 /  / 2"
       },
       "image_url": "https://cdn.tcgtracking.com/product/83829_200w.jpg",
       "image_count": 1,
@@ -1255,13 +1235,11 @@
       "number": "107/124",
       "rarity": "Uncommon",
       "ext_data": {
-        "Card Type": "Colorless",
-        "HP": "100",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "107/124 / Uncommon",
+        "Card Type / HP / Stage": "Colorless / 100 / Stage 1",
         "Attack 1": "[3] Amnesia (40) Choose 1 of the Defending Pokemon's attacks.  That Pokemon can't use that attack during your opponent's next turn.",
         "Attack 2": "[4] Tumbling Tackle (60) Both this Pokemon and the Defending Pokemon are now Asleep.",
-        "Weakness": "Fx2",
-        "RetreatCost": "2"
+        "Weakness / Resistance / Retreat Cost": "Fx2 /  / 2"
       },
       "image_url": "https://cdn.tcgtracking.com/product/83821_200w.jpg",
       "image_count": 1,
@@ -1373,13 +1351,11 @@
       "number": "108/124",
       "rarity": "Uncommon",
       "ext_data": {
-        "Card Type": "Colorless",
-        "HP": "90",
-        "Stage": "Basic",
+        "Card Number / Rarity": "108/124 / Uncommon",
+        "Card Type / HP / Stage": "Colorless / 90 / Basic",
         "Attack 1": "[2] Wake-up Beam (40) Remove all Special Conditions from the Defending Pokemon.",
         "Attack 2": "[3] Drain Slap (60) Heal 30 damage from this Pokemon.",
-        "Weakness": "Fx2",
-        "RetreatCost": "2"
+        "Weakness / Resistance / Retreat Cost": "Fx2 /  / 2"
       },
       "image_url": "https://cdn.tcgtracking.com/product/83663_200w.jpg",
       "image_count": 1,
@@ -1491,13 +1467,11 @@
       "number": "109/124",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Colorless",
-        "HP": "60",
-        "Stage": "Basic",
+        "Card Number / Rarity": "109/124 / Common",
+        "Card Type / HP / Stage": "Colorless / 60 / Basic",
         "Attack 1": "[1] Pound (10)",
         "Attack 2": "[2] Reckless Charge (30) This Pokemon does 10 damage to itself.",
-        "Weakness": "Fx2",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Fx2 /  / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/87477_200w.jpg",
       "image_count": 1,
@@ -1609,13 +1583,11 @@
       "number": "11/124",
       "rarity": "Uncommon",
       "ext_data": {
-        "Card Type": "Grass",
-        "HP": "60",
-        "Stage": "Stage 1",
-        "CardText": "Cast-off Shell - When you play this Pokemon from your hand to evolve 1 of your Pokemon, you may search your deck for Shedinja and put it onto your Bench.  Shuffle your deck afterward.  (Ability)",
+        "Card Number / Rarity": "11/124 / Uncommon",
+        "Card Type / HP / Stage": "Grass / 60 / Stage 1",
+        "Card Text": "Cast-off Shell - When you play this Pokemon from your hand to evolve 1 of your Pokemon, you may search your deck for Shedinja and put it onto your Bench.  Shuffle your deck afterward.  (Ability)",
         "Attack 1": "[1G] Night Slash (60) You may switch this Pokemon with 1 of your Benched Pokemon.",
-        "Weakness": "Rx2",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Rx2 /  / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/87788_200w.jpg",
       "image_count": 1,
@@ -1727,13 +1699,11 @@
       "number": "110/124",
       "rarity": "Uncommon",
       "ext_data": {
-        "Card Type": "Colorless",
-        "HP": "100",
-        "Stage": "Basic",
-        "CardText": "Bouffer - Any damage done to this Pokemon by attacks is reduced by 20 (after applying Weakness and Resistance).  (Ability)",
+        "Card Number / Rarity": "110/124 / Uncommon",
+        "Card Type / HP / Stage": "Colorless / 100 / Basic",
+        "Card Text": "Bouffer - Any damage done to this Pokemon by attacks is reduced by 20 (after applying Weakness and Resistance).  (Ability)",
         "Attack 1": "[3] Gold Breaker (60+) If the Defending Pokemon is a Pokemon-EX, this attack does 60 more damage.",
-        "Weakness": "Fx2",
-        "RetreatCost": "2"
+        "Weakness / Resistance / Retreat Cost": "Fx2 /  / 2"
       },
       "image_url": "https://cdn.tcgtracking.com/product/83944_200w.jpg",
       "image_count": 1,
@@ -1845,14 +1815,11 @@
       "number": "111/124",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Colorless",
-        "HP": "50",
-        "Stage": "Basic",
+        "Card Number / Rarity": "111/124 / Common",
+        "Card Type / HP / Stage": "Colorless / 50 / Basic",
         "Attack 1": "[1] Chirp - Search your deck for 2 Pokemon with F Resistance, reveal them, and put them into your hand.  Shuffle your deck afterward.",
         "Attack 2": "[2] Sharp Beak (10+) Flip a coin.  If heads, this attack does 20 more damage.",
-        "Weakness": "Lx2",
-        "Resistance": "F-20",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Lx2 / F-20 / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/88843_200w.jpg",
       "image_count": 1,
@@ -1964,14 +1931,11 @@
       "number": "112/124",
       "rarity": "Rare",
       "ext_data": {
-        "Card Type": "Colorless",
-        "HP": "100",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "112/124 / Rare",
+        "Card Type / HP / Stage": "Colorless / 100 / Stage 1",
         "Attack 1": "[1] Slash (30)",
         "Attack 2": "[3] Fury Attack (50x) Flip 3 coins.  This attack does 50 damage times the number of heads.",
-        "Weakness": "Lx2",
-        "Resistance": "F-20",
-        "RetreatCost": "0"
+        "Weakness / Resistance / Retreat Cost": "Lx2 / F-20 / 0"
       },
       "image_url": "https://cdn.tcgtracking.com/product/83951_200w.jpg",
       "image_count": 1,
@@ -2083,10 +2047,9 @@
       "number": "113/124",
       "rarity": "Uncommon",
       "ext_data": {
-        "Card Type": "Item",
-        "HP": "0",
-        "Stage": "Item",
-        "CardText": "You may play as many Item cards as you like during your turn (before your attack).",
+        "Card Number / Rarity": "113/124 / Uncommon",
+        "Card Type / HP / Stage": "Item / 0 / Item",
+        "Card Text": "You may play as many Item cards as you like during your turn (before your attack).",
         "Attack 1": "Devolve 1 of your evolved Pokemon and put the highest state Evolution card on it into your hand.  (That Pokemon can't evolve this turn.)"
       },
       "image_url": "https://cdn.tcgtracking.com/product/84783_200w.jpg",
@@ -2199,10 +2162,9 @@
       "number": "114/124",
       "rarity": "Uncommon",
       "ext_data": {
-        "Card Type": "Item",
-        "HP": "0",
-        "Stage": "Tool",
-        "CardText": "Attach a Pokemon Tool to 1 of your Pokemon that doesn't already have a Pokemon Tool attached to it.",
+        "Card Number / Rarity": "114/124 / Uncommon",
+        "Card Type / HP / Stage": "Item / 0 / Tool",
+        "Card Text": "Attach a Pokemon Tool to 1 of your Pokemon that doesn't already have a Pokemon Tool attached to it.",
         "Attack 1": "The Pokemon this card is attached to gets +20 HP."
       },
       "image_url": "https://cdn.tcgtracking.com/product/85696_200w.jpg",
@@ -2315,10 +2277,9 @@
       "number": "115/124",
       "rarity": "Uncommon",
       "ext_data": {
-        "Card Type": "Item",
-        "HP": "0",
-        "Stage": "Tool",
-        "CardText": "Attach a Pokemon Tool to 1 of your Pokemon that doesn't already have a Pokemon Tool attached to it.",
+        "Card Number / Rarity": "115/124 / Uncommon",
+        "Card Type / HP / Stage": "Item / 0 / Tool",
+        "Card Text": "Attach a Pokemon Tool to 1 of your Pokemon that doesn't already have a Pokemon Tool attached to it.",
         "Attack 1": "If the Pokemon this card is attached to is Knocked Out by damage from an attack, put that Pokemon into your hand.  (Discard all cards attached to that Pokemon.)"
       },
       "image_url": "https://cdn.tcgtracking.com/product/88702_200w.jpg",
@@ -2431,10 +2392,9 @@
       "number": "116/124",
       "rarity": "Uncommon",
       "ext_data": {
-        "Card Type": "Item",
-        "HP": "0",
-        "Stage": "Item",
-        "CardText": "You may play as many Item cards as you like during your turn (before your attack).",
+        "Card Number / Rarity": "116/124 / Uncommon",
+        "Card Type / HP / Stage": "Item / 0 / Item",
+        "Card Text": "You may play as many Item cards as you like during your turn (before your attack).",
         "Attack 1": "Choose up to 2 Pokemon Tool cards attached to Pokemon in play (yours and your opponent's) and discard them."
       },
       "image_url": "https://cdn.tcgtracking.com/product/89947_200w.jpg",
@@ -2547,9 +2507,8 @@
       "number": "117/124",
       "rarity": "Uncommon",
       "ext_data": {
-        "Card Type": "Energy",
-        "HP": "0",
-        "Stage": "Special Energy",
+        "Card Number / Rarity": "117/124 / Uncommon",
+        "Card Type / HP / Stage": "Energy / 0 / Special Energy",
         "Attack 1": "This card provides 1 Energy.  When this card is attached to a Pokemon, this card provides G, R, P, or D Energy but provides only 1 Energy at a time."
       },
       "image_url": "https://cdn.tcgtracking.com/product/83916_200w.jpg",
@@ -2662,9 +2621,8 @@
       "number": "118/124",
       "rarity": "Uncommon",
       "ext_data": {
-        "Card Type": "Energy",
-        "HP": "0",
-        "Stage": "Special Energy",
+        "Card Number / Rarity": "118/124 / Uncommon",
+        "Card Type / HP / Stage": "Energy / 0 / Special Energy",
         "Attack 1": "This card provides 1 Energy.  When this card is attached to a Pokemon, this card provides W, L, F, or M Energy but provides only 1 Energy at a time."
       },
       "image_url": "https://cdn.tcgtracking.com/product/83917_200w.jpg",
@@ -2777,14 +2735,11 @@
       "number": "119/124",
       "rarity": "Ultra Rare",
       "ext_data": {
-        "Card Type": "Fire",
-        "HP": "160",
-        "Stage": "Basic",
-        "CardText": "Rebirth - Once during your turn (before your attack), if this Pokemon is in your discard pile, you may flip a coin.  If heads, put this Pokemon onto your Bench and attach 3 different types of basic Energy cards from your discard pile to this Pokemon.  (Ability)",
+        "Card Number / Rarity": "119/124 / Ultra Rare",
+        "Card Type / HP / Stage": "Fire / 160 / Basic",
+        "Card Text": "Rebirth - Once during your turn (before your attack), if this Pokemon is in your discard pile, you may flip a coin.  If heads, put this Pokemon onto your Bench and attach 3 different types of basic Energy cards from your discard pile to this Pokemon.  (Ability)",
         "Attack 1": "[3] Rainbow Burn (20+) Does 20 more damage for each different type of basic Energy attached to this Pokemon.",
-        "Weakness": "Wx2",
-        "Resistance": "F-20",
-        "RetreatCost": "2"
+        "Weakness / Resistance / Retreat Cost": "Wx2 / F-20 / 2"
       },
       "image_url": "https://cdn.tcgtracking.com/product/86131_200w.jpg",
       "image_count": 1,
@@ -2886,14 +2841,11 @@
       "number": "12/124",
       "rarity": "Uncommon",
       "ext_data": {
-        "Card Type": "Grass",
-        "HP": "70",
-        "Stage": "Basic",
+        "Card Number / Rarity": "12/124 / Uncommon",
+        "Card Type / HP / Stage": "Grass / 70 / Basic",
         "Attack 1": "[1] Double Whip (10x) Flip 2 coins.  This attack does 10 damage times the number of heads.",
         "Attack 2": "[G] Relaxing Fragrance - Heal 30 damage and remove all Special Conditions from this Pokemon.",
-        "Weakness": "Rx2",
-        "Resistance": "W-20",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Rx2 / W-20 / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/88824_200w.jpg",
       "image_count": 1,
@@ -3005,13 +2957,11 @@
       "number": "120/124",
       "rarity": "Ultra Rare",
       "ext_data": {
-        "Card Type": "Psychic",
-        "HP": "120",
-        "Stage": "Basic",
-        "CardText": "Versatile - This Pokemon can use the attacks of any Pokemon in play (both yours and your opponent's).  (You still need the necessary Energy to use each attack.)  (Ability)",
+        "Card Number / Rarity": "120/124 / Ultra Rare",
+        "Card Type / HP / Stage": "Psychic / 120 / Basic",
+        "Card Text": "Versatile - This Pokemon can use the attacks of any Pokemon in play (both yours and your opponent's).  (You still need the necessary Energy to use each attack.)  (Ability)",
         "Attack 1": "[P] Replace - Move as many Energy attached to your Pokemon to your other Pokemon in any way you like.",
-        "Weakness": "Px2",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Px2 /  / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/87412_200w.jpg",
       "image_count": 1,
@@ -3113,13 +3063,11 @@
       "number": "121/124",
       "rarity": "Ultra Rare",
       "ext_data": {
-        "Card Type": "Fighting",
-        "HP": "180",
-        "Stage": "Basic",
+        "Card Number / Rarity": "121/124 / Ultra Rare",
+        "Card Type / HP / Stage": "Fighting / 180 / Basic",
         "Attack 1": "[1F] Rock Tumble (50) This attack's damage isn't affected by Resistance.",
         "Attack 2": "[1FF] Pump-up Smash (90) Attach 2 basic Energy cards from your hand to your Benched Pokemon in any way you like.",
-        "Weakness": "Gx2",
-        "RetreatCost": "3"
+        "Weakness / Resistance / Retreat Cost": "Gx2 /  / 3"
       },
       "image_url": "https://cdn.tcgtracking.com/product/89893_200w.jpg",
       "image_count": 1,
@@ -3221,14 +3169,11 @@
       "number": "122/124",
       "rarity": "Ultra Rare",
       "ext_data": {
-        "Card Type": "Metal",
-        "HP": "180",
-        "Stage": "Basic",
+        "Card Number / Rarity": "122/124 / Ultra Rare",
+        "Card Type / HP / Stage": "Metal / 180 / Basic",
         "Attack 1": "[3] Triple Laser - This attack does 30 damage to 3 of your opponent's Pokemon.  (Don't apply Weakness and Resistance for Benched Pokemon.)",
         "Attack 2": "[2MM] Protect Charge (80) During your opponent's next turn, any damage done to this Pokemon by attacks is reduced by 20 (after applying Weakness and Resistance).",
-        "Weakness": "Rx2",
-        "Resistance": "P-20",
-        "RetreatCost": "4"
+        "Weakness / Resistance / Retreat Cost": "Rx2 / P-20 / 4"
       },
       "image_url": "https://cdn.tcgtracking.com/product/88682_200w.jpg",
       "image_count": 1,
@@ -3330,13 +3275,11 @@
       "number": "123/124",
       "rarity": "Ultra Rare",
       "ext_data": {
-        "Card Type": "Dragon",
-        "HP": "170",
-        "Stage": "Basic",
+        "Card Number / Rarity": "123/124 / Ultra Rare",
+        "Card Type / HP / Stage": "Dragon / 170 / Basic",
         "Attack 1": "[1] Celestial Roar - Discard the top 3 cards of your deck.  If any of those cards are Energy cards, attach them to this Pokemon.",
         "Attack 2": "[LR] Dragon Burst (60x) Discard all basic R Energy or all basic L Energy attached to this Pokemon.  This attack does 60 damage times the number of Energy cards you discarded.",
-        "Weakness": "Ox2",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Ox2 /  / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/88648_200w.jpg",
       "image_count": 1,
@@ -3438,13 +3381,11 @@
       "number": "124/124",
       "rarity": "Ultra Rare",
       "ext_data": {
-        "Card Type": "Dragon",
-        "HP": "180",
-        "Stage": "Basic",
+        "Card Number / Rarity": "124/124 / Ultra Rare",
+        "Card Type / HP / Stage": "Dragon / 180 / Basic",
         "Attack 1": "[1GP] Shred (90) This attack's damage isn't affected by any effects on the Defending Pokemon.",
         "Attack 2": "[2GP] Dragon Pulse (130) Discard the top 3 cards of your deck.",
-        "Weakness": "Ox2",
-        "RetreatCost": "3"
+        "Weakness / Resistance / Retreat Cost": "Ox2 /  / 3"
       },
       "image_url": "https://cdn.tcgtracking.com/product/85741_200w.jpg",
       "image_count": 1,
@@ -3546,14 +3487,11 @@
       "number": "125/124",
       "rarity": "Secret Rare",
       "ext_data": {
-        "Card Type": "Grass",
-        "HP": "130",
-        "Stage": "Stage 2",
-        "CardText": "Royal Heal - At any time between turns, heal 10 damage from each of your Pokemon.  (Ability)",
+        "Card Number / Rarity": "125/124 / Secret Rare",
+        "Card Type / HP / Stage": "Grass / 130 / Stage 2",
+        "Card Text": "Royal Heal - At any time between turns, heal 10 damage from each of your Pokemon.  (Ability)",
         "Attack 1": "[1G] Leaf Tornado (60) Move as many G Energy attached to your Pokemon to your other Pokemon in any way you like.",
-        "Weakness": "Rx2",
-        "Resistance": "W-20",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Rx2 / W-20 / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/89072_200w.jpg",
       "image_count": 1,
@@ -3655,13 +3593,11 @@
       "number": "126/124",
       "rarity": "Secret Rare",
       "ext_data": {
-        "Card Type": "Psychic",
-        "HP": "90",
-        "Stage": "Stage 2",
-        "CardText": "Damage Swap - As often as you like during your turn (before you attack), you may move 1 damage counter from 1 of your Pokemon to another of your Pokemon.  (Ability)",
+        "Card Number / Rarity": "126/124 / Secret Rare",
+        "Card Type / HP / Stage": "Psychic / 90 / Stage 2",
+        "Card Text": "Damage Swap - As often as you like during your turn (before you attack), you may move 1 damage counter from 1 of your Pokemon to another of your Pokemon.  (Ability)",
         "Attack 1": "[PPP] Psywave (30+) Does 10 more damage for each Energy attached to the Defending Pokemon.",
-        "Weakness": "Px2",
-        "RetreatCost": "2"
+        "Weakness / Resistance / Retreat Cost": "Px2 /  / 2"
       },
       "image_url": "https://cdn.tcgtracking.com/product/88722_200w.jpg",
       "image_count": 1,
@@ -3763,14 +3699,11 @@
       "number": "127/124",
       "rarity": "Secret Rare",
       "ext_data": {
-        "Card Type": "Darkness",
-        "HP": "150",
-        "Stage": "Stage 2",
+        "Card Number / Rarity": "127/124 / Secret Rare",
+        "Card Type / HP / Stage": "Darkness / 150 / Stage 2",
         "Attack 1": "[2D] Dark Clamp (60) The Defending Pokemon can't retreat during your opponent's next turn.",
         "Attack 2": "[2DD] Bombast (40x) Does 40 damage times the number of Prize cards you have taken.",
-        "Weakness": "Fx2",
-        "Resistance": "P-20",
-        "RetreatCost": "3"
+        "Weakness / Resistance / Retreat Cost": "Fx2 / P-20 / 3"
       },
       "image_url": "https://cdn.tcgtracking.com/product/86544_200w.jpg",
       "image_count": 1,
@@ -3872,13 +3805,12 @@
       "number": "128/124",
       "rarity": "Secret Rare",
       "ext_data": {
-        "Card Type": "Dragon",
-        "HP": "120",
-        "Stage": "Basic",
+        "Card Number / Rarity": "128/124 / Secret Rare",
+        "Card Type / HP / Stage": "Dragon / 120 / Basic",
         "Attack 1": "[L] Dragon Pulse (40) Discard the top 2 cards of your deck.",
         "Attack 2": "[1LR] Shred (90) This attack's damage isn't affected by any effects on the Defending Pokemon.",
-        "Weakness": "Ox2",
-        "RetreatCost": "3"
+        "Weakness / Resistance / Retreat Cost": "Ox2 /  / 3",
+        "TCGplayer Tip": "This Secret Rare Rayquaza card is one of the most valuable cards from the Dragons Exalted set of the Black & White Series. Dragons Exalted introduced the Dragon type to the Pokémon TCG—before 2012, Dragon Pokémon like Rayquaza were mostly depicted on Colorless cards."
       },
       "image_url": "https://cdn.tcgtracking.com/product/88630_200w.jpg",
       "image_count": 1,
@@ -3980,13 +3912,10 @@
       "number": "13/124",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Grass",
-        "HP": "70",
-        "Stage": "Basic",
+        "Card Number / Rarity": "13/124 / Common",
+        "Card Type / HP / Stage": "Grass / 70 / Basic",
         "Attack 1": "[1G] Needling Sting (10+) Flip a coin.  If heads, this attack does 20 more damage.",
-        "Weakness": "Rx2",
-        "Resistance": "W-20",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Rx2 / W-20 / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/88825_200w.jpg",
       "image_count": 1,
@@ -4098,14 +4027,11 @@
       "number": "14/124",
       "rarity": "Uncommon",
       "ext_data": {
-        "Card Type": "Grass",
-        "HP": "90",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "14/124 / Uncommon",
+        "Card Type / HP / Stage": "Grass / 90 / Stage 1",
         "Attack 1": "[G] Crosswise Whip (30x) Flip 4 coins.  This attack does 30 damage times the number of heads.",
         "Attack 2": "[2G] Poison Point (60) The Defending Pokemon is now Poisoned.",
-        "Weakness": "Rx2",
-        "Resistance": "W-20",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Rx2 / W-20 / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/88831_200w.jpg",
       "image_count": 1,
@@ -4217,14 +4143,11 @@
       "number": "15/124",
       "rarity": "Rare",
       "ext_data": {
-        "Card Type": "Grass",
-        "HP": "90",
-        "Stage": "Stage 1",
-        "CardText": "Le Parfum - When you play this Pokemon from your hand to evolve 1 of your Pokemon, you may search your deck for any card and put it into your hand.  Shuffle your deck afterward.  (Ability)",
+        "Card Number / Rarity": "15/124 / Rare",
+        "Card Type / HP / Stage": "Grass / 90 / Stage 1",
+        "Card Text": "Le Parfum - When you play this Pokemon from your hand to evolve 1 of your Pokemon, you may search your deck for any card and put it into your hand.  Shuffle your deck afterward.  (Ability)",
         "Attack 1": "[1G] Squeeze (30+) Flip a coin.  If heads, this attack does 20 more damage and the Defending Pokemon is now Paralyzed.",
-        "Weakness": "Rx2",
-        "Resistance": "W-20",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Rx2 / W-20 / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/88832_200w.jpg",
       "image_count": 1,
@@ -4336,14 +4259,11 @@
       "number": "16/124",
       "rarity": "Uncommon",
       "ext_data": {
-        "Card Type": "Grass",
-        "HP": "90",
-        "Stage": "Basic",
+        "Card Number / Rarity": "16/124 / Uncommon",
+        "Card Type / HP / Stage": "Grass / 90 / Basic",
         "Attack 1": "[1G] Stun Needle (20) Flip a coin.  If heads, the Defending Pokemon is now Paralyzed.",
         "Attack 2": "[2G] Reinforced Needle (40+) If this Pokemon has a Pokemon Tool card attached to it, this attack does 40 more damage.",
-        "Weakness": "Rx2",
-        "Resistance": "W-20",
-        "RetreatCost": "2"
+        "Weakness / Resistance / Retreat Cost": "Rx2 / W-20 / 2"
       },
       "image_url": "https://cdn.tcgtracking.com/product/87190_200w.jpg",
       "image_count": 1,
@@ -4455,13 +4375,10 @@
       "number": "17/124",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Grass",
-        "HP": "40",
-        "Stage": "Basic",
+        "Card Number / Rarity": "17/124 / Common",
+        "Card Type / HP / Stage": "Grass / 40 / Basic",
         "Attack 1": "[1] Double Spin (10x) Flip 2 coins.  This attack does 10 damage times the number of heads.",
-        "Weakness": "Rx2",
-        "Resistance": "W-20",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Rx2 / W-20 / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/85539_200w.jpg",
       "image_count": 1,
@@ -4573,12 +4490,10 @@
       "number": "18/124",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Fire",
-        "HP": "60",
-        "Stage": "Basic",
+        "Card Number / Rarity": "18/124 / Common",
+        "Card Type / HP / Stage": "Fire / 60 / Basic",
         "Attack 1": "[R] Singe - The Defending Pokemon is now Burned.",
-        "Weakness": "Wx2",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Wx2 /  / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/90447_200w.jpg",
       "image_count": 1,
@@ -4690,13 +4605,11 @@
       "number": "19/124",
       "rarity": "Holo Rare",
       "ext_data": {
-        "Card Type": "Fire",
-        "HP": "90",
-        "Stage": "Stage 1",
-        "CardText": "Bright Look - When you play this Pokemon from your hand to evolve 1 of your Pokemon, you may switch 1 of your opponent's Benched Pokemon with his or her Active Pokemon.  (Ability)",
+        "Card Number / Rarity": "19/124 / Holo Rare",
+        "Card Type / HP / Stage": "Fire / 90 / Stage 1",
+        "Card Text": "Bright Look - When you play this Pokemon from your hand to evolve 1 of your Pokemon, you may switch 1 of your opponent's Benched Pokemon with his or her Active Pokemon.  (Ability)",
         "Attack 1": "[R] Hexed Flame (20+) Does 50 more damage for each Special Condition affecting the Defending Pokemon.",
-        "Weakness": "Wx2",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Wx2 /  / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/87778_200w.jpg",
       "image_count": 1,
@@ -4808,13 +4721,10 @@
       "number": "2/124",
       "rarity": "Uncommon",
       "ext_data": {
-        "Card Type": "Grass",
-        "HP": "60",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "2/124 / Uncommon",
+        "Card Type / HP / Stage": "Grass / 60 / Stage 1",
         "Attack 1": "[G] Bullet Seed (10x) Flip 4 coins.  This attack does 10 damage times the number of heads.",
-        "Weakness": "Rx2",
-        "Resistance": "W-20",
-        "RetreatCost": "0"
+        "Weakness / Resistance / Retreat Cost": "Rx2 / W-20 / 0"
       },
       "image_url": "https://cdn.tcgtracking.com/product/89258_200w.jpg",
       "image_count": 1,
@@ -4926,13 +4836,11 @@
       "number": "20/124",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Fire",
-        "HP": "80",
-        "Stage": "Basic",
+        "Card Number / Rarity": "20/124 / Common",
+        "Card Type / HP / Stage": "Fire / 80 / Basic",
         "Attack 1": "[1] Beat (10)",
         "Attack 2": "[1RR] Magma Punch (50)",
-        "Weakness": "Wx2",
-        "RetreatCost": "2"
+        "Weakness / Resistance / Retreat Cost": "Wx2 /  / 2"
       },
       "image_url": "https://cdn.tcgtracking.com/product/87053_200w.jpg",
       "image_count": 1,
@@ -5044,13 +4952,11 @@
       "number": "21/124",
       "rarity": "Rare",
       "ext_data": {
-        "Card Type": "Fire",
-        "HP": "120",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "21/124 / Rare",
+        "Card Type / HP / Stage": "Fire / 120 / Stage 1",
         "Attack 1": "[R] Flame Screen (40) During your opponent's next turn, any damage done to this Pokemon by attacks is reduced by 20 (after applying Weakness and Resistance).",
         "Attack 2": "[2R] Flamethrower (90) Discard an Energy attached to this Pokemon.",
-        "Weakness": "Wx2",
-        "RetreatCost": "3"
+        "Weakness / Resistance / Retreat Cost": "Wx2 /  / 3"
       },
       "image_url": "https://cdn.tcgtracking.com/product/87062_200w.jpg",
       "image_count": 1,
@@ -5162,14 +5068,11 @@
       "number": "22/124",
       "rarity": "Ultra Rare",
       "ext_data": {
-        "Card Type": "Fire",
-        "HP": "160",
-        "Stage": "Basic",
-        "CardText": "Rebirth - Once during your turn (before your attack), if this Pokemon is in your discard pile, you may flip a coin.  If heads, put this Pokemon onto your Bench and attach 3 different types of basic Energy cards from your discard pile to this Pokemon.  (Ability)",
+        "Card Number / Rarity": "22/124 / Ultra Rare",
+        "Card Type / HP / Stage": "Fire / 160 / Basic",
+        "Card Text": "Rebirth - Once during your turn (before your attack), if this Pokemon is in your discard pile, you may flip a coin.  If heads, put this Pokemon onto your Bench and attach 3 different types of basic Energy cards from your discard pile to this Pokemon.  (Ability)",
         "Attack 1": "[3] Rainbow Burn (20+) Does 20 more damage for each different type of basic Energy attached to this Pokemon.",
-        "Weakness": "Wx2",
-        "Resistance": "F-20",
-        "RetreatCost": "2"
+        "Weakness / Resistance / Retreat Cost": "Wx2 / F-20 / 2"
       },
       "image_url": "https://cdn.tcgtracking.com/product/86130_200w.jpg",
       "image_count": 1,
@@ -5271,12 +5174,10 @@
       "number": "23/124",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Water",
-        "HP": "30",
-        "Stage": "Basic",
+        "Card Number / Rarity": "23/124 / Common",
+        "Card Type / HP / Stage": "Water / 30 / Basic",
         "Attack 1": "[W] Soggy Rush (10x) Flip a coin until you get tails.  This attack does 10 damage times the number of heads.",
-        "Weakness": "Lx2",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Lx2 /  / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/87036_200w.jpg",
       "image_count": 1,
@@ -5388,13 +5289,11 @@
       "number": "24/124",
       "rarity": "Rare",
       "ext_data": {
-        "Card Type": "Water",
-        "HP": "130",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "24/124 / Rare",
+        "Card Type / HP / Stage": "Water / 130 / Stage 1",
         "Attack 1": "[2W] Sharp Fang (60)",
         "Attack 2": "[3W] Swing Around (60+) Flip 2 coins.  This attack does 30 more damage for each heads.",
-        "Weakness": "Lx2",
-        "RetreatCost": "3"
+        "Weakness / Resistance / Retreat Cost": "Lx2 /  / 3"
       },
       "image_url": "https://cdn.tcgtracking.com/product/86000_200w.jpg",
       "image_count": 1,
@@ -5506,13 +5405,11 @@
       "number": "25/124",
       "rarity": "Uncommon",
       "ext_data": {
-        "Card Type": "Water",
-        "HP": "100",
-        "Stage": "Basic",
+        "Card Number / Rarity": "25/124 / Uncommon",
+        "Card Type / HP / Stage": "Water / 100 / Basic",
         "Attack 1": "[1] Lullaby - Flip a coin.  If heads, the Defending Pokemon is now Asleep.",
         "Attack 2": "[2W] Water Gun (30)",
-        "Weakness": "Lx2",
-        "RetreatCost": "3"
+        "Weakness / Resistance / Retreat Cost": "Lx2 /  / 3"
       },
       "image_url": "https://cdn.tcgtracking.com/product/90456_200w.jpg",
       "image_count": 1,
@@ -5624,13 +5521,11 @@
       "number": "26/124",
       "rarity": "Holo Rare",
       "ext_data": {
-        "Card Type": "Water",
-        "HP": "200",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "26/124 / Holo Rare",
+        "Card Type / HP / Stage": "Water / 200 / Stage 1",
         "Attack 1": "[W] Water Cannon (30x) Flip a coin.  If heads, this attack does 30 damage times the amount of W Energy attached to this Pokemon.",
         "Attack 2": "[3W] Giant Wave (80) This Pokemon can't use Giant Wave during your next turn.",
-        "Weakness": "Lx2",
-        "RetreatCost": "4"
+        "Weakness / Resistance / Retreat Cost": "Lx2 /  / 4"
       },
       "image_url": "https://cdn.tcgtracking.com/product/90462_200w.jpg",
       "image_count": 1,
@@ -5742,12 +5637,10 @@
       "number": "27/124",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Water",
-        "HP": "30",
-        "Stage": "Basic",
+        "Card Number / Rarity": "27/124 / Common",
+        "Card Type / HP / Stage": "Water / 30 / Basic",
         "Attack 1": "[W] Add-a-Dash - Flip 2 coins.  For each heads, draw a card.",
-        "Weakness": "Lx2",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Lx2 /  / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/85406_200w.jpg",
       "image_count": 1,
@@ -5859,13 +5752,11 @@
       "number": "28/124",
       "rarity": "Holo Rare",
       "ext_data": {
-        "Card Type": "Water",
-        "HP": "110",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "28/124 / Holo Rare",
+        "Card Type / HP / Stage": "Water / 110 / Stage 1",
         "Attack 1": "[W] Clear Search - Search your deck for any 3 cards and put them into your hand.  Shuffle your deck afterward.",
         "Attack 2": "[2W] Water Pulse (60) The Defending Pokemon is now Asleep.",
-        "Weakness": "Lx2",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Lx2 /  / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/87457_200w.jpg",
       "image_count": 1,
@@ -5977,12 +5868,10 @@
       "number": "29/124",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Water",
-        "HP": "60",
-        "Stage": "Basic",
+        "Card Number / Rarity": "29/124 / Common",
+        "Card Type / HP / Stage": "Water / 60 / Basic",
         "Attack 1": "[1W] Unstoppable Roll (10+) Flip 2 coins.  If both of them are heads, this attack does 30 more damage.",
-        "Weakness": "Mx2",
-        "RetreatCost": "2"
+        "Weakness / Resistance / Retreat Cost": "Mx2 /  / 2"
       },
       "image_url": "https://cdn.tcgtracking.com/product/89450_200w.jpg",
       "image_count": 1,
@@ -6094,14 +5983,11 @@
       "number": "3/124",
       "rarity": "Rare",
       "ext_data": {
-        "Card Type": "Grass",
-        "HP": "90",
-        "Stage": "Stage 2",
-        "CardText": "Leave It to the Wind - Once during your turn (before your attack), you may return this Pokemon and all cards attached to it to your hand.  (Ability)",
+        "Card Number / Rarity": "3/124 / Rare",
+        "Card Type / HP / Stage": "Grass / 90 / Stage 2",
+        "Card Text": "Leave It to the Wind - Once during your turn (before your attack), you may return this Pokemon and all cards attached to it to your hand.  (Ability)",
         "Attack 1": "[G] Acrobatics (20+) Flip 2 coins.  This attack does 30 more damage for each heads.",
-        "Weakness": "Rx2",
-        "Resistance": "W-20",
-        "RetreatCost": "0"
+        "Weakness / Resistance / Retreat Cost": "Rx2 / W-20 / 0"
       },
       "image_url": "https://cdn.tcgtracking.com/product/86368_200w.jpg",
       "image_count": 1,
@@ -6213,13 +6099,11 @@
       "number": "30/124",
       "rarity": "Uncommon",
       "ext_data": {
-        "Card Type": "Water",
-        "HP": "80",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "30/124 / Uncommon",
+        "Card Type / HP / Stage": "Water / 80 / Stage 1",
         "Attack 1": "[1W] Ice Ball (30)",
         "Attack 2": "[2W] Aurora Beam (40)",
-        "Weakness": "Mx2",
-        "RetreatCost": "3"
+        "Weakness / Resistance / Retreat Cost": "Mx2 /  / 3"
       },
       "image_url": "https://cdn.tcgtracking.com/product/89034_200w.jpg",
       "image_count": 1,
@@ -6331,13 +6215,11 @@
       "number": "31/124",
       "rarity": "Rare",
       "ext_data": {
-        "Card Type": "Water",
-        "HP": "140",
-        "Stage": "Stage 2",
+        "Card Number / Rarity": "31/124 / Rare",
+        "Card Type / HP / Stage": "Water / 140 / Stage 2",
         "Attack 1": "[2W] Aurora Beam (80)",
         "Attack 2": "[2WW] Ice Entomb (60) The Defending Pokemon is now Paralyzed.  This Pokemon can't use Ice Entomb during your next turn.",
-        "Weakness": "Mx2",
-        "RetreatCost": "4"
+        "Weakness / Resistance / Retreat Cost": "Mx2 /  / 4"
       },
       "image_url": "https://cdn.tcgtracking.com/product/90469_200w.jpg",
       "image_count": 1,
@@ -6449,12 +6331,10 @@
       "number": "32/124",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Water",
-        "HP": "70",
-        "Stage": "Basic",
+        "Card Number / Rarity": "32/124 / Common",
+        "Card Type / HP / Stage": "Water / 70 / Basic",
         "Attack 1": "[1] Wave Splash (10)",
-        "Weakness": "Lx2",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Lx2 /  / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/84023_200w.jpg",
       "image_count": 1,
@@ -6566,13 +6446,11 @@
       "number": "33/124",
       "rarity": "Uncommon",
       "ext_data": {
-        "Card Type": "Water",
-        "HP": "90",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "33/124 / Uncommon",
+        "Card Type / HP / Stage": "Water / 90 / Stage 1",
         "Attack 1": "[1] Wave Splash (20)",
         "Attack 2": "[WW] Waterfall (60)",
-        "Weakness": "Lx2",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Lx2 /  / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/85516_200w.jpg",
       "image_count": 1,
@@ -6684,12 +6562,10 @@
       "number": "34/124",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Water",
-        "HP": "50",
-        "Stage": "Basic",
+        "Card Number / Rarity": "34/124 / Common",
+        "Card Type / HP / Stage": "Water / 50 / Basic",
         "Attack 1": "[W] Bubble (10) Flip a coin.  If heads, the Defending Pokemon is now Paralyzed.",
-        "Weakness": "Gx2",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Gx2 /  / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/90090_200w.jpg",
       "image_count": 1,
@@ -6801,13 +6677,11 @@
       "number": "35/124",
       "rarity": "Uncommon",
       "ext_data": {
-        "Card Type": "Water",
-        "HP": "80",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "35/124 / Uncommon",
+        "Card Type / HP / Stage": "Water / 80 / Stage 1",
         "Attack 1": "[1] Supersonic - The Defending Pokemon is now Confused.",
         "Attack 2": "[2W] Hyper Voice (50)",
-        "Weakness": "Gx2",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Gx2 /  / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/87924_200w.jpg",
       "image_count": 1,
@@ -6919,13 +6793,11 @@
       "number": "36/124",
       "rarity": "Rare",
       "ext_data": {
-        "Card Type": "Water",
-        "HP": "140",
-        "Stage": "Stage 2",
+        "Card Number / Rarity": "36/124 / Rare",
+        "Card Type / HP / Stage": "Water / 140 / Stage 2",
         "Attack 1": "[3] Echoed Voice (50) During your next turn, this Pokemon's attack does 50 more damage (before applying Weakness and Resistance).",
         "Attack 2": "[3W] Drain Punch (80) Heal 20 damage from this Pokemon.",
-        "Weakness": "Gx2",
-        "RetreatCost": "2"
+        "Weakness / Resistance / Retreat Cost": "Gx2 /  / 2"
       },
       "image_url": "https://cdn.tcgtracking.com/product/89058_200w.jpg",
       "image_count": 1,
@@ -7037,13 +6909,11 @@
       "number": "37/124",
       "rarity": "Rare",
       "ext_data": {
-        "Card Type": "Water",
-        "HP": "90",
-        "Stage": "Basic",
+        "Card Number / Rarity": "37/124 / Rare",
+        "Card Type / HP / Stage": "Water / 90 / Basic",
         "Attack 1": "[1W] Mysterious Beam (30) Flip a coin.  If heads, discard an Energy attached to the Defending Pokemon.",
         "Attack 2": "[2W] Double Slap (50x) Flip 2 coins.  This attack does 50 damage times the number of heads.",
-        "Weakness": "Lx2",
-        "RetreatCost": "2"
+        "Weakness / Resistance / Retreat Cost": "Lx2 /  / 2"
       },
       "image_url": "https://cdn.tcgtracking.com/product/83508_200w.jpg",
       "image_count": 1,
@@ -7155,13 +7025,11 @@
       "number": "38/124",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Lightning",
-        "HP": "60",
-        "Stage": "Basic",
+        "Card Number / Rarity": "38/124 / Common",
+        "Card Type / HP / Stage": "Lightning / 60 / Basic",
         "Attack 1": "[1] Cotton Guard - During your opponent's next turn, any damage done to this Pokemon by attacks is reduced by 20 (after applying Weakness and Resistance).",
         "Attack 2": "[1L] Thunder Jolt (30) Flip a coin.  If tails, this Pokemon does 10 damage to itself.",
-        "Weakness": "Fx2",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Fx2 /  / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/87208_200w.jpg",
       "image_count": 1,
@@ -7273,13 +7141,11 @@
       "number": "39/124",
       "rarity": "Uncommon",
       "ext_data": {
-        "Card Type": "Lightning",
-        "HP": "80",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "39/124 / Uncommon",
+        "Card Type / HP / Stage": "Lightning / 80 / Stage 1",
         "Attack 1": "[1] Cotton Guard (20) During your opponent's next turn, any damage done to this Pokemon by attacks is reduced by 20 (after applying Weakness and Resistance).",
         "Attack 2": "[2L] Power Gem (40)",
-        "Weakness": "Fx2",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Fx2 /  / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/85486_200w.jpg",
       "image_count": 1,
@@ -7391,13 +7257,10 @@
       "number": "4/124",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Grass",
-        "HP": "70",
-        "Stage": "Basic",
+        "Card Number / Rarity": "4/124 / Common",
+        "Card Type / HP / Stage": "Grass / 70 / Basic",
         "Attack 1": "[2] Whirlwind (20) Your opponent switches the Defending Pokemon with 1 of his or her Benched Pokemon.",
-        "Weakness": "Lx2",
-        "Resistance": "F-20",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Lx2 / F-20 / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/90689_200w.jpg",
       "image_count": 1,
@@ -7509,13 +7372,11 @@
       "number": "40/124",
       "rarity": "Holo Rare",
       "ext_data": {
-        "Card Type": "Lightning",
-        "HP": "140",
-        "Stage": "Stage 2",
-        "CardText": "Electromagnetic Wall - As long as this Pokemon is your Active Pokemon, whenever your opponent attaches an Energy from his or her hand to 1 of his or her Pokemon, put 3 damage counters on that Pokemon.  (Ability)",
+        "Card Number / Rarity": "40/124 / Holo Rare",
+        "Card Type / HP / Stage": "Lightning / 140 / Stage 2",
+        "Card Text": "Electromagnetic Wall - As long as this Pokemon is your Active Pokemon, whenever your opponent attaches an Energy from his or her hand to 1 of his or her Pokemon, put 3 damage counters on that Pokemon.  (Ability)",
         "Attack 1": "[2L] Electrobullet (70) Does 20 damage to 1 of your opponent's Benched Pokemon.  (Don't apply Weakness and Resistance for Benched Pokemon.)",
-        "Weakness": "Fx2",
-        "RetreatCost": "2"
+        "Weakness / Resistance / Retreat Cost": "Fx2 /  / 2"
       },
       "image_url": "https://cdn.tcgtracking.com/product/83547_200w.jpg",
       "image_count": 1,
@@ -7627,13 +7488,11 @@
       "number": "41/124",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Lightning",
-        "HP": "60",
-        "Stage": "Basic",
+        "Card Number / Rarity": "41/124 / Common",
+        "Card Type / HP / Stage": "Lightning / 60 / Basic",
         "Attack 1": "[L] Tackle (10)",
         "Attack 2": "[1L] Quick Attack (10+) Flip a coin.  If heads, this attack does 20 more damage.",
-        "Weakness": "Fx2",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Fx2 /  / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/85144_200w.jpg",
       "image_count": 1,
@@ -7745,12 +7604,10 @@
       "number": "42/124",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Lightning",
-        "HP": "60",
-        "Stage": "Basic",
+        "Card Number / Rarity": "42/124 / Common",
+        "Card Type / HP / Stage": "Lightning / 60 / Basic",
         "Attack 1": "[1L] Quick Turn (20x) Flip 2 coins.  This attack does 20 damage times the number of heads.",
-        "Weakness": "Fx2",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Fx2 /  / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/85145_200w.jpg",
       "image_count": 1,
@@ -7862,13 +7719,11 @@
       "number": "43/124",
       "rarity": "Rare",
       "ext_data": {
-        "Card Type": "Lightning",
-        "HP": "90",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "43/124 / Rare",
+        "Card Type / HP / Stage": "Lightning / 90 / Stage 1",
         "Attack 1": "[L] Energy Crush (20x) Does 20 damage times the amount of Energy attached to all of your opponent's Pokemon.",
         "Attack 2": "[2L] Flash Impact (80) Does 20 damage to 1 of your Pokemon.  (Don't apply Weakness and Resistance for Benched Pokemon.)",
-        "Weakness": "Fx2",
-        "RetreatCost": "0"
+        "Weakness / Resistance / Retreat Cost": "Fx2 /  / 0"
       },
       "image_url": "https://cdn.tcgtracking.com/product/87165_200w.jpg",
       "image_count": 1,
@@ -7980,13 +7835,11 @@
       "number": "44/124",
       "rarity": "Rare",
       "ext_data": {
-        "Card Type": "Lightning",
-        "HP": "90",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "44/124 / Rare",
+        "Card Type / HP / Stage": "Lightning / 90 / Stage 1",
         "Attack 1": "[L] Energy Assist - Attach 2 basic Energy cards from your discard pile to 1 of your Benched Pokemon.",
         "Attack 2": "[1L] Quick Attack (30+) Flip a coin.  If heads, this attack does 20 more damage.",
-        "Weakness": "Fx2",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Fx2 /  / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/87166_200w.jpg",
       "image_count": 1,
@@ -8098,14 +7951,11 @@
       "number": "45/124",
       "rarity": "Uncommon",
       "ext_data": {
-        "Card Type": "Lightning",
-        "HP": "70",
-        "Stage": "Basic",
+        "Card Number / Rarity": "45/124 / Uncommon",
+        "Card Type / HP / Stage": "Lightning / 70 / Basic",
         "Attack 1": "[1] Call for Family - Search your deck for 2 Basic Pokemon and put them onto your Bench.  Shuffle your deck afterward.",
         "Attack 2": "[L] Static Shock (20)",
-        "Weakness": "Lx2",
-        "Resistance": "F-20",
-        "RetreatCost": "0"
+        "Weakness / Resistance / Retreat Cost": "Lx2 / F-20 / 0"
       },
       "image_url": "https://cdn.tcgtracking.com/product/85191_200w.jpg",
       "image_count": 1,
@@ -8217,13 +8067,11 @@
       "number": "46/124",
       "rarity": "Ultra Rare",
       "ext_data": {
-        "Card Type": "Psychic",
-        "HP": "120",
-        "Stage": "Basic",
-        "CardText": "Versatile - This Pokemon can use the attacks of any Pokemon in play (both yours and your opponent's).  (You still need the necessary Energy to use each attack.)  (Ability)",
+        "Card Number / Rarity": "46/124 / Ultra Rare",
+        "Card Type / HP / Stage": "Psychic / 120 / Basic",
+        "Card Text": "Versatile - This Pokemon can use the attacks of any Pokemon in play (both yours and your opponent's).  (You still need the necessary Energy to use each attack.)  (Ability)",
         "Attack 1": "[P] Replace - Move as many Energy attached to your Pokemon to your other Pokemon in any way you like.",
-        "Weakness": "Px2",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Px2 /  / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/87411_200w.jpg",
       "image_count": 1,
@@ -8325,13 +8173,11 @@
       "number": "47/124",
       "rarity": "Rare",
       "ext_data": {
-        "Card Type": "Psychic",
-        "HP": "130",
-        "Stage": "Stage 2",
+        "Card Number / Rarity": "47/124 / Rare",
+        "Card Type / HP / Stage": "Psychic / 130 / Stage 2",
         "Attack 1": "[P] Hazardous Scales - The Defending Pokemon is now Asleep, Burned, and Poisoned.",
         "Attack 2": "[2P] Aerial Ace (50+) Flip a coin.  If heads, this attack does 30 more damage.",
-        "Weakness": "Px2",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Px2 /  / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/85059_200w.jpg",
       "image_count": 1,
@@ -8443,12 +8289,11 @@
       "number": "48/124",
       "rarity": "Rare",
       "ext_data": {
-        "Card Type": "Psychic",
-        "HP": "60",
-        "Stage": "Stage 1",
-        "CardText": "Empty Shell - If this Pokemon is Knocked Out, your opponent can't take any Prize cards for it.  (Ability)",
+        "Card Number / Rarity": "48/124 / Rare",
+        "Card Type / HP / Stage": "Psychic / 60 / Stage 1",
+        "Card Text": "Empty Shell - If this Pokemon is Knocked Out, your opponent can't take any Prize cards for it.  (Ability)",
         "Attack 1": "[P] Cursed Drop - Put 3 damage counters on your opponent's Pokemon in any way you like.",
-        "RetreatCost": "0"
+        "Weakness / Resistance / Retreat Cost": " /  / 0"
       },
       "image_url": "https://cdn.tcgtracking.com/product/89121_200w.jpg",
       "image_count": 1,
@@ -8560,12 +8405,10 @@
       "number": "49/124",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Psychic",
-        "HP": "60",
-        "Stage": "Basic",
+        "Card Number / Rarity": "49/124 / Common",
+        "Card Type / HP / Stage": "Psychic / 60 / Basic",
         "Attack 1": "[P] Sneaky Placement - Put 1 damage counter on 1 of your opponent's Pokemon.",
-        "Weakness": "Dx2",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Dx2 /  / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/84961_200w.jpg",
       "image_count": 1,
@@ -8677,14 +8520,11 @@
       "number": "5/124",
       "rarity": "Rare",
       "ext_data": {
-        "Card Type": "Grass",
-        "HP": "100",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "5/124 / Rare",
+        "Card Type / HP / Stage": "Grass / 100 / Stage 1",
         "Attack 1": "[2] Agility (30) Flip a coin.  If heads, prevent all effects of attacks, including damage, done to this Pokemon during your opponent's next turn.",
         "Attack 2": "[3] Cutting Wind (70)",
-        "Weakness": "Lx2",
-        "Resistance": "F-20",
-        "RetreatCost": "0"
+        "Weakness / Resistance / Retreat Cost": "Lx2 / F-20 / 0"
       },
       "image_url": "https://cdn.tcgtracking.com/product/90695_200w.jpg",
       "image_count": 1,
@@ -8796,13 +8636,11 @@
       "number": "50/124",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Psychic",
-        "HP": "60",
-        "Stage": "Basic",
+        "Card Number / Rarity": "50/124 / Common",
+        "Card Type / HP / Stage": "Psychic / 60 / Basic",
         "Attack 1": "[1] Beat (10)",
         "Attack 2": "[1P] Gust (20)",
-        "Weakness": "Dx2",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Dx2 /  / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/84962_200w.jpg",
       "image_count": 1,
@@ -8914,13 +8752,11 @@
       "number": "51/124",
       "rarity": "Rare",
       "ext_data": {
-        "Card Type": "Psychic",
-        "HP": "100",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "51/124 / Rare",
+        "Card Type / HP / Stage": "Psychic / 100 / Stage 1",
         "Attack 1": "[1] Shadow Steal (50x) Does 50 damage times the number of Special Energy cards in your opponent's discard pile.",
         "Attack 2": "[1P] Plentiful Placement - Put 4 damage counters on 1 of your opponent's Pokemon.",
-        "Weakness": "Dx2",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Dx2 /  / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/84949_200w.jpg",
       "image_count": 1,
@@ -9032,13 +8868,11 @@
       "number": "52/124",
       "rarity": "Holo Rare",
       "ext_data": {
-        "Card Type": "Psychic",
-        "HP": "90",
-        "Stage": "Basic",
-        "CardText": "Safeguard - Prevent all effects of attacks, including damage, done to this Pokemon by Pokemon-EX.  (Ability)",
+        "Card Number / Rarity": "52/124 / Holo Rare",
+        "Card Type / HP / Stage": "Psychic / 90 / Basic",
+        "Card Text": "Safeguard - Prevent all effects of attacks, including damage, done to this Pokemon by Pokemon-EX.  (Ability)",
         "Attack 1": "[2P] Psychic (50+) Does 10 more damage for each Energy attached to the Defending Pokemon.",
-        "Weakness": "Px2",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Px2 /  / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/89206_200w.jpg",
       "image_count": 1,
@@ -9150,13 +8984,11 @@
       "number": "53/124",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Psychic",
-        "HP": "70",
-        "Stage": "Basic",
+        "Card Number / Rarity": "53/124 / Common",
+        "Card Type / HP / Stage": "Psychic / 70 / Basic",
         "Attack 1": "[2] Pound (20)",
         "Attack 2": "[2P] Poison Gas (30) The Defending Pokemon is now Poisoned.",
-        "Weakness": "Px2",
-        "RetreatCost": "2"
+        "Weakness / Resistance / Retreat Cost": "Px2 /  / 2"
       },
       "image_url": "https://cdn.tcgtracking.com/product/90066_200w.jpg",
       "image_count": 1,
@@ -9268,13 +9100,11 @@
       "number": "54/124",
       "rarity": "Holo Rare",
       "ext_data": {
-        "Card Type": "Psychic",
-        "HP": "100",
-        "Stage": "Stage 1",
-        "CardText": "Garbotoxin - If this Pokemon has a Pokemon Tool card attached to it, each Pokemon in play, in each player's hand, and in each player's discard pile has no Abilities (except for Garbotoxin).  (Ability)",
+        "Card Number / Rarity": "54/124 / Holo Rare",
+        "Card Type / HP / Stage": "Psychic / 100 / Stage 1",
+        "Card Text": "Garbotoxin - If this Pokemon has a Pokemon Tool card attached to it, each Pokemon in play, in each player's hand, and in each player's discard pile has no Abilities (except for Garbotoxin).  (Ability)",
         "Attack 1": "[1PP] Sludge Toss (60)",
-        "Weakness": "Px2",
-        "RetreatCost": "3"
+        "Weakness / Resistance / Retreat Cost": "Px2 /  / 3"
       },
       "image_url": "https://cdn.tcgtracking.com/product/85616_200w.jpg",
       "image_count": 1,
@@ -9386,12 +9216,10 @@
       "number": "55/124",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Psychic",
-        "HP": "50",
-        "Stage": "Basic",
+        "Card Number / Rarity": "55/124 / Common",
+        "Card Type / HP / Stage": "Psychic / 50 / Basic",
         "Attack 1": "[P] Future Sight - Look at the top 5 cards of your deck and put them back on top of your deck in any order.",
-        "Weakness": "Px2",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Px2 /  / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/85847_200w.jpg",
       "image_count": 1,
@@ -9503,13 +9331,11 @@
       "number": "56/124",
       "rarity": "Uncommon",
       "ext_data": {
-        "Card Type": "Psychic",
-        "HP": "80",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "56/124 / Uncommon",
+        "Card Type / HP / Stage": "Psychic / 80 / Stage 1",
         "Attack 1": "[P] Hypnoblast (10) The Defending Pokemon is now Asleep.",
         "Attack 2": "[2P] Mind Shock (40) This attack's damage isn't affected by Weakness or Resistance.",
-        "Weakness": "Px2",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Px2 /  / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/85857_200w.jpg",
       "image_count": 1,
@@ -9621,13 +9447,11 @@
       "number": "57/124",
       "rarity": "Rare",
       "ext_data": {
-        "Card Type": "Psychic",
-        "HP": "130",
-        "Stage": "Stage 2",
+        "Card Number / Rarity": "57/124 / Rare",
+        "Card Type / HP / Stage": "Psychic / 130 / Stage 2",
         "Attack 1": "[1P] Doom Decree - Flip 2 coins.  If both of them are heads, the Defending Pokemon is Knocked Out.",
         "Attack 2": "[2P] Black Magic (40+) Does 20 more damage for each of your opponent's Benched Pokemon.",
-        "Weakness": "Px2",
-        "RetreatCost": "2"
+        "Weakness / Resistance / Retreat Cost": "Px2 /  / 2"
       },
       "image_url": "https://cdn.tcgtracking.com/product/85853_200w.jpg",
       "image_count": 1,
@@ -9739,13 +9563,11 @@
       "number": "58/124",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Psychic",
-        "HP": "90",
-        "Stage": "Basic",
+        "Card Number / Rarity": "58/124 / Common",
+        "Card Type / HP / Stage": "Psychic / 90 / Basic",
         "Attack 1": "[2] Nap - Heal 40 damage from this Pokemon.",
         "Attack 2": "[2P] Pound (40)",
-        "Weakness": "Dx2",
-        "RetreatCost": "3"
+        "Weakness / Resistance / Retreat Cost": "Dx2 /  / 3"
       },
       "image_url": "https://cdn.tcgtracking.com/product/85833_200w.jpg",
       "image_count": 1,
@@ -9857,13 +9679,11 @@
       "number": "59/124",
       "rarity": "Holo Rare",
       "ext_data": {
-        "Card Type": "Psychic",
-        "HP": "130",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "59/124 / Holo Rare",
+        "Card Type / HP / Stage": "Psychic / 130 / Stage 1",
         "Attack 1": "[2P] Devolution Punch (60) Devolve the Defending Pokemon and put the highest Stage Evolution card on it into your opponent's hand.",
         "Attack 2": "[2PP] Ghost Hammer (90) During your opponent's next turn, this Pokemon has no Weakness.",
-        "Weakness": "Dx2",
-        "RetreatCost": "4"
+        "Weakness / Resistance / Retreat Cost": "Dx2 /  / 4"
       },
       "image_url": "https://cdn.tcgtracking.com/product/85836_200w.jpg",
       "image_count": 1,
@@ -9975,12 +9795,10 @@
       "number": "6/124",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Grass",
-        "HP": "60",
-        "Stage": "Basic",
+        "Card Number / Rarity": "6/124 / Common",
+        "Card Type / HP / Stage": "Grass / 60 / Basic",
         "Attack 1": "[1] Sleep Poison - Flip a coin.  If heads, the Defending Pokemon is now Asleep and Poisoned.",
-        "Weakness": "Rx2",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Rx2 /  / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/90653_200w.jpg",
       "image_count": 1,
@@ -10092,14 +9910,11 @@
       "number": "60/124",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Fighting",
-        "HP": "70",
-        "Stage": "Basic",
+        "Card Number / Rarity": "60/124 / Common",
+        "Card Type / HP / Stage": "Fighting / 70 / Basic",
         "Attack 1": "[F] Headbutt (10)",
         "Attack 2": "[2] Beat (20)",
-        "Weakness": "Wx2",
-        "Resistance": "L-20",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Wx2 / L-20 / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/84536_200w.jpg",
       "image_count": 1,
@@ -10211,14 +10026,11 @@
       "number": "61/124",
       "rarity": "Rare",
       "ext_data": {
-        "Card Type": "Fighting",
-        "HP": "100",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "61/124 / Rare",
+        "Card Type / HP / Stage": "Fighting / 100 / Stage 1",
         "Attack 1": "[F] Bone Lock (30) The Defending Pokemon can't retreat during your opponent's next turn.",
         "Attack 2": "[2F] Vortex Chop (60+) If the Defending Pokemon has any Resistance, this attack does 30 more damage.",
-        "Weakness": "Wx2",
-        "Resistance": "L-20",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Wx2 / L-20 / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/87229_200w.jpg",
       "image_count": 1,
@@ -10330,12 +10142,10 @@
       "number": "62/124",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Fighting",
-        "HP": "80",
-        "Stage": "Basic",
+        "Card Number / Rarity": "62/124 / Common",
+        "Card Type / HP / Stage": "Fighting / 80 / Basic",
         "Attack 1": "[2] Rock Throw (20)",
-        "Weakness": "Gx2",
-        "RetreatCost": "2"
+        "Weakness / Resistance / Retreat Cost": "Gx2 /  / 2"
       },
       "image_url": "https://cdn.tcgtracking.com/product/87804_200w.jpg",
       "image_count": 1,
@@ -10447,13 +10257,11 @@
       "number": "63/124",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Fighting",
-        "HP": "60",
-        "Stage": "Basic",
+        "Card Number / Rarity": "63/124 / Common",
+        "Card Type / HP / Stage": "Fighting / 60 / Basic",
         "Attack 1": "[1] Spinning Attack (10)",
         "Attack 2": "[2] Reverse Spin - Your opponent shuffles his or her hand into his or her hand and draws 4 cards.",
-        "Weakness": "Gx2",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Gx2 /  / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/83718_200w.jpg",
       "image_count": 1,
@@ -10565,13 +10373,11 @@
       "number": "64/124",
       "rarity": "Rare",
       "ext_data": {
-        "Card Type": "Fighting",
-        "HP": "90",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "64/124 / Rare",
+        "Card Type / HP / Stage": "Fighting / 90 / Stage 1",
         "Attack 1": "[2] Rapid Spin (30) Switch this Pokemon with 1 of your Benched Pokemon.  Then, your opponent switches the Defending Pokemon with 1 of his or her Benched Pokemon.",
         "Attack 2": "[2F] Rock Smash (60+) Flip a coin.  If heads, this attack does 30 more damage.",
-        "Weakness": "Gx2",
-        "RetreatCost": "3"
+        "Weakness / Resistance / Retreat Cost": "Gx2 /  / 3"
       },
       "image_url": "https://cdn.tcgtracking.com/product/84339_200w.jpg",
       "image_count": 1,
@@ -10683,13 +10489,11 @@
       "number": "65/124",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Fighting",
-        "HP": "70",
-        "Stage": "Basic",
+        "Card Number / Rarity": "65/124 / Common",
+        "Card Type / HP / Stage": "Fighting / 70 / Basic",
         "Attack 1": "[1F] Stone Edge (10+) Flip a coin.  If heads, this attack does 20 more damage.",
         "Attack 2": "[2F] Hammer In (40)",
-        "Weakness": "Gx2",
-        "RetreatCost": "3"
+        "Weakness / Resistance / Retreat Cost": "Gx2 /  / 3"
       },
       "image_url": "https://cdn.tcgtracking.com/product/88807_200w.jpg",
       "image_count": 1,
@@ -10801,13 +10605,11 @@
       "number": "66/124",
       "rarity": "Uncommon",
       "ext_data": {
-        "Card Type": "Fighting",
-        "HP": "90",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "66/124 / Uncommon",
+        "Card Type / HP / Stage": "Fighting / 90 / Stage 1",
         "Attack 1": "[F] Rock Cannon (30x) Flip a coin until you get tails.  This attack does 30 damage times the number of heads.",
         "Attack 2": "[2F] Earthquake (60) Does 10 damage to each of your Benched Pokemon.  (Don't apply Weakness and Resistance for Benched Pokemon.)",
-        "Weakness": "Gx2",
-        "RetreatCost": "3"
+        "Weakness / Resistance / Retreat Cost": "Gx2 /  / 3"
       },
       "image_url": "https://cdn.tcgtracking.com/product/83935_200w.jpg",
       "image_count": 1,
@@ -10919,13 +10721,11 @@
       "number": "67/124",
       "rarity": "Holo Rare",
       "ext_data": {
-        "Card Type": "Fighting",
-        "HP": "140",
-        "Stage": "Stage 2",
+        "Card Number / Rarity": "67/124 / Holo Rare",
+        "Card Type / HP / Stage": "Fighting / 140 / Stage 2",
         "Attack 1": "[2F] Revenge Cannon (10+) Does 10 more damage for each damage counter on each of your Benched Pokemon.",
         "Attack 2": "[2FF] Reckless Charge (120) This Pokemon does 40 damage to itself.",
-        "Weakness": "Gx2",
-        "RetreatCost": "4"
+        "Weakness / Resistance / Retreat Cost": "Gx2 /  / 4"
       },
       "image_url": "https://cdn.tcgtracking.com/product/85707_200w.jpg",
       "image_count": 1,
@@ -11037,13 +10837,11 @@
       "number": "68/124",
       "rarity": "Uncommon",
       "ext_data": {
-        "Card Type": "Fighting",
-        "HP": "100",
-        "Stage": "Basic",
+        "Card Number / Rarity": "68/124 / Uncommon",
+        "Card Type / HP / Stage": "Fighting / 100 / Basic",
         "Attack 1": "[2F] Squeeze (40+) Flip a coin.  If heads, this attack does 20 more damage and the Defending Pokemon is now Paralyzed.",
         "Attack 2": "[3F] Superpower (70+) You may do 20 more damage.  If you do, this Pokemon does 20 damage to itself.",
-        "Weakness": "Px2",
-        "RetreatCost": "3"
+        "Weakness / Resistance / Retreat Cost": "Px2 /  / 3"
       },
       "image_url": "https://cdn.tcgtracking.com/product/89901_200w.jpg",
       "image_count": 1,
@@ -11155,13 +10953,11 @@
       "number": "69/124",
       "rarity": "Uncommon",
       "ext_data": {
-        "Card Type": "Fighting",
-        "HP": "90",
-        "Stage": "Basic",
+        "Card Number / Rarity": "69/124 / Uncommon",
+        "Card Type / HP / Stage": "Fighting / 90 / Basic",
         "Attack 1": "[1] Defensive Stance - Heal 30 damage from this Pokemon.  Switch this Pokemon with 1 of your Benched Pokemon.",
         "Attack 2": "[2F] Karate Chop (70-) Does 70 damage minus 10 for each damage counter on this Pokemon.",
-        "Weakness": "Px2",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Px2 /  / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/88939_200w.jpg",
       "image_count": 1,
@@ -11273,13 +11069,11 @@
       "number": "7/124",
       "rarity": "Uncommon",
       "ext_data": {
-        "Card Type": "Grass",
-        "HP": "80",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "7/124 / Uncommon",
+        "Card Type / HP / Stage": "Grass / 80 / Stage 1",
         "Attack 1": "[1] Harden - During your opponent's next turn, if this Pokemon would be damaged by an attack, prevent that attack's damage done to this Pokemon if that damage is 60 or less.",
         "Attack 2": "[2G] Bug Bite (40)",
-        "Weakness": "Rx2",
-        "RetreatCost": "3"
+        "Weakness / Resistance / Retreat Cost": "Rx2 /  / 3"
       },
       "image_url": "https://cdn.tcgtracking.com/product/89214_200w.jpg",
       "image_count": 1,
@@ -11391,14 +11185,11 @@
       "number": "70/124",
       "rarity": "Uncommon",
       "ext_data": {
-        "Card Type": "Fighting",
-        "HP": "100",
-        "Stage": "Basic",
+        "Card Number / Rarity": "70/124 / Uncommon",
+        "Card Type / HP / Stage": "Fighting / 100 / Basic",
         "Attack 1": "[F] Muddy Water (20) Does 20 damage to 1 of your opponent's Benched Pokemon.  (Don't apply Weakness and Resistance for Benched Pokemon.)",
         "Attack 2": "[1F] Rumble (40) The Defending Pokemon can't retreat during your opponent's next turn.",
-        "Weakness": "Wx2",
-        "Resistance": "L-20",
-        "RetreatCost": "3"
+        "Weakness / Resistance / Retreat Cost": "Wx2 / L-20 / 3"
       },
       "image_url": "https://cdn.tcgtracking.com/product/89581_200w.jpg",
       "image_count": 1,
@@ -11510,13 +11301,11 @@
       "number": "71/124",
       "rarity": "Ultra Rare",
       "ext_data": {
-        "Card Type": "Fighting",
-        "HP": "180",
-        "Stage": "Basic",
+        "Card Number / Rarity": "71/124 / Ultra Rare",
+        "Card Type / HP / Stage": "Fighting / 180 / Basic",
         "Attack 1": "[1F] Rock Tumble (50) This attack's damage isn't affected by Resistance.",
         "Attack 2": "[1FF] Pump-up Smash (90) Attach 2 basic Energy cards from your hand to your Benched Pokemon in any way you like.",
-        "Weakness": "Gx2",
-        "RetreatCost": "3"
+        "Weakness / Resistance / Retreat Cost": "Gx2 /  / 3"
       },
       "image_url": "https://cdn.tcgtracking.com/product/89892_200w.jpg",
       "image_count": 1,
@@ -11618,14 +11407,11 @@
       "number": "72/124",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Darkness",
-        "HP": "70",
-        "Stage": "Basic",
+        "Card Number / Rarity": "72/124 / Common",
+        "Card Type / HP / Stage": "Darkness / 70 / Basic",
         "Attack 1": "[1] Peck (10)",
         "Attack 2": "[1D] Wing Attack (20)",
-        "Weakness": "Lx2",
-        "Resistance": "F-20",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Lx2 / F-20 / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/87657_200w.jpg",
       "image_count": 1,
@@ -11737,14 +11523,11 @@
       "number": "73/124",
       "rarity": "Rare",
       "ext_data": {
-        "Card Type": "Darkness",
-        "HP": "110",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "73/124 / Rare",
+        "Card Type / HP / Stage": "Darkness / 110 / Stage 1",
         "Attack 1": "[2] Whirlwind (30) Your opponent switches the Defending Pokemon with 1 of his or her Benched Pokemon.",
         "Attack 2": "[2D] Diving Swipe (70) Discard a random card from your opponent's hand.",
-        "Weakness": "Lx2",
-        "Resistance": "F-20",
-        "RetreatCost": "2"
+        "Weakness / Resistance / Retreat Cost": "Lx2 / F-20 / 2"
       },
       "image_url": "https://cdn.tcgtracking.com/product/86163_200w.jpg",
       "image_count": 1,
@@ -11856,14 +11639,11 @@
       "number": "74/124",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Darkness",
-        "HP": "60",
-        "Stage": "Basic",
+        "Card Number / Rarity": "74/124 / Common",
+        "Card Type / HP / Stage": "Darkness / 60 / Basic",
         "Attack 1": "[D] Bite (10)",
         "Attack 2": "[2D] Darkness Fang (30)",
-        "Weakness": "Fx2",
-        "Resistance": "P-20",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Fx2 / P-20 / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/86233_200w.jpg",
       "image_count": 1,
@@ -11975,14 +11755,11 @@
       "number": "75/124",
       "rarity": "Rare",
       "ext_data": {
-        "Card Type": "Darkness",
-        "HP": "100",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "75/124 / Rare",
+        "Card Type / HP / Stage": "Darkness / 100 / Stage 1",
         "Attack 1": "[D] Bite (30)",
         "Attack 2": "[2D] Fire Fang (70) The Defending Pokemon is now Burned.",
-        "Weakness": "Fx2",
-        "Resistance": "P-20",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Fx2 / P-20 / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/86212_200w.jpg",
       "image_count": 1,
@@ -12094,13 +11871,10 @@
       "number": "76/124",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Darkness",
-        "HP": "60",
-        "Stage": "Basic",
+        "Card Number / Rarity": "76/124 / Common",
+        "Card Type / HP / Stage": "Darkness / 60 / Basic",
         "Attack 1": "[D] Acid Spray (10) Flip a coin.  If heads, discard an Energy attached to the Defending Pokemon.",
-        "Weakness": "Fx2",
-        "Resistance": "P-20",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Fx2 / P-20 / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/89588_200w.jpg",
       "image_count": 1,
@@ -12212,14 +11986,11 @@
       "number": "77/124",
       "rarity": "Uncommon",
       "ext_data": {
-        "Card Type": "Darkness",
-        "HP": "90",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "77/124 / Uncommon",
+        "Card Type / HP / Stage": "Darkness / 90 / Stage 1",
         "Attack 1": "[D] Smogscreen (20) The Defending Pokemon is now Poisoned.  If the Defending Pokemon tries to attack during your opponent's next turn, your opponent flips a coin.  If tails, that attack does nothing.",
         "Attack 2": "[1DD] Hammer In (80)",
-        "Weakness": "Fx2",
-        "Resistance": "P-20",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Fx2 / P-20 / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/89283_200w.jpg",
       "image_count": 1,
@@ -12331,13 +12102,10 @@
       "number": "78/124",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Metal",
-        "HP": "60",
-        "Stage": "Basic",
+        "Card Number / Rarity": "78/124 / Common",
+        "Card Type / HP / Stage": "Metal / 60 / Basic",
         "Attack 1": "[1M] Take Down (30) This Pokemon does 10 damage to itself.",
-        "Weakness": "Rx2",
-        "Resistance": "P-20",
-        "RetreatCost": "2"
+        "Weakness / Resistance / Retreat Cost": "Rx2 / P-20 / 2"
       },
       "image_url": "https://cdn.tcgtracking.com/product/83640_200w.jpg",
       "image_count": 1,
@@ -12449,14 +12217,11 @@
       "number": "79/124",
       "rarity": "Uncommon",
       "ext_data": {
-        "Card Type": "Metal",
-        "HP": "90",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "79/124 / Uncommon",
+        "Card Type / HP / Stage": "Metal / 90 / Stage 1",
         "Attack 1": "[1M] Metal Claw (30)",
         "Attack 2": "[1MM] Wreak Havoc (60) Flip a coin until you get tails.  For each heads, discard the top card of your opponent's deck.",
-        "Weakness": "Rx2",
-        "Resistance": "P-20",
-        "RetreatCost": "3"
+        "Weakness / Resistance / Retreat Cost": "Rx2 / P-20 / 3"
       },
       "image_url": "https://cdn.tcgtracking.com/product/86584_200w.jpg",
       "image_count": 1,
@@ -12568,13 +12333,11 @@
       "number": "8/124",
       "rarity": "Rare",
       "ext_data": {
-        "Card Type": "Grass",
-        "HP": "120",
-        "Stage": "Stage 2",
+        "Card Number / Rarity": "8/124 / Rare",
+        "Card Type / HP / Stage": "Grass / 120 / Stage 2",
         "Attack 1": "[G] Triple Energy - Search your deck for 3 different types of basic Energy cards and attach them to your Pokemon in any way you like.  Shuffle your deck afterward.",
         "Attack 2": "[2G] Drainpour (40) Heal 40 damage from each of your Benched Pokemon.",
-        "Weakness": "Rx2",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Rx2 /  / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/83760_200w.jpg",
       "image_count": 1,
@@ -12686,14 +12449,11 @@
       "number": "80/124",
       "rarity": "Holo Rare",
       "ext_data": {
-        "Card Type": "Metal",
-        "HP": "140",
-        "Stage": "Stage 2",
-        "CardText": "Toppling Wind - When you play this Pokemon from your hand to evolve 1 of your Pokemon, you may discard the top 3 cards of your opponent's deck.  (Ability)",
+        "Card Number / Rarity": "80/124 / Holo Rare",
+        "Card Type / HP / Stage": "Metal / 140 / Stage 2",
+        "Card Text": "Toppling Wind - When you play this Pokemon from your hand to evolve 1 of your Pokemon, you may discard the top 3 cards of your opponent's deck.  (Ability)",
         "Attack 1": "[1MM] Giga Horn (90) Flip 2 coins.  If both of them are tails, this attack does nothing.",
-        "Weakness": "Rx2",
-        "Resistance": "P-20",
-        "RetreatCost": "4"
+        "Weakness / Resistance / Retreat Cost": "Rx2 / P-20 / 4"
       },
       "image_url": "https://cdn.tcgtracking.com/product/83481_200w.jpg",
       "image_count": 1,
@@ -12805,14 +12565,11 @@
       "number": "81/124",
       "rarity": "Ultra Rare",
       "ext_data": {
-        "Card Type": "Metal",
-        "HP": "180",
-        "Stage": "Basic",
+        "Card Number / Rarity": "81/124 / Ultra Rare",
+        "Card Type / HP / Stage": "Metal / 180 / Basic",
         "Attack 1": "[3] Triple Laser - This attack does 30 damage to 3 of your opponent's Pokemon.  (Don't apply Weakness and Resistance for Benched Pokemon.)",
         "Attack 2": "[2MM] Protect Charge (80) During your opponent's next turn, any damage done to this Pokemon by attacks is reduced by 20 (after applying Weakness and Resistance).",
-        "Weakness": "Rx2",
-        "Resistance": "P-20",
-        "RetreatCost": "4"
+        "Weakness / Resistance / Retreat Cost": "Rx2 / P-20 / 4"
       },
       "image_url": "https://cdn.tcgtracking.com/product/88681_200w.jpg",
       "image_count": 1,
@@ -12914,14 +12671,11 @@
       "number": "82/124",
       "rarity": "Rare",
       "ext_data": {
-        "Card Type": "Metal",
-        "HP": "110",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "82/124 / Rare",
+        "Card Type / HP / Stage": "Metal / 110 / Stage 1",
         "Attack 1": "[2] Magnetic Lines (30) You may move an Energy attached to the Defending Pokemon to 1 of your opponent's Benched Pokemon.",
         "Attack 2": "[2M] Heavy Nose (60+) If the Defending Pokemon already has any damage counters on it, this attack does 30 more damage.",
-        "Weakness": "Rx2",
-        "Resistance": "P-20",
-        "RetreatCost": "4"
+        "Weakness / Resistance / Retreat Cost": "Rx2 / P-20 / 4"
       },
       "image_url": "https://cdn.tcgtracking.com/product/88379_200w.jpg",
       "image_count": 1,
@@ -13033,14 +12787,11 @@
       "number": "83/124",
       "rarity": "Uncommon",
       "ext_data": {
-        "Card Type": "Metal",
-        "HP": "70",
-        "Stage": "Basic",
+        "Card Number / Rarity": "83/124 / Uncommon",
+        "Card Type / HP / Stage": "Metal / 70 / Basic",
         "Attack 1": "[1] Pull Out - Put a card from your discard pile on top of your deck.",
         "Attack 2": "[1M] Iron Head (30x) Flip a coin until you get tails.  This attack does 30 damage times the number of heads.",
-        "Weakness": "Rx2",
-        "Resistance": "P-20",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Rx2 / P-20 / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/85021_200w.jpg",
       "image_count": 1,
@@ -13152,13 +12903,11 @@
       "number": "84/124",
       "rarity": "Holo Rare",
       "ext_data": {
-        "Card Type": "Dragon",
-        "HP": "70",
-        "Stage": "Basic",
-        "CardText": "Fight Song - Your Dragon Pokemon's attacks do 20 more damage to the Active Pokemon (before applying Weakness and Resistance).  (Ability)",
+        "Card Number / Rarity": "84/124 / Holo Rare",
+        "Card Type / HP / Stage": "Dragon / 70 / Basic",
+        "Card Text": "Fight Song - Your Dragon Pokemon's attacks do 20 more damage to the Active Pokemon (before applying Weakness and Resistance).  (Ability)",
         "Attack 1": "[1MW] Glide (40)",
-        "Weakness": "Ox2",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Ox2 /  / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/83519_200w.jpg",
       "image_count": 1,
@@ -13270,13 +13019,11 @@
       "number": "85/124",
       "rarity": "Ultra Rare",
       "ext_data": {
-        "Card Type": "Dragon",
-        "HP": "170",
-        "Stage": "Basic",
+        "Card Number / Rarity": "85/124 / Ultra Rare",
+        "Card Type / HP / Stage": "Dragon / 170 / Basic",
         "Attack 1": "[1] Celestial Roar - Discard the top 3 cards of your deck.  If any of those cards are Energy cards, attach them to this Pokemon.",
         "Attack 2": "[LR] Dragon Burst (60x) Discard all basic R Energy or all basic L Energy attached to this Pokemon.  This attack does 60 damage times the number of Energy cards you discarded.",
-        "Weakness": "Ox2",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Ox2 /  / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/88645_200w.jpg",
       "image_count": 1,
@@ -13378,13 +13125,11 @@
       "number": "86/124",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Dragon",
-        "HP": "50",
-        "Stage": "Basic",
+        "Card Number / Rarity": "86/124 / Common",
+        "Card Type / HP / Stage": "Dragon / 50 / Basic",
         "Attack 1": "[1] Tackle (10)",
         "Attack 2": "[FW] Gnaw (20)",
-        "Weakness": "Ox2",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Ox2 /  / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/85702_200w.jpg",
       "image_count": 1,
@@ -13496,13 +13241,11 @@
       "number": "87/124",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Dragon",
-        "HP": "60",
-        "Stage": "Basic",
+        "Card Number / Rarity": "87/124 / Common",
+        "Card Type / HP / Stage": "Dragon / 60 / Basic",
         "Attack 1": "[F] Sand-Attack - If the Defending Pokemon tries to attack during your opponent's next turn, your opponent flips a coin.  If tails, that attack does nothing.",
         "Attack 2": "[1W] Knock Away (10+) Flip a coin.  If heads, this attack does 20 more damage.",
-        "Weakness": "Ox2",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Ox2 /  / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/85703_200w.jpg",
       "image_count": 1,
@@ -13614,13 +13357,11 @@
       "number": "88/124",
       "rarity": "Uncommon",
       "ext_data": {
-        "Card Type": "Dragon",
-        "HP": "80",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "88/124 / Uncommon",
+        "Card Type / HP / Stage": "Dragon / 80 / Stage 1",
         "Attack 1": "[1] Tackle (20)",
         "Attack 2": "[FW] Shred (40) This attack's damage isn't affected by any effects on the Defending Pokemon.",
-        "Weakness": "Ox2",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Ox2 /  / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/85600_200w.jpg",
       "image_count": 1,
@@ -13732,13 +13473,11 @@
       "number": "89/124",
       "rarity": "Uncommon",
       "ext_data": {
-        "Card Type": "Dragon",
-        "HP": "80",
-        "Stage": "Stage 1",
-        "CardText": "Dragon Call - Once during your turn (before your attack), you may search your deck for a Dragon Pokemon, reveal it, and put it into your hand.  Shuffle your deck afterward.  (Ability)",
+        "Card Number / Rarity": "89/124 / Uncommon",
+        "Card Type / HP / Stage": "Dragon / 80 / Stage 1",
+        "Card Text": "Dragon Call - Once during your turn (before your attack), you may search your deck for a Dragon Pokemon, reveal it, and put it into your hand.  Shuffle your deck afterward.  (Ability)",
         "Attack 1": "[FW] Dragonslice (20)",
-        "Weakness": "Ox2",
-        "RetreatCost": "0"
+        "Weakness / Resistance / Retreat Cost": "Ox2 /  / 0"
       },
       "image_url": "https://cdn.tcgtracking.com/product/85601_200w.jpg",
       "image_count": 1,
@@ -13850,13 +13589,11 @@
       "number": "9/124",
       "rarity": "Uncommon",
       "ext_data": {
-        "Card Type": "Grass",
-        "HP": "80",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "9/124 / Uncommon",
+        "Card Type / HP / Stage": "Grass / 80 / Stage 1",
         "Attack 1": "[1] Tangle Drag - Switch 1 of your opponent's Benched Pokemon with the Defending Pokemon.",
         "Attack 2": "[2] Spiral Drain (20) Heal 20 damage from this Pokemon.",
-        "Weakness": "Rx2",
-        "RetreatCost": "3"
+        "Weakness / Resistance / Retreat Cost": "Rx2 /  / 3"
       },
       "image_url": "https://cdn.tcgtracking.com/product/84123_200w.jpg",
       "image_count": 1,
@@ -13968,13 +13705,11 @@
       "number": "90/124",
       "rarity": "Holo Rare",
       "ext_data": {
-        "Card Type": "Dragon",
-        "HP": "140",
-        "Stage": "Stage 2",
+        "Card Number / Rarity": "90/124 / Holo Rare",
+        "Card Type / HP / Stage": "Dragon / 140 / Stage 2",
         "Attack 1": "[F] Mach Cut (60) Discard a Special Energy attached to the Defending Pokemon.",
         "Attack 2": "[FW] Dragonblade (100) Discard the top 2 cards of your deck.",
-        "Weakness": "Ox2",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Ox2 /  / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/85624_200w.jpg",
       "image_count": 1,
@@ -14086,13 +13821,11 @@
       "number": "91/124",
       "rarity": "Rare",
       "ext_data": {
-        "Card Type": "Dragon",
-        "HP": "140",
-        "Stage": "Stage 2",
+        "Card Number / Rarity": "91/124 / Rare",
+        "Card Type / HP / Stage": "Dragon / 140 / Stage 2",
         "Attack 1": "[1] Jet Headbutt (40)",
         "Attack 2": "[1FW] Sand Tomb (80) The Defending Pokemon can't retreat during your opponent's next turn.",
-        "Weakness": "Ox2",
-        "RetreatCost": "0"
+        "Weakness / Resistance / Retreat Cost": "Ox2 /  / 0"
       },
       "image_url": "https://cdn.tcgtracking.com/product/85625_200w.jpg",
       "image_count": 1,
@@ -14204,13 +13937,11 @@
       "number": "92/124",
       "rarity": "Ultra Rare",
       "ext_data": {
-        "Card Type": "Dragon",
-        "HP": "180",
-        "Stage": "Basic",
+        "Card Number / Rarity": "92/124 / Ultra Rare",
+        "Card Type / HP / Stage": "Dragon / 180 / Basic",
         "Attack 1": "[1GP] Shred (90) This attack's damage isn't affected by any effects on the Defending Pokemon.",
         "Attack 2": "[2GP] Dragon Pulse (130) Discard the top 3 cards of your deck.",
-        "Weakness": "Ox2",
-        "RetreatCost": "3"
+        "Weakness / Resistance / Retreat Cost": "Ox2 /  / 3"
       },
       "image_url": "https://cdn.tcgtracking.com/product/85740_200w.jpg",
       "image_count": 1,
@@ -14312,13 +14043,11 @@
       "number": "93/124",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Dragon",
-        "HP": "60",
-        "Stage": "Basic",
+        "Card Number / Rarity": "93/124 / Common",
+        "Card Type / HP / Stage": "Dragon / 60 / Basic",
         "Attack 1": "[D] Deep Growl - Flip a coin.  If heads, the Defending Pokemon is now Paralyzed.",
         "Attack 2": "[1P] Power Breath (30) Discard an Energy attached to this Pokemon.",
-        "Weakness": "Ox2",
-        "RetreatCost": "2"
+        "Weakness / Resistance / Retreat Cost": "Ox2 /  / 2"
       },
       "image_url": "https://cdn.tcgtracking.com/product/84729_200w.jpg",
       "image_count": 1,
@@ -14430,13 +14159,11 @@
       "number": "94/124",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Dragon",
-        "HP": "60",
-        "Stage": "Basic",
+        "Card Number / Rarity": "94/124 / Common",
+        "Card Type / HP / Stage": "Dragon / 60 / Basic",
         "Attack 1": "[D] Guard Press (10) During your opponent's next turn, any damage done to this Pokemon by attacks is reduced by 10 (after applying Weakness and Resistance).",
         "Attack 2": "[2P] Headbutt (30)",
-        "Weakness": "Ox2",
-        "RetreatCost": "2"
+        "Weakness / Resistance / Retreat Cost": "Ox2 /  / 2"
       },
       "image_url": "https://cdn.tcgtracking.com/product/84730_200w.jpg",
       "image_count": 1,
@@ -14548,13 +14275,11 @@
       "number": "95/124",
       "rarity": "Uncommon",
       "ext_data": {
-        "Card Type": "Dragon",
-        "HP": "80",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "95/124 / Uncommon",
+        "Card Type / HP / Stage": "Dragon / 80 / Stage 1",
         "Attack 1": "[2] Crunch (30) Flip a coin.  If heads, discard an Energy attached to the Defending Pokemon.",
         "Attack 2": "[DDP] Dragon Claw (80)",
-        "Weakness": "Ox2",
-        "RetreatCost": "2"
+        "Weakness / Resistance / Retreat Cost": "Ox2 /  / 2"
       },
       "image_url": "https://cdn.tcgtracking.com/product/90780_200w.jpg",
       "image_count": 1,
@@ -14666,13 +14391,11 @@
       "number": "96/124",
       "rarity": "Uncommon",
       "ext_data": {
-        "Card Type": "Dragon",
-        "HP": "90",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "96/124 / Uncommon",
+        "Card Type / HP / Stage": "Dragon / 90 / Stage 1",
         "Attack 1": "[1] Draw In - Attach 2 D Energy from your discard pile to this Pokemon.",
         "Attack 2": "[1DP] Dragon Headbutt (40)",
-        "Weakness": "Ox2",
-        "RetreatCost": "3"
+        "Weakness / Resistance / Retreat Cost": "Ox2 /  / 3"
       },
       "image_url": "https://cdn.tcgtracking.com/product/90781_200w.jpg",
       "image_count": 1,
@@ -14784,13 +14507,11 @@
       "number": "97/124",
       "rarity": "Holo Rare",
       "ext_data": {
-        "Card Type": "Dragon",
-        "HP": "150",
-        "Stage": "Stage 2",
-        "CardText": "Dark Trance - As often as you like during your turn (before your attack), you may move a D Energy attached to 1 of your Pokemon to another of your Pokemon.  (Ability)",
+        "Card Number / Rarity": "97/124 / Holo Rare",
+        "Card Type / HP / Stage": "Dragon / 150 / Stage 2",
+        "Card Text": "Dark Trance - As often as you like during your turn (before your attack), you may move a D Energy attached to 1 of your Pokemon to another of your Pokemon.  (Ability)",
         "Attack 1": "[1DDP] Dragonblast (140) Discard 2 D Energy attached to this Pokemon.",
-        "Weakness": "Ox2",
-        "RetreatCost": "3"
+        "Weakness / Resistance / Retreat Cost": "Ox2 /  / 3"
       },
       "image_url": "https://cdn.tcgtracking.com/product/86241_200w.jpg",
       "image_count": 1,
@@ -14902,13 +14623,11 @@
       "number": "98/124",
       "rarity": "Rare",
       "ext_data": {
-        "Card Type": "Dragon",
-        "HP": "150",
-        "Stage": "Stage 2",
+        "Card Number / Rarity": "98/124 / Rare",
+        "Card Type / HP / Stage": "Dragon / 150 / Stage 2",
         "Attack 1": "[2D] Consume (40) Heal from this Pokemon the same amount of damage you did to the Defending Pokemon.",
         "Attack 2": "[2DP] Destructor Beam (90) Flip a coin.  If heads, discard an Energy attached to the Defending Pokemon.",
-        "Weakness": "Ox2",
-        "RetreatCost": "3"
+        "Weakness / Resistance / Retreat Cost": "Ox2 /  / 3"
       },
       "image_url": "https://cdn.tcgtracking.com/product/86242_200w.jpg",
       "image_count": 1,
@@ -15020,12 +14739,10 @@
       "number": "99/124",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Colorless",
-        "HP": "60",
-        "Stage": "Basic",
+        "Card Number / Rarity": "99/124 / Common",
+        "Card Type / HP / Stage": "Colorless / 60 / Basic",
         "Attack 1": "[1] Double Hit (10x) Flip 2 coins.  This attack does 10 damage times the number of heads.",
-        "Weakness": "Fx2",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Fx2 /  / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/83494_200w.jpg",
       "image_count": 1,
