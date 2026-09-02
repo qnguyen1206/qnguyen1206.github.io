@@ -67,7 +67,7 @@ export function initProjects() {
       status: 'complete',
       role: 'VR Environment Concept Artist',
       teamSize: '9',
-      duration: '2 months (June 2026 - July 2026)',
+      duration: '3 months (June 2026 - Aug 2026)',
       githubLink: '',
       gitlabLink: '',
       externalLink: 'https://freyahuijia.github.io/biophilia-web/',
