@@ -64,14 +64,23 @@ export function initProjects() {
       image: '/images/BiophiliaIcon.png',
       description: 'This project is awarded a Catalyst Grant and is an on going project led by Artist Belinda Person in collaboration with Professor Krystian Ramlogan.',
       tags: ['Unity', 'C#', 'VR', 'ProCreate', 'Design'],
-      status: 'in development',
+      status: 'complete',
       role: 'VR Environment Concept Artist',
       teamSize: '9',
       duration: '2 months (June 2026 - July 2026)',
       githubLink: '',
       gitlabLink: '',
       externalLink: 'https://freyahuijia.github.io/biophilia-web/',
-      images: [],
+      images: [
+        { src: 'images/biophilia/IMG_2767.jpeg', alt: 'biophila img 1' },
+        { src: 'images/biophilia/IMG_2768.jpeg', alt: 'biophilia img 2' },
+        { src: 'images/biophilia/IMG_2769.jpeg', alt: 'biophilia img 3' },
+        { src: 'images/biophilia/IMG_2770.jpeg', alt: 'biophilia img 4' },
+        { src: 'images/biophilia/IMG_2771.jpeg', alt: 'biophilia img 5' },
+        { src: 'images/biophilia/IMG_2772.jpeg', alt: 'biophilia img 6' },
+        { src: 'images/biophilia/IMG_2773.jpeg', alt: 'biophilia img 7' },
+        { src: 'images/biophilia/IMG_2774.jpeg', alt: 'biophilia img 8' },
+      ],
       writeup: `
 ## VR Environment Concept Artist
 - 🪴 Designed and conceptualized the gallery space in the VR environment.

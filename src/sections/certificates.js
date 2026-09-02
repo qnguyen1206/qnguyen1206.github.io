@@ -121,6 +121,7 @@ const certificatesData = {
       date: "Fall 2022"
     },
   ],
+  courses: [],
 };
 
 const issuerIcons = {
@@ -252,7 +253,10 @@ export function initCertificates() {
   function getCertificatesHTML() {
     const certs = getCurrentCertificates();
     if (certs.length === 0) {
-      return `<div class="certificates-empty"><p>No certificates in this category yet.</p></div>`;
+      const emptyMessage = activeTab === 'courses'
+        ? 'Courses will be added soon.'
+        : 'No certificates in this category yet.';
+      return `<div class="certificates-empty"><p>${emptyMessage}</p></div>`;
     }
     return certs.map(cert => generateCertificateHTML(cert)).join('');
   }
@@ -310,6 +314,14 @@ export function initCertificates() {
             <path d="M12 6v4" />
           </svg>
           Honors
+        </button>
+        <button class="cert-tab-btn" data-tab="courses">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M4 19.5a2.5 2.5 0 0 1 2.5 -2.5h13.5" />
+            <path d="M6.5 2h13.5v20h-13.5a2.5 2.5 0 0 1 -2.5 -2.5v-15a2.5 2.5 0 0 1 2.5 -2.5z" />
+          </svg>
+          Courses
         </button>
       </div>
 
