@@ -4,8 +4,8 @@
   "set_abbr": "PR",
   "set_released": "2015-04-29",
   "product_count": 62,
-  "data_modified": "2026-08-03T08:22:16-04:00",
-  "file_generated": "2026-08-03T08:24:19-04:00",
+  "data_modified": "2026-08-31T10:03:43-04:00",
+  "file_generated": "2026-08-31T10:04:42-04:00",
   "pricing_url": "/v1/3/sets/1536/pricing",
   "cards_url": "/v1/3/sets/1536/cards",
   "sealed_url": "/v1/3/sets/1536/sealed",
@@ -18,7 +18,8 @@
       "number": null,
       "rarity": "Code Card",
       "ext_data": {
-        "CardText": "This listing is <strong>not</strong> a physical item. Please keep in mind that this <strong>Code Card</strong> listing represents a digital copy of the stated item for the Pokémon TCG Online <strong>and/or</strong> the Pokémon TCG Live games. You may receive the physical <strong>Code Card</strong>. Upon purchase, please work with your specific Seller by sending them a message using the <strong>Contact Seller</strong> button on the order details in your <a href=https://store.tcgplayer.com/myaccount/orderhistory>Order History</a> to opt in to having your <strong>Code Card</strong> code delivered digitally due to the nature of the product."
+        "Card Number / Rarity": " / Code Card",
+        "Card Text": "This listing is <strong>not</strong> a physical item. Please keep in mind that this <strong>Code Card</strong> listing represents a digital copy of the stated item for the Pokémon TCG Online <strong>and/or</strong> the Pokémon TCG Live games. You may receive the physical <strong>Code Card</strong>. Upon purchase, please work with your specific Seller by sending them a message using the <strong>Contact Seller</strong> button on the order details in your <a href=https://store.tcgplayer.com/myaccount/orderhistory>Order History</a> to opt in to having your <strong>Code Card</strong> code delivered digitally due to the nature of the product."
       },
       "image_url": "https://cdn.tcgtracking.com/product/283259_200w.jpg",
       "image_count": 1,
@@ -59,7 +60,8 @@
       "number": "1/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Basic Energy"
+        "Card Number / Rarity": "1/30 / Common",
+        "Card Type / HP / Stage": "Basic Energy /  / "
       },
       "image_url": "https://cdn.tcgtracking.com/product/98318_200w.jpg",
       "image_count": 1,
@@ -161,14 +163,11 @@
       "number": "1/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Colorless",
-        "HP": "50",
-        "Stage": "Basic",
+        "Card Number / Rarity": "1/30 / Common",
+        "Card Type / HP / Stage": "Colorless / 50 / Basic",
         "Attack 1": "[1] Charm\r\n<br>During your opponent's next turn, any damage done by attacks from the Defending Pokemon is reduced by 20 <i>(before applying Weakness and Resistance).</i>",
         "Attack 2": "[2] Tail Smack (20)",
-        "Weakness": "Fx2",
-        "Resistance": "None",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Fx2 / None / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/98347_200w.jpg",
       "image_count": 1,
@@ -270,7 +269,8 @@
       "number": "10/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Basic Energy"
+        "Card Number / Rarity": "10/30 / Common",
+        "Card Type / HP / Stage": "Basic Energy /  / "
       },
       "image_url": "https://cdn.tcgtracking.com/product/98358_200w.jpg",
       "image_count": 1,
@@ -372,7 +372,8 @@
       "number": "10/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Basic Energy"
+        "Card Number / Rarity": "10/30 / Common",
+        "Card Type / HP / Stage": "Basic Energy /  / "
       },
       "image_url": "https://cdn.tcgtracking.com/product/98325_200w.jpg",
       "image_count": 1,
@@ -474,13 +475,10 @@
       "number": "11/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Grass",
-        "HP": "60",
-        "Stage": "Basic",
+        "Card Number / Rarity": "11/30 / Common",
+        "Card Type / HP / Stage": "Grass / 60 / Basic",
         "Attack 1": "[2] Beat (20)",
-        "Weakness": "Rx2",
-        "Resistance": "None",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Rx2 / None / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/98332_200w.jpg",
       "image_count": 1,
@@ -582,13 +580,10 @@
       "number": "11/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Fighting",
-        "HP": "70",
-        "Stage": "Basic",
+        "Card Number / Rarity": "11/30 / Common",
+        "Card Type / HP / Stage": "Fighting / 70 / Basic",
         "Attack 1": "[F] Knuckle Punch (10)",
-        "Weakness": "Px2",
-        "Resistance": "None",
-        "RetreatCost": "2"
+        "Weakness / Resistance / Retreat Cost": "Px2 / None / 2"
       },
       "image_url": "https://cdn.tcgtracking.com/product/98363_200w.jpg",
       "image_count": 1,
@@ -690,14 +685,11 @@
       "number": "12/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Fighting",
-        "HP": "80",
-        "Stage": "Basic",
+        "Card Number / Rarity": "12/30 / Common",
+        "Card Type / HP / Stage": "Fighting / 80 / Basic",
         "Attack 1": "[1] Solar Generator\r\n<br>Search your deck for up to 2 Special Energy cards, reveal them, and put them into your hand. Shuffle your deck afterward.",
         "Attack 2": "[1F] Knock Away (20+)\r\n<br>Flip a coin. If heads, this attack does 20 more damage.",
-        "Weakness": "Gx2",
-        "Resistance": "None",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Gx2 / None / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/98365_200w.jpg",
       "image_count": 1,
@@ -799,14 +791,11 @@
       "number": "12/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Grass",
-        "HP": "130",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "12/30 / Common",
+        "Card Type / HP / Stage": "Grass / 130 / Stage 1",
         "Attack 1": "[2G] Mega Drain (50)\r\n<br>Heal 20 damage from this Pokemon.",
         "Attack 2": "[2GG] Grass Knot (80+)\r\n<br>This attack does 10 more damage for each Colorless in your opponent's Active Pokemon's Retreat Cost.",
-        "Weakness": "Rx2",
-        "Resistance": "None",
-        "RetreatCost": "4"
+        "Weakness / Resistance / Retreat Cost": "Rx2 / None / 4"
       },
       "image_url": "https://cdn.tcgtracking.com/product/98333_200w.jpg",
       "image_count": 1,
@@ -908,14 +897,11 @@
       "number": "13/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Psychic",
-        "HP": "110",
-        "Stage": "Basic",
+        "Card Number / Rarity": "13/30 / Common",
+        "Card Type / HP / Stage": "Psychic / 110 / Basic",
         "Attack 1": "[2] Supersonic Flight (40)\r\n<br>Flip a coin. If tails, this attack does nothing.",
         "Attack 2": "[1PP] Psyburn (70)",
-        "Weakness": "Px2",
-        "Resistance": "None",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Px2 / None / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/98367_200w.jpg",
       "image_count": 1,
@@ -1017,14 +1003,11 @@
       "number": "13/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Grass",
-        "HP": "80",
-        "Stage": "Basic",
+        "Card Number / Rarity": "13/30 / Common",
+        "Card Type / HP / Stage": "Grass / 80 / Basic",
         "Attack 1": "[1G] Absorb (20)\r\n<br>Heal 20 damage from this Pokemon.",
         "Attack 2": "[1GG] Vine Whip (30)",
-        "Weakness": "Rx2",
-        "Resistance": "None",
-        "RetreatCost": "2"
+        "Weakness / Resistance / Retreat Cost": "Rx2 / None / 2"
       },
       "image_url": "https://cdn.tcgtracking.com/product/98334_200w.jpg",
       "image_count": 1,
@@ -1126,14 +1109,11 @@
       "number": "14/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Psychic",
-        "HP": "100",
-        "Stage": "Basic",
+        "Card Number / Rarity": "14/30 / Common",
+        "Card Type / HP / Stage": "Psychic / 100 / Basic",
         "Attack 1": "[P] Psychic Sphere (20)",
         "Attack 2": "[2P] Psychic Prism (60+)\r\n<br>Flip a coin. If heads, this attack does 20 more damage.",
-        "Weakness": "Px2",
-        "Resistance": "None",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Px2 / None / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/98335_200w.jpg",
       "image_count": 1,
@@ -1235,13 +1215,10 @@
       "number": "14/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Fighting",
-        "HP": "90",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "14/30 / Common",
+        "Card Type / HP / Stage": "Fighting / 90 / Stage 1",
         "Attack 1": "[FF] Beatdown (40)",
-        "Weakness": "Px2",
-        "Resistance": "None",
-        "RetreatCost": "2"
+        "Weakness / Resistance / Retreat Cost": "Px2 / None / 2"
       },
       "image_url": "https://cdn.tcgtracking.com/product/98369_200w.jpg",
       "image_count": 1,
@@ -1343,8 +1320,9 @@
       "number": "15/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Item",
-        "CardText": "Heal 30 damage from 1 of your Pokemon."
+        "Card Number / Rarity": "15/30 / Common",
+        "Card Type / HP / Stage": "Item /  / ",
+        "Card Text": "Heal 30 damage from 1 of your Pokemon."
       },
       "image_url": "https://cdn.tcgtracking.com/product/98400_200w.jpg",
       "image_count": 1,
@@ -1469,13 +1447,10 @@
       "number": "15/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Fighting",
-        "HP": "80",
-        "Stage": "Basic",
+        "Card Number / Rarity": "15/30 / Common",
+        "Card Type / HP / Stage": "Fighting / 80 / Basic",
         "Attack 1": "[FF] Take Down (40)\r\n<br>This Pokemon does 10 damage to itself.",
-        "Weakness": "Gx2",
-        "Resistance": "None",
-        "RetreatCost": "3"
+        "Weakness / Resistance / Retreat Cost": "Gx2 / None / 3"
       },
       "image_url": "https://cdn.tcgtracking.com/product/98371_200w.jpg",
       "image_count": 1,
@@ -1577,7 +1552,8 @@
       "number": "16/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Basic Energy"
+        "Card Number / Rarity": "16/30 / Common",
+        "Card Type / HP / Stage": "Basic Energy /  / "
       },
       "image_url": "https://cdn.tcgtracking.com/product/98360_200w.jpg",
       "image_count": 1,
@@ -1679,13 +1655,10 @@
       "number": "16/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Grass",
-        "HP": "50",
-        "Stage": "Basic",
+        "Card Number / Rarity": "16/30 / Common",
+        "Card Type / HP / Stage": "Grass / 50 / Basic",
         "Attack 1": "[1] Stampede (10)",
-        "Weakness": "Rx2",
-        "Resistance": "None",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Rx2 / None / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/98336_200w.jpg",
       "image_count": 1,
@@ -1787,7 +1760,8 @@
       "number": "17/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Basic Energy"
+        "Card Number / Rarity": "17/30 / Common",
+        "Card Type / HP / Stage": "Basic Energy /  / "
       },
       "image_url": "https://cdn.tcgtracking.com/product/98359_200w.jpg",
       "image_count": 1,
@@ -1889,7 +1863,8 @@
       "number": "17/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Basic Energy"
+        "Card Number / Rarity": "17/30 / Common",
+        "Card Type / HP / Stage": "Basic Energy /  / "
       },
       "image_url": "https://cdn.tcgtracking.com/product/98326_200w.jpg",
       "image_count": 1,
@@ -1991,14 +1966,11 @@
       "number": "18/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Grass",
-        "HP": "80",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "18/30 / Common",
+        "Card Type / HP / Stage": "Grass / 80 / Stage 1",
         "Attack 1": "[G] Pound (20)",
         "Attack 2": "[2G] Agility (40)\r\n<br>Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokemon during your opponent's next turn.",
-        "Weakness": "Rx2",
-        "Resistance": "None",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Rx2 / None / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/98337_200w.jpg",
       "image_count": 1,
@@ -2100,7 +2072,8 @@
       "number": "18/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Basic Energy"
+        "Card Number / Rarity": "18/30 / Common",
+        "Card Type / HP / Stage": "Basic Energy /  / "
       },
       "image_url": "https://cdn.tcgtracking.com/product/98361_200w.jpg",
       "image_count": 1,
@@ -2202,14 +2175,11 @@
       "number": "19/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Colorless",
-        "HP": "80",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "19/30 / Common",
+        "Card Type / HP / Stage": "Colorless / 80 / Stage 1",
         "Attack 1": "[1] Replace \r\n<br>Move as many Energy attached to your Pokemon to your other Pokemon in any way you like.",
         "Attack 2": "[2] Play Rough (30+)\r\n<br>Flip a coin. If heads, this attack does 30 more damage.",
-        "Weakness": "Fx2",
-        "Resistance": "None",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Fx2 / None / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/98373_200w.jpg",
       "image_count": 1,
@@ -2311,7 +2281,8 @@
       "number": "19/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Basic Energy"
+        "Card Number / Rarity": "19/30 / Common",
+        "Card Type / HP / Stage": "Basic Energy /  / "
       },
       "image_url": "https://cdn.tcgtracking.com/product/98322_200w.jpg",
       "image_count": 1,
@@ -2413,7 +2384,8 @@
       "number": "2/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Basic Energy"
+        "Card Number / Rarity": "2/30 / Common",
+        "Card Type / HP / Stage": "Basic Energy /  / "
       },
       "image_url": "https://cdn.tcgtracking.com/product/98351_200w.jpg",
       "image_count": 1,
@@ -2515,7 +2487,8 @@
       "number": "2/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Basic Energy"
+        "Card Number / Rarity": "2/30 / Common",
+        "Card Type / HP / Stage": "Basic Energy /  / "
       },
       "image_url": "https://cdn.tcgtracking.com/product/98319_200w.jpg",
       "image_count": 1,
@@ -2617,10 +2590,10 @@
       "number": "20/30",
       "rarity": "Uncommon",
       "ext_data": {
-        "Card Type": "Item",
-        "CardText": "Look at the top 2 cards of your deck and put 1 of them into your hand. Discard the other card.\r\n<br><em>You may play as many Item cards as you like during your turn (before your attack).</em>",
-        "Resistance": "None",
-        "RetreatCost": "0"
+        "Card Number / Rarity": "20/30 / Uncommon",
+        "Card Type / HP / Stage": "Item /  / ",
+        "Card Text": "Look at the top 2 cards of your deck and put 1 of them into your hand. Discard the other card.\r\n<br><em>You may play as many Item cards as you like during your turn (before your attack).</em>",
+        "Weakness / Resistance / Retreat Cost": " / None / 0"
       },
       "image_url": "https://cdn.tcgtracking.com/product/98338_200w.jpg",
       "image_count": 1,
@@ -2722,10 +2695,10 @@
       "number": "20/30",
       "rarity": "Uncommon",
       "ext_data": {
-        "Card Type": "Item",
-        "CardText": "Look at the top 2 cards of your deck and put 1 of them into your hand. Discard the other card.\r\n<br><em>You may play as many Item cards as you like during your turn (before your attack).</em>",
-        "Resistance": "None",
-        "RetreatCost": "0"
+        "Card Number / Rarity": "20/30 / Uncommon",
+        "Card Type / HP / Stage": "Item /  / ",
+        "Card Text": "Look at the top 2 cards of your deck and put 1 of them into your hand. Discard the other card.\r\n<br><em>You may play as many Item cards as you like during your turn (before your attack).</em>",
+        "Weakness / Resistance / Retreat Cost": " / None / 0"
       },
       "image_url": "https://cdn.tcgtracking.com/product/98375_200w.jpg",
       "image_count": 1,
@@ -2827,14 +2800,11 @@
       "number": "21/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Grass",
-        "HP": "80",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "21/30 / Common",
+        "Card Type / HP / Stage": "Grass / 80 / Stage 1",
         "Attack 1": "[G] Hook (20)",
         "Attack 2": "[2] Beat (30)",
-        "Weakness": "Rx2",
-        "Resistance": "None",
-        "RetreatCost": "2"
+        "Weakness / Resistance / Retreat Cost": "Rx2 / None / 2"
       },
       "image_url": "https://cdn.tcgtracking.com/product/98339_200w.jpg",
       "image_count": 1,
@@ -2936,8 +2906,9 @@
       "number": "21/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Item",
-        "CardText": "Heal 30 damage from 1 of your Pokemon."
+        "Card Number / Rarity": "21/30 / Common",
+        "Card Type / HP / Stage": "Item /  / ",
+        "Card Text": "Heal 30 damage from 1 of your Pokemon."
       },
       "image_url": "https://cdn.tcgtracking.com/product/98376_200w.jpg",
       "image_count": 1,
@@ -3039,13 +3010,10 @@
       "number": "22/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Fighting",
-        "HP": "90",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "22/30 / Common",
+        "Card Type / HP / Stage": "Fighting / 90 / Stage 1",
         "Attack 1": "[FF] Beatdown (40)",
-        "Weakness": "Px2",
-        "Resistance": "None",
-        "RetreatCost": "2"
+        "Weakness / Resistance / Retreat Cost": "Px2 / None / 2"
       },
       "image_url": "https://cdn.tcgtracking.com/product/98370_200w.jpg",
       "image_count": 1,
@@ -3147,7 +3115,8 @@
       "number": "22/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Basic Energy"
+        "Card Number / Rarity": "22/30 / Common",
+        "Card Type / HP / Stage": "Basic Energy /  / "
       },
       "image_url": "https://cdn.tcgtracking.com/product/98327_200w.jpg",
       "image_count": 1,
@@ -3249,13 +3218,10 @@
       "number": "23/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Grass",
-        "HP": "60",
-        "Stage": "Basic",
+        "Card Number / Rarity": "23/30 / Common",
+        "Card Type / HP / Stage": "Grass / 60 / Basic",
         "Attack 1": "[2] Beat (20)",
-        "Weakness": "Rx2",
-        "Resistance": "None",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Rx2 / None / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/98340_200w.jpg",
       "image_count": 1,
@@ -3357,13 +3323,10 @@
       "number": "23/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Fighting",
-        "HP": "80",
-        "Stage": "Basic",
+        "Card Number / Rarity": "23/30 / Common",
+        "Card Type / HP / Stage": "Fighting / 80 / Basic",
         "Attack 1": "[FF] Take Down (40)\r\n<br>This Pokemon does 10 damage to itself.",
-        "Weakness": "Gx2",
-        "Resistance": "None",
-        "RetreatCost": "3"
+        "Weakness / Resistance / Retreat Cost": "Gx2 / None / 3"
       },
       "image_url": "https://cdn.tcgtracking.com/product/98372_200w.jpg",
       "image_count": 1,
@@ -3465,14 +3428,11 @@
       "number": "24/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Colorless",
-        "HP": "80",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "24/30 / Common",
+        "Card Type / HP / Stage": "Colorless / 80 / Stage 1",
         "Attack 1": "[1] Replace \r\n<br>Move as many Energy attached to your Pokemon to your other Pokemon in any way you like.",
         "Attack 2": "[2] Play Rough (30+)\r\n<br>Flip a coin. If heads, this attack does 30 more damage.",
-        "Weakness": "Fx2",
-        "Resistance": "None",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Fx2 / None / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/98374_200w.jpg",
       "image_count": 1,
@@ -3574,13 +3534,10 @@
       "number": "24/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Grass",
-        "HP": "60",
-        "Stage": "Basic",
+        "Card Number / Rarity": "24/30 / Common",
+        "Card Type / HP / Stage": "Grass / 60 / Basic",
         "Attack 1": "[G] Quick Attack (10+)\r\n<br>Flip a coin. If heads, this attack does 10 more damage.",
-        "Weakness": "Rx2",
-        "Resistance": "None",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Rx2 / None / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/98341_200w.jpg",
       "image_count": 1,
@@ -3682,14 +3639,11 @@
       "number": "25/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Fighting",
-        "HP": "100",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "25/30 / Common",
+        "Card Type / HP / Stage": "Fighting / 100 / Stage 1",
         "Attack 1": "[2F] Take Down (50)\r\n<br>This Pokemon does 10 damage to itself.",
         "Attack 2": "[2FF] Horn Drill (70)",
-        "Weakness": "Gx2",
-        "Resistance": "None",
-        "RetreatCost": "4"
+        "Weakness / Resistance / Retreat Cost": "Gx2 / None / 4"
       },
       "image_url": "https://cdn.tcgtracking.com/product/98350_200w.jpg",
       "image_count": 1,
@@ -3791,14 +3745,11 @@
       "number": "25/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Grass",
-        "HP": "130",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "25/30 / Common",
+        "Card Type / HP / Stage": "Grass / 130 / Stage 1",
         "Attack 1": "[2G] Mega Drain (50)\r\n<br>Heal 20 damage from this Pokemon.",
         "Attack 2": "[2GG] Grass Knot (80+)\r\n<br>This attack does 10 more damage for each Colorless in your opponent's Active Pokemon's Retreat Cost.",
-        "Weakness": "Rx2",
-        "Resistance": "None",
-        "RetreatCost": "4"
+        "Weakness / Resistance / Retreat Cost": "Rx2 / None / 4"
       },
       "image_url": "https://cdn.tcgtracking.com/product/98342_200w.jpg",
       "image_count": 1,
@@ -3900,14 +3851,11 @@
       "number": "26/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Fighting",
-        "HP": "80",
-        "Stage": "Basic",
+        "Card Number / Rarity": "26/30 / Common",
+        "Card Type / HP / Stage": "Fighting / 80 / Basic",
         "Attack 1": "[1] Solar Generator\r\n<br>Search your deck for up to 2 Special Energy cards, reveal them, and put them into your hand. Shuffle your deck afterward.",
         "Attack 2": "[1F] Knock Away (20+)\r\n<br>Flip a coin. If heads, this attack does 20 more damage.",
-        "Weakness": "Gx2",
-        "Resistance": "None",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Gx2 / None / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/98366_200w.jpg",
       "image_count": 1,
@@ -4009,14 +3957,11 @@
       "number": "26/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Grass",
-        "HP": "80",
-        "Stage": "Basic",
+        "Card Number / Rarity": "26/30 / Common",
+        "Card Type / HP / Stage": "Grass / 80 / Basic",
         "Attack 1": "[1G] Absorb (20)\r\n<br>Heal 20 damage from this Pokemon.",
         "Attack 2": "[1GG] Vine Whip (30)",
-        "Weakness": "Rx2",
-        "Resistance": "None",
-        "RetreatCost": "2"
+        "Weakness / Resistance / Retreat Cost": "Rx2 / None / 2"
       },
       "image_url": "https://cdn.tcgtracking.com/product/98343_200w.jpg",
       "image_count": 1,
@@ -4118,14 +4063,11 @@
       "number": "27/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Grass",
-        "HP": "80",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "27/30 / Common",
+        "Card Type / HP / Stage": "Grass / 80 / Stage 1",
         "Attack 1": "[G] Pound (20)",
         "Attack 2": "[2G] Agility (40)\r\n<br>Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokemon during your opponent's next turn.",
-        "Weakness": "Rx2",
-        "Resistance": "None",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Rx2 / None / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/98344_200w.jpg",
       "image_count": 1,
@@ -4227,14 +4169,11 @@
       "number": "27/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Colorless",
-        "HP": "50",
-        "Stage": "Basic",
+        "Card Number / Rarity": "27/30 / Common",
+        "Card Type / HP / Stage": "Colorless / 50 / Basic",
         "Attack 1": "[1] Charm\r\n<br>During your opponent's next turn, any damage done by attacks from the Defending Pokemon is reduced by 20 <i>(before applying Weakness and Resistance).</i>",
         "Attack 2": "[2] Tail Smack (20)",
-        "Weakness": "Fx2",
-        "Resistance": "None",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Fx2 / None / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/98348_200w.jpg",
       "image_count": 1,
@@ -4336,13 +4275,10 @@
       "number": "28/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Fighting",
-        "HP": "70",
-        "Stage": "Basic",
+        "Card Number / Rarity": "28/30 / Common",
+        "Card Type / HP / Stage": "Fighting / 70 / Basic",
         "Attack 1": "[F] Knuckle Punch (10)",
-        "Weakness": "Px2",
-        "Resistance": "None",
-        "RetreatCost": "2"
+        "Weakness / Resistance / Retreat Cost": "Px2 / None / 2"
       },
       "image_url": "https://cdn.tcgtracking.com/product/98364_200w.jpg",
       "image_count": 1,
@@ -4444,7 +4380,8 @@
       "number": "28/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Basic Energy"
+        "Card Number / Rarity": "28/30 / Common",
+        "Card Type / HP / Stage": "Basic Energy /  / "
       },
       "image_url": "https://cdn.tcgtracking.com/product/98328_200w.jpg",
       "image_count": 1,
@@ -4546,10 +4483,10 @@
       "number": "29/30",
       "rarity": "Uncommon",
       "ext_data": {
-        "Card Type": "Item",
-        "CardText": "Look at the top 2 cards of your deck and put 1 of them into your hand. Discard the other card.\r\n<br><em>You may play as many Item cards as you like during your turn (before your attack).</em>",
-        "Resistance": "None",
-        "RetreatCost": "0"
+        "Card Number / Rarity": "29/30 / Uncommon",
+        "Card Type / HP / Stage": "Item /  / ",
+        "Card Text": "Look at the top 2 cards of your deck and put 1 of them into your hand. Discard the other card.\r\n<br><em>You may play as many Item cards as you like during your turn (before your attack).</em>",
+        "Weakness / Resistance / Retreat Cost": " / None / 0"
       },
       "image_url": "https://cdn.tcgtracking.com/product/98345_200w.jpg",
       "image_count": 1,
@@ -4651,7 +4588,8 @@
       "number": "29/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Basic Energy"
+        "Card Number / Rarity": "29/30 / Common",
+        "Card Type / HP / Stage": "Basic Energy /  / "
       },
       "image_url": "https://cdn.tcgtracking.com/product/98362_200w.jpg",
       "image_count": 1,
@@ -4753,7 +4691,8 @@
       "number": "3/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Basic Energy"
+        "Card Number / Rarity": "3/30 / Common",
+        "Card Type / HP / Stage": "Basic Energy /  / "
       },
       "image_url": "https://cdn.tcgtracking.com/product/98352_200w.jpg",
       "image_count": 1,
@@ -4855,7 +4794,8 @@
       "number": "3/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Basic Energy"
+        "Card Number / Rarity": "3/30 / Common",
+        "Card Type / HP / Stage": "Basic Energy /  / "
       },
       "image_url": "https://cdn.tcgtracking.com/product/98320_200w.jpg",
       "image_count": 1,
@@ -4957,14 +4897,11 @@
       "number": "30/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Psychic",
-        "HP": "100",
-        "Stage": "Basic",
+        "Card Number / Rarity": "30/30 / Common",
+        "Card Type / HP / Stage": "Psychic / 100 / Basic",
         "Attack 1": "[P] Psychic Sphere (20)",
         "Attack 2": "[2P] Psychic Prism (60+)\r\n<br>Flip a coin. If heads, this attack does 20 more damage.",
-        "Weakness": "Px2",
-        "Resistance": "None",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Px2 / None / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/98346_200w.jpg",
       "image_count": 1,
@@ -5066,14 +5003,11 @@
       "number": "30/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Psychic",
-        "HP": "110",
-        "Stage": "Basic",
+        "Card Number / Rarity": "30/30 / Common",
+        "Card Type / HP / Stage": "Psychic / 110 / Basic",
         "Attack 1": "[2] Supersonic Flight (40)\r\n<br>Flip a coin. If tails, this attack does nothing.",
         "Attack 2": "[1PP] Psyburn (70)",
-        "Weakness": "Px2",
-        "Resistance": "None",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Px2 / None / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/98368_200w.jpg",
       "image_count": 1,
@@ -5175,14 +5109,11 @@
       "number": "4/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Colorless",
-        "HP": "50",
-        "Stage": "Basic",
+        "Card Number / Rarity": "4/30 / Common",
+        "Card Type / HP / Stage": "Colorless / 50 / Basic",
         "Attack 1": "[1] Peck (10)",
         "Attack 2": "[2] Quick Attack (10+)\r\n<br>Flip a coin. If heads, this attack does 20 more damage.",
-        "Weakness": "Lx2",
-        "Resistance": "F-20",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Lx2 / F-20 / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/98329_200w.jpg",
       "image_count": 1,
@@ -5284,14 +5215,11 @@
       "number": "4/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Fighting",
-        "HP": "100",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "4/30 / Common",
+        "Card Type / HP / Stage": "Fighting / 100 / Stage 1",
         "Attack 1": "[2F] Take Down (50)\r\n<br>This Pokemon does 10 damage to itself.",
         "Attack 2": "[2FF] Horn Drill (70)",
-        "Weakness": "Gx2",
-        "Resistance": "None",
-        "RetreatCost": "4"
+        "Weakness / Resistance / Retreat Cost": "Gx2 / None / 4"
       },
       "image_url": "https://cdn.tcgtracking.com/product/98349_200w.jpg",
       "image_count": 1,
@@ -5393,7 +5321,8 @@
       "number": "5/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Basic Energy"
+        "Card Number / Rarity": "5/30 / Common",
+        "Card Type / HP / Stage": "Basic Energy /  / "
       },
       "image_url": "https://cdn.tcgtracking.com/product/98353_200w.jpg",
       "image_count": 1,
@@ -5495,7 +5424,8 @@
       "number": "5/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Basic Energy"
+        "Card Number / Rarity": "5/30 / Common",
+        "Card Type / HP / Stage": "Basic Energy /  / "
       },
       "image_url": "https://cdn.tcgtracking.com/product/98321_200w.jpg",
       "image_count": 1,
@@ -5597,7 +5527,8 @@
       "number": "6/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Basic Energy"
+        "Card Number / Rarity": "6/30 / Common",
+        "Card Type / HP / Stage": "Basic Energy /  / "
       },
       "image_url": "https://cdn.tcgtracking.com/product/98354_200w.jpg",
       "image_count": 1,
@@ -5699,14 +5630,11 @@
       "number": "6/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Grass",
-        "HP": "80",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "6/30 / Common",
+        "Card Type / HP / Stage": "Grass / 80 / Stage 1",
         "Attack 1": "[G] Hook (20)",
         "Attack 2": "[2] Beat (30)",
-        "Weakness": "Rx2",
-        "Resistance": "None",
-        "RetreatCost": "2"
+        "Weakness / Resistance / Retreat Cost": "Rx2 / None / 2"
       },
       "image_url": "https://cdn.tcgtracking.com/product/98330_200w.jpg",
       "image_count": 1,
@@ -5808,7 +5736,8 @@
       "number": "7/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Basic Energy"
+        "Card Number / Rarity": "7/30 / Common",
+        "Card Type / HP / Stage": "Basic Energy /  / "
       },
       "image_url": "https://cdn.tcgtracking.com/product/98355_200w.jpg",
       "image_count": 1,
@@ -5910,13 +5839,10 @@
       "number": "7/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Grass",
-        "HP": "60",
-        "Stage": "Basic",
+        "Card Number / Rarity": "7/30 / Common",
+        "Card Type / HP / Stage": "Grass / 60 / Basic",
         "Attack 1": "[G] Quick Attack (10+)\r\n<br>Flip a coin. If heads, this attack does 10 more damage.",
-        "Weakness": "Rx2",
-        "Resistance": "None",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "Rx2 / None / 1"
       },
       "image_url": "https://cdn.tcgtracking.com/product/98331_200w.jpg",
       "image_count": 1,
@@ -6018,7 +5944,8 @@
       "number": "8/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Basic Energy"
+        "Card Number / Rarity": "8/30 / Common",
+        "Card Type / HP / Stage": "Basic Energy /  / "
       },
       "image_url": "https://cdn.tcgtracking.com/product/98356_200w.jpg",
       "image_count": 1,
@@ -6120,7 +6047,8 @@
       "number": "8/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Basic Energy"
+        "Card Number / Rarity": "8/30 / Common",
+        "Card Type / HP / Stage": "Basic Energy /  / "
       },
       "image_url": "https://cdn.tcgtracking.com/product/98323_200w.jpg",
       "image_count": 1,
@@ -6222,7 +6150,8 @@
       "number": "9/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Basic Energy"
+        "Card Number / Rarity": "9/30 / Common",
+        "Card Type / HP / Stage": "Basic Energy /  / "
       },
       "image_url": "https://cdn.tcgtracking.com/product/98357_200w.jpg",
       "image_count": 1,
@@ -6324,7 +6253,8 @@
       "number": "9/30",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Basic Energy"
+        "Card Number / Rarity": "9/30 / Common",
+        "Card Type / HP / Stage": "Basic Energy /  / "
       },
       "image_url": "https://cdn.tcgtracking.com/product/98324_200w.jpg",
       "image_count": 1,
