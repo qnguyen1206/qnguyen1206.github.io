@@ -4,8 +4,8 @@
   "set_abbr": "POP",
   "set_released": "2026-06-23",
   "product_count": 18,
-  "data_modified": "2026-08-03T06:15:26-04:00",
-  "file_generated": "2026-08-03T08:23:19-04:00",
+  "data_modified": "2026-09-01T08:20:15-04:00",
+  "file_generated": "2026-09-01T08:31:07-04:00",
   "pricing_url": "/v1/3/sets/1439/pricing",
   "cards_url": "/v1/3/sets/1439/cards",
   "sealed_url": "/v1/3/sets/1439/sealed",
@@ -75,17 +75,16 @@
     {
       "id": 86123,
       "name": "Ho-Oh",
-      "clean_name": "Ho-Oh",
+      "clean_name": "Ho Oh",
       "number": "001/017",
       "rarity": "Rare",
       "ext_data": {
-        "Card Type": "Fire",
-        "HP": "80",
-        "Stage": "Basic",
+        "Card Number / Rarity": "001/017 / Rare",
+        "Card Type / HP / Stage": "Fire / 80 / Basic",
         "Attack 1": "[1R] Fire Wing (20)",
         "Attack 2": "[1RRR] Fire Blast (60)\r\n<br>Discard a Fire Energy attached to Ho-Oh.",
-        "Weakness": "W",
-        "RetreatCost": "2"
+        "Weakness / Resistance / Retreat Cost": "W /  / 2",
+        "Artist": "Mitsuhiro Arita"
       },
       "image_url": "https://cdn.tcgtracking.com/product/86123_200w.jpg",
       "image_count": 1,
@@ -175,13 +174,12 @@
       "number": "002/017",
       "rarity": "Rare",
       "ext_data": {
-        "Card Type": "Psychic",
-        "HP": "80",
-        "Stage": "Basic",
+        "Card Number / Rarity": "002/017 / Rare",
+        "Card Type / HP / Stage": "Psychic / 80 / Basic",
         "Attack 1": "[1P] Super Psy Bolt (20)",
         "Attack 2": "[2P] Aerowing (30)\r\n<br>Before doing damage, you may flip a coin. If tails, this attack does nothing. If heads, this attack does 60 damage instead.",
-        "Weakness": "P",
-        "RetreatCost": "2"
+        "Weakness / Resistance / Retreat Cost": "P /  / 2",
+        "Artist": "Mitsuhiro Arita"
       },
       "image_url": "https://cdn.tcgtracking.com/product/86907_200w.jpg",
       "image_count": 1,
@@ -279,17 +277,16 @@
     {
       "id": 87407,
       "name": "Mew (Delta Species)",
-      "clean_name": "Mew (Delta Species)",
+      "clean_name": "Mew Delta Species",
       "number": "003/017",
       "rarity": "Rare",
       "ext_data": {
-        "Card Type": "Fire",
-        "HP": "60",
-        "Stage": "Basic",
+        "Card Number / Rarity": "003/017 / Rare",
+        "Card Type / HP / Stage": "Fire / 60 / Basic",
         "Attack 1": "[1] Copy\r\n<br>Choose 1 of the Defending Pokémon's attacks. Copy copies that attack. This attack does nothing if Mew doesn't have the Energy necessary to use that attack. (You must still do anything else required for that attack.) Mew performs that attack.",
         "Attack 2": "[R] Extra Draw\r\n<br>If your opponent has any Pokémon-ex in play, search your deck for up to 2 basic Energy cards and attach them to Mew. Shuffle your deck afterward.",
-        "Weakness": "P",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "P /  / 1",
+        "Artist": "Masakazu Fukuda"
       },
       "image_url": "https://cdn.tcgtracking.com/product/87407_200w.jpg",
       "image_count": 1,
@@ -381,8 +378,10 @@
       "number": "004/017",
       "rarity": "Rare",
       "ext_data": {
-        "Card Type": "Special Energy",
-        "CardText": "Double Rainbow Energy can be attached only to an Evolved Pokémon (excluding Pokémon-ex). While in play, Double Rainbow Energy provides every type of Energy but provides 2 Energy at a time. <em>(Has no effect other than providing Energy.)</em> Damage done to your opponent's Pokémon by the Pokémon Double Rainbow Energy is attached to is reduced by 10 <em>(before applying Weakness and Resistance)</em>. When the Pokémon Double Rainbow Energy is attached to is no longer an Evolved Pokémon, discard Double Rainbow Energy."
+        "Card Number / Rarity": "004/017 / Rare",
+        "Card Type / HP / Stage": "Special Energy /  / ",
+        "Card Text": "Double Rainbow Energy can be attached only to an Evolved Pokémon (excluding Pokémon-ex). While in play, Double Rainbow Energy provides every type of Energy but provides 2 Energy at a time. <em>(Has no effect other than providing Energy.)</em> Damage done to your opponent's Pokémon by the Pokémon Double Rainbow Energy is attached to is reduced by 10 <em>(before applying Weakness and Resistance)</em>. When the Pokémon Double Rainbow Energy is attached to is no longer an Evolved Pokémon, discard Double Rainbow Energy.",
+        "Artist": "Takumi Akabane"
       },
       "image_url": "https://cdn.tcgtracking.com/product/84894_200w.jpg",
       "image_count": 1,
@@ -480,17 +479,16 @@
     {
       "id": 84237,
       "name": "Charmeleon (Delta Species)",
-      "clean_name": "Charmeleon (Delta Species)",
+      "clean_name": "Charmeleon Delta Species",
       "number": "005/017",
       "rarity": "Uncommon",
       "ext_data": {
-        "Card Type": "Lightning",
-        "HP": "70",
-        "Stage": "Stage 1",
+        "Card Number / Rarity": "005/017 / Uncommon",
+        "Card Type / HP / Stage": "Lightning / 70 / Stage 1",
         "Attack 1": "[2] Slash (20)",
         "Attack 2": "[2L] Thunder Jolt (50)\r\n<br>Flip a coin. If tails, Charmeleon does 10 damage to itself.",
-        "Weakness": "W",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "W /  / 1",
+        "Artist": "Mitsuhiro Arita"
       },
       "image_url": "https://cdn.tcgtracking.com/product/84237_200w.jpg",
       "image_count": 1,
@@ -578,12 +576,14 @@
     {
       "id": 83840,
       "name": "Bill's Maintenance",
-      "clean_name": "Bill's Maintenance",
+      "clean_name": "Bills Maintenance",
       "number": "006/017",
       "rarity": "Uncommon",
       "ext_data": {
-        "Card Type": "Supporter",
-        "CardText": "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card.\r\n<br>\r\n<br>If you have any cards in your hand, shuffle 1 of them into your deck, then draw 3 cards."
+        "Card Number / Rarity": "006/017 / Uncommon",
+        "Card Type / HP / Stage": "Supporter /  / ",
+        "Card Text": "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card.\r\n<br>\r\n<br>If you have any cards in your hand, shuffle 1 of them into your deck, then draw 3 cards.",
+        "Artist": "Ken Sugimori"
       },
       "image_url": "https://cdn.tcgtracking.com/product/83840_200w.jpg",
       "image_count": 1,
@@ -685,8 +685,10 @@
       "number": "007/017",
       "rarity": "Uncommon",
       "ext_data": {
-        "Card Type": "Item",
-        "CardText": "Choose 1 of your Basic Pokémon in play. If you have a Stage 1 or Stage 2 card that evolves from that Pokémon in your hand, put that card on the Basic Pokémon. (This counts as evolving that Pokémon.)"
+        "Card Number / Rarity": "007/017 / Uncommon",
+        "Card Type / HP / Stage": "Item /  / ",
+        "Card Text": "Choose 1 of your Basic Pokémon in play. If you have a Stage 1 or Stage 2 card that evolves from that Pokémon in your hand, put that card on the Basic Pokémon. (This counts as evolving that Pokémon.)",
+        "Artist": "Ryo Ueda"
       },
       "image_url": "https://cdn.tcgtracking.com/product/88592_200w.jpg",
       "image_count": 1,
@@ -788,8 +790,10 @@
       "number": "008/017",
       "rarity": "Uncommon",
       "ext_data": {
-        "Card Type": "Special Energy",
-        "CardText": "Boost Energy can be attached only to an Evolved Pokémon. Discard Boost Energy at the end of the turn it was attached. Boost Energy provides 3 Colorless Energy. The Pokémon Boost Energy is attached to can't retreat. If the Pokémon Boost Energy is attached to isn't an Evolved Pokémon, discard Boost Energy."
+        "Card Number / Rarity": "008/017 / Uncommon",
+        "Card Type / HP / Stage": "Special Energy /  / ",
+        "Card Text": "Boost Energy can be attached only to an Evolved Pokémon. Discard Boost Energy at the end of the turn it was attached. Boost Energy provides 3 Colorless Energy. The Pokémon Boost Energy is attached to can't retreat. If the Pokémon Boost Energy is attached to isn't an Evolved Pokémon, discard Boost Energy.",
+        "Artist": "Shin-ichi Yoshikawa"
       },
       "image_url": "https://cdn.tcgtracking.com/product/83941_200w.jpg",
       "image_count": 1,
@@ -891,8 +895,10 @@
       "number": "009/017",
       "rarity": "Uncommon",
       "ext_data": {
-        "Card Type": "Special Energy",
-        "CardText": "Delta Species Rainbow Energy provides 1 Colorless Energy. While attached to a Pokémon that has Delta Species on its card, Delta Species Rainbow Energy provides every type of Energy but provides only 1 Energy at a time. <em>(Has no effect other than providing Energy.)</em>"
+        "Card Number / Rarity": "009/017 / Uncommon",
+        "Card Type / HP / Stage": "Special Energy /  / ",
+        "Card Text": "Delta Species Rainbow Energy provides 1 Colorless Energy. While attached to a Pokémon that has Delta Species on its card, Delta Species Rainbow Energy provides every type of Energy but provides only 1 Energy at a time. <em>(Has no effect other than providing Energy.)</em>",
+        "Artist": "Takumi Akabane"
       },
       "image_url": "https://cdn.tcgtracking.com/product/84756_200w.jpg",
       "image_count": 1,
@@ -990,17 +996,16 @@
     {
       "id": 84221,
       "name": "Charmander (Delta Species)",
-      "clean_name": "Charmander (Delta Species)",
+      "clean_name": "Charmander Delta Species",
       "number": "010/017",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Lightning",
-        "HP": "50",
-        "Stage": "Basic",
+        "Card Number / Rarity": "010/017 / Common",
+        "Card Type / HP / Stage": "Lightning / 50 / Basic",
         "Attack 1": "[1] Scratch (10)",
         "Attack 2": "[1L] Bite (20)",
-        "Weakness": "W",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "W /  / 1",
+        "Artist": "Mitsuhiro Arita"
       },
       "image_url": "https://cdn.tcgtracking.com/product/84221_200w.jpg",
       "image_count": 1,
@@ -1088,16 +1093,15 @@
     {
       "id": 87330,
       "name": "Meowth (Delta Species)",
-      "clean_name": "Meowth (Delta Species)",
+      "clean_name": "Meowth Delta Species",
       "number": "011/017",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Darkness",
-        "HP": "50",
-        "Stage": "Basic",
+        "Card Number / Rarity": "011/017 / Common",
+        "Card Type / HP / Stage": "Darkness / 50 / Basic",
         "Attack 1": "[D] Feint Attack\r\n<br>Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other affects on that Pokémon.",
-        "Weakness": "F",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "F /  / 1",
+        "Artist": "Mitsuhiro Arita"
       },
       "image_url": "https://cdn.tcgtracking.com/product/87330_200w.jpg",
       "image_count": 1,
@@ -1189,13 +1193,12 @@
       "number": "012/017",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Lightning",
-        "HP": "50",
-        "Stage": "Basic",
+        "Card Number / Rarity": "012/017 / Common",
+        "Card Type / HP / Stage": "Lightning / 50 / Basic",
         "Attack 1": "[L] Lightning Ball (10)",
         "Attack 2": "[2L] Thunderbolt (50)\r\n<br>Discard all Energy cards attached to Pikachu.",
-        "Weakness": "F",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "F /  / 1",
+        "Artist": "Naoyo Kimura"
       },
       "image_url": "https://cdn.tcgtracking.com/product/88085_200w.jpg",
       "image_count": 1,
@@ -1293,17 +1296,16 @@
     {
       "id": 88110,
       "name": "Pikachu (Delta Species)",
-      "clean_name": "Pikachu (Delta Species)",
+      "clean_name": "Pikachu Delta Species",
       "number": "013/017",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Metal",
-        "HP": "40",
-        "Stage": "Basic",
+        "Card Number / Rarity": "013/017 / Common",
+        "Card Type / HP / Stage": "Metal / 40 / Basic",
         "Attack 1": "[1] Electric Punch (10)",
         "Attack 2": "[2] Heavy Metal (10+)\r\n<br>\r\nFlip a coin for each Metal Energy attached to Pikachu. This attack does 10 damage plus 20 more damage for each heads.",
-        "Weakness": "F",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "F /  / 1",
+        "Artist": "Ryo Ueda"
       },
       "image_url": "https://cdn.tcgtracking.com/product/88110_200w.jpg",
       "image_count": 1,
@@ -1391,17 +1393,16 @@
     {
       "id": 87981,
       "name": "Pelipper (Delta Species)",
-      "clean_name": "Pelipper (Delta Species)",
+      "clean_name": "Pelipper Delta Species",
       "number": "014/017",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Lightning",
-        "HP": "70",
-        "Stage": "Stage 1",
-        "CardText": "<strong>Poké-BODY — Mist</strong>\r\n<br>\r\nAny damage done to Pelipper by attacks from Stage 2 Evolved Pokémon <em>(both yours and your opponent's)</em> is reduced by 30 <em>(after applying Weakness and Resistance)</em>.",
+        "Card Number / Rarity": "014/017 / Common",
+        "Card Type / HP / Stage": "Lightning / 70 / Stage 1",
+        "Card Text": "<strong>Poké-BODY — Mist</strong>\r\n<br>\r\nAny damage done to Pelipper by attacks from Stage 2 Evolved Pokémon <em>(both yours and your opponent's)</em> is reduced by 30 <em>(after applying Weakness and Resistance)</em>.",
         "Attack 1": "[2L] Lightning Wing (50)\r\n<br>Does 10 damage to 1 of your Benched Pokémon. <em>(Don't apply Weakness and Resistance for Benched Pokémon.)</em>",
-        "Weakness": "L",
-        "Resistance": "F"
+        "Weakness / Resistance / Retreat Cost": "L / F / ",
+        "Artist": "Mitsuhiro Arita"
       },
       "image_url": "https://cdn.tcgtracking.com/product/87981_200w.jpg",
       "image_count": 1,
@@ -1487,17 +1488,16 @@
     {
       "id": 90709,
       "name": "Zangoose (Delta Species)",
-      "clean_name": "Zangoose (Delta Species)",
+      "clean_name": "Zangoose Delta Species",
       "number": "015/017",
       "rarity": "Common",
       "ext_data": {
-        "Card Type": "Metal",
-        "HP": "70",
-        "Stage": "Basic",
+        "Card Number / Rarity": "015/017 / Common",
+        "Card Type / HP / Stage": "Metal / 70 / Basic",
         "Attack 1": "[1] Detect\r\n<br>Flip a coin. If heads, prevent all effects of an attack, including damage, done to Zangoose during your opponent's next turn.",
         "Attack 2": "[2M] Metal Claw (40)",
-        "Weakness": "F",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "F /  / 1",
+        "Artist": "Kouki Saitou"
       },
       "image_url": "https://cdn.tcgtracking.com/product/90709_200w.jpg",
       "image_count": 1,
@@ -1587,13 +1587,12 @@
       "number": "016/017",
       "rarity": "Ultra Rare",
       "ext_data": {
-        "Card Type": "Psychic",
-        "HP": "70",
-        "Stage": "Basic",
-        "CardText": "<strong>Poké-POWER — Purple Ray</strong>\r\n<br>\r\nOnce during your turn, when you put Espeon Star from your hand onto your Bench, you may use this power. Each Active Pokémon <em>(both yours and your opponent's)</em> is now Confused.\r\n<br><br>\r\n<em>You can't have more than 1 Pokémon Star in your deck.</em>",
+        "Card Number / Rarity": "016/017 / Ultra Rare",
+        "Card Type / HP / Stage": "Psychic / 70 / Basic",
+        "Card Text": "<strong>Poké-POWER — Purple Ray</strong>\r\n<br>\r\nOnce during your turn, when you put Espeon Star from your hand onto your Bench, you may use this power. Each Active Pokémon <em>(both yours and your opponent's)</em> is now Confused.\r\n<br><br>\r\n<em>You can't have more than 1 Pokémon Star in your deck.</em>",
         "Attack 1": "[1PP] Psychic Boom (30+)\r\n<br>Does 30 damage plus 10 more damage for each Energy attached to the Defending Pokémon.",
-        "Weakness": "P",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "P /  / 1",
+        "Artist": "Masakazu Fukuda"
       },
       "image_url": "https://cdn.tcgtracking.com/product/85329_200w.jpg",
       "image_count": 1,
@@ -1685,13 +1684,13 @@
       "number": "017/017",
       "rarity": "Ultra Rare",
       "ext_data": {
-        "Card Type": "Darkness",
-        "HP": "70",
-        "Stage": "Basic",
-        "CardText": "<strong>Poké-POWER — Dark Ray</strong>\r\n<br>\r\nOnce during your turn, when you put Umbreon Star from your hand onto your Bench, you may choose 1 card from your opponent's hand without looking and discard it.",
+        "Card Number / Rarity": "017/017 / Ultra Rare",
+        "Card Type / HP / Stage": "Darkness / 70 / Basic",
+        "Card Text": "<strong>Poké-POWER — Dark Ray</strong>\r\n<br>\r\nOnce during your turn, when you put Umbreon Star from your hand onto your Bench, you may choose 1 card from your opponent's hand without looking and discard it.",
         "Attack 1": "[DD] Feint Attack\r\n<br>Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poke-Bodies, or any other effects on that Pokémon.\r\n<br><br>\r\n<em>You can't have more than 1 Pokémon Star in your deck.</em>",
-        "Weakness": "F",
-        "RetreatCost": "1"
+        "Weakness / Resistance / Retreat Cost": "F /  / 1",
+        "Artist": "Masakazu Fukuda",
+        "TCGplayer Tip": "Umbreon Star was printed in POP Series 5, a 2007 promotional set printed in 2007 that was only available through the Pokémon Organized Play System. Its limited print run and status as the first Shiny Umbreon card make it one of the most sought-after cards in the Pokémon TCG."
       },
       "image_url": "https://cdn.tcgtracking.com/product/90153_200w.jpg",
       "image_count": 1,
