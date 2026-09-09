@@ -4,7 +4,11 @@ export const experienceData = [
     company: 'Y22 AI',
     date: 'Aug 17th, 2026 - Present',
     bullets: [
-      ''
+      'Designed and implemented a reusable iOS 27-inspired glass UI system across 7 product routes, standardizing opacity, blur, refraction, borders, shadows, motion, and responsive behavior.',
+      'Developed a shared accessible light/dark theme system with reusable design tokens and persistent state behavior across Call Execution, Performance, and Workspace experiences.',
+      'Integrated the shared frontend system across Winning Formula, Live Insights, LIVEAI Notetaker, Conversation Intelligence, Team Performance, Rep Performance, and Manager Dashboard while preserving existing product logic and backend bindings.',
+      'Built and maintained reusable frontend components for KPIs, charts, tables, filters, dialogs, buttons, tooltips, navigation, and responsive layouts, ensuring consistency across desktop and mobile states.',
+      'Led frontend integration and QA using TypeScript, linting, tests, production builds, responsive checks, theme review, and PR-based source control, collaborating with UI/UX and 3D designers to deliver production-ready implementations.',
     ],
   },
   {
@@ -17,13 +21,12 @@ export const experienceData = [
       'Built and deployed confidential AI web applications to validate deployment pipelines, platform APIs, and secure execution environments.',
       'Investigated and documented reproducible software defects, platform inconsistencies, documentation issues, and cross-platform compatibility problems, enabling faster engineering triage and product improvements.',
       'Verified cryptographic functionality including remote attestation, deterministic key derivation, secure secret management, and Ethereum/Solana key generation using the Dstack SDK.'
-
     ]
   },
   {
     title: 'Designer',
     company: 'Biophilia VR',
-    date: 'June 1st, 2026 - Present',
+    date: 'June 1st, 2026 - Sep 11th, 2026',
     bullets: [
       'Designed immersive VR gallery environments in Unity, creating concept art, layouts, lighting, and shaders to support interactive museum experiences. ',
       'Created 7 iterative sketches and 9 spatial prototypes to communicate environment composition, navigation flow, and user experience to the development team. ',
