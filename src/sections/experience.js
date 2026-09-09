@@ -5,8 +5,8 @@ export const experienceData = [
     date: 'Aug 17th, 2026 - Present',
     bullets: [
       'Designed and implemented a reusable iOS 27-inspired glass UI system across 7 product routes, standardizing opacity, blur, refraction, borders, shadows, motion, and responsive behavior.',
-      'Developed a shared accessible light/dark theme system with reusable design tokens and persistent state behavior across Call Execution, Performance, and Workspace experiences.',
-      'Integrated the shared frontend system across Winning Formula, Live Insights, LIVEAI Notetaker, Conversation Intelligence, Team Performance, Rep Performance, and Manager Dashboard while preserving existing product logic and backend bindings.',
+      'Developed a shared accessible light/dark theme system with reusable design tokens and persistent state behavior across 3 experiences.',
+      'Integrated the shared frontend system across 7 pages while preserving existing product logic and backend bindings.',
       'Built and maintained reusable frontend components for KPIs, charts, tables, filters, dialogs, buttons, tooltips, navigation, and responsive layouts, ensuring consistency across desktop and mobile states.',
       'Led frontend integration and QA using TypeScript, linting, tests, production builds, responsive checks, theme review, and PR-based source control, collaborating with UI/UX and 3D designers to deliver production-ready implementations.',
     ],
