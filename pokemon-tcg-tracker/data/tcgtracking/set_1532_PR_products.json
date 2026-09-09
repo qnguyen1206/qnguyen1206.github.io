@@ -4,8 +4,8 @@
   "set_abbr": "PR",
   "set_released": "2014-03-12",
   "product_count": 62,
-  "data_modified": "2026-08-31T10:03:43-04:00",
-  "file_generated": "2026-08-31T10:04:42-04:00",
+  "data_modified": "2026-09-07T08:25:20-04:00",
+  "file_generated": "2026-09-07T08:31:36-04:00",
   "pricing_url": "/v1/3/sets/1532/pricing",
   "cards_url": "/v1/3/sets/1532/cards",
   "sealed_url": "/v1/3/sets/1532/sealed",
@@ -14,7 +14,7 @@
     {
       "id": 283261,
       "name": "Code Card - XY Trainer Kit: Sylveon & Noivern",
-      "clean_name": "Code Card - XY Trainer Kit: Sylveon & Noivern",
+      "clean_name": "Code Card XY Trainer Kit Sylveon Noivern",
       "number": null,
       "rarity": "Code Card",
       "ext_data": {
@@ -51,7 +51,7 @@
     {
       "id": 97966,
       "name": "Fletchling (#1)",
-      "clean_name": "Fletchling (#1)",
+      "clean_name": "Fletchling 1",
       "number": "1/30",
       "rarity": "Common",
       "ext_data": {
@@ -261,7 +261,7 @@
     {
       "id": 97975,
       "name": "Fairy Energy (#10)",
-      "clean_name": "Fairy Energy (#10)",
+      "clean_name": "Fairy Energy 10",
       "number": "10/30",
       "rarity": "Common",
       "ext_data": {
@@ -364,7 +364,7 @@
     {
       "id": 98005,
       "name": "Psychic Energy (#10)",
-      "clean_name": "Psychic Energy (#10)",
+      "clean_name": "Psychic Energy 10",
       "number": "10/30",
       "rarity": "Common",
       "ext_data": {
@@ -467,7 +467,7 @@
     {
       "id": 98006,
       "name": "Pumpkaboo (#11)",
-      "clean_name": "Pumpkaboo (#11)",
+      "clean_name": "Pumpkaboo 11",
       "number": "11/30",
       "rarity": "Common",
       "ext_data": {
@@ -572,7 +572,7 @@
     {
       "id": 97976,
       "name": "Snubbull (#11)",
-      "clean_name": "Snubbull (#11)",
+      "clean_name": "Snubbull 11",
       "number": "11/30",
       "rarity": "Common",
       "ext_data": {
@@ -677,7 +677,7 @@
     {
       "id": 97977,
       "name": "Fairy Energy (#12)",
-      "clean_name": "Fairy Energy (#12)",
+      "clean_name": "Fairy Energy 12",
       "number": "12/30",
       "rarity": "Common",
       "ext_data": {
@@ -780,7 +780,7 @@
     {
       "id": 98007,
       "name": "Noibat (#12)",
-      "clean_name": "Noibat (#12)",
+      "clean_name": "Noibat 12",
       "number": "12/30",
       "rarity": "Common",
       "ext_data": {
@@ -884,115 +884,9 @@
       ]
     },
     {
-      "id": 98020,
-      "name": "Noibat (#23)",
-      "clean_name": "Noibat (#23)",
-      "number": "12/30",
-      "rarity": "Common",
-      "ext_data": {
-        "Card Number / Rarity": "12/30 / Common",
-        "Card Type / HP / Stage": "Colorless / 60 / Basic",
-        "Attack 1": "[P] Supersonic \r\n<br>Flip a coin. If heads, your opponent's Active Pokemon is now Confused.",
-        "Attack 2": "[3] Wing Attack (30)",
-        "Weakness / Resistance / Retreat Cost": "Lx2 / F-20 / 1"
-      },
-      "image_url": "https://cdn.tcgtracking.com/product/98020_200w.jpg",
-      "image_count": 1,
-      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F98020%2Fpokemon-xy-trainer-kit-sylveon-and-noivern-noibat-23",
-      "manapool_url": null,
-      "scryfall_id": null,
-      "mtgjson_uuid": null,
-      "cardmarket_id": 281638,
-      "cardtrader_id": 132499,
-      "cardtrader": [
-        {
-          "id": 132499,
-          "name": "Noibat",
-          "match_type": "tcgplayer",
-          "match_confidence": 100,
-          "expansion": "XY Trainer Kit: Noivern",
-          "expansion_code": "xytkn",
-          "collector_number": "23/30",
-          "rarity": "Fixed",
-          "finishes": [
-            "normal"
-          ],
-          "languages": [
-            "en",
-            "fr",
-            "de",
-            "it",
-            "kr",
-            "pt",
-            "ru",
-            "es"
-          ],
-          "properties": [
-            {
-              "name": "condition",
-              "type": "string",
-              "default_value": "Near Mint",
-              "possible_values": [
-                "Mint",
-                "Near Mint",
-                "Slightly Played",
-                "Moderately Played",
-                "Played",
-                "Poor"
-              ]
-            },
-            {
-              "name": "signed",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "altered",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "pokemon_language",
-              "type": "string",
-              "default_value": "en",
-              "possible_values": [
-                "en",
-                "fr",
-                "de",
-                "it",
-                "kr",
-                "pt",
-                "ru",
-                "es"
-              ]
-            }
-          ],
-          "cardmarket_ids": [
-            281638
-          ],
-          "image_url": "https://cdn.tcgtracking.com/product/98020_200w.jpg",
-          "scryfall_id": null,
-          "tcg_player_id": 98020,
-          "game_id": 5,
-          "category_id": 73,
-          "category_name": "Pokémon Singles",
-          "product_type": "single",
-          "group_id": 1532
-        }
-      ]
-    },
-    {
       "id": 97978,
       "name": "Eevee (13)",
-      "clean_name": "Eevee (13)",
+      "clean_name": "Eevee 13",
       "number": "13/30",
       "rarity": "Common",
       "ext_data": {
@@ -1097,7 +991,7 @@
     {
       "id": 98008,
       "name": "Noivern (#13 - Non-Holo)",
-      "clean_name": "Noivern (#13 - Non-Holo)",
+      "clean_name": "Noivern 13 Non Holo",
       "number": "13/30",
       "rarity": "Common",
       "ext_data": {
@@ -1203,7 +1097,7 @@
     {
       "id": 97979,
       "name": "Granbull (#14)",
-      "clean_name": "Granbull (#14)",
+      "clean_name": "Granbull 14",
       "number": "14/30",
       "rarity": "Common",
       "ext_data": {
@@ -1309,7 +1203,7 @@
     {
       "id": 98009,
       "name": "Pokemon Catcher (Noivern)",
-      "clean_name": "Pokemon Catcher (Noivern)",
+      "clean_name": "Pokemon Catcher Noivern",
       "number": "14/30",
       "rarity": "Common",
       "ext_data": {
@@ -1413,7 +1307,7 @@
     {
       "id": 98010,
       "name": "Potion (#15 - Noivern)",
-      "clean_name": "Potion (#15 - Noivern)",
+      "clean_name": "Potion 15 Noivern",
       "number": "15/30",
       "rarity": "Common",
       "ext_data": {
@@ -1516,7 +1410,7 @@
     {
       "id": 97980,
       "name": "Sylveon (#15 - Non-Holo)",
-      "clean_name": "Sylveon (#15 - Non-Holo)",
+      "clean_name": "Sylveon 15 Non Holo",
       "number": "15/30",
       "rarity": "Common",
       "ext_data": {
@@ -1727,7 +1621,7 @@
     {
       "id": 97981,
       "name": "Furfrou (#16 - Sylveon)",
-      "clean_name": "Furfrou (#16 - Sylveon)",
+      "clean_name": "Furfrou 16 Sylveon",
       "number": "16/30",
       "rarity": "Common",
       "ext_data": {
@@ -1833,7 +1727,7 @@
     {
       "id": 97982,
       "name": "Fairy Energy (#17)",
-      "clean_name": "Fairy Energy (#17)",
+      "clean_name": "Fairy Energy 17",
       "number": "17/30",
       "rarity": "Common",
       "ext_data": {
@@ -1936,7 +1830,7 @@
     {
       "id": 98012,
       "name": "Psychic Energy (#17)",
-      "clean_name": "Psychic Energy (#17)",
+      "clean_name": "Psychic Energy 17",
       "number": "17/30",
       "rarity": "Common",
       "ext_data": {
@@ -2039,7 +1933,7 @@
     {
       "id": 97983,
       "name": "Fairy Energy (#18)",
-      "clean_name": "Fairy Energy (#18)",
+      "clean_name": "Fairy Energy 18",
       "number": "18/30",
       "rarity": "Common",
       "ext_data": {
@@ -2142,7 +2036,7 @@
     {
       "id": 98013,
       "name": "Pumpkaboo (#18)",
-      "clean_name": "Pumpkaboo (#18)",
+      "clean_name": "Pumpkaboo 18",
       "number": "18/30",
       "rarity": "Common",
       "ext_data": {
@@ -2247,7 +2141,7 @@
     {
       "id": 98014,
       "name": "Darkness Energy (#19)",
-      "clean_name": "Darkness Energy (#19)",
+      "clean_name": "Darkness Energy 19",
       "number": "19/30",
       "rarity": "Common",
       "ext_data": {
@@ -2350,7 +2244,7 @@
     {
       "id": 97984,
       "name": "Fletchling (#19)",
-      "clean_name": "Fletchling (#19)",
+      "clean_name": "Fletchling 19",
       "number": "19/30",
       "rarity": "Common",
       "ext_data": {
@@ -2455,7 +2349,7 @@
     {
       "id": 97967,
       "name": "Fairy Energy (#2)",
-      "clean_name": "Fairy Energy (#2)",
+      "clean_name": "Fairy Energy 2",
       "number": "2/30",
       "rarity": "Common",
       "ext_data": {
@@ -2664,7 +2558,7 @@
     {
       "id": 98018,
       "name": "Furfrou (#20 - Noivern)",
-      "clean_name": "Furfrou (#20 - Noivern)",
+      "clean_name": "Furfrou 20 Noivern",
       "number": "20/30",
       "rarity": "Common",
       "ext_data": {
@@ -2770,7 +2664,7 @@
     {
       "id": 97985,
       "name": "Potion (#20 - Sylveon)",
-      "clean_name": "Potion (#20 - Sylveon)",
+      "clean_name": "Potion 20 Sylveon",
       "number": "20/30",
       "rarity": "Common",
       "ext_data": {
@@ -2873,7 +2767,7 @@
     {
       "id": 97986,
       "name": "Eevee (21)",
-      "clean_name": "Eevee (21)",
+      "clean_name": "Eevee 21",
       "number": "21/30",
       "rarity": "Common",
       "ext_data": {
@@ -2978,7 +2872,7 @@
     {
       "id": 98019,
       "name": "Poke Ball (Noivern)",
-      "clean_name": "Poke Ball (Noivern)",
+      "clean_name": "Poke Ball Noivern",
       "number": "21/30",
       "rarity": "Common",
       "ext_data": {
@@ -3082,7 +2976,7 @@
     {
       "id": 98015,
       "name": "Darkness Energy (#22)",
-      "clean_name": "Darkness Energy (#22)",
+      "clean_name": "Darkness Energy 22",
       "number": "22/30",
       "rarity": "Common",
       "ext_data": {
@@ -3185,7 +3079,7 @@
     {
       "id": 97987,
       "name": "Furfrou (#22 - Sylveon)",
-      "clean_name": "Furfrou (#22 - Sylveon)",
+      "clean_name": "Furfrou 22 Sylveon",
       "number": "22/30",
       "rarity": "Common",
       "ext_data": {
@@ -3289,9 +3183,115 @@
       ]
     },
     {
+      "id": 98020,
+      "name": "Noibat (#23)",
+      "clean_name": "Noibat 23",
+      "number": "23/30",
+      "rarity": "Common",
+      "ext_data": {
+        "Card Number / Rarity": "12/30 / Common",
+        "Card Type / HP / Stage": "Colorless / 60 / Basic",
+        "Attack 1": "[P] Supersonic \r\n<br>Flip a coin. If heads, your opponent's Active Pokemon is now Confused.",
+        "Attack 2": "[3] Wing Attack (30)",
+        "Weakness / Resistance / Retreat Cost": "Lx2 / F-20 / 1"
+      },
+      "image_url": "https://cdn.tcgtracking.com/product/98020_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F98020%2Fpokemon-xy-trainer-kit-sylveon-and-noivern-noibat-23",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 281638,
+      "cardtrader_id": 132499,
+      "cardtrader": [
+        {
+          "id": 132499,
+          "name": "Noibat",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "XY Trainer Kit: Noivern",
+          "expansion_code": "xytkn",
+          "collector_number": "23/30",
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "kr",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "kr",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            281638
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/98020_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 98020,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1532
+        }
+      ]
+    },
+    {
       "id": 97988,
       "name": "Pokemon Catcher (Sylveon)",
-      "clean_name": "Pokemon Catcher (Sylveon)",
+      "clean_name": "Pokemon Catcher Sylveon",
       "number": "23/30",
       "rarity": "Common",
       "ext_data": {
@@ -3395,7 +3395,7 @@
     {
       "id": 97989,
       "name": "Potion (#24 - Sylveon)",
-      "clean_name": "Potion (#24 - Sylveon)",
+      "clean_name": "Potion 24 Sylveon",
       "number": "24/30",
       "rarity": "Common",
       "ext_data": {
@@ -3499,7 +3499,7 @@
     {
       "id": 98021,
       "name": "Professor's Letter (Noivern)",
-      "clean_name": "Professor's Letter (Noivern)",
+      "clean_name": "Professors Letter Noivern",
       "number": "24/30",
       "rarity": "Common",
       "ext_data": {
@@ -3603,7 +3603,7 @@
     {
       "id": 97990,
       "name": "Fairy Energy (#25)",
-      "clean_name": "Fairy Energy (#25)",
+      "clean_name": "Fairy Energy 25",
       "number": "25/30",
       "rarity": "Common",
       "ext_data": {
@@ -3706,7 +3706,7 @@
     {
       "id": 98022,
       "name": "Psychic Energy (#25)",
-      "clean_name": "Psychic Energy (#25)",
+      "clean_name": "Psychic Energy 25",
       "number": "25/30",
       "rarity": "Common",
       "ext_data": {
@@ -3809,7 +3809,7 @@
     {
       "id": 98016,
       "name": "Darkness Energy (#26)",
-      "clean_name": "Darkness Energy (#26)",
+      "clean_name": "Darkness Energy 26",
       "number": "26/30",
       "rarity": "Common",
       "ext_data": {
@@ -3912,7 +3912,7 @@
     {
       "id": 97991,
       "name": "Poke Ball (Sylveon)",
-      "clean_name": "Poke Ball (Sylveon)",
+      "clean_name": "Poke Ball Sylveon",
       "number": "26/30",
       "rarity": "Common",
       "ext_data": {
@@ -4016,7 +4016,7 @@
     {
       "id": 98023,
       "name": "Potion (#27 - Noivern)",
-      "clean_name": "Potion (#27 - Noivern)",
+      "clean_name": "Potion 27 Noivern",
       "number": "27/30",
       "rarity": "Common",
       "ext_data": {
@@ -4119,7 +4119,7 @@
     {
       "id": 97992,
       "name": "Snubbull (#27)",
-      "clean_name": "Snubbull (#27)",
+      "clean_name": "Snubbull 27",
       "number": "27/30",
       "rarity": "Common",
       "ext_data": {
@@ -4224,7 +4224,7 @@
     {
       "id": 98017,
       "name": "Darkness Energy (#28)",
-      "clean_name": "Darkness Energy (#28)",
+      "clean_name": "Darkness Energy 28",
       "number": "28/30",
       "rarity": "Common",
       "ext_data": {
@@ -4327,7 +4327,7 @@
     {
       "id": 97993,
       "name": "Professor's Letter (Sylveon)",
-      "clean_name": "Professor's Letter (Sylveon)",
+      "clean_name": "Professors Letter Sylveon",
       "number": "28/30",
       "rarity": "Common",
       "ext_data": {
@@ -4431,7 +4431,7 @@
     {
       "id": 97994,
       "name": "Granbull (#29)",
-      "clean_name": "Granbull (#29)",
+      "clean_name": "Granbull 29",
       "number": "29/30",
       "rarity": "Common",
       "ext_data": {
@@ -4643,7 +4643,7 @@
     {
       "id": 97968,
       "name": "Fairy Energy (#3)",
-      "clean_name": "Fairy Energy (#3)",
+      "clean_name": "Fairy Energy 3",
       "number": "3/30",
       "rarity": "Common",
       "ext_data": {
@@ -4746,7 +4746,7 @@
     {
       "id": 98025,
       "name": "Noivern (#30 - Holo)",
-      "clean_name": "Noivern (#30 - Holo)",
+      "clean_name": "Noivern 30 Holo",
       "number": "30/30",
       "rarity": "Common",
       "ext_data": {
@@ -4852,7 +4852,7 @@
     {
       "id": 97995,
       "name": "Sylveon (#30 - Holo)",
-      "clean_name": "Sylveon (#30 - Holo)",
+      "clean_name": "Sylveon 30 Holo",
       "number": "30/30",
       "rarity": "Common",
       "ext_data": {
@@ -5063,7 +5063,7 @@
     {
       "id": 98024,
       "name": "Switch (Noivern)",
-      "clean_name": "Switch (Noivern)",
+      "clean_name": "Switch Noivern",
       "number": "4/30",
       "rarity": "Common",
       "ext_data": {
@@ -5167,7 +5167,7 @@
     {
       "id": 97969,
       "name": "Switch (Sylveon)",
-      "clean_name": "Switch (Sylveon)",
+      "clean_name": "Switch Sylveon",
       "number": "4/30",
       "rarity": "Common",
       "ext_data": {
@@ -5271,7 +5271,7 @@
     {
       "id": 97970,
       "name": "Fairy Energy (#5)",
-      "clean_name": "Fairy Energy (#5)",
+      "clean_name": "Fairy Energy 5",
       "number": "5/30",
       "rarity": "Common",
       "ext_data": {
@@ -5374,7 +5374,7 @@
     {
       "id": 98000,
       "name": "Psychic Energy (#5)",
-      "clean_name": "Psychic Energy (#5)",
+      "clean_name": "Psychic Energy 5",
       "number": "5/30",
       "rarity": "Common",
       "ext_data": {
@@ -5477,7 +5477,7 @@
     {
       "id": 97971,
       "name": "Fairy Energy (#6)",
-      "clean_name": "Fairy Energy (#6)",
+      "clean_name": "Fairy Energy 6",
       "number": "6/30",
       "rarity": "Common",
       "ext_data": {
@@ -5580,7 +5580,7 @@
     {
       "id": 98001,
       "name": "Psychic Energy (#6)",
-      "clean_name": "Psychic Energy (#6)",
+      "clean_name": "Psychic Energy 6",
       "number": "6/30",
       "rarity": "Common",
       "ext_data": {
@@ -5683,7 +5683,7 @@
     {
       "id": 97972,
       "name": "Fairy Energy (#7)",
-      "clean_name": "Fairy Energy (#7)",
+      "clean_name": "Fairy Energy 7",
       "number": "7/30",
       "rarity": "Common",
       "ext_data": {
@@ -5786,7 +5786,7 @@
     {
       "id": 98002,
       "name": "Psychic Energy (#7)",
-      "clean_name": "Psychic Energy (#7)",
+      "clean_name": "Psychic Energy 7",
       "number": "7/30",
       "rarity": "Common",
       "ext_data": {
@@ -5889,7 +5889,7 @@
     {
       "id": 97973,
       "name": "Fairy Energy (#8)",
-      "clean_name": "Fairy Energy (#8)",
+      "clean_name": "Fairy Energy 8",
       "number": "8/30",
       "rarity": "Common",
       "ext_data": {
@@ -5992,7 +5992,7 @@
     {
       "id": 98003,
       "name": "Psychic Energy (#8)",
-      "clean_name": "Psychic Energy (#8)",
+      "clean_name": "Psychic Energy 8",
       "number": "8/30",
       "rarity": "Common",
       "ext_data": {
@@ -6095,7 +6095,7 @@
     {
       "id": 97974,
       "name": "Fairy Energy (#9)",
-      "clean_name": "Fairy Energy (#9)",
+      "clean_name": "Fairy Energy 9",
       "number": "9/30",
       "rarity": "Common",
       "ext_data": {
@@ -6198,7 +6198,7 @@
     {
       "id": 98004,
       "name": "Psychic Energy (#9)",
-      "clean_name": "Psychic Energy (#9)",
+      "clean_name": "Psychic Energy 9",
       "number": "9/30",
       "rarity": "Common",
       "ext_data": {
