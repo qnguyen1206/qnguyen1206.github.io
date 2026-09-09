@@ -2,9 +2,9 @@ export const experienceData = [
   {
     title: 'Full Stack Developer Intern',
     company: 'Y22 AI',
-    date: 'Aug 17th, 2026 - Dec 10th, 2026',
+    date: 'Aug 17th, 2026 - Present',
     bullets: [
-      
+      ''
     ],
   },
   {

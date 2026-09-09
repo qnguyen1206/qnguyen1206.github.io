@@ -29,9 +29,13 @@ export function initProjects() {
    *   gitlabLink: 'url'            → GitLab repository URL
    *   externalLink: 'url'          → Live project/demo URL
    *   hidden: true                 → Hide project from display
-   *   images: [                    → Gallery images for modal
-   *     { src: 'path.png', alt: 'Description', caption: 'Optional caption' }
+   *   images: [                    → Gallery images and videos for modal
+   *     { src: 'path.png', alt: 'Description', caption: 'Optional caption' },
+   *     { type: 'video', src: 'path.mp4', poster: 'preview.jpg', alt: 'Video description', caption: 'Optional caption' }
    *   ]
+   *   Videos: use H.264/AAC MP4 for broad browser support. Optional mimeType defaults to video/mp4.
+   *   Videos appear full-width above Project Details; images remain in the gallery below.
+   *   Media paths are relative to public/. Videos play on demand and pause when the modal closes.
    *   writeup: `...`               → Detailed writeup of what you did
    * 
    * STATUS OPTIONS:
@@ -72,6 +76,13 @@ export function initProjects() {
       gitlabLink: '',
       externalLink: 'https://freyahuijia.github.io/biophilia-web/',
       images: [
+        {
+          type: 'video',
+          src: 'images/biophilia/IMG_2775.mp4',
+          poster: 'images/biophilia/IMG_2775-poster.jpg',
+          alt: 'Biophilia project video',
+          caption: 'Biophilia project video'
+        },
         { src: 'images/biophilia/IMG_2767.jpeg', alt: 'biophila img 1' },
         { src: 'images/biophilia/IMG_2768.jpeg', alt: 'biophilia img 2' },
         { src: 'images/biophilia/IMG_2769.jpeg', alt: 'biophilia img 3' },
@@ -735,12 +746,31 @@ For more information about Game Design Docs (GDD), please visit this <a href="ht
     }
     linksHTML += '</div>';
 
+    const media = project.images || [];
+    const videos = media.filter(item => item.type === 'video');
+    const images = media.filter(item => item.type !== 'video');
+    const videosHTML = videos.length ? `
+      <div class="project-modal-videos">
+        ${videos.map((video, index) => `
+          <div class="project-video-item">
+            <video controls playsinline preload="none"${video.poster ? ` poster="${video.poster}"` : ''}
+              aria-label="${video.alt || project.title + ' - Video ' + (index + 1)}">
+              <source src="${video.src}" type="${video.mimeType || 'video/mp4'}">
+              Your browser does not support embedded video. <a href="${video.src}">Open video</a>.
+            </video>
+            <p class="project-video-fallback" hidden>Unable to play this video. <a href="${video.src}">Open video</a>.</p>
+            ${video.caption ? `<p class="project-image-caption">${video.caption}</p>` : ''}
+          </div>
+        `).join('')}
+      </div>
+    ` : '';
+
     let imagesHTML = '';
-    if (project.images && project.images.length > 0) {
+    if (images.length > 0) {
       imagesHTML = `
         <div class="project-modal-images">
           <div class="project-images-masonry">
-            ${project.images.map((img, index) => `
+            ${images.map((img, index) => `
               <div class="project-image-item">
                 <img src="${img.src}" alt="${img.alt || project.title + ' - Image ' + (index + 1)}" loading="lazy">
                 ${img.caption ? `<p class="project-image-caption">${img.caption}</p>` : ''}
@@ -824,6 +854,8 @@ For more information about Game Design Docs (GDD), please visit this <a href="ht
         </div>
       </div>
 
+      ${videosHTML}
+
       ${caseStudyHTML}
 
       ${writeupHTML}
@@ -833,6 +865,19 @@ For more information about Game Design Docs (GDD), please visit this <a href="ht
       ${imagesHTML}
     `;
 
+    modalBody.querySelectorAll('video').forEach(video => {
+      const showFallback = () => {
+        video.parentElement.querySelector('.project-video-fallback').hidden = false;
+      };
+      video.addEventListener('error', showFallback);
+      video.querySelector('source').addEventListener('error', showFallback);
+      video.addEventListener('play', () => {
+        modalBody.querySelectorAll('video').forEach(other => {
+          if (other !== video) other.pause();
+        });
+      });
+    });
+
     modal.classList.add('active');
     document.body.style.overflow = 'hidden';
 
@@ -841,6 +886,7 @@ For more information about Game Design Docs (GDD), please visit this <a href="ht
   }
 
   function closeModal() {
+    modalBody.querySelectorAll('video').forEach(video => video.pause());
     modal.classList.remove('active');
     document.body.style.overflow = '';
   }
