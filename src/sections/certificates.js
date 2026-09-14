@@ -10,6 +10,12 @@ const certificatesData = {
   ],
   nonProfessional: [
     {
+      title: "UX Design Foundations",
+      issuer: "uxcel",
+      date: "Sep 13, 2026",
+      link: "https://app.uxcel.com/certificates/E91RYO68W4V1?utm_source=share-certificate",
+    },
+    {
       title: "Hacker Holidays Completion Certificate",
       issuer: "TryHackMe",
       date: "Aug 12, 2026",
@@ -134,7 +140,8 @@ const issuerIcons = {
   "TryHackMe": "icons/tryhackme.svg",
   "Georgia State University": "/icons/GSU_seal.png",
   "Georgia Tech": "/icons/GT_seal.png",
-  "NASBA" : "/icons/NASBA.png",
+  "NASBA": "/icons/NASBA.png",
+  "uxcel": "/icons/uxcel_icon.png",
   "Coursera": {
     type: "svg",
     content: `<circle cx="12" cy="12" r="3"/><path d="M12 1v6"/><path d="M12 17v6"/><path d="M4.22 4.22l4.24 4.24"/><path d="15.54 15.54l4.24 4.24"/><path d="M1 12h6"/><path d="M17 12h6"/><path d="M4.22 19.78l4.24-4.24"/><path d="M15.54 8.46l4.24-4.24"/>`
