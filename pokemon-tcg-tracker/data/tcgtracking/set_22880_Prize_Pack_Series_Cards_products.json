@@ -4,8 +4,8 @@
   "set_abbr": "",
   "set_released": "2022-11-30",
   "product_count": 891,
-  "data_modified": "2026-09-04T08:23:28-04:00",
-  "file_generated": "2026-09-04T08:31:24-04:00",
+  "data_modified": "2026-09-11T08:26:34-04:00",
+  "file_generated": "2026-09-11T08:31:32-04:00",
   "pricing_url": "/v1/3/sets/22880/pricing",
   "cards_url": "/v1/3/sets/22880/cards",
   "sealed_url": "/v1/3/sets/22880/sealed",
@@ -56489,8 +56489,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 864438,
+      "cardtrader_id": 412571,
+      "cardtrader": [
+        {
+          "id": 412571,
+          "name": "Sparkling Crystal",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Play! Pokémon Prize Pack Series",
+          "expansion_code": "playprizep",
+          "collector_number": "129",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            864438
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/677397_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 677397,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 22880
+        }
+      ]
     },
     {
       "id": 671325,

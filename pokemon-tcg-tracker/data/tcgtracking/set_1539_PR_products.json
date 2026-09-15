@@ -4,8 +4,8 @@
   "set_abbr": "PR",
   "set_released": "2016-06-01",
   "product_count": 618,
-  "data_modified": "2026-09-07T08:25:20-04:00",
-  "file_generated": "2026-09-07T08:31:34-04:00",
+  "data_modified": "2026-09-11T08:26:34-04:00",
+  "file_generated": "2026-09-11T08:31:55-04:00",
   "pricing_url": "/v1/3/sets/1539/pricing",
   "cards_url": "/v1/3/sets/1539/cards",
   "sealed_url": "/v1/3/sets/1539/sealed",
@@ -36255,16 +36255,16 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": 353817,
+      "cardmarket_id": 907242,
+      "cardtrader_id": null,
       "cardtrader": [
         {
           "id": 353817,
           "name": "Alcremie",
           "match_type": "tcgplayer",
           "match_confidence": 100,
-          "expansion": "League Promos",
-          "expansion_code": "lpr",
+          "expansion": "Play! Pokémon Prize Pack Series",
+          "expansion_code": "playprizep",
           "collector_number": "087",
           "rarity": "Promo",
           "finishes": [
@@ -36324,7 +36324,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            907242
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/626638_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 626638,
@@ -36332,7 +36334,7 @@
           "category_id": 73,
           "category_name": "Pokémon Singles",
           "product_type": "single",
-          "group_id": 1539
+          "group_id": 22880
         }
       ]
     },
