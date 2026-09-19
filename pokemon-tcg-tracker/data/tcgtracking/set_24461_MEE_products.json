@@ -4,8 +4,8 @@
   "set_abbr": "MEE",
   "set_released": "2025-09-26",
   "product_count": 16,
-  "data_modified": "2026-09-08T08:26:23-04:00",
-  "file_generated": "2026-09-08T08:31:28-04:00",
+  "data_modified": "2026-09-17T08:28:57-04:00",
+  "file_generated": "2026-09-17T08:31:08-04:00",
   "pricing_url": "/v1/3/sets/24461/pricing",
   "cards_url": "/v1/3/sets/24461/cards",
   "sealed_url": "/v1/3/sets/24461/sealed",
@@ -1036,8 +1036,98 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 909307,
+      "cardtrader_id": 409558,
+      "cardtrader": [
+        {
+          "id": 409558,
+          "name": "Basic Grass Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "30th Celebration",
+          "expansion_code": "30c",
+          "collector_number": null,
+          "rarity": "Common",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            909307
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/713248_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 713248,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 24722
+        }
+      ]
     },
     {
       "id": 713249,
@@ -1056,8 +1146,98 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 909308,
+      "cardtrader_id": 409559,
+      "cardtrader": [
+        {
+          "id": 409559,
+          "name": "Basic Fire Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "30th Celebration",
+          "expansion_code": "30c",
+          "collector_number": null,
+          "rarity": "Common",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            909308
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/713249_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 713249,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 24722
+        }
+      ]
     },
     {
       "id": 713250,
@@ -1076,8 +1256,98 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 909310,
+      "cardtrader_id": 409560,
+      "cardtrader": [
+        {
+          "id": 409560,
+          "name": "Basic Water Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "30th Celebration",
+          "expansion_code": "30c",
+          "collector_number": null,
+          "rarity": "Common",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            909310
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/713250_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 713250,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 24722
+        }
+      ]
     },
     {
       "id": 713251,
@@ -1096,8 +1366,98 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 909312,
+      "cardtrader_id": 409561,
+      "cardtrader": [
+        {
+          "id": 409561,
+          "name": "Basic Lightning Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "30th Celebration",
+          "expansion_code": "30c",
+          "collector_number": null,
+          "rarity": "Common",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            909312
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/713251_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 713251,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 24722
+        }
+      ]
     },
     {
       "id": 713252,
@@ -1116,8 +1476,98 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 909313,
+      "cardtrader_id": 409562,
+      "cardtrader": [
+        {
+          "id": 409562,
+          "name": "Basic Psychic Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "30th Celebration",
+          "expansion_code": "30c",
+          "collector_number": null,
+          "rarity": "Common",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            909313
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/713252_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 713252,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 24722
+        }
+      ]
     },
     {
       "id": 713253,
@@ -1136,8 +1586,98 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 909314,
+      "cardtrader_id": 409563,
+      "cardtrader": [
+        {
+          "id": 409563,
+          "name": "Basic Fighting Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "30th Celebration",
+          "expansion_code": "30c",
+          "collector_number": null,
+          "rarity": "Common",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            909314
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/713253_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 713253,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 24722
+        }
+      ]
     },
     {
       "id": 713254,
@@ -1156,8 +1696,98 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 909315,
+      "cardtrader_id": 409564,
+      "cardtrader": [
+        {
+          "id": 409564,
+          "name": "Basic Darkness Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "30th Celebration",
+          "expansion_code": "30c",
+          "collector_number": null,
+          "rarity": "Common",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            909315
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/713254_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 713254,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 24722
+        }
+      ]
     },
     {
       "id": 713255,
@@ -1176,8 +1806,98 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 909316,
+      "cardtrader_id": 409565,
+      "cardtrader": [
+        {
+          "id": 409565,
+          "name": "Basic Metal Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "30th Celebration",
+          "expansion_code": "30c",
+          "collector_number": null,
+          "rarity": "Common",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            909316
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/713255_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 713255,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 24722
+        }
+      ]
     }
   ]
 }
