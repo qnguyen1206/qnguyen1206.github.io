@@ -3,9 +3,9 @@
   "set_name": "Miscellaneous Cards & Products",
   "set_abbr": "MCAP",
   "set_released": "2026-06-23",
-  "product_count": 1519,
-  "data_modified": "2026-09-15T08:29:54-04:00",
-  "file_generated": "2026-09-15T08:31:21-04:00",
+  "product_count": 1520,
+  "data_modified": "2026-09-22T06:53:51-04:00",
+  "file_generated": "2026-09-22T08:31:17-04:00",
   "pricing_url": "/v1/3/sets/2374/pricing",
   "cards_url": "/v1/3/sets/2374/cards",
   "sealed_url": "/v1/3/sets/2374/sealed",
@@ -325,7 +325,7 @@
     {
       "id": 706250,
       "name": "2-Pack Blister [Zarude] (3-Tab)",
-      "clean_name": "2-Pack Blister [Zarude] (3-Tab)",
+      "clean_name": "2 Pack Blister Zarude 3 Tab",
       "number": null,
       "rarity": null,
       "ext_data": {
@@ -4837,7 +4837,7 @@
     {
       "id": 656275,
       "name": "Code Card - Legendary Warriors Premium Collection",
-      "clean_name": "Code Card Legendary Warriors Premium Collection",
+      "clean_name": "Code Card - Legendary Warriors Premium Collection",
       "number": null,
       "rarity": "Code Card",
       "ext_data": {
@@ -14083,6 +14083,30 @@
       "cardtrader_id": null
     },
     {
+      "id": 718643,
+      "name": "League Battle Deck [Mega Greninja ex]",
+      "clean_name": "League Battle Deck [Mega Greninja ex]",
+      "number": null,
+      "rarity": "Double Rare",
+      "ext_data": {
+        "number": null,
+        "description": "Take Mega Greninja ex for a Spin!\r\n\r\n <br> <br>\r\n\r\nIn this box, you'll find: <br>\r\n\r\n• 1 ready-to-play 60-card deck. <br>\r\n\r\n• 6 damage-counter dice. <br>\r\n\r\n• 1 coin-flip die.\r\n <br>\r\n• 2 coin condition markers.\r\n <br>\r\n• 1 deck box.\r\n <br>\r\n• 1 strategy sheet.\r\n <br>\r\n• 1 code card to play this deck online.",
+        "flavorText": null,
+        "rarityDbName": null,
+        "releaseDate": null,
+        "detailNote": "This product is a Presale item with an estimated shipping date of 11/13/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated.",
+        "energyType": null
+      },
+      "image_url": "https://cdn.tcgtracking.com/product/718643_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": null,
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": null
+    },
+    {
       "id": 684106,
       "name": "League Battle Deck [Mega Lucario ex]",
       "clean_name": "League Battle Deck [Mega Lucario ex]",
@@ -14590,6 +14614,30 @@
       "image_url": "https://cdn.tcgtracking.com/product/226138_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F226138%2Fpokemon-miscellaneous-cards-and-products-league-battle-deck-zacian-v",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": null
+    },
+    {
+      "id": 718644,
+      "name": "League Battle Deck Case [Mega Greninja ex]",
+      "clean_name": "League Battle Deck Case [Mega Greninja ex]",
+      "number": null,
+      "rarity": "Double Rare",
+      "ext_data": {
+        "number": null,
+        "description": "Take Mega Greninja ex for a Spin!\r\n\r\n <br> <br>\r\nEach case contains 6x League Battle decks\r\n <br> <br>\r\nIn each box, you'll find: <br>\r\n\r\n• 1 ready-to-play 60-card deck. <br>\r\n\r\n• 6 damage-counter dice. <br>\r\n\r\n• 1 coin-flip die.\r\n <br>\r\n• 2 coin condition markers.\r\n <br>\r\n• 1 deck box.\r\n <br>\r\n• 1 strategy sheet.\r\n <br>\r\n• 1 code card to play this deck online.",
+        "flavorText": null,
+        "rarityDbName": null,
+        "releaseDate": null,
+        "detailNote": "This product is a Presale item with an estimated shipping date of 11/13/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated.",
+        "energyType": null
+      },
+      "image_url": "https://cdn.tcgtracking.com/product/718644_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": null,
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
@@ -33627,7 +33675,14 @@
           "finishes": [
             "normal"
           ],
-          "languages": [],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
           "properties": [
             {
               "name": "condition",
@@ -33658,6 +33713,19 @@
               "possible_values": [
                 true,
                 false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
               ]
             }
           ],
@@ -36599,6 +36667,117 @@
       "mtgjson_uuid": null,
       "cardmarket_id": null,
       "cardtrader_id": null
+    },
+    {
+      "id": 553715,
+      "name": "Sinistcha - 022/167 (Twilight Masquerade Stamped)",
+      "clean_name": "Sinistcha 022 167 Twilight Masquerade Stamped",
+      "number": "022/167",
+      "rarity": "Promo",
+      "ext_data": {
+        "Card Number / Rarity": "022/167 / Promo",
+        "Card Type / HP / Stage": "Grass / 70 / Stage 1",
+        "Attack 1": "[G] Cursed Drop\r\n<br>Put 4 damage counters on your opponent's Pokémon in any way you like.",
+        "Attack 2": "[G] Spill the Tea (70x)\r\n<br>Discard up to 3 G Energy cards from your Pokémon. This attack does 70 damage for each card you discarded this way.",
+        "Weakness / Resistance / Retreat Cost": "Rx2 / None / 1",
+        "Artist": "Kouki Saitou"
+      },
+      "image_url": "https://cdn.tcgtracking.com/product/553715_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F553715%2Fpokemon-sv-scarlet-and-violet-promo-cards-sinistcha-022-167-prerelease",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 771355,
+      "cardtrader_id": 290597,
+      "cardtrader": [
+        {
+          "id": 290597,
+          "name": "Sinistcha",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "022",
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            771355
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/553715_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 553715,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 660334,
@@ -76211,29 +76390,6 @@
       "cardtrader_id": null
     },
     {
-      "id": 250510,
-      "name": "Pikachu - 208/S-P (Yu Nagaba)",
-      "clean_name": "Pikachu - 208/S-P (Yu Nagaba)",
-      "number": "208/S-P",
-      "rarity": "Promo",
-      "ext_data": {
-        "Card Number / Rarity": "208/S-P / Promo",
-        "Card Type / HP / Stage": "Lightning / 60 / Basic",
-        "Card Text": "<span style=\"color:red\"><em>This promotional card was printed in Japanese only.</em></span>",
-        "Attack 1": "[2L] One-Shot Game (70)\r\n<br>Flip a coin. If tails, this attack does nothing.",
-        "Weakness / Resistance / Retreat Cost": "Fx2 / None / 1",
-        "Artist": "Yu Nagaba"
-      },
-      "image_url": "https://cdn.tcgtracking.com/product/250510_200w.jpg",
-      "image_count": 1,
-      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250510%2Fpokemon-miscellaneous-cards-and-products-pikachu-208-s-p-yu-nagaba",
-      "manapool_url": null,
-      "scryfall_id": null,
-      "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
-    },
-    {
       "id": 487791,
       "name": "Mischievous Pichu - 214/S-P",
       "clean_name": "Mischievous Pichu - 214/S-P",
@@ -77504,29 +77660,6 @@
       "image_url": "https://cdn.tcgtracking.com/product/247362_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F247362%2Fpokemon-miscellaneous-cards-and-products-duraludon-swsh028-gamestop-exclusive",
-      "manapool_url": null,
-      "scryfall_id": null,
-      "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
-    },
-    {
-      "id": 619563,
-      "name": "Rayquaza - SWSH029 (Pixel Cosmos Holo)",
-      "clean_name": "Rayquaza - SWSH029 (Pixel Cosmos Holo)",
-      "number": "SWSH029",
-      "rarity": "Promo",
-      "ext_data": {
-        "Card Number / Rarity": "SWSH029 / Promo",
-        "Card Type / HP / Stage": "Colorless / 130 / Basic",
-        "Attack 1": "[2] Jaw Lock (30)\r\n<br>During your opponent's next turn, the Defending Pokemon can't retreat.",
-        "Attack 2": "[3] Power Blast (120)\r\n<br>Discard an Energy from this Pokemon.",
-        "Weakness / Resistance / Retreat Cost": "Lx2 / F-30 / 2",
-        "Artist": "so-taro"
-      },
-      "image_url": "https://cdn.tcgtracking.com/product/619563_200w.jpg",
-      "image_count": 1,
-      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F619563%2Fpokemon-miscellaneous-cards-and-products-rayquaza-swsh029-pixel-cosmos-holo",
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
