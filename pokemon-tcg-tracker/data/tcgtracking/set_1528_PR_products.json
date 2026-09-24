@@ -4,8 +4,8 @@
   "set_abbr": "PR",
   "set_released": "2015-04-01",
   "product_count": 345,
-  "data_modified": "2026-09-10T08:26:36-04:00",
-  "file_generated": "2026-09-10T08:31:20-04:00",
+  "data_modified": "2026-09-24T06:00:08-04:00",
+  "file_generated": "2026-09-24T08:31:38-04:00",
   "pricing_url": "/v1/3/sets/1528/pricing",
   "cards_url": "/v1/3/sets/1528/cards",
   "sealed_url": "/v1/3/sets/1528/sealed",
@@ -1208,7 +1208,7 @@
     {
       "id": 707213,
       "name": "Grovyle - 004 (e-League) [Winner]",
-      "clean_name": "Grovyle - 004 (e-League) [Winner]",
+      "clean_name": "Grovyle 004 e League Winner",
       "number": "004",
       "rarity": "Promo",
       "ext_data": {
@@ -1712,7 +1712,7 @@
     {
       "id": 707229,
       "name": "Marshtomp - 011 (e-League) [Winner]",
-      "clean_name": "Marshtomp - 011 (e-League) [Winner]",
+      "clean_name": "Marshtomp 011 e League Winner",
       "number": "011",
       "rarity": "Promo",
       "ext_data": {
@@ -6398,7 +6398,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 911381,
       "cardtrader_id": 258400,
       "cardtrader": [
         {
@@ -6475,7 +6475,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            911381
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/209656_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 209656,
@@ -10537,8 +10539,96 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 911406,
+      "cardtrader_id": 414734,
+      "cardtrader": [
+        {
+          "id": 414734,
+          "name": "Oran Berry",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "EX Ruby & Sapphire",
+          "expansion_code": "rs",
+          "collector_number": "085",
+          "rarity": "Oversized",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            911406
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/211498_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 211498,
+          "game_id": 5,
+          "category_id": 78,
+          "category_name": "Pokémon Oversized",
+          "product_type": "oversized",
+          "group_id": 1393
+        }
+      ]
     },
     {
       "id": 211512,
@@ -11769,8 +11859,96 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 911395,
+      "cardtrader_id": 414733,
+      "cardtrader": [
+        {
+          "id": 414733,
+          "name": "Decidueye GX",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "SM Black Star Promos",
+          "expansion_code": "smbs",
+          "collector_number": "012",
+          "rarity": "Oversized",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            911395
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/599671_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 599671,
+          "game_id": 5,
+          "category_id": 78,
+          "category_name": "Pokémon Oversized",
+          "product_type": "oversized",
+          "group_id": 1861
+        }
+      ]
     },
     {
       "id": 564284,
@@ -13397,7 +13575,7 @@
     {
       "id": 707205,
       "name": "Yveltal EX - 79/146",
-      "clean_name": "Yveltal EX - 79/146",
+      "clean_name": "Yveltal EX 79 146",
       "number": "79/146",
       "rarity": "Ultra Rare",
       "ext_data": {
