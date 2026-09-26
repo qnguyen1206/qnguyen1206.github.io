@@ -4,8 +4,8 @@
   "set_abbr": "SWSD",
   "set_released": "2019-11-15",
   "product_count": 343,
-  "data_modified": "2026-09-06T08:24:33-04:00",
-  "file_generated": "2026-09-06T08:31:30-04:00",
+  "data_modified": "2026-09-24T06:00:08-04:00",
+  "file_generated": "2026-09-24T08:31:34-04:00",
   "pricing_url": "/v1/3/sets/2545/pricing",
   "cards_url": "/v1/3/sets/2545/cards",
   "sealed_url": "/v1/3/sets/2545/sealed",
@@ -15379,8 +15379,7 @@
           "collector_number": "126",
           "rarity": "Promo",
           "finishes": [
-            "normal",
-            "foil"
+            "normal"
           ],
           "languages": [
             "en",
@@ -15437,15 +15436,6 @@
                 "pt",
                 "ru",
                 "es"
-              ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
               ]
             }
           ],

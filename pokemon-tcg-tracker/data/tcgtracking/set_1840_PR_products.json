@@ -4,8 +4,8 @@
   "set_abbr": "PR",
   "set_released": "2016-09-01",
   "product_count": 506,
-  "data_modified": "2026-09-16T08:30:10-04:00",
-  "file_generated": "2026-09-16T08:31:22-04:00",
+  "data_modified": "2026-09-24T06:00:08-04:00",
+  "file_generated": "2026-09-24T08:31:37-04:00",
   "pricing_url": "/v1/3/sets/1840/pricing",
   "cards_url": "/v1/3/sets/1840/cards",
   "sealed_url": "/v1/3/sets/1840/sealed",
@@ -9198,7 +9198,7 @@
     {
       "id": 125059,
       "name": "Lucario - 14/95 (Cracked Ice Holo)",
-      "clean_name": "Lucario - 14/95 (Cracked Ice Holo)",
+      "clean_name": "Lucario 14 95 Cracked Ice Holo",
       "number": "014/095",
       "rarity": "Holo Rare",
       "ext_data": {
@@ -13435,7 +13435,7 @@
     {
       "id": 83734,
       "name": "Bastiodon - 21/123 (DP Mysterious Treasures)",
-      "clean_name": "Bastiodon - 21/123 (DP Mysterious Treasures)",
+      "clean_name": "Bastiodon 21 123 DP Mysterious Treasures",
       "number": "021/123",
       "rarity": "Holo Rare",
       "ext_data": {
@@ -15652,7 +15652,7 @@
     {
       "id": 125041,
       "name": "Meganium - 26/123 (Cosmos Holo)",
-      "clean_name": "Meganium - 26/123 (Cosmos Holo)",
+      "clean_name": "Meganium 26 123 Cosmos Holo",
       "number": "026/123",
       "rarity": "Holo Rare",
       "ext_data": {
@@ -30213,7 +30213,93 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardtrader_id": 414796,
+      "cardtrader": [
+        {
+          "id": 414796,
+          "name": "Galarian Articuno",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "063",
+          "rarity": "Holo Rare",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/281096_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 281096,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 158738,
@@ -33379,7 +33465,7 @@
     {
       "id": 685652,
       "name": "Pawmot - 076/193",
-      "clean_name": "Pawmot - 076/193",
+      "clean_name": "Pawmot 076 193",
       "number": "076/193",
       "rarity": "Rare",
       "ext_data": {
@@ -35635,7 +35721,7 @@
     {
       "id": 707308,
       "name": "Magnetic Metal Energy - 085/086 (Non-Holo)",
-      "clean_name": "Magnetic Metal Energy - 085/086 (Non-Holo)",
+      "clean_name": "Magnetic Metal Energy 085 086 Non Holo",
       "number": "085/086",
       "rarity": "Rare",
       "ext_data": {
@@ -39717,7 +39803,7 @@
     {
       "id": 685920,
       "name": "Grass Energy (2005)",
-      "clean_name": "Grass Energy (2005)",
+      "clean_name": "Grass Energy 2005",
       "number": "104/109",
       "rarity": "Common",
       "ext_data": {
@@ -39937,7 +40023,7 @@
     {
       "id": 685918,
       "name": "Psychic Energy (2005)",
-      "clean_name": "Psychic Energy (2005)",
+      "clean_name": "Psychic Energy 2005",
       "number": "107/109",
       "rarity": "Common",
       "ext_data": {
@@ -40297,7 +40383,7 @@
     {
       "id": 685919,
       "name": "Fire Energy (2005)",
-      "clean_name": "Fire Energy (2005)",
+      "clean_name": "Fire Energy 2005",
       "number": "108/109",
       "rarity": "Common",
       "ext_data": {
