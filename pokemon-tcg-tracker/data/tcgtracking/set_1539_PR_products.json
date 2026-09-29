@@ -4,8 +4,8 @@
   "set_abbr": "PR",
   "set_released": "2016-06-01",
   "product_count": 620,
-  "data_modified": "2026-09-19T08:31:29-04:00",
-  "file_generated": "2026-09-19T08:31:36-04:00",
+  "data_modified": "2026-09-25T06:00:09-04:00",
+  "file_generated": "2026-09-25T08:31:37-04:00",
   "pricing_url": "/v1/3/sets/1539/pricing",
   "cards_url": "/v1/3/sets/1539/cards",
   "sealed_url": "/v1/3/sets/1539/sealed",
@@ -229,8 +229,90 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 449373,
+      "cardtrader_id": 133450,
+      "cardtrader": [
+        {
+          "id": 133450,
+          "name": "Darkness Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Supreme Victors Promos",
+          "expansion_code": "psv",
+          "collector_number": "2009",
+          "rarity": "Common",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            449373
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/153246_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 153246,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1539
+        }
+      ]
     },
     {
       "id": 153269,
@@ -1276,8 +1358,90 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 449518,
+      "cardtrader_id": 133449,
+      "cardtrader": [
+        {
+          "id": 133449,
+          "name": "Fighting Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Supreme Victors Promos",
+          "expansion_code": "psv",
+          "collector_number": "2009",
+          "rarity": "Common",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            449518
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/153247_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 153247,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1539
+        }
+      ]
     },
     {
       "id": 153270,
@@ -2406,8 +2570,90 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 449533,
+      "cardtrader_id": 133448,
+      "cardtrader": [
+        {
+          "id": 133448,
+          "name": "Fire Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Supreme Victors Promos",
+          "expansion_code": "psv",
+          "collector_number": null,
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            449533
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/153248_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 153248,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1539
+        }
+      ]
     },
     {
       "id": 153271,
@@ -4336,7 +4582,7 @@
     {
       "id": 702297,
       "name": "Lightning Energy (2006 Unnumbered)",
-      "clean_name": "Lightning Energy (2006 Unnumbered)",
+      "clean_name": "Lightning Energy 2006 Unnumbered",
       "number": null,
       "rarity": "Promo",
       "ext_data": {
@@ -4672,8 +4918,90 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 449678,
+      "cardtrader_id": 133445,
+      "cardtrader": [
+        {
+          "id": 133445,
+          "name": "Lightning Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Supreme Victors Promos",
+          "expansion_code": "psv",
+          "collector_number": "2009",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            449678
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/153250_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 153250,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1539
+        }
+      ]
     },
     {
       "id": 153272,
@@ -5427,8 +5755,90 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 450023,
+      "cardtrader_id": 133437,
+      "cardtrader": [
+        {
+          "id": 133437,
+          "name": "Metal Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Supreme Victors Promos",
+          "expansion_code": "psv",
+          "collector_number": "2009",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            450023
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/153251_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 153251,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1539
+        }
+      ]
     },
     {
       "id": 153273,
@@ -6150,8 +6560,90 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 450168,
+      "cardtrader_id": 133435,
+      "cardtrader": [
+        {
+          "id": 133435,
+          "name": "Psychic Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Supreme Victors Promos",
+          "expansion_code": "psv",
+          "collector_number": "2009",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            450168
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/153252_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 153252,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1539
+        }
+      ]
     },
     {
       "id": 167129,
@@ -8310,8 +8802,90 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 450518,
+      "cardtrader_id": 132750,
+      "cardtrader": [
+        {
+          "id": 132750,
+          "name": "Water Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Supreme Victors Promos",
+          "expansion_code": "psv",
+          "collector_number": "2009",
+          "rarity": "Common",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            450518
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/153253_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 153253,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1539
+        }
+      ]
     },
     {
       "id": 153274,
@@ -9399,7 +9973,7 @@
     {
       "id": 221173,
       "name": "Dragonite - 2/146 (National Championships)",
-      "clean_name": "Dragonite - 2/146 (National Championships)",
+      "clean_name": "Dragonite 2 146 National Championships",
       "number": "002/146",
       "rarity": "Promo",
       "ext_data": {
@@ -10904,21 +11478,20 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 449568,
       "cardtrader_id": 128711,
       "cardtrader": [
         {
           "id": 128711,
-          "name": "Garchomp",
+          "name": "Garchomp Lv.71",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "Supreme Victors Promos",
           "expansion_code": "psv",
-          "collector_number": "005/147",
+          "collector_number": "005",
           "rarity": "Rare",
           "finishes": [
-            "normal",
-            "foil"
+            "normal"
           ],
           "languages": [
             "en",
@@ -10966,18 +11539,11 @@
                 "fr",
                 "de"
               ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            449568
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/164206_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 164206,
@@ -11023,8 +11589,7 @@
           "collector_number": "005/147s",
           "rarity": "Promo",
           "finishes": [
-            "normal",
-            "foil"
+            "normal"
           ],
           "languages": [
             "en",
@@ -11072,20 +11637,9 @@
                 "fr",
                 "de"
               ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
             }
           ],
-          "cardmarket_ids": [
-            449568
-          ],
+          "cardmarket_ids": [],
           "image_url": "https://cdn.tcgtracking.com/product/164207_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 164207,
@@ -11334,7 +11888,7 @@
     {
       "id": 251200,
       "name": "Shelgon - 7/20 (Regional Championships)",
-      "clean_name": "Shelgon - 7/20 (Regional Championships)",
+      "clean_name": "Shelgon 7 20 Regional Championships",
       "number": "007/020",
       "rarity": "Promo",
       "ext_data": {
@@ -18898,7 +19452,7 @@
     {
       "id": 174508,
       "name": "Magcargo - 24/168 (League Challenge) [4th Place]",
-      "clean_name": "Magcargo - 24/168 (League Challenge) [4th Place]",
+      "clean_name": "Magcargo 24 168 League Challenge 4th Place",
       "number": "024/168",
       "rarity": "Promo",
       "ext_data": {
@@ -19569,21 +20123,20 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 371552,
       "cardtrader_id": 128721,
       "cardtrader": [
         {
           "id": 128721,
-          "name": "Dusknoir FB Lv.50",
+          "name": "Dusknoir [FB] Lv.50",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "Supreme Victors Promos",
           "expansion_code": "psv",
-          "collector_number": "026/147",
+          "collector_number": "026",
           "rarity": "Rare",
           "finishes": [
-            "normal",
-            "foil"
+            "normal"
           ],
           "languages": [
             "en",
@@ -19631,18 +20184,11 @@
                 "fr",
                 "de"
               ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            371552
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/164073_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 164073,
@@ -19884,21 +20430,20 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 371554,
       "cardtrader_id": 128722,
       "cardtrader": [
         {
           "id": 128722,
-          "name": "Empoleon FB Lv.50",
+          "name": "Empoleon [FB] Lv.50",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "Supreme Victors Promos",
           "expansion_code": "psv",
-          "collector_number": "027/147",
+          "collector_number": "027",
           "rarity": "Rare",
           "finishes": [
-            "normal",
-            "foil"
+            "normal"
           ],
           "languages": [
             "en",
@@ -19946,18 +20491,11 @@
                 "fr",
                 "de"
               ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            371554
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/164155_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 164155,
@@ -21486,21 +22024,20 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 371547,
       "cardtrader_id": 128724,
       "cardtrader": [
         {
           "id": 128724,
-          "name": "Milotic Lv.58",
+          "name": "Milotic [C] Lv.58",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "Supreme Victors Promos",
           "expansion_code": "psv",
-          "collector_number": "035/147",
+          "collector_number": "035",
           "rarity": "Rare",
           "finishes": [
-            "normal",
-            "foil"
+            "normal"
           ],
           "languages": [
             "en",
@@ -21548,18 +22085,11 @@
                 "fr",
                 "de"
               ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            371547
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/153263_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 153263,
@@ -22809,7 +23339,7 @@
     {
       "id": 133416,
       "name": "Greninja - 40/122 (Pokemon League) [3rd Place]",
-      "clean_name": "Greninja - 40/122 (Pokemon League) [3rd Place]",
+      "clean_name": "Greninja 40 122 Pokemon League 3rd Place",
       "number": "040/122",
       "rarity": "Promo",
       "ext_data": {
@@ -23799,7 +24329,7 @@
     {
       "id": 209568,
       "name": "Wartortle - 42/100 (State Championships)",
-      "clean_name": "Wartortle - 42/100 (State Championships)",
+      "clean_name": "Wartortle 42 100 State Championships",
       "number": "042/100",
       "rarity": "Promo",
       "ext_data": {
@@ -26889,21 +27419,20 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 371548,
       "cardtrader_id": 128725,
       "cardtrader": [
         {
           "id": 128725,
-          "name": "Dragonite FB Lv.50",
+          "name": "Dragonite [FB] Lv.50",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "Supreme Victors Promos",
           "expansion_code": "psv",
-          "collector_number": "056/147",
+          "collector_number": "056",
           "rarity": "Uncommon",
           "finishes": [
-            "normal",
-            "foil"
+            "normal"
           ],
           "languages": [
             "en",
@@ -26951,18 +27480,11 @@
                 "fr",
                 "de"
               ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            371548
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/164072_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 164072,
@@ -27200,7 +27722,7 @@
     {
       "id": 164217,
       "name": "Poliwag - 58/95 (League Promo) [Staff]",
-      "clean_name": "Poliwag - 58/95 (League Promo) [Staff]",
+      "clean_name": "Poliwag 58 95 League Promo Staff",
       "number": "058/095",
       "rarity": "Promo",
       "ext_data": {
@@ -27445,11 +27967,10 @@
           "match_confidence": 100,
           "expansion": "Supreme Victors Promos",
           "expansion_code": "psv",
-          "collector_number": "059/147",
-          "rarity": "Uncommon",
+          "collector_number": "059",
+          "rarity": "Promo",
           "finishes": [
-            "normal",
-            "foil"
+            "normal"
           ],
           "languages": [
             "en",
@@ -27496,15 +28017,6 @@
                 "en",
                 "fr",
                 "de"
-              ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
               ]
             }
           ],
@@ -27552,11 +28064,10 @@
           "match_confidence": 100,
           "expansion": "Supreme Victors Promos",
           "expansion_code": "psv",
-          "collector_number": "059/147s",
+          "collector_number": "059s",
           "rarity": "Promo",
           "finishes": [
-            "normal",
-            "foil"
+            "normal"
           ],
           "languages": [
             "en",
@@ -27603,15 +28114,6 @@
                 "en",
                 "fr",
                 "de"
-              ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
               ]
             }
           ],
@@ -27869,11 +28371,10 @@
           "match_confidence": 100,
           "expansion": "Supreme Victors Promos",
           "expansion_code": "psv",
-          "collector_number": "060/147",
+          "collector_number": "060",
           "rarity": "Uncommon",
           "finishes": [
-            "normal",
-            "foil"
+            "normal"
           ],
           "languages": [
             "en",
@@ -27920,15 +28421,6 @@
                 "en",
                 "fr",
                 "de"
-              ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
               ]
             }
           ],
@@ -27976,11 +28468,10 @@
           "match_confidence": 100,
           "expansion": "Supreme Victors Promos",
           "expansion_code": "psv",
-          "collector_number": "060/147s",
+          "collector_number": "060s",
           "rarity": "Promo",
           "finishes": [
-            "normal",
-            "foil"
+            "normal"
           ],
           "languages": [
             "en",
@@ -28027,15 +28518,6 @@
                 "en",
                 "fr",
                 "de"
-              ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
               ]
             }
           ],
@@ -31336,7 +31818,7 @@
     {
       "id": 695405,
       "name": "Judge - 076/088 (Regional Championships) [Staff]",
-      "clean_name": "Judge - 076/088 (Regional Championships) [Staff]",
+      "clean_name": "Judge 076 088 Regional Championships Staff",
       "number": "076/088",
       "rarity": "Uncommon",
       "ext_data": {
@@ -33847,12 +34329,12 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 371550,
       "cardtrader_id": 128732,
       "cardtrader": [
         {
           "id": 128732,
-          "name": "Skarmory FB",
+          "name": "Skarmory [FB] Lv.50",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "Supreme Victors Promos",
@@ -33860,8 +34342,7 @@
           "collector_number": "083/147",
           "rarity": "Uncommon",
           "finishes": [
-            "normal",
-            "foil"
+            "normal"
           ],
           "languages": [
             "en",
@@ -33909,18 +34390,11 @@
                 "fr",
                 "de"
               ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            371550
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/178010_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 178010,
@@ -44159,8 +44633,103 @@
           "match_confidence": 100,
           "expansion": "Supreme Victors Promos",
           "expansion_code": "psv",
-          "collector_number": "106/147",
+          "collector_number": "106",
           "rarity": "Common",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de"
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/164209_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 164209,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1539
+        }
+      ]
+    },
+    {
+      "id": 164210,
+      "name": "Gible - 106/147 (Championship Promo) [Staff]",
+      "clean_name": "Gible - 106/147 (Championship Promo) [Staff]",
+      "number": "106/147",
+      "rarity": "Promo",
+      "ext_data": {
+        "Card Number / Rarity": "106/147 / Promo",
+        "Card Type / HP / Stage": "Colorless / 60 / Basic",
+        "Attack 1": "[1] Sand Attack\r\n<br>If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+        "Attack 2": "[1] Bite (10)",
+        "Weakness / Resistance / Retreat Cost": "C+10 /  / 1",
+        "Artist": "Kanako Eo"
+      },
+      "image_url": "https://cdn.tcgtracking.com/product/164210_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F164210%2Fpokemon-league-and-championship-cards-gible-106-147-championship-promo-staff",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 449143,
+      "cardtrader_id": 128734,
+      "cardtrader": [
+        {
+          "id": 128734,
+          "name": "Gible",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Supreme Victors Promos",
+          "expansion_code": "psv",
+          "collector_number": "106s",
+          "rarity": "Promo",
           "finishes": [
             "normal"
           ],
@@ -44215,111 +44784,6 @@
           "cardmarket_ids": [
             449143
           ],
-          "image_url": "https://cdn.tcgtracking.com/product/164209_200w.jpg",
-          "scryfall_id": null,
-          "tcg_player_id": 164209,
-          "game_id": 5,
-          "category_id": 73,
-          "category_name": "Pokémon Singles",
-          "product_type": "single",
-          "group_id": 1539
-        }
-      ]
-    },
-    {
-      "id": 164210,
-      "name": "Gible - 106/147 (Championship Promo) [Staff]",
-      "clean_name": "Gible - 106/147 (Championship Promo) [Staff]",
-      "number": "106/147",
-      "rarity": "Promo",
-      "ext_data": {
-        "Card Number / Rarity": "106/147 / Promo",
-        "Card Type / HP / Stage": "Colorless / 60 / Basic",
-        "Attack 1": "[1] Sand Attack\r\n<br>If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
-        "Attack 2": "[1] Bite (10)",
-        "Weakness / Resistance / Retreat Cost": "C+10 /  / 1",
-        "Artist": "Kanako Eo"
-      },
-      "image_url": "https://cdn.tcgtracking.com/product/164210_200w.jpg",
-      "image_count": 1,
-      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F164210%2Fpokemon-league-and-championship-cards-gible-106-147-championship-promo-staff",
-      "manapool_url": null,
-      "scryfall_id": null,
-      "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": 128734,
-      "cardtrader": [
-        {
-          "id": 128734,
-          "name": "Gible",
-          "match_type": "tcgplayer",
-          "match_confidence": 100,
-          "expansion": "Supreme Victors Promos",
-          "expansion_code": "psv",
-          "collector_number": "106/147s",
-          "rarity": "Promo",
-          "finishes": [
-            "normal",
-            "foil"
-          ],
-          "languages": [
-            "en",
-            "fr",
-            "de"
-          ],
-          "properties": [
-            {
-              "name": "condition",
-              "type": "string",
-              "default_value": "Near Mint",
-              "possible_values": [
-                "Mint",
-                "Near Mint",
-                "Slightly Played",
-                "Moderately Played",
-                "Played",
-                "Poor"
-              ]
-            },
-            {
-              "name": "signed",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "altered",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "pokemon_language",
-              "type": "string",
-              "default_value": "en",
-              "possible_values": [
-                "en",
-                "fr",
-                "de"
-              ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            }
-          ],
-          "cardmarket_ids": [],
           "image_url": "https://cdn.tcgtracking.com/product/164210_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 164210,
@@ -44987,7 +45451,7 @@
     {
       "id": 145872,
       "name": "Reverse Valley - 110/122 (State Championships)",
-      "clean_name": "Reverse Valley - 110/122 (State Championships)",
+      "clean_name": "Reverse Valley 110 122 State Championships",
       "number": "110/122",
       "rarity": "Promo",
       "ext_data": {
@@ -46060,7 +46524,7 @@
     {
       "id": 169144,
       "name": "Mysterious Treasure - 113/131 (League Cup) [Staff]",
-      "clean_name": "Mysterious Treasure - 113/131 (League Cup) [Staff]",
+      "clean_name": "Mysterious Treasure 113 131 League Cup Staff",
       "number": "113/131",
       "rarity": "Promo",
       "ext_data": {
@@ -50202,7 +50666,7 @@
     {
       "id": 177525,
       "name": "Copycat - 127/168 (Regional Championships)",
-      "clean_name": "Copycat - 127/168 (Regional Championships)",
+      "clean_name": "Copycat 127 168 Regional Championships",
       "number": "127/168",
       "rarity": "Promo",
       "ext_data": {
@@ -51047,7 +51511,7 @@
     {
       "id": 279329,
       "name": "Boss's Orders [Cyrus] - 132/172 (Regional Championships) [Staff]",
-      "clean_name": "Boss's Orders [Cyrus] - 132/172 (Regional Championships) [Staff]",
+      "clean_name": "Bosss Orders Cyrus 132 172 Regional Championships Staff",
       "number": "132/172",
       "rarity": "Promo",
       "ext_data": {
@@ -51900,8 +52364,7 @@
           "collector_number": "136/147",
           "rarity": "Uncommon",
           "finishes": [
-            "normal",
-            "foil"
+            "normal"
           ],
           "languages": [
             "en",
@@ -51948,15 +52411,6 @@
                 "en",
                 "fr",
                 "de"
-              ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
               ]
             }
           ],
