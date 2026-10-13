@@ -305,6 +305,7 @@ For tech report, please visit the <a href="https://sites.google.com/view/cs3803t
       role: 'Sole Developer',
       duration: '5 years (2021 - Present)',
       gitlabLink: 'https://gitlab.com/infinity-mythical-hunt',
+      externalLink: './LMC4730/',
       images: [],
       writeup: `
 For more information about Game Design Docs (GDD), please visit this <a href="https://docs.google.com/document/d/1UJy3OC_YYUjv-iYgKN2nyl05vAzpec3FY6-ygIBCkA4/edit?usp=sharing" style="color: var(--primary); text-decoration: underline; cursor: pointer;">link</a>.
