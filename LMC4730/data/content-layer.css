@@ -1,0 +1,16 @@
+.scene-art .region-image {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: opacity .35s ease;
+  pointer-events: none;
+}
+
+.scene-art .region-image.has-image { opacity: 1; }
+.scene-art .region-image + .shade { z-index: 1; }
+.scene-art .character { z-index: 2; }
+
