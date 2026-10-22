@@ -4,8 +4,8 @@
   "set_abbr": "PR",
   "set_released": "2011-04-25",
   "product_count": 148,
-  "data_modified": "2026-09-07T08:25:20-04:00",
-  "file_generated": "2026-09-07T08:31:37-04:00",
+  "data_modified": "2026-10-20T06:00:11-04:00",
+  "file_generated": "2026-10-20T08:31:50-04:00",
   "pricing_url": "/v1/3/sets/1407/pricing",
   "cards_url": "/v1/3/sets/1407/cards",
   "sealed_url": "/v1/3/sets/1407/sealed",
@@ -12178,11 +12178,10 @@
           "match_confidence": 100,
           "expansion": "BW Black Star Promos",
           "expansion_code": "bwbsp",
-          "collector_number": "BW75",
+          "collector_number": "075",
           "rarity": "Promo",
           "finishes": [
-            "normal",
-            "foil"
+            "normal"
           ],
           "languages": [
             "en",
@@ -12237,15 +12236,6 @@
                 "pt",
                 "ru",
                 "es"
-              ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
               ]
             }
           ],
