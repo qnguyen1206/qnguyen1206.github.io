@@ -3,13 +3,14 @@
   "set_name": "World Championship Decks",
   "set_abbr": "WCD",
   "set_released": "2018-07-01",
-  "product_count": 2001,
-  "data_modified": "2026-10-13T06:18:38-04:00",
-  "file_generated": "2026-10-13T08:31:49-04:00",
+  "product_count": 2002,
+  "data_modified": "2026-10-23T06:15:51-04:00",
+  "file_generated": "2026-10-23T08:32:22-04:00",
   "pricing_url": "/v1/3/sets/2282/pricing",
   "cards_url": "/v1/3/sets/2282/cards",
   "sealed_url": "/v1/3/sets/2282/sealed",
   "skus_url": "/v1/3/sets/2282/skus",
+  "product_detail_url": "/v1/3/sets/2282/product-detail",
   "products": [
     {
       "id": 645309,
@@ -414,7 +415,7 @@
     {
       "id": 175268,
       "name": "2017 World Championship Deck: Kabu Fukase (Samurai Sniper)",
-      "clean_name": "2017 World Championship Deck: Kabu Fukase (Samurai Sniper)",
+      "clean_name": "2017 World Championship Deck Kabu Fukase Samurai Sniper",
       "number": null,
       "rarity": null,
       "ext_data": {
@@ -490,7 +491,7 @@
     {
       "id": 175265,
       "name": "2017 World Championship Deck: Naoto Suzuki (Golisodor)",
-      "clean_name": "2017 World Championship Deck: Naoto Suzuki (Golisodor)",
+      "clean_name": "2017 World Championship Deck Naoto Suzuki Golisodor",
       "number": null,
       "rarity": null,
       "ext_data": {
@@ -10569,7 +10570,7 @@
       },
       "image_url": "https://cdn.tcgtracking.com/product/714387_200w.jpg",
       "image_count": 1,
-      "tcgplayer_url": null,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F714387",
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
@@ -148658,6 +148659,40 @@
           "group_id": 2282
         }
       ]
+    },
+    {
+      "id": 724661,
+      "name": "Dual Ball - 2012 (Igor Costa)",
+      "clean_name": "Dual Ball 2012 Igor Costa",
+      "number": "78/95",
+      "rarity": "Uncommon",
+      "ext_data": {
+        "description": "Flip 2 coins. For each heads, search your deck for a Basic Pokémon card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+        "attack2": null,
+        "stage": null,
+        "energyType": null,
+        "releaseDate": "2018-07-01T00:00:00Z",
+        "number": "78/95",
+        "cardType": [
+          "Trainer"
+        ],
+        "cardTypeB": "Trainer",
+        "resistance": null,
+        "rarityDbName": "Uncommon",
+        "weakness": null,
+        "flavorText": "",
+        "attack1": null,
+        "attack3": null,
+        "attack4": null
+      },
+      "image_url": "https://cdn.tcgtracking.com/product/724661_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F724661",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": null
     },
     {
       "id": 480550,

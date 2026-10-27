@@ -4,12 +4,13 @@
   "set_abbr": "M21",
   "set_released": "2021-02-09",
   "product_count": 26,
-  "data_modified": "2026-09-06T08:24:33-04:00",
-  "file_generated": "2026-09-06T08:31:29-04:00",
+  "data_modified": "2026-10-23T06:13:48-04:00",
+  "file_generated": "2026-10-23T08:32:20-04:00",
   "pricing_url": "/v1/3/sets/2782/pricing",
   "cards_url": "/v1/3/sets/2782/cards",
   "sealed_url": "/v1/3/sets/2782/sealed",
   "skus_url": "/v1/3/sets/2782/skus",
+  "product_detail_url": "/v1/3/sets/2782/product-detail",
   "products": [
     {
       "id": 232748,
@@ -2095,19 +2096,20 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 538953,
-      "cardtrader_id": 152943,
+      "cardtrader_id": 152917,
       "cardtrader": [
         {
-          "id": 152943,
+          "id": 152917,
           "name": "Totodile",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "McDonald's Collection 25th Anniversary",
           "expansion_code": "mc21",
-          "collector_number": "018h",
+          "collector_number": "018",
           "rarity": "Promo",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -2169,10 +2171,19 @@
                 "pl",
                 "sv"
               ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
             }
           ],
           "cardmarket_ids": [
-            538953
+            538948
           ],
           "image_url": "https://cdn.tcgtracking.com/product/232332_200w.jpg",
           "scryfall_id": null,
@@ -2207,19 +2218,20 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 538963,
-      "cardtrader_id": 152944,
+      "cardtrader_id": 152918,
       "cardtrader": [
         {
-          "id": 152944,
+          "id": 152918,
           "name": "Mudkip",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "McDonald's Collection 25th Anniversary",
           "expansion_code": "mc21",
-          "collector_number": "019h",
+          "collector_number": "019",
           "rarity": "Promo",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -2281,10 +2293,19 @@
                 "pl",
                 "sv"
               ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
             }
           ],
           "cardmarket_ids": [
-            538963
+            538958
           ],
           "image_url": "https://cdn.tcgtracking.com/product/232333_200w.jpg",
           "scryfall_id": null,
@@ -2318,19 +2339,20 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 538973,
-      "cardtrader_id": 152945,
+      "cardtrader_id": 152919,
       "cardtrader": [
         {
-          "id": 152945,
+          "id": 152919,
           "name": "Piplup",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "McDonald's Collection 25th Anniversary",
           "expansion_code": "mc21",
-          "collector_number": "020h",
+          "collector_number": "020",
           "rarity": "Promo",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -2392,10 +2414,19 @@
                 "pl",
                 "sv"
               ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
             }
           ],
           "cardmarket_ids": [
-            538973
+            538968
           ],
           "image_url": "https://cdn.tcgtracking.com/product/232334_200w.jpg",
           "scryfall_id": null,
@@ -2428,19 +2459,20 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 538983,
-      "cardtrader_id": 152946,
+      "cardtrader_id": 152920,
       "cardtrader": [
         {
-          "id": 152946,
+          "id": 152920,
           "name": "Oshawott",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "McDonald's Collection 25th Anniversary",
           "expansion_code": "mc21",
-          "collector_number": "021h",
+          "collector_number": "021",
           "rarity": "Promo",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -2502,10 +2534,19 @@
                 "pl",
                 "sv"
               ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
             }
           ],
           "cardmarket_ids": [
-            538983
+            538978
           ],
           "image_url": "https://cdn.tcgtracking.com/product/232335_200w.jpg",
           "scryfall_id": null,
@@ -2562,19 +2603,20 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 539003,
-      "cardtrader_id": 152948,
+      "cardtrader_id": 152922,
       "cardtrader": [
         {
-          "id": 152948,
+          "id": 152922,
           "name": "Popplio",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "McDonald's Collection 25th Anniversary",
           "expansion_code": "mc21",
-          "collector_number": "023h",
+          "collector_number": "023",
           "rarity": "Promo",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -2636,10 +2678,19 @@
                 "pl",
                 "sv"
               ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
             }
           ],
           "cardmarket_ids": [
-            539003
+            538998
           ],
           "image_url": "https://cdn.tcgtracking.com/product/232337_200w.jpg",
           "scryfall_id": null,
@@ -2672,19 +2723,20 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 539013,
-      "cardtrader_id": 152949,
+      "cardtrader_id": 152923,
       "cardtrader": [
         {
-          "id": 152949,
+          "id": 152923,
           "name": "Sobble",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "McDonald's Collection 25th Anniversary",
           "expansion_code": "mc21",
-          "collector_number": "024h",
+          "collector_number": "024",
           "rarity": "Promo",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -2746,10 +2798,19 @@
                 "pl",
                 "sv"
               ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
             }
           ],
           "cardmarket_ids": [
-            539013
+            539008
           ],
           "image_url": "https://cdn.tcgtracking.com/product/232338_200w.jpg",
           "scryfall_id": null,
@@ -2784,19 +2845,20 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": 539023,
-      "cardtrader_id": 152950,
+      "cardtrader_id": 152924,
       "cardtrader": [
         {
-          "id": 152950,
+          "id": 152924,
           "name": "Pikachu",
           "match_type": "tcgplayer",
           "match_confidence": 100,
           "expansion": "McDonald's Collection 25th Anniversary",
           "expansion_code": "mc21",
-          "collector_number": "025h",
+          "collector_number": "025",
           "rarity": "Promo",
           "finishes": [
-            "normal"
+            "normal",
+            "foil"
           ],
           "languages": [
             "en",
@@ -2858,10 +2920,19 @@
                 "pl",
                 "sv"
               ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
             }
           ],
           "cardmarket_ids": [
-            539023
+            539018
           ],
           "image_url": "https://cdn.tcgtracking.com/product/232339_200w.jpg",
           "scryfall_id": null,
