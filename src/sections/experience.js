@@ -1,5 +1,15 @@
 export const experienceData = [
   {
+    title: 'Student Assistant',
+    company: 'Georgia Tech Manufacturing Institute',
+    date: 'Sep 1st, 2026, - Present',
+    bullets: [
+      'Migrating a Python-based factory robotics interface to Godot, rebuilding UI components and application workflows for improved usability and extensibility.',
+      'Researching interoperability between Godot, Python, ROS/ROS 2, NVIDIA Isaac Sim, and Unity for robotics simulation, visualization, and control.',
+      'Evaluating communication architectures between Godot and existing Python-based robotics systems, including networking, inter-process communication, and ROS-based integration.',
+    ]
+  },
+  {
     title: 'Full Stack Developer Intern',
     company: 'Y22 AI',
     date: 'Aug 17th, 2026 - Present',
