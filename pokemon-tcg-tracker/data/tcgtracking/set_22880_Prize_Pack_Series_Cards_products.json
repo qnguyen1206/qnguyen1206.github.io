@@ -4,8 +4,8 @@
   "set_abbr": "",
   "set_released": "2022-11-30",
   "product_count": 891,
-  "data_modified": "2026-10-22T10:49:51+00:00",
-  "file_generated": "2026-10-22T14:51:59+00:00",
+  "data_modified": "2026-10-28T06:25:06-04:00",
+  "file_generated": "2026-10-28T08:32:16-04:00",
   "pricing_url": "/v1/3/sets/22880/pricing",
   "cards_url": "/v1/3/sets/22880/cards",
   "sealed_url": "/v1/3/sets/22880/sealed",
@@ -35993,8 +35993,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 864407,
+      "cardtrader_id": 364952,
+      "cardtrader": [
+        {
+          "id": 364952,
+          "name": "Air Balloon",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Play! Pokémon Prize Pack Series Eight",
+          "expansion_code": "play8",
+          "collector_number": "079",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            864407
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/675552_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 675552,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 22880
+        }
+      ]
     },
     {
       "id": 648692,
@@ -46695,8 +46775,98 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 782264,
+      "cardtrader_id": 296377,
+      "cardtrader": [
+        {
+          "id": 296377,
+          "name": "Sandy Shocks ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Play! Pokémon Prize Pack Series Five",
+          "expansion_code": "play5",
+          "collector_number": "108",
+          "rarity": "Promo",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            782264
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/577581_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 577581,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 22880
+        }
+      ]
     },
     {
       "id": 515448,
@@ -54131,8 +54301,98 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 782238,
+      "cardtrader_id": 296380,
+      "cardtrader": [
+        {
+          "id": 296380,
+          "name": "Brute Bonnet",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Play! Pokémon Prize Pack Series Five",
+          "expansion_code": "play5",
+          "collector_number": "123",
+          "rarity": "Promo",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            782238
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/565450_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 565450,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 22880
+        }
+      ]
     },
     {
       "id": 520719,
@@ -54672,8 +54932,98 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 782263,
+      "cardtrader_id": 296381,
+      "cardtrader": [
+        {
+          "id": 296381,
+          "name": "Roaring Moon ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Play! Pokémon Prize Pack Series Five",
+          "expansion_code": "play5",
+          "collector_number": "124",
+          "rarity": "Promo",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            782263
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/577580_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 577580,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 22880
+        }
+      ]
     },
     {
       "id": 513810,
@@ -61423,8 +61773,98 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 782265,
+      "cardtrader_id": 296383,
+      "cardtrader": [
+        {
+          "id": 296383,
+          "name": "Skeledirge ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Play! Pokémon Prize Pack Series Five",
+          "expansion_code": "play5",
+          "collector_number": "137",
+          "rarity": "Promo",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            782265
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/577582_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 577582,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 22880
+        }
+      ]
     },
     {
       "id": 476127,
@@ -62218,8 +62658,98 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 782249,
+      "cardtrader_id": 296375,
+      "cardtrader": [
+        {
+          "id": 296375,
+          "name": "Gholdengo ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Play! Pokémon Prize Pack Series Five",
+          "expansion_code": "play5",
+          "collector_number": "139",
+          "rarity": "Promo",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            782249
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/565463_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 565463,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 22880
+        }
+      ]
     },
     {
       "id": 515465,
