@@ -1,15 +1,18 @@
-export function initHero() {
+import { homeContent } from '../content/home.js';
+import { libraryVolumes } from '../utils/library-state.js';
+import { escapeContent as escapeText } from '../utils/content-model.js';
+
+export function initHero({ library = false } = {}) {
   const hero = document.getElementById('hero');
 
   hero.innerHTML = `
     <div class="container">
       <div class="hero-content">
         <div class="hero-text">
-          <h1 class="hero-title animate-fadeInUp delay-200" style="padding-bottom: 0.2rem;">Quang Nguyen</h1>
+          <h1 class="hero-title animate-fadeInUp delay-200" style="padding-bottom: 0.2rem;">${escapeText(homeContent.name)}</h1>
           <div class="hero-cta" style="margin-top: 1.5rem;">
-            <button class="btn btn-primary" data-scroll-to="projects">My Experience</button>
-            <button class="btn btn-primary" data-scroll-to="projects">My Works</button>
-            <button class="btn btn-secondary" data-scroll-to="contacts">Contact Me</button>
+${homeContent.buttons.filter(button => !button.hidden && libraryVolumes.some(volume => volume.id === button.section)).map(button =>
+            `<button class="btn btn-${button.style === 'secondary' ? 'secondary' : 'primary'}" data-scroll-to="${escapeText(button.section)}">${escapeText(button.label)}</button>`).join('')}
           </div>
         </div>
         <nav class="hero-nav">
@@ -32,7 +35,7 @@ export function initHero() {
     </div>
     <div class="hero-footer">
       <div class="hero-copyright">
-        <p>© ${new Date().getFullYear()} Quang Nguyen All rights reserved</p>
+        <p>© ${new Date().getFullYear()} ${escapeText(homeContent.name)} ${escapeText(homeContent.copyright)}</p>
       </div>
     </div>
     <div class="stars-container"></div>
@@ -391,7 +394,11 @@ export function initHero() {
 
   createStars();
 
-  initHeroNavigation();
+  if (library) {
+    hero.querySelector('.hero-nav').innerHTML = `<a class="hero-nav-link" href="#library">${escapeText(homeContent.libraryLinkLabel)} <span aria-hidden="true">↓</span></a>`;
+  } else {
+    initHeroNavigation();
+  }
 }
 
 function initHeroNavigation() {

@@ -45,6 +45,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
+        library: resolve(__dirname, 'library.html'),
         'pokemon-tcg-tracker': resolve(__dirname, 'pokemon-tcg-tracker/index.html'),
         'LMC4730': resolve(__dirname, 'LMC4730/index.html')
       },

@@ -1,0 +1,150 @@
+html.library-mode { scroll-snap-type: none; background: #111918; scrollbar-gutter: stable; }
+.library-mode body { scroll-snap-type: none; background: #111918; color: #eee4d3; }
+.library-mode [hidden], .library-mode [data-library-section][hidden] { display: none !important; }
+.library-mode .hero-nav { position: absolute; top: 48svh; right: 28px; }
+.library-mode #library { position: relative; height: 100vh; height: max(100svh, calc(var(--library-shelf-rows, 4) * 25svh)); isolation: isolate; background: #171a16; }
+.library-stage { height: 100%; position: relative; display: flex; flex-direction: column; align-items: center; overflow: clip; padding: 20px 24px; background: radial-gradient(ellipse at 50% 30%, #63503b55, transparent 75%), #101c1b; }
+.library-stage::before { content: ''; position: absolute; inset: 0; pointer-events: none; background: repeating-linear-gradient(90deg, transparent 0 139px, #c0aa7c06 140px 141px); }
+.library-cabinet {
+  position: relative; width: min(1400px, 100%); flex: 1; min-height: 0;
+  display: flex; flex-direction: column; padding: 0 20px;
+  border: 1px solid #94714c; border-radius: 3px;
+  background:
+    repeating-linear-gradient(91deg, #130c061c 0 1px, transparent 1px 5px, #d5ac7110 6px 7px, transparent 8px 17px),
+    linear-gradient(90deg, #281b12, #795234 7px, #4d3321 15px, #302219 24px, #302219 calc(100% - 24px), #715033 calc(100% - 12px), #322117);
+  box-shadow: 0 24px 45px #0008, 0 3px 8px #0009, inset 0 0 0 4px #261a12, inset 0 0 0 5px #bd976338;
+}
+.library-cabinet-crown {
+  height: 18px; flex-shrink: 0;
+  background: repeating-linear-gradient(2deg, #e1b67d0a 0 1px, transparent 2px 6px), linear-gradient(#8d6743, #513823 35%, #332216);
+  box-shadow: inset 0 1px #d0ab7759, 0 5px 9px #0007; z-index: 2;
+}
+.library-shelf-row { display: flex; flex-direction: column; flex: 1; min-height: 0; background: #2b2119; }
+.library-volumes { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); flex: 1; min-height: 0; }
+.library-shelf-bay {
+  position: relative; display: flex; align-items: flex-end; justify-content: center;
+  gap: 1px; min-width: 0; padding: 12px 8px 3px; overflow: clip;
+  border-right: 11px solid #5b3e28;
+  background:
+    linear-gradient(90deg, #08060477, transparent 18%, transparent 85%, #08060466),
+    linear-gradient(#080603cc, transparent 38%, #b18b5420 86%, #100a05a6),
+    repeating-linear-gradient(90deg, #100a061f 0 1px, transparent 2px 23px, #bf955c0a 24px 25px, transparent 26px 69px),
+    #34281e;
+  box-shadow: inset 0 12px 15px #0008, inset 3px 0 5px #cba27316, inset -2px 0 5px #0008;
+}
+.library-shelf-bay:last-child { border-right: 0; }
+/* Parallel books share one end gap, rather than a gap around every spine. */
+.library-book-cluster { display: flex; align-items: flex-end; flex: var(--cluster-size) 1 calc(var(--cluster-size) * 12px); gap: 1px; min-width: 0; max-width: calc(var(--cluster-size) * 21px - 1px); height: 100%; pointer-events: none; }
+.library-book-cluster > .library-decoration { transform: rotate(var(--cluster-angle, 0deg)); transform-origin: var(--cluster-origin, right bottom); }
+/* Thin spines and a one-pixel gap keep parallel rotated edges separated. */
+.library-decoration { position: relative; display: block; flex: 1 1 var(--book-width); max-width: 20px; min-width: 3px; height: var(--book-height); background: linear-gradient(90deg, #0008, #ffffff12 24%, transparent 40%, #0006 95%), var(--spine); border-radius: 2px 3px 1px 1px; border: 1px solid #dcb78322; border-top-color: #e1ca9e66; box-shadow: inset 1px 0 1px #e5c38b24, inset -2px 0 3px #0008, 1px 1px 2px #0005; pointer-events: none; }
+.library-decoration::before { content: ''; position: absolute; inset: 9% 1px 14%; border-top: 3px double #c5a66f66; border-bottom: 3px double #c5a66f66; background: repeating-linear-gradient(0deg, transparent 0 14px, #cdb07722 15px 16px, transparent 17px 23px); }
+.library-decoration--1::after { content: ''; position: absolute; top: 22%; left: 22%; width: 56%; height: 25%; background: #d7bd8a70; }
+.library-volume { --volume: var(--volume-cover, #3d5144); position: relative; z-index: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; flex: 0 0 clamp(44px, 4vw, 58px); container-type: size; height: 96%; min-height: 0; padding: 19px 6px; margin: 0 3px; border: 1px solid #e2d5af77; border-radius: 5px 3px 1px 3px; color: var(--volume-ink, #f6e8c8); background: linear-gradient(90deg, #0005, transparent 14%, #ffffff0a 23%, transparent 40%, #0003 92%, #d9c89d55 95%, #0005), repeating-linear-gradient(0deg, #ffffff03 0 1px, transparent 1px 3px), var(--volume); box-shadow: 2px 1px 4px #0008, inset 3px 0 5px #0005, inset 0 1px #dcc59a44; cursor: pointer; transform-origin: center bottom; transition: filter .2s, box-shadow .2s; }
+.library-volume::before, .library-volume::after { content: ''; position: absolute; left: 7px; right: 7px; height: 4px; border-top: 1px solid #d2b8777a; border-bottom: 1px solid #d2b87745; pointer-events: none; }
+.library-volume::before { top: 9px; }
+.library-volume::after { bottom: 9px; }
+.library-volume--navy { height: 100%; }
+.library-volume--wine { height: 92%; }
+.library-volume--teal { height: 100%; }
+.library-volume--ochre { height: 97%; }
+.library-volume--linen { height: 90%; }
+.library-volume--binder { flex-basis: clamp(48px, 4.5vw, 64px); border-radius: 3px; box-shadow: 2px 1px 4px #0008, inset 5px 0 0 #0003, inset 0 1px #d4d4c933; }
+.library-decoration--0::before { border-width: 1px; background: none; inset: 12% 1px 10%; }
+.library-decoration--2::before { border: 0; background: repeating-linear-gradient(0deg, transparent 0 5px, #dac79a55 6px 7px, transparent 8px 12px); inset: 18% 2px 45%; }
+.library-volume.library-volume--binder {
+  border-radius: 2px; padding: 12px 7px 34px; border-color: var(--volume-edge);
+  background: linear-gradient(90deg, #0006 0 4px, #ffffff15 5px, transparent 7px, transparent calc(100% - 4px), #0005),
+    repeating-linear-gradient(110deg, #ffffff04 0 1px, transparent 1px 3px), var(--volume-cover);
+}
+.library-volume--binder::before, .library-volume--binder::after { display: none; }
+.library-volume--binder .library-volume-title {
+  padding: 8px 4px; border: 1px solid #f2f0d9a6; border-radius: 1px;
+  background: #e4e0ce; color: #243337; font-family: var(--font-family); font-weight: 600;
+  box-shadow: 0 0 0 2px #ffffff24, inset 1px 0 3px #0002;
+}
+.library-binder-hole {
+  position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%);
+  width: 16px; height: 16px; border: 3px solid #aeb6b5; border-top-color: #f0f1e8;
+  border-bottom-color: #64726f; border-radius: 50%; background: #101b1d;
+  box-shadow: 0 1px 2px #0008, inset 0 2px 3px #000b; pointer-events: none;
+}
+
+/* Sideways lettering reads down the spine, not as stacked upright characters.
+   Bound the text in both directions so long titles can use two vertical lines. */
+.library-volume-title { writing-mode: vertical-rl; text-orientation: mixed; font: 500 16px/1.2 Georgia, serif; font-size: clamp(11px, 9cqh, 19px); text-align: center; max-height: 100%; max-width: 100%; margin: 0; }
+.library-volume:hover { filter: brightness(1.22); box-shadow: 0 0 0 2px #d5b576, 10px 5px 18px #0009; }
+.library-shelf-edge {
+  position: relative; flex-shrink: 0; height: 22px; z-index: 2;
+  border-top: 1px solid #d3ae7866; border-bottom: 1px solid #1d140c;
+  background:
+    repeating-linear-gradient(2deg, transparent 0 3px, #1c100a26 4px 5px, transparent 6px 10px, #d8b17c0c 11px 12px),
+    linear-gradient(#a07a4e 0, #795532 4px, #b18a5766 5px, #624128 7px, #50351f 65%, #302115);
+  box-shadow: 0 8px 12px #0007, inset 0 1px #eac08b33, inset 0 -2px 3px #160c0666;
+}
+.library-shelf-edge::before {
+  content: ''; position: absolute; left: 0; right: 0; top: -4px; height: 3px;
+  background: linear-gradient(#a3814e44, #4c321ccc); pointer-events: none;
+}
+.library-cabinet-foot { height: 14px; flex-shrink: 0; background: linear-gradient(#291c13, #5a402b 70%, #38261a); box-shadow: inset 0 -1px #ad85502b; }
+
+/* Lock the document. Only the reader's internal animation runway can scroll. */
+html.library-reading, .library-reading body { overflow: hidden !important; overscroll-behavior: none; }
+#library-reader { position: fixed; inset: 0; z-index: 1000; overflow: hidden; background: radial-gradient(ellipse at 50% 15%, #343027, #14130f 85%); }
+.library-reader-toolbar { position: absolute; inset: 0 0 auto; height: 60px; z-index: 10; display: flex; align-items: center; justify-content: space-between; gap: 18px; padding: 9px 28px; background: #1b1915; border-bottom: 1px solid #75604266; }
+.library-reader-toolbar button, .library-reader-toolbar select { border: 1px solid #78664d; border-radius: 4px; padding: 9px 12px; color: #e6d8bc; background: #2c261e; font: 12px var(--font-family); cursor: pointer; }
+.library-reader-toolbar select { max-width: 46%; min-width: 0; text-overflow: ellipsis; }
+.library-reader-actions { display: flex; align-items: center; flex-shrink: 0; gap: 8px; }
+.library-reader-version { padding: 9px 5px; color: #e6d8bc; font: 12px var(--font-family); text-decoration: underline; text-underline-offset: 3px; }
+.library-reader-version:focus-visible { outline: 2px solid #ffe4a4; outline-offset: 2px; }
+.library-reader-kind { font-size: 10px; text-transform: uppercase; letter-spacing: .15em; color: #b5a589; }
+.library-reader-volumes { position: absolute; inset: var(--library-reader-offset, 60px) 0 0; overflow-x: hidden; overflow-y: auto; overscroll-behavior: none; scrollbar-width: none; overflow-anchor: none; }
+.library-reader-volumes::-webkit-scrollbar { display: none; }
+.library-reading :is(.about-book, .publication-surface, .experience-binder-sheets) { touch-action: pan-y pinch-zoom; }
+.library-mode .section { scroll-snap-align: none; }
+.library-reading :is(.publication-stage, .experience-binder-stage, .about-book-stage) { top: 0; height: calc(100svh - var(--library-reader-offset, 60px)); }
+@supports (height: 100dvh) {
+  /* Match the fixed reader when a mobile browser's address bar changes height. */
+  .library-reading :is(.publication-stage, .experience-binder-stage, .about-book-stage) { height: calc(100dvh - var(--library-reader-offset, 60px)); }
+}
+.library-reading .about-book { height: min(630px, calc(100svh - var(--library-reader-offset, 60px) - 180px)); }
+.library-reading .about-book-heading { margin-bottom: 12px; }
+.library-reading .about-book-controls { margin-top: 20px; }
+.library-mode :is(.library-volume, .library-reader-toolbar button, .library-reader-toolbar select):focus-visible { outline: 2px solid #ffe4a4; outline-offset: -3px; }
+.library-reading .section-title { color: #efe4d0; }
+.library-reading .section-title::after { background: #bba372; }
+@media (max-width: 650px) {
+  .library-mode .hero-nav { top: 25px; right: 20px; transform: none; }
+  .library-stage { padding: 12px 8px; }
+  .library-cabinet { padding: 0 7px; }
+  .library-shelf-bay { padding: 9px 3px 3px; border-right-width: 5px; gap: 1px; }
+  .library-shelf-row--featured .library-decoration:nth-of-type(n+3),
+  .library-shelf-row--featured .library-book-cluster { display: none; }
+  .library-shelf-row--decorative > .library-volumes > .library-shelf-bay > .library-decoration:nth-of-type(n+7) { display: none; }
+  .library-volume { flex-basis: 44px; min-width: 0; padding: 18px 4px; margin: 0 2px; }
+  .library-volume--binder { flex-basis: 48px; }
+  .library-shelf-edge { height: 18px; }
+  .library-reader-toolbar { padding: 9px 12px; gap: 9px; }
+  .library-reader-toolbar button, .library-reader-toolbar select { padding: 9px; font-size: 11px; }
+  .library-reader-kind { display: none; }
+}
+@media (max-height: 700px) {
+  .library-stage { padding-top: 16px; padding-bottom: 8px; }
+  .library-volume { padding: 10px 4px; }
+  .library-volume::before, .library-volume::after { display: none; }
+}
+@media (max-height: 450px) {
+  .library-shelf-row--decorative { display: none; }
+  .library-volume { padding: 6px 4px; }
+  .library-shelf-edge { height: 18px; }
+  .library-reading .about-book { height: calc(100svh - var(--library-reader-offset, 60px) - 115px); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .library-volume { transition: none; }
+}
+@media print {
+  html.library-reading, .library-reading body { overflow: visible !important; }
+  .library-reader-toolbar, .library-reading #hero, .library-reading #library { display: none; }
+  #library-reader, .library-reader-volumes { position: static; overflow: visible; }
+  .library-reading :is(.publication-stage, .experience-binder-stage, .about-book-stage) { position: static; top: auto; height: auto; }
+}

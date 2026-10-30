@@ -7,6 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "check:content": "node scripts/check-content.mjs",
+    "test:portfolio": "node --test src/utils/*.test.js",
     "build:tcgtracking-catalog": "node pokemon-tcg-tracker/scripts/build-tcgtracking-catalog.cjs",
     "refresh:tcgtracking-catalog": "node pokemon-tcg-tracker/scripts/fetch-all-pokemon-data.cjs && npm run build:tcgtracking-catalog"
   },
@@ -15,9 +17,14 @@
     "vite": "^8.0.16"
   },
   "dependencies": {
-    "firebase": "^12.11.0",
+    "firebase": "^13.1.0",
     "highlight.js": "^11.11.1",
     "vite-plugin-static-copy": "^3.4.0"
+  },
+  "overrides": {
+    "@firebase/firestore": {
+      "@grpc/grpc-js": "1.13.6"
+    }
   },
   "allowScripts": {
     "@firebase/util@1.15.0": true,

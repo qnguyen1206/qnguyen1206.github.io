@@ -1,262 +1,260 @@
+import '../styles/about-book.css';
+import { getPageBend } from '../utils/book-turn.js';
+import { paginateBlocks, splitRichBlock } from '../utils/book-pagination.js';
+import { readingOffset, readingScroller, readingScrollTop, scrollReadingTo } from '../utils/library-state.js';
+
+import { aboutPages } from '../content/about.js';
+import { getVolumeHeading } from '../utils/library-state.js';
+import { mountPublication, escapePublicationText as escapeText } from '../utils/publication.js';
+
+const chapters = aboutPages.filter(page => !page.hidden);
+
+function pageHTML(spread, index, side) {
+  const chapter = chapters[spread.chapterIndex];
+  const pictures = (index % 2 === 0) === (side === 'left');
+  return `<section class="about-book-page about-book-page--${side}" data-spread="${index}" aria-label="${chapter.title}: ${pictures ? 'pictures' : 'description'}">
+    <span class="about-book-kicker">${pictures ? 'Collected moments' : `Chapter ${String(spread.chapterIndex + 1).padStart(2, '0')}${spread.part ? ' · Continued' : ''}`}</span>
+    ${pictures ? `<figure class="about-book-gallery ${chapter.images.length > 1 ? 'about-book-gallery--multiple' : ''}">
+      <div class="about-book-photos">${chapter.images.map(([src, alt]) => `<img src="${src}" alt="${alt}" decoding="async">`).join('')}</div>
+      <figcaption>${chapter.caption}</figcaption>
+    </figure>` : `<div class="about-book-copy"><div class="about-book-copy-inner">${spread.part ? '' : `<h3>${chapter.title}</h3>`}${spread.text}</div></div>`}
+    <span class="about-book-folio" aria-hidden="true">${String(index * 2 + (side === 'left' ? 1 : 2)).padStart(2, '0')}</span>
+  </section>`;
+}
+
 export function initAbout() {
   const about = document.getElementById('about');
-  
-  about.innerHTML = `
-    <div class="container">
-      <h2 class="section-title reveal">About Me</h2>
-      
-      <div class="about-content">
-        <!-- Section 1: Text Left, Image Right -->
-        <div class="about-section reveal">
-          <div class="about-text-left">
-            <p>Hello! I'm <span class="highlight">Quang Nguyen</span>. I'm currently a senior student at <span class="highlight">Georgia Institute of Technology</span>, where I'm pursuing a degree <span class="highlight">Bachelor of Science in Computational Media</span> concentrated in <span class="highlight">Artificial Intelligence</span> and <span class="highlight">Game Design</span>.</p>
-            <br>
-            <p>I have worked on many teams and personal projects during my time at Georgia Tech ranging from <span class="highlight">game development</span> to <span class="highlight">app development</span>.</p>
-          </div>
-          <div class="about-image-right">
-            <img src="images/GT.png" alt="Georgia Tech" loading="eager" decoding="async">
-          </div>
-        </div>
-
-        <!-- Section 2: Image Left, Text Right -->
-        <div class="about-section reveal">
-          <div class="about-image-left">
-            <img src="images/UI_1.png" alt="Learning" loading="eager" decoding="async">
-            <img src="images/UI_2.png" alt="Learning" loading="eager" decoding="async">
-            <img src="images/UI_3.png" alt="Learning" loading="eager" decoding="async">
-          </div>
-          <div class="about-text-right">
-            <p>Besides developing games and apps, I am also learning about <span class="highlight">graphic design</span>, <span class="highlight">UI/UX</span> and <span class="highlight">cybersecurity</span> to expand my knowledge and skillset.</p>
-            <br>
-            <p>I think that both cybersecurity and design are necessary in today's world and in order to create a secure and beautiful piece of software, UI/UX, graphic design and cybersecurity are a very good and important skillsets to have.</p>
-            <br>
-            <p>Beside that, I like to explore new places and enjoy world building during my free time. I also like to learn new skills and discover new hobbies.</p>
-          </div>
-        </div>
-
-        
-        <!-- Section 3: Text Left, Image Right -->
-        <div class="about-section reveal">
-          <div class="about-text-left">
-            <p>One of the most notable projects I have worked on is <span class="highlight">Kart: The Tech Filled Racing Game</span>, a game where cars and technology meet with each car having their own unique abilities. We have released the game on <span class="highlight"><a href="https://store.steampowered.com/app/2165230/Kart_The_Tech_Filled_Racing_Game/" target="_blank" rel="noopener noreferrer">Steam</a></span> so check it out if you are interested. 👍</p>
-          </div>
-          <div class="about-image-right">
-          <img src="images/kart-tech-racing/kart_screenshot1.png" alt="Projects" loading="eager" decoding="async">
-            <img src="images/kart-tech-racing/kart_screenshot2.png" alt="Projects" loading="eager" decoding="async">
-            <img src="images/kart-tech-racing/kart_screenshot3.png" alt="Projects" loading="eager" decoding="async">
-          </div>
-        </div>
-
-        
-      </div>
+  if (!about) return;
+  const heading = getVolumeHeading('about');
+  if (!chapters.length) {
+    mountPublication(about, { ...heading, entries: [] });
+    return;
+  }
+  about.classList.add('about-book-section');
+  about.innerHTML = `<div class="about-book-stage">
+    <header class="about-book-heading"><h2 class="section-title">${escapeText(heading.title)}</h2><p>${escapeText(heading.subtitle)}</p></header>
+    <div class="about-book-desktop">
+      <div class="about-book" role="group" aria-label="About me, an interactive book"></div>
+      <nav class="about-book-controls" aria-label="About book pages and chapters">
+        <button type="button" class="about-book-prev" aria-label="Previous page">←</button>
+        ${chapters.map((chapter, i) => `<button type="button" class="about-book-chapter" data-go-chapter="${i}" aria-label="Chapter ${i + 1}: ${chapter.title}">${String(i + 1).padStart(2, '0')}</button>`).join('')}
+        <button type="button" class="about-book-next" aria-label="Next page">→</button>
+      </nav>
+      <p class="about-book-hint">Scroll to turn the page · or choose a chapter above</p>
+      <p class="about-book-status" role="status" aria-live="polite"></p>
     </div>
-    
-    <style>
-      .about-content {
-        max-width: 1200px;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        gap: var(--space-8, 4rem);
-        padding-bottom: var(--space-8, 4rem);
-      }
-      
-      .about-section {
-        display: flex;
-        align-items: center;
-        gap: var(--space-6, 3rem);
-        min-height: 300px;
-      }
-      
-      /* Text Left (2/3), Image Right (1/3) */
-      .about-text-left {
-        flex: 1.5;
-        padding-right: var(--space-4, 2rem);
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-      }
-      
-      .about-image-right {
-        flex: 1.5;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-shrink: 0;
-        min-width: 500px;
-      }
-      
-      /* Image Left (1/3), Text Right (2/3) */
-      .about-image-left {
-        flex: 1.5;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-shrink: 0;
-        min-width: 500px;
-      }
-      
-      .about-text-right {
-        flex: 1.5;
-        padding-left: var(--space-4, 2rem);
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-      }
-      
-      .about-image-left img,
-      .about-image-right img {
-        width: auto;
-        height: auto;
-        max-height: 450px;
-        max-width: 700px;
-        object-fit: contain;
-        border-radius: 12px;
-        box-shadow: 0 4px 20px rgba(0, 191, 255, 0.2);
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-      }
-      
-      /* Layered paper effect for multiple images */
-      .about-image-left:has(img + img),
-      .about-image-right:has(img + img) {
-        position: relative;
-        min-height: 500px;
-      }
-      
-      .about-image-left:has(img + img) img,
-      .about-image-right:has(img + img) img {
-        position: absolute;
-        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
-        pointer-events: auto;
-      }
-      
-      .about-image-left:has(img + img),
-      .about-image-right:has(img + img) {
-        pointer-events: none;
-      }
-      
-      .about-image-left:has(img + img) img:hover ~ img,
-      .about-image-right:has(img + img) img:hover ~ img {
-        pointer-events: none;
-      }
-      
-      .about-image-left:has(img + img) img:nth-child(1),
-      .about-image-right:has(img + img) img:nth-child(1) {
-        z-index: 1;
-        transform: rotate(-5deg) translate(-30px, 20px);
-        max-width: 85%;
-      }
-      
-      .about-image-left:has(img + img) img:nth-child(2),
-      .about-image-right:has(img + img) img:nth-child(2) {
-        z-index: 2;
-        transform: rotate(3deg) translate(25px, -10px);
-        max-width: 80%;
-      }
-      
-      .about-image-left:has(img + img) img:nth-child(3),
-      .about-image-right:has(img + img) img:nth-child(3) {
-        z-index: 3;
-        transform: rotate(-2deg) translate(10px, 35px);
-        max-width: 82%;
-      }
-      
-      .about-image-left:has(img + img) img:hover,
-      .about-image-right:has(img + img) img:hover {
-        z-index: 10;
-        transform: rotate(0deg) scale(1.08) !important;
-        box-shadow: 0 12px 40px rgba(0, 191, 255, 0.4);
-      }
-      
-      .about-image-left img:hover,
-      .about-image-right img:hover {
-        transform: scale(1.05);
-        box-shadow: 0 8px 30px rgba(0, 191, 255, 0.3);
-      }
-      
-      .about-text-left p,
-      .about-text-right p {
-        margin: 0;
-        font-size: var(--font-size-lg, 1.125rem);
-        line-height: 1.8;
-        font-family: 'Georgia', serif;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-        hyphens: auto;
-      }
+  </div>`;
 
-      .highlight {
-        color: #00bfff;
-        font-weight: bold;
-      }
-      
-      .highlight a {
-        color: #00bfff;
-        text-decoration: underline;
-        transition: color 0.3s ease;
-        word-break: break-word;
-      }
-      
-      .highlight a:hover {
-        color: #00d4ff;
-        text-decoration: underline;
-      }
-      
-      /* Mobile Responsive */
-      @media (max-width: 768px) {
-        .about-section {
-          flex-direction: column !important;
-          gap: var(--space-4, 2rem);
-          min-height: auto;
-        }
-        
-        .about-text-left,
-        .about-text-right {
-          flex: 1;
-          padding: 0;
-          width: 100%;
-        }
-        
-        .about-image-left,
-        .about-image-right {
-          flex: 1;
-          width: 100%;
-          max-width: 400px;
-        }
-        
-        .about-text-left p,
-        .about-text-right p {
-          font-size: var(--font-size-base, 1rem);
-          line-height: 1.6;
-        }
-        
-        .about-content {
-          gap: var(--space-6, 3rem);
-        }
-      }
-      
-      @media (max-width: 480px) {
-        .about-content {
-          gap: var(--space-4, 2rem);
-        }
-        
-        .about-section {
-          gap: var(--space-3, 1.5rem);
-        }
-        
-        .about-text-left p,
-        .about-text-right p {
-          font-size: var(--font-size-sm, 0.875rem);
-        }
-        
-        .about-image-left img,
-        .about-image-right img {
-          border-radius: 8px;
-        }
-      }
-    </style>
-  `;
+  const desktop = about.querySelector('.about-book-desktop');
+  const stage = about.querySelector('.about-book-stage');
+  const book = about.querySelector('.about-book');
+  const chapterButtons = [...about.querySelectorAll('[data-go-chapter]')];
+  const previous = about.querySelector('.about-book-prev');
+  const next = about.querySelector('.about-book-next');
+  const status = about.querySelector('.about-book-status');
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const stripCount = 16;
+  const clamp = value => Math.max(0, Math.min(1, value));
+  let spreads = [];
+  let leaves = [];
+  let pages = [];
+  let currentSpread = -1;
+  let frame = 0;
+  let layoutFrame = 0;
+  let cachedLeaf = null;
+  let layoutKey = '';
+  let fontsVersion = 0;
 
-  // Ensure About content is visible immediately without waiting for scroll-triggered reveal.
-  about.querySelectorAll('.reveal').forEach((element) => {
-    element.classList.add('active');
+  const paragraphLists = chapters.map(chapter => {
+    const template = document.createElement('template');
+    template.innerHTML = chapter.text;
+    return [...template.content.children].map(node => node.outerHTML);
   });
+
+  function buildFlexibleSurface(leaf) {
+    const front = leaf.querySelector('.about-book-face--front .about-book-page');
+    const back = leaf.querySelector('.about-book-face--back .about-book-page');
+    const sheet = document.createElement('div');
+    sheet.className = 'about-book-flex';
+    sheet.setAttribute('aria-hidden', 'true');
+    sheet.inert = true;
+    const strips = Array.from({ length: stripCount }, (_, index) => {
+      const strip = document.createElement('div');
+      strip.className = 'about-book-strip';
+      [front, back].forEach((page, side) => {
+        const face = document.createElement('div');
+        face.className = `about-book-strip-face about-book-strip-face--${side ? 'back' : 'front'}`;
+        const copy = page.cloneNode(true);
+        copy.removeAttribute('data-spread');
+        face.style.setProperty('--slice-index', side ? stripCount - index - 1 : index);
+        face.append(copy);
+        strip.append(face);
+      });
+      sheet.append(strip);
+      return strip;
+    });
+    leaf.append(sheet);
+    return { sheet, strips };
+  }
+
+  function plainText(html) {
+    const template = document.createElement('template');
+    template.innerHTML = html;
+    return template.content.textContent.replace(/\s+/g, ' ').trim();
+  }
+
+  function layout() {
+    layoutFrame = 0;
+    if (about.hidden) return;
+    const bookStyle = getComputedStyle(book);
+    const width = parseFloat(bookStyle.width) / 2;
+    const height = parseFloat(bookStyle.height);
+    if (!width || !height) return;
+    const key = [width, height, stage.clientHeight, window.innerWidth, fontsVersion].join(':');
+    if (key === layoutKey) { scheduleRender(); return; }
+    const old = spreads[Math.max(0, currentSpread)];
+    const hadBookFocus = book.contains(document.activeElement);
+    const anchor = old ? plainText(old.text).slice(0, 36) : '';
+    const newSpreads = [];
+    const probe = document.createElement('div');
+    probe.className = 'about-book-measure';
+    probe.inert = true;
+    probe.setAttribute('aria-hidden', 'true');
+    probe.style.width = width + 'px';
+    probe.style.height = height + 'px';
+    desktop.append(probe);
+    try {
+      chapters.forEach((chapter, chapterIndex) => {
+        probe.innerHTML = pageHTML({ chapterIndex, part: 0, text: '' }, 0, 'right');
+        const copy = probe.querySelector('.about-book-copy');
+        const inner = probe.querySelector('.about-book-copy-inner');
+        const kicker = probe.querySelector('.about-book-kicker');
+        function fits(blocks, part) {
+          kicker.textContent = `Chapter ${String(chapterIndex + 1).padStart(2, '0')}${part ? ' · Continued' : ''}`;
+          inner.innerHTML = (part ? '' : `<h3>${chapter.title}</h3>`) + blocks.join('');
+          const style = getComputedStyle(copy);
+          const available = copy.clientHeight - parseFloat(style.paddingTop) - parseFloat(style.paddingBottom);
+          return inner.scrollHeight <= available - 2 && inner.scrollWidth <= copy.clientWidth;
+        }
+        const chunks = paginateBlocks(paragraphLists[chapterIndex], fits,
+          (html, fitsHead) => splitRichBlock(html, fitsHead, document));
+        chunks.forEach((blocks, part) => newSpreads.push({ chapterIndex, part, text: blocks.join('') }));
+      });
+    } finally {
+      probe.remove();
+    }
+
+    spreads = newSpreads;
+    cachedLeaf = null;
+    layoutKey = key;
+    book.innerHTML = `<div class="about-book-base about-book-base--left">${pageHTML(spreads[0], 0, 'left')}</div>
+      <div class="about-book-base about-book-base--right">${pageHTML(spreads.at(-1), spreads.length - 1, 'right')}</div>
+      ${spreads.slice(0, -1).map((spread, i) => `<div class="about-book-leaf">
+        <div class="about-book-face about-book-face--front">${pageHTML(spread, i, 'right')}</div>
+        <div class="about-book-face about-book-face--back">${pageHTML(spreads[i + 1], i + 1, 'left')}</div>
+      </div>`).join('')}`;
+    pages = [...book.querySelectorAll('[data-spread]')];
+    leaves = [...book.querySelectorAll('.about-book-leaf')].map(leaf => {
+      leaf.style.setProperty('--page-width', width + 'px');
+      leaf.style.setProperty('--strip-width', width / stripCount + 'px');
+      return { leaf, width, flex: null };
+    });
+    // One scroll segment per spread; adding continuation pages adds page turns.
+    const travel = Math.max(480, stage.clientHeight * 1.2) * Math.max(1, spreads.length - 1);
+    about.style.setProperty('--about-book-height', stage.clientHeight + travel + 'px');
+    let target = 0;
+    if (old) {
+      target = spreads.findIndex(spread => spread.chapterIndex === old.chapterIndex &&
+        anchor && plainText(spread.text).includes(anchor));
+      if (target < 0) {
+        const candidates = spreads.map((spread, i) => ({ ...spread, i })).filter(spread => spread.chapterIndex === old.chapterIndex);
+        target = candidates[Math.min(old.part, candidates.length - 1)].i;
+      }
+    }
+    currentSpread = -1;
+    goToPage(target, true);
+    if (hadBookFocus) chapterButtons[spreads[target].chapterIndex].focus({ preventScroll: true });
+    scheduleRender();
+  }
+
+  function queueLayout() {
+    if (!layoutFrame) layoutFrame = requestAnimationFrame(layout);
+  }
+
+  function render() {
+    frame = 0;
+    if (about.hidden || !spreads.length) return;
+    const rect = about.getBoundingClientRect();
+    const travel = about.offsetHeight - stage.offsetHeight;
+    const lastSpread = spreads.length - 1;
+    const targetProgress = clamp((readingOffset(about) - rect.top) / Math.max(1, travel));
+    // Follow the native scroll position directly, including direction reversals.
+    const displayedProgress = targetProgress;
+    const selected = Math.round(displayedProgress * lastSpread);
+    leaves.forEach((item, i) => {
+      const turn = reducedMotion.matches ? Number(selected > i) :
+        clamp((displayedProgress * lastSpread - i - .2) / .6);
+      if (item.lastTurn === turn) return;
+      item.lastTurn = turn;
+      const bending = turn > 0 && turn < 1;
+      const shape = bending ? getPageBend(turn, item.width, stripCount) : { rotation: -180 * turn };
+      item.leaf.classList.toggle('is-turning', bending);
+      item.leaf.style.transform = `rotateY(${shape.rotation}deg)`;
+      item.leaf.style.zIndex = turn === 1 ? i + 1 : leaves.length - i + 2;
+      if (bending) {
+        // Cache one sheet for immediate reverse scrolling, with bounded memory.
+        if (cachedLeaf !== item) {
+          if (cachedLeaf?.flex) { cachedLeaf.flex.sheet.remove(); cachedLeaf.flex = null; }
+          cachedLeaf = item;
+        }
+        if (!item.flex) item.flex = buildFlexibleSurface(item.leaf);
+        item.flex.strips.forEach((strip, index) => {
+          const part = shape.strips[index];
+          strip.style.transform = `translate3d(${part.x}px, 0, ${part.z}px) rotateY(${part.angle}deg)`;
+        });
+      }
+      item.leaf.style.setProperty('--turn-shade', Math.sin(turn * Math.PI) * .12);
+    });
+    if (selected === currentSpread) return;
+    if (currentSpread >= 0 && pages.some(page => Number(page.dataset.spread) === currentSpread && page.contains(document.activeElement))) {
+      next.focus({ preventScroll: true });
+    }
+    currentSpread = selected;
+    pages.forEach(page => {
+      const hidden = Number(page.dataset.spread) !== selected;
+      page.inert = hidden;
+      page.setAttribute('aria-hidden', String(hidden));
+    });
+    const chapterIndex = spreads[selected].chapterIndex;
+    chapterButtons.forEach((button, i) => button.setAttribute('aria-current', i === chapterIndex ? 'step' : 'false'));
+    previous.disabled = selected === 0;
+    next.disabled = selected === lastSpread;
+    status.textContent = `Pages ${selected * 2 + 1}–${selected * 2 + 2} of ${spreads.length * 2}: ${chapters[chapterIndex].title}${spreads[selected].part ? ', continued' : ''}`;
+  }
+
+  function scheduleRender() { if (!about.hidden && !frame) frame = requestAnimationFrame(render); }
+  function goToPage(index, instant = false) {
+    if (!spreads.length) return;
+    const target = Math.max(0, Math.min(spreads.length - 1, index));
+    const top = readingScrollTop(about) + about.getBoundingClientRect().top - readingOffset(about);
+    scrollReadingTo(about, {
+      top: top + target / Math.max(1, spreads.length - 1) * (about.offsetHeight - stage.offsetHeight),
+      behavior: instant || reducedMotion.matches ? 'instant' : 'smooth'
+    });
+  }
+
+  chapterButtons.forEach(button => button.addEventListener('click', () =>
+    goToPage(spreads.findIndex(spread => spread.chapterIndex === Number(button.dataset.goChapter)))));
+  previous.addEventListener('click', () => goToPage(currentSpread - 1));
+  next.addEventListener('click', () => goToPage(currentSpread + 1));
+  reducedMotion.addEventListener('change', scheduleRender);
+  readingScroller(about).addEventListener('scroll', scheduleRender, { passive: true });
+  window.addEventListener('resize', queueLayout);
+  about.addEventListener('library:activate', queueLayout);
+  const observer = new ResizeObserver(queueLayout);
+  observer.observe(book);
+  observer.observe(stage);
+  document.fonts?.ready.then(() => { fontsVersion++; queueLayout(); });
+  document.fonts?.addEventListener('loadingdone', () => { fontsVersion++; queueLayout(); });
+  queueLayout();
 }

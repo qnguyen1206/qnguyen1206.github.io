@@ -1,0 +1,18 @@
+/* Transient, compositor-only motion. No cloned text pages, blur, or scroll loop. */
+.volume-flight-layer { position: fixed; inset: 0; z-index: 1100; overflow: hidden; background: #080a0b55; touch-action: none; }
+.volume-flight { position: absolute; top: 0; left: 0; transform-origin: 0 0; perspective: 1600px; color: var(--volume-ink); will-change: transform; }
+.volume-flight-paper { position: absolute; inset: 0; padding: 12%; border: 7px solid var(--volume-cover); border-radius: 3px 7px 7px 3px; background: #f3eee4; color: #6f6251; box-shadow: 3px 4px 0 #c9c2b3, 0 14px 35px #0005; }
+.volume-flight-paper > i, .volume-flight-inside > i { display: block; height: 1px; background: #c8bfad; margin: 12% 0; }
+.volume-flight-lid { position: absolute; inset: 0; transform-origin: left center; transform-style: preserve-3d; will-change: transform; }
+.volume-flight-front, .volume-flight-inside { position: absolute; inset: 0; border: 2px solid var(--volume-edge); border-radius: 3px 7px 7px 3px; backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+.volume-flight-front { display: grid; place-items: center; padding: 12%; background: linear-gradient(90deg, #0005, transparent 8%, #ffffff0c 40%, #0002), var(--volume-cover); transform: translateZ(1px); box-shadow: inset 7px 0 #0002; }
+.volume-flight-front > span { font: 500 clamp(16px, 3vw, 38px)/1.3 Georgia, serif; text-align: center; overflow-wrap: normal; word-break: normal; max-width: 100%; border-block: 2px solid var(--volume-edge); padding: 18% 0; will-change: opacity; }
+.volume-flight-inside { padding: 12%; background: #e9e0d0; color: #6f6251; transform: rotateY(180deg) translateZ(1px); border: 7px solid var(--volume-cover); }
+.volume-flight-eyelet { display: none; }
+.volume-flight--binder .volume-flight-front { border-radius: 2px; box-shadow: inset 12px 0 #0003; }
+.volume-flight--binder .volume-flight-front > span { padding: 12%; border: 1px solid #bcb9aa; background: #e4e0ce; color: #243337; font: 600 clamp(14px, 2.3vw, 28px)/1.4 var(--font-family); }
+.volume-flight--binder .volume-flight-eyelet { display: block; position: absolute; bottom: 8%; left: calc(50% - 10px); width: 20px; height: 20px; border: 4px solid #adb5b5; border-radius: 50%; background: #172325; }
+.volume-flight-rings { position: absolute; left: -12px; top: 18%; bottom: 18%; width: 24px; display: flex; flex-direction: column; justify-content: space-between; pointer-events: none; }
+.volume-flight-rings i { height: 12px; border: 3px solid #c2c9cb; border-bottom-color: #6b777d; border-radius: 50%; }
+.library-transitioning .library-reader-volumes { overflow-y: hidden; }
+@media (prefers-reduced-motion: reduce) { .volume-flight-layer { display: none; } }

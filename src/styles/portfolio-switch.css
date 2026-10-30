@@ -1,0 +1,44 @@
+/* A compact toggle-shaped link: switching versions is native page navigation. */
+.portfolio-switch {
+  position: fixed;
+  top: max(8px, env(safe-area-inset-top));
+  left: max(12px, env(safe-area-inset-left));
+  z-index: 40;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 44px; /* Touch-friendly hit area without a large panel. */
+  color: #d8ddd6;
+  font: 500 10px/1 system-ui, sans-serif;
+  text-decoration: none;
+  border-radius: 4px;
+  -webkit-tap-highlight-color: transparent;
+}
+.portfolio-switch-label { color: #fff5df; text-shadow: 0 1px 3px #000; }
+.portfolio-switch-track {
+  position: relative;
+  width: 32px;
+  height: 18px;
+  flex: 0 0 32px;
+  box-sizing: border-box;
+  border: 1px solid #849386;
+  border-radius: 999px;
+  background: #1c2a24;
+}
+.portfolio-switch-track::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #eee4ce;
+}
+.portfolio-switch[data-version="library"] .portfolio-switch-track { background: #48674f; }
+.portfolio-switch[data-version="library"] .portfolio-switch-track::after { transform: translateX(14px); }
+.portfolio-switch:hover .portfolio-switch-track { border-color: #f3dfb6; }
+.portfolio-switch:focus-visible { outline: 2px solid #8dd5ff; outline-offset: 3px; }
+/* The dialog has its own Classic link inside its keyboard focus boundary. */
+.library-reading .portfolio-switch { display: none; }
+@media print { .portfolio-switch { display: none; } }

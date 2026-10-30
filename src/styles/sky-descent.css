@@ -1,0 +1,85 @@
+/* One pinned sky scene overlaps the static library entrance by one viewport. */
+.sky-descent-enabled #hero {
+  display: block;
+  height: 240vh;
+  height: 240svh;
+  padding: 0;
+  overflow: visible;
+}
+.hero-sky-stage {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.sky-descent-enabled .hero-sky-stage {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  height: 100svh;
+  padding-top: 100px;
+  overflow: clip;
+}
+.sky-descent-enabled #library {
+  margin-top: -100vh;
+  margin-top: -100svh;
+}
+/* Let the user scrub the descent without scroll snapping skipping ahead. */
+html.sky-descent-active, .sky-descent-active body { scroll-snap-type: none; }
+.hero-sky-stage > .container { position: relative; z-index: 2; }
+.hero-sky-stage .hero-text { transform-origin: center 35%; }
+.sky-descent-enabled .hero-text { will-change: transform, opacity; }
+.sky-descent-enabled .stars-container { mask-image: none; }
+.hero-sky-backdrop {
+  display: none;
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse at 60% 110%, #6987ab66 0%, transparent 62%),
+    radial-gradient(ellipse at 20% 5%, #493b792e 0%, transparent 55%),
+    linear-gradient(#040810, #0b192c 65%, #172b42);
+}
+.sky-descent-enabled .hero-sky-backdrop { display: block; }
+.sky-descent-atmosphere {
+  position: fixed;
+  inset: 0;
+  z-index: 5;
+  overflow: hidden;
+  pointer-events: none;
+  contain: paint;
+}
+.sky-descent-atmosphere[hidden] { display: none; }
+.sky-cloud-bank {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 32vh;
+  height: 32svh;
+  will-change: transform, opacity;
+  background:
+    radial-gradient(ellipse at 25% 54%, #c9dcebb3 0%, #a3bfd45c 18%, transparent 54%),
+    radial-gradient(ellipse at 75% 48%, #dce8f3a6 0%, #a3bfd452 20%, transparent 55%);
+}
+.sky-cloud-bank--far { opacity: .32; }
+.sky-cloud-bank--near { opacity: .55; }
+.sky-descent-streaks { position: absolute; inset: 0; opacity: 0; }
+.sky-descent-streaks span {
+  position: absolute;
+  left: var(--x);
+  top: var(--y);
+  width: 1px;
+  height: var(--length);
+  background: linear-gradient(transparent, #d5e8f3b3, transparent);
+}
+/* The existing underwater bubbles begin only after the sky has cleared. */
+.sky-descent-active .bubble-container { opacity: 0 !important; }
+/* These decorative animations need no frames behind the reader or during descent. */
+#hero.hero-effects-paused :is(.star, .hero-title),
+.library-reading #hero :is(.star, .hero-title) { animation-play-state: paused; }
+@media (prefers-reduced-motion: reduce) {
+  #hero :is(.star, .hero-title) { animation-play-state: paused; }
+  .hero-sky-backdrop, .sky-descent-atmosphere { display: none; }
+}

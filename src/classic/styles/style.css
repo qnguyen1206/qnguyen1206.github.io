@@ -1,0 +1,426 @@
+/* Base styles */
+body {
+  font-family: var(--font-family);
+  background: #000000;
+  background-attachment: fixed;
+  color: var(--color-text);
+  line-height: var(--line-height-normal);
+  position: relative;
+  min-height: 100vh;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: linear-gradient(
+    to bottom,
+    rgba(8, 8, 8, 0.9),
+    rgba(0, 0, 0, 0.95)
+  );
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    to bottom,
+    rgba(33, 212, 255, 0.6),
+    rgba(139, 92, 255, 0.6)
+  );
+  border-radius: 10px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+  box-shadow: inset 0 0 6px rgba(33, 212, 255, 0.5);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    to bottom,
+    rgba(33, 212, 255, 0.8),
+    rgba(139, 92, 255, 0.8)
+  );
+  box-shadow: inset 0 0 10px rgba(33, 212, 255, 0.8);
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: linear-gradient(
+    to bottom,
+    rgba(33, 212, 255, 1),
+    rgba(139, 92, 255, 1)
+  );
+}
+
+/* Firefox Scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(33, 212, 255, 0.6) rgba(0, 0, 0, 0.9);
+}
+
+/* Layout */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 var(--space-4);
+  margin: 0 auto;
+  background: transparent !important;
+}
+
+.section {
+  padding: var(--space-16) 0;
+  position: relative;
+  overflow: visible; /* Changed from hidden to visible */
+  background: transparent !important;
+  backdrop-filter: none !important;
+  min-height: 100vh;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Sections that should be exactly 100vh */
+#home.section,
+#about.section,
+#certificates.section,
+#contact.section {
+  height: auto; /* Changed from 100vh to auto */
+  min-height: 100vh; /* Keep minimum height */
+  overflow: visible; /* Changed from hidden to visible */
+}
+
+/* Skills section - allow scrolling within section */
+#skills.section {
+  height: auto;
+  min-height: 100vh;
+  overflow: visible;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+/* Enable smooth scrolling and scroll snapping */
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y proximity;
+}
+
+body {
+  scroll-snap-type: y proximity;
+}
+
+/* Reduce spacing between certificates and resume sections */
+#certificates.section {
+  padding: var(--space-8) 0 var(--space-4) 0;
+  background: transparent;
+}
+
+/* Projects section with auto height to fit all content */
+#projects.section {
+  height: auto;
+  min-height: 100vh;
+  padding: var(--space-8) 0 var(--space-12) 0;
+  justify-content: flex-start;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+#resume.section {
+  padding: var(--space-4) 0 var(--space-8) 0;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: var(--space-10) 0;
+    height: auto; /* Allow sections to expand to content height on mobile */
+    min-height: 100vh; /* Maintain minimum height for full screen sections */
+    overflow-y: visible; /* Allow vertical overflow on mobile */
+  }
+  
+  /* Hide oxygen tank on mobile devices to prevent text blocking */
+  .oxygen-tank {
+    display: none !important;
+  }
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  line-height: var(--line-height-tight);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--space-4);
+}
+
+/* Apply Berkshire Swash font to h1 (hero name) */
+h1 {
+  font-family: 'Berkshire Swash', cursive;
+  font-size: var(--font-size-5xl);
+}
+
+/* Apply Playball font to section titles */
+h2 {
+  font-family: 'Playball', cursive;
+}
+
+h2 {
+  font-size: var(--font-size-4xl);
+}
+
+h3 {
+  font-size: var(--font-size-3xl);
+}
+
+/* Apply Berkshire Swash to project and certificate titles */
+.project-card h3,
+.card-title,
+.certificate-card h3 {
+  font-family: 'Berkshire Swash', cursive !important;
+}
+
+h4 {
+  font-size: var(--font-size-2xl);
+}
+
+h5 {
+  font-size: var(--font-size-xl);
+}
+
+h6 {
+  font-size: var(--font-size-lg);
+}
+
+p {
+  margin-bottom: var(--space-4);
+}
+
+.text-primary {
+  color: var(--color-primary-500);
+}
+
+.text-secondary {
+  color: var(--color-secondary-500);
+}
+
+.text-accent {
+  color: var(--color-accent-500);
+}
+
+.section-title {
+  position: relative;
+  display: inline-block;
+  margin-bottom: var(--space-8);
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 60px;
+  height: 4px;
+  background-color: var(--color-primary-500);
+  border-radius: var(--radius-full);
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-3) var(--space-6);
+  border-radius: var(--radius-md);
+  font-weight: var(--font-weight-medium);
+  transition: all var(--transition-fast) var(--easing-out);
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.btn-primary {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-primary-600);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: var(--color-primary-500);
+  border: 2px solid var(--color-primary-500);
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-primary-50);
+  transform: translateY(-2px);
+}
+
+.btn-icon {
+  margin-left: var(--space-2);
+}
+
+
+
+/* Responsive rules */
+@media (max-width: 1024px) {
+  h1 {
+    font-size: var(--font-size-4xl);
+  }
+  
+  h2 {
+    font-size: var(--font-size-3xl);
+  }
+  
+  h3 {
+    font-size: var(--font-size-2xl);
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: var(--font-size-3xl);
+  }
+  
+  h2 {
+    font-size: var(--font-size-2xl);
+  }
+  
+  h3 {
+    font-size: var(--font-size-xl);
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 var(--space-4);
+  }
+}
+
+/* Footer */
+#footer {
+  background-color: var(--color-surface);
+  color: var(--color-text);
+  padding: var(--space-8) 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-6);
+}
+
+.footer-links {
+  display: flex;
+  gap: var(--space-6);
+}
+
+.social-links {
+  display: flex;
+  gap: var(--space-4);
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--color-neutral-800);
+  color: var(--color-neutral-100);
+  transition: all var(--transition-normal) var(--easing-out);
+}
+
+.social-link:hover {
+  background-color: var(--color-primary-500);
+  transform: translateY(-3px);
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+    gap: var(--space-6);
+  }
+}
+
+/* Tech Icons */
+.tech-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.tech-icons {
+  display: flex;
+  flex-direction: row; /* Explicitly set to row */
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-3);
+  margin-top: var(--space-2);
+  width: 100%;
+}
+
+.tech-icon {
+  height: 35px;
+  width: auto;
+  max-width: 70px;
+  object-fit: contain;
+  display: inline-block;
+  margin: 0 var(--space-1);
+  transition: transform var(--transition-normal) var(--easing-out);
+}
+
+.tech-icon:hover {
+  transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+  .tech-icons {
+    gap: var(--space-2);
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .tech-icon {
+    height: 30px;
+    max-width: 45px;
+    margin: 0 var(--space-1);
+  }
+}
+
+@media (max-width: 480px) {
+  .tech-icon {
+    height: 25px;
+    max-width: 35px;
+  }
+  
+  .tech-icons {
+    gap: var(--space-1);
+  }
+}
+
+/* Background credit style */
+.bg-credit {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  margin-top: var(--space-2);
+}
+
+.bg-credit a {
+  color: var(--color-text-muted);
+  text-decoration: underline;
+  transition: color var(--transition-normal) var(--easing-out);
+}
+
+.bg-credit a:hover {
+  color: var(--color-primary-500);
+}
+
+

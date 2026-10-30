@@ -1,0 +1,139 @@
+PORTFOLIO CONTENT GUIDE
+
+TWO PORTFOLIO VERSIONS
+
+index.html is the Classic portfolio and the default landing page.
+library.html is the new Library preview. Use the compact top-left toggle to
+switch; an open library book also has a Classic link in its toolbar.
+Both pages are included automatically in npm run build and the existing deploy.
+
+This content guide applies to the LIBRARY version only.
+Classic layout/content is preserved separately in src/classic/ from commit
+92b58c2a (before the uncommitted library redesign). See src/classic/README.txt.
+Library edits in src/content/, src/sections/ and the library styles do not
+change Classic's layout. Public assets and src/sections/blogs/ articles are
+shared, so editing those affects both versions. Switching uses normal page
+navigation, keeping animation listeners, reader state and CSS isolated.
+
+Start here: src/content/ (not src/sections/).
+Content files describe what to show. Section files handle layout and animation.
+Save a content file while npm run dev is running to preview your changes.
+These are source files, not a browser-based CMS; publish the site as usual after editing.
+
+WHERE TO EDIT
+
+home.js          Your name, Home buttons, copyright, and "Visit my library".
+library.js       Books/binders on the shelf: titles, order, colors, reader headings.
+about.js         About chapters: title, pictures, caption, and paragraph HTML.
+experience.js    One company profile per binder sheet: company, role, dates, bullets.
+projects.js      One project per book spread, including its detailed modal content.
+certificates.js  Certificates, honors, courses, category names, and issuer logos.
+contacts.js      Contact book spreads, text, and links.
+writeups.js      Published write-up list, sorting, and previews per binder sheet.
+templates.js     Copyable examples for every page type and for whole new volumes.
+
+Existing long write-up articles stay in src/sections/blogs/; writeups.js imports
+them explicitly. Follow an import to edit an existing article's content.
+src/sections/blog-posts.js is only a compatibility export, not a second registry.
+
+EVERYDAY CHANGES
+
+1. Edit: change fields in the corresponding object.
+2. Add: copy the appropriate object from templates.js into the relevant array.
+   Separate objects with commas. Give new projects/write-ups a unique id.
+3. Delete: remove the entire object from its array.
+4. Reorder: move the object earlier/later in the array.
+5. Draft: add hidden: true to an object. Remove it or use hidden: false to show it.
+
+The same operations work on volumes in library.js to hide, remove, or reorder
+whole sections. Numbering, page selectors, shelf rows, and reader navigation
+are generated automatically. Home buttons to removed/hidden sections disappear.
+
+BUILT-IN SECTIONS
+
+Keep the built-in IDs (about, experience, projects, blog, certificates, contacts)
+and their type values: they select specialized layouts and preserve existing links.
+Change title to rename a spine, readerTitle to rename the heading inside,
+readerSubtitle for the description inside, and color for both spine and open cover.
+To use a different book/binder layout, add a custom volume with a new ID instead.
+
+Palette names: sage, navy, wine, teal, ochre, linen.
+You can add a palette entry in library.js with cover, edge, and ink hex colors.
+Home and the library scene itself always remain; volumes controls reader sections.
+
+ADDING AN ENTIRE BOOK OR BINDER
+
+Copy customBookTemplate or customBinderTemplate from templates.js into the
+volumes array in library.js. Use a new lowercase hyphenated ID, such as
+reading-notes, remove hidden: true, and edit its pages array. Each custom entry
+is a two-page book spread (left/right) or one binder sheet (body).
+It automatically gets a shelf spine, matching cover, hash link, reader controls,
+scroll animation, and outside-click dismissal. Extra shelf rows are added as needed.
+
+Custom panel fields: title, kicker, paragraphs (array of plain strings),
+bullets (array of plain strings), image: { src: 'images/photo.jpg', alt: 'Description' }.
+For advanced formatting, a panel may instead be a trusted HTML string.
+Use short, readable pages; split long custom content into additional entries.
+
+ABOUT PAGINATION
+
+One object starts one new chapter/spread. Wrap paragraphs in <p>...</p> in text.
+Use <strong>, <em>, or <a> for formatting. If a paragraph cannot fit on the
+current page, the reader continues it on a new page, adapting to screen size.
+Very long paragraphs are split only when they cannot fit on a page by themselves.
+The page-turn behavior and alternating pictures/text are automatic.
+images is an array of [path, alt text] pairs; use [] if no photos are needed.
+
+EXPERIENCE AND PROJECTS
+
+experience.js: title is your role, company is the full company name; shortName
+and monogram are optional. logo is optional, bullets is an array of achievements.
+Each entry remains a separate sheet. Keep bullets concise for readable paper.
+
+projects.js: id, title, category, and tags are the main fields. The comments at
+the top describe optional media, links, statuses, and detailed write-up formatting.
+Do not reuse an ID when adding a project, or its details button will be ambiguous.
+
+CERTIFICATES, HONORS, AND COURSES
+
+Add records to the relevant certificatesData array. Each record uses title,
+issuer, date, and an optional link. Courses use the same format.
+To add a tab, add a key and label to certificateCategories and an array with
+that same key in certificatesData. Remove both to delete a tab.
+Unknown issuers automatically use the default emblem.
+
+WRITE-UPS
+
+Add an imported article to blogPosts in writeups.js, or paste a write-up object
+directly into that array (see writeupPageTemplate). Removing an entry from this
+array unpublishes it without deleting its article file.
+Existing article files contain their own title, date, excerpt, tags, and content.
+Category options are derived from published articles, so new categories work
+without renderer changes. Article content uses the existing Markdown format;
+the cheat sheet is at the top of writeups.js.
+writeupSettings.order: 'newest' sorts by date; 'manual' uses your array order.
+writeupSettings.postsPerPage: number of article previews per binder sheet.
+Keep this small (1 or 2) so the preview text stays readable.
+
+CONTACTS, IMAGES, AND SAFE FORMATTING
+
+Each contacts.js object uses label, left, and right; left/right are HTML strings.
+Edit href values to change destinations. For new-tab links include
+target="_blank" rel="noopener noreferrer". These are trusted local HTML fields,
+so only insert markup you control. Do not put scripts or untrusted HTML in them.
+
+Put assets under public/images/ (or another public/ folder). Refer to them as
+images/photo.jpg or /images/photo.jpg, not public/images/photo.jpg.
+Add meaningful alternative text for images.
+Use backticks for multi-line text. Inside a backtick string escape a literal
+backtick with a backslash and escape a literal ${ as \${.
+
+CHECK YOUR CHANGES
+
+npm run check:content    Checks data shapes, IDs, categories, and shelf settings.
+npm run test:portfolio   Tests content helpers and the existing reading mechanics.
+npm run build            Checks that the complete site compiles.
+
+Then preview the pages you changed on desktop and mobile. Empty arrays are
+allowed: the reader displays an empty state rather than failing.
+This change does not alter the separate Pokemon tracker or course project data.

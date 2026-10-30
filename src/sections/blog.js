@@ -1,22 +1,25 @@
 import hljs from 'highlight.js';
 import 'highlight.js/styles/atom-one-dark.css';
-import { blogPosts } from './blog-posts.js';
+import { blogPosts, writeupSettings } from '../content/writeups.js';
+import { getVolumeHeading } from '../utils/library-state.js';
 import { trackBlogView } from '../utils/analytics.js';
+import { mountPublication, escapePublicationText as escapeText } from '../utils/publication.js';
 
 export function initBlog() {
   const blog = document.getElementById('blog');
   if (!blog) return;
-  const categories = ['All', 'LeetCode', 'TryHackMe', 'HackTheBox' , 'Tools', 'Games', 'Design'];
-  const difficulties = ['All', 'Easy', 'Medium', 'Hard', 'Challenge', 'Extreme'];
-  const POSTS_PER_PAGE = 9;
-  let currentPage = 1;
+  const visiblePosts = blogPosts.filter(post => !post.hidden);
+  const categories = ['All', ...new Set(visiblePosts.map(post => post.category).filter(Boolean))];
+  const difficulties = ['All', ...new Set(['Easy', 'Medium', 'Hard', 'Challenge', 'Extreme', ...visiblePosts.map(post => post.difficulty).filter(Boolean)])];
   let currentFilter = 'all';
   let currentDifficulty = 'all';
   
   // Sort blog posts by date (most recent first)
-  const sortedPosts = [...blogPosts].sort((a, b) => new Date(b.date) - new Date(a.date));
+  const sortedPosts = [...visiblePosts];
+  if (writeupSettings.order === 'newest') sortedPosts.sort((a, b) => new Date(b.date) - new Date(a.date));
+  const postsPerPage = Math.max(1, Math.floor(Number(writeupSettings.postsPerPage) || 2));
 
-  // Helper to get stars for difficulty (moved up for use in renderBlogCards)
+  // Helper to get stars for difficulty
   function getDifficultyStars(difficulty) {
     const diff = difficulty.toLowerCase();
     if (diff === 'easy') return '★';
@@ -25,90 +28,6 @@ export function initBlog() {
     if (diff === 'challenge') return '★★★★';
     if (diff === 'extreme') return '★★★★★';
     return '';
-  }
-
-  // Render blog cards for the current page and filter
-  function renderBlogCards(posts, page = 1) {
-    const startIndex = (page - 1) * POSTS_PER_PAGE;
-    const endIndex = startIndex + POSTS_PER_PAGE;
-    const paginatedPosts = posts.slice(startIndex, endIndex);
-
-    if (paginatedPosts.length === 0) {
-      return `
-        <div class="blog-empty">
-          <p>🚧 No writeups found. Check back later!</p>
-        </div>
-      `;
-    }
-
-    return paginatedPosts.map(post => `
-      <article class="blog-card" data-category="${post.category.toLowerCase()}" data-id="${post.id}">
-        <div class="blog-card-header">
-          <span class="blog-category ${post.category.toLowerCase()}">${post.category}</span>
-          <span class="blog-difficulty ${post.difficulty.toLowerCase()}"><span class="difficulty-stars">${getDifficultyStars(post.difficulty)}</span> ${post.difficulty}</span>
-        </div>
-        <h3 class="blog-title">${post.title}</h3>
-        <p class="blog-excerpt">${post.excerpt}</p>
-        <div class="blog-tags">
-          ${post.tags.map(tag => `<span class="blog-tag">${tag}</span>`).join('')}
-        </div>
-        <div class="blog-footer">
-          <span class="blog-date">${new Date(post.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
-          <button class="blog-read-more" data-id="${post.id}">Read More →</button>
-        </div>
-      </article>
-    `).join('');
-  }
-
-  // Render pagination controls
-  function renderPagination(totalPosts, currentPage = 1) {
-    const totalPages = Math.ceil(totalPosts / POSTS_PER_PAGE);
-    
-    if (totalPages <= 1) return '';
-
-    let paginationHTML = '<div class="blog-pagination">';
-    
-    // Previous button
-    paginationHTML += `<button class="pagination-btn pagination-prev ${currentPage === 1 ? 'disabled' : ''}" data-page="${currentPage - 1}" ${currentPage === 1 ? 'disabled' : ''}>← Prev</button>`;
-    
-    // Page numbers
-    paginationHTML += '<div class="pagination-numbers">';
-    
-    // Logic for showing page numbers with ellipsis
-    const maxVisiblePages = 5;
-    let startPage = Math.max(1, currentPage - Math.floor(maxVisiblePages / 2));
-    let endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
-    
-    if (endPage - startPage + 1 < maxVisiblePages) {
-      startPage = Math.max(1, endPage - maxVisiblePages + 1);
-    }
-
-    if (startPage > 1) {
-      paginationHTML += `<button class="pagination-btn pagination-num" data-page="1">1</button>`;
-      if (startPage > 2) {
-        paginationHTML += `<span class="pagination-ellipsis">...</span>`;
-      }
-    }
-
-    for (let i = startPage; i <= endPage; i++) {
-      paginationHTML += `<button class="pagination-btn pagination-num ${i === currentPage ? 'active' : ''}" data-page="${i}">${i}</button>`;
-    }
-
-    if (endPage < totalPages) {
-      if (endPage < totalPages - 1) {
-        paginationHTML += `<span class="pagination-ellipsis">...</span>`;
-      }
-      paginationHTML += `<button class="pagination-btn pagination-num" data-page="${totalPages}">${totalPages}</button>`;
-    }
-
-    paginationHTML += '</div>';
-    
-    // Next button
-    paginationHTML += `<button class="pagination-btn pagination-next ${currentPage === totalPages ? 'disabled' : ''}" data-page="${currentPage + 1}" ${currentPage === totalPages ? 'disabled' : ''}>Next →</button>`;
-    
-    paginationHTML += '</div>';
-    
-    return paginationHTML;
   }
 
   function createDropdownMarkup(label, options, type, activeValue) {
@@ -181,19 +100,12 @@ export function initBlog() {
 
   blog.innerHTML = `
     <div class="container">
-      <h2 class="section-title">Writeups</h2>
       <div class="blog-filters-container">
         <div class="blog-dropdown-row">
           ${createDropdownMarkup('Category', categories, 'category', currentFilter)}
           ${createDropdownMarkup('Difficulty', difficulties, 'difficulty', currentDifficulty)}
         </div>
       </div>
-
-      <div class="blog-grid">
-        ${renderBlogCards(sortedPosts, currentPage)}
-      </div>
-
-      ${renderPagination(sortedPosts.length, currentPage)}
 
       <!-- Modal for full writeup -->
       <div class="blog-modal" id="blog-modal">
@@ -1005,50 +917,35 @@ export function initBlog() {
     });
   }
 
-  // Update the blog grid and pagination
+  // Keep filter DOM nodes (and their listeners) when rebuilding the binder.
   function updateBlogView() {
-    const filteredPosts = getFilteredPosts();
-    const blogGrid = blog.querySelector('.blog-grid');
-    const paginationContainer = blog.querySelector('.blog-pagination');
-    const totalPages = Math.max(1, Math.ceil(filteredPosts.length / POSTS_PER_PAGE));
-
-    currentPage = Math.min(Math.max(currentPage, 1), totalPages);
-    
-    // Update blog cards
-    blogGrid.innerHTML = renderBlogCards(filteredPosts, currentPage);
-    
-    // Update pagination
-    const newPaginationHTML = renderPagination(filteredPosts.length, currentPage);
-    if (paginationContainer) {
-      paginationContainer.outerHTML = newPaginationHTML;
-    } else if (newPaginationHTML) {
-      blogGrid.insertAdjacentHTML('afterend', newPaginationHTML);
-    }
-
-    // Re-attach event listeners for read more buttons
-    attachReadMoreListeners();
-    
-    // Re-attach pagination listeners
-    attachPaginationListeners();
-
-    // Keep dropdown labels and active states in sync after filtering
-    syncDropdownState();
-  }
-
-  // Attach pagination event listeners
-  function attachPaginationListeners() {
-    const paginationBtns = blog.querySelectorAll('.pagination-btn:not(.disabled)');
-    paginationBtns.forEach(btn => {
-      btn.addEventListener('click', () => {
-        const page = parseInt(btn.dataset.page);
-        if (page !== currentPage) {
-          currentPage = page;
-          updateBlogView();
-          // Smooth scroll to top of blog section
-          blog.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        }
+    const filtered = getFilteredPosts();
+    const toolbar = blog.querySelector('.blog-filters-container');
+    const host = blog.querySelector('.publication-mount') || blog.querySelector(':scope > .container');
+    const wasInside = blog.getBoundingClientRect().top < 0 && blog.getBoundingClientRect().bottom > window.innerHeight;
+    host.className = 'publication-mount';
+    const entries = [];
+    // Two previews per sheet; full articles remain in the existing reader.
+    for (let index = 0; index < filtered.length; index += postsPerPage) {
+      const posts = filtered.slice(index, index + postsPerPage);
+      entries.push({
+        label: posts.map(post => post.title).join(' / '),
+        html: posts.map(post => `<article class="publication-writeup">
+          <div class="publication-writeup-meta"><span>${escapeText(post.category)}</span><span>${escapeText(post.difficulty)}</span><time datetime="${escapeText(post.date)}">${new Date(post.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</time></div>
+          <h3>${escapeText(post.title)}</h3>
+          <p>${escapeText(post.excerpt)}</p>
+          <div class="publication-tags">${post.tags.map(tag => `<span>${escapeText(tag)}</span>`).join('')}</div>
+          <button type="button" class="blog-read-more" data-id="${escapeText(post.id)}">Read full write-up →</button>
+        </article>`).join('')
       });
+    }
+    const publication = mountPublication(blog, {
+      host, toolbar, ...getVolumeHeading('blog'),
+      kind: 'binder', entries
     });
+    attachReadMoreListeners();
+    syncDropdownState();
+    if (wasInside) publication.goTo(0, true);
   }
 
   // Simple markdown parser for writeups - Line-by-line approach
@@ -1557,7 +1454,7 @@ export function initBlog() {
 
   // Store blog posts data for modal access
   const postsMap = {};
-  blogPosts.forEach(post => {
+  visiblePosts.forEach(post => {
     postsMap[post.id] = post;
   });
 
@@ -1641,11 +1538,6 @@ export function initBlog() {
     });
   }
 
-  // Initial attachment of read more listeners
-  attachReadMoreListeners();
-
-  // Initial attachment of pagination listeners
-  attachPaginationListeners();
 
   // Dropdown functionality
   blog.querySelectorAll('.blog-dropdown-trigger').forEach(trigger => {
@@ -1681,7 +1573,6 @@ export function initBlog() {
         currentDifficulty = value;
       }
 
-      currentPage = 1;
       closeDropdowns();
       syncDropdownState();
       updateBlogView();
@@ -1765,4 +1656,5 @@ export function initBlog() {
       document.body.style.overflow = '';
     }
   });
+  updateBlogView();
 }
