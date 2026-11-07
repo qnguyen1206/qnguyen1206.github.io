@@ -57,10 +57,9 @@
 .publication-stage :is(a, button, select):focus-visible { outline: 2px solid #68a6d0; outline-offset: 3px; }
 .publication-flip { position: absolute; left: 50%; top: 0; width: 50%; height: 100%; z-index: 4; transform-origin: left center; transform-style: preserve-3d; pointer-events: none; }
 .publication-flip[hidden] { display: none; }
-.publication-strip { position: absolute; left: 0; top: 0; height: 100%; width: var(--publication-strip-width); transform-origin: left center; transform-style: preserve-3d; }
-.publication-strip-face { position: absolute; inset: 0; width: calc(100% + .5px); overflow: hidden; backface-visibility: hidden; transform-origin: calc(var(--publication-strip-width) / 2) center; transform: translateZ(.1px); }
-.publication-strip-back { transform: rotateY(180deg) translateZ(.1px); }
-.publication-strip-face .publication-panel { position: absolute; top: 0; height: 100%; }
+.publication-leaf-face { position: absolute; inset: 0; overflow: hidden; backface-visibility: hidden; transform: translateZ(.1px); }
+.publication-leaf-back { transform: rotateY(180deg) translateZ(.1px); }
+.publication-leaf-face .publication-panel { position: absolute; inset: 0; width: 100%; height: 100%; }
 .publication-spread[data-transition="outgoing"] .publication-panel--right,
 .publication-spread[data-transition="incoming"] .publication-panel--left { visibility: hidden; }
 .publication-cover--binder .publication-spread { display: block; background: #fff; }

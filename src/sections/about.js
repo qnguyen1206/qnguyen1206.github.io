@@ -1,5 +1,4 @@
 import '../styles/about-book.css';
-import { getPageBend } from '../utils/book-turn.js';
 import { paginateBlocks, splitRichBlock } from '../utils/book-pagination.js';
 import { readingOffset, readingScroller, readingScrollTop, scrollReadingTo } from '../utils/library-state.js';
 
@@ -53,7 +52,6 @@ export function initAbout() {
   const next = about.querySelector('.about-book-next');
   const status = about.querySelector('.about-book-status');
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
-  const stripCount = 16;
   const clamp = value => Math.max(0, Math.min(1, value));
   let spreads = [];
   let leaves = [];
@@ -61,7 +59,6 @@ export function initAbout() {
   let currentSpread = -1;
   let frame = 0;
   let layoutFrame = 0;
-  let cachedLeaf = null;
   let layoutKey = '';
   let fontsVersion = 0;
 
@@ -70,32 +67,6 @@ export function initAbout() {
     template.innerHTML = chapter.text;
     return [...template.content.children].map(node => node.outerHTML);
   });
-
-  function buildFlexibleSurface(leaf) {
-    const front = leaf.querySelector('.about-book-face--front .about-book-page');
-    const back = leaf.querySelector('.about-book-face--back .about-book-page');
-    const sheet = document.createElement('div');
-    sheet.className = 'about-book-flex';
-    sheet.setAttribute('aria-hidden', 'true');
-    sheet.inert = true;
-    const strips = Array.from({ length: stripCount }, (_, index) => {
-      const strip = document.createElement('div');
-      strip.className = 'about-book-strip';
-      [front, back].forEach((page, side) => {
-        const face = document.createElement('div');
-        face.className = `about-book-strip-face about-book-strip-face--${side ? 'back' : 'front'}`;
-        const copy = page.cloneNode(true);
-        copy.removeAttribute('data-spread');
-        face.style.setProperty('--slice-index', side ? stripCount - index - 1 : index);
-        face.append(copy);
-        strip.append(face);
-      });
-      sheet.append(strip);
-      return strip;
-    });
-    leaf.append(sheet);
-    return { sheet, strips };
-  }
 
   function plainText(html) {
     const template = document.createElement('template');
@@ -145,7 +116,6 @@ export function initAbout() {
     }
 
     spreads = newSpreads;
-    cachedLeaf = null;
     layoutKey = key;
     book.innerHTML = `<div class="about-book-base about-book-base--left">${pageHTML(spreads[0], 0, 'left')}</div>
       <div class="about-book-base about-book-base--right">${pageHTML(spreads.at(-1), spreads.length - 1, 'right')}</div>
@@ -154,11 +124,7 @@ export function initAbout() {
         <div class="about-book-face about-book-face--back">${pageHTML(spreads[i + 1], i + 1, 'left')}</div>
       </div>`).join('')}`;
     pages = [...book.querySelectorAll('[data-spread]')];
-    leaves = [...book.querySelectorAll('.about-book-leaf')].map(leaf => {
-      leaf.style.setProperty('--page-width', width + 'px');
-      leaf.style.setProperty('--strip-width', width / stripCount + 'px');
-      return { leaf, width, flex: null };
-    });
+    leaves = [...book.querySelectorAll('.about-book-leaf')].map(leaf => ({ leaf }));
     // One scroll segment per spread; adding continuation pages adds page turns.
     const travel = Math.max(480, stage.clientHeight * 1.2) * Math.max(1, spreads.length - 1);
     about.style.setProperty('--about-book-height', stage.clientHeight + travel + 'px');
@@ -178,7 +144,7 @@ export function initAbout() {
   }
 
   function queueLayout() {
-    if (!layoutFrame) layoutFrame = requestAnimationFrame(layout);
+    if (!about.hidden && !layoutFrame) layoutFrame = requestAnimationFrame(layout);
   }
 
   function render() {
@@ -197,23 +163,12 @@ export function initAbout() {
       if (item.lastTurn === turn) return;
       item.lastTurn = turn;
       const bending = turn > 0 && turn < 1;
-      const shape = bending ? getPageBend(turn, item.width, stripCount) : { rotation: -180 * turn };
+      // Turn the existing two-sided leaf. No duplicated image/text strips and
+      // only one transform to update while a page is moving.
+      const rotation = -180 * turn * turn * (3 - 2 * turn);
       item.leaf.classList.toggle('is-turning', bending);
-      item.leaf.style.transform = `rotateY(${shape.rotation}deg)`;
+      item.leaf.style.transform = `rotateY(${rotation}deg)`;
       item.leaf.style.zIndex = turn === 1 ? i + 1 : leaves.length - i + 2;
-      if (bending) {
-        // Cache one sheet for immediate reverse scrolling, with bounded memory.
-        if (cachedLeaf !== item) {
-          if (cachedLeaf?.flex) { cachedLeaf.flex.sheet.remove(); cachedLeaf.flex = null; }
-          cachedLeaf = item;
-        }
-        if (!item.flex) item.flex = buildFlexibleSurface(item.leaf);
-        item.flex.strips.forEach((strip, index) => {
-          const part = shape.strips[index];
-          strip.style.transform = `translate3d(${part.x}px, 0, ${part.z}px) rotateY(${part.angle}deg)`;
-        });
-      }
-      item.leaf.style.setProperty('--turn-shade', Math.sin(turn * Math.PI) * .12);
     });
     if (selected === currentSpread) return;
     if (currentSpread >= 0 && pages.some(page => Number(page.dataset.spread) === currentSpread && page.contains(document.activeElement))) {
@@ -251,6 +206,12 @@ export function initAbout() {
   readingScroller(about).addEventListener('scroll', scheduleRender, { passive: true });
   window.addEventListener('resize', queueLayout);
   about.addEventListener('library:activate', queueLayout);
+  about.addEventListener('library:deactivate', () => {
+    cancelAnimationFrame(frame);
+    cancelAnimationFrame(layoutFrame);
+    frame = layoutFrame = 0;
+    leaves.forEach(({ leaf }) => leaf.classList.remove('is-turning'));
+  });
   const observer = new ResizeObserver(queueLayout);
   observer.observe(book);
   observer.observe(stage);

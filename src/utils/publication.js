@@ -1,7 +1,6 @@
 import '../styles/publication.css';
 import '../styles/experience-binder.css';
 import { createBinderTimeline, getBinderFrame, getBinderTear } from './binder-scroll.js';
-import { getPageBend } from './book-turn.js';
 import { readingOffset, readingScroller, readingScrollTop, scrollReadingTo } from './library-state.js';
 import { createPageWindow } from './page-window.js';
 import { createPageFitter } from './page-fit.js';
@@ -30,7 +29,7 @@ export function mountPublication(section, { host = section, title, subtitle, kin
           ${!isBook ? '<div class="experience-paper-holes" aria-hidden="true"><i></i><i></i><i></i></div>' : ''}
           ${isBook ? ['left', 'right'].map((side, page) => `<div class="publication-panel publication-panel--${side}"><div class="publication-content">${entry[side] || ''}</div><span class="publication-folio" aria-hidden="true">${String(index * 2 + page + 1).padStart(2, '0')}</span></div>`).join('') : `<div class="publication-panel"><div class="publication-content">${entry.html}</div><span class="publication-folio" aria-hidden="true">${index + 1} / ${items.length}</span></div>`}
         </article>`).join('')}
-        ${isBook ? '<div class="publication-flip" aria-hidden="true" inert></div>' : '<div class="experience-binder-ring-fronts" aria-hidden="true"><i></i><i></i><i></i></div>'}
+        ${isBook ? '<div class="publication-flip" aria-hidden="true" inert hidden></div>' : '<div class="experience-binder-ring-fronts" aria-hidden="true"><i></i><i></i><i></i></div>'}
       </div>${!isBook ? '</div>' : ''}
     </div>
     <nav class="publication-controls" aria-label="${escapePublicationText(title)} pages">
@@ -59,10 +58,7 @@ export function mountPublication(section, { host = section, title, subtitle, kin
   let frame = 0;
   let layoutFrame = 0;
   let flipIndex = -1;
-  let strips = [];
-  let pageWidth = 0;
   let exitDistance = 0;
-  const stripCount = 16;
   const pageWindow = createPageWindow();
   let lastRenderKey = '';
   let lastLayoutKey = '';
@@ -73,28 +69,32 @@ export function mountPublication(section, { host = section, title, subtitle, kin
     if (flipIndex === index) return;
     flipIndex = index;
     flip.replaceChildren();
+    // One two-sided leaf, not 16 copies of each rich page. Only its parent
+    // transform changes while scrolling; the fitted content remains intact.
     const sources = [spreads[index].querySelector('.publication-panel--right'), spreads[index + 1].querySelector('.publication-panel--left')];
-    strips = Array.from({ length: stripCount }, (_, slice) => {
-      const strip = document.createElement('div');
-      strip.className = 'publication-strip';
-      sources.forEach((source, side) => {
-        const face = document.createElement('div');
-        face.className = `publication-strip-face ${side ? 'publication-strip-back' : ''}`;
-        const copy = source.cloneNode(true);
-        copy.querySelectorAll('[id]').forEach(node => node.removeAttribute('id'));
-        copy.style.width = `${pageWidth}px`;
-        copy.style.left = `${-(side ? stripCount - 1 - slice : slice) * pageWidth / stripCount}px`;
-        face.append(copy);
-        strip.append(face);
-      });
-      flip.append(strip);
-      return strip;
+    sources.forEach((source, side) => {
+      const face = document.createElement('div');
+      face.className = `publication-leaf-face${side ? ' publication-leaf-back' : ''}`;
+      const copy = source.cloneNode(true);
+      copy.removeAttribute('id');
+      copy.querySelectorAll('[id]').forEach(node => node.removeAttribute('id'));
+      face.append(copy);
+      flip.append(face);
     });
+  }
+
+  function clearFlip() {
+    if (!flip) return;
+    flip.hidden = true;
+    if (flipIndex < 0) return;
+    flipIndex = -1;
+    flip.replaceChildren();
+    flip.style.transform = '';
   }
 
   function render() {
     frame = 0;
-    if (section.hidden || !timeline.length) return;
+    if (section.hidden || !timeline.length) { clearFlip(); return; }
     const state = getBinderFrame(readingOffset(section) - section.getBoundingClientRect().top, timeline);
     const renderKey = [state.index, state.selected, state.turn, reduced.matches, compact.matches].join(':');
     if (renderKey === lastRenderKey) return;
@@ -134,16 +134,11 @@ export function mountPublication(section, { host = section, title, subtitle, kin
       }
     });
     if (flip) {
-      flip.hidden = !desktopFlip;
       if (desktopFlip) {
         prepareFlip(state.index);
-        const bend = getPageBend(state.turn, pageWidth, stripCount);
-        flip.style.transform = `rotateY(${bend.rotation}deg)`;
-        strips.forEach((strip, i) => {
-          const part = bend.strips[i];
-          strip.style.transform = `translate3d(${part.x}px, 0, ${part.z}px) rotateY(${part.angle}deg)`;
-        });
-      }
+        flip.hidden = false;
+        flip.style.transform = `rotateY(${-180 * tear.pull}deg)`;
+      } else clearFlip();
     }
   }
   function queueRender() { if (!section.hidden && !frame) frame = requestAnimationFrame(render); }
@@ -154,7 +149,7 @@ export function mountPublication(section, { host = section, title, subtitle, kin
   }
   function layout() {
     layoutFrame = 0;
-    if (section.hidden) return;
+    if (section.hidden || !surface.clientWidth || !surface.clientHeight) return;
     const layoutKey = [surface.clientWidth, surface.clientHeight, stage.offsetHeight, window.innerWidth, contentVersion].join(':');
     if (layoutKey === lastLayoutKey) { queueRender(); return; }
     lastLayoutKey = layoutKey;
@@ -166,9 +161,7 @@ export function mountPublication(section, { host = section, title, subtitle, kin
     timeline = createBinderTimeline(items.length, stage.offsetHeight);
     section.style.setProperty('--publication-height', `${stage.offsetHeight + timeline.at(-1).end}px`);
     pageFitter.clear();
-    pageWidth = surface.clientWidth / 2;
-    if (flip) flip.style.setProperty('--publication-strip-width', `${pageWidth / stripCount}px`);
-    flipIndex = -1;
+    clearFlip();
     exitDistance = window.innerWidth - surface.getBoundingClientRect().left + 48;
     if (inside && old) {
       const entry = timeline[old.index];
@@ -176,13 +169,21 @@ export function mountPublication(section, { host = section, title, subtitle, kin
     }
     queueRender();
   }
-  function queueLayout() { if (!layoutFrame) layoutFrame = requestAnimationFrame(layout); }
+  function queueLayout() { if (!section.hidden && !layoutFrame) layoutFrame = requestAnimationFrame(layout); }
+  function deactivate() {
+    cancelAnimationFrame(frame);
+    cancelAnimationFrame(layoutFrame);
+    frame = layoutFrame = 0;
+    lastRenderKey = '';
+    clearFlip();
+  }
   previous.addEventListener('click', () => goTo(selected - 1), options);
   next.addEventListener('click', () => goTo(selected + 1), options);
   select.addEventListener('change', () => goTo(Number(select.value)), options);
   readingScroller(section).addEventListener('scroll', queueRender, { ...options, passive: true });
   window.addEventListener('resize', queueLayout, options);
   section.addEventListener('library:activate', queueLayout, options);
+  section.addEventListener('library:deactivate', deactivate, options);
   reduced.addEventListener('change', queueRender, options);
   compact.addEventListener('change', queueLayout, options);
   const observer = new ResizeObserver(queueLayout);
@@ -193,7 +194,7 @@ export function mountPublication(section, { host = section, title, subtitle, kin
   document.fonts?.ready.then(() => { if (!abort.signal.aborted) contentLoaded(); });
   document.fonts?.addEventListener('loadingdone', contentLoaded, options);
   layout();
-  const api = { goTo, destroy() { abort.abort(); observer.disconnect(); cancelAnimationFrame(frame); cancelAnimationFrame(layoutFrame); } };
+  const api = { goTo, destroy() { abort.abort(); observer.disconnect(); deactivate(); } };
   instances.set(section, api);
   return api;
 }

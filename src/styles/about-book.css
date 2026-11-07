@@ -33,60 +33,6 @@
 .about-book-leaf.is-turning { will-change: transform; }
 .about-book-face { position: absolute; inset: 0; backface-visibility: hidden; -webkit-backface-visibility: hidden; }
 .about-book-face--back { transform: rotateY(180deg); }
-.about-book-face::after { content: ''; position: absolute; inset: 0; background: #25182e; opacity: var(--turn-shade, 0); pointer-events: none; }
-.about-book-flex {
-  display: none;
-  position: absolute;
-  inset: 0;
-  transform-style: preserve-3d;
-  pointer-events: none;
-}
-.about-book-leaf.is-turning > .about-book-face { opacity: 0; pointer-events: none; }
-.about-book-leaf.is-turning .about-book-flex { display: block; }
-.about-book-strip {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: var(--strip-width);
-  height: 100%;
-  transform-origin: left center;
-  transform-style: preserve-3d;
-}
-.about-book-strip-face {
-  position: absolute;
-  inset: 0;
-  /* Subpixel overlap prevents hairline cracks between curved strips. */
-  width: calc(100% + .5px);
-  /* Keep the reverse face aligned to the actual strip, not the overlap. */
-  transform-origin: calc(var(--strip-width) / 2) center;
-  overflow: hidden;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-}
-.about-book-strip-face--front { transform: translateZ(.1px); }
-.about-book-strip-face--back { transform: rotateY(180deg) translateZ(.1px); }
-.about-book-strip:last-child .about-book-strip-face--front,
-.about-book-strip:first-child .about-book-strip-face--back { width: 100%; }
-.about-book-strip-face .about-book-page {
-  position: absolute;
-  top: 0;
-  left: calc(-1 * var(--slice-index) * var(--strip-width));
-  width: var(--page-width);
-  max-width: none;
-}
-.about-book-strip-face::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: calc(-1 * var(--slice-index) * var(--strip-width));
-  width: var(--page-width);
-  pointer-events: none;
-  /* One continuous light field for the entire sheet. Restarting a gradient
-     or changing opacity per strip produces visible vertical bands. */
-  background: linear-gradient(90deg, #322039b3 0%, #32203933 35%, #ffffff66 65%, #32203980 100%);
-  opacity: var(--turn-shade, 0);
-}
 .about-book-page {
   position: relative;
   display: flex;

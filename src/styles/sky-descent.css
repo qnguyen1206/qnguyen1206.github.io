@@ -51,6 +51,8 @@ html.sky-descent-active, .sky-descent-active body { scroll-snap-type: none; }
   contain: paint;
 }
 .sky-descent-atmosphere[hidden] { display: none; }
+.library-reading .sky-descent-atmosphere { display: none; }
+.library-reading .hero-text { will-change: auto; }
 .sky-cloud-bank {
   position: absolute;
   top: 0;

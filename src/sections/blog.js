@@ -1,9 +1,12 @@
-import hljs from 'highlight.js';
+import hljs from 'highlight.js/lib/common';
 import 'highlight.js/styles/atom-one-dark.css';
 import { blogPosts, writeupSettings } from '../content/writeups.js';
 import { getVolumeHeading } from '../utils/library-state.js';
 import { trackBlogView } from '../utils/analytics.js';
 import { mountPublication, escapePublicationText as escapeText } from '../utils/publication.js';
+import { mountProjectPaper } from '../utils/project-paper.js';
+import '../styles/project-paper.css';
+import '../styles/writeup-paper.css';
 
 export function initBlog() {
   const blog = document.getElementById('blog');
@@ -108,16 +111,10 @@ export function initBlog() {
       </div>
 
       <!-- Modal for full writeup -->
-      <div class="blog-modal" id="blog-modal">
-        <div class="blog-modal-content">
-          <button class="blog-modal-close">&times;</button>
-          <div class="blog-modal-header">
-            <span class="blog-category" id="modal-category"></span>
-            <span class="blog-difficulty" id="modal-difficulty"></span>
-          </div>
-          <h2 class="blog-modal-title" id="modal-title"></h2>
-          <div class="blog-modal-tags" id="modal-tags"></div>
-          <div class="blog-modal-body" id="modal-body"></div>
+      <div class="blog-modal project-paper-modal writeup-paper-modal" id="blog-modal" role="dialog" aria-modal="true" aria-label="Write-up" aria-hidden="true">
+        <div class="blog-modal-content project-modal-content">
+          <button type="button" class="blog-modal-close project-modal-close" aria-label="Close write-up">&times;</button>
+          <div class="project-modal-body"></div>
         </div>
       </div>
     </div>
@@ -1464,77 +1461,69 @@ export function initBlog() {
   // Move modal to body to prevent positioning issues from parent transforms
   document.body.appendChild(modal);
   
-  const modalContent = modal.querySelector('.blog-modal-content');
-  const modalTitle = modal.querySelector('#modal-title');
-  const modalCategory = modal.querySelector('#modal-category');
-  const modalDifficulty = modal.querySelector('#modal-difficulty');
-  const modalTags = modal.querySelector('#modal-tags');
-  const modalBody = modal.querySelector('#modal-body');
+  const modalBody = modal.querySelector('.project-modal-body');
   const modalClose = modal.querySelector('.blog-modal-close');
+  let paperStack = null;
+  let opener = null;
+  let previousBodyOverflow = '';
+  let previousRootOverflow = '';
+
+  function closeModal() {
+    if (!modal.classList.contains('active')) return;
+    paperStack?.destroy();
+    paperStack = null;
+    modal.classList.remove('active');
+    modal.setAttribute('aria-hidden', 'true');
+    document.documentElement.style.overflow = previousRootOverflow;
+    document.body.style.overflow = previousBodyOverflow;
+    if (opener?.isConnected) opener.focus({ preventScroll: true });
+  }
+
+  function openPost(postId) {
+    const post = postsMap[postId];
+    if (!post) return;
+
+    // Project links and the write-up volume use the same fresh paper stack.
+    window.closeProjectModal?.();
+    if (!modal.classList.contains('active')) {
+      opener = document.activeElement;
+      previousBodyOverflow = document.body.style.overflow;
+      previousRootOverflow = document.documentElement.style.overflow;
+    }
+    paperStack?.destroy();
+
+    const category = post.category || 'Write-up';
+    const difficulty = post.difficulty || '';
+    modalBody.innerHTML = `
+      <div class="blog-modal-header">
+        <span class="blog-category ${escapeText(category.toLowerCase())}">${escapeText(category)}</span>
+        ${difficulty ? `<span class="blog-difficulty ${escapeText(difficulty.toLowerCase())}"><span class="difficulty-stars">${getDifficultyStars(difficulty)}</span> ${escapeText(difficulty)}</span>` : ''}
+      </div>
+      <h2 class="blog-modal-title">${escapeText(post.title)}</h2>
+      <div class="blog-modal-tags">${(post.tags || []).map(tag => `<span class="blog-tag">${escapeText(tag)}</span>`).join('')}</div>
+      <div class="blog-modal-body">${parseMarkdown(post.content)}</div>
+    `;
+    modalBody.querySelectorAll('pre code').forEach(block => {
+      // Unlabelled terminal dumps are plain text, not a request to try every
+      // language grammar. That detection used to block opening long articles.
+      const language = block.className.match(/\blanguage-([\w-]+)/)?.[1];
+      if (language && hljs.getLanguage(language)) hljs.highlightElement(block);
+      else block.classList.add('hljs');
+    });
+
+    modal.classList.add('active');
+    modal.removeAttribute('aria-hidden');
+    modal.setAttribute('aria-label', `${post.title} — write-up`);
+    document.documentElement.style.overflow = 'hidden';
+    document.body.style.overflow = 'hidden';
+    paperStack = mountProjectPaper(modal, { onClose: closeModal, label: 'Write-up' });
+    trackBlogView(post.id, post.title, post.category);
+  }
 
   // Function to attach read more listeners (reusable for pagination updates)
   function attachReadMoreListeners() {
     blog.querySelectorAll('.blog-read-more').forEach(btn => {
-      btn.addEventListener('click', () => {
-        const postId = btn.dataset.id;
-        const post = postsMap[postId];
-        
-        if (post) {
-          modalTitle.textContent = post.title;
-          modalCategory.textContent = post.category;
-          modalCategory.className = `blog-category ${post.category.toLowerCase()}`;
-          modalDifficulty.innerHTML = `<span class="difficulty-stars">${getDifficultyStars(post.difficulty)}</span> ${post.difficulty}`;
-          modalDifficulty.className = `blog-difficulty ${post.difficulty.toLowerCase()}`;
-          modalTags.innerHTML = post.tags.map(tag => `<span class="blog-tag">${tag}</span>`).join('');
-          modalBody.innerHTML = parseMarkdown(post.content);
-          
-          // Apply syntax highlighting to all code blocks
-          modalBody.querySelectorAll('pre code').forEach((block) => {
-            hljs.highlightElement(block);
-          });
-          
-          // Initialize solution tabs click handlers
-          modalBody.querySelectorAll('.solution-tab-btn').forEach(tabBtn => {
-            tabBtn.addEventListener('click', () => {
-              const tabId = tabBtn.dataset.tab;
-              const tabsContainer = tabBtn.closest('.solution-tabs');
-              
-              // Update active button
-              tabsContainer.querySelectorAll('.solution-tab-btn').forEach(btn => btn.classList.remove('active'));
-              tabBtn.classList.add('active');
-              
-              // Update active content
-              tabsContainer.querySelectorAll('.solution-tab-content').forEach(content => content.classList.remove('active'));
-              tabsContainer.querySelector(`[data-tab-content="${tabId}"]`).classList.add('active');
-            });
-          });
-
-          // Initialize markdown dropdown tab groups click handlers
-          modalBody.querySelectorAll('.markdown-tab-btn').forEach(tabBtn => {
-            tabBtn.addEventListener('click', () => {
-              const tabId = tabBtn.dataset.markdownTab;
-              const tabsContainer = tabBtn.closest('.markdown-tabs');
-
-              tabsContainer.querySelectorAll('.markdown-tab-btn').forEach(btn => btn.classList.remove('active'));
-              tabBtn.classList.add('active');
-
-              tabsContainer.querySelectorAll('.markdown-tab-panel').forEach(content => content.classList.remove('active'));
-              tabsContainer.querySelector(`[data-markdown-tab-content="${tabId}"]`).classList.add('active');
-            });
-          });
-          
-          modal.classList.add('active');
-          // Reset scroll positions to top
-          modal.scrollTop = 0;
-          modalContent.scrollTop = 0;
-          modalBody.scrollTop = 0;
-          document.documentElement.style.overflow = 'hidden';
-          document.body.style.overflow = 'hidden';
-
-          // Track blog view in Google Analytics
-          trackBlogView(post.id, post.title, post.category);
-        }
-      });
+      btn.addEventListener('click', () => openPost(btn.dataset.id));
     });
   }
 
@@ -1592,69 +1581,14 @@ export function initBlog() {
   });
 
   // Expose function to open blog post from anywhere (e.g., projects section)
-  window.openBlogPost = function(postId) {
-    // Close project modal first if it's open
-    if (typeof window.closeProjectModal === 'function') {
-      window.closeProjectModal();
-    }
-    
-    const post = postsMap[postId];
-    if (post) {
-      modalTitle.textContent = post.title;
-      modalCategory.textContent = post.category;
-      modalCategory.className = `blog-category ${post.category.toLowerCase()}`;
-      modalDifficulty.innerHTML = `<span class="difficulty-stars">${getDifficultyStars(post.difficulty)}</span> ${post.difficulty}`;
-      modalDifficulty.className = `blog-difficulty ${post.difficulty.toLowerCase()}`;
-      modalTags.innerHTML = post.tags.map(tag => `<span class="blog-tag">${tag}</span>`).join('');
-      modalBody.innerHTML = parseMarkdown(post.content);
-      
-      // Apply syntax highlighting to all code blocks
-      modalBody.querySelectorAll('pre code').forEach((block) => {
-        hljs.highlightElement(block);
-      });
-      
-      modal.classList.add('active');
-      modal.scrollTop = 0;
-      modalContent.scrollTop = 0;
-      modalBody.scrollTop = 0;
-      document.documentElement.style.overflow = 'hidden';
-      document.body.style.overflow = 'hidden';
+  window.openBlogPost = openPost;
+  window.closeBlogModal = closeModal;
 
-      // Track blog view in Google Analytics
-      trackBlogView(post.id, post.title, post.category);
-    }
-  };
-
-  // Close modal
-  modalClose.addEventListener('click', () => {
-    modal.classList.remove('active');
-    modal.scrollTop = 0;
-    modalContent.scrollTop = 0;
-    modalBody.scrollTop = 0;
-    document.documentElement.style.overflow = '';
-    document.body.style.overflow = '';
-  });
+  modalClose.addEventListener('click', closeModal);
 
   modal.addEventListener('click', (e) => {
-    if (e.target === modal) {
-      modal.classList.remove('active');
-      modal.scrollTop = 0;
-      modalContent.scrollTop = 0;
-      modalBody.scrollTop = 0;
-      document.documentElement.style.overflow = '';
-      document.body.style.overflow = '';
-    }
+    if (e.target === modal) closeModal();
   });
 
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && modal.classList.contains('active')) {
-      modal.classList.remove('active');
-      modal.scrollTop = 0;
-      modalContent.scrollTop = 0;
-      modalBody.scrollTop = 0;
-      document.documentElement.style.overflow = '';
-      document.body.style.overflow = '';
-    }
-  });
   updateBlogView();
 }

@@ -17,7 +17,7 @@ function decorativeBooks(seed, count = 12) {
   // Small parallel clusters lean into one shared gap, like the reference.
   const start = 2 + seed % 2;
   const size = 3 + seed % 2;
-  const angle = seed % 3 === 0 ? -8 : 7 + seed % 4;
+  const angle = seed % 3 === 0 ? -6 : 5 + seed % 3;
   return books.slice(0, start).join('') +
     `<span class="library-book-cluster" data-lean="${angle}" style="--cluster-size:${size}" aria-hidden="true">${books.slice(start, start + size).join('')}</span>` +
     books.slice(start + size).join('');
@@ -44,12 +44,12 @@ export function initLibrary({ initVolume = () => {} } = {}) {
     <div class="library-cabinet" aria-label="Portfolio bookshelf">
       <div class="library-cabinet-crown" aria-hidden="true"></div>
       ${rows.map((row, index) => `<div class="library-shelf-row ${row ? 'library-shelf-row--featured' : 'library-shelf-row--decorative'}">
-        <div class="library-volumes">${Array.from({ length: 3 }, (_, bay) => `<div class="library-shelf-bay">
+        <div class="library-volumes">${Array.from({ length: 3 }, (_, bay) => `<div class="library-shelf-bay"><div class="library-spine-row">
           ${decorativeBooks(index * 3 + bay, row ? 8 : 22)}
           ${row?.[bay] ? volumeButton(row[bay]) : ''}
           ${row ? decorativeBooks(index * 9 + bay + 4, 8) : ''}
+          </div><div class="library-shelf-edge" aria-hidden="true"></div>
         </div>`).join('')}</div>
-        <div class="library-shelf-edge" aria-hidden="true"></div>
       </div>`).join('')}
       <div class="library-cabinet-foot" aria-hidden="true"></div>
     </div>
@@ -112,7 +112,7 @@ export function initLibrary({ initVolume = () => {} } = {}) {
   }
   function clearOverlays() {
     window.closeProjectModal?.();
-    document.querySelector('.blog-modal.active')?.classList.remove('active');
+    window.closeBlogModal?.();
     document.body.style.overflow = '';
     root.style.overflow = '';
   }
@@ -120,6 +120,7 @@ export function initLibrary({ initVolume = () => {} } = {}) {
     const volume = libraryVolumes.find(item => item.id === id);
     if (!volume || (active === id && phase !== 'closing')) return;
     const request = beginNavigation();
+    const fromShelf = !active;
     phase = 'opening';
     shelfFocus = source || shelfButton(id);
     // Start a tiny compositor animation in the click task itself. Never wait
@@ -137,6 +138,7 @@ export function initLibrary({ initVolume = () => {} } = {}) {
       shelfScroll = window.scrollY;
     }
     clearOverlays();
+    if (active && active !== id) document.getElementById(active).dispatchEvent(new Event('library:deactivate'));
     active = id;
     hero.inert = true;
     library.inert = true;
@@ -150,7 +152,8 @@ export function initLibrary({ initVolume = () => {} } = {}) {
     scroller.scrollTo({ top: 0, behavior: 'instant' });
     if (route) writeRoute(id);
     phase = 'opening';
-    const animated = canAnimate();
+    // A toolbar selection is a direct reader change, not another shelf pickup.
+    const animated = fromShelf && canAnimate();
     if (animated) { reader.style.opacity = '0'; transitioning(true); }
     // Activate only this reader, not the shelf, Home, and every hidden volume.
     document.getElementById(id).dispatchEvent(new Event('library:activate'));
@@ -222,6 +225,7 @@ export function initLibrary({ initVolume = () => {} } = {}) {
     }
     if (request !== navigation) return;
     phase = '';
+    document.getElementById(id).dispatchEvent(new Event('library:deactivate'));
     active = null;
     reader.hidden = true;
     sections.forEach(section => { section.hidden = true; section.inert = true; });

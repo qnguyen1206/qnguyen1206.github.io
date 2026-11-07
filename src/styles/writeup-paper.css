@@ -1,0 +1,194 @@
+/* Library write-ups share the project paper pile. The Classic reader is separate. */
+.blog-modal.writeup-paper-modal {
+  z-index: 9999;
+  padding: 24px;
+  overflow: hidden;
+  background: #15130ee6;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+
+.writeup-paper-modal.project-paper-modal .blog-modal-content {
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+}
+
+.writeup-paper-modal .blog-modal-close { z-index: 10; }
+
+.writeup-paper-modal .blog-modal-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 14px;
+}
+
+.writeup-paper-modal .blog-modal-title {
+  color: var(--paper-ink);
+  font: 500 clamp(27px, 4vw, 42px)/1.18 Georgia, 'Times New Roman', serif;
+  margin: 0 0 18px;
+}
+
+.writeup-paper-modal .blog-modal-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 24px;
+  padding: 0 0 20px;
+  border-bottom: 3px double var(--paper-rule);
+}
+
+.writeup-paper-modal.project-paper-modal :is(.blog-category, .blog-difficulty, .blog-tag) {
+  padding: 4px 7px;
+  border: 1px solid #a68b66;
+  border-radius: 2px;
+  background: #dfcba74d;
+  color: #63462e;
+  font: 12px/1.4 Georgia, serif;
+}
+
+.writeup-paper-modal .difficulty-stars { color: #8a581d; }
+.writeup-paper-modal .project-paper-copy { color: var(--paper-ink); }
+
+.writeup-paper-modal .project-paper-copy :is(h2, h3, h4, h5, h6) {
+  color: var(--paper-ink);
+  font-family: Georgia, 'Times New Roman', serif;
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 0 0 12px;
+}
+
+.writeup-paper-modal .project-paper-copy h2 { font-size: 26px; }
+.writeup-paper-modal .project-paper-copy h3 { font-size: 22px; }
+.writeup-paper-modal .project-paper-copy :is(h4, h5, h6) { font-size: 19px; }
+.writeup-paper-modal .project-paper-copy .blog-modal-title { font-size: clamp(27px, 4vw, 42px); font-weight: 500; }
+.writeup-paper-modal .project-paper-copy p { margin: 0 0 14px; }
+.writeup-paper-modal .project-paper-copy :is(ul, ol) { padding-left: 1.4em; margin: 0 0 10px; }
+.writeup-paper-modal .project-paper-copy ul { list-style: disc; }
+.writeup-paper-modal .project-paper-copy ol { list-style: decimal; }
+.writeup-paper-modal .project-paper-copy li { display: list-item; margin: 0; }
+.writeup-paper-modal .project-paper-copy li::marker { color: #795a36; }
+.writeup-paper-modal .project-paper-copy strong { color: #38251b; }
+.writeup-paper-modal .project-paper-copy hr { border: 0; border-top: 1px solid var(--paper-rule); margin: 18px 0; }
+.writeup-paper-modal .project-paper-copy blockquote { border-left: 3px solid #ad8b60; padding-left: 16px; margin: 0 0 18px; color: var(--paper-muted); }
+
+.writeup-paper-modal .project-paper-copy pre {
+  max-width: 100%;
+  overflow: visible;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: normal;
+  margin: 0 0 16px;
+  padding: 12px;
+  background: #e6d7bb;
+  border: 1px solid #b69b7580;
+  border-radius: 2px;
+}
+
+.writeup-paper-modal .project-paper-copy code {
+  color: #603a27;
+  background: #dfcba74d;
+  font: 13px/1.6 'Fira Code', Consolas, monospace;
+  overflow-wrap: anywhere;
+}
+
+.writeup-paper-modal .project-paper-copy pre code {
+  display: block;
+  padding: 0;
+  overflow: visible;
+  white-space: pre-wrap;
+  word-break: normal;
+  color: #332d27;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+/* Keep highlighting legible on paper, including code continued on another sheet. */
+.writeup-paper-modal .project-paper-copy .hljs { color: #332d27; background: transparent; }
+.writeup-paper-modal .project-paper-copy :is(.hljs-comment, .hljs-quote) { color: #6c6958; }
+.writeup-paper-modal .project-paper-copy :is(.hljs-keyword, .hljs-selector-tag, .hljs-literal, .hljs-doctag) { color: #713a65; }
+.writeup-paper-modal .project-paper-copy :is(.hljs-string, .hljs-regexp, .hljs-addition) { color: #3b5c30; }
+.writeup-paper-modal .project-paper-copy :is(.hljs-number, .hljs-attr, .hljs-symbol, .hljs-bullet, .hljs-variable, .hljs-template-variable, .hljs-type) { color: #805022; }
+.writeup-paper-modal .project-paper-copy :is(.hljs-title, .hljs-section, .hljs-built_in, .hljs-name, .hljs-tag, .hljs-selector-id, .hljs-selector-class) { color: #315b69; }
+.writeup-paper-modal .project-paper-copy :is(.hljs-deletion, .hljs-link, .hljs-meta) { color: #8b3931; }
+
+.writeup-paper-modal .project-paper-copy table {
+  width: 100%;
+  max-width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-radius: 0;
+  overflow: visible;
+  margin: 0 0 16px;
+  background: transparent;
+  font: 12px/1.5 Georgia, serif;
+}
+
+.writeup-paper-modal .project-paper-copy :is(th, td) {
+  padding: 7px 8px;
+  vertical-align: top;
+  border: 1px solid #b69b75;
+  color: var(--paper-ink);
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+.writeup-paper-modal .project-paper-copy th {
+  background: #decaa5;
+  font-size: 11px;
+  letter-spacing: .03em;
+}
+
+.writeup-paper-modal .project-paper-copy tbody tr:nth-child(even) { background: #dfcba733; }
+.writeup-paper-modal .project-paper-copy tbody tr:hover { background: #dfcba74d; }
+.writeup-paper-modal .project-paper-copy :is(th, td) :is(p, ul, ol) { margin-bottom: 6px; }
+.writeup-paper-modal .project-paper-copy :is(th, td) code { font-size: 11px; }
+
+/* Wide tables read one record at a time, with the column name above each value. */
+.writeup-paper-modal .project-paper-copy .paper-table-record {
+  padding: 12px 14px;
+  margin: 0 0 16px;
+  border-block: 1px solid #b69b75;
+  background: #dfcba733;
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+.writeup-paper-modal .project-paper-copy .paper-table-field {
+  min-width: 0;
+  margin: 0 0 12px;
+  overflow-wrap: anywhere;
+}
+
+.writeup-paper-modal .project-paper-copy .paper-table-field:last-child { margin-bottom: 0; }
+.writeup-paper-modal .project-paper-copy .paper-table-field > strong {
+  display: block;
+  margin-bottom: 3px;
+  color: #62452c;
+  font: 600 13px/1.5 Georgia, serif;
+}
+
+.writeup-paper-modal .project-paper-copy .paper-table-field > div {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.writeup-paper-modal .project-paper-copy .paper-table-field :is(p, ul, ol) { margin-bottom: 6px; }
+.writeup-paper-modal .project-paper-copy .paper-table-field code { font-size: 12px; }
+.writeup-paper-modal .project-paper-copy img { max-width: 100%; height: auto; }
+.writeup-paper-modal .project-paper-media .project-paper-copy img { height: 100%; }
+
+@media (max-width: 600px) {
+  .blog-modal.writeup-paper-modal { padding: 12px; }
+  .writeup-paper-modal .project-paper-copy h2 { font-size: 23px; }
+  .writeup-paper-modal .project-paper-copy h3 { font-size: 20px; }
+  .writeup-paper-modal .project-paper-copy pre { padding: 8px; }
+  .writeup-paper-modal .project-paper-copy table { font-size: 11px; }
+  .writeup-paper-modal .project-paper-copy :is(th, td) { padding: 5px; }
+  .writeup-paper-modal .project-paper-copy .paper-table-record { padding: 10px; }
+}

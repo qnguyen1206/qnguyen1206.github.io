@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { paginateBlocks } from './book-pagination.js';
+import { paginateBlocks, splitRichBlock } from './book-pagination.js';
 
 function splitWords(block, fits) {
   const words = block.split(' ');
@@ -57,4 +57,84 @@ test('reflow creates more pages on narrow screens and preserves all original con
   assert.ok(small.length > large.length);
   assert.equal(small.flat().join(' '), blocks.join(' '));
   assert.equal(large.flat().join(' '), blocks.join(' '));
+});
+
+// Minimal DOM ranges for a plain text node: exercise the real splitter's UTF-16
+// offsets without adding a browser dependency to the existing Node test suite.
+function textDocument() {
+  function element(tag, text = '') {
+    return {
+      textContent: text,
+      get outerHTML() { return `<${tag}>${this.textContent}</${tag}>`; },
+      cloneNode() { return element(tag); },
+      append(fragment) { this.textContent += fragment.textContent; },
+    };
+  }
+  return {
+    createElement() {
+      return {
+        content: {},
+        set innerHTML(html) {
+          const [, tag, text] = html.match(/^<(\w+)>([\s\S]*)<\/\1>$/);
+          this.content.firstElementChild = element(tag, text);
+        },
+      };
+    },
+    createTreeWalker(block) {
+      let visited = false;
+      return { currentNode: block, nextNode() { if (visited) return false; visited = true; return true; } };
+    },
+    createRange() {
+      let block, start = 0, end;
+      return {
+        selectNodeContents(node) { block = node; end = node.textContent.length; },
+        setStart(node, offset) { start = offset; },
+        setEnd(node, offset) { end = offset; },
+        cloneContents() { return { textContent: block.textContent.slice(start, end) }; },
+      };
+    },
+  };
+}
+
+const textOf = html => html.replace(/^<\w+>|<\/\w+>$/g, '');
+
+test('an oversized unbroken code token paginates without losing text or adding blank sheets', () => {
+  const token = 'a'.repeat(1507);
+  const document = textDocument();
+  const pages = paginateBlocks([`<pre>${token}</pre>`], blocks =>
+    blocks.map(textOf).join('').length <= 80,
+  (html, fits) => splitRichBlock(html, fits, document));
+  assert.equal(pages.flat().map(textOf).join(''), token);
+  assert.equal(pages.length, Math.ceil(token.length / 80));
+  assert.ok(pages.every(page => page.length && textOf(page[0]).length > 0 && textOf(page[0]).length <= 80));
+});
+
+test('character fallback never cuts surrogate pairs, combining accents or joined emoji', () => {
+  const clusters = ['\u{1F469}\u200D\u{1F4BB}', 'e\u0301', '\u{1F680}', '\u{1F1FA}\u{1F1F8}'];
+  const text = clusters.join('');
+  let pending = `<p>${text}</p>`;
+  const parts = [];
+  for (const cluster of clusters) {
+    const result = splitRichBlock(pending, html => textOf(html).length <= cluster.length, textDocument());
+    assert.equal(textOf(result.head), cluster);
+    parts.push(textOf(result.head));
+    pending = result.tail;
+  }
+  assert.equal(parts.join(''), text);
+  assert.equal(pending, '');
+});
+
+test('character fallback preserves trailing whitespace and reports a genuinely unfit character', () => {
+  const result = splitRichBlock('<pre>abcdef \n</pre>', html => textOf(html).length <= 6, textDocument());
+  assert.equal(textOf(result.head) + textOf(result.tail), 'abcdef \n');
+  assert.equal(result.tail, '<pre> \n</pre>');
+  assert.deepEqual(splitRichBlock('<p>\u{1F680}</p>', () => false, textDocument()),
+    { head: '', tail: '<p>\u{1F680}</p>' });
+});
+
+test('fitting word and sentence boundaries still take precedence over character fallback', () => {
+  assert.deepEqual(splitRichBlock('<p>alpha beta gamma</p>', html => textOf(html).length <= 8, textDocument()),
+    { head: '<p>alpha </p>', tail: '<p>beta gamma</p>' });
+  assert.deepEqual(splitRichBlock('<p>First. Next word longer</p>', html => textOf(html).length <= 12, textDocument()),
+    { head: '<p>First. </p>', tail: '<p>Next word longer</p>' });
 });

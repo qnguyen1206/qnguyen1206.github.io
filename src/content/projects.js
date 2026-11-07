@@ -25,7 +25,7 @@
    *     { type: 'video', src: 'path.mp4', poster: 'preview.jpg', alt: 'Video description', caption: 'Optional caption' }
    *   ]
    *   Videos: use H.264/AAC MP4 for broad browser support. Optional mimeType defaults to video/mp4.
-   *   Videos appear full-width above Project Details; images remain in the gallery below.
+   *   Details and write-ups fill the opening sheets; each video and image has its own page after them.
    *   Media paths are relative to public/. Videos play on demand and pause when the modal closes.
    *   writeup: `...`               → Detailed writeup of what you did
    * 

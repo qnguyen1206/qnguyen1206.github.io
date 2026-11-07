@@ -62,7 +62,7 @@ export function splitRichBlock(html, fits, document) {
     const head = block.cloneNode(false), tail = block.cloneNode(false);
     head.append(headRange.cloneContents());
     tail.append(tailRange.cloneContents());
-    return { head: head.outerHTML, tail: tail.textContent.trim() ? tail.outerHTML : '' };
+    return { head: head.outerHTML, tail: tail.textContent.length ? tail.outerHTML : '' };
   }
   let low = 0, high = boundaries.length;
   while (low < high) {
@@ -70,7 +70,23 @@ export function splitRichBlock(html, fits, document) {
     if (fits(cut(boundaries[middle - 1]).head)) low = middle;
     else high = middle - 1;
   }
-  if (!low) return { head: '', tail: html };
+  if (!low) {
+    // A URL, code token or word may be taller than a sheet after wrapping.
+    // Split that token without cutting a surrogate pair or grapheme cluster.
+    const token = text.slice(0, boundaries[0] ?? text.length);
+    let offset = 0;
+    const characters = typeof Intl.Segmenter === 'function'
+      ? [...new Intl.Segmenter(undefined, { granularity: 'grapheme' }).segment(token)]
+        .map(part => part.index + part.segment.length)
+      : [...token].map(character => (offset += character.length));
+    let left = 0, right = characters.length;
+    while (left < right) {
+      const middle = Math.ceil((left + right) / 2);
+      if (fits(cut(characters[middle - 1]).head)) left = middle;
+      else right = middle - 1;
+    }
+    return left ? cut(characters[left - 1]) : { head: '', tail: html };
+  }
   // Prefer a sentence break when it doesn't leave most of the page empty.
   const best = boundaries[low - 1];
   const sentence = boundaries.slice(0, low).filter(offset =>

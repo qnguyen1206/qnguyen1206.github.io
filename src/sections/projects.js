@@ -2,6 +2,7 @@ import { projectsData } from '../content/projects.js';
 import { getVolumeHeading } from '../utils/library-state.js';
 import { trackProjectView } from '../utils/analytics.js';
 import { mountPublication, escapePublicationText as escapeText } from '../utils/publication.js';
+import { mountProjectPaper } from '../utils/project-paper.js';
 import '../styles/project-paper.css';
 
 export function initProjects() {
@@ -12,7 +13,7 @@ export function initProjects() {
 
 
   const modalHTML = `
-    <div class="project-modal-overlay project-paper-modal" id="projectModal">
+    <div class="project-modal-overlay project-paper-modal" id="projectModal" role="dialog" aria-modal="true" aria-label="Project details" aria-hidden="true">
       <div class="project-modal-content">
         <button type="button" class="project-modal-close" id="closeModal" aria-label="Close project details">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -42,10 +43,16 @@ export function initProjects() {
   const modal = document.getElementById('projectModal');
   const modalBody = document.getElementById('modalBody');
   const closeModalBtn = document.getElementById('closeModal');
+  let paperStack;
+  let opener;
+  let previousOverflow = '';
 
   function openModal(projectId) {
     const project = projectsData.find(p => p.id === projectId);
     if (!project) return;
+    paperStack?.destroy();
+    opener = document.activeElement;
+    if (!modal.classList.contains('active')) previousOverflow = document.body.style.overflow;
 
     const statusInfo = project.status ? statusTags[project.status.toLowerCase()] : null;
     const statusBadgeHTML = statusInfo ? `
@@ -196,41 +203,35 @@ export function initProjects() {
         </div>
       </div>
 
-      ${videosHTML}
-
       ${caseStudyHTML}
 
       ${writeupHTML}
 
       ${linksHTML}
 
+      ${videosHTML}
+
       ${imagesHTML}
     `;
 
-    modalBody.querySelectorAll('video').forEach(video => {
-      const showFallback = () => {
-        video.parentElement.querySelector('.project-video-fallback').hidden = false;
-      };
-      video.addEventListener('error', showFallback);
-      video.querySelector('source').addEventListener('error', showFallback);
-      video.addEventListener('play', () => {
-        modalBody.querySelectorAll('video').forEach(other => {
-          if (other !== video) other.pause();
-        });
-      });
-    });
-
     modal.classList.add('active');
+    modal.removeAttribute('aria-hidden');
+    modal.setAttribute('aria-label', `${project.title} — project details`);
     document.body.style.overflow = 'hidden';
+    paperStack = mountProjectPaper(modal, { onClose: closeModal });
 
     // Track project view in Google Analytics
     trackProjectView(project.id, project.title);
   }
 
   function closeModal() {
-    modalBody.querySelectorAll('video').forEach(video => video.pause());
+    if (!modal.classList.contains('active')) return;
+    paperStack?.destroy();
+    paperStack = null;
     modal.classList.remove('active');
-    document.body.style.overflow = '';
+    modal.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = previousOverflow;
+    if (opener?.isConnected) opener.focus({ preventScroll: true });
   }
 
   // Expose closeModal on window so blog links can close project modal first
@@ -244,13 +245,7 @@ export function initProjects() {
     }
   });
 
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && modal.classList.contains('active')) {
-      closeModal();
-    }
-  });
-
-  // Each project is a spread; the existing detailed modal remains unchanged.
+  // Each project is a spread; its details open as a separate stack of sheets.
   mountPublication(projects, {
     ...getVolumeHeading('projects'),
     entries: visibleProjects.map(project => ({
