@@ -2,6 +2,7 @@ import { projectsData } from '../content/projects.js';
 import { getVolumeHeading } from '../utils/library-state.js';
 import { trackProjectView } from '../utils/analytics.js';
 import { mountPublication, escapePublicationText as escapeText } from '../utils/publication.js';
+import '../styles/project-paper.css';
 
 export function initProjects() {
   const projects = document.getElementById('projects');
@@ -11,9 +12,9 @@ export function initProjects() {
 
 
   const modalHTML = `
-    <div class="project-modal-overlay" id="projectModal">
+    <div class="project-modal-overlay project-paper-modal" id="projectModal">
       <div class="project-modal-content">
-        <button class="project-modal-close" id="closeModal">
+        <button type="button" class="project-modal-close" id="closeModal" aria-label="Close project details">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <line x1="18" y1="6" x2="6" y2="18"></line>
             <line x1="6" y1="6" x2="18" y2="18"></line>
@@ -48,7 +49,7 @@ export function initProjects() {
 
     const statusInfo = project.status ? statusTags[project.status.toLowerCase()] : null;
     const statusBadgeHTML = statusInfo ? `
-      <span class="project-status-badge" style="background-color: ${statusInfo.color};">
+      <span class="project-status-badge">
         ${statusInfo.label}
       </span>
     ` : '';
@@ -132,7 +133,7 @@ export function initProjects() {
       
       caseStudyHTML += `
         <div class="modal-section">
-          <h4>📋 Project Details</h4>
+          <h4>Project Details</h4>
           ${descriptionHTML}
           <ul class="project-meta-list">
             ${project.role ? `<li><strong>Role:</strong> ${project.role}</li>` : ''}
@@ -178,7 +179,7 @@ export function initProjects() {
 
       writeupHTML = `
         <div class="modal-section writeup-section">
-          <h4>📝 What I Did</h4>
+          <h4>What I Did</h4>
           <div class="writeup-content">
             ${parseWriteup(project.writeup)}
           </div>

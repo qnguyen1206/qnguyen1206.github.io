@@ -1,0 +1,93 @@
+/* Library-only detail sheet. Classic keeps its original modal and stylesheet. */
+.project-paper-modal {
+  --paper-ink: #35291f;
+  --paper-muted: #695440;
+  --paper-rule: #b69b75;
+  --primary: #74421f; /* Also colors the existing inline write-up links. */
+  padding: 24px;
+  background: #15130ee6;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  animation: project-paper-appear 140ms ease-out;
+}
+.project-paper-modal .project-modal-content {
+  width: 100%;
+  max-width: 960px;
+  max-height: calc(100vh - 48px);
+  max-height: calc(100dvh - 48px);
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: #977956 #e6d5b3;
+  border: 1px solid #b49a74;
+  border-radius: 3px 7px 7px 3px;
+  color: var(--paper-ink);
+  font: 17px/1.8 Georgia, 'Times New Roman', serif;
+  background:
+    linear-gradient(90deg, #8b64352b, transparent 4%, transparent 96%, #8b64351c),
+    radial-gradient(ellipse at 100% 0, #c6a16b38, transparent 48%),
+    radial-gradient(ellipse at 0 100%, #c6a16b2e, transparent 50%),
+    #f3e7cb;
+  box-shadow: inset 0 0 0 6px #e6d5b380, inset 0 0 0 7px #b69b7540,
+    3px 3px 0 #cfbb97, 6px 6px 0 #8d795d, 0 18px 45px #0007;
+  animation: none;
+  overflow-wrap: anywhere;
+}
+.project-paper-modal .project-modal-content::-webkit-scrollbar-track { background: #e6d5b3; }
+.project-paper-modal .project-modal-content::-webkit-scrollbar-thumb { background: #977956; box-shadow: none; }
+.project-paper-modal .project-modal-content::-webkit-scrollbar-thumb:hover { background: #745c40; }
+.project-paper-modal .project-modal-body { padding: 48px clamp(22px, 6vw, 68px) 40px; }
+.project-paper-modal .project-modal-close {
+  position: sticky;
+  top: 12px;
+  margin: 12px 12px -52px auto;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--paper-rule);
+  border-radius: 50%;
+  color: var(--paper-ink);
+  background: #f3e7cb;
+  box-shadow: 0 2px 5px #49342120;
+  transition: background-color 120ms;
+}
+.project-paper-modal .project-modal-close:hover { background: #e5d3ae; color: var(--paper-ink); transform: none; }
+.project-paper-modal .modal-header { padding: 0 36px 20px 0; border-bottom: 3px double var(--paper-rule); margin-bottom: 28px; }
+.project-paper-modal .modal-title { font: 500 clamp(27px, 4vw, 42px)/1.18 Georgia, 'Times New Roman', serif; color: var(--paper-ink); margin-bottom: 16px; }
+.project-paper-modal .modal-category { color: var(--paper-muted); font: small-caps 16px/1.4 Georgia, serif; letter-spacing: .06em; }
+.project-paper-modal .project-status-badge { background: transparent; color: #75432b; border: 1px solid #997350; border-radius: 2px; box-shadow: none; font: 600 11px/1.3 system-ui, sans-serif; text-transform: uppercase; letter-spacing: .1em; padding: 5px 8px; }
+.project-paper-modal .modal-section { background: none; border: 0; border-bottom: 1px solid var(--paper-rule); border-radius: 0; padding: 0 0 24px; margin-bottom: 28px; }
+.project-paper-modal .modal-section h4,
+.project-paper-modal .writeup-content h5 { color: var(--paper-ink); font-family: Georgia, serif; font-size: 21px; line-height: 1.4; }
+.project-paper-modal .writeup-content h5 { font-size: 18px; }
+.project-paper-modal .modal-section p { margin-bottom: 14px; }
+.project-paper-modal .writeup-content { color: var(--paper-ink); line-height: 1.8; }
+.project-paper-modal .writeup-content strong { color: #38251b; }
+.project-paper-modal .writeup-content em { color: var(--paper-muted); }
+.project-paper-modal .writeup-content li::marker { color: #795a36; }
+.project-paper-modal .writeup-content code { color: #623d22; background: #dfcba74d; border: 1px solid #b69b7550; border-radius: 2px; }
+.project-paper-modal .project-meta-list li { color: var(--paper-ink); font-size: 15px; border-color: #b69b7566; }
+.project-paper-modal .project-meta-list li strong { color: #62452c; }
+.project-paper-modal a { color: var(--primary); text-decoration: underline; text-underline-offset: 3px; }
+.project-paper-modal .project-modal-links { gap: 10px; }
+.project-paper-modal .project-modal-link { color: #51351f; background: #e7d5b2; border: 1px solid #a38760; border-radius: 3px; box-shadow: none; font: 600 13px/1.5 system-ui, sans-serif; text-decoration: none; transition: background-color 120ms; }
+.project-paper-modal .project-modal-link:hover { background: #dac39b; transform: none; box-shadow: none; }
+.project-paper-modal .project-modal-link svg { flex-shrink: 0; }
+.project-paper-modal :is(a, button, video):focus-visible { outline: 2px solid #74421f; outline-offset: 4px; }
+.project-paper-modal .project-image-item img,
+.project-paper-modal .project-video-item video { border: 6px solid #fbf4e4; border-radius: 2px; box-shadow: 0 2px 7px #49342126; transition: none; }
+.project-paper-modal .project-image-item img { cursor: default; }
+.project-paper-modal .project-image-item img:hover { transform: none; border-color: #fbf4e4; box-shadow: 0 2px 7px #49342126; }
+.project-paper-modal .project-image-caption,
+.project-paper-modal .project-video-fallback { color: var(--paper-muted); font-size: 14px; }
+.project-paper-modal .project-image-caption { font-style: italic; }
+@keyframes project-paper-appear { from { opacity: .9; } to { opacity: 1; } }
+@media (max-width: 600px) {
+  .project-paper-modal { padding: 12px; }
+  .project-paper-modal .project-modal-content { max-height: calc(100vh - 24px); max-height: calc(100dvh - 24px); font-size: 16px; }
+  .project-paper-modal .project-modal-body { padding: 44px 22px 28px; }
+  .project-paper-modal .project-images-masonry { column-count: 1; }
+  .project-paper-modal .project-meta-list li strong { min-width: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .project-paper-modal { animation: none; }
+  .project-paper-modal :is(.project-modal-close, .project-modal-link) { transition: none; }
+}

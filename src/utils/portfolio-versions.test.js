@@ -49,3 +49,21 @@ test('Classic imports resolve and do not depend on mutable Library layout/conten
   assert.match(read('src/classic/main.js'), /initAnimations\(\)/);
   assert.doesNotMatch(read('src/classic/main.js'), /initLibrary|initSkyDescent/);
 });
+
+test('aged-paper project details are enabled only in the Library portfolio', () => {
+  const library = read('src/sections/projects.js');
+  const classic = read('src/classic/sections/projects.js');
+  assert.match(library, /import '\.\.\/styles\/project-paper\.css'/);
+  assert.match(library, /project-modal-overlay project-paper-modal/);
+  assert.match(library, /aria-label="Close project details"/);
+  assert.doesNotMatch(classic, /project-paper/);
+  const css = read('src/styles/project-paper.css');
+  assert.match(css, /prefers-reduced-motion: reduce/);
+  assert.match(css, /100dvh - 24px/);
+  assert.match(css, /backdrop-filter: none/);
+  // The theme must not introduce a global rule that recolors other readers.
+  for (const line of css.split('\n').map(line => line.trim())) {
+    if (!line || line.startsWith('/*') || line.startsWith('@') || line === '}') continue;
+    if (line.includes('{')) assert.ok(line.startsWith('.project-paper-modal'), line);
+  }
+});
