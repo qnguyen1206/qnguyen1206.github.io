@@ -4,12 +4,13 @@
   "set_abbr": "EX",
   "set_released": "2002-09-15",
   "product_count": 168,
-  "data_modified": "2026-09-09T08:25:37-04:00",
-  "file_generated": "2026-09-09T08:31:42-04:00",
+  "data_modified": "2026-11-07T08:10:53-05:00",
+  "file_generated": "2026-11-07T08:31:53-05:00",
   "pricing_url": "/v1/3/sets/1375/pricing",
   "cards_url": "/v1/3/sets/1375/cards",
   "sealed_url": "/v1/3/sets/1375/sealed",
   "skus_url": "/v1/3/sets/1375/skus",
+  "product_detail_url": "/v1/3/sets/1375/product-detail",
   "products": [
     {
       "id": 138151,
@@ -32,7 +33,7 @@
     {
       "id": 451096,
       "name": "Expedition Theme Deck - \"Echo\"",
-      "clean_name": "Expedition Theme Deck - \"Echo\"",
+      "clean_name": "Expedition Theme Deck Echo",
       "number": null,
       "rarity": null,
       "ext_data": {
@@ -121,7 +122,7 @@
     {
       "id": 234504,
       "name": "Expedition Theme Deck - \"Electric Garden\"",
-      "clean_name": "Expedition Theme Deck - \"Electric Garden\"",
+      "clean_name": "Expedition Theme Deck Electric Garden",
       "number": null,
       "rarity": null,
       "ext_data": {
@@ -6410,115 +6411,6 @@
           "image_url": "https://cdn.tcgtracking.com/product/87766_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 87766,
-          "game_id": 5,
-          "category_id": 73,
-          "category_name": "Pokémon Singles",
-          "product_type": "single",
-          "group_id": 1375
-        }
-      ]
-    },
-    {
-      "id": 88015,
-      "name": "Pichu (58)",
-      "clean_name": "Pichu 58",
-      "number": "058/165",
-      "rarity": "Rare",
-      "ext_data": {
-        "Card Number / Rarity": "058/165 / Rare",
-        "Card Type / HP / Stage": "Lightning / 30 / Basic",
-        "Card Text": "<em>If your Active Pokémon is a Baby Pokémon and your opponent announces an attack, your opponent flips a coin (before doing anything else). If tails, your opponent's turn ends.</em>",
-        "Attack 1": "[L] Energy Patch\r\n<br>Take a basic Energy card attached to 1 of your Pokémon and attach it to another of your Pokémon.",
-        "Weakness / Resistance / Retreat Cost": " /  / 1",
-        "Artist": "Atsuko Nishida"
-      },
-      "image_url": "https://cdn.tcgtracking.com/product/88015_200w.jpg",
-      "image_count": 1,
-      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88015%2Fpokemon-expedition-pichu-58",
-      "manapool_url": null,
-      "scryfall_id": null,
-      "mtgjson_uuid": null,
-      "cardmarket_id": 274933,
-      "cardtrader_id": 118662,
-      "cardtrader": [
-        {
-          "id": 118662,
-          "name": "Pichu",
-          "match_type": "tcgplayer",
-          "match_confidence": 100,
-          "expansion": "Expedition Base Set",
-          "expansion_code": "ex",
-          "collector_number": "058",
-          "rarity": "Rare",
-          "finishes": [
-            "normal",
-            "foil"
-          ],
-          "languages": [
-            "en",
-            "fr",
-            "de",
-            "it"
-          ],
-          "properties": [
-            {
-              "name": "condition",
-              "type": "string",
-              "default_value": "Near Mint",
-              "possible_values": [
-                "Mint",
-                "Near Mint",
-                "Slightly Played",
-                "Moderately Played",
-                "Played",
-                "Poor"
-              ]
-            },
-            {
-              "name": "signed",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "altered",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "pokemon_language",
-              "type": "string",
-              "default_value": "en",
-              "possible_values": [
-                "en",
-                "fr",
-                "de",
-                "it"
-              ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            }
-          ],
-          "cardmarket_ids": [
-            274933
-          ],
-          "image_url": "https://cdn.tcgtracking.com/product/88015_200w.jpg",
-          "scryfall_id": null,
-          "tcg_player_id": 88015,
           "game_id": 5,
           "category_id": 73,
           "category_name": "Pokémon Singles",
@@ -18094,6 +17986,115 @@
           "image_url": "https://cdn.tcgtracking.com/product/90505_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 90505,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1375
+        }
+      ]
+    },
+    {
+      "id": 88015,
+      "name": "Pichu (58)",
+      "clean_name": "Pichu 58",
+      "number": "58/165",
+      "rarity": "Rare",
+      "ext_data": {
+        "Card Number / Rarity": "058/165 / Rare",
+        "Card Type / HP / Stage": "Lightning / 30 / Basic",
+        "Card Text": "<em>If your Active Pokémon is a Baby Pokémon and your opponent announces an attack, your opponent flips a coin (before doing anything else). If tails, your opponent's turn ends.</em>",
+        "Attack 1": "[L] Energy Patch\r\n<br>Take a basic Energy card attached to 1 of your Pokémon and attach it to another of your Pokémon.",
+        "Weakness / Resistance / Retreat Cost": " /  / 1",
+        "Artist": "Atsuko Nishida"
+      },
+      "image_url": "https://cdn.tcgtracking.com/product/88015_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88015%2Fpokemon-expedition-pichu-58",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 274933,
+      "cardtrader_id": 118662,
+      "cardtrader": [
+        {
+          "id": 118662,
+          "name": "Pichu",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Expedition Base Set",
+          "expansion_code": "ex",
+          "collector_number": "058",
+          "rarity": "Rare",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            274933
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/88015_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88015,
           "game_id": 5,
           "category_id": 73,
           "category_name": "Pokémon Singles",

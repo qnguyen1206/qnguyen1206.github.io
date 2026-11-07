@@ -4,17 +4,18 @@
   "set_abbr": "G1",
   "set_released": "2000-10-14",
   "product_count": 140,
-  "data_modified": "2026-10-09T06:25:40-04:00",
-  "file_generated": "2026-10-09T08:31:30-04:00",
+  "data_modified": "2026-11-07T08:10:53-05:00",
+  "file_generated": "2026-11-07T08:31:53-05:00",
   "pricing_url": "/v1/3/sets/1441/pricing",
   "cards_url": "/v1/3/sets/1441/cards",
   "sealed_url": "/v1/3/sets/1441/sealed",
   "skus_url": "/v1/3/sets/1441/skus",
+  "product_detail_url": "/v1/3/sets/1441/product-detail",
   "products": [
     {
       "id": 208707,
       "name": "Gym Heroes Booster Box [1st Edition]",
-      "clean_name": "Gym Heroes Booster Box [1st Edition]",
+      "clean_name": "Gym Heroes Booster Box 1st Edition",
       "number": null,
       "rarity": null,
       "ext_data": {
@@ -98,7 +99,7 @@
     {
       "id": 208708,
       "name": "Gym Heroes Booster Box [Unlimited Edition]",
-      "clean_name": "Gym Heroes Booster Box [Unlimited Edition]",
+      "clean_name": "Gym Heroes Booster Box Unlimited Edition",
       "number": null,
       "rarity": null,
       "ext_data": {
@@ -116,7 +117,7 @@
     {
       "id": 138137,
       "name": "Gym Heroes Booster Pack [1st Edition]",
-      "clean_name": "Gym Heroes Booster Pack [1st Edition]",
+      "clean_name": "Gym Heroes Booster Pack 1st Edition",
       "number": null,
       "rarity": null,
       "ext_data": {
@@ -191,7 +192,7 @@
     {
       "id": 138138,
       "name": "Gym Heroes Booster Pack [Unlimited Edition]",
-      "clean_name": "Gym Heroes Booster Pack [Unlimited Edition]",
+      "clean_name": "Gym Heroes Booster Pack Unlimited Edition",
       "number": null,
       "rarity": null,
       "ext_data": {
@@ -209,7 +210,7 @@
     {
       "id": 234502,
       "name": "Gym Heroes Theme Deck - \"Brock\"",
-      "clean_name": "Gym Heroes Theme Deck - \"Brock\"",
+      "clean_name": "Gym Heroes Theme Deck Brock",
       "number": null,
       "rarity": null,
       "ext_data": {
@@ -298,7 +299,7 @@
     {
       "id": 234503,
       "name": "Gym Heroes Theme Deck - \"Erika\"",
-      "clean_name": "Gym Heroes Theme Deck - \"Erika\"",
+      "clean_name": "Gym Heroes Theme Deck Erika",
       "number": null,
       "rarity": null,
       "ext_data": {
@@ -387,7 +388,7 @@
     {
       "id": 451095,
       "name": "Gym Heroes Theme Deck - \"Lt. Surge\"",
-      "clean_name": "Gym Heroes Theme Deck - \"Lt. Surge\"",
+      "clean_name": "Gym Heroes Theme Deck Lt Surge",
       "number": null,
       "rarity": null,
       "ext_data": {
@@ -476,7 +477,7 @@
     {
       "id": 234501,
       "name": "Gym Heroes Theme Deck - \"Misty\"",
-      "clean_name": "Gym Heroes Theme Deck - \"Misty\"",
+      "clean_name": "Gym Heroes Theme Deck Misty",
       "number": null,
       "rarity": null,
       "ext_data": {
@@ -11055,117 +11056,6 @@
       ]
     },
     {
-      "id": 88889,
-      "name": "Sabrina's Slowpoke",
-      "clean_name": "Sabrinas Slowpoke",
-      "number": "095/132",
-      "rarity": "Common",
-      "ext_data": {
-        "Card Number / Rarity": "095/132 / Common",
-        "Card Type / HP / Stage": "Psychic / 50 / Basic",
-        "Attack 1": "[1P] Lazy Attack (30)\r\n<br>Sabrina's Slowpoke is now Asleep <em>(after doing damage)</em>.",
-        "Weakness / Resistance / Retreat Cost": "P /  / 1",
-        "Artist": "Ken Sugimori"
-      },
-      "image_url": "https://cdn.tcgtracking.com/product/88889_200w.jpg",
-      "image_count": 1,
-      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88889%2Fpokemon-gym-heroes-sabrinas-slowpoke",
-      "manapool_url": null,
-      "scryfall_id": null,
-      "mtgjson_uuid": null,
-      "cardmarket_id": 274231,
-      "cardtrader_id": 120847,
-      "cardtrader": [
-        {
-          "id": 120847,
-          "name": "Sabrina's Slowpoke",
-          "match_type": "tcgplayer",
-          "match_confidence": 100,
-          "expansion": "Gym Heroes",
-          "expansion_code": "g1",
-          "collector_number": "095/132",
-          "rarity": "Common",
-          "finishes": [
-            "normal",
-            "foil"
-          ],
-          "languages": [
-            "en"
-          ],
-          "properties": [
-            {
-              "name": "condition",
-              "type": "string",
-              "default_value": "Near Mint",
-              "possible_values": [
-                "Mint",
-                "Near Mint",
-                "Slightly Played",
-                "Moderately Played",
-                "Played",
-                "Poor"
-              ]
-            },
-            {
-              "name": "signed",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "altered",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "first_edition",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            },
-            {
-              "name": "pokemon_language",
-              "type": "string",
-              "default_value": "en",
-              "possible_values": [
-                "en"
-              ]
-            },
-            {
-              "name": "pokemon_reverse",
-              "type": "boolean",
-              "default_value": "false",
-              "possible_values": [
-                true,
-                false
-              ]
-            }
-          ],
-          "cardmarket_ids": [
-            274231
-          ],
-          "image_url": "https://cdn.tcgtracking.com/product/88889_200w.jpg",
-          "scryfall_id": null,
-          "tcg_player_id": 88889,
-          "game_id": 5,
-          "category_id": 73,
-          "category_name": "Pokémon Singles",
-          "product_type": "single",
-          "group_id": 1441
-        }
-      ]
-    },
-    {
       "id": 88891,
       "name": "Sabrina's Venonat",
       "clean_name": "Sabrinas Venonat",
@@ -15223,6 +15113,117 @@
           "image_url": "https://cdn.tcgtracking.com/product/90503_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 90503,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1441
+        }
+      ]
+    },
+    {
+      "id": 88889,
+      "name": "Sabrina's Slowpoke",
+      "clean_name": "Sabrinas Slowpoke",
+      "number": "95/132",
+      "rarity": "Common",
+      "ext_data": {
+        "Card Number / Rarity": "095/132 / Common",
+        "Card Type / HP / Stage": "Psychic / 50 / Basic",
+        "Attack 1": "[1P] Lazy Attack (30)\r\n<br>Sabrina's Slowpoke is now Asleep <em>(after doing damage)</em>.",
+        "Weakness / Resistance / Retreat Cost": "P /  / 1",
+        "Artist": "Ken Sugimori"
+      },
+      "image_url": "https://cdn.tcgtracking.com/product/88889_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88889%2Fpokemon-gym-heroes-sabrinas-slowpoke",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": 274231,
+      "cardtrader_id": 120847,
+      "cardtrader": [
+        {
+          "id": 120847,
+          "name": "Sabrina's Slowpoke",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Gym Heroes",
+          "expansion_code": "g1",
+          "collector_number": "095/132",
+          "rarity": "Common",
+          "finishes": [
+            "normal",
+            "foil"
+          ],
+          "languages": [
+            "en"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "first_edition",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en"
+              ]
+            },
+            {
+              "name": "pokemon_reverse",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            274231
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/88889_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 88889,
           "game_id": 5,
           "category_id": 73,
           "category_name": "Pokémon Singles",
