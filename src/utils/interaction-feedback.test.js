@@ -10,7 +10,9 @@ test('pickup acknowledges the click synchronously without constructing a reader'
   } };
   const feedback = startPickupFeedback(source);
   assert.equal(calls.length, 1);
-  assert.equal(calls[0].frames[0].opacity, .78);
+  assert.ok(calls[0].frames.every(frame => !('opacity' in frame)), 'pickup must not flash the spine');
+  assert.equal(calls[0].frames.at(-1).transform, 'translate3d(0, -4px, 0)');
+  assert.equal(calls[0].options.duration, 300);
   assert.equal(calls[0].options.delay, undefined);
   assert.ok(calls[0].frames.every(frame => Object.keys(frame).every(key => ['transform', 'opacity'].includes(key))));
   feedback.cancel();

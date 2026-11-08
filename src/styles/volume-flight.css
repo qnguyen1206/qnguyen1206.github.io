@@ -1,7 +1,24 @@
 /* Transient, compositor-only motion. No cloned text pages, blur, or scroll loop. */
 .volume-flight-layer { position: fixed; inset: 0; z-index: 1100; overflow: hidden; background: #080a0b55; touch-action: none; }
 .volume-flight { position: absolute; top: 0; left: 0; transform-origin: left center; perspective: 4000px; color: var(--volume-ink); }
-.volume-flight--shelf { will-change: transform, opacity; }
+.volume-flight--shelf { perspective: 1800px; perspective-origin: 0 50%; will-change: opacity; }
+.volume-flight-solid { position: absolute; inset: 0; transform-style: preserve-3d; transform-origin: 0 50%; will-change: transform; }
+.volume-flight-solid > div { position: absolute; backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+.volume-flight-solid-front,
+.volume-flight-solid-back { inset: 0; border: 2px solid var(--volume-edge); border-radius: 2px 4px 4px 2px; background: var(--volume-cover); }
+.volume-flight-solid-front { display: grid; place-items: center; padding: 12%; transform: translateZ(calc(var(--book-depth) / 2)); background: linear-gradient(90deg, #0004, transparent 10%, #fff1 70%, #0002), var(--volume-cover); box-shadow: inset 4px 0 #0002; }
+.volume-flight-solid-front > span { max-width: 100%; font: 600 13px/1.3 Georgia, serif; text-align: center; border-block: 1px solid var(--volume-edge); padding: 14px 0; overflow-wrap: anywhere; }
+.volume-flight-solid-back { transform: rotateY(180deg) translateZ(calc(var(--book-depth) / 2)); }
+.volume-flight-solid-spine { top: 0; bottom: 0; left: calc(var(--book-depth) / -2); width: var(--book-depth); transform: rotateY(-90deg); display: flex; align-items: center; justify-content: center; padding: 12px 4px; border: 1px solid var(--volume-edge); border-radius: 3px; background: linear-gradient(90deg, #0005, #fff1 22%, transparent 55%, #0004), var(--volume-cover); }
+.volume-flight-solid-spine > span { writing-mode: vertical-rl; text-orientation: mixed; font: 500 13px/1.2 Georgia, serif; text-align: center; max-height: 100%; }
+.volume-flight-solid-foreedge { top: 3px; bottom: 3px; left: calc(100% - var(--book-depth) / 2); width: var(--book-depth); transform: rotateY(90deg); background: repeating-linear-gradient(90deg, #e9dfca 0 2px, #bcb09b 2px 3px); border: 3px solid var(--volume-cover); border-block-width: 0; }
+.volume-flight-solid-top,
+.volume-flight-solid-bottom { left: 0; width: 100%; height: var(--book-depth); border: 3px solid var(--volume-cover); background: repeating-linear-gradient(0deg, #eee4d0 0 2px, #bfb49e 2px 3px); }
+.volume-flight-solid-top { top: calc(var(--book-depth) / -2); transform: rotateX(90deg); }
+.volume-flight-solid-bottom { top: calc(100% - var(--book-depth) / 2); transform: rotateX(-90deg); }
+.volume-flight--binder .volume-flight-solid-spine { padding-bottom: 32px; }
+.volume-flight--binder .volume-flight-solid-spine > span { padding: 5px 3px; background: #e4e0ce; border: 1px solid #bcb9aa; color: #243337; font: 600 11px/1.2 var(--font-family); }
+.volume-flight--binder .volume-flight-solid-front > span { padding: 10px; background: #e4e0ce; border: 1px solid #bcb9aa; color: #243337; }
 .volume-flight--reader { will-change: opacity; }
 .volume-flight-paper { position: absolute; inset: 0; padding: 12%; border: 7px solid var(--volume-cover); border-radius: 3px 7px 7px 3px; background: #f3eee4; color: #6f6251; box-shadow: 3px 4px 0 #c9c2b3, 0 14px 35px #0005; }
 .volume-flight-paper > i, .volume-flight-inside > i { display: block; height: 1px; background: #c8bfad; margin: 12% 0; }

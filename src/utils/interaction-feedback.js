@@ -9,9 +9,9 @@ export function startPickupFeedback(source, motion = true) {
   let animation;
   if (source && motion && typeof source.animate === 'function') {
     animation = source.animate([
-      { transform: 'translate3d(0, 0, 0)', opacity: .78 },
-      { transform: 'translate3d(0, -10px, 0)', opacity: 1 }
-    ], { duration: 220, easing: 'cubic-bezier(.2,.7,.3,1)', fill: 'forwards' });
+      { transform: 'translate3d(0, 0, 0)' },
+      { transform: 'translate3d(0, -4px, 0)' }
+    ], { duration: 300, easing: 'ease-in-out', fill: 'forwards' });
     animation.finished.catch(() => {});
   }
   return { cancel() { animation?.cancel(); } };

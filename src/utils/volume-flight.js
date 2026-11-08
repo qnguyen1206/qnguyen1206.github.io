@@ -1,10 +1,10 @@
 import { applyVolumeCover } from './library-state.js';
 import { escapeContent } from './content-model.js';
 
-export const VOLUME_FLIGHT_DURATION = Object.freeze({ open: 560, close: 440 });
+export const VOLUME_FLIGHT_DURATION = Object.freeze({ open: 2000, close: 1800 });
 
-// The shelf book and reading cover are separate, fixed-size props. A short
-// handoff connects them; neither the book nor the real reader ever zooms.
+// A real spine and six rigid faces give the shelf book depth. Extract it before
+// turning it: rotating a single flat cover just looks like horizontal scaling.
 export function getFlightGeometry(shelf, reader, viewport) {
   const width = Math.max(1, reader.width / 2);
   const height = Math.max(1, reader.height);
@@ -12,33 +12,51 @@ export function getFlightGeometry(shelf, reader, viewport) {
     shelf.left < viewport.width && shelf.left + shelf.width > 0 &&
     shelf.top < viewport.height && shelf.top + shelf.height > 0);
   const shelfHeight = visible ? shelf.height : Math.min(180, height);
-  const shelfWidth = Math.max(visible ? shelf.width : 40, shelfHeight * .68);
-  const x = visible ? shelf.left : (viewport.width - shelfWidth) / 2;
+  const thickness = visible ? shelf.width : 40;
+  const shelfWidth = Math.max(thickness, shelfHeight * .68);
+  const x = visible ? shelf.left + thickness / 2 : (viewport.width - shelfWidth) / 2;
   const y = visible ? shelf.top : Math.max(12, reader.top);
-  const angle = Math.acos(Math.min(1, (visible ? shelf.width : 40) / shelfWidth)) * 180 / Math.PI;
   const direction = x < viewport.width / 2 ? 1 : -1;
-  const pulledX = Math.max(8, Math.min(viewport.width - shelfWidth - 8, x + direction * 18));
+  // While edge-on, the cover extends backwards into the shelf by its width.
+  // Move that distance out of the slot before pivoting the rigid book.
+  const extraction = shelfWidth + 14;
   return {
-    width, height, shelfWidth, shelfHeight, visible,
-    shelf: `translate3d(${x}px, ${y}px, 0) rotateY(${angle}deg) rotateZ(0deg)`,
-    withdrawn: `translate3d(${pulledX}px, ${Math.max(8, y - 20)}px, 0) rotateY(18deg) rotateZ(${-direction * 4}deg)`,
+    width, height, shelfWidth, shelfHeight, thickness, visible,
+    shelfPosition: `translate3d(${x}px, ${y}px, 0)`,
+    shelf: 'translate3d(0, 0, 0) rotateZ(0deg) rotateY(90deg)',
+    extracted: `translate3d(0, -10px, ${extraction}px) rotateZ(0deg) rotateY(90deg)`,
+    withdrawn: `translate3d(${direction * 18}px, -18px, ${extraction}px) rotateZ(${-direction * 4}deg) rotateY(25deg)`,
     opened: `translate3d(${reader.left + width}px, ${reader.top}px, 0)`
   };
 }
 
+function inDirection(frames, opening) {
+  return opening ? frames : [...frames].reverse().map(frame => ({ ...frame, offset: Number((1 - frame.offset).toFixed(4)) }));
+}
+
 export function getFlightFrames(geometry, opening) {
-  const opacity = geometry.visible ? 1 : 0;
-  return opening ? [
-    { transform: geometry.shelf, opacity, offset: 0, easing: 'cubic-bezier(.2,.7,.2,1)' },
-    { transform: geometry.withdrawn, opacity, offset: .34 },
-    { transform: geometry.withdrawn, opacity: 0, offset: .48 },
-    { transform: geometry.withdrawn, opacity: 0, offset: 1 }
-  ] : [
-    { transform: geometry.withdrawn, opacity: 0, offset: 0 },
-    { transform: geometry.withdrawn, opacity: 0, offset: .52 },
-    { transform: geometry.withdrawn, opacity, offset: .65, easing: 'cubic-bezier(.3,0,.3,1)' },
-    { transform: geometry.shelf, opacity, offset: 1 }
-  ];
+  return inDirection([
+    { transform: geometry.shelf, offset: 0, easing: 'ease-in-out' },
+    { transform: geometry.extracted, offset: .18, easing: 'ease-in-out' },
+    // Let the pull-out settle before turning; return pauses before sliding in.
+    { transform: geometry.extracted, offset: .24, easing: 'ease-in-out' },
+    { transform: geometry.withdrawn, offset: .42, easing: 'ease-in-out' },
+    { transform: geometry.withdrawn, offset: 1, easing: 'ease-in-out' }
+  ], opening);
+}
+
+function solidBookMarkup(volume) {
+  const title = escapeContent(volume.title);
+  return `<div class="volume-flight volume-flight--shelf ${volume.type === 'Binder' ? 'volume-flight--binder' : ''}">
+    <div class="volume-flight-solid">
+      <div class="volume-flight-solid-front"><span>${title}</span></div>
+      <div class="volume-flight-solid-back"></div>
+      <div class="volume-flight-solid-spine"><span>${title}</span>${volume.type === 'Binder' ? '<i class="volume-flight-eyelet"></i>' : ''}</div>
+      <div class="volume-flight-solid-foreedge"></div>
+      <div class="volume-flight-solid-top"></div>
+      <div class="volume-flight-solid-bottom"></div>
+    </div>
+  </div>`;
 }
 
 function coverMarkup(volume, position) {
@@ -62,8 +80,10 @@ export function createVolumeFlight() {
       const layer = document.createElement('div');
       layer.className = 'volume-flight-layer';
       layer.setAttribute('aria-hidden', 'true');
-      layer.innerHTML = coverMarkup(volume, 'shelf') + coverMarkup(volume, 'reader');
+      layer.inert = true;
+      layer.innerHTML = solidBookMarkup(volume) + coverMarkup(volume, 'reader');
       const shelfActor = layer.querySelector('.volume-flight--shelf');
+      const solid = shelfActor.querySelector('.volume-flight-solid');
       const readingActor = layer.querySelector('.volume-flight--reader');
       const lid = readingActor.querySelector('.volume-flight-lid');
       applyVolumeCover(shelfActor, volume);
@@ -71,7 +91,9 @@ export function createVolumeFlight() {
       // Geometry is assigned once, not interpolated between unrelated sizes.
       shelfActor.style.width = `${geometry.shelfWidth}px`;
       shelfActor.style.height = `${geometry.shelfHeight}px`;
-      shelfActor.style.transform = opening ? geometry.shelf : geometry.withdrawn;
+      shelfActor.style.transform = geometry.shelfPosition;
+      shelfActor.style.setProperty('--book-depth', `${geometry.thickness}px`);
+      solid.style.transform = opening ? geometry.shelf : geometry.withdrawn;
       shelfActor.style.opacity = opening && geometry.visible ? '1' : '0';
       readingActor.style.width = `${geometry.width}px`;
       readingActor.style.height = `${geometry.height}px`;
@@ -103,37 +125,33 @@ export function createVolumeFlight() {
       if (opening) reader.style.opacity = '0';
       try {
         const duration = opening ? VOLUME_FLIGHT_DURATION.open : VOLUME_FLIGHT_DURATION.close;
-        const hinge = 'cubic-bezier(.25,.65,.2,1)';
+        const shelfOpacity = geometry.visible ? 1 : 0;
         await Promise.all([
-          animate(shelfActor, getFlightFrames(geometry, opening), duration),
-          animate(readingActor, opening ? [
-            { opacity: 0, offset: 0 }, { opacity: 0, offset: .34 },
-            { opacity: 1, offset: .48 }, { opacity: 1, offset: .82 }, { opacity: 0, offset: 1 }
-          ] : [
-            { opacity: 0, offset: 0 }, { opacity: 1, offset: .14 },
-            { opacity: 1, offset: .5 }, { opacity: 0, offset: .65 }, { opacity: 0, offset: 1 }
-          ], duration),
-          animate(lid, opening ? [
-            { transform: 'rotateY(0deg)', offset: 0 },
-            { transform: 'rotateY(0deg)', offset: .44, easing: hinge },
-            { transform: 'rotateY(-180deg)', offset: .94 },
-            { transform: 'rotateY(-180deg)', offset: 1 }
-          ] : [
-            { transform: 'rotateY(-180deg)', offset: 0, easing: hinge },
-            { transform: 'rotateY(0deg)', offset: .55 },
-            { transform: 'rotateY(0deg)', offset: 1 }
-          ], duration),
+          animate(solid, getFlightFrames(geometry, opening), duration),
+          // Fade the camera wrapper, never the preserve-3d body or its faces.
+          animate(shelfActor, inDirection([
+            { opacity: shelfOpacity, offset: 0 }, { opacity: shelfOpacity, offset: .46, easing: 'ease-in-out' },
+            { opacity: 0, offset: .6, easing: 'ease-in-out' }, { opacity: 0, offset: 1, easing: 'ease-in-out' }
+          ], opening), duration),
+          animate(readingActor, inDirection([
+            { opacity: 0, offset: 0 }, { opacity: 0, offset: .46, easing: 'ease-in-out' },
+            { opacity: 1, offset: .6, easing: 'ease-in-out' },
+            { opacity: 1, offset: .86, easing: 'ease-in-out' }, { opacity: 0, offset: 1, easing: 'ease-in-out' }
+          ], opening), duration),
+          // Finish the handoff before opening, and rest flat before revealing text.
+          animate(lid, inDirection([
+            { transform: 'rotateY(0deg)', offset: 0, easing: 'ease-in-out' },
+            { transform: 'rotateY(0deg)', offset: .6, easing: 'ease-in-out' },
+            { transform: 'rotateY(-180deg)', offset: .86, easing: 'ease-in-out' },
+            { transform: 'rotateY(-180deg)', offset: 1, easing: 'ease-in-out' }
+          ], opening), duration),
           // Real pages only fade at rest; no text or controls are transformed.
-          animate(reader, opening ? [
-            { opacity: 0, offset: 0 }, { opacity: 0, offset: .8 }, { opacity: 1, offset: 1 }
-          ] : [
-            { opacity: 1, offset: 0 }, { opacity: 0, offset: .16 }, { opacity: 0, offset: 1 }
-          ], duration),
-          animate(layer, opening ? [
-            { opacity: 1, offset: 0 }, { opacity: 1, offset: .8 }, { opacity: 0, offset: 1 }
-          ] : [
-            { opacity: 0, offset: 0 }, { opacity: 1, offset: .14 }, { opacity: 1, offset: 1 }
-          ], duration)
+          animate(reader, inDirection([
+            { opacity: 0, offset: 0 }, { opacity: 0, offset: .86, easing: 'ease-in-out' }, { opacity: 1, offset: 1, easing: 'ease-in-out' }
+          ], opening), duration),
+          animate(layer, inDirection([
+            { opacity: 1, offset: 0 }, { opacity: 1, offset: .86, easing: 'ease-in-out' }, { opacity: 0, offset: 1, easing: 'ease-in-out' }
+          ], opening), duration)
         ]);
       } finally {
         cleanup();
