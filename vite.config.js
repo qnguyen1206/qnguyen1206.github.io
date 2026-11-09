@@ -23,6 +23,11 @@ export default defineConfig({
         {
           src: 'LMC4730/data/*.js',
           dest: 'LMC4730/data'
+        },
+        {
+          // Region paths in data files are resolved at runtime, not by Vite.
+          src: 'LMC4730/assets',
+          dest: 'LMC4730'
         }
       ]
     })

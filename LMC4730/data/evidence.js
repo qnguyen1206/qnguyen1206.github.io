@@ -1,76 +1,277 @@
-// EVIDENCE ARCHIVE
+// MYTHICAL HUNT — SPECIES & HABIT FIELD JOURNAL
+// Edit evidence cards here. The story and record choices are in dialogue.js.
 //
-// Format:
-//   evidence_id: "Name displayed in the game",
+// ENTRY FIELDS
+//   species:     the creature this note describes.
+//   region:      its world in regions.js; null means not yet assigned.
+//   kind:        "species" for identification, "habit" for behavior / abilities.
+//   title:       the short heading displayed in the journal.
+//   description: the actual observation; leave blank while it is unfinished.
+//   status:      "ready" = can be recorded; "draft" = unfinished placeholder.
 //
-// You can freely change the name inside quotation marks.
-// Do not change the evidence ID on the left unless you also update every
-// dialogue choice that awards that evidence. Existing save data uses these IDs.
+// HOW TO FINISH A RESERVED ENTRY
+//   1. Fill in its title and description below.
+//   2. Write the matching observation scene in dialogue.js.
+//   3. Set status to "ready".
+//   4. Add evidence: "entry_id" to that scene's explicit record choice.
+// Only ready entries count toward journal completion. Drafts are not evidence.
+// Keep entry IDs stable so saved journals and dialogue choices still match.
+//
+// Goblin information is based on the GDD. All other species intentionally have
+// blank descriptions for you to fill in. No placeholder behavior is invented.
 
 window.MYTHICAL_HUNT_EVIDENCE = {
-  // WARDEN INTAKE
-  voice: "Unregistered signal",
-  curator: "The Curator's false name",
-  contract: "Warden contract clause 19",
-  sighting: "Petrified goblin sighting",
+  // ========================================================================
+  // TREE OF LIFE — GOBLIN (READY TO OBSERVE)
+  // The mine is a subarea of this world, not a separate species assignment.
+  // The Goblin Queen is recorded under Goblin, not as a new species.
+  // ========================================================================
 
-  // TREE OF LIFE — GOBLINS AND THE ROOT-MINE
-  threads: "Red thread trail markers",
-  sample: "Living root fiber",
-  testimony: "Goblin testimony",
-  cap: "Red cap camouflage",
-  stone: "Reversible petrification",
-  drills: "Illegal Guild drill-heads",
-  survivor: "Surveyor's recovered memory",
-  cage: "Goblin message from captivity",
-  crown: "Goblin Queen crown fragment",
-  nursery: "Goblin family burrow",
-  root_memory: "Memory stored in the Tree",
-  living: "Living goblin physiology",
-  remains: "Goblin remains",
-  truce: "Root Covenant",
+  goblin_species: {
+    species: "Goblin",
+    region: "forest",
+    kind: "species",
+    title: "Goblin identification",
+    description: "Observed features include cloven feet, a naturally hunched back, uneven facial features, one unusually large eye, and rough, uneven brownish skin.",
+    status: "ready",
+  },
 
-  // GUILD, CURATOR, AND BELIEF
-  broadcast: "Belief amplification event",
-  ledger: "Guild casualty ledger",
-  fear: "Fear-to-mass correlation",
-  curator_plan: "The Curator's wager",
-  true_name: "The Curator's true nature",
-  silence: "Information quarantine protocol",
+  goblin_groups: {
+    species: "Goblin",
+    region: "forest",
+    kind: "habit",
+    title: "Group living",
+    description: "Several Goblins share the underground space. Goblins live in groups rather than only as solitary individuals.",
+    status: "ready",
+  },
 
-  // TREE OF LIFE — OTHER CREATURES
-  troll_den: "Troll family den",
-  troll_hair: "Lynx-eared troll hair",
-  goat_marks: "Chupacabra feeding marks",
-  spine_cast: "Chupacabra spine cast",
-  golem_script: "Golem activation script",
-  golem_core: "Unclassified golem core",
-  erlking_song: "Erlking death-song",
-  omen: "Erlking mortality correlation",
+  goblin_mining: {
+    species: "Goblin",
+    region: "forest",
+    kind: "habit",
+    title: "Mining and tool use",
+    description: "Goblins use tools while working in the mine. Tool use and mining are part of the work observed in their underground home.",
+    status: "ready",
+  },
 
-  // REALM OF THE DEAD
-  talisman: "Jiangshi binding talisman",
-  red_lily: "Memory of the red lilies",
-  dead_river: "Judgment river sample",
+  goblin_red_hat: {
+    species: "Goblin",
+    region: "forest",
+    kind: "habit",
+    title: "Red-hat invisibility",
+    description: "A Goblin became invisible while wearing its red hat. The observation does not establish a duration, a cooldown, or other limits to the ability.",
+    status: "ready",
+  },
 
-  // THE DEEP SEA
-  mer_song: "Mermaid harmonic language",
-  leviathan: "Leviathan pressure trace",
-  sea_pearl: "Storm-memory pearl",
+  goblin_daylight: {
+    species: "Goblin",
+    region: "forest",
+    kind: "habit",
+    title: "Daytime shelter",
+    description: "Observed: the Goblins remained underground during daylight. Existing Goblin notes warn that sunlight turns them to stone. No Goblin was exposed to sunlight to test the warning, and no reversal was observed or established.",
+    status: "ready",
+  },
 
-  // CASTLE IN THE SKY
-  cloud_stone: "Weightless castle stone",
-  sky_map: "Impossible sky map",
-  sun_feather: "Solar feather",
+  goblin_shapeshift: {
+    species: "Goblin",
+    region: "forest",
+    kind: "habit",
+    title: "Shapeshifting lure",
+    description: "Observed: a Goblin changed shape and beckoned the Warden farther into a passage. Existing Goblin notes describe shapeshifting used to lure people into traps. The Warden did not follow or test a trap.",
+    status: "ready",
+  },
 
-  // THE LAND OF FIRE
-  ember_script: "Fire-written warning",
-  ash_heart: "Living ash sample",
+  goblin_queen: {
+    species: "Goblin",
+    region: "forest",
+    kind: "habit",
+    title: "The Goblin Queen",
+    description: "The Goblin Queen sits on a throne underground and leads a group of miner Goblins. This observation records leadership within Goblin society without a confrontation.",
+    status: "ready",
+  },
 
-  // MUMMELSEEKONIG SWAMP
-  swamp_crown: "Mummelseekonig reed crown",
-  bog_echo: "Swamp echo recording",
+  // ========================================================================
+  // TREE OF LIFE — CHUPACABRA (FILL IN LATER)
+  // Scene to edit: chupa_gate in dialogue.js.
+  // ========================================================================
 
-  // SIX-GATE CONFLUENCE
-  gate_atlas: "Six-gate resonance atlas",
+  chupa_species: {
+    species: "Chupacabra",
+    region: "forest",
+    kind: "species",
+    title: "Chupacabra · Species description",
+    description: "", // TODO: Write identifying features after authoring the encounter.
+    status: "draft",
+  },
+
+  chupa_habit: {
+    species: "Chupacabra",
+    region: "forest",
+    kind: "habit",
+    title: "Chupacabra · Habit observation",
+    description: "", // TODO: Write what the Warden can observe this species doing.
+    status: "draft",
+  },
+
+  // ========================================================================
+  // TREE OF LIFE — TROLL (FILL IN LATER)
+  // Scene to edit: troll_gate in dialogue.js.
+  // ========================================================================
+
+  troll_species: {
+    species: "Troll",
+    region: "forest",
+    kind: "species",
+    title: "Troll · Species description",
+    description: "", // TODO: Write identifying features.
+    status: "draft",
+  },
+
+  troll_habit: {
+    species: "Troll",
+    region: "forest",
+    kind: "habit",
+    title: "Troll · Habit observation",
+    description: "", // TODO: Write a behavior observation.
+    status: "draft",
+  },
+
+  // ========================================================================
+  // TREE OF LIFE — GOLEM (FILL IN LATER)
+  // Scene to edit: golem_gate in dialogue.js.
+  // ========================================================================
+
+  golem_species: {
+    species: "Golem",
+    region: "forest",
+    kind: "species",
+    title: "Golem · Species description",
+    description: "", // TODO: Write identifying features.
+    status: "draft",
+  },
+
+  golem_habit: {
+    species: "Golem",
+    region: "forest",
+    kind: "habit",
+    title: "Golem · Habit observation",
+    description: "", // TODO: Write a behavior observation.
+    status: "draft",
+  },
+
+  // ========================================================================
+  // TREE OF LIFE — ERLKING (FILL IN LATER)
+  // Scene to edit: erlking_gate in dialogue.js.
+  // ========================================================================
+
+  erlking_species: {
+    species: "Erlking",
+    region: "forest",
+    kind: "species",
+    title: "Erlking · Species description",
+    description: "", // TODO: Write identifying features.
+    status: "draft",
+  },
+
+  erlking_habit: {
+    species: "Erlking",
+    region: "forest",
+    kind: "habit",
+    title: "Erlking · Habit observation",
+    description: "", // TODO: Write a behavior observation.
+    status: "draft",
+  },
+
+  // ========================================================================
+  // REALM OF THE DEAD — JIANGSHI (FILL IN LATER)
+  // Scene to edit: jiangshi_gate in dialogue.js.
+  // ========================================================================
+
+  jiangshi_species: {
+    species: "Jiangshi",
+    region: "dead",
+    kind: "species",
+    title: "Jiangshi · Species description",
+    description: "", // TODO: Write identifying features.
+    status: "draft",
+  },
+
+  jiangshi_habit: {
+    species: "Jiangshi",
+    region: "dead",
+    kind: "habit",
+    title: "Jiangshi · Habit observation",
+    description: "", // TODO: Write a behavior observation.
+    status: "draft",
+  },
+
+  // ========================================================================
+  // THE DEEP SEA — MERMAID (FILL IN LATER)
+  // Scene to edit: mermaid_gate in dialogue.js.
+  // ========================================================================
+
+  mermaid_species: {
+    species: "Mermaid",
+    region: "sea",
+    kind: "species",
+    title: "Mermaid · Species description",
+    description: "", // TODO: Write identifying features.
+    status: "draft",
+  },
+
+  mermaid_habit: {
+    species: "Mermaid",
+    region: "sea",
+    kind: "habit",
+    title: "Mermaid · Habit observation",
+    description: "", // TODO: Write a behavior observation.
+    status: "draft",
+  },
+
+  // ========================================================================
+  // THE DEEP SEA — LEVIATHAN (FILL IN LATER)
+  // Scene to edit: leviathan_gate in dialogue.js.
+  // ========================================================================
+
+  leviathan_species: {
+    species: "Leviathan",
+    region: "sea",
+    kind: "species",
+    title: "Leviathan · Species description",
+    description: "", // TODO: Write identifying features.
+    status: "draft",
+  },
+
+  leviathan_habit: {
+    species: "Leviathan",
+    region: "sea",
+    kind: "habit",
+    title: "Leviathan · Habit observation",
+    description: "", // TODO: Write a behavior observation.
+    status: "draft",
+  },
+
+  // ========================================================================
+  // UNASSIGNED REGION — KITSUNE (FILL IN LATER)
+  // Scene to edit: kitsune_notes in dialogue.js, currently at the base desk.
+  // The GDD does not assign a world. Replace null only when you choose one.
+  // ========================================================================
+
+  kitsune_species: {
+    species: "Kitsune",
+    region: null, // TODO: Choose its region before writing a travel encounter.
+    kind: "species",
+    title: "Kitsune · Species description",
+    description: "", // TODO: Write identifying features.
+    status: "draft",
+  },
+
+  kitsune_habit: {
+    species: "Kitsune",
+    region: null, // TODO: Match the region chosen for the species entry above.
+    kind: "habit",
+    title: "Kitsune · Habit observation",
+    description: "", // TODO: Write a behavior observation.
+    status: "draft",
+  },
 };

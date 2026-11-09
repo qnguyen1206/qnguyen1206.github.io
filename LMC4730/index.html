@@ -1,10 +1,104 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Mythical Hunt — Act I</title><meta name="description" content="A 2D visual story game about a Warden's first journey beyond the Gate."><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css"></head><body>
-<main id="game">
-<section id="title" class="screen active"><div class="forest layers"><i></i><i></i></div><div class="title-fog"></div><div class="title-card"><p class="kicker">A MYTHICAL HUNT STORY</p><h1>THE<br><span>INVITATION</span></h1><p>ACT I · THE TREE OF LIFE</p><button id="new-game" class="gold-btn">BEGIN STORY</button><button id="continue" class="link-btn hidden">CONTINUE</button><button class="link-btn" data-open="archive">EVIDENCE ARCHIVE <span id="title-progress">0 / 12</span></button></div><button class="corner-btn" data-open="credits">ART CREDITS</button></section>
-<section id="story" class="screen"><div id="scene-art" class="scene-art base"><div class="forest layers"><i></i><i></i></div><div class="cave-art"></div><div id="region-image" class="region-image" aria-hidden="true"></div><div class="shade"></div></div><img id="character" class="character hidden" src="assets/goblins.png" alt="A group of goblins illustrated by Arthur Hughes"><header><button id="back-title" class="logo">MH</button><div><small id="chapter">PROLOGUE</small><strong id="location">WARDEN INTAKE</strong></div><button id="menu-btn">MENU</button></header><div class="status"><span id="objective">LISTEN TO THE OFFER</span><span id="evidence">EVIDENCE 0</span></div><div id="choices" class="choice-panel"></div><button id="dialogue" class="dialogue"><span id="speaker">UNKNOWN VOICE</span><p id="line"></p><i>CLICK TO CONTINUE ▾</i></button></section>
-<section id="ending" class="screen ending-screen"><div class="ending-art forest layers"><i></i><i></i></div><div class="ending-card"><p class="kicker">FIELD REPORT // COMPLETE</p><h2 id="ending-title"></h2><p id="ending-copy"></p><div class="results"><span id="ending-evidence"></span><span id="ending-total"></span><span id="ending-rep"></span><span id="ending-path"></span></div><p id="replay-hint" class="replay-hint"></p><button id="replay" class="gold-btn">REOPEN THE GATE</button><button class="link-btn centered" data-open="archive">VIEW EVIDENCE ARCHIVE</button></div></section>
-</main>
-<dialog id="menu"><button class="x" data-close="menu">×</button><p class="kicker">PAUSED</p><h2>WARDEN MENU</h2><button id="resume">RESUME STORY</button><button id="restart">RESTART ACT</button><button data-open="archive">EVIDENCE ARCHIVE</button><button data-open="credits">ART CREDITS</button></dialog>
-<dialog id="archive"><button class="x" data-close="archive">×</button><p class="kicker">PERSISTENT WARDEN RECORD</p><h2>EVIDENCE ARCHIVE</h2><p id="archive-summary"></p><div id="archive-grid" class="archive-grid"></div><p class="archive-note">Evidence persists between playthroughs. Choose different responses to complete the archive.</p></dialog>
-<dialog id="credits"><button class="x" data-close="credits">×</button><p class="kicker">SOURCE LEDGER</p><h2>ART CREDITS</h2><p>All game art is downloaded from public, openly licensed sources. No generative artwork is used.</p><ul><li><b>Forest_BG0 & Forest_BG1</b> — quantumelle, OpenGameArt, CC0.</li><li><b>Cave Background</b> — Cal McEachern (Trex0n), OpenGameArt, CC0.</li><li><b>Goblins</b> — Arthur Hughes, 1872, via Wikimedia Commons, CC0.</li></ul><p class="source-links"><a href="https://opengameart.org/content/untitled-platformer-assets" target="_blank">Forest source ↗</a><a href="https://opengameart.org/content/cave-background-horizontal-tiling" target="_blank">Cave source ↗</a><a href="https://commons.wikimedia.org/wiki/File:Goblins.png" target="_blank">Goblin source ↗</a></p></dialog>
-<div id="toast"></div><link rel="stylesheet" href="data/content-layer.css"><script src="data/regions.js"></script><script src="data/evidence.js"></script><script src="data/dialogue.js"></script><script src="game.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Mythical Hunt — Warden Field Notes</title>
+  <meta name="description" content="Explore the Gates as a Warden, observe mythical species, and build a persistent field journal.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="gate-themes.css">
+  <link rel="stylesheet" href="data/content-layer.css">
+</head>
+<body>
+  <main id="game">
+    <section id="title" class="screen active">
+      <div class="forest layers" aria-hidden="true"><i></i><i></i></div>
+      <div class="title-fog"></div>
+      <div class="title-card">
+        <h1>MYTHICAL<br><span>HUNT</span></h1>
+        <button id="new-game" class="gold-btn">BEGIN EXPEDITION</button>
+        <button id="continue" class="link-btn hidden">CONTINUE EXPEDITION</button>
+        <button class="link-btn" data-open="archive">FIELD JOURNAL <span id="title-progress"></span></button>
+      </div>
+      <button class="corner-btn" data-open="credits">ART CREDITS</button>
+    </section>
+
+    <section id="story" class="screen">
+      <div id="scene-art" class="scene-art base" aria-hidden="true">
+        <div class="forest layers"><i></i><i></i></div>
+        <div class="cave-art"></div>
+        <div id="region-image" class="region-image"></div>
+        <div class="shade"></div>
+      </div>
+      <img id="character" class="character hidden" src="assets/goblins.png" alt="Goblins illustrated by Arthur Hughes">
+      <header>
+        <button id="back-title" class="logo" aria-label="Return to title">MH</button>
+        <div><small id="chapter"></small><strong id="location"></strong></div>
+        <nav class="game-actions" aria-label="Field navigation">
+          <button data-travel>MAP</button>
+          <button data-open="archive">JOURNAL</button>
+          <button id="menu-btn">MENU</button>
+        </nav>
+      </header>
+      <div class="status"><span id="objective"></span><span id="evidence"></span></div>
+      <div id="choices" class="choice-panel" aria-label="Choose your next action"></div>
+      <button id="dialogue" class="dialogue">
+        <span id="speaker"></span><p id="line"></p><i>CONTINUE ▾</i>
+      </button>
+    </section>
+
+    <section id="ending" class="screen ending-screen">
+      <div class="ending-art forest layers" aria-hidden="true"><i></i><i></i></div>
+      <div class="ending-card">
+        <p class="kicker">ACT III // FIELD REPORT</p>
+        <h2>Notes filed.</h2>
+        <p>Your field journal keeps every recorded species and habit. There is always another observation to make.</p>
+        <div class="results"><span id="ending-evidence"></span><span id="ending-total"></span><span id="ending-regions"></span></div>
+        <p id="replay-hint" class="replay-hint"></p>
+        <button id="replay" class="gold-btn">BEGIN ANOTHER EXPEDITION</button>
+        <button class="link-btn centered" data-open="archive">READ YOUR FIELD JOURNAL</button>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="menu" aria-labelledby="menu-title">
+    <button class="x" data-close="menu" aria-label="Close menu">×</button>
+    <p class="kicker">TAKE YOUR TIME</p><h2 id="menu-title">WARDEN MENU</h2>
+    <button id="resume">RESUME EXPLORING</button>
+    <button data-travel>CHOOSE ANOTHER REGION</button>
+    <button data-report>PREPARE FIELD REPORT</button>
+    <button data-open="archive">FIELD JOURNAL</button>
+    <button id="restart">NEW EXPEDITION · KEEP JOURNAL</button>
+    <button data-open="credits">ART CREDITS</button>
+  </dialog>
+  <dialog id="archive" aria-labelledby="journal-title">
+    <button class="x" data-close="archive" aria-label="Close field journal">×</button>
+    <p class="kicker">SPECIES &amp; THEIR HABITS</p><h2 id="journal-title">FIELD JOURNAL</h2>
+    <p id="archive-summary"></p>
+    <div id="archive-grid" class="archive-grid"></div>
+    <p class="archive-note">Recorded notes persist between expeditions. Revisit observation sites to fill gaps. Draft entries are placeholders, not discoveries.</p>
+  </dialog>
+  <dialog id="credits" aria-labelledby="credits-title">
+    <button class="x" data-close="credits" aria-label="Close art credits">×</button>
+    <p class="kicker">SOURCE LEDGER</p><h2 id="credits-title">ART CREDITS</h2>
+    <p>Forest and Tree of Life images were supplied for this project. Original illustration credits are listed below.</p>
+    <ul>
+      <li><b>Cave Background</b> — Cal McEachern (Trex0n), OpenGameArt, CC0.</li>
+      <li><b>Goblins</b> — Arthur Hughes, 1872, via Wikimedia Commons, CC0.</li>
+    </ul>
+    <p class="source-links">
+      <a href="https://opengameart.org/content/cave-background-horizontal-tiling" target="_blank" rel="noopener noreferrer">Cave source ↗</a>
+      <a href="https://commons.wikimedia.org/wiki/File:Goblins.png" target="_blank" rel="noopener noreferrer">Goblin source ↗</a>
+    </p>
+  </dialog>
+  <p id="save-notice" hidden role="status">Saving is unavailable in this browser. Your notes will last only for this visit.</p>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="data/regions.js"></script>
+  <script src="data/evidence.js"></script>
+  <script src="data/dialogue.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
