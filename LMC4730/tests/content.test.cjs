@@ -12,6 +12,7 @@ for (const filename of ['regions.js', 'evidence.js', 'dialogue.js']) {
 const regions = context.window.MYTHICAL_HUNT_REGIONS;
 const evidence = context.window.MYTHICAL_HUNT_EVIDENCE;
 const scenes = context.window.MYTHICAL_HUNT_DIALOGUE;
+const creatureArt = context.window.MYTHICAL_HUNT_CREATURE_ART;
 const hasText = value => typeof value === 'string' && value.trim().length > 0;
 
 function reachableFrom(start) {
@@ -139,4 +140,28 @@ test('region backgrounds point to existing assets and live scenes', () => {
 test('the exploration story does not retain the old Curator conflict', () => {
   assert.doesNotMatch(JSON.stringify({ scenes, evidence }),
     /curator|clause 19|illegal guild|root covenant|reversible petrification/i);
+});
+
+test('creature art uses existing supplied images and live scene IDs', () => {
+  for (const [sceneId, portrait] of Object.entries(creatureArt)) {
+    assert.ok(scenes[sceneId], `Portrait assigned to missing scene ${sceneId}.`);
+    assert.ok(hasText(portrait.alt), `${sceneId} needs descriptive alternative text.`);
+    const file = path.resolve(gameDirectory, portrait.image);
+    assert.ok(file.startsWith(`${gameDirectory}${path.sep}`));
+    assert.ok(existsSync(file), `Missing creature image: ${portrait.image}`);
+  }
+  assert.equal(creatureArt.goblin_sighting.image, 'assets/goblin.jpg');
+  assert.equal(creatureArt.goblin_queen.image, 'assets/goblin-1.jpg');
+  assert.equal(creatureArt.chupa_gate.image, 'assets/chupa.jpg');
+});
+
+test('styles do not request removed forest layers or the removed cave image', () => {
+  for (const filename of ['styles.css', 'data/content-layer.css']) {
+    const css = readFileSync(path.join(gameDirectory, filename), 'utf8');
+    assert.doesNotMatch(css, /forest-far\.png|forest-near\.png|assets\/cave\.png/);
+    for (const [, asset] of css.matchAll(/url\(['"]?([^)'"\s]+)['"]?\)/g)) {
+      if (!asset.includes('assets/')) continue;
+      assert.ok(existsSync(path.resolve(gameDirectory, path.dirname(filename), asset)), `Missing CSS asset: ${asset}`);
+    }
+  }
 });

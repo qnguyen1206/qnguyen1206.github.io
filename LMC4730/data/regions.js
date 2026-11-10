@@ -1,4 +1,4 @@
-// REGION ART
+// REGION AND CREATURE ART
 // Put image files in LMC4730/assets (or assets/regions), then set their paths below.
 // Paths are relative to LMC4730/index.html, not to this data file.
 // Leave image as an empty string to keep the game's current illustrated background.
@@ -41,5 +41,44 @@ window.MYTHICAL_HUNT_REGIONS = {
   sky:    { name: "Castle in the Sky",        image: "" },
   fire:   { name: "The Land of Fire",         image: "" },
   swamp:  { name: "Mummelseekonig Swamp",     image: "" }
+};
+
+// CREATURE ILLUSTRATIONS
+// Match the scene IDs in dialogue.js. These are portraits, not backgrounds.
+// Change `image` to replace the illustration; `alt` describes it accessibly.
+// Adding art does not unlock draft species evidence or change the story.
+window.MYTHICAL_HUNT_CREATURE_ART = {
+  goblin_sighting: {
+    image: "assets/goblin.jpg",
+    alt: "An individual Goblin in a forest",
+  },
+  goblin_group: {
+    image: "assets/goblin-1.jpg",
+    alt: "A gathering of Goblins in an underground hall",
+  },
+  goblin_cap: {
+    image: "assets/goblin.jpg",
+    alt: "Goblin species reference illustration",
+  },
+  goblin_shelter: {
+    image: "assets/goblin-1.jpg",
+    alt: "Goblins gathered in their underground home",
+  },
+  goblin_shapeshift: {
+    image: "assets/goblin.jpg",
+    alt: "Goblin species reference illustration",
+  },
+  goblin_mining: {
+    image: "assets/goblin-1.jpg",
+    alt: "An underground Goblin gathering",
+  },
+  goblin_queen: {
+    image: "assets/goblin-1.jpg",
+    alt: "Goblins gathered around an underground throne",
+  },
+  chupa_gate: {
+    image: "assets/chupa.jpg",
+    alt: "Chupacabra reference illustration with a row of spines along its back",
+  },
 };
 

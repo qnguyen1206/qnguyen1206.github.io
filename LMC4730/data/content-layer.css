@@ -24,6 +24,23 @@
 .scene-art .region-image + .shade { z-index: 1; }
 .scene-art .character { z-index: 2; }
 
+/* The supplied JPGs are complete illustrations, not transparent sprites.
+   Preserve their full framing and colors (including any source watermark). */
+.character {
+  top: 20vh;
+  bottom: auto;
+  right: 8vw;
+  height: min(52vh, 480px);
+  max-width: 38vw;
+  object-fit: contain;
+  mix-blend-mode: normal;
+  filter: none;
+  opacity: 1;
+  border: 1px solid #e8c27366;
+  box-shadow: 0 12px 30px #0008;
+  pointer-events: none;
+}
+
 /* Field-journal presentation. Narrative and observations remain in data/*.js. */
 /* Native scrolling, with the journal's charcoal-and-brass palette. */
 :where(dialog, .choice-panel, .dialogue, .ending-card) {
@@ -83,6 +100,7 @@ dialog { max-height: 90dvh; overflow-y: auto; }
 #save-notice { position: fixed; z-index: 50; inset: auto 1rem 0; padding: .6rem; background: #342411; color: #ffe1a8; font: 11px/1.5 sans-serif; }
 #toast { max-width: 90vw; width: max-content; text-align: center; line-height: 1.6; pointer-events: none; }
 @media (max-width: 700px) {
+  .character { top: 21vh; right: 5vw; height: 36vh; max-width: 66vw; }
   header { grid-template-columns: 44px minmax(0, 1fr); gap: .5rem 1rem; }
   .game-actions { grid-column: 1 / -1; justify-self: end; gap: 1.1rem; }
   .game-actions button { padding: .25rem .2rem; }

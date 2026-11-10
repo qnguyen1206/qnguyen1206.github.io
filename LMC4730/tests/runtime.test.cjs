@@ -150,6 +150,23 @@ test('recording and revisiting observations deduplicates both journal and expedi
   assert.deepEqual(game.read(journalKey).found, ['goblin_species', 'goblin_red_hat']);
 });
 
+test('creature portraits switch by scene without unlocking draft evidence', () => {
+  const game = boot();
+  game.get('new-game').click();
+  game.navigate('goblin_sighting');
+  assert.equal(game.get('character').src, 'assets/goblin.jpg');
+  assert.equal(game.get('character').classList.contains('hidden'), false);
+  game.navigate('goblin_queen');
+  assert.equal(game.get('character').src, 'assets/goblin-1.jpg');
+  game.navigate('chupa_gate');
+  assert.equal(game.get('character').src, 'assets/chupa.jpg');
+  assert.match(game.get('character').alt, /Chupacabra/);
+  assert.equal(game.get('character').classList.contains('hidden'), false);
+  assert.ok(!game.read(journalKey).found.some(id => id.startsWith('chupa')));
+  game.navigate('gate_map');
+  assert.equal(game.get('character').classList.contains('hidden'), true);
+});
+
 test('a draft cannot be collected even if an author accidentally links it to a choice', () => {
   const game = boot({ editContent(window) {
     window.MYTHICAL_HUNT_DIALOGUE.goblin_sighting.choices[0].evidence = 'chupa_species';

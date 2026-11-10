@@ -6,6 +6,7 @@
   const scenes = window.MYTHICAL_HUNT_DIALOGUE || {};
   const evidence = window.MYTHICAL_HUNT_EVIDENCE || {};
   const regions = window.MYTHICAL_HUNT_REGIONS || {};
+  const creatureArt = window.MYTHICAL_HUNT_CREATURE_ART || {};
   const $ = selector => document.querySelector(selector);
   // Preserve the previous story's saves, but never mix its plot evidence into
   // this species journal. These keys belong only to the exploration story.
@@ -138,7 +139,13 @@
     background.style.backgroundImage = image ? `url("${image}")` : '';
     background.style.backgroundPosition = scene.imagePosition || region.imagePositions?.[image] || 'center';
     background.classList.toggle('has-image', Boolean(image));
-    $('#character').classList.toggle('hidden', !scene.character);
+    const portrait = creatureArt[state.scene];
+    const character = $('#character');
+    if (portrait?.image) {
+      character.src = portrait.image;
+      character.alt = portrait.alt || 'Creature illustration';
+    }
+    character.classList.toggle('hidden', !portrait?.image || scene.character === false);
     $('#choices').replaceChildren();
     $('#dialogue').classList.remove('hidden');
     if (state.line >= scene.lines.length) renderChoices(scene);

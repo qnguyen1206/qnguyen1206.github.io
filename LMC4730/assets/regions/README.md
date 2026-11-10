@@ -30,6 +30,12 @@ All files in `LMC4730/assets` are copied into the production build automatically
 
 ## Story and field notes
 
+Creature portraits are configured by scene under `MYTHICAL_HUNT_CREATURE_ART`
+in `../../data/regions.js`: `goblin.jpg` for individual observations,
+`goblin-1.jpg` for underground groups, and `chupa.jpg` for the Chupacabra page.
+These illustrations do not unlock unfinished evidence. They are displayed whole,
+without cropping or removing source markings.
+
 - Edit every scene's narration, speakers, choices, and destinations in `../../data/dialogue.js`.
 - Edit species descriptions and habits in `../../data/evidence.js`.
 - Non-Goblin entries have a blank description and `status: "draft"`. They are visible as notes pending, not collectible evidence.
