@@ -3,9 +3,9 @@
   "set_name": "ME: Mega Evolution Promo",
   "set_abbr": "MEP",
   "set_released": "2025-09-26",
-  "product_count": 151,
-  "data_modified": "2026-11-11T08:13:20-05:00",
-  "file_generated": "2026-11-11T08:31:54-05:00",
+  "product_count": 152,
+  "data_modified": "2026-11-13T08:13:22-05:00",
+  "file_generated": "2026-11-13T08:31:46-05:00",
   "pricing_url": "/v1/3/sets/24451/pricing",
   "cards_url": "/v1/3/sets/24451/cards",
   "sealed_url": "/v1/3/sets/24451/sealed",
@@ -7238,7 +7238,7 @@
     },
     {
       "id": 709971,
-      "name": "Mudkip -  057",
+      "name": "Mudkip - 057",
       "clean_name": "Mudkip 057",
       "number": "057",
       "rarity": "Promo",
@@ -12942,8 +12942,96 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 895620,
+      "cardtrader_id": 397610,
+      "cardtrader": [
+        {
+          "id": 397610,
+          "name": "Mewtwo",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "MEP Black Star Promos",
+          "expansion_code": "mep",
+          "collector_number": "104",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            895620
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/713289_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 713289,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 24451
+        }
+      ]
     },
     {
       "id": 713288,
@@ -13126,8 +13214,96 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 921287,
+      "cardtrader_id": 421352,
+      "cardtrader": [
+        {
+          "id": 421352,
+          "name": "Masquerain",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "MEP Black Star Promos",
+          "expansion_code": "mep",
+          "collector_number": "111",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            921287
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/730455_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 730455,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 24451
+        }
+      ]
     },
     {
       "id": 730456,
@@ -13164,8 +13340,96 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 921288,
+      "cardtrader_id": 421353,
+      "cardtrader": [
+        {
+          "id": 421353,
+          "name": "Masquerain",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "MEP Black Star Promos",
+          "expansion_code": "mep",
+          "collector_number": "111s",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            921288
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/730456_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 730456,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 24451
+        }
+      ]
     },
     {
       "id": 730453,
@@ -13202,8 +13466,96 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 921289,
+      "cardtrader_id": 421354,
+      "cardtrader": [
+        {
+          "id": 421354,
+          "name": "Magmortar",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "MEP Black Star Promos",
+          "expansion_code": "mep",
+          "collector_number": "112",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            921289
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/730453_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 730453,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 24451
+        }
+      ]
     },
     {
       "id": 730454,
@@ -13240,8 +13592,96 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 921290,
+      "cardtrader_id": 421355,
+      "cardtrader": [
+        {
+          "id": 421355,
+          "name": "Magmortar",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "MEP Black Star Promos",
+          "expansion_code": "mep",
+          "collector_number": "112s",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            921290
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/730454_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 730454,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 24451
+        }
+      ]
     },
     {
       "id": 730451,
@@ -13278,8 +13718,96 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 921291,
+      "cardtrader_id": 421356,
+      "cardtrader": [
+        {
+          "id": 421356,
+          "name": "Enamorus",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "MEP Black Star Promos",
+          "expansion_code": "mep",
+          "collector_number": "113",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            921291
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/730451_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 730451,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 24451
+        }
+      ]
     },
     {
       "id": 730452,
@@ -13316,8 +13844,96 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 921292,
+      "cardtrader_id": 421357,
+      "cardtrader": [
+        {
+          "id": 421357,
+          "name": "Enamorus",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "MEP Black Star Promos",
+          "expansion_code": "mep",
+          "collector_number": "113s",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            921292
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/730452_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 730452,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 24451
+        }
+      ]
     },
     {
       "id": 730130,
@@ -13355,8 +13971,96 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 921293,
+      "cardtrader_id": 421358,
+      "cardtrader": [
+        {
+          "id": 421358,
+          "name": "Kommo-o",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "MEP Black Star Promos",
+          "expansion_code": "mep",
+          "collector_number": "114",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            921293
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/730130_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 730130,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 24451
+        }
+      ]
     },
     {
       "id": 732591,
@@ -13466,6 +14170,44 @@
       "image_url": "https://cdn.tcgtracking.com/product/731799_200w.jpg",
       "image_count": 1,
       "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F731799",
+      "manapool_url": null,
+      "scryfall_id": null,
+      "mtgjson_uuid": null,
+      "cardmarket_id": null,
+      "cardtrader_id": null
+    },
+    {
+      "id": 732872,
+      "name": "Kyogre - 117 (Pokemon Center Exclusive)",
+      "clean_name": "Kyogre 117 Pokemon Center Exclusive",
+      "number": "117",
+      "rarity": "Promo",
+      "ext_data": {
+        "description": "",
+        "attack2": "[WWC] Brutal Whirlpool (100)<br> If a Stadium that has \"Legendary\" in its name is in play, this attack also does 50 damage to each of your opponent's Benched Pokémon. <em>(Don't apply Weakness and Resistance for Benched Pokémon.)</em>",
+        "stage": "Basic",
+        "energyType": [
+          "Water"
+        ],
+        "releaseDate": "2025-09-26T00:00:00Z",
+        "number": "117",
+        "cardType": [
+          "Pokemon"
+        ],
+        "retreatCost": "3",
+        "cardTypeB": "Water",
+        "resistance": null,
+        "rarityDbName": "Promo",
+        "weakness": "Lx2",
+        "flavorText": "In myths, this Pokémon expanded the seas with torrential rains and great tsunamis. It battled ferociously against Groudon.",
+        "attack1": "[WC] Waterfall (40)",
+        "hp": "150",
+        "attack3": null,
+        "attack4": null
+      },
+      "image_url": "https://cdn.tcgtracking.com/product/732872_200w.jpg",
+      "image_count": 1,
+      "tcgplayer_url": "https://partner.tcgplayer.com/c/6207277/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F732872",
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,

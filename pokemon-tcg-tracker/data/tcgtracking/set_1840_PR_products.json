@@ -4,8 +4,8 @@
   "set_abbr": "PR",
   "set_released": "2016-09-01",
   "product_count": 548,
-  "data_modified": "2026-11-11T08:13:20-05:00",
-  "file_generated": "2026-11-11T08:32:11-05:00",
+  "data_modified": "2026-11-13T08:13:22-05:00",
+  "file_generated": "2026-11-13T08:32:07-05:00",
   "pricing_url": "/v1/3/sets/1840/pricing",
   "cards_url": "/v1/3/sets/1840/cards",
   "sealed_url": "/v1/3/sets/1840/sealed",
@@ -6628,7 +6628,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 921235,
       "cardtrader_id": 281235,
       "cardtrader": [
         {
@@ -6695,7 +6695,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            921235
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/125051_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 125051,
@@ -7914,8 +7916,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 922086,
+      "cardtrader_id": 422958,
+      "cardtrader": [
+        {
+          "id": 422958,
+          "name": "Fennekin",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "011",
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            922086
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/729911_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 729911,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 125058,
@@ -8382,8 +8464,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 922089,
+      "cardtrader_id": 422959,
+      "cardtrader": [
+        {
+          "id": 422959,
+          "name": "Braixen",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "012",
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            922089
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/729912_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 729912,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 131312,
@@ -8841,8 +9003,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 922090,
+      "cardtrader_id": 422960,
+      "cardtrader": [
+        {
+          "id": 422960,
+          "name": "Delphox",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "013",
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            922090
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/729910_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 729910,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 694632,
@@ -9348,8 +9590,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 922091,
+      "cardtrader_id": 422961,
+      "cardtrader": [
+        {
+          "id": 422961,
+          "name": "Moltres",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "014",
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            922091
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/729915_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 729915,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 91655,
@@ -18057,8 +18379,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 922101,
+      "cardtrader_id": 422972,
+      "cardtrader": [
+        {
+          "id": 422972,
+          "name": "Emolga",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "030",
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            922101
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/729908_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 729908,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 125079,
@@ -24063,8 +24465,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 922099,
+      "cardtrader_id": 422971,
+      "cardtrader": [
+        {
+          "id": 422971,
+          "name": "Zacian",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "045",
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            922099
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/729914_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 729914,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 131306,
@@ -28054,8 +28536,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 922104,
+      "cardtrader_id": 422973,
+      "cardtrader": [
+        {
+          "id": 422973,
+          "name": "Zeraora",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "057",
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            922104
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/729907_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 729907,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 234447,
@@ -28630,8 +29192,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 922094,
+      "cardtrader_id": 422965,
+      "cardtrader": [
+        {
+          "id": 422965,
+          "name": "Chi-Yu",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "059",
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            922094
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/729903_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 729903,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 175271,
@@ -31600,8 +32242,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 922092,
+      "cardtrader_id": 422962,
+      "cardtrader": [
+        {
+          "id": 422962,
+          "name": "Toxel",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "067",
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            922092
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/729902_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 729902,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 158739,
@@ -32077,8 +32799,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 922093,
+      "cardtrader_id": 422964,
+      "cardtrader": [
+        {
+          "id": 422964,
+          "name": "Toxtricity",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "068",
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            922093
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/731781_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 731781,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 236076,
@@ -35180,8 +35982,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 922111,
+      "cardtrader_id": 422978,
+      "cardtrader": [
+        {
+          "id": 422978,
+          "name": "Air Balloon",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "079",
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            922111
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/729927_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 729927,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 264824,
@@ -36009,8 +36891,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 922133,
+      "cardtrader_id": 422989,
+      "cardtrader": [
+        {
+          "id": 422989,
+          "name": "Voltaic Lightning Energy",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "084",
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            922133
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/729904_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 729904,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 707029,
@@ -37114,8 +38076,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 922106,
+      "cardtrader_id": 422974,
+      "cardtrader": [
+        {
+          "id": 422974,
+          "name": "Dawn",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "087",
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            922106
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/729913_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 729913,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 131295,
@@ -37408,8 +38450,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 922095,
+      "cardtrader_id": 422966,
+      "cardtrader": [
+        {
+          "id": 422966,
+          "name": "Yveltal",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "088",
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            922095
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/729909_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 729909,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 158200,
@@ -42230,8 +43352,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 922098,
+      "cardtrader_id": 422970,
+      "cardtrader": [
+        {
+          "id": 422970,
+          "name": "Kangaskhan",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "114",
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            922098
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/729920_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 729920,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 270105,
@@ -42480,8 +43682,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 922096,
+      "cardtrader_id": 422968,
+      "cardtrader": [
+        {
+          "id": 422968,
+          "name": "Eevee",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "117",
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            922096
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/729916_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 729916,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 729819,
@@ -42518,8 +43800,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 922097,
+      "cardtrader_id": 422969,
+      "cardtrader": [
+        {
+          "id": 422969,
+          "name": "Eevee",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "118",
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            922097
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/729819_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 729819,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 583734,
@@ -42662,8 +44024,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 922109,
+      "cardtrader_id": 422977,
+      "cardtrader": [
+        {
+          "id": 422977,
+          "name": "Lillie's Determination",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "119",
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            922109
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/729924_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 729924,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 576969,
@@ -43894,8 +45336,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 922126,
+      "cardtrader_id": 422984,
+      "cardtrader": [
+        {
+          "id": 422984,
+          "name": "Poké Pad",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "126",
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            922126
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/729919_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 729919,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 189749,
@@ -44031,8 +45553,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 922127,
+      "cardtrader_id": 422985,
+      "cardtrader": [
+        {
+          "id": 422985,
+          "name": "Switch",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "127",
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            922127
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/729918_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 729918,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 729917,
@@ -44065,8 +45667,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 922129,
+      "cardtrader_id": 422986,
+      "cardtrader": [
+        {
+          "id": 422986,
+          "name": "Ultra Ball",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "128",
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            922129
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/729917_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 729917,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 629760,
@@ -45805,8 +47487,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 922121,
+      "cardtrader_id": 422983,
+      "cardtrader": [
+        {
+          "id": 422983,
+          "name": "Brock's Scouting",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "146",
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            922121
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/729906_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 729906,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 598050,
@@ -46300,8 +48062,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 922115,
+      "cardtrader_id": 422982,
+      "cardtrader": [
+        {
+          "id": 422982,
+          "name": "Iris's Fighting Spirit",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "149",
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            922115
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/729922_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 729922,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 547651,
@@ -47348,8 +49190,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 922108,
+      "cardtrader_id": 422976,
+      "cardtrader": [
+        {
+          "id": 422976,
+          "name": "Boss's Orders",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "183",
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            922108
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/729934_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 729934,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 189750,
@@ -47483,8 +49405,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 922113,
+      "cardtrader_id": 422979,
+      "cardtrader": [
+        {
+          "id": 422979,
+          "name": "Buddy-Buddy Poffin",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "184",
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            922113
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/729931_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 729931,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 196722,
@@ -47838,8 +49840,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 922114,
+      "cardtrader_id": 422980,
+      "cardtrader": [
+        {
+          "id": 422980,
+          "name": "Night Stretcher",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "196",
+          "rarity": "Fixed",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            922114
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/729932_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 729932,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 201953,
