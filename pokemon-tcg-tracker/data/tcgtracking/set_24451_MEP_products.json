@@ -4,8 +4,8 @@
   "set_abbr": "MEP",
   "set_released": "2025-09-26",
   "product_count": 152,
-  "data_modified": "2026-11-13T08:13:22-05:00",
-  "file_generated": "2026-11-13T08:31:46-05:00",
+  "data_modified": "2026-11-17T08:13:47-05:00",
+  "file_generated": "2026-11-17T08:31:38-05:00",
   "pricing_url": "/v1/3/sets/24451/pricing",
   "cards_url": "/v1/3/sets/24451/cards",
   "sealed_url": "/v1/3/sets/24451/sealed",
@@ -14135,8 +14135,96 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 923539,
+      "cardtrader_id": 423239,
+      "cardtrader": [
+        {
+          "id": 423239,
+          "name": "Seel",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "MEP Black Star Promos",
+          "expansion_code": "mep",
+          "collector_number": "116",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            923539
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/731807_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 731807,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 24451
+        }
+      ]
     },
     {
       "id": 731799,
@@ -14211,8 +14299,96 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 922656,
+      "cardtrader_id": 422081,
+      "cardtrader": [
+        {
+          "id": 422081,
+          "name": "Kyogre ex",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Pokémon Center",
+          "expansion_code": "pkm-center",
+          "collector_number": "117",
+          "rarity": "Promo",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "it",
+            "de",
+            "es",
+            "pt",
+            "nl",
+            "ru",
+            "pl",
+            "sv"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "it",
+                "de",
+                "es",
+                "pt",
+                "nl",
+                "ru",
+                "pl",
+                "sv"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            922656
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/732872_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 732872,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 22872
+        }
+      ]
     }
   ]
 }
