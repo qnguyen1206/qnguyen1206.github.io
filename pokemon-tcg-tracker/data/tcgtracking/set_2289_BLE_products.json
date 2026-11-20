@@ -4,8 +4,8 @@
   "set_abbr": "BLE",
   "set_released": "2026-06-23",
   "product_count": 148,
-  "data_modified": "2026-11-11T08:13:20-05:00",
-  "file_generated": "2026-11-11T08:31:50-05:00",
+  "data_modified": "2026-11-20T08:13:35-05:00",
+  "file_generated": "2026-11-20T08:31:27-05:00",
   "pricing_url": "/v1/3/sets/2289/pricing",
   "cards_url": "/v1/3/sets/2289/cards",
   "sealed_url": "/v1/3/sets/2289/sealed",
@@ -1622,7 +1622,89 @@
       "scryfall_id": null,
       "mtgjson_uuid": null,
       "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardtrader_id": 423725,
+      "cardtrader": [
+        {
+          "id": 423725,
+          "name": "Reshiram",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "017",
+          "rarity": "Rare",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "kr",
+            "pt",
+            "ru",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "kr",
+                "pt",
+                "ru",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [],
+          "image_url": "https://cdn.tcgtracking.com/product/696441_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 696441,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 141247,

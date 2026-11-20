@@ -4,8 +4,8 @@
   "set_abbr": "PR",
   "set_released": "2016-09-01",
   "product_count": 548,
-  "data_modified": "2026-11-19T08:13:49-05:00",
-  "file_generated": "2026-11-19T08:31:57-05:00",
+  "data_modified": "2026-11-20T08:13:35-05:00",
+  "file_generated": "2026-11-20T08:31:44-05:00",
   "pricing_url": "/v1/3/sets/1840/pricing",
   "cards_url": "/v1/3/sets/1840/cards",
   "sealed_url": "/v1/3/sets/1840/sealed",
@@ -6828,7 +6828,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 924012,
       "cardtrader_id": 131002,
       "cardtrader": [
         {
@@ -6899,7 +6899,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            924012
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/125045_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 125045,
@@ -6931,7 +6933,7 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
+      "cardmarket_id": 924011,
       "cardtrader_id": 131001,
       "cardtrader": [
         {
@@ -7002,7 +7004,9 @@
               ]
             }
           ],
-          "cardmarket_ids": [],
+          "cardmarket_ids": [
+            924011
+          ],
           "image_url": "https://cdn.tcgtracking.com/product/125044_200w.jpg",
           "scryfall_id": null,
           "tcg_player_id": 125044,
@@ -9224,8 +9228,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 924263,
+      "cardtrader_id": 423730,
+      "cardtrader": [
+        {
+          "id": 423730,
+          "name": "Emboar",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "013",
+          "rarity": "Rare",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            924263
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/725080_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 725080,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 91370,
@@ -14824,8 +14908,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 924262,
+      "cardtrader_id": 423731,
+      "cardtrader": [
+        {
+          "id": 423731,
+          "name": "Samurott",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "White Flare",
+          "expansion_code": "wht",
+          "collector_number": "023",
+          "rarity": "Rare",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            924262
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/725083_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 725083,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 24326
+        }
+      ]
     },
     {
       "id": 131326,
@@ -27562,8 +27726,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 924261,
+      "cardtrader_id": 423732,
+      "cardtrader": [
+        {
+          "id": 423732,
+          "name": "Terrakion",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "White Flare",
+          "expansion_code": "wht",
+          "collector_number": "054",
+          "rarity": "Rare",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            924261
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/725086_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 725086,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 24326
+        }
+      ]
     },
     {
       "id": 123457,
@@ -28254,8 +28498,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 924259,
+      "cardtrader_id": 423733,
+      "cardtrader": [
+        {
+          "id": 423733,
+          "name": "Alakazam",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Mega Evolution",
+          "expansion_code": "meg",
+          "collector_number": "056",
+          "rarity": "Holo Rare",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            924259
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/725079_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 725079,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 24380
+        }
+      ]
     },
     {
       "id": 149300,
@@ -36752,8 +37076,88 @@
       "manapool_url": null,
       "scryfall_id": null,
       "mtgjson_uuid": null,
-      "cardmarket_id": null,
-      "cardtrader_id": null
+      "cardmarket_id": 924264,
+      "cardtrader_id": 423729,
+      "cardtrader": [
+        {
+          "id": 423729,
+          "name": "Team Rocket's Wobbuffet",
+          "match_type": "tcgplayer",
+          "match_confidence": 100,
+          "expansion": "Theme Deck & Blisters Exclusives",
+          "expansion_code": "deckexclusives",
+          "collector_number": "082",
+          "rarity": "Holo Rare",
+          "finishes": [
+            "normal"
+          ],
+          "languages": [
+            "en",
+            "fr",
+            "de",
+            "it",
+            "pt",
+            "es"
+          ],
+          "properties": [
+            {
+              "name": "condition",
+              "type": "string",
+              "default_value": "Near Mint",
+              "possible_values": [
+                "Mint",
+                "Near Mint",
+                "Slightly Played",
+                "Moderately Played",
+                "Played",
+                "Poor"
+              ]
+            },
+            {
+              "name": "signed",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "altered",
+              "type": "boolean",
+              "default_value": "false",
+              "possible_values": [
+                true,
+                false
+              ]
+            },
+            {
+              "name": "pokemon_language",
+              "type": "string",
+              "default_value": "en",
+              "possible_values": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "pt",
+                "es"
+              ]
+            }
+          ],
+          "cardmarket_ids": [
+            924264
+          ],
+          "image_url": "https://cdn.tcgtracking.com/product/725084_200w.jpg",
+          "scryfall_id": null,
+          "tcg_player_id": 725084,
+          "game_id": 5,
+          "category_id": 73,
+          "category_name": "Pokémon Singles",
+          "product_type": "single",
+          "group_id": 1840
+        }
+      ]
     },
     {
       "id": 158201,
