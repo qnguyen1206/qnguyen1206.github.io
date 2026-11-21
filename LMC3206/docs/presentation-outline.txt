@@ -1,0 +1,63 @@
+BETWEEN TWO LANGUAGES — FIVE-MINUTE PRESENTATION OUTLINE
+Working script and demo cues; not a generated slide deck.
+
+0:00–0:35 — QUESTION AND PREMISE
+Visual: title screen.
+Suggested narration: “My project asks how an interactive story can represent
+the choices involved in bilingual communication. You play An, a student
+using Vietnamese at home and English at school. The point is not to select
+a correct dictionary answer. It is to notice what different responses do.”
+Identify the scenes as fiction unless you have replaced them with experiences
+you can appropriately describe and have permission to share.
+
+0:35–1:15 — RESEARCH FRAME
+Visual: three episode names and your finalized citations.
+Discuss translation equivalence for Home, switching and bilingual experience
+for School, and interactional identity for Between Worlds. Explain one
+specific scene-to-source connection after completing the full-text reading.
+Do not present preliminary source descriptions as completed close reading.
+
+1:15–2:25 — LIVE DEMO: THE DINNER QUESTION
+Visual: home.rice choice screen. Prepare a separate demo browser/profile
+before the presentation so an existing personal playthrough is not replaced.
+Read the original sentence and show the English translation. Choose a literal
+rendering; show Jules's reaction. Use Back to return to the decision, then
+choose the contextual explanation. Show how it changes the exchange without
+awarding a correctness score. Open Context if time allows.
+
+2:25–3:05 — LATER SCENES AND AGENCY
+Visual: prepared screenshots of school.pause and identity.friends, captured
+after browser verification. Do not attempt to click through every line live.
+Explain that a player can ask for time, invite help, or decide not to explain
+something personal. Describe the three closing emphases as connection,
+agency, and listening. The last response changes the closing passage.
+
+3:05–3:40 — DESIGN AND IMPLEMENTATION
+Visual: journal and one small JSON scene excerpt.
+Explain local branching and rejoining, the path-based journal, backtracking,
+and translations. Show that the author can replace dialogue in JSON without
+rewriting the interface. Mention why the project omitted movement and an
+inventory: the communication choices are the primary interaction.
+
+3:40–4:30 — EVALUATION AND REVISION
+Visual: actual feedback and before/after revision, once available.
+Report observed completion times, confusion, or language revisions only
+after testing. Before testing, say clearly that these remain planned.
+Distinguish automated verification of story paths from human evaluation of
+meaning. Do not infer measured empathy or learning from a small usability
+playtest. Name one limitation of the source base or the fictional framing.
+
+4:30–5:00 — CLOSE
+Visual: ending screen and actual deployed link, once published.
+Suggested narration: “The game makes room for different ways to communicate,
+including asking, rephrasing, listening, and choosing privacy. Its central
+design choice is to give those actions consequences without giving them a
+single score.” End with the most concrete revision learned from testing.
+
+REHEARSAL
+  [ ] Replace provisional citations with the editions/pages actually read.
+  [ ] Add real feedback and revision evidence; remove future-tense plans.
+  [ ] Prepare demo state and screenshot backup after browser checks.
+  [ ] Verify the deployed link and offline fallback on presentation hardware.
+  [ ] Time a full rehearsal, keeping the live demo under 70 seconds.
+  [ ] Leave margin for loading or an unexpected question.

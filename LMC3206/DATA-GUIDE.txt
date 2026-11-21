@@ -1,0 +1,125 @@
+EDITING THE STORY JSON
+=====================
+
+Everything a character says, every response choice, its consequences, and
+the optional context notes are in data/home.json, data/school.json, and
+data/identity.json. Save as UTF-8 to preserve Vietnamese accents.
+
+The files are played in that order. Each file contains an episode object:
+
+  id        Stable unique episode identifier. Keep the supplied value.
+  title     Main episode heading.
+  subtitle  Place and time shown on the illustration.
+  theme     home, school, or identity; selects an illustration.
+  focus     Short sentence shown over the scene illustration.
+  scenes    Ordered list of scenes. You may add or remove scenes.
+
+Each scene contains:
+
+  id        Unique within this episode. Use simple lowercase identifiers.
+  title     Scene title shown above the dialogue and in the journal.
+  lines     Dialogue lines shown before the decision, in order.
+  prompt    The question displayed when the choices appear.
+  note      Object with title and text for the optional Context dialog.
+  choices   Two or three response objects.
+
+Each dialogue line (including reaction lines) contains:
+
+  speaker       Name shown above the text. An, Mom, Jules and Minh have
+                role labels; a new name works with a generic role label.
+  text          Original dialogue or narration. Plain text, not HTML.
+  lang          Optional language tag: use vi for Vietnamese, en for English.
+  translation   Required English translation when lang is not en.
+
+Each choice contains:
+
+  id          Unique within that scene. Keep stable when editing wording.
+  label       The response the player selects.
+  detail      Short explanation / English translation below the response.
+  reflection  Journal entry describing the specific tradeoff or outcome.
+  reaction    One or more dialogue lines shown only for this choice.
+
+After a reaction finishes, the story continues to the next scene. After the
+last scene in an episode, the next episode begins automatically. After the
+last reaction in the last episode, the ending and journal appear.
+
+There are no manually maintained next-node links in JSON. The engine builds
+them from this sequence, so you can concentrate on writing. Do not add a
+next property expecting a custom branch: this version supports local
+branches that rejoin, not arbitrary scene jumps.
+
+COPYABLE SCENE (add to an episode's scenes array)
+-----------------------------------------------
+{
+  "id": "new_scene",
+  "title": "A moment to explain",
+  "lines": [
+    {
+      "speaker": "Mom",
+      "text": "Con có mệt không?",
+      "lang": "vi",
+      "translation": "Are you tired?"
+    },
+    {
+      "speaker": "An",
+      "text": "I could answer quickly, or explain how the day went."
+    }
+  ],
+  "prompt": "What do you share?",
+  "note": {
+    "title": "Choosing the moment",
+    "text": "A brief answer and a longer answer can both be honest."
+  },
+  "choices": [
+    {
+      "id": "short",
+      "label": "A little. Can we talk after dinner?",
+      "detail": "Choose a better moment.",
+      "reflection": "You asked for time before explaining.",
+      "reaction": [
+        { "speaker": "Mom", "text": "Of course. Take your time." }
+      ]
+    },
+    {
+      "id": "share",
+      "label": "Yes. Something happened at school today.",
+      "detail": "Start the conversation now.",
+      "reflection": "You made room to describe your day.",
+      "reaction": [
+        { "speaker": "Mom", "text": "Tell me about it." }
+      ]
+    }
+  ]
+}
+
+WRITING YOUR OWN EXPERIENCE
+--------------------------
+1. Write what was said in lines, preserving the original language.
+2. Give monolingual readers an English translation.
+3. Identify what the listener understood and what remained unclear.
+4. Write two or three reasonable ways to respond.
+5. Give each choice a different reaction and a specific tradeoff.
+6. Use the note to explain this situation without making a universal claim.
+7. Keep privacy and refusal available when the situation calls for them.
+8. Test with npm.cmd run test:lmc3206, then read the scene in the browser.
+
+JSON RULES AND SAVES
+-------------------
+Use double quotes for property names and string values. Put a comma between
+array items and properties, but not after the final item. JSON has no comments.
+For a literal double quote inside a string, use \". For a line break, use \n.
+Curly quotation marks such as “hello” work as normal text inside JSON strings.
+
+Changing words preserves saves. Adding/removing/reordering lines or choices
+can invalidate a saved path or change what an old line index points to.
+Start a fresh story while editing structural changes. The app validates the
+saved route and prompts for a new story if the route no longer exists.
+
+The story tests currently assert three episodes and nine decisions (19,683
+possible combinations). If you intentionally change that scope, update the
+corresponding expected counts in tests/story.test.js and runtime.test.js.
+The interface calculates its progress and journal counts from your data.
+
+To add a fourth episode, add its JSON filename to loadStory() in
+scripts/story.js. Add a matching theme/illustration in scripts/game.js and
+story.js if needed, update the title-screen copy, and update the scope tests.

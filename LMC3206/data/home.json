@@ -1,0 +1,115 @@
+{
+  "id": "home",
+  "title": "A seat at the table",
+  "subtitle": "Home · Friday, 6:12 PM",
+  "theme": "home",
+  "focus": "Words carry more than their literal meaning.",
+  "scenes": [
+    {
+      "id": "rice",
+      "title": "An ordinary question",
+      "lines": [
+        { "speaker": "An", "text": "By the time we reach my front door, Jules and I have spent forty minutes talking about our class project. We are supposed to make something about a place where we feel we belong." },
+        { "speaker": "An", "text": "I invited Jules over to work on it. Now I can hear the kitchen fan through the door, and I remember that I have not actually told Mom we are coming." },
+        { "speaker": "Mom", "text": "An về rồi hả? Ăn cơm chưa con?", "lang": "vi", "translation": "You're home, An? Have you eaten yet?" },
+        { "speaker": "An", "text": "She has a dish towel over one shoulder and a spoon in her hand. Before I answer, she is already looking behind me for another person to feed." },
+        { "speaker": "Jules", "text": "What did she say? I caught your name. And I think I have heard you say cơm before." },
+        { "speaker": "An", "text": "There is an easy answer. There is a longer answer. Mom is waiting, and Jules is still standing in the doorway with their backpack on." }
+      ],
+      "prompt": "What do you tell Jules?",
+      "note": { "title": "A question, and a relationship", "text": "Cơm can refer to cooked rice or a meal. Here, this mother's question is both about dinner and an opening for care. That reading comes from this scene and their relationship; it is not a rule for every Vietnamese speaker or every use of the phrase." },
+      "choices": [
+        {
+          "id": "literal", "label": "“Have you eaten rice yet?”", "detail": "Stay close to the words.",
+          "reflection": "You kept the image of rice. Jules needed another moment to understand the invitation.",
+          "reaction": [
+            { "speaker": "Jules", "text": "Rice specifically? I had a sandwich. Does that count?" },
+            { "speaker": "An", "text": "I laugh, then realize it is a completely fair question. “Yes. Here she means dinner. Cơm is rice, but it can also mean a meal.”" },
+            { "speaker": "Mom", "text": "Bạn con ăn cùng cho vui.", "lang": "vi", "translation": "Your friend should eat with us. It'll be nice to have company." },
+            { "speaker": "An", "text": "“And now she is inviting you to stay.” The explanation took a detour, but Jules takes off their backpack." }
+          ]
+        },
+        {
+          "id": "paraphrase", "label": "“She’s asking if I’ve eaten.”", "detail": "Give the everyday meaning.",
+          "reflection": "You made the practical question clear. The invitation became clear through what Mom did next.",
+          "reaction": [
+            { "speaker": "Jules", "text": "Oh! Tell her I can go if you need to have dinner. We can work tomorrow." },
+            { "speaker": "An", "text": "“You don't have to go.” I look at Mom, who has already opened the cupboard with the bowls. “I think she is counting you in.”" },
+            { "speaker": "Mom", "text": "Hai đứa rửa tay đi.", "lang": "vi", "translation": "You two, go wash your hands." },
+            { "speaker": "An", "text": "Jules smiles. The translation was enough to understand the question. The second bowl explains the rest." }
+          ]
+        },
+        {
+          "id": "context", "label": "“She’s asking about dinner. It’s also how she checks on me.”", "detail": "Share what the question means between you.",
+          "reflection": "You shared the relationship behind the question, while Mom reminded you that dinner was also quite literal.",
+          "reaction": [
+            { "speaker": "Jules", "text": "Like my dad asking if I got home okay, even when he can see my location?" },
+            { "speaker": "An", "text": "“A little. But she also really wants to know if I've eaten.” Mom taps the spoon against the pot while I finish explaining." },
+            { "speaker": "Mom", "text": "Nói gì mà lâu vậy? Cơm nguội bây giờ.", "lang": "vi", "translation": "What are you talking about for so long? The food is going to get cold." },
+            { "speaker": "An", "text": "We both laugh. Explaining the feeling took longer than answering the actual question." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greeting",
+      "title": "What should I call her?",
+      "lines": [
+        { "speaker": "An", "text": "At the sink, Jules whispers a question while Mom moves the bowls to the table. The kitchen is small enough that whispering feels more conspicuous than speaking." },
+        { "speaker": "Jules", "text": "Should I call her Mrs. Nguyễn? Your mom? I don't want to be rude." },
+        { "speaker": "An", "text": "I usually call her Mẹ. Jules has heard that word, but borrowing my word for my mother would not automatically make it the right word for them." },
+        { "speaker": "Mom", "text": "Cứ gọi cô là cô Mai nhé.", "lang": "vi", "translation": "You can call me cô Mai." },
+        { "speaker": "An", "text": "Mom has answered for herself. Now I have to decide how much of that answer to carry across. Jules looks from her to me, trying to follow." }
+      ],
+      "prompt": "How do you introduce the name Mom offered?",
+      "note": { "title": "Let the person tell you", "text": "Vietnamese forms of address can express age and relationships as well as reference a person. Cô has several uses, including aunt-like address and teacher. In this scene, Mai states her own preference. Asking a person is more reliable than treating one English label as a universal equivalent." },
+      "choices": [
+        { "id": "english", "label": "“She says you can call her Auntie Mai.”", "detail": "Offer a familiar English approximation.", "reflection": "“Auntie” made the warmth accessible, but suggested a family connection Jules had to check.", "reaction": [
+          { "speaker": "Jules", "text": "“Auntie Mai. Okay.” They pause. “Even though we're not related?”" },
+          { "speaker": "An", "text": "“Yes, in this case. It is a friendly way to address her, not a claim that we are cousins.” Jules repeats the name, and Mom answers with a smile." },
+          { "speaker": "An", "text": "The English word gave Jules a place to start. It also carried an assumption I had not meant to add." }
+        ] },
+        { "id": "keep", "label": "“Cô Mai. Cô is the way she’d like you to address her.”", "detail": "Keep her chosen term and explain its use.", "reflection": "You preserved Mom's chosen address. Jules needed time to try a new sound.", "reaction": [
+          { "speaker": "Jules", "text": "“Cô Mai?” They try it quietly once, then say it to her. “Thank you for having me.”" },
+          { "speaker": "Mom", "text": "Không có gì. Ngồi xuống đi con.", "lang": "vi", "translation": "You're welcome. Come sit down." },
+          { "speaker": "An", "text": "Mom gestures toward a chair. Jules does not suddenly know every way to use cô, but they know how she wants to be addressed tonight." }
+        ] },
+        { "id": "ask", "label": "Ask Mom whether “Mai” is okay in English.", "detail": "Check the preference instead of deciding for her.", "reflection": "You gave Mom a say in the translation. The conversation briefly paused to make that room.", "reaction": [
+          { "speaker": "An", "text": "“Mẹ ơi, bạn gọi mẹ là Mai bằng tiếng Anh được không?”", "lang": "vi", "translation": "Mom, is it okay if my friend calls you Mai in English?" },
+          { "speaker": "Mom", "text": "Cô Mai nghe thân hơn. Nhưng từ từ cũng được.", "lang": "vi", "translation": "Cô Mai sounds warmer to me. But there's no rush." },
+          { "speaker": "An", "text": "I pass that on. Jules tries cô Mai. It took an extra exchange, but this time I did not have to guess what Mom preferred." }
+        ] }
+      ]
+    },
+    {
+      "id": "enough",
+      "title": "A second helping",
+      "lines": [
+        { "speaker": "An", "text": "Dinner loosens the conversation. Jules tells a story about our classroom projector. Mom catches the word projector and tells us about a broken one at work." },
+        { "speaker": "An", "text": "I translate the parts they ask for. Other parts get across through a hand gesture, an imitation of the screen going dark, and all three of us laughing." },
+        { "speaker": "Mom", "text": "Ăn thêm chút nữa không?", "lang": "vi", "translation": "Would you like a little more?" },
+        { "speaker": "Jules", "text": "It was really good, but I'm full. Can you tell her? I don't want her to think I didn't like it." },
+        { "speaker": "An", "text": "Mom holds the serving spoon above Jules's bowl. I know she likes feeding people. I also know Jules gets to decide when they have had enough." }
+      ],
+      "prompt": "How do you pass along Jules’s answer?",
+      "note": { "title": "Care does not cancel a boundary", "text": "The options preserve Jules's refusal. Framing can convey gratitude, but an interpreter should not replace someone's stated preference with a cultural assumption. This scene gives both the guest and the host room to say what they mean." },
+      "choices": [
+        { "id": "direct", "label": "“Bạn no rồi mẹ.”", "detail": "“They’re full, Mom.”", "reflection": "You preserved Jules's boundary in a few words. They chose to add their own thanks.", "reaction": [
+          { "speaker": "Mom", "text": "Ừ, vậy thôi. Có nước trên bàn nhé.", "lang": "vi", "translation": "Okay, that's enough then. There's water on the table." },
+          { "speaker": "Jules", "text": "“Thank you. Really, it was delicious.” They put a hand over their heart. Mom nods and sets the spoon down." },
+          { "speaker": "An", "text": "I did not need to manage every part of the exchange. They found a way to finish it together." }
+        ] },
+        { "id": "warm", "label": "“Bạn khen ngon lắm, nhưng bạn no rồi.”", "detail": "“They loved it, but they’re full.”", "reflection": "You carried both the compliment and the refusal, without changing either.", "reaction": [
+          { "speaker": "Mom", "text": "Ngon là được rồi. Không cần cố ăn đâu.", "lang": "vi", "translation": "I'm glad it was good. No need to force yourself to eat." },
+          { "speaker": "An", "text": "I translate, and Jules lets their shoulders drop. “Thanks. I never know how much explaining is too much.”" },
+          { "speaker": "An", "text": "Neither do I, always. Tonight the extra sentence seems to help. We carry the empty bowls to the sink." }
+        ] },
+        { "id": "together", "label": "Help Jules say “Cảm ơn cô, con no rồi.”", "detail": "“Thank you, cô. I’m full.”", "reflection": "You invited Jules into the exchange. Practicing took time, and the refusal still remained theirs.", "reaction": [
+          { "speaker": "An", "text": "“Only if you want to try,” I add. Jules nods, and I say the phrase slowly. They repeat it with a small pause in the middle." },
+          { "speaker": "Mom", "text": "Ừ, cô hiểu rồi.", "lang": "vi", "translation": "Okay, I understand." },
+          { "speaker": "An", "text": "There is no applause for the new phrase. Mom just listens and puts the spoon away. Somehow that ordinary response is the nicest part." }
+        ] }
+      ]
+    }
+  ]
+}

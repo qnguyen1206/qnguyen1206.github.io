@@ -1,0 +1,137 @@
+BETWEEN TWO LANGUAGES: REPRESENTING COMMUNICATION THROUGH CHOICE
+Research/design report working draft — November 13, 2026
+
+STATUS: This is a revision scaffold, not a completed research submission.
+Source numbers refer to annotated-bibliography-draft.txt. Source-level
+claims below are limited to the public descriptions recorded there. Add
+full-text analysis and page references after reading. No library access,
+personal testimony, completed playtest, or learning gain is implied.
+
+RESEARCH QUESTION AND DESIGN ARGUMENT
+
+How can interactive storytelling represent the everyday communication
+challenges experienced by bilingual speakers, particularly in translation,
+cultural interpretation, and language-based identity? Between Two Languages
+approaches this question through a fictional student, An, whose family and
+classmates meet around a course project. The player does not translate a
+list of vocabulary items. Instead, the player chooses what an answer should
+do in a particular relationship: convey information, invite participation,
+provide context, ask for time, or establish a boundary.
+
+The game's design argument is that multiple reasonable responses can reveal
+different aspects of a situation. A literal translation can preserve an
+image while confusing a listener. A paraphrase can make the practical point
+clear while leaving some interpersonal meaning unexplained. A longer
+explanation can create understanding while requiring time and effort. A
+choice-based story makes those tradeoffs available for comparison without
+requiring a single correct answer. This is an argument about representation,
+not a measured claim about what the player learns.
+
+EPISODE 1: THE SOCIAL WORK OF AN ORDINARY QUESTION
+
+The first episode takes place at dinner. Mom asks whether An has eaten, and
+Jules asks for a translation. The three options stay close to the reference
+plan: a rendering about rice, an everyday question about eating, and an
+explanation of checking on someone. Each branch continues beyond the first
+response. This is essential because a misunderstanding is not necessarily
+the end of communication. Speakers can ask, correct, laugh, and gesture.
+
+Baker and Jones's listed distinction between word-level and pragmatic
+equivalence offers a starting vocabulary for analyzing these choices [3].
+The prototype's application is deliberately situated: Mom's actions, the
+time of day, and the relationship explain this particular question. The
+script does not claim that one sentence always expresses care. The same
+approach shapes the greeting scene, where Mom names her preferred form of
+address. An can approximate it in English, preserve it, or ask about it.
+The person being addressed participates in the decision.
+
+The final dinner scene introduces a boundary. Jules is full and wants to
+decline more food. Every option preserves that refusal; the choices concern
+how to express it. This prevents the game's premise from turning cultural
+interpretation into permission to override a person. It also provides a
+positive exchange in which understanding does not require perfect speech.
+
+EPISODE 2: FINDING EXPRESSION WITHOUT A DEFICIT MODEL
+
+At school, An thinks of ngại while considering a request to record dinner.
+The player can use an approximate English word, describe the situation, or
+introduce the Vietnamese word and explain its intended sense. An is fluent,
+but fluency does not require a perfectly satisfying label at every moment.
+The dialogue also gives Minh a different interpretation, so shared language
+does not become automatic access to another person's thoughts.
+
+Grosjean's abstract argues against treating a bilingual speaker as two
+monolinguals contained in one person [1]. In the game, this is a reason to
+avoid a meter that rewards complete equivalence across languages. It is
+not evidence that An's pause has a particular cognitive cause. The context
+note explicitly recognizes that word searching also occurs in monolingual
+speech. A later decision lets the player request time, collaborate, or use
+an example rather than accept an inaccurate word offered by a friend.
+
+Gumperz's summaries place switching within conversational interpretation
+[2]. The corresponding scene involves a joke between An and Minh. The joke
+works before Jules understands it. The player then chooses a bridge: share
+its image, give its practical point, or invite Minh to explain. Switching
+is neither punished nor treated as automatically inclusive. The relevant
+question is how this group can make participation possible in that moment.
+
+EPISODE 3: AUDIENCE, IDENTITY, AND THE RIGHT TO PRIVACY
+
+The final episode connects the family and school settings. An can describe
+the project to Mom through its academic question, through a familiar sound,
+or after finishing the dishes. These alternatives are all truthful. They
+show how the timing and emphasis of an account can change with its audience
+without turning one version into a false self.
+
+Bucholtz and Hall's abstract frames identity as produced in interaction,
+with attention to roles, relationships, and local positions [4]. The game
+uses this as a prompt to resist a simple division into an English self and
+a Vietnamese self. When Jules asks whether An feels like a different person,
+the player can describe continuity, describe a personal difference, or keep
+the question private. No option awards authenticity. In each case, Jules
+responds to the answer An actually gives.
+
+The endings emphasize connection, personal agency, or listening. They do
+not resolve all the character's experiences. Instead, each returns to an
+ordinary moment: a longer conversation at home, a decision about sharing a
+recording, or the sound of a chair being pulled out. The player ends with
+a journal of specific exchanges rather than a diagnosis of their identity.
+
+WHY INTERACTION, AND WHY THIS SCOPE?
+
+The repository abstract for Tanenbaum and Tanenbaum offers agency as a
+commitment to meaning rather than simply the number of available actions
+[5]. This provides a tentative rationale for local branches that rejoin.
+The game has nine decisions and 27 distinct reaction sequences. It does
+not need thousands of separately written endings to show what a response
+conveys. The journal makes the selected interpretation visible. Backtracking
+lets the player compare another response and updates the journal accordingly.
+
+Isbister's publisher description and excerpt connect game design with
+emotional experiences and the consequences of choices [6]. The prototype
+uses small reactions rather than spectacle: someone relaxes after a refusal
+is understood, a friend waits for a thought, or a joke becomes shared. Those
+are design intentions. Establishing that players feel empathy, understand
+bilingualism differently, or retain concepts would require an evaluation
+that has not been conducted.
+
+IMPLEMENTATION, LIMITATIONS, AND NEXT STEPS
+
+The game uses native HTML controls, CSS, JavaScript, and three JSON episode
+files. Separating prose from rendering lets the author replace fictional
+examples with appropriate experiences without changing the controller.
+Translations, contextual explanations, keyboard navigation, and a readable
+transcript reduce barriers to participation. Automated checks validate every
+choice path, saving and resuming, backtracking, and controller behavior.
+They do not establish cultural accuracy or certify accessibility.
+
+The current source review is preliminary. Full-text reading, precise
+citations, and three documented Georgia Tech Library accesses remain
+necessary. The language should be reviewed for the intended family and
+regional context. At least two playtests should record reading time, points
+of confusion, perceived pressure to choose a “correct” answer, and whether
+the journal accurately describes each choice. Browser and mobile visual
+checks also remain pending because no connected browser was available.
+The report must be revised with those observations, including findings that
+challenge the original design. The instructor must confirm how the game,
+script, report, and memo satisfy the required writing equivalence.

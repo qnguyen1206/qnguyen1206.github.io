@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#efe9dc">
+  <meta name="description" content="A short interactive story about home, school, and the meanings we carry between English and Vietnamese.">
+  <title>Between Two Languages · LMC 3206</title>
+  <link rel="icon" type="image/svg+xml" href="assets/mark.svg">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to story</a>
+  <header class="site-header">
+    <button class="wordmark" id="home-button" aria-label="Between Two Languages, title screen"><span class="brand-symbol" aria-hidden="true">a<span>ă</span></span><span>BETWEEN TWO<br>LANGUAGES</span></button>
+    <span class="header-note">AN INTERACTIVE SHORT STORY</span>
+    <nav aria-label="Story tools"><button id="journal-button">Your journal <span id="journal-count">00</span></button><button id="about-button">About <span aria-hidden="true">↗</span></button></nav>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section id="title-screen" class="title-layout" aria-labelledby="title-heading">
+      <div class="title-copy">
+        <p class="eyebrow"><span class="small-line"></span> A STORY IN THREE CONVERSATIONS</p>
+        <h1 id="title-heading">Between<br>Two <em>Languages</em><span class="title-dot">.</span></h1>
+        <p class="vietnamese-title" lang="vi">Giữa hai ngôn ngữ</p>
+        <p class="intro">Some things translate.<br>Others need a little more room.</p>
+        <p class="description">A seat at the dinner table. A word that won’t come.<br class="desktop-break"> A different way of saying who you are.</p>
+        <div class="start-actions"><button class="primary" id="begin-button" disabled>Loading story… <span aria-hidden="true">↗</span></button><button id="resume-button" class="text-button" hidden>Continue your story <span aria-hidden="true">→</span></button></div>
+        <p class="play-note">English &amp; Vietnamese <span>·</span> Translations included</p>
+        <p id="load-error" role="alert" hidden></p>
+      </div>
+      <div class="title-art">
+        <div class="art-topline"><span>01 / AT HOME</span><span lang="vi">Một chỗ ngồi cho bạn</span></div>
+        <div class="art-frame"><img src="assets/home.svg" alt="A warm kitchen at dusk, with an open window, a table set for three, and a kettle on the counter."><div class="art-quote"><span lang="vi">“Ăn cơm chưa con?”</span><small>Have you eaten yet?</small></div><span class="art-stamp" aria-hidden="true">ở nhà<br>at home</span></div>
+        <p class="art-caption"><span>Familiar words. More than one meaning.</span><span aria-hidden="true">✳</span></p>
+      </div>
+      <div class="chapter-preview"><p>ONE DAY.<br><strong>MORE THAN ONE WAY TO SAY IT.</strong></p><div><span>01</span><p>Home<small>What the words carry</small></p></div><div><span>02</span><p>School<small>Finding your expression</small></p></div><div><span>03</span><p>Between worlds<small>Speaking for yourself</small></p></div></div>
+    </section>
+
+    <section id="play-screen" hidden aria-label="Interactive story">
+      <div class="story-topline"><div><span id="episode-number" class="eyebrow"></span><h1 id="episode-title"></h1></div><label class="translation-toggle"><input id="translations" type="checkbox" checked> English translations</label></div>
+      <div class="game-layout">
+        <div class="scene-stage" id="scene-stage"><img id="scene-image" src="assets/home.svg" alt=""><div class="scene-location"><span class="live-dot"></span><span id="scene-location"></span></div><div class="scene-caption"><p id="scene-theme"></p><span id="scene-number"></span></div><div class="character-label"><span id="character-monogram" aria-hidden="true">A</span><div><strong id="character-name">An</strong><small id="character-role">Your perspective</small></div></div></div>
+        <article class="dialogue-panel" aria-label="Conversation">
+          <div class="dialogue-meta"><span id="scene-title"></span><button id="context-button" class="context-button" disabled>Context <span aria-hidden="true">＋</span></button></div>
+          <div id="dialogue-content" tabindex="-1" aria-live="polite" aria-atomic="true"><p id="speaker" class="eyebrow"></p><p id="dialogue-text"></p><div id="translation-wrap" hidden><span>ENGLISH</span><p id="translation-text"></p></div></div>
+          <button id="reveal-translation" class="text-button" hidden>Show English translation</button>
+          <div id="choices" class="choices" aria-label="Choose your response"></div>
+          <div class="dialogue-footer"><button id="back-button" class="text-button">← Back</button><span id="reading-hint">Take your time</span><button id="next-button" class="primary">Continue <span aria-hidden="true">→</span></button></div>
+        </article>
+      </div>
+      <div class="story-progress"><ol id="episode-progress" aria-label="Episode progress"></ol><span id="save-status" role="status">Saved on this device</span></div>
+    </section>
+
+    <section id="end-screen" class="end-screen" hidden aria-labelledby="end-heading"><p class="eyebrow">THE END · AND ANOTHER BEGINNING</p><h1 id="end-heading">There is room<br>for <em>both.</em></h1><p class="end-intro">You carried more than words from one conversation to the next.<br>Here are the moments that made this telling yours.</p><div id="end-journal" class="end-journal"></div><div class="end-actions"><button id="replay-button" class="primary">Tell it another way <span aria-hidden="true">↗</span></button><button id="end-back-button" class="text-button">← Return to the last moment</button><button id="download-button" class="text-button">Download your journal ↓</button></div><p class="play-note">No score. No perfect translation. Just a different conversation.</p></section>
+  </main>
+
+  <footer class="site-footer"><span>LMC 3206 <span class="footer-separator">/</span> FALL 2026</span><span>A fictional story about language &amp; belonging</span><span>READ AT YOUR OWN PACE <span aria-hidden="true">↗</span></span></footer>
+  <dialog id="journal-dialog" aria-labelledby="journal-heading"><div class="modal-top"><p class="eyebrow">THE THINGS YOU CARRIED</p><button class="close-button" data-close aria-label="Close journal">×</button></div><h2 id="journal-heading">Your journal</h2><p>Choices leave traces, not scores. Going back and choosing again changes this telling.</p><div id="journal-entries"></div><details class="transcript"><summary>Read the conversation so far</summary><div id="transcript-entries"></div></details></dialog>
+  <dialog id="context-dialog" aria-labelledby="context-heading"><div class="modal-top"><p class="eyebrow">BETWEEN THE LINES</p><button class="close-button" data-close aria-label="Close context note">×</button></div><h2 id="context-heading"></h2><p id="context-text"></p><p class="modal-footnote">A reading of this moment, not a rule for every speaker.</p></dialog>
+  <dialog id="about-dialog" aria-labelledby="about-heading"><div class="modal-top"><p class="eyebrow">ABOUT THE STORY</p><button class="close-button" data-close aria-label="Close about">×</button></div><h2 id="about-heading">More than replacing words.</h2><p>You are An, a student who uses Vietnamese at home and English at school. Across three episodes, choose what to say, how to explain it, and what to keep to yourself.</p><p>These are fictional situations written for a course prototype, not interviews or a universal account of bilingual life. Vietnamese usage varies across speakers, families, and contexts. The dialogue and notes are editable and await the author's research and language review.</p><h3>Make yourself at home</h3><ul><li>Use Continue, or the right arrow key, to read. Use Back or the left arrow to revisit a line.</li><li>At a choice, click a response or focus it with Tab and press Enter.</li><li>English translations are on by default. Context notes offer another layer when available.</li><li>Your progress stays in this browser when local storage is available. Returning to the title does not erase it.</li></ul><p>This prototype has no recorded audio. All illustrations are original SVG artwork made for this project. Reading time is a design target of 10–15 minutes and has not been measured with playtesters.</p><p class="modal-footnote">Between Two Languages · LMC 3206 · Fall 2026</p></dialog>
+  <dialog id="restart-dialog" aria-labelledby="restart-heading"><div class="modal-top"><p class="eyebrow">A DIFFERENT TELLING</p><button class="close-button" data-close aria-label="Cancel restart">×</button></div><h2 id="restart-heading">Start a new story?</h2><p>This replaces the saved conversation and journal on this device. You can download your current journal first.</p><div class="restart-actions"><button id="confirm-restart" class="primary">Start again →</button><button id="restart-download" class="text-button">Download journal ↓</button><button class="text-button" data-close>Keep my place</button></div></dialog>
+  <noscript><p class="no-script">This story needs JavaScript to display dialogue and remember your choices. Please enable it and reload.</p></noscript>
+  <script type="module" src="scripts/game.js"></script>
+</body>
+</html>

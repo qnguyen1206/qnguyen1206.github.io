@@ -1,0 +1,116 @@
+BETWEEN TWO LANGUAGES — EVALUATION MEMO DRAFT & SUBMISSION RECORD
+November 13, 2026
+
+MEMO DRAFT: VERIFIED PROCESS, NOT A PERSONAL REFLECTION TO SUBMIT UNCHANGED
+
+The initial implementation translates the supplied development plan into a
+complete three-episode browser story. Its scope follows the recommended
+visual-novel format. Movement, inventory, recorded voices, relationship
+scores, and generated runtime dialogue were excluded so the work could
+concentrate on authored conversations. All scene prose is stored in JSON
+in response to the author's request to edit the material independently.
+
+The most consequential narrative choice was to make each response reasonable
+within its context. The branches show different effects instead of marking
+answers right or wrong. A refusal remains a refusal; a request for time is
+respected; a decision not to explain identity remains available. Shared humor
+and collaboration balance the scenes of uncertainty. The endings reflect a
+chosen emphasis rather than ranking how successfully An performs bilingualism.
+
+The implementation separates story validation, state transitions, and the
+browser interface. A path-based save records the actual dialogue route.
+Backtracking truncates that route, so changing a response also changes the
+journal. Invalid saves fall back to a visible message and a new story.
+When browser storage is unavailable, play can continue for the current visit.
+The Vite configuration includes the new entry and copies its JSON files.
+
+Verification currently includes 12 automated tests. A graph traversal checks
+all 19,683 combinations for a reachable ending, nine decisions, and coverage
+of all three episodes. State tests cover persistence and invalid saves.
+Controller tests use DOM doubles to exercise the actual rendering/event
+code, including completion, translations, context, restart, and unavailable
+storage. The repository production build succeeds. Browser testing could
+not be completed because the browser connection reported no available
+browsers. Automated controller checks do not substitute for visual, mobile,
+assistive-technology, or human playtesting.
+
+Research integration remains provisional. Six scholarly candidates have
+preliminary annotations grounded in public records, summaries, or abstracts.
+The final report needs full-text engagement, three genuine GT Library
+accesses, and verified page references. The script's Vietnamese phrasing
+also needs review. The project should not claim measured learning gains,
+authentic personal testimony, completed interviews, or participant feedback.
+The author should replace this process summary with their own reflection
+on the revisions and decisions they actually make before submission.
+
+AUTHOR'S REVISION QUESTIONS
+  What personal experience, if any, did you choose to incorporate?
+  Which source passage changed a particular scene, and how?
+  Which Vietnamese phrasing did you revise after review, and why?
+  What did a playtester misunderstand or find unexpectedly meaningful?
+  What did you remove to protect the project's scope?
+  What remains unresolved, and what would a next version change?
+
+PLAYTEST PROTOCOL — NOT YET CONDUCTED
+  Recruit at least two people; record no personal details without consent.
+  Ask each to play at their own pace without coaching on choice quality.
+  Record start/end time, device/browser, translation setting, and obstacles.
+  Ask them to describe one tradeoff in their own words.
+  Ask whether any option felt like the “correct” or “more authentic” answer.
+  Ask where context was helpful, missing, distracting, or overly general.
+  Ask whether Back, translations, and the journal behaved as expected.
+  Invite a Vietnamese-language reviewer to identify wording/register issues.
+  Treat observations as usability feedback, not a controlled learning study.
+
+PLAYTEST RECORD (duplicate for each participant)
+  Anonymous label:
+  Date / browser / device:
+  Completion time:
+  Observed difficulty (what happened, not an interpretation of motive):
+  Participant's actual feedback:
+  Scene IDs involved:
+  Change made and reason:
+  Follow-up result, if tested:
+
+BROWSER CHECKLIST — PENDING
+  [ ] Desktop start → all three episodes → ending.
+  [ ] Small mobile viewport and 200% zoom; no clipped choices or text.
+  [ ] All three illustrations and Vietnamese diacritics display correctly.
+  [ ] Tab focus and Enter/Space activation; no keyboard trap.
+  [ ] Screen-reader language changes, dialogue announcements and dialogs.
+  [ ] Translation default, global toggle and per-line reveal.
+  [ ] Context and journal opening, Escape closing, and focus restoration.
+  [ ] Reload and resume; backtracking and changed choices update journal.
+  [ ] Cancel restart preserves progress; confirm restart replaces it.
+  [ ] Downloaded journal includes chosen reactions and correct UTF-8 text.
+  [ ] Production /LMC3206/ route and JSON/assets on the actual host.
+  [ ] A second browser and storage-disabled browsing.
+
+REMAINING DATES FROM THE SUPPLIED PLAN
+  November 18: annotated bibliography / first playable milestone.
+  November 24–29: visual review, accessibility checks, two playtesters.
+  November 30–December 4: finalize report and evaluation memo.
+  December 5–7: final deployed testing, proofreading, rehearsal, submission.
+  December 7, 2026: project deadline stated in the supplied plan.
+
+FINAL PACKAGE CHECKLIST
+  [x] Three-episode playable implementation with nine decisions.
+  [x] Editable JSON and authoring instructions.
+  [x] Local production build integration.
+  [x] Design document and research/design report draft.
+  [x] Six source candidates with preliminary annotations and direct links.
+  [x] Evaluation scaffold and five-minute presentation outline.
+  [ ] Author review and revision of the fictional narrative.
+  [ ] Vietnamese-language and contextual review.
+  [ ] Full-text reading and final annotations for all six sources.
+  [ ] At least three documented Georgia Tech Library source accesses.
+  [ ] Two completed playtests and recorded revisions.
+  [ ] Measured playtime, browser/mobile/accessibility verification.
+  [ ] Final report formatted to the instructor's requirements.
+  [ ] Instructor confirmation of seven double-spaced pages or equivalent.
+  [ ] Personalized evaluation memo and rehearsed presentation.
+  [ ] Actual deployed URL tested on multiple browsers.
+  [ ] Submission through the course's required channel.
+
+No grading equivalence, deployment, institutional access, or submission is
+claimed by a checked implementation item.

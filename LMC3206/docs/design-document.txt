@@ -1,0 +1,59 @@
+BETWEEN TWO LANGUAGES — GAME DESIGN DOCUMENT
+LMC 3206 / Fall 2026 / Working draft, November 13, 2026
+
+CONCEPT
+A short browser visual novel about An, a student who speaks Vietnamese at
+home and English at school. A group project brings An's family and friends
+into contact. The player chooses how to explain an ordinary question, ask
+for time to find a word, and talk about belonging. The central idea is that
+communication includes relationships, intentions, and audience expectations
+as well as the words themselves.
+
+AUDIENCE AND EXPERIENCE
+Designed for desktop browsers, with a responsive mobile layout. English
+translations are available for every Vietnamese dialogue line. The intended
+audience includes monolingual readers curious about bilingual experiences.
+The target is 10–15 minutes, pending timed human playtests. There are no timers,
+language quizzes, correctness scores, or required Vietnamese knowledge.
+
+CORE LOOP
+Read a short conversation; optionally consult a translation; choose one of
+two or three ways to respond; read a distinct reaction; optionally inspect a
+context note; carry a reflection into the journal. Players can go back to
+compare the consequences of another choice. Save/resume supports pauses.
+
+EPISODE 1 — HOME: A SEAT AT THE TABLE
+Dinner with Mom and Jules. Decisions concern a meal question, a preferred
+form of address, and declining a second helping. Objective: distinguish a
+close rendering of words from the interpersonal work those words do. The
+host explicitly states her preferred address and respects the guest's no.
+
+EPISODE 2 — SCHOOL: LOOKING FOR A WORD
+A project meeting with Jules and Minh. Decisions concern expressing ngại,
+including a friend after switching languages, and finishing a thought.
+Objective: explore expression and collaboration without treating a pause
+or a language switch as proof of deficient fluency.
+
+EPISODE 3 — BETWEEN WORLDS: IN MY OWN WORDS
+An shares the project with family and friends. Decisions concern framing,
+personal boundaries, and the last line of an audio project. Objective:
+explore audience and identity while allowing privacy and different ways
+of being understood. Connection, agency, and listening are equally valid
+closing emphases. The audio project is fictional; the game plays no audio.
+
+STRUCTURE AND PRESENTATION
+Three episodes, nine decisions, three options per decision, 27 authored
+reaction sequences. Branches rejoin at the next scene. The final decision
+changes the closing passage, and the journal preserves the full chosen
+route. Warm paper, muted green, rust, and original SVG environments create
+a quiet reading space. HTML, CSS, and JavaScript use the repository's Vite
+build. All dialogue is stored in editable JSON. No backend is required.
+
+EVIDENCE AND EVALUATION
+These scenes are fiction, not collected testimony. Research is secondary
+and currently includes public source summaries and publication records.
+Read and document at least three sources through Georgia Tech Library;
+review all six full texts before finalizing annotations. Review Vietnamese
+phrasing with an appropriate reader, recruit two playtesters, and record
+observations rather than claiming unmeasured learning gains. Confirm the
+instructor's required writing equivalence. See the other documents here.

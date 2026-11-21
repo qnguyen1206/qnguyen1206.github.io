@@ -1,0 +1,100 @@
+{
+  "id": "identity",
+  "title": "In my own words",
+  "subtitle": "Between worlds · Wednesday, 7:05 PM",
+  "theme": "identity",
+  "focus": "You can choose what to share, and how to say it.",
+  "scenes": [
+    {
+      "id": "family",
+      "title": "The version for home",
+      "lines": [
+        { "speaker": "An", "text": "By Wednesday, our project has a title: A Place at the Table. Mom agreed that we could record the sounds of preparing dinner, but asked us not to record her conversations." },
+        { "speaker": "An", "text": "We used the kettle, the cupboard door, and the scrape of chairs on the floor. Jules recorded the walk back to campus. Minh edited the two places together." },
+        { "speaker": "Mom", "text": "Bài ở lớp thế nào rồi con?", "lang": "vi", "translation": "How is your class project going?" },
+        { "speaker": "An", "text": "We are clearing the table. I could give her the title, the assignment, the whole argument about recording an ordinary evening. Or I could start with the part she helped make." },
+        { "speaker": "An", "text": "At school, I have been talking about language and belonging. Here, those words feel a little distant from the person handing me a wet plate." }
+      ],
+      "prompt": "What version do you share with Mom?",
+      "note": { "title": "Changing the frame", "text": "Choosing details for an audience does not necessarily make an account dishonest. Each option here is true within the story. An can explain the academic frame, begin with a shared experience, or keep the answer short without being scored for closeness to family." },
+      "choices": [
+        { "id": "academic", "label": "Explain the project’s question about language and belonging.", "detail": "Invite her into the ideas you discuss at school.", "reflection": "You shared the academic frame. Mom connected the abstract question to her own experience.", "reaction": [
+          { "speaker": "An", "text": "“Tụi con làm về ngôn ngữ và cảm giác thuộc về một nơi.”", "lang": "vi", "translation": "We're working on language and the feeling of belonging somewhere." },
+          { "speaker": "Mom", "text": "Như lúc mẹ ở chỗ làm khác với lúc ở nhà à?", "lang": "vi", "translation": "Like how I am at work compared with how I am at home?" },
+          { "speaker": "An", "text": "I had been preparing to explain a difficult idea. Mom already has her own way into it. I ask what changes for her at work." }
+        ] },
+        { "id": "shared", "label": "Start with the kitchen sounds she helped you record.", "detail": "Begin with something you both know.", "reflection": "You began with a shared moment. Mom heard her own contribution before hearing the theory.", "reaction": [
+          { "speaker": "An", "text": "“Có tiếng ấm nước nhà mình trong bài đó mẹ.”", "lang": "vi", "translation": "The sound of our kettle is in the project, Mom." },
+          { "speaker": "Mom", "text": "Cái ấm kêu to quá đó hả? Vậy mà cũng có ích.", "lang": "vi", "translation": "That noisy kettle? So it turned out to be useful." },
+          { "speaker": "An", "text": "I play her the short clip. She recognizes the cupboard before I point it out. We talk about why a sound can make somewhere feel familiar." }
+        ] },
+        { "id": "brief", "label": "“It’s going well. Can I show you after we finish the dishes?”", "detail": "Keep it brief and choose a better moment.", "reflection": "You chose the timing of the conversation. A short answer did not have to close the subject.", "reaction": [
+          { "speaker": "An", "text": "“Ổn mẹ. Rửa chén xong con cho mẹ nghe nhé?”", "lang": "vi", "translation": "It's going well. Can I play it for you after we finish the dishes?" },
+          { "speaker": "Mom", "text": "Ừ. Lau cái đĩa này trước đi.", "lang": "vi", "translation": "Sure. Dry this plate first." },
+          { "speaker": "An", "text": "There is relief in finishing one thing before starting another. I set my phone on the counter for later and reach for the towel." }
+        ] }
+      ]
+    },
+    {
+      "id": "friends",
+      "title": "The version for friends",
+      "lines": [
+        { "speaker": "An", "text": "Later, Jules calls to check the captions for our audio. One caption translates Mom's dinner question, which I recorded again in my own voice with her permission." },
+        { "speaker": "Jules", "text": "Listening to this, you sound different in Vietnamese. Softer, maybe? Does it feel like being a different person?" },
+        { "speaker": "An", "text": "I know Jules is curious. I also know the recording is from a quiet kitchen, and most of our English conversations happen while rushing between classes." },
+        { "speaker": "An", "text": "There is something interesting in the question, but I do not want to become a demonstration of what every bilingual person is like." },
+        { "speaker": "Jules", "text": "You don't have to answer that for the project. I'm asking you, not the microphone." }
+      ],
+      "prompt": "How much do you want to unpack?",
+      "note": { "title": "A person, not a representative", "text": "An's response describes An, not all bilingual people. Language, audience, setting, mood, and relationships can overlap. None of these choices identifies a more authentic self, and choosing privacy is not a failed conversation." },
+      "choices": [
+        { "id": "same", "label": "“Still me. You’re also hearing me in a different situation.”", "detail": "Question the assumption without shutting down curiosity.", "reflection": "You separated the sound of a language from the setting in which Jules heard it.", "reaction": [
+          { "speaker": "Jules", "text": "True. You also sound different when we are presenting versus complaining about the printer." },
+          { "speaker": "An", "text": "“Exactly. Vietnamese matters to me, but so does talking to my mom instead of presenting to a room.”" },
+          { "speaker": "Jules", "text": "I'll change the caption from “two sides of An” to “two places in An's day.” Tell me if that still feels off." }
+        ] },
+        { "id": "different", "label": "“Some parts of me come forward more easily in each language.”", "detail": "Share a feeling without making it a universal rule.", "reflection": "You shared a personal difference while leaving room for other people's experiences.", "reaction": [
+          { "speaker": "An", "text": "“Certain jokes come easily at home. Most of my school vocabulary comes in English. That is about where I use the words, too. Minh might answer differently.”" },
+          { "speaker": "Jules", "text": "So I shouldn't turn your answer into a caption about all bilingual people." },
+          { "speaker": "An", "text": "“Please don't.” I am glad they asked, and glad I got to put a boundary around the answer." }
+        ] },
+        { "id": "private", "label": "“I’m not ready to put that into words tonight.”", "detail": "Keep this part of your experience private.", "reflection": "You set a boundary. Jules could respect it without needing a fuller explanation.", "reaction": [
+          { "speaker": "Jules", "text": "Okay. Thanks for telling me. We can just label the places and the speakers." },
+          { "speaker": "An", "text": "“That would be good.” We return to the captions. I do not feel less like their friend because I left one question unanswered." },
+          { "speaker": "An", "text": "Before we hang up, Jules sends a photo of the recorder with a note: I finally learned which button to press. Some jokes need no translating now." }
+        ] }
+      ]
+    },
+    {
+      "id": "ending",
+      "title": "What the listener takes home",
+      "lines": [
+        { "speaker": "An", "text": "The next morning, we sit together for one last listen. A cupboard closes. Footsteps fade into campus noise. My voice asks the dinner question, followed by its English caption." },
+        { "speaker": "Minh", "text": "We have room for a final line from you, if you want one. Something to connect the places." },
+        { "speaker": "Jules", "text": "Or we can let the sounds finish. It doesn't need to explain your whole life." },
+        { "speaker": "An", "text": "I look at our notes. So many small choices: what to translate, what to explain, when to wait, who gets to speak. None of them turned the evening into a perfect exchange." },
+        { "speaker": "An", "text": "But we ate together. We made something together. There is more room in the conversation than there was when Jules first stood in our doorway." },
+        { "speaker": "An", "text": "I do not need a sentence that solves being bilingual. I only need to decide how I want this particular story to end." }
+      ],
+      "prompt": "What do you leave with the listener?",
+      "note": { "title": "An ending, not a score", "text": "These endings emphasize connection, personal agency, or listening. None is a best ending. Your journal records the choices you made and their tradeoffs, rather than calculating how well you performed a language or an identity." },
+      "choices": [
+        { "id": "connection", "label": "“Understanding is something we make together.”", "detail": "End with the work of connection.", "reflection": "You ended with shared responsibility: listeners and speakers both help an exchange take shape.", "reaction": [
+          { "speaker": "An", "text": "I record the line, then ask Minh and Jules to listen. “Does that sound like what we made?” They each suggest a tiny change to the pause before it." },
+          { "speaker": "An", "text": "At home, Mom asks how the presentation went. I tell her Jules can now hear our kettle in almost any recording. She says we should probably replace it." },
+          { "speaker": "An", "text": "I laugh, and then I tell her the rest. There is time for the longer answer tonight." }
+        ] },
+        { "id": "voice", "label": "“Both languages are mine. So is the choice of what to share.”", "detail": "End with your own voice.", "reflection": "You ended with agency: you can belong in more than one language without making everything public.", "reaction": [
+          { "speaker": "An", "text": "I record the line in one take. It sounds more definite than I feel on some days, but it is a sentence I want to keep." },
+          { "speaker": "An", "text": "After class, someone asks whether we will publish the recordings. I say we will check with everyone involved. Finishing the assignment does not change what Mom agreed to share." },
+          { "speaker": "An", "text": "On the walk home, I send her a message in Vietnamese and Jules a message in English. Both sound like me." }
+        ] },
+        { "id": "listen", "label": "Let the kitchen sounds have the last word.", "detail": "End with space for the listener.", "reflection": "You ended with listening. Some meaning can remain open without being missing.", "reaction": [
+          { "speaker": "An", "text": "“Let's leave the chair scrape in.” Minh adjusts the ending. For a few seconds, no one fills the silence with an explanation." },
+          { "speaker": "An", "text": "After the presentation, a classmate says the sound reminded them of their grandmother's apartment. It is not my memory, but the recording made space for theirs." },
+          { "speaker": "An", "text": "That evening, I pull out a chair at home. Mom looks up. I have not said anything yet, and already there is a place for me." }
+        ] }
+      ]
+    }
+  ]
+}

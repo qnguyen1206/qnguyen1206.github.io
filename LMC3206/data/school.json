@@ -1,0 +1,100 @@
+{
+  "id": "school",
+  "title": "Looking for a word",
+  "subtitle": "School · Monday, 11:40 AM",
+  "theme": "school",
+  "focus": "A pause can be part of finding the thought.",
+  "scenes": [
+    {
+      "id": "word",
+      "title": "The word that arrives first",
+      "lines": [
+        { "speaker": "An", "text": "On Monday, Jules and I meet Minh in the library. Our project has changed from a map of meaningful places into a collection of short recordings about them." },
+        { "speaker": "Minh", "text": "What about recording dinner at your place? Just the sounds, or a little conversation. It sounded like a good evening." },
+        { "speaker": "An", "text": "I like the idea, but I have not asked Mom. I imagine setting a microphone beside her bowl and announcing that our evening is now material for a class." },
+        { "speaker": "An", "text": "The word that comes first is ngại. I know English. I also know that “shy” is not quite what I mean here. I am reluctant to put her on the spot." },
+        { "speaker": "Jules", "text": "We don't have to use it. What are you thinking?" },
+        { "speaker": "An", "text": "There is enough space to answer, if I let myself use it. Minh slides the project notes toward me and waits." }
+      ],
+      "prompt": "How do you explain the hesitation?",
+      "note": { "title": "Available words, particular meanings", "text": "For this fictional An, ngại arrives before a satisfying English phrasing. Its meaning depends on context. The scene represents one experience of searching for a word; it does not imply that bilingual people are generally less fluent or always translate internally." },
+      "choices": [
+        { "id": "short", "label": "“I’m shy about asking her.”", "detail": "Use the word you have right now.", "reflection": "The short translation got the conversation moving. A follow-up helped distinguish reluctance from shyness.", "reaction": [
+          { "speaker": "Minh", "text": "Would it help if I asked her? I can write a message explaining the assignment." },
+          { "speaker": "An", "text": "“Maybe. But it isn't really that I'm shy. I don't want her to feel she has to say yes because it is for my class.”" },
+          { "speaker": "Jules", "text": "Then let's make it easy to say no. We can have another idea ready before you ask." }
+        ] },
+        { "id": "rephrase", "label": "“I don’t want her to feel put on the spot.”", "detail": "Describe the situation instead of finding one word.", "reflection": "You made the concern actionable. Some of the feeling stayed outside the sentence.", "reaction": [
+          { "speaker": "Minh", "text": "That makes sense. We can tell her exactly what we'd record and let her decide later, away from us." },
+          { "speaker": "An", "text": "The sentence does not contain every shade of what I feel. It does give us something useful to do. We write “ask first, no deadline for her answer” in the notes." },
+          { "speaker": "Jules", "text": "And we can record the walk to campus if she doesn't want to. That is a place too." }
+        ] },
+        { "id": "explain", "label": "“I’m thinking of ngại. Here, I mean reluctant to impose.”", "detail": "Keep the Vietnamese word and unpack your meaning.", "reflection": "You let your friends hear the word behind the pause. Explaining it used some of your limited meeting time.", "reaction": [
+          { "speaker": "Minh", "text": "I use that word too, but I might have said “awkward” here. Is it more about asking her, or about recording home?" },
+          { "speaker": "An", "text": "“Both, I think.” Even sharing a word does not mean Minh can read my mind. The question helps me separate the two concerns." },
+          { "speaker": "Jules", "text": "Let's leave room for both. We have ten minutes left, so maybe we choose a backup idea now and revisit the recording later." }
+        ] }
+      ]
+    },
+    {
+      "id": "switch",
+      "title": "One conversation, two languages",
+      "lines": [
+        { "speaker": "An", "text": "We start testing the recorder. I keep tapping the microphone instead of the record button. Minh reaches across the table to point out the tiny red circle." },
+        { "speaker": "Minh", "text": "Từ từ thôi, có ai đuổi đâu.", "lang": "vi", "translation": "Slow down. No one's chasing you." },
+        { "speaker": "An", "text": "I laugh before I think about which language the joke is in. Minh has the same amused expression my cousin gets when I rush through a task." },
+        { "speaker": "Jules", "text": "Wait, what did I miss? Is the recorder broken?" },
+        { "speaker": "An", "text": "Nothing about the switch was planned. Still, Jules missed a piece of a conversation they are part of. I can make room without treating the Vietnamese as a mistake." }
+      ],
+      "prompt": "How do you bring Jules into the moment?",
+      "note": { "title": "Switching and including", "text": "Language switching can serve humor, closeness, emphasis, or practical communication. Here it happens between two friends who share Vietnamese. Inclusion is a separate choice: a short bridge can invite Jules in without framing either language as unwelcome." },
+      "choices": [
+        { "id": "literal", "label": "“Minh said, ‘No one’s chasing you.’ I’m rushing.”", "detail": "Share the image and why it was funny.", "reflection": "You kept the joke's image and connected it to the situation.", "reaction": [
+          { "speaker": "Jules", "text": "Oh, absolutely. You look like that button has a deadline." },
+          { "speaker": "An", "text": "Now all three of us are laughing. I press the right button, wait one second, and announce a very serious microphone test." },
+          { "speaker": "Minh", "text": "Perfect. We have recorded ourselves making fun of the recording process. Very experimental." }
+        ] },
+        { "id": "gist", "label": "“Just reminding me to slow down. The recorder’s fine.”", "detail": "Give the part Jules needs to keep working.", "reflection": "You cleared up the practical confusion quickly. The exact joke stayed between you and Minh.", "reaction": [
+          { "speaker": "Jules", "text": "Good. For a second I thought we'd have to borrow another one. Okay, let me try the headphones." },
+          { "speaker": "An", "text": "We move on. I notice that Jules has the useful information, even if they do not have the exact joke. That can be enough for this moment." },
+          { "speaker": "Minh", "text": "Start whenever you're ready. Slowly, if possible." }
+        ] },
+        { "id": "invite", "label": "“It was a joke about me rushing. Minh, want to translate it?”", "detail": "Share the work of explaining.", "reflection": "You invited Minh to carry their own joke across. Translation became a shared task.", "reaction": [
+          { "speaker": "Minh", "text": "I said no one was chasing An. It sounds funnier when you can actually see An attacking the buttons." },
+          { "speaker": "Jules", "text": "I think the visual translated perfectly." },
+          { "speaker": "An", "text": "I hand the recorder to Jules. For once, I am neither operating the equipment nor narrating the whole room. It is a relief." }
+        ] }
+      ]
+    },
+    {
+      "id": "pause",
+      "title": "A little space",
+      "lines": [
+        { "speaker": "An", "text": "Our instructor stops by and asks how the project is developing. I begin explaining why the dinner recording might feel different from an interview." },
+        { "speaker": "An", "text": "“It isn't just a conversation about home. It is...” I stop. I have several possible endings, and none of them feels precise yet." },
+        { "speaker": "Jules", "text": "Authentic? Is that the word?" },
+        { "speaker": "An", "text": "Jules is trying to help. But authentic would make it sound as though a planned interview were somehow fake. That is not the distinction I want." },
+        { "speaker": "An", "text": "The instructor waits with a pen resting above her notebook. I do not have to accept the first word offered just to keep the room moving." }
+      ],
+      "prompt": "What do you do with the pause?",
+      "note": { "title": "The right to finish a thought", "text": "Word searching also happens in monolingual speech. The scene does not diagnose the cause of An's pause. Offering a word can help, but waiting, checking, and letting the speaker reject a suggestion matter too." },
+      "choices": [
+        { "id": "time", "label": "“Give me a second. I want to finish the thought.”", "detail": "Ask for a little more time.", "reflection": "You asked the room to wait. Your friends learned a small preference about how to support you.", "reaction": [
+          { "speaker": "Jules", "text": "Of course. Sorry, I jumped in." },
+          { "speaker": "An", "text": "“Thanks. I mean it happens for its own reasons. Dinner isn't happening because we need a project. Recording it changes that a little.”" },
+          { "speaker": "Minh", "text": "Let's put that exact sentence in our proposal. It explains why asking first matters." }
+        ] },
+        { "id": "collaborate", "label": "“Close. Help me find a word for something that happens on its own.”", "detail": "Make the search collaborative.", "reflection": "You welcomed help while keeping control over what you meant.", "reaction": [
+          { "speaker": "Jules", "text": "Unplanned? Or ordinary? Something you would be doing whether we were there or not?" },
+          { "speaker": "An", "text": "“That last part.” I write it down. We have not found a perfect single word, but the sentence holds the thought." },
+          { "speaker": "An", "text": "This time the help feels like building something together. I got to say which piece fit." }
+        ] },
+        { "id": "example", "label": "“Let me give you an example instead.”", "detail": "Explain through a moment, not a label.", "reflection": "You replaced the missing label with a story. The explanation took longer and made the concern concrete.", "reaction": [
+          { "speaker": "An", "text": "“At dinner, Mom asked if we'd eaten. If I ask her to repeat that for a microphone, the words might be identical, but she would be doing something different.”" },
+          { "speaker": "Minh", "text": "Right. One is checking on you. The other is showing the class what checking on you sounds like." },
+          { "speaker": "An", "text": "The instructor writes that down. Sometimes an example does the work I was demanding from a single word." }
+        ] }
+      ]
+    }
+  ]
+}
